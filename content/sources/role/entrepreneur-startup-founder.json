@@ -1,0 +1,93 @@
+{
+  "slug": "entrepreneur-startup-founder",
+  "kind": "role",
+  "title": "Entrepreneur / Startup Founder Truth Stack",
+  "summary": "Founders build organisations from uncertainty, turning insight into products, teams, capital, and operating systems.",
+  "starterPack": [
+    "Start with Y Combinator Startup School and ASIC.",
+    "Read Paul Graham and First Round Review.",
+    "Use YC and a16z for founder-context material."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "What matters most in founding.",
+      "items": [
+        { "name": "A company creates value", "kind": "principle", "description": "It solves a real customer problem repeatedly." },
+        { "name": "Cash flow matters", "kind": "principle", "description": "Ideas fail if the economics do not work." },
+        { "name": "Founding is experimentation", "kind": "principle", "description": "Build, test, learn, and adapt under constraint." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Core formation and compliance sources.",
+      "items": [
+        { "name": "Y Combinator Startup School", "kind": "institution", "description": "High-signal founder education.", "link": "https://www.startupschool.org/" },
+        { "name": "ASIC", "kind": "institution", "description": "Australian company and compliance authority.", "link": "https://asic.gov.au/" },
+        { "name": "Business.gov.au", "kind": "institution", "description": "Australian small business guidance.", "link": "https://business.gov.au/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "People with strong judgement on startup building.",
+      "items": [
+        { "name": "Paul Graham", "kind": "person", "description": "Classic startup essays.", "link": "https://paulgraham.com/" },
+        { "name": "Ben Horowitz", "kind": "person", "description": "Company-building under pressure.", "link": "https://a16z.com/author/ben-horowitz/" },
+        { "name": "Jason Fried", "kind": "person", "description": "Calm, operator-oriented product thinking.", "link": "https://world.hey.com/jason" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The people doing the work every day.",
+      "items": [
+        { "name": "Founders", "kind": "person", "description": "People building companies from scratch.", "link": "https://www.ycombinator.com/" },
+        { "name": "Startup operators", "kind": "person", "description": "Execution, customer work, and hiring.", "link": "https://www.startupschool.org/" },
+        { "name": "Investors", "kind": "person", "description": "Capital allocation and company selection.", "link": "https://a16z.com/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The ecosystem that supports startup formation.",
+      "items": [
+        { "name": "Y Combinator", "kind": "institution", "description": "Major startup formation ecosystem.", "link": "https://www.ycombinator.com/" },
+        { "name": "a16z", "kind": "institution", "description": "Large venture ecosystem and media operation.", "link": "https://a16z.com/" },
+        { "name": "ASIC", "kind": "institution", "description": "Formation, governance, and compliance.", "link": "https://asic.gov.au/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Strong public writing for founders and operators.",
+      "items": [
+        { "name": "First Round Review", "kind": "publication", "description": "Deep founder and operator lessons.", "link": "https://review.firstround.com/" },
+        { "name": "a16z", "kind": "publication", "description": "Startup, product, and market commentary.", "link": "https://a16z.com/" },
+        { "name": "Stratechery", "kind": "publication", "description": "Strategy and platform analysis.", "link": "https://stratechery.com/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Useful video and talk sources for founders.",
+      "items": [
+        { "name": "Y Combinator", "kind": "channel", "description": "Founder talks and startup school content.", "link": "https://www.youtube.com/@ycombinator" },
+        { "name": "a16z", "kind": "channel", "description": "Company building and market talks.", "link": "https://www.youtube.com/@a16z" },
+        { "name": "Lenny's Podcast", "kind": "channel", "description": "Operator and founder interviews.", "link": "https://www.youtube.com/@LennysPodcast" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "What is changing for founders now.",
+      "items": [
+        { "name": "AI-native companies", "kind": "company", "description": "Products built around AI as a core capability." },
+        { "name": "Capital efficiency", "kind": "tool", "description": "New funding and operating models.", "link": "https://www.startupschool.org/" },
+        { "name": "Founder-led distribution", "kind": "channel", "description": "Media, community, and direct customer reach." }
+      ]
+    }
+  ]
+}

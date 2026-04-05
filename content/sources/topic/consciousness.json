@@ -1,0 +1,93 @@
+{
+  "slug": "consciousness",
+  "kind": "topic",
+  "title": "Consciousness Truth Stack",
+  "summary": "Consciousness studies subjective experience, awareness, selfhood, and the relationship between brain activity and lived experience.",
+  "starterPack": [
+    "Start with Anil Seth, Chalmers, and Dehaene.",
+    "Use Nature Neuroscience and Science for the research layer.",
+    "Read around the hard problem before picking a theory."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "Core claims that frame the field.",
+      "items": [
+        { "name": "Consciousness is subjective experience", "kind": "principle", "description": "It is the fact that experience is happening at all." },
+        { "name": "Brains and bodies matter", "kind": "principle", "description": "Awareness is tied to neural and physiological processes." },
+        { "name": "The hard problem remains open", "kind": "principle", "description": "We do not yet know why experience exists." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The best research-facing sources.",
+      "items": [
+        { "name": "Nature Neuroscience", "kind": "journal", "description": "Leading journal for neuroscience research.", "link": "https://www.nature.com/neuro/" },
+        { "name": "Science", "kind": "journal", "description": "High-quality interdisciplinary research publication.", "link": "https://www.science.org/" },
+        { "name": "Allen Institute", "kind": "institution", "description": "Brain research and neuroscience tools.", "link": "https://alleninstitute.org/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Researchers who explain consciousness clearly.",
+      "items": [
+        { "name": "Anil Seth", "kind": "person", "description": "Leading public voice on consciousness research.", "link": "https://www.anilseth.com/" },
+        { "name": "David Chalmers", "kind": "person", "description": "Hard problem and philosophy of mind.", "link": "https://consc.net/" },
+        { "name": "Stanislas Dehaene", "kind": "person", "description": "Global Workspace Theory and cognitive neuroscience.", "link": "https://stanislasdehaene.org/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The working roles around consciousness research.",
+      "items": [
+        { "name": "Cognitive neuroscientists", "kind": "person", "description": "Measure attention, awareness, and perception.", "link": "https://www.nature.com/subjects/cognitive-neuroscience" },
+        { "name": "Clinical neuropsychologists", "kind": "person", "description": "Work with consciousness-linked disorders and assessment.", "link": "https://www.apa.org/ed/graduate/specialize/neuropsychology" },
+        { "name": "Contemplative researchers", "kind": "person", "description": "Study meditation and first-person experience.", "link": "https://www.contemplative-science.org/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The homes of serious consciousness research.",
+      "items": [
+        { "name": "Allen Institute", "kind": "institution", "description": "Neuroscience tools and research.", "link": "https://alleninstitute.org/" },
+        { "name": "Cognitive science departments", "kind": "institution", "description": "Interdisciplinary study of mind and brain.", "link": "https://www.mit.edu/" },
+        { "name": "Medical research centres", "kind": "institution", "description": "Clinical and translational neuroscience.", "link": "https://www.nih.gov/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public sources worth trusting on consciousness.",
+      "items": [
+        { "name": "Consciousness and Cognition", "kind": "journal", "description": "Academic journal covering the field.", "link": "https://www.sciencedirect.com/journal/consciousness-and-cognition" },
+        { "name": "Quanta Magazine", "kind": "publication", "description": "Careful public coverage of consciousness science.", "link": "https://www.quantamagazine.org/" },
+        { "name": "Aeon", "kind": "publication", "description": "High-quality essays on mind and philosophy.", "link": "https://aeon.co/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video sources for the consciousness conversation.",
+      "items": [
+        { "name": "Anil Seth talks", "kind": "documentary", "description": "Public talks and lectures.", "link": "https://www.youtube.com/results?search_query=Anil+Seth+consciousness" },
+        { "name": "TED", "kind": "channel", "description": "Accessible consciousness and neuroscience talks.", "link": "https://www.youtube.com/@TED" },
+        { "name": "BBC Ideas", "kind": "channel", "description": "Short educational explainers.", "link": "https://www.youtube.com/@bbcideas" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Where the field is moving.",
+      "items": [
+        { "name": "Neural correlates of consciousness", "kind": "dataset", "description": "Mapping awareness to brain activity." },
+        { "name": "Psychedelic science", "kind": "tool", "description": "Experimental window into altered states." },
+        { "name": "AI consciousness debate", "kind": "publication", "description": "Questions about whether machines can be conscious." }
+      ]
+    }
+  ]
+}

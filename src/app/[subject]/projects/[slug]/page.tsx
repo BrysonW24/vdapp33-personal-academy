@@ -2,6 +2,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ProgressTracker } from "@/components/academy/progress/ProgressTracker"
 import { getProject, getProjects, getSubject, getSubjects } from "@/lib/content"
+import { buildGuideRail } from "@/lib/guide-rail"
 
 export async function generateStaticParams() {
   return getSubjects().flatMap((subject) =>
@@ -32,6 +33,20 @@ export default async function ProjectDetailPage({
   const subject = getSubject(subjectSlug)
   const project = getProject(subjectSlug, slug)
   if (!subject || !project) notFound()
+  const guideRail = buildGuideRail({
+    entity: { kind: "subject", slug: subjectSlug, name: subject.name },
+    whyThisMatters: `${project.title} is where ${subject.name} stops being informational and starts becoming capability. Use projects to prove that the ideas can survive contact with reality.`,
+    nextAction: {
+      href: project.tools.length > 0 ? `/${subjectSlug}/tools` : `/${subjectSlug}/signals`,
+      label: project.tools.length > 0 ? "Open the tool ecosystem" : "Check the live signals",
+      description: project.tools.length > 0
+        ? "Gather the tools and vocabulary around this project so the work feels operational instead of abstract."
+        : "If the project is concept-heavy, use the signal digest to connect it back to the living field.",
+    },
+    applyPrompt: `Pick the first deliverable and define what “good enough to learn from” looks like before you try to make it perfect.`,
+    debatePrompt: `What would count as evidence that this project actually improved your understanding, rather than just making you feel busy?`,
+    truthPrompt: `Use the subject truth stack to judge whether the methods, assumptions, and examples in this project are genuinely credible.`,
+  })
 
   return (
     <div className="container mx-auto px-4 py-10 max-w-4xl">
@@ -194,6 +209,8 @@ export default async function ProjectDetailPage({
           </div>
         </div>
       </div>
+
+      {guideRail}
     </div>
   )
 }

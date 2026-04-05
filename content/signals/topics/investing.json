@@ -1,0 +1,128 @@
+{
+  "slug": "investing",
+  "kind": "topic",
+  "title": "Investing Signals",
+  "summary": "Investing sits at the intersection of markets, capital allocation, business creation, and household wealth. It is one of the clearest places where economics becomes personal and strategic at the same time.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Passive investing has become a dominant default",
+          "summary": "Index funds and ETF-based portfolios have made broad market exposure the baseline for many investors.",
+          "whyItMatters": "This shifts the conversation from stock picking toward fees, diversification, and long-term discipline.",
+          "entities": ["index-funds", "etfs", "portfolio-construction"]
+        },
+        {
+          "name": "Private markets remain a major destination for capital",
+          "summary": "Venture capital, private equity, and direct business ownership continue to shape growth assets beyond public exchanges.",
+          "whyItMatters": "Many of the most interesting businesses compound before they ever reach public markets.",
+          "entities": ["venture-capital", "private-equity", "entrepreneur-startup-founder"]
+        },
+        {
+          "name": "Retail investors have access to more tools than ever",
+          "summary": "Low-cost brokerage platforms, fractional shares, and educational resources have lowered participation barriers.",
+          "whyItMatters": "The main challenge has shifted from access to judgment and risk control.",
+          "entities": ["brokerage", "financial-literacy", "markets"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Vanguard",
+          "summary": "A defining institution in index investing and low-cost portfolio design.",
+          "whyItMatters": "It helped normalise broad diversification for ordinary investors.",
+          "entities": ["index-funds", "investing"]
+        },
+        {
+          "name": "BlackRock",
+          "summary": "One of the largest asset managers and ETF providers in the world.",
+          "whyItMatters": "Its scale makes it central to discussions about passive ownership and capital flows.",
+          "entities": ["etfs", "capital-markets"]
+        },
+        {
+          "name": "Berkshire Hathaway",
+          "summary": "A long-running reference point for disciplined ownership and long-term capital allocation.",
+          "whyItMatters": "It shows what patient compounding looks like in practice.",
+          "entities": ["equity-investing", "business-ownership"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Central banks",
+          "summary": "Monetary authorities shape rates, liquidity, and market conditions.",
+          "whyItMatters": "Their policies strongly influence valuation, credit, and risk appetite.",
+          "entities": ["economics", "markets"]
+        },
+        {
+          "name": "Stock exchanges",
+          "summary": "Public market infrastructure where listed securities are priced and traded.",
+          "whyItMatters": "Exchanges form the visible layer of modern capital markets.",
+          "entities": ["stock-investing", "equities"]
+        },
+        {
+          "name": "Securities regulators",
+          "summary": "Regulators oversee disclosure, market integrity, and investor protection.",
+          "whyItMatters": "They define the boundaries of trust in public market participation.",
+          "entities": ["law", "finance-accounting"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Warren Buffett",
+          "summary": "A durable example of long-term, business-first investing.",
+          "whyItMatters": "He remains one of the clearest references for valuation, patience, and discipline.",
+          "entities": ["equity-investing", "business-analysis"]
+        },
+        {
+          "name": "Peter Lynch",
+          "summary": "Known for making investing feel intelligible to ordinary people.",
+          "whyItMatters": "He represents practical stock selection and common-sense analysis.",
+          "entities": ["stock-investing", "investing"]
+        },
+        {
+          "name": "Howard Marks",
+          "summary": "A widely respected voice on cycles, risk, and second-level thinking.",
+          "whyItMatters": "He is useful for understanding market psychology beyond headlines.",
+          "entities": ["risk-management", "markets"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Is passive investing too dominant?",
+          "summary": "Some argue passive flows distort price discovery, while others see them as a net improvement for most investors.",
+          "whyItMatters": "This debate shapes how people think about index concentration and market efficiency.",
+          "entities": ["index-funds", "capital-markets"]
+        },
+        {
+          "name": "What risk is hidden in diversification?",
+          "summary": "Investors debate whether broad diversification can mask overexposure to the same macro forces.",
+          "whyItMatters": "It changes how portfolios are built for real resilience.",
+          "entities": ["portfolio-construction", "risk-management"]
+        },
+        {
+          "name": "How should private and public assets be valued?",
+          "summary": "Private markets often rely on less frequent pricing and different assumptions than public markets.",
+          "whyItMatters": "Valuation methods affect capital allocation, fundraising, and investor trust.",
+          "entities": ["private-equity", "venture-capital"]
+        }
+      ]
+    }
+  ]
+}

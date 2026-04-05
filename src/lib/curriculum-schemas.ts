@@ -26,6 +26,8 @@ const EntityNavigationSchema = z.object({
       "tools",
       "toolkit",
       "dayInLife",
+      "sources",
+      "signals",
       "simulation",
     ])
   ),
@@ -37,6 +39,8 @@ const EntityNavigationSchema = z.object({
       "tools",
       "toolkit",
       "dayInLife",
+      "sources",
+      "signals",
       "simulation",
     ])
   ),
@@ -86,6 +90,8 @@ export const SubjectManifestSchema = z.object({
         "tools",
         "toolkit",
         "dayInLife",
+        "sources",
+        "signals",
         "simulation",
       ]),
       EntitySectionConfigSchema
@@ -116,6 +122,8 @@ export const EntityManifestSchema = z.object({
       "tools",
       "toolkit",
       "dayInLife",
+      "sources",
+      "signals",
       "simulation",
     ]),
     EntitySectionConfigSchema

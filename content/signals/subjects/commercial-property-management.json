@@ -1,0 +1,128 @@
+{
+  "slug": "commercial-property-management",
+  "kind": "subject",
+  "title": "Commercial Property Management Signals",
+  "summary": "Commercial property management is the signal layer for the physical assets where people work, trade, store, and move through the economy. It sits at the intersection of operations, service, finance, tenant experience, and risk.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Proptech is changing building operations",
+          "summary": "AI-assisted reporting, work order systems, and energy dashboards are changing how managers see and act.",
+          "whyItMatters": "Operational visibility is becoming a competitive advantage.",
+          "entities": ["artificial-intelligence", "systems-engineering", "property-management"]
+        },
+        {
+          "name": "Energy performance is now a major management signal",
+          "summary": "Utilities, efficiency, and sustainability ratings are increasingly material to asset value and tenant demand.",
+          "whyItMatters": "Buildings are judged more by performance than by appearance alone.",
+          "entities": ["energy", "NABERS", "Green Building Council of Australia"]
+        },
+        {
+          "name": "Tenant experience is becoming a service differentiator",
+          "summary": "Managers are being judged on responsiveness, communication, and the quality of building operations.",
+          "whyItMatters": "Good service quality protects income and retention.",
+          "entities": ["communication", "customer-experience", "JLL"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "JLL",
+          "summary": "A major global real estate services company and a reference point for commercial operations.",
+          "whyItMatters": "It is one of the most visible operating models in the field.",
+          "entities": ["commercial-property-management", "property-management"]
+        },
+        {
+          "name": "CBRE",
+          "summary": "One of the largest commercial real estate services firms in the world.",
+          "whyItMatters": "It signals how scale and process shape the sector.",
+          "entities": ["commercial-property-management", "property-management"]
+        },
+        {
+          "name": "Yardi",
+          "summary": "A dominant software platform for property operations and reporting.",
+          "whyItMatters": "The data layer behind the building is increasingly software-defined.",
+          "entities": ["software-engineering", "data-science"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Property Council of Australia",
+          "summary": "A central industry body for Australian property owners and managers.",
+          "whyItMatters": "Industry standards and advocacy shape the operating environment.",
+          "entities": ["public-administration", "commercial-property-management"]
+        },
+        {
+          "name": "RICS",
+          "summary": "A global standards institution for real estate and property professionalism.",
+          "whyItMatters": "Professional standards are what keep management credible.",
+          "entities": ["law", "commercial-property-management"]
+        },
+        {
+          "name": "NABERS",
+          "summary": "A major Australian benchmark for building energy and environmental performance.",
+          "whyItMatters": "It gives owners and managers a shared language for building performance.",
+          "entities": ["energy", "physics"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Jane Jacobs",
+          "summary": "Her writing still shapes how people think about cities, neighbourhoods, and value.",
+          "whyItMatters": "She keeps the conversation grounded in lived urban reality.",
+          "entities": ["world-history", "design"]
+        },
+        {
+          "name": "Christopher Alexander",
+          "summary": "A useful thinker for understanding form, systems, and lived environments.",
+          "whyItMatters": "His ideas help connect architecture, use, and maintenance.",
+          "entities": ["design", "systems-engineering"]
+        },
+        {
+          "name": "Peter Drucker",
+          "summary": "A management thinker whose ideas map well to operational discipline.",
+          "whyItMatters": "Good management is the invisible infrastructure of property performance.",
+          "entities": ["public-administration", "finance-accounting"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Is office demand permanently changed?",
+          "summary": "The field continues to debate the future of CBD office demand and tenant behaviour.",
+          "whyItMatters": "Asset strategy depends on whether office use has structurally changed.",
+          "entities": ["politics", "world-history"]
+        },
+        {
+          "name": "How much should managers automate?",
+          "summary": "AI and workflow software can help, but bad automation can hide operational problems.",
+          "whyItMatters": "Automation should surface signal, not bury it.",
+          "entities": ["artificial-intelligence", "data-science"]
+        },
+        {
+          "name": "What matters most: cost, service, or sustainability?",
+          "summary": "Asset owners increasingly want all three, but tradeoffs remain real.",
+          "whyItMatters": "Every operating decision is really a tradeoff decision.",
+          "entities": ["energy", "finance-accounting"]
+        }
+      ]
+    }
+  ]
+}

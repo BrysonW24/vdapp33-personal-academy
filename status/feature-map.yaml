@@ -5,12 +5,42 @@ surfaces:
   - route: /
     feature: Exploration dashboard
     status: live
-    notes: Grouped multi-subject landing page with curiosity-first framing, seven active subjects, and a unified Sciences/Engineering/Society map that mixes academy subjects with deeper frontier directions.
+    notes: Exploration dashboard with subject, topic, and role discovery plus a persistent My Path entry point.
+
+  - route: /setup
+    feature: Soft onboarding
+    status: live
+    notes: Curated multi-step setup flow that scores archetypes and generates three path variants.
+
+  - route: /my-path
+    feature: Guided dashboard
+    status: live
+    notes: Shows the active blueprint, learning mode, next-best actions, today session, weekly cadence, truth-stack preview, signal preview, and review prompts.
+
+  - route: /subjects
+    feature: Subject directory
+    status: live
+    notes: Directory view for canonical academy subjects.
+
+  - route: /roles
+    feature: Role directory
+    status: live
+    notes: Directory view for embodied synthesis tracks such as Astronaut and Diplomat.
+
+  - route: /topics
+    feature: Topic directory
+    status: live
+    notes: Directory view for cross-disciplinary curiosity layers such as AI, Energy, Investing, and Consciousness.
+
+  - route: /signals
+    feature: Signals hub
+    status: live
+    notes: Curated signal hub that highlights the current path and all available subject, role, and topic digests.
 
   - route: /[subject]
     feature: Start Here subject landing
     status: live
-    notes: Learning-first subject overview linking blueprint, modules, projects, tools, toolkit, and day-in-the-life.
+    notes: Learning-first subject overview with an embedded guide rail, truth-stack preview, signal preview, and next-best-action support.
 
   - route: /[subject]/blueprint
     feature: Generated blueprint
@@ -42,6 +72,46 @@ surfaces:
     status: live
     notes: Client-side viewer for role snapshots and sample schedules when present.
 
+  - route: /[subject]/sources
+    feature: Subject truth stack
+    status: live
+    notes: Curated hierarchy of first principles, authorities, interpreters, practitioners, media, and frontier watchlists.
+
+  - route: /[subject]/signals
+    feature: Subject signals
+    status: live
+    notes: Curated developments, companies, institutions, people, and debates tied to the subject.
+
+  - route: /roles/[slug]
+    feature: Role landing
+    status: live
+    notes: Role-specific landing page with training, practical sections, cross-links, and guide rail support.
+
+  - route: /roles/[slug]/sources
+    feature: Role truth stack
+    status: live
+    notes: Curated credibility map for each live role.
+
+  - route: /roles/[slug]/signals
+    feature: Role signals
+    status: live
+    notes: Curated role-specific signal digest.
+
+  - route: /topics/[slug]
+    feature: Topic landing
+    status: live
+    notes: Topic-specific landing page with concept stack, applications, tools, and guide rail support.
+
+  - route: /topics/[slug]/sources
+    feature: Topic truth stack
+    status: live
+    notes: Curated source hierarchy for each live topic.
+
+  - route: /topics/[slug]/signals
+    feature: Topic signals
+    status: live
+    notes: Curated topic-specific signal digest.
+
 supporting_capabilities:
   - name: Manifest-driven subject discovery
     status: live
@@ -50,6 +120,10 @@ supporting_capabilities:
   - name: Subject-scoped progress store
     status: live
     notes: Completion state is namespaced per subject in one local persistence key.
+
+  - name: Local-first academy state
+    status: live
+    notes: Setup answers, blueprint, learning mode, and reviews persist in a dedicated academy state store.
 
   - name: Honest empty states
     status: live
@@ -61,4 +135,16 @@ supporting_capabilities:
 
   - name: Entity-aware navigation layer
     status: live
-    notes: The navigation helper resolves subject, role, and topic kinds from path context so the shell can label content by entity type without changing the verified subject route family yet.
+    notes: The navigation helper resolves subject, role, and topic kinds from path context and exposes sources/signals alongside the primary curriculum sections.
+
+  - name: Deterministic blueprint generation
+    status: live
+    notes: Onboarding answers map to archetypes, path options, and path assignments without backend or chatbot dependency.
+
+  - name: Next-best-action engine
+    status: live
+    notes: Recommendation order is deterministic across guided, explorer, and operator modes.
+
+  - name: Curated truth stacks and signals
+    status: live
+    notes: Source packs and signal digests now provide credibility and world-context surfaces across subjects, roles, and topics.

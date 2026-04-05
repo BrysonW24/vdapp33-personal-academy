@@ -1,0 +1,128 @@
+{
+  "slug": "diplomat",
+  "kind": "role",
+  "title": "Diplomat Signals",
+  "summary": "Diplomats work at the intersection of negotiation, national interest, protocol, language, and long-term relationships. The role is less about speeches than it is about preparation, judgment, and persistence.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "The Indo-Pacific is the center of strategic attention",
+          "summary": "Security, trade, and maritime issues increasingly define the diplomatic agenda in the region.",
+          "whyItMatters": "Regional balance now shapes the diplomatic workload.",
+          "entities": ["geopolitics", "aerospace", "politics"]
+        },
+        {
+          "name": "Climate diplomacy is now mainstream statecraft",
+          "summary": "Energy transition, resilience, and climate finance are now core diplomatic subjects.",
+          "whyItMatters": "Climate policy is now foreign policy, industrial policy, and security policy at once.",
+          "entities": ["energy", "public-administration", "economics"]
+        },
+        {
+          "name": "Economic statecraft matters more than ever",
+          "summary": "Trade, sanctions, investment screening, and supply chains now sit inside foreign policy.",
+          "whyItMatters": "Diplomats need to understand markets as well as ministries.",
+          "entities": ["supply-chain-logistics", "investing", "law"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Thales",
+          "summary": "Represents the defense and security industrial base that diplomacy often intersects with.",
+          "whyItMatters": "Geopolitics is tightly linked to industrial capability.",
+          "entities": ["geopolitics", "aerospace"]
+        },
+        {
+          "name": "Airbus",
+          "summary": "Important in defense, aerospace, and cross-border industrial relationships.",
+          "whyItMatters": "Diplomacy often follows the flows of complex industrial cooperation.",
+          "entities": ["aerospace", "politics"]
+        },
+        {
+          "name": "Control Risks",
+          "summary": "A visible political and geopolitical risk advisory firm.",
+          "whyItMatters": "It translates uncertainty into usable advice.",
+          "entities": ["geopolitics", "analysis"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Department of Foreign Affairs and Trade",
+          "summary": "The core Australian diplomatic institution.",
+          "whyItMatters": "It is the primary machinery of Australian diplomacy.",
+          "entities": ["politics", "public-administration"]
+        },
+        {
+          "name": "United Nations",
+          "summary": "A central arena for multilateral diplomacy and norms.",
+          "whyItMatters": "It is the global stage for formal negotiation and coordination.",
+          "entities": ["politics", "world-history"]
+        },
+        {
+          "name": "ASEAN",
+          "summary": "An essential regional institution in Indo-Pacific diplomacy.",
+          "whyItMatters": "It is a key platform for regional order and relationship management.",
+          "entities": ["geopolitics", "world-history"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Penny Wong",
+          "summary": "A contemporary reference point for Australian foreign policy.",
+          "whyItMatters": "She is a current signal for Australian diplomatic style and priorities.",
+          "entities": ["politics", "geopolitics"]
+        },
+        {
+          "name": "Gareth Evans",
+          "summary": "A major Australian diplomatic and strategic figure.",
+          "whyItMatters": "He represents Australian diplomacy at a high level of public credibility.",
+          "entities": ["politics", "law"]
+        },
+        {
+          "name": "Kofi Annan",
+          "summary": "Represents multilateral diplomacy at its most credible.",
+          "whyItMatters": "He is a useful model for diplomacy with legitimacy and moral authority.",
+          "entities": ["world-history", "politics"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Realism or liberal internationalism?",
+          "summary": "Diplomacy still sits between power politics and rule-based cooperation.",
+          "whyItMatters": "This debate defines what diplomats think their job is for.",
+          "entities": ["politics", "philosophy"]
+        },
+        {
+          "name": "Can diplomacy still shape conflict outcomes?",
+          "summary": "Many debates now ask how much leverage remains in a fragmented world.",
+          "whyItMatters": "If diplomacy fails, every other policy tool gets harder to use.",
+          "entities": ["geopolitics", "law"]
+        },
+        {
+          "name": "When do sanctions work?",
+          "summary": "Economic pressure is powerful, but its effectiveness is debated case by case.",
+          "whyItMatters": "Sanctions are one of the sharpest tools in statecraft.",
+          "entities": ["investing", "economics"]
+        }
+      ]
+    }
+  ]
+}

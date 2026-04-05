@@ -1,0 +1,93 @@
+{
+  "slug": "commercial-property-management",
+  "kind": "subject",
+  "title": "Commercial Property Management Truth Stack",
+  "summary": "Commercial property management is the operational discipline of preserving asset value, servicing tenants, and translating building performance into owner outcomes.",
+  "starterPack": [
+    "Start with PCA, RICS, and NABERS.",
+    "Read JLL, CBRE, and Knight Frank research.",
+    "Use owner reporting and building-performance sources."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The operating rules of buildings and owner outcomes.",
+      "items": [
+        { "name": "Buildings are operating systems", "kind": "principle", "description": "Physical assets combine engineering, finance, and human service." },
+        { "name": "Owners care about outcomes", "kind": "principle", "description": "Income, risk, lifecycle cost, and long-term value matter most." },
+        { "name": "Separate signal from noise", "kind": "principle", "description": "Good reporting highlights what changed and what matters." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The standards and peak bodies that anchor the field.",
+      "items": [
+        { "name": "Property Council of Australia", "kind": "institution", "description": "Core industry body and policy voice.", "link": "https://www.propertycouncil.com.au/" },
+        { "name": "RICS", "kind": "institution", "description": "Global professional standards for property.", "link": "https://www.rics.org/" },
+        { "name": "NABERS", "kind": "dataset", "description": "Australian building performance rating system.", "link": "https://www.nabers.gov.au/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Researchers and analysts who read the market well.",
+      "items": [
+        { "name": "JLL Research", "kind": "publication", "description": "Market intelligence and asset-level context.", "link": "https://www.jll.com/en-au/research" },
+        { "name": "CBRE Research", "kind": "publication", "description": "Commercial property market analysis.", "link": "https://www.cbre.com/insights" },
+        { "name": "Knight Frank Research", "kind": "publication", "description": "Cross-sector property insights.", "link": "https://www.knightfrank.com/research" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The operating roles inside the subject.",
+      "items": [
+        { "name": "Commercial property managers", "kind": "person", "description": "Day-to-day owner and tenant coordination.", "link": "https://www.propertycouncil.com.au/" },
+        { "name": "Asset managers", "kind": "person", "description": "Portfolio value, risk, and capital planning.", "link": "https://www.rics.org/" },
+        { "name": "Facilities managers", "kind": "person", "description": "Building operations and service delivery.", "link": "https://www.boma.org/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The major homes of professional property work.",
+      "items": [
+        { "name": "RICS", "kind": "institution", "description": "Standards and professional competence.", "link": "https://www.rics.org/" },
+        { "name": "Property Council of Australia", "kind": "institution", "description": "Australian industry forum.", "link": "https://www.propertycouncil.com.au/" },
+        { "name": "NABERS", "kind": "institution", "description": "Operational performance benchmarking.", "link": "https://www.nabers.gov.au/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Useful reporting on the property market.",
+      "items": [
+        { "name": "The Property Tribune", "kind": "publication", "description": "Australian commercial property news.", "link": "https://thepropertytribune.com.au/" },
+        { "name": "Commercial Real Estate", "kind": "publication", "description": "Market and leasing coverage.", "link": "https://www.commercialrealestate.com.au/" },
+        { "name": "AFR Property", "kind": "publication", "description": "Capital, transactions, and market context.", "link": "https://www.afr.com/property" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video and webinar sources worth trusting.",
+      "items": [
+        { "name": "JLL Australia", "kind": "channel", "description": "Research updates and market commentary.", "link": "https://www.youtube.com/@JLLAustralia" },
+        { "name": "Property Council of Australia", "kind": "channel", "description": "Industry events and policy discussion.", "link": "https://www.youtube.com/@propertycouncil" },
+        { "name": "NABERS webinars", "kind": "documentary", "description": "Operational performance and building efficiency.", "link": "https://www.nabers.gov.au/" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Structural changes shaping the sector.",
+      "items": [
+        { "name": "Hybrid work", "kind": "tool", "description": "Office utilisation and tenant demand shifts." },
+        { "name": "Energy performance", "kind": "dataset", "description": "Building decarbonisation and compliance pressure." },
+        { "name": "Tenant experience platforms", "kind": "tool", "description": "Service and communication workflows at scale." }
+      ]
+    }
+  ]
+}

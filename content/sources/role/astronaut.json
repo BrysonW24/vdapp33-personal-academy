@@ -1,0 +1,93 @@
+{
+  "slug": "astronaut",
+  "kind": "role",
+  "title": "Astronaut Truth Stack",
+  "summary": "Astronauts train for years to operate complex systems in extreme environments while performing science, maintenance, and high-stakes decision-making.",
+  "starterPack": [
+    "Start with NASA astronaut selection and ISS operations.",
+    "Read Chris Hadfield and Cady Coleman for lived perspective.",
+    "Use NASA and ESA video channels for mission reality."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The physical and operational constraints behind astronaut work.",
+      "items": [
+        { "name": "Spaceflight is constrained by physics", "kind": "principle", "description": "Orbital mechanics, life support, and mass limits shape every decision." },
+        { "name": "Procedure is safety", "kind": "principle", "description": "Training, redundancy, and discipline keep crews alive." },
+        { "name": "Astronauts are operators and scientists", "kind": "principle", "description": "The role mixes experimentation, maintenance, and mission support." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The official pathways and mission sources.",
+      "items": [
+        { "name": "NASA Astronauts", "kind": "institution", "description": "Primary civil astronaut pathway.", "link": "https://www.nasa.gov/humans-in-space/astronauts/" },
+        { "name": "ESA Astronauts", "kind": "institution", "description": "European astronaut training and selection.", "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Astronauts" },
+        { "name": "JAXA Human Spaceflight", "kind": "institution", "description": "Japanese human spaceflight authority.", "link": "https://humans-in-space.jaxa.jp/en/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "People who can explain astronaut life with accuracy.",
+      "items": [
+        { "name": "Chris Hadfield", "kind": "person", "description": "Excellent public explanation of astronaut work.", "link": "https://chrishadfield.ca/" },
+        { "name": "Cady Coleman", "kind": "person", "description": "Human factors and long-duration mission perspective.", "link": "https://www.cadycoleman.com/" },
+        { "name": "Mike Massimino", "kind": "person", "description": "Accessible and realistic spaceflight stories.", "link": "https://www.mikemassimino.com/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The operating roles around astronaut work.",
+      "items": [
+        { "name": "Astronaut candidates", "kind": "person", "description": "Training pipeline from selection to flight.", "link": "https://www.nasa.gov/humans-in-space/astronauts/" },
+        { "name": "Mission specialists", "kind": "person", "description": "Support science and extravehicular activity.", "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration" },
+        { "name": "Flight controllers", "kind": "person", "description": "Ground-side teams that keep missions safe.", "link": "https://www.nasa.gov/people-of-the-international-space-station/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The places where astronaut work is organised.",
+      "items": [
+        { "name": "Johnson Space Center", "kind": "institution", "description": "Primary US astronaut training base.", "link": "https://www.nasa.gov/johnson/" },
+        { "name": "ESA astronaut corps", "kind": "institution", "description": "Training and mission support institution.", "link": "https://www.esa.int/" },
+        { "name": "International Space Station programme", "kind": "institution", "description": "Primary human spaceflight operating environment.", "link": "https://www.nasa.gov/international-space-station/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Publications that keep astronaut work legible.",
+      "items": [
+        { "name": "NASA Humans in Space", "kind": "publication", "description": "Primary source for crew missions and training.", "link": "https://www.nasa.gov/humans-in-space/" },
+        { "name": "Space.com", "kind": "publication", "description": "General spaceflight coverage.", "link": "https://www.space.com/" },
+        { "name": "Ars Technica Space", "kind": "publication", "description": "Careful launch and mission reporting.", "link": "https://arstechnica.com/space/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Useful video sources for astronaut context.",
+      "items": [
+        { "name": "NASA", "kind": "channel", "description": "Training, mission, and ISS footage.", "link": "https://www.youtube.com/@NASA" },
+        { "name": "ESA", "kind": "channel", "description": "European space operations and science.", "link": "https://www.youtube.com/@ESA" },
+        { "name": "Everyday Astronaut", "kind": "channel", "description": "Launch systems and astronaut context.", "link": "https://www.youtube.com/@EverydayAstronaut" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "What is changing in human spaceflight.",
+      "items": [
+        { "name": "Commercial crew systems", "kind": "institution", "description": "Training and access through private launch providers." },
+        { "name": "Long-duration life support", "kind": "tool", "description": "Habitation systems for deep space." },
+        { "name": "Lunar operations", "kind": "institution", "description": "Surface missions, logistics, and EVA planning." }
+      ]
+    }
+  ]
+}

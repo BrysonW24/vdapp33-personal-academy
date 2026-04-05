@@ -1,0 +1,26 @@
+{
+  "slug": "role-synthesis",
+  "name": "Role Synthesis",
+  "summary": "A path for people who want a balanced path that turns breadth into action through a role lens, practical projects, and real-world application.",
+  "thesis": "Synthesize subjects and topics into useful capability through a chosen role pathway.",
+  "fitSignals": [
+    "Wants breadth that turns into action",
+    "Likes the idea of learning through roles and projects",
+    "Needs both structure and practical payoff",
+    "Sees value in connecting many domains rather than mastering one alone"
+  ],
+  "defaults": {
+    "coreSubjects": ["physics", "robotics", "politics"],
+    "supportingTopics": ["artificial-intelligence", "communication"],
+    "roles": ["astronaut", "entrepreneur-startup-founder"],
+    "mode": "operator",
+    "reviewRhythm": "Two foundation sessions, one role session, and one project session per week",
+    "milestoneTemplate": "Synthesize {coreSubject} and {supportingTopic} into a concrete project through the {role} lens",
+    "weeklyCadencePresets": {
+      "gentle": "3 sessions per week with one simple project step",
+      "balanced": "4 sessions per week with one role synthesis block",
+      "ambitious": "5 to 6 sessions per week with live project work",
+      "obsessive": "Daily study, build, and review cycles"
+    }
+  }
+}

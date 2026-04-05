@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/academy/layout/Breadcrumbs"
 import { ProgressTracker } from "@/components/academy/progress/ProgressTracker"
 import { getTopic, getTopicProject } from "@/lib/entities"
 import { getSubject } from "@/lib/content"
+import { buildGuideRail, buildEntityLink } from "@/lib/guide-rail"
 
 export default async function TopicProjectDetailPage({
   params,
@@ -18,6 +19,23 @@ export default async function TopicProjectDetailPage({
   const sourceSubject = project.sourceMeta?.sourceSlug
     ? getSubject(project.sourceMeta.sourceSlug)
     : null
+  const guideRail = buildGuideRail({
+    entity: { kind: "topic", slug, name: topic.name },
+    whyThisMatters: `${project.title} is one way ${topic.name} becomes something you can analyze, build, compare, or explain rather than just admire.`,
+    nextAction: {
+      href: sourceSubject ? `/${sourceSubject.slug}` : `/topics/${slug}/sources`,
+      label: sourceSubject ? `Open ${sourceSubject.name}` : "Open the topic truth stack",
+      description: sourceSubject
+        ? "Follow the project back into the canonical subject that carries most of the underlying depth."
+        : "Use the truth stack to deepen the project with better sources and field context.",
+    },
+    applyPrompt: `Use this project to prove one concrete point about ${topic.name} that you could explain to someone else without hand-waving.`,
+    debatePrompt: `What would make this project superficial, and what would make it genuinely clarifying?`,
+    truthPrompt: `Check whether the project's assumptions line up with primary sources, mature interpreters, and the subject layer underneath the topic.`,
+    adjacent: sourceSubject
+      ? [buildEntityLink("subject", sourceSubject.slug, sourceSubject.name, "Go deeper through the source subject behind this topic project.")]
+      : [],
+  })
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-10">
@@ -60,6 +78,8 @@ export default async function TopicProjectDetailPage({
         <h2 className="font-serif text-lg font-semibold text-editorial-ink">Why it matters</h2>
         <p className="mt-3 text-editorial-muted">{project.whyItMatters}</p>
       </div>
+
+      <div className="mt-8">{guideRail}</div>
     </div>
   )
 }

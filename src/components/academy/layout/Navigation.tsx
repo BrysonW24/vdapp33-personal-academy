@@ -39,9 +39,12 @@ const ICONS = {
 } as const
 
 const DIRECTORY_LINKS = [
-  { href: "/", label: "Explore" },
+  { href: "/", label: "Home" },
+  { href: "/my-path", label: "My Path" },
+  { href: "/subjects", label: "Subjects" },
   { href: "/roles", label: "Roles" },
   { href: "/topics", label: "Topics" },
+  { href: "/signals", label: "Signals" },
 ] as const
 
 function isDirectoryActive(pathname: string, href: string) {
@@ -200,30 +203,8 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
           </div>
         ) : null}
 
-        {currentContext ? (
-          <nav className="hidden items-center gap-0.5 lg:flex">
-            {navSections.map((item) => {
-              const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
-
-              return (
-                <Link
-                  key={item.segment}
-                  href={sectionHref(item.segment)}
-                  className={cn(
-                    "flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm transition-all duration-200",
-                    isSectionActive(item.segment)
-                      ? "border border-[rgba(44,49,59,0.1)] bg-white/80 text-editorial-ink shadow-sm"
-                      : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink"
-                  )}
-                >
-                  <Icon className="h-3.5 w-3.5" />
-                  {item.label}
-                </Link>
-              )
-            })}
-          </nav>
-        ) : (
-          <nav className="hidden items-center gap-1 lg:flex">
+        <div className="hidden items-center gap-3 lg:flex">
+          <nav className="flex items-center gap-1">
             {DIRECTORY_LINKS.map((item) => (
               <Link
                 key={item.href}
@@ -239,7 +220,34 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
               </Link>
             ))}
           </nav>
-        )}
+
+          {currentContext ? (
+            <>
+              <div className="h-6 w-px bg-[rgba(44,49,59,0.08)]" />
+              <nav className="flex items-center gap-0.5">
+                {navSections.map((item) => {
+                  const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
+
+                  return (
+                    <Link
+                      key={item.segment}
+                      href={sectionHref(item.segment)}
+                      className={cn(
+                        "flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm transition-all duration-200",
+                        isSectionActive(item.segment)
+                          ? "border border-[rgba(44,49,59,0.1)] bg-white/80 text-editorial-ink shadow-sm"
+                          : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink"
+                      )}
+                    >
+                      <Icon className="h-3.5 w-3.5" />
+                      {item.label}
+                    </Link>
+                  )
+                })}
+              </nav>
+            </>
+          ) : null}
+        </div>
 
         <button
           className="rounded-[10px] p-2 transition-colors hover:bg-white/50 lg:hidden"
@@ -266,6 +274,8 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
             >
               {item.href === "/topics" ? (
                 <Sparkles className="h-4 w-4" />
+              ) : item.href === "/signals" ? (
+                <Clock3 className="h-4 w-4" />
               ) : (
                 <Compass className="h-4 w-4" />
               )}

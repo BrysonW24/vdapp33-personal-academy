@@ -1,6 +1,6 @@
 id: vdapp33-personal-academy
 name: Personal Academy
-summary: Unified multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science, with an emerging entity-aware role/topic content layer.
+summary: Guided multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science, with live role/topic routes, onboarding, My Path, truth stacks, and signal digests.
 owner: unassigned
 phase: delivery
 release_stage: internal-beta
@@ -14,11 +14,17 @@ product:
   category: academy
   deployment_target: web
   business_model: internal-product
-  status_truth: "Shell implemented. All seven subjects now have meaningful academy coverage across Physics, Quantum, Aerospace, Robotics, Rocket Science, Politics, and Commercial Property Management, and the worktree is introducing entity-aware role/topic content alongside the subject shell."
+  status_truth: "Shell implemented. All seven subjects have meaningful academy coverage, role/topic routes are live, soft onboarding and My Path are live, and curated source/signal surfaces now sit alongside the curriculum shell."
 
 surfaces:
   primary_routes:
     - /
+    - /setup
+    - /my-path
+    - /subjects
+    - /roles
+    - /topics
+    - /signals
     - /[subject]
     - /[subject]/blueprint
     - /[subject]/modules
@@ -26,11 +32,25 @@ surfaces:
     - /[subject]/tools
     - /[subject]/toolkit
     - /[subject]/day-in-the-life
+    - /[subject]/sources
+    - /[subject]/signals
+    - /roles/[slug]
+    - /roles/[slug]/sources
+    - /roles/[slug]/signals
+    - /topics/[slug]
+    - /topics/[slug]/sources
+    - /topics/[slug]/signals
   secondary_routes:
     - /[subject]/modules/[slug]
     - /[subject]/modules/[slug]/[lessonSlug]
     - /[subject]/projects/[slug]
     - /[subject]/tools/[slug]
+    - /roles/[slug]/modules/[moduleSlug]
+    - /roles/[slug]/modules/[moduleSlug]/[lessonSlug]
+    - /roles/[slug]/projects/[projectSlug]
+    - /roles/[slug]/tools/[toolSlug]
+    - /topics/[slug]/projects/[projectSlug]
+    - /topics/[slug]/tools/[toolSlug]
 
 tech:
   framework: Next.js 15
@@ -47,8 +67,10 @@ operations:
 notes:
   - Subject discovery is manifest-driven from content/curriculum/{subject}/manifest.json.
   - Progress persists locally under the personal-academy-progress key.
+  - Guidance state persists locally under the personal-academy-state key.
   - Founder-only route concepts are intentionally excluded from this app.
   - Quantum and Aerospace now extend beyond their original migration baselines with authored Personal Academy content.
   - Robotics is a native Personal Academy subject with full route coverage.
   - Commercial Property Management was migrated from vdapp46 with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.
-  - Roles and topics now live under content/roles/ and content/topics/ as entity-aware content kinds; treat their route rollout as target-state work until verified.
+  - Roles and topics now live under content/roles/ and content/topics/ as entity-aware route families, not just content packs.
+  - Curated onboarding questions, path archetypes, truth stacks, and signal digests now live under content/onboarding, content/guidance, content/sources, and content/signals.

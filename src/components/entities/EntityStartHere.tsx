@@ -1,4 +1,5 @@
 import Link from "next/link"
+import type { ReactNode } from "react"
 import { ArrowRight, BookOpen, Clock3, FolderKanban, Library, Map, Wrench } from "lucide-react"
 import { EntityHero } from "@/components/entities/EntityHero"
 import { EntityLandingSection } from "@/components/sections/EntityLandingSection"
@@ -33,6 +34,7 @@ interface EntityStartHereProps {
   featuredTool?: Tool | null
   featuredDayInLifeHref?: string
   featuredDayInLifeCount?: number
+  guideRail?: ReactNode
 }
 
 export function EntityStartHere({
@@ -46,6 +48,7 @@ export function EntityStartHere({
   featuredTool,
   featuredDayInLifeHref,
   featuredDayInLifeCount = 0,
+  guideRail,
 }: EntityStartHereProps) {
   const statChips = [
     { label: "Modules", value: stats.modules },
@@ -253,6 +256,8 @@ export function EntityStartHere({
           ) : null}
         </EntityLandingSection>
       )}
+
+      {guideRail ? <section className="container mx-auto px-4">{guideRail}</section> : null}
     </div>
   )
 }

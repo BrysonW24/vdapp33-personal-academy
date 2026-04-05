@@ -1,0 +1,128 @@
+{
+  "slug": "philosophy",
+  "kind": "topic",
+  "title": "Philosophy Signals",
+  "summary": "Philosophy remains a live signal because every serious field depends on it for definitions, assumptions, and ethical clarity. It is where people examine knowledge, value, reality, and meaning before they harden into dogma.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Philosophy of AI has become a practical field",
+          "summary": "Questions about intelligence, agency, truth, and alignment are now tied to real model deployment.",
+          "whyItMatters": "AI progress has made abstract philosophical questions operational.",
+          "entities": ["artificial-intelligence", "ai-safety"]
+        },
+        {
+          "name": "Ethics is increasingly applied across technical domains",
+          "summary": "Bioethics, data ethics, and technology ethics are now embedded in product and policy discussions.",
+          "whyItMatters": "The field increasingly shapes how systems are built, not just how they are judged afterward.",
+          "entities": ["ethics", "technology-policy"]
+        },
+        {
+          "name": "Philosophy of mind remains central to modern debates",
+          "summary": "Consciousness, personal identity, and free will continue to be actively debated in academia and public discourse.",
+          "whyItMatters": "These questions influence how people think about responsibility, minds, and machines.",
+          "entities": ["consciousness", "psychology"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "AI labs with safety teams",
+          "summary": "Frontier AI companies increasingly employ philosophers or philosopher-adjacent thinkers in safety and policy roles.",
+          "whyItMatters": "The practical edge of philosophy is now visible inside engineering organisations.",
+          "entities": ["artificial-intelligence", "law"]
+        },
+        {
+          "name": "Bioethics and healthcare organisations",
+          "summary": "Medical and biotech companies routinely encounter questions about consent, dignity, and risk.",
+          "whyItMatters": "Philosophy becomes operational whenever life-altering decisions must be justified.",
+          "entities": ["health", "biotechnology"]
+        },
+        {
+          "name": "Publishing and education platforms",
+          "summary": "Curated publishers and learning platforms keep major philosophical conversations accessible.",
+          "whyItMatters": "Philosophy needs strong interpretive channels to stay culturally relevant.",
+          "entities": ["education", "communication"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "University philosophy departments",
+          "summary": "Departments remain the main institutional home for rigorous work in logic, ethics, and metaphysics.",
+          "whyItMatters": "They preserve standards of argument and conceptual precision.",
+          "entities": ["philosophy", "universities"]
+        },
+        {
+          "name": "Ethics councils and review boards",
+          "summary": "Public and institutional ethics bodies apply philosophical reasoning to concrete cases.",
+          "whyItMatters": "They turn abstract reasoning into governance and oversight.",
+          "entities": ["law", "health"]
+        },
+        {
+          "name": "Think tanks and policy institutes",
+          "summary": "These groups often translate philosophical questions into actionable policy positions.",
+          "whyItMatters": "They connect worldview assumptions to public decisions.",
+          "entities": ["politics", "public-administration"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Plato",
+          "summary": "A foundational figure for metaphysics, politics, and the search for truth.",
+          "whyItMatters": "His influence still shapes how people think about reality and justice.",
+          "entities": ["ancient-history", "politics"]
+        },
+        {
+          "name": "Immanuel Kant",
+          "summary": "A central reference for epistemology, ethics, and the limits of reason.",
+          "whyItMatters": "He remains a key touchstone for modern moral and knowledge theory.",
+          "entities": ["epistemology", "ethics"]
+        },
+        {
+          "name": "Martha Nussbaum",
+          "summary": "An important contemporary voice on ethics, justice, emotion, and capability.",
+          "whyItMatters": "She connects philosophy to lived human flourishing.",
+          "entities": ["ethics", "emotions"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Can ethics be objective?",
+          "summary": "Philosophers continue to disagree about whether moral truth exists independently of human preference.",
+          "whyItMatters": "This question shapes how people justify policy, law, and personal choice.",
+          "entities": ["ethics", "law"]
+        },
+        {
+          "name": "What counts as knowledge?",
+          "summary": "Epistemology remains central to questions about evidence, certainty, and justified belief.",
+          "whyItMatters": "This is foundational for science, journalism, and decision-making under uncertainty.",
+          "entities": ["epistemology", "science"]
+        },
+        {
+          "name": "Do minds reduce to brains?",
+          "summary": "The philosophy of mind still debates whether mental life is fully physical or requires additional explanation.",
+          "whyItMatters": "The answer changes how we think about consciousness and personhood.",
+          "entities": ["consciousness", "neuroscience"]
+        }
+      ]
+    }
+  ]
+}

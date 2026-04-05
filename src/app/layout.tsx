@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Personal Academy",
   },
   description:
-    "A unified academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science.",
+    "A guided academy for curiosity-driven learning across subjects, topics, and roles, with local-first onboarding, My Path, truth stacks, and curated signals.",
   icons: {
     icon: "/favicon.ico",
   },

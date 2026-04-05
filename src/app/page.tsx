@@ -10,7 +10,9 @@ import {
   Wrench,
 } from "lucide-react"
 import { EntityCard } from "@/components/entities/EntityCard"
+import { HomePathPanel } from "@/components/guidance/HomePathPanel"
 import { getSubjectStats, getSubjects } from "@/lib/content"
+import { getAcademyCatalog } from "@/lib/guidance-content"
 import { getRoles, getRoleStats, getTopics, getTopicStats } from "@/lib/entities"
 import { SUBJECT_GROUP_LABELS } from "@/types/curriculum"
 
@@ -18,6 +20,7 @@ export default function PersonalAcademyHomePage() {
   const subjects = getSubjects()
   const roles = getRoles()
   const topics = getTopics()
+  const catalog = getAcademyCatalog()
 
   const groupedSubjects = subjects.reduce<Record<string, typeof subjects>>((acc, subject) => {
     if (!acc[subject.group]) acc[subject.group] = []
@@ -92,6 +95,12 @@ export default function PersonalAcademyHomePage() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             ) : null}
+            <Link
+              href="/setup"
+              className="inline-flex items-center gap-2 rounded-full bg-editorial-amber-soft px-5 py-2.5 text-sm font-medium text-editorial-amber transition-colors hover:bg-editorial-amber-soft/80"
+            >
+              Set up My Path
+            </Link>
             {featuredTopic ? (
               <Link
                 href={`/topics/${featuredTopic.slug}`}
@@ -111,61 +120,65 @@ export default function PersonalAcademyHomePage() {
           </div>
         </div>
 
-        <div className="rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.82)] p-8 shadow-editorial-soft backdrop-blur-[18px]">
-          <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-            Choose your lens
-          </p>
-          <div className="mt-5 space-y-4">
-            <Link
-              href="/"
-              className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-            >
-              <div className="flex items-center gap-3">
-                <Compass className="h-5 w-5 text-editorial-blue" />
-                <div>
-                  <h2 className="font-serif text-xl font-semibold text-editorial-ink">
-                    Subjects
-                  </h2>
-                  <p className="text-sm text-editorial-muted">
-                    Canonical curriculum packs across seven active subjects.
-                  </p>
-                </div>
-              </div>
-            </Link>
+        <div className="space-y-4">
+          <HomePathPanel catalog={catalog} />
 
-            <Link
-              href="/roles"
-              className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-            >
-              <div className="flex items-center gap-3">
-                <GraduationCap className="h-5 w-5 text-editorial-green" />
-                <div>
-                  <h2 className="font-serif text-xl font-semibold text-editorial-ink">
-                    Roles
-                  </h2>
-                  <p className="text-sm text-editorial-muted">
-                    {roles.length} real destinations like Astronaut, AI Researcher, and Diplomat.
-                  </p>
+          <div className="rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.82)] p-8 shadow-editorial-soft backdrop-blur-[18px]">
+            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+              Choose your lens
+            </p>
+            <div className="mt-5 space-y-4">
+              <Link
+                href="/subjects"
+                className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+              >
+                <div className="flex items-center gap-3">
+                  <Compass className="h-5 w-5 text-editorial-blue" />
+                  <div>
+                    <h2 className="font-serif text-xl font-semibold text-editorial-ink">
+                      Subjects
+                    </h2>
+                    <p className="text-sm text-editorial-muted">
+                      Canonical curriculum packs across the academy.
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
 
-            <Link
-              href="/topics"
-              className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-            >
-              <div className="flex items-center gap-3">
-                <Sparkles className="h-5 w-5 text-editorial-amber" />
-                <div>
-                  <h2 className="font-serif text-xl font-semibold text-editorial-ink">
-                    Topics
-                  </h2>
-                  <p className="text-sm text-editorial-muted">
-                    {topics.length} curiosity layers like AI, energy, investing, and consciousness.
-                  </p>
+              <Link
+                href="/roles"
+                className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+              >
+                <div className="flex items-center gap-3">
+                  <GraduationCap className="h-5 w-5 text-editorial-green" />
+                  <div>
+                    <h2 className="font-serif text-xl font-semibold text-editorial-ink">
+                      Roles
+                    </h2>
+                    <p className="text-sm text-editorial-muted">
+                      {roles.length} real destinations like Astronaut, AI Researcher, and Diplomat.
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+
+              <Link
+                href="/topics"
+                className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+              >
+                <div className="flex items-center gap-3">
+                  <Sparkles className="h-5 w-5 text-editorial-amber" />
+                  <div>
+                    <h2 className="font-serif text-xl font-semibold text-editorial-ink">
+                      Topics
+                    </h2>
+                    <p className="text-sm text-editorial-muted">
+                      {topics.length} curiosity layers like AI, energy, investing, and consciousness.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

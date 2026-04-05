@@ -15,7 +15,7 @@ gates:
     build_passes: true
     lint_passes: true
     typecheck_passes: true
-    automated_tests_pass: false
+    automated_tests_pass: true
     manual_smoke_complete: true
   operations:
     env_requirements_documented: true
@@ -39,3 +39,8 @@ notes:
   - 'Confirmed `/favicon.ico`, representative `_next/static` assets, all seven subject route families, and representative deep lesson/project/tool pages now return `200` on the rebuilt server.'
   - 'Browser QA rerun on desktop and mobile found no console errors on `/`, confirmed the mobile nav opens correctly, and verified the homepage now uses consistent `Frontier direction` taxonomy.'
   - 'Archived the six Personal Academy migration source apps on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` and added a migration analysis document under `docs/`.'
+  - 'Re-verified on 2026-04-05 after shipping the guided OS layer: `npm test`, `npm run type-check`, `npm run lint`, and `npm run build` all passed.'
+  - 'The 2026-04-05 build generated 600 routes, including `/setup`, `/my-path`, `/signals`, subject/role/topic truth stacks, and subject/role/topic signal pages.'
+  - 'Guide rails now appear on subject, role, topic, module, lesson, project, and tool surfaces, so smoke coverage should include at least one of each page type.'
+  - 'Manual runtime smoke on 2026-04-05 returned `200` for `/`, `/setup`, `/my-path`, `/physics`, `/physics/modules/what-physics-is/what-is-physics`, `/physics/sources`, `/physics/signals`, `/roles/astronaut`, `/roles/astronaut/sources`, `/roles/astronaut/signals`, `/topics/energy`, `/topics/energy/sources`, `/topics/energy/signals`, and `/signals`.'
+  - 'A stale `.next` state briefly produced a broken production runtime (`Cannot find module ./vendor-chunks/next.js`); clearing `.next`, rebuilding, and rerunning `next start` resolved it.'

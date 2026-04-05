@@ -8,6 +8,7 @@ import {
   getRoleModule,
 } from "@/lib/entities"
 import { getSubject } from "@/lib/content"
+import { buildGuideRail, buildEntityLink } from "@/lib/guide-rail"
 
 function humanize(value: string) {
   return value
@@ -27,9 +28,29 @@ export default async function RoleModuleDetailPage({
   if (!role || !roleModule) notFound()
 
   const lessons = getRoleLessonsForModule(slug, moduleSlug)
+  const firstLesson = lessons[0] ?? null
   const sourceSubject = roleModule.sourceMeta?.sourceSlug
     ? getSubject(roleModule.sourceMeta.sourceSlug)
     : null
+  const guideRail = buildGuideRail({
+    entity: { kind: "role", slug, name: role.name },
+    whyThisMatters: `${roleModule.title} matters here because ${role.name} uses this knowledge in live decisions, real systems, and accountable work.`,
+    nextAction: {
+      href: firstLesson
+        ? `/roles/${slug}/modules/${roleModule.slug}/${firstLesson.slug}`
+        : `/roles/${slug}/day-in-the-life`,
+      label: firstLesson ? `Start ${firstLesson.title}` : "Ground it in a day-in-the-life",
+      description: firstLesson
+        ? "Move straight into a lesson so the role lens stays active while you learn the concept."
+        : "If the lesson chain is thin, use a real-world scenario to keep the role grounded.",
+    },
+    applyPrompt: `Ask how a ${role.name} would use ${roleModule.title} under real constraints, limited time, and imperfect information.`,
+    debatePrompt: `Which parts of this module are universally useful for the role, and which parts depend on sector, institution, or context?`,
+    truthPrompt: `Check both the role truth stack and the underlying subject source before deciding what is actually standard practice.`,
+    adjacent: sourceSubject
+      ? [buildEntityLink("subject", sourceSubject.slug, sourceSubject.name, "See the canonical subject underneath this role module.")]
+      : [],
+  })
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-10">
@@ -115,6 +136,8 @@ export default async function RoleModuleDetailPage({
           ))}
         </div>
       </section>
+
+      {guideRail}
     </div>
   )
 }

@@ -1,0 +1,128 @@
+{
+  "slug": "ai-researcher",
+  "kind": "role",
+  "title": "AI Researcher Signals",
+  "summary": "AI researchers work on the frontier where learning systems, data, compute, and theory meet. The field is moving quickly, but the real signal is still about ideas, experimental rigor, and safety as much as raw scale.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Foundation models have become the default research substrate",
+          "summary": "A lot of current work now starts from large pretrained models and adapts them through fine-tuning, tooling, or alignment.",
+          "whyItMatters": "The research stack has shifted from isolated models to reusable base systems.",
+          "entities": ["artificial-intelligence", "OpenAI", "Google DeepMind"]
+        },
+        {
+          "name": "Multimodal systems are becoming mainstream",
+          "summary": "Text, image, audio, and video are increasingly being handled in one model stack.",
+          "whyItMatters": "Capability now depends on integrating more than one kind of signal.",
+          "entities": ["artificial-intelligence", "computer-vision", "speech"]
+        },
+        {
+          "name": "Reasoning and agentic workflows are a major focus",
+          "summary": "Research is moving toward systems that can plan, call tools, and carry out longer tasks.",
+          "whyItMatters": "The field is trying to move from prediction to useful action.",
+          "entities": ["software-engineering", "data-science", "artificial-intelligence"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "OpenAI",
+          "summary": "A major driver of frontier model development and deployment.",
+          "whyItMatters": "It sets much of the public agenda for AI capability progress.",
+          "entities": ["artificial-intelligence", "software-engineering"]
+        },
+        {
+          "name": "Google DeepMind",
+          "summary": "A research powerhouse spanning foundation models, science, and alignment.",
+          "whyItMatters": "It shows how research depth can connect to product and science impact.",
+          "entities": ["artificial-intelligence", "physics"]
+        },
+        {
+          "name": "Anthropic",
+          "summary": "A major safety-oriented model company.",
+          "whyItMatters": "It keeps alignment and responsible deployment central to the conversation.",
+          "entities": ["artificial-intelligence", "philosophy"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Stanford HAI",
+          "summary": "A major hub for human-centered AI research and policy discussion.",
+          "whyItMatters": "It links technical capability to societal impact.",
+          "entities": ["artificial-intelligence", "philosophy"]
+        },
+        {
+          "name": "MIT CSAIL",
+          "summary": "A long-running source of top-tier machine learning and systems research.",
+          "whyItMatters": "It remains one of the strongest settings for technical AI work.",
+          "entities": ["artificial-intelligence", "systems-engineering"]
+        },
+        {
+          "name": "Allen Institute for AI",
+          "summary": "Known for research that stays close to public-good scientific value.",
+          "whyItMatters": "It is a reminder that AI can be oriented toward scientific usefulness.",
+          "entities": ["artificial-intelligence", "physics"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Geoffrey Hinton",
+          "summary": "A foundational figure in deep learning and a prominent warning voice.",
+          "whyItMatters": "He links the history of neural nets to present-day caution.",
+          "entities": ["artificial-intelligence", "philosophy"]
+        },
+        {
+          "name": "Yoshua Bengio",
+          "summary": "A major machine learning researcher focused on safety and governance.",
+          "whyItMatters": "He represents the safety-aware end of frontier AI research.",
+          "entities": ["artificial-intelligence", "law"]
+        },
+        {
+          "name": "Fei-Fei Li",
+          "summary": "A leader in computer vision, data-centric AI, and human-centered systems.",
+          "whyItMatters": "She is a strong reference point for practical and ethical AI research.",
+          "entities": ["artificial-intelligence", "data-science"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Does scale alone continue to buy capability?",
+          "summary": "Researchers are debating whether larger models still deliver the same returns.",
+          "whyItMatters": "This changes how the field allocates compute and research effort.",
+          "entities": ["artificial-intelligence", "data-science"]
+        },
+        {
+          "name": "How much of intelligence is reasoning?",
+          "summary": "There is active disagreement about whether current systems truly reason or mainly interpolate.",
+          "whyItMatters": "The answer affects how we evaluate machine intelligence claims.",
+          "entities": ["artificial-intelligence", "philosophy"]
+        },
+        {
+          "name": "Can safety keep up with capability?",
+          "summary": "Alignment, interpretability, and governance remain unresolved relative to deployment speed.",
+          "whyItMatters": "The biggest risk is not capability alone, but capability without control.",
+          "entities": ["artificial-intelligence", "law"]
+        }
+      ]
+    }
+  ]
+}

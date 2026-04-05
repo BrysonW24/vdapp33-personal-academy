@@ -1,0 +1,93 @@
+{
+  "slug": "ai-researcher",
+  "kind": "role",
+  "title": "AI Researcher Truth Stack",
+  "summary": "AI researchers investigate how machine learning systems learn, generalise, reason, and fail, then turn those insights into working systems.",
+  "starterPack": [
+    "Start with arXiv, DeepMind, and Anthropic research.",
+    "Read Stuart Russell and Melanie Mitchell for perspective.",
+    "Use the AI Index and The Batch for field context."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The research habits that matter most in AI.",
+      "items": [
+        { "name": "Research reduces uncertainty", "kind": "principle", "description": "Good work changes what we can confidently say." },
+        { "name": "Training and inference differ", "kind": "principle", "description": "Building a model is not the same as using it." },
+        { "name": "Evaluation discipline matters", "kind": "principle", "description": "Performance must be measured on real tasks and failure modes." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The official and research-first sources.",
+      "items": [
+        { "name": "arXiv cs.AI", "kind": "dataset", "description": "Primary preprint repository for AI research.", "link": "https://arxiv.org/list/cs.AI/recent" },
+        { "name": "DeepMind", "kind": "institution", "description": "Research and frontier development.", "link": "https://deepmind.google/" },
+        { "name": "Anthropic research", "kind": "institution", "description": "Model behaviour, safety, and alignment.", "link": "https://www.anthropic.com/research" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Researchers and educators with strong judgement.",
+      "items": [
+        { "name": "Stuart Russell", "kind": "person", "description": "Foundational AI thinker and safety voice.", "link": "https://people.eecs.berkeley.edu/~russell/" },
+        { "name": "Yoshua Bengio", "kind": "person", "description": "Deep learning pioneer and safety advocate.", "link": "https://mila.quebec/en/people/yoshua-bengio/" },
+        { "name": "Melanie Mitchell", "kind": "person", "description": "Broad public explanation of AI limits and capabilities.", "link": "https://melaniemitchell.net/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The people doing the work every day.",
+      "items": [
+        { "name": "Research scientists", "kind": "person", "description": "Design and test new methods and theories.", "link": "https://deepmind.google/" },
+        { "name": "Machine learning engineers", "kind": "person", "description": "Turn models into usable systems.", "link": "https://openai.com/" },
+        { "name": "AI safety researchers", "kind": "person", "description": "Study alignment, evaluation, and risk.", "link": "https://www.anthropic.com/research" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The major homes of AI research.",
+      "items": [
+        { "name": "DeepMind", "kind": "institution", "description": "Leading research lab.", "link": "https://deepmind.google/" },
+        { "name": "Anthropic", "kind": "institution", "description": "Safety-focused AI lab.", "link": "https://www.anthropic.com/" },
+        { "name": "OpenAI", "kind": "institution", "description": "Frontier research and deployment.", "link": "https://openai.com/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Publications that keep the field in view.",
+      "items": [
+        { "name": "The Batch", "kind": "publication", "description": "High-signal ML roundup.", "link": "https://www.deeplearning.ai/the-batch/" },
+        { "name": "Import AI", "kind": "publication", "description": "Long-running AI newsletter.", "link": "https://importai.substack.com/" },
+        { "name": "MIT Technology Review AI", "kind": "publication", "description": "Reporting on AI in the world.", "link": "https://www.technologyreview.com/topic/artificial-intelligence/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video channels that help explain AI well.",
+      "items": [
+        { "name": "Google DeepMind", "kind": "channel", "description": "Research talks and demos.", "link": "https://www.youtube.com/@GoogleDeepMind" },
+        { "name": "Anthropic", "kind": "channel", "description": "Safety and model behaviour.", "link": "https://www.youtube.com/@AnthropicAI" },
+        { "name": "3Blue1Brown", "kind": "channel", "description": "Mathematical intuition for ML ideas.", "link": "https://www.youtube.com/@3blue1brown" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "AI areas that are still moving quickly.",
+      "items": [
+        { "name": "Reasoning and planning", "kind": "tool", "description": "Models that can chain tasks and decisions." },
+        { "name": "Interpretability", "kind": "tool", "description": "Understanding what models are doing internally." },
+        { "name": "Agentic workflows", "kind": "tool", "description": "Systems that use tools and act on goals." }
+      ]
+    }
+  ]
+}

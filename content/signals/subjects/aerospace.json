@@ -1,0 +1,128 @@
+{
+  "slug": "aerospace",
+  "kind": "subject",
+  "title": "Aerospace Signals",
+  "summary": "Aerospace tracks the systems that move people and payloads through the atmosphere and into orbit. It is where propulsion, structures, control, software, and safety all have to work together under enormous cost and risk.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Reusable launch systems are reshaping launch economics",
+          "summary": "Reusability has pushed the industry toward faster cadence, lower marginal costs, and more ambitious mission planning.",
+          "whyItMatters": "It changes what missions are affordable and how often they can fly.",
+          "entities": ["SpaceX", "Rocket Lab", "rocket-science"]
+        },
+        {
+          "name": "Satellite constellations are becoming infrastructure",
+          "summary": "Low-Earth-orbit networks now matter for communications, observation, and defense as much as for exploration.",
+          "whyItMatters": "Space is now everyday infrastructure, not just a research frontier.",
+          "entities": ["SpaceX", "Starlink", "geopolitics"]
+        },
+        {
+          "name": "Autonomy and avionics are increasingly software-defined",
+          "summary": "Flight control, guidance, and mission management are being built as integrated software systems.",
+          "whyItMatters": "The best aerospace systems now depend on reliable software as much as hardware.",
+          "entities": ["software-engineering", "robotics"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "SpaceX",
+          "summary": "The company most associated with reusable launch and modern launch cadence.",
+          "whyItMatters": "It reshaped expectations for launch, reusability, and mission tempo.",
+          "entities": ["aerospace", "rocket-science"]
+        },
+        {
+          "name": "Boeing",
+          "summary": "A major aerospace prime spanning aircraft, spacecraft, and defense systems.",
+          "whyItMatters": "It remains a reference point for industrial-scale aerospace delivery.",
+          "entities": ["aerospace", "physics"]
+        },
+        {
+          "name": "Airbus",
+          "summary": "Central to commercial aviation and European aerospace capability.",
+          "whyItMatters": "It shows how aerospace is also an industrial and geopolitical system.",
+          "entities": ["aerospace", "politics"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "NASA",
+          "summary": "Still the most visible public institution shaping human spaceflight and exploration.",
+          "whyItMatters": "It sets much of the global tone for crewed and scientific space missions.",
+          "entities": ["astronaut", "space-infrastructure"]
+        },
+        {
+          "name": "European Space Agency",
+          "summary": "A major coordinator of cooperative European space programs.",
+          "whyItMatters": "It demonstrates how international collaboration powers aerospace capability.",
+          "entities": ["aerospace", "world-history"]
+        },
+        {
+          "name": "JAXA",
+          "summary": "Japan's space agency is important in both science and operational spaceflight.",
+          "whyItMatters": "It is a strong signal of how space systems become national capability.",
+          "entities": ["astronaut", "robotics"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Peter Beck",
+          "summary": "A visible example of the new launch entrepreneur archetype.",
+          "whyItMatters": "He represents the shift from old aerospace primes to faster, leaner systems.",
+          "entities": ["Rocket Lab", "entrepreneur-startup-founder"]
+        },
+        {
+          "name": "Gwynne Shotwell",
+          "summary": "A key operator in modern commercial launch execution.",
+          "whyItMatters": "She is a model for execution at scale in aerospace.",
+          "entities": ["SpaceX", "entrepreneur-startup-founder"]
+        },
+        {
+          "name": "Chris Hadfield",
+          "summary": "Represents the communication and systems mindset of a modern astronaut.",
+          "whyItMatters": "He is one of the clearest public explainers of aerospace work.",
+          "entities": ["astronaut", "physics"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Government exploration versus commercial systems",
+          "summary": "The sector is weighing private orbital systems against publicly led programs.",
+          "whyItMatters": "The answer shapes who owns the future of space infrastructure.",
+          "entities": ["NASA", "SpaceX", "space-infrastructure"]
+        },
+        {
+          "name": "How much redundancy is enough?",
+          "summary": "Aerospace design often pits cost and mass against safety and resilience.",
+          "whyItMatters": "The wrong tradeoff can turn a mission into a catastrophe.",
+          "entities": ["physics", "systems-engineering"]
+        },
+        {
+          "name": "How should the orbital environment be governed?",
+          "summary": "Space debris, spectrum, and launch coordination are now real policy problems.",
+          "whyItMatters": "Orbital congestion is a governance issue as much as a technical one.",
+          "entities": ["politics", "law"]
+        }
+      ]
+    }
+  ]
+}

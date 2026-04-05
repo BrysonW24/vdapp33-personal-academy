@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/academy/layout/Breadcrumbs"
 import { ProgressTracker } from "@/components/academy/progress/ProgressTracker"
 import { getRole, getRoleTool } from "@/lib/entities"
 import { getSubject } from "@/lib/content"
+import { buildGuideRail, buildEntityLink } from "@/lib/guide-rail"
 
 function humanize(value: string) {
   return value
@@ -46,6 +47,23 @@ export default async function RoleToolDetailPage({
   const sourceSubject = tool.sourceMeta?.sourceSlug
     ? getSubject(tool.sourceMeta.sourceSlug)
     : null
+  const guideRail = buildGuideRail({
+    entity: { kind: "role", slug, name: role.name },
+    whyThisMatters: `${tool.name} matters here because roles are partly shaped by the tools they trust, the workflows they inherit, and the outputs they are expected to produce.`,
+    nextAction: {
+      href: sourceSubject ? `/${sourceSubject.slug}/tools` : `/roles/${slug}/projects`,
+      label: sourceSubject ? `See the ${sourceSubject.name} ecosystem` : "Open role projects",
+      description: sourceSubject
+        ? "Follow the tool back into the deeper subject ecosystem that explains how and why it is used."
+        : "If the source subject is unclear, use a role project to understand the tool in action.",
+    },
+    applyPrompt: `Ask what this tool helps a ${role.name} notice, coordinate, calculate, or ship that would otherwise stay fuzzy.`,
+    debatePrompt: `Where does this tool create leverage, and where might it create overconfidence, bureaucracy, or shallow work?`,
+    truthPrompt: `Separate product marketing from serious operator use by checking institutions, practitioners, and the source subject behind the tool.`,
+    adjacent: sourceSubject
+      ? [buildEntityLink("subject", sourceSubject.slug, sourceSubject.name, "Open the canonical subject behind this role tool.")]
+      : [],
+  })
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-10">
@@ -108,6 +126,8 @@ export default async function RoleToolDetailPage({
           ))}
         </div>
       ) : null}
+
+      <div className="mt-8">{guideRail}</div>
     </div>
   )
 }

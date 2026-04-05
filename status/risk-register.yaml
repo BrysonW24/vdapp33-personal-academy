@@ -48,12 +48,30 @@ risks:
     owner: unassigned
 
   - id: R6
-    title: "Entity-aware role/topic content can drift ahead of route and status coverage"
+    title: "Entity-aware role/topic/source/signal surfaces can drift out of sync"
     severity: medium
     likelihood: medium
     area: operations
     status: open
-    mitigation: "Keep `content/roles/` and `content/topics/` manifests, docs, and status files aligned; add smoke coverage for verified role/topic routes only after the runtime surfaces are explicitly checked in this app."
+    mitigation: "Keep content packs, route coverage, docs, and smoke coverage aligned whenever roles, topics, sources, or signals expand."
+    owner: unassigned
+
+  - id: R7
+    title: "Curated source and signal packs may feel uneven across the academy"
+    severity: medium
+    likelihood: medium
+    area: content
+    status: open
+    mitigation: "Prioritize flagship entities first, keep empty states honest, and expand curation in visible waves rather than faking completeness."
+    owner: unassigned
+
+  - id: R8
+    title: "Dirty `.next` artifacts can break `next start` even after a successful build"
+    severity: medium
+    likelihood: low
+    area: operations
+    status: open
+    mitigation: "If production runtime fails with missing vendor chunk errors, clear `.next`, rebuild, and rerun the smoke pass before release decisions."
     owner: unassigned
 
 notes:
@@ -62,4 +80,5 @@ notes:
   - Quantum was expanded beyond the original 4-module migration baseline on 2026-04-03.
   - The 2026-04-04 QA regression involving stale build assets and missing `vendor-chunks/zod.js` was fixed by rebuilding from a clean `.next` state and isolating runtime schemas from shared curriculum types.
   - Commercial Property Management was migrated from `vdapp46-jll-commercial-property-manager-academy` on 2026-04-04 with generic subject naming preserved in the shell.
-  - Roles and topics are being introduced as entity-aware content kinds; they should stay documented as rollout work until their route surfaces are verified.
+  - Roles, topics, truth stacks, and signals are now live surfaces; ongoing risk is curation coverage drift rather than route rollout uncertainty.
+  - The 2026-04-05 guided-OS verification found and fixed a stale `.next` runtime issue before release.

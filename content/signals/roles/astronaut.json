@@ -1,0 +1,128 @@
+{
+  "slug": "astronaut",
+  "kind": "role",
+  "title": "Astronaut Signals",
+  "summary": "Astronauts sit at the edge of human spaceflight, systems engineering, and high-stakes operations. The role combines training, science, vehicle systems, mission procedures, and calm decision-making in unforgiving environments.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Commercial crew systems are normalising access to orbit",
+          "summary": "Private launch and crewed spacecraft have become a meaningful part of the human spaceflight landscape.",
+          "whyItMatters": "Astronaut work now sits inside a mixed public-private infrastructure.",
+          "entities": ["SpaceX", "Boeing", "NASA"]
+        },
+        {
+          "name": "Artemis has revived lunar ambition",
+          "summary": "The next generation of astronaut work is being shaped by lunar logistics, training, and surface operations.",
+          "whyItMatters": "Lunar missions create a new demand for trained humans in space.",
+          "entities": ["NASA", "rocket-science", "space-infrastructure"]
+        },
+        {
+          "name": "Training now includes more software and systems depth",
+          "summary": "Modern astronauts are expected to understand robotics, operations, and vehicle behavior, not just science payloads.",
+          "whyItMatters": "The role is becoming more technical and more systems-heavy over time.",
+          "entities": ["robotics", "physics", "systems-engineering"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "SpaceX",
+          "summary": "Central to commercial crew and the modern spacecraft operating model.",
+          "whyItMatters": "It shapes the vehicles astronauts train for and fly on.",
+          "entities": ["astronaut", "aerospace"]
+        },
+        {
+          "name": "Boeing",
+          "summary": "A major contractor in human spaceflight and spacecraft systems.",
+          "whyItMatters": "It remains a critical industrial partner in crewed missions.",
+          "entities": ["astronaut", "aerospace"]
+        },
+        {
+          "name": "Axiom Space",
+          "summary": "Focused on private orbital infrastructure and future human habitats.",
+          "whyItMatters": "It points toward what astronaut work may look like beyond ISS-era missions.",
+          "entities": ["astronaut", "space-infrastructure"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "NASA",
+          "summary": "The main institution shaping astronaut training and mission standards.",
+          "whyItMatters": "Its procedures and culture define the profession for most people.",
+          "entities": ["astronaut", "physics"]
+        },
+        {
+          "name": "European Space Agency",
+          "summary": "A major partner in human spaceflight and orbital operations.",
+          "whyItMatters": "Astronaut careers are increasingly multinational and cooperative.",
+          "entities": ["astronaut", "world-history"]
+        },
+        {
+          "name": "International Space Station",
+          "summary": "The defining operational environment for modern astronauts.",
+          "whyItMatters": "It is the closest thing to a sustained astronaut workplace in orbit.",
+          "entities": ["astronaut", "robotics"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Chris Hadfield",
+          "summary": "A clear public example of astronaut competence, communication, and systems thinking.",
+          "whyItMatters": "He explains the role in a way people can actually understand.",
+          "entities": ["astronaut", "physics"]
+        },
+        {
+          "name": "Peggy Whitson",
+          "summary": "Represents long-duration experience and mission leadership.",
+          "whyItMatters": "She signals the endurance and discipline the role demands.",
+          "entities": ["astronaut", "role"]
+        },
+        {
+          "name": "Sally Ride",
+          "summary": "One of the most recognisable figures in human spaceflight history.",
+          "whyItMatters": "She remains a durable symbol of astronaut ambition and public inspiration.",
+          "entities": ["astronaut", "physics"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Crewed versus robotic exploration",
+          "summary": "The value of humans in space is still debated relative to autonomous systems and probes.",
+          "whyItMatters": "This debate decides where human judgment is actually worth the cost.",
+          "entities": ["astronaut", "robotics"]
+        },
+        {
+          "name": "Commercial infrastructure versus government missions",
+          "summary": "The sector is weighing private orbital systems against publicly led programs.",
+          "whyItMatters": "It determines who sets the operating rules for future missions.",
+          "entities": ["astronaut", "space-infrastructure"]
+        },
+        {
+          "name": "How much training is enough?",
+          "summary": "Astronaut selection and preparation must balance breadth, depth, and mission realism.",
+          "whyItMatters": "High stakes leave little room for shallow preparation.",
+          "entities": ["astronaut", "systems-engineering"]
+        }
+      ]
+    }
+  ]
+}

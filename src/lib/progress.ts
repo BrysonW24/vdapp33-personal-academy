@@ -52,6 +52,16 @@ export interface ProgressState {
   quizResults: Record<string, QuizResult>
 }
 
+interface LegacyPersistedProgressState {
+  subjects?: Record<string, SubjectProgress>
+  completedModules?: string[]
+  completedLessons?: string[]
+  completedProjects?: string[]
+  completedFrameworks?: string[]
+  viewedTools?: string[]
+  quizResults?: Record<string, QuizResult>
+}
+
 function ensureSubject(
   subjects: Record<string, SubjectProgress>,
   subject: string
@@ -100,6 +110,35 @@ function buildSnapshot(subjects: Record<string, SubjectProgress>) {
     subjects,
     ...aggregateSubjects(subjects),
   }
+}
+
+export function migrateProgressState(
+  persisted: LegacyPersistedProgressState | undefined
+) {
+  if (!persisted) return buildSnapshot({})
+
+  if (persisted.subjects) {
+    return buildSnapshot(persisted.subjects)
+  }
+
+  const legacySubject: SubjectProgress = {
+    completedModules: persisted.completedModules ?? [],
+    completedLessons: persisted.completedLessons ?? [],
+    completedProjects: persisted.completedProjects ?? [],
+    completedFrameworks: persisted.completedFrameworks ?? [],
+    viewedTools: persisted.viewedTools ?? [],
+    quizResults: persisted.quizResults ?? {},
+  }
+
+  const hasLegacyData =
+    legacySubject.completedModules.length > 0 ||
+    legacySubject.completedLessons.length > 0 ||
+    legacySubject.completedProjects.length > 0 ||
+    legacySubject.completedFrameworks.length > 0 ||
+    legacySubject.viewedTools.length > 0 ||
+    Object.keys(legacySubject.quizResults).length > 0
+
+  return buildSnapshot(hasLegacyData ? { [LEGACY]: legacySubject } : {})
 }
 
 export const useProgress = create<ProgressState>()(
@@ -244,7 +283,12 @@ export const useProgress = create<ProgressState>()(
         return (get().subjects[subject]?.completedProjects ?? []).includes(targetSlug)
       },
     }),
-    { name: "personal-academy-progress" }
+    {
+      name: "personal-academy-progress",
+      version: 1,
+      migrate: (persistedState) =>
+        migrateProgressState(persistedState as LegacyPersistedProgressState | undefined),
+    }
   )
 )
 

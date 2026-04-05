@@ -1,4 +1,5 @@
 import Link from "next/link"
+import type { ReactNode } from "react"
 import {
   ArrowRight,
   BookOpen,
@@ -26,6 +27,7 @@ interface SubjectStartHereProps {
   firstModule: Module | null
   featuredProject: Project | null
   featuredTool: Tool | null
+  guideRail?: ReactNode
 }
 
 type SectionCard = {
@@ -44,6 +46,7 @@ export function SubjectStartHere({
   firstModule,
   featuredProject,
   featuredTool,
+  guideRail,
 }: SubjectStartHereProps) {
   const sections: SectionCard[] = [
     {
@@ -256,6 +259,8 @@ export function SubjectStartHere({
           )}
         </section>
       )}
+
+      {guideRail ? guideRail : null}
     </div>
   )
 }

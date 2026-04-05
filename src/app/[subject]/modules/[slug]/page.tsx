@@ -2,13 +2,13 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ProgressTracker } from "@/components/academy/progress/ProgressTracker"
 import {
-  getLesson,
   getLessons,
   getModule,
   getModules,
   getSubject,
   getSubjects,
 } from "@/lib/content"
+import { buildGuideRail } from "@/lib/guide-rail"
 
 function humanize(value: string) {
   return value
@@ -48,9 +48,26 @@ export default async function ModuleDetailPage({
   if (!subject || !curriculumModule) notFound()
 
   const lessons = getLessons(subjectSlug, curriculumModule.slug)
+  const firstLesson = lessons[0] ?? null
   const relatedModules = curriculumModule.relatedModules
     .map((relatedSlug) => getModule(subjectSlug, relatedSlug))
     .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry))
+  const guideRail = buildGuideRail({
+    entity: { kind: "subject", slug: subjectSlug, name: subject.name },
+    whyThisMatters: curriculumModule.whyItMatters,
+    nextAction: {
+      href: firstLesson
+        ? `/${subjectSlug}/modules/${curriculumModule.slug}/${firstLesson.slug}`
+        : `/${subjectSlug}/toolkit`,
+      label: firstLesson ? `Start ${firstLesson.title}` : "Open the toolkit",
+      description: firstLesson
+        ? "Move from the module overview into one concrete lesson so this subject starts changing your model instead of just sounding familiar."
+        : "This module is still thin on lesson pages, so use the subject toolkit to keep the ideas connected.",
+    },
+    applyPrompt: `Take one core concept from ${curriculumModule.title} and explain where it changes a real-world system, workflow, or decision.`,
+    debatePrompt: `Which simplifications in this module help you learn, and which ones would start breaking if you moved into real-world edge cases?`,
+    truthPrompt: `Cross-check this module's claims against primary sources or the ${subject.name} truth stack before treating them as settled.`,
+  })
 
   return (
     <div className="container mx-auto px-4 py-10 max-w-4xl">
@@ -188,6 +205,8 @@ export default async function ModuleDetailPage({
           </div>
         </div>
       )}
+
+      {guideRail}
     </div>
   )
 }

@@ -1,0 +1,93 @@
+{
+  "slug": "aerospace",
+  "kind": "subject",
+  "title": "Aerospace Truth Stack",
+  "summary": "Aerospace covers aircraft, spacecraft, propulsion, flight dynamics, navigation, and the systems that let machines operate in the sky and beyond.",
+  "starterPack": [
+    "Start with NASA and ESA as primary sources.",
+    "Use flight test and mission operations material.",
+    "Watch launch and mission explainers for systems intuition."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The physical constraints behind flight and space systems.",
+      "items": [
+        { "name": "Lift, drag, thrust, weight", "kind": "principle", "description": "The forces that make flight possible." },
+        { "name": "Reliability under extreme conditions", "kind": "principle", "description": "Aerospace systems must work in hostile environments." },
+        { "name": "Orbital mechanics", "kind": "principle", "description": "Spaceflight is motion under gravity and velocity." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The formal bodies that shape aerospace reality.",
+      "items": [
+        { "name": "NASA", "kind": "institution", "description": "Primary civil space and aeronautics authority.", "link": "https://www.nasa.gov/" },
+        { "name": "European Space Agency", "kind": "institution", "description": "Major international aerospace and space authority.", "link": "https://www.esa.int/" },
+        { "name": "Civil Aviation Safety Authority", "kind": "institution", "description": "Australian aviation regulation and safety.", "link": "https://www.casa.gov.au/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Experienced explainers who make aerospace legible.",
+      "items": [
+        { "name": "Chris Hadfield", "kind": "person", "description": "Excellent public explanation of astronaut work.", "link": "https://chrishadfield.ca/" },
+        { "name": "Mike Massimino", "kind": "person", "description": "Accessible and realistic spaceflight stories.", "link": "https://www.mikemassimino.com/" },
+        { "name": "The Aerospace Corporation", "kind": "institution", "description": "Independent analysis on aerospace systems and space policy.", "link": "https://aerospace.org/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The jobs that make aerospace work.",
+      "items": [
+        { "name": "Flight test engineers", "kind": "person", "description": "Validate aircraft performance and safety.", "link": "https://www.ardu.com.au/" },
+        { "name": "Mission operations teams", "kind": "person", "description": "Run spacecraft and manage in-flight systems.", "link": "https://www.nasa.gov/mission_pages" },
+        { "name": "Propulsion engineers", "kind": "person", "description": "Design engines and thermal systems.", "link": "https://www.nasa.gov/propulsion" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The major organisations in the aerospace ecosystem.",
+      "items": [
+        { "name": "NASA JPL", "kind": "institution", "description": "Deep capability in planetary missions and robotics.", "link": "https://www.jpl.nasa.gov/" },
+        { "name": "Airbus", "kind": "company", "description": "Major commercial aerospace manufacturer.", "link": "https://www.airbus.com/" },
+        { "name": "RAAF Air Warfare Centre", "kind": "institution", "description": "Australian operational aerospace capability.", "link": "https://www.airforce.gov.au/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Useful reporting and analysis on the aerospace world.",
+      "items": [
+        { "name": "Aviation Week", "kind": "publication", "description": "Industry news and analysis.", "link": "https://aviationweek.com/" },
+        { "name": "SpaceNews", "kind": "publication", "description": "Space industry reporting.", "link": "https://spacenews.com/" },
+        { "name": "NASA Aeronautics", "kind": "publication", "description": "Primary source for aeronautics work.", "link": "https://www.nasa.gov/aeronautics" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Visual material that explains aerospace systems well.",
+      "items": [
+        { "name": "NASA", "kind": "channel", "description": "Mission footage, explainers, and live events.", "link": "https://www.youtube.com/@NASA" },
+        { "name": "ESA", "kind": "channel", "description": "European mission coverage and education.", "link": "https://www.youtube.com/@ESA" },
+        { "name": "Primal Space", "kind": "channel", "description": "Accessible spaceflight history and concepts.", "link": "https://www.youtube.com/@PrimalSpace" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Aerospace areas to keep an eye on.",
+      "items": [
+        { "name": "Reusable launch systems", "kind": "tool", "description": "Lower-cost access to orbit." },
+        { "name": "Electric and hybrid propulsion", "kind": "tool", "description": "New propulsion approaches for space and aircraft." },
+        { "name": "On-orbit servicing", "kind": "institution", "description": "Repair, refuel, and assemble in space." }
+      ]
+    }
+  ]
+}

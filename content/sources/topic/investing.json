@@ -1,0 +1,93 @@
+{
+  "slug": "investing",
+  "kind": "topic",
+  "title": "Investing Truth Stack",
+  "summary": "Investing is the disciplined allocation of capital across assets, businesses, and markets in pursuit of risk-adjusted returns over time.",
+  "starterPack": [
+    "Start with ASX, ASIC MoneySmart, and RBA context.",
+    "Read Damodaran, Howard Marks, and Bernstein.",
+    "Use Ben Felix and The Plain Bagel for evidence-based explanation."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The rules that make investing sensible.",
+      "items": [
+        { "name": "Risk and return are inseparable", "kind": "principle", "description": "Higher expected returns generally require higher uncertainty." },
+        { "name": "Capital compounds", "kind": "principle", "description": "Time is a major source of investment advantage." },
+        { "name": "Diversification matters", "kind": "principle", "description": "Spreading risk protects against individual mistakes and shocks." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The official market and consumer sources.",
+      "items": [
+        { "name": "ASX", "kind": "institution", "description": "Primary Australian securities exchange.", "link": "https://www.asx.com.au/" },
+        { "name": "ASIC MoneySmart", "kind": "publication", "description": "Australian consumer investing guidance.", "link": "https://moneysmart.gov.au/" },
+        { "name": "RBA", "kind": "institution", "description": "Monetary policy and market context.", "link": "https://www.rba.gov.au/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "People who explain markets with discipline.",
+      "items": [
+        { "name": "Aswath Damodaran", "kind": "person", "description": "Valuation and capital markets educator.", "link": "https://pages.stern.nyu.edu/~adamodar/" },
+        { "name": "Howard Marks", "kind": "person", "description": "Risk, cycles, and second-level thinking.", "link": "https://www.oaktreecapital.com/insights/howard-marks-memos" },
+        { "name": "William Bernstein", "kind": "person", "description": "Portfolio theory and long-term investing.", "link": "https://www.efficientfrontier.com/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The real-world investor roles.",
+      "items": [
+        { "name": "Fund managers", "kind": "person", "description": "Allocate capital across public markets.", "link": "https://www.asx.com.au/" },
+        { "name": "Property investors", "kind": "person", "description": "Use leverage, cash flow, and long horizons.", "link": "https://www.ato.gov.au/" },
+        { "name": "Angel investors", "kind": "person", "description": "Early-stage risk capital providers.", "link": "https://www.startupschool.org/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The market infrastructure around capital.",
+      "items": [
+        { "name": "ASX", "kind": "institution", "description": "Securities market infrastructure.", "link": "https://www.asx.com.au/" },
+        { "name": "ASIC", "kind": "institution", "description": "Market conduct and consumer protection.", "link": "https://asic.gov.au/" },
+        { "name": "ATO", "kind": "institution", "description": "Tax treatment and reporting context.", "link": "https://www.ato.gov.au/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Reporting and research that are worth reading.",
+      "items": [
+        { "name": "Financial Times - Markets", "kind": "publication", "description": "Global market reporting.", "link": "https://www.ft.com/markets" },
+        { "name": "Australian Financial Review", "kind": "publication", "description": "Australian capital markets and business news.", "link": "https://www.afr.com/markets" },
+        { "name": "Morningstar", "kind": "publication", "description": "Fund and portfolio research.", "link": "https://www.morningstar.com/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video sources that teach investing well.",
+      "items": [
+        { "name": "Ben Felix", "kind": "channel", "description": "Evidence-based investing education.", "link": "https://www.youtube.com/@BenFelixCSI" },
+        { "name": "The Plain Bagel", "kind": "channel", "description": "Accessible market and investing explainers.", "link": "https://www.youtube.com/@ThePlainBagel" },
+        { "name": "Investopedia", "kind": "channel", "description": "Core investing concepts.", "link": "https://www.youtube.com/@Investopedia" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "What is changing in investing.",
+      "items": [
+        { "name": "AI-assisted analysis", "kind": "tool", "description": "Screening and research augmentation." },
+        { "name": "Tokenised assets", "kind": "tool", "description": "Fractional and blockchain-based ownership." },
+        { "name": "DeFi", "kind": "tool", "description": "Decentralised financial protocols and markets." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "meaning-and-depth",
+  "name": "Meaning and Depth",
+  "summary": "A path for people who want inward clarity, wisdom, emotional understanding, consciousness, meditation, music, and philosophical coherence.",
+  "thesis": "Develop inner awareness, interpretive depth, and a stronger sense of meaning.",
+  "fitSignals": [
+    "Wants to understand consciousness, emotion, and self-knowledge",
+    "Is drawn to meditation, philosophy, and contemplative practice",
+    "Likes meaning, ethics, and long-form reflection",
+    "Values coherence and emotional intelligence as much as facts"
+  ],
+  "defaults": {
+    "coreSubjects": ["psychology", "philosophy"],
+    "supportingTopics": ["consciousness", "meditation"],
+    "roles": ["diplomat"],
+    "mode": "explorer",
+    "reviewRhythm": "Short reflective sessions with occasional deeper synthesis blocks",
+    "milestoneTemplate": "Build a coherent inward model using {coreSubject}, {supportingTopic}, and the {role} lens",
+    "weeklyCadencePresets": {
+      "gentle": "3 short sessions and one reflection block per week",
+      "balanced": "4 sessions per week with one synthesis session",
+      "ambitious": "5 sessions per week with recurring note review",
+      "obsessive": "Daily contemplation, journaling, and synthesis"
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 ## Intent
 
-Personal Academy is the learning-first side of the academy ecosystem. It shares the multi-subject shell pattern with Founder OS, but not the operator doctrine.
+Personal Academy is the learning-first side of the academy ecosystem. It shares the multi-subject shell pattern with Founder OS, but not the operator doctrine. The current goal is no longer just “one shell for many subjects.” It is “one shell that can direct a learner through a broad, deep, and applied education.”
 
 ## Design rules
 
@@ -11,20 +11,40 @@ Personal Academy is the learning-first side of the academy ecosystem. It shares 
 - Content stays static and file-based
 - Subjects register via `manifest.json`
 - Missing sections stay honest with empty states
+- Guidance stays deterministic and local-first
+- Sources and signals stay curated rather than pretending to be live omniscience
 
-## Entity-aware direction
+## Current runtime
 
 Current state:
 
-- The verified runtime shell is still subject-prefixed
-- Roles and topics now exist as content kinds alongside subjects
-- Related-entity metadata is being used to make the navigation layer entity-aware without turning every content kind into the same route shape
+- Subject, role, and topic routes are all live in the app router
+- `/{subject}/...` remains the canonical curriculum spine
+- `/roles/{slug}` and `/topics/{slug}` are now live route families layered on top of aliased subject content plus entity-native content packs
+- `/setup` generates a local-first learning blueprint
+- `/my-path` uses deterministic ranking to generate a current session and next-best actions
+- `/{subject|role|topic}/sources` and `/{subject|role|topic}/signals` are live curated surfaces
+- Guide rails now connect start pages, module pages, lesson pages, project pages, and tool pages back into the active path
 
-Target state:
+## Entity-aware model
 
 - Subject, role, and topic content should remain clearly separated in the content tree
-- Docs and status should describe which entity kinds are live content versus which are only target-state route surfaces
-- Route rollout for `/roles/{slug}` and `/topics/{slug}` should be treated as a separate verification step from content authoring
+- Subjects remain canonical depth owners
+- Topics are cross-disciplinary lenses
+- Roles are embodied synthesis tracks
+- The guidance layer sits across all three rather than replacing them
+
+## Guidance OS layer
+
+The app now includes a directed-learning layer on top of content discovery:
+
+- `content/onboarding/question-bank.json` defines the setup flow
+- `content/guidance/path-archetypes/*.json` define deterministic archetype defaults
+- `src/lib/academy-engine.ts` converts answers into a `LearningBlueprint`
+- `src/lib/academy-state.ts` stores the blueprint, active mode, and reviews locally
+- `src/components/guidance/GuideRail.tsx` makes the app explain why a page matters, what to do next, and what sources or signals matter around it
+
+This turns the app from a library into a local-first learning operating system without adding backend complexity.
 
 ## Migration posture
 
@@ -51,6 +71,12 @@ See `personal-academy-migration-analysis.md` for the post-migration depth compar
 ## Route surface
 
 - `/`
+- `/setup`
+- `/my-path`
+- `/subjects`
+- `/roles`
+- `/topics`
+- `/signals`
 - `/{subject}`
 - `/{subject}/blueprint`
 - `/{subject}/modules`
@@ -62,5 +88,23 @@ See `personal-academy-migration-analysis.md` for the post-migration depth compar
 - `/{subject}/tools/{slug}`
 - `/{subject}/toolkit`
 - `/{subject}/day-in-the-life`
+- `/{subject}/sources`
+- `/{subject}/signals`
+- `/roles/{slug}`
+- `/roles/{slug}/blueprint`
+- `/roles/{slug}/modules`
+- `/roles/{slug}/projects`
+- `/roles/{slug}/tools`
+- `/roles/{slug}/toolkit`
+- `/roles/{slug}/day-in-the-life`
+- `/roles/{slug}/sources`
+- `/roles/{slug}/signals`
+- `/topics/{slug}`
+- `/topics/{slug}/modules`
+- `/topics/{slug}/projects`
+- `/topics/{slug}/tools`
+- `/topics/{slug}/toolkit`
+- `/topics/{slug}/sources`
+- `/topics/{slug}/signals`
 
-The route surface above is the current verified subject shell. Entity-aware role/topic routes belong in target-state notes until they are explicitly added and checked.
+The route surface above is the currently verified runtime shell.

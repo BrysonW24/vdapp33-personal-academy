@@ -1,0 +1,26 @@
+{
+  "slug": "reality-foundations",
+  "name": "Reality Foundations",
+  "summary": "A path for people who want the deepest possible base layer: physics, systems, history, philosophy, and the structure of reality before application.",
+  "thesis": "Build a clean model of the world from first principles before moving into synthesis.",
+  "fitSignals": [
+    "Prefers definitions, mechanisms, and causal reasoning",
+    "Wants to understand how the world works before what to do with it",
+    "Feels drawn to science, history, and philosophy",
+    "Learns best through conceptual clarity and structured progression"
+  ],
+  "defaults": {
+    "coreSubjects": ["physics", "quantum-science"],
+    "supportingTopics": ["world-history", "philosophy"],
+    "roles": ["astronaut"],
+    "mode": "guided",
+    "reviewRhythm": "Weekly review with short daily recall and one deeper synthesis session",
+    "milestoneTemplate": "Build a first-principles map of {coreSubject} with {supportingTopic} through the {role} lens",
+    "weeklyCadencePresets": {
+      "gentle": "3 short sessions and one review block per week",
+      "balanced": "4 to 5 sessions per week with steady depth",
+      "ambitious": "5 to 6 sessions per week with one applied project",
+      "obsessive": "Daily study with recurring note synthesis and review"
+    }
+  }
+}

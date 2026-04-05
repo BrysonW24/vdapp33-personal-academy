@@ -1,0 +1,26 @@
+{
+  "slug": "engineered-civilization",
+  "name": "Engineered Civilization",
+  "summary": "A path for people who want to understand and build the systems that modern life depends on: technology, infrastructure, AI, energy, aerospace, and operations.",
+  "thesis": "Learn how complex systems are designed, run, and improved in the real world.",
+  "fitSignals": [
+    "Likes systems, tools, and real-world applications",
+    "Wants to understand infrastructure and technology as lived civilization",
+    "Feels motivated by building and operating useful things",
+    "Prefers practical examples with enough theory to be credible"
+  ],
+  "defaults": {
+    "coreSubjects": ["robotics", "aerospace", "energy-systems"],
+    "supportingTopics": ["artificial-intelligence", "investing"],
+    "roles": ["robotics-engineer"],
+    "mode": "operator",
+    "reviewRhythm": "Two deep sessions and two practical sessions per week",
+    "milestoneTemplate": "Use {coreSubject} and {supportingTopic} to build something concrete through the {role} lens",
+    "weeklyCadencePresets": {
+      "gentle": "2 study blocks and 1 hands-on session each week",
+      "balanced": "4 sessions per week with one project review",
+      "ambitious": "5 to 6 sessions per week with active implementation",
+      "obsessive": "Daily technical work with a standing project queue"
+    }
+  }
+}

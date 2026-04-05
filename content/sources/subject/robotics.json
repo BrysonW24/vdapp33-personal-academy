@@ -1,0 +1,93 @@
+{
+  "slug": "robotics",
+  "kind": "subject",
+  "title": "Robotics Truth Stack",
+  "summary": "Robotics combines mechanics, electronics, sensing, control, software, and intelligence to make machines act in the physical world.",
+  "starterPack": [
+    "Start with ROS 2 and Open Robotics.",
+    "Read Rodney Brooks and Cynthia Breazeal for perspective.",
+    "Use IEEE Spectrum Robotics and Robohub for current developments."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The core ideas behind machines that move and decide.",
+      "items": [
+        { "name": "A robot senses, decides, and acts", "kind": "principle", "description": "Robots are closed-loop systems in the real world." },
+        { "name": "Physical environments are noisy", "kind": "principle", "description": "Sensors, actuators, and motion all have uncertainty." },
+        { "name": "Feedback stabilises behaviour", "kind": "principle", "description": "Control loops are the backbone of reliable robotics." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Core institutions and technical references.",
+      "items": [
+        { "name": "Open Robotics", "kind": "institution", "description": "ROS stewardship and ecosystem coordination.", "link": "https://www.openrobotics.org/" },
+        { "name": "IEEE Robotics and Automation Society", "kind": "institution", "description": "Professional body and research network.", "link": "https://www.ieee-ras.org/" },
+        { "name": "ROS 2 documentation", "kind": "publication", "description": "Foundational middleware and tooling.", "link": "https://docs.ros.org/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "People who explain robotics with real-world judgement.",
+      "items": [
+        { "name": "Rodney Brooks", "kind": "person", "description": "Pioneer of practical robotics thinking.", "link": "https://rodneybrooks.com/" },
+        { "name": "Cynthia Breazeal", "kind": "person", "description": "Human-robot interaction and social robotics.", "link": "https://www.media.mit.edu/people/cynthiab/overview/" },
+        { "name": "Sebastian Thrun", "kind": "person", "description": "Autonomy, self-driving, and systems thinking.", "link": "https://www.thrun.com/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The operating roles inside robotics.",
+      "items": [
+        { "name": "Robotics software engineers", "kind": "person", "description": "Build robot brains, integrations, and tooling.", "link": "https://www.ros.org/" },
+        { "name": "Controls engineers", "kind": "person", "description": "Make motion stable, safe, and accurate.", "link": "https://www.ieee-ras.org/" },
+        { "name": "Field robotics engineers", "kind": "person", "description": "Deploy robots in mines, farms, and remote sites.", "link": "https://data61.csiro.au/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The major homes of robotics work.",
+      "items": [
+        { "name": "Open Robotics", "kind": "institution", "description": "ROS stewardship and ecosystem coordination.", "link": "https://www.openrobotics.org/" },
+        { "name": "CSIRO Data61", "kind": "institution", "description": "Australian autonomy research powerhouse.", "link": "https://data61.csiro.au/" },
+        { "name": "MIT CSAIL", "kind": "institution", "description": "Research on robotics, AI, and systems.", "link": "https://www.csail.mit.edu/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Worthwhile robotics reporting and explainers.",
+      "items": [
+        { "name": "IEEE Spectrum Robotics", "kind": "publication", "description": "Industry and research coverage.", "link": "https://spectrum.ieee.org/robotics" },
+        { "name": "Robohub", "kind": "publication", "description": "Robotics research news and commentary.", "link": "https://robohub.org/" },
+        { "name": "The Robot Report", "kind": "publication", "description": "Industry developments and deployments.", "link": "https://www.therobotreport.com/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Useful video sources for robotics intuition.",
+      "items": [
+        { "name": "Boston Dynamics", "kind": "channel", "description": "Iconic robot system demonstrations.", "link": "https://www.youtube.com/@BostonDynamics" },
+        { "name": "The Construct", "kind": "channel", "description": "ROS and robotics education.", "link": "https://www.youtube.com/@TheConstruct" },
+        { "name": "NVIDIA Robotics", "kind": "channel", "description": "Simulation and embodied AI content.", "link": "https://www.youtube.com/@NVIDIARobotics" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Where robotics is moving next.",
+      "items": [
+        { "name": "Embodied AI", "kind": "tool", "description": "Robot foundation models and action policies." },
+        { "name": "General-purpose manipulation", "kind": "tool", "description": "Robust pick-and-place and dexterity." },
+        { "name": "Field robotics", "kind": "institution", "description": "Robots in mines, farms, and remote sites." }
+      ]
+    }
+  ]
+}

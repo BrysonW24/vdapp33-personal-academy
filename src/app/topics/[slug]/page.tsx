@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import { BookOpen, FolderKanban, Library, Wrench } from "lucide-react"
 import { EntityStartHere } from "@/components/entities/EntityStartHere"
+import { buildGuideRail } from "@/lib/guide-rail"
 import {
   getRelatedSubjectsForEntity,
   getTopic,
@@ -26,6 +27,19 @@ export default async function TopicPage({
   const projects = getTopicProjects(slug)
   const tools = getTopicTools(slug)
   const sections = getTopicSections(slug)
+  const guideRail = buildGuideRail({
+    entity: { kind: "topic", slug, name: topic.name },
+    whyThisMatters: `${topic.name} is a cross-cutting lens. Use it to connect ideas across the academy without losing the deeper subject foundations underneath it.`,
+    nextAction: {
+      href: `/topics/${slug}/modules`,
+      label: "Open the concept stack",
+      description:
+        "Start with the topic's own concepts first, then branch into projects, tools, signals, and related subjects once the core ideas are stable.",
+    },
+    applyPrompt: `Map where ${topic.name} shows up in the world today: in institutions, companies, technologies, cultural patterns, or personal decisions.`,
+    debatePrompt: `Which claims in ${topic.name} are empirical, which are interpretive, and which are really downstream of values or worldview?`,
+    truthPrompt: `Use the truth stack to separate foundational sources from hot takes, trend pieces, and derivative summaries.`,
+  })
 
   return (
     <EntityStartHere
@@ -76,6 +90,7 @@ export default async function TopicPage({
       relatedSubjects={relatedSubjects}
       featuredProject={projects[0] ?? null}
       featuredTool={tools[0] ?? null}
+      guideRail={guideRail}
     />
   )
 }

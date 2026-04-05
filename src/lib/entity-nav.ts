@@ -20,6 +20,8 @@ const SUBJECT_SECTIONS: NavSectionItem[] = [
   { segment: "/modules", label: "Modules", iconName: "BookOpen", isPrimary: true },
   { segment: "/projects", label: "Projects", iconName: "FolderKanban", isPrimary: true },
   { segment: "/tools", label: "Tools", iconName: "Wrench", isPrimary: true },
+  { segment: "/sources", label: "Sources", iconName: "Library", isPrimary: false },
+  { segment: "/signals", label: "Signals", iconName: "Compass", isPrimary: false },
   { segment: "/toolkit", label: "Toolkit", iconName: "Library", isPrimary: false },
   { segment: "/day-in-the-life", label: "Day in the Life", iconName: "Clock3", isPrimary: false },
 ]
@@ -30,6 +32,8 @@ const ROLE_SECTIONS: NavSectionItem[] = [
   { segment: "/modules", label: "Training", iconName: "BookOpen", isPrimary: true },
   { segment: "/projects", label: "Projects", iconName: "FolderKanban", isPrimary: true },
   { segment: "/tools", label: "Tools", iconName: "Wrench", isPrimary: true },
+  { segment: "/sources", label: "Sources", iconName: "Library", isPrimary: false },
+  { segment: "/signals", label: "Signals", iconName: "Compass", isPrimary: false },
   { segment: "/toolkit", label: "Toolkit", iconName: "Library", isPrimary: false },
   { segment: "/day-in-the-life", label: "Day in the Life", iconName: "Clock3", isPrimary: false },
 ]
@@ -39,6 +43,8 @@ const TOPIC_SECTIONS: NavSectionItem[] = [
   { segment: "/modules", label: "Concepts", iconName: "BookOpen", isPrimary: true },
   { segment: "/projects", label: "Applications", iconName: "FolderKanban", isPrimary: true },
   { segment: "/tools", label: "Tools", iconName: "Wrench", isPrimary: true },
+  { segment: "/sources", label: "Sources", iconName: "Library", isPrimary: false },
+  { segment: "/signals", label: "Signals", iconName: "Compass", isPrimary: false },
   { segment: "/toolkit", label: "Perspectives", iconName: "Library", isPrimary: false },
 ]
 

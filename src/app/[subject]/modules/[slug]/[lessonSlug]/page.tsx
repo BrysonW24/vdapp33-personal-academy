@@ -8,6 +8,7 @@ import {
   getLesson,
 } from "@/lib/content"
 import { LessonTemplate } from "@/components/academy/lesson/LessonTemplate"
+import { buildGuideRail } from "@/lib/guide-rail"
 
 export async function generateStaticParams() {
   return getSubjects().flatMap((s) =>
@@ -43,12 +44,30 @@ export default async function LessonPage({
   const lesson = getLesson(subjectSlug, lessonSlug)
   if (!subject || !mod || !lesson) notFound()
 
+  const guideRail = buildGuideRail({
+    entity: { kind: "subject", slug: subjectSlug, name: subject.name },
+    whyThisMatters: `${lesson.title} is part of ${mod.title}. Use it to sharpen one idea enough that you can retrieve it, explain it simply, and notice it in the world.`,
+    nextAction: {
+      href: lesson.nextLesson
+        ? `/${subjectSlug}/modules/${mod.slug}/${lesson.nextLesson}`
+        : `/${subjectSlug}/projects`,
+      label: lesson.nextLesson ? "Continue to the next lesson" : "Apply this in a project",
+      description: lesson.nextLesson
+        ? "Keep momentum while the concept is fresh. Sequencing matters more than collecting isolated insights."
+        : "You have reached the edge of this lesson chain, so turn the idea into action through a subject project.",
+    },
+    applyPrompt: lesson.exercise,
+    debatePrompt: `If you had to challenge this lesson, where would you look for edge cases, competing explanations, or limits to the model?`,
+    truthPrompt: `Before you internalize this lesson completely, test it against the ${subject.name} truth stack and a real example outside the page.`,
+  })
+
   return (
     <LessonTemplate
       lesson={lesson}
       module={mod}
       subjectSlug={subjectSlug}
       subjectName={subject.name}
+      guideRail={guideRail}
     />
   )
 }

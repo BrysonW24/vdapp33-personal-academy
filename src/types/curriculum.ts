@@ -20,6 +20,8 @@ export type EntitySectionKey =
   | "tools"
   | "toolkit"
   | "dayInLife"
+  | "sources"
+  | "signals"
   | "simulation"
 
 export const SUBJECT_GROUP_LABELS: Record<string, string> = {

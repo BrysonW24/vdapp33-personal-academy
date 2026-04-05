@@ -1,0 +1,128 @@
+{
+  "slug": "consciousness",
+  "kind": "topic",
+  "title": "Consciousness Signals",
+  "summary": "Consciousness is a deep signal because it sits at the boundary of neuroscience, philosophy, medicine, and machine intelligence. It asks what subjective experience is, how it arises, and what kinds of systems can have it.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Neural correlates of consciousness remain a core research target",
+          "summary": "Researchers continue to map brain activity patterns associated with awareness, attention, and reportability.",
+          "whyItMatters": "This is one of the main bridges between subjective experience and measurable biology.",
+          "entities": ["neuroscience", "brain-imaging", "consciousness"]
+        },
+        {
+          "name": "Comparisons between major theories remain active",
+          "summary": "Global Workspace Theory, Integrated Information Theory, and higher-order theories continue to compete as explanatory frameworks.",
+          "whyItMatters": "The field is still trying to decide what a satisfactory theory must explain.",
+          "entities": ["global-workspace", "integrated-information-theory", "philosophy-of-mind"]
+        },
+        {
+          "name": "Consciousness questions are now central in AI discourse",
+          "summary": "As AI systems become more capable, people increasingly ask what would count as machine experience or sentience.",
+          "whyItMatters": "The debate affects ethics, design, and the language used around advanced systems.",
+          "entities": ["artificial-intelligence", "ai-safety"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Neuroscience tool builders",
+          "summary": "Companies producing imaging, sensing, and brain-recording tools enable more precise study of awareness.",
+          "whyItMatters": "The field depends on instrumentation as much as theory.",
+          "entities": ["neuroscience", "medical-technology"]
+        },
+        {
+          "name": "Psychedelic research organisations",
+          "summary": "Research groups and companies exploring altered states contribute to the study of perception and selfhood.",
+          "whyItMatters": "Altered states can reveal how consciousness changes under different conditions.",
+          "entities": ["psychedelic-research", "mental-health"]
+        },
+        {
+          "name": "AI labs",
+          "summary": "Frontier model developers have become important players in consciousness-related debate.",
+          "whyItMatters": "Their systems force practical questions about cognition, agency, and experience.",
+          "entities": ["artificial-intelligence", "machine-learning"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Universities with strong philosophy of mind programs",
+          "summary": "Academic departments keep the conceptual side of the field alive and rigorous.",
+          "whyItMatters": "The hard problem of consciousness is partly a conceptual problem, not just an empirical one.",
+          "entities": ["philosophy", "neuroscience"]
+        },
+        {
+          "name": "Brain and behavior research institutes",
+          "summary": "Institutes focused on cognition and neural dynamics provide the empirical backbone of the field.",
+          "whyItMatters": "They produce the measurements that theories must eventually explain.",
+          "entities": ["neuroscience", "cognitive-science"]
+        },
+        {
+          "name": "Medical ethics boards",
+          "summary": "Hospitals and ethics committees confront consciousness questions in coma, anesthesia, and end-of-life care.",
+          "whyItMatters": "Clinical decisions often depend on how much awareness a patient may still have.",
+          "entities": ["health", "ethics"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "David Chalmers",
+          "summary": "Best known for framing the hard problem of consciousness.",
+          "whyItMatters": "He gives the field one of its most enduring questions.",
+          "entities": ["philosophy", "consciousness"]
+        },
+        {
+          "name": "Anil Seth",
+          "summary": "A leading voice on perception, predictive processing, and the constructed self.",
+          "whyItMatters": "He helps connect neuroscience to everyday experience.",
+          "entities": ["neuroscience", "philosophy-of-mind"]
+        },
+        {
+          "name": "Christof Koch",
+          "summary": "A major figure in consciousness science and theoretical neuroscience.",
+          "whyItMatters": "He represents the experimental search for mechanisms of awareness.",
+          "entities": ["neuroscience", "integrated-information-theory"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "What counts as consciousness?",
+          "summary": "There is no final agreement on whether consciousness means wakefulness, awareness, selfhood, or subjective feeling.",
+          "whyItMatters": "Definitions change what can be tested and what kinds of systems count as conscious.",
+          "entities": ["consciousness", "philosophy"]
+        },
+        {
+          "name": "Can consciousness be measured directly?",
+          "summary": "Researchers debate whether the field can ever infer experience from outside observation with confidence.",
+          "whyItMatters": "This affects medicine, ethics, and AI interpretation alike.",
+          "entities": ["neuroscience", "medical-ethics"]
+        },
+        {
+          "name": "Could machines be conscious?",
+          "summary": "There is active disagreement about whether advanced AI could have genuine subjective experience.",
+          "whyItMatters": "The answer would reshape technology ethics and public policy.",
+          "entities": ["artificial-intelligence", "ethics"]
+        }
+      ]
+    }
+  ]
+}

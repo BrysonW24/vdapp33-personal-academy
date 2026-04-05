@@ -1,0 +1,93 @@
+{
+  "slug": "diplomat",
+  "kind": "role",
+  "title": "Diplomat Truth Stack",
+  "summary": "Diplomats negotiate, interpret, represent, and manage relationships across states, institutions, and cultures under conditions of uncertainty and constraint.",
+  "starterPack": [
+    "Start with DFAT, the UN, and treaty records.",
+    "Read Chatham House and Lowy Institute analysis.",
+    "Watch UN Web TV to see diplomacy in motion."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The operating logic of diplomacy.",
+      "items": [
+        { "name": "Diplomacy is structured communication", "kind": "principle", "description": "It serves national or institutional interests through negotiation." },
+        { "name": "Timing and framing matter", "kind": "principle", "description": "How and when a message is delivered changes outcomes." },
+        { "name": "Compromise is normal", "kind": "principle", "description": "Most outcomes involve tradeoffs, not perfect agreement." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The official sources for foreign policy and treaties.",
+      "items": [
+        { "name": "Australian Department of Foreign Affairs and Trade", "kind": "institution", "description": "Primary Australian foreign policy authority.", "link": "https://www.dfat.gov.au/" },
+        { "name": "United Nations", "kind": "institution", "description": "Global diplomatic system and treaty architecture.", "link": "https://www.un.org/" },
+        { "name": "UN Treaty Collection", "kind": "dataset", "description": "Primary international agreement records.", "link": "https://treaties.un.org/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Experienced voices on diplomacy and strategy.",
+      "items": [
+        { "name": "Chatham House", "kind": "institution", "description": "Serious international affairs analysis.", "link": "https://www.chathamhouse.org/" },
+        { "name": "Richard Haass", "kind": "person", "description": "Foreign policy and statecraft commentary.", "link": "https://www.cfr.org/expert/richard-haass" },
+        { "name": "Lowy Institute", "kind": "institution", "description": "Australian foreign policy analysis.", "link": "https://www.lowyinstitute.org/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The operating roles inside diplomacy.",
+      "items": [
+        { "name": "Foreign service officers", "kind": "person", "description": "The frontline diplomatic service.", "link": "https://www.dfat.gov.au/careers" },
+        { "name": "Consular officers", "kind": "person", "description": "Citizen assistance and crisis response.", "link": "https://www.dfat.gov.au/travel/consular-services" },
+        { "name": "Multilateral negotiators", "kind": "person", "description": "Cross-country bargaining and treaty work.", "link": "https://www.un.org/en/our-work" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The major homes of diplomatic work.",
+      "items": [
+        { "name": "DFAT", "kind": "institution", "description": "Australian foreign service and diplomacy.", "link": "https://www.dfat.gov.au/" },
+        { "name": "United Nations", "kind": "institution", "description": "Primary multilateral institution.", "link": "https://www.un.org/" },
+        { "name": "Embassies and missions", "kind": "institution", "description": "The day-to-day operating environment of diplomacy.", "link": "https://www.dfat.gov.au/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public writing worth trusting on diplomacy.",
+      "items": [
+        { "name": "Foreign Affairs", "kind": "publication", "description": "High-quality diplomacy and strategy essays.", "link": "https://www.foreignaffairs.com/" },
+        { "name": "The Interpreter", "kind": "publication", "description": "Lowy Institute analysis and commentary.", "link": "https://www.lowyinstitute.org/the-interpreter" },
+        { "name": "The Diplomat", "kind": "publication", "description": "Asia-Pacific focused foreign policy reporting.", "link": "https://thediplomat.com/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video and webcast sources on diplomacy.",
+      "items": [
+        { "name": "UN Web TV", "kind": "channel", "description": "Primary multilateral diplomacy coverage.", "link": "https://webtv.un.org/" },
+        { "name": "DFAT", "kind": "channel", "description": "Australian foreign policy content.", "link": "https://www.youtube.com/@dfataustralia" },
+        { "name": "Lowy Institute", "kind": "channel", "description": "Public diplomacy and strategy events.", "link": "https://www.youtube.com/@LowyInstitute" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "New pressures on diplomatic practice.",
+      "items": [
+        { "name": "AI misinformation", "kind": "tool", "description": "Generated content and political manipulation." },
+        { "name": "Climate diplomacy", "kind": "institution", "description": "Energy transition and emissions bargaining." },
+        { "name": "Great-power competition", "kind": "person", "description": "Alliance management and strategic rivalry." }
+      ]
+    }
+  ]
+}

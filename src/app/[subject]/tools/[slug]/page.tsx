@@ -8,6 +8,7 @@ import {
   getTool,
   getTools,
 } from "@/lib/content"
+import { buildGuideRail } from "@/lib/guide-rail"
 
 function humanize(value: string) {
   return value
@@ -71,6 +72,22 @@ export default async function ToolDetailPage({
     typeof tool.relatedProject === "string"
       ? getProject(subjectSlug, tool.relatedProject)
       : null
+  const guideRail = buildGuideRail({
+    entity: { kind: "subject", slug: subjectSlug, name: subject.name },
+    whyThisMatters: `${tool.name} is part of the operational layer around ${subject.name}. Tools matter when they sharpen judgment, speed up iteration, or expose how the field is really practiced.`,
+    nextAction: {
+      href: relatedProject
+        ? `/${subjectSlug}/projects/${relatedProject.slug}`
+        : `/${subjectSlug}/toolkit`,
+      label: relatedProject ? "See the related project" : "Open the toolkit",
+      description: relatedProject
+        ? "Use the tool inside a real project so it becomes part of your working model, not just a name you recognize."
+        : "If there is no related project here yet, connect the tool back to the subject's mental models.",
+    },
+    applyPrompt: `Decide what this tool helps you see, measure, model, or execute that would otherwise stay vague.`,
+    debatePrompt: `What are the limits of this tool, and where would trusting it too much distort your judgment?`,
+    truthPrompt: `Separate vendor framing from field reality by checking what primary users, institutions, and mature practitioners say about this tool.`,
+  })
 
   return (
     <div className="container mx-auto px-4 py-10 max-w-4xl">
@@ -222,6 +239,8 @@ export default async function ToolDetailPage({
           </Link>
         </div>
       )}
+
+      {guideRail}
     </div>
   )
 }

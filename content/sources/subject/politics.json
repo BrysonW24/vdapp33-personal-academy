@@ -1,0 +1,93 @@
+{
+  "slug": "politics",
+  "kind": "subject",
+  "title": "Politics Truth Stack",
+  "summary": "Politics is the study of power, institutions, public decision-making, legitimacy, and how societies organise collective life.",
+  "starterPack": [
+    "Start with Parliament, the AEC, and ABS.",
+    "Read Lowy Institute and Chatham House for interpretation.",
+    "Use primary records before commentary."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "Politics is structured conflict, legitimacy, and coordination under scarcity.",
+      "items": [
+        { "name": "Power is distributed", "kind": "principle", "description": "Institutions, incentives, and information shape outcomes." },
+        { "name": "Legitimacy matters", "kind": "principle", "description": "Rules only work when people accept them as valid." },
+        { "name": "Every decision has tradeoffs", "kind": "principle", "description": "Public choices create winners, losers, and second-order effects." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The official sources that anchor political reality.",
+      "items": [
+        { "name": "Parliament of Australia", "kind": "institution", "description": "Primary legislative and committee record.", "link": "https://www.aph.gov.au/" },
+        { "name": "Australian Electoral Commission", "kind": "institution", "description": "Election administration and official results.", "link": "https://www.aec.gov.au/" },
+        { "name": "Australian Bureau of Statistics", "kind": "dataset", "description": "Core demographic and social data.", "link": "https://www.abs.gov.au/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Analysts who explain politics with institutional seriousness.",
+      "items": [
+        { "name": "Chatham House", "kind": "institution", "description": "Policy analysis with strong institutional credibility.", "link": "https://www.chathamhouse.org/" },
+        { "name": "Lowy Institute", "kind": "institution", "description": "Australian lens on geopolitics and policy.", "link": "https://www.lowyinstitute.org/" },
+        { "name": "Anne Twomey", "kind": "person", "description": "Constitutional and institutional analysis.", "link": "https://www.sydney.edu.au/law/our-people/academic-staff/anne-twomey.html" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The people who make politics operate every day.",
+      "items": [
+        { "name": "Parliamentary staff", "kind": "person", "description": "Committee, briefing, and legislative support work.", "link": "https://www.aph.gov.au/About_Parliament/Employment" },
+        { "name": "Public servants", "kind": "person", "description": "Policy execution and administrative statecraft.", "link": "https://www.apsc.gov.au/" },
+        { "name": "Campaign managers", "kind": "person", "description": "Messaging, field work, and election operations.", "link": "https://www.aec.gov.au/Elections/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The structures where political power is formalised.",
+      "items": [
+        { "name": "Parliament", "kind": "institution", "description": "Representative lawmaking and scrutiny.", "link": "https://www.aph.gov.au/" },
+        { "name": "Cabinet and departments", "kind": "institution", "description": "Executive decision-making and policy coordination.", "link": "https://www.pmc.gov.au/" },
+        { "name": "Independent commissions", "kind": "institution", "description": "Oversight, accountability, and administrative checks.", "link": "https://www.aec.gov.au/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public writing that helps separate signal from noise.",
+      "items": [
+        { "name": "Inside Story", "kind": "publication", "description": "Deep Australian policy and politics coverage.", "link": "https://insidestory.org.au/" },
+        { "name": "The Conversation", "kind": "publication", "description": "Academic-informed public explanation.", "link": "https://theconversation.com/au" },
+        { "name": "The Guardian Australia - Politics", "kind": "publication", "description": "Fast-moving public affairs coverage.", "link": "https://www.theguardian.com/australia-news/politics" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video and webcast sources worth trusting.",
+      "items": [
+        { "name": "ABC News Politics", "kind": "channel", "description": "Accessible Australian political coverage.", "link": "https://www.youtube.com/@ABCNewsAustralia" },
+        { "name": "Lowy Institute events", "kind": "channel", "description": "Public policy and geopolitical discussion.", "link": "https://www.youtube.com/@LowyInstitute" },
+        { "name": "Parliament of Australia webcasts", "kind": "documentary", "description": "Primary-source political process viewing.", "link": "https://www.aph.gov.au/Visit_Parliament/Watch_Parliament" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Emerging pressures reshaping politics.",
+      "items": [
+        { "name": "AI-generated political communication", "kind": "tool", "description": "Disinformation, persuasion, and media manipulation." },
+        { "name": "Climate and industrial policy", "kind": "publication", "description": "Long-run economic and policy shifts." },
+        { "name": "Electoral reform", "kind": "institution", "description": "Voting rules, legitimacy, and representation." }
+      ]
+    }
+  ]
+}

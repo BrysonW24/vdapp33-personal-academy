@@ -1,0 +1,128 @@
+{
+  "slug": "physics",
+  "kind": "subject",
+  "title": "Physics Signals",
+  "summary": "Physics is the base layer of the academy because it sets the rules for matter, motion, energy, fields, and information. When physics shifts, engineering, computing, energy, and space all shift with it.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Quantum technologies are moving from theory into instruments",
+          "summary": "Quantum computing, sensing, and communication are pushing demand for better cryogenics, control electronics, and error correction.",
+          "whyItMatters": "Quantum physics is increasingly becoming an applied instrumentation problem.",
+          "entities": ["quantum", "IBM", "NIST"]
+        },
+        {
+          "name": "Fusion research is increasingly engineering-driven",
+          "summary": "The conversation around fusion is moving from pure plasma physics toward materials, magnets, control systems, and maintainability.",
+          "whyItMatters": "The frontier is now about turning physics into a reliable machine.",
+          "entities": ["energy", "ITER", "materials-science"]
+        },
+        {
+          "name": "Precision measurement is becoming more important",
+          "summary": "Atomic clocks, interferometry, and low-noise measurement systems are enabling better navigation, sensing, and scientific discovery.",
+          "whyItMatters": "The most important breakthroughs in physics often come from measuring reality more precisely.",
+          "entities": ["CERN", "Keysight Technologies", "physics"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "ASML",
+          "summary": "Controls the manufacturing edge of modern semiconductor physics through extreme ultraviolet lithography.",
+          "whyItMatters": "Chipmaking is one of the clearest applied physics signal chains in the world.",
+          "entities": ["physics", "materials-science"]
+        },
+        {
+          "name": "Keysight Technologies",
+          "summary": "Builds the test and measurement equipment that makes advanced electronics and lab work possible.",
+          "whyItMatters": "Measurement quality is the difference between guesswork and science.",
+          "entities": ["physics", "electrical-engineering"]
+        },
+        {
+          "name": "Oxford Instruments",
+          "summary": "Supplies precision scientific equipment used across labs, materials research, and cryogenic systems.",
+          "whyItMatters": "Precision tooling is the bridge between theory and usable science.",
+          "entities": ["physics", "quantum"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "CERN",
+          "summary": "The canonical home of modern particle physics and large-scale international collaboration.",
+          "whyItMatters": "It shows how big physics problems demand big coordinated systems.",
+          "entities": ["physics", "world-history"]
+        },
+        {
+          "name": "National Institute of Standards and Technology",
+          "summary": "Sets measurement standards that many fields quietly depend on.",
+          "whyItMatters": "Standards are the hidden rails of scientific truth.",
+          "entities": ["physics", "data-science"]
+        },
+        {
+          "name": "CSIRO",
+          "summary": "An Australian institution where physics, sensing, and applied research connect to industry.",
+          "whyItMatters": "It is one of the clearest bridges between basic science and useful implementation in Australia.",
+          "entities": ["physics", "aerospace", "robotics"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Albert Einstein",
+          "summary": "A symbol of first-principles thinking in physics and beyond.",
+          "whyItMatters": "He remains the archetype for deep conceptual clarity.",
+          "entities": ["physics", "quantum"]
+        },
+        {
+          "name": "Richard Feynman",
+          "summary": "A model for intuition, clarity, and explanation.",
+          "whyItMatters": "His style of thinking is a useful template for technical depth without sludge.",
+          "entities": ["physics", "aerospace"]
+        },
+        {
+          "name": "Donna Strickland",
+          "summary": "Represents the experimental and optical frontier of modern physics.",
+          "whyItMatters": "Her work shows how precision optics can change the practical frontier.",
+          "entities": ["physics", "energy"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "What counts as explanation?",
+          "summary": "Physicists still argue about whether mathematical elegance, empirical prediction, or causal intuition matters most.",
+          "whyItMatters": "This shapes what we treat as truth in science.",
+          "entities": ["physics", "philosophy"]
+        },
+        {
+          "name": "Can fusion become commercially meaningful?",
+          "summary": "The question is no longer whether fusion is scientifically interesting; it is whether it can become a reliable machine.",
+          "whyItMatters": "The answer will affect energy strategy and long-range infrastructure planning.",
+          "entities": ["energy", "materials-science"]
+        },
+        {
+          "name": "How should physics use AI?",
+          "summary": "There is active debate over whether AI will accelerate discovery or simply flood the field with noise.",
+          "whyItMatters": "Scientific throughput may change, but trust in the results still has to be earned.",
+          "entities": ["artificial-intelligence", "data-science"]
+        }
+      ]
+    }
+  ]
+}

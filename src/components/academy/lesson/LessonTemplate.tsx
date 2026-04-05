@@ -1,4 +1,5 @@
 import Link from "next/link"
+import type { ReactNode } from "react"
 import {
   AlertTriangle,
   ArrowRight,
@@ -27,6 +28,7 @@ interface LessonTemplateProps {
   basePath?: string
   toolkitHref?: string
   breadcrumbs?: BreadcrumbSegment[]
+  guideRail?: ReactNode
 }
 
 function humanize(value: string) {
@@ -45,6 +47,7 @@ export function LessonTemplate({
   basePath,
   toolkitHref,
   breadcrumbs,
+  guideRail,
 }: LessonTemplateProps) {
   const base = basePath ?? (subjectSlug ? `/${subjectSlug}/modules` : "/modules")
   const hasQuiz = Boolean(lesson.quiz?.length)
@@ -209,6 +212,8 @@ export function LessonTemplate({
           </Button>
         </div>
       )}
+
+      {guideRail ? guideRail : null}
     </div>
   )
 }

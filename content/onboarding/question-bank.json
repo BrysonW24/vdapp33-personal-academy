@@ -1,0 +1,1433 @@
+{
+  "steps": [
+    {
+      "slug": "purpose",
+      "title": "Why are you here?",
+      "description": "Turn broad curiosity into a clear starting path by identifying the kind of value you want this academy to create for you.",
+      "questions": [
+        {
+          "id": "primary_outcome",
+          "prompt": "What do you most want from Personal Academy right now?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "primary_outcome_reality",
+              "label": "Build a stronger model of reality",
+              "description": "You want clarity, first principles, and better mental models.",
+              "weights": {
+                "reality-foundations": 4,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "quantum-science", "world-history"],
+                "topics": ["philosophy", "consciousness"],
+                "roles": ["astronaut"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "primary_outcome_civilization",
+              "label": "Understand how civilization actually works",
+              "description": "You care about systems, infrastructure, technology, and operations.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 4,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["robotics", "aerospace", "energy-systems"],
+                "topics": ["artificial-intelligence", "communication"],
+                "roles": ["robotics-engineer", "ai-researcher"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "primary_outcome_people",
+              "label": "Navigate people, institutions, and society better",
+              "description": "You want judgment around politics, incentives, communication, and group behavior.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 1,
+                "human-systems": 4,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["politics", "commercial-property-management", "public-administration"],
+                "topics": ["economics", "relationships", "communication"],
+                "roles": ["diplomat", "intelligence-analyst"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "primary_outcome_depth",
+              "label": "Become wiser and more inwardly grounded",
+              "description": "You want depth, reflection, and a clearer relationship to yourself.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 2,
+                "meaning-and-depth": 4,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["psychology", "religion-belief-systems"],
+                "topics": ["consciousness", "meditation", "love", "self-knowledge"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "primary_outcome_action",
+              "label": "Move toward real-world action and synthesis",
+              "description": "You want the academy to shape practical identity, projects, and outcomes.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 2,
+                "human-systems": 2,
+                "meaning-and-depth": 1,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["physics", "robotics", "finance-accounting"],
+                "topics": ["investing", "economics", "money"],
+                "roles": ["astronaut", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 7
+              }
+            }
+          ]
+        },
+        {
+          "id": "desired_outcome",
+          "prompt": "What would make this system feel genuinely valuable to you?",
+          "type": "multi-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "desired_outcome_clarity",
+              "label": "I can explain the world more clearly",
+              "description": "You want clearer reasoning and fewer blind spots.",
+              "weights": {
+                "reality-foundations": 4,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "world-history"],
+                "topics": ["philosophy"],
+                "roles": ["astronaut"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "desired_outcome_decisions",
+              "label": "I can make better decisions in work and life",
+              "description": "You want the academy to improve judgment, not just knowledge.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 1,
+                "human-systems": 3,
+                "meaning-and-depth": 2,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["politics", "commercial-property-management"],
+                "topics": ["economics", "communication"],
+                "roles": ["diplomat", "intelligence-analyst"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "desired_outcome_projects",
+              "label": "I can connect knowledge to real projects",
+              "description": "You want the system to produce practical capability.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 4,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems", "software-engineering"],
+                "topics": ["artificial-intelligence", "investing"],
+                "roles": ["robotics-engineer", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "desired_outcome_grounded",
+              "label": "I can feel more coherent and grounded",
+              "description": "You want a calmer and more integrated relationship to life and learning.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 2,
+                "meaning-and-depth": 4,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["psychology", "religion-belief-systems"],
+                "topics": ["consciousness", "meditation", "love"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "capability",
+      "title": "What do you already know?",
+      "description": "Map what feels familiar so the first blueprint starts at the right level.",
+      "questions": [
+        {
+          "id": "familiar_domains",
+          "prompt": "Which areas already feel familiar to you?",
+          "type": "multi-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "familiar_science",
+              "label": "Science and math",
+              "description": "You already have some comfort with formal reasoning.",
+              "weights": {
+                "reality-foundations": 3,
+                "engineered-civilization": 2,
+                "human-systems": 0,
+                "meaning-and-depth": 1,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "quantum-science", "chemistry"],
+                "topics": ["energy", "artificial-intelligence"],
+                "roles": ["ai-researcher"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "familiar_business",
+              "label": "Business and money",
+              "description": "You already think in terms of value, risk, and tradeoffs.",
+              "weights": {
+                "reality-foundations": 0,
+                "engineered-civilization": 1,
+                "human-systems": 3,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["finance-accounting", "commercial-property-management"],
+                "topics": ["money", "investing", "economics"],
+                "roles": ["entrepreneur-startup-founder", "diplomat"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "familiar_humanities",
+              "label": "Politics and history",
+              "description": "You already have some map of institutions, conflict, and change over time.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 3,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["politics"],
+                "topics": ["world-history", "ancient-history", "modern-history"],
+                "roles": ["intelligence-analyst", "diplomat"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "familiar_technology",
+              "label": "Technology and software",
+              "description": "You already know some of the technical stack of modern systems.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 4,
+                "human-systems": 1,
+                "meaning-and-depth": 0,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["software-engineering", "robotics", "cybersecurity"],
+                "topics": ["artificial-intelligence"],
+                "roles": ["robotics-engineer", "ai-researcher"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "familiar_reflection",
+              "label": "Reflection and inner work",
+              "description": "You already value introspection, awareness, and personal coherence.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 1,
+                "meaning-and-depth": 4,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["psychology", "religion-belief-systems"],
+                "topics": ["consciousness", "meditation", "self-knowledge"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": "study_structure",
+          "prompt": "How do you prefer your study to feel?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "study_structure_strict",
+              "label": "Strict structure and clear steps",
+              "description": "You want the path to be explicit and ordered.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics"],
+                "topics": ["philosophy"],
+                "roles": ["astronaut"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "study_structure_mix",
+              "label": "A mix of structure and freedom",
+              "description": "You want enough guidance to stay moving, but still room to explore.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 2,
+                "human-systems": 2,
+                "meaning-and-depth": 2,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["robotics", "politics"],
+                "topics": ["communication", "artificial-intelligence"],
+                "roles": ["ai-researcher", "diplomat"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "adaptive",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "study_structure_open",
+              "label": "Open exploration",
+              "description": "You want discovery and breadth before strict sequencing.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["world-history", "philosophy"],
+                "topics": ["emotions", "love", "meditation"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "study_structure_doing",
+              "label": "Learning by doing",
+              "description": "You want the academy to behave like an operating environment.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 3,
+                "human-systems": 2,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems", "commercial-property-management"],
+                "topics": ["investing", "economics"],
+                "roles": ["robotics-engineer", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "style",
+      "title": "How do you learn best?",
+      "description": "Capture your cognitive style so the system can adapt the shape of guidance.",
+      "questions": [
+        {
+          "id": "learning_preference",
+          "prompt": "Which learning style feels most natural to you?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "learning_preference_concepts",
+              "label": "Concepts and theory first",
+              "description": "You like the model before the application.",
+              "weights": {
+                "reality-foundations": 4,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "quantum-science"],
+                "topics": ["philosophy"],
+                "roles": ["astronaut"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "learning_preference_examples",
+              "label": "Examples and case studies",
+              "description": "You want reality to anchor the concepts.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 2,
+                "human-systems": 3,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["politics", "commercial-property-management"],
+                "topics": ["world-history", "economics"],
+                "roles": ["diplomat", "intelligence-analyst"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "adaptive",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "learning_preference_diagrams",
+              "label": "Diagrams, maps, and structure",
+              "description": "You like systems rendered visually and spatially.",
+              "weights": {
+                "reality-foundations": 3,
+                "engineered-civilization": 3,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["robotics", "aerospace"],
+                "topics": ["artificial-intelligence", "energy"],
+                "roles": ["robotics-engineer", "pilot"],
+                "mode": "guided",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 6
+              }
+            },
+            {
+              "id": "learning_preference_projects",
+              "label": "Projects and practical exercises",
+              "description": "You learn best when the work demands action.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 4,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["software-engineering", "energy-systems", "robotics"],
+                "topics": ["investing"],
+                "roles": ["robotics-engineer", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "learning_preference_reflection",
+              "label": "Reflection and synthesis",
+              "description": "You want space to integrate ideas and notice what changes in your thinking.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 2,
+                "meaning-and-depth": 4,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["psychology", "philosophy"],
+                "topics": ["consciousness", "meditation", "self-knowledge"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            }
+          ]
+        },
+        {
+          "id": "learning_depth",
+          "prompt": "What level of depth do you want when the system teaches you something new?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "learning_depth_fast",
+              "label": "Fast orientation first",
+              "description": "Give me the core idea quickly so I can move.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 2,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems"],
+                "topics": ["artificial-intelligence"],
+                "roles": ["robotics-engineer"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "micro",
+                "structure": "structured",
+                "weeklyHours": 6
+              }
+            },
+            {
+              "id": "learning_depth_balanced",
+              "label": "Balanced explanation",
+              "description": "Give me enough detail to understand, but keep it usable.",
+              "weights": {
+                "reality-foundations": 3,
+                "engineered-civilization": 2,
+                "human-systems": 2,
+                "meaning-and-depth": 2,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["physics", "politics"],
+                "topics": ["world-history", "economics"],
+                "roles": ["astronaut", "diplomat"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "learning_depth_full",
+              "label": "Deep, full treatment",
+              "description": "I want the long explanation, including edge cases and tradeoffs.",
+              "weights": {
+                "reality-foundations": 4,
+                "engineered-civilization": 2,
+                "human-systems": 2,
+                "meaning-and-depth": 3,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["quantum-science", "philosophy"],
+                "topics": ["consciousness", "religion-belief-systems"],
+                "roles": ["ai-researcher"],
+                "mode": "guided",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 7
+              }
+            }
+          ]
+        },
+        {
+          "id": "learning_reflection",
+          "prompt": "Describe a time you learned something deeply and it changed how you saw the world.",
+          "type": "reflection",
+          "required": false,
+          "placeholder": "A few sentences is enough. Optional, but useful for tuning the blueprint voice."
+        }
+      ]
+    },
+    {
+      "slug": "rhythm",
+      "title": "How much time and rhythm can you sustain?",
+      "description": "Use realistic weekly availability to shape a path you will actually keep using.",
+      "questions": [
+        {
+          "id": "weekly_hours",
+          "prompt": "How much learning time can you realistically sustain each week?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "weekly_hours_under_two",
+              "label": "Under 2 hours",
+              "description": "Keep it light and frictionless.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 1,
+                "meaning-and-depth": 2,
+                "role-synthesis": 0
+              },
+              "signals": {
+                "subjects": ["psychology"],
+                "topics": ["meditation", "self-knowledge"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 1
+              }
+            },
+            {
+              "id": "weekly_hours_two_to_five",
+              "label": "2 to 5 hours",
+              "description": "Enough for steady progress without overload.",
+              "weights": {
+                "reality-foundations": 3,
+                "engineered-civilization": 1,
+                "human-systems": 2,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "politics"],
+                "topics": ["world-history", "consciousness"],
+                "roles": ["astronaut", "diplomat"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "weekly_hours_five_to_ten",
+              "label": "5 to 10 hours",
+              "description": "You can sustain a serious path and a real project rhythm.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 3,
+                "human-systems": 2,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems", "commercial-property-management"],
+                "topics": ["artificial-intelligence", "investing"],
+                "roles": ["robotics-engineer", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "weekly_hours_ten_plus",
+              "label": "10+ hours",
+              "description": "You can run an intensive blueprint with deeper projects and reviews.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 3,
+                "human-systems": 2,
+                "meaning-and-depth": 1,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["robotics", "aerospace", "software-engineering"],
+                "topics": ["artificial-intelligence", "economics"],
+                "roles": ["ai-researcher", "robotics-engineer"],
+                "mode": "operator",
+                "intensity": "obsessive",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 12
+              }
+            }
+          ]
+        },
+        {
+          "id": "weekly_rhythm",
+          "prompt": "What rhythm would you actually keep using?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "weekly_rhythm_daily",
+              "label": "Short daily sessions",
+              "description": "A little every day keeps the path warm.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 3,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["philosophy", "psychology"],
+                "topics": ["meditation", "love"],
+                "roles": ["diplomat"],
+                "mode": "guided",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "weekly_rhythm_blocks",
+              "label": "A few longer sessions each week",
+              "description": "You prefer depth over frequency.",
+              "weights": {
+                "reality-foundations": 3,
+                "engineered-civilization": 2,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["physics", "robotics"],
+                "topics": ["artificial-intelligence"],
+                "roles": ["astronaut", "robotics-engineer"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "weekly_rhythm_explore",
+              "label": "Flexible exploratory sessions",
+              "description": "You want to follow curiosity without a rigid calendar.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 1,
+                "human-systems": 2,
+                "meaning-and-depth": 3,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["world-history", "consciousness"],
+                "topics": ["emotions", "meditation", "self-knowledge"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "weekly_rhythm_project",
+              "label": "Scheduled deep work blocks with projects",
+              "description": "You want the system to drive concrete output.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 4,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["software-engineering", "energy-systems", "commercial-property-management"],
+                "topics": ["investing", "communication"],
+                "roles": ["entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            }
+          ]
+        },
+        {
+          "id": "application_speed",
+          "prompt": "How quickly do you want the system to move you into application?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "application_speed_quickly",
+              "label": "Very quickly",
+              "description": "I want projects and real-world use right away.",
+              "weights": {
+                "reality-foundations": 0,
+                "engineered-civilization": 3,
+                "human-systems": 1,
+                "meaning-and-depth": 0,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems"],
+                "topics": ["artificial-intelligence", "investing"],
+                "roles": ["robotics-engineer", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "application_speed_after_foundations",
+              "label": "After some foundation work",
+              "description": "I want enough structure before I start applying it.",
+              "weights": {
+                "reality-foundations": 4,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "world-history"],
+                "topics": ["philosophy"],
+                "roles": ["astronaut"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "application_speed_when_ready",
+              "label": "Only once I understand the map",
+              "description": "I want depth before I move to application.",
+              "weights": {
+                "reality-foundations": 3,
+                "engineered-civilization": 0,
+                "human-systems": 1,
+                "meaning-and-depth": 3,
+                "role-synthesis": 0
+              },
+              "signals": {
+                "subjects": ["philosophy", "psychology"],
+                "topics": ["consciousness", "meditation"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "application_speed_both",
+              "label": "I want both theory and application from the start",
+              "description": "Give me the model and the use-case together.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 3,
+                "human-systems": 2,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["robotics", "politics", "commercial-property-management"],
+                "topics": ["communication", "economics"],
+                "roles": ["diplomat", "robotics-engineer"],
+                "mode": "guided",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roles",
+      "title": "What roles pull at you?",
+      "description": "Use real-world role interest to bias the blueprint toward synthesis and application.",
+      "questions": [
+        {
+          "id": "role_interest",
+          "prompt": "Which roles are most interesting to you right now?",
+          "type": "multi-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "role_interest_astronaut",
+              "label": "Astronaut",
+              "description": "Systems, endurance, technical competence, and frontier living.",
+              "weights": {
+                "reality-foundations": 3,
+                "engineered-civilization": 2,
+                "human-systems": 0,
+                "meaning-and-depth": 1,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["physics", "aerospace", "rocket-science"],
+                "topics": ["consciousness", "philosophy"],
+                "roles": ["astronaut", "pilot"],
+                "mode": "guided",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 7
+              }
+            },
+            {
+              "id": "role_interest_ai",
+              "label": "AI Researcher",
+              "description": "Mathematics, experimentation, and frontier systems.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 4,
+                "human-systems": 0,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["quantum-science", "software-engineering", "robotics"],
+                "topics": ["artificial-intelligence", "consciousness"],
+                "roles": ["ai-researcher", "robotics-engineer"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "role_interest_robotics",
+              "label": "Robotics Engineer",
+              "description": "Hardware, software, control, and real-world systems.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 4,
+                "human-systems": 0,
+                "meaning-and-depth": 0,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["robotics", "software-engineering", "energy-systems"],
+                "topics": ["artificial-intelligence"],
+                "roles": ["robotics-engineer"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "role_interest_pilot",
+              "label": "Pilot",
+              "description": "Judgment, systems thinking, and operating in uncertainty.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 3,
+                "human-systems": 1,
+                "meaning-and-depth": 0,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["aerospace", "physics"],
+                "topics": ["energy"],
+                "roles": ["pilot", "astronaut"],
+                "mode": "guided",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 6
+              }
+            },
+            {
+              "id": "role_interest_intelligence",
+              "label": "Intelligence Analyst",
+              "description": "Ambiguity, evidence, judgment, and geopolitical patterns.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 4,
+                "meaning-and-depth": 1,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["politics", "world-history"],
+                "topics": ["economics", "communication"],
+                "roles": ["intelligence-analyst", "diplomat"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "role_interest_diplomat",
+              "label": "Diplomat",
+              "description": "Negotiation, statecraft, language, and long-horizon power.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 4,
+                "meaning-and-depth": 2,
+                "role-synthesis": 3
+              },
+              "signals": {
+                "subjects": ["politics", "world-history", "law"],
+                "topics": ["relationships", "communication", "philosophy"],
+                "roles": ["diplomat", "intelligence-analyst"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "role_interest_founder",
+              "label": "Entrepreneur / Startup Founder",
+              "description": "Building things from nothing and making tradeoffs in the real world.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 2,
+                "human-systems": 3,
+                "meaning-and-depth": 1,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["commercial-property-management", "finance-accounting", "software-engineering"],
+                "topics": ["money", "investing", "economics"],
+                "roles": ["entrepreneur-startup-founder", "ai-researcher"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            }
+          ]
+        },
+        {
+          "id": "role_lens",
+          "prompt": "Which role lens sounds most useful for your life right now?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "role_lens_technical",
+              "label": "Technical and systems-oriented",
+              "description": "You want engineering-style thinking and real mechanisms.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 4,
+                "human-systems": 0,
+                "meaning-and-depth": 0,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems"],
+                "topics": ["artificial-intelligence"],
+                "roles": ["robotics-engineer"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "role_lens_strategic",
+              "label": "Strategic and people-oriented",
+              "description": "You want judgment around incentives, power, and coordination.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 4,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["politics", "commercial-property-management"],
+                "topics": ["economics", "communication"],
+                "roles": ["diplomat", "intelligence-analyst"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "role_lens_reflective",
+              "label": "Reflective and meaning-oriented",
+              "description": "You want introspection, coherence, and clarity of values.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 1,
+                "meaning-and-depth": 4,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["psychology", "philosophy"],
+                "topics": ["consciousness", "meditation", "love"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "role_lens_practical",
+              "label": "Practical and action-oriented",
+              "description": "You want the system to push you toward real output.",
+              "weights": {
+                "reality-foundations": 0,
+                "engineered-civilization": 3,
+                "human-systems": 2,
+                "meaning-and-depth": 0,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["software-engineering", "finance-accounting"],
+                "topics": ["money", "investing"],
+                "roles": ["entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "worldview",
+      "title": "What kind of worldview are you building?",
+      "description": "Clarify the deeper direction so the academy can prioritize the right truths and the right cadence.",
+      "questions": [
+        {
+          "id": "worldview_direction",
+          "prompt": "Which broad direction matters most to you?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "worldview_direction_reality",
+              "label": "Reality and first principles",
+              "description": "You want a cleaner, truer model of how the world works.",
+              "weights": {
+                "reality-foundations": 4,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 2,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "quantum-science"],
+                "topics": ["philosophy", "world-history"],
+                "roles": ["astronaut"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "worldview_direction_civilization",
+              "label": "Civilization, institutions, and systems",
+              "description": "You want to understand how large human systems are built and managed.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 4,
+                "human-systems": 2,
+                "meaning-and-depth": 0,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems", "public-administration"],
+                "topics": ["economics", "communication"],
+                "roles": ["robotics-engineer", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            },
+            {
+              "id": "worldview_direction_people",
+              "label": "People, politics, and power",
+              "description": "You want to read behavior, institutions, and incentives more accurately.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 4,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["politics", "commercial-property-management"],
+                "topics": ["relationships", "money", "world-history"],
+                "roles": ["diplomat", "intelligence-analyst"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "worldview_direction_depth",
+              "label": "Meaning, consciousness, and wisdom",
+              "description": "You want coherence, self-knowledge, and a more thoughtful inner life.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 2,
+                "meaning-and-depth": 4,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["psychology", "philosophy"],
+                "topics": ["consciousness", "meditation", "love"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "worldview_direction_synthesis",
+              "label": "A synthesis of all of the above",
+              "description": "You want breadth that becomes practical capability.",
+              "weights": {
+                "reality-foundations": 2,
+                "engineered-civilization": 2,
+                "human-systems": 2,
+                "meaning-and-depth": 2,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["physics", "robotics", "politics"],
+                "topics": ["artificial-intelligence", "economics", "communication"],
+                "roles": ["astronaut", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 7
+              }
+            }
+          ]
+        },
+        {
+          "id": "truth_sources",
+          "prompt": "What kind of truth sources do you trust most?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "id": "truth_sources_primary",
+              "label": "Primary sources, papers, and direct evidence",
+              "description": "You value source quality and directness.",
+              "weights": {
+                "reality-foundations": 4,
+                "engineered-civilization": 1,
+                "human-systems": 1,
+                "meaning-and-depth": 1,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["physics", "quantum-science"],
+                "topics": ["philosophy"],
+                "roles": ["ai-researcher"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 4
+              }
+            },
+            {
+              "id": "truth_sources_institutions",
+              "label": "Established institutions and serious practitioners",
+              "description": "You trust lived expertise and long-standing institutions.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 2,
+                "human-systems": 3,
+                "meaning-and-depth": 1,
+                "role-synthesis": 2
+              },
+              "signals": {
+                "subjects": ["politics", "commercial-property-management"],
+                "topics": ["world-history", "economics"],
+                "roles": ["diplomat", "intelligence-analyst"],
+                "mode": "guided",
+                "intensity": "balanced",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 5
+              }
+            },
+            {
+              "id": "truth_sources_interpreters",
+              "label": "Writers and interpreters with judgment",
+              "description": "You want depth and synthesis from trusted explainers.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 0,
+                "human-systems": 1,
+                "meaning-and-depth": 4,
+                "role-synthesis": 1
+              },
+              "signals": {
+                "subjects": ["philosophy", "psychology"],
+                "topics": ["consciousness", "meditation", "love"],
+                "roles": ["diplomat"],
+                "mode": "explorer",
+                "intensity": "gentle",
+                "sessionStyle": "micro",
+                "structure": "adaptive",
+                "weeklyHours": 3
+              }
+            },
+            {
+              "id": "truth_sources_results",
+              "label": "Real-world results and operational usefulness",
+              "description": "You care most about what works in practice.",
+              "weights": {
+                "reality-foundations": 1,
+                "engineered-civilization": 3,
+                "human-systems": 1,
+                "meaning-and-depth": 0,
+                "role-synthesis": 4
+              },
+              "signals": {
+                "subjects": ["robotics", "energy-systems", "software-engineering"],
+                "topics": ["investing", "communication"],
+                "roles": ["robotics-engineer", "entrepreneur-startup-founder"],
+                "mode": "operator",
+                "intensity": "ambitious",
+                "sessionStyle": "deep",
+                "structure": "structured",
+                "weeklyHours": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

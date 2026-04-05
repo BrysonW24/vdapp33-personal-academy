@@ -1,0 +1,26 @@
+{
+  "slug": "human-systems",
+  "name": "Human Systems",
+  "summary": "A path for people who want to understand people, institutions, incentives, politics, economics, and the behavior of groups over time.",
+  "thesis": "Build judgment about how humans coordinate, compete, persuade, and govern.",
+  "fitSignals": [
+    "Cares about politics, economics, relationships, and communication",
+    "Wants to understand incentives and power",
+    "Likes historical examples and social context",
+    "Is interested in how decisions move through institutions"
+  ],
+  "defaults": {
+    "coreSubjects": ["politics", "commercial-property-management"],
+    "supportingTopics": ["economics", "relationships"],
+    "roles": ["diplomat"],
+    "mode": "guided",
+    "reviewRhythm": "Regular weekly study with one applied reflection session",
+    "milestoneTemplate": "Explain a real human-system problem using {coreSubject}, {supportingTopic}, and the {role} lens",
+    "weeklyCadencePresets": {
+      "gentle": "2 reflective sessions and one short review block per week",
+      "balanced": "3 to 4 sessions per week with one applied case study",
+      "ambitious": "5 sessions per week with ongoing note synthesis",
+      "obsessive": "Daily reading, synthesis, and decision analysis"
+    }
+  }
+}

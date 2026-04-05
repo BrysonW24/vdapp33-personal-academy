@@ -1,0 +1,93 @@
+{
+  "slug": "physics",
+  "kind": "subject",
+  "title": "Physics Truth Stack",
+  "summary": "Physics is the study of matter, energy, motion, fields, and the deep rules that govern the observable universe.",
+  "starterPack": [
+    "Start with the Feynman Lectures for fundamentals.",
+    "Use NIST and APS for authoritative references.",
+    "Watch PBS Space Time for intuition and big-picture context."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The core laws and habits of thought that make physics coherent.",
+      "items": [
+        { "name": "Conservation laws", "kind": "principle", "description": "Energy, momentum, and charge are conserved in closed systems." },
+        { "name": "Measurement and falsifiability", "kind": "principle", "description": "A good physical model must be testable against reality." },
+        { "name": "Scale changes behaviour", "kind": "principle", "description": "Different regimes can require different theories or approximations." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Standards, journals, and labs closest to the source of truth.",
+      "items": [
+        { "name": "National Institute of Standards and Technology", "kind": "institution", "description": "Measurement standards, constants, and precision science.", "link": "https://www.nist.gov/" },
+        { "name": "CERN", "kind": "institution", "description": "Large-scale experimental particle physics.", "link": "https://home.cern/" },
+        { "name": "American Physical Society", "kind": "institution", "description": "Major professional body and publication ecosystem.", "link": "https://www.aps.org/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "People who explain physics with discipline and judgement.",
+      "items": [
+        { "name": "Richard Feynman", "kind": "person", "description": "Brilliant foundational clarity and physical intuition.", "link": "https://www.feynmanlectures.caltech.edu/" },
+        { "name": "Sean Carroll", "kind": "person", "description": "Careful public explanation of cosmology and fundamental physics.", "link": "https://www.preposterousuniverse.com/" },
+        { "name": "Sabine Hossenfelder", "kind": "person", "description": "Candid critique of physics culture and claims.", "link": "https://www.youtube.com/@SabineHossenfelder" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The people turning physics into real-world work.",
+      "items": [
+        { "name": "Experimental physicists", "kind": "person", "description": "Design experiments and extract signals from noisy data.", "link": "https://www.aps.org/careers/" },
+        { "name": "Applied physicists", "kind": "person", "description": "Work on sensors, imaging, materials, and devices.", "link": "https://www.nist.gov/" },
+        { "name": "Metrology specialists", "kind": "person", "description": "Maintain the standards that underpin exact measurement.", "link": "https://www.nist.gov/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The homes where serious physics is taught, tested, and scaled.",
+      "items": [
+        { "name": "National labs", "kind": "institution", "description": "Large-scale experimental and applied physics capability.", "link": "https://www.energy.gov/laboratories/national-labs" },
+        { "name": "University physics departments", "kind": "institution", "description": "Core research and training institutions.", "link": "https://www.aps.org/programs/education/" },
+        { "name": "Standards bodies", "kind": "institution", "description": "Formal homes of physical measurement standards.", "link": "https://www.nist.gov/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Trusted publications that translate current physics work well.",
+      "items": [
+        { "name": "Quanta Magazine", "kind": "publication", "description": "High-quality science journalism with strong physics coverage.", "link": "https://www.quantamagazine.org/" },
+        { "name": "Physics Today", "kind": "publication", "description": "Professional overview of developments in the field.", "link": "https://physicstoday.aip.org/" },
+        { "name": "Nature Physics", "kind": "journal", "description": "Research and perspective from a leading journal.", "link": "https://www.nature.com/nphys/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Useful video channels for building intuition without losing rigor.",
+      "items": [
+        { "name": "PBS Space Time", "kind": "channel", "description": "Conceptual physics and cosmology explanations.", "link": "https://www.youtube.com/@pbsspacetime" },
+        { "name": "Veritasium", "kind": "channel", "description": "Clear demonstrations and big-picture scientific thinking.", "link": "https://www.youtube.com/@veritasium" },
+        { "name": "Sixty Symbols", "kind": "channel", "description": "University-backed physics explanations.", "link": "https://www.youtube.com/@sixtysymbols" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Where the field is moving next.",
+      "items": [
+        { "name": "Quantum information", "kind": "dataset", "description": "Information processing at quantum scale." },
+        { "name": "Gravitational wave astronomy", "kind": "publication", "description": "New ways of observing the universe." },
+        { "name": "Fusion and plasma physics", "kind": "institution", "description": "Long-horizon energy and confinement research." }
+      ]
+    }
+  ]
+}

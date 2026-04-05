@@ -1,0 +1,93 @@
+{
+  "slug": "philosophy",
+  "kind": "topic",
+  "title": "Philosophy Truth Stack",
+  "summary": "Philosophy examines knowledge, reality, ethics, meaning, reasoning, and the assumptions behind every other discipline.",
+  "starterPack": [
+    "Start with SEP, IEP, and Oxford Philosophy.",
+    "Read Plato, Aristotle, Kant, and Nussbaum in context.",
+    "Use Aeon and BBC In Our Time for public synthesis."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The core questions philosophy keeps asking.",
+      "items": [
+        { "name": "Make assumptions visible", "kind": "principle", "description": "Clarity begins by naming what is being assumed." },
+        { "name": "Truth, value, and meaning matter", "kind": "principle", "description": "These questions cannot be avoided in any serious life." },
+        { "name": "Arguments should be judged well", "kind": "principle", "description": "Clarity, validity, and consequence all matter." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The reference sources that define the field.",
+      "items": [
+        { "name": "Stanford Encyclopedia of Philosophy", "kind": "publication", "description": "Best open reference for philosophical topics.", "link": "https://plato.stanford.edu/" },
+        { "name": "Internet Encyclopedia of Philosophy", "kind": "publication", "description": "Accessible and reliable reference.", "link": "https://iep.utm.edu/" },
+        { "name": "Oxford Philosophy", "kind": "institution", "description": "Major academic department.", "link": "https://www.philosophy.ox.ac.uk/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "People who interpret philosophy with authority.",
+      "items": [
+        { "name": "Martha Nussbaum", "kind": "person", "description": "Ethics, political philosophy, and emotion.", "link": "https://www.law.uchicago.edu/faculty/nussbaum" },
+        { "name": "Peter Singer", "kind": "person", "description": "Ethics and applied moral reasoning.", "link": "https://petersinger.info/" },
+        { "name": "Kwame Anthony Appiah", "kind": "person", "description": "Identity, ethics, and cosmopolitanism.", "link": "https://www.appiah.net/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People applying philosophy in the world.",
+      "items": [
+        { "name": "Academic philosophers", "kind": "person", "description": "Work on logic, ethics, metaphysics, and mind.", "link": "https://www.philosophy.ox.ac.uk/" },
+        { "name": "Ethicists in policy and technology", "kind": "person", "description": "Apply philosophical reasoning in institutions.", "link": "https://www.unesco.org/en/ethics" },
+        { "name": "Legal theorists", "kind": "person", "description": "Use philosophy in law and public reasoning.", "link": "https://law.uchicago.edu/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The major homes of philosophy.",
+      "items": [
+        { "name": "Oxford Philosophy", "kind": "institution", "description": "Leading department and research community.", "link": "https://www.philosophy.ox.ac.uk/" },
+        { "name": "Stanford Encyclopedia of Philosophy", "kind": "publication", "description": "Reference infrastructure for the field.", "link": "https://plato.stanford.edu/" },
+        { "name": "The Philosopher's Annual", "kind": "publication", "description": "Curated overview of important papers.", "link": "http://www.philosophersannual.org/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public writing that keeps the field alive.",
+      "items": [
+        { "name": "Aeon", "kind": "publication", "description": "Long-form essays on ideas.", "link": "https://aeon.co/" },
+        { "name": "Philosophy Now", "kind": "publication", "description": "Readable magazine on philosophical questions.", "link": "https://philosophynow.org/" },
+        { "name": "BBC In Our Time", "kind": "publication", "description": "Strong public discussion archive.", "link": "https://www.bbc.co.uk/programmes/b006qykl" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video sources for philosophical thinking.",
+      "items": [
+        { "name": "Wireless Philosophy", "kind": "channel", "description": "Short academic philosophy explainers.", "link": "https://www.youtube.com/@WiPhi" },
+        { "name": "CrashCourse Philosophy", "kind": "channel", "description": "Broad introductory coverage.", "link": "https://www.youtube.com/@crashcourse" },
+        { "name": "BBC Ideas", "kind": "channel", "description": "Accessible ideas content.", "link": "https://www.youtube.com/@bbcideas" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Modern issues shaping philosophy now.",
+      "items": [
+        { "name": "AI ethics", "kind": "tool", "description": "Machine intelligence and moral responsibility." },
+        { "name": "Digital personhood", "kind": "institution", "description": "Rights and identity in digital systems." },
+        { "name": "Bioethics", "kind": "publication", "description": "Genetic engineering and human enhancement." }
+      ]
+    }
+  ]
+}

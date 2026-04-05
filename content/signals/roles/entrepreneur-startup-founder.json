@@ -1,0 +1,128 @@
+{
+  "slug": "entrepreneur-startup-founder",
+  "kind": "role",
+  "title": "Entrepreneur / Startup Founder Signals",
+  "summary": "Founders operate where product, market, capital, hiring, and timing collide. The signal is about what people are actually paying for, what is becoming possible, and which teams can move faster than the market expects.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "AI-native companies are changing startup economics",
+          "summary": "Small teams can now produce more output, faster, with fewer people than before.",
+          "whyItMatters": "The cost structure of starting a company is changing.",
+          "entities": ["artificial-intelligence", "software-engineering", "data-science"]
+        },
+        {
+          "name": "Distribution is often the moat",
+          "summary": "Founders increasingly win by controlling distribution, not just building features.",
+          "whyItMatters": "Getting attention and access can matter more than the raw product idea.",
+          "entities": ["communication", "marketing", "investing"]
+        },
+        {
+          "name": "Capital discipline is back",
+          "summary": "Many teams are moving from growth-at-all-costs to clearer paths to profitability.",
+          "whyItMatters": "The market is rewarding sustainable companies more than hype-first stories.",
+          "entities": ["finance-accounting", "investing", "economics"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Y Combinator",
+          "summary": "A defining institution for startup formation and founder thinking.",
+          "whyItMatters": "It sets the rhythm for how many new companies are imagined and funded.",
+          "entities": ["entrepreneur-startup-founder", "investing"]
+        },
+        {
+          "name": "Stripe",
+          "summary": "A reference point for product-led infrastructure and founder execution.",
+          "whyItMatters": "It shows what a durable platform company can look like.",
+          "entities": ["software-engineering", "finance-accounting"]
+        },
+        {
+          "name": "Atlassian",
+          "summary": "A useful model for product discipline and scaled software business building.",
+          "whyItMatters": "It is a strong example of Australian software ambition at scale.",
+          "entities": ["software-engineering", "commercial-property-management"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Startmate",
+          "summary": "A strong Australian founder and startup ecosystem entry point.",
+          "whyItMatters": "It is a key gateway into the local startup network.",
+          "entities": ["entrepreneur-startup-founder", "commercial-property-management"]
+        },
+        {
+          "name": "Techstars",
+          "summary": "A major global accelerator and founder support network.",
+          "whyItMatters": "It is one of the recurring launch pads for new startups.",
+          "entities": ["entrepreneur-startup-founder", "investing"]
+        },
+        {
+          "name": "Universities and incubators",
+          "summary": "Still a major source of technical talent, ideas, and company formation.",
+          "whyItMatters": "Most startups still depend on the institutional pipeline around them.",
+          "entities": ["data-science", "artificial-intelligence"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Brian Chesky",
+          "summary": "A strong example of product, brand, and marketplace thinking.",
+          "whyItMatters": "He represents founder-led product clarity at scale.",
+          "entities": ["entrepreneur-startup-founder", "communication"]
+        },
+        {
+          "name": "Melanie Perkins",
+          "summary": "A major Australian founder and execution benchmark.",
+          "whyItMatters": "She is one of the clearest local signals for ambitious company building.",
+          "entities": ["entrepreneur-startup-founder", "design"]
+        },
+        {
+          "name": "Reid Hoffman",
+          "summary": "A visible thinker on networks, companies, and scaling.",
+          "whyItMatters": "He is a useful public voice on how startups actually grow.",
+          "entities": ["entrepreneur-startup-founder", "investing"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "VC-backed growth versus bootstrapping",
+          "summary": "Founders still argue about speed, dilution, and independence.",
+          "whyItMatters": "The funding model changes the company you end up building.",
+          "entities": ["investing", "finance-accounting"]
+        },
+        {
+          "name": "What is the moat in an AI world?",
+          "summary": "The answer may be product, distribution, data, or trust rather than raw model access.",
+          "whyItMatters": "Founders need to understand where defensibility really lives.",
+          "entities": ["artificial-intelligence", "communication"]
+        },
+        {
+          "name": "How much should founders optimise for revenue early?",
+          "summary": "The market is divided between growth-first and profitability-first strategies.",
+          "whyItMatters": "Cash discipline can extend runway and change survival odds.",
+          "entities": ["finance-accounting", "economics"]
+        }
+      ]
+    }
+  ]
+}

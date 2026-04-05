@@ -1,0 +1,128 @@
+{
+  "slug": "robotics",
+  "kind": "subject",
+  "title": "Robotics Signals",
+  "summary": "Robotics is the signal layer for machines that sense, think, and act in the physical world. It combines mechanics, electronics, control, software, and increasingly AI into systems that either work in reality or fail immediately.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Embodied AI is bringing language models into physical systems",
+          "summary": "Robots are increasingly being built around perception, planning, and task execution layers informed by modern AI.",
+          "whyItMatters": "The frontier is shifting from clever demos to useful physical agency.",
+          "entities": ["artificial-intelligence", "software-engineering", "robotics-engineer"]
+        },
+        {
+          "name": "Warehouse and logistics robotics remain a core adoption area",
+          "summary": "Automated picking, mobile robots, and fleet orchestration are mature use cases with clear ROI.",
+          "whyItMatters": "This is one of the strongest examples of robotics actually paying for itself.",
+          "entities": ["supply-chain-logistics", "Amazon", "robotics-engineer"]
+        },
+        {
+          "name": "Field robotics is expanding beyond factories",
+          "summary": "Mining, agriculture, inspection, and defense are pushing robots into unstructured environments.",
+          "whyItMatters": "Robotics matters most when the environment stops being neat.",
+          "entities": ["aerospace", "energy", "commercial-property-management"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Boston Dynamics",
+          "summary": "The public face of advanced locomotion and robotics showpieces.",
+          "whyItMatters": "It sets the imagination for what dynamic robots might become.",
+          "entities": ["robotics", "physics"]
+        },
+        {
+          "name": "ABB",
+          "summary": "A major industrial robotics company with deep manufacturing reach.",
+          "whyItMatters": "Industrial automation is still the largest working robotics market.",
+          "entities": ["robotics", "mechanical-engineering"]
+        },
+        {
+          "name": "Intuitive Surgical",
+          "summary": "A flagship example of high-value medical robotics.",
+          "whyItMatters": "It proves that robotics can create enormous value when reliability is high.",
+          "entities": ["robotics", "health"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "CSIRO Data61",
+          "summary": "One of the strongest Australian institutions in field robotics and autonomy.",
+          "whyItMatters": "It links research to real-world robotics deployment.",
+          "entities": ["robotics", "aerospace"]
+        },
+        {
+          "name": "MIT CSAIL",
+          "summary": "A major research home for robotics, perception, and machine intelligence.",
+          "whyItMatters": "It remains one of the most influential robotics research environments.",
+          "entities": ["robotics", "artificial-intelligence"]
+        },
+        {
+          "name": "Carnegie Mellon Robotics Institute",
+          "summary": "One of the most influential robotics institutions in the world.",
+          "whyItMatters": "Its work shapes both academic and industrial robotics direction.",
+          "entities": ["robotics", "systems-engineering"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Rodney Brooks",
+          "summary": "A foundational voice in practical robotics and embodied intelligence.",
+          "whyItMatters": "He keeps the field grounded in what actually works.",
+          "entities": ["robotics", "artificial-intelligence"]
+        },
+        {
+          "name": "Marc Raibert",
+          "summary": "Associated with dynamic legged robots and modern robotics demos.",
+          "whyItMatters": "He is a strong reference point for advanced locomotion.",
+          "entities": ["robotics", "physics"]
+        },
+        {
+          "name": "Daniela Rus",
+          "summary": "A major robotics researcher working across autonomy and machine intelligence.",
+          "whyItMatters": "She represents the bridge between algorithms and machines in the world.",
+          "entities": ["robotics", "data-science"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "When do robots become economically useful outside demos?",
+          "summary": "Many systems are impressive in controlled settings but struggle in unstructured environments.",
+          "whyItMatters": "Utility and reliability determine adoption, not spectacle.",
+          "entities": ["robotics", "supply-chain-logistics"]
+        },
+        {
+          "name": "Will humanoids be practical or symbolic?",
+          "summary": "The form factor is exciting, but utility depends on cost, reliability, and task fit.",
+          "whyItMatters": "This debate will shape the next wave of investment and research.",
+          "entities": ["robotics", "artificial-intelligence"]
+        },
+        {
+          "name": "How much autonomy is enough?",
+          "summary": "Teams still debate the right balance between teleoperation, supervision, and full autonomy.",
+          "whyItMatters": "The answer changes safety, labor, and system design.",
+          "entities": ["robotics-engineer", "public-administration"]
+        }
+      ]
+    }
+  ]
+}
