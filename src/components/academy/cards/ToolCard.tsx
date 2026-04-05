@@ -32,9 +32,10 @@ export function ToolCard({
   subjectSlug,
   basePath = "/tools",
 }: ToolCardProps) {
+  const progressSubjectSlug = tool.sourceMeta?.sourceSlug ?? subjectSlug
   const hasViewed = useProgress((state) =>
-    subjectSlug
-      ? (state.subjects[subjectSlug]?.viewedTools ?? []).includes(tool.slug)
+    progressSubjectSlug
+      ? (state.subjects[progressSubjectSlug]?.viewedTools ?? []).includes(tool.slug)
       : state.viewedTools.includes(tool.slug)
   )
 

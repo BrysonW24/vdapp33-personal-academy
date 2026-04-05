@@ -1,0 +1,25 @@
+{
+  "slug": "robotics-engineer",
+  "title": "What being a Robotics Engineer actually involves",
+  "summary": "Robotics engineering is not about building humanoid robots that walk and talk. Most of the field is about making machines that do specific, useful things reliably in environments where humans either cannot go, should not go, or simply cannot keep up. That means mining robots that navigate underground tunnels autonomously, warehouse systems that pick and pack thousands of orders per hour, surgical robots that give surgeons sub-millimetre precision, and agricultural machines that spray only the weeds and leave the crops alone.\n\nThe work is deeply cross-disciplinary. In a single week, you might write a motion planning algorithm in C++ or Python, debug a sensor fusion pipeline that merges LiDAR, cameras, and IMU data, tune a PID controller to stop a robotic arm from overshooting its target, design a PCB for a custom sensor mount, and then go out to a test site to watch your robot fail in a way the simulation never predicted. The gap between simulation and reality — the sim-to-real problem — is one of the defining challenges of the field.\n\nWhat makes robotics engineering distinct from pure software engineering is that your code has physical consequences. A bug in a web application shows an error message. A bug in a robot controller can send a 200-kilogram arm through a wall, crash a drone into a building, or strand an autonomous vehicle in a ditch. This physicality demands a different engineering discipline: rigorous testing, defensive programming, deep understanding of the hardware you are controlling, and a healthy respect for what can go wrong when software meets the real world.",
+  "coreWork": [
+    "Sensor integration — combining LiDAR, cameras, IMUs, GPS, and encoders into a coherent perception pipeline",
+    "Control systems — designing and tuning controllers (PID, MPC, impedance control) that make actuators do what you want",
+    "Software architecture — building modular, real-time robotic software stacks using ROS 2, C++, and Python",
+    "Testing in real environments — deploying robots in the field and closing the sim-to-real gap through iterative testing",
+    "Motion planning — computing collision-free paths through cluttered or dynamic environments",
+    "Systems integration — making mechanical, electrical, and software subsystems work together as a single machine",
+    "Safety engineering — designing fail-safes, emergency stops, and operational boundaries for machines that move in human spaces"
+  ],
+  "frontierPull": "Robotics is where abstract AI becomes physical capability. The field is at an inflection point: foundation models are giving robots the ability to understand open-ended instructions, simulation environments are closing the gap with reality, and hardware costs have dropped enough that small teams can build capable machines. The generation of robotics engineers working now will be the ones who determine whether robots become as common as smartphones — useful, reliable, and embedded in daily life — or remain expensive, fragile tools confined to factory floors.",
+  "signals": [
+    "Sensor fusion and perception",
+    "Control theory and real-time systems",
+    "ROS 2 and robotic middleware",
+    "Simultaneous localisation and mapping (SLAM)",
+    "Machine learning for robotics",
+    "Mechatronics and hardware integration",
+    "Simulation and digital twins",
+    "Safety-critical software development"
+  ]
+}

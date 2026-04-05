@@ -1,0 +1,26 @@
+{
+  "slug": "diplomat",
+  "title": "What being a Diplomat actually involves",
+  "summary": "Diplomacy is not cocktail parties. It is the slow, painstaking work of building and maintaining relationships between nations so that disagreements can be resolved without force. Most of a diplomat's time is spent writing — cables back to headquarters, talking points for ministers, position papers for negotiations, reporting on political developments in the host country. The writing is precise because a misplaced word in a communique can shift a negotiation or cause a diplomatic incident.\n\nThe core of the work is representation and negotiation. You represent your government's interests in a foreign country or at international organisations, which means you need to understand your own government's policy positions deeply while simultaneously understanding the host country's politics, culture, economics, and security concerns. You spend years learning languages, building networks of contacts, and developing the kind of judgement that lets you read a room, anticipate objections, and find the narrow band of outcomes that all parties can accept.\n\nWhat makes diplomacy distinctive is the time horizon and the stakes. A trade negotiation might take three years. A peace process might take a decade. The relationships you build in your first posting might matter twenty years later when you are negotiating a security agreement. Unlike most professions, your failures can mean people die — a failed negotiation can lead to conflict, a botched consular case can leave a citizen stranded, a misread of a government's intentions can lead to a strategic surprise. The work requires patience, cultural intelligence, precise communication, and the ability to advance your country's interests while maintaining enough trust that the other side keeps talking.",
+  "coreWork": [
+    "Writing diplomatic cables and reporting on political, economic, and security developments in the host country",
+    "Negotiating bilateral and multilateral agreements — trade deals, security pacts, environmental protocols",
+    "Providing consular services — assisting citizens abroad, processing visas, handling emergencies",
+    "Analysing host country policy and advising headquarters on implications for national interests",
+    "Building and maintaining relationships with government officials, civil society, media, and business leaders",
+    "Representing the government at official events, ceremonies, and international forums",
+    "Coordinating with other government agencies (defence, trade, intelligence) on cross-cutting issues",
+    "Managing embassy operations — staff, budgets, security, property"
+  ],
+  "frontierPull": "Diplomacy operates in systems of power and persuasion that unfold over decades. You work at the intersection of politics, economics, law, culture, and military force, trying to advance your country's interests in a world where every other country is doing the same thing. The rise of China, climate change, AI governance, cyber conflict, and the fragmentation of the rules-based international order are creating diplomatic challenges that have no precedent. The diplomats working these issues now are shaping the international system that will define the next century.",
+  "signals": [
+    "International relations and geopolitics",
+    "Negotiation and conflict resolution",
+    "Foreign language proficiency",
+    "Policy analysis and cable writing",
+    "Cross-cultural communication",
+    "Consular operations",
+    "Multilateral institution dynamics",
+    "Protocol and statecraft"
+  ]
+}

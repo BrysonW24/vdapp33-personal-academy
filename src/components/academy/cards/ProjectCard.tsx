@@ -53,9 +53,12 @@ export function ProjectCard({
   subjectSlug,
   basePath = "/projects",
 }: ProjectCardProps) {
+  const progressSubjectSlug = project.sourceMeta?.sourceSlug ?? subjectSlug
   const isComplete = useProgress((state) =>
-    subjectSlug
-      ? (state.subjects[subjectSlug]?.completedProjects ?? []).includes(project.slug)
+    progressSubjectSlug
+      ? (state.subjects[progressSubjectSlug]?.completedProjects ?? []).includes(
+          project.slug
+        )
       : state.completedProjects.includes(project.slug)
   )
 

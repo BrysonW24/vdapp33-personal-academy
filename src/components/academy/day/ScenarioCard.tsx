@@ -1,10 +1,11 @@
 "use client"
 
+import Link from "next/link"
 import type { DayInLife } from "@/types/curriculum"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
-import { Building2, Laptop, Plane, Rocket, Store, Users } from "lucide-react"
+import { ArrowRight, Building2, Laptop, Plane, Rocket, Store, Users } from "lucide-react"
 
 const SETTING_ICONS = {
   building: Building2,
@@ -45,12 +46,14 @@ interface ScenarioCardProps {
   scenario: DayInLife
   isActive: boolean
   onClick: () => void
+  href?: string
 }
 
 export function ScenarioCard({
   scenario,
   isActive,
   onClick,
+  href,
 }: ScenarioCardProps) {
   const Icon = getSettingIcon(scenario)
 
@@ -70,9 +73,21 @@ export function ScenarioCard({
         <p className="text-xs text-muted-foreground line-clamp-2">
           {scenario.companySize}
         </p>
-        <Badge variant="secondary" className="text-xs">
-          {scenario.salary}
-        </Badge>
+        <div className="flex items-center justify-between gap-2">
+          <Badge variant="secondary" className="text-xs">
+            {scenario.salary}
+          </Badge>
+          {href && (
+            <Link
+              href={href}
+              className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Full page
+              <ArrowRight className="h-3 w-3" />
+            </Link>
+          )}
+        </div>
       </CardContent>
     </Card>
   )

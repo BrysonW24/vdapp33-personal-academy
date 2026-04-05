@@ -1,0 +1,106 @@
+{
+  "slug": "seed-stage-founder",
+  "title": "A Day as a Seed-Stage Startup Founder",
+  "setting": "Early-stage SaaS startup, Sydney NSW, operating from a small co-working office with a remote team across Australia.",
+  "companySize": "Seed-stage startup (9 employees: 4 product and engineering, 2 design and operations, 2 sales and customer success, 1 founder/CEO)",
+  "description": "Priya Nair is the founder and CEO of an early-stage software startup that helps small professional services firms manage client onboarding and compliance tasks. She co-founded the company after five years in product management and has spent the last 18 months turning an idea into a paid product. The company has three anchor customers, limited runway, and a small team working from a co-working space and from home across Sydney and Melbourne.",
+  "salary": "$100,000 - $180,000 AUD (founder salary varies widely at seed stage; equity is the real upside)",
+  "schedule": [
+    {
+      "time": "06:45",
+      "activity": "Review overnight support emails and product metrics",
+      "tools": ["Gmail", "Stripe", "PostHog"],
+      "note": "She checks sign-ups, churn, and one urgent customer issue before the day starts. Founders are often the first support escalation because customers judge the whole business by how quickly the founder responds."
+    },
+    {
+      "time": "07:30",
+      "activity": "Prepare for the weekly team stand-up",
+      "tools": ["Slack", "Linear", "Notion"],
+      "note": "The team is small enough that the founder still has context on every active project. Today's priorities are fixing onboarding drop-off, unblocking a customer implementation, and deciding whether to hire a second engineer."
+    },
+    {
+      "time": "08:00",
+      "activity": "Customer call with a prospective enterprise client",
+      "tools": ["Zoom", "Deck", "CRM"],
+      "note": "The prospect wants evidence the product can handle their approval workflow and security requirements. The meeting is part discovery, part sales, and part technical reassurance."
+    },
+    {
+      "time": "09:30",
+      "activity": "Work through product decisions with the lead engineer",
+      "tools": ["Figma", "Linear", "Miro"],
+      "note": "They debate whether to simplify the onboarding flow or add a requested integration. The founder has to balance customer urgency, engineering capacity, and the long-term product roadmap."
+    },
+    {
+      "time": "11:00",
+      "activity": "Update the investor memo and cash runway model",
+      "tools": ["Google Sheets", "Notion board deck"],
+      "note": "The company has 11 months of runway at the current burn. She updates the model before the monthly investor check-in so there are no surprises about hiring, revenue, or timeline risk."
+    },
+    {
+      "time": "12:00",
+      "activity": "Lunch with a potential senior hire",
+      "tools": ["Cafe meeting", "Phone"],
+      "note": "Recruiting is part sales, part judgement. The candidate has strong domain expertise, but the founder is also looking for speed, ownership, and comfort with ambiguity."
+    },
+    {
+      "time": "13:30",
+      "activity": "Handle customer onboarding and implementation issues",
+      "tools": ["Intercom", "Zendesk", "Google Meet"],
+      "note": "A new customer is stuck on a workflow setup step. The founder jumps in because removing friction now increases the odds of renewal later."
+    },
+    {
+      "time": "15:00",
+      "activity": "Fundraising outreach and follow-up",
+      "tools": ["Email", "LinkedIn", "Pitch deck"],
+      "note": "She sends updates to warm investor contacts, responds to diligence questions, and follows up on a meeting from last week. Fundraising is a full-time job layered on top of everything else."
+    },
+    {
+      "time": "16:00",
+      "activity": "Team check-in on operations, finance, and hiring",
+      "tools": ["Notion", "Shared spreadsheet"],
+      "note": "The founder reviews contractor spend, upcoming payroll, and the shortlist for the next hire. Small mistakes in cash planning become very visible very quickly at this stage."
+    },
+    {
+      "time": "17:30",
+      "activity": "End-of-day reflection and priority setting",
+      "tools": ["Notebook", "Notion"],
+      "note": "She writes down the three things that actually move the company forward tomorrow: close the enterprise trial, ship the onboarding fix, and schedule two more customer conversations."
+    },
+    {
+      "time": "19:00",
+      "activity": "Dinner while catching up on industry reading",
+      "tools": ["iPad", "RSS feed", "blog posts"],
+      "note": "The work never fully stops, but founders often keep learning after hours because the market, technology, and competitors keep moving."
+    }
+  ],
+  "responsibilities": [
+    "Set company vision, strategy, and priorities",
+    "Raise capital from investors, angels, venture funds, and government grants",
+    "Recruit and retain strong talent in a competitive market",
+    "Maintain product and technical oversight while the company is still small",
+    "Build customer relationships and close early pilot and paid deals",
+    "Manage cash flow, runway, and resource allocation decisions",
+    "Represent the company with customers, investors, and partners",
+    "Keep the team aligned through change, ambiguity, and pressure"
+  ],
+  "challenges": [
+    "Cash management is unforgiving because runway is finite and fundraising takes longer than expected",
+    "Balancing speed with quality when customers want immediate answers and the product is still maturing",
+    "Recruiting people who are willing to join a small company with limited structure and uncertain outcomes",
+    "The pressure of making high-stakes decisions with incomplete information every day",
+    "Founder burnout from carrying sales, product, hiring, and operations at the same time"
+  ],
+  "rewards": [
+    "Building something from nothing and seeing it solve a real customer problem",
+    "Direct ownership over the company direction and the pace of learning",
+    "Working closely with a small team where every contribution is visible",
+    "The intellectual challenge of solving commercial, product, and operational problems together",
+    "Potential for significant upside if the company succeeds"
+  ],
+  "careerPath": [
+    "Founder/CEO through seed and growth stages, with a path to acquisition, IPO, or long-term leadership",
+    "Alternative: become a repeat founder and start another company with the lessons learned",
+    "Alternative: move into venture capital, product leadership, or startup advisory work",
+    "Alternative: join a larger company in a senior commercial or product leadership role"
+  ]
+}

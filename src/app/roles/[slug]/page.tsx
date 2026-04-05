@@ -1,0 +1,99 @@
+import { notFound } from "next/navigation"
+import { BookOpen, Clock3, FolderKanban, Library, Map, Wrench } from "lucide-react"
+import { EntityStartHere } from "@/components/entities/EntityStartHere"
+import {
+  getRelatedSubjectsForEntity,
+  getRole,
+  getRoleDayInLifeScenarios,
+  getRoleOverview,
+  getRoleProjects,
+  getRoleStats,
+  getRoleTools,
+} from "@/lib/entities"
+
+export default async function RolePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
+  const role = getRole(slug)
+  const overview = getRoleOverview(slug)
+  if (!role || !overview) notFound()
+
+  const stats = getRoleStats(slug)
+  const relatedSubjects = getRelatedSubjectsForEntity("role", slug)
+  const projects = getRoleProjects(slug)
+  const tools = getRoleTools(slug)
+  const dayInLife = getRoleDayInLifeScenarios(slug)
+
+  return (
+    <EntityStartHere
+      entity={role}
+      basePath={`/roles/${slug}`}
+      stats={stats}
+      intro={{
+        title: overview.title,
+        summary: overview.summary,
+        secondaryTitle: "Core work",
+        secondaryBody: overview.coreWork,
+        chips: overview.signals,
+      }}
+      sections={[
+        {
+          href: `/roles/${slug}/blueprint`,
+          label: "Map",
+          title: "Blueprint",
+          description: "See the subject tracks that most directly shape this role.",
+          count: relatedSubjects.length,
+          icon: Map,
+        },
+        {
+          href: `/roles/${slug}/modules`,
+          label: "Training",
+          title: "Modules",
+          description: "Follow the curriculum most relevant to actually doing the work.",
+          count: stats.modules,
+          icon: BookOpen,
+        },
+        {
+          href: `/roles/${slug}/projects`,
+          label: "Practice",
+          title: "Projects",
+          description: "Use project work to make the role feel concrete instead of abstract.",
+          count: stats.projects,
+          icon: FolderKanban,
+        },
+        {
+          href: `/roles/${slug}/tools`,
+          label: "Ecosystem",
+          title: "Tools",
+          description: "Browse the platforms and instruments that show up around the work.",
+          count: stats.tools,
+          icon: Wrench,
+        },
+        {
+          href: `/roles/${slug}/toolkit`,
+          label: "Mental models",
+          title: "Toolkit",
+          description: "Curated frameworks pulled from the subjects most relevant to this role.",
+          count: stats.frameworks,
+          icon: Library,
+        },
+        {
+          href: `/roles/${slug}/day-in-the-life`,
+          label: "Applied reality",
+          title: "Day in the Life",
+          description: "Ground the role with realistic schedules, challenges, and rewards.",
+          count: stats.dayInLife,
+          icon: Clock3,
+        },
+      ]}
+      relatedSubjects={relatedSubjects}
+      featuredProject={projects[0] ?? null}
+      featuredTool={tools[0] ?? null}
+      featuredDayInLifeHref={`/roles/${slug}/day-in-the-life`}
+      featuredDayInLifeCount={dayInLife.length}
+    />
+  )
+}

@@ -1,5 +1,5 @@
 app_id: vdapp33-personal-academy
-last_updated: 2026-04-04
+last_updated: 2026-04-05
 
 surfaces:
   - route: /
@@ -58,3 +58,7 @@ supporting_capabilities:
   - name: Subject coverage
     status: live
     notes: Politics, Physics, Rocket Science, Aerospace, Quantum, and Commercial Property Management all have meaningful migrated depth inside the shared shell, while Robotics is a native Personal Academy subject with equivalent route coverage.
+
+  - name: Entity-aware navigation layer
+    status: live
+    notes: The navigation helper resolves subject, role, and topic kinds from path context so the shell can label content by entity type without changing the verified subject route family yet.

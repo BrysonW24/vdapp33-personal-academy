@@ -1,0 +1,54 @@
+{
+  "slug": "manufacturing-floor",
+  "title": "A Day as a Robotics Engineer on a Manufacturing Floor",
+  "setting": "Cochlear Limited, Lane Cove NSW (medical device manufacturing facility)",
+  "companySize": "Mid-large Australian manufacturer (4,000+ employees globally, 12-person automation engineering team at Lane Cove)",
+  "description": "David Nguyen is a Robotics Engineer at Cochlear's Lane Cove manufacturing facility, where the company produces cochlear implants and sound processors. His role is to design, program, and maintain the robotic systems that handle precision assembly, testing, and packaging of medical devices. The work demands extreme precision — cochlear implant components are measured in fractions of a millimetre, and any contamination or assembly error can mean a device fails inside a patient's body. David works with FANUC and Universal Robots arms, custom vision inspection systems, and collaborative robots (cobots) that work alongside human assemblers on the production line.",
+  "salary": "$100,000 - $150,000 AUD per year (plus superannuation and manufacturing sector benefits)",
+  "schedule": [
+    {"time": "07:00", "activity": "Arrive at the facility, check overnight production reports", "tools": ["MES (Manufacturing Execution System)", "email"], "note": "Review overnight shift production numbers and any robot fault logs. One UR10e cobot on Line 3 flagged a vision inspection failure rate spike — need to investigate."},
+    {"time": "07:30", "activity": "Walk the production floor, check robot stations", "tools": ["PPE: ESD smock, hairnet, safety glasses (cleanroom-adjacent areas)"], "note": "Visual check of all robotic stations. The FANUC LR Mate on the micro-assembly cell is running smoothly. The UR10e on Line 3 is paused — operators diverted to manual inspection while waiting for engineering."},
+    {"time": "08:00", "activity": "Diagnose the vision inspection failure on Line 3", "tools": ["Cognex In-Sight vision system", "Cognex In-Sight Explorer software", "calibration target"], "note": "The camera's lighting ring has dimmed unevenly — one LED segment is failing, causing inconsistent illumination and false rejects. Replace the ring light and recalibrate the vision inspection routine."},
+    {"time": "09:00", "activity": "Validate the fix with production quality team", "tools": ["Cognex In-Sight Explorer", "SPC (Statistical Process Control) charts", "sample parts"], "note": "Run 50 known-good and 10 known-bad parts through the repaired vision station. Confirm the false reject rate is back below 0.5%. Quality team signs off on returning the station to production."},
+    {"time": "09:30", "activity": "Program a new pick-and-place routine for a product variant", "tools": ["Universal Robots PolyScope", "UR teach pendant", "3D-printed fixture"], "note": "Cochlear is introducing a new sound processor model. Program the UR5e to pick the new housing from a tray and place it in the assembly fixture. The housing is slightly different in geometry — adjust the gripper fingers and update the waypoints."},
+    {"time": "11:00", "activity": "Integration testing of the new routine", "tools": ["UR teach pendant", "force/torque sensor", "test parts"], "note": "Run the new pick-and-place routine at reduced speed with test parts. Check that insertion force stays within limits (too much force could crack the housing), that the part seats correctly, and that cycle time meets the production target of 12 seconds."},
+    {"time": "12:00", "activity": "Lunch", "tools": [], "note": "Eat with the production team. Discuss their wishlist for automation improvements — the top request is automating a manual labelling step that is tedious and error-prone."},
+    {"time": "12:45", "activity": "Design review meeting for new automated test station", "tools": ["SolidWorks (CAD)", "Teams", "PowerPoint"], "note": "Present the mechanical and electrical design for a new end-of-line test station that will automate functional testing of finished sound processors. Review with quality engineering, production management, and the electrical team."},
+    {"time": "14:00", "activity": "Write robot program for the automated test station", "tools": ["FANUC ROBOGUIDE (offline programming)", "Karel programming language", "Python (data logging)"], "note": "Program the FANUC robot to pick a sound processor from the conveyor, place it in the test fixture, wait for the automated test sequence, then sort the part into pass or fail bins based on the test result."},
+    {"time": "15:30", "activity": "Preventive maintenance on FANUC micro-assembly robot", "tools": ["FANUC teach pendant", "torque wrench", "grease gun", "maintenance checklist"], "note": "Scheduled quarterly maintenance: check joint backlash, re-grease joints 1 through 6, verify repeatability with a dial indicator (spec: +/- 0.02 mm), inspect cable harness for wear."},
+    {"time": "16:30", "activity": "Update documentation and maintenance records", "tools": ["Confluence", "CMMS (Computerised Maintenance Management System)"], "note": "Log the vision system repair, the PM work on the FANUC, and the status of the new product variant programming. Update the robot maintenance schedule in the CMMS."},
+    {"time": "17:00", "activity": "End of day: handover notes for the night shift maintenance team", "tools": ["Email", "shift handover log"], "note": "Note that Line 3 is back in production, the new product variant routine is in testing (not yet released to production), and the FANUC PM is complete. Head home."}
+  ],
+  "responsibilities": [
+    "Program and maintain industrial robots (FANUC, Universal Robots) for precision medical device assembly and testing",
+    "Design and commission automated inspection systems using machine vision (Cognex, Keyence)",
+    "Troubleshoot robot faults and return production lines to operation under time pressure",
+    "Develop new robotic work cells for product introductions and process improvements",
+    "Perform preventive maintenance on robotic systems to maintain uptime and precision",
+    "Validate robot programs and inspection systems with the quality engineering team to meet medical device manufacturing standards (ISO 13485)",
+    "Train production operators to interact safely and effectively with robotic and cobot systems",
+    "Document all robot programs, maintenance activities, and change records for regulatory compliance"
+  ],
+  "challenges": [
+    "Working within strict medical device manufacturing regulations — every change requires validation, documentation, and quality sign-off",
+    "Maintaining sub-millimetre precision in robotic assembly while meeting production cycle time targets",
+    "Diagnosing intermittent faults (vision failures, gripper slips, communication dropouts) under pressure from production schedules",
+    "Balancing new project development with reactive maintenance — production line issues always take priority",
+    "Ensuring safe human-robot collaboration on the production floor, especially with cobots operating alongside manual assemblers",
+    "Keeping up with multiple robot platforms, vision systems, and programming environments simultaneously"
+  ],
+  "rewards": [
+    "Building machines that manufacture medical devices improving the hearing of thousands of people worldwide",
+    "The precision and craftsmanship required — robotic medical device manufacturing is among the most exacting in the field",
+    "Stable work-life balance compared to FIFO or field robotics roles — regular hours, urban location, no travel required",
+    "Tangible feedback: you can watch the robots you programmed produce real products on every shift",
+    "Developing deep expertise across mechanical design, robot programming, machine vision, and quality systems",
+    "Contributing to continuous improvement projects that meaningfully increase production efficiency and quality"
+  ],
+  "careerPath": [
+    "Junior Robotics Engineer → Robotics Engineer → Senior Automation Engineer → Automation Manager",
+    "Alternative: move to a system integrator (Robotic Automation, SAGE Automation) to design robotic cells for diverse industries",
+    "Alternative: specialise in machine vision and become a vision systems architect for high-precision manufacturing",
+    "Alternative: transition to a robot OEM (FANUC, ABB, Universal Robots) as an applications engineer or product specialist"
+  ]
+}

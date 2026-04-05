@@ -1,5 +1,5 @@
 app_id: vdapp33-personal-academy
-last_updated: 2026-04-04
+last_updated: 2026-04-05
 target_stage: internal-beta
 
 gates:
@@ -28,13 +28,14 @@ gates:
 
 blockers: []
 notes:
-  - Verified with `npm install`, `npm run build`, `npm run type-check`, and `npm run lint` on 2026-04-03.
-  - Re-verified on 2026-04-04 after migrating Commercial Property Management: `npm run build`, `npm run type-check`, and `npm run lint` passed; the `/commercial-property-management` route family returned `200`; and `vdapp46-jll-commercial-property-manager-academy` was moved into `archive/2026-04-04-personal-academy-migration-sources/`.
-  - `npm run type-check` depends on generated `.next/types`, so the clean verification order is build before type-check when the cache is stale.
-  - Smoke-checked home, all seven subject landings, representative lesson/project/tool routes, rich blueprint/toolkit/day-in-the-life paths, Robotics coverage, and the migrated Commercial Property Management subject.
-  - Founder-only route families such as `/{subject}/playbooks`, `/{subject}/systems`, and `/{subject}/learn` now return 404.
-  - No automated test suite exists yet; release confidence currently depends on build verification plus manual smoke coverage.
-  - Re-verified runtime stability on 2026-04-04 after pinning `next@15.5.14`, clearing stale build artifacts, and separating `zod` schemas from shared curriculum types.
-  - Confirmed `/favicon.ico`, representative `_next/static` assets, all seven subject route families, and representative deep lesson/project/tool pages now return `200` on the rebuilt server.
-  - Browser QA rerun on desktop and mobile found no console errors on `/`, confirmed the mobile nav opens correctly, and verified the homepage now uses consistent `Frontier direction` taxonomy.
-  - Archived the six Personal Academy migration source apps on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` and added a migration analysis document under `docs/`.
+  - 'Verified with `npm install`, `npm run build`, `npm run type-check`, and `npm run lint` on 2026-04-03.'
+  - 'Re-verified on 2026-04-04 after migrating Commercial Property Management: `npm run build`, `npm run type-check`, and `npm run lint` passed; the `/commercial-property-management` route family returned `200`; and `vdapp46-jll-commercial-property-manager-academy` was moved into `archive/2026-04-04-personal-academy-migration-sources/`.'
+  - '`npm run type-check` depends on generated `.next/types`, so the clean verification order is build before type-check when the cache is stale.'
+  - 'Smoke-checked home, all seven subject landings, representative lesson/project/tool routes, rich blueprint/toolkit/day-in-the-life paths, Robotics coverage, and the migrated Commercial Property Management subject.'
+  - 'Founder-only route families such as `/{subject}/playbooks`, `/{subject}/systems`, and `/{subject}/learn` now return 404.'
+  - 'No automated test suite exists yet; release confidence currently depends on build verification plus manual smoke coverage.'
+  - 'Lightweight smoke-test guidance now lives in `docs/testing-smoke.md` and should be used for subject-shell plus entity-aware content checks until a real automated suite is warranted.'
+  - 'Re-verified runtime stability on 2026-04-04 after pinning `next@15.5.14`, clearing stale build artifacts, and separating `zod` schemas from shared curriculum types.'
+  - 'Confirmed `/favicon.ico`, representative `_next/static` assets, all seven subject route families, and representative deep lesson/project/tool pages now return `200` on the rebuilt server.'
+  - 'Browser QA rerun on desktop and mobile found no console errors on `/`, confirmed the mobile nav opens correctly, and verified the homepage now uses consistent `Frontier direction` taxonomy.'
+  - 'Archived the six Personal Academy migration source apps on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` and added a migration analysis document under `docs/`.'

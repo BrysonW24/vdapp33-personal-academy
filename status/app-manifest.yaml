@@ -1,10 +1,10 @@
 id: vdapp33-personal-academy
 name: Personal Academy
-summary: Unified multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science.
+summary: Unified multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science, with an emerging entity-aware role/topic content layer.
 owner: unassigned
 phase: delivery
 release_stage: internal-beta
-last_audited: 2026-04-04
+last_audited: 2026-04-05
 
 audience:
   primary: Curious learners pursuing structured depth across personal interest subjects.
@@ -14,7 +14,7 @@ product:
   category: academy
   deployment_target: web
   business_model: internal-product
-  status_truth: "Shell implemented. All seven subjects now have meaningful academy coverage across Physics, Quantum, Aerospace, Robotics, Rocket Science, Politics, and Commercial Property Management."
+  status_truth: "Shell implemented. All seven subjects now have meaningful academy coverage across Physics, Quantum, Aerospace, Robotics, Rocket Science, Politics, and Commercial Property Management, and the worktree is introducing entity-aware role/topic content alongside the subject shell."
 
 surfaces:
   primary_routes:
@@ -51,3 +51,4 @@ notes:
   - Quantum and Aerospace now extend beyond their original migration baselines with authored Personal Academy content.
   - Robotics is a native Personal Academy subject with full route coverage.
   - Commercial Property Management was migrated from vdapp46 with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.
+  - Roles and topics now live under content/roles/ and content/topics/ as entity-aware content kinds; treat their route rollout as target-state work until verified.

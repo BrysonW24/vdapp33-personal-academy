@@ -1,0 +1,12 @@
+{
+  "slug": "philosophy",
+  "name": "Philosophy",
+  "kind": "topic",
+  "group": "mind",
+  "icon": "Lightbulb",
+  "color": "#A855F7",
+  "tagline": "The practice of questioning what we know, what we should do, and what it all means.",
+  "tier": "flagship",
+  "hasNews": false,
+  "order": 4
+}

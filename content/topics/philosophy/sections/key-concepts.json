@@ -1,0 +1,21 @@
+{
+  "slug": "key-concepts",
+  "title": "Core Concepts in Philosophy",
+  "body": "Philosophy is built around a small number of recurring questions. Epistemology asks what knowledge is and how we justify belief. Ethics asks what we ought to do. Metaphysics asks what exists and what reality is made of. Logic studies valid reasoning. Political philosophy asks what justice requires, and philosophy of mind asks what consciousness and personhood really are.\n\nThese branches stay relevant because they target questions that empirical science cannot settle on its own. Science can tell us how the world works, but it cannot by itself tell us what counts as evidence, what makes a claim justified, or which values should guide action. Those are philosophical problems.\n\nA second set of concepts concerns argument quality. A philosophical argument is not just a strong opinion. It is a chain of reasons, built from premises to conclusion, that can be tested for validity, soundness, hidden assumptions, and counterexamples. Fallacies, thought experiments, and objections are tools for stress-testing those arguments.\n\nPhilosophy also depends on a few classic lenses for ethics and action. Utilitarianism focuses on consequences, deontology focuses on duty and rules, virtue ethics focuses on character, and contractarian approaches focus on agreement and social order. None answers everything, but together they structure much of modern moral debate.",
+  "keyPoints": [
+    "Epistemology studies knowledge and justification",
+    "Ethics studies what we ought to do",
+    "Metaphysics studies what exists and the nature of reality",
+    "Logic studies valid inference and argument form",
+    "Political philosophy studies justice, authority, and rights",
+    "Philosophy of mind studies consciousness and personhood",
+    "Arguments must be assessed for validity and soundness",
+    "Major ethical frameworks include utilitarianism, deontology, and virtue ethics"
+  ],
+  "furtherReading": [
+    "'The Problems of Philosophy' by Bertrand Russell",
+    "'Justice' by Michael Sandel",
+    "'An Enquiry Concerning Human Understanding' by David Hume",
+    "'Groundwork of the Metaphysics of Morals' by Immanuel Kant"
+  ]
+}

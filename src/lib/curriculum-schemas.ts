@@ -1,5 +1,4 @@
 import { z } from "zod"
-import { SUBJECT_GROUPS } from "@/types/curriculum"
 
 const DeepDivePageSchema = z.object({
   slug: z.string(),
@@ -7,16 +6,131 @@ const DeepDivePageSchema = z.object({
   icon: z.string(),
 })
 
+const EntityReferenceSchema = z.object({
+  kind: z.enum(["subject", "role", "topic"]),
+  slug: z.string(),
+  label: z.string().optional(),
+})
+
+const EntitySectionConfigSchema = z.object({
+  enabled: z.boolean(),
+  label: z.string(),
+})
+
+const EntityNavigationSchema = z.object({
+  primary: z.array(
+    z.enum([
+      "blueprint",
+      "modules",
+      "projects",
+      "tools",
+      "toolkit",
+      "dayInLife",
+      "simulation",
+    ])
+  ),
+  secondary: z.array(
+    z.enum([
+      "blueprint",
+      "modules",
+      "projects",
+      "tools",
+      "toolkit",
+      "dayInLife",
+      "simulation",
+    ])
+  ),
+})
+
+const EntityVisualProfileSchema = z.object({
+  heroScene: z.string().optional(),
+  projectSurface: z.enum(["grid", "quest-board"]).optional(),
+  dashboard: z.string().optional(),
+  simulationStyle: z.string().optional(),
+})
+
+const CuratedContentRefSchema = z.object({
+  sourceKind: z.enum(["subject", "role", "topic"]).optional(),
+  sourceSlug: z.string(),
+  slug: z.string(),
+  alias: z.string().optional(),
+})
+
+const EntityContentRefsSchema = z.object({
+  modules: z.array(CuratedContentRefSchema).optional(),
+  lessons: z.array(CuratedContentRefSchema).optional(),
+  frameworks: z.array(CuratedContentRefSchema).optional(),
+  projects: z.array(CuratedContentRefSchema).optional(),
+  tools: z.array(CuratedContentRefSchema).optional(),
+  dayInLife: z.array(CuratedContentRefSchema).optional(),
+})
+
 export const SubjectManifestSchema = z.object({
+  kind: z.literal("subject").optional().default("subject"),
   slug: z.string(),
   name: z.string(),
   shortName: z.string(),
-  group: z.enum(SUBJECT_GROUPS),
+  group: z.string(),
   icon: z.string(),
   color: z.string(),
   tagline: z.string(),
+  description: z.string().optional(),
   blueprintSlug: z.string().default("blueprint"),
   deepDivePages: z.array(DeepDivePageSchema).default([]),
+  sections: z
+    .record(
+      z.enum([
+        "blueprint",
+        "modules",
+        "projects",
+        "tools",
+        "toolkit",
+        "dayInLife",
+        "simulation",
+      ]),
+      EntitySectionConfigSchema
+    )
+    .optional(),
+  navigation: EntityNavigationSchema.optional(),
+  relatedEntities: z.array(EntityReferenceSchema).optional(),
+  visualProfile: EntityVisualProfileSchema.optional(),
+  order: z.number(),
+})
+
+export const EntityManifestSchema = z.object({
+  kind: z.enum(["role", "topic"]),
+  slug: z.string(),
+  name: z.string(),
+  shortName: z.string(),
+  group: z.string(),
+  icon: z.string(),
+  color: z.string(),
+  tagline: z.string(),
+  description: z.string(),
+  blueprintSlug: z.string().default("blueprint"),
+  sections: z.record(
+    z.enum([
+      "blueprint",
+      "modules",
+      "projects",
+      "tools",
+      "toolkit",
+      "dayInLife",
+      "simulation",
+    ]),
+    EntitySectionConfigSchema
+  ),
+  navigation: EntityNavigationSchema,
+  relatedEntities: z.array(EntityReferenceSchema).default([]),
+  visualProfile: EntityVisualProfileSchema.optional(),
+  curated: EntityContentRefsSchema.optional(),
+  order: z.number(),
+})
+
+export const GroupDefinitionSchema = z.object({
+  slug: z.string(),
+  label: z.string(),
+  description: z.string().optional(),
   order: z.number(),
 })
 
@@ -39,6 +153,13 @@ export const ModuleSchema = z.object({
   status: statusEnum.default("coming-soon"),
   order: z.number(),
   levelNumber: z.number().optional(),
+  sourceMeta: z
+    .object({
+      sourceKind: z.enum(["subject", "role", "topic"]),
+      sourceSlug: z.string(),
+      originalSlug: z.string(),
+    })
+    .optional(),
 })
 
 const QuizQuestionSchema = z.object({
@@ -64,6 +185,13 @@ export const LessonSchema = z.object({
   order: z.number(),
   quiz: z.array(QuizQuestionSchema).optional(),
   perspectives: z.record(z.string(), z.string()).optional(),
+  sourceMeta: z
+    .object({
+      sourceKind: z.enum(["subject", "role", "topic"]),
+      sourceSlug: z.string(),
+      originalSlug: z.string(),
+    })
+    .optional(),
 })
 
 export const FrameworkSchema = z.object({
@@ -75,6 +203,13 @@ export const FrameworkSchema = z.object({
   example: z.string(),
   category: z.string(),
   domain: z.string().optional(),
+  sourceMeta: z
+    .object({
+      sourceKind: z.enum(["subject", "role", "topic"]),
+      sourceSlug: z.string(),
+      originalSlug: z.string(),
+    })
+    .optional(),
 })
 
 const ProjectStepSchema = z.object({
@@ -102,6 +237,13 @@ export const ProjectSchema = z.object({
   tools: z.array(z.string()),
   rubric: z.array(ProjectRubricSchema),
   domain: z.string().optional(),
+  sourceMeta: z
+    .object({
+      sourceKind: z.enum(["subject", "role", "topic"]),
+      sourceSlug: z.string(),
+      originalSlug: z.string(),
+    })
+    .optional(),
 })
 
 const VocabularyItemSchema = z.object({
@@ -125,6 +267,13 @@ export const ToolSchema = z
     vocabulary: z.array(VocabularyItemSchema).optional(),
     beginnerMistakes: z.array(z.string()).optional(),
     relatedProject: z.string().optional(),
+    sourceMeta: z
+      .object({
+        sourceKind: z.enum(["subject", "role", "topic"]),
+        sourceSlug: z.string(),
+        originalSlug: z.string(),
+      })
+      .optional(),
   })
   .passthrough()
 
@@ -147,4 +296,43 @@ export const DayInLifeSchema = z.object({
   challenges: z.array(z.string()),
   rewards: z.array(z.string()),
   careerPath: z.array(z.string()),
+  sourceMeta: z
+    .object({
+      sourceKind: z.enum(["subject", "role", "topic"]),
+      sourceSlug: z.string(),
+      originalSlug: z.string(),
+    })
+    .optional(),
+})
+
+export const EntityContentPackSchema = z.object({
+  modules: z.array(ModuleSchema).optional(),
+  lessons: z.array(LessonSchema).optional(),
+  frameworks: z.array(FrameworkSchema).optional(),
+  projects: z.array(ProjectSchema).optional(),
+  tools: z.array(ToolSchema).optional(),
+  dayInLife: z.array(DayInLifeSchema).optional(),
+})
+
+const SimulationOptionSchema = z.object({
+  title: z.string(),
+  rationale: z.string(),
+  outcome: z.string(),
+})
+
+const SimulationStageSchema = z.object({
+  slug: z.string(),
+  title: z.string(),
+  summary: z.string(),
+  situation: z.string(),
+  questionsToAsk: z.array(z.string()),
+  options: z.array(SimulationOptionSchema).min(2),
+})
+
+export const EntitySimulationSchema = z.object({
+  title: z.string(),
+  summary: z.string(),
+  scenario: z.string(),
+  goal: z.string(),
+  stages: z.array(SimulationStageSchema).min(1),
 })

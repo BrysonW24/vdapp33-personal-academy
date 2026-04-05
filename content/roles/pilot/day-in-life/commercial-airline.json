@@ -1,0 +1,56 @@
+{
+  "slug": "commercial-airline",
+  "title": "A Day as a Commercial Airline Pilot",
+  "setting": "Qantas domestic operations, flying Boeing 737-800 on the Sydney-Melbourne-Brisbane triangle",
+  "companySize": "Major Australian airline (25,000+ employees, 3,000+ pilots across mainline and subsidiary operations)",
+  "description": "Captain Rachel Kim has been with Qantas for 14 years. She flies the Boeing 737-800 on domestic routes — mostly the high-frequency Sydney-Melbourne, Sydney-Brisbane, and Melbourne-Brisbane corridors. A typical duty day involves two to four sectors (individual flights), starting with a report time 60 to 90 minutes before the first departure and ending when the last flight parks at the gate. The work is a blend of meticulous planning, procedural flying, crew management, and occasional real decision-making when weather, mechanical issues, or airspace restrictions disrupt the routine.",
+  "salary": "$150,000 - $300,000 AUD per year (Captain, major airline — varies by seniority, includes allowances and superannuation)",
+  "schedule": [
+    {"time": "05:00", "activity": "Wake up, check roster and weather briefing on iPad", "tools": ["Qantas CrewTab (iPad EFB)", "BoM aviation weather"], "note": "Today's roster: SYD-MEL, MEL-BNE, BNE-SYD. Three sectors. Check the weather — a cold front is approaching Melbourne, expecting possible crosswind landing and low cloud on the second approach window."},
+    {"time": "05:45", "activity": "Drive to Sydney Airport, park in crew parking", "tools": [], "note": "Crew parking is airside. Short walk to the domestic terminal crew room."},
+    {"time": "06:00", "activity": "Report at the crew room, meet First Officer, review flight plan", "tools": ["Qantas flight planning system", "iPad EFB", "NOTAMs"], "note": "Meet today's First Officer — he's relatively new on type, so Rachel will handle the Melbourne landing given the forecast crosswind. Review the operational flight plan: fuel, route, weather, NOTAMs (runway works at Melbourne, taxiway restrictions), and weight and balance."},
+    {"time": "06:20", "activity": "Crew briefing with cabin crew", "tools": ["Briefing sheet"], "note": "Brief the cabin crew on the day's plan: three sectors, expected turbulence south of Canberra, Melbourne weather situation, and any special passengers or requirements."},
+    {"time": "06:30", "activity": "Walk to the aircraft, external inspection, cockpit setup", "tools": ["Boeing 737-800 flight deck", "iPad EFB", "checklists"], "note": "External walk-around: check tires, engine inlets, pitot covers removed, control surfaces, fuel caps. In the cockpit: enter the flight plan into the FMC, set up radios, review the maintenance log (MEL items — minimum equipment list, anything deferred)."},
+    {"time": "07:00", "activity": "Pushback and taxi, depart Sydney for Melbourne", "tools": ["Boeing 737-800", "FMC", "autopilot", "ATC communications"], "note": "Standard departure off Runway 34L. Climb to FL370. Flight time: approximately 1 hour 20 minutes. Engage autopilot after departure, monitor systems, review Melbourne weather updates en route."},
+    {"time": "08:20", "activity": "Approach and landing at Melbourne", "tools": ["ILS approach plates", "autobrake", "thrust reversers"], "note": "Melbourne wind is 290/25 gusting 35 knots — a significant crosswind on Runway 34. Rachel flies the approach manually from 1,000 feet. Firm but safe landing with a wing-low crosswind technique. Taxi to the gate."},
+    {"time": "08:45", "activity": "Turnaround at Melbourne — debrief, refuel, new passengers", "tools": ["iPad EFB", "ground handling team"], "note": "35-minute turnaround. Quick debrief with the First Officer on the approach. Review the MEL-BNE flight plan. New fuel load, new weight and balance. Cabin crew swap for the next sector."},
+    {"time": "09:20", "activity": "Depart Melbourne for Brisbane", "tools": ["Boeing 737-800", "FMC", "autopilot"], "note": "First Officer flies this sector as Pilot Flying. Rachel monitors, handles radios, and manages the flight from the Pilot Monitoring seat. Smooth flight, good weather at Brisbane."},
+    {"time": "11:30", "activity": "Land at Brisbane, lunch break", "tools": [], "note": "Two-hour break between sectors. Eat lunch in the crew lounge. Review the Brisbane-Sydney flight plan. Weather is straightforward — clear skies, light winds."},
+    {"time": "13:30", "activity": "Depart Brisbane for Sydney", "tools": ["Boeing 737-800", "FMC"], "note": "Rachel flies this sector. Routine departure and cruise. Minor deviation around a build-up (cumulonimbus) near Coffs Harbour — coordinate with ATC for a 20-nautical-mile offset."},
+    {"time": "15:00", "activity": "Land at Sydney, park at the gate, secure the aircraft", "tools": ["Checklists", "maintenance log"], "note": "Normal landing at Sydney. Complete the shutdown checklist, sign the maintenance log, note a minor issue (a sticky overhead panel light) for the engineers."},
+    {"time": "15:30", "activity": "Duty complete — debrief, paperwork, drive home", "tools": ["Crew management system"], "note": "Log duty hours in the crew management system. Total duty: 9.5 hours, 4 hours 10 minutes flight time. Tomorrow is a day off, then a two-day Adelaide pattern."}
+  ],
+  "responsibilities": [
+    "Command the aircraft and make all final decisions regarding safety, fuel, weather diversions, and operational matters",
+    "Conduct thorough preflight planning including weather assessment, fuel calculations, and route review",
+    "Fly the aircraft in compliance with Qantas Standard Operating Procedures and CASA regulations",
+    "Manage cockpit workload through effective Crew Resource Management with the First Officer",
+    "Communicate with ATC, cabin crew, ground staff, and passengers as required",
+    "Handle abnormal and emergency situations including system failures, weather diversions, and medical emergencies",
+    "Maintain currency and proficiency through recurrent training, simulator checks, and line checks (twice yearly)",
+    "Mentor and assess First Officers, particularly those new to type"
+  ],
+  "challenges": [
+    "Fatigue management — early report times, multiple sectors, and irregular rosters across a duty period that can legally stretch to 12+ hours",
+    "Weather decision-making — balancing schedule pressure with safety margins, especially when conditions are marginal rather than clearly go or no-go",
+    "Maintaining sharp skills for rare events — most flights are routine, but you must be ready for an engine failure or rapid decompression at any moment",
+    "Roster disruption — days off can change with short notice due to crew sickness, weather disruptions, or aircraft swaps",
+    "Managing automation complacency — modern aircraft are highly automated, making it easy to become a passenger rather than actively monitoring the flight",
+    "The long training pipeline and seniority system — it can take 10-15 years from first flying lesson to a command position at a major airline"
+  ],
+  "rewards": [
+    "Operating one of the most complex machines ever built, in an environment that demands precision and judgement",
+    "Excellent salary and conditions at major airlines, with defined rosters, strong union protections, and travel benefits",
+    "The view from the office — sunrise departures, weather systems seen from above, and the occasional spectacular approach",
+    "A career where the learning never stops — new aircraft types, new procedures, new challenges with every season and route",
+    "The satisfaction of a well-flown approach in difficult conditions, or a smooth handling of an abnormal situation that passengers never notice",
+    "Being part of an industry with a deeply embedded safety culture where continuous improvement is genuinely practised"
+  ],
+  "careerPath": [
+    "Student Pilot → Commercial Pilot Licence → Flight Instructor or Charter Pilot → Regional Airline First Officer → Major Airline First Officer → Captain",
+    "Alternative: transition to long-haul widebody aircraft (A330, A380, 787) for international routes",
+    "Alternative: move into training and checking roles — Training Captain, Check Captain, or simulator instructor",
+    "Alternative: management roles — Chief Pilot, Head of Operations, Director of Flight Operations",
+    "Alternative: transition to corporate/business aviation for more flexible schedules and varied destinations"
+  ]
+}

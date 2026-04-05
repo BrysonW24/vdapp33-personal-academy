@@ -1,0 +1,54 @@
+{
+  "slug": "field-robotics",
+  "title": "A Day as a Field Robotics Engineer at a Mining Company",
+  "setting": "Rio Tinto autonomous haulage programme, Pilbara region WA (open-pit iron ore mine)",
+  "companySize": "Large mining company (50,000+ employees globally, 40-person autonomous systems division)",
+  "description": "Sarah Chen is a Field Robotics Engineer on Rio Tinto's autonomous haulage team in the Pilbara. She works on the systems that allow 240-tonne haul trucks to operate without drivers across a network of open-pit iron ore mines. Her role spans perception system maintenance, path planning refinement, and on-site troubleshooting when an autonomous truck behaves unexpectedly. She works a two-week on, one-week off FIFO rotation from Perth, splitting her on-site time between the operations centre (monitoring fleet behaviour, analysing logs) and the pit itself (inspecting sensors, testing software updates on parked trucks).",
+  "salary": "$120,000 - $180,000 AUD per year (includes FIFO allowances and superannuation)",
+  "schedule": [
+    {"time": "05:00", "activity": "Wake up at the mine camp, breakfast, review overnight fleet logs", "tools": ["Fleet management dashboard", "Slack"], "note": "Check if any autonomous trucks were taken out of service overnight. Two trucks flagged for LiDAR calibration drift — need to inspect today."},
+    {"time": "06:00", "activity": "Safety briefing and shift handover at the operations centre", "tools": ["Site safety system", "PPE: hard hat, hi-vis vest, steel caps, safety glasses"], "note": "Review overnight incidents, planned blasting schedule (which affects truck routes), and any road changes the surveyors have flagged."},
+    {"time": "06:30", "activity": "Monitor autonomous fleet from the operations centre", "tools": ["Fleet management system", "SLAM visualisation tools", "Python log analysis scripts"], "note": "Watch the fleet of 130+ autonomous trucks running their routes. Focus on the two flagged trucks — review their perception logs and localisation accuracy over the past 48 hours."},
+    {"time": "08:00", "activity": "Drive to the pit to inspect flagged trucks", "tools": ["LiDAR calibration rig", "laptop with ROS 2", "multimeter"], "note": "One truck's front LiDAR has a damaged protective cover from a rock strike. Replace the cover and run a calibration routine. The second truck's issue is software — a SLAM parameter needs adjustment for a newly graded road section."},
+    {"time": "10:00", "activity": "Update SLAM maps for new road geometry", "tools": ["ROS 2", "Python", "point cloud processing tools", "SLAM pipeline"], "note": "The mine surveyors graded a new haul road section overnight. Update the high-definition map that the autonomous trucks use for localisation, then validate the map against a reference survey drive."},
+    {"time": "11:30", "activity": "Test updated path planning on a parked truck", "tools": ["ROS 2", "path planning simulator", "truck test interface"], "note": "Before deploying the updated map to the full fleet, run the new map on a single truck in a controlled area. Walk alongside to verify it tracks the correct lane and stops at the right points."},
+    {"time": "12:30", "activity": "Lunch at the mine mess hall", "tools": [], "note": "Sit with the mine operations team. They want to extend autonomous haulage to a new pit — discuss the survey and mapping work that would be needed."},
+    {"time": "13:30", "activity": "Deploy map update to the fleet", "tools": ["Fleet OTA update system", "monitoring dashboard"], "note": "Push the validated map update to all 130+ trucks via the over-the-air update system. Monitor the first trucks to traverse the new section and confirm they localise correctly."},
+    {"time": "14:30", "activity": "Work on perception improvement project", "tools": ["Python", "PyTorch", "point cloud datasets", "Jupyter notebooks"], "note": "Current project: improving the dust detection algorithm. Dust clouds from blasting and truck movements can confuse the LiDAR perception system, causing false obstacle detections and unnecessary emergency stops."},
+    {"time": "16:00", "activity": "Video call with Perth engineering team", "tools": ["Teams", "Confluence", "JIRA"], "note": "Weekly sync: review the dust detection model's latest test results, discuss a new radar sensor trial for better dust penetration, plan next quarter's software release schedule."},
+    {"time": "17:00", "activity": "End of shift: update documentation, close permits, charge equipment", "tools": ["Confluence", "site permit system"], "note": "Write up the LiDAR repair and map update in the maintenance log. Prepare tomorrow's task list: radar sensor installation on a test truck."},
+    {"time": "17:30", "activity": "Shuttle back to camp, gym, dinner, downtime", "tools": [], "note": "FIFO routine: structured, well-catered, but remote. Call home, read a paper on radar-LiDAR fusion for mining, early lights-out for the 5 AM start."}
+  ],
+  "responsibilities": [
+    "Maintain and calibrate perception systems (LiDAR, radar, cameras, GPS) on a fleet of autonomous haul trucks",
+    "Update and validate high-definition maps used for truck localisation and path planning",
+    "Diagnose and resolve autonomous system faults in the field, often under time pressure from mine operations",
+    "Develop and test software improvements for perception, localisation, and path planning algorithms",
+    "Collaborate with mine operations, surveyors, and maintenance teams to integrate autonomous haulage into daily mine plans",
+    "Deploy software and map updates to the fleet via over-the-air systems and monitor rollout",
+    "Contribute to research and development projects that improve system robustness in harsh conditions",
+    "Ensure all robotic operations comply with mine site safety procedures and WA Mines Safety regulations"
+  ],
+  "challenges": [
+    "Dust, heat, and vibration — the Pilbara environment degrades sensors and electronics rapidly",
+    "The sim-to-real gap — software that works in simulation often fails in the pit due to conditions the simulator does not model (dust clouds, sun glare, wet roads after rare rain)",
+    "FIFO lifestyle and remoteness — two weeks on site with limited connectivity and distance from family",
+    "Coordinating with mine operations teams who need trucks running 24/7 and have limited patience for engineering downtime",
+    "Debugging intermittent faults on 240-tonne machines that cannot be easily brought to a workshop",
+    "Keeping a fleet of 130+ trucks consistently localised as the mine geometry changes daily from blasting and grading"
+  ],
+  "rewards": [
+    "Working on one of the largest autonomous vehicle deployments in the world — more autonomous trucks than most self-driving car companies have test vehicles",
+    "Directly measurable safety impact — autonomous haulage has significantly reduced injuries at mine sites",
+    "Excellent compensation and benefits typical of Australian mining sector FIFO roles",
+    "Solving hard robotics problems (perception in dust, localisation on changing terrain) that do not have textbook answers",
+    "Building rare expertise in industrial-scale autonomous systems — a skill set in growing demand across mining, energy, and logistics",
+    "The satisfaction of watching a 240-tonne truck navigate a complex mine site entirely on its own"
+  ],
+  "careerPath": [
+    "Junior Field Robotics Engineer → Senior Field Robotics Engineer → Lead Engineer, Autonomous Systems → Manager, Autonomous Haulage",
+    "Alternative: move to an autonomous vehicle company (Caterpillar, Komatsu, Waabi) as a perception or planning engineer",
+    "Alternative: transition to a robotics startup working on autonomous systems for agriculture, logistics, or construction",
+    "Alternative: specialise in safety-critical systems certification and become a functional safety engineer for autonomous machines"
+  ]
+}

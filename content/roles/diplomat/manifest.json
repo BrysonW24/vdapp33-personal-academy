@@ -1,0 +1,11 @@
+{
+  "slug": "diplomat",
+  "name": "Diplomat",
+  "kind": "role",
+  "group": "humanities",
+  "icon": "Globe",
+  "color": "#DC2626",
+  "tagline": "You work through negotiation, strategy, language, and statecraft where relationships matter as much as force.",
+  "tier": "flagship",
+  "order": 6
+}

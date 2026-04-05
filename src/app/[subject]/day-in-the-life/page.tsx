@@ -35,7 +35,7 @@ export default async function DayInLifePage({
           </p>
         </div>
       ) : (
-        <DayInLifeExplorer scenarios={scenarios} />
+        <DayInLifeExplorer scenarios={scenarios} subjectSlug={slug} />
       )}
     </div>
   )

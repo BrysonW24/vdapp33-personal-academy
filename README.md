@@ -1,13 +1,14 @@
 # vdapp33-personal-academy
 
-Personal Academy is a unified multi-subject Next.js app for curiosity-driven learning. It keeps politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science inside one shell, one progress store, and one deploy.
+Personal Academy is a unified multi-subject Next.js app for curiosity-driven learning. It keeps politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science inside one shell, one progress store, and one deploy, while the content model is expanding toward entity-aware roles and topics.
 
 ## What This App Is
 
 - Learning-first, not operator-first
 - Subject-prefixed multi-subject architecture
-- Static content app powered by JSON curriculum files and Zod schemas
+- Static content app powered by JSON curriculum files, role/topic manifests, and Zod schemas
 - One multi-subject academy shell with subject depth that can evolve independently
+- An emerging entity-aware learning model where roles and topics sit alongside subjects as content kinds
 
 ## Core Routes
 
@@ -23,6 +24,8 @@ Personal Academy is a unified multi-subject Next.js app for curiosity-driven lea
 - `/{subject}/tools/{slug}` — Tool detail
 - `/{subject}/toolkit` — Frameworks and mental models
 - `/{subject}/day-in-the-life` — Real-world role snapshots
+
+Entity-aware content is currently represented in `content/roles/` and `content/topics/`. Treat dedicated role/topic route rollout as target-state work until it is explicitly verified.
 
 ## Subject Model
 
@@ -46,6 +49,8 @@ Current groups:
 
 The migrated standalone source apps were archived on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` after route, build, and browser verification passed in the unified app. See `docs/personal-academy-migration-analysis.md` for the migration analysis.
 
+The next content layer introduces roles and topics as first-class entities. Keep README, CLAUDE, status, and smoke-test notes aligned with that direction whenever content moves.
+
 ## Tech Stack
 
 - Next.js 15 App Router
@@ -65,6 +70,8 @@ npm run type-check
 npm run lint
 npm run build
 ```
+
+For lightweight verification guidance, see `docs/testing-smoke.md`.
 
 ## Content Conventions
 

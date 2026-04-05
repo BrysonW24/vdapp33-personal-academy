@@ -1,0 +1,26 @@
+{
+  "slug": "entrepreneur-startup-founder",
+  "title": "What being an Entrepreneur / Startup Founder actually involves",
+  "summary": "Building a company is not about having ideas. It is about executing relentlessly on one idea while everything around you is uncertain, under-resourced, and constantly changing. Most of your time as a founder is spent on things that do not feel like building: selling to people who do not yet trust you, hiring when you cannot offer market salaries, negotiating with investors who have seen a hundred pitches this week, fixing a product bug at 11 pm because there is no one else to do it, and making decisions with incomplete information every single day.\n\nThe work changes shape as the company grows. In the earliest stage, you are the product, the salesperson, the customer support, and the accountant. You write code, answer emails, pitch investors, and take out the bins. As you hire, your job shifts from doing everything to enabling other people to do things well — setting direction, removing blockers, maintaining culture, managing cash, and making the strategic calls that determine whether the company survives. By the time you reach scale, you are essentially a professional decision-maker and communicator, spending most of your time in meetings, board rooms, and one-on-ones.\n\nWhat makes founding compelling is the ownership and agency. You are not executing someone else's strategy. You are defining the problem, designing the solution, and building the organisation that delivers it. The lows are genuinely brutal — failed fundraises, lost customers, co-founder disputes, months of zero revenue. But the highs are unmatched: seeing a product you built solve a real problem, hiring someone brilliant who believes in what you are doing, closing a deal that changes the company's trajectory. It is the hardest job most founders have ever had, and most of them would not trade it.",
+  "coreWork": [
+    "Defining product vision and iterating on product-market fit through customer conversations and data",
+    "Selling to early customers — cold outreach, demos, negotiations, onboarding",
+    "Hiring, managing, and building a team culture that survives pressure and ambiguity",
+    "Fundraising — pitch decks, investor meetings, term sheet negotiations, cap table management",
+    "Financial management — cash runway planning, unit economics, burn rate monitoring",
+    "Operations — setting up systems, processes, and tools that scale with the team",
+    "Strategic decision-making — market positioning, pricing, partnerships, pivots",
+    "Communicating vision to investors, team, customers, and the market"
+  ],
+  "frontierPull": "The founder's job changes as fast as the system you are building. No two weeks look the same. The problems shift from technical to commercial to organisational to strategic, often within the same day. You are simultaneously an operator, a strategist, a salesperson, and a people leader — and the weight of each role shifts as the company grows. The current environment is uniquely interesting: AI is reshaping what small teams can build, capital markets are recalibrating what they fund, and the barriers to starting have never been lower while the barriers to scaling remain as hard as ever. Founders who can navigate this tension — building fast with small teams, finding real distribution, and surviving long enough to compound — are the ones who shape industries.",
+  "signals": [
+    "Product development and iteration",
+    "Sales and go-to-market strategy",
+    "Fundraising and investor relations",
+    "Team building and leadership",
+    "Financial modelling and cash management",
+    "Customer discovery and validation",
+    "Market analysis and competitive positioning",
+    "Operational systems and scaling"
+  ]
+}

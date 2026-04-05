@@ -1,0 +1,12 @@
+{
+  "slug": "meditation",
+  "name": "Meditation",
+  "kind": "topic",
+  "group": "mind",
+  "icon": "Flower2",
+  "color": "#14B8A6",
+  "tagline": "Training attention, awareness, and equanimity through deliberate contemplative practice.",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 7
+}

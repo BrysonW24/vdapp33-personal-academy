@@ -1,0 +1,111 @@
+{
+  "slug": "mission-specialist",
+  "title": "A Day as a Mission Specialist on EVA Prep Day",
+  "setting": "International Space Station, low Earth orbit. Tomorrow you and your EVA partner will exit the station through the Quest airlock for a 6.5-hour spacewalk to replace a degraded solar array drive motor on the station's truss. Today is entirely focused on preparing for that EVA — reviewing procedures, checking suits, staging tools, and beginning the pre-breathe protocol to purge nitrogen from your blood.",
+  "companySize": "NASA ISS Programme with international partners (ESA, JAXA, CSA, Roscosmos). The EVA is supported by a dedicated ground team of approximately 30 flight controllers in Houston's Mission Control Center, plus suit engineers, robotics officers, and the EVA task lead.",
+  "description": "You are a NASA mission specialist on your second spaceflight, serving as EV1 (the lead spacewalker) for tomorrow's EVA. You have completed over 200 hours of Neutral Buoyancy Laboratory training for this specific spacewalk and have one prior EVA on a previous mission. Your EVA partner (EV2) is a first-time spacewalker, so you carry additional responsibility for monitoring their status and pacing the work.",
+  "salary": "$128,956 - $161,141 USD (NASA astronaut GS-14 to GS-15, veteran astronaut)",
+  "schedule": [
+    {
+      "time": "06:00",
+      "activity": "Wake up and breakfast — review overnight procedure updates from the ground",
+      "tools": ["Station laptop", "Procedure viewer"],
+      "note": "The EVA flight control team has been working overnight refining the procedure timeline. They have uplinked minor changes to the tool staging order based on a review of the truss geometry. You read every change carefully — in a spacesuit, you cannot easily flip back to re-read a step."
+    },
+    {
+      "time": "07:00",
+      "activity": "EVA procedure review with EV2 and ground team",
+      "tools": ["S-band audio", "EVA cuff checklist mockup", "Procedure diagrams"],
+      "note": "You and your EVA partner walk through the entire procedure verbally with the EVA officer in Houston. Every translation path along the truss, every bolt to be driven, every tether point. You rehearse contingencies: what if a bolt will not release? What if a suit caution-and-warning alarm triggers? What if you lose communication? Each scenario has a pre-planned response."
+    },
+    {
+      "time": "08:30",
+      "activity": "Extravehicular Mobility Unit (EMU) suit inspection and sizing verification",
+      "tools": ["EMU spacesuit", "Suit sizing components", "Hard Upper Torso (HUT)", "Lower Torso Assembly (LTA)", "Gloves"],
+      "note": "The EMU is a self-contained spacecraft. You verify the fit of your Hard Upper Torso, check glove integrity (glove damage is the most common EVA suit issue), inspect the helmet visor assembly, and confirm your Display and Control Module settings. The suit weighs 127 kg on Earth but is weightless here — the challenge is mobility, not weight."
+    },
+    {
+      "time": "09:30",
+      "activity": "Suit battery and consumables check",
+      "tools": ["EMU battery", "Oxygen tanks", "CO2 scrubber cartridges (MetOx)", "Cooling water reservoir"],
+      "note": "Each EMU carries a primary oxygen supply for 8.5 hours, a 30-minute emergency reserve, lithium hydroxide CO2 scrubbing cartridges, and a water cooling loop that circulates through tubes in your undergarment (the Liquid Cooling and Ventilation Garment). Every consumable is verified and logged."
+    },
+    {
+      "time": "10:30",
+      "activity": "Tool staging and configuration in the Quest airlock",
+      "tools": ["Mini-workstation", "Pistol Grip Tool (PGT)", "EVA tether hooks", "Portable foot restraint", "Tool caddy"],
+      "note": "Every tool that will be used during the EVA is laid out, inspected, and attached to the mini-workstation in the exact order it will be needed. The Pistol Grip Tool — essentially a powered ratchet — is set to the correct torque for each bolt. Nothing can be left loose; a dropped tool becomes orbital debris travelling at 28,000 km/h."
+    },
+    {
+      "time": "11:30",
+      "activity": "Lunch and rest period",
+      "tools": [],
+      "note": "The ground team insists on a break. Tomorrow will be physically and mentally exhausting — 6.5 hours of continuous work in a pressurised suit with no ability to scratch your nose, drink easily, or take a break. You eat, hydrate, and try to relax."
+    },
+    {
+      "time": "12:30",
+      "activity": "In-suit light inspection and campout pre-breathe protocol begins",
+      "tools": ["EMU spacesuit", "Mask prebreathe assembly"],
+      "note": "To prevent decompression sickness, you must purge nitrogen from your blood before the EVA. The campout protocol involves spending the night in the Quest airlock with the pressure reduced from the station's 14.7 psi to 10.2 psi while breathing pure oxygen. This starts now with an in-suit prebreathe exercise — 50 minutes of breathing pure O2 at suit pressure while performing light arm and leg movements to increase circulation."
+    },
+    {
+      "time": "13:30",
+      "activity": "Robotics coordination — pre-position Canadarm2 for EVA support",
+      "tools": ["Canadarm2 (SSRMS)", "Robotics workstation"],
+      "note": "A crew member inside the station will operate Canadarm2 during the EVA to provide a mobile work platform. Today they pre-position the arm near the worksite. You confirm the camera angles and discuss the choreography — when EV1 will be on the arm, when free-floating, and how the arm will move between worksites."
+    },
+    {
+      "time": "15:00",
+      "activity": "Final EVA conference with flight control team",
+      "tools": ["S-band audio", "Video downlink"],
+      "note": "The EVA officer, CAPCOM, flight director, and suit engineers join a final readiness conference. Everyone confirms go/no-go status. Weather on the ground does not matter, but thermal conditions in orbit do — the EVA timeline is built around the station's orbital day/night cycle to manage suit thermal loads."
+    },
+    {
+      "time": "16:00",
+      "activity": "Configure Quest airlock for overnight campout",
+      "tools": ["Quest airlock", "Sleeping bags", "Airlock pressure controls"],
+      "note": "You and EV2 move your sleeping gear into the Quest airlock. The hatch to the rest of the station will be closed, and the airlock pressure will be reduced to 10.2 psi. You will sleep here tonight, breathing the lower-pressure atmosphere to continue nitrogen purge. It is cramped — the airlock is about the size of a small closet with two spacesuits taking up most of the volume."
+    },
+    {
+      "time": "17:00",
+      "activity": "Dinner with the crew, then move into the airlock for campout",
+      "tools": [],
+      "note": "You eat dinner with the full crew. Tomorrow, while you are outside, they will be monitoring systems, operating the robotic arm, and standing by in case of emergency. After dinner, you and EV2 enter the airlock, close the hatch, and begin the overnight pressure reduction."
+    },
+    {
+      "time": "21:00",
+      "activity": "Sleep in Quest airlock at 10.2 psi",
+      "tools": ["Sleeping bag", "Ear plugs", "Eye mask"],
+      "note": "The airlock is noisy and cramped. Your spacesuit hangs on the wall beside you, configured and ready. In approximately 9 hours you will put it on and open the outer hatch to vacuum. You run through the procedure one last time in your head before sleeping."
+    }
+  ],
+  "responsibilities": [
+    "Lead the EVA as EV1, managing task timing and worksite safety for both spacewalkers",
+    "Verify all EVA tools, tethers, and suit consumables are configured and staged correctly",
+    "Complete the pre-breathe decompression sickness prevention protocol",
+    "Coordinate EVA choreography with the intravehicular crew member operating Canadarm2",
+    "Review and internalise the full EVA procedure, including all contingency branches",
+    "Monitor EV2's readiness and provide guidance as the more experienced spacewalker"
+  ],
+  "challenges": [
+    "The psychological pressure of knowing that tomorrow you will work outside in vacuum with only a suit between you and death",
+    "Cramped overnight campout in the airlock — difficult to sleep well before the most demanding day of the mission",
+    "The responsibility of leading a first-time spacewalker through a complex procedure",
+    "Managing the cognitive load of memorising a 6.5-hour procedure with dozens of steps and multiple contingency branches",
+    "Physical preparation — EVA is one of the most physically demanding activities astronauts perform, and hand fatigue from working against pressurised gloves is the primary limiter"
+  ],
+  "rewards": [
+    "Spacewalking is consistently described by astronauts as the most extraordinary experience of their careers",
+    "The direct, tangible impact of the work — replacing hardware that keeps the station operational",
+    "The trust placed in you by the programme, your crew, and the ground team to execute safely",
+    "Seeing Earth and space with nothing between you and the universe except a visor — no window, no wall, just you and the cosmos",
+    "The professional satisfaction of executing a complex, high-stakes procedure that you trained years to perform"
+  ],
+  "careerPath": [
+    "STEM professional or military pilot with extensive operational experience → selected as NASA astronaut candidate",
+    "Astronaut candidate — 2 years of foundational training at JSC",
+    "First flight — ISS expedition, typically as a flight engineer performing science, robotics, and potentially EVA",
+    "Mission specialist / EVA crew member — selected for spacewalk missions based on training performance and mission needs",
+    "Senior astronaut — crew commander, Artemis lunar surface EVA candidate, or transition to programme management and astronaut training leadership"
+  ]
+}

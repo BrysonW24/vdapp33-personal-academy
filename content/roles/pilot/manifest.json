@@ -1,0 +1,11 @@
+{
+  "slug": "pilot",
+  "name": "Pilot",
+  "kind": "role",
+  "group": "engineering",
+  "icon": "Plane",
+  "color": "#0EA5E9",
+  "tagline": "You operate complex machines in dynamic environments where judgement, calm, and systems thinking matter constantly.",
+  "tier": "flagship",
+  "order": 4
+}

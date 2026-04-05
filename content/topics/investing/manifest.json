@@ -1,0 +1,12 @@
+{
+  "slug": "investing",
+  "name": "Investing",
+  "kind": "topic",
+  "group": "markets",
+  "icon": "TrendingUp",
+  "color": "#10B981",
+  "tagline": "How capital flows, compounds, and shapes the world through stocks, property, crypto, and beyond.",
+  "tier": "flagship",
+  "hasNews": true,
+  "order": 3
+}

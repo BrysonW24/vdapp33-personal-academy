@@ -1,0 +1,11 @@
+{
+  "slug": "astronaut",
+  "name": "Astronaut",
+  "kind": "role",
+  "group": "engineering",
+  "icon": "Rocket",
+  "color": "#2563EB",
+  "tagline": "You train for years, work with extreme systems, and see Earth from orbit.",
+  "tier": "flagship",
+  "order": 1
+}

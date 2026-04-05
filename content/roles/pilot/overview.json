@@ -1,0 +1,25 @@
+{
+  "slug": "pilot",
+  "title": "What being a Pilot actually involves",
+  "summary": "Flying an aircraft is the visible part of being a pilot. The invisible part — the part that takes years to develop and constitutes most of the actual skill — is systems management, decision-making under uncertainty, and crew coordination. A commercial pilot on a routine domestic flight makes hundreds of decisions before the wheels leave the ground: reviewing weather at the departure, destination, and alternate airports, calculating fuel loads with legal reserves, assessing runway performance given temperature and wind, briefing the cabin crew, and running through checklists that verify every critical system. The flight itself may look uneventful, but that is precisely because the preparation was thorough.\n\nThe training pipeline is long and expensive. In Australia, a Commercial Pilot Licence (CPL) requires a minimum of 200 flight hours plus ground school covering aerodynamics, meteorology, navigation, air law, human factors, and aircraft systems. An Air Transport Pilot Licence (ATPL) — required to command a multi-crew aircraft — adds further exams and a minimum of 1,500 hours. Most pilots spend years building hours in regional airlines, charter operations, or flight instruction before reaching a major airline. Military pilots follow a different but equally rigorous path through the ADF's pilot training system.\n\nWhat distinguishes great pilots is not stick-and-rudder skill — modern fly-by-wire aircraft handle much of that. It is judgement: knowing when to divert rather than attempt an approach in marginal weather, managing workload when multiple systems fail simultaneously, communicating clearly with air traffic control and cabin crew during abnormal situations, and maintaining situational awareness across dozens of parameters (altitude, speed, fuel, weather, traffic, terrain) for hours at a time. Crew Resource Management (CRM) — the structured use of all available resources including the other pilot, cabin crew, ATC, and automation — is treated as seriously as any technical skill.",
+  "coreWork": [
+    "Preflight planning — reviewing weather, NOTAMs, fuel calculations, weight and balance, and operational flight plans",
+    "Crew Resource Management (CRM) — structured communication, workload sharing, and decision-making with the other pilot",
+    "Weather assessment and decision-making — evaluating conditions for departure, en route, and arrival, including go/no-go decisions",
+    "Systems management — monitoring and managing aircraft systems (engines, hydraulics, electrics, pressurisation, fuel, automation)",
+    "Standard Operating Procedures (SOPs) — flying precisely within the airline's procedures and checklists for every phase of flight",
+    "Abnormal and emergency procedures — managing system failures, weather diversions, medical emergencies, and security incidents",
+    "Communication — with ATC, cabin crew, dispatch, and passengers, especially during non-normal operations"
+  ],
+  "frontierPull": "Aviation is the original high-reliability industry. Pilots operate at the intersection of physics, meteorology, engineering, human factors, and real-time decision-making. The role demands a rare combination: deep technical knowledge of how the aircraft works, the discipline to follow procedures precisely, and the flexibility to improvise when procedures do not cover the situation. With the industry evolving toward reduced crew operations, increased automation, sustainable aviation fuels, and eventual autonomous flight, today's pilots are both operators and the benchmark against which all future automation will be measured.",
+  "signals": [
+    "Aerodynamics and flight mechanics",
+    "Meteorology and weather interpretation",
+    "Navigation and flight planning",
+    "Aircraft systems knowledge",
+    "Crew Resource Management (CRM)",
+    "Instrument flying and automation management",
+    "Human factors and fatigue management",
+    "Regulatory compliance and air law"
+  ]
+}

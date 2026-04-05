@@ -1,0 +1,53 @@
+{
+  "slug": "applied-ai-startup",
+  "title": "A Day at an Applied AI Startup",
+  "setting": "A Series A or Series B applied AI startup (20–80 people), building an AI-powered product for a specific vertical such as healthcare, legal, or fintech",
+  "companySize": "ML/AI team of 4–10 within a company of 20–80",
+  "description": "You are one of the first ML engineers or applied researchers at a startup that is using AI to solve a real business problem. Your job is not to publish papers — it is to ship models that work reliably in production, handle edge cases gracefully, and improve measurably with each iteration. You wear multiple hats: researcher, engineer, data wrangler, and sometimes the person explaining to the CEO why the model is not ready yet. The feedback loop is tight — customers use your model today and complain about it tomorrow.",
+  "salary": "$140,000 – $250,000 USD (plus equity, typically 0.1%–0.5% at Series A)",
+  "schedule": [
+    { "time": "08:00", "activity": "Check production model monitoring dashboards — look for latency spikes, error rates, or accuracy drift", "tools": ["Datadog", "Grafana", "W&B"], "note": "A customer in the healthcare vertical reported hallucinated outputs overnight — need to investigate" },
+    { "time": "08:30", "activity": "Triage the customer-reported issue — pull the failing inputs, reproduce the error, and identify the root cause", "tools": ["Python", "Jupyter", "PostgreSQL"], "note": "The issue is a distribution shift — the customer started sending a new document format the model was not trained on" },
+    { "time": "09:30", "activity": "Standup with the product and engineering team — prioritise the bug fix against planned feature work", "tools": ["Linear", "Slack"], "note": "The CEO wants the fix shipped today because the customer is on a trial that ends this week" },
+    { "time": "10:00", "activity": "Build a quick data augmentation pipeline to handle the new document format and retrain a patched model", "tools": ["PyTorch", "Hugging Face Transformers", "AWS SageMaker"], "note": "Fine-tuning on 200 new examples — need to make sure it does not degrade performance on existing formats" },
+    { "time": "11:30", "activity": "Run evaluation benchmarks on the patched model against the existing test suite", "tools": ["pytest", "custom eval harness", "Pandas"], "note": "Accuracy holds on existing formats, and the new format now works — but latency increased by 15%" },
+    { "time": "12:00", "activity": "Lunch — eat at your desk while reading a blog post about quantisation techniques that might fix the latency regression", "tools": [], "note": "The GPTQ approach looks promising but would require changes to the serving infrastructure" },
+    { "time": "12:30", "activity": "Optimise the model for inference — try ONNX export and batch size tuning to recover the latency", "tools": ["ONNX Runtime", "TensorRT", "Docker"], "note": "ONNX export brings latency back to acceptable levels without accuracy loss" },
+    { "time": "14:00", "activity": "Deploy the patched model to staging and run integration tests", "tools": ["Docker", "Kubernetes", "GitHub Actions"], "note": "The CI pipeline catches a serialisation issue — fix it and redeploy" },
+    { "time": "15:00", "activity": "Ship to production and monitor the first hour of traffic from the affected customer", "tools": ["Datadog", "Slack"], "note": "The fix works — customer confirms the issue is resolved" },
+    { "time": "15:30", "activity": "Work on a longer-term project — experimenting with retrieval-augmented generation to reduce hallucinations across all customers", "tools": ["LangChain", "Pinecone", "PyTorch"], "note": "Early results look promising but retrieval latency adds 300ms per request" },
+    { "time": "17:00", "activity": "Review GPU costs for the month and identify experiments or serving instances that can be downsized", "tools": ["AWS Cost Explorer", "Spot instance dashboard"], "note": "The dev cluster is running 8 A100s that nobody is using — shut them down to save $15k/month" },
+    { "time": "17:30", "activity": "Write up the day's work in the team knowledge base and update the model card for the patched release", "tools": ["Notion", "GitHub"], "note": "Good documentation now saves painful debugging later" }
+  ],
+  "responsibilities": [
+    "Build, train, and deploy ML models that solve real customer problems",
+    "Monitor production model performance and respond to accuracy or reliability issues",
+    "Manage the full ML lifecycle: data collection, training, evaluation, deployment, and monitoring",
+    "Optimise model inference for cost and latency within the startup's compute budget",
+    "Collaborate with product managers to translate business requirements into ML problem formulations",
+    "Build and maintain evaluation benchmarks and automated testing for model quality"
+  ],
+  "challenges": [
+    "Shipping fast enough to keep customers and investors happy while maintaining model quality",
+    "GPU costs can easily exceed the startup's entire infrastructure budget if not managed carefully",
+    "Working with messy, incomplete, or biased real-world data from customers",
+    "Explaining model limitations to non-technical stakeholders who expect perfection",
+    "Balancing short-term bug fixes with long-term research that would improve the product fundamentally",
+    "Recruiting and retaining ML talent when competing with labs that pay 2x your budget"
+  ],
+  "rewards": [
+    "Seeing your model used by real customers solving real problems every day",
+    "The autonomy to make high-impact technical decisions without layers of approval",
+    "Equity upside if the company succeeds — early ML hires at successful AI startups have done very well",
+    "Learning across the entire stack — from data pipelines to model serving to product design",
+    "Moving fast enough that your work from Monday is in production by Friday",
+    "Building something from scratch rather than maintaining an existing system"
+  ],
+  "careerPath": [
+    "ML Engineer or Applied Scientist → first ML hire at an early-stage startup",
+    "Senior ML Engineer → owning a product's entire ML stack",
+    "ML Lead / Head of AI → managing a small team and setting technical direction",
+    "VP Engineering or CTO (technical track) → if the company scales",
+    "Founder → starting your own AI company based on domain expertise gained"
+  ]
+}

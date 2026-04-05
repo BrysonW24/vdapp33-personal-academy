@@ -1,0 +1,21 @@
+{
+  "slug": "key-concepts",
+  "title": "Core Concepts in Investing",
+  "body": "Investing starts with the relationship between risk, return, and time. Higher expected returns usually require accepting more volatility and a greater chance of loss. That is why a government bond, a blue-chip stock, and a venture capital investment all belong to the same broad family of capital allocation but feel completely different in practice.\n\nDiversification is one of the most important ideas in finance. Instead of relying on a single company, sector, country, or asset class, investors spread capital across many different exposures so that the failure of one does not destroy the whole portfolio. Diversification does not eliminate risk, but it reduces the odds that one bad outcome dominates everything.\n\nValuation is the other core discipline. Whether you are buying a business, a stock, a property, or a bond, you are always asking what the asset is worth relative to what you are paying. Different schools of investing answer that question differently, but every serious investor has to confront it.\n\nTime horizon changes the whole game. A retiree, a trader, and a long-term index investor are solving different problems. Liquidity, compounding, income, and downside protection matter in different proportions depending on when the capital will be needed.",
+  "keyPoints": [
+    "Risk and return move together",
+    "Diversification reduces concentration risk",
+    "Valuation is central to disciplined investing",
+    "Time horizon determines the right strategy",
+    "Liquidity is not the same as value",
+    "Compounding is the engine of long-term wealth creation",
+    "Portfolio construction matters more than any single trade",
+    "Speculation and investing are not the same thing"
+  ],
+  "furtherReading": [
+    "'The Intelligent Investor' by Benjamin Graham",
+    "'Security Analysis' by Benjamin Graham and David Dodd",
+    "'A Random Walk Down Wall Street' by Burton Malkiel",
+    "'The Psychology of Money' by Morgan Housel"
+  ]
+}

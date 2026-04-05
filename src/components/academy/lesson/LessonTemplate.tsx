@@ -4,10 +4,10 @@ import {
   ArrowRight,
   BookOpen,
   CheckCircle2,
-  ChevronRight,
   Lightbulb,
   Target,
 } from "lucide-react"
+import { Breadcrumbs } from "@/components/academy/layout/Breadcrumbs"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -16,12 +16,17 @@ import type { Lesson, Module } from "@/types/curriculum"
 import { LessonCompletionBadge } from "./LessonCompletionBadge"
 import { PerspectiveToggle } from "./PerspectiveToggle"
 import { QuizSection } from "./QuizSection"
+import type { BreadcrumbSegment } from "@/components/academy/layout/Breadcrumbs"
 
 interface LessonTemplateProps {
   lesson: Lesson
   module: Module
   subjectSlug?: string
   subjectName?: string
+  progressSubjectSlug?: string
+  basePath?: string
+  toolkitHref?: string
+  breadcrumbs?: BreadcrumbSegment[]
 }
 
 function humanize(value: string) {
@@ -36,51 +41,42 @@ export function LessonTemplate({
   module,
   subjectSlug,
   subjectName,
+  progressSubjectSlug,
+  basePath,
+  toolkitHref,
+  breadcrumbs,
 }: LessonTemplateProps) {
-  const base = subjectSlug ? `/${subjectSlug}/modules` : "/modules"
+  const base = basePath ?? (subjectSlug ? `/${subjectSlug}/modules` : "/modules")
   const hasQuiz = Boolean(lesson.quiz?.length)
+  const resolvedSubjectSlug = progressSubjectSlug ?? subjectSlug
+  const breadcrumbSegments =
+    breadcrumbs ??
+    [
+      ...(subjectSlug && subjectName
+        ? [{ label: subjectName, href: `/${subjectSlug}` }]
+        : []),
+      { label: "Modules", href: base },
+      { label: module.title, href: `${base}/${module.slug}` },
+      { label: lesson.title },
+    ]
 
   return (
     <div className="container max-w-4xl py-6 sm:py-10 space-y-10">
       <ProgressTracker
         slug={lesson.slug}
-        subjectSlug={subjectSlug}
+        subjectSlug={resolvedSubjectSlug}
         type="lesson"
         hasQuiz={hasQuiz}
       />
 
-      <nav className="flex items-center gap-1.5 text-sm text-muted-foreground overflow-hidden">
-        {subjectSlug && subjectName && (
-          <>
-            <Link
-              href={`/${subjectSlug}`}
-              className="hover:text-foreground transition-colors shrink-0"
-            >
-              {subjectName}
-            </Link>
-            <ChevronRight className="h-3.5 w-3.5 shrink-0" />
-          </>
-        )}
-        <Link href={base} className="hover:text-foreground transition-colors shrink-0">
-          Modules
-        </Link>
-        <ChevronRight className="h-3.5 w-3.5 shrink-0" />
-        <Link
-          href={`${base}/${module.slug}`}
-          className="hover:text-foreground transition-colors truncate"
-        >
-          {module.title}
-        </Link>
-        <ChevronRight className="h-3.5 w-3.5 shrink-0" />
-        <span className="text-foreground truncate">{lesson.title}</span>
-      </nav>
+      <Breadcrumbs segments={breadcrumbSegments} />
 
       <div>
         <div className="flex items-center flex-wrap gap-2">
           <Badge variant={module.level}>{module.level}</Badge>
           <LessonCompletionBadge
             lessonSlug={lesson.slug}
-            subjectSlug={subjectSlug}
+            subjectSlug={resolvedSubjectSlug}
           />
         </div>
         <h1 className="text-3xl font-bold mt-3">{lesson.title}</h1>
@@ -175,11 +171,11 @@ export function LessonTemplate({
       </Card>
 
       {lesson.quiz && lesson.quiz.length > 0 && (
-        <QuizSection
-          quiz={lesson.quiz}
-          lessonSlug={lesson.slug}
-          subjectSlug={subjectSlug}
-        />
+          <QuizSection
+            quiz={lesson.quiz}
+            lessonSlug={lesson.slug}
+            subjectSlug={resolvedSubjectSlug}
+          />
       )}
 
       {lesson.frameworks.length > 0 && (
@@ -189,7 +185,7 @@ export function LessonTemplate({
             {lesson.frameworks.map((framework) => (
               <Link
                 key={framework}
-                href={subjectSlug ? `/${subjectSlug}/toolkit` : "/toolkit"}
+                href={toolkitHref ?? (subjectSlug ? `/${subjectSlug}/toolkit` : "/toolkit")}
               >
                 <Badge variant="outline" className="cursor-pointer hover:bg-accent">
                   {humanize(framework)}

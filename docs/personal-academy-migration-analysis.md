@@ -4,6 +4,8 @@
 
 Personal Academy is now the canonical learning surface for politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science. The five original personal-source apps plus the commercial property manager source app were archived on 2026-04-04 after the unified app passed build verification, representative route verification, and browser QA.
 
+This analysis covers the subject-academy migration only. The newer roles/topics entity-aware direction is a separate follow-on layer and should not be confused with the subject migration completed here.
+
 Archived source apps now live in:
 
 - `archive/2026-04-04-personal-academy-migration-sources/vdapp35-politician-academy`
@@ -68,3 +70,5 @@ The standalone source apps were archived because the unified app now satisfies t
 ## Working rule going forward
 
 `vdapp33-personal-academy` is now the only active development target for the six migrated subjects, with Robotics continuing as a native subject inside the same shell. The archived standalone apps are retained only as recovery/reference copies.
+
+Entity-aware role/topic work should be tracked as an additive evolution on top of this shell, not as a rewrite of the migration history documented above.

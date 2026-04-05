@@ -1,0 +1,11 @@
+{
+  "slug": "entrepreneur-startup-founder",
+  "name": "Entrepreneur / Startup Founder",
+  "kind": "role",
+  "group": "markets",
+  "icon": "Lightbulb",
+  "color": "#F59E0B",
+  "tagline": "You build something from nothing, solve real problems, and shape the whole system.",
+  "tier": "flagship",
+  "order": 7
+}

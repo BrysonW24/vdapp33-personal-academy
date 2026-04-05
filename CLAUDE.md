@@ -6,6 +6,8 @@ A unified multi-subject academy app (`vdapp33-personal-academy`) for curiosity-d
 
 This is not a founder cockpit and not a standalone single-subject academy. It is one learning shell where subject switching happens inside the same app, with static content and subject-prefixed routes.
 
+The current direction is broader than subjects alone: roles and topics are being introduced as first-class content kinds, with entity-aware navigation layered on top of the existing subject shell.
+
 ## Architecture
 
 ### Content structure
@@ -28,6 +30,16 @@ content/curriculum/
 
 Subjects are auto-discovered from `manifest.json`. Add a new subject by creating `content/curriculum/{slug}/manifest.json` plus the relevant JSON content folders.
 
+Entity-aware content now lives alongside subjects:
+
+```text
+content/
+├── roles/
+└── topics/
+```
+
+Each role or topic uses a small manifest plus related-entity metadata. Keep those files treated as content-layer truth, not as proof that dedicated routes are already shipped.
+
 ### Route architecture
 
 ```text
@@ -46,6 +58,8 @@ Subjects are auto-discovered from `manifest.json`. Add a new subject by creating
 ```
 
 Founder-only routes like `/{subject}/playbooks`, `/{subject}/systems`, and `/{subject}/learn` do not belong in this app.
+
+Target-state entity routes like `/roles/{slug}` and `/topics/{slug}` are being prepared by the content model and nav layer, but they should not be treated as verified runtime surfaces until they are explicitly checked in this app.
 
 ### Subject groups
 
@@ -84,6 +98,7 @@ npm run build
 - Keep Personal Academy distinct from Founder OS
 - Prefer honest scope over fake completeness
 - Keep content static and manifest-driven
+- Keep the entity-aware role/topic model aligned across docs, status, and content manifests
 - Preserve the warm editorial visual language
 
 ## What NOT to do
@@ -93,6 +108,7 @@ npm run build
 - Do not add database, auth, or backend requirements
 - Do not fabricate content that is not grounded in the subject or its curriculum arc
 - Do not break the `/{subject}/...` route shape
+- Do not claim role/topic route rollout is complete before it is verified
 
 ## Current state
 
@@ -104,3 +120,4 @@ npm run build
 - Robotics is a full native subject inside the unified shell with modules, lessons, frameworks, projects, tools, and day-in-the-life content
 - Commercial Property Management was migrated from `vdapp46-jll-commercial-property-manager-academy` on 2026-04-04 with generic subject-level framing preserved in the shell
 - Source academies were archived on 2026-04-04 after migration verification; archived copies live in `archive/2026-04-04-personal-academy-migration-sources/`
+- Roles and topics are now being introduced as entity-aware content kinds, so documentation and status files should stay aligned with that rollout even while the public runtime remains subject-prefixed

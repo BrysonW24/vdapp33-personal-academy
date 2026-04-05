@@ -1,0 +1,52 @@
+{
+  "slug": "ai-safety-researcher",
+  "title": "A Day as an AI Safety Researcher",
+  "setting": "An AI safety organisation or safety team within a frontier lab — examples include Anthropic's alignment team, DeepMind's safety team, ARC, Redwood Research, or MIRI",
+  "companySize": "Safety team of 5–25 within a larger organisation of 50–500",
+  "description": "You work on ensuring that AI systems behave as intended, remain interpretable, and do not cause harm at scale. This is not theoretical philosophy — it is hands-on technical work involving mechanistic interpretability, red-teaming, reinforcement learning from human feedback, and formal verification. The stakes feel real because the systems you are studying are becoming more capable each quarter. Your job is to understand what is happening inside these models well enough to make credible safety claims, and to develop techniques that scale as the models do.",
+  "salary": "$160,000 – $320,000 USD (research scientist at a safety-focused org or frontier lab safety team)",
+  "schedule": [
+    { "time": "09:00", "activity": "Start with a deep read of a new interpretability paper from a collaborating lab", "tools": ["arXiv", "Semantic Scholar"], "note": "The paper proposes a new method for identifying circuits in transformer models — need to assess whether it scales" },
+    { "time": "09:45", "activity": "Team sync — each researcher shares progress on their current workstream and any blockers", "tools": ["Slack", "Google Meet"], "note": "A colleague found an unexpected capability in the model being red-teamed — needs further investigation" },
+    { "time": "10:00", "activity": "Run interpretability experiments — trace how a specific model behaviour emerges across layers using activation patching", "tools": ["TransformerLens", "PyTorch", "Jupyter", "Neel Nanda's tools"], "note": "Trying to localise the circuit responsible for a specific type of sycophantic response" },
+    { "time": "12:00", "activity": "Lunch discussion with the policy team about an upcoming government consultation on AI regulation", "tools": [], "note": "They want technical input on what 'evaluating dangerous capabilities' should mean in practice" },
+    { "time": "13:00", "activity": "Red-teaming session — systematically probe a pre-release model for harmful capabilities using structured adversarial prompts", "tools": ["Internal red-team platform", "Python", "Prompt engineering tools"], "note": "Documenting each finding with reproduction steps, severity rating, and recommended mitigations" },
+    { "time": "14:30", "activity": "Write up red-team findings in a structured report for the responsible disclosure process", "tools": ["Google Docs", "Internal reporting system"], "note": "Two findings are serious enough to flag before the model ships — one involves a novel jailbreak vector" },
+    { "time": "15:00", "activity": "Deep work on your primary research project — developing a scalable method for detecting deceptive alignment in RLHF-trained models", "tools": ["PyTorch", "JAX", "W&B", "Custom eval framework"], "note": "The core challenge is that the signal you are looking for might not exist in the activations you can access" },
+    { "time": "16:30", "activity": "Review a colleague's draft paper on reward hacking in multi-objective RLHF and provide detailed technical feedback", "tools": ["Overleaf", "LaTeX"], "note": "Strong empirical results but the threat model section needs tightening" },
+    { "time": "17:00", "activity": "Prepare a presentation on your interpretability findings for the lab-wide research meeting tomorrow", "tools": ["Google Slides", "Matplotlib"], "note": "Need to make the results accessible to colleagues who are not interpretability specialists" },
+    { "time": "17:30", "activity": "End-of-day reflection — update your research log and plan tomorrow's experiments", "tools": ["Notion", "Lab notebook"], "note": "The interpretability result from this morning is suggestive but not conclusive — need a cleaner experimental design" }
+  ],
+  "responsibilities": [
+    "Conduct original research on alignment, interpretability, and AI safety",
+    "Red-team frontier models to identify dangerous capabilities and failure modes",
+    "Develop evaluation frameworks and benchmarks for measuring model safety properties",
+    "Write and publish research papers that advance the field's understanding of AI risks",
+    "Provide technical input for responsible deployment decisions and capability thresholds",
+    "Collaborate with policy teams on AI governance and regulation",
+    "Mentor junior researchers and contribute to the broader safety research community"
+  ],
+  "challenges": [
+    "The problems are genuinely unsolved — there is no textbook for alignment research",
+    "Measuring progress is hard when the goal is preventing catastrophic failures that have not happened yet",
+    "Balancing urgency (capabilities are advancing fast) with rigour (sloppy safety work can be worse than no safety work)",
+    "Navigating responsible disclosure when you find dangerous model capabilities",
+    "The interpretability tools that exist today may not scale to the models that matter most",
+    "Communicating technical safety concerns to policymakers without oversimplifying or fearmongering"
+  ],
+  "rewards": [
+    "Working on what may be the most important technical problem of the century",
+    "A research community that is unusually collaborative and mission-driven",
+    "Intellectual depth — the problems span computer science, mathematics, philosophy, and cognitive science",
+    "Direct impact on how the most powerful AI systems are built and deployed",
+    "The satisfaction of finding a real vulnerability before it reaches production",
+    "Being part of a small field that is growing rapidly in importance and funding"
+  ],
+  "careerPath": [
+    "PhD in ML/CS/Maths or a relevant technical field → Safety research fellowship or internship",
+    "Research Scientist at a safety org or frontier lab safety team",
+    "Senior Research Scientist → leading a specific safety research agenda (interpretability, eval, alignment)",
+    "Research Lead / Principal Scientist → setting multi-year safety research strategy",
+    "Head of Safety / Chief Safety Officer → shaping an organisation's entire approach to responsible AI development"
+  ]
+}

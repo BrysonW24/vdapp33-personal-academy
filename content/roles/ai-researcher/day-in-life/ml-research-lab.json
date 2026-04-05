@@ -1,0 +1,52 @@
+{
+  "slug": "ml-research-lab",
+  "title": "A Day at an ML Research Lab",
+  "setting": "A major ML research lab such as DeepMind, FAIR, or Anthropic, typically in a large city with a mix of open-plan desks and quiet focus rooms",
+  "companySize": "Research team of 10–30 within a lab of 200–800 researchers and engineers",
+  "description": "You are a research scientist at a top ML lab working on a specific research agenda — it might be scaling laws, multimodal learning, reasoning, or interpretability. Your days mix deep individual work with intense collaboration. The calibre of your colleagues is extraordinary, which means the bar for publishable work is high. You have access to significant compute resources, but so does everyone else, so the differentiator is ideas and execution, not hardware.",
+  "salary": "$180,000 – $350,000 USD (senior research scientist at a top lab)",
+  "schedule": [
+    { "time": "08:30", "activity": "Arrive and check overnight training runs on the cluster dashboard", "tools": ["Weights & Biases", "Slurm", "SSH"], "note": "Two runs diverged overnight — one looks promising, the other hit a NaN loss at step 40k" },
+    { "time": "09:00", "activity": "Morning paper reading — work through a new arXiv preprint relevant to your current project", "tools": ["arXiv", "Semantic Scholar", "PDF annotator"], "note": "A group at Berkeley published something adjacent to your approach — need to understand how it differs" },
+    { "time": "09:45", "activity": "Team standup — each researcher gives a 2-minute update on progress and blockers", "tools": ["Slack"], "note": "A colleague found a bug in the shared data pipeline that may have affected your last set of results" },
+    { "time": "10:00", "activity": "Deep coding session — implement a new attention variant and write the training loop", "tools": ["PyTorch", "VS Code", "JAX"], "note": "The tricky part is making the new mechanism compatible with the existing codebase without breaking other experiments" },
+    { "time": "12:00", "activity": "Lunch seminar — a visiting researcher presents their work on constitutional AI training methods", "tools": [], "note": "Good Q&A — someone asks a question that sparks an idea for your own project" },
+    { "time": "13:00", "activity": "Debug a training instability — analyse gradient norms, learning rate schedules, and data ordering", "tools": ["PyTorch", "TensorBoard", "Weights & Biases", "Jupyter"], "note": "The issue turns out to be a subtle numerical precision problem in the loss computation" },
+    { "time": "15:00", "activity": "Pair with a colleague on experiment design — plan an ablation study to isolate which component drives the improvement", "tools": ["Google Docs", "Whiteboard"], "note": "You need to design 8 controlled experiments that fit within your compute budget" },
+    { "time": "16:00", "activity": "Write the methodology section of a paper draft for an upcoming conference deadline", "tools": ["LaTeX", "Overleaf", "Matplotlib"], "note": "NeurIPS deadline is in 6 weeks — the paper needs to be internally reviewed in 3" },
+    { "time": "17:00", "activity": "Launch the ablation runs on the cluster and set up monitoring alerts", "tools": ["Slurm", "Weights & Biases", "Bash scripts"], "note": "These runs will take 18 hours each — results should be ready for analysis tomorrow afternoon" },
+    { "time": "17:30", "activity": "Respond to a code review from a teammate and review their PR in return", "tools": ["GitHub", "Python"], "note": "Their PR refactors the tokeniser — need to make sure it does not affect downstream experiment reproducibility" }
+  ],
+  "responsibilities": [
+    "Develop novel ML methods and validate them through rigorous experimentation",
+    "Publish research at top venues (NeurIPS, ICML, ICLR, ACL)",
+    "Maintain and extend shared research infrastructure and codebases",
+    "Mentor junior researchers, interns, and visiting scientists",
+    "Participate in paper reading groups and internal research reviews",
+    "Manage GPU compute allocation and experiment scheduling",
+    "Collaborate across teams on large-scale research initiatives"
+  ],
+  "challenges": [
+    "Conference deadlines create intense crunch periods (2-3 times per year)",
+    "Reproducing results from other labs is often harder than the paper suggests",
+    "Compute costs for large-scale experiments can reach tens of thousands of dollars per run",
+    "Keeping up with the pace of publications — hundreds of relevant papers per month",
+    "Balancing exploratory research with the pressure to show measurable progress",
+    "Debugging distributed training across hundreds of GPUs with limited error messages"
+  ],
+  "rewards": [
+    "Working at the absolute frontier of what machines can do",
+    "Colleagues who are among the best in the world at what they do",
+    "Seeing your ideas deployed in products used by millions of people",
+    "Intellectual freedom to pursue high-risk, high-reward research directions",
+    "Contributing to the scientific understanding of intelligence itself",
+    "Compensation that reflects the scarcity of deep ML expertise"
+  ],
+  "careerPath": [
+    "PhD in ML/CS → Research Intern at a top lab",
+    "Research Scientist (IC3–IC4) → working on a defined research agenda",
+    "Senior Research Scientist (IC5–IC6) → leading a research thread or small team",
+    "Staff/Principal Research Scientist → setting multi-year research direction",
+    "Research Director / VP Research → leading an entire research area or lab"
+  ]
+}

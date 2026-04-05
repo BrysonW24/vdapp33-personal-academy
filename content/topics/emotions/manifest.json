@@ -1,0 +1,12 @@
+{
+  "slug": "emotions",
+  "name": "Emotions",
+  "kind": "topic",
+  "group": "mind",
+  "icon": "Heart",
+  "color": "#F43F5E",
+  "tagline": "What emotions are, how they work, and why they shape everything we do.",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 6
+}

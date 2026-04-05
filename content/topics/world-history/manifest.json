@@ -1,0 +1,12 @@
+{
+  "slug": "world-history",
+  "name": "World History",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "Clock",
+  "color": "#92400E",
+  "tagline": "The full sweep of human civilisation from ancient origins to the modern world.",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 9
+}

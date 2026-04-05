@@ -1,0 +1,21 @@
+{
+  "slug": "emotions",
+  "title": "Emotions",
+  "whatItIs": "Emotions are complex psychophysiological states that arise from the interplay of brain circuits, hormones, bodily sensations, and cognitive appraisals. Neuroscience has identified key structures — the amygdala for threat detection and fear, the insula for interoceptive awareness, the prefrontal cortex for emotional regulation, and the ventral striatum for reward and pleasure — that work together in networks rather than as isolated modules. Psychologically, emotions are understood through frameworks ranging from Paul Ekman's basic emotion theory (which proposes a small set of universal emotions like anger, fear, joy, sadness, surprise, and disgust) to Lisa Feldman Barrett's theory of constructed emotion (which argues that the brain actively constructs emotional experiences from more primitive ingredients like arousal and valence, shaped by culture and past experience).\n\nEmotions are not the opposite of reason. They are deeply integrated into how humans perceive the world, form memories, and make decisions. Antonio Damasio's somatic marker hypothesis showed that patients with damage to emotion-processing brain regions make catastrophically poor decisions despite retaining full intellectual capacity — they literally cannot weigh options without emotional input. Every emotion carries information: fear signals potential danger, anger signals boundary violation, sadness signals loss, and joy signals alignment with goals or values.",
+  "whyItMatters": "Emotions shape nearly every consequential decision a person makes, from career choices to relationships to financial behaviour. Understanding how emotions work — and how they can mislead — is foundational to self-awareness, effective communication, and mental health. Emotional literacy (the ability to identify, name, and regulate emotional states) is one of the strongest predictors of psychological wellbeing, relationship satisfaction, and professional effectiveness.\n\nEmotional dysregulation underlies a wide range of mental health conditions, from anxiety and depression to borderline personality disorder and PTSD. Learning to work with emotions rather than suppress or be overwhelmed by them is central to virtually every evidence-based therapeutic approach, from cognitive behavioural therapy to dialectical behaviour therapy to acceptance and commitment therapy. At a societal level, understanding collective emotional dynamics helps explain phenomena from political polarisation to market panics to the spread of misinformation.",
+  "keyIdeas": [
+    "Basic emotions versus constructed emotion theories",
+    "The neuroscience of emotional processing — amygdala, insula, prefrontal cortex",
+    "Emotional regulation strategies and their neural basis",
+    "The role of emotions in decision-making and memory formation",
+    "Emotional intelligence and literacy as learnable skills",
+    "The relationship between emotions, mood, and temperament"
+  ],
+  "frontier": "Current research is pushing into how emotions are represented in the brain at a much finer resolution than the old 'one brain region, one emotion' model. Neuroimaging studies using machine learning can now decode emotional states from brain activity patterns, and affective computing aims to build systems that can recognise and respond to human emotions. The debate between basic emotion theory and constructionist accounts remains unresolved, with growing evidence that cultural context shapes not just how emotions are expressed but how they are actually experienced at the physiological level.",
+  "openQuestions": [
+    "Are there truly universal basic emotions, or is every emotional experience culturally constructed?",
+    "How do emotions interact with consciousness — can you have an emotion without being aware of it?",
+    "What is the relationship between gut microbiome health and emotional states?",
+    "Can artificial systems ever genuinely experience emotions, or only simulate emotional responses?"
+  ]
+}

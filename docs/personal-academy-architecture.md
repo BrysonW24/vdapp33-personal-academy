@@ -12,6 +12,20 @@ Personal Academy is the learning-first side of the academy ecosystem. It shares 
 - Subjects register via `manifest.json`
 - Missing sections stay honest with empty states
 
+## Entity-aware direction
+
+Current state:
+
+- The verified runtime shell is still subject-prefixed
+- Roles and topics now exist as content kinds alongside subjects
+- Related-entity metadata is being used to make the navigation layer entity-aware without turning every content kind into the same route shape
+
+Target state:
+
+- Subject, role, and topic content should remain clearly separated in the content tree
+- Docs and status should describe which entity kinds are live content versus which are only target-state route surfaces
+- Route rollout for `/roles/{slug}` and `/topics/{slug}` should be treated as a separate verification step from content authoring
+
 ## Migration posture
 
 Current content has been copied into `content/curriculum/{subject}/` from:
@@ -48,3 +62,5 @@ See `personal-academy-migration-analysis.md` for the post-migration depth compar
 - `/{subject}/tools/{slug}`
 - `/{subject}/toolkit`
 - `/{subject}/day-in-the-life`
+
+The route surface above is the current verified subject shell. Entity-aware role/topic routes belong in target-state notes until they are explicitly added and checked.

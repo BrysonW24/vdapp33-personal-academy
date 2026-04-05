@@ -1,0 +1,11 @@
+{
+  "slug": "robotics-engineer",
+  "name": "Robotics Engineer",
+  "kind": "role",
+  "group": "engineering",
+  "icon": "Cpu",
+  "color": "#059669",
+  "tagline": "You combine software, hardware, AI, and real-world action to make machines do useful things.",
+  "tier": "flagship",
+  "order": 3
+}

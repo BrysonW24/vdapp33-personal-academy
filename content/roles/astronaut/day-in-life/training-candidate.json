@@ -1,0 +1,108 @@
+{
+  "slug": "training-candidate",
+  "title": "A Day as an Astronaut Candidate in Training",
+  "setting": "NASA Johnson Space Center (JSC), Houston, Texas. A 1,620-acre campus housing Mission Control, the Neutral Buoyancy Laboratory, spacecraft mockup facilities, and T-38 jet trainers. The astronaut candidate class shares offices in Building 4S and trains across the campus and at Ellington Field nearby.",
+  "companySize": "NASA selects astronaut candidate classes of 10-17 people roughly every 2-4 years, chosen from over 18,000 applicants. The active astronaut corps numbers approximately 44. JSC employs around 10,000 civil servants and contractors.",
+  "description": "You are six months into the two-year Astronaut Candidate (ASCAN) training programme. Before selection, you were a flight test engineer with a master's degree in aerospace engineering and 1,500 hours of jet time. You are one of 10 candidates in your class, and you are all training together through a curriculum that covers spacecraft systems, spacewalking, robotics, Russian language, and survival skills.",
+  "salary": "$104,898 - $128,956 USD (NASA astronaut candidate GS-13 to GS-14)",
+  "schedule": [
+    {
+      "time": "05:30",
+      "activity": "Wake up and drive to Ellington Field for T-38 flight training",
+      "tools": ["T-38 Talon supersonic jet trainer", "Flight suit", "G-suit"],
+      "note": "NASA astronauts maintain flight proficiency in the T-38, a two-seat supersonic trainer. The real purpose is not flying skill alone — it is practising high-speed decision-making, crew resource management, and staying calm under high-G and time-critical conditions."
+    },
+    {
+      "time": "06:00",
+      "activity": "Pre-flight briefing and T-38 training sortie",
+      "tools": ["T-38 Talon", "Navigation charts", "Radio"],
+      "note": "Today's sortie includes instrument approaches, formation flying, and simulated emergency procedures. You fly as pilot-in-command with an instructor in the back seat. The T-38 cruises at Mach 0.9 and pulls up to 7.3 G in manoeuvres."
+    },
+    {
+      "time": "08:30",
+      "activity": "Post-flight debrief and return to JSC Building 4S",
+      "tools": ["Debrief room", "Flight recorder data"],
+      "note": "Every flight is debriefed in detail. Mistakes are discussed openly. The culture is borrowed from military test pilot schools: be honest about errors, because in space there is no room for ego."
+    },
+    {
+      "time": "09:00",
+      "activity": "Classroom training — International Space Station systems",
+      "tools": ["Technical manuals", "Systems diagrams", "ISS mockups in Building 9"],
+      "note": "Today's session covers the Electrical Power System (EPS): how the station's eight solar array wings generate power, how the batteries store it during orbital night, and what happens during a sequential shunt unit failure. You need to understand these systems deeply enough to troubleshoot them in orbit."
+    },
+    {
+      "time": "11:00",
+      "activity": "Neutral Buoyancy Laboratory (NBL) training — EVA skills",
+      "tools": ["EMU spacesuit (underwater version)", "EVA tools", "Full-scale ISS mockup (submerged)"],
+      "note": "The NBL is a 23.5-million-litre pool containing full-size replicas of ISS modules and truss segments. You don a 127 kg spacesuit, are lowered into the pool, and spend 6 hours practising spacewalk tasks: translating along handrails, operating bolt-driving tools, replacing orbital replacement units. Safety divers float nearby. It is the closest simulation to actual EVA conditions available on Earth."
+    },
+    {
+      "time": "12:30",
+      "activity": "Lunch break — still in the NBL facility",
+      "tools": [],
+      "note": "After hours in the suit, your hands are sore from gripping tools against the suit's pressurised gloves. You eat quickly and compare notes with classmates about the procedures."
+    },
+    {
+      "time": "13:30",
+      "activity": "Russian language class",
+      "tools": ["Textbooks", "Audio materials", "Russian instructor"],
+      "note": "All ISS crew members must be functional in Russian. The Soyuz spacecraft procedures, the Russian segment of the station, and communication with the Russian Mission Control Centre (TsUP) in Moscow all require it. You train towards conversational and technical fluency — enough to handle an emergency in the Soyuz with Russian-only procedures."
+    },
+    {
+      "time": "15:00",
+      "activity": "Robotics training — Canadarm2 and Dextre simulator",
+      "tools": ["Canadarm2 simulator", "Robotics workstation mockup", "CCTV camera views"],
+      "note": "You practise operating the 17-metre robotic arm using only camera views, since the Cupola windows do not always have line of sight to the work area. Today's scenario: unberthing a cargo vehicle and releasing it for departure. The arm moves slowly by design — a few centimetres per second — but the consequences of a collision are severe."
+    },
+    {
+      "time": "16:30",
+      "activity": "Physical fitness training",
+      "tools": ["Gym at JSC", "Running shoes", "Heart rate monitor"],
+      "note": "ASCANs are expected to maintain high physical fitness throughout training. Today is a distance run followed by swimming. The swimming requirement is strict: you must pass a timed swim test in a flight suit and demonstrate water survival skills. Astronaut candidates who cannot pass the swim test do not advance."
+    },
+    {
+      "time": "18:00",
+      "activity": "Evening study — review spacecraft systems and Russian vocabulary",
+      "tools": ["ISS systems manuals", "Russian flashcards", "Personal notes"],
+      "note": "The volume of material is immense. You are simultaneously learning to fly jets, operate a space station, walk in space, speak Russian, and understand the science payloads you will eventually tend. Most candidates study 1-2 hours each evening."
+    },
+    {
+      "time": "19:30",
+      "activity": "Dinner and personal time",
+      "tools": [],
+      "note": "You live in Houston. Some classmates have families; others relocated alone. The ASCAN class is tight-knit — you train together, fly together, and will eventually trust each other with your lives. Weekend activities sometimes include wilderness survival training, scuba certification maintenance, or geology field trips."
+    }
+  ],
+  "responsibilities": [
+    "Complete all required flight hours in the T-38 jet trainer and maintain flight proficiency",
+    "Master ISS systems knowledge across electrical, thermal, life support, communications, and guidance/navigation",
+    "Qualify in EVA procedures through extensive Neutral Buoyancy Laboratory training",
+    "Achieve functional proficiency in Russian language for Soyuz and ISS operations",
+    "Complete robotics certification for Canadarm2 and Dextre operations",
+    "Pass water survival and wilderness survival training courses",
+    "Maintain physical fitness standards throughout the two-year candidate programme"
+  ],
+  "challenges": [
+    "The sheer volume of technical knowledge to absorb across dozens of spacecraft systems",
+    "Physical demands of NBL training — 6-hour suited runs in a pool are exhausting and hard on the hands",
+    "Balancing family life with a training schedule that includes travel, T-38 flights, and evening study",
+    "The uncertainty of when or if you will receive a flight assignment after completing candidacy",
+    "Learning Russian as an adult to a level sufficient for emergency spacecraft operations",
+    "The pressure of knowing that any serious failure during candidacy could end your astronaut career"
+  ],
+  "rewards": [
+    "Flying supersonic jets as part of your job",
+    "Training alongside some of the most accomplished people in the world",
+    "The knowledge that every skill you are building may one day be used in orbit",
+    "Access to facilities and experiences that almost no one on Earth gets to see",
+    "Being part of a legacy that stretches back to the Mercury, Gemini, and Apollo programmes",
+    "The camaraderie of the ASCAN class — a bond forged through shared intensity and purpose"
+  ],
+  "careerPath": [
+    "Advanced degree (master's or PhD) in STEM, or military test pilot qualification, plus significant professional experience",
+    "Astronaut Candidate (ASCAN) — 2-year training programme at JSC covering all core competencies",
+    "Astronaut — assigned to a technical branch (EVA, robotics, CAPCOM, vehicle systems) while awaiting flight assignment",
+    "First flight assignment — ISS expedition crew member or short-duration mission",
+    "Senior astronaut — multiple flights, potential crew commander, Artemis programme selection, or transition to management (Chief Astronaut Office, programme leadership)"
+  ]
+}

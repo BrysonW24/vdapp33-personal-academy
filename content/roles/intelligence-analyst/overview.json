@@ -1,0 +1,26 @@
+{
+  "slug": "intelligence-analyst",
+  "title": "What being an Intelligence Analyst actually involves",
+  "summary": "Intelligence analysis is not espionage. It is the disciplined work of collecting information from multiple sources — satellite imagery, open-source reporting, signals intercepts, human intelligence reports, financial records — and synthesising it into assessments that help decision-makers act when the picture is incomplete. Most of your time is spent reading, cross-referencing, and writing. The glamour is minimal. The consequences of getting it wrong are real.\n\nThe core skill is structured thinking under uncertainty. You are trained to distinguish what you know from what you assess, to quantify confidence levels, to identify gaps in collection, and to resist cognitive biases that push analysts toward premature conclusions. You write in a specific style — concise, evidence-based, with analytic confidence levels attached to every key judgement. A finished intelligence product might be a two-page brief for a minister, a threat assessment for a military commander, or a strategic estimate about a foreign government's intentions over the next five years.\n\nWhat draws people to this work is the combination of intellectual rigour and real-world stakes. You are not producing academic research for peer review in three years. You are producing assessments that shape decisions today — whether to impose sanctions, deploy forces, warn an ally, or change a security posture. The feedback loop is fast, the information environment is adversarial, and the analytical problems are genuinely hard. You will be wrong sometimes. The discipline is in being wrong less often and being transparent about your reasoning.",
+  "coreWork": [
+    "Collecting and evaluating information from multiple intelligence streams (OSINT, SIGINT, HUMINT, GEOINT, FININT)",
+    "Writing structured analytic products — threat assessments, strategic estimates, current intelligence briefs",
+    "Applying structured analytic techniques to counter cognitive bias and strengthen judgements",
+    "Briefing decision-makers — ministers, military commanders, senior executives — under time pressure",
+    "Monitoring ongoing situations and updating assessments as new information arrives",
+    "Evaluating source reliability and information credibility using standardised frameworks",
+    "Collaborating with collectors, other analysts, and partner agencies to fill intelligence gaps",
+    "Maintaining deep subject-matter expertise in assigned geographic or functional areas"
+  ],
+  "frontierPull": "You are interpreting the world under conditions of deliberate deception, incomplete data, and real consequences. Every other analytical profession works with information that is mostly honest. Intelligence analysis works with information that is often deliberately concealed, distorted, or fabricated by adversaries. The problems are adversarial, the stakes are national, and the analytical discipline required is among the most rigorous in any profession. The emergence of AI-assisted analysis, massive open-source data volumes, and cyber-enabled threats is transforming the field faster than at any point since the Cold War.",
+  "signals": [
+    "OSINT and open-source research",
+    "Geopolitical analysis",
+    "Threat assessment",
+    "Structured analytic techniques",
+    "Report and briefing writing",
+    "Source evaluation and credibility assessment",
+    "Pattern recognition across large datasets",
+    "Critical thinking under uncertainty"
+  ]
+}

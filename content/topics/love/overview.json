@@ -1,0 +1,21 @@
+{
+  "slug": "love",
+  "title": "Love",
+  "whatItIs": "Love is a multidimensional phenomenon that spans biology, psychology, philosophy, and culture. At the neurochemical level, romantic love involves a distinctive cocktail of dopamine (driving desire and reward-seeking), norepinephrine (producing the racing heart and focused attention of infatuation), oxytocin (deepening bonding and trust through physical contact), and vasopressin (supporting long-term pair bonding). Brain imaging studies show that early romantic love activates reward circuits similar to those triggered by addictive substances, which explains both the euphoria and the anguish of love — it literally hijacks the brain's motivation system.\n\nPsychologically, attachment theory (developed by John Bowlby and Mary Ainsworth) provides the most influential framework for understanding love across the lifespan. The attachment bonds formed in infancy — secure, anxious, or avoidant — shape how people approach intimacy, handle conflict, and experience trust in adult relationships. Philosophically, love has been explored from Plato's concept of eros as a ladder ascending from physical beauty to the form of the Good, through the medieval distinction between eros, philia, storge, and agape, to contemporary thinkers who examine love as a practice of mutual recognition and vulnerability rather than a feeling that happens to you.",
+  "whyItMatters": "Love is not merely a private emotional experience — it is one of the most powerful forces shaping human behaviour, health, and social organisation. Decades of longitudinal research, most notably the Harvard Study of Adult Development (running since 1938), consistently find that the quality of close relationships is the single strongest predictor of long-term health, happiness, and longevity, outweighing wealth, fame, social class, and even genetics. Social isolation and loneliness, by contrast, are as damaging to health as smoking fifteen cigarettes a day.\n\nUnderstanding love also means understanding its failures and distortions — codependency, attachment trauma, the difference between love and obsession, and how cultural narratives about romantic love can create unrealistic expectations that undermine real relationships. The evolutionary perspective reveals that human pair bonding, parental love, and friendship all serve distinct adaptive functions that shaped our species over millions of years. Love is simultaneously one of the most deeply personal experiences and one of the most universal features of human existence across every culture ever studied.",
+  "keyIdeas": [
+    "The neuroscience of love — dopamine, oxytocin, and the brain's reward system",
+    "Attachment theory and its influence on adult relationship patterns",
+    "The philosophical traditions — eros, philia, storge, and agape",
+    "Evolutionary perspectives on pair bonding and parental investment",
+    "Cultural variation in how love is understood, expressed, and structured",
+    "The psychology of heartbreak, grief, and relationship repair"
+  ],
+  "frontier": "Researchers are now mapping the neuroscience of long-term love — what happens in the brain of couples who report intense romantic love after twenty or thirty years together. Early findings suggest these relationships maintain dopaminergic reward activation while also engaging brain regions associated with calm attachment, creating a neurological profile distinct from both early infatuation and companionate affection. Cross-cultural psychology is also revealing that the Western emphasis on romantic love as the basis for marriage is historically unusual, and that cultures with arranged marriage traditions often develop deep love through different pathways than the meet-fall-marry sequence assumed in Western narratives.",
+  "openQuestions": [
+    "Is romantic love a cultural invention or a biological universal that culture merely shapes?",
+    "Can attachment styles be meaningfully changed in adulthood, and if so, how?",
+    "What is the relationship between self-love and the capacity to love others?",
+    "How will technology — from dating apps to AI companions — reshape human experiences of love and bonding?"
+  ]
+}

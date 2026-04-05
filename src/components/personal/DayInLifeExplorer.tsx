@@ -8,12 +8,20 @@ import type { DayInLife } from "@/types/curriculum"
 
 interface DayInLifeExplorerProps {
   scenarios: DayInLife[]
+  subjectSlug?: string
+  basePath?: string
 }
 
-export function DayInLifeExplorer({ scenarios }: DayInLifeExplorerProps) {
+export function DayInLifeExplorer({
+  scenarios,
+  subjectSlug,
+  basePath,
+}: DayInLifeExplorerProps) {
   const [activeSlug, setActiveSlug] = useState(scenarios[0]?.slug ?? "")
   const activeScenario =
     scenarios.find((scenario) => scenario.slug === activeSlug) ?? scenarios[0]
+  const resolvedBasePath =
+    basePath ?? (subjectSlug ? `/${subjectSlug}/day-in-the-life` : "")
 
   if (!activeScenario) return null
 
@@ -26,6 +34,11 @@ export function DayInLifeExplorer({ scenarios }: DayInLifeExplorerProps) {
             scenario={scenario}
             isActive={scenario.slug === activeScenario.slug}
             onClick={() => setActiveSlug(scenario.slug)}
+            href={
+              resolvedBasePath
+                ? `${resolvedBasePath}/${scenario.slug}`
+                : undefined
+            }
           />
         ))}
       </div>

@@ -1,0 +1,114 @@
+{
+  "slug": "iss-crew-member",
+  "title": "A Day as an ISS Crew Member",
+  "setting": "International Space Station, low Earth orbit at approximately 408 km altitude, orbiting Earth every 92 minutes at 28,000 km/h. The station is a pressurised habitable volume roughly the size of a six-bedroom house, shared by a crew of six or seven from NASA, ESA, JAXA, and Roscosmos.",
+  "companySize": "NASA employs approximately 18,000 civil servants; the ISS programme is a partnership between NASA (USA), Roscosmos (Russia), ESA (Europe), JAXA (Japan), and CSA (Canada). Each expedition crew typically numbers 6-7 astronauts and cosmonauts.",
+  "description": "You are a NASA astronaut on a six-month expedition aboard the International Space Station. You hold a PhD in biomedical engineering and completed two years of astronaut candidate training before being assigned to this mission. You are responsible for conducting science experiments, maintaining station systems, and supporting two planned spacewalks during your increment.",
+  "salary": "$104,898 - $161,141 USD (NASA astronaut GS-13 to GS-15)",
+  "schedule": [
+    {
+      "time": "06:00",
+      "activity": "Wake up, personal hygiene, and breakfast",
+      "tools": ["Hygiene station", "Food warmer", "Rehydration station"],
+      "note": "Brushing teeth means swallowing the toothpaste. Breakfast is rehydrated scrambled eggs and coffee from a pouch. You sleep in a phone-booth-sized crew quarter strapped into a sleeping bag attached to the wall."
+    },
+    {
+      "time": "07:30",
+      "activity": "Daily Planning Conference (DPC) with Mission Control Houston",
+      "tools": ["S-band audio", "On-Board Short-Term Plan Viewer (OSTPV)"],
+      "note": "The ground team walks through today's timeline. Every 5-minute block is pre-scheduled. They confirm your experiment runs, maintenance tasks, and any schedule changes."
+    },
+    {
+      "time": "08:00",
+      "activity": "Science experiment operations in the US Laboratory (Destiny)",
+      "tools": ["Microgravity Science Glovebox (MSG)", "Light Microscopy Module", "Biological specimen containers"],
+      "note": "Today you are running a protein crystal growth experiment for a pharmaceutical company and swapping samples in the Cold Atom Laboratory. You follow detailed procedures uplinked from the ground, step by step."
+    },
+    {
+      "time": "10:00",
+      "activity": "Systems maintenance — replace a fan pump separator in the ECLSS",
+      "tools": ["Portable breathing apparatus", "Standard tool kit", "Procedure checklist"],
+      "note": "The Environmental Control and Life Support System recycles your air and water. This unit processes condensate humidity from the cabin. If it fails, the backup kicks in, but redundancy matters when the nearest repair shop is 408 km below you."
+    },
+    {
+      "time": "11:00",
+      "activity": "Mandatory exercise session — resistance training on ARED",
+      "tools": ["Advanced Resistive Exercise Device (ARED)"],
+      "note": "Without gravity loading your skeleton, you lose roughly 1-2% of bone density per month. ARED uses vacuum cylinders to simulate up to 272 kg of resistance. Squats, deadlifts, bench press — a full gym session, floating."
+    },
+    {
+      "time": "12:00",
+      "activity": "Lunch and midday break",
+      "tools": ["Food warmer", "Galley"],
+      "note": "The crew gathers in the Node 1 (Unity) galley area. Meals are one of the few times the full crew is together. Today's menu: tortillas with peanut butter (no bread — crumbs are dangerous in microgravity), thermostabilised chicken, and a fruit punch pouch."
+    },
+    {
+      "time": "13:00",
+      "activity": "Robotics operations — use Canadarm2 to grapple an incoming cargo vehicle",
+      "tools": ["Canadarm2 (SSRMS)", "Cupola robotic workstation", "CCTV cameras"],
+      "note": "A SpaceX Dragon cargo vehicle is approaching. You operate the 17-metre robotic arm from the Cupola, gently capturing the free-flying spacecraft and berthing it to a docking port. Precision matters — you are grabbing a 12,000 kg vehicle travelling at 28,000 km/h."
+    },
+    {
+      "time": "14:30",
+      "activity": "Mandatory exercise session — cardiovascular on CEVIS or T2 treadmill",
+      "tools": ["Cycle Ergometer with Vibration Isolation and Stabilisation (CEVIS)", "T2 treadmill", "Heart rate monitor"],
+      "note": "Two hours of exercise per day is mandatory, split across resistance and cardio. On the treadmill you are bungee-corded down so you do not float away. Your VO2 max and bone density are tracked throughout the mission."
+    },
+    {
+      "time": "16:00",
+      "activity": "Continue science operations — Earth observation photography",
+      "tools": ["Nikon D5 DSLR", "800mm lens", "Cupola windows"],
+      "note": "The Cupola has seven windows with views of Earth. You photograph storm systems, volcanic eruptions, coral reef health, and urban light patterns for researchers on the ground. The crew takes over a million photos per year."
+    },
+    {
+      "time": "17:00",
+      "activity": "Evening Planning Conference with Mission Control",
+      "tools": ["S-band audio", "OSTPV"],
+      "note": "Debrief on today's activities, flag any anomalies, preview tomorrow's schedule. Report on the cargo vehicle capture and any issues with the ECLSS repair."
+    },
+    {
+      "time": "17:30",
+      "activity": "Dinner and crew time",
+      "tools": ["Galley", "Laptop for personal email and video calls"],
+      "note": "After dinner, you have personal time. You video-call your family, read, watch downloaded shows, photograph the aurora from the Cupola, or simply float and look at Earth. Some crew members play music — there is a guitar onboard."
+    },
+    {
+      "time": "21:30",
+      "activity": "Sleep",
+      "tools": ["Crew quarter sleeping bag", "Ear plugs", "Eye mask"],
+      "note": "The station crosses a sunrise or sunset every 45 minutes, so natural light cues are meaningless. You seal your crew quarter, strap in, and sleep for 8.5 hours. The station hums with fans, pumps, and equipment — ear plugs are essential."
+    }
+  ],
+  "responsibilities": [
+    "Conduct scientific experiments across biology, physics, materials science, and Earth observation",
+    "Operate and maintain the station's life support, power, thermal, and communications systems",
+    "Perform spacewalks (EVAs) for external maintenance, upgrades, and repairs",
+    "Operate the Canadarm2 robotic arm for cargo vehicle capture and external payload manipulation",
+    "Serve as a test subject for human physiology research on the effects of long-duration spaceflight",
+    "Maintain physical fitness through mandatory daily exercise to counteract microgravity deconditioning",
+    "Document all activities and anomalies for ground teams and future crews"
+  ],
+  "challenges": [
+    "Living in a confined space with the same small crew for six months with no option to leave",
+    "Physical deconditioning — bone loss, muscle atrophy, fluid shifts, and vision changes from intracranial pressure",
+    "Separation from family, with communication limited to scheduled video calls and email",
+    "The psychological weight of knowing that every system failure could be life-threatening",
+    "Sleep disruption from noise, light cycles, and the adjustment to a non-24-hour day",
+    "Performing complex technical procedures in a hostile environment where mistakes have extreme consequences"
+  ],
+  "rewards": [
+    "Seeing Earth from orbit — the overview effect changes how you understand the planet",
+    "Contributing to scientific research that cannot be done anywhere else",
+    "Being part of the longest continuous human presence in space (the ISS has been continuously inhabited since November 2000)",
+    "The experience of weightlessness — moving through three dimensions in a way no ground environment can replicate",
+    "Working in a genuinely international team where collaboration across cultures and languages is the daily norm",
+    "Knowing that your work contributes directly to enabling future deep-space exploration"
+  ],
+  "careerPath": [
+    "Military test pilot, engineer, or scientist with advanced degree → NASA Astronaut Candidate application (acceptance rate ~0.04%)",
+    "Astronaut Candidate (ASCAN) — 2 years of basic training: T-38 jets, NBL, Russian language, spacecraft systems, survival training",
+    "Astronaut — assigned to technical duties (CAPCOM, robotics branch, EVA branch) while awaiting flight assignment",
+    "ISS crew member — 6-month expedition, potentially including spacewalks and robotic operations",
+    "Veteran astronaut — multiple missions, leadership roles, potential selection for Artemis lunar missions or future Mars crew"
+  ]
+}

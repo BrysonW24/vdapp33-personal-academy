@@ -1,0 +1,55 @@
+{
+  "slug": "defence-intelligence",
+  "title": "A Day as an Intelligence Analyst at a Defence Agency",
+  "setting": "Australian Signals Directorate (ASD), Canberra ACT — Strategic Intelligence Branch",
+  "companySize": "Government agency (~2,500 staff), working in a team of 12 analysts covering Indo-Pacific security",
+  "description": "Sarah Chen is a strategic intelligence analyst at the Australian Signals Directorate, specialising in Indo-Pacific maritime security. Her job is to synthesise intelligence from signals intercepts, satellite imagery, diplomatic reporting, and open sources into assessments that inform senior government decision-makers — including the National Security Committee of Cabinet. She has been in the role for four years after completing a Master of International Relations at ANU and passing the ASIS/ASD graduate programme selection process, which included psychometric testing, an extensive security vetting process (taking six months), and a year of foundational intelligence tradecraft training. Her current focus area is tracking naval force posture changes in the South China Sea and their implications for Australian interests.",
+  "salary": "$95,000 - $140,000 AUD",
+  "schedule": [
+    {"time": "06:30", "activity": "Arrive at the secure facility, pass through access control", "tools": ["Security badge", "Secure facility access protocols"], "note": "ASD's Ben Chifley Building in Canberra is a Sensitive Compartmented Information Facility (SCIF). No personal electronic devices past the entry point. Work phones and laptops stay inside."},
+    {"time": "06:45", "activity": "Review overnight intelligence traffic", "tools": ["Classified intelligence databases", "Signals intelligence feeds", "Five Eyes partner reporting"], "note": "Overnight collection from signals and imagery assets. Check for anything requiring an immediate alert to the Watch Office. Today: new satellite imagery showing unusual activity at a naval base."},
+    {"time": "07:30", "activity": "Morning stand-up with the Indo-Pacific team", "tools": ["Secure briefing room"], "note": "12-person team reviews overnight developments, assigns analytical tasks for the day, identifies any priority intelligence requirements from consumers (Defence, DFAT, PM&C)."},
+    {"time": "08:00", "activity": "Imagery analysis and cross-referencing", "tools": ["GEOINT analysis tools", "Classified imagery databases", "Historical imagery archives"], "note": "Comparing today's satellite imagery with baseline imagery from the same facility. Counting vessels, identifying ship classes, assessing readiness indicators. Cross-referencing with signals intelligence about communications patterns."},
+    {"time": "09:30", "activity": "Draft a Current Intelligence Note (CIN)", "tools": ["Classified word processing", "Intelligence writing style guide", "Analytic standards framework"], "note": "Writing a 2-page assessment of what the imagery and signals data suggest about near-term naval activity. Every key judgement must carry a confidence level (low/moderate/high) with supporting reasoning. The writing standard is exacting — every sentence must be defensible."},
+    {"time": "11:00", "activity": "Peer review and quality assurance", "tools": ["Classified review workflow"], "note": "A senior analyst reviews the CIN for analytic rigour, sourcing, confidence calibration, and policy-neutrality. Intelligence products advise, they do not advocate. Two rounds of revision."},
+    {"time": "12:00", "activity": "Lunch in the secure facility cafeteria", "tools": [], "note": "Cannot discuss work outside the facility. Lunch conversations stay general. Many colleagues are similarly constrained — it creates a particular social dynamic."},
+    {"time": "12:45", "activity": "Structured Analytic Technique workshop — Analysis of Competing Hypotheses", "tools": ["ACH framework", "Whiteboard", "Team discussion"], "note": "The team applies ACH to a long-running analytical problem — assessing the most likely explanation for a pattern of military exercises. The technique forces analysts to consider alternative hypotheses and identify which evidence genuinely discriminates between them."},
+    {"time": "14:00", "activity": "Briefing preparation for a senior consumer", "tools": ["Classified briefing system", "Presentation tools"], "note": "Preparing a 15-minute verbal briefing for a Deputy Secretary in Defence on the current maritime security picture. The brief must be concise, policy-relevant, and anticipate likely questions."},
+    {"time": "15:00", "activity": "Deliver the briefing", "tools": ["Secure briefing room"], "note": "The Deputy Secretary asks sharp follow-up questions about confidence levels and what collection gaps remain. This is normal — good consumers challenge assessments. Sarah handles it well because she knows her sourcing cold."},
+    {"time": "15:30", "activity": "Collection requirement drafting", "tools": ["Intelligence collection management system"], "note": "Based on gaps identified during the briefing and her own analysis, Sarah drafts a collection requirement — a formal request for specific intelligence collection (signals, imagery, or human) to fill a gap in understanding."},
+    {"time": "16:30", "activity": "Open-source intelligence research", "tools": ["OSINT tools", "Foreign language media", "Academic databases", "Social media monitoring"], "note": "Scanning Chinese-language military forums, maritime tracking data, academic publications on naval strategy, and commercial satellite imagery to supplement classified sources. OSINT is increasingly valuable and sometimes reveals things classified sources miss."},
+    {"time": "17:30", "activity": "End of day — update team tracker, secure workstation", "tools": ["Classified network", "Secure storage"], "note": "Log the day's analytical outputs, update the team's running intelligence picture, lock all classified materials in approved storage. Nothing leaves the building."}
+  ],
+  "responsibilities": [
+    "Produce written intelligence assessments (Current Intelligence Notes, Strategic Estimates, Watch Condition updates) to inform senior government decision-makers",
+    "Monitor and analyse intelligence from multiple streams — signals, imagery, human, open source — within an assigned geographic or functional portfolio",
+    "Brief senior consumers (ministers, Defence leadership, National Security Committee of Cabinet) on intelligence assessments",
+    "Apply structured analytic techniques to reduce cognitive bias and improve judgement quality",
+    "Draft intelligence collection requirements to fill identified gaps in understanding",
+    "Collaborate with Five Eyes partner agencies (NSA, GCHQ, CSE, GCSB) on shared intelligence problems",
+    "Maintain deep subject-matter expertise through continuous study of assigned region or functional area",
+    "Adhere to strict security protocols governing the handling, storage, and dissemination of classified information"
+  ],
+  "challenges": [
+    "Working in a secure facility with no personal devices — you cannot check your phone, text your partner, or browse the internet during the workday",
+    "The security clearance process is invasive and ongoing — financial checks, personal history, polygraph (at some agencies), and restrictions on foreign travel and relationships",
+    "Analytical products must be policy-neutral — you inform the decision, you do not make it, even when you believe the policy response is obvious",
+    "Living with the knowledge that your assessments may be wrong, and that the consequences of being wrong can be serious — failed warnings, misdirected resources, surprised decision-makers",
+    "Limited ability to discuss your work with family and friends — the secrecy requirement creates social isolation that compounds over years",
+    "Cognitive fatigue from sustained attention to complex, ambiguous problems where the adversary is actively trying to deceive you"
+  ],
+  "rewards": [
+    "Direct contribution to national security — your analysis shapes decisions at the highest levels of government",
+    "Intellectually demanding work that combines deep subject expertise with rigorous analytical methodology",
+    "Access to information and analytical tools that exist nowhere else — you see things that the public and the media do not",
+    "Working with highly capable, security-cleared colleagues in a culture that values precision, integrity, and intellectual humility",
+    "Stable government employment with good superannuation, generous leave, and clear career progression",
+    "The satisfaction of producing a product that a minister reads and acts on — few analysts in any field have that kind of impact"
+  ],
+  "careerPath": [
+    "Graduate Analyst → Analyst (APS 5-6) → Senior Analyst (EL1) → Principal Analyst (EL2) → Branch Head (SES Band 1)",
+    "Alternative: transfer to ASIS (foreign intelligence), ONI (defence intelligence), or ASIO (domestic security) for different analytical environments",
+    "Alternative: move to DFAT for a policy role that combines analytical training with diplomatic practice",
+    "Alternative: transition to the private sector — corporate intelligence, risk consulting, or defence industry (Leidos, Northrop Grumman, BAE Systems Australia)"
+  ]
+}

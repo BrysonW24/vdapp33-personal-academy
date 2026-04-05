@@ -1,0 +1,12 @@
+{
+  "slug": "evolution-and-animals",
+  "name": "Evolution & Animals",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "TreePine",
+  "color": "#16A34A",
+  "tagline": "How life evolved, diversified, and produced the extraordinary animal kingdom we share the planet with.",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 10
+}

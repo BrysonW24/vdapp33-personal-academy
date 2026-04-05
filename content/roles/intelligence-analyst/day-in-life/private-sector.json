@@ -1,0 +1,55 @@
+{
+  "slug": "private-sector",
+  "title": "A Day as a Corporate Intelligence Analyst",
+  "setting": "Control Risks, Sydney CBD office — Asia-Pacific Corporate Intelligence team",
+  "companySize": "Global risk consultancy (~3,000 employees, 12-person Sydney intelligence team)",
+  "description": "Marcus Okafor is a corporate intelligence analyst at Control Risks, a global risk consultancy that helps multinational corporations navigate political risk, security threats, and integrity issues in complex markets. His work involves conducting due diligence investigations on potential business partners, assessing political and security risks in countries where clients are investing, and providing real-time crisis intelligence when clients face kidnappings, civil unrest, or supply chain disruptions. Marcus joined after five years at the Australian Federal Police, where he worked in criminal intelligence. His current focus is on helping Australian mining and resources companies assess political and regulatory risk in Southeast Asian markets.",
+  "salary": "$110,000 - $170,000 AUD",
+  "schedule": [
+    {"time": "07:30", "activity": "Check overnight alerts and client dashboards", "tools": ["Dataminr", "Factiva", "Internal risk monitoring platform"], "note": "Review automated alerts for client-relevant events overnight — political developments, security incidents, regulatory changes in markets where clients operate. Today: a regulatory change in Indonesia affecting mining permits."},
+    {"time": "08:00", "activity": "Morning team stand-up", "tools": ["Teams", "Internal case management system"], "note": "The Asia-Pacific team reviews active cases, new client enquiries, and emerging situations. Marcus has three active cases: a due diligence on a potential joint venture partner in Vietnam, a political risk assessment for a mining investment in the Philippines, and an ongoing fraud investigation for an Australian bank."},
+    {"time": "08:30", "activity": "Due diligence investigation — corporate registry and litigation searches", "tools": ["ASIC registry", "Vietnam corporate registry", "LexisNexis", "Dun & Bradstreet", "Court records databases"], "note": "The client is considering a $50 million joint venture with a Vietnamese company. Marcus is checking corporate ownership structures, looking for undisclosed beneficial owners, politically exposed persons (PEPs), or connections to sanctioned entities."},
+    {"time": "10:00", "activity": "Source call — speaking with an in-country source in Hanoi", "tools": ["Secure phone", "Source management notes"], "note": "Control Risks maintains a network of in-country sources — journalists, former government officials, industry consultants — who provide context that databases cannot. Today's call provides crucial background on the Vietnamese company's relationship with provincial government officials."},
+    {"time": "10:45", "activity": "Write due diligence report section on beneficial ownership", "tools": ["Word", "Internal report template", "Corporate structure diagramming tool"], "note": "Documenting the ownership chain, flagging a layer of holding companies registered in the British Virgin Islands that obscure the ultimate beneficial owner. The client needs to know this before proceeding with the deal."},
+    {"time": "12:00", "activity": "Lunch and professional reading", "tools": ["International Crisis Group reports", "ASPI publications", "Lowy Institute analysis"], "note": "Staying current on geopolitical developments in the Indo-Pacific. Corporate intelligence analysts need the same regional expertise as government analysts, applied to commercial decision-making."},
+    {"time": "13:00", "activity": "Client briefing — political risk assessment for Philippine mining investment", "tools": ["PowerPoint", "Zoom", "Risk matrix framework"], "note": "Presenting a 30-minute briefing to the client's board risk committee on political, regulatory, security, and community risks associated with a proposed nickel mining operation in Mindanao. The assessment covers presidential term politics, local governance, armed group activity, and community opposition patterns."},
+    {"time": "14:00", "activity": "Post-briefing — answer follow-up questions, update risk register", "tools": ["Client risk register", "Email"], "note": "The board asked about the likely impact of the upcoming Philippine midterm elections on mining regulation. Marcus commits to a supplementary note within 48 hours."},
+    {"time": "14:30", "activity": "Fraud investigation — financial analysis and evidence compilation", "tools": ["Excel", "Financial analysis tools", "Transaction monitoring data", "i2 Analyst's Notebook"], "note": "Working on the bank fraud case — analysing transaction patterns that suggest an internal employee has been facilitating suspicious transactions. Building an evidence timeline and link chart for the client's legal team."},
+    {"time": "16:00", "activity": "OSINT monitoring and report updates", "tools": ["Maltego", "social media analysis tools", "Google Earth Pro", "Maritime tracking (MarineTraffic)"], "note": "Running open-source checks on several subjects of interest across active cases. OSINT is the backbone of private sector intelligence — most of the information is publicly available if you know where to look and how to verify it."},
+    {"time": "17:00", "activity": "New business proposal — scoping a client engagement", "tools": ["Proposal template", "Pricing model", "CRM"], "note": "Unlike government intelligence, private sector intelligence is a business. Marcus helps scope a new engagement for an Australian retailer entering the Indian market — defining what intelligence products will be delivered, the timeline, and the fee structure."},
+    {"time": "17:30", "activity": "End of day — secure files, update case tracker", "tools": ["Case management system", "Encrypted file storage"], "note": "Client confidentiality is paramount. All work product is stored in encrypted systems with strict access controls. Sensitive source information is compartmented."}
+  ],
+  "responsibilities": [
+    "Conduct enhanced due diligence investigations on companies, individuals, and transactions for clients making investment or partnership decisions",
+    "Produce political and security risk assessments for clients operating or investing in complex markets",
+    "Brief corporate boards, risk committees, and senior executives on geopolitical and integrity risks",
+    "Manage and cultivate a network of in-country sources who provide context and ground-truth intelligence",
+    "Conduct fraud and corruption investigations using financial analysis, OSINT, and human source intelligence",
+    "Monitor ongoing situations (political crises, security incidents, regulatory changes) and provide real-time intelligence updates to affected clients",
+    "Contribute to business development by scoping and pricing new intelligence engagements",
+    "Stay current on geopolitical developments, sanctions regimes, and regulatory environments across the Asia-Pacific"
+  ],
+  "challenges": [
+    "Balancing analytical rigour with commercial pressure — clients want clear answers, but intelligence work often produces probabilistic assessments with caveats",
+    "Managing the ethical complexity of corporate intelligence — navigating the line between legitimate due diligence and intrusive investigation",
+    "Competing with firms that cut corners on methodology, leading clients to expect faster and cheaper intelligence than rigorous work allows",
+    "Travel to challenging environments for on-the-ground assessments — not always safe, not always comfortable",
+    "Maintaining source relationships when you cannot always share what you know or explain why you are asking questions",
+    "Billing and utilisation pressure — private sector intelligence is a professional services business with revenue targets"
+  ],
+  "rewards": [
+    "Diverse and intellectually stimulating work — every case is different, every market has unique dynamics",
+    "Direct commercial impact — your assessment may determine whether a $100 million deal proceeds or is abandoned",
+    "International travel and exposure to markets and cultures that most people never see from the inside",
+    "Applying intelligence tradecraft to real-world business problems where the output is valued and acted upon",
+    "Strong earning potential as you build expertise — senior consultants and practice leads earn well above market for analytical roles",
+    "Working with sharp, worldly colleagues who have backgrounds in government intelligence, journalism, law enforcement, and academia"
+  ],
+  "careerPath": [
+    "Analyst → Senior Analyst → Consultant → Senior Consultant → Associate Director → Managing Director (Practice Lead)",
+    "Alternative: move in-house to a multinational corporation as Head of Corporate Intelligence or Director of Geopolitical Risk",
+    "Alternative: transition to a Big Four (Deloitte, PwC, EY, KPMG) forensic and integrity services practice",
+    "Alternative: return to government intelligence with enhanced commercial and international expertise",
+    "Alternative: establish an independent intelligence consultancy specialising in a niche region or sector"
+  ]
+}

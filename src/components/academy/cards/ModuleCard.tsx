@@ -34,10 +34,13 @@ export function ModuleCard({
   subjectSlug,
   basePath = "/modules",
 }: ModuleCardProps) {
+  const progressSubjectSlug = module.sourceMeta?.sourceSlug ?? subjectSlug
   const isComingSoon = module.status === "coming-soon"
   const isComplete = useProgress((state) =>
-    subjectSlug
-      ? (state.subjects[subjectSlug]?.completedModules ?? []).includes(module.slug)
+    progressSubjectSlug
+      ? (state.subjects[progressSubjectSlug]?.completedModules ?? []).includes(
+          module.slug
+        )
       : state.completedModules.includes(module.slug)
   )
 
