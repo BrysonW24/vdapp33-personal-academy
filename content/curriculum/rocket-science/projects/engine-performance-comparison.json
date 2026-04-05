@@ -1,0 +1,25 @@
+{
+  "slug": "engine-performance-comparison",
+  "title": "Engine Performance Comparison",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Research and compare the performance of major rocket engines — Merlin 1D, Raptor, RS-25, BE-4, RD-180, and Vulcain 2. Build a database and analyse trade-offs between thrust, Isp, mass, cost, and reusability.",
+  "whyItMatters": "Understanding engine performance trade-offs is fundamental to launch vehicle design. The choice of engine determines the vehicle's payload capacity, cost per kilogram, and operational flexibility. Every launch company lives and dies by their engine programme.",
+  "skillsLearned": ["Rocket engine performance metrics", "Comparative analysis", "Data-driven decision making", "Propellant chemistry effects", "Engine cycle trade-offs"],
+  "prerequisites": ["propulsion-fundamentals", "what-rocket-science-is"],
+  "steps": [
+    {"title": "Build the database", "description": "Research and tabulate key parameters for 8-10 major rocket engines: thrust (SL and vacuum), Isp (SL and vacuum), dry mass, propellant combination, engine cycle, chamber pressure, thrust-to-weight ratio.", "tips": "Use official specification sheets where available. Astronautix and SpaceX/ULA/ESA websites are good sources."},
+    {"title": "Calculate derived metrics", "description": "Compute thrust-to-weight ratio, propellant mass flow rate, and cost-per-newton-of-thrust (where data is available). Normalise metrics for fair comparison.", "tips": "Thrust-to-weight ratio is the most telling single metric for engine quality."},
+    {"title": "Analyse propellant trade-offs", "description": "Group engines by propellant combination (LOX/RP-1, LOX/LH2, LOX/CH4) and analyse how propellant choice affects Isp, thrust, and tank sizing.", "tips": "Hydrogen gives highest Isp but worst density. Methane is the Goldilocks propellant."},
+    {"title": "Visualise the trade space", "description": "Create scatter plots: Isp vs thrust, TWR vs Isp, thrust vs mass. Identify clusters and outliers. Where does Raptor sit in the landscape?", "tips": "Raptor's full-flow staged combustion at extreme chamber pressure makes it an outlier."},
+    {"title": "Write the analysis", "description": "Explain why SpaceX chose each engine for its vehicle: Merlin for Falcon 9 (reliability, cost), Raptor for Starship (reusability, Mars ISRU). What would you choose for a new vehicle?", "tips": "Engine choice drives vehicle architecture. Start with the engine, then design the vehicle."}
+  ],
+  "deliverables": ["Engine performance database (CSV or spreadsheet)", "Comparative visualisations (scatter plots, bar charts)", "Written analysis of propellant trade-offs", "Recommendation report for a hypothetical new launch vehicle"],
+  "tools": ["python-astropy", "matlab"],
+  "rubric": [
+    {"criteria": "Data accuracy", "description": "All performance figures sourced and cited correctly"},
+    {"criteria": "Analysis depth", "description": "Clear explanation of why different engines make different trade-offs"},
+    {"criteria": "Visualisations", "description": "Effective charts that reveal patterns in the data"},
+    {"criteria": "Recommendations", "description": "Well-reasoned engine selection for a hypothetical vehicle"}
+  ]
+}

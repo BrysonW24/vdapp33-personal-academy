@@ -1,0 +1,27 @@
+{
+  "slug": "fitout-projects-and-handover",
+  "title": "Fitout Projects and Handover",
+  "shortSummary": "Coordinate fitouts, approvals, contractor control, landlord standards, and handover so occupancy goes live cleanly.",
+  "level": "advanced",
+  "category": "operations",
+  "whyItMatters": "Fitouts are where leasing intent, building risk, contractor management, and tenant expectation all collide. If handover is messy, the relationship starts badly. Strong property managers coordinate fitout activity so the asset stays protected, the tenant can mobilise smoothly, and the owner sees professional control throughout the process.",
+  "coreConcepts": [
+    "The operational role in fitout approvals and site control",
+    "What handover readiness really includes",
+    "How fitout coordination intersects with risk and tenant experience",
+    "Why a clean opening matters more than most teams expect"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Contractor Performance Scorecard",
+    "Incident Command RACI"
+  ],
+  "relatedModules": [
+    "service-delivery-and-contractor-management",
+    "leasing-support-and-vacancy-strategy",
+    "safety-risk-and-compliance"
+  ],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 4
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "catia",
+  "name": "CATIA",
+  "category": "cad-design",
+  "description": "Dassault Systemes' premium CAD/CAM/CAE platform. The standard for complex aerospace vehicle design — used to design the Airbus A380, Boeing 787, and most European launch vehicles. Handles large assemblies with thousands of parts.",
+  "whyUseIt": "CATIA is purpose-built for aerospace-scale complexity. Its surface modelling, composite layup tools, and multi-site collaboration features make it essential for programmes where hundreds of engineers work on the same vehicle simultaneously.",
+  "pricingTier": "enterprise",
+  "url": "https://www.3ds.com/products/catia",
+  "alternatives": ["NX (Siemens)", "SolidWorks", "Creo"],
+  "funnelPosition": "Detailed design and manufacturing",
+  "outputs": ["Complex 3D models", "Composite layup definitions", "Manufacturing toolpaths", "Digital mock-ups"],
+  "vocabulary": [{"term": "DMU", "definition": "Digital Mock-Up — a complete virtual assembly of the entire vehicle for interference checking"},
+    {"term": "Generative design", "definition": "AI-driven design optimisation that generates lightweight structures based on load requirements"}],
+  "beginnerMistakes": ["Underestimating the learning curve — CATIA is powerful but complex", "Not using the collaboration tools for multi-engineer projects", "Creating models that are not parametrically linked"]
+}

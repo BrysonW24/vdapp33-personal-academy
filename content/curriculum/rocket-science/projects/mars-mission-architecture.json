@@ -1,0 +1,25 @@
+{
+  "slug": "mars-mission-architecture",
+  "title": "Mars Mission Architecture Study",
+  "difficulty": 9,
+  "estimatedHours": 40,
+  "description": "Design a complete human Mars mission architecture. Define the mission profile, vehicle requirements, crew systems, surface operations, and return plan. Compare your architecture with SpaceX's Starship approach and NASA's DRA 5.0.",
+  "whyItMatters": "A human Mars mission is the defining engineering challenge of our generation. It integrates every discipline in rocket science — propulsion, structures, GNC, life support, mission design, and manufacturing — into a single programme. This is the capstone project that tests everything you have learnt.",
+  "skillsLearned": ["Mission architecture design", "Full systems integration", "Trade study methodology", "Life support requirements", "ISRU planning", "Cost estimation"],
+  "prerequisites": ["mission-design", "life-support-systems", "interplanetary-missions"],
+  "steps": [
+    {"title": "Define mission requirements", "description": "Set crew size (4-6), surface stay duration (30 days vs 500 days), return requirements, and acceptable risk levels. These top-level choices drive everything.", "tips": "Short-stay (opposition class) missions have higher delta-v but lower radiation exposure. Long-stay (conjunction class) missions are more efficient but require more surface infrastructure."},
+    {"title": "Design the trajectory", "description": "Select a launch window, compute the transfer orbit, and determine the total delta-v budget from Earth departure to Mars landing and back. Include all burns and aerobraking.", "tips": "Use the 2035 or 2037 window — they have favourable geometry. Total delta-v with aerobraking: ~15-20 km/s depending on architecture."},
+    {"title": "Size the vehicles", "description": "Using your launch vehicle sizing tool, design the transit vehicle, landing vehicle, and ascent vehicle. Include crew quarters, life support, and ISRU plant.", "tips": "SpaceX's approach: one vehicle does everything (Starship). NASA's approach: specialised vehicles for each phase. Compare both."},
+    {"title": "Design surface operations", "description": "Plan the ISRU propellant production (Sabatier process), surface habitat, EVA operations, science programme, and emergency abort options.", "tips": "ISRU must produce ~100 tonnes of propellant over 26 months. This requires about 250 kW of power — a serious engineering challenge."},
+    {"title": "Present the architecture", "description": "Create a complete mission architecture document with timeline, vehicle specifications, mass budgets, cost estimates, and risk assessment. Present it as if briefing a programme review board.", "tips": "Real architecture studies are 100+ pages. Aim for a thorough 20-30 page summary with supporting calculations."}
+  ],
+  "deliverables": ["Complete mission architecture document", "Delta-v budget and trajectory analysis", "Vehicle specifications and mass budgets", "Surface operations plan", "Risk assessment and comparison with SpaceX/NASA approaches"],
+  "tools": ["python-astropy", "stk", "matlab"],
+  "rubric": [
+    {"criteria": "Architecture completeness", "description": "All mission phases covered from launch to Earth return"},
+    {"criteria": "Technical rigour", "description": "Calculations are correct and assumptions are justified"},
+    {"criteria": "Trade study depth", "description": "Multiple options evaluated with clear rationale for selections"},
+    {"criteria": "Presentation quality", "description": "Professional document suitable for an architecture review"}
+  ]
+}

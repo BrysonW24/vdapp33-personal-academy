@@ -1,0 +1,15 @@
+{
+  "slug": "3d-printing-aerospace",
+  "name": "Additive Manufacturing (3D Printing for Aerospace)",
+  "category": "manufacturing",
+  "description": "Metal additive manufacturing technologies (SLM, EBM, DED) used to 3D-print rocket engine components, reducing part count, lead time, and cost. SpaceX 3D-prints SuperDraco engine chambers, and Relativity Space 3D-prints entire rockets.",
+  "whyUseIt": "Additive manufacturing lets you print complex internal geometries (cooling channels, injector elements) that are impossible with traditional machining. A rocket engine combustion chamber that required 100 parts with traditional manufacturing can be printed as a single piece.",
+  "pricingTier": "enterprise",
+  "url": "https://www.eos.info/en/industrial-3d-printing/metal",
+  "alternatives": ["Traditional machining", "Investment casting", "Forging"],
+  "funnelPosition": "Manufacturing and rapid prototyping",
+  "outputs": ["Metal engine components", "Complex cooling channels", "Rapid prototypes", "Flight-qualified hardware"],
+  "vocabulary": [{"term": "SLM", "definition": "Selective Laser Melting — a laser fuses metal powder layer by layer to build up a part"},
+    {"term": "Inconel 718", "definition": "A nickel superalloy commonly 3D-printed for rocket engine components — withstands extreme temperatures"}],
+  "beginnerMistakes": ["Assuming 3D-printed parts have the same properties as wrought material", "Not designing for the manufacturing process (support structures, build orientation)", "Skipping post-processing heat treatment that is critical for aerospace-grade properties"]
+}

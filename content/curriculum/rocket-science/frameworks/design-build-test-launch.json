@@ -1,0 +1,17 @@
+{
+  "slug": "design-build-test-launch",
+  "name": "Design-Build-Test-Launch Cycle",
+  "summary": "SpaceX's rapid iteration philosophy: design it, build it, test it, fly it, learn from the results, and iterate. Fail fast, learn fast. Hardware-rich testing beats analysis-paralysis. A flight test teaches you more than a thousand simulations.",
+  "whenToUseIt": "Use this framework when developing new rocket systems where the design space is uncertain. Instead of spending years on analysis, build hardware quickly, test it, learn from failures, and iterate. This is the SpaceX way — and it is why Starship prototypes flew (and crashed) while competitors were still doing trade studies.",
+  "steps": [
+    "Design the minimum viable version of the hardware",
+    "Build it quickly — speed of iteration matters more than perfection",
+    "Test it under realistic conditions — accept that failure is a data source",
+    "Analyse the results — what broke, why, and what did you learn?",
+    "Redesign with the new knowledge",
+    "Build and test again — each iteration should be faster than the last",
+    "When the design converges, fly it and collect real flight data"
+  ],
+  "example": "Starship development: SN5 and SN6 did 150m hop tests. SN8 attempted a high-altitude flight and exploded on landing — but proved the belly-flop manoeuvre worked. SN9, SN10, SN11 each failed in different ways, each teaching something new. SN15 landed successfully. Each vehicle was built in weeks, not years. By the time competitors had finished their PDRs, SpaceX had flown a dozen test articles. The hardware was the analysis.",
+  "category": "design-philosophy"
+}

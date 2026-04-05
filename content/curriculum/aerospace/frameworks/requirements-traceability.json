@@ -1,0 +1,15 @@
+{
+  "slug": "requirements-traceability",
+  "name": "Requirements Traceability",
+  "summary": "A discipline for linking every requirement to its source, implementation, verification evidence, and change history.",
+  "whenToUseIt": "Use it when aerospace work must survive certification, audits, supplier handoffs, and late design changes without losing the logic chain.",
+  "steps": [
+    "Capture each requirement with a unique identifier and clear owner.",
+    "Link the requirement to its source such as regulation, mission need, or hazard.",
+    "Allocate it to subsystems, software items, or drawings.",
+    "Link each requirement to a verification method and evidence item.",
+    "Maintain the chain whenever a design or requirement changes."
+  ],
+  "example": "A braking-distance requirement may originate from regulation, flow to landing-gear and control-system design, and finally close through test reports. Traceability makes that evidence discoverable when the authority asks for it months later.",
+  "category": "systems-engineering"
+}

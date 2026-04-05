@@ -1,0 +1,15 @@
+{
+  "slug": "performance-envelope",
+  "name": "Performance Envelope",
+  "summary": "A structured view of the speeds, altitudes, load factors, and mission conditions within which an aircraft can operate safely and effectively.",
+  "whenToUseIt": "Use it when analysing aircraft capability, planning tests, or explaining why a design succeeds in one mission corner and fails in another.",
+  "steps": [
+    "Identify key limits such as stall, thrust available, structural load factor, temperature, and altitude.",
+    "Plot the relevant boundaries for the mission or phase of flight.",
+    "Find the feasible operating region between those limits.",
+    "Check how payload, centre of gravity, or atmosphere shift the boundaries.",
+    "Use the result to make design or operational trade-offs."
+  ],
+  "example": "A UAV may have excellent endurance at low altitude but insufficient climb margin at hot-and-high conditions. Mapping the performance envelope makes that gap obvious before flight testing begins.",
+  "category": "performance-analysis"
+}

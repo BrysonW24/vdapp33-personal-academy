@@ -1,0 +1,23 @@
+{
+  "slug": "statistical-mechanics",
+  "title": "Statistical Mechanics",
+  "shortSummary": "How the behaviour of trillions of particles gives rise to temperature, pressure, and entropy — connecting the microscopic world to the macroscopic one.",
+  "level": "intermediate",
+  "category": "modern",
+  "whyItMatters": "Statistical mechanics bridges quantum mechanics and thermodynamics. It explains why ice melts, how gases behave, and why entropy increases — all from first principles of probability applied to enormous numbers of particles.",
+  "coreConcepts": [
+    "Microstates and macrostates",
+    "Boltzmann distribution",
+    "Partition functions",
+    "Entropy from a statistical perspective",
+    "Fermi-Dirac and Bose-Einstein statistics",
+    "Phase transitions and critical phenomena"
+  ],
+  "lessons": [],
+  "frameworks": ["equilibrium-analysis", "perturbation-methods"],
+  "visualType": "distribution-plot",
+  "relatedModules": ["thermodynamics", "quantum-mechanics-intro", "condensed-matter"],
+  "status": "coming-soon",
+  "order": 9,
+  "levelNumber": 2
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "owner-report-storyline",
+  "name": "Owner Report Storyline",
+  "summary": "A simple structure for turning operational noise into a clear owner narrative. It helps property managers explain what happened, why it happened, what matters most, and what decision or support is needed next.",
+  "whenToUseIt": "Use this when preparing monthly reports, ad hoc issue briefs, budget variance explanations, leasing updates, or quarterly asset reviews. It is most useful when the owner wants more than data and needs judgment.",
+  "steps": [
+    "Lead with the headline - Start with the most important asset story in one sentence. Example: occupancy held, operating expenses rose because of reactive HVAC works, and arrears risk remains contained.",
+    "Separate signal from detail - Highlight only the metrics and incidents that changed the asset's position: occupancy, NOI drivers, collections, material risks, major works, and tenant sentiment. Do not bury the message under every minor task completed.",
+    "Explain movement, not just numbers - For each notable variance or KPI shift, explain the operational cause. Owners trust managers who can connect cost, service, leasing, and risk into one coherent explanation.",
+    "State decisions and requests clearly - If approval, capex support, leasing action, or legal input is needed, write it explicitly. A report is stronger when the owner knows exactly what is being asked of them.",
+    "Close with forward view - End with the next 30-90 day outlook: upcoming expiries, contractor actions, planned works, sustainability initiatives, and any watch-list items that could change performance."
+  ],
+  "example": "A monthly report opens with: 'NOI is broadly on plan, but March operating expenses increased 6.2% due to urgent condenser repairs and lift callouts; tenant satisfaction remained stable after same-day communication and temporary cooling measures.' The rest of the report then explains the causes, recovery path, and whether a capex case should be prepared.",
+  "category": "communication"
+}

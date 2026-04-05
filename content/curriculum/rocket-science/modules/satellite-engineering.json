@@ -1,0 +1,23 @@
+{
+  "slug": "satellite-engineering",
+  "title": "Satellite Engineering",
+  "shortSummary": "Designing satellites that work — from CubeSats to Starlink mega-constellations, covering bus design, payloads, orbits, and mass-production approaches.",
+  "level": "advanced",
+  "category": "avionics",
+  "whyItMatters": "The satellite industry generates over $280 billion annually. SpaceX's Starlink constellation alone has redefined what is possible with mass-produced satellites. Understanding satellite bus design, payload integration, and constellation management is essential for the commercial space economy.",
+  "coreConcepts": [
+    "Satellite bus architecture",
+    "Payload design and integration",
+    "Orbit selection and constellation design",
+    "Mass-production satellite manufacturing",
+    "Ground station networks",
+    "Satellite deorbiting and space debris"
+  ],
+  "lessons": [],
+  "frameworks": ["systems-engineering-v-model", "design-build-test-launch"],
+  "visualType": "satellite-exploded",
+  "relatedModules": ["spacecraft-systems", "orbital-mechanics", "manufacturing-at-scale"],
+  "status": "coming-soon",
+  "order": 13,
+  "levelNumber": 3
+}

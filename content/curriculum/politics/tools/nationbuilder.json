@@ -1,0 +1,23 @@
+{
+  "slug": "nationbuilder",
+  "name": "NationBuilder",
+  "category": "campaign-management",
+  "description": "The leading political campaign management platform — combines CRM, website builder, email, social media, and voter database into one system designed specifically for political campaigns and advocacy organisations.",
+  "whyUseIt": "NationBuilder is purpose-built for politics. It tracks every voter interaction, automates follow-ups, manages volunteers, and provides reporting that campaign managers need. Used by major parties and independents worldwide, including Australian campaigns.",
+  "pricingTier": "paid",
+  "url": "https://nationbuilder.com",
+  "aiCapabilities": "AI-powered supporter scoring, automated email personalisation, predictive engagement analytics",
+  "alternatives": ["NGP VAN", "Action Network", "Salesforce Nonprofit"],
+  "funnelPosition": "Full funnel — awareness through to election day operations",
+  "outputs": ["Voter contact database", "Email campaigns", "Volunteer management", "Donation tracking", "Event management"],
+  "marketerWorkflow": "Set up supporter profiles, segment by electorate and issue, run targeted email sequences, track volunteer shifts, process donations — all from one dashboard",
+  "managerExpects": "Real-time dashboard showing: total supporters, volunteer hours this week, funds raised, doors knocked, and email open rates",
+  "aiWorkflowImpact": "AI supporter scoring can prioritise which voters to contact first based on engagement likelihood, reducing wasted volunteer hours by up to 30%",
+  "demoDescription": "Create a voter segment of 'persuadable voters in postcode 2000 who opened our last email but haven't donated', then set up an automated email sequence with a donation ask",
+  "vocabulary": [
+    { "term": "Supporter path", "definition": "The journey from first contact to active volunteer or donor" },
+    { "term": "Political capital", "definition": "A score representing a supporter's engagement level and influence" }
+  ],
+  "beginnerMistakes": ["Importing a purchased email list instead of building organic supporters", "Not segmenting communications by electorate or issue interest"],
+  "relatedProject": "run-a-mock-campaign"
+}

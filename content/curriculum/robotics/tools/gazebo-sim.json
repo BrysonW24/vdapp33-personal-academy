@@ -1,0 +1,10 @@
+{
+  "slug": "gazebo-sim",
+  "name": "Gazebo Simulator",
+  "category": "simulation",
+  "description": "Gazebo is the standard open-source 3D robotics simulator, providing realistic physics simulation (rigid body dynamics, collisions, friction), sensor simulation (cameras, LiDAR, IMU, GPS with configurable noise models), and actuator simulation. Gazebo integrates tightly with ROS 2, allowing you to develop and test your entire robot software stack in simulation before deploying to real hardware. The latest version (Gazebo Harmonic, part of the Open Robotics Ignition series) features improved rendering, modular architecture, and better performance.",
+  "whyUseIt": "Simulation is essential for safe, fast, and cost-effective robotics development. Testing navigation algorithms on a real robot means risking collisions, wasting battery, and slow iteration cycles. In Gazebo, you can test thousands of scenarios in minutes, add obstacles and moving actors, vary environmental conditions, and collect perfect ground truth data for evaluation. It is indispensable for developing autonomous navigation, manipulation, and any safety-critical robotic behaviour.",
+  "pricingTier": "free",
+  "url": "https://gazebosim.org/",
+  "alternatives": ["Webots", "Isaac Sim", "PyBullet", "CoppeliaSim (V-REP)"]
+}

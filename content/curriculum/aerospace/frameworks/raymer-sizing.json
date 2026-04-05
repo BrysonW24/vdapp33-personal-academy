@@ -1,0 +1,15 @@
+{
+  "slug": "raymer-sizing",
+  "name": "Raymer Sizing Loop",
+  "summary": "A conceptual aircraft sizing workflow built around weight fractions, wing loading, power or thrust loading, and constraint analysis.",
+  "whenToUseIt": "Use it during early aircraft design when you need a first credible answer for gross weight, wing area, and installed propulsion before detailed geometry exists.",
+  "steps": [
+    "Estimate mission fuel fraction from the mission profile.",
+    "Estimate empty weight fraction from historical data and configuration class.",
+    "Solve for takeoff gross weight using payload, crew, fuel, and empty weight relationships.",
+    "Use constraint charts to choose wing loading and thrust or power loading.",
+    "Translate the sizing result into wing area, engine size, and basic geometry."
+  ],
+  "example": "For a 19-seat regional aircraft, a designer can use mission range, reserve fuel, and field length requirements to narrow the concept to a feasible takeoff mass and wing area before building any detailed CAD.",
+  "category": "design"
+}

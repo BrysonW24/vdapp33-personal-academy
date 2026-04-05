@@ -1,0 +1,15 @@
+{
+  "slug": "ansys-fluent",
+  "name": "ANSYS Fluent",
+  "category": "simulation",
+  "description": "Industry-leading computational fluid dynamics (CFD) software for simulating combustion, aerodynamics, and thermal flows. Used to design rocket engine injectors, nozzles, aerodynamic fairings, and re-entry vehicles.",
+  "whyUseIt": "Rocket engines involve the most extreme fluid dynamics on Earth — supersonic combustion at 3,500K, cryogenic propellant flow, and shock-boundary layer interactions. ANSYS Fluent handles all of these with validated solvers that aerospace companies trust for flight certification.",
+  "pricingTier": "enterprise",
+  "url": "https://www.ansys.com/products/fluids/ansys-fluent",
+  "alternatives": ["OpenFOAM (free)", "STAR-CCM+", "SU2 (free)"],
+  "funnelPosition": "Detailed design and analysis",
+  "outputs": ["Flow field visualisations", "Pressure and temperature distributions", "Heat transfer analyses", "Combustion simulations"],
+  "vocabulary": [{"term": "CFD", "definition": "Computational Fluid Dynamics — numerically solving the Navier-Stokes equations to predict fluid flow"},
+    {"term": "Turbulence model", "definition": "Mathematical model that approximates the effects of turbulent flow (k-epsilon, k-omega SST, etc.)"}],
+  "beginnerMistakes": ["Insufficient mesh resolution in boundary layers", "Using the wrong turbulence model for the flow regime", "Not validating CFD results against experimental data"]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "what-politics-is",
+  "title": "What Politics Is",
+  "shortSummary": "Understand what politics actually means — the allocation of power, resources, and values in society. Move beyond cynicism to see politics as the mechanism through which communities make collective decisions.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Every law, tax, public service, and right you have exists because of politics. Understanding what politics is — and isn't — is the foundation for participating in or leading democratic society. Without this grounding, everything else is just noise.",
+  "coreConcepts": [
+    "Politics as the allocation of power and resources",
+    "The social contract and why governments exist",
+    "Left-right spectrum and beyond",
+    "Democracy vs authoritarianism",
+    "The role of institutions",
+    "Politics vs governance vs government"
+  ],
+  "lessons": ["what-is-politics-really"],
+  "frameworks": ["overton-window"],
+  "relatedModules": ["political-systems", "political-philosophy", "civic-literacy"],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "raspberry-pi",
+  "name": "Raspberry Pi",
+  "category": "hardware",
+  "description": "The Raspberry Pi is a low-cost, credit-card-sized single-board computer that runs a full Linux operating system. The latest model (Raspberry Pi 5) features a quad-core ARM processor, up to 8GB RAM, GPIO pins for hardware interfacing, camera and display connectors, USB 3.0, Ethernet, Wi-Fi, and Bluetooth. It can run ROS 2, OpenCV, TensorFlow Lite, and other robotics software, making it a capable brain for small to medium robots.",
+  "whyUseIt": "The Raspberry Pi bridges the gap between simple microcontrollers (Arduino) and full desktop computers. It runs a real operating system, supports high-level languages (Python, C++), can process camera images, run machine learning inference, and communicate over Wi-Fi — all for around $80-120 AUD. It is the default choice for robots that need more computational power than an Arduino but cannot carry a full laptop, such as small mobile robots, drones, and educational platforms.",
+  "pricingTier": "free",
+  "url": "https://www.raspberrypi.com/",
+  "alternatives": ["NVIDIA Jetson Nano", "BeagleBone", "Orange Pi", "Banana Pi"]
+}

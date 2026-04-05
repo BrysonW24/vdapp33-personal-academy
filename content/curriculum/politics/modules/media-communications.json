@@ -1,0 +1,22 @@
+{
+  "slug": "media-communications",
+  "title": "Media & Communications",
+  "shortSummary": "Navigate the modern media landscape — press conferences, social media, crisis communications, op-eds, and earned media strategy. Control your narrative in a 24/7 news cycle.",
+  "level": "intermediate",
+  "category": "skills",
+  "whyItMatters": "In modern politics, perception is reality. The media shapes how voters understand issues and candidates. Politicians who master media communications can amplify their message; those who don't are defined by their opponents.",
+  "coreConcepts": [
+    "Media relations and press management",
+    "Writing press releases and op-eds",
+    "Social media strategy for politicians",
+    "Crisis communications and damage control",
+    "On-the-record, off-the-record, and background",
+    "Building and managing your public brand"
+  ],
+  "lessons": ["mastering-political-media"],
+  "frameworks": ["crisis-comms-template"],
+  "relatedModules": ["public-speaking", "campaign-strategy", "crisis-management"],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

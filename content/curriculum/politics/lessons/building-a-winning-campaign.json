@@ -1,0 +1,40 @@
+{
+  "slug": "building-a-winning-campaign",
+  "moduleSlug": "campaign-strategy",
+  "title": "Building a Winning Campaign",
+  "objective": "Understand the key elements of a successful political campaign — from pre-selection and planning through to election night operations.",
+  "beginnerExplanation": "A political campaign is a time-limited project with one goal: win enough votes to get elected. Every campaign, from a local council race to a federal election, follows the same basic structure. First, you need a candidate who can connect with voters. Then you need a plan: who are your target voters, what message will move them, and how will you reach them? Campaigns combine field work (door-knocking, phone calls, community events), digital outreach (social media, email, websites), and traditional media (press coverage, advertising). In Australia, compulsory voting means you don't need to motivate people to turn up — you need to persuade them to choose you. Volunteers are the backbone of every campaign; professional staff are few and expensive.",
+  "deeperExplanation": "Sophisticated campaigns use voter segmentation to divide the electorate into groups: locked-in supporters (motivate but don't waste resources), persuadable voters (the primary target), and locked-in opponents (ignore). In Australian federal elections, campaigns focus on marginal seats — the 15-20% of electorates where the result is competitive. Field operations follow a contact hierarchy: door-knocking is most persuasive, then phone calls, then direct mail, then digital. The campaign timeline typically runs 8-12 weeks for a short campaign, but pre-selection and brand-building may take years. Modern campaigns use CRM systems to track every voter contact, preference data to predict outcomes, and social media analytics to test messaging. On election day, the operation shifts to turnout — making sure every identified supporter actually votes and that your how-to-vote cards are distributed at every polling booth.",
+  "keyTakeaways": [
+    "Every campaign needs a clear plan: target voters, core message, contact strategy, and election day operations",
+    "In Australia, compulsory voting means the battle is persuasion, not turnout",
+    "Voter segmentation (supporters, persuadables, opponents) drives resource allocation",
+    "Door-knocking remains the most persuasive contact method — it cannot be replaced by digital alone",
+    "Volunteers are the irreplaceable engine of Australian campaigns"
+  ],
+  "frameworks": ["swot-for-campaigns", "voter-segmentation"],
+  "example": "The 2022 teal independent campaigns (Zali Steggall, Allegra Spender, Monique Ryan, and others) demonstrated modern Australian campaign strategy. They identified disaffected moderate Liberal voters as their persuadable target, crafted messages around climate action and integrity, built massive volunteer armies (often 1,000+ per electorate), and combined intensive door-knocking with sophisticated digital micro-targeting. They won six House of Representatives seats in what were considered safe Liberal electorates. The key lesson: a well-organised, community-backed campaign with a clear message can defeat entrenched party machines.",
+  "commonMistakes": [
+    "Spending all resources on advertising instead of building a ground operation with volunteers",
+    "Targeting voters who will never support you instead of focusing on genuine persuadables",
+    "Launching a campaign without a clear, simple message that can be repeated consistently",
+    "Neglecting preference negotiations — in Australia's preferential system, second preferences often decide results",
+    "Running out of money or volunteer energy before election day by peaking too early"
+  ],
+  "exercise": "Design a campaign plan for a fictional federal electorate. Your electorate has 100,000 enrolled voters, a 52-48 two-party-preferred margin against you, and a diverse mix of suburban families, retirees, and young renters. Create: (1) A one-page campaign strategy (target voters, message, key issues). (2) A volunteer recruitment plan (how many, where from, how to retain them). (3) A weekly activity calendar for the final 8 weeks of the campaign. (4) An election day operations plan (polling booths, how-to-vote cards, scrutineers).",
+  "order": 6,
+  "quiz": [
+    {
+      "question": "In Australian federal elections, why is voter turnout less of a concern than in other democracies?",
+      "options": ["Australians are naturally more political", "Voting is compulsory and enforced with fines", "Elections are always held on weekends", "Political advertising is so effective"],
+      "correctIndex": 1,
+      "explanation": "Australia has compulsory voting — enrolled citizens must attend a polling place on election day or face a fine. This means campaigns focus on persuasion rather than mobilisation, fundamentally changing campaign strategy."
+    }
+  ],
+  "perspectives": {
+    "citizen": "Understanding how campaigns work helps you see through the marketing and focus on what candidates actually plan to do.",
+    "staffer": "You are the campaign's nervous system. Every volunteer, every door-knock, every data point flows through your coordination.",
+    "politician": "Your campaign reflects your values. If you run a disciplined, honest campaign, voters will trust you to govern the same way.",
+    "strategist": "The campaign is a resource allocation problem. Every dollar and every volunteer hour spent in the wrong place is wasted forever."
+  }
+}

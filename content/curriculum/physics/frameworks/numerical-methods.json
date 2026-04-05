@@ -1,0 +1,16 @@
+{
+  "slug": "numerical-methods",
+  "name": "Numerical Methods",
+  "summary": "Computational techniques for solving physics problems that have no closed-form analytical solution — the bread and butter of computational physics.",
+  "whenToUseIt": "Use numerical methods when analytical solutions are impossible or impractical, when dealing with complex geometries, nonlinear equations, many-body systems, or when you need to simulate time evolution.",
+  "steps": [
+    "Formulate the physics problem as a mathematical equation (ODE, PDE, integral, etc.)",
+    "Discretise the problem — replace continuous variables with discrete grid points or time steps",
+    "Choose an appropriate algorithm (Euler, Runge-Kutta, finite element, Monte Carlo, etc.)",
+    "Implement the algorithm and validate against known analytical solutions",
+    "Analyse convergence, stability, and numerical errors",
+    "Interpret results and visualise"
+  ],
+  "example": "Simulating the three-body problem (three stars orbiting each other) — there is no general analytical solution. Using a fourth-order Runge-Kutta integrator, you can compute the orbits numerically and discover chaotic behaviour where tiny changes in initial conditions lead to wildly different outcomes.",
+  "category": "mathematical-tools"
+}

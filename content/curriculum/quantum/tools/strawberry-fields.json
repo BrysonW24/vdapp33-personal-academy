@@ -1,0 +1,17 @@
+{
+  "slug": "strawberry-fields",
+  "name": "Strawberry Fields",
+  "category": "photonics",
+  "description": "A photonic quantum-computing platform for modelling continuous-variable states, circuits, and optical quantum experiments.",
+  "whyUseIt": "It gives a practical entry point into photonic and continuous-variable quantum systems, which are conceptually different from standard qubit-first gate-model workflows.",
+  "pricingTier": "free",
+  "url": "https://strawberryfields.ai/",
+  "alternatives": ["Qiskit", "QuTiP"],
+  "fieldPosition": "Photonic and continuous-variable quantum modelling",
+  "engineerWorkflow": "Define optical states and operations, simulate the resulting system, and inspect how photonic architectures behave under loss and measurement choices.",
+  "managerExpects": "A clear reason for choosing photonic tooling instead of defaulting to qubit-centric stacks.",
+  "demoDescription": "Model a simple photonic state transformation and compare the result with an idealised expectation.",
+  "outputs": ["Photonic simulations", "State transforms", "Optical experiment prototypes"],
+  "beginnerMistakes": ["Assuming continuous-variable systems behave exactly like standard qubit circuits", "Ignoring loss and detector assumptions in photonic experiments"],
+  "relatedProject": "qubit-platform-comparison"
+}

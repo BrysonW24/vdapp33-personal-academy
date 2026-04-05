@@ -1,0 +1,46 @@
+{
+  "slug": "being-an-active-citizen",
+  "moduleSlug": "civic-literacy",
+  "title": "Being an Active Citizen",
+  "objective": "Learn how to participate meaningfully in Australian democracy beyond just showing up to vote on election day.",
+  "beginnerExplanation": "Voting is the minimum. Active citizenship means engaging with the political process between elections — attending council meetings, writing to your MP, signing petitions, joining community organisations, attending protests, participating in public consultations, and staying informed. In Australia, you can access Hansard (the official record of parliamentary debates), submit to parliamentary inquiries, lodge Freedom of Information requests, and attend public hearings. Active citizens also serve on local boards, volunteer for causes they believe in, and hold their representatives accountable by tracking how they vote. The key insight is that democracy is not a spectator sport — the quality of your government reflects the quality of your participation.",
+  "deeperExplanation": "Civic literacy in Australia has specific institutional pathways that most citizens never use. Parliamentary committee inquiries accept written submissions from any citizen or organisation — and they genuinely influence policy. Freedom of Information (FOI) requests can reveal how government decisions were made. Senate Estimates hearings are where public servants are questioned about how money is spent. The Australian Electoral Commission maintains the electoral roll and regulates political donations (with disclosure thresholds). Understanding the difference between the Auditor-General, the Ombudsman, the Human Rights Commission, and the new National Anti-Corruption Commission helps you know where to direct complaints. Media literacy is also civic literacy — understanding the difference between news reporting, opinion, and propaganda is essential for making informed political judgements in the age of social media.",
+  "keyTakeaways": [
+    "Active citizenship goes far beyond voting — it includes submissions, FOI requests, and community engagement",
+    "Parliamentary committees accept public submissions and they genuinely influence legislation",
+    "Hansard, budget papers, and Senate Estimates are publicly available and deeply informative",
+    "Media literacy is a civic skill — understanding sources, bias, and propaganda protects democracy",
+    "Local engagement (councils, community boards) is often the most impactful and accessible form of participation"
+  ],
+  "frameworks": ["message-framing"],
+  "example": "In 2023, the Australian Senate inquiry into supermarket pricing received over 2,000 public submissions. Many were from ordinary citizens sharing their experience of rising grocery costs. These submissions were cited in the committee's final report, which recommended an enforceable Food and Grocery Code of Conduct. Several submitters were invited to give evidence at public hearings. This is civic participation in action — everyday Australians directly shaping policy outcomes through institutional channels that exist but are underused.",
+  "commonMistakes": [
+    "Thinking your vote is your only democratic tool — it is the minimum, not the maximum",
+    "Complaining about government without engaging with the channels available to influence it",
+    "Assuming political participation requires party membership — much of it is non-partisan",
+    "Getting news from a single source or algorithm-curated feed — civic literacy requires diverse sources",
+    "Ignoring local government — council decisions about planning, parks, and services directly affect your life"
+  ],
+  "exercise": "Complete three civic actions this week: (1) Look up how your federal MP voted on the last five pieces of legislation using TheyVoteForYou.org.au. (2) Find the next public meeting for your local council and attend it or read the minutes. (3) Identify one current parliamentary inquiry that interests you and read the terms of reference. Bonus: write a submission if the inquiry is still open. Document what you learned from each action.",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "What is Hansard?",
+      "options": ["A political party", "The official record of parliamentary debates", "A type of voting system", "The Governor-General's office"],
+      "correctIndex": 1,
+      "explanation": "Hansard is the official, near-verbatim transcript of everything said in parliament. It is publicly available and lets citizens see exactly what their representatives said during debates."
+    },
+    {
+      "question": "What can a Freedom of Information (FOI) request reveal?",
+      "options": ["Personal information about politicians", "How government decisions were made, including internal documents", "Classified intelligence documents", "Electoral roll data"],
+      "correctIndex": 1,
+      "explanation": "FOI requests allow citizens to access government documents that reveal how decisions were made, what advice was given, and what information was considered — with some exemptions for national security and personal privacy."
+    }
+  ],
+  "perspectives": {
+    "citizen": "Every tool described here is available to you right now, for free. The only cost is your time and attention.",
+    "staffer": "Track which civic engagement channels your constituents actually use. If submissions are flooding in on an issue, your member needs to know.",
+    "politician": "The most engaged citizens are your most valuable constituents. They show up, they know the issues, and they tell their neighbours how you voted.",
+    "strategist": "Civic engagement data tells you where energy is building. Parliamentary submissions, petition signatures, and community meetings are early indicators of emerging issues."
+  }
+}

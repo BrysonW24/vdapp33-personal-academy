@@ -1,0 +1,10 @@
+{
+  "slug": "isaac-sim",
+  "name": "NVIDIA Isaac Sim",
+  "category": "simulation",
+  "description": "NVIDIA Isaac Sim is a GPU-accelerated robotics simulation platform built on Omniverse. It provides photorealistic rendering, accurate physics simulation (PhysX 5), synthetic data generation for AI training, and domain randomisation for sim-to-real transfer. Isaac Sim supports ROS 2, generates realistic sensor data (camera, LiDAR, IMU, depth), and can simulate multiple robots in large-scale environments. It is designed specifically for developing and testing AI-powered robots.",
+  "whyUseIt": "Isaac Sim's photorealistic rendering and accurate physics enable more realistic simulation-to-real transfer than traditional simulators. Its synthetic data generation pipeline can produce millions of labelled images for training vision models without manual annotation. Domain randomisation (randomising textures, lighting, object positions) trains models that generalise better to real-world conditions. For companies developing AI-powered robots, Isaac Sim can dramatically reduce the cost and time of data collection and algorithm development.",
+  "pricingTier": "free",
+  "url": "https://developer.nvidia.com/isaac-sim",
+  "alternatives": ["Gazebo (standard, lighter weight)", "Webots", "Unity Robotics Hub", "Unreal Engine with AirSim"]
+}

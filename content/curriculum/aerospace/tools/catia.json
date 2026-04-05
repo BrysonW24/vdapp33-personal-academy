@@ -1,0 +1,25 @@
+{
+  "slug": "catia",
+  "name": "CATIA",
+  "category": "cad",
+  "description": "A high-end CAD platform used heavily in aircraft design, surfacing, configuration control, and integrated engineering workflows.",
+  "whyUseIt": "CATIA is deeply embedded in major aerospace OEM environments because it handles complex geometry, assemblies, and controlled release workflows at industrial scale.",
+  "pricingTier": "enterprise",
+  "url": "https://www.3ds.com/products/catia",
+  "alternatives": ["Siemens NX", "OpenVSP", "SolidWorks"],
+  "fieldPosition": "Detailed design, release geometry, and cross-functional product definition",
+  "engineerWorkflow": "Move from preliminary layout into controlled geometry, interfaces, drawings, and released design changes shared across multiple engineering teams.",
+  "managerExpects": "Clean configuration control, disciplined release practice, and geometry that downstream analysis and manufacturing teams can trust.",
+  "demoDescription": "Lay out a wing-box or systems-installation concept with enough fidelity for cross-team review and interface checking.",
+  "outputs": [
+    "Detailed geometry",
+    "Assemblies",
+    "Drawings",
+    "Controlled design releases"
+  ],
+  "beginnerMistakes": [
+    "Treating CAD completion as design completion without checking performance or manufacturability",
+    "Breaking configuration control with unmanaged local copies"
+  ],
+  "relatedProject": "wing-box-load-case"
+}

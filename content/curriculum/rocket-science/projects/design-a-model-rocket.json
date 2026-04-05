@@ -1,0 +1,25 @@
+{
+  "slug": "design-a-model-rocket",
+  "title": "Design a Model Rocket",
+  "difficulty": 3,
+  "estimatedHours": 12,
+  "description": "Design, simulate, and (optionally) build a model rocket using OpenRocket. Apply the Tsiolkovsky equation, select motor specifications, optimise fin geometry, and predict altitude and recovery.",
+  "whyItMatters": "Model rocketry bridges theory and practice. Every concept — thrust curves, drag, stability margins, centre of pressure vs centre of gravity — applies directly to full-scale launch vehicles. NASA engineers at Huntsville still build model rockets to test concepts.",
+  "skillsLearned": ["Rocket design basics", "Stability analysis (CP/CG)", "Thrust curve interpretation", "Drag estimation", "OpenRocket simulation"],
+  "prerequisites": ["what-rocket-science-is", "propulsion-fundamentals"],
+  "steps": [
+    {"title": "Define requirements", "description": "Set a target altitude (e.g., 300 metres), maximum diameter, and recovery method (parachute). Select a commercially available motor class (e.g., Estes C6-5).", "tips": "Start with a simple single-stage design. Check local regulations for model rocketry in your state."},
+    {"title": "Preliminary design in OpenRocket", "description": "Model the nose cone, body tube, fins, and motor mount. Set materials and dimensions. Run a stability check — ensure at least 1.5 calibres of stability margin.", "tips": "Centre of pressure must be behind centre of gravity by at least 1.5 body diameters."},
+    {"title": "Simulate and optimise", "description": "Run flight simulations in OpenRocket. Vary fin size, nose cone shape, and motor selection to maximise altitude while maintaining stability.", "tips": "Watch the thrust-to-weight ratio at liftoff — must exceed 5:1 for safe launch."},
+    {"title": "Apply the rocket equation", "description": "Calculate theoretical delta-v from the motor specifications and verify against OpenRocket's simulation. Account for gravity and drag losses.", "tips": "Motor total impulse and propellant mass give you the numbers for Tsiolkovsky."},
+    {"title": "Document the design", "description": "Create a design report with drawings, simulation results, mass budget, and stability analysis. If possible, build and fly the rocket, comparing actual altitude with predictions.", "tips": "Take video of the flight for later analysis. A phone app altimeter can verify peak altitude."}
+  ],
+  "deliverables": ["OpenRocket design file (.ork)", "Simulation results with altitude, velocity, and acceleration plots", "Mass budget spreadsheet", "Design report with stability analysis", "Flight report (if built and flown)"],
+  "tools": ["openrocket", "matlab"],
+  "rubric": [
+    {"criteria": "Design completeness", "description": "All components specified with materials, dimensions, and masses"},
+    {"criteria": "Stability", "description": "Static stability margin between 1.5 and 3.0 calibres"},
+    {"criteria": "Analysis accuracy", "description": "Hand calculations match simulation within 10%"},
+    {"criteria": "Documentation", "description": "Clear design report that could be followed by another engineer"}
+  ]
+}

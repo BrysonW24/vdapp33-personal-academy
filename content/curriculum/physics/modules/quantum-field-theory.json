@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-field-theory",
+  "title": "Quantum Field Theory",
+  "shortSummary": "The marriage of quantum mechanics and special relativity — where particles emerge as excitations of underlying fields.",
+  "level": "advanced",
+  "category": "theoretical",
+  "whyItMatters": "QFT is the theoretical framework behind the Standard Model. It explains how particles are created and destroyed, how forces work at the quantum level, and is the language of modern theoretical physics.",
+  "coreConcepts": [
+    "Fields and field quantisation",
+    "Creation and annihilation operators",
+    "Feynman diagrams and perturbation theory",
+    "Renormalisation",
+    "Gauge theories",
+    "Quantum electrodynamics (QED)"
+  ],
+  "lessons": [],
+  "frameworks": ["symmetry-principles", "perturbation-methods"],
+  "visualType": "feynman-diagram",
+  "relatedModules": ["quantum-mechanics-intro", "particle-physics", "string-theory"],
+  "status": "coming-soon",
+  "order": 15,
+  "levelNumber": 4
+}

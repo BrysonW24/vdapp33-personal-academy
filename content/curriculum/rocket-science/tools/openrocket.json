@@ -1,0 +1,15 @@
+{
+  "slug": "openrocket",
+  "name": "OpenRocket",
+  "category": "simulation",
+  "description": "Free, open-source model rocket simulator for designing and simulating rockets of all sizes. Features a graphical design interface, stability analysis, and 6-DOF flight simulation with real motor data.",
+  "whyUseIt": "OpenRocket is the best way to learn rocket design principles hands-on without building hardware. It teaches centre of pressure, stability margins, drag estimation, and trajectory prediction — all concepts that scale directly to full-size launch vehicles.",
+  "pricingTier": "free",
+  "url": "https://openrocket.info",
+  "alternatives": ["RASAero", "RockSim", "AeroFinSim"],
+  "funnelPosition": "Learning and design",
+  "outputs": ["Rocket designs (.ork files)", "Flight simulations", "Stability analyses", "Component mass budgets"],
+  "vocabulary": [{"term": "Calibre", "definition": "One body diameter — stability margin is measured in calibres"},
+    {"term": "CP/CG", "definition": "Centre of Pressure / Centre of Gravity — their relative position determines stability"}],
+  "beginnerMistakes": ["Ignoring stability margins — always check CP is behind CG", "Using motors that are too powerful for the airframe", "Not accounting for wind in flight simulations"]
+}

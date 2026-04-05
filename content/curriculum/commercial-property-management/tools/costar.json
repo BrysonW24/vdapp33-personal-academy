@@ -1,0 +1,28 @@
+{
+  "slug": "costar",
+  "name": "CoStar",
+  "category": "market-intelligence",
+  "description": "A commercial real estate market intelligence platform used to review comps, vacancy conditions, asking rents, asset activity, and market movement.",
+  "whyUseIt": "Property managers are not only building operators. They also support renewal strategy, vacancy planning, and client conversations about market position. CoStar helps ground those conversations in external market context instead of intuition alone.",
+  "pricingTier": "enterprise",
+  "url": "https://www.costar.com",
+  "aiCapabilities": "AI can summarize market shifts, flag comparable transactions, and help turn external data into short renewal or owner brief commentary.",
+  "alternatives": ["LoopNet", "Real Capital Analytics", "Local broker reports"],
+  "workflowStage": "Market scanning, leasing support, and renewal context",
+  "outputs": ["Comparable rent data", "Vacancy snapshots", "Market trend notes", "Competitive building lists"],
+  "propertyManagerWorkflow": "Managers use CoStar to support renewal briefs, vacancy strategy conversations, and owner questions about where the asset sits against the local market.",
+  "managerExpects": "Comparable data that is current, relevant to the asset type, and interpreted thoughtfully rather than pasted into a report without context.",
+  "aiWorkflowImpact": "AI helps reduce research time by clustering relevant market signals and drafting first-pass summaries for client discussions.",
+  "demoDescription": "Review comparable office buildings around your asset and write a short note on how the current market affects a pending renewal conversation.",
+  "vocabulary": [
+    { "term": "Comp", "definition": "A comparable asset or transaction used to benchmark rental rates, incentives, or market behavior." },
+    { "term": "Net Effective Rent", "definition": "The rental outcome after incentives and other deal adjustments are factored in." },
+    { "term": "Submarket", "definition": "A more specific geographic market segment inside a broader city or region." }
+  ],
+  "beginnerMistakes": [
+    "Using comps that do not really match asset quality or location",
+    "Confusing asking rent with achieved rent",
+    "Dropping market stats into a brief without explaining what they mean for this asset"
+  ],
+  "relatedProject": "renewal-brief"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "energycap",
+  "name": "EnergyCAP",
+  "category": "sustainability",
+  "description": "An energy and utility management platform used to track building consumption, spending, billing quality, and sustainability performance over time.",
+  "whyUseIt": "Energy performance has become a core part of modern property management. Platforms like EnergyCAP help teams move from utility invoices and rough estimates to structured tracking that supports cost control, ESG reporting, and operational improvement.",
+  "pricingTier": "enterprise",
+  "url": "https://www.energycap.com",
+  "aiCapabilities": "AI can identify unusual consumption patterns, highlight billing anomalies, and generate short summaries of where usage is moving and why it may matter.",
+  "alternatives": ["Measurabl", "Energy Star Portfolio Manager", "Utility bill analytics tools"],
+  "workflowStage": "Utility tracking, energy analysis, and ESG reporting",
+  "outputs": ["Energy consumption reports", "Utility spend trends", "Anomaly alerts", "Carbon and performance summaries"],
+  "propertyManagerWorkflow": "Property managers review utility movement, validate whether consumption changes match operations, and use the outputs in sustainability and owner reporting conversations.",
+  "managerExpects": "Visible trends, credible data, and practical next steps rather than a sustainability dashboard that no one acts on.",
+  "aiWorkflowImpact": "AI can help identify which anomalies deserve immediate review and turn meter or invoice data into plain-language action points.",
+  "demoDescription": "Compare two quarters of building energy use, identify what moved, and recommend whether the issue looks operational, seasonal, or worth deeper engineering review.",
+  "vocabulary": [
+    { "term": "Baseline", "definition": "The starting reference point used to compare future energy or emissions performance." },
+    { "term": "Consumption", "definition": "The amount of energy or utility resource used over a given period." },
+    { "term": "Anomaly", "definition": "An unexpected change in usage or cost that falls outside normal behavior." }
+  ],
+  "beginnerMistakes": [
+    "Assuming every usage increase is bad without checking occupancy or weather",
+    "Ignoring bad data quality and building reports on weak inputs",
+    "Reporting utility numbers without suggesting an operational response"
+  ],
+  "relatedProject": "sustainability-improvement-plan"
+}

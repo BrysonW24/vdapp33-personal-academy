@@ -1,0 +1,15 @@
+{
+  "slug": "cooper-harper-rating",
+  "name": "Cooper-Harper Rating",
+  "summary": "A pilot-centred handling-qualities scale used in flight test to judge whether an aircraft is easy, acceptable, or unacceptable to fly for a given task.",
+  "whenToUseIt": "Use it during handling-qualities assessment when pilot feedback needs to be captured in a repeatable way rather than as vague opinion.",
+  "steps": [
+    "Define the flight task and pilot workload condition.",
+    "Fly or simulate the task in a controlled configuration.",
+    "Ask whether the pilot can achieve the task performance required.",
+    "Rate the aircraft using the Cooper-Harper decision tree.",
+    "Compare ratings across configurations to guide control-law or handling improvements."
+  ],
+  "example": "Two control-law tunings may both be stable, but one demands much more pilot compensation during landing flare. Cooper-Harper ratings help the team quantify that difference and justify design changes.",
+  "category": "handling-qualities"
+}

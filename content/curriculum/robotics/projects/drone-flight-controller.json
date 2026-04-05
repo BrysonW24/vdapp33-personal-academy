@@ -1,0 +1,46 @@
+{
+  "slug": "drone-flight-controller",
+  "title": "Drone Flight Controller",
+  "difficulty": 7,
+  "estimatedHours": 45,
+  "description": "Design and implement a flight controller for a quadrotor drone, either in simulation (Gazebo) or on real hardware (using an ESP32 or STM32 microcontroller). Implement attitude estimation from IMU data, PID control for roll/pitch/yaw/altitude, and basic autonomous hover. This project provides deep understanding of the control systems that keep drones stable in the air.",
+  "whyItMatters": "Drones are one of the fastest-growing segments of robotics, with applications in agriculture, mining, construction, emergency services, and delivery. Australia has a particularly active drone industry — from Swoop Aero delivering medical supplies to remote communities to mining companies using drones for stockpile surveying. Understanding flight control at the firmware level gives you insight into what makes drones work, how to diagnose flight problems, and how to push the boundaries of drone autonomy.",
+  "skillsLearned": ["IMU data processing and attitude estimation", "Quaternion and Euler angle representations", "Cascaded PID control (attitude and rate loops)", "Motor mixing for quadrotor configurations", "Real-time embedded programming", "Simulation-to-hardware transfer"],
+  "prerequisites": ["PID control theory", "Basic understanding of rigid body dynamics", "Embedded programming (C/C++) or Python for simulation", "Linear algebra (rotation matrices, quaternions)"],
+  "steps": [
+    {
+      "title": "Build the simulation environment",
+      "description": "Set up a quadrotor simulation in Gazebo with an IMU sensor plugin and four motor actuators. Alternatively, use a Python-based simulator like PyBullet or a custom 6-DOF rigid body simulation. Verify that you can command individual motor speeds and observe the resulting motion and IMU readings.",
+      "tips": "A simple custom Python simulation (using rigid body dynamics equations) gives you the most insight into the physics. Gazebo is better for integration with ROS 2."
+    },
+    {
+      "title": "Implement attitude estimation",
+      "description": "Using simulated (or real) IMU data (accelerometer and gyroscope), implement a complementary filter or Madgwick filter to estimate the drone's roll, pitch, and yaw angles. The gyroscope provides fast response but drifts over time; the accelerometer provides an absolute reference but is noisy and affected by vibration. The filter combines both sources.",
+      "tips": "Start with a simple complementary filter: angle = 0.98 * (angle + gyro * dt) + 0.02 * accel_angle. This is surprisingly effective and easy to understand."
+    },
+    {
+      "title": "Implement the control loops",
+      "description": "Implement a cascaded PID controller with two loops: an inner rate loop (controls angular velocity using gyroscope feedback) and an outer attitude loop (controls roll/pitch/yaw angles using the attitude estimate). Add an altitude controller that adjusts total thrust based on barometer or height sensor feedback. Each axis (roll, pitch, yaw, altitude) has its own PID controller.",
+      "tips": "Tune the inner rate loop first with the outer loop disabled. Only add the outer attitude loop once the rate loop is stable. The inner loop should run at a higher frequency than the outer loop."
+    },
+    {
+      "title": "Implement motor mixing",
+      "description": "Convert the control outputs (desired roll torque, pitch torque, yaw torque, and total thrust) into individual motor speed commands for the four motors. The mixing matrix depends on the quadrotor configuration (+ or x). Implement motor speed clamping to stay within physical limits.",
+      "tips": "For an X-configuration quad: motor1 = thrust + roll - pitch - yaw; motor2 = thrust - roll - pitch + yaw; motor3 = thrust - roll + pitch - yaw; motor4 = thrust + roll + pitch + yaw."
+    },
+    {
+      "title": "Test and tune",
+      "description": "Test the flight controller in simulation: can the drone hover stably? Can it recover from disturbances (simulated wind gusts)? Can it track a step change in altitude? Tune PID gains for each axis. Document the tuning process, recording gains and performance metrics (overshoot, settling time, steady-state error) at each iteration.",
+      "tips": "Add simulated sensor noise and motor delay to make the simulation more realistic. A controller that works in a perfect simulation may fail on real hardware."
+    }
+  ],
+  "deliverables": ["Working flight controller achieving stable hover in simulation", "Attitude estimation filter with documented performance", "PID tuning log for all control axes", "Video of simulated drone hovering, recovering from disturbances, and tracking altitude commands", "Technical report covering control architecture, filter design, and tuning methodology"],
+  "tools": ["gazebo-sim", "arduino", "python-robotics", "matlab-simulink"],
+  "rubric": [
+    {"criteria": "Attitude estimation accuracy", "description": "Roll and pitch estimates within 2 degrees of ground truth in simulation under normal conditions"},
+    {"criteria": "Hover stability", "description": "Drone maintains position within 10cm and altitude within 5cm during undisturbed hover"},
+    {"criteria": "Disturbance rejection", "description": "Drone recovers from simulated wind gusts (returning to hover within 3 seconds)"},
+    {"criteria": "Control architecture", "description": "Properly structured cascaded PID with inner rate loop and outer attitude loop"},
+    {"criteria": "Tuning documentation", "description": "Systematic tuning process documented with gain values, step response plots, and rationale for parameter choices"}
+  ]
+}

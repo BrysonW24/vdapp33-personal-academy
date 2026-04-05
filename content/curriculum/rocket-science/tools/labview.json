@@ -1,0 +1,15 @@
+{
+  "slug": "labview",
+  "name": "LabVIEW",
+  "category": "testing",
+  "description": "National Instruments' graphical programming environment for test and measurement systems. The standard tool for rocket engine test stand instrumentation, data acquisition, and real-time control during ground testing.",
+  "whyUseIt": "Every rocket engine test stand runs LabVIEW. It interfaces directly with sensors, valves, and data acquisition hardware to control and monitor test firings in real time. When SpaceX test-fires a Raptor engine, LabVIEW-based systems are capturing thousands of data channels.",
+  "pricingTier": "paid",
+  "url": "https://www.ni.com/labview",
+  "alternatives": ["Python + NI-DAQmx", "MATLAB Data Acquisition Toolbox", "custom C/C++ systems"],
+  "funnelPosition": "Testing and data acquisition",
+  "outputs": ["Test control sequences", "Real-time data displays", "Data acquisition logs", "Automated test reports"],
+  "vocabulary": [{"term": "VI", "definition": "Virtual Instrument — a LabVIEW programme, so called because it mimics physical test instruments"},
+    {"term": "DAQ", "definition": "Data Acquisition — the hardware and software that converts physical measurements to digital data"}],
+  "beginnerMistakes": ["Creating overly complex VI diagrams instead of modular sub-VIs", "Not implementing proper timing for real-time applications", "Ignoring data logging best practices during tests"]
+}

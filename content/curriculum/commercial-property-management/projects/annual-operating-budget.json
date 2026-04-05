@@ -1,0 +1,68 @@
+{
+  "slug": "annual-operating-budget",
+  "title": "Annual Operating Budget",
+  "difficulty": 7,
+  "estimatedHours": 10,
+  "description": "Prepare a draft operating budget and outgoings view for a commercial property, including assumptions, recoverability logic, and a short variance scenario analysis.",
+  "whyItMatters": "Budgeting is one of the most visible tests of whether a property manager understands the asset. A thoughtful budget shows control over vendor assumptions, lease recoveries, service quality, and risk. A lazy budget creates disputes, missed savings, and avoidable owner frustration.",
+  "skillsLearned": [
+    "Operating budget construction",
+    "Recoverable versus non-recoverable cost logic",
+    "Scenario analysis for NOI and expense movement",
+    "Variance commentary and assumption writing",
+    "Linking building operations to financial planning"
+  ],
+  "prerequisites": ["monthly-owner-report"],
+  "steps": [
+    {
+      "title": "Build the prior-year baseline",
+      "description": "Create a clean prior-year actuals table and identify one-offs, cyclical items, and recurring defects that should or should not flow into next year's budget.",
+      "tips": "If you cannot explain the last 12 months, you are not ready to forecast the next 12."
+    },
+    {
+      "title": "Set assumptions by cost category",
+      "description": "Draft assumptions for utilities, cleaning, security, repairs and maintenance, management fees, insurance, and contract escalations. State the reason for each assumption.",
+      "tips": "Treat each line as an operating decision, not just a number."
+    },
+    {
+      "title": "Apply lease and recovery logic",
+      "description": "Separate recoverable, capped, grossed-up, and owner-borne costs. Document any lease-driven constraints that affect how costs can be recovered.",
+      "tips": "Budget logic that ignores lease structure only postpones the problem until reconciliation season."
+    },
+    {
+      "title": "Model upside and downside cases",
+      "description": "Create at least two variance scenarios for major drivers such as electricity, repairs, or security and explain how they would affect NOI and owner guidance.",
+      "tips": "Owners value managers who show the edges of the plan, not just the center line."
+    },
+    {
+      "title": "Present the draft budget",
+      "description": "Write a short owner brief summarizing key changes, major risks, proposed contingencies, and any capex items that sit outside the operating budget.",
+      "tips": "Keep the math detailed but the summary simple."
+    }
+  ],
+  "deliverables": [
+    "A draft annual operating budget spreadsheet",
+    "A recoverability or outgoings treatment note",
+    "A scenario analysis for at least two material cost lines",
+    "A one-page owner summary explaining the budget"
+  ],
+  "tools": ["microsoft-excel", "yardi-voyager", "mri-software", "power-bi"],
+  "rubric": [
+    {
+      "criteria": "Financial Rigor",
+      "description": "The budget is internally consistent, logically structured, and grounded in realistic assumptions."
+    },
+    {
+      "criteria": "Lease Awareness",
+      "description": "Recoverability and owner-borne costs are separated correctly and clearly explained."
+    },
+    {
+      "criteria": "Scenario Thinking",
+      "description": "Sensitivity cases show genuine understanding of where the budget could move and why."
+    },
+    {
+      "criteria": "Executive Communication",
+      "description": "The owner summary explains the budget without requiring the reader to decode the spreadsheet first."
+    }
+  ]
+}

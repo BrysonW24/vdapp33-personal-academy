@@ -1,0 +1,15 @@
+{
+  "slug": "orekit",
+  "name": "Orekit",
+  "category": "mission-planning",
+  "description": "Free, open-source Java library for space dynamics. Provides high-fidelity orbit propagation, attitude determination, and event detection. Used by ESA and commercial satellite operators for mission planning and operations.",
+  "whyUseIt": "Orekit is the open-source alternative to STK for operational astrodynamics. It handles all the complexity — atmospheric drag models, solar radiation pressure, third-body perturbations, and Earth gravity harmonics — with validated, flight-proven algorithms.",
+  "pricingTier": "free",
+  "url": "https://www.orekit.org",
+  "alternatives": ["STK", "GMAT", "Poliastro"],
+  "funnelPosition": "Mission analysis and satellite operations",
+  "outputs": ["High-fidelity orbit predictions", "Conjunction assessments", "Ground station access windows", "Manoeuvre planning"],
+  "vocabulary": [{"term": "TLE", "definition": "Two-Line Element — a compact format for describing satellite orbits, published by the US Space Force"},
+    {"term": "Perturbation", "definition": "Forces that cause an orbit to deviate from a perfect Keplerian ellipse (drag, solar pressure, gravity harmonics)"}],
+  "beginnerMistakes": ["Using simplified propagators for missions where perturbations matter", "Not updating atmospheric density models for accurate drag predictions", "Ignoring leap seconds and time system conversions"]
+}

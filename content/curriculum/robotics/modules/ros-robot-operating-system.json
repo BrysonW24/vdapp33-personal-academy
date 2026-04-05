@@ -1,0 +1,16 @@
+{
+  "slug": "ros-robot-operating-system",
+  "title": "ROS: Robot Operating System",
+  "shortSummary": "Learn the de facto standard software framework for robotics. ROS provides tools, libraries, and conventions that let you build complex robot behaviours without reinventing the wheel.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "ROS (Robot Operating System) is the most widely used middleware framework in robotics research and increasingly in industry. It is not an operating system in the traditional sense — it runs on top of Linux — but it provides the communication infrastructure, driver libraries, simulation tools, and algorithm packages that let roboticists focus on their specific problem rather than rebuilding basic capabilities. ROS 2, the current generation, adds real-time support, security features, and multi-robot coordination that make it viable for production deployments. CSIRO's Data61 group in Australia uses ROS extensively for their field robotics research, and many Australian robotics startups build on ROS as their foundation. Understanding ROS is effectively mandatory for anyone entering the robotics field today.",
+  "coreConcepts": ["ROS architecture: nodes, topics, services, actions", "Publisher-subscriber communication model", "ROS 2 vs ROS 1: key differences", "Launch files and parameter management", "Tf2 coordinate frame transformations", "ROS packages and workspace management", "Gazebo simulation integration"],
+  "lessons": ["ros-fundamentals"],
+  "frameworks": ["behaviour-trees"],
+  "visualType": "ros-graph",
+  "relatedModules": ["embedded-systems", "computer-vision-for-robots", "slam-and-mapping", "path-planning-and-navigation"],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "stk",
+  "name": "STK (Systems Tool Kit)",
+  "category": "mission-planning",
+  "description": "Ansys STK is the gold standard for mission analysis, orbit design, and satellite constellation modelling. Used by NASA, SpaceX, the US Space Force, and every major satellite operator for mission planning and operations.",
+  "whyUseIt": "STK provides high-fidelity orbit propagation, access analysis, constellation coverage, and 3D visualisation that no other tool matches. It handles the complexity of real-world astrodynamics — atmospheric drag, solar radiation pressure, gravitational perturbations — out of the box.",
+  "pricingTier": "enterprise",
+  "url": "https://www.ansys.com/products/missions/ansys-stk",
+  "alternatives": ["GMAT", "Orekit", "Astrogator"],
+  "funnelPosition": "Mission design and operations",
+  "outputs": ["Orbit propagations", "Access analyses", "Constellation coverage maps", "Launch window analyses"],
+  "vocabulary": [{"term": "Access analysis", "definition": "Calculating when and for how long two objects can see each other (e.g., satellite to ground station)"},
+    {"term": "Orbit propagator", "definition": "Algorithm that predicts future satellite positions accounting for all perturbation forces"}],
+  "beginnerMistakes": ["Using simplified propagators when high-fidelity is needed", "Ignoring perturbation forces for long-duration missions", "Not validating STK results against analytical solutions"]
+}

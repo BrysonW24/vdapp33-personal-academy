@@ -1,0 +1,48 @@
+{
+  "slug": "aircraft-stability",
+  "moduleSlug": "flight-dynamics-control",
+  "title": "Aircraft Stability",
+  "objective": "Understand static and dynamic stability, what makes an aircraft naturally stable or unstable, and why stability margins matter for safety.",
+  "beginnerExplanation": "Stability is about what an aircraft does when disturbed from its trimmed flight condition. Imagine you are flying level and a gust pitches the nose up. A stable aircraft will naturally return to its original attitude. An unstable aircraft will continue pitching up until the pilot intervenes.\n\nThere are two types of stability:\n\n**Static stability** asks: does the aircraft initially tend to return to its original state after a disturbance? If you pitch the nose up and the aircraft generates a nose-down moment to correct it, the aircraft is statically stable in pitch.\n\n**Dynamic stability** asks: does the aircraft actually return to equilibrium over time, or does it oscillate? An aircraft can be statically stable but dynamically unstable — it tries to correct but overshoots, then overcorrects, and the oscillations grow larger.\n\nThe key to longitudinal (pitch) stability is the relationship between the centre of gravity (CG) and the aerodynamic centre. If the CG is ahead of the neutral point (the position where the aircraft has zero stability), the aircraft is stable. The further forward the CG, the more stable — but also the more control force needed and the more trim drag.",
+  "deeperExplanation": "Stability analysis involves three axes:\n\n1. **Longitudinal stability** (pitch): Governed by the static margin — the distance between CG and neutral point as a percentage of mean aerodynamic chord. Typical values are 5-15% for conventional aircraft. Fighter aircraft may have negative static margins (relaxed static stability) and rely on fly-by-wire computers.\n\n2. **Lateral-directional stability**: The Dutch roll mode, spiral mode, and roll subsidence mode describe how the aircraft responds to sideslip and roll disturbances. The vertical tail size and wing dihedral are the primary design parameters.\n\n3. **Dynamic modes**: In pitch, the short-period mode (fast, well-damped) and the phugoid mode (slow, lightly damped speed/altitude oscillation). In lateral-directional, the Dutch roll (yaw-roll coupling), spiral mode (slow divergence in bank), and roll subsidence (roll rate damping).\n\nHandling qualities standards (MIL-STD-1797 for military, CS-25 for civil) define acceptable ranges for mode frequencies, damping ratios, and time-to-double for each mode. These standards ensure the aircraft is pleasant and safe to fly.\n\nModern fly-by-wire aircraft like the Airbus A320 artificially augment stability. The flight computers add stability where the bare airframe lacks it, allowing more efficient aerodynamic designs that would be unflyable without augmentation.",
+  "keyTakeaways": [
+    "Static stability is the initial tendency to return after a disturbance; dynamic stability is the long-term response",
+    "The static margin (CG position relative to neutral point) determines pitch stability",
+    "Too much stability wastes energy (trim drag); too little makes the aircraft dangerous to fly",
+    "Dynamic modes (short period, phugoid, Dutch roll, spiral) describe how disturbances decay over time",
+    "Fly-by-wire systems allow deliberately unstable designs for better performance",
+    "Handling qualities standards define what makes an aircraft safe and pleasant to fly"
+  ],
+  "frameworks": ["cooper-harper-rating"],
+  "example": "The Airbus A330 that Qantas operates on routes like Sydney to Perth has a centre of gravity range of roughly 15-40% MAC (mean aerodynamic chord). The flight management system carefully tracks fuel burn and CG movement throughout the flight. On long sectors, fuel burn shifts the CG, changing the static margin. Fuel is sometimes transferred between tanks to optimise CG position, reducing trim drag and saving fuel. A 1% CG optimisation can save hundreds of kilograms of fuel on a long-haul flight.",
+  "commonMistakes": [
+    "Confusing static and dynamic stability — an aircraft can be statically stable but dynamically unstable",
+    "Thinking more stability is always better — excessive stability increases trim drag and reduces manoeuvrability",
+    "Forgetting that CG changes throughout flight as fuel is consumed and payload shifts",
+    "Assuming fly-by-wire removes the need to understand stability — engineers must still design the control laws",
+    "Ignoring lateral-directional stability — Dutch roll can be extremely uncomfortable for passengers"
+  ],
+  "exercise": "Research the concept of 'relaxed static stability' used in fighter aircraft like the F-16. Why would a designer deliberately make an aircraft statically unstable? What systems are required to make it flyable? What are the performance advantages? Write a 200-word summary explaining the trade-off between stability and performance.",
+  "nextLesson": "propulsion-principles",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What determines whether an aircraft is statically stable in pitch?",
+      "options": ["The wing area", "The relationship between centre of gravity and neutral point", "The engine thrust", "The tail size alone"],
+      "correctIndex": 1,
+      "explanation": "An aircraft is statically stable in pitch when the centre of gravity is ahead of the neutral point, creating a positive static margin. A nose-up disturbance then generates a restoring nose-down pitching moment."
+    },
+    {
+      "question": "What is the phugoid mode?",
+      "options": ["A rapid pitch oscillation", "A slow, lightly damped exchange between speed and altitude", "A yaw-roll coupling oscillation", "A structural vibration mode"],
+      "correctIndex": 1,
+      "explanation": "The phugoid is a long-period oscillation where the aircraft trades speed for altitude and vice versa at roughly constant angle of attack. It is typically lightly damped and has a period of 30-90 seconds."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As a flight dynamics engineer, you analyse stability derivatives using linearised equations of motion. You design control laws that augment natural stability to achieve desired handling qualities across the flight envelope.",
+    "manager": "As an engineering manager, stability analysis drives the schedule for wind tunnel testing, flight simulation, and flight test. Discovering a stability issue late in the programme is extremely expensive.",
+    "chiefEngineer": "As chief engineer, stability margins are a safety-critical parameter. You sign off on the allowable CG range, which constrains how the aircraft can be loaded — directly affecting commercial payload capability.",
+    "regulator": "As a regulator, you require demonstration of adequate stability and handling qualities through analysis, simulation, and flight test. Aircraft that rely on augmentation (fly-by-wire) must show safety even with system failures."
+  }
+}

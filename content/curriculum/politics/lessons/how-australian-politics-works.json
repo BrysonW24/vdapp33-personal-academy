@@ -1,0 +1,46 @@
+{
+  "slug": "how-australian-politics-works",
+  "moduleSlug": "political-systems",
+  "title": "How Australian Politics Works",
+  "objective": "Understand the structure and mechanics of Australia's political system — from the Constitution to the three levels of government and how power flows between them.",
+  "beginnerExplanation": "Australia is a constitutional monarchy and a parliamentary democracy. This means we have a Constitution that sets the rules, a parliament that makes laws, and a monarch (King Charles III, represented by the Governor-General) as the formal head of state. In practice, the Prime Minister and Cabinet run the country. Australia has three levels of government: federal (Canberra — defence, immigration, taxation), state/territory (health, education, police), and local (councils — roads, rubbish, local planning). We vote using preferential voting in the House of Representatives and proportional representation in the Senate. Voting is compulsory — you can be fined for not showing up on election day.",
+  "deeperExplanation": "Australia's Westminster system has several distinctive features that set it apart from other democracies. The Constitution (1901) divides power between the Commonwealth and the states, with residual powers belonging to the states. The High Court interprets the Constitution and resolves disputes between levels of government. The Senate uses proportional representation (Single Transferable Vote), which means minor parties and independents have significant power — often holding the balance of power. The House of Representatives uses full preferential voting in single-member electorates, which tends to produce two-party-preferred outcomes. The Governor-General retains reserve powers (as demonstrated in the 1975 Constitutional Crisis when Sir John Kerr dismissed PM Gough Whitlam). Understanding the interplay between these elements — bicameralism, federalism, responsible government, and the party system — is essential for anyone entering politics.",
+  "keyTakeaways": [
+    "Australia is a constitutional monarchy with a Westminster parliamentary system",
+    "Three levels of government: Commonwealth, State/Territory, Local — each with defined responsibilities",
+    "The House uses preferential voting; the Senate uses proportional representation",
+    "The Senate often holds the balance of power through minor parties and crossbenchers",
+    "The Governor-General has reserve powers — the 1975 crisis proved they are real, not ceremonial"
+  ],
+  "frameworks": ["stakeholder-mapping"],
+  "example": "The 2022 federal election demonstrated several key features of Australia's system. The 'teal independents' won six seats in the House of Representatives — previously safe Liberal seats — by running community-backed campaigns. In the Senate, the Greens and crossbenchers held the balance of power, meaning the Albanese Government needed to negotiate with them to pass legislation. This is Australian democracy working as designed: the voting system allows new political movements to emerge, the Senate ensures no single party has unchecked power, and compulsory voting means the result reflects the whole electorate, not just the most motivated voters.",
+  "commonMistakes": [
+    "Confusing the Governor-General's role with real executive power — the PM governs in practice",
+    "Thinking the Senate is less important than the House — it can block almost any legislation",
+    "Ignoring state politics — states control health, education, and police, which affect daily life enormously",
+    "Misunderstanding preferential voting — your preferences matter, not just your first choice",
+    "Assuming local council is unimportant — it is often the entry point for a political career"
+  ],
+  "exercise": "Draw a complete diagram of Australia's political system. Include: the three levels of government with their key responsibilities, the relationship between the House and Senate, the role of the Governor-General, the High Court, and the Constitution. Then annotate it with the current composition — how many seats each party holds, who holds the balance of power in the Senate, and who your local federal MP, state MP, and council representatives are. If you cannot fill in every box, research until you can.",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What voting system does the Australian House of Representatives use?",
+      "options": ["First-past-the-post", "Full preferential voting", "Proportional representation", "Mixed-member proportional"],
+      "correctIndex": 1,
+      "explanation": "The House of Representatives uses full preferential voting (also called instant-runoff voting) in single-member electorates. Voters must number every candidate in order of preference."
+    },
+    {
+      "question": "What happened in the 1975 Australian Constitutional Crisis?",
+      "options": ["The High Court struck down the Constitution", "The Governor-General dismissed Prime Minister Gough Whitlam", "Australia became a republic", "The Senate was abolished temporarily"],
+      "correctIndex": 1,
+      "explanation": "In 1975, Governor-General Sir John Kerr used the reserve powers of the Crown to dismiss PM Gough Whitlam after the Senate blocked supply (the budget). It remains the most controversial use of vice-regal power in Australian history."
+    }
+  ],
+  "perspectives": {
+    "citizen": "Understanding the system means knowing who to hold accountable. Your state government runs hospitals, your council fixes potholes, and your federal MP votes on tax.",
+    "staffer": "You need to know which level of government actually has the power to act on any given issue. Promising federal action on a state responsibility is a rookie mistake.",
+    "politician": "The system is your playing field. Mastering its rules — especially the Senate crossbench and preference flows — is the difference between passing your legislation and watching it die.",
+    "strategist": "Australia's compulsory voting and preferential system create unique strategic dynamics. You cannot just mobilise your base — you must persuade the middle."
+  }
+}

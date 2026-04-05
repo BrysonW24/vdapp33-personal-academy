@@ -1,0 +1,12 @@
+{
+  "slug": "robotics",
+  "name": "Robotics",
+  "shortName": "Robotics",
+  "group": "engineering",
+  "icon": "Cpu",
+  "color": "#059669",
+  "tagline": "Sensors, actuators, control systems, and intelligent machines that interact with the physical world.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 4
+}

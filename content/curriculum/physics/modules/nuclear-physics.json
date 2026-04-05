@@ -1,0 +1,24 @@
+{
+  "slug": "nuclear-physics",
+  "title": "Nuclear Physics",
+  "shortSummary": "Radioactivity, nuclear decay, fission, fusion, and the forces that hold the atomic nucleus together — the physics of stars and power stations.",
+  "level": "intermediate",
+  "category": "modern",
+  "whyItMatters": "Nuclear physics explains where the elements come from (stellar nucleosynthesis), powers the sun, and underpins both nuclear energy and medical imaging. It is central to understanding the universe at its most fundamental level.",
+  "coreConcepts": [
+    "Nuclear structure (protons, neutrons)",
+    "Radioactive decay (alpha, beta, gamma)",
+    "Half-life and decay chains",
+    "Nuclear fission",
+    "Nuclear fusion",
+    "Binding energy and mass defect",
+    "The strong nuclear force"
+  ],
+  "lessons": [],
+  "frameworks": ["conservation-laws", "energy-level-diagrams"],
+  "visualType": "decay-chain",
+  "relatedModules": ["quantum-mechanics-intro", "particle-physics", "astrophysics"],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

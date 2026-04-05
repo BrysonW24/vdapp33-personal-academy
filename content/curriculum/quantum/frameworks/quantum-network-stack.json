@@ -1,0 +1,15 @@
+{
+  "slug": "quantum-network-stack",
+  "name": "Quantum Network Stack",
+  "summary": "A layered model of how quantum links, repeaters, entanglement management, and classical coordination combine into a usable network.",
+  "whenToUseIt": "Use it when explaining why quantum networking is more than just sending qubits down a fiber.",
+  "steps": [
+    "Define the physical link and qubit carrier.",
+    "Track entanglement generation and storage.",
+    "Add repeater or swapping logic where distance demands it.",
+    "Include the classical timing and control channel.",
+    "Measure performance in fidelity, rate, and loss tolerance."
+  ],
+  "example": "A working quantum network requires both a fragile quantum channel and a reliable classical coordination layer. Ignoring either one produces a fantasy architecture.",
+  "category": "communication"
+}

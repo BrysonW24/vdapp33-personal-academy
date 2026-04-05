@@ -1,0 +1,48 @@
+{
+  "slug": "satellite-engineer",
+  "title": "Satellite Systems Engineer",
+  "setting": "Satellite manufacturer (e.g., Airbus Defence & Space or a NewSpace startup)",
+  "companySize": "200-2,000 employees",
+  "description": "You are a satellite systems engineer working on a new Earth observation constellation. Your role spans the entire satellite — from power system sizing to thermal design to communications budgets. You are the person who ensures all the subsystems work together as an integrated system. With the rise of mega-constellations, the industry is shifting from bespoke, one-off satellites to mass-produced platforms — and you are at the centre of that transition.",
+  "salary": "$110,000–$190,000 AUD",
+  "schedule": [
+    {"time": "08:30", "activity": "Start with a systems health check. Review telemetry from the three satellites already in orbit. One satellite's solar array is generating 3% less power than predicted — flag for investigation.", "tools": ["Mission control software", "Python"], "note": "Satellite engineers often support operations for hardware already in orbit while designing the next generation."},
+    {"time": "09:00", "activity": "Systems engineering meeting. Walk through the mass budget for the next-generation satellite. The payload team wants 5 kg more for a higher-resolution camera. You need to find 5 kg elsewhere.", "tools": ["Excel", "MATLAB"]},
+    {"time": "10:30", "activity": "Work on the power budget. The new camera needs 80W more power. Run the analysis: can the solar array and battery support this through the worst-case eclipse? If not, size a larger array.", "tools": ["Thermal Desktop", "MATLAB"], "note": "Everything in satellite design is interconnected — more power means bigger arrays, which means more mass, which affects structural design."},
+    {"time": "12:00", "activity": "Lunch. Chat with the constellation operations team about a conjunction warning — a piece of debris is predicted to pass within 500 metres of one of your satellites."},
+    {"time": "13:00", "activity": "Link budget analysis for the data downlink. The new camera generates 2x more data. Can the existing X-band transmitter handle it, or do you need to upgrade to Ka-band?", "tools": ["MATLAB", "Link budget spreadsheet"]},
+    {"time": "14:30", "activity": "Review a thermal analysis from a junior engineer. Check that the battery stays within its -5 to +45 degree Celsius operating range throughout the orbit. The hot case is marginal — suggest adding a radiator.", "tools": ["Thermal Desktop"]},
+    {"time": "16:00", "activity": "Interface control meeting with the launch vehicle provider. Your satellite must fit within the Falcon 9 fairing and survive the vibration environment. Review the ICD (Interface Control Document).", "tools": ["SolidWorks", "NASTRAN"]},
+    {"time": "17:30", "activity": "Update the system requirements document to capture today's decisions. Traceability from stakeholder needs to component specs must be maintained.", "tools": ["DOORS", "Confluence"]},
+    {"time": "18:00", "activity": "Head home. The pace is busy but more sustainable than launch vehicle work."}
+  ],
+  "responsibilities": [
+    "Manage satellite system-level budgets (mass, power, data, thermal)",
+    "Ensure subsystem interfaces are compatible and well-defined",
+    "Lead system design reviews and trade studies",
+    "Support satellite integration, testing, and launch campaigns",
+    "Monitor on-orbit performance and anomaly resolution",
+    "Flow requirements from mission level to subsystem level"
+  ],
+  "challenges": [
+    "Everything is interconnected — a change in one subsystem cascades everywhere",
+    "Mass and power margins are always tight — every gram and watt is contested",
+    "Testing a satellite in orbit-like conditions (thermal vacuum, vibration) is expensive and time-consuming",
+    "Schedule pressure from constellation deployment timelines",
+    "Balancing cost, performance, and reliability in a competitive commercial market"
+  ],
+  "rewards": [
+    "Seeing your satellite launch and send back its first images from orbit",
+    "Understanding the complete system — no other engineering role is as broadly integrated",
+    "Growing commercial satellite market with strong job demand",
+    "Working on technology that directly benefits life on Earth (Earth observation, communications)",
+    "Opportunity to work internationally — satellite companies are global"
+  ],
+  "careerPath": [
+    "Satellite Engineer ($110K AUD)",
+    "Senior Satellite Systems Engineer ($145K AUD)",
+    "Lead Systems Engineer ($170K AUD)",
+    "Chief Systems Engineer ($185K AUD)",
+    "VP Engineering / CTO ($190K+ AUD)"
+  ]
+}

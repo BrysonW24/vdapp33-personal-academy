@@ -1,0 +1,63 @@
+{
+  "slug": "quarterly-asset-review",
+  "title": "Quarterly Asset Review",
+  "difficulty": 8,
+  "estimatedHours": 9,
+  "description": "Build a quarterly review for a property or small portfolio covering performance trends, risk shifts, leasing outlook, capex priorities, and recommended strategic actions.",
+  "whyItMatters": "Quarterly reviews are where property management graduates into advisory work. They ask the manager to move beyond monthly updates and show whether the asset is strengthening, drifting, or approaching a decision point that ownership should address.",
+  "skillsLearned": [
+    "Quarterly asset storytelling",
+    "Trend analysis across occupancy, NOI, cost, and service",
+    "Combining operational and strategic recommendations",
+    "Portfolio-style thinking and prioritization",
+    "Executive meeting preparation"
+  ],
+  "prerequisites": ["monthly-owner-report", "annual-operating-budget", "renewal-brief"],
+  "steps": [
+    {
+      "title": "Compile the quarter-to-date picture",
+      "description": "Summarize occupancy movement, leasing outlook, collections, budget performance, major works, incidents, contractor performance, and tenant sentiment over the full quarter.",
+      "tips": "Quarterly reviews should show trend, not just three monthly snapshots stuck together."
+    },
+    {
+      "title": "Identify the critical themes",
+      "description": "Choose the 3-5 themes that best explain current asset position such as stabilizing occupancy, aging plant risk, stronger collections, tenant-service improvement, or ESG opportunity.",
+      "tips": "A useful review is selective. It should not feel like every available report pasted into one deck."
+    },
+    {
+      "title": "Frame decisions and scenarios",
+      "description": "Recommend actions on leasing strategy, capex priorities, operating adjustments, vendor changes, or risk mitigation. Where useful, show a best-case and downside scenario.",
+      "tips": "Advisory value comes from making choices legible before the owner asks for them."
+    },
+    {
+      "title": "Prepare the executive pack",
+      "description": "Write a concise meeting pack with charts, key messages, and a decision page that could be presented in a 30-minute review meeting.",
+      "tips": "If the decision page is weak, the whole review will feel descriptive rather than strategic."
+    }
+  ],
+  "deliverables": [
+    "A quarterly review pack or deck",
+    "A trend summary across core KPIs",
+    "A strategic action list with priority and owner support needed",
+    "A decision page for the review meeting"
+  ],
+  "tools": ["power-bi", "costar", "jll-prism", "microsoft-teams", "notion"],
+  "rubric": [
+    {
+      "criteria": "Strategic Depth",
+      "description": "The review demonstrates real asset thinking rather than only operational reporting."
+    },
+    {
+      "criteria": "Trend Interpretation",
+      "description": "Performance movement is explained clearly with meaningful causes and implications."
+    },
+    {
+      "criteria": "Recommendation Quality",
+      "description": "Actions are specific, commercially sensible, and tied to the evidence presented."
+    },
+    {
+      "criteria": "Executive Readiness",
+      "description": "The final pack is concise and credible enough for a client or senior leadership meeting."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "constituent-crm",
+  "name": "Constituent CRM Systems",
+  "category": "constituent-management",
+  "description": "Customer Relationship Management systems adapted for elected officials — tracking constituent enquiries, casework, correspondence, and community engagement. Used by MPs, councillors, and their electorate offices.",
+  "whyUseIt": "Once elected, managing constituent relationships is your core job. A CRM ensures no enquiry falls through the cracks, tracks casework from intake to resolution, and helps you identify patterns in what your community needs. It is the difference between responsive representation and chaos.",
+  "pricingTier": "paid",
+  "url": "https://www.salesforce.com/au/nonprofit",
+  "aiCapabilities": "Automated case routing, AI-suggested responses for common enquiries, sentiment analysis on incoming correspondence",
+  "alternatives": ["NationBuilder", "Salesforce Nonprofit", "HubSpot", "Airtable"],
+  "funnelPosition": "Post-election — governance and constituent service",
+  "outputs": ["Case management tracking", "Constituent correspondence logs", "Issue pattern reports", "Electorate engagement analytics"],
+  "marketerWorkflow": "Log every constituent contact, categorise by issue, assign to staff, track resolution time, generate monthly reports on issue volumes and response times",
+  "managerExpects": "Monthly constituent report: total enquiries, average resolution time, top five issue categories, outstanding cases, and community sentiment",
+  "demoDescription": "Set up a constituent CRM with intake categories (housing, healthcare, immigration, local infrastructure), create an automated acknowledgement email, and build a dashboard showing open vs resolved cases",
+  "vocabulary": [
+    { "term": "Casework", "definition": "The process of helping individual constituents navigate government services or resolve problems" },
+    { "term": "Electorate office", "definition": "The local office where an MP's staff handle constituent enquiries and casework" }
+  ],
+  "beginnerMistakes": ["Not following up on constituent enquiries promptly — nothing damages trust faster", "Failing to categorise enquiries, making it impossible to identify systemic issues"],
+  "relatedProject": "map-your-electorate"
+}

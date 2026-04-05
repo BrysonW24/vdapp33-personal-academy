@@ -1,0 +1,46 @@
+{
+  "slug": "art-of-political-speech",
+  "moduleSlug": "public-speaking",
+  "title": "The Art of Political Speech",
+  "objective": "Learn to structure and deliver political speeches that persuade, inspire, and connect — from local town halls to national addresses.",
+  "beginnerExplanation": "A great political speech does three things: it tells people what the problem is, why it matters to them, and what you will do about it. The best speeches follow a simple structure — open with a story or striking fact that grabs attention, define the problem in human terms, present your solution with concrete detail, and close with a call to action. In Australian politics, the tone matters as much as the content. Australians are allergic to pomposity — they want straight talk, not grand rhetoric. Bob Hawke connected because he spoke like a regular Australian. Paul Keating connected because his words were sharp and precise. Julia Gillard's misogyny speech resonated because it was authentic anger, not rehearsed performance. The lesson: be yourself, but be your best self.",
+  "deeperExplanation": "Political speech is a craft with identifiable techniques. Anaphora (repetition of a phrase) creates rhythm: 'We will fight them on the beaches, we will fight them on the landing grounds.' Tricolon (groups of three) creates completeness: 'Government of the people, by the people, for the people.' Antithesis (contrasting ideas) creates clarity: 'Ask not what your country can do for you — ask what you can do for your country.' In the Australian context, the best speeches balance policy substance with emotional connection. Gough Whitlam's 'It's Time' was effective because it combined specific policy promises with a generational call for change. Kevin Rudd's apology to the Stolen Generations worked because it was both a statement of fact and an act of moral leadership. When speaking in parliament, you must follow standing orders and address your remarks through the Chair. When speaking at a community event, you must read the room — a mining town and an inner-city electorate require different approaches to the same policy.",
+  "keyTakeaways": [
+    "Great political speeches define a problem, explain why it matters, present a solution, and call for action",
+    "Australian audiences prefer authenticity over grand rhetoric — straight talk wins",
+    "Rhetorical devices (anaphora, tricolon, antithesis) create memorable, powerful language",
+    "Parliamentary speaking follows strict procedural rules — learn them before you stand",
+    "The best political speeches combine policy substance with emotional connection"
+  ],
+  "frameworks": ["message-framing"],
+  "example": "Julia Gillard's 2012 misogyny speech in parliament became one of the most-viewed Australian political moments globally. It worked because it combined several speech techniques: anaphora ('I will not be lectured about sexism and misogyny by this man'), specific evidence (citing dated statements by the Opposition Leader), and authentic emotion that built throughout the speech. It was not a rehearsed set piece — it was a response to a live debate. That authenticity is why it resonated. The speech did not change the polls immediately, but it defined Gillard's legacy and became a reference point for women in politics worldwide.",
+  "commonMistakes": [
+    "Reading a speech word-for-word from a script without any eye contact or spontaneity",
+    "Trying to sound like an American politician — Australian audiences reject that style",
+    "Filling speeches with jargon and acronyms instead of plain language",
+    "Speaking for too long — a tight 10-minute speech beats a rambling 30-minute one",
+    "Failing to adapt your tone and content to the audience — a business breakfast is not a union rally"
+  ],
+  "exercise": "Write and deliver a 5-minute speech on a policy issue you care about. Structure it as: (1) An opening story or fact that hooks the audience in 30 seconds, (2) The problem defined in human terms — who is affected and how, (3) Your proposed solution with two or three concrete steps, (4) A closing call to action. Record yourself delivering it. Watch the recording and note where you lose energy, use filler words, or break eye contact. Rewrite and re-deliver until it feels natural.",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "What is anaphora?",
+      "options": ["A type of logical argument", "The deliberate repetition of a word or phrase at the beginning of successive clauses", "A way to end a speech dramatically", "A parliamentary procedure"],
+      "correctIndex": 1,
+      "explanation": "Anaphora is the repetition of a word or phrase at the start of successive clauses or sentences. It creates rhythm and emphasis — 'We will not accept. We will not surrender. We will not back down.'"
+    },
+    {
+      "question": "Why did Julia Gillard's misogyny speech resonate so powerfully?",
+      "options": ["It was carefully rehearsed over weeks", "It combined specific evidence with authentic emotion in a live debate", "It used American-style grand rhetoric", "It was delivered at a major public rally"],
+      "correctIndex": 1,
+      "explanation": "The speech worked because it was a spontaneous response to a live parliamentary debate, combining specific cited evidence of sexist remarks with genuine, building emotion — not a pre-planned performance."
+    }
+  ],
+  "perspectives": {
+    "citizen": "A politician's speech tells you what they prioritise and how they think. Listen for substance, not just style.",
+    "staffer": "Your job is to draft speeches that sound like your member, not like you. Study their natural speech patterns and build from there.",
+    "politician": "Your words are your most powerful tool. A single speech can define your career — for better or worse. Invest in the craft.",
+    "strategist": "Every speech is a message delivery vehicle. Before writing, ask: what is the one thing we need the audience to remember?"
+  }
+}

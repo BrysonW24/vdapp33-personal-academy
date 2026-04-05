@@ -1,0 +1,25 @@
+{
+  "slug": "structural-load-analysis",
+  "title": "Structural Load Analysis",
+  "difficulty": 6,
+  "estimatedHours": 18,
+  "description": "Perform a structural analysis of a simplified rocket body tube under launch loads. Model axial thrust loads, lateral wind loads, and vibration using finite element methods. Determine safety margins and identify critical failure points.",
+  "whyItMatters": "Structural failure during launch is catastrophic and non-recoverable. Every rocket must be analysed for every load case it will experience — from transportation to the pad through max-Q to stage separation. This project teaches the analytical thinking that keeps rockets from breaking apart.",
+  "skillsLearned": ["Finite element analysis", "Launch load calculation", "Buckling analysis", "Safety factor determination", "Structural optimisation"],
+  "prerequisites": ["structural-analysis", "materials-engineering"],
+  "steps": [
+    {"title": "Define the geometry", "description": "Model a simplified cylindrical body tube (3.7m diameter, 40m length, aluminium-lithium alloy) representing a Falcon 9-class first stage. Include stiffening rings and tank dome.", "tips": "Start with a 2D axisymmetric model before going to full 3D."},
+    {"title": "Apply launch loads", "description": "Calculate and apply: axial thrust load (9 x 845 kN), aerodynamic loads at max-Q (35 kPa dynamic pressure), and lateral wind loads (10 m/s wind at 10 km altitude).", "tips": "Max-Q occurs at roughly 80 seconds into flight at about 12 km altitude."},
+    {"title": "Run FEA", "description": "Solve for stress distribution, deformation, and buckling modes using NASTRAN, Abaqus, or open-source FEA (CalculiX). Identify maximum stress locations.", "tips": "Thin-walled cylinders under compression are buckling-critical. Check shell buckling first."},
+    {"title": "Evaluate safety margins", "description": "Calculate safety factors at critical locations. Aerospace standard is typically 1.25 yield and 1.4 ultimate for non-human-rated, 1.5 and 2.0 for human-rated.", "tips": "If margins are negative, you need to thicken the skin, add stiffeners, or change materials."},
+    {"title": "Optimise the structure", "description": "Iterate on wall thickness and stiffener spacing to minimise mass while maintaining positive margins on all load cases. Document mass savings.", "tips": "Every kilogram saved in structure is a kilogram of payload gained. Track the mass vs margin trade-off."}
+  ],
+  "deliverables": ["FEA model files", "Stress distribution plots for all load cases", "Buckling mode shapes and critical loads", "Safety margin summary table", "Optimised design with mass savings analysis"],
+  "tools": ["nastran", "solidworks", "matlab"],
+  "rubric": [
+    {"criteria": "Model quality", "description": "Appropriate mesh density, boundary conditions, and load application"},
+    {"criteria": "Load cases", "description": "All critical flight phases analysed with correct load magnitudes"},
+    {"criteria": "Safety margins", "description": "Correct calculation with appropriate factors for aerospace application"},
+    {"criteria": "Optimisation", "description": "Demonstrated mass reduction while maintaining structural integrity"}
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "repetition-code-simulator",
+  "title": "Repetition Code Simulator",
+  "difficulty": 6,
+  "estimatedHours": 10,
+  "description": "Simulate a simple repetition code to see how syndrome extraction can detect some errors without directly measuring the logical information itself.",
+  "whyItMatters": "Quantum error correction is easy to praise and hard to picture. A repetition-code simulator makes the logic of redundancy and syndrome measurement concrete.",
+  "skillsLearned": [
+    "Error-correction intuition",
+    "Syndrome reasoning",
+    "Noise-model design",
+    "Logical versus physical state thinking"
+  ],
+  "prerequisites": [
+    "Quantum Error Correction",
+    "Quantum Mechanics Essentials"
+  ],
+  "steps": [
+    {
+      "title": "Define a simple noise model",
+      "description": "Introduce one or two basic error channels such as bit-flip or phase-flip noise.",
+      "tips": "Keep the first version simple enough that you can explain every outcome."
+    },
+    {
+      "title": "Encode a logical state",
+      "description": "Spread the information across several physical qubits using a repetition-code pattern.",
+      "tips": "Make clear what the logical information is before noise is added."
+    },
+    {
+      "title": "Extract syndrome information",
+      "description": "Measure parity-style checks that reveal whether an error happened without reading out the logical value directly.",
+      "tips": "That separation is the heart of the concept."
+    },
+    {
+      "title": "Attempt correction",
+      "description": "Apply a basic recovery rule and compare corrected versus uncorrected outcomes.",
+      "tips": "Even a simple decoder teaches useful lessons about trade-offs."
+    },
+    {
+      "title": "Summarise the limits",
+      "description": "Explain what the code can and cannot protect against and why scaling is hard.",
+      "tips": "The limits matter as much as the success case."
+    }
+  ],
+  "deliverables": [
+    "Repetition-code simulation",
+    "Noise and correction results",
+    "Short explanation of syndrome logic and limitations"
+  ],
+  "tools": [
+    "qiskit",
+    "qutip"
+  ],
+  "rubric": [
+    {
+      "criteria": "Conceptual correctness",
+      "description": "The simulator captures the difference between data and syndrome information."
+    },
+    {
+      "criteria": "Noise reasoning",
+      "description": "The learner understands what the code protects against and what it does not."
+    },
+    {
+      "criteria": "Clarity",
+      "description": "The results make the error-correction logic visible rather than opaque."
+    }
+  ]
+}

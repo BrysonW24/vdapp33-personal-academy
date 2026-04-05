@@ -1,0 +1,45 @@
+{
+  "slug": "units-and-measurement",
+  "moduleSlug": "what-physics-is",
+  "title": "Units and Measurement",
+  "objective": "Learn the SI system of units, how measurement works in physics, and why getting units right is non-negotiable.",
+  "beginnerExplanation": "Physics is a quantitative science — you need numbers, and numbers need units. Saying 'the car is going 100' is meaningless without specifying 100 km/h or 100 mph. The international standard is the SI (Système International) system, built on seven base units: the metre (length), kilogram (mass), second (time), ampere (electric current), kelvin (temperature), mole (amount of substance), and candela (luminous intensity). Every other physical quantity — speed, force, energy, pressure — is derived from these base units. Getting units right is not pedantry; the Mars Climate Orbiter crashed in 1999 because one team used metric and another used imperial.",
+  "deeperExplanation": "Units are more than bookkeeping. Dimensional analysis — checking that the units on both sides of an equation match — is one of the most powerful tools in physics. If you derive an equation and the units do not balance, you know there is an error. Better yet, dimensional analysis can sometimes tell you the form of the answer before you even solve the problem. For instance, the only way to combine the gravitational constant G, a mass M, and a radius R to get something with units of speed is v = sqrt(GM/R) — which happens to be the orbital velocity formula. Measurement uncertainty is equally fundamental: every measurement has an associated error, and physicists must report both the value and its uncertainty (e.g. 9.81 +/- 0.02 m/s²). Without uncertainty, a measurement is incomplete.",
+  "keyTakeaways": [
+    "The SI system defines seven base units from which all others are derived",
+    "Every physical quantity must have units — a number without units is meaningless",
+    "Dimensional analysis catches errors and can guide derivations",
+    "Every measurement has uncertainty — always report it",
+    "Unit errors have caused real engineering disasters"
+  ],
+  "frameworks": ["dimensional-analysis"],
+  "example": "The Mars Climate Orbiter (1999) was lost because Lockheed Martin provided thrust data in pound-force seconds while NASA expected newton-seconds. The spacecraft entered the Martian atmosphere at the wrong altitude and disintegrated. Cost: $327 million USD. Unit errors are not trivial.",
+  "commonMistakes": [
+    "Forgetting to convert units before plugging numbers into equations",
+    "Treating dimensionless numbers as having units (or vice versa)",
+    "Reporting a measurement without its uncertainty",
+    "Confusing mass (kg) and weight (N) — weight depends on gravity, mass does not"
+  ],
+  "exercise": "Using dimensional analysis only (no equations from memory), determine how the period T of a simple pendulum depends on its length L, mass m, and gravitational acceleration g. Hint: [T] = seconds. Which combination of L, m, and g gives units of seconds?",
+  "nextLesson": "estimation-and-fermi-problems",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "How many base units are there in the SI system?",
+      "options": ["5", "6", "7", "10"],
+      "correctIndex": 2,
+      "explanation": "The SI system has seven base units: metre, kilogram, second, ampere, kelvin, mole, and candela."
+    },
+    {
+      "question": "What does dimensional analysis allow you to do?",
+      "options": ["Measure things more precisely", "Check equations for consistency and derive relationships", "Convert between imperial and metric", "Calculate exact numerical answers"],
+      "correctIndex": 1,
+      "explanation": "Dimensional analysis checks that units balance on both sides of an equation and can reveal the functional form of physical relationships."
+    }
+  ],
+  "perspectives": {
+    "experimentalist": "Measurement is the foundation of everything I do. Without precise, well-calibrated instruments and honest uncertainty estimates, data is worthless.",
+    "theorist": "Dimensional analysis is astonishingly powerful. It constrains the form of physical laws before you even write down the equations.",
+    "engineer": "In engineering, unit errors kill people. The Mars Climate Orbiter is the famous example, but unit mistakes happen in labs and on construction sites every day."
+  }
+}

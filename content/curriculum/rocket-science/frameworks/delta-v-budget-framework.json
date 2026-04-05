@@ -1,0 +1,17 @@
+{
+  "slug": "delta-v-budget-framework",
+  "name": "Delta-V Budget Framework",
+  "summary": "A systematic method for mapping the total velocity change required for a complete space mission. Every manoeuvre — launch, orbit transfer, landing, return — has a delta-v cost, and the budget must balance against propulsion capability.",
+  "whenToUseIt": "Use this framework at the start of any mission design. Map every manoeuvre from launch to mission end, sum the delta-v requirements, add margins, and then size your vehicle around the total budget.",
+  "steps": [
+    "Define mission objectives (destination orbit, landing site, return requirements)",
+    "Map every propulsive manoeuvre in the mission sequence",
+    "Assign delta-v cost to each manoeuvre (from astrodynamics calculations or reference tables)",
+    "Add margins for gravity losses, drag losses, navigation errors, and contingency",
+    "Sum total delta-v budget",
+    "Use the Tsiolkovsky equation to size propellant, stages, and vehicle",
+    "Iterate to optimise — can you reduce delta-v with gravity assists, aerobraking, or better trajectories?"
+  ],
+  "example": "Mars mission delta-v budget: Earth launch to LEO (9.4 km/s) + LEO to Mars transfer (3.6 km/s) + Mars orbit insertion (1.0 km/s) + Mars landing (1.5 km/s) + Mars ascent (4.1 km/s) + Mars to Earth transfer (2.5 km/s) + Earth orbit insertion (1.0 km/s). Total: ~23.1 km/s. This is why a Mars return mission requires in-situ propellant production — no rocket can carry fuel for 23 km/s of delta-v from Earth.",
+  "category": "mission-design"
+}

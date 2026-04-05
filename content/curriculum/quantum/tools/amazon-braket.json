@@ -1,0 +1,17 @@
+{
+  "slug": "amazon-braket",
+  "name": "Amazon Braket",
+  "category": "cloud",
+  "description": "A managed cloud service for building, simulating, and running quantum workloads across multiple hardware providers.",
+  "whyUseIt": "Braket is useful when you want one interface for comparing platforms, using managed simulators, and experimenting with real devices without committing to a single vendor too early.",
+  "pricingTier": "paid",
+  "url": "https://aws.amazon.com/braket/",
+  "alternatives": ["IBM Quantum Platform", "Azure Quantum"],
+  "fieldPosition": "Cloud orchestration, cross-platform exploration, and benchmark access",
+  "engineerWorkflow": "Prototype locally, launch managed simulations, compare available backends, then run carefully scoped experiments on real devices.",
+  "managerExpects": "Platform choices tied to specific experiment goals and cost awareness.",
+  "demoDescription": "Run the same small benchmark across two simulator settings and compare to a live hardware run if available.",
+  "outputs": ["Managed jobs", "Backend comparisons", "Experiment logs"],
+  "beginnerMistakes": ["Burning budget on hardware runs before validating locally", "Comparing different backends without controlling for problem setup"],
+  "relatedProject": "qubit-platform-comparison"
+}

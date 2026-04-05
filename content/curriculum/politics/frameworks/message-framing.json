@@ -1,0 +1,16 @@
+{
+  "slug": "message-framing",
+  "name": "Message Framing",
+  "summary": "How you frame an issue determines how voters understand it. This framework helps you choose the frame that positions your argument most persuasively.",
+  "whenToUseIt": "When developing campaign messaging, when preparing for media interviews, when writing speeches, or when reframing an opponent's attack.",
+  "steps": [
+    "Identify the issue and the competing frames (e.g., 'budget repair' vs 'cutting services')",
+    "Choose your frame based on your values and your audience — what emotional and moral foundation does your frame rest on?",
+    "Test: does your frame make your position feel like common sense? If not, reframe",
+    "Build supporting language: choose words that reinforce your frame consistently (e.g., 'investment' not 'spending', 'working families' not 'taxpayers')",
+    "Avoid repeating your opponent's frame — even to deny it. ('I am NOT corrupt' reinforces the corruption frame)",
+    "Repeat your frame consistently across all channels — speeches, media, social media, volunteer talking points"
+  ],
+  "example": "The debate over Australia's climate policy has been fought on competing frames for decades. The Greens frame it as 'climate emergency' (urgency, survival, moral obligation). The Coalition historically framed it as 'energy security' (cost, reliability, economic risk). Labor has tried 'clean energy economy' (jobs, growth, modernisation). Each frame determines what feels like the 'reasonable' response. When the climate emergency frame dominates, inaction feels immoral. When the energy security frame dominates, ambitious targets feel reckless. The frame you establish determines the range of acceptable answers.",
+  "category": "communications"
+}

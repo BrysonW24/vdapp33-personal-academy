@@ -1,0 +1,15 @@
+{
+  "slug": "earned-value-management",
+  "name": "Earned Value Management",
+  "summary": "A programme-control framework that compares planned work, completed work, and actual cost to show whether an aerospace programme is ahead, behind, or over budget.",
+  "whenToUseIt": "Use it on multi-team engineering programmes where schedule slip or cost growth can hide behind partial technical progress.",
+  "steps": [
+    "Define the work breakdown structure and budgeted value for each package.",
+    "Track planned value for the current reporting period.",
+    "Measure earned value from verified completed work.",
+    "Compare earned value to actual cost and planned value.",
+    "Use the resulting variances and performance indices to trigger management action."
+  ],
+  "example": "If an avionics integration package is 60 percent complete but has spent 85 percent of its budget, earned value reveals the problem early enough to re-sequence work or add technical support before it derails the full programme.",
+  "category": "programme-management"
+}

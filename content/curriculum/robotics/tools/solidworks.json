@@ -1,0 +1,10 @@
+{
+  "slug": "solidworks",
+  "name": "SolidWorks",
+  "category": "design",
+  "description": "SolidWorks is a professional 3D CAD (Computer-Aided Design) software for mechanical engineering. It provides parametric solid modelling, assembly design, motion simulation, structural analysis (FEA), and manufacturing drawing generation. In robotics, SolidWorks is used to design robot chassis, brackets, enclosures, gripper mechanisms, and custom mounting hardware. Models can be exported to URDF format for ROS simulation or to STL for 3D printing.",
+  "whyUseIt": "Every physical robot starts as a CAD model. SolidWorks is the most widely used mechanical design tool in Australian engineering companies and universities. It enables precise design of robot components with tolerance analysis, interference checking, and stress simulation before manufacturing. For robotics, the ability to export to URDF (for Gazebo simulation) and to STL (for 3D printing prototypes) makes the design-to-test cycle fast and iterative. SolidWorks skills are highly valued in the robotics job market.",
+  "pricingTier": "paid",
+  "url": "https://www.solidworks.com/",
+  "alternatives": ["Fusion 360 (cheaper/free for hobbyists)", "FreeCAD (free)", "Onshape (cloud-based, free tier)", "Inventor"]
+}

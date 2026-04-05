@@ -1,0 +1,21 @@
+{
+  "slug": "redbridge-polling",
+  "name": "Redbridge Group / Polling Tools",
+  "category": "polling-research",
+  "description": "Professional polling and research firms (Redbridge, Essential, Resolve, Newspoll) that provide quantitative and qualitative political research — from electorate-level polls to national tracking surveys and focus groups.",
+  "whyUseIt": "Data-driven campaigns make better decisions. Polling tells you where you stand, which issues resonate, and how your message is landing. In Australia, firms like Redbridge Group, Essential Research, and Resolve Strategic provide the research that shapes party strategy.",
+  "pricingTier": "enterprise",
+  "url": "https://www.redbridgegroup.com",
+  "alternatives": ["Essential Research", "Resolve Strategic", "Newspoll", "Roy Morgan"],
+  "funnelPosition": "Top and mid funnel — research that informs strategy",
+  "outputs": ["Electorate polls", "National tracking surveys", "Focus group reports", "Issue polling", "Message testing"],
+  "marketerWorkflow": "Commission baseline poll of your electorate, identify key issues and voter segments, test campaign messages via focus groups, track movement with follow-up polls",
+  "managerExpects": "Quarterly polling showing primary vote, two-party preferred, issue salience, and leader approval in target electorates",
+  "demoDescription": "Review a sample polling report showing primary vote, two-party preferred, and issue importance rankings for a marginal electorate, then discuss how to adjust campaign strategy based on the data",
+  "vocabulary": [
+    { "term": "Two-party preferred (2PP)", "definition": "The estimated vote split between the two leading candidates after preferences are distributed" },
+    { "term": "Margin of error", "definition": "The range within which the true result likely falls — typically +/- 3% for a sample of 1,000" }
+  ],
+  "beginnerMistakes": ["Over-interpreting a single poll — look at trends, not individual data points", "Confusing primary vote with two-party preferred"],
+  "relatedProject": "map-your-electorate"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "conops-development",
+  "name": "CONOPS Development",
+  "summary": "A concept-of-operations framework that defines how an aerospace system will actually be used, by whom, in what environment, and with what support constraints.",
+  "whenToUseIt": "Use it before locking architecture when mission success depends as much on operations, autonomy, maintenance, and human workflow as on hardware design.",
+  "steps": [
+    "Define the mission outcomes and operational scenarios.",
+    "Describe users, operators, maintainers, regulators, and external systems.",
+    "Map the full mission from planning through recovery and maintenance.",
+    "Capture environmental, safety, communication, and logistics constraints.",
+    "Use the CONOPS to drive requirements, architecture, and test scenarios."
+  ],
+  "example": "A UAV designed for powerline inspection may look feasible on paper until the CONOPS shows limited connectivity, short setup windows, and strict observer requirements. That insight can change the autonomy and ground-station design early.",
+  "category": "mission-design"
+}

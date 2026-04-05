@@ -1,0 +1,27 @@
+{
+  "slug": "premium-service-and-client-advisory",
+  "title": "Premium Service and Client Advisory",
+  "shortSummary": "Move beyond task execution into higher-trust advisory work with owners, asset managers, and premium tenants.",
+  "level": "advanced",
+  "category": "tenant",
+  "whyItMatters": "Premium clients expect more than task completion. They expect anticipation, judgment, credibility, and communication that is commercially mature. Advisory property management means knowing what matters before you are asked, connecting operational detail to owner priority, and guiding decisions with context rather than simply forwarding information.",
+  "coreConcepts": [
+    "What premium service looks like in a commercial property context",
+    "How to move from reporter to advisor",
+    "Why anticipation is one of the strongest trust signals",
+    "The balance between responsiveness and strategic calm"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Owner Report Storyline",
+    "Tenant Escalation Ladder"
+  ],
+  "relatedModules": [
+    "stakeholder-communication",
+    "owner-reporting-and-kpis",
+    "portfolio-planning-and-asset-thinking"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 4
+}

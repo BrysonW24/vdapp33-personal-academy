@@ -1,0 +1,23 @@
+{
+  "slug": "trapped-ions-neutral-atoms",
+  "title": "Trapped Ions and Neutral Atoms",
+  "shortSummary": "Atomic hardware platforms that use laser control, excellent coherence, and highly precise manipulation to perform quantum operations.",
+  "level": "advanced",
+  "category": "hardware",
+  "whyItMatters": "Atomic platforms offer a different trade space from superconducting systems. They often trade gate speed for coherence and control quality, making them central to the hardware conversation.",
+  "coreConcepts": [
+    "Ion traps and optical tweezers",
+    "Laser-based gates",
+    "Coherence and fidelity",
+    "Connectivity patterns",
+    "Vacuum and optics requirements",
+    "Scalability trade-offs"
+  ],
+  "lessons": [],
+  "frameworks": ["divincenzo-criteria", "hardware-stack-map"],
+  "visualType": "ion-trap",
+  "relatedModules": ["qubit-technologies", "photonic-quantum-systems", "fault-tolerant-quantum-computing"],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 3
+}

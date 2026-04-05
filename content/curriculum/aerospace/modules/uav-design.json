@@ -1,0 +1,16 @@
+{
+  "slug": "uav-design",
+  "title": "UAV Design",
+  "shortSummary": "Designing unmanned aerial vehicles — from small quadcopters to large surveillance drones, including autonomy, sensors, and regulations.",
+  "level": "advanced",
+  "category": "design",
+  "whyItMatters": "UAVs are the fastest-growing segment of aviation. They are transforming defence, agriculture, delivery, inspection, and emergency services across Australia and globally.",
+  "coreConcepts": ["Fixed-wing vs rotary-wing UAVs", "Autonomy levels", "Sensor payloads", "Communication links and data relay", "VTOL hybrid designs", "Regulatory frameworks (CASA Part 101)"],
+  "lessons": [],
+  "frameworks": ["conops-development"],
+  "visualType": "uav-configuration",
+  "relatedModules": ["aircraft-design", "avionics-systems", "flight-dynamics-control"],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 4
+}

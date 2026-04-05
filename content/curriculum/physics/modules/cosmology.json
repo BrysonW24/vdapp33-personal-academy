@@ -1,0 +1,23 @@
+{
+  "slug": "cosmology",
+  "title": "Cosmology",
+  "shortSummary": "The Big Bang, cosmic expansion, dark energy, the cosmic microwave background, and the origin, evolution, and fate of the universe.",
+  "level": "advanced",
+  "category": "theoretical",
+  "whyItMatters": "Cosmology tackles the biggest questions: How did the universe begin? What is it made of? What is its ultimate fate? It combines general relativity, particle physics, and observational astronomy into a single grand narrative.",
+  "coreConcepts": [
+    "The Big Bang theory",
+    "Hubble's law and cosmic expansion",
+    "Cosmic microwave background (CMB)",
+    "Dark matter and dark energy",
+    "Inflation and the early universe",
+    "The fate of the universe"
+  ],
+  "lessons": [],
+  "frameworks": ["thought-experiment-method", "conservation-laws"],
+  "visualType": "timeline",
+  "relatedModules": ["general-relativity", "particle-physics", "astrophysics"],
+  "status": "coming-soon",
+  "order": 16,
+  "levelNumber": 4
+}

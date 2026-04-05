@@ -1,0 +1,10 @@
+{
+  "slug": "matlab-simulink",
+  "name": "MATLAB & Simulink",
+  "category": "software",
+  "description": "MATLAB is a numerical computing environment and programming language widely used in engineering for algorithm development, data analysis, and mathematical modelling. Simulink adds graphical model-based design for dynamic systems, enabling block-diagram simulation of control systems, signal processing, and multi-domain physical systems. Together with toolboxes for Robotics, Computer Vision, Control Systems, and ROS, they form a comprehensive engineering development environment. MATLAB can generate C/C++ code from algorithms and Simulink models for deployment on embedded systems.",
+  "whyUseIt": "MATLAB and Simulink are the industry standard for control system design, system modelling, and algorithm prototyping in robotics. The Robotics System Toolbox provides robot modelling, kinematics, dynamics, motion planning, and ROS connectivity. Simulink enables visual design and simulation of control loops before deploying to hardware. While the software is expensive, it significantly accelerates the design phase for control-intensive robotics projects and is used extensively in Australian universities and engineering companies.",
+  "pricingTier": "paid",
+  "url": "https://www.mathworks.com/products/matlab.html",
+  "alternatives": ["Python with NumPy/SciPy/control library (free)", "GNU Octave (free MATLAB alternative)", "Scilab (free)", "Julia"]
+}

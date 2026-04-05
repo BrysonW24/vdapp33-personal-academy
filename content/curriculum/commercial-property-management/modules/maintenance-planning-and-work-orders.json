@@ -1,0 +1,29 @@
+{
+  "slug": "maintenance-planning-and-work-orders",
+  "title": "Maintenance Planning and Work Orders",
+  "shortSummary": "Triaging issues, setting priorities, managing backlog, and turning work orders into faster, cleaner building outcomes.",
+  "level": "intermediate",
+  "category": "operations",
+  "whyItMatters": "Maintenance is where operational judgment shows up in public. The tenant sees the speed, the owner sees the cost, and the contractor sees your clarity. Good work-order management is not just about closing tickets. It is about setting the right priority, protecting safety, preserving plant, and communicating well enough that nobody is surprised by the path forward.",
+  "coreConcepts": [
+    "Priority setting based on safety, business impact, and lease obligation",
+    "Backlog versus emergency work and how to manage both",
+    "The relationship between work-order quality and owner reporting quality",
+    "Why every maintenance issue needs an owner, a date, and a visible next step"
+  ],
+  "lessons": [
+    "triaging-work-orders-with-judgment"
+  ],
+  "frameworks": [
+    "Daily Priority Stack",
+    "Incident Command RACI"
+  ],
+  "relatedModules": [
+    "building-systems-for-property-managers",
+    "service-delivery-and-contractor-management",
+    "capex-and-lifecycle-planning"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

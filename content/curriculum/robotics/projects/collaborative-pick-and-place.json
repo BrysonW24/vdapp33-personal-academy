@@ -1,0 +1,46 @@
+{
+  "slug": "collaborative-pick-and-place",
+  "title": "Collaborative Pick and Place",
+  "difficulty": 6,
+  "estimatedHours": 40,
+  "description": "Program a collaborative robot (cobot) to perform pick-and-place operations in a shared workspace with a simulated or real human worker. Implement safety monitoring, speed reduction near humans, and a hand-guiding mode where the operator can physically reposition the robot. This project focuses on the safety and interaction aspects that distinguish cobots from traditional industrial robots.",
+  "whyItMatters": "Collaborative robots are the fastest-growing segment of industrial robotics because they make automation accessible to small and medium businesses without the cost and complexity of safety fencing. In Australia, where labour costs are high and the manufacturing sector is dominated by SMBs, cobots represent a major opportunity. Understanding how to program cobots safely — respecting ISO/TS 15066 force limits, implementing speed and separation monitoring, and designing intuitive operator interactions — is essential for anyone deploying automation in workplaces where humans and robots share space.",
+  "skillsLearned": ["Cobot safety standards (ISO/TS 15066)", "Force and speed limiting implementation", "Proximity sensing for speed reduction zones", "Hand-guiding / lead-through programming", "Shared workspace design", "Safety risk assessment methodology"],
+  "prerequisites": ["Robot kinematics and control fundamentals", "ROS 2 basics (or cobot manufacturer SDK)", "Understanding of collaborative robot safety concepts"],
+  "steps": [
+    {
+      "title": "Set up the cobot simulation",
+      "description": "Configure a cobot simulation in Gazebo (e.g. Universal Robots UR5e or FANUC CRX model) with MoveIt 2 for motion planning. Set up a workcell with a parts bin, an assembly fixture, and a human model. Define the shared workspace zone where the human and robot both need to operate.",
+      "tips": "Universal Robots provides official ROS 2 drivers and Gazebo models. Start with these for the most realistic simulation."
+    },
+    {
+      "title": "Implement safety zones",
+      "description": "Define safety zones around the robot using virtual boundaries: a green zone (full speed operation, no humans expected), a yellow zone (reduced speed when human is detected), and a red zone (safety-rated monitored stop when human is within reach). Use a simulated proximity sensor or LiDAR to detect human presence in each zone. Implement speed scaling: 100% in green, 25% in yellow, 0% in red.",
+      "tips": "ISO/TS 15066 specifies maximum allowable forces and pressures for different body regions. Use these values to calculate safe speeds based on the robot's effective mass."
+    },
+    {
+      "title": "Program the pick-and-place task",
+      "description": "Program the cobot to pick parts from a bin and place them in an assembly fixture. Use MoveIt 2 for motion planning with collision avoidance. The robot should plan paths that keep the arm within the defined workspace and away from the human's expected operating area.",
+      "tips": "Use MoveIt 2's planning scene to model the workspace, including the human's expected position as a collision object during planning."
+    },
+    {
+      "title": "Implement hand-guiding mode",
+      "description": "Implement a mode where the operator can switch the robot to gravity compensation (the robot supports its own weight but can be freely repositioned by hand). The operator physically moves the robot to teach new pick or place positions. Record the positions and add them to the task programme. Implement a button or voice command to switch between autonomous and hand-guiding modes.",
+      "tips": "In simulation, hand-guiding can be simulated by publishing joint positions from a GUI. On real cobots, gravity compensation is built into the controller."
+    },
+    {
+      "title": "Safety validation and testing",
+      "description": "Conduct a structured safety test: simulate a human unexpectedly entering each zone and verify the correct safety response. Measure stopping distance and time. Test the hand-guiding mode for smooth operation. Document the safety assessment including hazard identification, risk assessment, and mitigation measures implemented.",
+      "tips": "Create a test checklist based on ISO 10218-2 Annex A and ISO/TS 15066 requirements. Document each test with expected and actual results."
+    }
+  ],
+  "deliverables": ["Working cobot pick-and-place system with safety zones", "Safety assessment document covering hazard analysis and risk mitigation", "Demonstration video showing autonomous operation, human entry response, and hand-guiding mode", "Configuration documentation for safety zones, speed limits, and force thresholds"],
+  "tools": ["ros2", "gazebo-sim", "moveit", "universal-robots-teach-pendant"],
+  "rubric": [
+    {"criteria": "Safety compliance", "description": "Safety zones correctly implemented with appropriate speed reduction and stopping behaviour per ISO/TS 15066"},
+    {"criteria": "Pick-and-place reliability", "description": "Cobot successfully completes pick-and-place operations at least 90% of the time"},
+    {"criteria": "Human detection response", "description": "Robot correctly detects simulated human presence and adjusts behaviour within 100ms"},
+    {"criteria": "Hand-guiding usability", "description": "Mode transition is smooth, intuitive, and positions taught are accurately reproduced"},
+    {"criteria": "Safety documentation", "description": "Comprehensive safety assessment following industry standards with clear hazard analysis and mitigation"}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "campaign-manager",
+  "title": "Campaign Manager",
+  "setting": "Campaign HQ (usually a rented shopfront) + Field Operations Across the Electorate",
+  "companySize": "Campaign team of 3-5 paid staff + 50-500 volunteers depending on the campaign",
+  "description": "The campaign manager is responsible for everything: strategy, budget, volunteers, media, events, fundraising, and getting the candidate elected. It is one of the most intense jobs in politics — a fixed deadline (election day), limited resources, and total accountability for the result. Campaign managers live and breathe the campaign for 3-12 months, then it is over. Win or lose, the day after election day, the job ends.",
+  "salary": "$80,000-$150,000 AUD for a federal campaign (often contract/fixed-term) / volunteer for local campaigns",
+  "schedule": [
+    { "time": "06:00", "activity": "Morning media scan and social media check — is there anything overnight that changes today's plan?", "tools": ["News apps", "Social media monitoring", "Google Alerts"], "note": "The campaign manager wakes up thinking about what can go wrong today." },
+    { "time": "07:00", "activity": "Call with the candidate — brief on today's schedule, key messages, any emerging issues to address or avoid", "tools": ["Phone", "Day brief"] },
+    { "time": "08:00", "activity": "Staff huddle at campaign HQ — assign tasks for the day: media, field, digital, events, fundraising", "tools": ["Slack", "Campaign plan board"] },
+    { "time": "09:00", "activity": "Review field data from yesterday's door-knocking — how many doors, how many contacts, persuasion rate, any issues raised", "tools": ["NationBuilder", "NGP VAN", "Spreadsheets"], "note": "The numbers from the field are the campaign's vital signs. If contact rates are dropping, something is wrong." },
+    { "time": "10:00", "activity": "Coordinate a media opportunity — brief the candidate, set up the location, manage journalist logistics", "tools": ["Media contacts", "Press release", "Location logistics"] },
+    { "time": "11:30", "activity": "Fundraising check-in — review donation targets, plan the next fundraising email or event, update the budget", "tools": ["Fundraising platform", "Budget spreadsheet"] },
+    { "time": "12:30", "activity": "Lunch with a key volunteer leader — keep morale up, hear concerns, reinforce how their work matters", "note": "Volunteer management is people management. The best campaigns run on relationships, not orders." },
+    { "time": "14:00", "activity": "Strategy session — review polling data, adjust targeting, decide whether to shift resources to a different area", "tools": ["Polling data", "Voter model", "Campaign plan"] },
+    { "time": "15:30", "activity": "Problem-solving — a volunteer quit, a corflute was vandalised, the opposition launched an attack ad. Handle it all", "note": "A campaign manager's most important skill is triage — deciding which fires to fight and which to let burn." },
+    { "time": "17:00", "activity": "Oversee evening door-knocking launch — brief volunteers, distribute walk lists, send teams out", "tools": ["Walk lists", "MiniVAN app", "Volunteer roster"] },
+    { "time": "18:30", "activity": "Attend a community event with the candidate — work the room, make introductions, gather intelligence", "note": "The campaign manager is always on. Every interaction is data." },
+    { "time": "20:00", "activity": "Review the day, update the campaign tracker, plan tomorrow, send the overnight brief to the candidate", "tools": ["Campaign tracker", "Email"] },
+    { "time": "21:30", "activity": "Go home. Try to sleep. Think about what you forgot", "note": "Campaign managers rarely take days off during the final 8 weeks. It is an endurance event." }
+  ],
+  "responsibilities": [
+    "Develop and execute the overall campaign strategy",
+    "Manage the campaign budget — every dollar must be accounted for",
+    "Recruit, train, and retain volunteers — the campaign's most valuable resource",
+    "Coordinate field operations: door-knocking, phone banks, polling booth coverage",
+    "Manage earned and paid media strategy",
+    "Oversee fundraising targets and donor relations",
+    "Keep the candidate on-message, on-schedule, and mentally prepared",
+    "Run election day operations: scrutineers, how-to-vote distribution, turnout"
+  ],
+  "challenges": [
+    "Total accountability with limited control — you manage the plan but the candidate faces the voters",
+    "Resource scarcity — never enough money, volunteers, or time",
+    "Managing a candidate who may not follow your advice",
+    "Opponent attacks that require rapid, disciplined responses",
+    "The emotional weight of a binary outcome — win or lose, with no middle ground"
+  ],
+  "rewards": [
+    "The most intense professional challenge most people will ever face",
+    "The satisfaction of building something from nothing — a team, a movement, a result",
+    "Deep relationships forged under pressure with staff and volunteers",
+    "If you win: the knowledge that your work changed the outcome",
+    "Transferable skills in strategy, leadership, and crisis management that apply to any career"
+  ],
+  "careerPath": [
+    "Volunteer on a campaign",
+    "Field organiser or volunteer coordinator",
+    "Campaign manager for a local or state campaign",
+    "Campaign manager or director for a federal campaign",
+    "Transition to: party director, political consultancy, corporate strategy, or running for office yourself"
+  ]
+}

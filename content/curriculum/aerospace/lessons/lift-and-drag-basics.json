@@ -1,0 +1,54 @@
+{
+  "slug": "lift-and-drag-basics",
+  "moduleSlug": "aerodynamics-fundamentals",
+  "title": "Lift and Drag Basics",
+  "objective": "Understand how lift and drag are generated, what factors influence them, and why they matter for every aspect of aircraft design.",
+  "beginnerExplanation": "Every aircraft that flies does so because of two fundamental aerodynamic forces: lift and drag.\n\nLift is the force that holds an aircraft up. It acts perpendicular to the direction of flight. Without lift, an aircraft is just an expensive bus. Lift is generated primarily by the wings, which are shaped so that air flowing over the top surface moves faster than air flowing under the bottom surface. This speed difference creates a pressure difference — lower pressure on top, higher pressure below — and that pressure difference pushes the wing upward.\n\nDrag is the force that opposes motion through the air. It acts parallel to the direction of flight but in the opposite direction. Everything about an aircraft creates drag — the fuselage, the wings, the engines, even the rivets. Drag is the enemy of efficiency; the more drag an aircraft has, the more fuel it burns.\n\nThe relationship between lift and drag is the single most important number in aircraft design. It is called the lift-to-drag ratio (L/D), and it determines how efficiently an aircraft flies. A modern airliner like the Airbus A350 has an L/D ratio of about 20:1, meaning for every unit of drag, it produces 20 units of lift. A brick has an L/D of about 0.5. The higher the L/D, the more efficient the aircraft.",
+  "deeperExplanation": "Lift and drag are both functions of the same variables: air density, velocity, wing area, and aerodynamic coefficients.\n\nThe lift equation is: L = 0.5 * rho * V^2 * S * CL, where rho is air density, V is airspeed, S is wing reference area, and CL is the coefficient of lift. The coefficient of lift depends on the aerofoil shape, angle of attack, Reynolds number, and Mach number.\n\nDrag has a similar equation: D = 0.5 * rho * V^2 * S * CD. Total drag is typically split into two components:\n\n1. **Parasitic drag** (also called zero-lift drag) — friction between the air and the aircraft surface, plus pressure drag from the aircraft's shape. This increases with the square of velocity.\n\n2. **Induced drag** — the drag penalty of producing lift. When a wing generates lift, the pressure difference between upper and lower surfaces causes air to flow around the wingtips, creating vortices. These vortices tilt the local airflow downward (called downwash), which effectively tilts the lift vector backward, creating a drag component. Induced drag decreases with velocity because at higher speeds, the wing needs a lower angle of attack to produce the same lift.\n\nThe total drag curve is a U-shape: at low speeds, induced drag dominates; at high speeds, parasitic drag dominates. The bottom of the U — where total drag is minimum — is where the aircraft achieves maximum L/D and maximum range efficiency.\n\nFor Australian aerospace engineers, understanding drag reduction is commercially critical. Qantas spends roughly $4 billion AUD per year on fuel. Even a 1% drag reduction across the fleet saves $40 million annually.",
+  "keyTakeaways": [
+    "Lift acts perpendicular to the flight path; drag acts parallel and opposite to it",
+    "Lift comes from pressure difference between upper and lower wing surfaces",
+    "Total drag = parasitic drag + induced drag",
+    "Lift-to-drag ratio (L/D) is the key measure of aerodynamic efficiency",
+    "The drag curve is U-shaped — there is an optimal speed for minimum drag",
+    "Small drag reductions translate to enormous fuel savings at airline scale"
+  ],
+  "frameworks": ["thin-aerofoil-theory"],
+  "example": "Consider the winglets on a Qantas Boeing 737-800. These small upturned surfaces at the wingtips reduce the strength of the wingtip vortices, which reduces induced drag by approximately 4-5%. For Qantas, this translates to fuel savings of roughly 100,000 litres per aircraft per year. Across their 737 fleet, that is millions of dollars in annual savings — all from a small modification that improves the lift-to-drag ratio by reducing one component of drag.",
+  "commonMistakes": [
+    "Thinking lift is only caused by Bernoulli's principle — Newton's third law (deflecting air downward) is equally important",
+    "Assuming drag always increases with speed — induced drag actually decreases with speed",
+    "Forgetting that angle of attack, not just speed, controls how much lift a wing produces",
+    "Confusing weight and drag — they act in different directions and have different dependencies",
+    "Thinking a perfectly streamlined shape has zero drag — there is always skin friction"
+  ],
+  "exercise": "Using the lift equation L = 0.5 * rho * V^2 * S * CL, calculate the lift produced by a wing with the following parameters: air density rho = 1.225 kg/m^3 (sea level), velocity V = 70 m/s, wing area S = 16 m^2, CL = 1.2. Then calculate what happens to lift if you double the velocity to 140 m/s (keeping everything else the same). What does this tell you about the relationship between speed and lift?",
+  "nextLesson": "how-wings-work",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What two main components make up total aircraft drag?",
+      "options": ["Lift drag and weight drag", "Parasitic drag and induced drag", "Friction drag and gravity drag", "Profile drag and wave drag"],
+      "correctIndex": 1,
+      "explanation": "Total drag is the sum of parasitic drag (friction and form drag from the aircraft shape) and induced drag (the drag penalty of producing lift, caused by wingtip vortices)."
+    },
+    {
+      "question": "At what condition does an aircraft achieve maximum lift-to-drag ratio?",
+      "options": ["At maximum speed", "At the speed where total drag is minimum", "At the stall speed", "At the speed of sound"],
+      "correctIndex": 1,
+      "explanation": "Maximum L/D occurs at the bottom of the total drag curve, where parasitic drag and induced drag are equal. This is the speed for maximum range efficiency."
+    },
+    {
+      "question": "If you double the airspeed, what happens to lift (assuming constant angle of attack)?",
+      "options": ["Lift doubles", "Lift quadruples", "Lift halves", "Lift stays the same"],
+      "correctIndex": 1,
+      "explanation": "Lift is proportional to V squared. Doubling the velocity means lift increases by a factor of four (2^2 = 4). This is why speed control is so critical in aviation."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As an aerodynamics engineer, you spend your days analysing pressure distributions and drag breakdowns. You use CFD to predict CL and CD at different flight conditions, and compare against wind tunnel data. Every fraction of a drag count matters.",
+    "manager": "As an engineering manager, you track drag reduction targets across the design team. A programme that misses its drag target by 5% might need a larger engine, heavier structure, and more fuel — cascading cost increases.",
+    "chiefEngineer": "As chief engineer, lift-to-drag ratio is a top-level design metric. It drives fuel burn, which drives operating cost, which drives whether an airline will buy the aircraft. L/D is commercial viability expressed as a number.",
+    "regulator": "As a regulator, you care that lift and drag predictions are validated through flight testing. Incorrect performance data in the flight manual could lead to takeoff accidents if the aircraft cannot achieve the claimed climb gradient."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "what-is-quantum-computing",
+  "moduleSlug": "what-quantum-engineering-is",
+  "title": "What Is Quantum Computing?",
+  "objective": "Understand what makes quantum computing different from ordinary computing and why the field is fundamentally about physics as well as computation.",
+  "beginnerExplanation": "Quantum computing is an approach to computation that uses quantum systems to store and manipulate information. Instead of ordinary bits that are either 0 or 1, it uses qubits, which can exist in combinations of 0 and 1 until measured. That sounds strange because it is strange: quantum computing works by exploiting the same physical rules that govern atoms, light, and microscopic systems.\n\nThe important point is that a quantum computer is not just a faster laptop. It is a different kind of machine. It uses carefully controlled quantum states, and those states are fragile. Building and using a quantum computer means dealing with coherence, measurement, control hardware, and error rates in a way classical computing usually does not.",
+  "deeperExplanation": "A gate-model quantum computer represents information in state vectors and transforms them through unitary operations. Measurement converts that state into classical outcomes with probabilities determined by amplitudes. The value of the model comes from controlled interference: useful algorithms are designed so wrong answers cancel while right answers become more likely.\n\nThat does not mean every problem becomes easier. Quantum computation only helps where the structure of the problem can be mapped onto operations that exploit superposition, entanglement, and interference. This is why the field focuses so heavily on algorithms, physical error rates, and benchmark quality. A quantum computer is not generically better. It is a specialised machine whose usefulness depends on both the mathematics of the task and the engineering quality of the hardware.",
+  "keyTakeaways": [
+    "Quantum computing is a different computational model, not just a faster classical one.",
+    "Qubits obey quantum mechanics, so measurement and noise are central design concerns.",
+    "Interference and entanglement are part of what makes quantum algorithms powerful.",
+    "Quantum advantage only appears for some problem classes and under strict engineering conditions."
+  ],
+  "frameworks": ["divincenzo-criteria"],
+  "example": "A classical simulator can model a small quantum circuit, but as the number of entangled qubits grows, the state space grows exponentially. That is one reason quantum devices are interesting: they may represent some quantum systems more naturally than classical hardware can.",
+  "commonMistakes": [
+    "Thinking a qubit means the machine tries every answer at once and instantly wins.",
+    "Assuming quantum computers replace classical computers for all tasks.",
+    "Ignoring the hardware and control complexity needed just to keep qubits usable."
+  ],
+  "exercise": "Write a short paragraph explaining quantum computing to a smart non-specialist without using the phrase 'faster than classical' as your main claim. Focus on what kind of machine it is and why the physics matters.",
+  "nextLesson": "quantum-vs-classical",
+  "order": 1
+}

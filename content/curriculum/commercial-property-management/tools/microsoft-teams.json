@@ -1,0 +1,28 @@
+{
+  "slug": "microsoft-teams",
+  "name": "Microsoft Teams",
+  "category": "collaboration",
+  "description": "The collaboration layer many property teams use for internal coordination, quick escalations, meetings, file sharing, and live issue response.",
+  "whyUseIt": "Commercial property work is cross-functional by nature. Teams keeps building ops, finance, leasing, client leads, and contractors aligned when fast communication matters and a long email chain would slow everything down.",
+  "pricingTier": "paid",
+  "url": "https://www.microsoft.com/microsoft-teams",
+  "aiCapabilities": "AI can summarize meetings, turn discussions into actions, and help teams recover decisions buried inside long threads and calls.",
+  "alternatives": ["Slack", "Google Workspace", "Zoom"],
+  "workflowStage": "Daily coordination, incident escalation, and client-team alignment",
+  "outputs": ["Meeting notes", "Decision threads", "Shared files", "Action lists", "Incident updates"],
+  "propertyManagerWorkflow": "Property managers use Teams to coordinate contractor attendance, align internal stakeholders before owner meetings, and keep issue-response communication moving in real time.",
+  "managerExpects": "Clear channels, concise updates, and documented decisions that can be found later instead of disappearing into chat noise.",
+  "aiWorkflowImpact": "AI reduces recap time after meetings and helps convert conversation into accountable next actions more quickly.",
+  "demoDescription": "Take a tenant-complaint thread, extract the decisions made, and convert them into a same-day action list with owners.",
+  "vocabulary": [
+    { "term": "Channel", "definition": "A shared workspace for a team, building, client, or issue stream." },
+    { "term": "Action Log", "definition": "A running list of decisions, owners, and due dates created from meetings or issue threads." },
+    { "term": "Escalation Thread", "definition": "A message stream used to coordinate urgent response and keep stakeholders aligned." }
+  ],
+  "beginnerMistakes": [
+    "Letting important approvals live only in chat with no recorded action owner",
+    "Posting long updates when a short summary and clear ask would work better",
+    "Using too many channels, which hides the signal"
+  ],
+  "relatedProject": "incident-response-tabletop"
+}

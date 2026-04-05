@@ -1,0 +1,23 @@
+{
+  "slug": "linear-algebra-for-quantum",
+  "title": "Linear Algebra for Quantum",
+  "shortSummary": "The mathematical language of quantum computing — vectors, matrices, tensor products, and unitary transformations.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Quantum states are vectors. Quantum gates are matrices. Without linear algebra, quantum computing is a black box.",
+  "coreConcepts": [
+    "State vectors and Dirac notation",
+    "Unitary matrices",
+    "Tensor products",
+    "Eigenvalues and eigenvectors",
+    "Hermitian operators",
+    "Inner products and probability"
+  ],
+  "lessons": ["dirac-notation-basics"],
+  "frameworks": ["bloch-sphere"],
+  "visualType": "matrix-transform",
+  "relatedModules": ["quantum-mechanics-essentials", "quantum-gates-circuits"],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

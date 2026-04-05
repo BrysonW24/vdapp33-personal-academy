@@ -1,0 +1,15 @@
+{
+  "slug": "dimensional-analysis",
+  "name": "Dimensional Analysis",
+  "summary": "A technique for checking equations, deriving relationships, and estimating physical quantities by analysing the dimensions (units) of the quantities involved.",
+  "whenToUseIt": "Use dimensional analysis to check whether an equation is correct, to derive the form of a physical relationship when you know the relevant variables, or to estimate an unknown quantity.",
+  "steps": [
+    "Identify the relevant physical quantities and their SI dimensions (M, L, T, etc.)",
+    "Write the target quantity in terms of its dimensions",
+    "Combine the given quantities to match the target dimensions",
+    "Check that both sides of any equation have identical dimensions",
+    "Use the result to constrain or derive the physical relationship"
+  ],
+  "example": "To find how the period T of a pendulum depends on length L, mass m, and gravity g: [T] = s, [L] = m, [m] = kg, [g] = m/s². The only combination giving seconds is T ~ sqrt(L/g). Mass does not appear — the period is independent of mass, confirmed by experiment.",
+  "category": "mathematical-tools"
+}

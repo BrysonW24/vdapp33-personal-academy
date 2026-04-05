@@ -1,0 +1,16 @@
+{
+  "slug": "aircraft-structures",
+  "title": "Aircraft Structures",
+  "shortSummary": "How aircraft are built to withstand flight loads — structural design, stress analysis, fatigue, and damage tolerance.",
+  "level": "beginner",
+  "category": "structures",
+  "whyItMatters": "Structural integrity is non-negotiable in aviation. Understanding how loads flow through an aircraft and how structures are designed to be both strong and light is fundamental.",
+  "coreConcepts": ["Monocoque and semi-monocoque design", "Load paths", "Stress and strain", "Fatigue and damage tolerance", "Safety factors", "Pressurisation loads"],
+  "lessons": [],
+  "frameworks": ["safe-life-vs-damage-tolerance"],
+  "visualType": "structural-cutaway",
+  "relatedModules": ["what-aero-engineering-is", "materials-composites", "manufacturing"],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

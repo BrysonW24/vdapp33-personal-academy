@@ -1,0 +1,21 @@
+{
+  "slug": "geant4",
+  "name": "Geant4",
+  "category": "simulation",
+  "description": "A C++ toolkit for simulating the passage of particles through matter. Developed at CERN and used for detector design, medical physics, and space radiation studies.",
+  "whyUseIt": "Geant4 simulates how particles (photons, electrons, protons, neutrons, etc.) interact with materials — scattering, absorption, pair production, nuclear reactions. It is essential for designing particle detectors, radiation shielding, and medical imaging systems.",
+  "pricingTier": "free",
+  "url": "https://geant4.web.cern.ch/",
+  "alternatives": ["FLUKA", "MCNP", "PENELOPE"],
+  "fieldPosition": "Particle physics, medical physics, space science — any field involving radiation-matter interaction",
+  "outputs": ["Detector response simulations", "Dose distributions", "Energy deposition maps", "Particle shower visualisations"],
+  "physicistWorkflow": "Define detector geometry and materials, specify the particle source, run the simulation, analyse energy deposits and particle tracks.",
+  "supervisorExpects": "Ability to set up and validate Geant4 simulations for detector design or radiation transport studies.",
+  "computationalImpact": "Enables virtual prototyping of detectors — test designs computationally before building expensive hardware.",
+  "vocabulary": [
+    { "term": "Physics list", "definition": "The set of physics models used to simulate particle interactions" },
+    { "term": "Sensitive detector", "definition": "A detector volume that records energy deposits and particle information" }
+  ],
+  "beginnerMistakes": ["Using inappropriate physics models for the energy range of interest", "Not validating simulation results against experimental data"],
+  "relatedProject": "particle-detector-analysis"
+}

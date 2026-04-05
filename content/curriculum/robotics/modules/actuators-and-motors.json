@@ -1,0 +1,16 @@
+{
+  "slug": "actuators-and-motors",
+  "title": "Actuators and Motors",
+  "shortSummary": "Discover how robots move. Actuators convert electrical energy into physical motion — from spinning wheels to gripping delicate objects. Understanding actuators is key to building robots that can act on the world.",
+  "level": "beginner",
+  "category": "foundations",
+  "whyItMatters": "Sensors let a robot perceive, and computers let it think, but actuators let it act. Without actuators, a robot is just an expensive sensor platform. The choice of actuator fundamentally determines what a robot can do — how fast it moves, how much it can lift, how precisely it can position itself, and how much power it consumes. In Australian mining and agriculture, actuators must withstand extreme heat, dust, and vibration. In surgical robotics, they must achieve sub-millimetre precision. This module covers the full spectrum of actuators from simple DC motors to advanced pneumatic muscles and piezoelectric systems.",
+  "coreConcepts": ["DC motors: brushed and brushless", "Stepper motors and positional control", "Servo motors and closed-loop control", "Hydraulic and pneumatic actuators", "Linear actuators and lead screws", "Gear ratios, torque, and speed trade-offs", "Motor drivers and H-bridges"],
+  "lessons": ["actuators-and-motors-fundamentals"],
+  "frameworks": ["degrees-of-freedom-analysis"],
+  "visualType": "actuator-types",
+  "relatedModules": ["what-is-robotics", "robot-kinematics", "control-systems-fundamentals"],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

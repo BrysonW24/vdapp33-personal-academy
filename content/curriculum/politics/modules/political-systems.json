@@ -1,0 +1,22 @@
+{
+  "slug": "political-systems",
+  "title": "Political Systems",
+  "shortSummary": "Compare the world's political systems — parliamentary, presidential, federal, unitary — and understand how Australia's Westminster system works in practice.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "You cannot navigate a system you don't understand. Knowing how Australia's three levels of government work, how power is distributed, and how your system compares globally is the baseline for any political career.",
+  "coreConcepts": [
+    "Westminster parliamentary system",
+    "Australian federation: Commonwealth, State, Local",
+    "Separation of powers",
+    "Presidential vs parliamentary systems",
+    "Proportional vs majoritarian voting",
+    "The role of the Governor-General and the Crown"
+  ],
+  "lessons": ["how-australian-politics-works"],
+  "frameworks": ["stakeholder-mapping"],
+  "relatedModules": ["what-politics-is", "legislative-process", "civic-literacy"],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

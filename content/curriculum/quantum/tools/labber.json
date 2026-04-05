@@ -1,0 +1,17 @@
+{
+  "slug": "labber",
+  "name": "Labber",
+  "category": "control",
+  "description": "A commercial measurement and instrument-control environment used in research labs for automated experiment sequencing and data capture.",
+  "whyUseIt": "Labber is valuable when the challenge is managing instruments and repeatable measurement flows rather than writing every layer of lab automation by hand.",
+  "pricingTier": "paid",
+  "url": "https://labber.org/",
+  "alternatives": ["QCoDeS", "custom Python control"],
+  "fieldPosition": "Lab experiment automation and readout workflows",
+  "engineerWorkflow": "Configure instruments, define a measurement sequence, run automated sweeps, and export results for further analysis.",
+  "managerExpects": "A measurement setup that is repeatable enough for calibration, comparison, and team handoff.",
+  "demoDescription": "Set up a repeatable mock experiment flow with parameter sweeps and review how the captured data supports later analysis.",
+  "outputs": ["Automated sweeps", "Experiment logs", "Measurement datasets"],
+  "beginnerMistakes": ["Treating a GUI setup as self-documenting when the measurement logic is still implicit", "Not validating the instrument sequence before long runs"],
+  "relatedProject": "quantum-sensor-noise-study"
+}

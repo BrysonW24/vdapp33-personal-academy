@@ -1,0 +1,66 @@
+{
+  "slug": "certification-engineer",
+  "title": "Certification Engineer - Aircraft Programs and Modifications",
+  "setting": "An OEM, modifier, or specialist consultancy working with CASA, EASA, FAA, or defence approval pathways",
+  "companySize": "Certification team of 5-20 supporting programs with 100+ engineering contributors",
+  "description": "You live where regulation meets engineering reality. The job is part technical strategist, part evidence manager, and part translator between design teams and authorities. The work is document-heavy, but it is also deeply tied to real engineering choices.",
+  "salary": "$115,000-$160,000 AUD",
+  "schedule": [
+    {
+      "time": "08:00",
+      "activity": "Review open compliance items and authority questions",
+      "tools": ["IBM DOORS Next"],
+      "note": "The morning usually starts with evidence gaps, not finished work."
+    },
+    {
+      "time": "09:30",
+      "activity": "Meet subsystem leads to align design changes with the certification basis",
+      "tools": [],
+      "note": "A small design change can create a surprisingly large compliance ripple."
+    },
+    {
+      "time": "11:00",
+      "activity": "Update compliance matrices and means-of-compliance plans",
+      "tools": ["IBM DOORS Next"],
+      "note": "This is where ownership and maturity become visible."
+    },
+    {
+      "time": "13:30",
+      "activity": "Review a test plan or analysis report for certification suitability",
+      "tools": ["MATLAB / Simulink", "CATIA"],
+      "note": "The question is whether the evidence will stand up to scrutiny, not whether it simply looks technical."
+    },
+    {
+      "time": "15:00",
+      "activity": "Prepare briefing material for an authority meeting or internal review board",
+      "tools": [],
+      "note": "Good certification engineers reduce surprises for everyone."
+    },
+    {
+      "time": "16:30",
+      "activity": "Close the day by re-prioritising the riskiest open compliance threads",
+      "tools": [],
+      "note": "The hardest part is often sequencing evidence so the program can keep moving."
+    }
+  ],
+  "responsibilities": [
+    "Interpret regulatory requirements for engineering teams",
+    "Build and maintain compliance matrices",
+    "Coordinate evidence from analysis, test, and inspection",
+    "Support authority interactions and reviews",
+    "Identify certification risks early enough to influence design"
+  ],
+  "challenges": [
+    "Keeping traceability intact through constant design change",
+    "Translating technical nuance into approval-ready evidence",
+    "Balancing program pressure against regulatory discipline"
+  ],
+  "rewards": [
+    "Having a clear view of the whole program's technical maturity",
+    "Helping engineering work actually reach approval and service",
+    "Becoming trusted in a niche but high-value discipline"
+  ],
+  "careerPath": [
+    "Airworthiness analyst -> Certification engineer -> Senior certification engineer -> Certification manager -> Head of airworthiness"
+  ]
+}

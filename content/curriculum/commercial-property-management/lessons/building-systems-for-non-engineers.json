@@ -1,0 +1,57 @@
+{
+  "slug": "building-systems-for-non-engineers",
+  "moduleSlug": "building-systems-for-property-managers",
+  "title": "Building Systems for Non-Engineers",
+  "objective": "Build enough technical fluency to triage issues, brief vendors, and communicate credibly with tenants and owners.",
+  "beginnerExplanation": "You do not need to design plant rooms or diagnose faults from scratch. You do need to know the systems that shape occupant experience and building risk: HVAC, fire, electrical, hydraulics, lifts, BMS, and access control. This helps you ask better questions and spot weak contractor explanations.\n\nThink of systems literacy as enough knowledge to manage, not enough to engineer.",
+  "deeperExplanation": "Technical fluency changes the quality of your decisions. If you understand the difference between a comfort complaint, a life-safety issue, a controls fault, and an asset-at-end-of-life issue, you can set priorities better and communicate better.\n\nIt also improves owner reporting. Instead of saying 'HVAC issue under investigation,' you can say 'Two FCUs failed in the same zone due to deferred valve replacement. Temporary cooling is in place, and we are preparing a lifecycle recommendation because this is no longer a one-off fault.'",
+  "keyTakeaways": [
+    "You do not need to be an engineer, but you do need technical literacy.",
+    "Systems knowledge improves triage, reporting, and vendor management.",
+    "Repeated faults often point to lifecycle or controls issues, not just isolated failures.",
+    "Technical clarity reduces unnecessary escalation."
+  ],
+  "frameworks": [
+    "Daily Priority Stack",
+    "Incident Command RACI"
+  ],
+  "example": "A tenant reports repeated temperature swings. The inexperienced response is to log another reactive job. The stronger response is to ask whether the issue is isolated to one tenancy, one zone, or after-hours only; review recent controls changes; inspect whether recurring faults are tied to older plant; and tell the tenant what you know, what you are checking, and when they will hear back.",
+  "commonMistakes": [
+    "Assuming every technical issue is equally urgent.",
+    "Passing on contractor language without translating the business impact.",
+    "Treating recurring faults as unrelated events.",
+    "Communicating too late because the technical answer is not complete yet."
+  ],
+  "exercise": "Create a simple systems cheat sheet for an office building covering HVAC, fire, lifts, electrical, hydraulics, and BMS. For each system, list what it does, the common occupant-facing failures, the business impact if it fails, and the first three questions you would ask.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "Why does technical literacy matter for a property manager?",
+      "options": [
+        "So they can perform the repairs themselves",
+        "So they can set priorities, ask better questions, and explain impact clearly",
+        "So they can avoid using contractors",
+        "So they can rewrite engineering standards"
+      ],
+      "correctIndex": 1,
+      "explanation": "The goal is better management judgment, not becoming the technical specialist."
+    },
+    {
+      "question": "A recurring HVAC complaint should usually trigger what response?",
+      "options": [
+        "Another standalone reactive job with no broader review",
+        "A quick email saying it is being looked into",
+        "A review of patterns, root cause, and whether lifecycle or controls issues are involved",
+        "An immediate capital replacement every time"
+      ],
+      "correctIndex": 2,
+      "explanation": "Repeated faults often reveal a pattern that needs broader diagnosis than a one-off work order."
+    }
+  ],
+  "perspectives": {
+    "propertyManager": "Systems literacy helps the property manager separate signal from noise and speak with confidence under pressure.",
+    "facilitiesManager": "The facilities manager wants the property manager to understand enough context to prioritise correctly and brief stakeholders well.",
+    "client": "The client values technical commentary that explains risk and cost consequences, not just jargon.",
+    "tenant": "The tenant mainly wants confidence that the issue is understood and being handled competently."
+  }
+}

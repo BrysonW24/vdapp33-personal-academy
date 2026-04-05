@@ -1,0 +1,63 @@
+{
+  "slug": "site-inspection-report",
+  "title": "Site Inspection Report",
+  "difficulty": 3,
+  "estimatedHours": 4,
+  "description": "Walk a commercial asset, document operational issues, and produce a concise inspection report with priorities, photos, and follow-up actions.",
+  "whyItMatters": "Inspection quality shapes everything downstream. If you miss service issues, safety concerns, or recurring defects on site, you will always be managing stale information. A strong inspection report turns observation into action and gives owners confidence that the property is being actively governed.",
+  "skillsLearned": [
+    "Operational observation and issue triage",
+    "Writing clear action-focused inspection notes",
+    "Risk spotting across common areas and plant interfaces",
+    "Prioritizing maintenance and presentation issues",
+    "Turning site findings into owner-ready communication"
+  ],
+  "prerequisites": [],
+  "steps": [
+    {
+      "title": "Plan the inspection route",
+      "description": "Choose a property type and build a simple route that covers arrival experience, lobbies, amenities, back-of-house areas, loading, plant interfaces, life-safety points, and any vacancy or fitout zones.",
+      "tips": "Good inspections follow the customer and the building. Think like a tenant, an owner, and a contractor at the same time."
+    },
+    {
+      "title": "Record findings in categories",
+      "description": "Capture at least 12 findings and tag each one as safety, maintenance, presentation, compliance, tenant-impacting, or capital-planning related. Include why each finding matters, not just what was seen.",
+      "tips": "Avoid vague notes like 'looks poor.' Write what is wrong, where it is, who feels the impact, and what should happen next."
+    },
+    {
+      "title": "Assign priority and ownership",
+      "description": "For each finding, assign a priority level, recommended owner, and target timeframe. Distinguish urgent defects from issues that can be grouped into cyclical works or capex planning.",
+      "tips": "If everything is urgent, nothing is. Use the Daily Priority Stack mindset when assigning importance."
+    },
+    {
+      "title": "Write the report",
+      "description": "Assemble a short inspection report with headline observations, a table of issues, and a recommendation section for next steps, spend approvals, or contractor follow-up.",
+      "tips": "Lead with the 3-4 issues that matter most. The reader should know the asset's current condition in under a minute."
+    }
+  ],
+  "deliverables": [
+    "A one-page site summary with top risks and service issues",
+    "A finding register with 12 or more observations",
+    "Priority ratings, owners, and target dates for each issue",
+    "A short recommendation section for owner or internal review"
+  ],
+  "tools": ["notion", "microsoft-excel", "microsoft-teams"],
+  "rubric": [
+    {
+      "criteria": "Observation Quality",
+      "description": "Findings are specific, relevant, and grounded in real operational impact rather than vague commentary."
+    },
+    {
+      "criteria": "Prioritization",
+      "description": "Urgent, near-term, and monitor-only items are clearly separated and logically justified."
+    },
+    {
+      "criteria": "Communication",
+      "description": "The final report is concise, structured, and readable by an owner or senior manager without extra explanation."
+    },
+    {
+      "criteria": "Actionability",
+      "description": "Each item has a sensible owner and next step, making the report usable as a live management document."
+    }
+  ]
+}

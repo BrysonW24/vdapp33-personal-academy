@@ -1,0 +1,16 @@
+{
+  "slug": "embedded-systems",
+  "title": "Embedded Systems",
+  "shortSummary": "Explore the computers inside robots. Embedded systems are the microcontrollers and single-board computers that read sensors, run control algorithms, and command actuators in real time.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Every robot has a brain, and it is usually an embedded system — a small, dedicated computer designed to perform specific tasks with strict timing requirements. Unlike a desktop PC that runs many programs, an embedded system in a robot must read sensors, compute control outputs, and drive actuators hundreds or thousands of times per second without missing a beat. Understanding embedded systems means understanding the hardware-software interface where code meets the physical world. Arduino boards introduced millions of people to embedded programming, while platforms like the Raspberry Pi and NVIDIA Jetson enable increasingly powerful on-board intelligence. In Australia, field robots operating in remote areas must run embedded systems that are robust to temperature extremes, dust, and vibration, often with no network connectivity.",
+  "coreConcepts": ["Microcontrollers vs microprocessors", "Real-time operating systems (RTOS)", "Digital and analogue I/O", "Communication protocols: I2C, SPI, UART, CAN bus", "Interrupt handling and timing", "Power management for battery-powered robots", "Arduino, Raspberry Pi, and NVIDIA Jetson platforms"],
+  "lessons": [],
+  "frameworks": ["state-machine-design"],
+  "visualType": "embedded-architecture",
+  "relatedModules": ["control-systems-fundamentals", "ros-robot-operating-system", "sensors-and-perception"],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

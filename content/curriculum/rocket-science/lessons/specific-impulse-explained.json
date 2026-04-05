@@ -1,0 +1,39 @@
+{
+  "slug": "specific-impulse-explained",
+  "moduleSlug": "what-rocket-science-is",
+  "title": "Specific Impulse Explained",
+  "objective": "Understand specific impulse (Isp) as the key measure of rocket engine efficiency and how it drives vehicle design decisions.",
+  "beginnerExplanation": "Specific impulse (Isp) measures how efficiently a rocket engine uses propellant. Think of it as 'fuel economy' for rockets, measured in seconds. An Isp of 300 seconds means the engine can produce one newton of thrust for 300 seconds using one kilogram of propellant. Higher Isp means you get more delta-v for the same amount of fuel. Chemical rockets typically achieve 200-470 seconds. Ion engines reach 3,000+ seconds but produce tiny thrust. This trade-off between thrust and efficiency is one of the fundamental design decisions in rocket engineering.",
+  "deeperExplanation": "Specific impulse is defined as Isp = F / (mass_flow_rate x g0), or equivalently Isp = ve / g0, where ve is the effective exhaust velocity. The units are seconds because the g0 factor normalises the measurement. For chemical rockets, Isp is fundamentally limited by the combustion temperature and the molecular weight of the exhaust: Isp is proportional to sqrt(Tc / M), where Tc is combustion chamber temperature and M is average molecular weight of exhaust products. This is why hydrogen/oxygen engines (Isp ~450s) outperform kerosene/oxygen engines (Isp ~310s) — the exhaust (H2O) has lower molecular weight. But hydrogen is much less dense, requiring enormous tanks, which is why SpaceX chose methane for Raptor (Isp ~380s) — a compromise between performance and density.",
+  "keyTakeaways": [
+    "Specific impulse measures propulsive efficiency — higher Isp means more delta-v per kilogram of propellant",
+    "Isp = exhaust velocity / g0, measured in seconds",
+    "Chemical rockets: 200-470s. Ion engines: 1,500-10,000s. Nuclear thermal: 800-1,000s",
+    "Higher Isp comes from lower molecular weight exhaust and higher combustion temperature",
+    "Vacuum Isp is higher than sea-level Isp because there is no back-pressure on the nozzle"
+  ],
+  "frameworks": ["tsiolkovsky-equation"],
+  "example": "SpaceX's engine evolution shows Isp optimisation in action. Merlin 1D (RP-1/LOX): 282s sea level, 311s vacuum. Raptor (methane/LOX): 330s sea level, 380s vacuum. The switch from kerosene to methane gains about 20% in Isp, which through the rocket equation translates to significantly more payload capacity. But the real reason for methane is reusability (cleaner combustion, less coking) and Mars ISRU (methane can be manufactured on Mars from atmospheric CO2 and water ice). First principles thinking — not just optimising one number, but the whole system.",
+  "commonMistakes": [
+    "Thinking higher Isp always means a better engine — thrust matters too, especially at launch",
+    "Confusing sea-level and vacuum Isp values",
+    "Ignoring propellant density — hydrogen has great Isp but requires enormous tanks",
+    "Forgetting that Isp improvements have exponential effects through the rocket equation"
+  ],
+  "exercise": "Compare three engines: (a) SpaceX Merlin 1D (Isp 311s vacuum, thrust 981 kN), (b) SpaceX Raptor (Isp 380s vacuum, thrust 2,256 kN), (c) a hypothetical ion engine (Isp 3,000s, thrust 0.5 N). For a 10,000 kg spacecraft needing 3 km/s of delta-v, calculate the propellant mass required for each engine. Then discuss which engine you would choose for: LEO launch, orbit transfer, and interplanetary cruise.",
+  "nextLesson": "gravity-and-escape-velocity",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "Why did SpaceX choose methane over hydrogen for the Raptor engine, despite hydrogen having higher Isp?",
+      "options": [
+        "Methane is cheaper to produce",
+        "Methane is denser, enabling smaller tanks, plus it can be manufactured on Mars from local resources",
+        "Hydrogen is too dangerous to handle",
+        "Methane produces more thrust"
+      ],
+      "correctIndex": 1,
+      "explanation": "SpaceX applied first-principles thinking. Methane is denser than hydrogen (smaller tanks = less structural mass), burns cleaner (better for reusability), and can be synthesised on Mars via the Sabatier process using CO2 and water ice. The Isp penalty is worth the system-level gains."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "waves-optics",
+  "title": "Waves & Optics",
+  "shortSummary": "Oscillations, wave behaviour, sound, light, interference, diffraction, and the electromagnetic spectrum — how energy travels without matter moving.",
+  "level": "beginner",
+  "category": "classical",
+  "whyItMatters": "Waves explain sound, light, radio, Wi-Fi, X-rays, and quantum behaviour. Understanding wave phenomena is essential for telecommunications, medical imaging, music, and ultimately quantum mechanics.",
+  "coreConcepts": [
+    "Simple harmonic motion",
+    "Wave properties: wavelength, frequency, amplitude",
+    "Superposition and interference",
+    "Diffraction and Huygens' principle",
+    "Reflection and refraction (Snell's law)",
+    "Electromagnetic spectrum",
+    "Polarisation"
+  ],
+  "lessons": [
+    "simple-harmonic-motion",
+    "wave-properties",
+    "interference-and-diffraction",
+    "electromagnetic-spectrum",
+    "geometric-optics"
+  ],
+  "frameworks": ["superposition-principle", "dimensional-analysis"],
+  "visualType": "wave-diagram",
+  "relatedModules": ["classical-mechanics", "electromagnetism", "quantum-mechanics-intro"],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

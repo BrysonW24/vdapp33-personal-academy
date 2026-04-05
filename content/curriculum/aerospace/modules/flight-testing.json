@@ -1,0 +1,16 @@
+{
+  "slug": "flight-testing",
+  "title": "Flight Testing",
+  "shortSummary": "How aircraft are tested in the real world — flight test planning, instrumentation, data acquisition, and test pilot techniques.",
+  "level": "intermediate",
+  "category": "testing",
+  "whyItMatters": "No amount of simulation replaces real flight data. Flight testing validates predictions, discovers unexpected behaviours, and is required for certification.",
+  "coreConcepts": ["Flight test planning", "Instrumentation and data acquisition", "Performance flight testing", "Stability and control testing", "Flutter testing", "Envelope expansion"],
+  "lessons": ["flight-test-basics"],
+  "frameworks": ["build-up-approach"],
+  "visualType": "test-envelope",
+  "relatedModules": ["flight-dynamics-control", "aircraft-performance", "certification"],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 3
+}

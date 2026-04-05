@@ -1,0 +1,23 @@
+{
+  "slug": "condensed-matter",
+  "title": "Condensed Matter Physics",
+  "shortSummary": "Solids, liquids, superconductors, semiconductors, and the quantum physics of materials — the largest branch of modern physics research.",
+  "level": "advanced",
+  "category": "applied",
+  "whyItMatters": "Condensed matter physics drives the technology you use every day — semiconductors, LEDs, solar cells, superconductors, and magnetic storage. It is the largest sub-field of physics and the most directly connected to industry and technology.",
+  "coreConcepts": [
+    "Crystal structures and lattices",
+    "Band theory of solids",
+    "Semiconductors and doping",
+    "Superconductivity",
+    "Magnetism in materials",
+    "Topological phases of matter"
+  ],
+  "lessons": [],
+  "frameworks": ["energy-level-diagrams", "perturbation-methods"],
+  "visualType": "band-diagram",
+  "relatedModules": ["quantum-mechanics-intro", "statistical-mechanics"],
+  "status": "coming-soon",
+  "order": 12,
+  "levelNumber": 3
+}

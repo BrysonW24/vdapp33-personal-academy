@@ -1,0 +1,15 @@
+{
+  "slug": "symmetry-principles",
+  "name": "Symmetry Principles",
+  "summary": "If a physical system looks the same after a transformation (rotation, translation, time shift), there is a corresponding conserved quantity (Noether's theorem).",
+  "whenToUseIt": "Use symmetry arguments to simplify problems, identify conserved quantities, and constrain the form of physical laws without doing detailed calculations.",
+  "steps": [
+    "Identify any symmetries of the system (rotational, translational, time, mirror, gauge)",
+    "Apply Noether's theorem: each continuous symmetry implies a conservation law",
+    "Use the symmetry to constrain the solution — e.g. if the system has rotational symmetry, the answer cannot depend on angle",
+    "Simplify the problem by choosing coordinates aligned with the symmetry",
+    "Verify the result respects all identified symmetries"
+  ],
+  "example": "A uniform sphere has rotational symmetry. Therefore its gravitational field can only depend on distance from the centre, not on direction. This insight lets you treat the sphere as a point mass for objects outside it — Newton's shell theorem — without computing any integrals.",
+  "category": "problem-solving"
+}

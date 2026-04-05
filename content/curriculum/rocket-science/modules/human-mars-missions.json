@@ -1,0 +1,23 @@
+{
+  "slug": "human-mars-missions",
+  "title": "Human Mars Missions",
+  "shortSummary": "Getting humans to Mars and back — mission architecture, transit habitation, surface operations, ISRU, and the engineering challenges of becoming multiplanetary.",
+  "level": "advanced",
+  "category": "mission-design",
+  "whyItMatters": "Mars is the ultimate destination for human spaceflight. SpaceX's entire company exists to make humanity multiplanetary. The engineering challenges — 6-month transit, Mars EDL, surface operations, propellant production, and return — represent the hardest problems in aerospace engineering.",
+  "coreConcepts": [
+    "Mars mission architecture (conjunction vs opposition class)",
+    "Transit vehicle design and crew health",
+    "Mars entry, descent, and landing",
+    "In-situ resource utilisation (Sabatier process)",
+    "Surface habitat and operations design",
+    "Earth return vehicle and abort scenarios"
+  ],
+  "lessons": [],
+  "frameworks": ["delta-v-budget-framework", "systems-engineering-v-model", "first-principles-reasoning"],
+  "visualType": "mars-mission-profile",
+  "relatedModules": ["interplanetary-missions", "life-support-systems", "re-entry-systems"],
+  "status": "coming-soon",
+  "order": 19,
+  "levelNumber": 4
+}

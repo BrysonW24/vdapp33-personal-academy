@@ -1,0 +1,16 @@
+{
+  "slug": "aerodynamics-fundamentals",
+  "title": "Aerodynamics Fundamentals",
+  "shortSummary": "The science of air in motion — lift, drag, pressure distributions, and boundary layers explained from first principles.",
+  "level": "beginner",
+  "category": "aerodynamics",
+  "whyItMatters": "Every aircraft flies because of aerodynamics. Without understanding lift, drag, and airflow, you cannot design a wing, size an engine, or predict flight performance.",
+  "coreConcepts": ["Bernoulli's principle", "Lift generation", "Drag types (parasitic, induced)", "Boundary layers", "Reynolds number", "Angle of attack"],
+  "lessons": ["lift-and-drag-basics", "how-wings-work"],
+  "frameworks": ["thin-aerofoil-theory", "panel-method"],
+  "visualType": "pressure-distribution",
+  "relatedModules": ["what-aero-engineering-is", "flight-mechanics", "advanced-aerodynamics"],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

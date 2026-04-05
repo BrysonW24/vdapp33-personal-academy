@@ -1,0 +1,26 @@
+{
+  "slug": "organise-a-community-forum",
+  "title": "Organise a Community Forum",
+  "difficulty": 5,
+  "estimatedHours": 25,
+  "description": "Plan and run a community forum on a local issue — venue, speakers, promotion, facilitation, and follow-up. This is grassroots democracy in action.",
+  "whyItMatters": "Community forums are where local democracy happens. They connect residents with decision-makers, surface issues that don't make the news, and build the networks that campaigns and movements rely on. Every successful politician has organised or spoken at dozens of these.",
+  "skillsLearned": ["Event management", "Community engagement", "Facilitation", "Stakeholder management", "Grassroots organising"],
+  "prerequisites": ["civic-literacy"],
+  "steps": [
+    { "title": "Choose the issue and format", "description": "Select a live local issue (development, transport, healthcare, education). Decide the format: panel discussion, town hall Q&A, or workshop.", "tips": "Keep the scope focused. 'Proposed development at Smith Street' is better than 'the future of our suburb'." },
+    { "title": "Secure venue and speakers", "description": "Book a venue (community hall, library, school). Invite 2-3 speakers with different perspectives — a local councillor, a community advocate, and an expert.", "tips": "Invite the local MP too. If they decline, note their absence publicly." },
+    { "title": "Promote the event", "description": "Create flyers, social media posts, and a community email. Distribute through local networks, school newsletters, and community noticeboards.", "tips": "Personal invitations get better turnout than flyers. Ask 10 people to each bring 5 friends." },
+    { "title": "Facilitate the forum", "description": "Open the forum, introduce speakers, manage Q&A, keep time, ensure diverse voices are heard. Close with clear next steps.", "tips": "Set ground rules at the start: respect, time limits on questions, no personal attacks." },
+    { "title": "Document and follow up", "description": "Write a summary of what was discussed, decisions made, and actions committed. Send to all attendees and relevant decision-makers.", "tips": "The follow-up is where the real value lies. A forum without follow-up is just venting." }
+  ],
+  "deliverables": ["Event plan with timeline and budget", "Promotional materials (flyer, social media posts)", "Forum summary and action items", "Attendance list with contact details (with consent)"],
+  "tools": ["Canva for promotional materials", "Eventbrite or Google Forms for RSVPs", "Local venue booking system"],
+  "rubric": [
+    { "criteria": "Issue relevance", "description": "Is the issue genuinely important to the local community?" },
+    { "criteria": "Diverse participation", "description": "Did the forum include speakers and attendees with different perspectives?" },
+    { "criteria": "Facilitation quality", "description": "Was the forum well-managed, inclusive, and productive?" },
+    { "criteria": "Follow-up", "description": "Were outcomes documented and communicated to attendees and decision-makers?" },
+    { "criteria": "Community impact", "description": "Did the forum contribute to real progress on the issue?" }
+  ]
+}

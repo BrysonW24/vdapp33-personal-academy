@@ -1,0 +1,23 @@
+{
+  "slug": "plasma-physics",
+  "title": "Plasma Physics",
+  "shortSummary": "The fourth state of matter — ionised gases, magnetic confinement, fusion energy, and the physics of stars and lightning.",
+  "level": "advanced",
+  "category": "applied",
+  "whyItMatters": "Plasma makes up 99% of the visible universe — stars, nebulae, and the solar wind are all plasma. On Earth, plasma physics is central to the quest for fusion energy, semiconductor manufacturing, and space propulsion.",
+  "coreConcepts": [
+    "Ionisation and plasma parameters",
+    "Debye shielding",
+    "Magnetohydrodynamics (MHD)",
+    "Plasma confinement (tokamaks, stellarators)",
+    "Fusion reactions and energy",
+    "Space plasma and the solar wind"
+  ],
+  "lessons": [],
+  "frameworks": ["conservation-laws", "equilibrium-analysis"],
+  "visualType": "confinement-diagram",
+  "relatedModules": ["electromagnetism", "nuclear-physics", "astrophysics"],
+  "status": "coming-soon",
+  "order": 18,
+  "levelNumber": 4
+}

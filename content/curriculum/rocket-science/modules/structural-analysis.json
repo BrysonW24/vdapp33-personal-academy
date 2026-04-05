@@ -1,0 +1,23 @@
+{
+  "slug": "structural-analysis",
+  "title": "Structural Analysis",
+  "shortSummary": "How rocket structures survive launch — loads analysis, finite element methods, vibration modes, and the pursuit of minimum mass.",
+  "level": "intermediate",
+  "category": "structures",
+  "whyItMatters": "Every gram of structure is a gram that could have been payload. Structural engineers balance the competing demands of strength, stiffness, and minimum mass under extreme dynamic loads. Getting this wrong means structural failure; getting it right means more payload to orbit.",
+  "coreConcepts": [
+    "Launch loads and load paths",
+    "Finite element analysis (FEA)",
+    "Vibration modes and dynamic response",
+    "Buckling analysis of thin-walled structures",
+    "Safety factors and structural margins",
+    "Tank design and pressurisation"
+  ],
+  "lessons": [],
+  "frameworks": ["failure-mode-analysis", "systems-engineering-v-model"],
+  "visualType": "fea-mesh",
+  "relatedModules": ["materials-engineering", "launch-vehicle-design", "manufacturing-at-scale"],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

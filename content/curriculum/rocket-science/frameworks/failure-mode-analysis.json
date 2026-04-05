@@ -1,0 +1,18 @@
+{
+  "slug": "failure-mode-analysis",
+  "name": "Failure Mode and Effects Analysis (FMEA)",
+  "summary": "A systematic method for identifying how a system can fail, assessing the severity and likelihood of each failure, and designing mitigations. In aerospace, where failure can mean loss of crew, FMEA is not optional — it is how you keep people alive.",
+  "whenToUseIt": "Use FMEA during design, before testing, and after anomalies. Every critical component should have its failure modes mapped before it flies. This is especially important for human-rated systems, engines, and safety-critical avionics.",
+  "steps": [
+    "Identify all components and their functions within the system",
+    "For each component, list every way it could fail (failure modes)",
+    "Determine the effect of each failure on the subsystem and overall mission",
+    "Rate severity (1-10), occurrence likelihood (1-10), and detectability (1-10)",
+    "Calculate Risk Priority Number (RPN = Severity x Occurrence x Detection)",
+    "Design mitigations for high-RPN items — redundancy, testing, design changes",
+    "Verify mitigations reduce RPN to acceptable levels",
+    "Review and update FMEA throughout the programme lifecycle"
+  ],
+  "example": "Merlin engine turbopump FMEA: Failure mode = 'turbine blade fracture'. Effect = 'loss of engine, potential vehicle failure'. Severity = 9. Occurrence = 2 (rare with proper metallurgy). Detection = 4 (vibration monitoring can catch precursors). RPN = 72. Mitigation: redundant engines (Falcon 9 can lose an engine and still complete mission), vibration health monitoring, regular turbopump inspection on reused boosters.",
+  "category": "reliability"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "opposition-research",
+  "name": "Opposition Research",
+  "summary": "Systematic research into your political opponents — their voting record, public statements, vulnerabilities, and strengths — to inform campaign strategy and debate preparation.",
+  "whenToUseIt": "When preparing for an election campaign, when preparing for parliamentary debates, when anticipating attacks from opponents, or when conducting self-research (opposition research on yourself to identify your own vulnerabilities).",
+  "steps": [
+    "Compile the public record: Hansard speeches, media interviews, social media history, voting record, financial disclosures",
+    "Identify inconsistencies: Where has the opponent changed position? Where do their words contradict their votes?",
+    "Map vulnerabilities: What issues are they weakest on? What questions do they avoid?",
+    "Assess strengths: Where are they genuinely strong? Do not underestimate opponents",
+    "Conduct self-research: Apply the same process to your own candidate. Find your vulnerabilities before your opponent does",
+    "Prepare attack and defence: Draft potential attack lines and responses. Never deploy anything you cannot prove",
+    "Legal and ethical boundaries: Stay within the law. Do not fabricate, do not access private information, do not conduct surveillance"
+  ],
+  "example": "Before the 2019 federal election, Labor's opposition research identified Scott Morrison's management of the robodebt scheme as Home Affairs Minister. However, the issue didn't gain traction during the campaign because it was framed as a bureaucratic failure rather than a personal decision. It was only after the Royal Commission (2023) that the full picture emerged. Lesson: opposition research is only useful if it can be translated into a compelling, verifiable public narrative. Having the facts is necessary but not sufficient — you also need the framing.",
+  "category": "campaign-strategy"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "ising-model",
+  "title": "Simulate the Ising Model",
+  "difficulty": 7,
+  "estimatedHours": 16,
+  "description": "Implement a 2D Ising model Monte Carlo simulation to study ferromagnetism, phase transitions, and critical phenomena — one of the most important models in statistical physics.",
+  "whyItMatters": "The Ising model is a cornerstone of statistical mechanics. Despite its simplicity (spins on a lattice that interact with neighbours), it exhibits a genuine phase transition at a critical temperature. It is used to model magnetism, alloys, neural networks, and even social dynamics.",
+  "skillsLearned": ["Monte Carlo methods (Metropolis algorithm)", "Phase transitions", "Statistical mechanics", "Critical phenomena", "Scientific computing"],
+  "prerequisites": ["Statistical mechanics basics", "Probability", "Intermediate Python"],
+  "steps": [
+    { "title": "Set up the lattice", "description": "Create an NxN grid of spins, each +1 or -1. Implement periodic boundary conditions. Calculate the total energy using the nearest-neighbour interaction: E = -J * sum(s_i * s_j).", "tips": "Start with N = 50. Periodic boundaries mean the top row neighbours the bottom row." },
+    { "title": "Metropolis algorithm", "description": "Implement the Metropolis-Hastings algorithm: pick a random spin, calculate the energy change if flipped, accept the flip if it lowers energy or with probability exp(-dE/kT).", "tips": "Pre-compute the possible energy changes (dE can only be -8J, -4J, 0, 4J, or 8J) for speed." },
+    { "title": "Equilibration and measurement", "description": "Run the simulation, allowing the system to equilibrate before measuring. Calculate the magnetisation M = |sum(s_i)|/N² and energy per spin at each temperature.", "tips": "Discard the first 1000 Monte Carlo steps as equilibration burn-in." },
+    { "title": "Phase transition", "description": "Run simulations at many temperatures from T = 0.5 to T = 5 (in units of J/k_B). Plot magnetisation vs temperature and identify the critical temperature T_c.", "tips": "The exact T_c for the 2D Ising model is 2/(ln(1+sqrt(2))) ≈ 2.269. Your simulation should find something close." },
+    { "title": "Visualise spin configurations", "description": "Create animated visualisations of the spin lattice at low temperature (ordered), near T_c (critical fluctuations — beautiful fractal patterns), and high temperature (disordered).", "tips": "Near T_c, you will see clusters of aligned spins at all scales — this is the hallmark of a phase transition." }
+  ],
+  "deliverables": ["Working 2D Ising model simulation", "Magnetisation and energy vs temperature plots", "Identification of critical temperature with comparison to exact value", "Animated spin configuration visualisations at three temperature regimes", "Discussion of phase transitions and critical phenomena"],
+  "tools": ["Python", "NumPy", "Matplotlib"],
+  "rubric": [
+    { "criteria": "Algorithm correctness", "description": "Metropolis algorithm correctly implemented with detailed balance" },
+    { "criteria": "Phase transition", "description": "Clear identification of T_c, close to exact value" },
+    { "criteria": "Visualisation", "description": "Compelling spin configuration animations showing ordered, critical, and disordered phases" },
+    { "criteria": "Analysis", "description": "Proper equilibration, error estimation, and finite-size effects discussed" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "certification",
+  "title": "Airworthiness & Certification",
+  "shortSummary": "How aircraft are certified to fly — regulatory requirements, type certification, continued airworthiness, and the role of CASA, EASA, and FAA.",
+  "level": "advanced",
+  "category": "systems",
+  "whyItMatters": "No aircraft flies commercially without certification. Understanding airworthiness requirements shapes every design decision and is critical for safety.",
+  "coreConcepts": ["Type certification process", "CASA Part 21/25/23", "Certification basis and special conditions", "Means of compliance", "Continued airworthiness (Part 39, ADs)", "Supplemental Type Certificates"],
+  "lessons": [],
+  "frameworks": ["certification-planning"],
+  "visualType": "certification-process",
+  "relatedModules": ["systems-engineering", "flight-testing", "aircraft-structures"],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 4
+}

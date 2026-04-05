@@ -1,0 +1,22 @@
+{
+  "slug": "fundraising",
+  "title": "Fundraising",
+  "shortSummary": "Raise the money a campaign needs — from grassroots small-dollar donations to major donor cultivation, compliance with Australian electoral law, and digital fundraising strategy.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "Money is the oxygen of political campaigns. Without fundraising capability, even the best candidate with the best message cannot compete. Understanding how to raise funds ethically and legally is a non-negotiable political skill in Australia.",
+  "coreConcepts": [
+    "Australian political donation laws and disclosure",
+    "Small-dollar vs major donor fundraising",
+    "Digital fundraising and email campaigns",
+    "Event-based fundraising",
+    "Building a donor database",
+    "Compliance and reporting requirements"
+  ],
+  "lessons": [],
+  "frameworks": ["fundraising-funnel"],
+  "relatedModules": ["campaign-strategy", "community-organising", "electoral-strategy"],
+  "status": "coming-soon",
+  "order": 10,
+  "levelNumber": 3
+}

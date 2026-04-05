@@ -1,0 +1,16 @@
+{
+  "slug": "avionics-systems",
+  "title": "Avionics Systems",
+  "shortSummary": "The electronic brain of modern aircraft — flight computers, navigation, communication, displays, and fly-by-wire systems.",
+  "level": "intermediate",
+  "category": "avionics",
+  "whyItMatters": "Modern aircraft are defined by their avionics. Fly-by-wire, glass cockpits, and autopilot systems have transformed aviation safety and capability.",
+  "coreConcepts": ["Flight management systems", "Fly-by-wire architecture", "Navigation systems (GPS, INS, ILS)", "Communication systems", "Glass cockpit displays", "Redundancy and fault tolerance"],
+  "lessons": [],
+  "frameworks": ["do-178c"],
+  "visualType": "avionics-architecture",
+  "relatedModules": ["flight-dynamics-control", "systems-engineering", "certification"],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

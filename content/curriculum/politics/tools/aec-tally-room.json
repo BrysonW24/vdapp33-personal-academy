@@ -1,0 +1,21 @@
+{
+  "slug": "aec-tally-room",
+  "name": "AEC Virtual Tally Room",
+  "category": "analytics",
+  "description": "The Australian Electoral Commission's official election results platform — real-time counting on election night and historical results for every electorate, booth, and Senate count going back decades.",
+  "whyUseIt": "The AEC Tally Room is the authoritative source for Australian election data. Campaign strategists use historical booth-level data to identify voting patterns, target swing areas, and model scenarios. On election night, it provides the definitive count.",
+  "pricingTier": "free",
+  "url": "https://tallyroom.aec.gov.au",
+  "alternatives": ["Antony Green's election guide (ABC)", "Kevin Bonham's blog", "Poll Bludger"],
+  "funnelPosition": "Strategic planning and election night operations",
+  "outputs": ["Election results by electorate and booth", "Two-party preferred calculations", "Senate count progress", "Historical comparison data"],
+  "marketerWorkflow": "Download booth-level results for your target electorate, map voting patterns geographically, identify which booths swung most, overlay with demographic data to understand why",
+  "managerExpects": "Detailed booth-by-booth analysis showing where votes were won and lost, with recommendations for where to focus resources next time",
+  "demoDescription": "Download the last two election results for a marginal electorate, calculate the booth-by-booth swing, identify the five booths where the most votes were gained or lost, and hypothesise why based on local factors",
+  "vocabulary": [
+    { "term": "Two-candidate preferred (TCP)", "definition": "The final distribution of preferences between the last two candidates standing in a count" },
+    { "term": "Booth", "definition": "A specific polling place — results are reported at booth level, allowing granular geographic analysis" }
+  ],
+  "beginnerMistakes": ["Comparing results across elections without accounting for redistribution (boundary changes)", "Focusing on primary votes instead of two-party preferred when assessing competitiveness"],
+  "relatedProject": "map-your-electorate"
+}

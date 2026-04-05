@@ -1,0 +1,16 @@
+{
+  "slug": "sensors-and-perception",
+  "title": "Sensors and Perception",
+  "shortSummary": "Learn how robots sense the world around them. From simple proximity switches to sophisticated LiDAR arrays, sensors are the eyes, ears, and touch of every robotic system.",
+  "level": "beginner",
+  "category": "foundations",
+  "whyItMatters": "A robot without sensors is blind. Every autonomous action a robot takes depends on its ability to perceive the environment accurately and in real time. In Australian mining, autonomous haul trucks use dozens of sensors — GPS, radar, LiDAR, cameras — to navigate safely at 60 km/h carrying 300 tonnes. In agriculture, sensors on robotic harvesters detect fruit ripeness by colour and firmness. Understanding sensor types, their capabilities, limitations, and how to combine them through sensor fusion is essential to designing any robotic system that interacts with the real world.",
+  "coreConcepts": ["Sensor types: proprioceptive vs exteroceptive", "Range sensors: ultrasonic, infrared, LiDAR, radar", "Vision sensors: cameras, depth cameras, stereo vision", "Inertial measurement units (IMUs)", "Encoders and potentiometers for position sensing", "Sensor noise, calibration, and filtering"],
+  "lessons": ["sensors-and-perception-fundamentals"],
+  "frameworks": ["sensor-fusion"],
+  "visualType": "sensor-array",
+  "relatedModules": ["what-is-robotics", "computer-vision-for-robots", "slam-and-mapping"],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "space-station-design",
+  "title": "Space Station Design",
+  "shortSummary": "Designing orbital habitats — modular architecture, docking systems, microgravity research, and the next generation of commercial space stations.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The ISS is the most complex structure ever built in space, but it is reaching end of life. Axiom Space, Orbital Reef, and others are building the next generation. Understanding modular station design, logistics, and long-duration human habitation is critical for permanent space presence.",
+  "coreConcepts": [
+    "Modular station architecture",
+    "Docking and berthing mechanisms",
+    "Microgravity environment management",
+    "Logistics and resupply planning",
+    "Station-keeping and orbital maintenance",
+    "Commercial space station economics"
+  ],
+  "lessons": [],
+  "frameworks": ["systems-engineering-v-model", "failure-mode-analysis"],
+  "visualType": "station-layout",
+  "relatedModules": ["life-support-systems", "spacecraft-systems", "orbital-mechanics"],
+  "status": "coming-soon",
+  "order": 18,
+  "levelNumber": 4
+}

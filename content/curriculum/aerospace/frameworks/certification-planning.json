@@ -1,0 +1,15 @@
+{
+  "slug": "certification-planning",
+  "name": "Certification Planning",
+  "summary": "An upfront process for defining the certification basis, means of compliance, evidence packages, and authority engagement before technical work gets too deep.",
+  "whenToUseIt": "Use it early in aircraft development, major modifications, and novel-technology programmes where late regulatory surprises are expensive.",
+  "steps": [
+    "Define the product, operating context, and applicable regulations.",
+    "Agree the certification basis and special conditions with the authority.",
+    "Map each requirement to a means of compliance such as analysis, test, or inspection.",
+    "Assign ownership for evidence generation and review.",
+    "Track open issues, authority meetings, and compliance closure to approval."
+  ],
+  "example": "A team adding a new electric-propulsion demonstrator to an existing aircraft cannot wait until flight test to think about compliance. Certification planning identifies which hazards, standards, and evidence streams must be addressed from day one.",
+  "category": "certification"
+}

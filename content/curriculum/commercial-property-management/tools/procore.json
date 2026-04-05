@@ -1,0 +1,28 @@
+{
+  "slug": "procore",
+  "name": "Procore",
+  "category": "property-operations",
+  "description": "A construction and project coordination platform used to manage documents, RFIs, site activity, defects, and progress across fitout or capital works.",
+  "whyUseIt": "When a property manager is involved in fitouts, capital works, or landlord-delivered projects, Procore helps keep project information visible and reduces the chaos of email-driven delivery.",
+  "pricingTier": "enterprise",
+  "url": "https://www.procore.com",
+  "aiCapabilities": "AI can summarize meeting notes, flag overdue RFIs, and highlight project risks emerging from issue logs and documentation delays.",
+  "alternatives": ["Aconex", "Autodesk Construction Cloud", "Buildertrend"],
+  "workflowStage": "Fitout coordination, project delivery, and defect closeout",
+  "outputs": ["Project logs", "Defect lists", "RFI records", "Meeting minutes", "Progress snapshots"],
+  "propertyManagerWorkflow": "Property managers use Procore to stay close to project progress, monitor handover quality, and make sure site works do not drift away from operational requirements.",
+  "managerExpects": "Current information, disciplined issue tracking, and smooth handover records that help the building return to normal operations cleanly.",
+  "aiWorkflowImpact": "AI can reduce admin load around meeting recaps and help project risks surface earlier through pattern spotting.",
+  "demoDescription": "Review a fitout status log, identify the open items that could delay tenant handover, and decide which ones need same-week escalation.",
+  "vocabulary": [
+    { "term": "RFI", "definition": "A request for information used to clarify design, scope, or construction questions." },
+    { "term": "Defect List", "definition": "A record of incomplete or unsatisfactory items requiring correction before closeout." },
+    { "term": "Handover", "definition": "The transition point where project delivery is completed and responsibility moves into operational management." }
+  ],
+  "beginnerMistakes": [
+    "Watching the project passively instead of tracking the operational risks to handover",
+    "Ignoring documentation quality until closeout week",
+    "Failing to connect project issues back to tenant or building-service impacts"
+  ],
+  "relatedProject": "contractor-tender-pack"
+}

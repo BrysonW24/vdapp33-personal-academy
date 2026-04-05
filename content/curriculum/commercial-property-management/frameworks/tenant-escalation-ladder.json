@@ -1,0 +1,15 @@
+{
+  "slug": "tenant-escalation-ladder",
+  "name": "Tenant Escalation Ladder",
+  "summary": "A communication ladder for resolving tenant issues before they damage trust. It defines how quickly to respond, when to escalate, and how to keep tenants informed during service disruptions, disputes, or emotionally charged issues.",
+  "whenToUseIt": "Use this framework for repeated service complaints, lease disputes, noisy fitouts, after-hours incidents, arrears conversations, or any situation where a tenant's confidence could erode quickly if communication is vague or slow.",
+  "steps": [
+    "Acknowledge immediately - Confirm receipt quickly, even if the fix is not ready yet. Tenants can tolerate delay better than silence.",
+    "Clarify impact and expectation - Establish what is affected, who is affected, the business consequence, and what the tenant expects next. This prevents the team from solving the wrong problem.",
+    "Assign the right level of ownership - Decide whether the issue stays with the property manager or needs facilities, legal, leasing, finance, security, or senior leadership support. Escalation should reflect risk and complexity, not emotion alone.",
+    "Communicate cadence, not just outcome - Give a clear next-update time, not just a vague promise to follow up. Predictable updates make difficult situations feel more controlled.",
+    "Close the loop and record learning - When resolved, confirm the outcome, document root cause, and note how the asset can prevent recurrence. Resolution without learning guarantees repeat complaints."
+  ],
+  "example": "A retail tenant reports repeated temperature failures before a busy weekend trade period. The manager acknowledges within minutes, clarifies the commercial impact, escalates to building engineering and the service contractor, gives update times every 60 minutes, and finishes with a written summary plus a prevention plan for the next peak trading day.",
+  "category": "tenant"
+}

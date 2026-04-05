@@ -1,0 +1,23 @@
+{
+  "slug": "commercial-space",
+  "title": "Commercial Space",
+  "shortSummary": "The business of space — launch economics, satellite services, space tourism, regulatory frameworks, and how the commercial space industry generates revenue.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The space industry is worth over $400 billion and growing rapidly. SpaceX proved that commercial companies can out-innovate government agencies. Understanding launch economics, satellite business models, regulatory requirements, and market dynamics is essential for anyone who wants to work in or build a space company.",
+  "coreConcepts": [
+    "Launch service economics and pricing",
+    "Satellite services revenue models",
+    "Space tourism and human spaceflight market",
+    "Regulatory frameworks (FAA, ITAR, ITU)",
+    "Space insurance and risk management",
+    "Venture capital and space startups"
+  ],
+  "lessons": [],
+  "frameworks": ["first-principles-reasoning", "rapid-iteration-framework"],
+  "visualType": "market-map",
+  "relatedModules": ["reusable-launch-vehicles", "satellite-engineering", "manufacturing-at-scale"],
+  "status": "coming-soon",
+  "order": 20,
+  "levelNumber": 4
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "biophysics",
+  "title": "Biophysics",
+  "shortSummary": "Applying physics to biological systems — protein folding, molecular motors, neural signalling, and the physical principles of life itself.",
+  "level": "advanced",
+  "category": "applied",
+  "whyItMatters": "Biophysics uses the tools of physics to answer biological questions. It drives breakthroughs in drug design, medical imaging, prosthetics, and our understanding of how life works at the molecular level.",
+  "coreConcepts": [
+    "Molecular forces and bonding in biology",
+    "Diffusion and transport in cells",
+    "Protein folding and molecular dynamics",
+    "Biomechanics",
+    "Medical imaging physics (MRI, CT, PET)",
+    "Neurophysics and neural signalling"
+  ],
+  "lessons": [],
+  "frameworks": ["equilibrium-analysis", "error-analysis"],
+  "visualType": "molecular-diagram",
+  "relatedModules": ["thermodynamics", "quantum-mechanics-intro", "statistical-mechanics"],
+  "status": "coming-soon",
+  "order": 19,
+  "levelNumber": 4
+}

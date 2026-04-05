@@ -1,0 +1,17 @@
+{
+  "slug": "rapid-iteration-framework",
+  "name": "Rapid Iteration Framework",
+  "summary": "Compress the design-test-learn loop to its minimum cycle time. The company that iterates fastest wins, because each iteration generates knowledge that competitors cannot buy. Speed of learning is the ultimate competitive advantage in rocket engineering.",
+  "whenToUseIt": "Use this framework for any engineering programme where uncertainty is high and the cost of iteration is lower than the cost of analysis-paralysis. Especially applicable to propulsion development, manufacturing process optimisation, and flight test campaigns.",
+  "steps": [
+    "Define the key unknowns and highest-risk assumptions",
+    "Design the simplest possible test to resolve each unknown",
+    "Build test hardware in days or weeks, not months",
+    "Test, measure, and document results immediately",
+    "Make a decision within 24 hours of test results",
+    "Implement the decision in the next build",
+    "Track iteration velocity as a key metric — how many design-test cycles per month?"
+  ],
+  "example": "SpaceX builds a Raptor engine approximately every 48 hours. Each engine is slightly different — incorporating learnings from the previous build and test. Over hundreds of engines, this rapid iteration has taken Raptor from a prototype to a production engine with better performance than anything in its class. Competitors building one engine per quarter cannot match this learning rate.",
+  "category": "design-philosophy"
+}

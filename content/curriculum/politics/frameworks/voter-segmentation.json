@@ -1,0 +1,16 @@
+{
+  "slug": "voter-segmentation",
+  "name": "Voter Segmentation",
+  "summary": "Divide the electorate into distinct groups based on voting behaviour, demographics, values, and persuadability — then allocate campaign resources accordingly.",
+  "whenToUseIt": "When planning a campaign strategy, when designing targeted messaging, when deciding where to allocate volunteer and advertising resources, or when analysing election results.",
+  "steps": [
+    "Segment by voting behaviour: locked supporters (voted for you last time), locked opponents (never voted for you), and persuadable voters (swinging or disengaged)",
+    "Segment persuadables by demographics: age, income, education, housing tenure, family status",
+    "Segment by values: economic (cost of living), social (progressive/conservative), environmental, security",
+    "Overlay geographic data: which booths and streets have the highest concentration of persuadable voters?",
+    "Design tailored messages for each persuadable segment — the housing message for young renters differs from the tax message for small business owners",
+    "Allocate resources proportional to segment size and persuadability — do not waste resources on locked opponents"
+  ],
+  "example": "In a marginal outer-suburban electorate, voter segmentation might reveal three key persuadable segments: (1) Mortgage-stressed young families (aged 30-40, prioritise cost of living and housing), (2) Retiring baby boomers (aged 60-70, prioritise healthcare and superannuation), (3) First-time voters (aged 18-24, prioritise climate and education costs). Each group requires different messaging, different contact methods (door-knock for families, phone for retirees, social media for young voters), and different policy emphasis. The campaign targets its limited volunteer hours on streets with the highest density of these segments.",
+  "category": "campaign-strategy"
+}

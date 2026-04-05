@@ -1,0 +1,23 @@
+{
+  "slug": "qubit-technologies",
+  "title": "Qubit Technologies",
+  "shortSummary": "The main physical approaches to building qubits, from superconducting circuits to trapped ions, neutral atoms, and photonics.",
+  "level": "beginner",
+  "category": "hardware",
+  "whyItMatters": "Quantum engineering is not one machine type. The hardware platform determines coherence, gate speed, scaling strategy, and what engineering problems dominate.",
+  "coreConcepts": [
+    "Superconducting qubits",
+    "Trapped ions and neutral atoms",
+    "Photonic qubits",
+    "Spin and defect platforms",
+    "Coherence versus control trade-offs",
+    "Scalability challenges"
+  ],
+  "lessons": [],
+  "frameworks": ["hardware-stack-map", "divincenzo-criteria"],
+  "visualType": "hardware-stack",
+  "relatedModules": ["superconducting-qubits", "trapped-ions-neutral-atoms", "photonic-quantum-systems"],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 1
+}

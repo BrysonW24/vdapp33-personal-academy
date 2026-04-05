@@ -1,0 +1,15 @@
+{
+  "slug": "safe-life-vs-damage-tolerance",
+  "name": "Safe-Life vs Damage-Tolerance",
+  "summary": "Two structural-certification philosophies: either retire the part before cracks are expected, or prove the structure can survive detectable damage until inspection catches it.",
+  "whenToUseIt": "Use it when choosing inspection strategy, structural margins, and certification evidence for fatigue-critical aerospace structures.",
+  "steps": [
+    "Classify the structure and identify critical failure modes.",
+    "Estimate fatigue loading, crack initiation risk, and consequence of failure.",
+    "Decide whether the component should be life-limited or inspectable in service.",
+    "Set inspection intervals, allowable damage sizes, and retirement criteria.",
+    "Verify the approach with test evidence and regulatory agreement."
+  ],
+  "example": "A landing-gear fitting may be managed with a safe-life retirement interval, while a fuselage skin panel may use damage-tolerance analysis because cracks can be detected and repaired during scheduled maintenance.",
+  "category": "structures"
+}

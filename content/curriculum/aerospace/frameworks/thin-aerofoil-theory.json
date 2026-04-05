@@ -1,0 +1,15 @@
+{
+  "slug": "thin-aerofoil-theory",
+  "name": "Thin Aerofoil Theory",
+  "summary": "A first-order aerodynamic model that estimates lift behaviour for slender aerofoils at low angle of attack in subsonic flow.",
+  "whenToUseIt": "Use it when you want quick intuition for lift curve slope, zero-lift angle, and pitching moment before moving to CFD or wind-tunnel data.",
+  "steps": [
+    "Assume a thin aerofoil in incompressible, attached flow.",
+    "Represent the camber line and solve for the circulation distribution.",
+    "Estimate lift coefficient versus angle of attack.",
+    "Use the result to understand how camber shifts zero-lift angle and pitching moment.",
+    "Compare against higher-fidelity methods when thickness, viscosity, or compressibility matter."
+  ],
+  "example": "An engineer comparing two conceptual wing sections can use thin aerofoil theory to explain why the more cambered section produces positive lift at zero angle of attack, even before any simulation is run.",
+  "category": "aerodynamics"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "solidworks",
+  "name": "SolidWorks",
+  "category": "cad-design",
+  "description": "3D parametric CAD software widely used for mechanical design in aerospace. Ideal for detailed component design, assemblies, and generating manufacturing drawings for rocket hardware.",
+  "whyUseIt": "SolidWorks is the most accessible professional CAD tool for aerospace design. Its parametric modelling, assembly management, and simulation integration make it excellent for designing rocket components from brackets to engine mounts to payload adapters.",
+  "pricingTier": "paid",
+  "url": "https://www.solidworks.com",
+  "alternatives": ["CATIA", "NX (Siemens)", "Fusion 360", "FreeCAD"],
+  "funnelPosition": "Detailed design and manufacturing",
+  "outputs": ["3D models", "Assembly drawings", "Manufacturing drawings", "Interference checks"],
+  "vocabulary": [{"term": "Parametric modelling", "definition": "Design approach where dimensions and features are linked by parameters, so changing one updates all related features"},
+    {"term": "GD&T", "definition": "Geometric Dimensioning and Tolerancing — the language for specifying manufacturing precision on drawings"}],
+  "beginnerMistakes": ["Not using parametric relationships between features", "Ignoring manufacturing constraints in the design", "Creating overly complex assemblies that crash the software"]
+}

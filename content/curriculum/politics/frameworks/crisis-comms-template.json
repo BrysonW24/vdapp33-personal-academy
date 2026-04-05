@@ -1,0 +1,17 @@
+{
+  "slug": "crisis-comms-template",
+  "name": "Crisis Communications Template",
+  "summary": "A step-by-step framework for managing political crises — from the first alert through to recovery. Designed for the speed and intensity of modern media cycles.",
+  "whenToUseIt": "When a political crisis breaks — a scandal, gaffe, policy failure, or external shock that threatens your reputation, your position, or your party's standing.",
+  "steps": [
+    "Hour 1 — Assess: What happened? What are the facts (not rumours)? Who knows? What evidence exists?",
+    "Hour 2 — Assemble: Gather your crisis team (chief of staff, media adviser, legal if needed). Do NOT go public yet",
+    "Hour 3 — Decide: Choose your response strategy — full transparency, limited statement, or no comment (rarely advisable)",
+    "Hour 4 — Respond: Issue your statement. Be first to frame the story. Acknowledge what is true. Do not lie or speculate",
+    "Day 1-3 — Manage: Monitor media coverage, correct inaccuracies, maintain message discipline, brief allies",
+    "Week 1 — Resolve: Take visible action to address the underlying issue. Show you are fixing it, not hiding from it",
+    "Week 2+ — Recover: Pivot to positive agenda. Do not keep apologising indefinitely. Demonstrate changed behaviour"
+  ],
+  "example": "When a minister is caught using taxpayer funds for personal travel, the crisis comms template would be: Hour 1 — confirm the facts with the department. Hour 2 — brief the PM's office and prepare a statement. Hour 3 — decide to repay the funds immediately and issue a public apology. Hour 4 — release a statement: 'I made an error of judgement. I have repaid the full amount. I apologise.' Day 1-3 — do one interview, stick to the message, do not add new information. Week 1 — announce new expense oversight measures. Week 2 — return to policy agenda. The worst version: deny, get caught, then apologise — this turns a one-day story into a one-week story.",
+  "category": "communications"
+}

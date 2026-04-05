@@ -1,0 +1,22 @@
+{
+  "slug": "matlab",
+  "name": "MATLAB",
+  "category": "computation",
+  "description": "A numerical computing environment optimised for matrix operations, signal processing, and engineering simulations. Ubiquitous in experimental physics and engineering.",
+  "whyUseIt": "MATLAB excels at matrix computations, data analysis, and creating publication-quality plots. Its extensive toolboxes cover signal processing, image analysis, control systems, and more. Many physics labs use MATLAB for data acquisition and analysis.",
+  "pricingTier": "paid",
+  "url": "https://www.mathworks.com/products/matlab.html",
+  "alternatives": ["GNU Octave", "Python/NumPy", "Julia"],
+  "fieldPosition": "Experimental and computational physics — standard tool in many research labs and universities",
+  "outputs": ["Numerical simulations", "Data analysis scripts", "Publication-quality figures", "GUI applications"],
+  "physicistWorkflow": "Load experimental data, clean and process it, fit models, produce plots for publication.",
+  "supervisorExpects": "Proficiency in MATLAB scripting, matrix operations, and data visualisation.",
+  "computationalImpact": "Accelerates data analysis and prototyping of numerical algorithms. Matrix-native syntax makes linear algebra intuitive.",
+  "demoDescription": "Load a set of oscilloscope traces, apply FFT to identify frequency components, fit a decaying sinusoid, and extract the Q-factor of a resonant circuit.",
+  "vocabulary": [
+    { "term": "Workspace", "definition": "The set of variables currently in memory" },
+    { "term": "Toolbox", "definition": "An add-on package providing specialised functionality" }
+  ],
+  "beginnerMistakes": ["Using loops instead of vectorised operations", "Not pre-allocating arrays before filling them"],
+  "relatedProject": "pendulum-model"
+}

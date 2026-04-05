@@ -1,0 +1,16 @@
+{
+  "slug": "path-planning-and-navigation",
+  "title": "Path Planning and Navigation",
+  "shortSummary": "Discover how robots plan routes and navigate through complex environments. From simple grid-based search to sophisticated motion planning, this module covers the algorithms that get robots from A to B safely.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "A robot that knows where it is and has a map of its environment still needs to figure out how to get where it is going. Path planning algorithms find collision-free routes through complex environments, while navigation systems execute those plans in real time, adapting to dynamic obstacles and changing conditions. This is the technology behind autonomous vehicles, warehouse robots, and delivery drones. In Australia, autonomous haul trucks at Rio Tinto's Pilbara mines navigate a network of haul roads, intersections, and loading zones — planning optimal routes while avoiding other vehicles and responding to changing mine plans. Path planning spans from the simple (A* search on a grid) to the sophisticated (sampling-based planners in high-dimensional configuration spaces), and understanding these algorithms is essential for building any autonomous mobile system.",
+  "coreConcepts": ["Graph search: Dijkstra's algorithm and A*", "Sampling-based planners: RRT, RRT*, PRM", "Potential fields and gradient descent", "Dynamic window approach for local planning", "Global vs local path planning", "Obstacle avoidance and collision checking", "Multi-robot path planning and coordination"],
+  "lessons": ["path-planning-fundamentals"],
+  "frameworks": ["motion-planning-hierarchy"],
+  "visualType": "path-planning",
+  "relatedModules": ["slam-and-mapping", "mobile-robots", "drones-and-uavs"],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 2
+}

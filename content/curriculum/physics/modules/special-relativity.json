@@ -1,0 +1,24 @@
+{
+  "slug": "special-relativity",
+  "title": "Special Relativity",
+  "shortSummary": "Time dilation, length contraction, mass-energy equivalence (E=mc²), and why nothing can travel faster than light.",
+  "level": "intermediate",
+  "category": "modern",
+  "whyItMatters": "Special relativity revolutionised our understanding of space, time, and energy. GPS satellites, particle accelerators, and nuclear energy all depend on relativistic corrections. It is the bridge between classical physics and the modern era.",
+  "coreConcepts": [
+    "Postulates of special relativity",
+    "Time dilation",
+    "Length contraction",
+    "Lorentz transformations",
+    "Mass-energy equivalence (E=mc²)",
+    "Relativistic momentum",
+    "Spacetime diagrams"
+  ],
+  "lessons": [],
+  "frameworks": ["symmetry-principles", "thought-experiment-method"],
+  "visualType": "spacetime-diagram",
+  "relatedModules": ["classical-mechanics", "electromagnetism", "general-relativity"],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

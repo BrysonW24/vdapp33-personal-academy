@@ -1,0 +1,15 @@
+{
+  "slug": "daily-priority-stack",
+  "name": "Daily Priority Stack",
+  "summary": "A practical decision stack for sorting a property manager's day. It separates urgent from important, keeps safety and lease obligations ahead of convenience work, and gives you a repeatable way to explain why you did what you did first.",
+  "whenToUseIt": "Use this framework at the start of the day, after a major disruption, or any time competing requests pile up. It is especially useful when tenants, owners, contractors, and internal teams all want answers at once and you need a calm order of operations.",
+  "steps": [
+    "Stabilize risk first - Check for anything touching life safety, compliance, service outages, water ingress, security, or insurance exposure. If a task can escalate into asset damage or unsafe conditions, it goes to the top immediately.",
+    "Honor hard obligations - Review anything driven by lease deadlines, statutory obligations, payment timing, contractor commitments, or executive reporting deadlines. These are the promises that become trust markers if you meet them and pain points if you miss them.",
+    "Protect stakeholder confidence - Identify the conversations that must happen today to prevent drift: owner updates, tenant acknowledgements, internal escalations, or contractor follow-ups. Communication delays often create more friction than the original issue.",
+    "Advance value-creating work - Only after risk and obligations are controlled should you move to budget refinement, leasing support, sustainability improvements, capex planning, or process design work that lifts NOI and service quality over time.",
+    "Reset the board twice daily - Re-rank the list at midday and late afternoon. Property work is dynamic, so the point is not a perfect morning plan but a disciplined habit of re-prioritizing with fresh information."
+  ],
+  "example": "At 8:15 a.m. you have five open items: a tenant HVAC complaint, an owner asking for last month's variance note, a contractor quote waiting for approval, a lease expiry in 30 days, and a sustainability workshop invite. The Daily Priority Stack puts the HVAC issue first because service failure can escalate fast, the owner variance note second because trust and reporting cadence matter, the lease expiry third because the date is real and near, the quote fourth, and the workshop last.",
+  "category": "operations"
+}

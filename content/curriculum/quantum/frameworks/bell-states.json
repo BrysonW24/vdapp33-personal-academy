@@ -1,0 +1,15 @@
+{
+  "slug": "bell-states",
+  "name": "Bell States",
+  "summary": "The four canonical maximally entangled two-qubit states used to reason about quantum correlation, teleportation, and networked protocols.",
+  "whenToUseIt": "Use them when introducing entanglement in a concrete, operational way or when designing two-qubit protocols.",
+  "steps": [
+    "Start from a computational basis state such as |00>.",
+    "Apply a Hadamard to one qubit.",
+    "Apply an entangling gate such as controlled-NOT.",
+    "Interpret the resulting joint state, not each qubit separately.",
+    "Test behaviour across different measurement bases."
+  ],
+  "example": "The state (|00> + |11>)/sqrt(2) is a Bell state. It supports strong correlations and forms the resource for simple teleportation demonstrations.",
+  "category": "information"
+}

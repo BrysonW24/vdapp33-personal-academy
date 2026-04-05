@@ -1,0 +1,25 @@
+{
+  "slug": "orbital-mechanics-sim",
+  "title": "Simulate Orbital Mechanics",
+  "difficulty": 5,
+  "estimatedHours": 12,
+  "description": "Write a numerical simulation of planetary orbits using Newton's law of gravitation and a Runge-Kutta integrator. Reproduce Kepler's laws from first principles.",
+  "whyItMatters": "Orbital mechanics is where classical mechanics meets computational physics. Simulating orbits teaches numerical methods, conservation laws, and the beauty of emergent behaviour (elliptical orbits) arising from a simple force law (1/r²).",
+  "skillsLearned": ["Numerical integration (Runge-Kutta)", "Gravitational physics", "Conservation of energy and angular momentum", "Python programming", "Data visualisation"],
+  "prerequisites": ["Newton's laws", "Gravitational force", "Basic Python"],
+  "steps": [
+    { "title": "Set up the physics", "description": "Write the gravitational force between two bodies: F = -GMm/r² in vector form. Express as a system of ODEs: dx/dt = v, dv/dt = F/m.", "tips": "Work in dimensionless units (set G*M = 1) to avoid numerical overflow." },
+    { "title": "Implement Euler method", "description": "Code a simple Euler integrator and simulate a circular orbit. Observe energy drift over time.", "tips": "Euler's method is inaccurate for orbits — energy drifts. This motivates better methods." },
+    { "title": "Upgrade to RK4", "description": "Implement a fourth-order Runge-Kutta integrator. Compare energy conservation with the Euler method.", "tips": "RK4 conserves energy much better. Plot total energy vs time to verify." },
+    { "title": "Reproduce Kepler's laws", "description": "Launch a planet with different initial velocities to get circular, elliptical, parabolic, and hyperbolic orbits. Verify Kepler's equal-areas law and the period-radius relationship (T² proportional to a³).", "tips": "Use matplotlib to animate the orbit in real time." },
+    { "title": "Extend to three bodies", "description": "Add a third body and observe chaotic behaviour. Try the figure-8 three-body orbit with specific initial conditions.", "tips": "The three-body problem is chaotic — tiny changes in initial conditions lead to wildly different trajectories." }
+  ],
+  "deliverables": ["Working Python simulation of two-body orbits", "Plots showing circular, elliptical, parabolic, and hyperbolic trajectories", "Energy conservation comparison between Euler and RK4", "Verification of Kepler's three laws", "Optional: three-body simulation showing chaos"],
+  "tools": ["Python", "NumPy", "Matplotlib"],
+  "rubric": [
+    { "criteria": "Physics correctness", "description": "Gravitational force implemented correctly, orbits match expected shapes" },
+    { "criteria": "Numerical accuracy", "description": "RK4 implemented correctly, energy conserved to high precision" },
+    { "criteria": "Kepler verification", "description": "All three laws demonstrated with quantitative evidence" },
+    { "criteria": "Code quality", "description": "Clean, commented code with modular functions" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "hardware-stack-map",
+  "name": "Quantum Hardware Stack Map",
+  "summary": "A layered picture of the physical stack beneath a quantum experiment: qubit device, control electronics, environment, calibration, and software orchestration.",
+  "whenToUseIt": "Use it when a discussion about quantum hardware becomes too abstract and you need to expose the real engineering layers that make the device work.",
+  "steps": [
+    "Identify the physical qubit layer.",
+    "Map the control and readout electronics or optics.",
+    "Add the environmental infrastructure such as vacuum or cryogenics.",
+    "Include calibration and automation loops.",
+    "Connect the stack to the software and experiment interface."
+  ],
+  "example": "A superconducting platform only makes sense when the chip, microwave lines, cryostat, amplifiers, calibration software, and cloud interface are seen as one system rather than separate topics.",
+  "category": "hardware"
+}

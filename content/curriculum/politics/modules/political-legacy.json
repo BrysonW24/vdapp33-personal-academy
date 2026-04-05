@@ -1,0 +1,22 @@
+{
+  "slug": "political-legacy",
+  "title": "Political Legacy",
+  "shortSummary": "Think beyond the next election — build a lasting impact through institutional reform, mentoring the next generation, and creating policy frameworks that endure beyond your time in office.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The measure of a political career is not how many elections you won but what changed because of your service. Political legacy is about building something that lasts — institutions, policies, and movements that continue to benefit the public long after you leave office.",
+  "coreConcepts": [
+    "Defining your political legacy",
+    "Institution-building and lasting reform",
+    "Mentoring and succession planning",
+    "Post-political career and continued influence",
+    "Writing and documenting your political journey",
+    "The ethics of legacy and how history judges leaders"
+  ],
+  "lessons": [],
+  "frameworks": ["stakeholder-mapping"],
+  "relatedModules": ["executive-leadership", "governance-reform", "political-philosophy"],
+  "status": "coming-soon",
+  "order": 20,
+  "levelNumber": 4
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "owner-reporting-and-kpis",
+  "title": "Owner Reporting and KPIs",
+  "shortSummary": "Turn building activity into clear monthly commentary, metrics, and recommendations that owners can actually use.",
+  "level": "intermediate",
+  "category": "finance",
+  "whyItMatters": "Owners do not pay for activity alone. They pay for visibility, control, and judgment. Strong reporting explains what happened, what matters, what is changing, and what action is recommended next. The best property managers do not drown owners in detail. They surface the story, the signal, and the decisions.",
+  "coreConcepts": [
+    "The small set of metrics that matter most in commercial property management",
+    "How to write commentary that explains the number, not just repeats it",
+    "The difference between operational reporting and advisory reporting",
+    "Why recommendation quality matters as much as metric quality"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Owner Report Storyline"
+  ],
+  "relatedModules": [
+    "stakeholder-communication",
+    "operating-budgets-and-outgoings",
+    "portfolio-planning-and-asset-thinking"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 3
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "simulate-a-senate-estimates-hearing",
+  "title": "Simulate a Senate Estimates Hearing",
+  "difficulty": 8,
+  "estimatedHours": 30,
+  "description": "Simulate a Senate Estimates hearing — prepare as both the questioning senator and the responding minister/public servant. This is the ultimate test of political preparation, policy knowledge, and performance under pressure.",
+  "whyItMatters": "Senate Estimates is where governments are held accountable for how they spend public money. It produces more political news stories than almost any other parliamentary process. Mastering Estimates — whether asking or answering — is a defining skill for any serious politician or public servant.",
+  "skillsLearned": ["Parliamentary procedure", "Cross-examination technique", "Budget and expenditure analysis", "Performance under pressure", "Policy mastery"],
+  "prerequisites": ["policy-analysis", "public-speaking", "media-communications"],
+  "steps": [
+    { "title": "Choose a portfolio", "description": "Select a government portfolio (Health, Education, Defence, Home Affairs). Research the department's recent budget papers and annual report.", "tips": "Start with a portfolio you know something about. The learning is in the process, not the topic." },
+    { "title": "Prepare as questioner", "description": "Draft 20 questions across three themes: budget expenditure, program performance, and policy implementation. Structure as opening, follow-up, and gotcha.", "tips": "The best Estimates questions build a narrative — each answer reveals information that makes the next question more pointed." },
+    { "title": "Prepare as respondent", "description": "Anticipate the 20 hardest questions your portfolio might face. Draft responses that are accurate, concise, and don't volunteer unnecessary information.", "tips": "Public servants answer factual questions. Ministers handle policy questions. Know the boundary." },
+    { "title": "Run the simulation", "description": "With a partner, run a 45-minute simulated Estimates hearing. One plays the senator, one plays the minister. Then swap roles.", "tips": "Stay in character. The value is in the pressure of real-time interrogation." },
+    { "title": "Debrief and refine", "description": "Review what worked and what didn't. Which questions landed? Which responses were evasive? What would you do differently?", "tips": "Record the simulation if possible. Watching yourself under pressure is brutally educational." }
+  ],
+  "deliverables": ["A 20-question Estimates brief with supporting research", "A defensive brief with anticipated questions and prepared responses", "A recording or transcript of the simulated hearing", "A debrief document with lessons learned"],
+  "tools": ["Budget Papers (budget.gov.au)", "Department annual reports", "Previous Estimates transcripts (Hansard)", "APH Committee pages"],
+  "rubric": [
+    { "criteria": "Question quality", "description": "Are the questions specific, evidence-based, and strategically sequenced?" },
+    { "criteria": "Response discipline", "description": "Are the responses accurate, appropriately concise, and politically aware?" },
+    { "criteria": "Procedural accuracy", "description": "Does the simulation follow realistic Estimates procedures?" },
+    { "criteria": "Pressure performance", "description": "Can participants maintain composure and clarity under adversarial questioning?" },
+    { "criteria": "Analytical depth", "description": "Does the debrief demonstrate genuine learning about budget scrutiny and accountability?" }
+  ]
+}

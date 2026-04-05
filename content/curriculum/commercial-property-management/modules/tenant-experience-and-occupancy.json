@@ -1,0 +1,26 @@
+{
+  "slug": "tenant-experience-and-occupancy",
+  "title": "Tenant Experience and Occupancy",
+  "shortSummary": "Protect occupancy through responsiveness, visible care, and issue resolution that feels professional and commercially aware.",
+  "level": "intermediate",
+  "category": "tenant",
+  "whyItMatters": "Tenants rarely judge the building only by design or location. They judge it by how it feels to occupy: temperature, access, communication, responsiveness, cleanliness, safety, and confidence that issues will be resolved. Great property managers understand that service quality affects retention, renewal strength, and the building's reputation in the market.",
+  "coreConcepts": [
+    "How service quality influences retention and leasing outcomes",
+    "The difference between a resolved issue and a well-managed issue",
+    "Why communication cadence matters as much as technical resolution",
+    "How to identify recurring friction before it becomes vacancy risk"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Tenant Escalation Ladder"
+  ],
+  "relatedModules": [
+    "reading-commercial-leases",
+    "stakeholder-communication",
+    "leasing-support-and-vacancy-strategy"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "ksp-learning",
+  "name": "Kerbal Space Program",
+  "category": "learning",
+  "description": "A rocket-building and space exploration game with remarkably accurate orbital mechanics. KSP teaches more about rocket science intuitively than most textbooks. Used by NASA and SpaceX engineers as an educational tool.",
+  "whyUseIt": "KSP builds intuition for orbital mechanics, staging, delta-v budgeting, and mission planning through hands-on experimentation. You learn by failing — just like real rocket development. When your rocket explodes, you understand viscerally why mass fraction matters.",
+  "pricingTier": "paid",
+  "url": "https://www.kerbalspaceprogram.com",
+  "alternatives": ["SimpleRockets 2", "Spaceflight Simulator", "Orbiter"],
+  "funnelPosition": "Learning and intuition building",
+  "outputs": ["Orbital mechanics intuition", "Mission planning skills", "Staging optimisation experience", "Delta-v budgeting practice"],
+  "vocabulary": [{"term": "Apoapsis/Periapsis", "definition": "Highest and lowest points of an orbit — you learn to manipulate these by burning at the right time"},
+    {"term": "TWR", "definition": "Thrust-to-Weight Ratio — if below 1.0 on the pad, your rocket is not going anywhere"}],
+  "beginnerMistakes": ["Building rockets with TWR below 1.3 at launch", "Forgetting to add a heat shield for re-entry", "Not checking delta-v budget before attempting interplanetary missions"]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "particle-physics",
+  "title": "Particle Physics",
+  "shortSummary": "Quarks, leptons, bosons, the Standard Model, and the fundamental building blocks of matter — the physics explored at CERN.",
+  "level": "advanced",
+  "category": "modern",
+  "whyItMatters": "Particle physics answers the deepest question: what is everything made of? The Standard Model is the most precisely tested theory in science. Understanding it reveals the fundamental forces and particles that compose the universe.",
+  "coreConcepts": [
+    "Quarks and leptons",
+    "The four fundamental forces",
+    "The Standard Model",
+    "Feynman diagrams",
+    "The Higgs boson and mass generation",
+    "Particle accelerators and detectors"
+  ],
+  "lessons": [],
+  "frameworks": ["symmetry-principles", "conservation-laws"],
+  "visualType": "feynman-diagram",
+  "relatedModules": ["quantum-mechanics-intro", "nuclear-physics", "quantum-field-theory"],
+  "status": "coming-soon",
+  "order": 11,
+  "levelNumber": 3
+}

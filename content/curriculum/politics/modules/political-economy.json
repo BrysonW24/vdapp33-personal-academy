@@ -1,0 +1,22 @@
+{
+  "slug": "political-economy",
+  "title": "Political Economy",
+  "shortSummary": "Where economics meets politics — fiscal policy, taxation, monetary policy, inequality, and the economic levers available to governments. Understand the trade-offs every Treasurer faces.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The economy is the number one issue in almost every election. Politicians who understand fiscal policy, taxation, trade, and economic indicators can make credible promises and govern effectively. Economic illiteracy is a career-ending weakness.",
+  "coreConcepts": [
+    "Fiscal policy: budgets, deficits, and debt",
+    "Monetary policy and the RBA",
+    "Taxation systems and reform",
+    "Trade policy and protectionism",
+    "Inequality and redistribution",
+    "Housing, wages, and cost of living"
+  ],
+  "lessons": [],
+  "frameworks": ["policy-impact-framework"],
+  "relatedModules": ["policy-analysis", "governance-reform", "international-relations"],
+  "status": "coming-soon",
+  "order": 17,
+  "levelNumber": 4
+}

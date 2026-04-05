@@ -1,0 +1,15 @@
+{
+  "slug": "capex-priority-matrix",
+  "name": "Capex Priority Matrix",
+  "summary": "A capital-planning lens for ranking upgrade projects by risk, compliance, tenant impact, cost avoidance, and value creation. It helps property managers move from a wish list to a defendable capital case.",
+  "whenToUseIt": "Use this when building annual capex plans, responding to aging-plant issues, assessing ESG upgrades, or choosing between multiple projects competing for limited owner capital.",
+  "steps": [
+    "List candidate projects clearly - Define each project in plain language: what asset component is affected, what the current condition is, and what action is proposed.",
+    "Score risk and compliance exposure - Give highest urgency to projects that affect safety, regulatory compliance, insurance conditions, or high-likelihood service failure.",
+    "Score operational and tenant impact - Consider how the project affects downtime, comfort, renewals, reputation, and operational resilience. A project can be strategically important even if it is not yet a hard failure.",
+    "Score financial logic - Evaluate cost avoidance, lifecycle benefit, energy savings, recoverability, and potential support for rent, occupancy, or asset value.",
+    "Rank and sequence - Place projects into do now, plan next, monitor, or defer categories, then align timing with budget cycles, leasing events, and contractor access windows."
+  ],
+  "example": "A chilled-water plant replacement, an upgraded lobby access system, and LED common-area retrofit are all proposed. The matrix shows the plant as immediate because of service-failure risk, the access system as next because of security and tenant-experience gains, and the LED retrofit as a strategic ESG project with a strong payback window.",
+  "category": "strategy"
+}

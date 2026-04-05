@@ -1,0 +1,25 @@
+{
+  "slug": "simulate-re-entry-heating",
+  "title": "Simulate Re-entry Heating",
+  "difficulty": 6,
+  "estimatedHours": 20,
+  "description": "Build a numerical simulation of atmospheric re-entry heating for a capsule-shaped vehicle. Model the heat flux profile from entry interface to landing, and design a thermal protection system that keeps the structure below its temperature limit.",
+  "whyItMatters": "Re-entry heating is one of the most dangerous phases of any crewed mission. The physics is extreme — temperatures exceeding 1,600 degrees Celsius, heat fluxes of megawatts per square metre. SpaceX's Dragon capsule and Starship heat shield solve this problem differently, and understanding the trade-offs is essential.",
+  "skillsLearned": ["Hypersonic aerodynamics", "Heat transfer modelling", "Numerical integration", "TPS material selection", "Python scientific simulation"],
+  "prerequisites": ["materials-engineering", "what-rocket-science-is"],
+  "steps": [
+    {"title": "Model the trajectory", "description": "Implement a simple re-entry trajectory model using the equations of motion with exponential atmosphere. Start at 120 km altitude with orbital velocity (7.8 km/s). Integrate using RK4.", "tips": "Use a ballistic coefficient based on capsule mass and cross-section area."},
+    {"title": "Calculate heat flux", "description": "Implement the Sutton-Graves correlation for stagnation-point convective heat flux: q = C * sqrt(rho/r_nose) * V^3. Plot heat flux vs altitude and time.", "tips": "Peak heating occurs when the vehicle is decelerating fastest, not at peak velocity."},
+    {"title": "Compute total heat load", "description": "Integrate heat flux over time to get total heat energy absorbed. This determines TPS thickness requirements.", "tips": "Total heat load is often more important than peak heat flux for sizing ablative TPS."},
+    {"title": "Design the TPS", "description": "Select an appropriate thermal protection material (PICA, SLA-561V, or ceramic tiles). Calculate required thickness to keep the bondline temperature below 250 degrees Celsius.", "tips": "SpaceX uses PICA-X, an improved version of NASA's PICA material. Compare ablative vs reusable approaches."},
+    {"title": "Trade study", "description": "Vary entry angle and velocity to show how the heating profile changes. Steeper entries mean higher peak heating but shorter duration. Shallower entries mean lower peaks but more total heat. Find the optimal corridor.", "tips": "The entry corridor is bounded by skip-out (too shallow) and g-load limits (too steep)."}
+  ],
+  "deliverables": ["Python simulation code", "Trajectory plots (altitude, velocity, deceleration vs time)", "Heat flux profile", "TPS sizing calculation with material selection justification", "Entry corridor trade study"],
+  "tools": ["python-astropy", "matlab"],
+  "rubric": [
+    {"criteria": "Physics accuracy", "description": "Heat flux values match published data for similar vehicles within 20%"},
+    {"criteria": "Simulation quality", "description": "Numerically stable, well-structured code with proper units handling"},
+    {"criteria": "TPS design", "description": "Justified material selection with proper thickness calculation"},
+    {"criteria": "Trade study", "description": "Clear presentation of entry corridor constraints and design implications"}
+  ]
+}

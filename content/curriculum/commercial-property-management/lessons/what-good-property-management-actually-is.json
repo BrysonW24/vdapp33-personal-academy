@@ -1,0 +1,57 @@
+{
+  "slug": "what-good-property-management-actually-is",
+  "moduleSlug": "what-commercial-property-management-is",
+  "title": "What Good Property Management Actually Is",
+  "objective": "Understand how a commercial property manager protects NOI, occupancy, and trust through disciplined daily execution.",
+  "beginnerExplanation": "A commercial property manager is the person who turns ownership intent into reliable daily operations. That means understanding the lease, keeping the building running, coordinating vendors, helping tenants get answers, watching expenses, and giving owners confidence that the asset is under control.\n\nThe job is not just administration. It is operational judgment. Every day you are translating activity into financial, service, and risk outcomes.",
+  "deeperExplanation": "The role sits in the middle of multiple tensions: owners want NOI protection and visibility, tenants want speed and care, leasing wants occupancy momentum, finance wants clean controls, and contractors need clear instruction. The strongest managers do not optimize one stakeholder at the expense of the rest. They create a cadence where obligations are visible, priorities are explicit, communication is clear, and nothing important drifts.\n\nA helpful way to think about the role is this: property management is asset value expressed operationally. If you improve service quality, reduce unresolved issues, manage arrears early, defend recoveries, and communicate clearly, you are protecting value even when you are not talking about value explicitly.",
+  "keyTakeaways": [
+    "The job is operational, financial, and relational at the same time.",
+    "A property manager protects asset value mainly through consistency and visibility.",
+    "Most escalation comes from unclear ownership, not just difficult stakeholders.",
+    "Great reporting begins with good operational control, not better presentation."
+  ],
+  "frameworks": [
+    "Daily Priority Stack",
+    "Owner Report Storyline"
+  ],
+  "example": "An owner asks why tenant complaints rose in one office asset. A weak manager says, 'We've had a few HVAC issues.' A strong manager says, 'Three complaints came from the same air-handling zone. We traced the issue to a control fault, brought the contractor back under defect liability, reduced after-hours callouts, and we will monitor comfort data for two weeks before month-end reporting.' Both describe the same building. Only one builds confidence.",
+  "commonMistakes": [
+    "Thinking the role is mostly administrative rather than commercial and operational.",
+    "Treating tenant issues as isolated tickets instead of signals about the building.",
+    "Sending updates that describe activity without explaining impact or next steps.",
+    "Waiting for owners to ask questions that should already be answered in the report."
+  ],
+  "exercise": "Write a one-page role definition for a commercial property manager at a multi-tenant office asset. Include the top five responsibilities, the top five KPIs, and the three biggest failure modes you would watch for in the first 90 days.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "Which description best captures the core purpose of commercial property management?",
+      "options": [
+        "Coordinating maintenance requests as they appear",
+        "Protecting asset value through operational control and clear stakeholder management",
+        "Helping leasing agents market vacant suites",
+        "Producing monthly reports for owners"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maintenance, leasing support, and reporting all matter, but the deeper purpose is broader: protecting value through disciplined operations."
+    },
+    {
+      "question": "Which metric set best reflects a property manager's core commercial impact?",
+      "options": [
+        "Occupancy, NOI, expense control, tenant retention",
+        "Social media engagement, website traffic, and brand impressions",
+        "Only rent collected this month",
+        "Number of work orders opened"
+      ],
+      "correctIndex": 0,
+      "explanation": "These metrics connect operations to commercial outcomes. Activity measures alone do not tell the full story."
+    }
+  ],
+  "perspectives": {
+    "propertyManager": "The property manager sees the role as orchestration. Nothing important should sit without an owner, a date, and a next action.",
+    "portfolioManager": "The portfolio manager cares about repeatability across assets. They want a manager who can explain what is changing and where risk is accumulating.",
+    "assetManager": "The asset manager wants reporting that connects operating detail to leasing, capital, and value outcomes rather than just listing events.",
+    "client": "The client wants confidence. Fast answers matter, but thoughtful answers matter more when the issue has commercial consequences."
+  }
+}

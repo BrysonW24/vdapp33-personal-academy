@@ -1,0 +1,16 @@
+{
+  "slug": "aircraft-design",
+  "title": "Aircraft Design",
+  "shortSummary": "The integrated process of designing an aircraft — from requirements through conceptual, preliminary, and detailed design phases.",
+  "level": "intermediate",
+  "category": "design",
+  "whyItMatters": "Aircraft design is where all disciplines converge. A good design balances aerodynamics, structures, propulsion, and systems to meet performance requirements.",
+  "coreConcepts": ["Design requirements and constraints", "Conceptual design and sizing", "Wing loading and power loading", "Configuration selection", "Weight estimation", "Trade studies"],
+  "lessons": [],
+  "frameworks": ["design-spiral", "raymer-sizing"],
+  "visualType": "design-process",
+  "relatedModules": ["aerodynamics-fundamentals", "aircraft-structures", "propulsion-systems", "systems-engineering"],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

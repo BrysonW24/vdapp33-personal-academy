@@ -1,0 +1,27 @@
+{
+  "slug": "portfolio-planning-and-asset-thinking",
+  "title": "Portfolio Planning and Asset Thinking",
+  "shortSummary": "Move from single-asset execution to portfolio-level thinking across standards, risk, capex, leasing pressure, and owner priorities.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "Portfolio thinking changes your time horizon and your standard for decision-making. Instead of asking 'What fixes this building today?' you ask 'What pattern is emerging across the portfolio, and what does that mean for risk, cashflow, leasing, and capital?' This is the mindset shift that turns strong operators into advisors and leaders.",
+  "coreConcepts": [
+    "The difference between single-asset thinking and portfolio thinking",
+    "How to spot repeat issues across assets before leadership asks",
+    "When to standardise and when asset context should override the playbook",
+    "Why owner strategy should change how you interpret the same operational data"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Owner Report Storyline",
+    "Risk Heatmap"
+  ],
+  "relatedModules": [
+    "owner-reporting-and-kpis",
+    "capex-and-lifecycle-planning",
+    "future-of-property-operations"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 4
+}

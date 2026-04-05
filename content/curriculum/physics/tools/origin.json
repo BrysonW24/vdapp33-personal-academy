@@ -1,0 +1,21 @@
+{
+  "slug": "origin",
+  "name": "OriginLab Origin",
+  "category": "data-analysis",
+  "description": "A data analysis and graphing software widely used in experimental physics labs for creating publication-quality figures with sophisticated curve fitting.",
+  "whyUseIt": "Origin provides an Excel-like interface with powerful curve fitting, peak analysis, and statistical tools built specifically for scientific data. It produces camera-ready figures that meet journal requirements. Many experimentalists prefer it for its ease of use.",
+  "pricingTier": "paid",
+  "url": "https://www.originlab.com/",
+  "alternatives": ["Python/Matplotlib", "Igor Pro", "Gnuplot", "MATLAB"],
+  "fieldPosition": "Experimental physics — data analysis and publication-quality graphing",
+  "outputs": ["Publication-quality plots", "Curve fits with parameter extraction", "Statistical reports", "Data worksheets"],
+  "physicistWorkflow": "Import data, plot it, fit a model, customise the figure for publication, and export.",
+  "supervisorExpects": "Professional-quality figures with proper axis labels, units, error bars, and legends.",
+  "computationalImpact": "Streamlines the path from raw data to publication-ready figures.",
+  "vocabulary": [
+    { "term": "Worksheet", "definition": "A spreadsheet-like data table in Origin" },
+    { "term": "Nonlinear curve fit", "definition": "Fitting arbitrary mathematical models to data using iterative methods" }
+  ],
+  "beginnerMistakes": ["Not including error bars on data points", "Using default plot styles instead of customising for publication"],
+  "relatedProject": "pendulum-model"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "thermal-management-framework",
+  "name": "Thermal Management Framework",
+  "summary": "A systematic approach to managing heat in rocket systems. From cryogenic propellant tanks at -253 degrees Celsius to combustion chambers at 3,500 degrees Celsius, thermal design is about keeping everything at the right temperature — too hot and it melts, too cold and it becomes brittle.",
+  "whenToUseIt": "Use this framework when designing any system that operates in extreme temperature environments — engines, re-entry vehicles, cryogenic tanks, spacecraft in sunlight/shadow cycles, or any component that must survive the thermal extremes of spaceflight.",
+  "steps": [
+    "Map all heat sources (combustion, aerodynamic heating, solar radiation, electronics)",
+    "Map all heat sinks (radiation to space, propellant boil-off, active cooling)",
+    "Define temperature limits for every material and component",
+    "Model heat flow paths through the system (conduction, convection, radiation)",
+    "Design thermal protection — insulation, coatings, heat shields, active cooling",
+    "Analyse transient thermal behaviour (launch heating, orbital thermal cycling, re-entry)",
+    "Test in thermal vacuum chamber to validate the model"
+  ],
+  "example": "SpaceX's Raptor engine combustion chamber reaches about 3,500 K. The chamber wall must stay below 800 K to maintain structural integrity. Solution: regenerative cooling — supercooled methane flows through channels in the chamber wall, absorbing heat before being injected into the combustion chamber. The methane enters at about 110 K and exits at about 500 K, carrying away enormous amounts of heat while simultaneously pre-heating the propellant for more efficient combustion.",
+  "category": "thermal"
+}

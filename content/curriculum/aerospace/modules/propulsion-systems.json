@@ -1,0 +1,16 @@
+{
+  "slug": "propulsion-systems",
+  "title": "Propulsion Systems",
+  "shortSummary": "How aircraft engines work — from piston engines to turbofans, turboprops, and emerging electric propulsion systems.",
+  "level": "intermediate",
+  "category": "propulsion",
+  "whyItMatters": "Propulsion determines aircraft capability. Engine selection drives aircraft range, speed, altitude, and operating costs.",
+  "coreConcepts": ["Turbofan architecture", "Thrust generation", "Specific fuel consumption", "Compressor and turbine stages", "Bypass ratio", "Electric and hybrid propulsion"],
+  "lessons": ["propulsion-principles"],
+  "frameworks": ["brayton-cycle"],
+  "visualType": "engine-cutaway",
+  "relatedModules": ["aerodynamics-fundamentals", "aircraft-design", "sustainable-aviation"],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

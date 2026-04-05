@@ -1,0 +1,16 @@
+{
+  "slug": "aerospace-leadership",
+  "title": "Aerospace Leadership",
+  "shortSummary": "Leading engineering teams in aerospace — programme management, risk management, stakeholder communication, and building a career in aviation.",
+  "level": "advanced",
+  "category": "leadership",
+  "whyItMatters": "Aerospace programmes are massive, multi-year endeavours involving thousands of engineers. Technical excellence alone is not enough — leadership and programme management skills are essential for career progression.",
+  "coreConcepts": ["Programme management in aerospace", "Risk management frameworks", "Technical leadership", "Cross-functional team leadership", "Stakeholder and customer management", "Aerospace career development"],
+  "lessons": [],
+  "frameworks": ["earned-value-management"],
+  "visualType": "org-chart",
+  "relatedModules": ["systems-engineering", "certification", "aircraft-design"],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 4
+}

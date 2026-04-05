@@ -1,0 +1,22 @@
+{
+  "slug": "latex",
+  "name": "LaTeX",
+  "category": "typesetting",
+  "description": "The standard document preparation system for physics. Every physics paper, thesis, and textbook is typeset in LaTeX. It handles mathematical notation beautifully.",
+  "whyUseIt": "LaTeX produces publication-quality documents with perfect mathematical typesetting. It handles equation numbering, cross-references, citations, and figures automatically. Every physics journal requires submissions in LaTeX format.",
+  "pricingTier": "free",
+  "url": "https://www.latex-project.org/",
+  "alternatives": ["Typst", "Microsoft Word (not recommended for physics)", "Google Docs"],
+  "fieldPosition": "Universal — required for all physics publications, theses, and technical reports",
+  "outputs": ["Research papers", "Theses and dissertations", "Lab reports", "Presentation slides (Beamer)", "Posters"],
+  "physicistWorkflow": "Write documents in a text editor with LaTeX markup, compile to PDF, manage references with BibTeX.",
+  "supervisorExpects": "All written work submitted in LaTeX with proper equation formatting, references, and figure placement.",
+  "computationalImpact": "Frees you from manual formatting — focus on content while LaTeX handles layout, numbering, and typography.",
+  "demoDescription": "Write a short physics paper with numbered equations, cross-references, a bibliography, and properly formatted figures — all compiled from plain text.",
+  "vocabulary": [
+    { "term": "Preamble", "definition": "The section before \\begin{document} where you load packages and set options" },
+    { "term": "BibTeX", "definition": "The reference management system used with LaTeX" }
+  ],
+  "beginnerMistakes": ["Fighting LaTeX's layout decisions instead of trusting the defaults", "Not using version control (git) for LaTeX documents"],
+  "relatedProject": "particle-detector-analysis"
+}

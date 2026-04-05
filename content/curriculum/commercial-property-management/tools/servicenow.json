@@ -1,0 +1,28 @@
+{
+  "slug": "servicenow",
+  "name": "ServiceNow",
+  "category": "maintenance",
+  "description": "An enterprise workflow and ticketing platform used to manage service requests, approvals, incidents, and structured operational processes at scale.",
+  "whyUseIt": "In complex portfolios, especially where property, workplace, IT, and facilities workflows overlap, ServiceNow can provide tighter control over intake, escalation, approvals, and audit trails than ad hoc email coordination.",
+  "pricingTier": "enterprise",
+  "url": "https://www.servicenow.com",
+  "aiCapabilities": "AI can classify tickets, suggest routing, summarize incidents, and flag recurring problems that deserve process redesign rather than repeated manual handling.",
+  "alternatives": ["Angus Anywhere", "Zendesk", "Power Automate"],
+  "workflowStage": "Request management, incident routing, and controlled workflow execution",
+  "outputs": ["Incident tickets", "Service request queues", "Approval records", "SLA reports", "Escalation histories"],
+  "propertyManagerWorkflow": "A property manager uses ServiceNow when workflows need stronger process control across multiple teams, especially for incidents, approvals, and high-volume request streams.",
+  "managerExpects": "Correct categorization, SLA discipline, clear ownership, and an audit trail strong enough for governance and client review.",
+  "aiWorkflowImpact": "AI reduces triage time and helps identify where many small tickets are actually signs of one deeper operating issue.",
+  "demoDescription": "Review an incident queue, identify the items that need senior escalation, and rewrite the response flow to remove one avoidable handoff.",
+  "vocabulary": [
+    { "term": "Incident", "definition": "A service disruption or issue that requires structured response and tracking." },
+    { "term": "Queue", "definition": "The active list of requests or incidents waiting for action." },
+    { "term": "SLA Breach", "definition": "A missed response or resolution target against a service commitment." }
+  ],
+  "beginnerMistakes": [
+    "Using the wrong category and sending tickets into the wrong team",
+    "Closing incidents before confirming the business impact is resolved",
+    "Building too many process steps and slowing response unnecessarily"
+  ],
+  "relatedProject": "incident-response-tabletop"
+}

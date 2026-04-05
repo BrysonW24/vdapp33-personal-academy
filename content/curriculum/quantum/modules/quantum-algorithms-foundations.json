@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-algorithms-foundations",
+  "title": "Quantum Algorithms Foundations",
+  "shortSummary": "The core patterns behind quantum speedups, from amplitude amplification to phase estimation and variational methods.",
+  "level": "intermediate",
+  "category": "algorithms",
+  "whyItMatters": "Quantum advantage does not come from magic. It comes from a small set of algorithmic ideas that exploit interference, entanglement, and structured search.",
+  "coreConcepts": [
+    "Amplitude amplification",
+    "Phase kickback and phase estimation",
+    "Oracle-based algorithms",
+    "Variational quantum algorithms",
+    "Problem encoding",
+    "Resource estimation"
+  ],
+  "lessons": [],
+  "frameworks": ["shor-vs-grover", "variational-loop"],
+  "visualType": "algorithm-flow",
+  "relatedModules": ["quantum-gates-circuits", "quantum-simulation", "fault-tolerant-quantum-computing"],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

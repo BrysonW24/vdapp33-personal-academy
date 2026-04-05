@@ -1,0 +1,28 @@
+{
+  "slug": "docusign",
+  "name": "DocuSign",
+  "category": "lease-admin",
+  "description": "An electronic signature and agreement workflow tool used for leases, approvals, vendor documents, and other high-friction document processes.",
+  "whyUseIt": "In property operations, momentum often dies in document routing. DocuSign helps keep approvals, lease paperwork, variation letters, and vendor agreements moving without waiting on manual signatures and inbox confusion.",
+  "pricingTier": "paid",
+  "url": "https://www.docusign.com",
+  "aiCapabilities": "AI can extract key clauses, summarize agreement changes, and help flag where a document may need faster review or escalation.",
+  "alternatives": ["Adobe Acrobat Sign", "Dropbox Sign", "PandaDoc"],
+  "workflowStage": "Document execution, approvals, and agreement handoff",
+  "outputs": ["Executed agreements", "Approval records", "Signature audit trails", "Version-controlled document packages"],
+  "propertyManagerWorkflow": "Managers use DocuSign to circulate lease-side documents, approvals for works, tenant notices, and contractor agreements while maintaining a clear execution trail.",
+  "managerExpects": "Correct documents, correct recipients, tight turnaround, and no ambiguity over what version was signed.",
+  "aiWorkflowImpact": "AI reduces review time by extracting critical dates or differences across versions before documents are sent for signature.",
+  "demoDescription": "Prepare a simple approval package for a tenant variation and confirm the right signers, version notes, and follow-up checkpoints.",
+  "vocabulary": [
+    { "term": "Audit Trail", "definition": "The system record showing who received, opened, signed, and completed a document." },
+    { "term": "Envelope", "definition": "The package of documents, signers, and routing instructions sent for execution." },
+    { "term": "Counterparty", "definition": "The other party signing or receiving the agreement or notice." }
+  ],
+  "beginnerMistakes": [
+    "Sending the wrong version of a document",
+    "Forgetting to confirm internal approvals before external routing",
+    "Treating execution as complete without saving the final record to the right file system"
+  ],
+  "relatedProject": "contractor-tender-pack"
+}

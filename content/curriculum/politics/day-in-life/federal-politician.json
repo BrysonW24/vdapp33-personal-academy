@@ -1,0 +1,52 @@
+{
+  "slug": "federal-politician",
+  "title": "Federal Politician (MP)",
+  "setting": "Parliament House, Canberra + Electorate Office, Sydney",
+  "companySize": "Federal Parliament — 151 House members, 76 Senators",
+  "description": "A sitting federal MP splits their time between Canberra (parliament sitting weeks — roughly 20 weeks/year) and their electorate office. In Canberra, the day revolves around caucus, committees, Question Time, and votes. In the electorate, it's constituent meetings, community events, and local media. The role demands constant context-switching between national policy and local concerns.",
+  "salary": "$217,060 AUD base (backbencher) + electorate allowance",
+  "schedule": [
+    { "time": "06:00", "activity": "Morning media scan — read overnight coverage, check social media mentions, prepare for any emerging issues", "tools": ["OpenAustralia alerts", "Media monitoring service", "Social media"], "note": "The news cycle never sleeps. Being across the morning coverage before your first meeting is non-negotiable." },
+    { "time": "07:30", "activity": "Breakfast meeting with a stakeholder group — industry lobby, union delegation, or community organisation", "tools": ["Briefing notes from staff", "Constituent CRM"], "note": "Breakfast meetings are prime real estate in Canberra. Everyone wants 30 minutes with an MP." },
+    { "time": "09:00", "activity": "Caucus or party room meeting — discuss party strategy, upcoming bills, and internal politics", "note": "What happens in caucus stays in caucus. This is where real party decisions are made." },
+    { "time": "10:00", "activity": "Committee hearing — questioning public servants or witnesses on a specific policy area", "tools": ["Committee papers", "Hansard", "ParlInfo"], "note": "Committees are where the detailed policy work happens, away from the theatrics of Question Time." },
+    { "time": "12:00", "activity": "Lunch meeting with a colleague to build support for a private member's motion or bill amendment", "note": "Much of parliament's real work happens in informal conversations over lunch and coffee." },
+    { "time": "14:00", "activity": "Question Time — sit in the chamber, ask or answer questions, respond to points of order", "tools": ["Question brief from staff"], "note": "Question Time is theatre, but it sets the news cycle. A strong 30-second grab can dominate the evening news." },
+    { "time": "15:30", "activity": "Debate and votes in the chamber — speak on legislation, participate in divisions", "tools": ["Hansard", "Bills digest"], "note": "You must be present for divisions (votes). The party whip tracks attendance." },
+    { "time": "17:00", "activity": "Media interview or doorstop — respond to the day's developments for evening news bulletins", "tools": ["Key messages from press office"] },
+    { "time": "18:00", "activity": "Reception or fundraising event — network with colleagues, donors, or stakeholders", "note": "Evenings in Canberra are filled with events. Saying no is as important as saying yes." },
+    { "time": "20:00", "activity": "Preparation for tomorrow — read briefing papers, review committee documents, respond to emails", "tools": ["Ministerial briefings", "Email"] },
+    { "time": "21:30", "activity": "Call family — a Canberra week means being away from home Monday to Thursday", "note": "The personal cost of federal politics is significant. Most MPs are away from their families half the year." }
+  ],
+  "responsibilities": [
+    "Represent your electorate's interests in the federal parliament",
+    "Scrutinise government legislation and spending through committees and debate",
+    "Manage an electorate office with 4-5 staff handling constituent casework",
+    "Attend parliament sitting weeks (approximately 20 per year)",
+    "Participate in party caucus and policy development",
+    "Engage with local media, community groups, and constituents",
+    "Fundraise for your re-election and your party"
+  ],
+  "challenges": [
+    "Constant travel between Canberra and your electorate disrupts family life",
+    "Balancing national party discipline with local electorate needs",
+    "24/7 media scrutiny — any mistake becomes a news story",
+    "Managing constituent expectations when you cannot fix everything",
+    "Internal party politics can be more challenging than opposing parties"
+  ],
+  "rewards": [
+    "Direct ability to influence national legislation and policy",
+    "Helping individual constituents navigate government services",
+    "Being part of debates that shape the country's direction",
+    "Platform to champion causes you believe in",
+    "The privilege of representing a community that chose you"
+  ],
+  "careerPath": [
+    "Local community organiser or party volunteer",
+    "Party branch member and preselection candidate",
+    "Elected federal MP (backbencher)",
+    "Parliamentary Secretary or Shadow spokesperson",
+    "Minister or Shadow Minister",
+    "Senior Minister, Deputy Leader, or Prime Minister"
+  ]
+}

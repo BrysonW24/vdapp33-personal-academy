@@ -1,0 +1,22 @@
+{
+  "slug": "speechwriter-ai",
+  "name": "AI Speech Writing Tools",
+  "category": "speech-writing",
+  "description": "AI-powered writing assistants (Claude, ChatGPT, Jasper) that help draft, structure, and refine political speeches — from initial brainstorming through to final polish. Used as a starting point, not a replacement for authentic voice.",
+  "whyUseIt": "Speech writing is time-consuming. AI tools can generate first drafts, suggest rhetorical structures, identify weak arguments, and help with research — dramatically reducing the time from idea to polished speech. The politician's authentic voice and judgement must always be the final filter.",
+  "pricingTier": "freemium",
+  "url": "https://claude.ai",
+  "aiCapabilities": "Full speech drafting, rhetorical analysis, argument strengthening, tone adjustment, fact-checking assistance, translation for multilingual electorates",
+  "alternatives": ["ChatGPT", "Jasper", "Copy.ai", "Grammarly"],
+  "funnelPosition": "Mid funnel — content creation for persuasion",
+  "outputs": ["Speech drafts", "Talking points", "Op-eds", "Media statements", "Social media captions"],
+  "marketerWorkflow": "Brief the AI with context (audience, occasion, key messages, tone), generate a draft, review and inject authentic personal stories and local references, rehearse and refine",
+  "managerExpects": "Faster speech turnaround — from days to hours for routine speeches, with the politician's voice and values consistently reflected",
+  "demoDescription": "Use Claude to draft a 5-minute community forum speech on local healthcare, then manually inject personal stories and local references to make it authentic",
+  "vocabulary": [
+    { "term": "Prompt engineering", "definition": "The skill of crafting instructions for AI tools to produce the most useful output" },
+    { "term": "Voice authenticity", "definition": "Ensuring AI-assisted content sounds like the politician, not like a robot" }
+  ],
+  "beginnerMistakes": ["Using AI-generated speeches without personalisation — audiences detect inauthenticity", "Letting AI write policy positions it might hallucinate — always fact-check claims"],
+  "relatedProject": "deliver-a-stump-speech"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "coalition-building",
+  "title": "Coalition Building",
+  "shortSummary": "Build and maintain political coalitions — negotiate with allied and rival factions, manage crossbench relationships, and assemble the numbers to pass legislation or win government.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "No politician governs alone. In Australia's multi-party system, the ability to build coalitions — within your party, across the chamber, and in the community — determines whether you can actually deliver on your promises.",
+  "coreConcepts": [
+    "Coalition theory and minimum winning coalitions",
+    "Negotiation tactics and compromise",
+    "Managing party factions",
+    "Crossbench and minor party dynamics",
+    "Interest group and union alliances",
+    "The maths of majority: counting numbers in chambers"
+  ],
+  "lessons": [],
+  "frameworks": ["coalition-math"],
+  "relatedModules": ["legislative-process", "community-organising", "governance-reform"],
+  "status": "coming-soon",
+  "order": 11,
+  "levelNumber": 3
+}

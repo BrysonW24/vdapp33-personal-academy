@@ -1,0 +1,15 @@
+{
+  "slug": "python-astropy",
+  "name": "Python + AstroPy + Poliastro",
+  "category": "programming",
+  "description": "Python with AstroPy (astronomical calculations) and Poliastro (orbital mechanics) provides a free, powerful environment for astrodynamics computation, trajectory analysis, and space mission design.",
+  "whyUseIt": "Python is free, widely taught, and increasingly used in aerospace. AstroPy handles coordinate transforms, time systems, and physical constants. Poliastro provides Hohmann transfers, orbit plotting, and manoeuvre planning. Together they replace expensive commercial tools for many tasks.",
+  "pricingTier": "free",
+  "url": "https://www.astropy.org",
+  "alternatives": ["MATLAB", "Julia", "Octave"],
+  "funnelPosition": "Analysis, simulation, and automation",
+  "outputs": ["Orbital calculations", "Trajectory simulations", "Mission analysis scripts", "Automated trade studies"],
+  "vocabulary": [{"term": "AstroPy", "definition": "Core Python library for astronomy — coordinates, units, constants, and time systems"},
+    {"term": "Poliastro", "definition": "Python library specifically for orbital mechanics — orbit propagation, manoeuvres, and plotting"}],
+  "beginnerMistakes": ["Not using proper units (AstroPy units system prevents unit errors)", "Mixing reference frames without proper transforms", "Using low-fidelity propagation when high-fidelity is needed"]
+}

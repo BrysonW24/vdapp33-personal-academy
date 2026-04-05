@@ -1,0 +1,23 @@
+{
+  "slug": "computational-physics",
+  "title": "Computational Physics",
+  "shortSummary": "Numerical methods, simulation, Monte Carlo techniques, and how computers solve physics problems that pen-and-paper cannot.",
+  "level": "advanced",
+  "category": "applied",
+  "whyItMatters": "Most real-world physics problems have no exact analytical solution. Computational physics lets you simulate everything from galaxy collisions to protein folding. It is an essential skill for modern research and industry.",
+  "coreConcepts": [
+    "Numerical integration and differentiation",
+    "Solving ODEs and PDEs computationally",
+    "Monte Carlo methods",
+    "Molecular dynamics simulation",
+    "Finite element methods",
+    "Data fitting and error analysis"
+  ],
+  "lessons": [],
+  "frameworks": ["numerical-methods", "error-analysis"],
+  "visualType": "simulation-output",
+  "relatedModules": ["classical-mechanics", "statistical-mechanics", "quantum-mechanics-intro"],
+  "status": "coming-soon",
+  "order": 14,
+  "levelNumber": 3
+}

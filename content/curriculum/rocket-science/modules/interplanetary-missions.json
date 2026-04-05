@@ -1,0 +1,23 @@
+{
+  "slug": "interplanetary-missions",
+  "title": "Interplanetary Missions",
+  "shortSummary": "Going beyond Earth orbit — interplanetary trajectory design, gravity assists, deep-space navigation, and the challenges of reaching Mars and beyond.",
+  "level": "advanced",
+  "category": "mission-design",
+  "whyItMatters": "Interplanetary flight is the ultimate test of every discipline in rocket science. The delta-v requirements, communication delays, and mission durations push every system to its limits. SpaceX's Starship is being designed specifically for Mars — this is where the frontier lives.",
+  "coreConcepts": [
+    "Interplanetary transfer trajectories",
+    "Gravity assists and slingshot manoeuvres",
+    "Deep-space communication",
+    "Planetary capture and orbit insertion",
+    "Entry, descent, and landing on other worlds",
+    "In-situ resource utilisation (ISRU)"
+  ],
+  "lessons": [],
+  "frameworks": ["delta-v-budget-framework", "systems-engineering-v-model"],
+  "visualType": "solar-system-trajectory",
+  "relatedModules": ["orbital-mechanics", "mission-design", "human-mars-missions"],
+  "status": "coming-soon",
+  "order": 15,
+  "levelNumber": 4
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "build-a-spectrometer",
+  "title": "Build a Spectrometer",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Construct a simple diffraction-grating spectrometer from household materials, calibrate it, and use it to identify the emission spectra of different light sources.",
+  "whyItMatters": "Spectroscopy is how we know what stars are made of, how we detect pollutants, and how we study atomic structure. Building a spectrometer from scratch teaches wave optics, atomic physics, and the connection between theory and measurement.",
+  "skillsLearned": ["Diffraction and interference", "Spectral analysis", "Calibration techniques", "Atomic emission and absorption", "Experimental design"],
+  "prerequisites": ["Wave properties", "Electromagnetic spectrum", "Interference and diffraction"],
+  "steps": [
+    { "title": "Build the spectrometer", "description": "Use a cardboard tube, a narrow slit (razor blade cuts in aluminium foil), and a diffraction grating (old CD or purchased grating film). Mount them so light enters the slit and is dispersed by the grating.", "tips": "A 1000 lines/mm grating gives better resolution than a CD (~600 lines/mm)." },
+    { "title": "Calibrate with a known source", "description": "Use a fluorescent light (mercury lines) or LED array to calibrate the angular positions of known wavelengths.", "tips": "Mark wavelength positions directly on the viewing screen or use a phone camera to photograph the spectrum." },
+    { "title": "Observe different sources", "description": "View the spectra of incandescent bulbs (continuous), fluorescent lights (line spectrum), LEDs, sodium streetlights, and sunlight.", "tips": "Sunlight shows Fraunhofer absorption lines — dark lines from elements in the Sun's atmosphere." },
+    { "title": "Identify spectral lines", "description": "Compare your observed line positions to published spectral data for hydrogen, mercury, sodium, and neon. Identify which elements are present in each source.", "tips": "The hydrogen Balmer series (visible lines at 656, 486, 434, 410 nm) is the easiest to identify." },
+    { "title": "Analyse and report", "description": "Calculate the grating equation d*sin(theta) = m*lambda for your observations. Report measured wavelengths with uncertainties and compare to accepted values." }
+  ],
+  "deliverables": ["A working spectrometer with documented construction", "Calibration curve (angle vs wavelength)", "Photographs or sketches of at least 4 different spectra", "Identified spectral lines with wavelength measurements", "Written comparison of measured vs accepted wavelengths"],
+  "tools": ["Cardboard tube", "Diffraction grating or old CD", "Razor blade and aluminium foil", "Various light sources", "Camera or smartphone"],
+  "rubric": [
+    { "criteria": "Construction", "description": "Spectrometer is functional, well-constructed, and produces visible spectra" },
+    { "criteria": "Calibration", "description": "Properly calibrated against known wavelengths with uncertainty estimates" },
+    { "criteria": "Analysis", "description": "Correct application of grating equation, accurate wavelength measurements" },
+    { "criteria": "Identification", "description": "At least 3 spectral lines correctly identified with element attribution" }
+  ]
+}

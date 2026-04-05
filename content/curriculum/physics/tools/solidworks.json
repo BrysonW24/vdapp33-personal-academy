@@ -1,0 +1,21 @@
+{
+  "slug": "solidworks",
+  "name": "SolidWorks",
+  "category": "hardware",
+  "description": "A 3D CAD (computer-aided design) platform used by experimental physicists to design custom laboratory equipment, detector components, and mechanical assemblies.",
+  "whyUseIt": "Experimental physics requires custom hardware — vacuum chambers, detector mounts, optical benches, cryostats. SolidWorks lets you design these in 3D, check for interference, run stress analysis, and generate manufacturing drawings.",
+  "pricingTier": "paid",
+  "url": "https://www.solidworks.com/",
+  "alternatives": ["Fusion 360", "FreeCAD", "Inventor"],
+  "fieldPosition": "Experimental physics — designing custom laboratory equipment and detector hardware",
+  "outputs": ["3D component models", "Assembly drawings", "Manufacturing drawings", "Stress analysis results"],
+  "physicistWorkflow": "Design the component in 3D, assemble with other parts, run simulations (stress, thermal), generate drawings for the workshop.",
+  "supervisorExpects": "Ability to design functional lab equipment that can be manufactured and assembled correctly.",
+  "computationalImpact": "Catches design errors before expensive machining. Enables rapid prototyping with 3D printing.",
+  "vocabulary": [
+    { "term": "Part", "definition": "A single 3D component" },
+    { "term": "Assembly", "definition": "Multiple parts combined with constraints defining their relative positions" }
+  ],
+  "beginnerMistakes": ["Not designing for manufacturability — features that look fine in CAD but cannot be machined", "Forgetting tolerances and clearances"],
+  "relatedProject": "build-a-spectrometer"
+}

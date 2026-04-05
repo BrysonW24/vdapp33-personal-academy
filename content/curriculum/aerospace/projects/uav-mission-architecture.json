@@ -1,0 +1,76 @@
+{
+  "slug": "uav-mission-architecture",
+  "title": "UAV Mission Architecture",
+  "difficulty": 5,
+  "estimatedHours": 12,
+  "description": "Develop a concept of operations and system architecture for a UAV mission such as infrastructure inspection, mapping, or emergency response.",
+  "whyItMatters": "Many aerospace projects fail because the vehicle was designed before the operation was understood. A strong mission architecture prevents elegant hardware from solving the wrong problem.",
+  "skillsLearned": [
+    "CONOPS development",
+    "System decomposition",
+    "Interface definition",
+    "Operational-risk thinking",
+    "Requirement capture"
+  ],
+  "prerequisites": [
+    "UAV Design",
+    "Systems Engineering",
+    "Avionics Systems"
+  ],
+  "steps": [
+    {
+      "title": "Define the mission scenario",
+      "description": "Choose the customer, operating environment, payload, endurance, and response-time expectations.",
+      "tips": "Mission architecture becomes sharper when one real scenario anchors it."
+    },
+    {
+      "title": "Map the full operation",
+      "description": "Describe planning, launch, mission execution, communications, recovery, maintenance, and data handoff.",
+      "tips": "Include humans, software, regulators, and logistics in the story."
+    },
+    {
+      "title": "Build the system architecture",
+      "description": "Break the solution into air vehicle, payload, autopilot, communications, ground station, and support infrastructure.",
+      "tips": "Interfaces matter more than boxes. Define what must pass between them."
+    },
+    {
+      "title": "Identify the hard constraints",
+      "description": "Highlight the limiting factors such as radio coverage, battery reserve, observer requirements, or weather windows.",
+      "tips": "The real mission killer is often operational, not aerodynamic."
+    },
+    {
+      "title": "Write the initial requirement set",
+      "description": "Turn the architecture into a shortlist of testable system requirements and open risks.",
+      "tips": "Use verbs like shall, must, and can only when the condition is measurable."
+    }
+  ],
+  "deliverables": [
+    "One-page mission scenario",
+    "CONOPS diagram or sequence",
+    "System architecture and interface list",
+    "Initial requirement set with top risks"
+  ],
+  "tools": [
+    "ArduPilot",
+    "IBM DOORS Next",
+    "OpenVSP"
+  ],
+  "rubric": [
+    {
+      "criteria": "Operational realism",
+      "description": "The mission concept reflects actual people, constraints, and environmental conditions."
+    },
+    {
+      "criteria": "Architecture quality",
+      "description": "Subsystem boundaries and interfaces are clear and justified."
+    },
+    {
+      "criteria": "Requirement quality",
+      "description": "Requirements are testable and flow logically from the CONOPS."
+    },
+    {
+      "criteria": "Risk thinking",
+      "description": "The work surfaces the most important uncertainties early."
+    }
+  ]
+}

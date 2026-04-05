@@ -1,0 +1,22 @@
+{
+  "slug": "actblue",
+  "name": "ActBlue / GoFundMe Charity",
+  "category": "fundraising",
+  "description": "Online fundraising platforms designed for political campaigns and advocacy organisations. ActBlue is the US standard; in Australia, platforms like GoFundMe Charity, Chuffed, and direct Stripe integrations serve similar functions for political fundraising.",
+  "whyUseIt": "Digital fundraising is now the primary source of small-dollar donations for political campaigns. These platforms handle payment processing, recurring donations, donor management, and compliance reporting — letting campaigns focus on asking rather than accounting.",
+  "pricingTier": "freemium",
+  "url": "https://secure.actblue.com",
+  "aiCapabilities": "Predictive optimal ask amounts, automated donor re-engagement, A/B testing for donation pages",
+  "alternatives": ["Chuffed", "Raisely", "Stripe for campaigns", "GiveNow"],
+  "funnelPosition": "Bottom funnel — conversion from supporter to donor",
+  "outputs": ["Donation processing", "Recurring donation management", "Donor database", "AEC compliance reports"],
+  "marketerWorkflow": "Create a donation page with compelling copy, embed in emails and social posts, track donations in real time, export data for AEC disclosure compliance",
+  "managerExpects": "Daily fundraising totals, average donation size, number of new donors vs recurring, top fundraising email or post",
+  "demoDescription": "Set up a donation page for a campaign launch, create a $25 recurring donation option, and build an automated thank-you email sequence that triggers on donation",
+  "vocabulary": [
+    { "term": "Small-dollar donation", "definition": "Donations under $100, typically from grassroots supporters via digital platforms" },
+    { "term": "Disclosure threshold", "definition": "The donation amount above which donors must be publicly disclosed to the AEC ($16,300 in 2024-25)" }
+  ],
+  "beginnerMistakes": ["Not setting up recurring donation options — one-time donors are expensive to re-acquire", "Failing to track donations against AEC disclosure thresholds"],
+  "relatedProject": "run-a-mock-campaign"
+}

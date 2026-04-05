@@ -1,0 +1,22 @@
+{
+  "slug": "crisis-management",
+  "title": "Crisis Management",
+  "shortSummary": "Survive and recover from political crises — scandals, gaffes, policy failures, and external shocks. Learn the frameworks that determine whether a crisis ends a career or becomes a turning point.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "Every political career will face a crisis. The difference between those who survive and those who don't is almost always preparation, speed, and discipline. Crisis management is not optional — it is survival.",
+  "coreConcepts": [
+    "The anatomy of a political crisis",
+    "Golden hour response protocols",
+    "Media management during crisis",
+    "Apology frameworks and accountability",
+    "Internal party crisis management",
+    "Recovery and reputation rebuilding"
+  ],
+  "lessons": [],
+  "frameworks": ["crisis-comms-template"],
+  "relatedModules": ["media-communications", "public-speaking", "executive-leadership"],
+  "status": "coming-soon",
+  "order": 14,
+  "levelNumber": 3
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "paraview",
+  "name": "ParaView",
+  "category": "visualisation",
+  "description": "An open-source, multi-platform data analysis and 3D visualisation application for extremely large datasets. Built for scientific and engineering visualisation.",
+  "whyUseIt": "ParaView can visualise datasets that are far too large for Matplotlib or MATLAB — billions of data points, 3D volumes, time-series of fluid simulations. It is the standard tool for post-processing computational physics results.",
+  "pricingTier": "free",
+  "url": "https://www.paraview.org/",
+  "alternatives": ["VisIt", "Mayavi", "VMD"],
+  "fieldPosition": "Computational physics — 3D visualisation of simulation results (CFD, FEM, molecular dynamics)",
+  "outputs": ["3D volume renderings", "Isosurface plots", "Streamlines", "Animated time series"],
+  "physicistWorkflow": "Load simulation output files, apply filters (slice, isosurface, streamline), adjust colour maps, and export images or animations.",
+  "supervisorExpects": "Clear, informative 3D visualisations that communicate simulation results effectively.",
+  "computationalImpact": "Makes it possible to explore and communicate results from large-scale 3D simulations.",
+  "vocabulary": [
+    { "term": "Filter", "definition": "A processing step applied to data — slicing, contouring, integrating, etc." },
+    { "term": "Pipeline", "definition": "The chain of filters applied from data source to visualisation" }
+  ],
+  "beginnerMistakes": ["Using inappropriate colour maps (e.g. rainbow) that hide features", "Not setting the correct data range for the colour scale"],
+  "relatedProject": "heat-engine-analysis"
+}

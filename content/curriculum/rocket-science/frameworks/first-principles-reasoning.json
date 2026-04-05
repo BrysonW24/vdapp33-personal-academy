@@ -1,0 +1,17 @@
+{
+  "slug": "first-principles-reasoning",
+  "name": "First Principles Reasoning",
+  "summary": "Break a problem down to its fundamental physical truths and reason up from there, rather than reasoning by analogy with what has been done before. This is the defining approach of SpaceX — question every assumption, justify every design choice from physics, and reject 'that is how it has always been done' as an answer.",
+  "whenToUseIt": "Use first principles reasoning whenever you are designing a new system, evaluating an existing design for cost reduction, or trying to find a fundamentally better approach. It is especially powerful when an industry has stagnated with legacy approaches.",
+  "steps": [
+    "Identify the problem or design challenge clearly",
+    "List all assumptions currently being made",
+    "For each assumption, ask: is this a law of physics or a convention?",
+    "Strip away conventions and work from the physical constraints",
+    "Ask: what is the cheapest, simplest, lightest way to satisfy the physical constraints?",
+    "Design from this foundation, adding complexity only when physics requires it",
+    "Validate that the new approach actually satisfies the original requirements"
+  ],
+  "example": "Elon Musk's analysis of rocket cost: 'If you look at the raw materials in a Falcon 9 — aluminium, carbon fibre, copper, titanium, Inconel — the cost is about 2% of the rocket price. So the potential for cost reduction is enormous.' First principles says: the materials are cheap, so the cost must be in manufacturing and operations. Solution: vertical integration (build it all in-house), mass production (Raptor engines on a production line, not bespoke), and reusability (amortise fixed costs over many flights). This reasoning cut launch costs by 10x.",
+  "category": "design-philosophy"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "shor-vs-grover",
+  "name": "Shor vs Grover Lens",
+  "summary": "A comparison frame that separates qualitatively different quantum speedups: structured algebraic breakthroughs versus generic quadratic search gains.",
+  "whenToUseIt": "Use it when judging application claims and deciding whether a quantum speedup would be transformational, modest, or irrelevant in practice.",
+  "steps": [
+    "Ask whether the problem has exploitable mathematical structure.",
+    "Check whether the claimed speedup looks exponential, polynomial, or only quadratic.",
+    "Estimate the data-loading and oracle assumptions.",
+    "Compare the quantum resource cost to realistic classical baselines.",
+    "Decide whether the application claim survives engineering reality."
+  ],
+  "example": "Factoring and unstructured search are often both cited in quantum discussions, but they represent very different levels of practical disruption and hardware demand.",
+  "category": "applications"
+}

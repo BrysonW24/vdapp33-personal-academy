@@ -1,0 +1,22 @@
+{
+  "slug": "ngp-van",
+  "name": "NGP VAN / EveryAction",
+  "category": "campaign-management",
+  "description": "The dominant voter file and campaign technology platform used by progressive campaigns globally. Combines voter data, canvassing tools, fundraising, and volunteer management.",
+  "whyUseIt": "NGP VAN provides the most comprehensive voter data and field operations tools available. Its MiniVAN mobile app lets canvassers record voter interactions in real time, feeding data directly back to campaign headquarters for instant analysis.",
+  "pricingTier": "paid",
+  "url": "https://www.ngpvan.com",
+  "aiCapabilities": "Predictive voter modelling, automated canvass routing, AI-driven donor identification",
+  "alternatives": ["NationBuilder", "i360", "L2"],
+  "funnelPosition": "Mid to bottom funnel — voter identification, persuasion, and turnout",
+  "outputs": ["Walk lists for canvassers", "Phone bank scripts and call lists", "Voter contact reports", "Fundraising tracking"],
+  "marketerWorkflow": "Generate targeted walk lists, deploy canvassers via MiniVAN app, collect door-knock data in real time, analyse persuasion rates by precinct",
+  "managerExpects": "Daily canvass reports: doors knocked, voters contacted, persuasion rate, volunteer hours deployed",
+  "demoDescription": "Generate a walk list for a specific suburb targeting voters who voted at the last election but didn't preference your party, sorted by street for efficient door-knocking routes",
+  "vocabulary": [
+    { "term": "Walk list", "definition": "A printed or digital list of addresses for canvassers to visit, sorted by street" },
+    { "term": "Voter ID", "definition": "The process of identifying a voter's candidate preference through direct contact" }
+  ],
+  "beginnerMistakes": ["Not training canvassers on data entry before deploying them", "Generating walk lists that are too long for the available volunteer hours"],
+  "relatedProject": "run-a-mock-campaign"
+}

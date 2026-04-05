@@ -1,0 +1,25 @@
+{
+  "slug": "ardupilot",
+  "name": "ArduPilot",
+  "category": "autonomy",
+  "description": "An open-source autopilot stack used for UAV flight control, mission planning, and vehicle integration across research and commercial drone projects.",
+  "whyUseIt": "ArduPilot is one of the most accessible ways to learn how aircraft autonomy, mission execution, and ground-station workflows fit together in practice.",
+  "pricingTier": "free",
+  "url": "https://ardupilot.org/",
+  "alternatives": ["PX4", "DJI enterprise stack", "Custom autopilot software"],
+  "fieldPosition": "UAV controls, mission execution, and integration testing",
+  "engineerWorkflow": "Configure the vehicle, tune basic control loops, define missions, run simulation or field tests, and review flight logs to improve behaviour.",
+  "managerExpects": "A safe integration plan, parameter discipline, and clear boundaries between experiment code and operationally trusted configurations.",
+  "demoDescription": "Set up a simple survey mission in simulation, then inspect the log to understand how the vehicle tracked waypoints and handled disturbances.",
+  "outputs": [
+    "Mission plans",
+    "Vehicle parameters",
+    "Flight logs",
+    "Autonomy test evidence"
+  ],
+  "beginnerMistakes": [
+    "Changing many parameters at once and losing track of cause and effect",
+    "Skipping simulation and safety checks before field testing"
+  ],
+  "relatedProject": "uav-mission-architecture"
+}

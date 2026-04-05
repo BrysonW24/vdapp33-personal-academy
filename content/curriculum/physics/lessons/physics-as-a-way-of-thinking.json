@@ -1,0 +1,39 @@
+{
+  "slug": "physics-as-a-way-of-thinking",
+  "moduleSlug": "what-physics-is",
+  "title": "Physics as a Way of Thinking",
+  "objective": "Understand how the physicist's mindset — reductionism, symmetry, conservation, and approximation — applies far beyond the laboratory.",
+  "beginnerExplanation": "Physics is not just a collection of facts about the universe. It is a way of thinking. Physicists are trained to take a complex, messy situation and strip it down to its essential features — this is called reductionism. They look for patterns, symmetries (things that stay the same when you change something else), and conservation laws (quantities that do not change). They build simplified models, test them, and then add complexity only when needed. This approach works in physics, but it also works in engineering, finance, medicine, and everyday problem-solving. Learning to think like a physicist means learning to ask: What are the key variables? What is conserved? What can I safely ignore? What does the simplest model predict?",
+  "deeperExplanation": "The physicist's toolkit of mental models is remarkably transferable. Symmetry arguments let you solve problems without doing any calculation at all — if a situation has rotational symmetry, the answer cannot depend on angle. Conservation laws (energy, momentum, charge) provide powerful constraints that reduce complex dynamics to simple bookkeeping. Approximation is an art: knowing when air resistance matters and when it does not, when quantum effects kick in and when classical physics suffices. The physicist Richard Feynman called this 'the art of not being too precise about things that do not matter'. Scaling laws — how quantities change when you change the size of a system — reveal why ants can carry many times their body weight but elephants cannot, and why small animals lose heat faster than large ones. These are not just physics results; they are thinking tools.",
+  "keyTakeaways": [
+    "Physics teaches a reductionist, model-building approach to complex problems",
+    "Symmetry arguments can solve problems without any calculation",
+    "Conservation laws provide powerful constraints on physical systems",
+    "Good approximation — knowing what to ignore — is a core skill",
+    "Scaling laws reveal how systems behave as you change their size",
+    "The physicist's mindset is transferable to engineering, business, and everyday life"
+  ],
+  "frameworks": ["scientific-method", "symmetry-principles", "conservation-laws"],
+  "example": "Why can an ant carry 50 times its body weight but a human cannot? Scaling laws: muscle strength scales with cross-sectional area (length²) while weight scales with volume (length³). As an animal gets bigger, its weight grows faster than its strength. This simple physics reasoning explains something that seems mysterious without it.",
+  "commonMistakes": [
+    "Over-simplifying to the point where your model misses essential physics",
+    "Under-simplifying and drowning in irrelevant detail",
+    "Forgetting that models are approximations, not reality itself",
+    "Ignoring symmetry arguments because they seem 'too easy' to be rigorous"
+  ],
+  "exercise": "Pick a complex real-world system (e.g. traffic flow, a cup of tea cooling, a bouncing ball). Identify the key variables, state what you would ignore in a first approximation, identify any conservation laws or symmetries, and predict the qualitative behaviour. Then check your reasoning.",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "What is reductionism in physics?",
+      "options": ["Making things smaller", "Stripping a problem to its essential features", "Using only simple equations", "Reducing the number of experiments"],
+      "correctIndex": 1,
+      "explanation": "Reductionism means identifying the essential features of a problem and building a simplified model that captures the key physics while ignoring irrelevant details."
+    }
+  ],
+  "perspectives": {
+    "experimentalist": "In the lab, simplification is survival. You cannot control every variable. The skill is knowing which variables matter and designing your experiment accordingly.",
+    "theorist": "Symmetry is the deepest guide to truth. Every conservation law comes from a symmetry (Noether's theorem). Finding the symmetry is often more important than solving the equation.",
+    "educator": "The greatest gift physics education gives is not formulae — it is a way of reasoning about the world that students carry into every domain of their lives."
+  }
+}

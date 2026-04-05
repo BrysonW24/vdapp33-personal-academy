@@ -1,0 +1,29 @@
+{
+  "slug": "thermodynamics",
+  "title": "Thermodynamics",
+  "shortSummary": "Heat, temperature, entropy, and the laws that govern energy transfer — why perpetual motion machines are impossible and why your coffee goes cold.",
+  "level": "beginner",
+  "category": "classical",
+  "whyItMatters": "Thermodynamics governs engines, refrigerators, stars, and chemical reactions. The second law — entropy always increases — is one of the most profound statements in all of science. It sets the direction of time itself.",
+  "coreConcepts": [
+    "Temperature and heat",
+    "The zeroth, first, second, and third laws",
+    "Entropy and disorder",
+    "Heat engines and efficiency",
+    "Phase transitions",
+    "Ideal gas law"
+  ],
+  "lessons": [
+    "temperature-and-heat-transfer",
+    "first-law-energy-conservation",
+    "entropy-and-second-law",
+    "heat-engines-and-carnot",
+    "phase-transitions"
+  ],
+  "frameworks": ["conservation-laws", "equilibrium-analysis"],
+  "visualType": "pv-diagram",
+  "relatedModules": ["classical-mechanics", "statistical-mechanics"],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "stakeholder-mapping",
+  "name": "Stakeholder Mapping",
+  "summary": "A framework for identifying and prioritising all the people and groups who have an interest in a political decision — and determining how to engage with each.",
+  "whenToUseIt": "When developing policy, building support for legislation, managing a political issue, planning community engagement, or preparing for a contentious decision.",
+  "steps": [
+    "List all stakeholders affected by the decision — individuals, organisations, communities, media, other politicians",
+    "Map each stakeholder on two axes: level of influence (high/low) and level of interest (high/low)",
+    "High influence + high interest = Key Players: engage closely, consult regularly, manage actively",
+    "High influence + low interest = Context Setters: keep informed, don't overwhelm, activate when needed",
+    "Low influence + high interest = Subjects: keep informed, provide channels to contribute, don't over-promise",
+    "Low influence + low interest = Crowd: monitor only, communicate broadly",
+    "Develop a tailored engagement strategy for each quadrant"
+  ],
+  "example": "A state government proposing a new public transport line would map: Key Players — the Transport Minister, Treasury, affected local councils, construction unions, major contractors. Context Setters — the media, the federal government (co-funding), the opposition transport spokesperson. Subjects — commuters, local businesses, environmental groups, disability advocates. Crowd — the general public in unaffected areas. Each group requires different communication: Key Players need face-to-face briefings; Subjects need public consultation sessions; the Crowd gets a media campaign.",
+  "category": "governance"
+}

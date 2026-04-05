@@ -1,0 +1,23 @@
+{
+  "slug": "photonic-quantum-systems",
+  "title": "Photonic Quantum Systems",
+  "shortSummary": "Quantum platforms that encode information in light, with strengths in communication, room-temperature operation, and networking.",
+  "level": "advanced",
+  "category": "hardware",
+  "whyItMatters": "Photons are natural carriers of quantum information across distance. They matter not only for optical quantum computing but also for networking, sensing, and secure communications.",
+  "coreConcepts": [
+    "Single-photon sources",
+    "Interference and indistinguishability",
+    "Integrated photonics",
+    "Loss and detection efficiency",
+    "Measurement-based approaches",
+    "Networking advantages"
+  ],
+  "lessons": [],
+  "frameworks": ["quantum-network-stack", "precision-limit-ladder"],
+  "visualType": "photonic-paths",
+  "relatedModules": ["quantum-networking", "quantum-sensing-metrology", "trapped-ions-neutral-atoms"],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 3
+}

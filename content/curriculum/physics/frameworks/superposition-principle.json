@@ -1,0 +1,15 @@
+{
+  "slug": "superposition-principle",
+  "name": "Superposition Principle",
+  "summary": "For linear systems, the net response at any point is the sum of the individual responses — waves, fields, and quantum states all obey superposition.",
+  "whenToUseIt": "Use superposition whenever you have multiple sources (waves, charges, forces) contributing to a single effect and the system is linear.",
+  "steps": [
+    "Confirm the system obeys linear equations (most wave and field equations do)",
+    "Calculate the effect of each source individually",
+    "Add all individual contributions together (vector sum for forces/fields, algebraic sum for scalar waves)",
+    "Analyse the combined result for interference patterns, nodes, or net fields",
+    "Check boundary conditions are satisfied by the combined solution"
+  ],
+  "example": "Two speakers emit sound waves of the same frequency. At some points, the peaks align (constructive interference) and the sound is loud. At other points, a peak meets a trough (destructive interference) and the sound cancels. This is superposition in action.",
+  "category": "problem-solving"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "contractor-performance-scorecard",
+  "name": "Contractor Performance Scorecard",
+  "summary": "A vendor-governance framework for assessing service partners beyond price alone. It balances response time, quality, safety, documentation, communication, and commercial discipline so managers can hold contractors to a professional standard.",
+  "whenToUseIt": "Use this during quarterly vendor reviews, tender assessments, renewals of service agreements, and after recurring service failures. It is especially useful when owner expectations are high and contractor performance directly shapes tenant experience.",
+  "steps": [
+    "Define the score categories - Score each contractor on responsiveness, quality of repair, safety compliance, reporting quality, tenant interaction, and cost discipline. Use the same categories every time to make trends visible.",
+    "Weight what matters most - A life-safety contractor should not be judged the same way as a landscaping vendor. Weight categories according to operational risk, service visibility, and contract value.",
+    "Collect evidence, not anecdotes - Use work-order close times, defect recurrence, incident records, meeting attendance, and quote accuracy rather than only relying on who feels easiest to work with.",
+    "Review performance in person - Share the scorecard with the contractor, discuss root causes, and agree on corrective actions with dates. The goal is performance improvement, not surprise punishment.",
+    "Use the scorecard in decisions - Feed the results into tender shortlists, contract renewals, and owner reporting so vendor governance becomes part of operating discipline rather than a separate admin task."
+  ],
+  "example": "Two HVAC vendors submit similar pricing. Vendor A is cheaper but has repeat attendance issues and weak safety paperwork. Vendor B costs more but closes urgent jobs faster, documents root cause clearly, and handles tenant-facing communication well. The scorecard makes the trade-off visible and easier to defend to the owner.",
+  "category": "operations"
+}

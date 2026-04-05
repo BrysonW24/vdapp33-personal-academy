@@ -1,0 +1,28 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "category": "collaboration",
+  "description": "A flexible workspace for keeping playbooks, inspection logs, meeting notes, issue trackers, and structured operating knowledge in one shared place.",
+  "whyUseIt": "Property management depends on shared context: contacts, vendor notes, reporting templates, recurring issues, and project history. Notion can become the team's operating memory when formal systems do not capture the nuance of how the asset is actually run.",
+  "pricingTier": "freemium",
+  "url": "https://www.notion.so",
+  "aiCapabilities": "AI can summarize meeting notes, generate first-draft SOPs, extract action items, and help turn messy operating notes into reusable documentation.",
+  "alternatives": ["Confluence", "Microsoft OneNote", "Google Workspace"],
+  "workflowStage": "Knowledge capture, playbooks, and internal coordination",
+  "outputs": ["Operating manuals", "Meeting notes", "Inspection trackers", "Issue logs", "Process templates"],
+  "propertyManagerWorkflow": "Managers use Notion to keep repeating workflows documented, preserve lessons from incidents, and store the shared context that makes onboarding and handover smoother.",
+  "managerExpects": "Information that is current, structured, and easy to find rather than scattered notes that only one person understands.",
+  "aiWorkflowImpact": "AI makes it easier to convert operational conversations into reusable procedures and concise action summaries.",
+  "demoDescription": "Turn a rough set of inspection notes and contractor updates into a clean issue tracker with owners, deadlines, and status.",
+  "vocabulary": [
+    { "term": "Operating Memory", "definition": "The shared record of how a team actually runs a property, beyond what the formal systems store." },
+    { "term": "Template", "definition": "A reusable page or structure designed to standardize repeated work." },
+    { "term": "Knowledge Base", "definition": "A central repository of procedures, notes, and reference material." }
+  ],
+  "beginnerMistakes": [
+    "Letting pages sprawl without a clear structure or ownership",
+    "Duplicating information that should live in a system of record",
+    "Creating playbooks once and never updating them after real incidents"
+  ],
+  "relatedProject": "site-inspection-report"
+}

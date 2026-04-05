@@ -1,0 +1,15 @@
+{
+  "slug": "service-charge-budget-loop",
+  "name": "Service Charge Budget Loop",
+  "summary": "A recurring planning loop for building operating budgets and recoverable outgoings. It links actuals, assumptions, lease treatment, contractor inputs, and owner review into one practical cycle.",
+  "whenToUseIt": "Use this when building annual budgets, reforecasting, preparing recovery schedules, or explaining why actual costs moved against plan. It is especially helpful when a team tends to budget by copying last year with only a small inflation uplift.",
+  "steps": [
+    "Start with actuals and anomalies - Review prior-year spend, one-off events, recurring defects, and seasonal volatility before entering any new numbers. A bad baseline produces a bad budget.",
+    "Check lease recoverability - Before finalizing line items, confirm which costs are recoverable, capped, grossed up, or owner-borne. Budgeting without lease logic creates avoidable disputes later.",
+    "Pressure-test assumptions - Validate utilities, staffing, cleaning, security, repairs, insurance, and contracted services with real market inputs. Do not accept stale assumptions just because they were in last year's file.",
+    "Model variance scenarios - Run downside, base, and improvement cases for major cost drivers so you know which items can move NOI materially if conditions change.",
+    "Close the loop with reporting - Once the budget goes live, compare actuals monthly, explain variance clearly, and feed the lessons into next year's planning cycle."
+  ],
+  "example": "Cleaning is up 11% year over year, electricity use is down after lighting upgrades, and lift repairs were unusually high due to one failed controller. The Service Charge Budget Loop separates structural cost increases from one-off noise and checks which items remain fully recoverable under the lease suite.",
+  "category": "finance"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "industrial-estate",
+  "title": "Industrial Estate Property Manager",
+  "setting": "A multi-building logistics and warehouse estate with loading, access, and heavy-operations complexity",
+  "companySize": "Regional or national portfolio with shared property and facilities support",
+  "description": "You oversee an industrial estate where uptime, truck movement, yard safety, and practical lease control matter more than polished lobbies. The role is less about hospitality and more about operational reliability, access coordination, compliance, and keeping tenancy risk visible across a busy estate.",
+  "salary": "Typically similar to other commercial property roles, with upside for larger estates, specialist operational complexity, or portfolio responsibility.",
+  "schedule": [
+    { "time": "06:45", "activity": "Start with a yard and perimeter review before peak logistics movement begins", "tools": ["notion"], "note": "Industrial issues often show up early through access, safety, and movement friction." },
+    { "time": "07:30", "activity": "Review security incidents, gate access logs, and overnight contractor activity", "tools": ["microsoft-teams", "servicenow"], "note": "Access and safety controls are central to estate performance." },
+    { "time": "08:30", "activity": "Meet a tenant operations lead about truck-staging congestion and loading-bay timing", "tools": ["microsoft-teams"], "note": "Tenant operations and property operations are tightly linked in industrial assets." },
+    { "time": "10:00", "activity": "Check arrears, expiry timing, and outstanding lease obligations for two warehouse units", "tools": ["yardi-voyager", "mri-software"], "note": "Industrial assets can feel operationally simple until lease and risk dates are missed." },
+    { "time": "11:30", "activity": "Vendor meeting on asphalt repairs, stormwater compliance, and line-marking works", "tools": ["microsoft-excel", "docusign"], "note": "Site infrastructure issues quickly become business interruptions if they drift." },
+    { "time": "13:00", "activity": "Update the owner on capex priorities across roofs, hardstand, and security upgrades", "tools": ["power-bi", "microsoft-teams"], "note": "Owners want to know what protects revenue and site functionality." },
+    { "time": "14:30", "activity": "Inspect one vacancy and coordinate basic readiness works for leasing photos and inspections", "tools": ["costar", "notion"], "note": "Industrial leasing support is often fast and practical." },
+    { "time": "16:00", "activity": "Review risk heatmap items: compliance deadlines, contractor safety, and a large tenant arrears watch", "tools": ["power-bi", "notion"], "note": "The estate runs better when the quiet risks stay visible." }
+  ],
+  "responsibilities": [
+    "Protect access, safety, and operational continuity across the estate",
+    "Manage leases, arrears, and vacancy readiness for warehouse units",
+    "Coordinate infrastructure repairs and contractor performance",
+    "Support owners with capex planning around site-critical assets",
+    "Maintain tenant relationships focused on uptime and practical issue resolution",
+    "Track compliance obligations across hardstand, drainage, access, and site services"
+  ],
+  "challenges": [
+    "Operational disruptions can affect truck movements and tenant throughput quickly",
+    "Infrastructure issues are often expensive and hard to defer safely",
+    "Industrial tenants expect practical fixes, not vague promises",
+    "Large sites can hide defects until they become serious",
+    "Lease control and arrears management must stay sharp despite the operational pace"
+  ],
+  "rewards": [
+    "You build strong practical operating judgment and site awareness",
+    "The role has clear links between operational decisions and tenant business impact",
+    "You gain valuable experience in capex prioritization and risk control",
+    "The work is hands-on and commercially tangible",
+    "Estate-level complexity can accelerate progression into portfolio roles"
+  ],
+  "careerPath": [
+    "Assistant property manager or facilities coordinator",
+    "Industrial asset property manager",
+    "Senior industrial portfolio manager",
+    "Regional portfolio lead or asset-support manager",
+    "Operations director, head of industrial property, or client account lead"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "superconducting-qubit-engineer",
+  "title": "Superconducting Qubit Engineer - Quantum Hardware Company",
+  "setting": "A hardware-focused quantum company building superconducting processors and supporting cryogenic infrastructure",
+  "companySize": "Hardware team of 20-60 inside a company of 100-400 people",
+  "description": "You work on a system where chip design, fabrication, microwave control, packaging, cryogenics, and calibration all interact. The role is half device engineering and half experimental discipline.",
+  "salary": "$125,000-$180,000 AUD",
+  "schedule": [
+    {
+      "time": "08:00",
+      "activity": "Check device status, fridge conditions, and overnight calibration drift",
+      "tools": ["qcodes", "labber"],
+      "note": "Many mornings begin with asking why yesterday's fidelity moved."
+    },
+    {
+      "time": "09:30",
+      "activity": "Review chip or package design changes with fabrication and control teams",
+      "tools": [],
+      "note": "Tiny physical changes can alter the whole control story."
+    },
+    {
+      "time": "11:00",
+      "activity": "Run calibration routines and analyse qubit performance",
+      "tools": ["qcodes", "python-scipy"],
+      "note": "Coherence, readout error, and crosstalk are always in view."
+    },
+    {
+      "time": "13:30",
+      "activity": "Investigate one hardware bottleneck such as packaging loss or amplifier-chain noise",
+      "tools": ["labber"],
+      "note": "Progress often comes from removing one ugly experimental constraint at a time."
+    },
+    {
+      "time": "16:00",
+      "activity": "Write up results for the device roadmap and next test cycle",
+      "tools": [],
+      "note": "The roadmap depends on honest interpretation, not only optimistic plots."
+    }
+  ],
+  "responsibilities": [
+    "Characterise qubits and readout performance",
+    "Support calibration and hardware-control workflows",
+    "Investigate coherence and noise bottlenecks",
+    "Coordinate across chip, package, cryogenic, and control teams",
+    "Feed hardware results back into the roadmap"
+  ],
+  "challenges": [
+    "Extreme sensitivity to noise and drift",
+    "Multi-layer problems where no single subsystem is clearly at fault",
+    "Balancing fast experimental iteration with reliable measurement practice"
+  ],
+  "rewards": [
+    "Working directly on one of the most advanced hardware stacks in the field",
+    "Seeing physics, engineering, and software converge in one place",
+    "Contributing to the part of quantum that is hardest to fake"
+  ],
+  "careerPath": [
+    "Quantum hardware engineer -> Senior qubit engineer -> Hardware lead -> Director of quantum hardware"
+  ]
+}

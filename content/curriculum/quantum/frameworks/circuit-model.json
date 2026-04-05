@@ -1,0 +1,15 @@
+{
+  "slug": "circuit-model",
+  "name": "Circuit Model",
+  "summary": "The standard gate-model view of quantum computation in which qubits move through a sequence of gates and measurements.",
+  "whenToUseIt": "Use it whenever an algorithm, protocol, or compilation workflow is being expressed as executable gate logic.",
+  "steps": [
+    "Choose the number of qubits and initial state.",
+    "Lay out the required single- and multi-qubit gates.",
+    "Track the role of entangling operations and depth.",
+    "Decide where measurement occurs and what is classically conditioned.",
+    "Estimate how hardware noise or compilation changes the intended circuit."
+  ],
+  "example": "A Bell-pair preparation or Grover iteration is naturally described in the circuit model because the ordering of gates matters to the interference pattern.",
+  "category": "computation"
+}

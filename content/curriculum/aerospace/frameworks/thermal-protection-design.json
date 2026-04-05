@@ -1,0 +1,15 @@
+{
+  "slug": "thermal-protection-design",
+  "name": "Thermal Protection Design",
+  "summary": "A framework for managing extreme heating through material choice, insulation, geometry, and allowable temperature limits.",
+  "whenToUseIt": "Use it when structures face high aerodynamic heating, engine exhaust exposure, or repeated thermal cycles that can drive failure.",
+  "steps": [
+    "Estimate the heat flux and temperature environment for the mission.",
+    "Choose candidate materials and insulation concepts.",
+    "Model transient and steady-state temperature response.",
+    "Check structural property degradation, oxidation, and maintenance implications.",
+    "Validate the design with test coupons, rigs, or higher-fidelity analysis."
+  ],
+  "example": "A hypersonic leading edge cannot be treated like a normal aluminium structure. Thermal protection design may push the team toward ceramics, active cooling, or a more conservative trajectory to keep temperatures inside material limits.",
+  "category": "thermal"
+}

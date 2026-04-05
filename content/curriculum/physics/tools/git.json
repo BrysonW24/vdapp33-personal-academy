@@ -1,0 +1,21 @@
+{
+  "slug": "git",
+  "name": "Git & GitHub",
+  "category": "collaboration",
+  "description": "A distributed version control system for tracking changes to code and documents. GitHub provides cloud hosting, collaboration, and code review. Essential for modern physics research.",
+  "whyUseIt": "Git tracks every change you make to your code and documents, letting you revert mistakes, compare versions, and collaborate without overwriting each other's work. GitHub makes it easy to share code, reproduce results, and contribute to open-source physics software.",
+  "pricingTier": "free",
+  "url": "https://github.com/",
+  "alternatives": ["GitLab", "Bitbucket", "Mercurial"],
+  "fieldPosition": "Universal — version control is essential for all computational physics and collaborative research",
+  "outputs": ["Version-controlled code repositories", "Collaborative pull requests", "Issue tracking", "Reproducible research archives"],
+  "physicistWorkflow": "Commit changes frequently with descriptive messages, branch for new features, merge via pull requests, and tag releases.",
+  "supervisorExpects": "All analysis code under version control with a clean commit history and a README explaining how to reproduce results.",
+  "computationalImpact": "Enables reproducible research, safe experimentation with code, and seamless collaboration between researchers.",
+  "vocabulary": [
+    { "term": "Commit", "definition": "A snapshot of your project at a point in time" },
+    { "term": "Branch", "definition": "A parallel line of development for testing new ideas without affecting the main code" }
+  ],
+  "beginnerMistakes": ["Not committing frequently enough", "Writing vague commit messages like 'fixed stuff'"],
+  "relatedProject": "orbital-mechanics-sim"
+}

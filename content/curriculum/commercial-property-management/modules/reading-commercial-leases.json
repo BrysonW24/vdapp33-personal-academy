@@ -1,0 +1,28 @@
+{
+  "slug": "reading-commercial-leases",
+  "title": "Reading Commercial Leases",
+  "shortSummary": "Learn how to read leases for action: recoverables, rent reviews, options, make-good, approvals, and landlord obligations.",
+  "level": "beginner",
+  "category": "tenant",
+  "whyItMatters": "The lease is the operating contract for the asset. If you miss a critical date, misread an obligation, or fail to interpret a clause correctly, the cost is real: disputes, missed recoveries, service failures, and avoidable vacancy risk. Strong property managers translate lease language into calendars, checklists, and conversations.",
+  "coreConcepts": [
+    "Key commercial lease clauses every property manager should track",
+    "Critical dates: rent reviews, expiry, option notice windows, and bank guarantees",
+    "Recoverable outgoings versus landlord costs",
+    "How to summarise a lease so operations can use it"
+  ],
+  "lessons": [
+    "reading-the-lease-with-purpose"
+  ],
+  "frameworks": [
+    "Lease Obligation Check"
+  ],
+  "relatedModules": [
+    "tenant-experience-and-occupancy",
+    "arrears-recovery-and-lease-administration",
+    "leasing-support-and-vacancy-strategy"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

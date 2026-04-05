@@ -1,0 +1,17 @@
+{
+  "slug": "pennylane",
+  "name": "PennyLane",
+  "category": "hybrid-computing",
+  "description": "A quantum machine-learning and hybrid-algorithm framework built around differentiable quantum circuits.",
+  "whyUseIt": "PennyLane is especially strong when you want to connect quantum circuits to optimisation loops, gradient-based training, or machine-learning-style workflows.",
+  "pricingTier": "free",
+  "url": "https://pennylane.ai/",
+  "alternatives": ["Qiskit", "Cirq", "TensorFlow Quantum"],
+  "fieldPosition": "Hybrid algorithms, variational methods, and differentiable quantum programming",
+  "engineerWorkflow": "Define a parameterised circuit, choose a device backend, embed it in an optimisation loop, and inspect how the objective evolves.",
+  "managerExpects": "Hybrid workflows that are justified by the problem rather than chosen because they sound modern.",
+  "demoDescription": "Build a simple VQE loop and inspect how parameter updates change the estimated energy.",
+  "outputs": ["Parameterized circuits", "Optimisation traces", "Hybrid experiment notebooks"],
+  "beginnerMistakes": ["Using variational methods without a clear objective or baseline", "Confusing a working optimisation loop with proof of quantum advantage"],
+  "relatedProject": "variational-eigensolver-lab"
+}

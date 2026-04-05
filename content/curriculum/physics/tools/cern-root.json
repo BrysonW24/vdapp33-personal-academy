@@ -1,0 +1,22 @@
+{
+  "slug": "cern-root",
+  "name": "CERN ROOT",
+  "category": "data-analysis",
+  "description": "A C++ data analysis framework developed at CERN for processing and analysing the massive datasets from particle physics experiments. The standard tool for high-energy physics.",
+  "whyUseIt": "ROOT is designed to handle petabytes of data from particle detectors. It provides histogramming, curve fitting, statistical analysis, and a custom file format optimised for physics data. If you work in particle physics, you will use ROOT.",
+  "pricingTier": "free",
+  "url": "https://root.cern/",
+  "alternatives": ["Python/uproot", "HEPData", "Scikit-HEP"],
+  "fieldPosition": "Particle physics — the standard analysis framework for CERN experiments (ATLAS, CMS, LHCb, ALICE)",
+  "outputs": ["Histograms and fits", "Statistical analyses", "Invariant mass plots", "Event displays"],
+  "physicistWorkflow": "Load event data, apply selection cuts, fill histograms, fit signal and background models, assess statistical significance.",
+  "supervisorExpects": "Ability to write ROOT macros or Python scripts using PyROOT/uproot to analyse experimental data.",
+  "computationalImpact": "Enables the analysis of billions of collision events to extract rare signals like the Higgs boson.",
+  "demoDescription": "Load ATLAS open data, reconstruct the invariant mass distribution of diphoton events, fit a signal plus background model, and extract the Higgs boson mass.",
+  "vocabulary": [
+    { "term": "TTree", "definition": "ROOT's columnar data structure for storing event-by-event physics data" },
+    { "term": "TH1", "definition": "A one-dimensional histogram class" }
+  ],
+  "beginnerMistakes": ["Not applying proper event selection cuts before histogramming", "Ignoring systematic uncertainties in fits"],
+  "relatedProject": "particle-detector-analysis"
+}

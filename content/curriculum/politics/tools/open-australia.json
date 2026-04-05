@@ -1,0 +1,20 @@
+{
+  "slug": "open-australia",
+  "name": "OpenAustralia",
+  "category": "analytics",
+  "description": "A free platform that makes Australian parliamentary information more accessible — searchable Hansard, email alerts when your MP speaks, and tools for tracking political activity. Built by the OpenAustralia Foundation.",
+  "whyUseIt": "OpenAustralia makes parliamentary monitoring easy for anyone. Set up email alerts for your MP or for specific topics, search Hansard with a better interface than the official APH site, and track what your representatives are actually doing in parliament.",
+  "pricingTier": "free",
+  "url": "https://www.openaustralia.org.au",
+  "alternatives": ["APH ParlInfo", "TheyVoteForYou", "Hansard"],
+  "funnelPosition": "Civic engagement and accountability",
+  "outputs": ["Searchable parliamentary debates", "MP profiles and activity", "Email alerts", "Public comment on speeches"],
+  "marketerWorkflow": "Set up alerts for key issues and target MPs, use search to find relevant parliamentary debates, share clips and quotes via social media for civic engagement campaigns",
+  "managerExpects": "Automated monitoring of what competing MPs are saying in parliament about your issues",
+  "vocabulary": [
+    { "term": "Alert", "definition": "An automated email notification when a specific keyword or MP appears in parliamentary proceedings" },
+    { "term": "Parliamentary activity", "definition": "A measure of how often an MP speaks, asks questions, and participates in debates" }
+  ],
+  "beginnerMistakes": ["Setting up too many alerts and getting overwhelmed — focus on your key issues and competitors", "Not cross-referencing with TheyVoteForYou to compare words with votes"],
+  "relatedProject": "conduct-opposition-research"
+}

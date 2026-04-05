@@ -1,0 +1,27 @@
+{
+  "slug": "conduct-opposition-research",
+  "title": "Conduct Opposition Research",
+  "difficulty": 5,
+  "estimatedHours": 15,
+  "description": "Conduct thorough, ethical opposition research on a public political figure — their voting record, public statements, policy positions, financial disclosures, and vulnerabilities. Also conduct self-research to identify your own vulnerabilities.",
+  "whyItMatters": "Every campaign does opposition research. If you don't know your opponent's record, you can't hold them accountable. If you don't know your own vulnerabilities, you can't prepare for attacks. This is a core competency of political strategy.",
+  "skillsLearned": ["Research methodology", "Public records analysis", "Strategic assessment", "Ethical boundaries", "Self-assessment"],
+  "prerequisites": ["campaign-strategy"],
+  "steps": [
+    { "title": "Select your subject", "description": "Choose a current Australian politician (federal, state, or local). Use only publicly available information.", "tips": "Choose someone with a long enough record to analyse — a minister or shadow minister is ideal." },
+    { "title": "Compile the record", "description": "Gather: Hansard speeches (last 3 years), voting record (TheyVoteForYou.org.au), media appearances, social media history, financial disclosures.", "tips": "Be systematic. Create a spreadsheet with categories rather than collecting information randomly." },
+    { "title": "Identify patterns", "description": "Look for: inconsistencies between words and votes, position changes, unfulfilled promises, associations, and policy weaknesses.", "tips": "The most effective opposition research finds the gap between what they say and what they do." },
+    { "title": "Assess strengths", "description": "Honestly document where the subject is strong — popular positions, effective communication, legislative achievements.", "tips": "Underestimating your opponent is a fatal campaign mistake." },
+    { "title": "Self-research", "description": "Apply the same research methodology to yourself (or a hypothetical version of yourself). What would an opponent find?", "tips": "The most valuable output of opposition research is knowing your own vulnerabilities before your opponent does." },
+    { "title": "Write the report", "description": "Compile a research dossier: executive summary, strength assessment, vulnerability assessment, key quotes and votes, and recommended attack lines (with evidence).", "tips": "Every attack line must be provably true. Making claims you cannot prove destroys credibility." }
+  ],
+  "deliverables": ["An opposition research dossier (10-15 pages)", "A self-research vulnerability assessment (2 pages)", "A summary of recommended debate preparation points"],
+  "tools": ["TheyVoteForYou.org.au", "Hansard", "APH Members profiles", "AEC disclosure returns", "Media archives"],
+  "rubric": [
+    { "criteria": "Thoroughness", "description": "Is the research comprehensive, covering voting record, statements, media, and disclosures?" },
+    { "criteria": "Accuracy", "description": "Is every claim sourced and verifiable? No speculation or exaggeration?" },
+    { "criteria": "Strategic insight", "description": "Does the dossier identify genuine vulnerabilities with strategic relevance?" },
+    { "criteria": "Ethical boundaries", "description": "Does the research stay within ethical and legal limits — public information only?" },
+    { "criteria": "Self-awareness", "description": "Is the self-research honest and useful for defensive preparation?" }
+  ]
+}

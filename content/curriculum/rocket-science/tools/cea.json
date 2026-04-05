@@ -1,0 +1,15 @@
+{
+  "slug": "cea",
+  "name": "NASA CEA (Chemical Equilibrium with Applications)",
+  "category": "propulsion",
+  "description": "NASA's free thermochemical equilibrium code for calculating rocket engine performance. Computes combustion temperature, exhaust composition, and specific impulse for any propellant combination.",
+  "whyUseIt": "CEA is the starting point for every rocket engine design. Before you design a single hardware component, you need to know what your propellant combination produces in terms of temperature, pressure, and exhaust properties. CEA gives you these numbers in seconds.",
+  "pricingTier": "free",
+  "url": "https://www.grc.nasa.gov/www/CEAWeb/",
+  "alternatives": ["Cantera", "ProPEP", "cpropep"],
+  "funnelPosition": "Preliminary engine design",
+  "outputs": ["Combustion temperature", "Exhaust composition", "Theoretical Isp", "Nozzle flow properties"],
+  "vocabulary": [{"term": "O/F ratio", "definition": "Oxidiser-to-Fuel mass ratio — the primary parameter that determines combustion performance"},
+    {"term": "Frozen flow", "definition": "Assumption that exhaust composition is fixed after the throat — gives conservative Isp estimates"}],
+  "beginnerMistakes": ["Using shifting equilibrium when frozen flow is more appropriate for small engines", "Not checking if the O/F ratio is in the practical range for the propellant", "Ignoring combustion instability considerations that CEA cannot predict"]
+}

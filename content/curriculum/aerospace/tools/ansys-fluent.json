@@ -1,0 +1,25 @@
+{
+  "slug": "ansys-fluent",
+  "name": "ANSYS Fluent",
+  "category": "simulation",
+  "description": "An industry-standard CFD platform used for complex aerodynamic, thermal, and flow-system analysis across aerospace programmes.",
+  "whyUseIt": "ANSYS Fluent combines mature solvers, strong pre and post-processing support, and organisational trust. In aerospace teams, it often becomes the bridge between exploratory CFD and high-stakes design reviews.",
+  "pricingTier": "enterprise",
+  "url": "https://www.ansys.com/products/fluids/ansys-fluent",
+  "alternatives": ["SU2", "STAR-CCM+", "OpenFOAM"],
+  "fieldPosition": "Higher-fidelity aerodynamic and thermal analysis in preliminary and detailed design",
+  "engineerWorkflow": "Set up the domain, mesh, boundary conditions, and turbulence model, then run convergence and validation studies before comparing design options.",
+  "managerExpects": "Well-scoped simulation campaigns tied to real decisions, not expensive modelling without validation or review discipline.",
+  "demoDescription": "Compare pressure recovery and drag behaviour for two airfoil shapes near the top of the operating lift range.",
+  "outputs": [
+    "Surface pressure maps",
+    "Drag breakdowns",
+    "Flow-field animations",
+    "Thermal or cooling predictions"
+  ],
+  "beginnerMistakes": [
+    "Running complex cases before validating a simpler baseline",
+    "Treating colourful flow plots as evidence without checking residuals or mesh quality"
+  ],
+  "relatedProject": "airfoil-analysis-benchmark"
+}

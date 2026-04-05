@@ -1,0 +1,26 @@
+{
+  "slug": "energy-sustainability-and-esg",
+  "title": "Energy, Sustainability, and ESG",
+  "shortSummary": "Use building data, operating changes, and capital priorities to improve performance and tell a credible ESG story.",
+  "level": "advanced",
+  "category": "sustainability",
+  "whyItMatters": "ESG is now part of mainstream owner expectation, tenant demand, and leasing competitiveness. Property managers sit close to the operational levers that make sustainability real: tuning plant, improving controls, lifting waste practices, coordinating upgrades, and turning performance data into action. The skill is not just knowing the language. It is knowing how to move the building.",
+  "coreConcepts": [
+    "Operational versus capital levers in sustainability improvement",
+    "Why building data quality matters before target setting",
+    "How ESG narratives fail when operational ownership is weak",
+    "The connection between sustainability, tenant experience, and asset relevance"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "ESG Opportunity Sprint"
+  ],
+  "relatedModules": [
+    "building-systems-for-property-managers",
+    "capex-and-lifecycle-planning",
+    "future-of-property-operations"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 3
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "slam-and-mapping",
+  "title": "SLAM and Mapping",
+  "shortSummary": "Learn how robots build maps of unknown environments while simultaneously tracking their own position. SLAM is the foundational capability that enables autonomous navigation in GPS-denied environments.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Simultaneous Localisation and Mapping (SLAM) solves one of robotics' most fundamental chicken-and-egg problems: to know where you are, you need a map, but to build a map, you need to know where you are. SLAM algorithms solve both problems at once using sensor data from LiDAR, cameras, or both. This capability is essential for any robot operating in an environment where GPS is unavailable or unreliable — underground mines, indoor warehouses, dense forests, or the surface of other planets. In Australia, SLAM is used by mining robots navigating underground tunnel networks, by delivery robots in shopping centres, and by inspection robots in confined spaces like bridge interiors and water tanks. Understanding SLAM opens the door to building truly autonomous mobile robots.",
+  "coreConcepts": ["The SLAM problem: localisation and mapping simultaneously", "Occupancy grid maps vs feature-based maps", "LiDAR SLAM: scan matching and loop closure", "Visual SLAM: ORB-SLAM, LSD-SLAM", "Graph-based SLAM and factor graphs", "Particle filters and extended Kalman filters for state estimation", "Loop closure detection and map consistency"],
+  "lessons": ["slam-fundamentals"],
+  "frameworks": ["slam-pipeline"],
+  "visualType": "slam-map",
+  "relatedModules": ["sensors-and-perception", "computer-vision-for-robots", "path-planning-and-navigation", "mobile-robots"],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 2
+}

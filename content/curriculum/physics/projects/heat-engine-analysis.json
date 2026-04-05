@@ -1,0 +1,25 @@
+{
+  "slug": "heat-engine-analysis",
+  "title": "Analyse Heat Engine Cycles",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Model and compare the thermodynamic cycles of different heat engines (Carnot, Otto, Diesel, Stirling) by computing PV diagrams, work done, and efficiency.",
+  "whyItMatters": "Heat engines power the modern world — from car engines to power stations. Understanding their thermodynamic cycles reveals why no engine can be 100% efficient and connects abstract thermodynamic laws to real machines.",
+  "skillsLearned": ["Thermodynamic cycles", "PV diagrams", "Efficiency calculations", "Entropy analysis", "Numerical computation"],
+  "prerequisites": ["First law of thermodynamics", "Ideal gas law", "Entropy and second law"],
+  "steps": [
+    { "title": "Implement the ideal gas", "description": "Write functions for isothermal, adiabatic, isobaric, and isochoric processes. Calculate P, V, T at each state point.", "tips": "For an adiabatic process: PV^gamma = constant. For air, gamma = 1.4." },
+    { "title": "Plot the Carnot cycle", "description": "Compute and plot the PV diagram for a Carnot cycle between two temperatures. Calculate the work done (area enclosed) and efficiency.", "tips": "Carnot efficiency = 1 - T_cold/T_hot. This is the theoretical maximum." },
+    { "title": "Compare engine cycles", "description": "Implement Otto (petrol engine), Diesel, and Stirling cycles. Plot all four PV diagrams and compare efficiencies.", "tips": "The Otto cycle uses two adiabatic and two isochoric processes." },
+    { "title": "Temperature-entropy diagrams", "description": "Plot T-S diagrams for each cycle. The area enclosed represents the net heat input. Compare this representation to the PV diagram.", "tips": "On a T-S diagram, the Carnot cycle is a perfect rectangle." },
+    { "title": "Real-world parameters", "description": "Use realistic parameters for a car engine (compression ratio 10:1, T_hot = 2500K, T_cold = 300K) and compare theoretical efficiency to actual car engine efficiency (~25-30%).", "tips": "The gap between theoretical and actual efficiency is due to friction, incomplete combustion, and heat losses." }
+  ],
+  "deliverables": ["PV diagrams for all four cycles", "T-S diagrams for all four cycles", "Efficiency comparison table", "Analysis of why real engines fall short of Carnot efficiency", "Written report comparing the thermodynamic cycles"],
+  "tools": ["Python", "NumPy", "Matplotlib"],
+  "rubric": [
+    { "criteria": "Thermodynamic correctness", "description": "All processes and state calculations are physically correct" },
+    { "criteria": "Visualisation", "description": "Clear, well-labelled PV and T-S diagrams" },
+    { "criteria": "Efficiency analysis", "description": "Correct efficiency calculations with comparison to Carnot limit" },
+    { "criteria": "Physical insight", "description": "Meaningful discussion of real-world efficiency losses" }
+  ]
+}

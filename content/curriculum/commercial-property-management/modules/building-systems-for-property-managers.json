@@ -1,0 +1,29 @@
+{
+  "slug": "building-systems-for-property-managers",
+  "title": "Building Systems for Property Managers",
+  "shortSummary": "Get practical literacy in HVAC, fire, lifts, electrical, hydraulics, access control, and the common failure patterns that matter operationally.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "You do not need to be an engineer to run a building well, but you do need enough systems literacy to ask better questions, challenge poor advice, and understand risk. Building knowledge helps you triage issues faster, communicate credibly with tenants, and make better capex and maintenance decisions.",
+  "coreConcepts": [
+    "The major systems that drive safety, comfort, and continuity",
+    "What good preventative maintenance actually protects",
+    "How to distinguish a nuisance issue from a business-critical issue",
+    "Why systems literacy improves tenant communication and vendor management"
+  ],
+  "lessons": [
+    "building-systems-for-non-engineers"
+  ],
+  "frameworks": [
+    "Daily Priority Stack",
+    "Incident Command RACI"
+  ],
+  "relatedModules": [
+    "service-delivery-and-contractor-management",
+    "maintenance-planning-and-work-orders",
+    "safety-risk-and-compliance"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "quantum-control-engineer",
+  "title": "Quantum Control Engineer - Experimental Quantum Systems Team",
+  "setting": "A lab or company focused on pulse design, calibration, and reliable control of quantum devices",
+  "companySize": "Control team of 5-15 inside a program of 30-150 researchers and engineers",
+  "description": "You live at the boundary between software, electronics, and quantum hardware. Your job is to make the machine do the intended thing repeatedly, even while the underlying system drifts and resists clean abstraction.",
+  "salary": "$120,000-$170,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review calibration health and recent pulse-performance metrics",
+      "tools": ["qcodes", "python-scipy"],
+      "note": "Control work begins with the gap between yesterday's model and today's hardware."
+    },
+    {
+      "time": "10:00",
+      "activity": "Tune pulse parameters or readout discrimination thresholds",
+      "tools": ["labber"],
+      "note": "Small control improvements can change the whole experiment's reliability."
+    },
+    {
+      "time": "12:00",
+      "activity": "Coordinate with device or algorithm teams on what the hardware can currently support",
+      "tools": [],
+      "note": "Control engineering translates between ideal circuits and real behaviour."
+    },
+    {
+      "time": "14:00",
+      "activity": "Run a controlled experiment to isolate one source of error or drift",
+      "tools": ["qutip", "python-scipy"],
+      "note": "A good afternoon is one where one unknown becomes one known."
+    },
+    {
+      "time": "16:30",
+      "activity": "Package updated calibration routines for the next experimental cycle",
+      "tools": ["qcodes"],
+      "note": "Repeatability is the real product."
+    }
+  ],
+  "responsibilities": [
+    "Design and tune control pulses",
+    "Improve calibration and readout stability",
+    "Measure and reduce control-driven error",
+    "Connect device behaviour to usable software abstractions",
+    "Maintain repeatable experiment routines"
+  ],
+  "challenges": [
+    "Drift that makes yesterday's settings unreliable today",
+    "Complex interactions between control, hardware, and environment",
+    "High pressure to improve fidelity without losing interpretability"
+  ],
+  "rewards": [
+    "Owning one of the most decisive leverage points in quantum hardware",
+    "Seeing improvements show up immediately in experimental performance",
+    "Developing rare skills across physics, signal processing, and software"
+  ],
+  "careerPath": [
+    "Control engineer -> Senior quantum control engineer -> Control lead -> Head of experimental systems"
+  ]
+}

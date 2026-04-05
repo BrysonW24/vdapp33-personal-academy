@@ -1,0 +1,15 @@
+{
+  "slug": "panel-method",
+  "name": "Panel Method",
+  "summary": "A low-cost aerodynamic analysis method that approximates inviscid flow by distributing singularities over a surface or aerofoil contour.",
+  "whenToUseIt": "Use it for rapid lift and pressure-distribution estimates in conceptual and preliminary design when full CFD would be too slow or expensive.",
+  "steps": [
+    "Define the geometry as a set of panels.",
+    "Apply source and vortex strengths to satisfy boundary conditions.",
+    "Solve the influence matrix for the circulation or source distribution.",
+    "Recover surface pressure and integrated aerodynamic forces.",
+    "Apply viscous corrections or compare against wind-tunnel data where needed."
+  ],
+  "example": "A student evaluating wing twist options for a UAV can run a panel-method tool like XFLR5 to compare lift distribution changes in minutes rather than setting up a full Navier-Stokes solution.",
+  "category": "aerodynamics"
+}

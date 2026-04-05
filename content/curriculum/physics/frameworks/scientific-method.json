@@ -1,0 +1,16 @@
+{
+  "slug": "scientific-method",
+  "name": "The Scientific Method",
+  "summary": "The systematic process of observation, hypothesis, experiment, analysis, and revision that underpins all physics research.",
+  "whenToUseIt": "Use this framework whenever you are investigating a physical phenomenon, designing an experiment, or evaluating a claim about how the world works.",
+  "steps": [
+    "Observe a phenomenon and ask a specific, testable question",
+    "Formulate a hypothesis — a falsifiable prediction",
+    "Design an experiment with controlled variables",
+    "Collect data and measure carefully with proper uncertainty",
+    "Analyse the data — does it support or refute the hypothesis?",
+    "Revise the hypothesis if needed and repeat"
+  ],
+  "example": "Galileo hypothesised that all objects fall at the same rate regardless of mass. He tested this by rolling balls of different masses down inclined planes (to slow the motion enough to measure). His data confirmed the hypothesis, overturning Aristotle's claim that heavier objects fall faster.",
+  "category": "methodology"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "drones-and-uavs",
+  "title": "Drones and UAVs",
+  "shortSummary": "Understand unmanned aerial vehicles — from multirotor drones to fixed-wing UAVs. Learn the flight dynamics, control systems, and applications that make aerial robotics one of the fastest-growing fields in technology.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Drones have gone from hobbyist toys to indispensable industrial tools in less than a decade. In Australia, drones inspect power lines across vast distances, survey farmland for crop health, deliver medical supplies to remote communities via companies like Swoop Aero, monitor whale populations along the coast, and support bushfire response. The CASA (Civil Aviation Safety Authority) regulatory framework is among the most progressive in the world for commercial drone operations. Understanding drone aerodynamics, flight control, autonomy, and the regulatory environment is essential for anyone interested in aerial robotics — whether for inspection, delivery, surveying, agriculture, or emergency services.",
+  "coreConcepts": ["Multirotor aerodynamics and flight dynamics", "Fixed-wing vs rotary-wing trade-offs", "Flight controller architecture and PID tuning", "GPS-denied flight and visual navigation", "CASA regulations and remote pilot licensing", "Payload integration: cameras, LiDAR, multispectral sensors", "Battery technology and flight endurance"],
+  "lessons": [],
+  "frameworks": ["pid-control-loop"],
+  "visualType": "drone-anatomy",
+  "relatedModules": ["control-systems-fundamentals", "path-planning-and-navigation", "computer-vision-for-robots"],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 2
+}

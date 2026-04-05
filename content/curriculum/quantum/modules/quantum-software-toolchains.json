@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-software-toolchains",
+  "title": "Quantum Software Toolchains",
+  "shortSummary": "The software stack for expressing circuits, compiling to hardware, simulating noise, and running experiments across quantum platforms.",
+  "level": "intermediate",
+  "category": "software",
+  "whyItMatters": "Quantum ideas only become reproducible engineering when they move through a software toolchain. This is where high-level theory meets hardware constraints and developer workflow.",
+  "coreConcepts": [
+    "Circuit SDKs",
+    "Transpilation and compilation",
+    "Noise models and simulators",
+    "Cloud hardware access",
+    "Experiment orchestration",
+    "Benchmarking and reproducibility"
+  ],
+  "lessons": [],
+  "frameworks": ["circuit-model", "variational-loop"],
+  "visualType": "software-stack",
+  "relatedModules": ["quantum-gates-circuits", "quantum-algorithms-foundations", "quantum-hardware-control"],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 2
+}

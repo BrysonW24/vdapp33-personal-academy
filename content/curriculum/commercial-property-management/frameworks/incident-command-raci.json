@@ -1,0 +1,15 @@
+{
+  "slug": "incident-command-raci",
+  "name": "Incident Command RACI",
+  "summary": "A fast-response ownership map for high-pressure incidents. It clarifies who is responsible, accountable, consulted, and informed so emergency response does not stall inside confusion.",
+  "whenToUseIt": "Use this for water leaks, fire alarms, lift entrapments, security incidents, major outages, tenant health-and-safety events, or any operational issue where minutes matter and many parties are involved.",
+  "steps": [
+    "Name the incident lead - One person owns command. That person may not perform every task, but they coordinate the response and keep the information flow coherent.",
+    "Assign functional ownership - Define who handles technical response, site access, tenant communication, contractor mobilization, senior escalation, and documentation. Each lane should have one clear owner.",
+    "Separate decision authority from execution - Clarify who can approve spend, authorize shutdowns, notify insurers, or make public-facing decisions. Many incidents worsen because teams assume approval that is not actually theirs.",
+    "Set the communication rhythm - Decide how often updates go to tenants, owners, security, and leadership. Even a short update cadence reduces rumor and panic.",
+    "Run a closeout review - After the incident, document timeline, root cause, costs, lessons, and control improvements so the same confusion does not return next time."
+  ],
+  "example": "A burst pipe affects two office floors at 6:20 a.m. The property manager runs command, engineering leads technical isolation, security controls access, the client lead updates the owner, and the admin team records tenant impacts and actions taken. Everyone knows where decisions sit within the first ten minutes.",
+  "category": "risk"
+}

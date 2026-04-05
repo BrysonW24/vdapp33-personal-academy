@@ -1,0 +1,15 @@
+{
+  "slug": "openfoam",
+  "name": "OpenFOAM",
+  "category": "simulation",
+  "description": "Free, open-source CFD toolbox for simulating fluid flows, heat transfer, and combustion. Widely used in aerospace research and by companies that need customisable fluid dynamics solvers without enterprise licensing costs.",
+  "whyUseIt": "OpenFOAM provides the same physics modelling as commercial CFD tools at zero cost. Its open-source nature means you can customise solvers for specific aerospace applications — combustion instability, cryogenic flow, or hypersonic aerothermodynamics.",
+  "pricingTier": "free",
+  "url": "https://www.openfoam.com",
+  "alternatives": ["ANSYS Fluent", "STAR-CCM+", "SU2"],
+  "funnelPosition": "Research and detailed analysis",
+  "outputs": ["Flow simulations", "Aerodynamic coefficients", "Heat transfer predictions", "Combustion analyses"],
+  "vocabulary": [{"term": "Solver", "definition": "An OpenFOAM executable that solves a specific type of fluid dynamics problem (e.g., simpleFoam for incompressible flow)"},
+    {"term": "Mesh", "definition": "The discretised volume of the fluid domain — quality determines accuracy"}],
+  "beginnerMistakes": ["Not spending enough time on mesh quality", "Using the wrong solver for the flow regime", "Ignoring convergence criteria"]
+}

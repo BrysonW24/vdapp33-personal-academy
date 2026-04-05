@@ -1,0 +1,69 @@
+{
+  "slug": "bloch-sphere-visualizer",
+  "title": "Build a Bloch Sphere Visualizer",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Create a small interactive tool that shows how single-qubit states move on the Bloch sphere under common gates.",
+  "whyItMatters": "Bloch-sphere intuition turns abstract amplitudes into something you can reason about visually. It is one of the fastest ways to internalise single-qubit behaviour.",
+  "skillsLearned": [
+    "Single-qubit state representation",
+    "Gate intuition",
+    "Scientific visualisation",
+    "Quantum SDK basics"
+  ],
+  "prerequisites": [
+    "What Quantum Engineering Is",
+    "Superposition Explained",
+    "Dirac Notation Basics"
+  ],
+  "steps": [
+    {
+      "title": "Represent a qubit state",
+      "description": "Choose a state representation that lets you convert amplitudes into Bloch-sphere coordinates.",
+      "tips": "Start with pure states before adding mixed-state support."
+    },
+    {
+      "title": "Implement basic gates",
+      "description": "Add at least X, Y, Z, H, and rotation gates so the viewer can show meaningful movement.",
+      "tips": "A few trusted gate examples are better than many buggy ones."
+    },
+    {
+      "title": "Render the sphere and state vector",
+      "description": "Show the current qubit state on a sphere with clear axes and labels.",
+      "tips": "The educational value comes from clarity, not graphics complexity."
+    },
+    {
+      "title": "Add sequence playback",
+      "description": "Let the user apply a short sequence of gates and watch the state evolve.",
+      "tips": "This is where phase and rotation intuition start to click."
+    },
+    {
+      "title": "Explain one non-obvious result",
+      "description": "Write a note on why two different gate sequences can reach the same or different final states.",
+      "tips": "Use the tool to teach, not only to display."
+    }
+  ],
+  "deliverables": [
+    "Working Bloch-sphere visualizer",
+    "Short note explaining the state representation",
+    "Example gate sequences with interpretations"
+  ],
+  "tools": [
+    "qiskit",
+    "python-scipy"
+  ],
+  "rubric": [
+    {
+      "criteria": "Correctness",
+      "description": "Gate operations and displayed state positions are mathematically consistent."
+    },
+    {
+      "criteria": "Clarity",
+      "description": "A learner can understand what they are seeing without guessing."
+    },
+    {
+      "criteria": "Insight",
+      "description": "The output teaches something beyond static textbook diagrams."
+    }
+  ]
+}

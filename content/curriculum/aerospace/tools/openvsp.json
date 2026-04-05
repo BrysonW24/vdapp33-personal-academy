@@ -1,0 +1,24 @@
+{
+  "slug": "openvsp",
+  "name": "OpenVSP",
+  "category": "geometry",
+  "description": "NASA's open-source parametric geometry tool for aircraft conceptual design. It lets engineers build aircraft layouts quickly and connect geometry to analysis workflows.",
+  "whyUseIt": "OpenVSP is one of the fastest ways to turn an aircraft concept into geometry that can be reviewed, shared, and exported for downstream work. It is especially strong in the conceptual-design phase.",
+  "pricingTier": "free",
+  "url": "https://openvsp.org/",
+  "alternatives": ["CATIA", "Siemens NX", "SolidWorks"],
+  "fieldPosition": "Conceptual design and geometry definition",
+  "engineerWorkflow": "Build the fuselage, wing, tail, and propulsion layout parametrically, then adjust high-level geometry as sizing assumptions change.",
+  "managerExpects": "A geometry model that is good enough to support reviews and trade studies, not a pretend detailed CAD release.",
+  "demoDescription": "Model a commuter aircraft concept, then vary wing area and tail volume to match the chosen sizing point.",
+  "outputs": [
+    "Parametric aircraft geometry",
+    "Mass-property inputs",
+    "Exportable surfaces for further analysis"
+  ],
+  "beginnerMistakes": [
+    "Over-detailing geometry before the concept is stable",
+    "Building shapes without tying them back to a sizing rationale"
+  ],
+  "relatedProject": "conceptual-aircraft-sizing"
+}

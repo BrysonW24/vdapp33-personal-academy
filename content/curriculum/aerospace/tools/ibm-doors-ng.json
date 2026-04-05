@@ -1,0 +1,25 @@
+{
+  "slug": "ibm-doors-ng",
+  "name": "IBM DOORS Next",
+  "category": "requirements",
+  "description": "An enterprise requirements-management platform used on regulated aerospace programmes to control requirement sets, traceability, and review workflows.",
+  "whyUseIt": "DOORS Next matters because complex aerospace programmes live or die on traceability. It helps keep requirements, changes, and evidence relationships visible across long development cycles.",
+  "pricingTier": "enterprise",
+  "url": "https://www.ibm.com/products/requirements-management",
+  "alternatives": ["Jama Connect", "Polarion", "Excel plus discipline"],
+  "fieldPosition": "Systems engineering, compliance, and certification evidence management",
+  "engineerWorkflow": "Capture system requirements, relate them to hazards or regulations, allocate them to subsystems, then track verification evidence as the design matures.",
+  "managerExpects": "Clear ownership, reviewable baselines, and no mystery requirements hiding in emails or slide decks.",
+  "demoDescription": "Build a small requirement tree for a UAV mission and link one requirement through to a proposed verification activity.",
+  "outputs": [
+    "Requirement sets",
+    "Traceability links",
+    "Review baselines",
+    "Verification planning data"
+  ],
+  "beginnerMistakes": [
+    "Loading the tool with vague statements that cannot be verified",
+    "Treating traceability as admin work instead of design infrastructure"
+  ],
+  "relatedProject": "certification-compliance-matrix"
+}

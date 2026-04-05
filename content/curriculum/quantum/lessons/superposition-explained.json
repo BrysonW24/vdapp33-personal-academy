@@ -1,0 +1,24 @@
+{
+  "slug": "superposition-explained",
+  "moduleSlug": "quantum-mechanics-essentials",
+  "title": "Superposition Explained",
+  "objective": "Build a physically grounded intuition for what superposition means and what it does not mean.",
+  "beginnerExplanation": "Superposition means a quantum state can be described as a combination of basis states. For a qubit, that often means a state can have some amplitude for 0 and some amplitude for 1 before measurement. This is not the same as the qubit secretly being both in the ordinary everyday sense. It means the state must be described using amplitudes, and the outcome becomes definite only when measured.\n\nThe key reason superposition matters is that amplitudes can interfere. That is the part people often skip. Superposition by itself is not the end goal. The real power comes from arranging operations so some computational paths reinforce useful outcomes while others cancel.",
+  "deeperExplanation": "Mathematically, a qubit state is a normalised vector such as alpha|0> + beta|1>, where alpha and beta are complex amplitudes. The probabilities of measurement outcomes come from the squared magnitudes of those amplitudes. Relative phase matters even though it is not directly visible in the final probabilities of a single measurement, because later operations can turn phase differences into observable behaviour.\n\nThis is why the Bloch sphere is so useful. It captures not just population but also phase relationships. Superposition is therefore not merely a probabilistic mixture. A true superposition carries phase coherence, and that coherence is what noise and decoherence destroy.",
+  "keyTakeaways": [
+    "Superposition is a coherent combination of basis states, not just uncertainty.",
+    "Amplitudes, not plain probabilities, describe a quantum state before measurement.",
+    "Relative phase is essential because it drives interference.",
+    "Coherence is what lets superposition become computationally useful."
+  ],
+  "frameworks": ["bloch-sphere"],
+  "example": "A Hadamard gate applied to |0> produces an equal superposition of |0> and |1>. If you measure immediately, you get 0 or 1 with equal probability. But if you apply another Hadamard before measuring, the amplitudes interfere and you return deterministically to |0>.",
+  "commonMistakes": [
+    "Confusing superposition with a classical 50/50 random bit.",
+    "Thinking amplitudes can be interpreted directly as probabilities.",
+    "Ignoring phase when reasoning about later gate behaviour."
+  ],
+  "exercise": "Explain why two states with the same measurement probabilities can still behave differently under later gates. Use the idea of phase in your answer.",
+  "nextLesson": "entanglement-and-bell-states",
+  "order": 1
+}

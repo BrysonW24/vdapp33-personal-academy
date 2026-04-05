@@ -1,0 +1,16 @@
+{
+  "slug": "flight-dynamics-control",
+  "title": "Flight Dynamics & Control",
+  "shortSummary": "How aircraft are stabilised and controlled — stability derivatives, control surfaces, autopilot design, and handling qualities.",
+  "level": "intermediate",
+  "category": "aerodynamics",
+  "whyItMatters": "An aircraft that cannot be controlled is useless. Flight dynamics determines handling qualities, stability margins, and the design of flight control systems.",
+  "coreConcepts": ["Static and dynamic stability", "Longitudinal and lateral-directional modes", "Control surfaces and effectiveness", "Stability derivatives", "Handling qualities criteria", "Autopilot fundamentals"],
+  "lessons": ["aircraft-stability"],
+  "frameworks": ["cooper-harper-rating"],
+  "visualType": "stability-modes",
+  "relatedModules": ["flight-mechanics", "avionics-systems", "flight-testing"],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

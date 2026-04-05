@@ -1,0 +1,23 @@
+{
+  "slug": "orbital-mechanics",
+  "title": "Orbital Mechanics",
+  "shortSummary": "How objects move in space — Kepler's laws, orbit types, transfer orbits, and the delta-v budgets that define every mission.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Orbital mechanics is the language of spaceflight. Every mission — LEO, GEO, lunar, Mars — is defined by its orbit. Understanding Hohmann transfers, delta-v budgets, and orbital parameters is non-negotiable for any rocket scientist.",
+  "coreConcepts": [
+    "Kepler's three laws of planetary motion",
+    "Orbital elements and parameters",
+    "Hohmann transfer orbits",
+    "Delta-v budgets and mission planning",
+    "LEO, MEO, GEO, and beyond",
+    "Orbital manoeuvres and station-keeping"
+  ],
+  "lessons": ["keplers-laws", "orbital-elements", "hohmann-transfers", "delta-v-budgets", "orbit-types-and-applications"],
+  "frameworks": ["delta-v-budget-framework", "tsiolkovsky-equation"],
+  "visualType": "orbital-diagram",
+  "relatedModules": ["what-rocket-science-is", "mission-design"],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

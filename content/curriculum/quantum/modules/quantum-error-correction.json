@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-error-correction",
+  "title": "Quantum Error Correction",
+  "shortSummary": "How fragile quantum states are protected using redundancy, syndrome extraction, and logical qubits.",
+  "level": "intermediate",
+  "category": "reliability",
+  "whyItMatters": "Without error correction, useful large-scale quantum computing does not happen. Noise and decoherence are not edge cases; they are the central engineering constraint.",
+  "coreConcepts": [
+    "Bit-flip and phase-flip errors",
+    "Syndrome measurement",
+    "Logical versus physical qubits",
+    "Repetition codes and stabilizers",
+    "Threshold behaviour",
+    "Overhead and scaling cost"
+  ],
+  "lessons": [],
+  "frameworks": ["surface-code-intuition", "density-matrix-toolkit"],
+  "visualType": "error-correction",
+  "relatedModules": ["quantum-mechanics-essentials", "fault-tolerant-quantum-computing", "quantum-hardware-control"],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

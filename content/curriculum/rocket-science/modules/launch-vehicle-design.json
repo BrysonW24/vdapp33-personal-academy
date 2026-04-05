@@ -1,0 +1,23 @@
+{
+  "slug": "launch-vehicle-design",
+  "title": "Launch Vehicle Design",
+  "shortSummary": "Integrating engines, structures, avionics, and payload into a complete launch vehicle — the systems engineering challenge of making it all work together.",
+  "level": "intermediate",
+  "category": "mission-design",
+  "whyItMatters": "A rocket is not just an engine bolted to a fuel tank. Launch vehicle design is the ultimate systems engineering challenge — balancing propulsion performance, structural mass, avionics, aerodynamics, and payload requirements into a vehicle that actually reaches orbit. This is where all the fundamentals come together.",
+  "coreConcepts": [
+    "Vehicle configuration and staging optimisation",
+    "Mass budget and payload capacity",
+    "Aerodynamic design and fairing",
+    "Payload integration and separation",
+    "Launch pad interface and ground systems",
+    "Vehicle-level testing and qualification"
+  ],
+  "lessons": [],
+  "frameworks": ["systems-engineering-v-model", "design-build-test-launch", "failure-mode-analysis"],
+  "visualType": "vehicle-cutaway",
+  "relatedModules": ["rocket-engine-design", "structural-analysis", "guidance-navigation-control"],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

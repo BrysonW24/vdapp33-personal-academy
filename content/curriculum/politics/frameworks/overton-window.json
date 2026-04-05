@@ -1,0 +1,16 @@
+{
+  "slug": "overton-window",
+  "name": "The Overton Window",
+  "summary": "A model for understanding which policies are politically acceptable at any given time — and how political movements shift the boundaries of what is considered mainstream.",
+  "whenToUseIt": "When assessing whether a policy proposal is viable, when planning a long-term campaign to shift public opinion, or when understanding why certain ideas are dismissed as 'radical' despite having evidence behind them.",
+  "steps": [
+    "Identify the policy spectrum for your issue (from most restrictive to most permissive)",
+    "Map where current public opinion and political consensus sit on that spectrum",
+    "Identify the boundaries of the Overton Window — what is considered 'acceptable' vs 'radical'",
+    "Determine whether your goal is to work within the window or shift it",
+    "If shifting: introduce the idea through thought leaders, media, and advocacy before formal policy proposals",
+    "Track movement over time — the window shifts through sustained effort, not single events"
+  ],
+  "example": "Same-sex marriage in Australia. In the 1990s, it was outside the Overton Window — considered radical by most. Through sustained advocacy, media representation, international examples, and shifting generational attitudes, it moved from 'radical' to 'acceptable' to 'popular.' By the 2017 postal survey, 61.6% voted Yes. The policy window had shifted so far that even conservative politicians supported the change. This shift took two decades of deliberate political work.",
+  "category": "political-strategy"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "mastering-political-media",
+  "moduleSlug": "media-communications",
+  "title": "Mastering Political Media",
+  "objective": "Learn to navigate the modern media landscape — build relationships with journalists, manage your public narrative, and handle crises in a 24/7 news cycle.",
+  "beginnerExplanation": "Media is how most voters experience politics. Very few people read Hansard or attend parliamentary sessions — they learn about politics through news articles, TV bulletins, social media, podcasts, and conversations influenced by all of the above. This means managing your media presence is not vanity — it is a core political skill. The basics: a press release announces news; a media conference lets you control the initial framing; a doorstop is an impromptu media opportunity; an op-ed lets you make an extended argument. On social media, you can bypass traditional media and speak directly to voters — but you also lose the editorial filter that checks facts and provides context. In Australia, media ownership is concentrated (News Corp, Nine, Seven West), talkback radio has outsized political influence, and the ABC remains the most trusted news source.",
+  "deeperExplanation": "Advanced media management is about narrative control. You want to set the agenda (proactive media — releasing stories on your terms), not just react to it (defensive media — responding to attacks). The 'rule of three' in media messaging: have three key points, return to them regardless of the question, and use bridging techniques ('That's an important question, but what Australians really care about is...'). Understanding the difference between on-the-record (everything can be quoted with your name), on background (can be reported but not attributed), and off-the-record (cannot be reported at all) is essential. Crisis communications follows a different playbook: acknowledge quickly, take responsibility where appropriate, explain what you are doing to fix it, and move forward. The worst crisis responses involve denial, delay, or blame-shifting. Social media strategy for politicians must balance authenticity with discipline — one poorly worded tweet can dominate a news cycle for days.",
+  "keyTakeaways": [
+    "Media management is a core political skill — most voters experience politics through media",
+    "Proactive media (setting the agenda) is far more powerful than reactive media (responding to attacks)",
+    "The rule of three: prepare three key messages and return to them regardless of the question",
+    "Understand on-the-record, on-background, and off-the-record — and never confuse them",
+    "Social media lets you speak directly to voters but removes the editorial filter — use it carefully"
+  ],
+  "frameworks": ["crisis-comms-template"],
+  "example": "When Scott Morrison was criticised for travelling to Hawaii during the 2019-20 bushfire crisis, the poor media management compounded the political damage. The initial response was denial (his office denied the trip), followed by a forced return, followed by an awkward photo opportunity where he forced a handshake on a reluctant bushfire victim. Each step made the story worse. Contrast this with Anthony Albanese's handling of the 2022 floods — he visited affected areas quickly, let emergency workers lead, and kept messaging focused on support rather than politics. The lesson: in a crisis, show up, be honest, and put affected people first. The media will follow your lead if you lead with competence and empathy.",
+  "commonMistakes": [
+    "Treating journalists as enemies rather than professionals doing a job — you need them more than they need you",
+    "Going off-message in interviews and giving the media a better story than the one you planned",
+    "Ignoring social media or letting junior staff run it without oversight",
+    "Responding to every attack — sometimes the best media strategy is to let a story die",
+    "Lying to journalists — once you lose credibility with the press gallery, you never get it back"
+  ],
+  "exercise": "Prepare for a mock media conference on a policy announcement of your choice. Write: (1) A one-page press release with a clear headline, key quote, and supporting facts. (2) Three key messages you will return to regardless of questions. (3) Anticipate the five hardest questions journalists might ask and prepare bridging responses. (4) Record yourself delivering a 3-minute opening statement and answering questions from a friend playing journalist. Review the recording for clarity, confidence, and message discipline.",
+  "order": 8,
+  "quiz": [
+    {
+      "question": "What does 'on background' mean in media relations?",
+      "options": ["The interview happens in a quiet room", "Information can be reported but not directly attributed to you by name", "Everything is off the record", "The journalist must check facts before publishing"],
+      "correctIndex": 1,
+      "explanation": "On background means the journalist can report the information but attributes it to an unnamed source (e.g., 'a senior government source said...'). It gives politicians a way to share information without being directly quoted."
+    }
+  ],
+  "perspectives": {
+    "citizen": "Understanding how media works helps you consume news critically. Ask: who is the source, what is their agenda, and what is not being reported?",
+    "staffer": "You are often the first point of contact for journalists. Your relationship with the press gallery directly affects the coverage your member receives.",
+    "politician": "Your media presence is your public identity. Manage it with the same discipline you would manage your campaign budget.",
+    "strategist": "Earned media is far more credible than advertising. A positive news story reaches more people and is more trusted than any paid ad."
+  }
+}

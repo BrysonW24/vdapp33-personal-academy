@@ -1,0 +1,21 @@
+{
+  "slug": "arxiv",
+  "name": "arXiv",
+  "category": "reference",
+  "description": "A free, open-access preprint repository where physicists publish papers before (and often instead of) formal journal publication. The primary way physics knowledge is shared.",
+  "whyUseIt": "arXiv is where new physics results appear first — often months before journal publication. Reading arXiv daily is how active physicists stay current. It covers all areas of physics, mathematics, computer science, and related fields. Over 2 million papers and counting.",
+  "pricingTier": "free",
+  "url": "https://arxiv.org/",
+  "alternatives": ["Google Scholar", "INSPIRE-HEP", "Semantic Scholar"],
+  "fieldPosition": "Universal — the primary literature source for all of physics",
+  "outputs": ["Research papers (preprints)", "Review articles", "Lecture notes", "PhD theses"],
+  "physicistWorkflow": "Check new listings daily in your sub-field, read abstracts, download relevant papers, and track citations.",
+  "supervisorExpects": "Regular reading of arXiv papers in your research area and awareness of current developments.",
+  "computationalImpact": "Provides instant, free access to the latest research — eliminates journal paywalls as a barrier to knowledge.",
+  "vocabulary": [
+    { "term": "Preprint", "definition": "A paper shared before formal peer review and journal publication" },
+    { "term": "arXiv ID", "definition": "A unique identifier for each paper, e.g. 2301.12345" }
+  ],
+  "beginnerMistakes": ["Not checking arXiv regularly and missing important new results", "Treating preprints as peer-reviewed (they are not — read critically)"],
+  "relatedProject": "particle-detector-analysis"
+}

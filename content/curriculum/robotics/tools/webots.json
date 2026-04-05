@@ -1,0 +1,10 @@
+{
+  "slug": "webots",
+  "name": "Webots",
+  "category": "simulation",
+  "description": "Webots is an open-source robot simulation platform originally developed at EPFL (Swiss Federal Institute of Technology). It provides a complete development environment for modelling, programming, and simulating robots. Webots includes a library of pre-built robot models (e-puck, NAO, Spot, industrial arms, drones), realistic physics, sensor simulation, and support for programming in Python, C, C++, Java, and MATLAB. It supports ROS 2 integration and can run in headless mode for batch simulation.",
+  "whyUseIt": "Webots is more beginner-friendly than Gazebo while still providing professional-grade simulation capabilities. Its built-in robot library means you can start experimenting with algorithms immediately without building robot models from scratch. The integrated IDE, documentation, and tutorials make it particularly well-suited for education. It is an excellent alternative to Gazebo for learning robotics concepts and for quick prototyping before committing to a specific hardware platform.",
+  "pricingTier": "free",
+  "url": "https://cyberbotics.com/",
+  "alternatives": ["Gazebo", "Isaac Sim", "CoppeliaSim (V-REP)", "PyBullet"]
+}

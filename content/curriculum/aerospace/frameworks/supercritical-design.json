@@ -1,0 +1,15 @@
+{
+  "slug": "supercritical-design",
+  "name": "Supercritical Wing Design",
+  "summary": "A transonic wing-design approach that delays shock formation and reduces wave drag by shaping the upper surface and pressure recovery.",
+  "whenToUseIt": "Use it when designing transport-aircraft wings for high-subsonic cruise where transonic drag rise threatens fuel burn and buffet margins.",
+  "steps": [
+    "Set the cruise Mach number, altitude, and lift coefficient targets.",
+    "Choose aerofoil families that flatten the upper-surface pressure peak.",
+    "Manage shock location and strength across the span.",
+    "Check drag divergence, buffet onset, and structural implications.",
+    "Refine the wing-body integration to preserve the transonic benefit."
+  ],
+  "example": "Modern long-range airliners rely on supercritical sections to cruise near Mach 0.85 without paying an unacceptable wave-drag penalty, which directly improves airline economics.",
+  "category": "aerodynamics"
+}

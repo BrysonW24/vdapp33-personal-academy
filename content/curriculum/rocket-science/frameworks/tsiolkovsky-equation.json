@@ -1,0 +1,16 @@
+{
+  "slug": "tsiolkovsky-equation",
+  "name": "Tsiolkovsky Rocket Equation",
+  "summary": "The fundamental equation of spaceflight: delta-v = Isp x g0 x ln(m0/mf). Relates the change in velocity a rocket can achieve to its exhaust velocity and mass ratio. Every mission design starts here.",
+  "whenToUseIt": "Use this framework whenever you need to calculate propellant requirements, evaluate staging options, assess payload capacity, or compare propulsion systems. It is the first calculation in any launch vehicle or mission design.",
+  "steps": [
+    "Define the required delta-v for your mission (from delta-v maps or trajectory analysis)",
+    "Determine the specific impulse (Isp) of your propulsion system",
+    "Calculate the required mass ratio: m0/mf = e^(delta-v / (Isp x g0))",
+    "Determine structural mass fraction to find usable propellant mass",
+    "Calculate payload capacity: payload = mf - structural mass",
+    "Iterate on staging, Isp, and structural mass to optimise the design"
+  ],
+  "example": "To deliver 5,000 kg to LEO (delta-v = 9,400 m/s) with a two-stage rocket: Stage 1 (Isp 310s) provides 3,500 m/s, Stage 2 (Isp 345s) provides 5,900 m/s. Working backwards from payload, the equation determines that you need roughly 440,000 kg of propellant and 30,000 kg of structure — giving a total liftoff mass of about 475,000 kg. This is how SpaceX sized Falcon 9.",
+  "category": "propulsion"
+}

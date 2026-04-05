@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-gates-circuits",
+  "title": "Quantum Gates and Circuits",
+  "shortSummary": "How quantum operations are expressed as gate sequences, circuit diagrams, and unitary transformations on qubit states.",
+  "level": "intermediate",
+  "category": "algorithms",
+  "whyItMatters": "Most gate-model quantum computation is built from a small set of operations. Understanding circuits is how abstract quantum mechanics becomes executable logic.",
+  "coreConcepts": [
+    "Single-qubit gates",
+    "Controlled gates and entangling operations",
+    "Circuit depth and width",
+    "Measurement in a circuit",
+    "Universal gate sets",
+    "Compilation and decomposition"
+  ],
+  "lessons": [],
+  "frameworks": ["circuit-model", "bloch-sphere"],
+  "visualType": "quantum-circuit",
+  "relatedModules": ["linear-algebra-for-quantum", "quantum-algorithms-foundations", "quantum-software-toolchains"],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "orbital-mechanics-toolkit",
+  "name": "Orbital Mechanics Toolkit",
+  "summary": "A practical decision framework for orbital manoeuvre planning. Given a starting orbit and a target orbit, systematically evaluate transfer options, timing constraints, and propellant costs to find the optimal trajectory.",
+  "whenToUseIt": "Use this toolkit whenever planning orbital transfers, constellation deployment, rendezvous operations, or deorbit manoeuvres. It structures the decision-making process from mission constraints to specific burn plans.",
+  "steps": [
+    "Define starting orbit (altitude, inclination, eccentricity)",
+    "Define target orbit or destination",
+    "Calculate Hohmann transfer delta-v as the baseline",
+    "Evaluate alternatives: bi-elliptic transfer, low-thrust spiral, gravity assist",
+    "Factor in timing constraints — launch windows, phasing orbits, synodic periods",
+    "Account for plane change costs (inclination changes are expensive)",
+    "Select the transfer method that minimises total delta-v within timing constraints",
+    "Plan the burn sequence — ignition time, duration, attitude"
+  ],
+  "example": "Deploying a Starlink satellite from the parking orbit (300 km, 53 deg inclination) to its operational orbit (550 km, 53 deg). Hohmann transfer delta-v: about 140 m/s. But Starlink uses electric propulsion (Hall thrusters, Isp ~1,500s), so it does a slow spiral transfer over several weeks instead. The low thrust means higher total delta-v (~200 m/s) but vastly less propellant mass because of the high Isp. The trade-off: time vs mass.",
+  "category": "astrodynamics"
+}

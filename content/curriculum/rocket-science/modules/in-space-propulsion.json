@@ -1,0 +1,23 @@
+{
+  "slug": "in-space-propulsion",
+  "title": "In-Space Propulsion",
+  "shortSummary": "Propulsion beyond the atmosphere — electric propulsion, ion engines, solar sails, nuclear thermal, and the advanced systems that enable deep-space missions.",
+  "level": "advanced",
+  "category": "propulsion",
+  "whyItMatters": "Chemical rockets get you off Earth, but in-space propulsion gets you across the solar system efficiently. Ion engines power Starlink satellites. Nuclear thermal could halve Mars transit time. Solar sails need no fuel at all. The future of space exploration depends on these technologies.",
+  "coreConcepts": [
+    "Electric propulsion (Hall thrusters, ion engines)",
+    "Nuclear thermal propulsion",
+    "Solar sail technology",
+    "Cold gas and monopropellant thrusters",
+    "Specific impulse vs thrust trade-offs",
+    "Propulsion system selection for missions"
+  ],
+  "lessons": [],
+  "frameworks": ["delta-v-budget-framework", "first-principles-reasoning"],
+  "visualType": "propulsion-comparison",
+  "relatedModules": ["propulsion-fundamentals", "interplanetary-missions", "spacecraft-systems"],
+  "status": "coming-soon",
+  "order": 17,
+  "levelNumber": 4
+}

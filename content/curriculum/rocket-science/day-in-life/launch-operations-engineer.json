@@ -1,0 +1,50 @@
+{
+  "slug": "launch-operations-engineer",
+  "title": "Launch Operations Engineer",
+  "setting": "Cape Canaveral Space Force Station / Kennedy Space Center",
+  "companySize": "Varies — SpaceX, ULA, Rocket Lab, or NASA contractor",
+  "description": "You are a launch operations engineer responsible for getting rockets safely from the integration facility to orbit. Your work is the final link in the chain — if the vehicle does not launch successfully, nothing else matters. You manage launch pad systems, conduct countdown procedures, and make real-time decisions under extreme time pressure. Launch day is the most intense day in aerospace engineering.",
+  "salary": "$115,000–$195,000 AUD",
+  "schedule": [
+    {"time": "04:00", "activity": "L-8 hours. Arrive at the launch control centre for a dawn launch. Begin pre-launch briefing. Weather is marginal — upper-level winds are at the limit. Go/no-go poll in 30 minutes.", "tools": ["Launch control systems", "Weather monitoring"], "note": "Launch days start before dawn. You will have been up since 3 AM."},
+    {"time": "04:30", "activity": "Conduct go/no-go poll. Range safety is green. Weather is yellow — watching the wind. Vehicle systems are green. Propellant loading will begin on schedule.", "tools": ["Communication loops", "Telemetry displays"]},
+    {"time": "05:00", "activity": "Begin propellant loading. Monitor RP-1 and LOX fill levels, tank pressurisation, and vent valve operations. Watch for any anomalies in the propellant conditioning system.", "tools": ["LabVIEW", "SCADA systems"], "note": "Loading 500 tonnes of cryogenic propellant is a choreographed ballet of valves, sensors, and timing."},
+    {"time": "07:00", "activity": "T-1 hour. All propellant loaded. Conduct systems checks: flight computers powered, telemetry links verified, range tracking acquired. Run through abort procedures one final time.", "tools": ["Telemetry systems"]},
+    {"time": "07:30", "activity": "T-30 minutes. Final weather check — winds have dropped. Green across the board. Begin terminal count. Transfer to internal power. Retract crew access arm (if crewed mission).", "tools": ["Launch sequencer"]},
+    {"time": "07:55", "activity": "T-5 minutes. Autosequence initiated. The computer takes over final countdown. Monitor engine chill, pressurisation, and ignition sequence. Heart rate elevated.", "tools": ["Autosequence monitoring"], "note": "The last 5 minutes are automated. Your job now is to watch for anomalies and call an abort if needed."},
+    {"time": "08:00", "activity": "T-0. LIFTOFF. Nine engines ignite. Vehicle clears the tower. Monitor ascent telemetry. Call out milestones: Max-Q, MECO, stage separation, SECO, orbit insertion. NOMINAL.", "tools": ["Telemetry", "Tracking"], "note": "The 8 minutes from liftoff to orbit are the most intense minutes in engineering."},
+    {"time": "08:15", "activity": "Orbit confirmed. First stage has landed on the droneship. Mission success. Debrief begins. Review any anomalies noted during countdown and ascent.", "tools": ["Post-flight data systems"]},
+    {"time": "10:00", "activity": "Post-launch review meeting. Walk through every hold, anomaly, and close call. Document lessons learnt. Begin planning for the next launch in 10 days.", "tools": ["Confluence", "Jira"]},
+    {"time": "14:00", "activity": "Afternoon: inspect the launch pad for any damage from the firing. Check hold-down clamps, flame trench, and propellant systems. Begin pad turnaround.", "tools": ["Visual inspection", "NDI tools"]},
+    {"time": "16:00", "activity": "Head home. Decompress. Next launch is in 10 days — the turnaround cycle starts immediately."}
+  ],
+  "responsibilities": [
+    "Manage launch pad systems and ground support equipment",
+    "Conduct countdown procedures and real-time anomaly assessment",
+    "Coordinate between vehicle, range, weather, and payload teams",
+    "Maintain and refurbish launch pad between missions",
+    "Develop and refine launch procedures and checklists",
+    "Train for and respond to emergency scenarios (pad abort, propellant spills)"
+  ],
+  "challenges": [
+    "Extreme responsibility — your decisions directly affect crew safety and mission success",
+    "Irregular hours — launches happen when orbital mechanics dictates, not when it is convenient",
+    "Weather delays and scrubs are frustrating but necessary",
+    "Working with cryogenic propellants and high-pressure systems is inherently dangerous",
+    "Living in the Cape Canaveral area (limited by geography)"
+  ],
+  "rewards": [
+    "The visceral thrill of watching a rocket you helped prepare thunder off the pad",
+    "Clear, immediate feedback — the mission either works or it does not",
+    "Being the last link in the chain — your team is the reason the mission actually flies",
+    "SpaceX's rapid launch cadence means you see results frequently, not once per year",
+    "Unique engineering work that cannot be done remotely — you are physically at the pointy end"
+  ],
+  "careerPath": [
+    "Launch Operations Engineer ($115K AUD)",
+    "Senior Launch Operations Engineer ($150K AUD)",
+    "Launch Director ($175K AUD)",
+    "Director of Launch Operations ($190K AUD)",
+    "VP Launch ($195K+ AUD)"
+  ]
+}

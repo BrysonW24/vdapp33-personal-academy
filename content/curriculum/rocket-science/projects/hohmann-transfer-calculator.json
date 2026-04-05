@@ -1,0 +1,25 @@
+{
+  "slug": "hohmann-transfer-calculator",
+  "title": "Hohmann Transfer Calculator",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Build an interactive tool that calculates Hohmann transfer orbits between any two circular orbits. Compute delta-v for each burn, transfer time, and total propellant mass required for a given spacecraft.",
+  "whyItMatters": "The Hohmann transfer is the most fuel-efficient two-burn transfer between circular orbits and the baseline for all orbit transfer planning. Every satellite deployment, space station rendezvous, and planetary transfer starts with a Hohmann calculation.",
+  "skillsLearned": ["Hohmann transfer mathematics", "Delta-v calculation", "Propellant budgeting", "Interactive tool development", "Orbital period calculations"],
+  "prerequisites": ["orbital-mechanics"],
+  "steps": [
+    {"title": "Implement the maths", "description": "Code the Hohmann transfer equations: delta-v1, delta-v2, transfer orbit semi-major axis, and transfer time. Handle both raising and lowering orbits.", "tips": "Transfer time = pi * sqrt(a_transfer^3 / GM). Do not forget — it is half an orbit."},
+    {"title": "Add propellant calculation", "description": "Using the Tsiolkovsky equation, calculate propellant mass for each burn given spacecraft dry mass and engine Isp.", "tips": "Apply the equation to each burn separately — the spacecraft is lighter after the first burn."},
+    {"title": "Build the interface", "description": "Create an interactive calculator (web app or Jupyter notebook) where users input starting orbit, target orbit, spacecraft mass, and engine Isp.", "tips": "Include preset scenarios: LEO to GEO, LEO to lunar orbit, Earth to Mars transfer."},
+    {"title": "Visualise the transfer", "description": "Plot the initial orbit, transfer ellipse, and final orbit. Annotate burn points with delta-v values.", "tips": "Use matplotlib or Plotly for the orbital diagram. Colour-code each orbit segment."},
+    {"title": "Compare with real missions", "description": "Validate your calculator against published delta-v values for Starlink deployment, GEO satellite insertion, and Apollo lunar transfer.", "tips": "Real missions add margins of 5-10% for navigation errors and contingency."}
+  ],
+  "deliverables": ["Working Hohmann transfer calculator", "Orbital transfer visualisation", "Comparison table: calculator results vs published mission data", "Documentation explaining the maths and assumptions"],
+  "tools": ["python-astropy", "matlab"],
+  "rubric": [
+    {"criteria": "Mathematical accuracy", "description": "Delta-v values match analytical solutions exactly"},
+    {"criteria": "User interface", "description": "Intuitive input/output with clear units and labels"},
+    {"criteria": "Visualisation", "description": "Accurate orbital diagram with burn locations and transfer ellipse"},
+    {"criteria": "Validation", "description": "Calculator validated against at least three real mission profiles"}
+  ]
+}

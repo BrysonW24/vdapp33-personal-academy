@@ -1,0 +1,26 @@
+{
+  "slug": "capex-and-lifecycle-planning",
+  "title": "Capex and Lifecycle Planning",
+  "shortSummary": "Prioritise building upgrades and plant renewal based on risk, service impact, lifecycle timing, and owner value.",
+  "level": "advanced",
+  "category": "finance",
+  "whyItMatters": "Lifecycle planning is where day-to-day property knowledge becomes strategic value. Good capex thinking prevents reactive spend, supports better tendering, and helps owners see the trade-offs between delay, risk, cost, and tenant experience. Great property managers can connect a failing asset component to a business case, not just a complaint.",
+  "coreConcepts": [
+    "Risk-based prioritisation instead of first-in, first-out spending",
+    "How to build a persuasive capex narrative for owners",
+    "The relationship between maintenance history and lifecycle timing",
+    "Why capex quality affects leasing, retention, and ESG outcomes"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Capex Priority Matrix"
+  ],
+  "relatedModules": [
+    "maintenance-planning-and-work-orders",
+    "operating-budgets-and-outgoings",
+    "energy-sustainability-and-esg"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 3
+}

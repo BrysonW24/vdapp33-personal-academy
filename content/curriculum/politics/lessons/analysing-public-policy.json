@@ -1,0 +1,40 @@
+{
+  "slug": "analysing-public-policy",
+  "moduleSlug": "policy-analysis",
+  "title": "Analysing Public Policy",
+  "objective": "Learn to evaluate public policy proposals rigorously — using cost-benefit analysis, stakeholder assessment, and evidence-based frameworks.",
+  "beginnerExplanation": "Policy analysis is how you figure out whether a proposal will actually work. Every government policy has costs and benefits, intended effects and unintended consequences, winners and losers. Good policy analysis asks five questions: (1) What is the problem we are trying to solve? (2) What are the available options? (3) What are the costs and benefits of each option? (4) Who is affected and how? (5) How will we know if the policy is working? In Australia, government departments use Regulatory Impact Statements (RIS) to assess major policies before they go to Cabinet. Understanding this process — whether you are designing policy, scrutinising it, or communicating it — is fundamental to effective governance.",
+  "deeperExplanation": "The policy cycle is a framework for understanding how policy moves from idea to implementation: agenda-setting (an issue gains attention), formulation (options are developed), decision-making (government chooses an approach), implementation (the policy is put into practice), and evaluation (we assess whether it worked). In practice, this cycle is messy — policies are often responses to crises, media pressure, or political calculations rather than careful analysis. Cost-benefit analysis (CBA) assigns monetary values to outcomes to compare options. Cost-effectiveness analysis is used when outcomes cannot be monetised (e.g., lives saved per dollar spent). The Productivity Commission in Australia produces some of the world's best independent policy analysis. Second-order effects are critical — a policy to reduce housing costs might inadvertently reduce construction activity if it makes development less profitable. Evidence-based policy uses randomised controlled trials, natural experiments, and systematic reviews to determine what actually works, rather than relying on ideology or anecdote.",
+  "keyTakeaways": [
+    "Good policy analysis asks: what is the problem, what are the options, what are the trade-offs, and how will we evaluate success?",
+    "The policy cycle (agenda, formulation, decision, implementation, evaluation) is the standard framework",
+    "Cost-benefit analysis and Regulatory Impact Statements are the tools of rigorous policy assessment",
+    "Second-order and unintended effects often matter more than first-order effects",
+    "Evidence-based policy uses data and research rather than ideology or anecdote"
+  ],
+  "frameworks": ["policy-impact-framework"],
+  "example": "The Australian National Disability Insurance Scheme (NDIS) is a case study in both brilliant policy design and implementation challenges. The Productivity Commission's 2011 report provided rigorous cost-benefit analysis showing that investing in disability support would reduce long-term costs to health and welfare systems while dramatically improving quality of life. The policy was adopted with bipartisan support. However, implementation revealed second-order effects: costs grew much faster than projected, workforce shortages limited service delivery, and the scheme's complexity created access barriers. The lesson: excellent policy analysis at the design stage does not guarantee smooth implementation — you must also plan for delivery.",
+  "commonMistakes": [
+    "Evaluating policies based on intentions rather than likely outcomes",
+    "Ignoring second-order effects and unintended consequences",
+    "Treating cost-benefit analysis as a purely technical exercise — values and assumptions matter enormously",
+    "Failing to consider implementation — a policy that cannot be delivered is worthless regardless of its design",
+    "Relying on anecdotes instead of systematic evidence when assessing whether a policy is working"
+  ],
+  "exercise": "Choose a current Australian policy proposal (e.g., a housing affordability measure, a climate policy, or a tax reform). Write a 1,000-word policy brief that includes: (1) Problem definition — what problem does this policy address? (2) Options analysis — at least three options including the status quo. (3) Stakeholder assessment — who wins, who loses, who is indifferent? (4) Implementation risks — what could go wrong in delivery? (5) Evaluation plan — how would we measure success after two years?",
+  "order": 7,
+  "quiz": [
+    {
+      "question": "What is a Regulatory Impact Statement (RIS)?",
+      "options": ["A media release about new regulations", "A formal assessment of the costs and benefits of a proposed regulation before it goes to Cabinet", "A parliamentary debate transcript", "A legal opinion on proposed legislation"],
+      "correctIndex": 1,
+      "explanation": "A RIS is a formal document that analyses the problem a regulation addresses, considers alternative approaches, and assesses the costs and benefits of each option. In Australia, major regulatory proposals require a RIS before they can go to Cabinet."
+    }
+  ],
+  "perspectives": {
+    "citizen": "Policy analysis skills help you evaluate election promises. When a politician promises something, ask: what will it cost, who pays, and what are the unintended effects?",
+    "staffer": "Your policy briefs will be the basis for your member's decisions and public statements. Get the analysis wrong and they look foolish. Get it right and they look competent.",
+    "politician": "Good policy is good politics in the long run. Policies that work build your reputation; policies that fail haunt you.",
+    "strategist": "Frame policy analysis for the audience. A Productivity Commission report needs a different translation for talkback radio than for a business audience."
+  }
+}

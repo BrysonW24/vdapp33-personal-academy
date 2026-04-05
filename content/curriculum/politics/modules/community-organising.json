@@ -1,0 +1,22 @@
+{
+  "slug": "community-organising",
+  "title": "Community Organising",
+  "shortSummary": "Build grassroots power from the ground up — recruit volunteers, mobilise communities, run local campaigns, and create lasting political movements that outlive any single election.",
+  "level": "intermediate",
+  "category": "skills",
+  "whyItMatters": "The most durable political power comes from organised communities, not individual candidates. Community organising is how movements win — from local council issues to national policy change. It is the engine beneath every successful political operation.",
+  "coreConcepts": [
+    "One-on-one relational organising",
+    "Power mapping and community asset identification",
+    "Volunteer recruitment and retention",
+    "Running community meetings and forums",
+    "Building coalitions across interest groups",
+    "Digital organising and online mobilisation"
+  ],
+  "lessons": [],
+  "frameworks": ["coalition-math"],
+  "relatedModules": ["campaign-strategy", "coalition-building", "civic-literacy"],
+  "status": "coming-soon",
+  "order": 9,
+  "levelNumber": 2
+}

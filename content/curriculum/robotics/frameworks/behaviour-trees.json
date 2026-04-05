@@ -1,0 +1,17 @@
+{
+  "slug": "behaviour-trees",
+  "name": "Behaviour Trees",
+  "summary": "Behaviour trees are a hierarchical task execution framework that organises robot behaviour as a tree of nodes, where each node is either a composite (sequence, selector, parallel), a decorator (condition, repeat, timeout), or a leaf (action, condition check). They provide a modular, reusable, and visually understandable way to express complex robot behaviour that scales better than flat state machines.",
+  "whenToUseIt": "Use behaviour trees when your robot's task-level behaviour is too complex for a simple state machine — when you need modularity (reusing sub-behaviours across different contexts), reactivity (responding to changing conditions), and scalability (adding new behaviours without rewriting existing ones). Behaviour trees are the standard for autonomous robot behaviour in ROS 2 (Nav2 uses them), game AI, and industrial robotics. They are ideal for mission planning, autonomous navigation, manipulation sequences, and multi-step tasks with error recovery.",
+  "steps": [
+    "Define leaf nodes: Identify the atomic actions your robot can perform (move_to_pose, pick_object, scan_area, send_alert) and the conditions it can check (is_object_detected, is_battery_low, is_path_clear). Each leaf node returns SUCCESS, FAILURE, or RUNNING.",
+    "Build sequences: Group actions that must succeed in order. A Sequence node ticks its children left to right, returning SUCCESS only if all children succeed. If any child fails, the sequence fails immediately. Example: Sequence(move_to_bin, detect_object, pick_object, move_to_target, place_object).",
+    "Build selectors (fallbacks): Group alternative strategies. A Selector node tries each child in order, returning SUCCESS as soon as one succeeds. If all fail, the selector fails. Example: Selector(pick_with_vacuum, pick_with_fingers, request_human_help).",
+    "Add decorators: Modify node behaviour — Retry(3, pick_object) retries up to 3 times; Timeout(10s, navigate_to_goal) fails if navigation takes too long; Inverter(is_obstacle_ahead) succeeds when there is no obstacle.",
+    "Compose the tree: Combine sequences, selectors, and decorators into a tree that represents the full mission. The root node is ticked at a fixed rate (e.g. 10 Hz), and execution flows through the tree from root to leaves.",
+    "Test in simulation: Run the behaviour tree in a simulated environment, testing nominal paths and all failure/recovery paths. Verify that the tree correctly handles edge cases.",
+    "Iterate: Behaviour trees are easy to modify — add a new recovery behaviour by inserting a child into a selector, add a new task step by extending a sequence. Refactor when the tree gets too deep."
+  ],
+  "example": "The Navigation2 (Nav2) stack in ROS 2 uses a behaviour tree to orchestrate autonomous navigation. The root is a sequence: ComputePathToPose (global planner), FollowPath (local planner). If FollowPath fails (e.g. obstacle blocks the path), a recovery selector tries: ClearCostmap (remove stale obstacle data), Spin (rotate in place to clear the local costmap), Wait (pause and wait for the obstacle to move), BackUp (reverse a short distance). If any recovery succeeds, the sequence retries navigation. If all recoveries fail, the mission is aborted and the robot reports the failure. This architecture is used by dozens of Australian companies building autonomous mobile robots.",
+  "category": "architecture"
+}

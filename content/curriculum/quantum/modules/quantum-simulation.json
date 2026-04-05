@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-simulation",
+  "title": "Quantum Simulation",
+  "shortSummary": "Using controllable quantum systems to model molecules, materials, and dynamics that are difficult for classical computers to handle directly.",
+  "level": "intermediate",
+  "category": "applications",
+  "whyItMatters": "One of the strongest arguments for quantum computing is not generic speed, but simulating quantum systems themselves. Nature is quantum, so quantum devices may describe it more naturally.",
+  "coreConcepts": [
+    "Hamiltonian simulation",
+    "Digital versus analog simulation",
+    "Variational eigensolvers",
+    "Chemistry and materials use cases",
+    "Resource limits",
+    "Validation challenges"
+  ],
+  "lessons": [],
+  "frameworks": ["variational-loop", "circuit-model"],
+  "visualType": "hamiltonian-map",
+  "relatedModules": ["quantum-algorithms-foundations", "quantum-software-toolchains", "quantum-industry-applications"],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 2
+}

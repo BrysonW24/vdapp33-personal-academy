@@ -1,0 +1,25 @@
+{
+  "slug": "pendulum-model",
+  "title": "Build a Pendulum Model",
+  "difficulty": 2,
+  "estimatedHours": 4,
+  "description": "Construct a simple pendulum, measure its period for different lengths and amplitudes, and compare your data to the theoretical prediction T = 2pi*sqrt(L/g).",
+  "whyItMatters": "The simple pendulum is one of the most fundamental experiments in physics. It teaches measurement technique, data analysis, error propagation, and the comparison of theory to experiment — all in a single, elegant setup.",
+  "skillsLearned": ["Experimental measurement", "Error analysis", "Graphing and curve fitting", "Comparing theory to data", "Understanding simple harmonic motion"],
+  "prerequisites": ["Units and measurement", "Simple harmonic motion basics"],
+  "steps": [
+    { "title": "Build the pendulum", "description": "Attach a small dense mass (e.g. a metal nut) to a thin, inextensible string. Clamp the top end securely to a fixed support so it can swing freely.", "tips": "Use a long string (1 m+) for easier timing. Minimise air resistance by using a compact, heavy mass." },
+    { "title": "Measure period vs length", "description": "For at least 6 different string lengths (0.2 m to 1.5 m), measure the period by timing 20 complete oscillations and dividing by 20. Keep the amplitude small (< 15 degrees).", "tips": "Timing 20 oscillations reduces the fractional uncertainty in your period measurement by a factor of 20." },
+    { "title": "Plot and analyse", "description": "Plot T² vs L. According to theory, this should be a straight line with gradient 4pi²/g. Fit a straight line and extract g from the gradient.", "tips": "Include error bars on your plot. Use a least-squares fit if you know how." },
+    { "title": "Investigate amplitude dependence", "description": "Fix the length and measure the period for amplitudes from 5 to 60 degrees. At what angle does the small-angle approximation break down?", "tips": "You should see the period increase noticeably above ~30 degrees." },
+    { "title": "Write up results", "description": "Report your measured value of g with uncertainty. Compare to the accepted value (9.81 m/s²). Discuss sources of systematic error.", "tips": "Common systematics: string stretching, air resistance, timing reaction time, pivot friction." }
+  ],
+  "deliverables": ["A data table of period vs length with uncertainties", "A T² vs L plot with line of best fit", "A calculated value of g with propagated uncertainty", "A discussion of amplitude dependence and the breakdown of the small-angle approximation"],
+  "tools": ["Ruler or tape measure", "Stopwatch", "String and mass", "Graphing software (Excel, Google Sheets, or Python/matplotlib)"],
+  "rubric": [
+    { "criteria": "Data quality", "description": "At least 6 data points with proper uncertainties and repeated measurements" },
+    { "criteria": "Analysis", "description": "Correct T² vs L plot, proper line fit, accurate extraction of g" },
+    { "criteria": "Error analysis", "description": "Uncertainty propagated correctly, systematic errors identified and discussed" },
+    { "criteria": "Presentation", "description": "Clear write-up with labelled graphs, units on all quantities, and a conclusion" }
+  ]
+}

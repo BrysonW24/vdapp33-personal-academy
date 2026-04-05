@@ -1,0 +1,10 @@
+{
+  "slug": "universal-robots-teach-pendant",
+  "name": "Universal Robots Teach Pendant",
+  "category": "hardware",
+  "description": "The Universal Robots teach pendant is the primary programming interface for UR cobots (UR3e, UR5e, UR10e, UR16e, UR20, UR30). It features a touchscreen interface running PolyScope — UR's proprietary programming environment. PolyScope provides graphical programming (drag-and-drop command blocks), manual robot jogging, freedrive mode (hand-guiding), I/O configuration, safety settings, and program monitoring. It also supports URScript (a Python-like scripting language) for advanced programming and URCap plugins for integrating third-party grippers, vision systems, and accessories.",
+  "whyUseIt": "Universal Robots is the world's leading cobot manufacturer, with over 75,000 units deployed globally and a strong presence in Australian manufacturing. The teach pendant and PolyScope make robot programming accessible to operators without robotics engineering backgrounds — a key part of the cobot value proposition. Understanding UR programming is a directly marketable skill in Australian manufacturing, and the PolyScope interface exemplifies the user-centric design philosophy that makes cobots successful.",
+  "pricingTier": "enterprise",
+  "url": "https://www.universal-robots.com/",
+  "alternatives": ["FANUC CRX teach pendant", "ABB GoFa/SWIFTI FlexPendant", "Franka Emika Desk", "Doosan Robotics teach pendant"]
+}

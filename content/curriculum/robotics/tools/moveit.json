@@ -1,0 +1,10 @@
+{
+  "slug": "moveit",
+  "name": "MoveIt 2",
+  "category": "framework",
+  "description": "MoveIt 2 is the most widely used open-source software framework for robotic manipulation. It provides motion planning (sampling-based and optimisation-based), collision checking, kinematics solvers (analytical and numerical), grasp planning, pick-and-place pipelines, and integration with physical robot controllers. MoveIt 2 works with ROS 2 and supports a wide range of robot arms through URDF/SRDF robot descriptions. It includes a visual planning interface (RViz plugin) for interactive testing.",
+  "whyUseIt": "MoveIt 2 saves months of development time by providing a complete, tested motion planning and execution framework. Instead of implementing your own collision checking, IK solvers, and trajectory optimisers, you configure MoveIt for your robot and immediately get access to state-of-the-art planning algorithms (OMPL, STOMP, TrajOpt). It is used by most ROS-based manipulation projects worldwide, from research labs to commercial products, and understanding MoveIt is essential for any robotic manipulation engineer.",
+  "pricingTier": "free",
+  "url": "https://moveit.ros.org/",
+  "alternatives": ["OMPL standalone (planning only)", "Drake (Google/TRI)", "Pinocchio (dynamics library)", "Custom IK + planning"]
+}

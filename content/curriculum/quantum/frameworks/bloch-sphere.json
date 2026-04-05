@@ -1,0 +1,15 @@
+{
+  "slug": "bloch-sphere",
+  "name": "Bloch Sphere",
+  "summary": "A geometric picture of a single-qubit state that helps map amplitudes and relative phase onto a sphere.",
+  "whenToUseIt": "Use it when reasoning about single-qubit gates, superposition, phase, and measurement basis changes.",
+  "steps": [
+    "Treat the qubit as a point on the sphere surface when the state is pure.",
+    "Use the poles for |0> and |1>.",
+    "Interpret rotations as single-qubit gate action.",
+    "Track how phase changes move the state around the equator.",
+    "Remember that noise can pull the state inward toward a mixed state."
+  ],
+  "example": "A Hadamard gate maps |0> from the north pole onto an equatorial superposition state, making phase relationships visible in a geometric way.",
+  "category": "intuition"
+}

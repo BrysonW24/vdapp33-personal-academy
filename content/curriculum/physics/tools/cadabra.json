@@ -1,0 +1,21 @@
+{
+  "slug": "cadabra",
+  "name": "Cadabra",
+  "category": "computation",
+  "description": "A computer algebra system specifically designed for problems in classical and quantum field theory, general relativity, and tensor algebra.",
+  "whyUseIt": "Cadabra handles the complex tensor algebra and index manipulation that arises in general relativity and field theory — tasks that are extremely tedious and error-prone by hand. It understands symmetries, commutation relations, and the Einstein summation convention natively.",
+  "pricingTier": "free",
+  "url": "https://cadabra.science/",
+  "alternatives": ["xAct (Mathematica)", "SageManifolds", "SymPy"],
+  "fieldPosition": "Theoretical physics — tensor calculus for general relativity and field theory",
+  "outputs": ["Simplified tensor expressions", "Christoffel symbols and curvature tensors", "Feynman diagram calculations", "LaTeX-formatted results"],
+  "physicistWorkflow": "Define the metric and coordinates, compute connection coefficients and curvature tensors, simplify using symmetries, and export to LaTeX.",
+  "supervisorExpects": "Correct and efficient tensor algebra computations for general relativity or field theory research.",
+  "computationalImpact": "Eliminates pages of error-prone hand calculation in tensor algebra — essential for general relativity research.",
+  "vocabulary": [
+    { "term": "Tensor", "definition": "A mathematical object with indices that transforms in a specific way under coordinate changes" },
+    { "term": "Christoffel symbol", "definition": "The connection coefficients that describe how the coordinate basis changes from point to point in curved spacetime" }
+  ],
+  "beginnerMistakes": ["Not declaring index properties (symmetries, ranges) correctly", "Forgetting to specify the metric signature"],
+  "relatedProject": "relativistic-spacetime"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "reading-the-lease-with-purpose",
+  "moduleSlug": "reading-commercial-leases",
+  "title": "Reading the Lease With Purpose",
+  "objective": "Learn how to turn lease language into an operating checklist, not just a legal summary.",
+  "beginnerExplanation": "Reading a commercial lease as a property manager is different from reading it as a lawyer. You are not trying to interpret every clause perfectly on first pass. You are trying to identify what the building team must do, what dates matter, what costs can be recovered, and where disagreement is likely to happen.\n\nA useful lease summary answers practical questions: What does the tenant pay for? What does the landlord promise? What approvals are required? When do we need to act next?",
+  "deeperExplanation": "The highest-value lease work is rarely abstract. It shows up in timing and clarity. If you miss an option window, a rent review mechanism, a make-good requirement, or a reinstatement condition, the issue usually appears much later as friction, not as a tidy legal lesson.\n\nStrong property managers build lease discipline into their systems: abstract the lease early, capture dates visibly, align billing rules with recoverables, and flag clauses that need internal interpretation. When something is ambiguous, you escalate early rather than improvising late.",
+  "keyTakeaways": [
+    "A lease should become an operating checklist, calendar, and billing logic set.",
+    "Critical dates are often more dangerous than complicated wording.",
+    "Recoverables require clean interpretation and documentation, not guesswork.",
+    "Escalate ambiguity early instead of relying on memory or habit."
+  ],
+  "frameworks": [
+    "Lease Obligation Check"
+  ],
+  "example": "A tenant has an option expiring in 90 days and a rent review due two weeks later. If you only store the lease in a folder, this becomes a panic later. If you abstract the option window, rent review clause, notice requirements, and landlord approval path into your system early, the conversation is calm and controlled.",
+  "commonMistakes": [
+    "Summarising the lease too generally to be useful operationally.",
+    "Tracking dates in personal notes instead of a shared system.",
+    "Assuming prior practice is always correct for recoverables.",
+    "Waiting until a dispute appears before reviewing the clause carefully."
+  ],
+  "exercise": "Take a sample commercial lease and create a one-page abstract for the building team. Include key dates, recovery items, landlord obligations, tenant obligations, approval clauses, and a list of items that should be tracked monthly.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the most useful outcome of a lease review for a property manager?",
+      "options": [
+        "A document that repeats the whole lease in simpler words",
+        "A checklist, calendar, and action summary the team can operate from",
+        "A legal memo with no dates",
+        "A copy of the executed lease in a shared folder"
+      ],
+      "correctIndex": 1,
+      "explanation": "The goal is operational usefulness: clear actions, dates, obligations, and billing logic."
+    },
+    {
+      "question": "Why are option and review dates especially important?",
+      "options": [
+        "Because they are easy to remember",
+        "Because they can materially affect occupancy, income, and negotiation leverage",
+        "Because tenants rarely care about them",
+        "Because they only matter to lawyers"
+      ],
+      "correctIndex": 1,
+      "explanation": "These dates directly affect cashflow, leasing outcomes, and the owner's negotiating position."
+    }
+  ],
+  "perspectives": {
+    "propertyManager": "The property manager needs the lease translated into actions, dates, and billing clarity.",
+    "portfolioManager": "The portfolio manager wants confidence that key lease risk is visible across the whole portfolio, not hidden inside PDFs.",
+    "tenant": "A tenant experiences lease quality through consistency. Mixed messages about obligations quickly erode trust.",
+    "client": "The client expects the lease to be administered proactively, not rediscovered only when there is a problem."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "professor",
+  "title": "Physics Professor — University",
+  "setting": "An Australian university physics department (e.g. University of Melbourne, ANU, UNSW)",
+  "companySize": "Physics department of 30–60 academic staff, 100+ postgrads",
+  "description": "You are a university physics professor. Your role combines research, teaching, and service. You lead a research group, teach undergraduate and postgraduate courses, supervise PhD students, apply for grants, and contribute to departmental governance. It is intellectually rewarding but demanding — you are essentially running a small research business within the university.",
+  "salary": "$130,000–$200,000 AUD (lecturer to full professor)",
+  "schedule": [
+    { "time": "07:30", "activity": "Arrive early, review notes for the morning lecture", "tools": [], "note": "Teaching second-year electromagnetism this semester" },
+    { "time": "09:00", "activity": "Deliver a 50-minute lecture to 150 students on Maxwell's equations", "tools": ["LaTeX/Beamer slides"], "note": "Live demonstrations with magnets and coils when possible" },
+    { "time": "10:00", "activity": "Office hours — help students with problem sets", "tools": [], "note": "Three students struggling with vector calculus notation" },
+    { "time": "11:00", "activity": "Research group meeting — PhD students present their progress", "tools": [], "note": "One student has a promising result; another needs to redesign their experiment" },
+    { "time": "12:00", "activity": "Work on a grant application for the ARC Discovery Programme", "tools": ["Overleaf"], "note": "Requesting $800K over 3 years for a new experimental programme" },
+    { "time": "13:00", "activity": "Lunch and departmental committee meeting", "tools": [], "note": "Discussing curriculum reform and new equipment purchases" },
+    { "time": "14:00", "activity": "One-on-one meeting with a PhD student — troubleshoot their data analysis", "tools": ["Python", "Jupyter"], "note": "Supervising 4 PhD students and 2 honours students" },
+    { "time": "15:30", "activity": "Own research time — work on a theoretical calculation for a paper", "tools": ["Mathematica", "LaTeX"], "note": "This is the hardest time to protect — everything else competes for it" },
+    { "time": "17:00", "activity": "Peer-review a paper for Physical Review B", "tools": ["PDF reader"], "note": "Reviewing 2–3 papers per month is expected service to the field" },
+    { "time": "18:00", "activity": "Head home — but will review a student's thesis chapter after dinner", "tools": ["Overleaf"], "note": "The work-life balance is a constant negotiation" }
+  ],
+  "responsibilities": [
+    "Conduct original research and publish in top journals",
+    "Teach undergraduate and postgraduate courses",
+    "Supervise PhD, Masters, and Honours students",
+    "Write grant applications and manage research budgets",
+    "Serve on departmental and university committees",
+    "Peer-review papers and grants for the physics community",
+    "Engage in public outreach and science communication",
+    "Attend and present at international conferences"
+  ],
+  "challenges": [
+    "Finding time for research amidst teaching, supervision, and administration",
+    "The competitive and uncertain nature of grant funding",
+    "Balancing the needs of many students with your own research",
+    "The slow pace of academic career progression (10+ years from PhD to professor)",
+    "Managing the emotional toll of student struggles and failures"
+  ],
+  "rewards": [
+    "Intellectual freedom to pursue the questions that fascinate you",
+    "Shaping the next generation of physicists",
+    "The respect and autonomy that comes with a tenured position",
+    "Sabbatical leave for focused research",
+    "A lifetime of learning and discovery"
+  ],
+  "careerPath": [
+    "PhD → Postdoc (2–6 years) → Lecturer → Senior Lecturer → Associate Professor → Professor"
+  ]
+}

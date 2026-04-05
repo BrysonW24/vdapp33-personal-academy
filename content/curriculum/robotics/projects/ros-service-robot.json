@@ -1,0 +1,46 @@
+{
+  "slug": "ros-service-robot",
+  "title": "ROS Service Robot",
+  "difficulty": 8,
+  "estimatedHours": 60,
+  "description": "Build a complete service robot system in ROS 2 that can accept high-level tasks via natural language or a web interface, plan and execute multi-step missions, and interact naturally with people. The robot should navigate autonomously, manipulate objects, and communicate its status to operators. This project integrates navigation, manipulation, perception, HRI, and system architecture into a cohesive product.",
+  "whyItMatters": "Service robots — hospital delivery robots, hotel concierge robots, retail assistance robots — represent one of the largest commercial opportunities in robotics. They require the integration of nearly every robotics capability: navigation, perception, manipulation, HRI, and robust system design. Building a complete service robot system teaches you how these subsystems must work together reliably, and how to design a robot that non-expert users can interact with naturally.",
+  "skillsLearned": ["Full ROS 2 system architecture", "Behaviour tree-based mission planning", "Navigation and manipulation integration", "Web-based robot operator interface", "Natural language task specification", "System reliability and error recovery"],
+  "prerequisites": ["ROS 2 intermediate skills (launch, parameters, lifecycle)", "Navigation2 experience", "MoveIt 2 basics", "Python web framework basics (Flask or FastAPI)", "Behaviour tree concepts"],
+  "steps": [
+    {
+      "title": "Design the system architecture",
+      "description": "Design the complete system: a mobile base with a manipulator arm, sensors (LiDAR, camera, IMU), and a user interface. Define the ROS 2 node graph — navigation stack, manipulation stack, perception pipeline, mission manager, and web interface. Create an architecture diagram showing all nodes, topics, services, and actions.",
+      "tips": "Use a behaviour tree for the mission manager — it provides the modularity and recovery handling needed for complex multi-step tasks."
+    },
+    {
+      "title": "Implement the task interface",
+      "description": "Build a web-based interface (React or simple HTML/JS) that allows an operator to: see the robot's location on the map, send navigation goals by clicking on the map, request predefined tasks ('deliver item to room 3', 'pick up tray from kitchen'), and monitor task progress in real time via ROS 2 WebSocket bridge.",
+      "tips": "Use rosbridge_websocket to connect the web interface to ROS 2. Display the robot's position, battery level, and current task status."
+    },
+    {
+      "title": "Build the mission planner",
+      "description": "Implement a behaviour tree-based mission planner that decomposes high-level tasks into sequences of navigation goals and manipulation actions. For example, 'deliver item to room 3' becomes: navigate to supply room, pick up item, navigate to room 3, hand over item. Include recovery behaviours for navigation failures and manipulation failures.",
+      "tips": "Use the py_trees library in Python for behaviour tree implementation. Define reusable sub-trees for common actions (navigate_to, pick_object, place_object)."
+    },
+    {
+      "title": "Integrate navigation and manipulation",
+      "description": "Connect the mission planner to Nav2 for navigation and MoveIt 2 for manipulation. The robot should seamlessly switch between mobile navigation and arm manipulation. Handle the coordination: the arm should be in a safe 'tucked' configuration during navigation, and the base should be stationary during manipulation.",
+      "tips": "Use a lifecycle manager to coordinate the activation and deactivation of navigation and manipulation nodes."
+    },
+    {
+      "title": "End-to-end testing and demonstration",
+      "description": "Create a demonstration scenario: the robot receives a series of delivery tasks through the web interface, plans optimal routes, navigates through a simulated building, picks up and delivers items, handles a blocked corridor (replanning), and reports completion. Run the full scenario 10 times and measure reliability, task completion time, and failure recovery success.",
+      "tips": "Record a demo video that shows the web interface, the robot's perspective (camera view), the map with path, and the Gazebo simulation simultaneously."
+    }
+  ],
+  "deliverables": ["Complete ROS 2 workspace with all packages", "Web-based operator interface", "Behaviour tree mission planner with recovery", "End-to-end demonstration video", "System architecture document", "Reliability test results (10 runs, success rate, failure analysis)"],
+  "tools": ["ros2", "gazebo-sim", "moveit", "python-robotics"],
+  "rubric": [
+    {"criteria": "System architecture", "description": "Clean modular architecture with well-defined interfaces between navigation, manipulation, perception, and mission planning"},
+    {"criteria": "Mission planning", "description": "Behaviour tree correctly decomposes tasks and handles failures with appropriate recovery behaviours"},
+    {"criteria": "Integration quality", "description": "Seamless transitions between navigation and manipulation with proper coordination"},
+    {"criteria": "User interface", "description": "Web interface is functional, showing real-time robot state, and allowing intuitive task specification"},
+    {"criteria": "Reliability", "description": "System completes full delivery missions at least 80% of the time across 10 test runs"}
+  ]
+}

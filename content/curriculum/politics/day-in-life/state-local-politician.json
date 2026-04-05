@@ -1,0 +1,51 @@
+{
+  "slug": "state-local-politician",
+  "title": "State / Local Politician",
+  "setting": "State Parliament or Council Chambers + Local Community",
+  "companySize": "State Parliament (varies: NSW has 93 lower house, 42 upper house) or Local Council (varies: 5-15 councillors)",
+  "description": "State and local politicians deal with the issues that most directly affect people's daily lives — hospitals, schools, roads, public transport, planning, policing, and local services. State MPs balance party politics with constituent service. Councillors are often part-time, combining political duties with other work. Both roles are deeply embedded in their communities in a way federal politicians often are not.",
+  "salary": "$170,000-$190,000 AUD (state MP varies by state) / $25,000-$70,000 AUD (councillor, part-time role)",
+  "schedule": [
+    { "time": "07:00", "activity": "Check emails and local news — local issues often break overnight via council notifications or community Facebook groups", "tools": ["Email", "Social media", "Local newspaper website"] },
+    { "time": "08:30", "activity": "Electorate office opens — staff begin handling constituent enquiries: planning disputes, school enrolments, hospital wait times", "tools": ["Constituent CRM", "Phone system"] },
+    { "time": "09:30", "activity": "Site visit — inspect a road project, visit a new school building, or meet with a community group about a local issue", "note": "State and local politicians are expected to be visible in their community. Showing up matters." },
+    { "time": "11:00", "activity": "Meeting with a state government department — follow up on a constituent's casework or a local infrastructure project", "tools": ["Briefing notes", "Government department contacts"] },
+    { "time": "12:00", "activity": "Community lunch — Rotary, RSL, school P&C, or business chamber. These are where you hear what people actually care about", "note": "For local politicians, community lunches are not optional social events — they are intelligence gathering." },
+    { "time": "14:00", "activity": "Parliament sitting (state MP) or council meeting preparation (councillor) — review agenda, draft questions, prepare speeches", "tools": ["Parliamentary papers", "Council agenda papers"] },
+    { "time": "15:00", "activity": "Media interview with local newspaper or radio about a community issue — new development approval, hospital funding, school safety", "tools": ["Key messages", "Local media contacts"] },
+    { "time": "17:30", "activity": "Community event — school open night, sporting club presentation, fundraising dinner, or public meeting on a contentious issue", "note": "Evenings are when communities come together. A local politician's diary is full of evening commitments." },
+    { "time": "19:30", "activity": "Respond to constituent emails and social media messages, prepare for tomorrow's meetings", "tools": ["Email", "Constituent CRM", "Social media"] },
+    { "time": "20:30", "activity": "Family time — though the phone is always on. A constituent crisis can call at any hour", "note": "Local politicians are accessible in a way federal politicians are not. Your phone number is known." }
+  ],
+  "responsibilities": [
+    "Represent your community on issues that directly affect daily life — health, education, transport, planning",
+    "Handle constituent casework — often more hands-on than federal MPs",
+    "Attend parliament sitting weeks (state) or monthly council meetings (local)",
+    "Engage with local media, schools, sporting clubs, and community organisations",
+    "Advocate for local infrastructure and services funding",
+    "Participate in committees and inquiries at state or local level",
+    "Be visible and accessible in your community — people expect to see you at local events"
+  ],
+  "challenges": [
+    "State/local issues get less media attention but affect people more directly",
+    "Councillors are often part-time with limited staff support",
+    "Planning and development decisions create intense local conflict",
+    "Constituent expectations often exceed what the role can deliver",
+    "State politicians are caught between local needs and party discipline"
+  ],
+  "rewards": [
+    "Tangible, visible impact — the road gets fixed, the school gets built, the park gets upgraded",
+    "Deep community connection — you know your constituents personally",
+    "Entry point for a political career — many federal politicians started in local or state government",
+    "Hands-on governance experience that federal roles often lack",
+    "The satisfaction of solving problems for real people in your community"
+  ],
+  "careerPath": [
+    "Community volunteer or activist",
+    "Local council candidate",
+    "Elected councillor (part-time)",
+    "Mayor or deputy mayor",
+    "State parliament candidate",
+    "State MP → Minister → Premier (or transition to federal politics)"
+  ]
+}

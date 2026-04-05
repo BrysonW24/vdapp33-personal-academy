@@ -1,0 +1,23 @@
+{
+  "slug": "rocket-engine-design",
+  "title": "Rocket Engine Design",
+  "shortSummary": "Designing engines that work — turbopumps, injectors, cooling systems, and the engineering trade-offs behind Merlin, Raptor, and RS-25.",
+  "level": "intermediate",
+  "category": "propulsion",
+  "whyItMatters": "The rocket engine is the most complex and performance-critical component of any launch vehicle. SpaceX's Raptor engine represents decades of engineering evolution. Understanding turbopump cycles, regenerative cooling, and injector design separates theoretical knowledge from engineering capability.",
+  "coreConcepts": [
+    "Gas generator vs staged combustion vs full-flow staged combustion",
+    "Turbopump design and operation",
+    "Injector patterns and combustion stability",
+    "Regenerative, ablative, and film cooling",
+    "Engine start and shutdown sequences",
+    "Throttling and thrust vector control"
+  ],
+  "lessons": [],
+  "frameworks": ["systems-engineering-v-model", "failure-mode-analysis"],
+  "visualType": "engine-schematic",
+  "relatedModules": ["propulsion-fundamentals", "manufacturing-at-scale", "launch-vehicle-design"],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

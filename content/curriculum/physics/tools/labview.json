@@ -1,0 +1,21 @@
+{
+  "slug": "labview",
+  "name": "LabVIEW",
+  "category": "laboratory",
+  "description": "A graphical programming environment for instrument control, data acquisition, and laboratory automation. The standard for controlling physics experiments.",
+  "whyUseIt": "LabVIEW uses a visual programming language (block diagrams instead of text code) to interface with lab instruments — oscilloscopes, function generators, multimeters, and custom sensors. It is the de facto standard for experimental physics automation.",
+  "pricingTier": "paid",
+  "url": "https://www.ni.com/labview",
+  "alternatives": ["Python/PyVISA", "EPICS", "Tango Controls"],
+  "fieldPosition": "Experimental physics — laboratory instrument control and data acquisition",
+  "outputs": ["Instrument control programs", "Real-time data displays", "Automated measurement sequences", "Data logs"],
+  "physicistWorkflow": "Wire up a block diagram to read sensor data, process it in real time, display results, and log to file.",
+  "supervisorExpects": "Ability to create LabVIEW programs that automate data collection and provide real-time feedback.",
+  "computationalImpact": "Automates tedious manual measurements, enabling overnight data collection and precise timing control.",
+  "vocabulary": [
+    { "term": "VI (Virtual Instrument)", "definition": "A LabVIEW program — consisting of a front panel (UI) and block diagram (logic)" },
+    { "term": "GPIB", "definition": "A standard interface bus for connecting lab instruments to a computer" }
+  ],
+  "beginnerMistakes": ["Creating spaghetti wiring instead of using subVIs for modularity", "Not implementing proper error handling in instrument communication"],
+  "relatedProject": "pendulum-model"
+}

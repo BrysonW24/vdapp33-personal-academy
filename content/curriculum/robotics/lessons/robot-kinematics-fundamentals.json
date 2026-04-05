@@ -1,0 +1,46 @@
+{
+  "slug": "robot-kinematics-fundamentals",
+  "moduleSlug": "robot-kinematics",
+  "title": "Robot Kinematics Fundamentals",
+  "objective": "Understand forward and inverse kinematics, degrees of freedom, joint types, and how transformation matrices describe the position and orientation of robot links in space.",
+  "beginnerExplanation": "Imagine your arm. Your shoulder can rotate in three directions. Your elbow bends in one direction. Your wrist can rotate and flex. Each of these movements is a degree of freedom (DOF). Your arm has roughly seven degrees of freedom from shoulder to wrist, which is why you can reach the same point in space with your hand in many different configurations — try touching the top of your head and notice how many ways you can position your elbow.\n\nA robot arm works the same way. Each motor-driven joint adds one degree of freedom. A typical industrial robot has six joints (6-DOF), which is the minimum needed to position and orient a tool at any point and angle within the robot's reach. Some robots have seven or more joints, giving them extra flexibility to avoid obstacles — just like your arm can reach around things.\n\nForward kinematics answers the question: 'If I know all the joint angles, where is the end effector (the robot's hand)?' This is straightforward mathematics — you chain together the rotations and translations of each joint to compute the final position. Inverse kinematics asks the opposite question: 'If I want the end effector at a specific position and orientation, what joint angles do I need?' This is much harder. There may be multiple solutions (like reaching your head from different elbow positions), no solution (the point is out of reach), or the mathematics may not have a clean closed-form answer, requiring iterative numerical methods.",
+  "deeperExplanation": "The mathematical foundation of robot kinematics is built on homogeneous transformation matrices — 4x4 matrices that combine rotation and translation into a single operation. Each joint in a robot arm can be described by a transformation from the previous link's coordinate frame to the next. By multiplying these matrices together, you get the transformation from the robot's base to its end effector.\n\nThe Denavit-Hartenberg (DH) convention provides a systematic way to assign coordinate frames to each link and describe each joint with just four parameters: link length (a), link twist (alpha), link offset (d), and joint angle (theta). For a revolute joint, theta is the variable. For a prismatic (sliding) joint, d is the variable. The DH parameters completely describe the geometry of any serial robot arm.\n\nInverse kinematics (IK) is significantly more complex. For a 6-DOF robot with a spherical wrist (where the last three joint axes intersect at a point — the most common industrial configuration), a closed-form analytical solution exists. The wrist centre point can be found geometrically, solving the first three joints, and the wrist orientation then determines the last three joints. For robots without a spherical wrist, or for redundant robots (7+ DOF), numerical methods like the Jacobian pseudoinverse or optimisation-based approaches are used.\n\nThe Jacobian matrix is a crucial concept linking joint velocities to end-effector velocities. It is a 6xN matrix (where N is the number of joints) that maps joint angular velocities to linear and angular velocities of the end effector. The Jacobian also reveals singularities — configurations where the robot loses a degree of freedom and certain motions become impossible. Near singularities, joint velocities can become extremely large for small end-effector motions, which is dangerous. Industrial robot controllers include singularity avoidance algorithms for this reason.\n\nIn practice, kinematics is computed in real time on the robot controller. When a programmer specifies a Cartesian path (e.g. 'move in a straight line from point A to point B'), the controller solves inverse kinematics at high frequency (typically 1 kHz) to convert each Cartesian waypoint into joint commands. This is the foundation of robot motion planning and is used in every industrial robot from ABB to FANUC to KUKA.",
+  "keyTakeaways": [
+    "Degrees of freedom determine what positions and orientations a robot can reach",
+    "Forward kinematics computes end-effector position from joint angles — straightforward matrix multiplication",
+    "Inverse kinematics computes joint angles from desired end-effector position — much harder, may have multiple or no solutions",
+    "DH parameters provide a systematic convention for describing robot arm geometry",
+    "The Jacobian matrix relates joint velocities to end-effector velocities and reveals singularities"
+  ],
+  "frameworks": ["degrees-of-freedom-analysis"],
+  "example": "Consider programming a KUKA robot arm in a car manufacturing plant in Melbourne to weld a seam along the roof of a car body. The programmer specifies the weld path as a series of Cartesian points and orientations (the welding torch must be perpendicular to the surface at each point). The robot controller takes each point, solves the inverse kinematics to find the six joint angles needed, and then interpolates smoothly between configurations. At one point along the roof, the controller detects that the robot is approaching a singularity — two joint axes are nearly aligned — and automatically adjusts the path slightly to avoid the configuration. The entire weld path, involving thousands of inverse kinematics solutions, is computed and verified in simulation before the robot ever moves.",
+  "commonMistakes": [
+    "Confusing kinematics (motion without forces) with dynamics (motion with forces) — they are different subjects",
+    "Assuming inverse kinematics always has a unique solution — there are often multiple valid configurations",
+    "Ignoring singularities — they cause real problems in robot motion and must be handled in software",
+    "Thinking more joints are always better — redundancy adds complexity to control and IK solution",
+    "Forgetting that the workspace (reachable volume) depends on both arm geometry and joint limits"
+  ],
+  "exercise": "Using a ruler and protractor (or a free online robotics simulator like Peter Corke's Robotics Toolbox), define a simple 2-DOF planar robot arm with two revolute joints. Link 1 is 20 cm long, Link 2 is 15 cm long. Calculate the forward kinematics for joint angles (30 degrees, 45 degrees) — where is the end effector? Then solve the inverse kinematics: what joint angles place the end effector at position (25, 10) cm? You should find two solutions — sketch both configurations and explain why two solutions exist geometrically (elbow up vs elbow down).",
+  "nextLesson": "control-systems-intro",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "What does a 6-DOF robot arm mean?",
+      "options": ["The arm weighs 6 kilograms", "The arm has 6 independently controllable joints, allowing it to position and orient its end effector freely in 3D space", "The arm can reach 6 metres", "The arm has 6 different tools"],
+      "correctIndex": 1,
+      "explanation": "A 6-DOF (six degrees of freedom) robot arm has six independently actuated joints. Six is the minimum number needed to achieve arbitrary position (3 DOF for x, y, z) and orientation (3 DOF for roll, pitch, yaw) of the end effector within the reachable workspace."
+    },
+    {
+      "question": "Why is inverse kinematics harder than forward kinematics?",
+      "options": ["It requires more expensive hardware", "It always has exactly one solution that is difficult to find", "There may be multiple solutions, no solution, or no closed-form analytical solution — requiring numerical methods", "It can only be computed offline, not in real time"],
+      "correctIndex": 2,
+      "explanation": "Forward kinematics is a straightforward chain of matrix multiplications — given joint angles, the end-effector position is unique. Inverse kinematics is harder because the mapping from Cartesian space to joint space may be many-to-one (multiple configurations reach the same point), the desired point may be unreachable, and for many robot geometries no simple formula exists, requiring iterative numerical solvers."
+    }
+  ],
+  "perspectives": {
+    "programmer": "As a robot programmer, you work with kinematics daily — specifying Cartesian waypoints and relying on the controller's IK solver. Understanding kinematics helps you avoid singularities and choose efficient robot configurations.",
+    "designEngineer": "As a design engineer, you choose the kinematic structure of the robot — number of joints, joint types, link lengths — to match the application requirements for workspace, payload, and dexterity.",
+    "controlsEngineer": "As a controls engineer, you implement the IK solver, handle singularity avoidance, and ensure smooth real-time trajectory generation at kilohertz rates."
+  }
+}

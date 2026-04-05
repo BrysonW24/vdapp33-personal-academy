@@ -1,0 +1,46 @@
+{
+  "slug": "industry-physicist",
+  "title": "Industry Physicist — Quantum Computing Startup",
+  "setting": "An Australian quantum computing startup (e.g. in Sydney or Melbourne)",
+  "companySize": "40–80 employees, growing rapidly",
+  "description": "You work as a physicist in a quantum computing company, bridging the gap between fundamental physics and product development. Your days involve designing qubit experiments, analysing noise data, building simulation tools, and working closely with engineers to improve hardware performance. The pace is faster than academia and the problems are deeply applied.",
+  "salary": "$120,000–$180,000 AUD",
+  "schedule": [
+    { "time": "08:00", "activity": "Stand-up meeting with the quantum hardware team", "tools": [], "note": "Review yesterday's qubit coherence measurements, plan today's experiments" },
+    { "time": "08:30", "activity": "Analyse T1 and T2 coherence data from overnight dilution fridge runs", "tools": ["Python/SciPy", "Jupyter"], "note": "Looking for correlations between coherence times and fabrication parameters" },
+    { "time": "10:00", "activity": "Design a new pulse sequence for two-qubit gate calibration", "tools": ["Python", "Qiskit"], "note": "Optimising gate fidelity requires precise microwave pulse shaping" },
+    { "time": "11:30", "activity": "Physics deep-dive meeting — discuss a noise mechanism with theorists", "tools": [], "note": "Identifying whether the noise is 1/f or white helps choose mitigation strategies" },
+    { "time": "12:30", "activity": "Lunch — company-provided, eat with the cryogenics team", "tools": [], "note": "Startup culture means everyone knows everyone" },
+    { "time": "13:30", "activity": "Write simulation code to model qubit-resonator coupling", "tools": ["Python", "QuTiP"], "note": "Simulation guides the next hardware design iteration" },
+    { "time": "15:00", "activity": "Review a colleague's paper draft for an upcoming conference", "tools": ["Overleaf"], "note": "Industry labs still publish — it attracts talent and builds credibility" },
+    { "time": "16:00", "activity": "Work with engineers on the next chip design — provide physics input", "tools": ["COMSOL", "SolidWorks"], "note": "Electromagnetic simulations guide the resonator and qubit geometry" },
+    { "time": "17:30", "activity": "Wrap up, push code to Git, and write up experiment notes", "tools": ["Git", "Confluence"], "note": "Documentation is critical when iterating fast" }
+  ],
+  "responsibilities": [
+    "Design and execute qubit characterisation experiments",
+    "Analyse experimental data to improve hardware performance",
+    "Build simulation tools that guide hardware design",
+    "Collaborate with engineers on chip fabrication and cryogenics",
+    "Publish papers and file patents",
+    "Present results to investors and stakeholders",
+    "Stay current with the latest quantum computing research",
+    "Contribute to the company's intellectual property portfolio"
+  ],
+  "challenges": [
+    "The pressure to demonstrate commercial viability of quantum technology",
+    "Working at the bleeding edge where theory and experiment do not always agree",
+    "Balancing scientific rigour with startup speed",
+    "Communicating complex physics to non-physicist stakeholders and investors",
+    "Recruiting top talent in a competitive global market"
+  ],
+  "rewards": [
+    "Working on technology that could transform computing",
+    "Faster pace and more tangible impact than academia",
+    "Competitive salary with equity upside",
+    "Seeing your physics directly improve a real product",
+    "Collaborating with world-class physicists and engineers"
+  ],
+  "careerPath": [
+    "Physicist → Senior physicist → Principal physicist → VP of Quantum Hardware / CTO"
+  ]
+}

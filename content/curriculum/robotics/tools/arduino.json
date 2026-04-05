@@ -1,0 +1,10 @@
+{
+  "slug": "arduino",
+  "name": "Arduino",
+  "category": "hardware",
+  "description": "Arduino is an open-source electronics platform comprising a family of microcontroller boards (Arduino Uno, Mega, Nano, etc.) and an integrated development environment (IDE). Arduino boards provide digital and analogue I/O pins for connecting sensors and actuators, and the Arduino language (C/C++ with simplified libraries) makes embedded programming accessible to beginners. The Arduino ecosystem includes thousands of libraries for sensors, displays, communication modules, and motor drivers.",
+  "whyUseIt": "Arduino is the most accessible entry point to embedded systems and robotics hardware. Its low cost (boards from $5-30 AUD), extensive documentation, massive community, and plug-and-play sensor/actuator libraries let you go from idea to working prototype in hours. It is the go-to platform for learning robotics hardware, building line followers, controlling servos, reading sensors, and prototyping ideas before moving to more powerful platforms like STM32 or ESP32.",
+  "pricingTier": "free",
+  "url": "https://www.arduino.cc/",
+  "alternatives": ["ESP32", "STM32", "Teensy", "Raspberry Pi Pico"]
+}

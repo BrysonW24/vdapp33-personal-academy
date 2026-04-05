@@ -1,0 +1,26 @@
+{
+  "slug": "operating-budgets-and-outgoings",
+  "title": "Operating Budgets and Outgoings",
+  "shortSummary": "Build, manage, and explain property budgets with enough rigor to support recoveries, forecasting, and owner confidence.",
+  "level": "intermediate",
+  "category": "finance",
+  "whyItMatters": "Budgets are not just spreadsheets. They are operating decisions expressed financially. When you understand budgets well, you can explain variance, challenge assumptions, support recoveries, and make better trade-offs between service level, risk, and cost. When you do not, you become dependent on hindsight and other teams' interpretations.",
+  "coreConcepts": [
+    "What belongs in an operating budget and why",
+    "Recoverable versus non-recoverable cost thinking",
+    "How to explain variance beyond 'higher than expected'",
+    "The relationship between budget quality and owner trust"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Service Charge Budget Loop"
+  ],
+  "relatedModules": [
+    "arrears-recovery-and-lease-administration",
+    "owner-reporting-and-kpis",
+    "capex-and-lifecycle-planning"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 3
+}

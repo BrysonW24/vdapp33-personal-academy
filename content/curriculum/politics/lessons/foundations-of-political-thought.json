@@ -1,0 +1,46 @@
+{
+  "slug": "foundations-of-political-thought",
+  "moduleSlug": "political-philosophy",
+  "title": "Foundations of Political Thought",
+  "objective": "Understand the major political philosophies — liberalism, conservatism, socialism, and libertarianism — and how they shape modern Australian politics.",
+  "beginnerExplanation": "Every political position rests on deeper philosophical assumptions. Liberalism emphasises individual freedom and rights — the idea that people should be free to live as they choose, with the government protecting those freedoms. Conservatism values tradition, social order, and gradual change — if something has worked for generations, don't tear it down. Socialism focuses on collective ownership and reducing inequality — the idea that society should ensure everyone has access to essential goods like healthcare, education, and housing. Libertarianism takes individual freedom to its extreme — minimal government intervention in both personal and economic life. In Australia, the Liberal Party draws from classical liberalism and conservatism, the Labor Party from social democracy (a moderate form of socialism), and the Greens from environmentalism and progressive liberalism.",
+  "deeperExplanation": "Political philosophy provides the 'why' behind policy positions. John Locke's social contract theory — that government derives its legitimacy from the consent of the governed — underpins liberal democracy. Edmund Burke's conservatism argued that society is a partnership between the dead, the living, and the yet unborn, making radical change dangerous. Karl Marx's critique of capitalism argued that economic structures determine political power, inspiring socialist and social democratic movements. John Rawls' 'veil of ignorance' thought experiment asks: what kind of society would you design if you didn't know what position you'd hold in it? Robert Nozick's libertarianism counters that any redistribution of property is unjust. In Australian politics, these philosophies manifest in concrete debates: universal healthcare (social democratic), lower taxes (liberal/libertarian), protecting institutions (conservative), and expanding rights (progressive liberal). Understanding these roots helps you articulate your positions coherently and engage with opponents honestly.",
+  "keyTakeaways": [
+    "Liberalism prioritises individual rights and freedoms, with government protecting them",
+    "Conservatism values tradition, social order, and incremental rather than revolutionary change",
+    "Socialism focuses on reducing inequality through collective ownership and redistribution",
+    "These philosophies are not just abstract — they drive real policy debates in Australia",
+    "Understanding your opponents' philosophical foundations helps you engage honestly and persuade effectively"
+  ],
+  "frameworks": ["policy-impact-framework"],
+  "example": "The debate over Australia's Stage 3 tax cuts in 2024 illustrates competing philosophies in action. The original design (lower taxes for higher earners) reflected classical liberal economics — the idea that lower taxes stimulate growth and individuals should keep more of what they earn. The Albanese Government's redesign (spreading benefits to lower earners) reflected social democratic values — that tax policy should reduce inequality and support those with less. Conservatives argued for keeping promises and maintaining policy stability. Each position is internally consistent within its philosophical framework. The disagreement is not about facts but about values: what kind of society do we want to be?",
+  "commonMistakes": [
+    "Treating your own political philosophy as 'just common sense' rather than one position among several",
+    "Assuming the left-right spectrum captures all political positions — it misses authoritarianism, environmentalism, and more",
+    "Confusing liberalism (individual rights) with the Australian Liberal Party, which blends liberalism with conservatism",
+    "Thinking socialism and communism are the same thing — social democracy is a mainstream, democratic philosophy",
+    "Dismissing opponents as stupid rather than understanding they start from different foundational values"
+  ],
+  "exercise": "Choose a current Australian policy debate (housing affordability, climate policy, immigration, or Indigenous affairs). Write four short position papers — one from each philosophical tradition (liberal, conservative, social democratic, libertarian). Each paper should be 200 words, start from that philosophy's core principles, and arrive at a coherent policy position. The goal is not to find the 'right' answer but to demonstrate that each tradition produces a logically consistent position from different starting assumptions.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What is John Rawls' 'veil of ignorance' thought experiment designed to demonstrate?",
+      "options": ["That ignorance is bliss in politics", "What kind of society rational people would design if they didn't know their position in it", "That voters are uninformed", "That politicians should hide their true beliefs"],
+      "correctIndex": 1,
+      "explanation": "Rawls argued that if you designed a society without knowing whether you'd be rich or poor, healthy or sick, you'd choose one with strong safety nets and equal basic rights — because you'd want protection in case you ended up disadvantaged."
+    },
+    {
+      "question": "Which political philosophy most directly underpins Australia's Medicare system?",
+      "options": ["Classical liberalism", "Conservatism", "Social democracy", "Libertarianism"],
+      "correctIndex": 2,
+      "explanation": "Medicare reflects social democratic values — the idea that access to healthcare is a right, not a market commodity, and that society should collectively fund essential services to ensure equality of access regardless of income."
+    }
+  ],
+  "perspectives": {
+    "citizen": "Understanding these philosophies helps you vote based on values, not just personalities. You can ask: what kind of society does this policy create?",
+    "staffer": "Every policy brief needs philosophical coherence. If your member is a social democrat arguing for flat taxes, someone will notice the contradiction.",
+    "politician": "Your philosophy is your compass. When under pressure to make a quick decision, it tells you which direction to lean.",
+    "strategist": "Know where the electorate sits philosophically. Australians are pragmatic centrists on most issues — ideological purity rarely wins elections."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "quantum-teleportation",
+  "name": "Quantum Teleportation Protocol",
+  "summary": "A protocol that transfers an unknown quantum state using entanglement plus classical communication, without physically moving the original qubit state itself.",
+  "whenToUseIt": "Use it to understand how entanglement and classical channels combine in quantum networking and distributed systems.",
+  "steps": [
+    "Prepare a shared entangled pair between sender and receiver.",
+    "Combine the unknown state with the sender's half of the Bell pair.",
+    "Measure in the Bell basis and produce classical bits.",
+    "Send the classical bits to the receiver.",
+    "Apply the corresponding correction to reconstruct the state."
+  ],
+  "example": "Teleportation is a core idea behind some quantum-network architectures because it moves state information without cloning the original.",
+  "category": "information"
+}

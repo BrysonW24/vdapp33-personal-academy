@@ -1,0 +1,16 @@
+{
+  "slug": "what-aero-engineering-is",
+  "title": "What Aeronautical Engineering Is",
+  "shortSummary": "Understand what aeronautical engineering means, why it matters, and how aircraft design, analysis, and certification work together.",
+  "level": "beginner",
+  "category": "design",
+  "whyItMatters": "Aeronautical engineering is the discipline of designing, building, and maintaining aircraft. Understanding the landscape is the first step to contributing to it.",
+  "coreConcepts": ["What aeronautical engineers do", "Aircraft design lifecycle", "Regulatory environment (CASA, EASA, FAA)", "Civil vs military vs space", "The role of simulation and testing"],
+  "lessons": ["lift-and-drag-basics"],
+  "frameworks": ["design-spiral"],
+  "visualType": "aircraft-system",
+  "relatedModules": ["aerodynamics-fundamentals", "aircraft-structures", "flight-mechanics"],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

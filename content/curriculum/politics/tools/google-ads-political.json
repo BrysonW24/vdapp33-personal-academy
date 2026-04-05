@@ -1,0 +1,21 @@
+{
+  "slug": "google-ads-political",
+  "name": "Google Ads for Political Campaigns",
+  "category": "communications",
+  "description": "Google's advertising platform, used by political campaigns for search ads, YouTube pre-roll, and display advertising. Subject to Google's political advertising policies including identity verification and ad transparency.",
+  "whyUseIt": "Google Ads lets campaigns reach voters who are actively searching for information about candidates, issues, and elections. YouTube pre-roll reaches voters during their daily media consumption. Search ads capture high-intent voters looking for election information.",
+  "pricingTier": "paid",
+  "url": "https://ads.google.com",
+  "aiCapabilities": "Smart bidding, responsive search ads, audience targeting, performance prediction",
+  "alternatives": ["Meta Ads (Facebook/Instagram)", "Microsoft Advertising", "Snapchat Political Ads"],
+  "funnelPosition": "Top and mid funnel — awareness and consideration",
+  "outputs": ["Search ads", "YouTube video ads", "Display ads", "Retargeting campaigns", "Performance reports"],
+  "marketerWorkflow": "Set up verified political advertiser account, create search campaigns targeting electorate-specific keywords, run YouTube pre-roll in target postcodes, retarget website visitors with donation asks",
+  "managerExpects": "Weekly ad performance: impressions, clicks, cost per click, website visits, donation conversions from ads",
+  "vocabulary": [
+    { "term": "Geotargeting", "definition": "Showing ads only to people in specific geographic areas — essential for electorate-level campaigns" },
+    { "term": "Political ad transparency", "definition": "Google requires political advertisers to verify identity and all political ads are logged in a public transparency report" }
+  ],
+  "beginnerMistakes": ["Not verifying as a political advertiser — Google will reject your ads", "Targeting too broadly instead of focusing on your specific electorate"],
+  "relatedProject": "run-a-mock-campaign"
+}

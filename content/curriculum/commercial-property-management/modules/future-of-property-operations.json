@@ -1,0 +1,27 @@
+{
+  "slug": "future-of-property-operations",
+  "title": "Future of Property Operations",
+  "shortSummary": "See where the role is heading as owners demand more data, more sustainability performance, and more integrated service models.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "The role is becoming more analytical, more integrated, and more visible. Owners want faster insight, stronger ESG performance, more resilient operations, and systems that reduce manual work. Property managers who understand these shifts early can position themselves as operators who are ready for the next version of the job, not just the current one.",
+  "coreConcepts": [
+    "Why owner expectations are rising around data and reporting speed",
+    "How AI and automation are changing routine property workflows",
+    "The convergence of operations, sustainability, and advisory work",
+    "What capabilities will make future property managers more valuable"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "ESG Opportunity Sprint",
+    "Risk Heatmap"
+  ],
+  "relatedModules": [
+    "energy-sustainability-and-esg",
+    "proptech-data-and-automation",
+    "portfolio-planning-and-asset-thinking"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 4
+}

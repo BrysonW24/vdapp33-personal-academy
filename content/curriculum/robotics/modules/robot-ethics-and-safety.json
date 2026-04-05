@@ -1,0 +1,16 @@
+{
+  "slug": "robot-ethics-and-safety",
+  "title": "Robot Ethics and Safety",
+  "shortSummary": "Examine the ethical, legal, and safety dimensions of deploying robots in the real world. From workplace safety standards to autonomous weapons debates, this module tackles the hard questions that roboticists must face.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Robots can harm people. An industrial robot arm can crush a worker. An autonomous vehicle can hit a pedestrian. A medical robot can make a wrong incision. As robots become more capable and autonomous, the ethical and safety questions become more complex and more consequential. Who is liable when an autonomous mining truck causes an accident? Should lethal autonomous weapons be banned? How do we ensure robots do not perpetuate biases in hiring or healthcare? In Australia, Safe Work Australia sets workplace safety standards that directly affect how robots can be deployed, and the Australian government has been active in international discussions about autonomous weapons regulation. This module covers functional safety standards (ISO 13849, IEC 61508), risk assessment methodologies, liability frameworks, and the broader ethical debates that shape the future of robotics.",
+  "coreConcepts": ["Functional safety standards: ISO 13849, IEC 61508, ISO 10218", "Risk assessment and hazard analysis", "Safety integrity levels (SIL)", "Liability and legal frameworks for autonomous systems", "Autonomous weapons and the Campaign to Stop Killer Robots", "Algorithmic bias in robotic decision-making", "Job displacement and the future of work"],
+  "lessons": [],
+  "frameworks": ["safety-integrity-levels"],
+  "visualType": "safety-framework",
+  "relatedModules": ["collaborative-robots", "human-robot-interaction", "industrial-automation"],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 3
+}

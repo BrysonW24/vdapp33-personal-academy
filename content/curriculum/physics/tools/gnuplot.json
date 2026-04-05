@@ -1,0 +1,21 @@
+{
+  "slug": "gnuplot",
+  "name": "Gnuplot",
+  "category": "visualisation",
+  "description": "A lightweight, command-line plotting program for creating 2D and 3D plots from data files and mathematical functions. A classic tool in physics for quick data visualisation.",
+  "whyUseIt": "Gnuplot is fast, scriptable, and runs everywhere. It is ideal for quick exploratory plots during analysis and can produce publication-quality output. Many physicists use it for its simplicity and speed when they do not need a full programming environment.",
+  "pricingTier": "free",
+  "url": "http://www.gnuplot.info/",
+  "alternatives": ["Python/Matplotlib", "ROOT", "Origin"],
+  "fieldPosition": "Universal — quick data visualisation and exploration across all branches",
+  "outputs": ["2D and 3D plots", "Fitted curves", "Parametric plots", "PostScript/PDF figures"],
+  "physicistWorkflow": "Load a data file, plot it with one command, fit a function, and export to PDF for inclusion in a paper.",
+  "supervisorExpects": "Ability to produce clean, labelled plots quickly from the command line.",
+  "computationalImpact": "Enables rapid data exploration without the overhead of a full programming environment.",
+  "vocabulary": [
+    { "term": "Terminal", "definition": "The output device — screen, PDF, PostScript, PNG, etc." },
+    { "term": "Fit", "definition": "Gnuplot's built-in Levenberg-Marquardt nonlinear curve fitting" }
+  ],
+  "beginnerMistakes": ["Not setting proper axis ranges and labels", "Forgetting to set the output terminal before plotting to file"],
+  "relatedProject": "pendulum-model"
+}

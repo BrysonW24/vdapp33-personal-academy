@@ -1,0 +1,23 @@
+{
+  "slug": "what-rocket-science-is",
+  "title": "What Rocket Science Actually Is",
+  "shortSummary": "The first principles of rocketry — why rockets work, how Newton's laws apply, and what makes spaceflight fundamentally different from aviation.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Every rocket engineer starts here. Understanding why a rocket works — reaction mass, thrust, and the tyranny of the rocket equation — is the foundation everything else builds on. SpaceX was built on first principles thinking applied to this exact knowledge.",
+  "coreConcepts": [
+    "Newton's Third Law applied to propulsion",
+    "The rocket equation (Tsiolkovsky)",
+    "Specific impulse and thrust-to-weight ratio",
+    "Vacuum vs atmospheric flight",
+    "Staging and mass fraction",
+    "Gravity wells and escape velocity"
+  ],
+  "lessons": ["what-makes-a-rocket-work", "the-rocket-equation", "staging-and-mass-fraction", "specific-impulse-explained", "gravity-and-escape-velocity"],
+  "frameworks": ["tsiolkovsky-equation", "first-principles-reasoning"],
+  "visualType": "diagram",
+  "relatedModules": ["orbital-mechanics", "propulsion-fundamentals"],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

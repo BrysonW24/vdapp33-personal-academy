@@ -1,0 +1,16 @@
+{
+  "slug": "sustainable-aviation",
+  "title": "Sustainable Aviation",
+  "shortSummary": "The future of green flight — sustainable aviation fuels, electric propulsion, hydrogen aircraft, and emission reduction strategies.",
+  "level": "advanced",
+  "category": "design",
+  "whyItMatters": "Aviation accounts for 2-3% of global CO2 emissions and the industry has committed to net zero by 2050. Engineers who can design sustainable aircraft will shape the future.",
+  "coreConcepts": ["Sustainable aviation fuel (SAF)", "Battery-electric aircraft", "Hydrogen propulsion", "Aerodynamic efficiency improvements", "Carbon offsetting and trading", "ICAO CORSIA framework"],
+  "lessons": [],
+  "frameworks": ["sustainability-roadmap"],
+  "visualType": "emission-reduction",
+  "relatedModules": ["propulsion-systems", "aircraft-design", "materials-composites"],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 4
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "quantum-applications-scientist",
+  "title": "Quantum Applications Scientist - Industry or Platform Team",
+  "setting": "A company or platform team working with external partners to test quantum use cases in chemistry, optimisation, or sensing",
+  "companySize": "Applications group of 6-20 inside a company of 50-300 people",
+  "description": "You spend your time bridging technical quantum capability with domain problems that real customers care about. The work is part modelling, part translation, and part expectation management.",
+  "salary": "$120,000-$175,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review one customer problem and decide whether it is even a plausible quantum candidate",
+      "tools": ["python-scipy"],
+      "note": "The first job is often saying no, or at least not yet."
+    },
+    {
+      "time": "10:30",
+      "activity": "Prototype a small mapping or benchmark workflow",
+      "tools": ["qiskit", "amazon-braket"],
+      "note": "A tiny honest demo is more useful than a grand speculative deck."
+    },
+    {
+      "time": "13:00",
+      "activity": "Meet with domain specialists to understand the real success metric",
+      "tools": [],
+      "note": "Quantum framing often fails because the actual customer constraint was misunderstood."
+    },
+    {
+      "time": "15:00",
+      "activity": "Compare the quantum approach to a classical baseline and write a recommendation",
+      "tools": ["python-scipy"],
+      "note": "Much of the value is in deciding what not to pursue."
+    },
+    {
+      "time": "16:30",
+      "activity": "Prepare material for internal review or an external technical workshop",
+      "tools": [],
+      "note": "Applications work succeeds when it turns hype into grounded judgement."
+    }
+  ],
+  "responsibilities": [
+    "Evaluate candidate industry use cases",
+    "Map problems into quantum or hybrid workflows",
+    "Build small prototypes and compare them to classical baselines",
+    "Communicate technical limits and realistic milestones",
+    "Help shape where the company spends attention"
+  ],
+  "challenges": [
+    "Too many use cases are overpromised and under-specified",
+    "Customers often want certainty before the field can honestly provide it",
+    "You must understand both the quantum stack and the domain problem"
+  ],
+  "rewards": [
+    "Seeing where quantum might create real value rather than paper value",
+    "Working across science, software, and industry problems",
+    "Becoming one of the people who can tell signal from noise"
+  ],
+  "careerPath": [
+    "Applications researcher -> Quantum applications scientist -> Principal scientist or solutions lead -> Head of applications"
+  ]
+}

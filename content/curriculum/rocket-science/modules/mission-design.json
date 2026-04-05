@@ -1,0 +1,23 @@
+{
+  "slug": "mission-design",
+  "title": "Mission Design",
+  "shortSummary": "Planning a space mission from concept to execution — trajectory design, launch windows, mission phases, and the trade-offs that define success.",
+  "level": "advanced",
+  "category": "mission-design",
+  "whyItMatters": "Mission design is where physics meets planning. Every launch window, trajectory choice, and abort scenario must be calculated and verified before a single bolt is turned. The difference between a successful Mars landing and a missed orbit is in the mission design.",
+  "coreConcepts": [
+    "Mission architecture and phases",
+    "Launch window analysis",
+    "Trajectory optimisation",
+    "Abort modes and contingency planning",
+    "Mission cost estimation",
+    "Operations planning and timeline"
+  ],
+  "lessons": [],
+  "frameworks": ["delta-v-budget-framework", "systems-engineering-v-model"],
+  "visualType": "trajectory-map",
+  "relatedModules": ["orbital-mechanics", "interplanetary-missions", "launch-vehicle-design"],
+  "status": "coming-soon",
+  "order": 10,
+  "levelNumber": 3
+}

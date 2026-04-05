@@ -1,0 +1,15 @@
+{
+  "slug": "esg-opportunity-sprint",
+  "name": "ESG Opportunity Sprint",
+  "summary": "A short, cross-functional sprint for finding practical sustainability wins in an existing asset. It focuses on operational improvements that reduce waste, improve comfort, or strengthen reporting without waiting for a major redevelopment.",
+  "whenToUseIt": "Use this when an owner asks for a sustainability roadmap, when energy costs are climbing, when NABERS or LEED-style performance needs improvement, or when the team wants quick wins that can build momentum for larger ESG work.",
+  "steps": [
+    "Choose one asset question - Frame the sprint around a clear target such as reducing after-hours energy use, improving waste segregation, improving comfort complaints, or building a stronger emissions baseline.",
+    "Pull a mixed working group - Include property management, facilities, engineering, relevant contractors, and where useful tenant representatives. ESG improvements often fail when they stay siloed.",
+    "Map waste, friction, and quick wins - Walk the building and the data. Look for wasted runtime, blind spots in metering, process duplication, poor signage, comfort issues, and capex-light upgrades.",
+    "Prioritize by impact and effort - Separate low-effort actions from larger projects. Immediate wins create credibility; longer investments need a clearer business case.",
+    "Convert the sprint into a tracked plan - Assign owners, dates, expected outcomes, and reporting points so the sprint ends in action rather than a slide deck."
+  ],
+  "example": "A mixed-use asset runs a two-week ESG Opportunity Sprint focused on after-hours energy. The team finds cleaners triggering full-floor HVAC for small zones, poor shut-down routines, and missing submeter visibility. The resulting plan includes scheduling changes, signage, contractor instructions, and a targeted metering upgrade case.",
+  "category": "sustainability"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "precision-limit-ladder",
+  "name": "Precision Limit Ladder",
+  "summary": "A way to reason about measurement precision from ordinary averaging limits up toward quantum-enhanced sensitivity.",
+  "whenToUseIt": "Use it when evaluating quantum sensing claims and deciding whether the improvement comes from genuine quantum resources or simply better engineering.",
+  "steps": [
+    "Establish the classical baseline and noise floor.",
+    "Identify whether the limitation is technical noise or fundamental statistics.",
+    "Check whether coherence, squeezing, or entanglement improves the scaling.",
+    "Account for loss and readout inefficiency.",
+    "Judge whether the claimed advantage survives the full system budget."
+  ],
+  "example": "A sensor may look quantum-enhanced in an ideal model, but once loss and imperfect readout are included, the practical advantage can shrink sharply.",
+  "category": "metrology"
+}

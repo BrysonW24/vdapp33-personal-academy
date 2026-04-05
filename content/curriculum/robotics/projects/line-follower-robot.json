@@ -1,0 +1,46 @@
+{
+  "slug": "line-follower-robot",
+  "title": "Line Follower Robot",
+  "difficulty": 2,
+  "estimatedHours": 15,
+  "description": "Build a small mobile robot that follows a line on the floor using infrared sensors and a PID controller. This classic introductory project teaches the fundamentals of sensor reading, feedback control, and motor driving in a tangible, rewarding way. You will design the sensor array, implement a PID controller, tune the gains, and optimise for speed and accuracy.",
+  "whyItMatters": "The line follower is the 'Hello World' of robotics — simple enough to build in a weekend, but rich enough to teach real engineering principles. The sensor-controller-actuator loop you implement here is the same architecture used in autonomous vehicles, drone flight controllers, and industrial robots. PID tuning skills transfer directly to every control problem you will encounter in robotics.",
+  "skillsLearned": ["Infrared sensor interfacing", "PID controller implementation", "Motor driver electronics (H-bridge)", "Arduino/microcontroller programming", "Control gain tuning", "Hardware-software integration"],
+  "prerequisites": ["Basic programming (C/C++ or Arduino)", "Basic electronics (LEDs, resistors, breadboarding)"],
+  "steps": [
+    {
+      "title": "Design the sensor array",
+      "description": "Select 3-5 infrared reflectance sensors (e.g. QRE1113 or TCRT5000) and mount them in a line across the front of the robot chassis, spaced about 10-15mm apart. Wire each sensor to an analogue input on the Arduino. Calibrate each sensor by reading values on white and black surfaces.",
+      "tips": "Mount the sensors 5-10mm above the ground for best contrast. Use a 3D-printed or laser-cut bracket to keep sensor spacing precise and consistent."
+    },
+    {
+      "title": "Build the chassis and drivetrain",
+      "description": "Assemble a two-wheeled differential drive chassis with a castor or ball bearing for balance. Connect two DC gear motors to an L298N or TB6612 motor driver. Wire the motor driver to the Arduino and verify that you can control both motors independently — forward, reverse, and varying speed via PWM.",
+      "tips": "Gear motors with built-in encoders are worth the extra cost — they enable precise speed measurement for better PID control."
+    },
+    {
+      "title": "Implement the line position algorithm",
+      "description": "Read all sensors and compute a weighted average to determine the line's position relative to the sensor array centre. The position value should be a continuous number (e.g. -1.0 for far left, 0.0 for centred, +1.0 for far right) rather than a discrete left/right signal. This gives the PID controller a smooth error signal to work with.",
+      "tips": "Normalise sensor readings using the calibration values from step 1 so that the algorithm works reliably on different surfaces and lighting conditions."
+    },
+    {
+      "title": "Implement PID control",
+      "description": "Code a PID controller that takes the line position error as input and outputs a steering correction. Apply the correction differentially to the two motors — if the line is to the left, slow the left motor and speed up the right motor. Start with P-only control, then add D for damping, and finally I if there is persistent drift.",
+      "tips": "Use a fixed loop rate (e.g. 100 Hz) for consistent controller behaviour. Print PID values to serial for debugging."
+    },
+    {
+      "title": "Tune and optimise",
+      "description": "Create a test track with straight sections, curves, and sharp turns. Tune the PID gains systematically: increase Kp until the robot oscillates, then add Kd to damp the oscillation. Increase base speed and retune — faster speeds require more aggressive D gain and possibly reduced P gain. Record lap times and track your tuning progress.",
+      "tips": "Start slow (30% motor speed) and increase gradually. Film the robot from above to analyse tracking performance at different speeds."
+    }
+  ],
+  "deliverables": ["Working line-following robot", "Documented PID tuning log with gain values and performance metrics", "Video of the robot completing a test track", "Written reflection on the control challenges encountered"],
+  "tools": ["arduino", "python-robotics"],
+  "rubric": [
+    {"criteria": "Line following accuracy", "description": "Robot stays on the line consistently through straights, gentle curves, and sharp turns without losing track"},
+    {"criteria": "PID implementation", "description": "Controller correctly implements P, I, and D terms with anti-windup and output clamping"},
+    {"criteria": "Tuning methodology", "description": "Systematic tuning approach documented with gain values, performance measurements, and rationale for adjustments"},
+    {"criteria": "Speed optimisation", "description": "Robot achieves a competitive lap time while maintaining reliable line tracking"},
+    {"criteria": "Code quality", "description": "Clean, well-commented code with configurable parameters and serial debugging output"}
+  ]
+}

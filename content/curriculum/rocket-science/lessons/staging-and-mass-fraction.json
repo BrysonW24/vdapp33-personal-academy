@@ -1,0 +1,43 @@
+{
+  "slug": "staging-and-mass-fraction",
+  "moduleSlug": "what-rocket-science-is",
+  "title": "Staging and Mass Fraction",
+  "objective": "Understand why rockets use multiple stages and how mass fraction determines payload capacity.",
+  "beginnerExplanation": "Imagine climbing a mountain carrying a heavy backpack. Once you have eaten half the food, the empty containers are dead weight. If you could throw away the containers as you go, you would climb faster. Staging works the same way. A multi-stage rocket discards empty fuel tanks and engines once they have done their job, so the remaining rocket is lighter and accelerates more efficiently. The structural mass fraction — how much of each stage is structure versus propellant — is the key metric. SpaceX's Falcon 9 first stage has a structural mass fraction of about 6%, meaning 94% of its mass is propellant. That is extraordinarily efficient.",
+  "deeperExplanation": "The structural coefficient (epsilon) is defined as the ratio of structural mass to total stage mass: epsilon = ms/(ms + mp), where ms is structural mass and mp is propellant mass. The payload ratio for each stage is lambda = mpayload/m0. For an optimal two-stage rocket, the staging velocity should be chosen to minimise total mass for a given payload. In practice, the optimal staging point depends on the Isp of each stage, the structural coefficients, and atmospheric losses. Falcon 9 stages at roughly Mach 6-7 and 70 km altitude — a compromise between maximising first stage performance and enabling booster recovery. The second stage Mvac engine with its larger expansion ratio nozzle is optimised for vacuum performance (Isp 348s vs 311s at sea level), which is why it takes over only after the vehicle is above the dense atmosphere.",
+  "keyTakeaways": [
+    "Staging discards dead mass (empty tanks, engines) to improve performance of remaining stages",
+    "Structural mass fraction determines how efficiently a stage converts propellant mass into delta-v",
+    "Lower structural mass fraction = more propellant per kilogram of stage = better performance",
+    "Two stages is the sweet spot for most LEO missions — more stages add complexity for diminishing returns",
+    "The staging point (velocity and altitude) is a critical design trade-off"
+  ],
+  "frameworks": ["tsiolkovsky-equation", "first-principles-reasoning"],
+  "example": "Compare a single-stage-to-orbit (SSTO) vehicle versus Falcon 9's two-stage design. For SSTO with current technology (structural fraction ~10%, Isp ~350s), the rocket equation gives a payload fraction of less than 1% — barely worth launching. Falcon 9's two-stage design achieves about 4% payload fraction to LEO (22,800 kg to 549,054 kg liftoff mass). That 4x improvement in payload fraction is entirely due to staging. Starship aims for even better numbers by making both stages reusable, trading payload fraction for reusability and total mass throughput.",
+  "commonMistakes": [
+    "Thinking more stages is always better — each separation event adds failure risk and complexity",
+    "Confusing structural mass fraction with payload fraction",
+    "Ignoring that stage separation mechanisms, interstages, and fairings all count as structural mass",
+    "Forgetting that engine mass counts as structural mass — more engines per stage means worse mass fraction"
+  ],
+  "exercise": "A two-stage rocket has the following parameters: Stage 1 — structural mass 25,000 kg, propellant mass 400,000 kg, Isp 310s. Stage 2 — structural mass 4,000 kg, propellant mass 100,000 kg, Isp 345s. Payload 10,000 kg. Calculate the structural mass fraction for each stage, the delta-v contribution of each stage, and the total delta-v. Can this vehicle reach LEO (9,400 m/s including losses)?",
+  "nextLesson": "specific-impulse-explained",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "Why is staging used in launch vehicles?",
+      "options": [
+        "To make the rocket look more impressive",
+        "To discard empty tanks and engines, reducing mass so remaining stages perform better",
+        "To increase the total amount of propellant carried",
+        "To reduce the combustion temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Staging allows a rocket to jettison structural mass that is no longer needed. Once a stage's propellant is exhausted, the empty tanks and engines are dead weight. Dropping them means the upper stage has a much better mass ratio."
+    }
+  ],
+  "perspectives": {
+    "engineer": "Structural mass fraction is the metric you optimise relentlessly. Every kilogram of structure you remove is a kilogram of payload gained.",
+    "manager": "Staging decisions drive manufacturing complexity, testing scope, and failure modes. Two stages is usually the right trade-off for reliability vs performance."
+  }
+}

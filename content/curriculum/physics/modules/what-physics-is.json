@@ -1,0 +1,29 @@
+{
+  "slug": "what-physics-is",
+  "title": "What Physics Is",
+  "shortSummary": "An introduction to the science of matter, energy, and the fundamental laws that govern the universe — from falling apples to black holes.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Physics underpins every other natural science and engineering discipline. Understanding what physics is and how physicists think gives you the mental toolkit to reason about anything in the natural world.",
+  "coreConcepts": [
+    "The scientific method",
+    "Units and measurement",
+    "Orders of magnitude",
+    "Dimensional analysis",
+    "Models and approximations",
+    "Conservation laws"
+  ],
+  "lessons": [
+    "what-is-physics",
+    "scientific-method-in-physics",
+    "units-and-measurement",
+    "estimation-and-fermi-problems",
+    "physics-as-a-way-of-thinking"
+  ],
+  "frameworks": ["scientific-method", "dimensional-analysis"],
+  "visualType": "concept-map",
+  "relatedModules": ["classical-mechanics", "waves-optics"],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

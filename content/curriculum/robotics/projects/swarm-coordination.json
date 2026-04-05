@@ -1,0 +1,46 @@
+{
+  "slug": "swarm-coordination",
+  "title": "Swarm Coordination",
+  "difficulty": 8,
+  "estimatedHours": 50,
+  "description": "Implement a multi-robot swarm system where 5-10 simple robots coordinate to perform a collective task — area coverage, formation control, or collaborative search. Use decentralised algorithms where each robot makes decisions based only on local information and communication with nearby neighbours. Observe emergent collective behaviour arising from simple individual rules.",
+  "whyItMatters": "Swarm robotics offers scalability and robustness that single-robot systems cannot match. If one robot fails, the swarm continues. Need more coverage? Add more robots. This paradigm is increasingly relevant for large-scale applications: environmental monitoring across the Great Barrier Reef, coordinated drone search in bushfire response, distributed warehouse logistics, and agricultural monitoring across vast Australian farms. Understanding decentralised coordination is essential for the future of multi-robot systems.",
+  "skillsLearned": ["Decentralised algorithm design", "Multi-robot ROS 2 namespacing and communication", "Formation control algorithms", "Consensus and distributed decision-making", "Emergent behaviour analysis", "Multi-robot simulation in Gazebo"],
+  "prerequisites": ["ROS 2 proficiency", "Path planning fundamentals", "Basic understanding of distributed systems", "Python programming"],
+  "steps": [
+    {
+      "title": "Set up multi-robot simulation",
+      "description": "Configure a Gazebo simulation with 5-10 identical differential-drive robots, each with a LiDAR sensor and inter-robot communication. Use ROS 2 namespacing to separate each robot's topics. Verify that each robot can be independently controlled and that robots can exchange messages via a shared topic or direct communication.",
+      "tips": "Use a ROS 2 launch file with a loop to spawn multiple robots. Namespace each robot as /robot_1, /robot_2, etc. Use a lightweight message type for inter-robot communication."
+    },
+    {
+      "title": "Implement local sensing and communication",
+      "description": "Each robot should be able to detect nearby robots using its LiDAR or simulated proximity sensors. Implement a local communication system where each robot broadcasts its position and velocity to neighbours within a communication radius. Each robot maintains a local model of its neighbours' states.",
+      "tips": "Limit communication range to 3-5 metres to enforce locality — this ensures the algorithms are truly decentralised."
+    },
+    {
+      "title": "Implement a swarm behaviour",
+      "description": "Choose and implement one or more swarm behaviours: (a) Flocking — each robot follows three rules: separation (avoid crowding nearby robots), alignment (steer toward average heading of neighbours), cohesion (steer toward average position of neighbours). (b) Area coverage — robots spread out to cover a space evenly using a repulsive potential field between robots. (c) Formation control — robots arrange themselves into a specified shape (line, circle, V-formation).",
+      "tips": "Start with flocking — Reynolds' rules are simple to implement and produce visually impressive emergent behaviour."
+    },
+    {
+      "title": "Implement a collective task",
+      "description": "Apply the swarm behaviour to a useful task: collaborative area search (find all targets in an unknown environment), perimeter defence (surround and contain a defined area), or distributed mapping (each robot maps a different area, then merges maps). Define success metrics for the task.",
+      "tips": "For area search, scatter 10-20 targets in the environment. Track how long it takes the swarm to find all targets compared to a single robot."
+    },
+    {
+      "title": "Analyse and evaluate",
+      "description": "Run experiments varying swarm size (3, 5, 7, 10 robots) and algorithm parameters. Measure: task completion time, coverage efficiency, inter-robot collision rate, and robustness (what happens when 1-2 robots are removed mid-task?). Compare swarm performance to a centralised controller and to a single robot working alone.",
+      "tips": "Run each configuration 5+ times and report means and standard deviations. Emergent behaviour can be sensitive to initial conditions."
+    }
+  ],
+  "deliverables": ["Multi-robot ROS 2 workspace with configurable swarm size", "Implementation of at least two swarm behaviours", "Experimental results comparing performance across swarm sizes", "Robustness analysis (performance with robot failures)", "Video demonstration of emergent swarm behaviour"],
+  "tools": ["ros2", "gazebo-sim", "python-robotics"],
+  "rubric": [
+    {"criteria": "Decentralisation", "description": "Algorithms are truly decentralised — each robot uses only local sensing and neighbour communication, no central controller"},
+    {"criteria": "Emergent behaviour", "description": "Clear emergent collective behaviour arises from simple individual rules — flocking, spreading, or formation maintenance"},
+    {"criteria": "Scalability", "description": "System works with different swarm sizes without reprogramming individual robots"},
+    {"criteria": "Robustness", "description": "Swarm continues functioning when individual robots are removed (graceful degradation)"},
+    {"criteria": "Experimental rigour", "description": "Multiple trials, statistical analysis, and fair comparison between swarm sizes and baseline approaches"}
+  ]
+}

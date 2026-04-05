@@ -1,0 +1,23 @@
+{
+  "slug": "superconducting-qubits",
+  "title": "Superconducting Qubits",
+  "shortSummary": "The dominant gate-model hardware approach today, using Josephson junction circuits at millikelvin temperatures.",
+  "level": "advanced",
+  "category": "hardware",
+  "whyItMatters": "Superconducting platforms currently lead much of the commercial quantum race. They are the clearest example of how fabrication, cryogenics, microwave engineering, and software all converge.",
+  "coreConcepts": [
+    "Transmon architecture",
+    "Josephson junction behaviour",
+    "Microwave control",
+    "Coherence times",
+    "Fabrication challenges",
+    "Scaling with control hardware"
+  ],
+  "lessons": [],
+  "frameworks": ["divincenzo-criteria", "hardware-stack-map"],
+  "visualType": "transmon-chip",
+  "relatedModules": ["qubit-technologies", "cryogenics-and-readout", "quantum-hardware-control"],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 3
+}

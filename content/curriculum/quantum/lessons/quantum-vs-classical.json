@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-vs-classical",
+  "moduleSlug": "what-quantum-engineering-is",
+  "title": "Quantum vs Classical",
+  "objective": "Compare the classical and quantum computing models clearly enough to see both the promise and the limits of quantum systems.",
+  "beginnerExplanation": "Classical computers work with bits, logic gates, memory hierarchies, and deterministic state updates. Quantum computers work with qubits, unitary operations, and measurement probabilities. The classical model is designed to keep information stable and easy to inspect. The quantum model is powerful precisely because it allows information to behave in unfamiliar ways, but that also makes it much harder to control.\n\nIn practice, classical and quantum systems are partners, not enemies. A real quantum workflow still depends heavily on classical orchestration, compilation, calibration, and result interpretation. The quantum device is usually the most exotic part of a much larger hybrid system.",
+  "deeperExplanation": "The classical model can copy bits freely, inspect state without destroying it, and suppress noise with well-understood digital abstraction layers. Quantum systems cannot be copied arbitrarily, and measurement changes the state. Classical logic is typically reversible only when designed to be; quantum evolution before measurement is always reversible through unitaries.\n\nThis means the engineering stack differs dramatically. Classical systems hide physics behind stable abstractions. Quantum systems force you to confront the physics directly: coherence time, gate fidelity, temperature, laser or microwave control, and crosstalk all shape what is computationally possible. Quantum computing is therefore both a computation problem and a control problem.",
+  "keyTakeaways": [
+    "Classical and quantum computers use different information models and different engineering abstractions.",
+    "Quantum hardware usually works inside a larger classical control and analysis loop.",
+    "Measurement and copying behave very differently in quantum systems.",
+    "Quantum advantage is constrained by physical error rates and hardware quality."
+  ],
+  "frameworks": ["divincenzo-criteria", "hardware-stack-map"],
+  "example": "When you run a circuit on cloud quantum hardware, a classical computer still prepares the job, compiles it to the backend, triggers execution, gathers repeated measurement shots, and analyses the output. The quantum device does not replace the classical stack; it extends it.",
+  "commonMistakes": [
+    "Treating quantum and classical computing as if one simply supersedes the other.",
+    "Ignoring the classical control system around the quantum processor.",
+    "Using the word 'parallelism' loosely without explaining interference and measurement."
+  ],
+  "exercise": "List three properties a classical computer has that a quantum computer does not, and three things a quantum system can do that make it worth engineering despite those limitations.",
+  "order": 2
+}

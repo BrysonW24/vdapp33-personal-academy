@@ -1,0 +1,15 @@
+{
+  "slug": "nastran",
+  "name": "NASTRAN",
+  "category": "analysis",
+  "description": "The aerospace industry's primary finite element analysis solver. Originally developed by NASA in the 1960s, NASTRAN handles structural, thermal, and dynamic analysis for virtually every launch vehicle and spacecraft ever built.",
+  "whyUseIt": "NASTRAN is required by contract on most government aerospace programmes. It has 50+ years of validation against flight data, making it the trusted solver for structural certification. If your analysis is going to certify a rocket for flight, it will probably run through NASTRAN.",
+  "pricingTier": "enterprise",
+  "url": "https://hexagon.com/products/product-groups/computer-aided-engineering-software/msc-nastran",
+  "alternatives": ["Abaqus", "ANSYS Mechanical", "CalculiX (free)"],
+  "funnelPosition": "Detailed design and certification",
+  "outputs": ["Stress analyses", "Buckling analyses", "Modal analyses", "Thermal stress results"],
+  "vocabulary": [{"term": "SOL 101", "definition": "Linear static analysis — the most common NASTRAN solution sequence"},
+    {"term": "SOL 103", "definition": "Normal modes analysis — finding natural frequencies and mode shapes"}],
+  "beginnerMistakes": ["Insufficient mesh refinement at stress concentration areas", "Incorrect boundary conditions that over-constrain the model", "Not checking model validity with simple hand calculations first"]
+}

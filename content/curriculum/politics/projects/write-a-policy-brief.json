@@ -1,0 +1,27 @@
+{
+  "slug": "write-a-policy-brief",
+  "title": "Write a Policy Brief",
+  "difficulty": 2,
+  "estimatedHours": 8,
+  "description": "Research and write a two-page policy brief on a current Australian issue — housing, climate, healthcare, or education. Present the problem, analyse options, and recommend a course of action with supporting evidence.",
+  "whyItMatters": "Policy briefs are the core communication tool of government. Ministers, shadow ministers, and senior advisers read policy briefs to make decisions. If you cannot condense a complex issue into a clear, evidence-based recommendation in two pages, you cannot operate in politics.",
+  "skillsLearned": ["Policy analysis", "Evidence-based argumentation", "Concise writing", "Cost-benefit thinking", "Stakeholder identification"],
+  "prerequisites": ["what-politics-is", "policy-analysis"],
+  "steps": [
+    { "title": "Choose your issue", "description": "Select a current Australian policy issue you care about. Check that there is recent data and reporting available.", "tips": "Start with something specific, not broad. 'Homelessness in Sydney' is better than 'housing'." },
+    { "title": "Research the evidence", "description": "Find at least five credible sources — ABS data, Productivity Commission reports, academic research, and quality journalism.", "tips": "Avoid opinion pieces as primary sources. Use them to understand the debate but cite data." },
+    { "title": "Define the problem", "description": "Write a clear problem statement in 100 words or fewer. What is wrong, how big is the problem, and who is affected?", "tips": "Quantify wherever possible. 'Over 120,000 Australians are homeless on any given night' is more powerful than 'many people are homeless'." },
+    { "title": "Analyse options", "description": "Present three policy options including the status quo. For each, assess costs, benefits, feasibility, and political risks.", "tips": "Include at least one option you personally disagree with — this demonstrates analytical rigour." },
+    { "title": "Make your recommendation", "description": "Choose one option and explain why. Address the strongest objection to your recommendation.", "tips": "A good recommendation acknowledges trade-offs rather than pretending the choice is obvious." },
+    { "title": "Format and polish", "description": "Format as a proper policy brief: executive summary, problem statement, options analysis, recommendation, references. Two pages maximum.", "tips": "Have someone outside politics read it. If they can understand the argument, you have written it clearly enough." }
+  ],
+  "deliverables": ["A two-page policy brief with executive summary, problem statement, options analysis, and recommendation", "A one-page appendix with data sources and key statistics"],
+  "tools": ["ABS TableBuilder", "APH Parliamentary Library", "Productivity Commission reports", "Google Scholar"],
+  "rubric": [
+    { "criteria": "Problem definition", "description": "Is the problem clearly defined, quantified, and scoped?" },
+    { "criteria": "Evidence quality", "description": "Are sources credible, current, and properly cited?" },
+    { "criteria": "Options analysis", "description": "Are at least three options presented with honest cost-benefit assessment?" },
+    { "criteria": "Recommendation", "description": "Is the recommendation clear, justified, and does it address the strongest counter-argument?" },
+    { "criteria": "Clarity and brevity", "description": "Is the brief well-written, jargon-free, and within the two-page limit?" }
+  ]
+}

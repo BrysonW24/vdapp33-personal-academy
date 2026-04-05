@@ -1,0 +1,23 @@
+{
+  "slug": "reusable-launch-vehicles",
+  "title": "Reusable Launch Vehicles",
+  "shortSummary": "The engineering of reusability — propulsive landing, refurbishment, flight-proven hardware, and how SpaceX made reusable rockets economically viable.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Reusability is the single most important innovation in modern spaceflight. SpaceX has landed Falcon 9 boosters over 300 times. The economics are transformative: instead of throwing away a $60M booster after each flight, you refurbish and refly it. This is what makes space access affordable.",
+  "coreConcepts": [
+    "Propulsive landing systems and algorithms",
+    "Boostback, entry burn, and landing burn sequences",
+    "Structural design for reuse (fatigue life)",
+    "Refurbishment and inspection processes",
+    "Fleet management and turnaround time",
+    "Economic analysis of reusability"
+  ],
+  "lessons": [],
+  "frameworks": ["rapid-iteration-framework", "design-build-test-launch"],
+  "visualType": "landing-sequence",
+  "relatedModules": ["guidance-navigation-control", "structural-analysis", "manufacturing-at-scale"],
+  "status": "coming-soon",
+  "order": 16,
+  "levelNumber": 4
+}

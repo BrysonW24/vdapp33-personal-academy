@@ -1,0 +1,16 @@
+{
+  "slug": "mobile-robots",
+  "title": "Mobile Robots",
+  "shortSummary": "Explore robots that move through the world on wheels, tracks, or legs. Mobile robots navigate warehouses, explore mines, deliver packages, and traverse terrain that would challenge humans.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Mobile robots are the workhorses of autonomous systems. They range from small warehouse AGVs (Automated Guided Vehicles) shuffling pallets to massive 300-tonne autonomous haul trucks in open-pit mines. Australia is at the global forefront of mobile robotics deployment: Rio Tinto operates over 130 autonomous Komatsu haul trucks in the Pilbara, BHP uses autonomous drill rigs, and companies like Marathon Targets build mobile robotic targets for military training. Understanding mobile robot locomotion, from differential drive kinematics to legged locomotion, is essential for anyone working in logistics, mining, agriculture, defence, or exploration. This module covers the mechanical design, control, and navigation of robots that move.",
+  "coreConcepts": ["Locomotion types: wheeled, tracked, legged, hybrid", "Differential drive kinematics", "Ackermann steering geometry", "Omnidirectional and mecanum wheel platforms", "Legged locomotion and gait patterns", "Terrain traversability analysis", "Autonomous Guided Vehicles (AGVs) and Autonomous Mobile Robots (AMRs)"],
+  "lessons": [],
+  "frameworks": ["sense-plan-act"],
+  "visualType": "mobile-robot-types",
+  "relatedModules": ["path-planning-and-navigation", "slam-and-mapping", "drones-and-uavs"],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 2
+}

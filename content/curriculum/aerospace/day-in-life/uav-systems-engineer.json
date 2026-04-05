@@ -1,0 +1,66 @@
+{
+  "slug": "uav-systems-engineer",
+  "title": "UAV Systems Engineer - Applied Autonomy Startup",
+  "setting": "A venture-backed UAV company building mission-specific aircraft for inspection, mapping, or public-safety work",
+  "companySize": "Systems team of 6-15 inside a startup of 30-80 people",
+  "description": "You are the connective tissue between the aircraft, payload, autonomy stack, and customer mission. The role is less about owning one subsystem and more about making the whole system behave coherently in the real world.",
+  "salary": "$100,000-$145,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review mission logs and open integration issues from the previous day's field test",
+      "tools": ["ArduPilot", "Python / SciPy"],
+      "note": "Systems work starts with yesterday's mismatches between expected and actual behaviour."
+    },
+    {
+      "time": "09:30",
+      "activity": "Run a system stand-up across airframe, software, payload, and operations leads",
+      "tools": [],
+      "note": "Most blockers live at the interface between teams."
+    },
+    {
+      "time": "11:00",
+      "activity": "Update requirements, interfaces, and acceptance criteria for the next build",
+      "tools": ["IBM DOORS Next"],
+      "note": "The goal is to turn field lessons into better system definition."
+    },
+    {
+      "time": "13:00",
+      "activity": "Support a simulation or bench test of communications and mission logic",
+      "tools": ["ArduPilot", "MATLAB / Simulink"],
+      "note": "You are checking system behaviour, not only component function."
+    },
+    {
+      "time": "15:00",
+      "activity": "Draft a revised CONOPS for a customer use case or operational constraint",
+      "tools": ["OpenVSP"],
+      "note": "Operations often change the vehicle faster than the other way around."
+    },
+    {
+      "time": "16:30",
+      "activity": "Prepare the next test objective and close risk items with the team",
+      "tools": [],
+      "note": "The day ends by choosing what to learn next, not by claiming everything is done."
+    }
+  ],
+  "responsibilities": [
+    "Translate mission needs into system requirements",
+    "Coordinate subsystem interfaces and acceptance criteria",
+    "Support simulation, bench, and field integration",
+    "Maintain CONOPS and risk visibility",
+    "Help turn test results into system decisions"
+  ],
+  "challenges": [
+    "Constant trade-offs between mission ambition, autonomy, and regulatory reality",
+    "Rapid change across multiple interacting subsystems",
+    "Operating with incomplete data while the product is still evolving"
+  ],
+  "rewards": [
+    "Seeing the full system, not just one narrow discipline",
+    "Working close to both engineering and customer mission outcomes",
+    "Learning faster than you would in a more siloed environment"
+  ],
+  "careerPath": [
+    "Systems analyst -> UAV systems engineer -> Senior systems engineer -> Program systems lead -> Head of systems engineering"
+  ]
+}

@@ -1,0 +1,60 @@
+app_id: vdapp33-personal-academy
+last_updated: 2026-04-04
+
+surfaces:
+  - route: /
+    feature: Exploration dashboard
+    status: live
+    notes: Grouped multi-subject landing page with curiosity-first framing, seven active subjects, and a unified Sciences/Engineering/Society map that mixes academy subjects with deeper frontier directions.
+
+  - route: /[subject]
+    feature: Start Here subject landing
+    status: live
+    notes: Learning-first subject overview linking blueprint, modules, projects, tools, toolkit, and day-in-the-life.
+
+  - route: /[subject]/blueprint
+    feature: Generated blueprint
+    status: live
+    notes: Builds the subject map from migrated module ordering and level metadata.
+
+  - route: /[subject]/modules
+    feature: Modules and lessons
+    status: live
+    notes: Structured curriculum with subject-aware progress and lesson knowledge checks.
+
+  - route: /[subject]/projects
+    feature: Project library
+    status: live
+    notes: Hands-on work where source content includes projects.
+
+  - route: /[subject]/tools
+    feature: Tool explorer
+    status: live
+    notes: Subject-specific tools grouped by category with richer detail pages.
+
+  - route: /[subject]/toolkit
+    feature: Framework library
+    status: live
+    notes: Expandable framework cards for subjects that include framework content.
+
+  - route: /[subject]/day-in-the-life
+    feature: Applied role explorer
+    status: live
+    notes: Client-side viewer for role snapshots and sample schedules when present.
+
+supporting_capabilities:
+  - name: Manifest-driven subject discovery
+    status: live
+    notes: Subjects are registered by manifest.json and rendered without hardcoded lists.
+
+  - name: Subject-scoped progress store
+    status: live
+    notes: Completion state is namespaced per subject in one local persistence key.
+
+  - name: Honest empty states
+    status: live
+    notes: Empty states still protect partially populated sections, but the major subject surfaces are now content-backed across all seven subjects.
+
+  - name: Subject coverage
+    status: live
+    notes: Politics, Physics, Rocket Science, Aerospace, Quantum, and Commercial Property Management all have meaningful migrated depth inside the shared shell, while Robotics is a native Personal Academy subject with equivalent route coverage.

@@ -1,0 +1,15 @@
+{
+  "slug": "density-matrix-toolkit",
+  "name": "Density Matrix Toolkit",
+  "summary": "A way of representing mixed states, partial knowledge, and open-system noise when pure-state vectors are no longer enough.",
+  "whenToUseIt": "Use it when systems interact with the environment, when only part of a larger state is observed, or when error models matter.",
+  "steps": [
+    "Represent the state as a density matrix instead of a single ket.",
+    "Use trace and positivity checks to confirm a valid state description.",
+    "Apply channels and measurement rules in matrix form.",
+    "Take partial traces to study subsystems.",
+    "Extract observables such as purity, entropy, or fidelity."
+  ],
+  "example": "A qubit affected by dephasing is better described with a density matrix because coherence decays even when the state probabilities stay unchanged.",
+  "category": "analysis"
+}

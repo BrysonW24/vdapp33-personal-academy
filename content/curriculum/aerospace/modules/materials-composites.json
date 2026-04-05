@@ -1,0 +1,16 @@
+{
+  "slug": "materials-composites",
+  "title": "Materials & Composites",
+  "shortSummary": "The materials that make modern aircraft possible — aluminium alloys, titanium, carbon fibre composites, and advanced manufacturing techniques.",
+  "level": "intermediate",
+  "category": "structures",
+  "whyItMatters": "Material selection determines aircraft weight, cost, durability, and manufacturing complexity. Composites have revolutionised modern aircraft like the Boeing 787 and Airbus A350.",
+  "coreConcepts": ["Aluminium alloys and heat treatment", "Titanium in aerospace", "Carbon fibre reinforced polymer (CFRP)", "Laminate theory", "Material testing and qualification", "Corrosion and environmental degradation"],
+  "lessons": [],
+  "frameworks": ["material-selection-methodology"],
+  "visualType": "composite-layup",
+  "relatedModules": ["aircraft-structures", "manufacturing", "certification"],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 2
+}

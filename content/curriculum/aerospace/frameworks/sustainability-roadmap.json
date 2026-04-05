@@ -1,0 +1,15 @@
+{
+  "slug": "sustainability-roadmap",
+  "name": "Sustainability Roadmap",
+  "summary": "A portfolio view of how aerospace programmes reduce emissions through operations, materials, propulsion, energy sources, and business-model choices over time.",
+  "whenToUseIt": "Use it when a team needs a credible decarbonisation path instead of a single technology bet that ignores infrastructure and certification reality.",
+  "steps": [
+    "Measure the current emissions drivers across operations and design.",
+    "Separate near-term operational wins from medium-term technology shifts.",
+    "Map dependencies such as fuel availability, charging, airport infrastructure, and certification.",
+    "Prioritise initiatives by impact, readiness, and risk.",
+    "Track the roadmap as technology and policy conditions change."
+  ],
+  "example": "An aviation company may find that the first meaningful gains come from drag cleanup and operational procedures, while hydrogen or battery concepts stay on the roadmap as longer-horizon bets rather than near-term promises.",
+  "category": "sustainability"
+}

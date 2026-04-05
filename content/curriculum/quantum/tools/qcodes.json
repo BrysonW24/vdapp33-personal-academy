@@ -1,0 +1,17 @@
+{
+  "slug": "qcodes",
+  "name": "QCoDeS",
+  "category": "control",
+  "description": "An open-source Python framework for instrument control, measurement automation, and experiment data management in quantum labs.",
+  "whyUseIt": "QCoDeS matters on the hardware side of quantum engineering because experiments depend on reliable instrument orchestration and repeatable data capture, not only clever circuits.",
+  "pricingTier": "free",
+  "url": "https://qcodes.github.io/Qcodes/",
+  "alternatives": ["Labber", "custom lab automation"],
+  "fieldPosition": "Quantum hardware control, measurement automation, and lab orchestration",
+  "engineerWorkflow": "Connect instruments, script sweeps or calibrations, collect data with metadata, then reuse the same routines as the experiment evolves.",
+  "managerExpects": "Clean automation that reduces manual error and preserves traceable experiment context.",
+  "demoDescription": "Automate a small parameter sweep for a mock readout or calibration experiment and log the results consistently.",
+  "outputs": ["Measurement scripts", "Lab datasets", "Calibration routines"],
+  "beginnerMistakes": ["Automating without recording the experiment context clearly", "Mixing quick hacks into workflows other people need to trust"],
+  "relatedProject": "repetition-code-simulator"
+}

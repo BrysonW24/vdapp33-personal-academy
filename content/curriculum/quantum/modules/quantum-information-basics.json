@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-information-basics",
+  "title": "Quantum Information Basics",
+  "shortSummary": "How information is encoded, transmitted, and processed in quantum systems — qubits, quantum channels, and information theory.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Quantum information theory is the foundation for understanding quantum communication, quantum cryptography, and why quantum computers can solve certain problems faster.",
+  "coreConcepts": [
+    "Qubits vs classical bits",
+    "Quantum channels",
+    "Quantum teleportation protocol",
+    "Quantum entropy",
+    "Density matrices",
+    "Fidelity and trace distance"
+  ],
+  "lessons": [],
+  "frameworks": ["quantum-teleportation"],
+  "visualType": "qubit-encoding",
+  "relatedModules": ["quantum-mechanics-essentials", "quantum-cryptography", "quantum-networking"],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "composite-cell-value-stream",
+  "title": "Composite Cell Value-Stream Redesign",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Map the workflow of a composite subassembly cell, identify waste, and propose a revised flow that improves cycle time and first-pass yield.",
+  "whyItMatters": "Aerospace competitiveness is not only about elegant design. Manufacturing flow, rework, and traceability strongly influence whether a programme can deliver aircraft on time and at sustainable cost.",
+  "skillsLearned": [
+    "Value-stream mapping",
+    "Manufacturing bottleneck analysis",
+    "Quality-flow thinking",
+    "Operational improvement planning",
+    "Cross-functional communication"
+  ],
+  "prerequisites": [
+    "Manufacturing",
+    "Materials and Composites"
+  ],
+  "steps": [
+    {
+      "title": "Choose the cell and product",
+      "description": "Define the composite part, the current process steps, and the teams involved from layup through inspection.",
+      "tips": "A narrow scope produces a more believable redesign."
+    },
+    {
+      "title": "Map the current state",
+      "description": "Record process time, waiting time, queues, rework loops, and approval handoffs for each step.",
+      "tips": "Waiting and rework often dominate the real cycle time."
+    },
+    {
+      "title": "Identify the biggest waste drivers",
+      "description": "Mark where defects are discovered late, tools are unavailable, or information arrives too slowly.",
+      "tips": "Do not treat every annoyance as equally important."
+    },
+    {
+      "title": "Design a future-state flow",
+      "description": "Propose layout, sequencing, standard work, or inspection changes that improve flow without weakening traceability.",
+      "tips": "In aerospace, speed without quality discipline is not improvement."
+    },
+    {
+      "title": "Estimate the operational impact",
+      "description": "Quantify likely gains in cycle time, queue reduction, or first-pass yield and call out the main implementation risks.",
+      "tips": "A rough but reasoned estimate is better than a vague promise."
+    }
+  ],
+  "deliverables": [
+    "Current-state value-stream map",
+    "Waste and bottleneck summary",
+    "Future-state process proposal",
+    "Estimated impact and implementation-risk note"
+  ],
+  "tools": [
+    "Siemens NX",
+    "CATIA",
+    "Python / SciPy"
+  ],
+  "rubric": [
+    {
+      "criteria": "Operational understanding",
+      "description": "The current state reflects realistic flow, approvals, and quality constraints."
+    },
+    {
+      "criteria": "Improvement quality",
+      "description": "The redesign addresses root causes instead of cosmetic changes."
+    },
+    {
+      "criteria": "Aerospace realism",
+      "description": "The proposal respects traceability and quality requirements."
+    },
+    {
+      "criteria": "Impact estimation",
+      "description": "Expected gains and risks are explained credibly."
+    }
+  ]
+}

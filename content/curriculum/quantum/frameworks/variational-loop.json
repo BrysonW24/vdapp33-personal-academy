@@ -1,0 +1,15 @@
+{
+  "slug": "variational-loop",
+  "name": "Variational Loop",
+  "summary": "A hybrid workflow in which a quantum circuit is repeatedly executed while a classical optimiser updates parameters to improve an objective.",
+  "whenToUseIt": "Use it for near-term algorithms such as VQE or QAOA where shallow circuits and hybrid control are more realistic than deep fault-tolerant computation.",
+  "steps": [
+    "Choose a parameterised circuit ansatz.",
+    "Run the circuit to estimate the objective value.",
+    "Send the result to a classical optimiser.",
+    "Update the circuit parameters.",
+    "Repeat until the objective stops improving or resources run out."
+  ],
+  "example": "Variational eigensolvers use the loop to search for low-energy states of a Hamiltonian by alternating between quantum sampling and classical optimisation.",
+  "category": "computation"
+}

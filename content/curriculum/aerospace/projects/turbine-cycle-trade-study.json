@@ -1,0 +1,74 @@
+{
+  "slug": "turbine-cycle-trade-study",
+  "title": "Turbine Cycle Trade Study",
+  "difficulty": 4,
+  "estimatedHours": 9,
+  "description": "Compare turbojet, turbofan, turboprop, or hybrid concepts against a chosen mission and explain which propulsion architecture is the best fit.",
+  "whyItMatters": "Propulsion choices are never only about thrust. They shape efficiency, noise, maintenance, mission speed, and the business case for the aircraft.",
+  "skillsLearned": [
+    "Cycle analysis",
+    "Mission-to-engine matching",
+    "Specific fuel consumption reasoning",
+    "Trade-study communication",
+    "Propulsion-system intuition"
+  ],
+  "prerequisites": [
+    "Propulsion Systems",
+    "Aircraft Performance"
+  ],
+  "steps": [
+    {
+      "title": "Choose the mission",
+      "description": "Set the range, cruise speed, altitude, noise environment, and payload expectations that the propulsion system must satisfy.",
+      "tips": "A propulsion answer without a mission is just a preference."
+    },
+    {
+      "title": "Define candidate cycles",
+      "description": "Pick two or three propulsion architectures and summarise their typical strengths and weaknesses.",
+      "tips": "Keep the comparison fair by using realistic classes, not idealised best cases."
+    },
+    {
+      "title": "Estimate performance",
+      "description": "Compare thrust or power suitability, fuel burn trend, mass impact, and likely integration complexity.",
+      "tips": "Simple first-order calculations are enough if the logic is clear."
+    },
+    {
+      "title": "Check non-performance factors",
+      "description": "Add maintenance, operating cost, noise, and certification implications to the trade.",
+      "tips": "The most efficient engine is not always the best programme choice."
+    },
+    {
+      "title": "Make the recommendation",
+      "description": "Write a short decision memo naming the preferred cycle and the key assumptions that support it.",
+      "tips": "State what would need to change before you would pick the second-best option."
+    }
+  ],
+  "deliverables": [
+    "Mission definition",
+    "Candidate-propulsion comparison table",
+    "First-order performance analysis",
+    "Recommendation memo with trade rationale"
+  ],
+  "tools": [
+    "Python / SciPy",
+    "MATLAB / Simulink"
+  ],
+  "rubric": [
+    {
+      "criteria": "Mission fit",
+      "description": "The propulsion choice is clearly tied to the mission demands."
+    },
+    {
+      "criteria": "Trade quality",
+      "description": "Performance, integration, and operational factors are balanced rather than cherry-picked."
+    },
+    {
+      "criteria": "Technical reasoning",
+      "description": "Cycle-level arguments are correct and easy to follow."
+    },
+    {
+      "criteria": "Decision quality",
+      "description": "The recommendation is decisive but honest about uncertainty."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "abs-tablebuilder",
+  "name": "ABS Census TableBuilder",
+  "category": "analytics",
+  "description": "The Australian Bureau of Statistics' tool for building custom tables from Census data. Essential for understanding electorate demographics — age, income, education, housing, employment, country of birth, and language spoken at home.",
+  "whyUseIt": "Census data is the foundation of electorate profiling. TableBuilder lets you extract demographic data at the electorate, suburb, or postcode level — giving campaigns the information they need to understand who lives in their electorate and what they might care about.",
+  "pricingTier": "free",
+  "url": "https://www.abs.gov.au/statistics/microdata-tablebuilder",
+  "alternatives": ["ABS QuickStats", "Profile.id by .id", "Australian Electoral Commission data"],
+  "funnelPosition": "Strategic planning — informing targeting and messaging",
+  "outputs": ["Custom demographic tables", "Electorate profiles", "Comparative analysis across areas", "Trend data across Census years"],
+  "marketerWorkflow": "Build a demographic profile of your electorate, compare to neighbouring electorates and national averages, identify distinctive features, use to inform messaging and targeting strategy",
+  "managerExpects": "A comprehensive electorate demographic profile that identifies the key voter segments and their likely concerns",
+  "vocabulary": [
+    { "term": "SA1/SA2", "definition": "Statistical Areas — the geographic building blocks used by the ABS for data reporting" },
+    { "term": "Census", "definition": "Australia's five-yearly count of every person in the country — the most comprehensive demographic dataset available" }
+  ],
+  "beginnerMistakes": ["Using national averages when electorate-level data tells a very different story", "Not accounting for population changes between Census years when comparing data"],
+  "relatedProject": "map-your-electorate"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "robotics-startup-founder",
+  "title": "A Day as a Robotics Startup Founder",
+  "setting": "Swoop Aero-inspired medical drone delivery startup, Melbourne VIC (co-working space and test facility)",
+  "companySize": "Early-stage startup (18 employees — 10 engineers, 3 operations, 2 commercial, 2 regulatory, 1 founder/CEO)",
+  "description": "Anika Patel is the founder and CEO of a robotics startup developing autonomous drones for medical supply delivery to remote and regional Australian communities. The company has completed proof-of-concept flights and is working toward CASA certification for beyond-visual-line-of-sight (BVLOS) operations. Anika's day spans engineering decisions, fundraising, regulatory navigation, customer conversations, and team management. She has a PhD in autonomous systems from the University of Sydney and three years of experience at a mining automation company before starting the venture.",
+  "salary": "$120,000 - $180,000 AUD per year (founder salary, varies significantly with funding stage; equity is the real upside)",
+  "schedule": [
+    {"time": "06:30", "activity": "Review overnight emails and news over coffee", "tools": ["Email", "LinkedIn", "industry news feeds"], "note": "A potential customer (remote health clinic in Far North Queensland) has responded to the proposal — they want a trial. Also, a competitor just announced a funding round."},
+    {"time": "07:30", "activity": "Engineering standup with the tech team", "tools": ["Slack", "Linear (project tracking)"], "note": "The perception team is debugging a LiDAR-based landing zone detection issue — the algorithm struggles with tall grass. The flight control team has a new wind disturbance rejection model ready for simulation testing."},
+    {"time": "08:00", "activity": "Deep work: review the CASA BVLOS application", "tools": ["CASA regulations", "Word", "safety case documents"], "note": "The CASA application for BVLOS operations is the critical path item — without it, commercial operations cannot begin. Reviewing the safety case with the regulatory specialist."},
+    {"time": "09:30", "activity": "Board update call with lead investor", "tools": ["Zoom", "Notion board deck"], "note": "Monthly update: progress on CASA certification, customer pipeline, cash runway (8 months remaining), key hires needed (senior avionics engineer)"},
+    {"time": "10:30", "activity": "Customer discovery call with a remote health service", "tools": ["Zoom", "presentation slides"], "note": "Understanding the logistics challenges of delivering blood products, vaccines, and pathology samples to clinics 200+ km from the nearest hospital"},
+    {"time": "11:30", "activity": "Work on the Series A pitch deck", "tools": ["Figma", "financial model spreadsheet"], "note": "Need to raise $5M to fund CASA certification, fleet manufacturing, and the first commercial deployments. Australian VCs want clear regulatory pathway and customer commitments."},
+    {"time": "12:30", "activity": "Lunch with the team at the co-working space cafe", "tools": [], "note": "Informal culture-building — a startup lives or dies by its team cohesion"},
+    {"time": "13:30", "activity": "Technical deep-dive: simulation results for the new flight controller", "tools": ["ROS 2", "Gazebo", "MATLAB"], "note": "Reviewing simulation data for the updated wind disturbance model — the drone needs to handle 35 km/h crosswinds for reliable outback operations"},
+    {"time": "14:30", "activity": "Recruiting call with a potential senior hire", "tools": ["Zoom"], "note": "Interviewing a senior avionics engineer currently at Boeing Aerostructures Australia — excellent technical skills, needs to be convinced that a startup is worth the risk"},
+    {"time": "15:30", "activity": "Partner meeting with logistics company", "tools": ["Meeting room", "whiteboard"], "note": "Exploring a partnership with an established logistics provider for ground-side operations (loading, charging, maintenance) at delivery sites"},
+    {"time": "16:30", "activity": "Flight test planning for next week", "tools": ["CASA flight authorisation forms", "weather forecasts", "Google Earth"], "note": "Planning a BVLOS demonstration flight at a rural test site near Bacchus Marsh — need CASA approval, landowner permission, and good weather"},
+    {"time": "17:30", "activity": "End-of-day reflection and priority setting", "tools": ["Notion", "personal journal"], "note": "Three priorities for tomorrow: finalise the CASA application section on emergency procedures, send the Series A deck to two new VCs, close the senior hire"},
+    {"time": "18:30", "activity": "Head home, but read a research paper on adaptive landing during dinner", "tools": ["arXiv", "iPad"], "note": "The boundary between work and life is blurry at a startup — but the mission keeps you going"}
+  ],
+  "responsibilities": [
+    "Set company vision, strategy, and priorities",
+    "Raise capital from investors (angels, VCs, government grants)",
+    "Navigate CASA regulatory requirements for drone operations",
+    "Recruit and retain top engineering talent in a competitive market",
+    "Maintain technical oversight of the autonomous systems architecture",
+    "Build customer relationships and close pilot agreements",
+    "Manage cash flow and make resource allocation decisions",
+    "Represent the company at industry events, conferences, and in media"
+  ],
+  "challenges": [
+    "Regulatory uncertainty — CASA certification timelines are difficult to predict and can make or break the business plan",
+    "Cash management — runway is finite, and fundraising takes longer than expected (6-9 months for a Series A round)",
+    "Recruiting against larger companies (Google, Boeing, mining companies) that offer higher salaries and more stability",
+    "Technical risk — autonomous flight in variable Australian weather conditions is genuinely difficult",
+    "Balancing the need to move fast with the need for safety in a system that flies over communities",
+    "Founder burnout — the emotional and time demands are relentless"
+  ],
+  "rewards": [
+    "Building something from nothing that could genuinely save lives in remote communities",
+    "The freedom to make decisions and see their impact immediately",
+    "Working with a small, passionate team where everyone's contribution is visible",
+    "The intellectual challenge of solving hard technical and business problems simultaneously",
+    "Potential for significant financial upside if the company succeeds",
+    "Being part of Australia's growing deep-tech startup ecosystem"
+  ],
+  "careerPath": [
+    "Founder/CEO through growth stages → potential exit (acquisition or IPO) or long-term company leadership",
+    "Alternative: after exit, become a venture partner at a deep-tech VC fund",
+    "Alternative: join a larger company in a senior leadership role (VP Engineering, CTO) with startup credibility",
+    "Alternative: serial entrepreneurship — apply lessons learned to the next venture"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "what-quantum-engineering-is",
+  "title": "What Quantum Engineering Is",
+  "shortSummary": "Understand what quantum engineering means, why it matters, and how it differs from classical computing.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Quantum engineering is the discipline of building practical quantum systems — from hardware to software to applications. Understanding the landscape is the first step to contributing to it.",
+  "coreConcepts": [
+    "Quantum vs classical computing",
+    "Superposition and entanglement overview",
+    "The quantum computing stack",
+    "Current state of quantum hardware",
+    "Where quantum advantage applies"
+  ],
+  "lessons": ["what-is-quantum-computing", "quantum-vs-classical"],
+  "frameworks": ["divincenzo-criteria"],
+  "visualType": "bloch-sphere",
+  "relatedModules": ["quantum-mechanics-essentials", "qubit-technologies"],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

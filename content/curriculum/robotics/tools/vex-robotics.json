@@ -1,0 +1,10 @@
+{
+  "slug": "vex-robotics",
+  "name": "VEX Robotics",
+  "category": "hardware",
+  "description": "VEX Robotics provides educational robotics kits and competition platforms used in schools and universities worldwide. The VEX V5 system includes aluminium structural components, smart motors with built-in encoders, a programmable brain (ARM Cortex processor), sensors (vision, inertial, distance, bumper), and a controller. Programming is done in VEXcode (block-based or C++/Python). VEX also runs the world's largest robotics competition programme, with events across Australia through Robotics Education and Competition Foundation.",
+  "whyUseIt": "VEX provides a structured, well-supported path into robotics for students and beginners. The kit-based approach removes the complexity of sourcing and wiring individual components, letting you focus on design, programming, and problem-solving. The competition ecosystem provides goals, deadlines, and community — powerful motivators for learning. In Australia, VEX competitions are held in every state, and the skills developed (mechanical design, programming, teamwork, project management) directly transfer to university engineering and professional robotics careers.",
+  "pricingTier": "paid",
+  "url": "https://www.vexrobotics.com/",
+  "alternatives": ["LEGO Mindstorms/SPIKE Prime", "FIRST Robotics (FRC/FTC)", "Arduino-based custom kits", "Makeblock mBot"]
+}

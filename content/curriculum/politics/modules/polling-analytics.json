@@ -1,0 +1,22 @@
+{
+  "slug": "polling-analytics",
+  "title": "Polling & Analytics",
+  "shortSummary": "Use data to win — polling methodology, focus groups, voter modelling, sentiment analysis, and how to interpret (and not over-interpret) political data.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "Modern campaigns run on data. Understanding polling, voter analytics, and sentiment tracking lets you allocate resources where they matter most and avoid the fatal mistake of campaigning in the wrong seats.",
+  "coreConcepts": [
+    "Polling methodology and margin of error",
+    "Qualitative research: focus groups and depth interviews",
+    "Voter modelling and predictive analytics",
+    "Social media sentiment analysis",
+    "Internal vs public polling",
+    "Two-party preferred and primary vote analysis"
+  ],
+  "lessons": [],
+  "frameworks": ["voter-segmentation"],
+  "relatedModules": ["campaign-strategy", "electoral-strategy", "media-communications"],
+  "status": "coming-soon",
+  "order": 13,
+  "levelNumber": 3
+}

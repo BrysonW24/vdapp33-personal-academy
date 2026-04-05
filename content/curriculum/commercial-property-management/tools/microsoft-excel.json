@@ -1,0 +1,28 @@
+{
+  "slug": "microsoft-excel",
+  "name": "Microsoft Excel",
+  "category": "finance-reporting",
+  "description": "The working spreadsheet environment behind many property budgets, variance analyses, reconciliations, and capital-planning models.",
+  "whyUseIt": "Even in system-heavy environments, Excel remains the place where assumptions are tested, budgets are modeled, recoveries are pressure-tested, and management packs are assembled quickly. Strong spreadsheet discipline is still one of the fastest ways to become useful in property management.",
+  "pricingTier": "paid",
+  "url": "https://www.microsoft.com/microsoft-365/excel",
+  "aiCapabilities": "AI can summarize tables, suggest formulas, explain drivers of variance, and accelerate first-draft analysis for budgets and reports.",
+  "alternatives": ["Google Sheets", "Power BI", "Anaplan"],
+  "workflowStage": "Budgeting, analysis, reconciliation, and financial storytelling",
+  "outputs": ["Operating budgets", "Variance analyses", "Capex models", "Cash collection trackers", "Owner schedules"],
+  "propertyManagerWorkflow": "Managers use Excel to draft budgets, test assumptions, model scenario impacts, clean export data, and prepare sharp financial commentary.",
+  "managerExpects": "Structured files, reliable formulas, clear assumptions, and workbooks that someone else can follow without guessing.",
+  "aiWorkflowImpact": "AI can speed up first-pass analysis, but the manager still needs to validate formulas, logic, and commercial conclusions.",
+  "demoDescription": "Take a prior-month budget report, isolate the three biggest cost variances, and write one line of commentary for each.",
+  "vocabulary": [
+    { "term": "Variance", "definition": "The difference between actual performance and plan or prior period." },
+    { "term": "Sensitivity", "definition": "A test showing how one changed assumption affects the final financial outcome." },
+    { "term": "Gross-Up", "definition": "An adjustment method used in some lease structures to normalize recoverable costs." }
+  ],
+  "beginnerMistakes": [
+    "Hard-coding numbers into formulas with no assumption trail",
+    "Using complicated tabs when one clean model would do",
+    "Sending spreadsheets without clear version control or notes"
+  ],
+  "relatedProject": "annual-operating-budget"
+}

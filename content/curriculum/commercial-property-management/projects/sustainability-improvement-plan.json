@@ -1,0 +1,63 @@
+{
+  "slug": "sustainability-improvement-plan",
+  "title": "Sustainability Improvement Plan",
+  "difficulty": 7,
+  "estimatedHours": 8,
+  "description": "Create a practical ESG improvement plan for a commercial asset with operational quick wins, data requirements, and medium-term capex ideas.",
+  "whyItMatters": "Sustainability has moved into mainstream property operations. Managers who can turn broad ESG ambition into realistic building actions create value for owners, support tenant expectations, and strengthen the asset's long-term position.",
+  "skillsLearned": [
+    "Building-level ESG opportunity assessment",
+    "Prioritizing energy, waste, and comfort initiatives",
+    "Balancing quick wins with capex planning",
+    "Writing sustainability business cases",
+    "Creating action plans with measurement logic"
+  ],
+  "prerequisites": ["site-inspection-report", "annual-operating-budget"],
+  "steps": [
+    {
+      "title": "Audit the current state",
+      "description": "Summarize current utility trends, tenant comfort issues, waste practices, metering visibility, certifications, and any existing owner ESG goals.",
+      "tips": "Keep the starting point honest. A weak baseline produces vague sustainability plans."
+    },
+    {
+      "title": "Run the opportunity sprint",
+      "description": "Use the ESG Opportunity Sprint to identify at least six initiatives across no-cost, low-cost, and capital-backed categories.",
+      "tips": "Look for operational waste first before jumping straight to expensive upgrades."
+    },
+    {
+      "title": "Prioritize and size the actions",
+      "description": "Rank the initiatives by impact, effort, stakeholder complexity, and reporting value. Include at least two actions with rough savings or service-improvement logic.",
+      "tips": "A plan should feel implementable by the real team, not idealized for a presentation."
+    },
+    {
+      "title": "Write the roadmap",
+      "description": "Present a 12-month plan with owners, timelines, success metrics, and dependencies on contractors, tenant engagement, or capital approval.",
+      "tips": "Tie the roadmap to owner objectives such as energy cost reduction, certification support, or occupant experience."
+    }
+  ],
+  "deliverables": [
+    "A current-state ESG summary",
+    "A prioritized initiative list with impact and effort notes",
+    "A 12-month sustainability roadmap",
+    "A short business-case note for one medium-term improvement"
+  ],
+  "tools": ["energycap", "power-bi", "microsoft-excel", "microsoft-teams"],
+  "rubric": [
+    {
+      "criteria": "Practicality",
+      "description": "The plan focuses on realistic actions the property team could actually execute."
+    },
+    {
+      "criteria": "Impact Logic",
+      "description": "Prioritization reflects energy, cost, service, and reporting value rather than trend-driven ideas."
+    },
+    {
+      "criteria": "Measurement Readiness",
+      "description": "The roadmap identifies how progress will be tracked and reported."
+    },
+    {
+      "criteria": "Strategic Fit",
+      "description": "The plan connects sustainability work to owner goals and broader asset performance."
+    }
+  ]
+}

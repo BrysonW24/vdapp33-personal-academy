@@ -1,0 +1,17 @@
+{
+  "slug": "qutip",
+  "name": "QuTiP",
+  "category": "simulation",
+  "description": "The Quantum Toolbox in Python, widely used for simulating open quantum systems, control, and dynamics.",
+  "whyUseIt": "QuTiP is excellent when the problem is more about quantum dynamics, noise, and state evolution than about compiling circuits to hardware.",
+  "pricingTier": "free",
+  "url": "https://qutip.org/",
+  "alternatives": ["Qiskit", "Cirq", "JuliaQuantum"],
+  "fieldPosition": "Open-system simulation, dynamics, and control analysis",
+  "engineerWorkflow": "Represent Hamiltonians or density matrices, evolve the system through time, add noise channels, then analyse observables and fidelity.",
+  "managerExpects": "Models that make the physical assumptions and noise choices explicit.",
+  "demoDescription": "Simulate dephasing in a qubit and compare state evolution with and without environmental noise.",
+  "outputs": ["State evolution results", "Expectation-value plots", "Noise-model studies"],
+  "beginnerMistakes": ["Treating ideal closed-system dynamics as realistic hardware behaviour", "Using the library without understanding what the Hamiltonian terms mean"],
+  "relatedProject": "quantum-sensor-noise-study"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "field-robotics-engineer",
+  "title": "A Day as a Field Robotics Engineer",
+  "setting": "Woodside Energy autonomous inspection programme, Karratha WA (LNG processing facility)",
+  "companySize": "Large energy company (3,500+ employees, 15-person robotics and autonomous systems team)",
+  "description": "James O'Brien is a Field Robotics Engineer at Woodside Energy, responsible for deploying and maintaining autonomous inspection robots at one of Australia's largest LNG processing plants. His robots — a fleet of Boston Dynamics Spot quadrupeds and custom-built drone systems — perform routine inspection of pipework, pressure vessels, and flare stacks that would otherwise require human workers to access dangerous or hard-to-reach areas. James splits his time between the Perth head office (programming, simulation, analysis) and fly-in-fly-out (FIFO) rotations at the Karratha plant (deployment, troubleshooting, operator training).",
+  "salary": "$140,000 - $190,000 AUD per year (includes FIFO allowances, on-site bonuses, and superannuation)",
+  "schedule": [
+    {"time": "05:30", "activity": "Wake up at the FIFO camp, breakfast, shuttle to the plant", "tools": [], "note": "Two-week on, one-week off rotation. The camp is comfortable but remote — 1,500 km from Perth."},
+    {"time": "06:30", "activity": "Safety briefing and permit-to-work process", "tools": ["Site safety system", "PPE: hard hat, safety glasses, steel caps, FR clothing, gas monitor"], "note": "Every task on an operational LNG plant requires a safety permit. Today's work: deploying Spot for a pipe rack inspection and a drone for a flare stack survey."},
+    {"time": "07:00", "activity": "Pre-deploy check on Spot robot", "tools": ["Boston Dynamics Spot tablet", "battery chargers", "payload sensors"], "note": "Check battery charge (both Spot batteries and payload battery), verify LiDAR and thermal camera payloads are functioning, load today's mission file"},
+    {"time": "07:30", "activity": "Deploy Spot for autonomous pipe rack inspection", "tools": ["Spot robot", "Spot tablet", "thermal camera payload", "acoustic sensor payload"], "note": "Spot walks a pre-programmed route through a pipe rack, capturing thermal images of flanges (looking for leaks) and acoustic readings of valves (detecting abnormal vibration). James monitors from a safe distance."},
+    {"time": "09:00", "activity": "Download and review Spot inspection data", "tools": ["Spot data analysis software", "Python", "thermal analysis tools"], "note": "Review thermal images for hot spots indicating potential flange leaks. Flag one anomaly on a valve — elevated temperature compared to baseline. Send to the maintenance team for investigation."},
+    {"time": "10:00", "activity": "Pre-flight checks and CASA compliance for drone inspection", "tools": ["DJI Matrice 350 RTK", "CASA remote pilot certificate", "site drone procedures"], "note": "Preparing for a flare stack inspection at 80 metres height — checking weather (wind under 20 km/h), confirming airspace clearance with the site controller, completing pre-flight checklist"},
+    {"time": "10:30", "activity": "Fly drone inspection of flare stack", "tools": ["DJI Matrice 350 RTK", "Zenmuse H20T thermal/zoom camera", "DJI Pilot 2"], "note": "Flying a pre-programmed waypoint mission around the flare stack, capturing high-resolution visual and thermal imagery of the structure, tips, and refractory lining from every angle"},
+    {"time": "11:30", "activity": "Process drone data and generate inspection report", "tools": ["DJI Terra (photogrammetry)", "Python", "PowerPoint"], "note": "Stitch images into a 3D model of the flare stack, annotate defects visible in the imagery, generate a report for the integrity engineering team"},
+    {"time": "12:30", "activity": "Lunch at the plant mess hall", "tools": [], "note": "Chat with integrity engineers about the morning's findings — the thermal anomaly James flagged on the valve aligns with vibration data they collected last month"},
+    {"time": "13:30", "activity": "Troubleshoot Spot navigation issue", "tools": ["Spot SDK", "Python", "ROS 2 (for custom perception)"], "note": "Spot has been struggling with a section of the route near steam vents — the steam confuses the depth cameras. Implementing a waypoint adjustment and adding a steam avoidance behaviour."},
+    {"time": "15:00", "activity": "Training session with plant operators", "tools": ["Spot tablet", "training documentation"], "note": "Teaching two plant operators how to deploy Spot for routine inspections without engineering support — the goal is to make robot inspection a standard operating procedure, not a special event"},
+    {"time": "16:00", "activity": "Engineering meeting with Perth head office (video call)", "tools": ["Teams", "Confluence"], "note": "Weekly sync with the Perth robotics team — discussing fleet management software development, next quarter's deployment targets, and a new underwater inspection robot pilot"},
+    {"time": "17:00", "activity": "End of shift: charge robots, update logs, secure equipment", "tools": ["Spot charging dock", "asset management system"], "note": "Ensure all robots are charging, all data is backed up, all permits are closed, and tomorrow's mission files are prepared"},
+    {"time": "17:30", "activity": "Shuttle back to camp, gym, dinner, downtime", "tools": [], "note": "FIFO life: structured routine, good facilities, but you miss home. Video call with family after dinner. Read up on the latest Spot SDK release notes before bed."}
+  ],
+  "responsibilities": [
+    "Deploy and operate autonomous inspection robots (ground and aerial) at operational energy facilities",
+    "Develop and maintain mission programs for routine and ad-hoc inspections",
+    "Process and analyse inspection data (thermal, visual, acoustic, 3D models) to identify defects and anomalies",
+    "Ensure all robotic operations comply with site safety procedures and CASA regulations (for drones)",
+    "Train plant operators and maintenance staff to use robotic inspection tools",
+    "Troubleshoot robot hardware and software issues in the field",
+    "Contribute to the development of the company's autonomous inspection strategy",
+    "Collaborate with integrity engineers, maintenance teams, and operations to integrate robotic inspection into standard workflows"
+  ],
+  "challenges": [
+    "Operating robots in extreme conditions — 45+ degree heat, dust, humidity, corrosive salt air near the coast",
+    "Working within strict safety procedures that add time to every task (permit-to-work, gas testing, confined space protocols)",
+    "FIFO lifestyle — two weeks away from home, limited social life on site, potential impact on relationships and mental health",
+    "Keeping robots reliable in harsh environments — dust ingress, thermal stress, and vibration damage components",
+    "Convincing traditional operations teams that robots are a complement to, not a replacement for, human inspectors",
+    "Limited internet bandwidth on remote sites — difficult to download software updates or access cloud resources"
+  ],
+  "rewards": [
+    "Directly improving safety — every inspection done by a robot is one less human climbing scaffolding or entering a confined space",
+    "Working with cutting-edge technology (Spot, custom drones, AI-powered defect detection) in a real industrial setting",
+    "Excellent salary and benefits — FIFO roles in the Australian energy sector are well-compensated",
+    "The challenge and satisfaction of making robots work reliably in conditions they were not designed for",
+    "Contributing to Australia's energy sector while driving it toward more sustainable and safer operations",
+    "Building rare expertise at the intersection of robotics and energy — a growing field with few experienced practitioners"
+  ],
+  "careerPath": [
+    "Junior Field Robotics Engineer → Senior Field Robotics Engineer → Robotics Team Lead → Manager of Autonomous Systems",
+    "Alternative: move to a robotics company (Boston Dynamics, Emesent, Flyability) as an applications engineer",
+    "Alternative: transition to a consulting role, helping multiple energy and mining companies deploy robotic inspection programs",
+    "Alternative: specialise in a niche (underwater inspection robots, AI-based defect detection) and build a deep technical reputation"
+  ]
+}

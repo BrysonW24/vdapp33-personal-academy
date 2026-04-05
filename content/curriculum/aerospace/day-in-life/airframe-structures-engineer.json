@@ -1,0 +1,66 @@
+{
+  "slug": "airframe-structures-engineer",
+  "title": "Airframe Structures Engineer - Commercial Aircraft OEM",
+  "setting": "A large airframe program designing and sustaining primary structure",
+  "companySize": "Structures team of 40-100 inside a program of 1,000+ people",
+  "description": "You work on the parts of the aircraft that simply cannot fail: wing structure, fuselage frames, fittings, and load paths. The day moves between analysis, drawings, stress review, concession questions, and long conversations about margins.",
+  "salary": "$105,000-$150,000 AUD",
+  "schedule": [
+    {
+      "time": "08:00",
+      "activity": "Review overnight analysis runs and supplier questions on structure changes",
+      "tools": ["NASTRAN", "CATIA"],
+      "note": "A small geometry change can ripple into multiple load cases."
+    },
+    {
+      "time": "09:30",
+      "activity": "Attend a cross-functional design review with loads, materials, and manufacturing teams",
+      "tools": [],
+      "note": "The best structural decisions are rarely made by the structures team alone."
+    },
+    {
+      "time": "11:00",
+      "activity": "Update a local structural model and check stress or deflection margins",
+      "tools": ["NASTRAN", "Siemens NX"],
+      "note": "You are usually asking whether the margin is real, not just whether it is positive."
+    },
+    {
+      "time": "13:30",
+      "activity": "Respond to a manufacturing concession or repair assessment",
+      "tools": ["CATIA"],
+      "note": "Production realities constantly test the neatness of the original design."
+    },
+    {
+      "time": "15:00",
+      "activity": "Write up structural rationale for a design review or certification package",
+      "tools": ["IBM DOORS Next"],
+      "note": "Documentation quality matters when structure becomes evidence."
+    },
+    {
+      "time": "16:30",
+      "activity": "Plan the next analysis or test needed to retire open structural risk",
+      "tools": [],
+      "note": "You rarely leave with every load case fully closed."
+    }
+  ],
+  "responsibilities": [
+    "Assess structural margins for critical components",
+    "Support design changes and concessions",
+    "Coordinate with loads, materials, and manufacturing teams",
+    "Interpret FEA results and turn them into decisions",
+    "Contribute to fatigue and certification evidence"
+  ],
+  "challenges": [
+    "Managing uncertainty in simplified structural models",
+    "Balancing weight reduction against margin and manufacturability",
+    "Resolving urgent production or supplier issues without weakening long-term design integrity"
+  ],
+  "rewards": [
+    "Owning work that directly affects aircraft safety",
+    "Seeing abstract load paths become real hardware decisions",
+    "Becoming fluent in a highly respected engineering discipline"
+  ],
+  "careerPath": [
+    "Graduate stress analyst -> Structures engineer -> Senior stress engineer -> Structures lead -> Chief structures engineer"
+  ]
+}

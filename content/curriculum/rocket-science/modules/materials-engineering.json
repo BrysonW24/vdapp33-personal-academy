@@ -1,0 +1,23 @@
+{
+  "slug": "materials-engineering",
+  "title": "Materials Engineering",
+  "shortSummary": "The materials that survive spaceflight — superalloys, composites, thermal protection systems, and why material selection is a life-or-death decision.",
+  "level": "beginner",
+  "category": "structures",
+  "whyItMatters": "Rockets operate at the extremes of temperature, pressure, and vibration. The wrong material choice can mean catastrophic failure. From SpaceX's use of carbon fibre composites to NASA's Space Shuttle thermal tiles, materials engineering defines what is physically possible.",
+  "coreConcepts": [
+    "Aerospace-grade metals and superalloys",
+    "Carbon fibre and composite structures",
+    "Thermal protection systems (TPS)",
+    "Cryogenic material behaviour",
+    "Fatigue, creep, and stress analysis",
+    "Material testing and qualification"
+  ],
+  "lessons": ["aerospace-metals-and-alloys", "composite-materials", "thermal-protection", "cryogenic-materials", "material-testing-methods"],
+  "frameworks": ["failure-mode-analysis", "systems-engineering-v-model"],
+  "visualType": "material-comparison",
+  "relatedModules": ["structural-analysis", "re-entry-systems", "propulsion-fundamentals"],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

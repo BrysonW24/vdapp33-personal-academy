@@ -1,0 +1,29 @@
+{
+  "slug": "stakeholder-communication",
+  "title": "Stakeholder Communication",
+  "shortSummary": "Write and speak with clarity across owners, tenants, contractors, leasing teams, and internal leadership.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Operational trust is built through communication quality. A good update reduces anxiety, aligns people on next steps, and prevents follow-up noise. A vague update creates more work, more escalation, and less confidence. Property managers are translators: from lease to action, from issue to impact, and from activity to owner insight.",
+  "coreConcepts": [
+    "The difference between tenant updates, owner commentary, and internal escalation",
+    "How to write clear next-step communication under pressure",
+    "What owners actually want in monthly reporting language",
+    "Why tone control matters during incidents and service failure"
+  ],
+  "lessons": [
+    "writing-owner-and-tenant-updates"
+  ],
+  "frameworks": [
+    "Owner Report Storyline",
+    "Tenant Escalation Ladder"
+  ],
+  "relatedModules": [
+    "what-commercial-property-management-is",
+    "owner-reporting-and-kpis",
+    "leadership-crisis-management-and-governance"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

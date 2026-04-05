@@ -1,0 +1,17 @@
+{
+  "slug": "qiskit",
+  "name": "Qiskit",
+  "category": "sdk",
+  "description": "IBM's open-source quantum SDK for building circuits, simulating systems, and running workloads on real quantum hardware.",
+  "whyUseIt": "Qiskit is one of the most common entry points into practical quantum programming. It connects conceptual learning directly to simulators and live backends.",
+  "pricingTier": "free",
+  "url": "https://qiskit.org/",
+  "alternatives": ["Cirq", "PennyLane", "Braket SDK"],
+  "fieldPosition": "Core circuit design and experiment workflow",
+  "engineerWorkflow": "Build circuits, transpile them for a target backend, run simulations or hardware jobs, then analyse shot distributions and noise effects.",
+  "managerExpects": "Code that is reproducible, benchmarked sensibly, and honest about backend limitations.",
+  "demoDescription": "Create a Bell pair, run it in simulation, then compare the output to a noisy real-device run.",
+  "outputs": ["Circuit programs", "Shot distributions", "Backend jobs", "Transpilation reports"],
+  "beginnerMistakes": ["Treating simulator results as if they automatically reflect hardware performance", "Ignoring transpilation and backend-specific constraints"],
+  "relatedProject": "bell-pair-simulator"
+}

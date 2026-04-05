@@ -1,0 +1,27 @@
+{
+  "slug": "draft-a-private-members-bill",
+  "title": "Draft a Private Members' Bill",
+  "difficulty": 6,
+  "estimatedHours": 20,
+  "description": "Draft a complete private members' bill — identify the issue, research the legislative gap, write the bill in proper format, prepare an explanatory memorandum, and develop a strategy to get it debated.",
+  "whyItMatters": "Private members' bills are how backbenchers and crossbenchers drive legislative change. Even when they don't pass, they put issues on the agenda and force the government to respond. Understanding the legislative drafting process is essential for any serious politician.",
+  "skillsLearned": ["Legislative drafting", "Legal research", "Parliamentary procedure", "Advocacy strategy", "Persuasive writing"],
+  "prerequisites": ["political-systems", "policy-analysis"],
+  "steps": [
+    { "title": "Identify the gap", "description": "Find an issue where current legislation is inadequate, outdated, or missing. Research existing laws and recent parliamentary inquiries.", "tips": "Check Hansard for previous debates on the issue. See if similar bills have been attempted before." },
+    { "title": "Research precedents", "description": "Find examples of similar legislation in other Australian jurisdictions or comparable countries (NZ, UK, Canada).", "tips": "The Parliamentary Library can help identify precedents. Use legislation.gov.au for existing Australian laws." },
+    { "title": "Draft the bill", "description": "Write the bill using standard legislative format: title, preamble, definitions, substantive clauses, commencement provisions.", "tips": "Keep the drafting simple. Complex bills fail because nobody understands them." },
+    { "title": "Write the explanatory memorandum", "description": "Prepare the explanatory memorandum: what the bill does, why it is needed, how it interacts with existing law, and its expected impact.", "tips": "The explanatory memo is what most people (including journalists) will actually read instead of the bill itself." },
+    { "title": "Build support", "description": "Write a one-page strategy for building support: which crossbenchers would you approach, what stakeholders would you brief, and how would you generate media coverage?", "tips": "A bill with no supporters is a press release with extra steps." },
+    { "title": "Prepare a second reading speech", "description": "Write the 10-minute speech you would deliver when introducing the bill to parliament.", "tips": "The speech must work for both the chamber and the media. It should explain the bill's purpose in human terms." }
+  ],
+  "deliverables": ["A drafted private members' bill in legislative format", "An explanatory memorandum", "A support-building strategy", "A second reading speech"],
+  "tools": ["Federal Register of Legislation", "Parliamentary Library", "Hansard", "Legislation.gov.au"],
+  "rubric": [
+    { "criteria": "Legislative quality", "description": "Is the bill properly formatted, legally coherent, and consistent with existing law?" },
+    { "criteria": "Problem-solution fit", "description": "Does the bill clearly address an identified legislative gap?" },
+    { "criteria": "Explanatory clarity", "description": "Does the explanatory memorandum make the bill's purpose and mechanism understandable to a non-lawyer?" },
+    { "criteria": "Political strategy", "description": "Is there a realistic plan for building support and getting the bill debated?" },
+    { "criteria": "Second reading speech", "description": "Does the speech combine legal substance with persuasive, human storytelling?" }
+  ]
+}

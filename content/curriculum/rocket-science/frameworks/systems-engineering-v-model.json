@@ -1,0 +1,18 @@
+{
+  "slug": "systems-engineering-v-model",
+  "name": "Systems Engineering V-Model",
+  "summary": "The industry-standard framework for developing complex aerospace systems. The left side decomposes requirements from system to component level; the right side verifies and validates from component testing back up to system-level acceptance. Used on every major rocket and spacecraft programme.",
+  "whenToUseIt": "Use this framework when designing any complex aerospace system — launch vehicles, spacecraft, engines, or ground systems. It ensures requirements flow down correctly and testing verifies every level.",
+  "steps": [
+    "Define stakeholder needs and mission requirements (top-level)",
+    "Decompose into system-level requirements and architecture",
+    "Allocate requirements to subsystems (propulsion, structures, avionics, etc.)",
+    "Design and specify individual components",
+    "Build and unit-test components (bottom of the V)",
+    "Integrate and test subsystems against subsystem requirements",
+    "Integrate and test system against system requirements",
+    "Validate complete system against stakeholder needs and mission requirements"
+  ],
+  "example": "For Falcon 9's Merlin engine: Stakeholder need = 'Launch 22,800 kg to LEO reliably'. System requirement = '7,607 kN total first-stage thrust'. Subsystem requirement = '845 kN per engine, 311s Isp at sea level'. Component requirements flow to turbopump (pressure, flow rate), injector (pattern, stability), nozzle (expansion ratio, cooling). Each component is tested, then integrated into the engine, then the engine is test-fired, then nine engines are integrated and acceptance tested as a stage.",
+  "category": "systems-engineering"
+}

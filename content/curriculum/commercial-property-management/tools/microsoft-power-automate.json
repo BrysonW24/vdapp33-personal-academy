@@ -1,0 +1,28 @@
+{
+  "slug": "microsoft-power-automate",
+  "name": "Microsoft Power Automate",
+  "category": "ai-automation",
+  "description": "A workflow automation tool for connecting approvals, forms, email triggers, alerts, and data movement across the systems property teams already use.",
+  "whyUseIt": "Property managers spend too much time chasing repetitive admin: report assembly, reminder emails, approval routing, incident notifications, and spreadsheet updates. Power Automate helps remove low-value repetition so the team can spend more time on judgment and stakeholder work.",
+  "pricingTier": "paid",
+  "url": "https://www.microsoft.com/power-platform/products/power-automate",
+  "aiCapabilities": "AI can classify incoming requests, generate draft responses, extract data from documents, and suggest next-step automations from repeated manual patterns.",
+  "alternatives": ["Zapier", "Make", "ServiceNow Flow Designer"],
+  "workflowStage": "Approvals, alerts, handoffs, and repetitive admin automation",
+  "outputs": ["Automated reminders", "Approval flows", "Incident notifications", "Report-distribution workflows", "Structured records from forms"],
+  "propertyManagerWorkflow": "A property manager can automate lease-date reminders, monthly report requests, contractor follow-up prompts, or tenant-service escalations without custom software development.",
+  "managerExpects": "Automations that are reliable, documented, and genuinely useful rather than fragile workflows that create more confusion than they remove.",
+  "aiWorkflowImpact": "AI lets teams move from rigid rule-based automations to smarter intake, routing, and summarization, especially for messy email-heavy workflows.",
+  "demoDescription": "Design a flow that alerts the right people when a high-priority incident is logged and then creates a follow-up task for the next owner update.",
+  "vocabulary": [
+    { "term": "Trigger", "definition": "The event that starts an automation, such as a new form, email, or status change." },
+    { "term": "Flow", "definition": "A sequence of automated steps that route data, approvals, or notifications." },
+    { "term": "Connector", "definition": "The integration point that lets one system exchange information with another." }
+  ],
+  "beginnerMistakes": [
+    "Automating a bad process before cleaning it up",
+    "Creating flows with no clear error handling or ownership",
+    "Sending too many alerts and training the team to ignore them"
+  ],
+  "relatedProject": "incident-response-tabletop"
+}

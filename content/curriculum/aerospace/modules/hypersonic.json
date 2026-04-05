@@ -1,0 +1,16 @@
+{
+  "slug": "hypersonic",
+  "title": "Hypersonic & High-Speed Flight",
+  "shortSummary": "Flight above Mach 5 — shock waves, aerothermal heating, scramjet propulsion, and the challenges of hypersonic vehicle design.",
+  "level": "advanced",
+  "category": "aerodynamics",
+  "whyItMatters": "Hypersonic flight is a frontier of aerospace engineering. Defence programmes and next-generation space access vehicles require engineers who understand this extreme regime.",
+  "coreConcepts": ["Shock wave interactions", "Aerothermal heating", "Scramjet propulsion", "Thermal protection systems", "Hypersonic flow phenomena", "Re-entry vehicle design"],
+  "lessons": [],
+  "frameworks": ["thermal-protection-design"],
+  "visualType": "shock-interaction",
+  "relatedModules": ["advanced-aerodynamics", "materials-composites", "propulsion-systems"],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 4
+}

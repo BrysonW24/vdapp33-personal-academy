@@ -1,0 +1,22 @@
+{
+  "slug": "executive-leadership",
+  "title": "Executive Leadership",
+  "shortSummary": "Lead at the highest levels — ministerial responsibilities, cabinet governance, managing a department, and the transition from legislator to executive decision-maker.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Winning an election is just the beginning. The real test is whether you can govern effectively — manage a department, make difficult decisions under pressure, and deliver outcomes that justify the public's trust.",
+  "coreConcepts": [
+    "Ministerial responsibility and accountability",
+    "Cabinet governance and collective responsibility",
+    "Managing a government department",
+    "Policy implementation and bureaucratic navigation",
+    "Decision-making under uncertainty",
+    "The transition from opposition to government"
+  ],
+  "lessons": [],
+  "frameworks": ["stakeholder-mapping"],
+  "relatedModules": ["governance-reform", "coalition-building", "crisis-management"],
+  "status": "coming-soon",
+  "order": 15,
+  "levelNumber": 4
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "policy-impact-framework",
+  "name": "Policy Impact Framework",
+  "summary": "A structured approach to assessing whether a policy proposal will achieve its intended outcomes — covering economic, social, environmental, and political impacts.",
+  "whenToUseIt": "When evaluating any proposed policy change, when writing a policy brief for a minister, when preparing for a parliamentary debate, or when comparing competing policy options.",
+  "steps": [
+    "Define the problem clearly — what specific outcome is the policy trying to achieve?",
+    "Identify the target population — who is this policy meant to help?",
+    "Assess economic impact — costs to government, costs to business, costs to individuals, economic growth effects",
+    "Assess social impact — equity, access, community cohesion, vulnerable populations",
+    "Assess environmental impact — emissions, biodiversity, resource use, long-term sustainability",
+    "Assess political impact — public opinion, electorate effects, party dynamics, media framing",
+    "Identify second-order effects — what unintended consequences might emerge?",
+    "Define success metrics — how will we know if this policy is working in 1, 3, and 5 years?"
+  ],
+  "example": "Applying the framework to a proposed increase in the minimum wage: Problem — working poverty. Target — low-income workers. Economic impact — higher wages for 2.6 million workers, potential job losses in some sectors, increased consumer spending. Social impact — reduced inequality, improved health outcomes for low-income families. Environmental impact — negligible. Political impact — popular with Labor/Greens voters, opposed by business groups, complex in marginal seats with many small businesses. Second-order effects — potential price increases passed to consumers, automation accelerating in some industries. Success metrics — real wages growth, employment rate, poverty rate after 2 years.",
+  "category": "policy-analysis"
+}

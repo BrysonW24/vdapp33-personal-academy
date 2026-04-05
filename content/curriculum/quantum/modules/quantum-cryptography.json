@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-cryptography",
+  "title": "Quantum Cryptography",
+  "shortSummary": "Security protocols that rely on quantum measurement, no-cloning, and the physics of information rather than computational hardness alone.",
+  "level": "intermediate",
+  "category": "communication",
+  "whyItMatters": "Quantum technology does not just threaten classical cryptography. It also enables new security models like quantum key distribution, where eavesdropping changes the system itself.",
+  "coreConcepts": [
+    "BB84 intuition",
+    "No-cloning and measurement disturbance",
+    "Key distribution",
+    "Entanglement-based protocols",
+    "Threat models",
+    "Practical implementation limits"
+  ],
+  "lessons": [],
+  "frameworks": ["no-cloning-measurement", "quantum-network-stack"],
+  "visualType": "qkd-flow",
+  "relatedModules": ["quantum-information-basics", "quantum-networking", "quantum-industry-applications"],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 2
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "abaqus",
+  "name": "Abaqus",
+  "category": "analysis",
+  "description": "Advanced finite element analysis software from Dassault Systemes. Excels at nonlinear analysis, composite structures, and crash/impact simulation — critical for aerospace applications where materials are pushed to their limits.",
+  "whyUseIt": "Abaqus handles the nonlinear structural problems that simpler FEA tools struggle with — composite failure, thermal-structural coupling, and large deformation analysis. When a rocket structure operates near its limits, Abaqus provides the fidelity needed for safe certification.",
+  "pricingTier": "enterprise",
+  "url": "https://www.3ds.com/products/simulia/abaqus",
+  "alternatives": ["NASTRAN", "ANSYS Mechanical", "CalculiX (free)"],
+  "funnelPosition": "Detailed structural analysis and certification",
+  "outputs": ["Nonlinear stress analysis", "Composite failure predictions", "Thermal-structural coupling", "Fatigue life estimates"],
+  "vocabulary": [{"term": "Nonlinear analysis", "definition": "Analysis where material properties, geometry, or contacts change with load — essential for crash and failure studies"},
+    {"term": "Explicit solver", "definition": "Time-stepping solver for dynamic/impact problems — does not require matrix inversion, handles contact well"}],
+  "beginnerMistakes": ["Using linear analysis when nonlinear effects are significant", "Not validating material models against test data", "Running computationally expensive analyses without first checking with simpler models"]
+}

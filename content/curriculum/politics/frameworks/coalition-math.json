@@ -1,0 +1,17 @@
+{
+  "slug": "coalition-math",
+  "name": "Coalition Math",
+  "summary": "The arithmetic of assembling enough votes to pass legislation, win government, or control a party room — the fundamental maths of democratic politics.",
+  "whenToUseIt": "When negotiating legislation through the Senate, when building internal party support, when assessing whether a policy can pass, or when forming government after an election.",
+  "steps": [
+    "Count the total number of votes needed for a majority (76 in the House of Representatives, 39 in the Senate)",
+    "Map your guaranteed votes — party members who will vote with you",
+    "Identify the gap — how many additional votes do you need?",
+    "List potential allies — crossbenchers, minor parties, dissident members of other parties",
+    "Assess each ally's price — what do they want in exchange for support?",
+    "Design a minimum winning coalition — the smallest group that gets you over the line with the fewest concessions",
+    "Build in margin — aim for more votes than the minimum in case allies defect"
+  ],
+  "example": "After the 2022 federal election, the Albanese Government held 77 seats in the 151-seat House of Representatives — a working majority of three. In the Senate, Labor held 26 of 76 seats, meaning they needed 13 additional votes to pass legislation. The Greens (12 senators) plus one crossbencher could get them there — but the Greens would demand policy concessions. On housing policy, this played out: the Greens demanded rent freeze provisions in exchange for passing the Housing Australia Future Fund bill. Labor initially refused, negotiations dragged for months, and eventually a compromise was reached. This is coalition math in action — every piece of legislation requires assembling a majority from willing partners.",
+  "category": "legislative-strategy"
+}

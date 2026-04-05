@@ -1,0 +1,17 @@
+{
+  "slug": "sensor-fusion",
+  "name": "Sensor Fusion",
+  "summary": "Sensor fusion is the systematic combination of data from multiple sensors to produce a state estimate that is more accurate, more complete, and more robust than any individual sensor could provide. It uses probabilistic methods to weight each sensor's contribution according to its reliability and uncertainty characteristics.",
+  "whenToUseIt": "Use sensor fusion whenever your robot has multiple sensors that measure overlapping or complementary aspects of the same state. This includes combining GPS with IMU for outdoor navigation, merging LiDAR with cameras for object detection, fusing wheel odometry with visual odometry for localisation, and combining force sensors with vision for manipulation. Sensor fusion is essential in any safety-critical or field robotics application where individual sensors may fail or degrade.",
+  "steps": [
+    "Define the state vector: Identify what you need to estimate — position (x, y, z), orientation (roll, pitch, yaw), velocity, acceleration, or any combination. This is your state vector.",
+    "Model the system dynamics: Create a prediction model — given the current state and control inputs, how do you expect the state to evolve? For a mobile robot, this is typically a kinematic model (velocity times time equals displacement).",
+    "Characterise each sensor: For each sensor, define the measurement model (what the sensor measures as a function of the state), the noise covariance (how noisy the sensor is), and the update rate (how often it provides measurements).",
+    "Predict: At each timestep, use the dynamics model to predict the next state and increase the uncertainty to account for process noise (model imperfection).",
+    "Update: When a sensor measurement arrives, compare the predicted measurement to the actual measurement. The innovation (difference) is weighted by the Kalman gain, which balances the prediction uncertainty against the measurement uncertainty. Update the state estimate and reduce the uncertainty.",
+    "Iterate: Repeat the predict-update cycle continuously. Different sensors may update at different rates — the filter naturally handles asynchronous measurements.",
+    "Validate: Monitor the innovation sequence for consistency. If innovations are consistently larger than expected, the sensor model or noise parameters may be incorrect."
+  ],
+  "example": "An autonomous haul truck at a BHP iron ore mine in the Pilbara uses an Extended Kalman Filter to fuse data from six sensor sources: dual-antenna RTK GPS (2 cm accuracy, 10 Hz), a tactical-grade IMU (high-frequency acceleration and rotation), wheel odometry (encoder ticks on each wheel), a spinning LiDAR (matched against a pre-built mine site map), radar (measuring distance to nearby vehicles and infrastructure), and a barometric altimeter (for elevation changes on ramps). When the truck drives through a GPS-denied zone (under an overpass or near a highwall), GPS updates stop, but the filter continues estimating position using IMU dead-reckoning, wheel odometry, and LiDAR matching. When GPS returns, the filter smoothly incorporates it, correcting any accumulated drift. This multi-sensor fusion provides centimetre-level positioning 100% of the time.",
+  "category": "perception"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "conservation-laws",
+  "name": "Conservation Laws",
+  "summary": "Physical quantities (energy, momentum, charge, angular momentum) that remain constant in a closed system — the most powerful problem-solving tools in physics.",
+  "whenToUseIt": "Use conservation laws whenever a system evolves over time and you want to relate the initial state to the final state without tracking every intermediate step.",
+  "steps": [
+    "Identify the system and check whether it is closed (no external forces/inputs)",
+    "Identify which quantities are conserved (energy, momentum, angular momentum, charge)",
+    "Write the conservation equation: initial total = final total",
+    "Substitute known values and solve for unknowns",
+    "Check whether the answer is physically reasonable"
+  ],
+  "example": "Two ice skaters push apart from rest. Conservation of momentum: total momentum before = 0, so total momentum after = 0. If skater A (60 kg) moves at 2 m/s, skater B (80 kg) must move at -1.5 m/s in the opposite direction. No need to know the forces involved.",
+  "category": "problem-solving"
+}

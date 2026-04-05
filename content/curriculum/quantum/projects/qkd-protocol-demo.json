@@ -1,0 +1,68 @@
+{
+  "slug": "qkd-protocol-demo",
+  "title": "Quantum Key Distribution Demo",
+  "difficulty": 5,
+  "estimatedHours": 9,
+  "description": "Build a simple BB84-style key-distribution simulation and show how measurement disturbance reveals eavesdropping.",
+  "whyItMatters": "Quantum cryptography is one of the clearest places where the physics of information creates a new security model rather than a faster calculation.",
+  "skillsLearned": [
+    "Protocol modelling",
+    "Measurement-disturbance reasoning",
+    "Security intuition",
+    "Simulation design"
+  ],
+  "prerequisites": [
+    "Quantum Information Basics",
+    "Quantum Cryptography"
+  ],
+  "steps": [
+    {
+      "title": "Implement sender and receiver basis choices",
+      "description": "Model the random basis-selection process and the raw key exchange.",
+      "tips": "Keep the logic visible so the security story stays understandable."
+    },
+    {
+      "title": "Add sifting and error checking",
+      "description": "Compare compatible basis choices and estimate the observed error rate.",
+      "tips": "A clean classical post-processing step matters to the protocol."
+    },
+    {
+      "title": "Simulate an eavesdropper",
+      "description": "Insert a simple intercept-resend attacker and observe how the statistics change.",
+      "tips": "The point is not fancy attack models; it is the measurement disturbance logic."
+    },
+    {
+      "title": "Compare secure and insecure cases",
+      "description": "Show the raw and sifted key quality with and without the eavesdropper.",
+      "tips": "Use plots or tables, not just prose."
+    },
+    {
+      "title": "Summarise what creates the security",
+      "description": "Explain why the protocol's security claim is about physics and noise detection rather than secrecy of the algorithm.",
+      "tips": "Be precise about ideal theory versus practical system limits."
+    }
+  ],
+  "deliverables": [
+    "Working BB84-style simulation",
+    "Secure versus attacked key statistics",
+    "Short explanation of measurement-disturbance security"
+  ],
+  "tools": [
+    "python-scipy",
+    "qiskit"
+  ],
+  "rubric": [
+    {
+      "criteria": "Protocol flow",
+      "description": "The simulation captures the core basis-choice, sifting, and disturbance logic."
+    },
+    {
+      "criteria": "Security explanation",
+      "description": "The write-up explains the physics-based security mechanism clearly."
+    },
+    {
+      "criteria": "Evidence",
+      "description": "Outputs make the difference between clean and attacked channels obvious."
+    }
+  ]
+}

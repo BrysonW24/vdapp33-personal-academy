@@ -1,0 +1,12 @@
+{
+  "slug": "physics",
+  "name": "Physics",
+  "shortName": "Physics",
+  "group": "sciences",
+  "icon": "Atom",
+  "color": "#2C6AA0",
+  "tagline": "Foundations, experiments, and the laws that govern matter, energy, space, and time.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 1
+}

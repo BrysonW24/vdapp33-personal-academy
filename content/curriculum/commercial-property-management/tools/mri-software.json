@@ -1,0 +1,28 @@
+{
+  "slug": "mri-software",
+  "name": "MRI Software",
+  "category": "lease-admin",
+  "description": "A major property and lease management platform used across commercial real estate for accounting, lease administration, reporting, and portfolio operations.",
+  "whyUseIt": "MRI gives property teams a structured system for lease data, charges, arrears, reporting, and portfolio control. For many managers it is one of the core systems that turns lease documents and tenancy activity into something operationally manageable.",
+  "pricingTier": "enterprise",
+  "url": "https://www.mrisoftware.com",
+  "aiCapabilities": "AI can help summarize account exceptions, suggest reporting commentary, and surface operational patterns hidden inside large lease and transaction datasets.",
+  "alternatives": ["Yardi Voyager", "SAP Real Estate", "JLL Prism"],
+  "workflowStage": "Lease abstracting, tenant accounts, and portfolio reporting",
+  "outputs": ["Lease abstracts", "Tenant statements", "Portfolio reports", "Charge schedules", "Expiry trackers"],
+  "propertyManagerWorkflow": "A property manager checks lease milestones, validates billing logic, monitors expiry exposure, and works with finance on reporting and reconciliations.",
+  "managerExpects": "Accurate lease setup, prompt update of key dates, reliable reporting, and enough system hygiene that client questions can be answered from the record.",
+  "aiWorkflowImpact": "AI can reduce review time by highlighting missing fields, upcoming risk dates, and outlier activity that deserves manual attention.",
+  "demoDescription": "Review lease records for upcoming expiries, confirm the option notice window, and prepare a short risk list for the next client meeting.",
+  "vocabulary": [
+    { "term": "Lease Abstract", "definition": "A concise working summary of the key commercial, legal, and operational points in a lease." },
+    { "term": "Option Date", "definition": "The date by which a tenant must exercise a renewal or extension right under the lease." },
+    { "term": "Tenant Statement", "definition": "A record of charges, payments, and outstanding balances issued to the tenant." }
+  ],
+  "beginnerMistakes": [
+    "Missing key lease dates because calendar controls were never set up",
+    "Assuming the system is right without checking the source lease",
+    "Keeping critical lease context in personal notes instead of the shared system"
+  ],
+  "relatedProject": "renewal-brief"
+}

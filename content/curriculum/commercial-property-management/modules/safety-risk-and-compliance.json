@@ -1,0 +1,27 @@
+{
+  "slug": "safety-risk-and-compliance",
+  "title": "Safety, Risk, and Compliance",
+  "shortSummary": "Manage contractor risk, life-safety readiness, governance, incidents, and the habits that reduce avoidable exposure.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "Risk management is one of the clearest markers of seniority. Great property managers do not wait for incidents to show their quality. They prepare, document, test, and challenge assumptions ahead of time. Safety and compliance discipline protects people first, but it also protects trust, time, insurance outcomes, and the credibility of the entire operation.",
+  "coreConcepts": [
+    "Contractor induction, permits, and site control fundamentals",
+    "Emergency readiness, tabletop thinking, and escalation logic",
+    "Why governance is a daily habit, not an audit-season activity",
+    "How to write incident commentary without creating confusion or defensiveness"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Incident Command RACI",
+    "Risk Heatmap"
+  ],
+  "relatedModules": [
+    "service-delivery-and-contractor-management",
+    "leadership-crisis-management-and-governance",
+    "fitout-projects-and-handover"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

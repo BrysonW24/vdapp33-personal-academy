@@ -1,0 +1,30 @@
+{
+  "slug": "classical-mechanics",
+  "title": "Classical Mechanics",
+  "shortSummary": "Newton's laws, forces, momentum, energy, and the motion of objects — the bedrock of physics that explains everything from projectiles to planetary orbits.",
+  "level": "beginner",
+  "category": "classical",
+  "whyItMatters": "Classical mechanics is the first physics framework most people encounter, and it remains the most widely applied. Every engineer, every architect, every space mission relies on Newtonian mechanics. Master this and everything else builds on top.",
+  "coreConcepts": [
+    "Newton's three laws of motion",
+    "Force, mass, and acceleration",
+    "Work, energy, and power",
+    "Conservation of momentum",
+    "Conservation of energy",
+    "Rotational dynamics",
+    "Gravitational force"
+  ],
+  "lessons": [
+    "newtons-laws",
+    "forces-and-free-body-diagrams",
+    "work-energy-theorem",
+    "conservation-of-momentum",
+    "rotational-motion"
+  ],
+  "frameworks": ["conservation-laws", "symmetry-principles"],
+  "visualType": "force-diagram",
+  "relatedModules": ["what-physics-is", "thermodynamics", "special-relativity"],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

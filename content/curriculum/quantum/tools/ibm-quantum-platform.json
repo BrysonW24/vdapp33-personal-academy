@@ -1,0 +1,17 @@
+{
+  "slug": "ibm-quantum-platform",
+  "name": "IBM Quantum Platform",
+  "category": "cloud",
+  "description": "IBM's cloud environment for accessing simulators, real quantum hardware, backend data, and experiment-management tools.",
+  "whyUseIt": "It is one of the most direct ways to move from learning circuits to testing them against real-device constraints, calibration data, and queue realities.",
+  "pricingTier": "freemium",
+  "url": "https://quantum.ibm.com/",
+  "alternatives": ["Amazon Braket", "Azure Quantum"],
+  "fieldPosition": "Real-hardware access and backend-aware workflow",
+  "engineerWorkflow": "Inspect backend status, transpile circuits for a target system, run jobs, and compare the result to simulation and calibration context.",
+  "managerExpects": "Disciplined experiment design and honest interpretation of noisy results.",
+  "demoDescription": "Run a Bell-state or teleportation circuit on a simulator and then on a selected live backend to compare fidelity.",
+  "outputs": ["Hardware jobs", "Calibration-aware runs", "Backend performance context"],
+  "beginnerMistakes": ["Treating low-fidelity hardware output as proof that the algorithm concept failed", "Ignoring queue, calibration, and connectivity constraints"],
+  "relatedProject": "teleportation-protocol-demo"
+}

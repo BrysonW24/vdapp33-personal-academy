@@ -1,0 +1,49 @@
+{
+  "slug": "spacex-propulsion-engineer",
+  "title": "SpaceX Propulsion Engineer",
+  "setting": "SpaceX Hawthorne HQ & McGregor Test Facility",
+  "companySize": "13,000+ employees",
+  "description": "You are a propulsion engineer working on the Raptor engine programme. Your days split between design work at the Hawthorne factory in Los Angeles and test campaigns at the McGregor test facility in Texas. The pace is relentless — SpaceX builds a new Raptor every 48 hours, and each engine gets better than the last. You are part of the team pushing the world's most advanced full-flow staged combustion engine towards higher reliability and lower cost.",
+  "salary": "$130,000–$250,000 AUD",
+  "schedule": [
+    {"time": "06:30", "activity": "Arrive early. Review overnight test data from McGregor — a Raptor 3 ran a full-duration firing at 300 bar chamber pressure.", "tools": ["MATLAB", "Internal data systems"], "note": "SpaceX engineers start early and stay late. The pace is not for everyone."},
+    {"time": "07:00", "activity": "Morning standup with the turbopump team. Discuss a bearing wear pattern seen in post-test inspection. Decide to change the bearing preload on the next build.", "tools": ["Jira", "Confluence"]},
+    {"time": "08:00", "activity": "Deep work session: run CEA calculations for a modified injector element that might improve combustion stability at the new higher chamber pressure.", "tools": ["NASA CEA", "Python"], "note": "Combustion instability is the hardest problem in rocket engine design."},
+    {"time": "10:00", "activity": "Design review meeting for the next Raptor iteration. Present your injector redesign with CFD results showing improved mixing. Get challenged on thermal margins.", "tools": ["ANSYS Fluent", "SolidWorks"]},
+    {"time": "12:00", "activity": "Lunch at the SpaceX cafeteria. Casual conversation with a GNC engineer about landing engine requirements for the next Starship flight."},
+    {"time": "13:00", "activity": "Walk the factory floor. Check the engine currently on the assembly stand. Discuss a weld quality issue with the manufacturing team — the fix adds 2 hours per engine but improves reliability.", "note": "SpaceX engineers are expected to be on the factory floor regularly, not just in offices."},
+    {"time": "15:00", "activity": "Analyse hot-fire test data for combustion stability. Run FFT on chamber pressure measurements looking for instability modes. Compare with prediction model.", "tools": ["MATLAB", "Python"]},
+    {"time": "17:00", "activity": "Write test request for next McGregor firing. Define test conditions, instrumentation requirements, and abort criteria.", "tools": ["Internal test planning system"]},
+    {"time": "18:30", "activity": "Late session: review pull requests from junior engineers. Provide feedback on a propellant feed system simulation.", "tools": ["GitHub", "Simulink"], "note": "Mentoring is expected. The team is young and growing fast."},
+    {"time": "19:30", "activity": "Head home. Check Slack on the drive for any urgent McGregor test results."}
+  ],
+  "responsibilities": [
+    "Design and analyse rocket engine components (injectors, turbopumps, combustion chambers)",
+    "Plan and review hot-fire test campaigns",
+    "Analyse test data and drive design improvements",
+    "Support engine production and quality issues on the factory floor",
+    "Collaborate with systems engineering on vehicle-level integration",
+    "Mentor junior engineers and review their work"
+  ],
+  "challenges": [
+    "The pace is brutal — 60-80 hour weeks during critical test campaigns",
+    "Failure is public — when a Starship explodes, the world watches",
+    "Combustion instability can appear without warning and is extremely difficult to debug",
+    "Balancing innovation speed with reliability requirements",
+    "Living between Hawthorne and McGregor for test campaigns"
+  ],
+  "rewards": [
+    "Working on the most advanced rocket engine ever built",
+    "Seeing your designs fly — literally watching your engine power Starship",
+    "Unprecedented pace of learning — more engine tests per month than most companies do per year",
+    "Being part of the team making humanity multiplanetary",
+    "World-class engineering colleagues who push you to be better"
+  ],
+  "careerPath": [
+    "Junior Propulsion Engineer ($130K AUD)",
+    "Propulsion Engineer ($160K AUD)",
+    "Senior Propulsion Engineer ($200K AUD)",
+    "Principal Engineer / Technical Lead ($230K AUD)",
+    "Director of Propulsion ($250K+ AUD)"
+  ]
+}

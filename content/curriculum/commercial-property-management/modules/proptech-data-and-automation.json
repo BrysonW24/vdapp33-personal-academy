@@ -1,0 +1,27 @@
+{
+  "slug": "proptech-data-and-automation",
+  "title": "PropTech, Data, and Automation",
+  "shortSummary": "Use systems and automation to reduce manual work, improve visibility, and build a more scalable operating cadence.",
+  "level": "advanced",
+  "category": "operations",
+  "whyItMatters": "Property teams often drown in repetitive coordination, fragmented systems, and inconsistent reporting. The right proptech stack does not replace judgment, but it does make judgment visible and repeatable. Strong property managers understand the difference between useful automation and extra complexity, and they shape their systems accordingly.",
+  "coreConcepts": [
+    "Where automation actually saves property teams time",
+    "Why data structure matters before dashboard design",
+    "The difference between system adoption and system value",
+    "How proptech supports reporting, governance, and service quality"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Daily Priority Stack",
+    "Owner Report Storyline"
+  ],
+  "relatedModules": [
+    "owner-reporting-and-kpis",
+    "maintenance-planning-and-work-orders",
+    "future-of-property-operations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 4
+}

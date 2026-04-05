@@ -1,0 +1,27 @@
+{
+  "slug": "deliver-a-stump-speech",
+  "title": "Deliver a Stump Speech",
+  "difficulty": 3,
+  "estimatedHours": 10,
+  "description": "Write and deliver a 7-minute stump speech — the core campaign speech that introduces you, your values, and your platform to voters. Record, review, and refine until it is natural and compelling.",
+  "whyItMatters": "Every politician needs a stump speech — the speech they can deliver at any community event, door-knock, or media opportunity. It is your personal pitch to voters. If you cannot deliver it confidently in seven minutes, you are not ready to run.",
+  "skillsLearned": ["Speech writing", "Public speaking", "Personal branding", "Persuasive communication", "Self-assessment through video review"],
+  "prerequisites": ["public-speaking"],
+  "steps": [
+    { "title": "Define your story", "description": "Write your personal story — why are you running, what shaped your values, what connects you to this community?", "tips": "Be specific and authentic. 'I grew up in a small town where the local hospital closed' is better than 'I care about healthcare'." },
+    { "title": "Draft the speech", "description": "Structure: personal story (90 seconds), the problem (90 seconds), your solution (2 minutes), vision and call to action (2 minutes).", "tips": "Write it to be spoken, not read. Short sentences. Active voice. Conversational tone." },
+    { "title": "Rehearse aloud", "description": "Deliver the speech aloud at least 10 times. Time yourself. Cut anything that feels forced or goes over 7 minutes.", "tips": "Rehearse standing, with gestures, as if a room of 50 people is watching." },
+    { "title": "Record and review", "description": "Record yourself on video delivering the speech. Watch it once for content, once for body language, once for vocal delivery.", "tips": "Focus on eye contact (imagine faces), pacing (slow down), and filler words (um, ah, like)." },
+    { "title": "Get feedback", "description": "Deliver the speech to three people — a friend, someone in your target demographic, and someone who disagrees with you politically.", "tips": "Ask each person: 'What did you remember?' The answer reveals your most and least effective sections." },
+    { "title": "Final version", "description": "Revise based on feedback. Record the final version. You should be able to deliver it without notes.", "tips": "The goal is not perfection — it is authenticity with structure." }
+  ],
+  "deliverables": ["A written stump speech (800-1000 words)", "A video recording of the final delivery", "A one-page self-assessment noting strengths and areas for improvement"],
+  "tools": ["Video camera or smartphone", "Timer", "Mirror for rehearsal"],
+  "rubric": [
+    { "criteria": "Personal connection", "description": "Does the speech establish an authentic personal connection with the audience?" },
+    { "criteria": "Problem-solution structure", "description": "Is the problem clearly defined and the solution specific and credible?" },
+    { "criteria": "Delivery", "description": "Is the delivery confident, natural, and engaging — not robotic or over-rehearsed?" },
+    { "criteria": "Timing", "description": "Is the speech within the 7-minute limit with appropriate pacing?" },
+    { "criteria": "Memorability", "description": "Can a listener recall the key message after hearing it once?" }
+  ]
+}

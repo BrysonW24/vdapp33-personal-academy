@@ -1,0 +1,23 @@
+{
+  "slug": "life-support-systems",
+  "title": "Life Support Systems",
+  "shortSummary": "Keeping humans alive in space — atmosphere management, water recycling, radiation protection, and the closed-loop systems that sustain life beyond Earth.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Human spaceflight adds an entirely new dimension of complexity. Life support systems must provide breathable air, clean water, thermal comfort, and radiation protection with extreme reliability. Every Mars mission depends on solving these problems.",
+  "coreConcepts": [
+    "Atmospheric management (O2 generation, CO2 scrubbing)",
+    "Water recycling and purification",
+    "Radiation shielding for crew",
+    "Thermal regulation for habitation",
+    "Food production and storage",
+    "Waste management systems"
+  ],
+  "lessons": [],
+  "frameworks": ["systems-engineering-v-model", "failure-mode-analysis"],
+  "visualType": "life-support-diagram",
+  "relatedModules": ["spacecraft-systems", "human-mars-missions", "space-station-design"],
+  "status": "coming-soon",
+  "order": 12,
+  "levelNumber": 3
+}

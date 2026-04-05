@@ -1,0 +1,22 @@
+{
+  "slug": "comsol",
+  "name": "COMSOL Multiphysics",
+  "category": "simulation",
+  "description": "A finite-element simulation platform for modelling coupled physical phenomena — heat transfer, fluid flow, electromagnetics, structural mechanics, and more — all in one environment.",
+  "whyUseIt": "COMSOL solves partial differential equations on complex geometries using the finite element method. It excels at multiphysics problems where multiple physical processes interact (e.g. thermal expansion causing mechanical stress). Essential for applied physics and engineering research.",
+  "pricingTier": "enterprise",
+  "url": "https://www.comsol.com/",
+  "alternatives": ["ANSYS", "OpenFOAM", "FEniCS"],
+  "fieldPosition": "Applied and experimental physics — modelling real devices, materials, and systems",
+  "outputs": ["3D field visualisations", "Parametric sweep results", "Stress and strain maps", "Thermal distributions"],
+  "physicistWorkflow": "Define geometry, set material properties and boundary conditions, mesh the domain, solve, and post-process results.",
+  "supervisorExpects": "Ability to set up, validate, and interpret finite-element simulations for real physical systems.",
+  "computationalImpact": "Enables the simulation of complex geometries and coupled physics that analytical methods cannot handle.",
+  "demoDescription": "Simulate the electromagnetic field and heat distribution in a microwave cavity, showing how standing wave patterns create hot and cold spots.",
+  "vocabulary": [
+    { "term": "Mesh", "definition": "The discretisation of the geometry into small elements for numerical solution" },
+    { "term": "Boundary condition", "definition": "Constraints on the solution at the edges of the computational domain" }
+  ],
+  "beginnerMistakes": ["Using too coarse a mesh and accepting inaccurate results", "Not validating against known analytical solutions"],
+  "relatedProject": "electric-field-mapper"
+}

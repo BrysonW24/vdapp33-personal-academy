@@ -1,0 +1,22 @@
+{
+  "slug": "canva-political",
+  "name": "Canva for Political Design",
+  "category": "design",
+  "description": "The go-to design tool for political campaigns that don't have a dedicated graphic designer. Create professional corflutes, how-to-vote cards, social media graphics, flyers, and email headers without design skills.",
+  "whyUseIt": "Every campaign needs professional-looking visual materials. Canva makes it possible for anyone to create on-brand, consistent campaign collateral in minutes. Templates for political materials are available, and team sharing means volunteers can create approved content.",
+  "pricingTier": "freemium",
+  "url": "https://www.canva.com",
+  "aiCapabilities": "AI image generation, Magic Resize for multi-platform content, AI text suggestions, background removal",
+  "alternatives": ["Adobe Express", "Figma", "Visme"],
+  "funnelPosition": "Full funnel — awareness materials through to election day collateral",
+  "outputs": ["Corflutes and signage", "How-to-vote cards", "Social media graphics", "Campaign flyers", "Email headers and templates"],
+  "marketerWorkflow": "Set up a brand kit (colours, fonts, logo), create templates for common materials, share with volunteer team via Canva Teams, produce materials for each week of the campaign",
+  "managerExpects": "Consistent, on-brand materials produced quickly for every campaign event and social media post",
+  "demoDescription": "Create a campaign brand kit, then use it to design a corflute, a social media announcement graphic, and a how-to-vote card — all visually consistent in under 30 minutes",
+  "vocabulary": [
+    { "term": "Corflute", "definition": "Corrugated plastic signs used at polling booths and on roadside during election campaigns" },
+    { "term": "How-to-vote card", "definition": "A card distributed at polling booths showing voters how to number candidates to direct their preferences" }
+  ],
+  "beginnerMistakes": ["Inconsistent branding across materials — use a brand kit", "Creating materials that are too text-heavy — voters scan, they don't read"],
+  "relatedProject": "build-a-media-strategy"
+}

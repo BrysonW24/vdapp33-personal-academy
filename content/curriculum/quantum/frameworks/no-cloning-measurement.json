@@ -1,0 +1,15 @@
+{
+  "slug": "no-cloning-measurement",
+  "name": "No-Cloning and Measurement Disturbance",
+  "summary": "A paired principle: unknown quantum states cannot be copied perfectly, and observation can irreversibly disturb what you are trying to learn.",
+  "whenToUseIt": "Use it when reasoning about security, state transfer, readout design, and why quantum information behaves differently from digital data.",
+  "steps": [
+    "Ask whether the task assumes a perfect copy of an unknown state.",
+    "Check how information is actually being extracted from the system.",
+    "Identify what disturbance the measurement introduces.",
+    "Use the constraint to redesign the protocol or expectation.",
+    "Relate the outcome to security or control implications."
+  ],
+  "example": "Quantum key distribution works partly because an eavesdropper cannot copy unknown states and inspect them later without leaving evidence in the measurement statistics.",
+  "category": "information"
+}

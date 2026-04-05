@@ -1,0 +1,34 @@
+{
+  "slug": "nastran",
+  "name": "NASTRAN",
+  "category": "structures",
+  "description": "A foundational finite-element solver used throughout aerospace for structural analysis, modal response, buckling, and load-case evaluation.",
+  "whyUseIt": "When aerospace teams need structural credibility, NASTRAN is still one of the default languages of the field. It is central to turning load cases into stress, deformation, and margin evidence.",
+  "pricingTier": "enterprise",
+  "alternatives": ["Abaqus", "CalculiX", "ANSYS Mechanical"],
+  "fieldPosition": "Structural analysis and certification support",
+  "engineerWorkflow": "Create or import the structural idealisation, apply representative load cases, solve for stress and displacement, then interpret the result against margin criteria.",
+  "managerExpects": "Traceable models, sensible assumptions, and analysts who can explain the physical story behind the contour plots.",
+  "demoDescription": "Analyse a simplified wing-box or bracket under one manoeuvre load and identify the structural hot spot.",
+  "outputs": [
+    "Stress results",
+    "Deflection plots",
+    "Modal data",
+    "Margin summaries"
+  ],
+  "vocabulary": [
+    {
+      "term": "Buckling",
+      "definition": "A structural instability in which a component loses load-carrying ability through sudden deformation."
+    },
+    {
+      "term": "Margin",
+      "definition": "A measure of how far a structure is from its allowable limit under a given load case."
+    }
+  ],
+  "beginnerMistakes": [
+    "Using unrealistic boundary conditions because they make the model easier",
+    "Reporting peak stress values without checking whether the model idealisation makes sense"
+  ],
+  "relatedProject": "wing-box-load-case"
+}

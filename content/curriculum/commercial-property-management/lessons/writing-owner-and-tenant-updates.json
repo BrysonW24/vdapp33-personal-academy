@@ -1,0 +1,57 @@
+{
+  "slug": "writing-owner-and-tenant-updates",
+  "moduleSlug": "stakeholder-communication",
+  "title": "Writing Owner and Tenant Updates",
+  "objective": "Write communication that reduces anxiety, clarifies ownership, and moves the issue forward.",
+  "beginnerExplanation": "A good update does three things: it says what happened, what it means, and what comes next. Most weak updates only do the first one. In property management, people read your updates under stress. They want clarity, not volume.\n\nFor tenants, the key is confidence and next steps. For owners, the key is impact, control, and recommendation.",
+  "deeperExplanation": "The best communication is structured around the reader's concern. A tenant usually cares about continuity, comfort, timing, and whether they are being taken seriously. An owner usually cares about commercial impact, risk exposure, cost, and whether the team is ahead of the issue.\n\nA useful update often follows a simple structure: current status, impact, action underway, next checkpoint, and anything required from the reader. When information is incomplete, you still communicate the structure. Silence creates more anxiety than uncertainty explained well.",
+  "keyTakeaways": [
+    "Most stakeholders want structure and timing more than perfect information.",
+    "Owner updates should connect operational detail to commercial impact.",
+    "Tenant updates should prioritise empathy, clarity, and confidence.",
+    "The best updates say when the next update will come."
+  ],
+  "frameworks": [
+    "Owner Report Storyline",
+    "Tenant Escalation Ladder"
+  ],
+  "example": "Instead of sending, 'HVAC contractor attending urgently,' send: 'Cooling to Levels 7 and 8 remains unstable due to a controls fault. Contractor and controls technician are both on-site. Temporary comfort measures are in place for affected tenancies. We will confirm likely restoration timing by 2:00 PM and provide the next update then.'",
+  "commonMistakes": [
+    "Updating too vaguely because the issue is still unfolding.",
+    "Overloading owners with activity detail but not explaining the impact.",
+    "Using defensive language when something has gone wrong.",
+    "Failing to state when the next update will come."
+  ],
+  "exercise": "Write two versions of the same issue update: one for tenants and one for the owner. Use this scenario: a lift outage affects morning access, a technician is on site, and there is a likely half-day repair window.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main difference between a tenant update and an owner update?",
+      "options": [
+        "Tenant updates should be longer",
+        "Owner updates should avoid any operational detail",
+        "Tenant updates focus on continuity and next steps, while owner updates focus on impact and control",
+        "There is no difference"
+      ],
+      "correctIndex": 2,
+      "explanation": "The audience changes what matters. Both need clarity, but the emphasis differs."
+    },
+    {
+      "question": "If a situation is still developing, what should you do?",
+      "options": [
+        "Wait until you know everything",
+        "Send a structured update with current status, impact, action, and the next checkpoint",
+        "Only message internal staff",
+        "Use generic wording to avoid committing to anything"
+      ],
+      "correctIndex": 1,
+      "explanation": "Structured updates reduce uncertainty even before the final answer is known."
+    }
+  ],
+  "perspectives": {
+    "propertyManager": "Communication quality is often the difference between a controlled issue and an unnecessary escalation.",
+    "client": "The client wants commentary that shows control, judgment, and a clear commercial lens.",
+    "tenant": "The tenant mainly wants to know: do you understand the problem, and when will I hear from you next?",
+    "assetManager": "The asset manager wants owner reporting that frames the issue in terms of risk, cost, tenant impact, and recommended action."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "sense-plan-act",
+  "name": "Sense-Plan-Act",
+  "summary": "The foundational architectural paradigm for autonomous robots. The robot senses the environment through its sensors, plans a course of action using algorithms and models, and acts on the world through its actuators. This cycle repeats continuously, forming the control loop that drives all autonomous behaviour.",
+  "whenToUseIt": "Use Sense-Plan-Act when designing the high-level architecture of any autonomous robotic system. It provides the conceptual framework for decomposing a complex robot into manageable subsystems (perception, planning, execution) with clear interfaces between them. It is particularly useful for mobile robots navigating environments, robot arms performing manipulation tasks, and any system that must react to changing conditions.",
+  "steps": [
+    "Sense: Gather data from all sensors (cameras, LiDAR, IMU, encoders, force sensors) and convert raw data into a structured representation of the environment and the robot's own state.",
+    "Fuse: Combine data from multiple sensors using sensor fusion techniques (Kalman filtering, factor graphs) to produce a consistent, reliable world model that compensates for individual sensor weaknesses.",
+    "Plan: Using the world model, compute the best course of action — this might be a path through the environment, a grasp strategy for an object, or a sequence of manipulation actions. Planning considers goals, constraints, and predicted outcomes.",
+    "Act: Execute the planned actions through the robot's actuators — motors, grippers, propellers — using closed-loop control to track the desired trajectory or force profile.",
+    "Monitor: Continuously check whether the executed actions are producing the expected results. If the world has changed or the plan is no longer valid, return to the Sense step and replan."
+  ],
+  "example": "An autonomous agricultural robot harvesting strawberries in Queensland operates a continuous Sense-Plan-Act loop. Sense: RGB-D cameras capture images of the strawberry plants, identifying ripe fruit by colour and estimating their 3D position. Plan: The system selects the most accessible ripe strawberry, computes a collision-free path for the robotic arm to reach it, and plans a gentle grasp strategy appropriate for the fruit's size. Act: The arm moves to the berry, the soft gripper closes gently, and a cutting mechanism detaches the stem. Monitor: Force sensors confirm the berry is grasped; if the grasp fails, the system replans and retries. The cycle repeats every 3-5 seconds per berry.",
+  "category": "architecture"
+}

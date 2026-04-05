@@ -1,0 +1,27 @@
+{
+  "slug": "run-a-mock-campaign",
+  "title": "Run a Mock Campaign",
+  "difficulty": 7,
+  "estimatedHours": 40,
+  "description": "Plan and execute a simulated political campaign from scratch — candidate positioning, messaging, voter targeting, fundraising plan, field operations strategy, and media plan. Present your campaign plan to a panel for critique.",
+  "whyItMatters": "Running a campaign requires integrating every skill in this curriculum — strategy, communications, operations, and leadership. This project forces you to make the hard trade-offs that real campaigns face: limited money, limited time, and unlimited demands.",
+  "skillsLearned": ["Campaign management", "Strategic planning", "Resource allocation", "Team leadership", "Decision-making under constraints"],
+  "prerequisites": ["campaign-strategy", "public-speaking", "media-communications"],
+  "steps": [
+    { "title": "Set the scenario", "description": "Choose a real electorate and a realistic scenario: you are a first-time candidate running for the opposition party in a marginal seat.", "tips": "Use real data from your electorate mapping project if you completed it." },
+    { "title": "Build the candidate profile", "description": "Create a complete candidate profile: biography, values, policy positions on 10 key issues, personal strengths and vulnerabilities.", "tips": "Include a credible weakness — no candidate is perfect. The plan should address how to manage it." },
+    { "title": "Develop the campaign strategy", "description": "Write a 5-page campaign strategy: target voter segments, core message, three key policy platforms, positioning against the opponent.", "tips": "The strategy should fit on five pages. If it takes more, you haven't made your choices yet." },
+    { "title": "Create the operations plan", "description": "Design the field operation: volunteer targets, door-knocking schedule, phone bank plan, election day logistics. Include a weekly activity calendar for 8 weeks.", "tips": "Be realistic about volunteer numbers. Overestimating volunteers is the most common campaign planning mistake." },
+    { "title": "Build the communications plan", "description": "Create: a press release announcing candidacy, three social media posts, a one-minute radio ad script, and a crisis response plan for one anticipated attack.", "tips": "Every piece of content should reinforce the same core message." },
+    { "title": "Present and defend", "description": "Present your campaign plan in a 20-minute presentation. Prepare for 15 minutes of questions from sceptical panellists.", "tips": "Anticipate the hardest question: 'Why will this campaign lose?' If you can answer that honestly, you have a real plan." }
+  ],
+  "deliverables": ["A 5-page campaign strategy document", "An operations plan with weekly calendar", "A communications kit (press release, social posts, radio script, crisis plan)", "A 20-minute presentation deck", "A campaign budget"],
+  "tools": ["NationBuilder or similar CRM", "Canva for design", "Google Sheets for budgeting", "AEC data for electorate research"],
+  "rubric": [
+    { "criteria": "Strategic coherence", "description": "Does every element of the campaign — message, targeting, operations — align with a coherent strategy?" },
+    { "criteria": "Resource realism", "description": "Is the plan achievable with realistic volunteer, funding, and time constraints?" },
+    { "criteria": "Message discipline", "description": "Does the core message come through in every piece of communications material?" },
+    { "criteria": "Risk management", "description": "Does the plan anticipate and prepare for likely attacks and setbacks?" },
+    { "criteria": "Presentation quality", "description": "Can the candidate present and defend the plan under questioning?" }
+  ]
+}

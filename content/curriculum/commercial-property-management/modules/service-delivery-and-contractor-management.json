@@ -1,0 +1,27 @@
+{
+  "slug": "service-delivery-and-contractor-management",
+  "title": "Service Delivery and Contractor Management",
+  "shortSummary": "Run contractors well: scopes, expectations, supervision, documentation, and performance conversations.",
+  "level": "intermediate",
+  "category": "operations",
+  "whyItMatters": "Most property outcomes are delivered through third parties. If the contractor relationship is unclear, inconsistent, or weakly governed, the asset absorbs the consequences: missed SLAs, tenant frustration, safety exposure, and budget leakage. Strong contractor management turns outsourced work into reliable building performance.",
+  "coreConcepts": [
+    "How to set and communicate operating standards",
+    "The difference between instructing, supervising, and performance-managing vendors",
+    "Why scope clarity beats firefighting",
+    "The documentation trail you need when service slips"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Contractor Performance Scorecard",
+    "Tenant Escalation Ladder"
+  ],
+  "relatedModules": [
+    "maintenance-planning-and-work-orders",
+    "safety-risk-and-compliance",
+    "fitout-projects-and-handover"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "meta-ads-political",
+  "name": "Meta Ads for Politicians",
+  "category": "social-media",
+  "description": "Facebook and Instagram advertising platform — the most widely used paid social platform for political campaigns in Australia. Offers granular targeting, event promotion, and fundraising integrations.",
+  "whyUseIt": "Facebook reaches more Australian voters than any other platform. Meta Ads let campaigns target by location, age, interests, and behaviour — and the platform's event and fundraising tools integrate directly with campaign operations.",
+  "pricingTier": "paid",
+  "url": "https://www.facebook.com/business/ads",
+  "aiCapabilities": "Advantage+ automated campaigns, AI audience expansion, dynamic creative optimisation",
+  "alternatives": ["Google Ads", "TikTok Ads", "LinkedIn Ads", "Snapchat Ads"],
+  "funnelPosition": "Full funnel — awareness, engagement, and conversion",
+  "outputs": ["Awareness campaigns", "Event promotion", "Fundraising ads", "Video view campaigns", "Lead generation forms"],
+  "marketerWorkflow": "Create authorised political advertiser account, build electorate-targeted audiences, run video content for awareness, retarget engaged viewers with donation or volunteer asks",
+  "managerExpects": "Weekly metrics: reach, engagement, cost per result, volunteer sign-ups, donations attributed to ads",
+  "vocabulary": [
+    { "term": "Authorised advertiser", "definition": "Meta requires political advertisers to verify identity and include 'Paid for by' disclaimers on all political ads" },
+    { "term": "Lookalike audience", "definition": "An audience Meta builds that resembles your existing supporters — useful for finding new potential voters" }
+  ],
+  "beginnerMistakes": ["Running political ads without completing the authorisation process — ads will be rejected", "Relying too heavily on paid social without building organic community engagement"],
+  "relatedProject": "build-a-media-strategy"
+}

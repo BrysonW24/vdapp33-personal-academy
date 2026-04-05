@@ -1,0 +1,22 @@
+{
+  "slug": "campaign-strategy",
+  "title": "Campaign Strategy",
+  "shortSummary": "Plan and execute a winning political campaign — from pre-selection through to election day. Covers targeting, messaging, field operations, digital strategy, and volunteer management.",
+  "level": "intermediate",
+  "category": "skills",
+  "whyItMatters": "Campaigns are how democracy decides. A brilliant policy platform means nothing if you cannot run a disciplined, well-targeted campaign. Understanding campaign strategy is essential whether you are the candidate, the manager, or a key volunteer.",
+  "coreConcepts": [
+    "Campaign planning and timeline",
+    "Voter targeting and segmentation",
+    "Field operations and door-knocking",
+    "Digital and social media campaign strategy",
+    "Volunteer recruitment and management",
+    "Election day operations"
+  ],
+  "lessons": ["building-a-winning-campaign"],
+  "frameworks": ["swot-for-campaigns", "voter-segmentation"],
+  "relatedModules": ["polling-analytics", "fundraising", "media-communications"],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

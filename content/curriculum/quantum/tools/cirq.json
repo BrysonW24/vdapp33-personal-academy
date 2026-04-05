@@ -1,0 +1,17 @@
+{
+  "slug": "cirq",
+  "name": "Cirq",
+  "category": "sdk",
+  "description": "A Python framework for writing, simulating, and analysing quantum circuits, especially in gate-model research workflows.",
+  "whyUseIt": "Cirq is useful when you want a clean programmable circuit model with strong control over qubits, moments, and execution structure.",
+  "pricingTier": "free",
+  "url": "https://quantumai.google/cirq",
+  "alternatives": ["Qiskit", "PennyLane", "QuTiP"],
+  "fieldPosition": "Gate-model circuit research and simulation",
+  "engineerWorkflow": "Define qubits, compose circuits, run simulations, and inspect how gates and measurements behave under different assumptions.",
+  "managerExpects": "Clear modelling goals and readable experiment scripts instead of one-off exploratory code.",
+  "demoDescription": "Prototype a teleportation or error-correction circuit and compare the output under simple noise assumptions.",
+  "outputs": ["Circuit definitions", "Simulation results", "Measurement statistics"],
+  "beginnerMistakes": ["Building large circuits before validating small subcircuits", "Ignoring what the chosen simulator is and is not modelling"],
+  "relatedProject": "teleportation-protocol-demo"
+}

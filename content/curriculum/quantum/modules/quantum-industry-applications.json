@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-industry-applications",
+  "title": "Quantum Industry Applications",
+  "shortSummary": "Where quantum technology is being applied today, where the claims are premature, and how to judge practical opportunity.",
+  "level": "advanced",
+  "category": "applications",
+  "whyItMatters": "Quantum is surrounded by hype. Understanding which applications are credible, early, or speculative is essential if you want to reason about the field rather than just repeat market language.",
+  "coreConcepts": [
+    "Chemistry and materials discovery",
+    "Optimisation claims and limits",
+    "Quantum sensing markets",
+    "Cryptography transition pressures",
+    "Cloud access and ecosystem models",
+    "Benchmarks versus real value"
+  ],
+  "lessons": [],
+  "frameworks": ["shor-vs-grover", "precision-limit-ladder"],
+  "visualType": "industry-map",
+  "relatedModules": ["quantum-cryptography", "quantum-sensing-metrology", "quantum-simulation"],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 3
+}

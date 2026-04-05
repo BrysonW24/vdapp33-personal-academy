@@ -1,0 +1,27 @@
+{
+  "slug": "map-your-electorate",
+  "title": "Map Your Electorate",
+  "difficulty": 3,
+  "estimatedHours": 12,
+  "description": "Create a comprehensive profile of an Australian federal electorate — demographics, voting history, key issues, major employers, community organisations, and media landscape. This is the intelligence foundation for any campaign.",
+  "whyItMatters": "You cannot win an electorate you do not understand. Every successful campaign starts with deep local knowledge — who lives there, what they care about, how they voted last time, and what has changed since. This project teaches you to build that intelligence from publicly available data.",
+  "skillsLearned": ["Electoral research", "Data analysis", "Demographic profiling", "Community mapping", "Strategic assessment"],
+  "prerequisites": ["political-systems", "civic-literacy"],
+  "steps": [
+    { "title": "Choose an electorate", "description": "Select an Australian federal electorate. Marginal seats are more interesting but any electorate works.", "tips": "Use the AEC website to find electorate profiles and boundary maps." },
+    { "title": "Demographic analysis", "description": "Use ABS Census data to profile the electorate: age distribution, household income, education levels, housing tenure, country of birth, languages spoken.", "tips": "Compare the electorate to the national average to identify what makes it distinctive." },
+    { "title": "Voting history", "description": "Compile the last four election results: primary votes, two-party preferred, preference flows, booth-by-booth variation.", "tips": "Use the AEC Tally Room for historical data. Identify which booths swing and which are locked in." },
+    { "title": "Issue mapping", "description": "Identify the top five local issues through local media, council records, community group websites, and social media analysis.", "tips": "Local issues (hospital closures, transport, development) often matter more than national ones." },
+    { "title": "Stakeholder landscape", "description": "Map the key stakeholders: major employers, community organisations, local media, sporting clubs, religious institutions, advocacy groups.", "tips": "These are the networks that influence local opinion. A campaign must engage with them." },
+    { "title": "Strategic assessment", "description": "Write a one-page strategic assessment: is this seat winnable, what would it take, and what are the biggest risks?", "tips": "Be honest about the numbers. If the margin is 15%, acknowledge the seat is not competitive this cycle." }
+  ],
+  "deliverables": ["A 10-page electorate profile document with maps, data tables, and analysis", "A one-page strategic assessment", "A stakeholder map with key contacts and influence ratings"],
+  "tools": ["ABS Census TableBuilder", "AEC Tally Room", "Local council websites", "Google Maps", "Local newspaper archives"],
+  "rubric": [
+    { "criteria": "Data depth", "description": "Is the demographic and voting data comprehensive, current, and properly sourced?" },
+    { "criteria": "Local insight", "description": "Does the profile go beyond national data to capture genuinely local issues and dynamics?" },
+    { "criteria": "Strategic realism", "description": "Is the strategic assessment honest and evidence-based, not wishful thinking?" },
+    { "criteria": "Stakeholder mapping", "description": "Are key local stakeholders identified with their influence and alignment assessed?" },
+    { "criteria": "Presentation quality", "description": "Is the document well-organised, visually clear, and usable by a campaign team?" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "error-analysis",
+  "name": "Error Analysis",
+  "summary": "The systematic treatment of measurement uncertainties — how to quantify, propagate, and report the precision and accuracy of experimental results.",
+  "whenToUseIt": "Use error analysis whenever you collect experimental data, combine measurements, fit models to data, or report results. Every experimental physics result requires proper uncertainty quantification.",
+  "steps": [
+    "Identify all sources of uncertainty (statistical and systematic)",
+    "Estimate the magnitude of each uncertainty",
+    "Propagate uncertainties through calculations using standard rules (addition in quadrature for independent errors)",
+    "Report results as value +/- uncertainty with appropriate significant figures",
+    "Assess whether systematic errors dominate or statistical errors dominate, and plan accordingly"
+  ],
+  "example": "You measure the length of a table as 1.523 +/- 0.002 m and the width as 0.764 +/- 0.002 m. The area is 1.163 m², and the propagated uncertainty is sqrt((0.764*0.002)² + (1.523*0.002)²) = 0.003 m². Report: 1.163 +/- 0.003 m².",
+  "category": "methodology"
+}

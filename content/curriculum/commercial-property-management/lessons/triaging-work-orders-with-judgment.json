@@ -1,0 +1,57 @@
+{
+  "slug": "triaging-work-orders-with-judgment",
+  "moduleSlug": "maintenance-planning-and-work-orders",
+  "title": "Triaging Work Orders With Judgment",
+  "objective": "Set priorities based on safety, business impact, and lease obligation instead of whoever shouts loudest.",
+  "beginnerExplanation": "Not every issue is urgent, but every issue feels urgent to someone. Good triage means deciding what must happen first, who owns it, what temporary controls are needed, and how you will communicate the path forward.\n\nA work order is not finished because a ticket exists. It is only under control when priority, owner, timing, and communication are all clear.",
+  "deeperExplanation": "Strong triage starts by asking four questions: Is anyone unsafe? Is building continuity affected? Is there lease exposure or tenant-critical business impact? Is the issue likely to worsen if delayed?\n\nThis turns emotion into structure. Once you have the priority, you decide the right response: emergency mobilisation, same-day attendance, planned rectification, or monitor-and-bundle into backlog. The quality of your triage shapes cost, tenant trust, and the accuracy of later reporting.",
+  "keyTakeaways": [
+    "Triage is a judgment call, not just a helpdesk process.",
+    "Safety and business continuity come before convenience.",
+    "Temporary controls matter when full resolution will take time.",
+    "Clear ownership and communication are part of the fix, not afterthoughts."
+  ],
+  "frameworks": [
+    "Daily Priority Stack",
+    "Incident Command RACI"
+  ],
+  "example": "A flickering light in a meeting room, a toilet leak affecting one bathroom, and a fire panel fault all arrive within 20 minutes. The strongest manager does not process them first-come, first-served. They treat the fire panel fault as critical, the leak as urgent due to building impact, and the light issue as planned maintenance unless it escalates into a safety risk.",
+  "commonMistakes": [
+    "Letting the loudest stakeholder determine the priority.",
+    "Failing to set temporary controls while waiting for permanent repair.",
+    "Treating all recurring issues as isolated reactive jobs.",
+    "Closing a job administratively before stakeholders understand the outcome."
+  ],
+  "exercise": "Rank five incoming work orders by priority and explain why. Include at least one life-safety issue, one tenant comfort issue, one cosmetic issue, one compliance issue, and one recurring systems issue.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What should drive work-order priority first?",
+      "options": [
+        "Who complained first",
+        "Safety, continuity, and commercial impact",
+        "Which contractor is easiest to book",
+        "Which issue will cost the least to fix"
+      ],
+      "correctIndex": 1,
+      "explanation": "The correct priority logic starts with people, continuity, and commercial consequences."
+    },
+    {
+      "question": "What is a temporary control?",
+      "options": [
+        "The final permanent fix",
+        "A way to reduce risk or disruption while the full fix is being arranged",
+        "A note in the property system",
+        "A cheaper contractor quote"
+      ],
+      "correctIndex": 1,
+      "explanation": "Temporary controls help protect continuity and safety while the permanent solution is still in motion."
+    }
+  ],
+  "perspectives": {
+    "propertyManager": "Good triage creates calm. It helps the team focus and gives stakeholders confidence that the issue is being managed professionally.",
+    "facilitiesManager": "The facilities manager wants priorities set realistically so the technical team can mobilise against the true risk, not the loudest request.",
+    "tenant": "The tenant mainly wants to know that important issues are being prioritised fairly and communicated clearly.",
+    "client": "The client expects scarce time and money to be directed to the issues with the highest risk and commercial consequence."
+  }
+}

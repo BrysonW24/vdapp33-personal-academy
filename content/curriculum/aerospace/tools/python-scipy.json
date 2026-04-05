@@ -1,0 +1,25 @@
+{
+  "slug": "python-scipy",
+  "name": "Python / SciPy",
+  "category": "analysis",
+  "description": "The general-purpose scientific computing stack that underpins modern engineering scripting, data analysis, automation, and lightweight modelling in aerospace teams.",
+  "whyUseIt": "Python and the SciPy ecosystem make it easy to move from spreadsheet-grade reasoning into repeatable engineering analysis. In aerospace, that means sizing loops, test-data analysis, and quick technical tools that are easy to share.",
+  "pricingTier": "free",
+  "url": "https://scipy.org/",
+  "alternatives": ["MATLAB", "Julia", "R"],
+  "fieldPosition": "Cross-disciplinary analysis, automation, and engineering tooling",
+  "engineerWorkflow": "Use notebooks or scripts to automate sizing loops, analyse flight-test data, generate plots, and create fast technical trade-study tools.",
+  "managerExpects": "Readable code, checked assumptions, and analysis that can be rerun when the design changes.",
+  "demoDescription": "Build a simple sizing or cycle-analysis notebook and show how changing one parameter alters the design conclusion.",
+  "outputs": [
+    "Sizing scripts",
+    "Trade-study notebooks",
+    "Data visualisations",
+    "Reusable analysis tools"
+  ],
+  "beginnerMistakes": [
+    "Writing one-off scripts with no clear assumptions or version control",
+    "Using code to generate numbers without checking whether the model is physically sensible"
+  ],
+  "relatedProject": "turbine-cycle-trade-study"
+}

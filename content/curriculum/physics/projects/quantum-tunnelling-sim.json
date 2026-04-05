@@ -1,0 +1,25 @@
+{
+  "slug": "quantum-tunnelling-sim",
+  "title": "Simulate Quantum Tunnelling",
+  "difficulty": 6,
+  "estimatedHours": 14,
+  "description": "Numerically solve the time-independent Schrödinger equation for a particle encountering a potential barrier. Calculate and visualise the tunnelling probability as a function of barrier width and height.",
+  "whyItMatters": "Quantum tunnelling has no classical analogue — a particle can pass through a barrier it classically could not surmount. It is the mechanism behind nuclear fusion in stars, scanning tunnelling microscopes, and flash memory. Simulating it builds deep quantum intuition.",
+  "skillsLearned": ["Schrödinger equation", "Quantum tunnelling", "Numerical PDE solving", "Wave function interpretation", "Probability density"],
+  "prerequisites": ["Quantum mechanics introduction", "Complex numbers", "Intermediate Python"],
+  "steps": [
+    { "title": "Set up the potential", "description": "Define a 1D potential barrier: V(x) = V_0 for a < x < b, V(x) = 0 elsewhere. Set up a spatial grid and define the particle's energy E < V_0.", "tips": "Use atomic units (hbar = m = 1) for clean numerics." },
+    { "title": "Solve analytically first", "description": "For a rectangular barrier, the transmission coefficient has an exact formula. Implement this as your benchmark.", "tips": "T = 1 / (1 + V_0² * sinh²(kappa*d) / (4*E*(V_0-E))) where kappa = sqrt(2m(V_0-E))/hbar." },
+    { "title": "Numerical solution", "description": "Use the transfer matrix method or finite-difference method to solve the Schrödinger equation numerically. Compare to the analytical result.", "tips": "The transfer matrix method is elegant: multiply 2x2 matrices for each slice of the potential." },
+    { "title": "Visualise the wave function", "description": "Plot the real and imaginary parts of the wave function, showing the incident wave, the exponential decay inside the barrier, and the transmitted wave.", "tips": "The wave function amplitude decreases exponentially inside the barrier — this is the 'tunnelling' region." },
+    { "title": "Parameter exploration", "description": "Plot the transmission coefficient vs barrier width, barrier height, and particle energy. Identify the regimes where tunnelling is significant.", "tips": "Tunnelling probability decreases exponentially with barrier width — doubling the width dramatically reduces transmission." }
+  ],
+  "deliverables": ["Analytical transmission coefficient implementation", "Numerical solver with comparison to analytical result", "Wave function visualisation showing tunnelling", "Transmission vs barrier width/height/energy plots", "Discussion of physical applications (STM, alpha decay, tunnel diodes)"],
+  "tools": ["Python", "NumPy", "Matplotlib", "SciPy"],
+  "rubric": [
+    { "criteria": "Quantum correctness", "description": "Schrödinger equation properly set up and solved" },
+    { "criteria": "Numerical accuracy", "description": "Numerical results agree with analytical predictions" },
+    { "criteria": "Visualisation", "description": "Wave function clearly shows tunnelling behaviour" },
+    { "criteria": "Parameter study", "description": "Comprehensive exploration of how tunnelling depends on physical parameters" }
+  ]
+}

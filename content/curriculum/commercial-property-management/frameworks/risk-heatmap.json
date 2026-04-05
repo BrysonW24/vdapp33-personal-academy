@@ -1,0 +1,15 @@
+{
+  "slug": "risk-heatmap",
+  "name": "Risk Heatmap",
+  "summary": "A simple probability-versus-impact model for tracking the issues most likely to hurt the asset. It gives property teams a shared view of what should be watched, mitigated, or escalated before it becomes a crisis.",
+  "whenToUseIt": "Use this in monthly reviews, quarterly asset planning, compliance meetings, insurance discussions, and before major owner presentations. It works well when the team is reactive and needs a better way to scan forward risk.",
+  "steps": [
+    "List the real risks - Include arrears concentration, compliance gaps, aging plant, key-person contractor dependency, vacancy exposure, uninsured events, security threats, and ESG underperformance where relevant.",
+    "Score likelihood and impact - Keep the scoring simple and consistent. The point is comparability, not false precision.",
+    "Identify current controls - Note what is already reducing exposure: service contracts, inspections, reserves, lease protections, insurance, escalation plans, or dashboard monitoring.",
+    "Assign mitigation owners and dates - Each material risk needs an owner, a next action, and a review date. A heatmap without action is only a picture.",
+    "Watch movement over time - The best use of a heatmap is not one snapshot but seeing whether a risk is cooling, stable, or heating up month to month."
+  ],
+  "example": "An industrial estate has growing arrears exposure from one logistics tenant, recurring loading-dock door failures, and weak stormwater compliance records. The heatmap puts arrears and compliance in the red zone, making them visible for owner discussion and action planning.",
+  "category": "risk"
+}

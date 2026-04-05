@@ -1,0 +1,10 @@
+{
+  "slug": "fusion-360",
+  "name": "Fusion 360",
+  "category": "design",
+  "description": "Fusion 360 is Autodesk's cloud-based 3D CAD/CAM/CAE platform that combines industrial design, mechanical engineering, and manufacturing in a single tool. It offers parametric and freeform modelling, assembly design, simulation (FEA, thermal, modal), CAM toolpath generation for CNC machining, and collaboration features. The free personal use license makes it particularly popular for hobbyist robotics, maker projects, and startup prototyping.",
+  "whyUseIt": "Fusion 360 provides professional-grade 3D design capabilities at a fraction of SolidWorks' cost, with a free tier for personal and educational use. Its cloud-based nature enables collaboration and version control. For robotics, it excels at designing custom brackets, enclosures, gripper fingers, and chassis components that can be 3D printed or CNC machined. The integrated simulation tools let you verify that your robot parts can handle the expected loads before manufacturing.",
+  "pricingTier": "freemium",
+  "url": "https://www.autodesk.com/products/fusion-360/",
+  "alternatives": ["SolidWorks", "FreeCAD (fully free)", "Onshape (cloud-based)", "TinkerCAD (beginners)"]
+}

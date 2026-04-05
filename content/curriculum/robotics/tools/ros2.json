@@ -1,0 +1,10 @@
+{
+  "slug": "ros2",
+  "name": "ROS 2 (Robot Operating System 2)",
+  "category": "framework",
+  "description": "ROS 2 is the de facto standard middleware framework for robotics development. It provides a communication infrastructure (publish-subscribe, services, actions), a build system (colcon), coordinate frame management (tf2), and an ecosystem of thousands of reusable packages for navigation, manipulation, perception, and simulation. Built on DDS (Data Distribution Service), ROS 2 supports real-time operation, multi-robot systems, and security features that make it viable for production deployment.",
+  "whyUseIt": "ROS 2 prevents you from reinventing the wheel for every robot project. Instead of writing your own communication system, sensor drivers, navigation stack, and visualisation tools, you use battle-tested packages and focus your effort on what makes your robot unique. The vast ecosystem means solutions exist for most common robotics problems, and the community provides support and continuous improvement. It is effectively required knowledge for most robotics jobs and research positions.",
+  "pricingTier": "free",
+  "url": "https://docs.ros.org/en/humble/",
+  "alternatives": ["MQTT with custom middleware", "YARP (Yet Another Robot Platform)", "LCM (Lightweight Communications and Marshalling)"]
+}

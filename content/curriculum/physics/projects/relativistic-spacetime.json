@@ -1,0 +1,25 @@
+{
+  "slug": "relativistic-spacetime",
+  "title": "Visualise Relativistic Spacetime",
+  "difficulty": 5,
+  "estimatedHours": 10,
+  "description": "Build interactive spacetime diagrams that illustrate time dilation, length contraction, simultaneity breakdown, and the twin paradox in special relativity.",
+  "whyItMatters": "Special relativity defies everyday intuition. Spacetime diagrams make the abstract concrete — they show why moving clocks tick slowly, why simultaneity is relative, and why faster-than-light travel leads to paradoxes. Building these visualisations cements relativistic thinking.",
+  "skillsLearned": ["Lorentz transformations", "Spacetime diagrams", "Time dilation and length contraction", "Relativistic kinematics", "Interactive visualisation"],
+  "prerequisites": ["Special relativity basics", "Lorentz transformations", "Python programming"],
+  "steps": [
+    { "title": "Minkowski diagram basics", "description": "Plot a spacetime diagram with x (horizontal) and ct (vertical) axes. Draw the light cone (45-degree lines). Plot worldlines for stationary and moving observers.", "tips": "Use ct rather than t on the vertical axis so light travels at 45 degrees." },
+    { "title": "Lorentz transformation", "description": "Implement the Lorentz transformation and show how the axes of a moving frame are tilted. Plot events in both frames.", "tips": "The x' and ct' axes are symmetrically tilted toward the light cone." },
+    { "title": "Time dilation visualisation", "description": "Show a clock ticking in two frames. Mark events (ticks) on the worldline and demonstrate that the moving clock ticks more slowly in the stationary frame.", "tips": "Use colour coding to distinguish frames and annotate the time intervals." },
+    { "title": "Twin paradox", "description": "Simulate the twin paradox: one twin stays home, the other travels at 0.8c to a star and returns. Show both worldlines and calculate the age difference.", "tips": "The travelling twin's worldline has a kink (acceleration) — this breaks the symmetry." },
+    { "title": "Interactive velocity slider", "description": "Add a slider that lets the user change the relative velocity from 0 to 0.99c and see how the spacetime diagram transforms in real time.", "tips": "Use matplotlib sliders or switch to Plotly/Streamlit for a smoother interactive experience." }
+  ],
+  "deliverables": ["Minkowski diagrams for stationary and moving observers", "Lorentz-transformed coordinate overlays", "Time dilation and twin paradox visualisations", "Interactive velocity slider demonstration", "Written explanation of each relativistic effect"],
+  "tools": ["Python", "NumPy", "Matplotlib"],
+  "rubric": [
+    { "criteria": "Relativity correctness", "description": "Lorentz transformations correctly implemented, predictions match theory" },
+    { "criteria": "Visualisation clarity", "description": "Diagrams are clear, well-labelled, and pedagogically effective" },
+    { "criteria": "Twin paradox", "description": "Correctly shows asymmetry and age difference" },
+    { "criteria": "Interactivity", "description": "Velocity slider works smoothly and updates in real time" }
+  ]
+}

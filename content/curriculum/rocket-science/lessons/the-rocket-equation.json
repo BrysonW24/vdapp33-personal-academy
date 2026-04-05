@@ -1,0 +1,44 @@
+{
+  "slug": "the-rocket-equation",
+  "moduleSlug": "what-rocket-science-is",
+  "title": "The Rocket Equation",
+  "objective": "Master the Tsiolkovsky rocket equation and understand why it is the most important equation in spaceflight.",
+  "beginnerExplanation": "The Tsiolkovsky rocket equation tells you one brutal truth: the more speed (delta-v) you need, the exponentially more fuel you must carry. The equation is delta-v = Isp x g0 x ln(m0/mf), where m0 is the initial mass (with fuel) and mf is the final mass (without fuel). That natural logarithm is what makes rocketry so hard — to double your delta-v, you do not double your fuel, you square it. This is why over 90% of a rocket's mass at launch is propellant. It is called the 'tyranny of the rocket equation' for good reason.",
+  "deeperExplanation": "The Tsiolkovsky equation derives directly from Newton's Second Law applied to a variable-mass system. As the rocket burns propellant, its mass decreases, so the same thrust produces greater acceleration over time. Integrating F = ma over the burn gives delta-v = ve x ln(m0/mf), where ve is the effective exhaust velocity (ve = Isp x g0). The mass ratio (m0/mf) is the key design parameter. For LEO insertion, you need roughly 9.4 km/s of delta-v. With a Merlin engine (Isp = 311s at sea level), the required mass ratio is about 22:1 — meaning for every kilogram of payload + structure, you need 21 kilograms of propellant. This is why staging exists: by discarding empty tanks and engines, you reset the mass ratio for each stage, dramatically improving overall performance.",
+  "keyTakeaways": [
+    "Delta-v = Isp x g0 x ln(m0/mf) — the fundamental equation of spaceflight",
+    "The exponential relationship means small increases in delta-v require massive increases in propellant",
+    "Mass ratio (m0/mf) is the single most important design parameter",
+    "Higher specific impulse (Isp) gives more delta-v for the same mass ratio",
+    "Staging is the engineering solution to the tyranny of the rocket equation"
+  ],
+  "frameworks": ["tsiolkovsky-equation", "delta-v-budget-framework"],
+  "example": "SpaceX's Falcon 9 first stage has a wet mass of about 433,000 kg and a dry mass of about 26,000 kg, giving a mass ratio of 16.7. With Merlin 1D's vacuum Isp of 311s: delta-v = 311 x 9.81 x ln(16.7) = about 8,580 m/s. But the first stage only provides about 3,500 m/s because it fights gravity and atmospheric drag the whole way. The second stage (Isp 348s in vacuum, mass ratio ~15) adds another ~6,000 m/s in near-vacuum conditions. Combined, they deliver the ~9,400 m/s needed for LEO. This is why two stages work better than one — and why SpaceX chose the staging split they did.",
+  "commonMistakes": [
+    "Forgetting that the relationship is exponential, not linear — doubling delta-v requires squaring the mass ratio",
+    "Using sea-level Isp for vacuum calculations or vice versa",
+    "Ignoring gravity losses and drag losses when estimating real-world delta-v requirements",
+    "Assuming you can just add more fuel — the fuel itself has mass, creating a diminishing returns spiral"
+  ],
+  "exercise": "You need 9,400 m/s of delta-v to reach LEO. Calculate the required mass ratio for: (a) a single stage with Isp = 330s, (b) a two-stage rocket where stage 1 provides 3,500 m/s (Isp = 311s) and stage 2 provides 5,900 m/s (Isp = 348s). Compare the total mass ratios and explain why staging is necessary.",
+  "nextLesson": "staging-and-mass-fraction",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What does the Tsiolkovsky rocket equation tell us about the relationship between delta-v and propellant mass?",
+      "options": [
+        "Delta-v increases linearly with propellant mass",
+        "Delta-v increases exponentially with propellant mass",
+        "Delta-v increases logarithmically with propellant mass",
+        "Delta-v is independent of propellant mass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Delta-v = ve x ln(m0/mf). The logarithmic relationship means delta-v increases slowly as you add more propellant. Conversely, to get a linear increase in delta-v, you need an exponential increase in propellant — this is the 'tyranny' of the equation."
+    }
+  ],
+  "perspectives": {
+    "engineer": "The rocket equation is your constraint envelope. Every gram of structural mass reduces payload. Optimise mass ratio ruthlessly.",
+    "manager": "The rocket equation sets hard physical limits on what any vehicle can deliver to orbit. No amount of schedule pressure changes physics.",
+    "investor": "Companies that achieve better structural mass fractions (lighter tanks, more efficient engines) have a permanent physics-based advantage over competitors."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "state-machine-design",
+  "name": "State Machine Design",
+  "summary": "A finite state machine (FSM) organises robot behaviour into discrete states with defined transitions between them. Each state represents a mode of operation (e.g. idle, navigating, grasping, error recovery), and transitions are triggered by events or conditions. State machines provide a structured, predictable, and debuggable way to manage complex robot behaviour.",
+  "whenToUseIt": "Use state machines when your robot has distinct operational modes with clear transitions between them. They are ideal for task-level control (above the motion control layer) — managing sequences of actions, handling error conditions, and coordinating between subsystems. State machines are particularly valuable for safety-critical systems where predictable behaviour and exhaustive state coverage are required. Use them for mission control, operational mode management, and supervisory control.",
+  "steps": [
+    "Identify states: List all distinct operational modes the robot can be in — idle, initialising, navigating, picking, placing, charging, error, emergency stop. Each state should have a clear, singular purpose.",
+    "Define transitions: For each state, identify what events or conditions cause transitions to other states. Draw a state transition diagram. Ensure every state has at least one exit transition (no dead ends except final states).",
+    "Specify entry and exit actions: Define what happens when entering a state (e.g. start a timer, activate a sensor) and what happens when leaving (e.g. stop a motor, log completion).",
+    "Define in-state behaviour: Specify what the robot does while in each state — the continuous or periodic actions (e.g. follow a path while in the navigating state).",
+    "Handle errors: Add error states and transitions for sensor failures, actuator faults, communication loss, and unexpected conditions. Every state should have a path to a safe error state.",
+    "Implement and test: Code the state machine (using a library like SMACH for ROS, or a simple switch-case structure). Test all transitions, including error paths, in simulation before hardware deployment.",
+    "Document: Create a state transition diagram that serves as the living documentation of the robot's behaviour. Keep it updated as the system evolves."
+  ],
+  "example": "A cobot in an Australian electronics assembly plant uses a state machine with six states: IDLE (waiting for a work order), PICK (moving to the parts bin and grasping a component), INSPECT (using a camera to verify the correct part was picked), PLACE (moving to the assembly fixture and inserting the part), RETURN (moving back to the home position), and ERROR (triggered by any fault — failed grasp, wrong part detected, collision detected). Each transition is guarded by sensor conditions: PICK to INSPECT only if the force sensor confirms a successful grasp; INSPECT to PLACE only if the vision system confirms the correct part; any state to ERROR if the collision detection system triggers. The ERROR state stops all motion, alerts the operator, and waits for manual reset.",
+  "category": "architecture"
+}

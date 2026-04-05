@@ -1,0 +1,17 @@
+{
+  "slug": "mass-budget-framework",
+  "name": "Mass Budget Framework",
+  "summary": "Track every gram. In rocket engineering, mass is the enemy. A mass budget allocates allowable mass to every subsystem, tracks actual mass against allocation, and drives design decisions. Every kilogram of structure is a kilogram less payload.",
+  "whenToUseIt": "Use this framework from the earliest concept phase and maintain it throughout the entire programme. Mass budgets should be reviewed weekly. Any mass growth must be offset by reductions elsewhere or accepted as a payload penalty.",
+  "steps": [
+    "Define total vehicle mass from the rocket equation (given delta-v and payload requirements)",
+    "Allocate mass to each subsystem with margins (propulsion, structure, avionics, thermal, payload adapter)",
+    "Track current best estimate (CBE) mass for every component",
+    "Apply maturity-based margins: 25% for early concepts, 15% for preliminary design, 5% for detailed design",
+    "Calculate total mass with margins — if it exceeds allocation, redesign",
+    "Conduct weekly mass reviews — mass growth is the most common reason projects fail",
+    "Establish a mass reduction programme — every gram saved is a gram of payload gained"
+  ],
+  "example": "Falcon 9 first stage: propellant ~411,000 kg (94.3%), structure + engines ~25,600 kg (5.7%). That 5.7% structural fraction is the result of relentless mass optimisation. The interstage alone was redesigned from aluminium to carbon fibre composite, saving hundreds of kilograms. At roughly $2,700/kg to LEO, every kilogram of structural mass savings is worth thousands of dollars in payload revenue.",
+  "category": "systems-engineering"
+}

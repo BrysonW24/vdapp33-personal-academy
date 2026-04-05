@@ -1,0 +1,23 @@
+{
+  "slug": "general-relativity",
+  "title": "General Relativity",
+  "shortSummary": "Curved spacetime, gravity as geometry, black holes, gravitational waves, and Einstein's masterpiece — the modern theory of gravity.",
+  "level": "advanced",
+  "category": "theoretical",
+  "whyItMatters": "General relativity describes gravity as the curvature of spacetime. It predicts black holes, gravitational lensing, and gravitational waves — all confirmed by observation. It is essential for GPS, cosmology, and our understanding of the large-scale universe.",
+  "coreConcepts": [
+    "The equivalence principle",
+    "Curved spacetime and geodesics",
+    "Einstein field equations",
+    "Schwarzschild solution and black holes",
+    "Gravitational waves",
+    "Gravitational lensing"
+  ],
+  "lessons": [],
+  "frameworks": ["symmetry-principles", "thought-experiment-method"],
+  "visualType": "spacetime-curvature",
+  "relatedModules": ["special-relativity", "cosmology", "astrophysics"],
+  "status": "coming-soon",
+  "order": 10,
+  "levelNumber": 3
+}

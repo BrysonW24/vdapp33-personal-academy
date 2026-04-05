@@ -1,0 +1,47 @@
+{
+  "slug": "retail-precinct",
+  "title": "Retail Precinct Property Manager",
+  "setting": "A neighborhood or urban retail center with many customer-facing tenants and daily trade sensitivity",
+  "companySize": "Single asset or small portfolio with active owner involvement",
+  "description": "You manage a retail property where the operating rhythm is public-facing and highly sensitive to cleanliness, access, trading conditions, and tenant mix. Even small disruptions are visible fast because shoppers, retailers, and owners all notice the precinct at once.",
+  "salary": "Commonly mid-five to low-six figures base depending on center scale, turnover intensity, and portfolio scope.",
+  "schedule": [
+    { "time": "07:00", "activity": "Pre-opening walk of entries, amenities, waste areas, and customer paths", "tools": ["notion"], "note": "Retail presentation standards reset every morning." },
+    { "time": "08:00", "activity": "Check overnight security, cleaning completion, and urgent maintenance before trade starts", "tools": ["angus-anywhere", "microsoft-teams"], "note": "Customers notice retail defects immediately." },
+    { "time": "09:00", "activity": "Meet two retailers about signage approval and delivery access issues", "tools": ["docusign", "microsoft-teams"], "note": "Retail property management blends operations with active tenancy support." },
+    { "time": "10:30", "activity": "Review trade-sensitive service issues and footfall-related maintenance priorities", "tools": ["power-bi", "notion"], "note": "In retail, service timing can affect trade, not just comfort." },
+    { "time": "12:00", "activity": "Coordinate a short-term activation or promotional setup with center operations", "tools": ["microsoft-teams"], "note": "Operations and commercial activation often overlap in retail precincts." },
+    { "time": "14:00", "activity": "Prepare rent and arrears follow-up for one struggling specialty tenant", "tools": ["yardi-voyager", "mri-software"], "note": "Cash flow conversations are delicate when a tenant's trade is under pressure." },
+    { "time": "15:00", "activity": "Owner update on occupancy, presentation standards, maintenance trends, and retailer sentiment", "tools": ["jll-prism", "microsoft-excel"], "note": "Owners want confidence that the center feels controlled and commercially alive." },
+    { "time": "17:30", "activity": "Close-of-trade review of defects, incidents, and next-day contractor actions", "tools": ["servicenow", "microsoft-teams"], "note": "Retail issues need to be closed before they become tomorrow's first impression." }
+  ],
+  "responsibilities": [
+    "Maintain customer-facing presentation and safety standards",
+    "Coordinate retailer service issues, access, and approvals",
+    "Monitor occupancy, arrears, and day-to-day tenancy health",
+    "Oversee cleaning, security, waste, and reactive maintenance",
+    "Support owner and leasing conversations around tenancy mix and retention",
+    "Protect trade conditions through fast operational response"
+  ],
+  "challenges": [
+    "The property is publicly visible and judged constantly",
+    "Retailer issues can become emotionally charged because they affect daily trade",
+    "There is a high volume of small issues that still matter",
+    "Presentation, safety, and access all move together in the customer experience",
+    "Weak follow-through is noticed quickly by both tenants and owners"
+  ],
+  "rewards": [
+    "You develop strong tenant communication and service-recovery skills",
+    "The work has immediate feedback and visible impact",
+    "Retail builds confidence in juggling high-volume issue flow",
+    "You gain experience balancing commercial, operational, and customer-facing priorities",
+    "Strong performers often become highly trusted by owners and retailers alike"
+  ],
+  "careerPath": [
+    "Retail coordinator or assistant manager",
+    "Retail center property manager",
+    "Senior retail portfolio manager",
+    "Regional retail operations or client lead",
+    "Portfolio director, asset-services leader, or owner-side advisory role"
+  ]
+}

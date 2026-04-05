@@ -1,0 +1,48 @@
+{
+  "slug": "nasa-mission-designer",
+  "title": "NASA Mission Designer",
+  "setting": "NASA Jet Propulsion Laboratory (JPL), Pasadena",
+  "companySize": "6,000+ employees at JPL",
+  "description": "You are a mission designer at JPL, working on trajectory design and mission planning for robotic exploration missions. Your current assignment is the trajectory design for a sample return mission to an asteroid. The work is deeply mathematical, the timescales are long (missions take 5-10 years from concept to launch), and the precision required is extraordinary — navigate a spacecraft billions of kilometres using gravity assists and arrive within metres of the target.",
+  "salary": "$120,000–$200,000 AUD",
+  "schedule": [
+    {"time": "08:00", "activity": "Arrive at JPL. Coffee in Building 230. Check email for overnight trajectory optimisation runs — the Monte Python tool ran 2,000 trajectory variants overnight.", "tools": ["GMAT", "Monte (JPL internal)"], "note": "JPL's work-life balance is better than SpaceX, but mission deadlines still create crunch periods."},
+    {"time": "08:30", "activity": "Review optimisation results. Three trajectory options meet the delta-v budget with Earth and Venus gravity assists. Analyse the trade-offs: launch date flexibility vs propellant margin.", "tools": ["MATLAB", "Python"]},
+    {"time": "10:00", "activity": "Mission design team meeting. Present trajectory options to the project scientist and systems engineer. The scientist wants a longer observation window at the asteroid; this changes the approach trajectory.", "tools": ["STK", "PowerPoint"]},
+    {"time": "11:30", "activity": "Work on the orbit determination plan — how will we track the spacecraft during cruise? Define the ground station schedule and navigation accuracy requirements.", "tools": ["GMAT", "Python"]},
+    {"time": "12:30", "activity": "Lunch in the JPL cafeteria. The Mars 2020 team is celebrating a successful Perseverance manoeuvre. Stories about the '7 minutes of terror' landing."},
+    {"time": "13:30", "activity": "Deep work: model the asteroid proximity operations. Design the orbit around the asteroid for the sampling phase. Small body gravity is weak and irregular — this is a unique astrodynamics problem.", "tools": ["GMAT", "MATLAB"], "note": "Asteroid operations require modelling irregular gravity fields — no simple Kepler orbits here."},
+    {"time": "15:30", "activity": "Peer review a colleague's Mars Sample Return trajectory. Check the Earth re-entry conditions — the capsule must hit a 0.2-degree entry corridor after a 2-year return cruise.", "tools": ["GMAT"]},
+    {"time": "17:00", "activity": "Write a section of the mission concept document for the upcoming proposal review. Clear technical writing is essential — proposals compete for funding.", "tools": ["LaTeX"]},
+    {"time": "18:00", "activity": "Head home. Read a new paper on low-thrust trajectory optimisation on the train — always learning."}
+  ],
+  "responsibilities": [
+    "Design interplanetary trajectories using gravity assists and low-thrust propulsion",
+    "Perform orbit determination and navigation analysis",
+    "Support mission concept studies and proposal development",
+    "Develop and validate trajectory optimisation tools",
+    "Present technical results to project teams and review boards",
+    "Publish research in astrodynamics journals"
+  ],
+  "challenges": [
+    "Programme timescales are very long — 5-10 years from concept to launch",
+    "Funding is uncertain — missions can be cancelled after years of work",
+    "Navigation precision requirements are extreme (metres at billions of km distance)",
+    "Government bureaucracy can slow decision-making",
+    "Salary is lower than private sector for equivalent skill level"
+  ],
+  "rewards": [
+    "Working on missions that push the boundaries of human knowledge",
+    "Seeing your trajectory design carry a spacecraft to another world",
+    "Collaborating with the best astrodynamicists on the planet",
+    "Job stability and excellent benefits (government-adjacent)",
+    "Your work becomes part of space exploration history"
+  ],
+  "careerPath": [
+    "Mission Design Engineer ($120K AUD)",
+    "Senior Mission Designer ($150K AUD)",
+    "Principal Mission Designer ($180K AUD)",
+    "Mission Design Lead ($195K AUD)",
+    "Chief Mission Architect ($200K+ AUD)"
+  ]
+}

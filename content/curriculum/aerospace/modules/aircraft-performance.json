@@ -1,0 +1,16 @@
+{
+  "slug": "aircraft-performance",
+  "title": "Aircraft Performance",
+  "shortSummary": "Quantifying how aircraft perform — takeoff, climb, cruise, descent, and landing performance calculations.",
+  "level": "intermediate",
+  "category": "aerodynamics",
+  "whyItMatters": "Aircraft performance determines operational capability and commercial viability. Airlines choose aircraft based on range, payload, fuel burn, and field performance.",
+  "coreConcepts": ["Takeoff and landing performance", "Climb rate and ceiling", "Cruise performance and Breguet range", "Payload-range diagram", "Hot and high performance", "One engine inoperative performance"],
+  "lessons": [],
+  "frameworks": ["performance-envelope"],
+  "visualType": "payload-range",
+  "relatedModules": ["flight-mechanics", "propulsion-systems", "aircraft-design"],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 3
+}

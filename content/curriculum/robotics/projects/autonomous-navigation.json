@@ -1,0 +1,46 @@
+{
+  "slug": "autonomous-navigation",
+  "title": "Autonomous Navigation",
+  "difficulty": 6,
+  "estimatedHours": 50,
+  "description": "Build a complete autonomous navigation system for a mobile robot using ROS 2 and the Navigation2 stack. The robot must map an environment using SLAM, then autonomously navigate to commanded goal poses while avoiding static and dynamic obstacles. This project integrates perception, mapping, planning, and control into a working system.",
+  "whyItMatters": "Autonomous navigation is the enabling capability for warehouse robots, delivery robots, autonomous vehicles, and service robots. The Navigation2 stack you configure in this project is the same software architecture used by real commercial mobile robots deployed in Australian warehouses and hospitals. Mastering Nav2 is one of the most marketable skills in the robotics industry.",
+  "skillsLearned": ["ROS 2 system configuration and launch files", "SLAM (mapping an environment from scratch)", "Nav2 configuration and tuning", "Costmap management and obstacle inflation", "Behaviour tree configuration for navigation", "Sensor integration (LiDAR and/or cameras)", "Simulation with Gazebo"],
+  "prerequisites": ["ROS 2 installation and basic usage (nodes, topics, services)", "Understanding of SLAM concepts", "Understanding of path planning basics", "Linux command line proficiency"],
+  "steps": [
+    {
+      "title": "Set up the simulation environment",
+      "description": "Create a Gazebo simulation world representing an indoor environment — a small warehouse, office, or hospital corridor with rooms, doorways, and furniture. Configure a TurtleBot3 or custom differential-drive robot model with a 2D LiDAR sensor. Verify that the robot can be teleoperated (driven manually) through the environment and that LiDAR data is published correctly.",
+      "tips": "Start with the pre-built TurtleBot3 Gazebo worlds and modify them. Ensure your LiDAR publishes on the /scan topic with the correct frame_id."
+    },
+    {
+      "title": "Build a map with SLAM",
+      "description": "Configure and run SLAM Toolbox (the default SLAM package in Nav2) in online synchronous mode. Teleoperate the robot through the entire environment to build a complete occupancy grid map. Save the map using the map_saver. Inspect the map quality — are walls clean? Are doorways open? Is the entire space covered?",
+      "tips": "Drive slowly and make overlapping passes for better map quality. Use loop closures (returning to previously mapped areas) to reduce drift."
+    },
+    {
+      "title": "Configure Navigation2",
+      "description": "Set up Nav2 with the saved map. Configure the AMCL localiser, global costmap, local costmap, global planner (NavFn or Smac), local planner (DWA or MPPI), and the navigation behaviour tree. Set obstacle inflation radius based on the robot's footprint plus a safety margin. Test by sending a single goal pose and observing the robot navigate to it.",
+      "tips": "Start with the default Nav2 parameters and tune incrementally. The most important parameters are costmap resolution, inflation radius, and local planner velocity limits."
+    },
+    {
+      "title": "Add dynamic obstacle avoidance",
+      "description": "Add a moving obstacle to the Gazebo world (a person model walking on a pre-defined path). Verify that the Nav2 local planner detects and avoids the moving obstacle in real time. Tune the local costmap parameters to ensure dynamic obstacles are detected quickly and cleared when they move away.",
+      "tips": "The local costmap observation source should use a short observation persistence time (2-3 seconds) so that moving obstacles are quickly cleared after they pass."
+    },
+    {
+      "title": "Implement multi-goal navigation",
+      "description": "Write a ROS 2 node that sends a sequence of navigation goals (a patrol route through the environment). The robot should visit each waypoint in order, handling navigation failures gracefully (retrying or skipping unreachable goals). Log the time taken for each leg and the total patrol time. Optimise the route order for minimum total travel time.",
+      "tips": "Use the Nav2 waypoint follower or implement your own action client that sends NavigateToPose goals sequentially."
+    }
+  ],
+  "deliverables": ["Complete ROS 2 workspace with all configuration files", "Saved occupancy grid map of the environment", "Video demonstration of autonomous multi-goal navigation with dynamic obstacle avoidance", "Configuration documentation explaining key parameter choices and tuning rationale", "Performance log: navigation times, success rates, recovery events"],
+  "tools": ["ros2", "gazebo-sim", "python-robotics"],
+  "rubric": [
+    {"criteria": "Map quality", "description": "SLAM-generated map is clean, complete, and geometrically accurate — walls are straight, doorways are navigable"},
+    {"criteria": "Navigation reliability", "description": "Robot successfully navigates to goals at least 95% of the time across different start and goal positions"},
+    {"criteria": "Dynamic obstacle handling", "description": "Robot smoothly avoids moving obstacles without excessive stopping or detours"},
+    {"criteria": "Recovery behaviour", "description": "Robot recovers from common failure cases (temporary blockage, narrow passage) using Nav2 recovery behaviours"},
+    {"criteria": "System integration", "description": "Clean ROS 2 workspace with proper launch files, parameter files, and documentation"}
+  ]
+}

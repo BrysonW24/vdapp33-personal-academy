@@ -1,0 +1,42 @@
+{
+  "slug": "gravity-and-escape-velocity",
+  "moduleSlug": "what-rocket-science-is",
+  "title": "Gravity and Escape Velocity",
+  "objective": "Understand gravity wells, escape velocity, and why getting off Earth is the hardest part of any space mission.",
+  "beginnerExplanation": "Earth's gravity is like a deep well that you have to climb out of. Escape velocity is the speed you need to leave Earth's gravitational influence entirely — about 11.2 km/s (40,320 km/h). Orbital velocity is slower, about 7.8 km/s, because you are not escaping gravity — you are falling around Earth in a continuous loop. The energy required to reach orbit is enormous, which is why rockets need to be mostly fuel. Once in orbit, though, you are halfway to anywhere in the solar system — the delta-v from LEO to Mars is actually less than the delta-v from the ground to LEO.",
+  "deeperExplanation": "Escape velocity derives from setting kinetic energy equal to gravitational potential energy: v_esc = sqrt(2GM/r), where G is the gravitational constant, M is Earth's mass, and r is the distance from Earth's centre. At Earth's surface, this gives 11.186 km/s. Orbital velocity at altitude h is v_orb = sqrt(GM/(R+h)), giving about 7.8 km/s at 200 km altitude. The delta-v budget from ground to LEO is about 9.4 km/s (not 7.8 km/s) because of gravity losses (~1.0-1.5 km/s) and aerodynamic drag losses (~0.1-0.3 km/s). Gravity losses occur because the rocket must fight gravity the entire time it is accelerating — a faster ascent reduces gravity losses but increases drag losses. The optimal trajectory balances these competing effects through a gravity turn.",
+  "keyTakeaways": [
+    "Escape velocity from Earth's surface is 11.2 km/s; orbital velocity at LEO is about 7.8 km/s",
+    "The delta-v budget to LEO is ~9.4 km/s (includes gravity and drag losses)",
+    "Once in LEO, you are 'halfway to anywhere' — orbital energy is the hard part",
+    "Gravity losses are minimised by accelerating quickly (high thrust-to-weight ratio)",
+    "The gravity turn trajectory optimises the balance between gravity and drag losses"
+  ],
+  "frameworks": ["delta-v-budget-framework", "first-principles-reasoning"],
+  "example": "Consider the energy economics of spaceflight. Getting from the ground to LEO costs about 9.4 km/s of delta-v. Getting from LEO to a Mars transfer orbit costs about 3.6 km/s. Getting from LEO to the Moon costs about 3.1 km/s. This means that the first 200 km of altitude requires more energy than the next 55 million kilometres to Mars. This is why launch vehicles are so much bigger than in-space spacecraft, and why reducing launch cost (through reusability) has such a massive impact on the economics of everything that happens in space.",
+  "commonMistakes": [
+    "Confusing orbital velocity with escape velocity — orbiting requires less speed than escaping",
+    "Forgetting gravity losses — you need more delta-v than just orbital velocity because you fight gravity during ascent",
+    "Thinking escape velocity means you need to go that fast at launch — you can escape at any speed if you keep accelerating",
+    "Underestimating how much energy LEO requires compared to deep-space manoeuvres"
+  ],
+  "exercise": "Calculate: (a) Escape velocity from the surface of Mars (mass = 6.42 x 10^23 kg, radius = 3,390 km). (b) Compare this with Earth's escape velocity and explain why launching from Mars is much easier. (c) If a Starship lands on Mars fully fuelled, what fraction of its delta-v budget does Mars escape consume? Use the delta-v map to plan the full Earth-to-Mars-to-Earth trip.",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "Why is the actual delta-v to reach LEO (~9.4 km/s) higher than orbital velocity (~7.8 km/s)?",
+      "options": [
+        "Because the rocket equation is inefficient",
+        "Because of gravity losses and aerodynamic drag during ascent",
+        "Because the Earth is spinning",
+        "Because engines lose power at altitude"
+      ],
+      "correctIndex": 1,
+      "explanation": "During ascent, the rocket must fight gravity the entire time (gravity losses ~1.0-1.5 km/s) and push through the atmosphere (drag losses ~0.1-0.3 km/s). These losses add to the theoretical orbital velocity to give the total delta-v requirement."
+    }
+  ],
+  "perspectives": {
+    "engineer": "Gravity and drag losses are not fixed — they depend on your trajectory, thrust-to-weight ratio, and vehicle aerodynamics. Optimising these losses is a key part of trajectory design.",
+    "investor": "The delta-v cost of reaching LEO is the fundamental bottleneck of the space economy. Any technology that reduces this cost — reusability, better engines, space elevators — has enormous economic leverage."
+  }
+}

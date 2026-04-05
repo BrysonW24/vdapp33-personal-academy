@@ -1,0 +1,23 @@
+{
+  "slug": "string-theory",
+  "title": "String Theory",
+  "shortSummary": "One-dimensional vibrating strings, extra dimensions, and the quest to unify all forces of nature into a single theoretical framework.",
+  "level": "advanced",
+  "category": "theoretical",
+  "whyItMatters": "String theory is the leading candidate for a 'theory of everything' — a single framework that unifies quantum mechanics and gravity. While unproven experimentally, it has produced deep mathematical insights and drives frontier research.",
+  "coreConcepts": [
+    "Strings as fundamental objects",
+    "Extra spatial dimensions",
+    "Supersymmetry",
+    "Branes and M-theory",
+    "The landscape of solutions",
+    "Connections to mathematics"
+  ],
+  "lessons": [],
+  "frameworks": ["symmetry-principles"],
+  "visualType": "abstract-diagram",
+  "relatedModules": ["quantum-field-theory", "general-relativity", "cosmology"],
+  "status": "coming-soon",
+  "order": 17,
+  "levelNumber": 4
+}

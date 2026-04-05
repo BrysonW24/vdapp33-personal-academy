@@ -1,0 +1,22 @@
+{
+  "slug": "international-relations",
+  "title": "International Relations",
+  "shortSummary": "Understand Australia's place in the world — alliances, trade, diplomacy, defence, and the geopolitics that shape domestic policy from AUKUS to ASEAN.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Australia's prosperity and security depend on its international relationships. Politicians who understand geopolitics, trade, and diplomacy can make better decisions about defence spending, foreign aid, trade agreements, and Australia's strategic positioning.",
+  "coreConcepts": [
+    "Australia's alliance system: AUKUS, Five Eyes, ANZUS",
+    "ASEAN and Indo-Pacific strategy",
+    "Trade agreements and economic diplomacy",
+    "The role of the UN and multilateral institutions",
+    "Defence and national security policy",
+    "Soft power and cultural diplomacy"
+  ],
+  "lessons": [],
+  "frameworks": ["stakeholder-mapping"],
+  "relatedModules": ["political-economy", "executive-leadership", "political-legacy"],
+  "status": "coming-soon",
+  "order": 16,
+  "levelNumber": 4
+}

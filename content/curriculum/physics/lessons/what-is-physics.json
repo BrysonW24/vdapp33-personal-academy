@@ -1,0 +1,45 @@
+{
+  "slug": "what-is-physics",
+  "moduleSlug": "what-physics-is",
+  "title": "What Is Physics?",
+  "objective": "Understand what physics is, what physicists actually do, and why physics is the foundational science.",
+  "beginnerExplanation": "Physics is the study of how the universe works at its most fundamental level. It asks questions like: Why do things fall? What is light? What are atoms made of? How did the universe begin? Unlike other sciences that study specific systems (biology studies life, chemistry studies substances), physics studies the rules that everything obeys. Every phenomenon in nature — from a ball rolling down a hill to a star exploding — follows the laws of physics. Physicists observe, measure, build models, and test predictions. That cycle of observation, hypothesis, experiment, and refinement is the heartbeat of the discipline.",
+  "deeperExplanation": "Physics is fundamentally about finding the simplest, most general principles that explain the widest range of phenomena. Newton's laws of motion, for example, explain why a cricket ball curves, why the Moon orbits Earth, and why bridges stand up — all from three concise statements. This drive toward unification is what separates physics from mere description. Physicists do not just catalogue facts; they seek the underlying symmetries and conservation laws that constrain what is possible. The history of physics is a history of unifications: Newton unified terrestrial and celestial mechanics, Maxwell unified electricity and magnetism, Einstein unified space and time. This pursuit of deeper unity continues today with efforts to reconcile quantum mechanics and general relativity.",
+  "keyTakeaways": [
+    "Physics studies the fundamental laws governing matter, energy, space, and time",
+    "It is the foundation upon which chemistry, biology, and engineering rest",
+    "Physicists build mathematical models and test them against experiment",
+    "The goal is to find the simplest principles that explain the most phenomena",
+    "Physics progresses through observation, hypothesis, experiment, and revision"
+  ],
+  "frameworks": ["scientific-method"],
+  "example": "Galileo dropped objects from the Leaning Tower of Pisa (or so the story goes) and discovered that all objects fall at the same rate regardless of mass — overturning two thousand years of Aristotelian thinking. This single observation, refined into a mathematical law, applies to every falling object on every planet. That is the power of physics: one principle, universal application.",
+  "commonMistakes": [
+    "Thinking physics is just memorising formulas — it is about understanding concepts and building intuition",
+    "Believing physics only applies in textbooks — physics governs every aspect of daily life",
+    "Confusing physics with pure mathematics — physics must agree with experiment, not just be logically consistent"
+  ],
+  "exercise": "Pick three everyday phenomena (e.g. a kettle boiling, a rainbow, a phone screen) and write one sentence each explaining what branch of physics governs each one. Then look up whether your guesses were correct.",
+  "nextLesson": "scientific-method-in-physics",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the primary goal of physics?",
+      "options": ["To memorise formulas", "To find the simplest principles that explain natural phenomena", "To build technology", "To disprove other sciences"],
+      "correctIndex": 1,
+      "explanation": "Physics seeks the simplest, most general principles that explain the widest range of natural phenomena — unification is the driving force."
+    },
+    {
+      "question": "Why is physics considered a foundational science?",
+      "options": ["It was invented first", "Its laws underpin all other natural sciences", "It uses the most mathematics", "It has the most Nobel prizes"],
+      "correctIndex": 1,
+      "explanation": "The laws of physics govern the behaviour of atoms, molecules, and energy — the building blocks that chemistry, biology, and every other science depend on."
+    }
+  ],
+  "perspectives": {
+    "experimentalist": "Physics is what you can measure. If you cannot design an experiment to test it, it is not physics yet — it is philosophy.",
+    "theorist": "Physics is the search for the deepest mathematical structure underlying reality. Experiment confirms; theory illuminates.",
+    "engineer": "Physics gives me the rules I need to build things that work — bridges, circuits, rockets. Without physics, engineering is just guessing.",
+    "educator": "Physics teaches students how to think: break a complex problem into parts, identify the governing principles, build a model, check it against reality."
+  }
+}

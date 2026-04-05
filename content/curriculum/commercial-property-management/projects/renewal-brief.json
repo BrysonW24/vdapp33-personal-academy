@@ -1,0 +1,63 @@
+{
+  "slug": "renewal-brief",
+  "title": "Tenant Renewal Brief",
+  "difficulty": 6,
+  "estimatedHours": 5,
+  "description": "Prepare a renewal or expiry brief for a commercial tenancy covering lease options, tenant risk, service history, market context, and recommended next actions.",
+  "whyItMatters": "Renewal preparation is where operational knowledge meets leasing strategy. A good brief helps the owner make timely decisions on retention, incentives, refurbishment, and vacancy risk instead of waiting until the date pressure becomes expensive.",
+  "skillsLearned": [
+    "Lease milestone planning",
+    "Retention and vacancy-risk analysis",
+    "Combining market context with service history",
+    "Structuring landlord decision briefs",
+    "Translating tenant experience into occupancy strategy"
+  ],
+  "prerequisites": ["monthly-owner-report"],
+  "steps": [
+    {
+      "title": "Abstract the lease position",
+      "description": "Capture key dates, options, notice windows, make-good clauses, current rental terms, incentives, and any outstanding obligations that could affect renewal discussions.",
+      "tips": "Never talk strategy before you are certain on the lease mechanics."
+    },
+    {
+      "title": "Assess the relationship and risk",
+      "description": "Summarize the tenant's payment history, service issues, complaint pattern, fitout condition, and recent business signals that may affect renewal likelihood.",
+      "tips": "Retention risk is often visible in behavior before it is visible in a formal notice."
+    },
+    {
+      "title": "Add market and asset context",
+      "description": "Bring in comparable asking rents, vacancy conditions, incentives, and any competing space or upcoming capex that could affect the owner's decision.",
+      "tips": "A renewal brief should help the owner compare retention to reletting, not just summarize the lease."
+    },
+    {
+      "title": "Write the recommendation",
+      "description": "Present a recommended path: pursue renewal, negotiate early, prepare backfill strategy, or escalate for legal or asset-management input.",
+      "tips": "Keep the recommendation practical and time-bound."
+    }
+  ],
+  "deliverables": [
+    "A lease and key-date abstract",
+    "A tenant retention-risk summary",
+    "A short market comparison note",
+    "A renewal recommendation memo with next steps"
+  ],
+  "tools": ["costar", "docusign", "yardi-voyager", "microsoft-teams"],
+  "rubric": [
+    {
+      "criteria": "Lease Accuracy",
+      "description": "The brief captures the right dates, options, and obligations without ambiguity."
+    },
+    {
+      "criteria": "Commercial Judgment",
+      "description": "The recommendation balances tenant relationship, market conditions, and owner value logically."
+    },
+    {
+      "criteria": "Risk Awareness",
+      "description": "The brief surfaces meaningful renewal and vacancy risks instead of assuming continuation."
+    },
+    {
+      "criteria": "Usability",
+      "description": "A leasing or asset team could use the brief immediately to prepare next actions."
+    }
+  ]
+}

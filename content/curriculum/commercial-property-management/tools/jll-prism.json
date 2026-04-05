@@ -1,0 +1,27 @@
+{
+  "slug": "jll-prism",
+  "name": "JLL Prism",
+  "category": "property-operations",
+  "description": "JLL's digital operating environment for bringing property, workplace, service, and performance information into one client-facing view. It helps teams move from scattered updates to a more unified operational picture.",
+  "whyUseIt": "Property teams need one place to connect service delivery, reporting, and client visibility. Prism-style platforms help organize building data, work activity, experience metrics, and performance views so owners and occupiers can see what is happening without waiting for manual status-chasing.",
+  "pricingTier": "enterprise",
+  "aiCapabilities": "AI can help summarize trends, surface anomalies, and draft concise client-ready commentary from large volumes of service and operational data.",
+  "alternatives": ["MRI Software", "Yardi Voyager", "Power BI"],
+  "workflowStage": "Portfolio visibility, service oversight, and client reporting",
+  "outputs": ["Client dashboards", "Performance summaries", "Operational trend views", "Service visibility across assets"],
+  "propertyManagerWorkflow": "A property manager uses Prism to pull together service outcomes, KPI movement, and key asset updates before client meetings or monthly reporting cycles.",
+  "managerExpects": "A clean, current picture of asset activity that can be used to answer owner questions quickly and spot issues before they become surprises.",
+  "aiWorkflowImpact": "Instead of hand-building every summary from scratch, teams can use AI-assisted summaries to shorten reporting time and focus more attention on judgment and recommendations.",
+  "demoDescription": "Review a dashboard for occupancy, service tickets, and energy trends, then turn the highlights into three talking points for an owner meeting.",
+  "vocabulary": [
+    { "term": "Client View", "definition": "A dashboard or reporting surface designed for owner or occupier visibility rather than only internal operations." },
+    { "term": "Operational Signal", "definition": "A metric or event pattern that points to a change in building performance or service quality." },
+    { "term": "Experience Metric", "definition": "A measure tied to occupant or tenant perception, such as service response or comfort feedback." }
+  ],
+  "beginnerMistakes": [
+    "Treating the dashboard as truth without checking the source data",
+    "Loading too many widgets instead of highlighting what matters to the owner",
+    "Using the platform as a display tool only instead of a decision-support tool"
+  ],
+  "relatedProject": "monthly-owner-report"
+}

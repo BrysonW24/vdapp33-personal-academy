@@ -1,0 +1,16 @@
+{
+  "slug": "robotics-capstone",
+  "title": "Robotics Capstone",
+  "shortSummary": "Bring everything together in a capstone module that challenges you to design, build, and demonstrate a complete robotic system. This is where theory meets practice and where you prove your robotics knowledge.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Real robotics is integration. Individual skills in sensors, actuators, control, perception, and planning are necessary but not sufficient — the real challenge is making them all work together reliably in a complete system. A capstone project forces you to confront the messy reality of systems integration: sensor noise that breaks your perception pipeline, actuator delays that destabilise your controller, communication latencies that corrupt your coordination, and edge cases that your algorithms never anticipated. This module guides you through the process of defining a robotics problem, designing a solution architecture, implementing the subsystems, integrating them, testing the complete system, and presenting your results. It mirrors the workflow of professional robotics engineers at organisations like CSIRO's Data61, Woodside Energy's robotics division, and Australian robotics startups like Advanced Navigation and Emesent.",
+  "coreConcepts": ["Systems engineering for robotics", "Requirements definition and decomposition", "Architecture design and interface specification", "Integration testing and debugging", "Performance evaluation and benchmarking", "Technical documentation and presentation", "Project management for robotics development"],
+  "lessons": [],
+  "frameworks": ["task-decomposition", "sense-plan-act"],
+  "visualType": "system-integration",
+  "relatedModules": ["control-systems-fundamentals", "slam-and-mapping", "robotic-manipulation", "path-planning-and-navigation"],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 3
+}

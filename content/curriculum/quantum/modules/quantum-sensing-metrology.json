@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-sensing-metrology",
+  "title": "Quantum Sensing and Metrology",
+  "shortSummary": "Using coherence, interference, and entanglement to measure time, fields, and motion with extreme precision.",
+  "level": "intermediate",
+  "category": "applications",
+  "whyItMatters": "Some of the earliest practical quantum advantages may come from sensing, not computing. Quantum metrology already shapes clocks, navigation, and field measurement.",
+  "coreConcepts": [
+    "Interferometry",
+    "Standard quantum limit",
+    "Spin and atom-based sensing",
+    "Readout sensitivity",
+    "Noise floors",
+    "Application domains"
+  ],
+  "lessons": [],
+  "frameworks": ["precision-limit-ladder", "bloch-sphere"],
+  "visualType": "interferometer",
+  "relatedModules": ["quantum-mechanics-essentials", "photonic-quantum-systems", "quantum-industry-applications"],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 2
+}

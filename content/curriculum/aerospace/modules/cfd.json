@@ -1,0 +1,16 @@
+{
+  "slug": "cfd",
+  "title": "Computational Fluid Dynamics",
+  "shortSummary": "Using computers to simulate airflow — meshing, solvers, turbulence models, and validating CFD results against wind tunnel data.",
+  "level": "intermediate",
+  "category": "aerodynamics",
+  "whyItMatters": "CFD has transformed aircraft design by enabling rapid aerodynamic analysis without building physical models. Understanding when and how to use CFD is essential for modern aero engineers.",
+  "coreConcepts": ["Navier-Stokes equations", "Mesh generation", "Turbulence modelling (RANS, LES, DNS)", "Boundary conditions", "Convergence and validation", "Post-processing and visualisation"],
+  "lessons": [],
+  "frameworks": ["cfd-validation-workflow"],
+  "visualType": "flow-visualisation",
+  "relatedModules": ["aerodynamics-fundamentals", "advanced-aerodynamics", "aircraft-design"],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 3
+}

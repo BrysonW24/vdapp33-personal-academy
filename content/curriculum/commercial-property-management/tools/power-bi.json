@@ -1,0 +1,28 @@
+{
+  "slug": "power-bi",
+  "name": "Power BI",
+  "category": "analytics",
+  "description": "A reporting and visualization platform used to turn operational, financial, leasing, and ESG data into dashboards and decision-ready views.",
+  "whyUseIt": "Power BI helps property teams see patterns across occupancy, work orders, expenses, energy, and collections without living inside raw exports. It is most useful when the team needs to monitor movement over time and communicate that movement to clients or leadership.",
+  "pricingTier": "paid",
+  "url": "https://powerbi.microsoft.com",
+  "aiCapabilities": "AI can help explain chart movement, answer natural-language questions about the data, and draft summary commentary from dashboard outputs.",
+  "alternatives": ["Tableau", "Looker", "JLL Prism"],
+  "workflowStage": "KPI tracking, trend analysis, and portfolio reporting",
+  "outputs": ["Interactive dashboards", "KPI scorecards", "Variance trend views", "Portfolio comparison visuals"],
+  "propertyManagerWorkflow": "Managers use Power BI to review month-to-month changes, prepare client packs, and spot where service or cost trends are moving outside expectation.",
+  "managerExpects": "Useful dashboards with trusted definitions, relevant filters, and commentary that goes beyond chart screenshots.",
+  "aiWorkflowImpact": "AI shortens the time from dashboard review to client-ready explanation, especially when many assets or metrics need quick synthesis.",
+  "demoDescription": "Open a dashboard with occupancy, arrears, and maintenance trend lines, then summarize the quarter's three biggest shifts in plain language.",
+  "vocabulary": [
+    { "term": "Dashboard", "definition": "A visual summary of key data designed for rapid scanning and decision support." },
+    { "term": "Drill-Down", "definition": "A way to move from summary metrics into more detailed underlying data." },
+    { "term": "KPI", "definition": "A key performance indicator used to track whether a team or asset is meeting its goals." }
+  ],
+  "beginnerMistakes": [
+    "Building too many visuals without a clear decision purpose",
+    "Using inconsistent metric definitions across pages",
+    "Assuming a chart explains itself without written interpretation"
+  ],
+  "relatedProject": "quarterly-asset-review"
+}

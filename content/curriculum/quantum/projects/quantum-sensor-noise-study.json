@@ -1,0 +1,68 @@
+{
+  "slug": "quantum-sensor-noise-study",
+  "title": "Quantum Sensor Noise Study",
+  "difficulty": 5,
+  "estimatedHours": 8,
+  "description": "Model a simple sensing problem and compare how signal quality changes as coherence, noise, and readout limitations shift.",
+  "whyItMatters": "Quantum sensing only matters if the measurement chain beats the practical noise budget. This project builds the habit of evaluating claimed precision in system terms.",
+  "skillsLearned": [
+    "Noise-budget reasoning",
+    "Metrology intuition",
+    "Sensitivity analysis",
+    "Scientific plotting"
+  ],
+  "prerequisites": [
+    "Quantum Sensing and Metrology",
+    "Quantum Mechanics Essentials"
+  ],
+  "steps": [
+    {
+      "title": "Define the sensing problem",
+      "description": "Choose a measurable quantity such as magnetic field, frequency drift, or phase shift.",
+      "tips": "Simple models are enough if the signal path is clear."
+    },
+    {
+      "title": "Model the ideal response",
+      "description": "Set a best-case signal curve before adding noise sources.",
+      "tips": "You need a clean reference to see what noise is destroying."
+    },
+    {
+      "title": "Add practical noise terms",
+      "description": "Introduce coherence limits, readout uncertainty, or loss and compare the resulting sensitivity.",
+      "tips": "One or two honest noise sources teach more than a huge unrealistic model."
+    },
+    {
+      "title": "Run a parameter sweep",
+      "description": "Change one key parameter and show when the sensing advantage becomes credible or disappears.",
+      "tips": "This is where the system-level trade-off becomes visible."
+    },
+    {
+      "title": "Summarise the engineering implication",
+      "description": "Explain what would have to improve for the sensor concept to matter in practice.",
+      "tips": "Make the conclusion operational, not only mathematical."
+    }
+  ],
+  "deliverables": [
+    "Sensing model and plots",
+    "Noise sweep results",
+    "Short engineering conclusion on what limits the concept"
+  ],
+  "tools": [
+    "python-scipy",
+    "qutip"
+  ],
+  "rubric": [
+    {
+      "criteria": "Model quality",
+      "description": "The signal and noise assumptions are understandable and internally consistent."
+    },
+    {
+      "criteria": "Insight",
+      "description": "The analysis reveals when the sensing concept is or is not meaningful."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The conclusion connects the model to real engineering priorities."
+    }
+  ]
+}

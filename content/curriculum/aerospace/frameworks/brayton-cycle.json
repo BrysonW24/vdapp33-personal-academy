@@ -1,0 +1,15 @@
+{
+  "slug": "brayton-cycle",
+  "name": "Brayton Cycle",
+  "summary": "The thermodynamic backbone of gas-turbine propulsion, describing how compression, combustion, and expansion produce thrust or shaft power.",
+  "whenToUseIt": "Use it when reasoning about turbojets, turbofans, and turboprops and how pressure ratio, turbine temperature, and bypass change performance.",
+  "steps": [
+    "Define the compressor inlet state and target pressure ratio.",
+    "Add heat through combustion to set turbine entry temperature.",
+    "Expand through turbine stages to drive the compressor and fan.",
+    "Expand the remaining energy through the nozzle or propulsor.",
+    "Compare cycle efficiency, specific thrust, and fuel burn across concepts."
+  ],
+  "example": "A designer comparing a regional turboprop with a small turbofan can use the Brayton-cycle lens to understand why the turboprop is more efficient at lower speeds while the turbofan gains an advantage in faster cruise.",
+  "category": "propulsion"
+}

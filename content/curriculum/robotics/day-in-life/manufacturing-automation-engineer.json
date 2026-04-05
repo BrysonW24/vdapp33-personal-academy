@@ -1,0 +1,54 @@
+{
+  "slug": "manufacturing-automation-engineer",
+  "title": "A Day as a Manufacturing Automation Engineer",
+  "setting": "Major food processing plant, Western Sydney NSW, with robotic palletising and packaging lines",
+  "companySize": "Mid-size manufacturer (800 employees, 12-person automation engineering team)",
+  "description": "Marcus Rivera is a Senior Automation Engineer responsible for the robotic systems at a food processing facility that produces snack foods for Australian supermarkets. He manages a fleet of 8 industrial robots (ABB and FANUC) and 4 collaborative robots (Universal Robots UR10e) across three production lines. His work includes programming new robot tasks, troubleshooting breakdowns, optimising cycle times, integrating new equipment, and ensuring all robotic systems meet Australian safety standards. He is currently leading a project to install a new vision-guided cobot cell for quality inspection.",
+  "salary": "$110,000 - $145,000 AUD per year (plus overtime and on-call allowances)",
+  "schedule": [
+    {"time": "06:00", "activity": "Arrive at plant, check overnight production reports", "tools": ["SCADA system", "OEE dashboard"], "note": "Night shift reported a gripper fault on the palletising robot in Line 2 — parts are being hand-stacked, reducing throughput by 40%"},
+    {"time": "06:30", "activity": "Diagnose and fix the palletising robot fault", "tools": ["ABB FlexPendant", "ABB RobotStudio"], "note": "Vacuum cup worn out on the gripper — replace cup, recalibrate vacuum sensor threshold, test with product"},
+    {"time": "07:30", "activity": "Morning meeting with production manager and maintenance team", "tools": ["Whiteboard", "maintenance log"], "note": "Review production targets, planned maintenance windows, and the timeline for the new inspection cell installation"},
+    {"time": "08:00", "activity": "Program a new product pattern on the palletiser", "tools": ["ABB RobotStudio", "FlexPendant"], "note": "New product size launching next week — design and simulate a new pallet stacking pattern that maximises boxes per pallet within weight limits"},
+    {"time": "09:30", "activity": "Commission the new cobot inspection cell", "tools": ["Universal Robots PolyScope", "Cognex vision system", "ladder logic PLC programming"], "note": "Integrating a UR10e with a Cognex camera for visual quality inspection — checking seal integrity on snack food packaging"},
+    {"time": "11:00", "activity": "Risk assessment for the cobot cell with the safety officer", "tools": ["ISO risk assessment template", "measuring tools"], "note": "Conducting a formal risk assessment per ISO/TS 15066 — measuring reach distances, calculating force limits, defining safety zones"},
+    {"time": "12:00", "activity": "Lunch break", "tools": [], "note": "Eat in the break room with production operators — good opportunity to hear about small issues before they become big problems"},
+    {"time": "12:30", "activity": "PLC programming for the new cell integration", "tools": ["Siemens TIA Portal", "PROFINET configuration"], "note": "Programming the PLC logic that coordinates the cobot cell with the upstream conveyor and downstream packaging machine"},
+    {"time": "14:00", "activity": "Cycle time optimisation on Line 1", "tools": ["FANUC Roboguide", "stopwatch", "video camera"], "note": "Line 1 is 2 seconds below target cycle time — analysing robot paths to find time savings without increasing speed beyond safe limits"},
+    {"time": "15:30", "activity": "Training session with production operators", "tools": ["UR teach pendant", "training materials"], "note": "Teaching two operators how to perform basic cobot recovery (clearing faults, restarting programmes) so they do not need to call engineering for every stoppage"},
+    {"time": "16:30", "activity": "Documentation and planning", "tools": ["Excel", "AutoCAD", "email"], "note": "Updating the robot maintenance schedule, documenting today's fixes, and ordering spare parts for preventive maintenance next week"},
+    {"time": "17:00", "activity": "Handover notes for night shift, head home", "tools": ["Maintenance log"], "note": "On-call tonight — phone must be on in case of critical robot faults that night shift cannot resolve"}
+  ],
+  "responsibilities": [
+    "Program, commission, and maintain industrial and collaborative robots across multiple production lines",
+    "Troubleshoot robot faults and minimise production downtime",
+    "Optimise robot cycle times and production throughput",
+    "Ensure all robotic systems comply with Australian safety standards (AS/NZS 4024, ISO 10218, ISO/TS 15066)",
+    "Lead automation projects from concept through to commissioning",
+    "Integrate robots with PLCs, conveyors, vision systems, and other production equipment",
+    "Train production operators on basic robot operation and fault recovery",
+    "Manage spare parts inventory and preventive maintenance schedules"
+  ],
+  "challenges": [
+    "Minimising production downtime — every minute a robot is stopped costs real money in lost output",
+    "Working within tight capital budgets — the business wants automation ROI in under 2 years",
+    "Coordinating robot maintenance windows with production schedules — machines run almost 24/7",
+    "Keeping skills current across multiple robot brands (ABB, FANUC, UR) each with different programming environments",
+    "Managing the on-call responsibility — robot breakdowns do not respect work-life boundaries",
+    "Navigating safety compliance while meeting aggressive production targets"
+  ],
+  "rewards": [
+    "Direct, tangible impact — you see the results of your work running on the factory floor every day",
+    "Variety — no two days are the same; a mix of hands-on work, programming, and project management",
+    "Problem solving under pressure — diagnosing and fixing a robot fault while production is waiting is an adrenaline rush",
+    "Job security — demand for manufacturing automation engineers in Australia consistently exceeds supply",
+    "Career progression into engineering management, plant management, or specialist consulting",
+    "The satisfaction of seeing a new automated cell you designed and built running reliably in production"
+  ],
+  "careerPath": [
+    "Junior Automation Engineer → Senior Automation Engineer → Automation Engineering Manager → Plant Engineering Manager",
+    "Alternative: specialise as a robot systems integrator, designing and building complete automated cells for multiple clients",
+    "Alternative: move into a robot manufacturer's application engineering team (ABB, FANUC, Universal Robots)",
+    "Alternative: start an automation consulting business serving Australian SMB manufacturers"
+  ]
+}

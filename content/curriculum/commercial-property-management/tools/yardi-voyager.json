@@ -1,0 +1,28 @@
+{
+  "slug": "yardi-voyager",
+  "name": "Yardi Voyager",
+  "category": "finance-reporting",
+  "description": "A widely used real estate operations and accounting platform for managing tenants, charges, recoveries, budgets, lease details, and property reporting.",
+  "whyUseIt": "Yardi often becomes the financial and administrative backbone of the asset. It is where rent rolls, charges, lease data, budget lines, arrears, and reconciliation workflows are kept disciplined enough for audits, reporting, and portfolio control.",
+  "pricingTier": "enterprise",
+  "url": "https://www.yardi.com",
+  "aiCapabilities": "AI can assist with exception spotting, charge review, commentary drafting, and pattern recognition across arrears, expenses, and portfolio reports.",
+  "alternatives": ["MRI Software", "Entrata Commercial", "JLL Prism"],
+  "workflowStage": "Lease administration, billing, budgeting, and owner reporting",
+  "outputs": ["Rent rolls", "Arrears reports", "Budget actual reports", "Recovery schedules", "Tenant account histories"],
+  "propertyManagerWorkflow": "Property managers review tenant ledgers, process lease charges, monitor arrears, pull budget reports, and confirm the data feeding owner reporting is accurate.",
+  "managerExpects": "Current lease data, timely billing, clean coding, and no surprises when rent rolls or arrears reports are opened before a client review.",
+  "aiWorkflowImpact": "AI can reduce time spent hunting anomalies by flagging unusual variances, missing data, or collection patterns that need human follow-up.",
+  "demoDescription": "Open a tenant ledger, review outstanding charges, run an arrears report, and identify which balances need a same-day action plan.",
+  "vocabulary": [
+    { "term": "Ledger", "definition": "The account record showing charges, payments, adjustments, and outstanding balances for a tenant." },
+    { "term": "Recovery", "definition": "A cost passed through or reconciled back to the tenant according to the lease." },
+    { "term": "Rent Roll", "definition": "A summary of tenancies, rental terms, area, and key lease economics across the property." }
+  ],
+  "beginnerMistakes": [
+    "Leaving stale lease data in the system after a variation or expiry",
+    "Coding charges inconsistently, which weakens reporting and reconciliation quality",
+    "Treating system notes as optional instead of part of the audit trail"
+  ],
+  "relatedProject": "annual-operating-budget"
+}

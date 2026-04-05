@@ -1,0 +1,15 @@
+{
+  "slug": "field-theory-basics",
+  "name": "Field Theory Basics",
+  "summary": "The conceptual framework where physical quantities are described as fields — values assigned to every point in space and time — rather than as properties of particles alone.",
+  "whenToUseIt": "Use field theory thinking whenever dealing with electric fields, magnetic fields, gravitational fields, temperature distributions, or quantum fields. It is the natural language for describing action at a distance.",
+  "steps": [
+    "Identify the field (scalar, vector, or tensor) and what generates it (charges, masses, currents)",
+    "Write the field equation (Gauss's law, Poisson's equation, Maxwell's equations, etc.)",
+    "Determine boundary conditions",
+    "Solve for the field everywhere in space",
+    "Calculate forces on test particles or energy stored in the field"
+  ],
+  "example": "An electric charge creates an electric field E that permeates all of space. Another charge placed in this field experiences a force F = qE. The field carries energy (energy density = epsilon_0 * E² / 2) and can transmit signals as electromagnetic waves. The field is as real as the charge that created it.",
+  "category": "theoretical"
+}

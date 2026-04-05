@@ -1,0 +1,16 @@
+{
+  "slug": "soft-robotics",
+  "title": "Soft Robotics",
+  "shortSummary": "Explore robots built from compliant, flexible materials inspired by biological organisms. Soft robotics is pushing the boundaries of what robots can do in unstructured environments, medical applications, and ocean exploration.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Traditional robots are rigid — metal joints, stiff links, and hard end effectors. This works well in structured factory environments but fails in situations requiring gentle interaction with delicate objects, conforming to irregular surfaces, or operating safely near humans. Soft robotics takes a fundamentally different approach, using materials like silicone, fabric, and shape-memory alloys to create robots that bend, stretch, and deform. Inspired by octopus tentacles, elephant trunks, and worm locomotion, soft robots can squeeze through gaps, handle fragile produce without bruising it, and interact safely with the human body. Australian researchers at universities including UNSW and QUT are advancing soft robotic grippers for agricultural harvesting and medical rehabilitation devices. This is a frontier field where biology, materials science, and robotics converge.",
+  "coreConcepts": ["Compliant materials: silicone elastomers, hydrogels, shape-memory alloys", "Pneumatic and hydraulic soft actuators", "Cable-driven continuum robots", "Bio-inspired design principles", "Soft sensors and proprioception", "Manufacturing: 3D printing, moulding, lamination", "Applications: agriculture, surgery, ocean exploration, wearable robotics"],
+  "lessons": [],
+  "frameworks": [],
+  "visualType": "soft-robot-gallery",
+  "relatedModules": ["robotic-manipulation", "human-robot-interaction", "collaborative-robots"],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 3
+}

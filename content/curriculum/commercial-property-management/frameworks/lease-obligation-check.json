@@ -1,0 +1,15 @@
+{
+  "slug": "lease-obligation-check",
+  "name": "Lease Obligation Check",
+  "summary": "A lease-reading method for converting long legal documents into practical operating action. It helps managers identify what is owed, when it is due, who carries the responsibility, and what could go wrong if it is missed.",
+  "whenToUseIt": "Use this whenever you take on a new property, onboard a new tenant, prepare for a lease expiry or option, respond to a dispute, or review recoverable costs. It is also a useful pre-meeting checklist before owner or tenant discussions.",
+  "steps": [
+    "Identify the trigger points - Pull out dates, notices, options, review mechanisms, fitout approvals, make-good requirements, and any event that changes the operating rhythm of the tenancy.",
+    "Map the obligations - Split each clause into landlord obligation, tenant obligation, shared obligation, and supporting party. If you cannot assign ownership, you do not yet understand the clause well enough to manage it.",
+    "Connect to money - Mark rent, outgoings, recoverables, incentives, bank guarantees, insurance obligations, and any clause that can move NOI, collections, or dispute risk.",
+    "Connect to operations - Note access rules, building services standards, repairs, after-hours use, signage, compliance requirements, and fitout protocols that affect the building team and tenant experience.",
+    "Turn it into a working abstract - Convert the findings into a short operating summary with dates, actions, contacts, and risks. The value is not reading the lease once; it is keeping the important parts visible every week."
+  ],
+  "example": "A lease says the tenant has an option notice deadline 9 months before expiry, a reinstatement obligation, and separate electricity metering maintenance requirements. The Lease Obligation Check turns that into dated reminders, a make-good preparation stream, and a building-services task list rather than leaving it buried in a 70-page document.",
+  "category": "lease-admin"
+}

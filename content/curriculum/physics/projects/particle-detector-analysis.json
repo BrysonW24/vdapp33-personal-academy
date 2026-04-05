@@ -1,0 +1,25 @@
+{
+  "slug": "particle-detector-analysis",
+  "title": "Analyse Particle Detector Data",
+  "difficulty": 6,
+  "estimatedHours": 12,
+  "description": "Download real open data from CERN and perform a simplified analysis to find the Higgs boson signal in the diphoton decay channel — doing real particle physics with real data.",
+  "whyItMatters": "The discovery of the Higgs boson in 2012 was one of the greatest achievements in physics. Working with real CERN data teaches data analysis, statistical significance, and how physicists extract signals from enormous datasets — skills applicable far beyond particle physics.",
+  "skillsLearned": ["Experimental particle physics", "Invariant mass reconstruction", "Statistical analysis", "Signal vs background separation", "Working with real scientific data"],
+  "prerequisites": ["Special relativity", "Nuclear/particle physics basics", "Python and data analysis"],
+  "steps": [
+    { "title": "Get the data", "description": "Download the ATLAS Open Data from the CERN Open Data portal. The diphoton (two-photon) channel dataset is the most accessible for a Higgs search.", "tips": "The ATLAS Open Data portal provides pre-processed ROOT files and CSV exports." },
+    { "title": "Reconstruct invariant mass", "description": "For each event with two photons, calculate the invariant mass: m = sqrt(2*E1*E2*(1-cos(theta))). This is the candidate Higgs mass.", "tips": "Use relativistic four-vectors: m² = (p1 + p2)² = (E1+E2)² - |p1+p2|²." },
+    { "title": "Plot the mass spectrum", "description": "Histogram the invariant mass distribution. You should see a smooth falling background with a small bump near 125 GeV — the Higgs signal.", "tips": "Use 1 GeV bins. The signal is small — you need thousands of events to see it." },
+    { "title": "Fit signal and background", "description": "Fit the background with a smooth function (polynomial or exponential) and the signal with a Gaussian. Extract the Higgs mass and the number of signal events.", "tips": "Use scipy.optimize.curve_fit or the iminuit package for fitting." },
+    { "title": "Assess significance", "description": "Calculate the statistical significance of the signal (how many sigma above background). Compare to the 5-sigma discovery threshold used in particle physics.", "tips": "Significance ≈ S/sqrt(B) where S is signal events and B is background events in the signal region." }
+  ],
+  "deliverables": ["Invariant mass distribution histogram", "Background + signal fit with extracted Higgs mass", "Statistical significance calculation", "Comparison of measured mass to the accepted value (125.1 GeV)", "Written discussion of the analysis and what it means physically"],
+  "tools": ["Python", "NumPy", "Matplotlib", "SciPy", "CERN Open Data"],
+  "rubric": [
+    { "criteria": "Data handling", "description": "CERN data correctly loaded and processed" },
+    { "criteria": "Mass reconstruction", "description": "Invariant mass correctly calculated using relativistic kinematics" },
+    { "criteria": "Fitting", "description": "Signal and background properly modelled and fitted" },
+    { "criteria": "Statistical analysis", "description": "Significance correctly calculated and interpreted" }
+  ]
+}

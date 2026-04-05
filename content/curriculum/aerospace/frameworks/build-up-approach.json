@@ -1,0 +1,15 @@
+{
+  "slug": "build-up-approach",
+  "name": "Flight-Test Build-Up Approach",
+  "summary": "A safety-first way of expanding a test envelope by moving from low-risk conditions to higher-risk conditions with clear stop criteria.",
+  "whenToUseIt": "Use it for flight-test planning whenever an aircraft is new, modified, or being pushed toward an unexplored corner of the envelope.",
+  "steps": [
+    "Start with the lowest-risk configuration and condition set.",
+    "Define the exact test points, hazards, and abort criteria.",
+    "Fly the first points and compare measured response to prediction.",
+    "Review the data before authorising the next increment.",
+    "Expand gradually until the full envelope objective is reached."
+  ],
+  "example": "Instead of jumping straight to high-angle-of-attack handling tests, a flight-test team begins at benign speeds and centre-of-gravity positions, then expands one axis at a time only after the previous data shows expected behaviour.",
+  "category": "flight-test"
+}

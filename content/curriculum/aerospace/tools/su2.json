@@ -1,0 +1,35 @@
+{
+  "slug": "su2",
+  "name": "SU2",
+  "category": "simulation",
+  "description": "An open-source CFD suite used for aerodynamic analysis, optimisation, and research-grade aerospace simulation.",
+  "whyUseIt": "SU2 offers serious CFD capability without enterprise licensing. It is valuable for learners who want to understand solver setup, mesh dependence, and aerodynamic optimisation in a real engineering environment.",
+  "pricingTier": "free",
+  "url": "https://su2code.github.io/",
+  "alternatives": ["ANSYS Fluent", "OpenFOAM", "STAR-CCM+"],
+  "fieldPosition": "Aerodynamic simulation and optimisation in preliminary and detailed analysis",
+  "engineerWorkflow": "Prepare geometry and mesh, define boundary conditions, run steady or unsteady cases, then post-process pressure, lift, drag, and convergence behaviour.",
+  "managerExpects": "Validation discipline, mesh sensitivity checks, and a clear explanation of what decision the CFD run supports.",
+  "demoDescription": "Run a baseline airfoil case at one Reynolds number, then test how mesh refinement changes predicted drag.",
+  "outputs": [
+    "Pressure distributions",
+    "Lift and drag predictions",
+    "Flow-field visualisations",
+    "Optimisation studies"
+  ],
+  "vocabulary": [
+    {
+      "term": "Convergence",
+      "definition": "The degree to which an iterative CFD solution stabilises toward a consistent answer."
+    },
+    {
+      "term": "Mesh sensitivity",
+      "definition": "A check of how much the result changes when the computational grid is refined."
+    }
+  ],
+  "beginnerMistakes": [
+    "Using a single mesh and calling the result final",
+    "Ignoring whether the turbulence model matches the flow regime"
+  ],
+  "relatedProject": "airfoil-analysis-benchmark"
+}

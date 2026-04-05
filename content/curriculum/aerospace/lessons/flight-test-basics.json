@@ -1,0 +1,47 @@
+{
+  "slug": "flight-test-basics",
+  "moduleSlug": "flight-testing",
+  "title": "Flight Test Basics",
+  "objective": "Understand how aircraft are tested in flight, why flight testing is essential, and the systematic approach used to expand the flight envelope safely.",
+  "beginnerExplanation": "Flight testing is where theory meets reality. No matter how good your CFD models, wind tunnel data, and structural analysis are, the only way to truly know how an aircraft performs is to fly it.\n\nFlight testing serves three purposes:\n\n1. **Validation** — confirm that the aircraft performs as predicted (or find out how it differs)\n2. **Certification** — demonstrate to regulators (CASA, EASA, FAA) that the aircraft meets airworthiness requirements\n3. **Exploration** — discover unexpected behaviours that simulations cannot predict\n\nThe fundamental principle of flight testing is the build-up approach. You never jump straight to the most extreme condition. Instead, you start at the safest, most benign point in the flight envelope and gradually expand outward, one step at a time.\n\nFor example, testing the maximum speed of a new aircraft might involve dozens of flights, each one going slightly faster than the last. At each point, the test team records data, analyses it on the ground, and only proceeds to the next increment when they are satisfied it is safe.\n\nFlight test engineers work closely with test pilots. The engineer designs the test, defines the data requirements, and analyses the results. The test pilot executes the manoeuvre and provides qualitative feedback on handling qualities.",
+  "deeperExplanation": "Flight test programmes are massive undertakings. The Boeing 787 programme used five flight test aircraft and conducted over 4,000 flight hours across 18 months before certification.\n\nKey areas of flight testing include:\n\n**Performance testing**: Measuring takeoff distance, climb rates, cruise fuel burn, stall speeds, and landing distances. These numbers go into the aircraft flight manual and must be accurate — airlines and pilots depend on them.\n\n**Stability and control testing**: Measuring stability derivatives, handling qualities, stall characteristics, and control authority. This includes deliberately stalling the aircraft, testing with extreme CG positions, and evaluating crosswind landing limits.\n\n**Flutter testing**: Perhaps the most dangerous type of flight testing. Flutter is a self-excited structural vibration that can destroy an aircraft in seconds. Test aircraft are instrumented with accelerometers and strain gauges, and flutter margins are established by exciting the structure at progressively higher speeds.\n\n**Systems testing**: Verifying that all aircraft systems work correctly in flight — avionics, hydraulics, electrical, environmental control, and emergency systems.\n\nInstrumentation is critical. Modern flight test aircraft carry tonnes of instrumentation — hundreds of sensors recording pressure, temperature, strain, acceleration, control positions, and engine parameters. Data is often telemetered to the ground in real-time so engineers can monitor the test as it happens.\n\nAustralia has a strong flight test heritage through the RAAF's Aircraft Research and Development Unit (ARDU) at RAAF Edinburgh in South Australia.",
+  "keyTakeaways": [
+    "Flight testing validates predictions and is required for certification",
+    "The build-up approach ensures safety by gradually expanding the test envelope",
+    "Performance, stability, flutter, and systems testing are the main flight test disciplines",
+    "Instrumentation and data acquisition are as important as the flying itself",
+    "Flight test results go into the aircraft flight manual that pilots use every day",
+    "Australia has flight test capability through RAAF ARDU at Edinburgh, South Australia"
+  ],
+  "frameworks": ["build-up-approach"],
+  "example": "When the RAAF introduces a new aircraft type — like the F-35A Lightning II at RAAF Williamtown — Australian flight test engineers from ARDU conduct operational test and evaluation. They verify that the aircraft performs as specified in Australian conditions: hot day takeoffs from Darwin, low-level operations over the outback, high-altitude interceptions, and weapons delivery. This Australian-specific testing ensures the aircraft meets RAAF operational requirements, even though the aircraft was already certified in the United States.",
+  "commonMistakes": [
+    "Thinking flight testing is just flying around — it is a highly structured, data-driven engineering process",
+    "Skipping the build-up approach to save time — this has historically led to accidents and deaths",
+    "Assuming simulation replaces flight testing — simulation reduces the number of flight test points but cannot eliminate them",
+    "Ignoring qualitative pilot feedback — handling qualities cannot be fully captured by numbers alone",
+    "Underestimating the cost and time of flight testing — it is typically 15-25% of a total development programme"
+  ],
+  "exercise": "Research a historical flight test accident (suggestions: the de Havilland Comet fatigue failures, the F-117A first flight, or the Boeing 787 battery incidents). Write a 300-word analysis covering: (1) what was being tested, (2) what went wrong, (3) what was learned, and (4) how flight test procedures changed as a result.",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "What is the build-up approach in flight testing?",
+      "options": ["Building the aircraft in stages", "Gradually expanding the test envelope from safe conditions toward limits", "Testing subsystems before the complete aircraft", "Building up flight hours over time"],
+      "correctIndex": 1,
+      "explanation": "The build-up approach means starting at benign conditions and incrementally expanding toward the edges of the flight envelope. Each step is analysed before proceeding, ensuring unexpected behaviours are discovered at safe margins from the limits."
+    },
+    {
+      "question": "Why is flutter testing considered one of the most dangerous flight test activities?",
+      "options": ["It requires flying inverted", "Flutter can destroy an aircraft in seconds if the critical speed is exceeded", "It involves flying at extreme altitudes", "The instrumentation can malfunction"],
+      "correctIndex": 1,
+      "explanation": "Flutter is a self-excited aeroelastic instability where aerodynamic forces couple with structural vibration modes. Once flutter onset speed is exceeded, the oscillations grow rapidly and can destroy the aircraft within 1-2 seconds — far too fast for pilot reaction."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As a flight test engineer, you design test cards, set up instrumentation, brief the test pilot, monitor telemetry in real-time, and analyse the data post-flight. You are the bridge between design engineering and operational reality.",
+    "manager": "As a flight test programme manager, you schedule test flights, manage the test aircraft fleet, coordinate with regulators, and track test point completion against certification milestones.",
+    "chiefEngineer": "As chief engineer, you review flight test results for programme-level decisions. When test results differ from predictions, you decide whether to modify the design, adjust the flight manual, or request additional testing.",
+    "regulator": "As a regulator, you witness key certification test points, review flight test reports, and ensure the test programme covers all certification requirements. You have the authority to require additional testing if results are marginal."
+  }
+}

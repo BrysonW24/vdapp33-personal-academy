@@ -1,0 +1,15 @@
+{
+  "slug": "gmat",
+  "name": "GMAT (General Mission Analysis Tool)",
+  "category": "mission-planning",
+  "description": "NASA's free, open-source mission analysis tool for trajectory design, orbit determination, and mission planning. Used on real NASA missions including LCROSS, LADEE, and OSIRIS-REx.",
+  "whyUseIt": "GMAT is the only free tool with the fidelity and validation pedigree of commercial mission planning software. It handles interplanetary trajectories, low-thrust propulsion, and complex multi-body gravity models. Being open-source, you can inspect and understand every algorithm.",
+  "pricingTier": "free",
+  "url": "https://gmat.gsfc.nasa.gov",
+  "alternatives": ["STK", "Orekit", "Poliastro"],
+  "funnelPosition": "Mission design and trajectory analysis",
+  "outputs": ["Trajectory designs", "Orbit determination", "Manoeuvre planning", "Mission timelines"],
+  "vocabulary": [{"term": "Propagator", "definition": "Algorithm that numerically integrates equations of motion to predict future positions"},
+    {"term": "Targeter", "definition": "GMAT's optimisation tool that adjusts parameters to achieve desired orbital conditions"}],
+  "beginnerMistakes": ["Starting with complex missions before mastering simple two-body problems", "Not understanding the coordinate frames GMAT uses", "Ignoring convergence tolerances in the targeter"]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "propulsion-principles",
+  "moduleSlug": "propulsion-systems",
+  "title": "Propulsion Principles",
+  "objective": "Understand how aircraft engines generate thrust, the different types of propulsion systems, and how engine selection affects aircraft design.",
+  "beginnerExplanation": "An aircraft engine has one job: generate thrust. Thrust is the forward force that overcomes drag and propels the aircraft through the air.\n\nAll aircraft engines work on the same basic principle: accelerate a mass of air backward, and by Newton's third law, the aircraft is pushed forward. The difference between engine types is how much air they accelerate and how fast they accelerate it.\n\nThe three main types of aircraft engine are:\n\n1. **Piston engines** — like a car engine, burning fuel to drive a propeller. Used on small aircraft like the Cessna 172.\n\n2. **Turboprops** — a jet engine that drives a propeller through a gearbox. Efficient at lower speeds (up to about 600 km/h). Used on regional aircraft like the Dash 8.\n\n3. **Turbofans** — the engines on most airliners. A large fan at the front accelerates a huge mass of air (the bypass flow), while a smaller core burns fuel to drive the fan. High-bypass turbofans like the Rolls-Royce Trent are incredibly fuel-efficient.\n\nThe key metric is specific fuel consumption (SFC) — how much fuel the engine burns per unit of thrust per hour. Lower SFC means lower operating costs, which is why airlines obsess over engine efficiency.",
+  "deeperExplanation": "The thermodynamic cycle underlying all jet engines is the Brayton cycle: compress air, add heat (burn fuel), expand through a turbine, exhaust at high velocity. The efficiency of this cycle depends on the pressure ratio and turbine inlet temperature.\n\nModern turbofans achieve bypass ratios of 10:1 to 13:1, meaning ten to thirteen times more air flows around the core than through it. This is critical because propulsive efficiency increases when you accelerate a large mass of air by a small amount, rather than a small mass by a large amount.\n\nThe Rolls-Royce Trent XWB (used on the Airbus A350) has a bypass ratio of 9.3:1, an overall pressure ratio of 50:1, and a turbine inlet temperature exceeding 1,700 degrees Celsius. It produces 84,000 pounds of thrust while burning roughly 20% less fuel than engines from 20 years ago.\n\nEngine-airframe integration is a critical design challenge. Engine placement affects drag, stability, noise, and structural loads. Under-wing mounting (most common on airliners) provides structural relief (the engine weight partially offsets wing lift loads) but requires sufficient ground clearance. Rear-fuselage mounting (like the Fokker 100) keeps the wing aerodynamically clean but creates different structural challenges.\n\nThe next frontier is sustainable propulsion: hydrogen combustion, battery-electric motors for short-range aircraft, and sustainable aviation fuels (SAF) that are drop-in replacements for conventional jet fuel.",
+  "keyTakeaways": [
+    "All aircraft engines generate thrust by accelerating air backward",
+    "Turbofans dominate commercial aviation due to their fuel efficiency at high subsonic speeds",
+    "Higher bypass ratio generally means better fuel efficiency at subsonic speeds",
+    "Specific fuel consumption (SFC) is the key metric for comparing engine efficiency",
+    "Engine-airframe integration significantly affects overall aircraft performance",
+    "Sustainable propulsion (SAF, hydrogen, electric) is the industry's biggest engineering challenge"
+  ],
+  "frameworks": ["brayton-cycle"],
+  "example": "Qantas operates both the Rolls-Royce Trent 900 (on A380s) and the GE9X (on upcoming 777X orders). The GE9X, the largest turbofan ever built with a fan diameter of 3.4 metres, achieves a 10% improvement in fuel efficiency over its predecessor. For Qantas's long-haul network, this translates to roughly $2-3 million AUD in annual fuel savings per aircraft — a difference that influences the entire fleet strategy and aircraft order decisions.",
+  "commonMistakes": [
+    "Thinking jet engines work like rockets — they use atmospheric air, not carried oxidiser",
+    "Assuming more thrust is always better — engines are sized for the critical flight condition, not maximum speed",
+    "Ignoring the weight and drag of the engine installation when comparing engine performance",
+    "Confusing static thrust (on the ground) with in-flight thrust — they are very different",
+    "Thinking electric propulsion is ready to replace jet engines on large aircraft — energy density of batteries is still 50x lower than jet fuel"
+  ],
+  "exercise": "Research the specifications of two turbofan engines: the CFM LEAP-1A (used on A320neo) and the Pratt & Whitney PW1100G (also used on A320neo). Compare their bypass ratio, thrust rating, and specific fuel consumption. Which airline operators in Australia use each engine? Why might an airline choose one over the other?",
+  "nextLesson": "flight-test-basics",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "Why do high-bypass turbofans have better fuel efficiency than low-bypass engines?",
+      "options": ["They burn less fuel", "They accelerate a larger mass of air by a smaller amount, which is more propulsively efficient", "They are lighter", "They have simpler designs"],
+      "correctIndex": 1,
+      "explanation": "Propulsive efficiency increases when you accelerate a large mass of air by a small velocity increment. High-bypass turbofans move enormous volumes of air through the fan, achieving the same thrust with less fuel than accelerating a smaller mass to a higher velocity."
+    },
+    {
+      "question": "What is specific fuel consumption (SFC)?",
+      "options": ["Total fuel carried", "Fuel flow per unit thrust per hour", "Engine weight per unit thrust", "Fuel cost per flight hour"],
+      "correctIndex": 1,
+      "explanation": "SFC measures how much fuel an engine burns per unit of thrust per unit of time. Lower SFC means the engine produces thrust more efficiently, directly reducing airline operating costs."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As a propulsion engineer, you analyse engine performance across the flight envelope — from sea-level takeoff in Darwin's 40-degree heat to cruise at 11,000 metres. You work with engine manufacturers on installation effects and thrust guarantees.",
+    "manager": "As an engineering manager, engine selection is a multi-billion-dollar decision that locks in performance, maintenance costs, and supply chain dependencies for decades.",
+    "chiefEngineer": "As chief engineer, you balance engine thrust requirements against weight, fuel burn, noise, and emissions targets. Engine choice is inseparable from aircraft design — they must be optimised together.",
+    "regulator": "As a regulator, you certify engines under CASA/EASA Part 33 (engine type certificate) and ensure installed performance meets Part 25 requirements for takeoff, climb, and one-engine-inoperative conditions."
+  }
+}

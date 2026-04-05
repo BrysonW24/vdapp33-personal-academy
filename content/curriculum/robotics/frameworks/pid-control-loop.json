@@ -1,0 +1,18 @@
+{
+  "slug": "pid-control-loop",
+  "name": "PID Control Loop",
+  "summary": "The Proportional-Integral-Derivative controller is the most widely used feedback control algorithm in robotics and industrial automation. It continuously calculates an error value (the difference between a desired setpoint and the measured process variable) and applies a correction based on proportional, integral, and derivative terms to minimise the error over time.",
+  "whenToUseIt": "Use PID control whenever you need a system to track a reference value — motor speed, joint angle, drone altitude, temperature, pressure, or any other measurable quantity. PID is the default starting point for most control problems in robotics. It is appropriate when the system dynamics are reasonably linear and well-behaved. For highly nonlinear systems, systems with significant time delays, or systems requiring optimal performance, consider more advanced control strategies (model predictive control, adaptive control) but PID often provides an acceptable baseline.",
+  "steps": [
+    "Define the setpoint: Determine the desired value of the controlled variable (e.g. target joint angle of 90 degrees, target altitude of 50 metres).",
+    "Measure the process variable: Read the current value from the appropriate sensor (encoder, altimeter, thermometer).",
+    "Calculate the error: error = setpoint - measured value. Positive error means the system is below the target; negative means above.",
+    "Compute the Proportional term: P_output = Kp * error. This provides immediate correction proportional to the current error.",
+    "Compute the Integral term: I_output = Ki * integral(error over time). This accumulates past errors to eliminate steady-state offset. Implement anti-windup to prevent the integral from growing unboundedly.",
+    "Compute the Derivative term: D_output = Kd * d(error)/dt. This predicts future error based on the rate of change and provides damping. Apply a low-pass filter to reduce sensitivity to sensor noise.",
+    "Sum and apply: control_output = P_output + I_output + D_output. Clamp the output to the actuator's valid range and send to the actuator.",
+    "Tune the gains: Start with Kp only (Ki = Kd = 0). Increase Kp until oscillation begins. Then add Kd to damp the oscillation. Finally add Ki to eliminate steady-state error. Refine through testing."
+  ],
+  "example": "A warehouse AGV in Melbourne uses PID control for steering. The desired heading is provided by the path planner. A gyroscope measures the current heading. The PID controller computes a steering correction: if the AGV drifts 2 degrees right of the path (error = +2), the P term steers left proportionally, the I term corrects any persistent bias from uneven tyre wear, and the D term prevents overcorrection by damping the steering rate. The controller runs at 100 Hz, producing smooth, accurate path following even on polished warehouse floors where wheel slip is common.",
+  "category": "control"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "what-is-robotics",
+  "title": "What Is Robotics",
+  "shortSummary": "Understand what robotics is, where it comes from, and why it matters. Explore the intersection of mechanical engineering, electronics, and computer science that makes robots possible.",
+  "level": "beginner",
+  "category": "foundations",
+  "whyItMatters": "Robotics is reshaping every industry from mining and agriculture to healthcare and logistics. Australia is a global leader in field robotics, with companies like Rio Tinto running the world's largest autonomous haulage fleet in the Pilbara. Understanding the fundamentals of robotics gives you the vocabulary and mental models to engage with one of the most transformative technologies of this century. Whether you want to build robots, manage teams that deploy them, or simply make informed decisions about automation in your business, this module is your starting point.",
+  "coreConcepts": ["Definition and scope of robotics", "History of robotics from Unimate to modern day", "The three pillars: sense, think, act", "Types of robots: industrial, mobile, aerial, humanoid, surgical", "Australian robotics landscape and key players"],
+  "lessons": ["introduction-to-robotics"],
+  "frameworks": ["sense-plan-act"],
+  "visualType": "robot-anatomy",
+  "relatedModules": ["sensors-and-perception", "actuators-and-motors", "control-systems-fundamentals"],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

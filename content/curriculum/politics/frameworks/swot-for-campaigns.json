@@ -1,0 +1,16 @@
+{
+  "slug": "swot-for-campaigns",
+  "name": "SWOT for Campaigns",
+  "summary": "Adapted SWOT analysis for political campaigns — assessing a candidate's Strengths, Weaknesses, Opportunities, and Threats to inform campaign strategy and resource allocation.",
+  "whenToUseIt": "At the beginning of a campaign to shape strategy, when responding to a significant change in the political environment, or when preparing a candidate for pre-selection.",
+  "steps": [
+    "Strengths: List the candidate's personal assets — name recognition, policy expertise, community ties, fundraising ability, likability",
+    "Weaknesses: Honestly assess vulnerabilities — lack of experience, controversial past positions, poor public speaking, limited networks",
+    "Opportunities: Identify external factors that favour the campaign — government unpopularity, demographic shifts, emerging issues, opponent weaknesses",
+    "Threats: Map external risks — redistribution changes, well-funded opponents, unfavourable media environment, national swing against your party",
+    "Prioritise: Rank each factor by impact and likelihood",
+    "Strategise: Build campaign plan that leverages strengths, mitigates weaknesses, seizes opportunities, and prepares for threats"
+  ],
+  "example": "A teal independent candidate in a previously safe Liberal seat might assess: Strengths — strong local community profile, climate policy credibility, extensive volunteer network. Weaknesses — no party machine behind them, limited media experience, first-time candidate. Opportunities — incumbent is unpopular, climate is the top local issue, fundraising via Climate 200. Threats — Liberal Party attack campaign, preference flows favouring Labor, media dismissing independents as spoilers. The campaign strategy would focus on leveraging community networks (strength) to counter the lack of party machine (weakness).",
+  "category": "campaign-strategy"
+}

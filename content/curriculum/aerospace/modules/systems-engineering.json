@@ -1,0 +1,16 @@
+{
+  "slug": "systems-engineering",
+  "title": "Systems Engineering",
+  "shortSummary": "Managing the complexity of aircraft development — requirements, interfaces, integration, verification, and the V-model.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Modern aircraft are the most complex machines ever built. Systems engineering provides the framework to manage that complexity and ensure everything works together.",
+  "coreConcepts": ["Requirements management", "V-model development process", "Interface control", "Verification and validation", "Configuration management", "Systems integration and testing"],
+  "lessons": [],
+  "frameworks": ["v-model", "requirements-traceability"],
+  "visualType": "v-model",
+  "relatedModules": ["aircraft-design", "avionics-systems", "certification"],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 3
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "legislative-process",
+  "title": "Legislative Process",
+  "shortSummary": "Navigate the legislative process from bill drafting to Royal Assent. Understand committee systems, parliamentary procedure, amendments, and how to actually get legislation passed.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "Legislation is how political promises become reality. Understanding the legislative process — its rules, its bottlenecks, and its opportunities — separates politicians who talk about change from those who deliver it.",
+  "coreConcepts": [
+    "How a bill becomes law in Australia",
+    "First reading, second reading, committee, third reading",
+    "Senate committees and inquiries",
+    "Private members' bills and government bills",
+    "Parliamentary procedure and standing orders",
+    "Delegated legislation and regulations"
+  ],
+  "lessons": [],
+  "frameworks": ["legislative-strategy-canvas"],
+  "relatedModules": ["political-systems", "coalition-building", "policy-analysis"],
+  "status": "coming-soon",
+  "order": 12,
+  "levelNumber": 3
+}

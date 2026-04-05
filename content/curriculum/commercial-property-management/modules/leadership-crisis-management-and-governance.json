@@ -1,0 +1,27 @@
+{
+  "slug": "leadership-crisis-management-and-governance",
+  "title": "Leadership, Crisis Management, and Governance",
+  "shortSummary": "Lead through pressure with calm communication, structured escalation, strong documentation, and good governance habits.",
+  "level": "advanced",
+  "category": "strategy",
+  "whyItMatters": "Leadership becomes visible when something goes wrong. A strong leader creates clarity quickly, frames the issue accurately, assigns ownership, and keeps communication disciplined while facts are still moving. Good governance is not bureaucracy. It is what allows teams to move quickly without losing control.",
+  "coreConcepts": [
+    "What changes in a building crisis compared with normal operations",
+    "The leadership habits that create calm and trust",
+    "Why documentation quality matters most when pressure rises",
+    "How to escalate without creating noise or confusion"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Incident Command RACI",
+    "Risk Heatmap"
+  ],
+  "relatedModules": [
+    "stakeholder-communication",
+    "safety-risk-and-compliance",
+    "portfolio-planning-and-asset-thinking"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 4
+}

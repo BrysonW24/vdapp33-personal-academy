@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-hardware-control",
+  "title": "Quantum Hardware Control",
+  "shortSummary": "How pulses, timing, calibration, and feedback loops turn fragile quantum devices into controllable experimental systems.",
+  "level": "advanced",
+  "category": "hardware",
+  "whyItMatters": "Real quantum hardware is not programmed only with abstract gates. It is controlled through analog signals, calibration routines, and tight experimental discipline.",
+  "coreConcepts": [
+    "Pulse shaping",
+    "Calibration loops",
+    "Readout discrimination",
+    "Drift and feedback control",
+    "Control electronics",
+    "Experiment automation"
+  ],
+  "lessons": [],
+  "frameworks": ["hardware-stack-map", "density-matrix-toolkit"],
+  "visualType": "pulse-control",
+  "relatedModules": ["quantum-error-correction", "cryogenics-and-readout", "superconducting-qubits"],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 3
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "political-staffer",
+  "title": "Political Staffer / Adviser",
+  "setting": "Parliament House or Ministerial Office, Canberra + Electorate Office",
+  "companySize": "A minister's office typically has 10-15 staff; a backbencher's office has 4-5",
+  "description": "Political staffers are the engine room of Australian politics. They write the speeches, draft the policy, manage the media, handle the diary, and keep the show running. Ministerial advisers wield significant policy influence despite being unelected. Electorate officers are the frontline of constituent service. The hours are long, the pressure is intense, and the work is rarely visible — but nothing in politics happens without staffers making it happen.",
+  "salary": "$80,000-$180,000 AUD (electorate officer: $70-90K; senior ministerial adviser: $150-250K)",
+  "schedule": [
+    { "time": "05:30", "activity": "Wake up and scan the morning media — compile a media summary for your MP/minister before they wake up", "tools": ["Isentia media monitoring", "Social media", "News websites"], "note": "Being across the media before your boss is the baseline. Surprising them with bad news they should have heard from you first is a career-limiting move." },
+    { "time": "07:00", "activity": "Send the morning brief — media summary, today's diary, key messages for scheduled interviews, flagged issues", "tools": ["Email", "Briefing template"] },
+    { "time": "08:00", "activity": "Staff meeting — coordinate the day's priorities, assign tasks, discuss emerging issues", "note": "A well-run staff meeting takes 15 minutes. A badly run one takes an hour and achieves nothing." },
+    { "time": "09:00", "activity": "Draft a speech or talking points for the minister's 11am media conference", "tools": ["Hansard", "Policy briefs", "AI writing tools"] },
+    { "time": "10:30", "activity": "Briefing meeting with the department — receive policy advice, discuss implementation issues, negotiate positions", "tools": ["Department briefing papers"] },
+    { "time": "11:00", "activity": "Accompany minister to media conference — hold the folder, whisper reminders, manage journalist access", "note": "You are invisible to the camera but essential to the performance." },
+    { "time": "12:00", "activity": "Handle a crisis — a constituent complaint has gone viral on social media. Draft a response, brief the minister, coordinate with the department", "tools": ["Social media monitoring", "Crisis comms template", "Phone"] },
+    { "time": "13:00", "activity": "Lunch at desk — eat while responding to 50+ emails and managing the afternoon diary", "note": "Staffers do not have lunch breaks during sitting weeks." },
+    { "time": "14:00", "activity": "Prepare Question Time brief — anticipate questions, draft answers, prepare attack lines for the minister to use", "tools": ["Hansard", "Opposition research", "Polling data"] },
+    { "time": "15:30", "activity": "Monitor Question Time from the advisers' box — pass notes, fact-check claims, prepare follow-up responses", "note": "The advisers' box behind the speaker is where staffers feed real-time information to their ministers." },
+    { "time": "17:00", "activity": "Debrief on the day — what went well, what went badly, what needs follow-up. Begin tomorrow's preparation", "tools": ["Calendar", "Task management"] },
+    { "time": "19:00", "activity": "Attend a reception or event with the minister, brief them on who is in the room and what each person wants", "note": "A good staffer knows every face and every agenda in the room." },
+    { "time": "21:00", "activity": "Final email check, respond to overnight media queries, set morning alarm for 5:30am", "note": "Sitting weeks average 14-16 hour days. Non-sitting weeks are lighter but still demanding." }
+  ],
+  "responsibilities": [
+    "Manage the minister's or MP's daily operations — diary, correspondence, briefings",
+    "Draft speeches, media statements, talking points, and social media content",
+    "Liaise with government departments on policy implementation",
+    "Handle media enquiries and manage journalist relationships",
+    "Manage constituent casework and electorate office operations",
+    "Provide political advice and strategic counsel to your principal",
+    "Coordinate with party headquarters and other offices"
+  ],
+  "challenges": [
+    "Extremely long hours during sitting weeks — burnout is common",
+    "High-pressure environment with zero tolerance for mistakes",
+    "Working for a principal whose career depends on your performance",
+    "Limited job security — staffers can be let go when governments change",
+    "Dealing with demanding constituents, hostile media, and internal party politics simultaneously"
+  ],
+  "rewards": [
+    "Front-row seat to how government actually works",
+    "Direct influence on policy outcomes, even without elected office",
+    "Rapid professional development — you learn more in one year than most careers offer in five",
+    "Building a network that spans politics, media, public service, and industry",
+    "The foundation for your own political career or a transition to lobbying, media, or public service"
+  ],
+  "careerPath": [
+    "Intern or volunteer in an electorate office",
+    "Electorate officer or junior adviser",
+    "Senior adviser or chief of staff",
+    "Transition to: elected office, public service, lobbying, journalism, or corporate affairs"
+  ]
+}

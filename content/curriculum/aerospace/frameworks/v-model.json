@@ -1,0 +1,15 @@
+{
+  "slug": "v-model",
+  "name": "Systems Engineering V-Model",
+  "summary": "A development model in which requirements are decomposed on the left side of the V and verified through integration and test on the right side.",
+  "whenToUseIt": "Use it for complex aerospace systems where subsystems must be designed separately yet still prove they meet the top-level mission need when integrated.",
+  "steps": [
+    "Define stakeholder needs and top-level system requirements.",
+    "Decompose the system into subsystems and components.",
+    "Allocate requirements and interfaces down the architecture.",
+    "Build and verify components and subsystems against those allocations.",
+    "Integrate upward until the complete system is validated against the original need."
+  ],
+  "example": "A UAV system may split into airframe, propulsion, avionics, ground station, and autonomy functions. The V-model prevents teams from building each part in isolation without a matching verification plan.",
+  "category": "systems-engineering"
+}

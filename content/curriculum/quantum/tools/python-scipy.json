@@ -1,0 +1,17 @@
+{
+  "slug": "python-scipy",
+  "name": "Python / SciPy",
+  "category": "analysis",
+  "description": "The general-purpose scientific computing stack that supports data analysis, plotting, optimisation, and lightweight modelling across quantum research and engineering.",
+  "whyUseIt": "Even in quantum work, a huge amount of useful engineering happens outside specialised SDKs. Python and SciPy are where raw experiment data, calibration fits, and trade-study logic often live.",
+  "pricingTier": "free",
+  "url": "https://scipy.org/",
+  "alternatives": ["MATLAB", "Julia", "R"],
+  "fieldPosition": "Cross-cutting analysis, visualisation, and notebook-based experimentation",
+  "engineerWorkflow": "Use notebooks or scripts to clean data, fit models, plot results, and automate supporting analysis around quantum experiments or simulations.",
+  "managerExpects": "Readable code, documented assumptions, and outputs that can be rerun when the experiment changes.",
+  "demoDescription": "Take measurement or simulation results from a quantum experiment and turn them into a small analysis notebook with clear plots and interpretation.",
+  "outputs": ["Notebooks", "Plots", "Fitting routines", "Support analysis scripts"],
+  "beginnerMistakes": ["Using notebooks as scratchpads with no reproducible structure", "Producing polished plots without checking whether the underlying model makes sense"],
+  "relatedProject": "bloch-sphere-visualizer"
+}

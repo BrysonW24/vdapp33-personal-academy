@@ -1,0 +1,38 @@
+{
+  "slug": "scientific-method-in-physics",
+  "moduleSlug": "what-physics-is",
+  "title": "The Scientific Method in Physics",
+  "objective": "Understand how physicists use observation, hypothesis, experiment, and revision to build reliable knowledge about the universe.",
+  "beginnerExplanation": "The scientific method is the process physicists use to figure out how things work. It starts with observing something interesting — say, noticing that a magnet attracts some metals but not others. You form a hypothesis (a testable guess), design an experiment to test it, collect data, and see whether the results match your prediction. If they do, your hypothesis gains support. If they do not, you revise it. This cycle repeats endlessly, and over time it builds the reliable body of knowledge we call physics. The key idea is falsifiability: a scientific claim must be testable, and it must be possible (in principle) for the test to prove it wrong.",
+  "deeperExplanation": "In practice, the scientific method in physics is more nuanced than a simple linear flowchart. Theoretical physicists often start with mathematical consistency and symmetry arguments, deriving predictions that experimentalists then test — sometimes decades later. Einstein's prediction of gravitational waves in 1916 was not confirmed until 2015 by LIGO. Equally, experimentalists sometimes discover phenomena that have no existing theory to explain them (like superconductivity in 1911), spurring new theoretical work. The interplay between theory and experiment is what makes physics self-correcting. Crucially, physics demands quantitative predictions — not just 'the ball falls down' but 'the ball reaches the ground in exactly 1.43 seconds'. This precision is what allows theories to be rigorously tested and distinguished from one another.",
+  "keyTakeaways": [
+    "The scientific method is a cycle: observe, hypothesise, experiment, analyse, revise",
+    "Falsifiability is essential — a claim must be testable and potentially disprovable",
+    "Physics demands quantitative, precise predictions",
+    "Theory and experiment drive each other forward",
+    "No theory is ever 'proven' — only increasingly well-supported by evidence"
+  ],
+  "frameworks": ["scientific-method"],
+  "example": "In 1919, Arthur Eddington observed a total solar eclipse and measured the bending of starlight around the Sun. Einstein's general relativity predicted the bending angle would be 1.75 arcseconds — twice what Newtonian gravity predicted. Eddington's measurements matched Einstein's prediction, providing dramatic confirmation of general relativity and making Einstein world-famous overnight.",
+  "commonMistakes": [
+    "Thinking a theory can be 'proven true' — theories can only be supported or falsified, never absolutely proven",
+    "Ignoring the role of mathematical prediction — qualitative stories are not enough in physics",
+    "Believing the scientific method is always a neat linear process — real research is messy and iterative"
+  ],
+  "exercise": "Choose a simple physics claim (e.g. 'heavier objects fall faster'). Design a simple experiment you could do at home to test it. Write down your prediction, method, expected results, and what would disprove your hypothesis.",
+  "nextLesson": "units-and-measurement",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What makes a scientific hypothesis different from a guess?",
+      "options": ["It uses bigger words", "It must be falsifiable and testable", "It comes from a professor", "It must be correct"],
+      "correctIndex": 1,
+      "explanation": "A scientific hypothesis must be testable — and crucially, it must be possible for the test to prove it wrong. This is called falsifiability."
+    }
+  ],
+  "perspectives": {
+    "experimentalist": "The method is everything. Without controlled experiments and reproducible results, you have anecdotes, not science.",
+    "theorist": "The scientific method includes mathematical derivation. Some of the greatest physics advances came from thought experiments and theoretical consistency, confirmed by experiment years later.",
+    "educator": "Teaching the scientific method teaches critical thinking. Students learn to question claims, demand evidence, and distinguish correlation from causation."
+  }
+}

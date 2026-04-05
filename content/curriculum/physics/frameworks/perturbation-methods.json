@@ -1,0 +1,16 @@
+{
+  "slug": "perturbation-methods",
+  "name": "Perturbation Methods",
+  "summary": "Solving a complex problem by starting with a simpler, exactly solvable version and then adding small corrections step by step.",
+  "whenToUseIt": "Use perturbation theory when an exact solution is impossible but the problem is 'close' to one you can solve exactly — common in quantum mechanics, orbital mechanics, and fluid dynamics.",
+  "steps": [
+    "Identify the exactly solvable 'zeroth-order' problem",
+    "Identify the small perturbation (the extra complexity)",
+    "Define a small parameter epsilon that measures the strength of the perturbation",
+    "Calculate the first-order correction to the solution",
+    "Check convergence — does adding more corrections improve the answer or make it worse?",
+    "Verify the result against numerical solutions or experiment"
+  ],
+  "example": "The hydrogen atom is exactly solvable in quantum mechanics. Adding the effect of an external electric field (Stark effect) is a perturbation. The first-order correction predicts the splitting of spectral lines, matching experimental observations precisely.",
+  "category": "mathematical-tools"
+}

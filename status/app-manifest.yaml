@@ -1,0 +1,53 @@
+id: vdapp33-personal-academy
+name: Personal Academy
+summary: Unified multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science.
+owner: unassigned
+phase: delivery
+release_stage: internal-beta
+last_audited: 2026-04-04
+
+audience:
+  primary: Curious learners pursuing structured depth across personal interest subjects.
+  secondary: Self-directed explorers who want one shell instead of scattered standalone academies.
+
+product:
+  category: academy
+  deployment_target: web
+  business_model: internal-product
+  status_truth: "Shell implemented. All seven subjects now have meaningful academy coverage across Physics, Quantum, Aerospace, Robotics, Rocket Science, Politics, and Commercial Property Management."
+
+surfaces:
+  primary_routes:
+    - /
+    - /[subject]
+    - /[subject]/blueprint
+    - /[subject]/modules
+    - /[subject]/projects
+    - /[subject]/tools
+    - /[subject]/toolkit
+    - /[subject]/day-in-the-life
+  secondary_routes:
+    - /[subject]/modules/[slug]
+    - /[subject]/modules/[slug]/[lessonSlug]
+    - /[subject]/projects/[slug]
+    - /[subject]/tools/[slug]
+
+tech:
+  framework: Next.js 15
+  package_manager: npm
+  runtime: node
+  repo_shape: single-package
+
+operations:
+  local_doctrine: CLAUDE.md
+  readme: README.md
+  docs_dir: docs
+  status_dir: status
+
+notes:
+  - Subject discovery is manifest-driven from content/curriculum/{subject}/manifest.json.
+  - Progress persists locally under the personal-academy-progress key.
+  - Founder-only route concepts are intentionally excluded from this app.
+  - Quantum and Aerospace now extend beyond their original migration baselines with authored Personal Academy content.
+  - Robotics is a native Personal Academy subject with full route coverage.
+  - Commercial Property Management was migrated from vdapp46 with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.

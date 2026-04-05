@@ -1,0 +1,16 @@
+{
+  "slug": "computer-vision-for-robots",
+  "title": "Computer Vision for Robots",
+  "shortSummary": "Understand how robots interpret visual information. Computer vision enables robots to recognise objects, estimate distances, track motion, and understand scenes from camera data.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Vision is the richest sensing modality available to robots. A single camera captures millions of data points per frame, encoding colour, texture, shape, and spatial relationships. Computer vision algorithms extract meaning from this raw data — detecting obstacles, recognising products on a shelf, reading text, estimating the 3D structure of a scene, and tracking moving objects. With the advent of deep learning, vision capabilities have improved dramatically. In Australian agriculture, computer vision enables robots to identify and pick ripe fruit, distinguish weeds from crops, and monitor livestock health. In warehouse automation, vision systems guide robots to pick the right item from thousands of SKUs. This module covers the fundamental techniques that give robots the ability to see and understand their environment.",
+  "coreConcepts": ["Image processing fundamentals: filtering, edge detection, thresholding", "Feature detection and matching (SIFT, ORB, SURF)", "Object detection and recognition (YOLO, SSD, Faster R-CNN)", "Depth estimation: stereo vision and structured light", "Camera calibration and intrinsic/extrinsic parameters", "Convolutional neural networks for visual perception", "Point cloud processing from depth cameras and LiDAR"],
+  "lessons": ["computer-vision-for-robots-fundamentals"],
+  "frameworks": ["sensor-fusion"],
+  "visualType": "vision-pipeline",
+  "relatedModules": ["sensors-and-perception", "slam-and-mapping", "robotic-manipulation"],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

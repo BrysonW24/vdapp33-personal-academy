@@ -1,0 +1,22 @@
+{
+  "slug": "hootsuite-political",
+  "name": "Hootsuite / Buffer for Politicians",
+  "category": "social-media",
+  "description": "Social media management platforms that let politicians and campaigns schedule posts, manage multiple platforms, monitor mentions, and track engagement from a single dashboard.",
+  "whyUseIt": "Politicians must maintain a consistent social media presence across Facebook, Instagram, X (Twitter), LinkedIn, and sometimes TikTok. Scheduling tools ensure regular posting, team collaboration, and message consistency — especially during intense campaign periods.",
+  "pricingTier": "freemium",
+  "url": "https://hootsuite.com",
+  "aiCapabilities": "AI caption generation, optimal posting time suggestions, sentiment analysis on mentions, AI-powered social listening",
+  "alternatives": ["Buffer", "Sprout Social", "Later", "Meta Business Suite"],
+  "funnelPosition": "Top and mid funnel — awareness and engagement",
+  "outputs": ["Scheduled social posts", "Engagement analytics", "Mention monitoring", "Audience growth reports"],
+  "marketerWorkflow": "Plan weekly content calendar, draft posts with team approval workflow, schedule across platforms, monitor responses and mentions, report on engagement weekly",
+  "managerExpects": "Weekly social media report: posts published, total reach, engagement rate, top-performing content, and any issues flagged",
+  "demoDescription": "Schedule a week of social media content for a politician: policy announcement, community event photos, constituent story, and a behind-the-scenes video — across three platforms",
+  "vocabulary": [
+    { "term": "Engagement rate", "definition": "The percentage of people who interacted with a post (likes, comments, shares) relative to those who saw it" },
+    { "term": "Social listening", "definition": "Monitoring social media for mentions of your name, your party, or key issues" }
+  ],
+  "beginnerMistakes": ["Scheduling posts without monitoring responses — social media requires engagement, not just broadcasting", "Using the same content across all platforms without adapting for each audience"],
+  "relatedProject": "build-a-media-strategy"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "radioactive-decay-simulation",
+  "title": "Simulate Radioactive Decay",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Build a Monte Carlo simulation of radioactive decay using random numbers to model the probabilistic nature of nuclear decay. Derive the exponential decay law from first principles of probability.",
+  "whyItMatters": "Radioactive decay is inherently probabilistic — no one can predict when a specific atom will decay. This project teaches Monte Carlo methods, probability, exponential functions, and the statistical nature of quantum processes.",
+  "skillsLearned": ["Monte Carlo simulation", "Exponential decay", "Probability and statistics", "Half-life calculations", "Python programming"],
+  "prerequisites": ["Basic probability", "Exponential functions", "Basic Python"],
+  "steps": [
+    { "title": "Model single-atom decay", "description": "Simulate a single atom: at each time step, generate a random number. If it is below the decay probability p, the atom decays. Run 1000 trials and plot the distribution of decay times.", "tips": "The decay probability per time step p is related to the half-life by p = 1 - 2^(-dt/t_half)." },
+    { "title": "Simulate a sample of N atoms", "description": "Start with N = 10,000 atoms. At each time step, each undecayed atom has probability p of decaying. Track the number of remaining atoms vs time.", "tips": "Use NumPy vectorisation for speed — do not loop over individual atoms." },
+    { "title": "Fit the exponential", "description": "Plot N(t) vs t and fit an exponential N(t) = N_0 * exp(-lambda*t). Extract lambda and calculate the half-life. Compare to the input value.", "tips": "Use scipy.optimize.curve_fit for the exponential fit." },
+    { "title": "Explore statistical fluctuations", "description": "Repeat the simulation for N = 100, 1000, and 10,000 atoms. Observe how the curve becomes smoother as N increases — the law of large numbers in action.", "tips": "Plot all three on the same axes to see the effect of sample size." },
+    { "title": "Add a decay chain", "description": "Simulate A decaying into B, which then decays into stable C. Track all three populations over time and compare to the Bateman equations.", "tips": "This models real decay chains like uranium-238 to lead-206." }
+  ],
+  "deliverables": ["Working Monte Carlo decay simulation", "Exponential fit with extracted half-life", "Comparison of statistical fluctuations for different sample sizes", "Decay chain simulation with three species", "Written analysis of results"],
+  "tools": ["Python", "NumPy", "Matplotlib", "SciPy"],
+  "rubric": [
+    { "criteria": "Simulation correctness", "description": "Decay probability correctly implemented, exponential decay reproduced" },
+    { "criteria": "Statistical analysis", "description": "Proper fitting, extracted half-life matches input within uncertainty" },
+    { "criteria": "Fluctuation analysis", "description": "Clear demonstration of large-number statistics" },
+    { "criteria": "Decay chain", "description": "Multi-species decay correctly implemented and compared to theory" }
+  ]
+}

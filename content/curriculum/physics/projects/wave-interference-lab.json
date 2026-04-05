@@ -1,0 +1,25 @@
+{
+  "slug": "wave-interference-lab",
+  "title": "Wave Interference Laboratory",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Simulate and visualise wave interference patterns for single-slit, double-slit, and diffraction grating experiments. Reproduce Young's famous double-slit result.",
+  "whyItMatters": "Wave interference is the phenomenon that proved light is a wave, and later revealed the quantum nature of matter. Understanding interference patterns is essential for optics, quantum mechanics, and modern technology like holography and thin-film coatings.",
+  "skillsLearned": ["Wave superposition", "Interference and diffraction", "Fourier optics basics", "Scientific visualisation", "Python programming"],
+  "prerequisites": ["Wave properties", "Superposition principle", "Trigonometry"],
+  "steps": [
+    { "title": "Single slit diffraction", "description": "Simulate a single slit by summing contributions from many point sources across the slit width. Plot the intensity pattern on a distant screen.", "tips": "The single-slit pattern has a central maximum twice as wide as the side maxima." },
+    { "title": "Young's double slit", "description": "Simulate two narrow slits and compute the interference pattern. Vary slit separation and wavelength to see how the fringe spacing changes.", "tips": "Fringe spacing = lambda * L / d, where L is screen distance and d is slit separation." },
+    { "title": "Diffraction grating", "description": "Simulate N slits (N = 2, 5, 10, 50, 1000) and observe how the pattern sharpens as N increases — explaining why gratings produce sharp spectral lines.", "tips": "With N slits, there are N-2 secondary minima between each principal maximum." },
+    { "title": "2D interference", "description": "Extend to 2D: simulate circular wave interference from two point sources (like ripples in a pond). Create an animated visualisation.", "tips": "Use imshow with a time-varying phase to create a mesmerising animation." },
+    { "title": "White light through a prism", "description": "Simulate a diffraction grating illuminated by white light (sum of all visible wavelengths). Show how the grating disperses white light into a rainbow spectrum." }
+  ],
+  "deliverables": ["Single-slit, double-slit, and grating intensity plots", "Analysis of how fringe spacing depends on wavelength and geometry", "2D circular wave interference animation", "White light dispersion visualisation", "Comparison to Young's original experimental results"],
+  "tools": ["Python", "NumPy", "Matplotlib"],
+  "rubric": [
+    { "criteria": "Physics correctness", "description": "Superposition and phase differences correctly implemented" },
+    { "criteria": "Pattern accuracy", "description": "Patterns match theoretical predictions for all configurations" },
+    { "criteria": "Visualisation", "description": "Clear, informative plots and animations" },
+    { "criteria": "Analysis", "description": "Quantitative comparison of fringe spacing to theory" }
+  ]
+}

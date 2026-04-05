@@ -1,0 +1,25 @@
+{
+  "slug": "electric-field-mapper",
+  "title": "Map Electric Fields",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Write a program to calculate and visualise electric fields from arbitrary charge configurations using Coulomb's law and the superposition principle.",
+  "whyItMatters": "Electric fields are fundamental to electromagnetism. Visualising them builds deep intuition for how charges interact, how capacitors work, and how electromagnetic shielding operates — concepts essential for electronics and physics alike.",
+  "skillsLearned": ["Coulomb's law", "Superposition principle", "Vector fields", "Python visualisation", "Electrostatics intuition"],
+  "prerequisites": ["Electric charge and Coulomb's law", "Vector addition", "Basic Python"],
+  "steps": [
+    { "title": "Single point charge", "description": "Calculate the electric field on a 2D grid from a single point charge. Plot the field using quiver plots (arrows) and streamlines.", "tips": "Use meshgrid to create the grid. Be careful with the singularity at the charge location." },
+    { "title": "Dipole field", "description": "Place a positive and negative charge and calculate the combined field using superposition. Observe the dipole field pattern.", "tips": "The dipole field falls off as 1/r³ far from the charges — much faster than a monopole." },
+    { "title": "Equipotential lines", "description": "Calculate the electric potential V and overlay contour plots of equipotential lines on the field map. Verify that field lines are perpendicular to equipotentials.", "tips": "Use matplotlib contour for equipotentials and streamplot for field lines." },
+    { "title": "Complex configurations", "description": "Model a parallel-plate capacitor (rows of alternating charges), a quadrupole, and a conducting sphere (ring of charges). Compare to textbook field patterns.", "tips": "A conducting sphere can be modelled as many equally spaced charges on a circle." },
+    { "title": "Interactive exploration", "description": "Add the ability to place charges interactively (click to add positive/negative charges) and update the field in real time.", "tips": "Use matplotlib event handling or switch to Plotly for interactivity." }
+  ],
+  "deliverables": ["Field visualisations for point charge, dipole, and capacitor", "Equipotential overlays demonstrating perpendicularity", "At least 4 different charge configurations visualised", "Interactive charge placement tool (optional)", "Written discussion of field patterns and physical intuition gained"],
+  "tools": ["Python", "NumPy", "Matplotlib"],
+  "rubric": [
+    { "criteria": "Physics correctness", "description": "Coulomb's law and superposition correctly implemented" },
+    { "criteria": "Visualisation quality", "description": "Clear, well-labelled field and equipotential plots" },
+    { "criteria": "Range of configurations", "description": "At least 4 distinct charge configurations explored" },
+    { "criteria": "Physical insight", "description": "Written discussion demonstrates understanding of field behaviour" }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "teleportation-protocol-demo",
+  "title": "Teleportation Protocol Demo",
+  "difficulty": 5,
+  "estimatedHours": 8,
+  "description": "Implement the standard quantum teleportation protocol and explain why it requires both entanglement and a classical channel.",
+  "whyItMatters": "Teleportation is one of the clearest examples of quantum information engineering. It links state transfer, entanglement, measurement, and networking in one compact protocol.",
+  "skillsLearned": [
+    "Protocol construction",
+    "Bell-basis reasoning",
+    "Classical-quantum coordination",
+    "Circuit debugging"
+  ],
+  "prerequisites": [
+    "Entanglement and Bell States",
+    "Quantum Information Basics",
+    "Quantum Gates and Circuits"
+  ],
+  "steps": [
+    {
+      "title": "Prepare the input and Bell pair",
+      "description": "Set an arbitrary single-qubit state as the payload and generate a shared entangled pair.",
+      "tips": "Test with a few known input states before generalising."
+    },
+    {
+      "title": "Apply the sender-side operations",
+      "description": "Entangle the payload with one half of the Bell pair and measure the sender qubits.",
+      "tips": "Track which classical bits are produced and what they mean."
+    },
+    {
+      "title": "Apply receiver corrections",
+      "description": "Use the classical bits to choose the appropriate correction on the receiver qubit.",
+      "tips": "This is the step that proves no faster-than-light shortcut is happening."
+    },
+    {
+      "title": "Verify state recovery",
+      "description": "Compare the output state to the original input across several examples.",
+      "tips": "Use fidelity or statevector comparison if available."
+    },
+    {
+      "title": "Explain the resource logic",
+      "description": "Write a short note on what the entanglement does and what the classical bits do.",
+      "tips": "Good explanations separate correlation resource from control instruction."
+    }
+  ],
+  "deliverables": [
+    "Teleportation circuit implementation",
+    "Verification results for multiple input states",
+    "Short explanation of entanglement plus classical communication"
+  ],
+  "tools": [
+    "qiskit",
+    "ibm-quantum-platform"
+  ],
+  "rubric": [
+    {
+      "criteria": "Protocol correctness",
+      "description": "The circuit implements teleportation faithfully and reconstructs the state."
+    },
+    {
+      "criteria": "Verification",
+      "description": "The learner shows evidence that the output matches the intended input."
+    },
+    {
+      "criteria": "Conceptual clarity",
+      "description": "The explanation avoids common misconceptions about teleportation."
+    }
+  ]
+}

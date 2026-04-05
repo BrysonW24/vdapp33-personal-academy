@@ -1,0 +1,29 @@
+{
+  "slug": "what-commercial-property-management-is",
+  "title": "What Commercial Property Management Is",
+  "shortSummary": "Understand the real job: protecting asset value through lease control, service delivery, risk management, and clear owner communication.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Most people think property management is mainly coordination and administration. In reality, it is an operating role with financial, legal, service, and stakeholder consequences. If you misunderstand the role, you will stay reactive. If you understand it, you can make better decisions under pressure and build trust with both owners and tenants.",
+  "coreConcepts": [
+    "The difference between asset management, facilities management, leasing, and property management",
+    "How lease obligations become daily operating tasks",
+    "The link between tenant experience, occupancy, and asset value",
+    "Why documentation quality and follow-through shape trust"
+  ],
+  "lessons": [
+    "what-good-property-management-actually-is"
+  ],
+  "frameworks": [
+    "Daily Priority Stack",
+    "Owner Report Storyline"
+  ],
+  "relatedModules": [
+    "reading-commercial-leases",
+    "stakeholder-communication",
+    "owner-reporting-and-kpis"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

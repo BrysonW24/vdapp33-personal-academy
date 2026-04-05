@@ -1,0 +1,10 @@
+{
+  "slug": "nvidia-jetson",
+  "name": "NVIDIA Jetson",
+  "category": "hardware",
+  "description": "NVIDIA Jetson is a family of embedded AI computing platforms designed specifically for robotics, autonomous machines, and edge AI. The range spans from Jetson Orin Nano (40 TOPS AI performance, ~$300 AUD) to Jetson AGX Orin (275 TOPS, ~$2,500 AUD). Jetson modules combine ARM CPUs with NVIDIA GPU cores and dedicated AI accelerators, enabling real-time deep learning inference on the robot itself — no cloud connection required. They run NVIDIA's JetPack SDK, which includes CUDA, cuDNN, TensorRT, and ROS 2 support.",
+  "whyUseIt": "Modern robots increasingly rely on deep learning for perception — object detection, semantic segmentation, depth estimation, natural language processing. These models require GPU acceleration that a Raspberry Pi cannot provide. Jetson brings NVIDIA GPU power to the edge, enabling robots to run complex vision models at 30+ FPS while consuming under 30 watts. It is the standard platform for autonomous mobile robots, drones with on-board AI, and any robot that needs real-time neural network inference in the field.",
+  "pricingTier": "paid",
+  "url": "https://developer.nvidia.com/embedded-computing",
+  "alternatives": ["Raspberry Pi 5 (for lighter AI workloads)", "Google Coral (TPU-based)", "Intel Neural Compute Stick", "Hailo AI accelerator"]
+}

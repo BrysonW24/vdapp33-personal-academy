@@ -1,0 +1,76 @@
+{
+  "slug": "airfoil-analysis-benchmark",
+  "title": "Airfoil Analysis Benchmark",
+  "difficulty": 4,
+  "estimatedHours": 10,
+  "description": "Compare two airfoils across low-fidelity and higher-fidelity methods, then explain where the predictions agree, drift, or break down.",
+  "whyItMatters": "Aerospace engineers constantly choose between speed and fidelity. This project teaches how to use panel methods and CFD responsibly rather than treating any single tool output as truth.",
+  "skillsLearned": [
+    "Airfoil polar interpretation",
+    "Panel-method analysis",
+    "CFD setup basics",
+    "Verification and validation thinking",
+    "Aerodynamic trade communication"
+  ],
+  "prerequisites": [
+    "Aerodynamics Fundamentals",
+    "Lift and Drag Basics",
+    "How Wings Work"
+  ],
+  "steps": [
+    {
+      "title": "Choose the airfoils and flight point",
+      "description": "Select two airfoils for the same mission and define Reynolds number, Mach number, and angle-of-attack range.",
+      "tips": "A meaningful comparison starts with a common mission context."
+    },
+    {
+      "title": "Run a fast panel-method study",
+      "description": "Generate lift and drag polars using a tool like XFLR5 or another low-order solver.",
+      "tips": "Document assumptions such as transition location and inviscid limitations."
+    },
+    {
+      "title": "Run a higher-fidelity case",
+      "description": "Set up a CFD or validated higher-order analysis for a smaller subset of conditions and compare the results.",
+      "tips": "Use one carefully checked CFD case instead of many rushed ones."
+    },
+    {
+      "title": "Identify the divergence",
+      "description": "Explain where the methods separate and what physics or modelling limits are causing the gap.",
+      "tips": "Look for stall onset, compressibility, or boundary-layer effects."
+    },
+    {
+      "title": "Recommend an airfoil",
+      "description": "Write a short recommendation for which airfoil you would carry into preliminary design and why.",
+      "tips": "The best engineering answer includes uncertainty, not just a winner."
+    }
+  ],
+  "deliverables": [
+    "Comparison table of airfoil geometry and design intent",
+    "Lift and drag polars from two analysis methods",
+    "Short note on modelling assumptions and limits",
+    "Recommendation memo for the preferred airfoil"
+  ],
+  "tools": [
+    "XFLR5",
+    "SU2",
+    "ANSYS Fluent"
+  ],
+  "rubric": [
+    {
+      "criteria": "Setup quality",
+      "description": "Flow conditions, geometry, and assumptions are chosen and documented clearly."
+    },
+    {
+      "criteria": "Comparison depth",
+      "description": "The work explains why the methods agree or disagree rather than only plotting curves."
+    },
+    {
+      "criteria": "Engineering judgement",
+      "description": "The recommendation reflects mission needs and modelling uncertainty."
+    },
+    {
+      "criteria": "Clarity",
+      "description": "Plots are labelled well and the takeaways are easy to follow."
+    }
+  ]
+}

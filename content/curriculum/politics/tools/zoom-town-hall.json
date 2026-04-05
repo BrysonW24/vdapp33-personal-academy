@@ -1,0 +1,21 @@
+{
+  "slug": "zoom-town-hall",
+  "name": "Zoom / Teams for Virtual Town Halls",
+  "category": "constituent-management",
+  "description": "Video conferencing platforms adapted for political town halls, community consultations, and electorate meetings. Virtual events expanded dramatically during COVID and remain a core engagement channel.",
+  "whyUseIt": "Virtual town halls let politicians engage with constituents who cannot attend in-person events — shift workers, parents with young children, people with disabilities, and those in remote areas. They expand democratic participation beyond the usual community meeting attendees.",
+  "pricingTier": "freemium",
+  "url": "https://zoom.us",
+  "aiCapabilities": "AI meeting summaries, automated transcription, Q&A management, real-time polls",
+  "alternatives": ["Microsoft Teams", "Google Meet", "Webex", "StreamYard"],
+  "funnelPosition": "Mid funnel — engagement and relationship building",
+  "outputs": ["Virtual town hall events", "Community consultation sessions", "Recorded sessions for later viewing", "Q&A transcripts"],
+  "marketerWorkflow": "Schedule event, promote via email and social media, set up registration with RSVP tracking, run the event with moderated Q&A, follow up with recording and summary to all registrants",
+  "managerExpects": "Event report: registrations, actual attendance, questions asked, issues raised, follow-up actions committed",
+  "vocabulary": [
+    { "term": "Town hall", "definition": "An open community meeting where constituents can ask questions directly to their representative" },
+    { "term": "Moderated Q&A", "definition": "Questions submitted via chat and selected by a moderator to maintain focus and manage time" }
+  ],
+  "beginnerMistakes": ["Not moderating Q&A — unmoderated chat quickly becomes unproductive", "Treating virtual events as one-way broadcasts instead of genuine two-way engagement"],
+  "relatedProject": "organise-a-community-forum"
+}

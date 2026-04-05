@@ -1,0 +1,24 @@
+{
+  "slug": "quantum-mechanics-intro",
+  "title": "Quantum Mechanics — Introduction",
+  "shortSummary": "Wave-particle duality, the uncertainty principle, quantum states, and the strange rules that govern atoms and subatomic particles.",
+  "level": "intermediate",
+  "category": "modern",
+  "whyItMatters": "Quantum mechanics is the most successful theory in physics history. It explains chemistry, semiconductor physics, lasers, MRI machines, and is the foundation of quantum computing. Nothing at the atomic scale makes sense without it.",
+  "coreConcepts": [
+    "Wave-particle duality",
+    "The uncertainty principle",
+    "Schrödinger equation",
+    "Quantum states and superposition",
+    "Measurement and collapse",
+    "Quantum tunnelling",
+    "Atomic orbitals"
+  ],
+  "lessons": [],
+  "frameworks": ["superposition-principle", "perturbation-methods"],
+  "visualType": "probability-cloud",
+  "relatedModules": ["waves-optics", "electromagnetism", "nuclear-physics", "particle-physics"],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

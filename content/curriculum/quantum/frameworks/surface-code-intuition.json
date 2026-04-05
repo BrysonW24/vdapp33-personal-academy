@@ -1,0 +1,15 @@
+{
+  "slug": "surface-code-intuition",
+  "name": "Surface Code Intuition",
+  "summary": "A practical way to picture large-scale error correction by spreading logical information across many physical qubits and repeatedly extracting syndromes.",
+  "whenToUseIt": "Use it when reasoning about fault tolerance, error-correction overhead, and why useful quantum computing requires so many physical qubits.",
+  "steps": [
+    "Separate data qubits from syndrome measurements conceptually.",
+    "Track how local checks reveal error patterns without measuring the logical state directly.",
+    "Interpret decoding as an inference problem over noisy events.",
+    "Relate physical error rate to threshold behaviour.",
+    "Estimate the logical cost of increasing reliability."
+  ],
+  "example": "The surface code is attractive because it relies on local interactions, which align reasonably well with some hardware layouts even though the overhead is enormous.",
+  "category": "reliability"
+}

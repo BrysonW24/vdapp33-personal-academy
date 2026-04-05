@@ -1,0 +1,15 @@
+{
+  "slug": "lean-manufacturing-aerospace",
+  "name": "Lean Manufacturing for Aerospace",
+  "summary": "A production-improvement approach focused on reducing waiting, rework, transport, and excess inventory while preserving aerospace quality and traceability.",
+  "whenToUseIt": "Use it in assembly, composites, and machining environments where cycle time is long and defects or handoffs are driving cost.",
+  "steps": [
+    "Map the current value stream from raw material to delivered assembly.",
+    "Identify bottlenecks, queue time, rework loops, and information delays.",
+    "Standardise work and move defect detection earlier.",
+    "Rebalance the line for smoother flow and clearer visual control.",
+    "Track cycle time, first-pass yield, and on-time delivery after the change."
+  ],
+  "example": "A composite panel cell may spend more time waiting for cure slots, inspection sign-off, and kitting than actually being built. Lean analysis exposes those delays and makes targeted improvements possible.",
+  "category": "manufacturing"
+}

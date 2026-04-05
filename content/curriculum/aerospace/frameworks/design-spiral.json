@@ -1,0 +1,15 @@
+{
+  "slug": "design-spiral",
+  "name": "Design Spiral",
+  "summary": "The classic aerospace design loop: requirements, sizing, aerodynamics, structures, propulsion, and cost are revisited repeatedly until the aircraft converges.",
+  "whenToUseIt": "Use the design spiral when you are turning a mission need into an aircraft concept and need to iterate across multiple competing disciplines instead of solving each one once.",
+  "steps": [
+    "Capture the mission, payload, range, runway, and regulatory constraints.",
+    "Choose an initial configuration and rough size assumptions.",
+    "Estimate aerodynamics, propulsion, weights, and performance.",
+    "Check whether the concept meets the requirements and identify the weakest area.",
+    "Update the design and repeat until the concept closes with acceptable margin."
+  ],
+  "example": "A commuter aircraft concept may start with an optimistic wing loading, then fail landing distance and climb requirements. The next loop changes wing area and engine power, which increases structural weight, which then changes fuel burn. The spiral keeps turning until the full concept balances.",
+  "category": "design"
+}

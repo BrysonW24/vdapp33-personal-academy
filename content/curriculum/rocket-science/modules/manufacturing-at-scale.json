@@ -1,0 +1,23 @@
+{
+  "slug": "manufacturing-at-scale",
+  "title": "Manufacturing at Scale",
+  "shortSummary": "Building rockets fast — vertical integration, 3D-printed engines, automated welding, and SpaceX's manufacturing revolution that makes reusability economically viable.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "SpaceX's greatest innovation may not be reusability — it is manufacturing speed. Building a Raptor engine every 48 hours, vertically integrating production, and 3D-printing critical components has fundamentally changed the economics of spaceflight. Manufacturing is where rocket science meets the real world.",
+  "coreConcepts": [
+    "Vertical integration vs outsourcing",
+    "Additive manufacturing for aerospace",
+    "Friction stir welding and automated fabrication",
+    "Quality assurance and inspection",
+    "Production rate optimisation",
+    "Supply chain management for aerospace"
+  ],
+  "lessons": [],
+  "frameworks": ["design-build-test-launch", "rapid-iteration-framework"],
+  "visualType": "factory-flow",
+  "relatedModules": ["rocket-engine-design", "structural-analysis", "reusable-launch-vehicles"],
+  "status": "coming-soon",
+  "order": 14,
+  "levelNumber": 3
+}

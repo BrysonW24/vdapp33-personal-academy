@@ -1,0 +1,16 @@
+{
+  "slug": "flight-mechanics",
+  "title": "Flight Mechanics",
+  "shortSummary": "How aircraft move through the air — forces, moments, performance envelopes, and the equations of motion that govern flight.",
+  "level": "beginner",
+  "category": "aerodynamics",
+  "whyItMatters": "Flight mechanics connects aerodynamics to real aircraft performance. It tells you how fast, how far, and how high an aircraft can fly.",
+  "coreConcepts": ["Four forces of flight", "Equations of motion", "Steady level flight", "Climb and descent performance", "Range and endurance", "V-n diagrams"],
+  "lessons": ["aircraft-stability"],
+  "frameworks": ["performance-envelope"],
+  "visualType": "force-diagram",
+  "relatedModules": ["aerodynamics-fundamentals", "flight-dynamics-control", "aircraft-performance"],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

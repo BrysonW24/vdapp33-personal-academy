@@ -1,0 +1,28 @@
+{
+  "slug": "angus-anywhere",
+  "name": "Angus Anywhere",
+  "category": "maintenance",
+  "description": "A tenant-request and operations platform commonly used in commercial property to log, route, and monitor work orders and building service requests.",
+  "whyUseIt": "Angus-style systems bring discipline to service delivery. They give teams one queue for tenant requests, work-order routing, response tracking, and documentation, which is critical when service quality and communication speed shape tenant retention.",
+  "pricingTier": "enterprise",
+  "url": "https://www.angusanywhere.com",
+  "aiCapabilities": "AI can support triage by classifying work requests, suggesting urgency levels, and summarizing recurring complaint patterns.",
+  "alternatives": ["ServiceNow", "Building Engines", "Corrigo"],
+  "workflowStage": "Tenant request intake and work-order management",
+  "outputs": ["Work orders", "Service response logs", "Request histories", "Recurring issue trends"],
+  "propertyManagerWorkflow": "Property managers monitor open requests, escalate critical issues, follow contractor attendance, and make sure tenants receive updates before frustration builds.",
+  "managerExpects": "Fast acknowledgment, clean categorization, closed-loop communication, and no blind spots on overdue or repeatedly reopened jobs.",
+  "aiWorkflowImpact": "AI can shorten queue review by identifying high-risk requests, duplicate complaints, and assets with recurring failure patterns.",
+  "demoDescription": "Review a day's open request queue, sort it into urgent, today, and monitor categories, then draft the next update for two waiting tenants.",
+  "vocabulary": [
+    { "term": "Work Order", "definition": "A tracked instruction for maintenance or service work tied to a building issue or tenant request." },
+    { "term": "SLA", "definition": "Service level expectation for response or resolution time." },
+    { "term": "Reopen Rate", "definition": "How often a supposedly resolved issue returns, signaling poor fix quality or weak diagnosis." }
+  ],
+  "beginnerMistakes": [
+    "Closing jobs before the tenant has actually confirmed resolution",
+    "Routing requests with the wrong urgency code",
+    "Using the system as a ticket dump instead of a service-management tool"
+  ],
+  "relatedProject": "site-inspection-report"
+}

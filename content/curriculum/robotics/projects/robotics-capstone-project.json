@@ -1,0 +1,47 @@
+{
+  "slug": "robotics-capstone-project",
+  "title": "Robotics Capstone Project",
+  "difficulty": 10,
+  "estimatedHours": 80,
+  "description": "Design, build, and demonstrate a complete autonomous robotic system that solves a real-world problem relevant to Australian industry. Choose a challenge domain — mining inspection, agricultural automation, warehouse logistics, healthcare delivery, or environmental monitoring — and deliver a working prototype with full documentation. This capstone project is your opportunity to synthesise everything you have learned into a system that could plausibly be developed into a commercial product.",
+  "whyItMatters": "This capstone demonstrates your ability to take a robotics project from problem definition through design, implementation, testing, and delivery — the complete engineering lifecycle. It is the evidence that you can independently identify a problem, architect a solution, build it, and evaluate it. This is what employers and investors look for: not just knowledge of individual robotics concepts, but the ability to integrate them into a working system that solves a real problem. The Australian robotics industry is hungry for engineers who can ship complete systems, not just components.",
+  "skillsLearned": ["End-to-end systems engineering", "Requirements analysis and specification", "System architecture design", "Multi-subsystem integration", "Testing and validation methodology", "Technical writing and presentation", "Project management"],
+  "prerequisites": ["Completion of at least 15 modules in this curriculum", "Proficiency in ROS 2", "Experience with at least two of: navigation, manipulation, perception, control"],
+  "steps": [
+    {
+      "title": "Problem selection and research",
+      "description": "Choose a real-world problem in an Australian industry context. Research the current state of the art, existing solutions, and the gap your robot would fill. Write a 2-page problem statement covering: the problem, who it affects, the current approach, why a robotic solution would be better, and the key technical challenges. Examples: autonomous vineyard pruning, underground mine inspection drone, warehouse inventory counting robot, hospital pharmacy delivery robot.",
+      "tips": "Choose a problem you are genuinely interested in. Talk to people in the industry if possible — understanding real user needs is more valuable than any amount of armchair engineering."
+    },
+    {
+      "title": "Requirements and architecture",
+      "description": "Define functional requirements (what the robot must do), performance requirements (how fast, how accurate, how reliable), and constraints (size, weight, cost, safety). Design the system architecture: identify the major subsystems (perception, planning, control, communication), define their interfaces, and select the hardware and software for each. Create an architecture diagram and a component selection justification.",
+      "tips": "Use the task decomposition framework to break the mission into sub-tasks, then map each sub-task to a subsystem. Prioritise requirements — not everything needs to work perfectly in a prototype."
+    },
+    {
+      "title": "Implementation",
+      "description": "Build the system in phases. Start with the most critical or highest-risk subsystem. Get it working in isolation, then integrate with the next subsystem. Use simulation extensively before hardware (if using real hardware). Maintain a development log recording decisions, challenges, and solutions.",
+      "tips": "Resist the urge to build everything at once. Get one thing working end-to-end (even if simplified) before adding complexity. A robot that can navigate a single room reliably is more impressive than one that theoretically navigates an entire building but crashes at every doorway."
+    },
+    {
+      "title": "Testing and evaluation",
+      "description": "Design and execute a test plan covering: unit tests for individual subsystems, integration tests for subsystem interactions, and system-level tests of complete missions. Define quantitative success criteria for each test. Run at least 20 system-level trials and report success rate, failure modes, and performance metrics.",
+      "tips": "Test in conditions that stress the system — low light, cluttered environments, unexpected obstacles. Document failures carefully — they teach more than successes."
+    },
+    {
+      "title": "Documentation and presentation",
+      "description": "Write a comprehensive technical report (15-20 pages) covering: problem statement, requirements, architecture, implementation details, test results, lessons learned, and future work. Prepare a 10-minute presentation with a live or recorded demonstration. The report should be suitable for a potential employer or investor.",
+      "tips": "Include honest discussion of limitations and what you would do differently. Technical maturity is shown not by claiming perfection but by understanding trade-offs."
+    }
+  ],
+  "deliverables": ["Complete working robotic system (simulation or real hardware)", "Technical report (15-20 pages)", "Demonstration video (5-10 minutes)", "Presentation slides (10-minute presentation)", "Source code repository with documentation", "Test results and analysis"],
+  "tools": ["ros2", "gazebo-sim", "python-robotics", "moveit", "opencv"],
+  "rubric": [
+    {"criteria": "Problem relevance", "description": "Chosen problem is real, relevant to Australian industry, and the robotic solution provides clear value over the status quo"},
+    {"criteria": "Architecture quality", "description": "System architecture is well-designed with clear subsystem boundaries, defined interfaces, and justified technology choices"},
+    {"criteria": "Implementation completeness", "description": "System is functional end-to-end, not just a collection of disconnected subsystems"},
+    {"criteria": "Testing rigour", "description": "Comprehensive test plan executed with quantitative results, failure analysis, and honest assessment of limitations"},
+    {"criteria": "Documentation quality", "description": "Technical report is clear, well-structured, and suitable for a professional audience"},
+    {"criteria": "Technical depth", "description": "Demonstrates deep understanding of the robotics concepts applied, not just surface-level integration"}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "estimation-and-fermi-problems",
+  "moduleSlug": "what-physics-is",
+  "title": "Estimation and Fermi Problems",
+  "objective": "Learn to make reasonable order-of-magnitude estimates for complex questions using basic physics reasoning.",
+  "beginnerExplanation": "Fermi problems are questions that seem impossible to answer precisely but can be estimated to within an order of magnitude using basic reasoning and rough numbers. 'How many piano tuners are in Sydney?' 'How much energy does the Sun produce per second?' Enrico Fermi was famous for solving these at the chalkboard, breaking big unknowns into smaller, estimable pieces. This skill is critical in physics because it tells you whether a result is reasonable. If your calculation says a car accelerates at 10,000 m/s², you know something went wrong — your estimate of 'around 3 m/s²' tells you the answer should be single digits. Fermi estimation builds physical intuition.",
+  "deeperExplanation": "Order-of-magnitude estimation is not guessing — it is structured reasoning. You decompose a complex question into sub-questions, estimate each one, and combine them. The errors in individual estimates tend to cancel out (some too high, some too low), so the final answer is often surprisingly close to reality. Fermi himself famously estimated the yield of the Trinity nuclear test to within a factor of two by dropping scraps of paper and measuring their displacement from the blast wave. In professional physics, estimation is used constantly: before running a complex simulation, you estimate the answer to check whether the simulation output is plausible. Before designing an experiment, you estimate whether the expected signal will be detectable above the noise. Powers of ten thinking — knowing that an atom is 10^-10 m, a human is 10^0 m, and the Earth is 10^7 m — gives you a mental ruler for the universe.",
+  "keyTakeaways": [
+    "Fermi problems build physical intuition and order-of-magnitude reasoning",
+    "Break complex questions into smaller, estimable sub-questions",
+    "Individual estimation errors tend to cancel when combined",
+    "Always check whether your final answer is physically reasonable",
+    "Powers-of-ten thinking gives you a mental map of physical scales"
+  ],
+  "frameworks": ["dimensional-analysis", "scientific-method"],
+  "example": "How many golf balls fit in a school bus? A school bus interior is roughly 2.5 m wide x 2 m tall x 10 m long = 50 m³. A golf ball has diameter ~4 cm, so volume ~3.4 x 10^-5 m³. Packing efficiency is about 64%. So: (50 x 0.64) / 3.4 x 10^-5 ≈ 940,000 golf balls. The accepted estimate is around 500,000 to 1,000,000 — right in the ballpark.",
+  "commonMistakes": [
+    "Trying to be too precise — the point is order of magnitude, not decimal places",
+    "Forgetting to check whether the final answer is physically reasonable",
+    "Not breaking the problem into small enough sub-questions",
+    "Confusing volume with surface area in geometric estimates"
+  ],
+  "exercise": "Estimate how many litres of water fall on the city of Sydney in an average rainstorm. Break it into: area of Sydney, average rainfall in mm per storm, conversion from mm of rainfall to litres per square metre. Compare your answer to published data.",
+  "nextLesson": "physics-as-a-way-of-thinking",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "What is the key principle behind Fermi estimation?",
+      "options": ["Use a calculator for precision", "Decompose into smaller estimable parts and combine", "Look up the answer online", "Ask an expert"],
+      "correctIndex": 1,
+      "explanation": "Fermi estimation works by breaking a complex question into sub-questions you can estimate, then combining the estimates. Errors tend to cancel, giving a surprisingly good result."
+    }
+  ],
+  "perspectives": {
+    "experimentalist": "Before I build anything, I estimate the expected signal. If my estimate says the effect is 10 orders of magnitude below my detector sensitivity, I save months of wasted effort.",
+    "theorist": "Estimation tells you which terms in an equation matter and which are negligible. It is the physicist's shortcut to insight.",
+    "educator": "Fermi problems are the best tool for teaching physics intuition. Students learn that physics is about reasoning, not formula memorisation."
+  }
+}

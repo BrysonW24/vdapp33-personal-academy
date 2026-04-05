@@ -1,0 +1,21 @@
+{
+  "slug": "overleaf",
+  "name": "Overleaf",
+  "category": "collaboration",
+  "description": "An online LaTeX editor with real-time collaboration, built-in compilation, and integration with journal submission systems. Google Docs for physicists.",
+  "whyUseIt": "Overleaf lets multiple authors edit a LaTeX document simultaneously, with instant preview and no local installation required. It stores version history, integrates with Git, and provides direct submission to major physics journals.",
+  "pricingTier": "freemium",
+  "url": "https://www.overleaf.com/",
+  "alternatives": ["TeXmaker", "VS Code + LaTeX Workshop", "LyX"],
+  "fieldPosition": "Universal — collaborative scientific writing and paper preparation",
+  "outputs": ["Compiled PDF documents", "Collaborative manuscripts", "Journal submissions", "Thesis documents"],
+  "physicistWorkflow": "Create a project from a journal template, write collaboratively in real time, compile and review, and submit directly to the journal.",
+  "supervisorExpects": "Professional manuscripts prepared collaboratively with proper formatting and version history.",
+  "computationalImpact": "Eliminates LaTeX installation issues, email-based document passing, and merge conflicts in collaborative writing.",
+  "vocabulary": [
+    { "term": "Project", "definition": "A collection of LaTeX files that compile into a single document" },
+    { "term": "Rich text mode", "definition": "A WYSIWYG-like editing mode for authors unfamiliar with LaTeX syntax" }
+  ],
+  "beginnerMistakes": ["Not using Overleaf's built-in Git sync for backup", "Editing directly in the PDF preview instead of the source code"],
+  "relatedProject": "particle-detector-analysis"
+}

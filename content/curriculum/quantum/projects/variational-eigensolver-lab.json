@@ -1,0 +1,69 @@
+{
+  "slug": "variational-eigensolver-lab",
+  "title": "Variational Eigensolver Lab",
+  "difficulty": 6,
+  "estimatedHours": 12,
+  "description": "Implement a small VQE-style workflow that uses a parameterised circuit and a classical optimiser to minimise a simple Hamiltonian.",
+  "whyItMatters": "Variational methods are one of the most important near-term quantum algorithm patterns because they embrace noisy hardware and hybrid control loops.",
+  "skillsLearned": [
+    "Variational algorithm design",
+    "Objective-function estimation",
+    "Hybrid optimisation",
+    "Hamiltonian reasoning"
+  ],
+  "prerequisites": [
+    "Quantum Algorithms Foundations",
+    "Quantum Simulation",
+    "Quantum Software Toolchains"
+  ],
+  "steps": [
+    {
+      "title": "Choose a simple Hamiltonian",
+      "description": "Select a small problem such as a toy two-level system or a minimal chemistry example.",
+      "tips": "The educational goal is the loop, not maximum physical realism."
+    },
+    {
+      "title": "Build an ansatz circuit",
+      "description": "Create a parameterised quantum circuit with a small number of tunable angles.",
+      "tips": "A compact ansatz makes the optimisation easier to debug."
+    },
+    {
+      "title": "Estimate the cost function",
+      "description": "Measure the expectation value of the Hamiltonian for each parameter choice.",
+      "tips": "Track the objective history so you can see optimisation behaviour."
+    },
+    {
+      "title": "Close the classical loop",
+      "description": "Use a classical optimiser to update the ansatz parameters and repeat.",
+      "tips": "Expect local minima and noisy objective estimates."
+    },
+    {
+      "title": "Review the outcome",
+      "description": "Explain what the algorithm found, what limited it, and whether the result reflects a real improvement.",
+      "tips": "The interpretation matters as much as the final number."
+    }
+  ],
+  "deliverables": [
+    "VQE notebook or script",
+    "Objective history across iterations",
+    "Short reflection on optimisation quality and hardware realism"
+  ],
+  "tools": [
+    "pennylane",
+    "qiskit"
+  ],
+  "rubric": [
+    {
+      "criteria": "Loop implementation",
+      "description": "The hybrid quantum-classical cycle is implemented correctly."
+    },
+    {
+      "criteria": "Interpretation",
+      "description": "The learner can explain what the optimiser is doing and where it can fail."
+    },
+    {
+      "criteria": "Usefulness",
+      "description": "The final output reflects more than just copied boilerplate."
+    }
+  ]
+}

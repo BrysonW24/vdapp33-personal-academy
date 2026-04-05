@@ -1,0 +1,10 @@
+{
+  "slug": "python-robotics",
+  "name": "PythonRobotics",
+  "category": "software",
+  "description": "PythonRobotics is an open-source collection of robotics algorithms implemented in Python with visualisations. Created by Atsushi Sakai, it covers localisation (EKF, particle filter, histogram filter), mapping (Gaussian grid map, ray casting), SLAM (EKF-SLAM, FastSLAM), path planning (A*, RRT, PRM, Dijkstra, potential field, DWA), path tracking (pure pursuit, Stanley, LQR), and arm navigation. Each algorithm is a standalone script with animated visualisation showing the algorithm in action.",
+  "whyUseIt": "PythonRobotics is the best educational resource for understanding robotics algorithms. Each algorithm is implemented in clean, readable Python with matplotlib animations that show exactly what the algorithm is doing step by step. Use it to learn how A* explores a grid, how RRT grows a tree, how an EKF fuses sensor data, or how a PID controller tracks a path. It is an invaluable study companion for this robotics curriculum and a reference implementation you can adapt for your own projects.",
+  "pricingTier": "free",
+  "url": "https://github.com/AtsushiSakai/PythonRobotics",
+  "alternatives": ["Robotics Toolbox for Python (Peter Corke)", "MATLAB Robotics System Toolbox", "Drake"]
+}

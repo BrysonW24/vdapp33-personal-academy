@@ -1,0 +1,20 @@
+{
+  "slug": "hansard-aph",
+  "name": "Hansard (APH)",
+  "category": "analytics",
+  "description": "The official record of everything said in the Australian Parliament — debates, question time, speeches, and votes. Available free online through the Parliament of Australia website.",
+  "whyUseIt": "Hansard is the primary source for political research. It records exactly what politicians say in parliament, making it invaluable for opposition research, policy analysis, speech preparation, and accountability. If a politician said it in parliament, it is in Hansard.",
+  "pricingTier": "free",
+  "url": "https://www.aph.gov.au/Parliamentary_Business/Hansard",
+  "alternatives": ["OpenAustralia (more searchable interface)", "TheyVoteForYou", "ParlInfo"],
+  "funnelPosition": "Research and preparation",
+  "outputs": ["Parliamentary debate transcripts", "Question Time records", "Committee hearing transcripts", "Ministerial statements"],
+  "marketerWorkflow": "Search for debates on your target issue, review what each party said, identify useful quotes for media releases, track how positions have evolved over time",
+  "managerExpects": "Staff who can quickly find what any MP said about any issue, when they said it, and how it compares to their current position",
+  "vocabulary": [
+    { "term": "Hansard", "definition": "The near-verbatim official transcript of parliamentary proceedings, named after its original British printer" },
+    { "term": "Question Time", "definition": "The daily session where MPs question ministers about government policy and administration" }
+  ],
+  "beginnerMistakes": ["Quoting a politician out of context — always read the full exchange", "Not using ParlInfo's advanced search features — simple keyword searches miss a lot"],
+  "relatedProject": "conduct-opposition-research"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "entanglement-and-bell-states",
+  "moduleSlug": "quantum-mechanics-essentials",
+  "title": "Entanglement and Bell States",
+  "objective": "Understand how multipartite quantum states can have correlations that cannot be explained by treating each qubit independently.",
+  "beginnerExplanation": "Entanglement happens when two or more quantum systems have a joint state that cannot be split into separate independent states. That means you cannot describe each qubit on its own without losing essential information about the whole system.\n\nBell states are the standard first examples. They are maximally entangled two-qubit states. If you measure one qubit, the result is strongly correlated with the other, even though neither qubit had its own fully independent description beforehand. Entanglement is what makes teleportation, quantum networking, many algorithms, and error-correction ideas possible.",
+  "deeperExplanation": "A Bell state such as (|00> + |11>)/sqrt(2) is not equivalent to 'either 00 or 11 with 50 percent probability' in the classical sense. The difference lies in coherence across the joint state. Those coherent correlations can violate Bell inequalities and support information-processing tasks impossible under purely classical correlation models.\n\nEntanglement is also resource-like. Engineers create it, preserve it, distribute it, and measure how badly noise degrades it. That is why entanglement is not only foundational physics but also a systems-engineering concern. Fidelity, control error, and channel loss all determine how useful entanglement actually is.",
+  "keyTakeaways": [
+    "Entanglement means the joint state matters more than any separate description of the parts.",
+    "Bell states are the simplest standard examples of strong quantum correlation.",
+    "Entanglement supports tasks like teleportation, networking, and error correction.",
+    "Useful entanglement depends on engineering quality, not just theory."
+  ],
+  "frameworks": ["bell-states", "quantum-teleportation"],
+  "example": "Create a Bell pair by applying a Hadamard gate to the first qubit and then a controlled-NOT. Measuring both qubits yields correlated outcomes. More importantly, the state behaves differently from a mere classical correlation when you change the measurement basis.",
+  "commonMistakes": [
+    "Treating entanglement as if it allows faster-than-light communication.",
+    "Mistaking a classical correlation table for an entangled state.",
+    "Talking about entanglement without specifying how it is created, measured, or degraded."
+  ],
+  "exercise": "Describe one reason Bell states matter for engineering rather than only for philosophy or interpretation. Use either networking, algorithms, or error correction as your example.",
+  "order": 2
+}

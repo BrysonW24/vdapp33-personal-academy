@@ -1,0 +1,23 @@
+{
+  "slug": "astrophysics",
+  "title": "Astrophysics",
+  "shortSummary": "Stars, galaxies, black holes, and the physics of the cosmos — how we use physics to understand objects billions of light-years away.",
+  "level": "advanced",
+  "category": "applied",
+  "whyItMatters": "Astrophysics applies every branch of physics to understand the universe. It pushes the limits of observation and theory, from stellar evolution to dark matter. It inspires humanity and drives the development of cutting-edge instruments and techniques.",
+  "coreConcepts": [
+    "Stellar structure and evolution",
+    "Hertzsprung-Russell diagram",
+    "White dwarfs, neutron stars, and black holes",
+    "Galaxy formation and dynamics",
+    "Dark matter evidence",
+    "Observational techniques (spectroscopy, photometry)"
+  ],
+  "lessons": [],
+  "frameworks": ["conservation-laws", "equilibrium-analysis"],
+  "visualType": "hr-diagram",
+  "relatedModules": ["nuclear-physics", "general-relativity", "cosmology"],
+  "status": "coming-soon",
+  "order": 13,
+  "levelNumber": 3
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "swarm-robotics",
+  "title": "Swarm Robotics",
+  "shortSummary": "Learn how large groups of simple robots coordinate to achieve complex collective behaviours. Inspired by ant colonies, bird flocks, and bee swarms, swarm robotics enables scalable, robust, and decentralised automation.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "A single robot can fail. A swarm of hundreds cannot — at least, not all at once. Swarm robotics takes inspiration from nature's most successful groups: ants that build bridges with their bodies, bees that optimise foraging routes, and starling murmurations that move as one without a leader. In robotics, swarms of simple, inexpensive robots can accomplish tasks that would be impossible or impractical for a single complex robot — searching disaster areas, monitoring large agricultural fields, constructing structures, or mapping ocean floors. In Australia, researchers at CSIRO and the University of Sydney are exploring swarm approaches for environmental monitoring across the Great Barrier Reef and for coordinated drone operations in bushfire response. Understanding swarm intelligence means understanding emergence — how simple local rules create sophisticated global behaviour.",
+  "coreConcepts": ["Emergent behaviour from simple rules", "Decentralised control and self-organisation", "Communication: stigmergy, direct, and broadcast", "Consensus algorithms and collective decision-making", "Formation control and flocking", "Task allocation in multi-robot systems", "Scalability and robustness analysis"],
+  "lessons": [],
+  "frameworks": ["behaviour-trees"],
+  "visualType": "swarm-formation",
+  "relatedModules": ["path-planning-and-navigation", "drones-and-uavs", "human-robot-interaction"],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 3
+}

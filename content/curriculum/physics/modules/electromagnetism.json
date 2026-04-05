@@ -1,0 +1,23 @@
+{
+  "slug": "electromagnetism",
+  "title": "Electromagnetism",
+  "shortSummary": "Electric fields, magnetic fields, Maxwell's equations, and how light itself is an electromagnetic wave — the unification that changed physics forever.",
+  "level": "intermediate",
+  "category": "classical",
+  "whyItMatters": "Electromagnetism powers modern civilisation — electricity, magnetism, radio, computers, and the internet all rest on Maxwell's equations. It was also the first great unification in physics and the gateway to relativity.",
+  "coreConcepts": [
+    "Electric charge and Coulomb's law",
+    "Electric fields and potential",
+    "Magnetic fields and Lorentz force",
+    "Electromagnetic induction (Faraday's law)",
+    "Maxwell's equations",
+    "Electromagnetic waves"
+  ],
+  "lessons": [],
+  "frameworks": ["symmetry-principles", "field-theory-basics"],
+  "visualType": "field-lines",
+  "relatedModules": ["waves-optics", "special-relativity", "quantum-mechanics-intro"],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

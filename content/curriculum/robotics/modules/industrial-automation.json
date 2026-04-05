@@ -1,0 +1,16 @@
+{
+  "slug": "industrial-automation",
+  "title": "Industrial Automation",
+  "shortSummary": "Explore the world of factory robots, programmable logic controllers, and automated production lines. Industrial automation is where robotics generates the most economic value today.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Industrial robots are the economic backbone of modern manufacturing. Globally, over 3.5 million industrial robots are in operation, welding car bodies, assembling electronics, painting surfaces, and packaging products. In Australia, industrial automation is critical for maintaining competitiveness in a high-wage economy — companies like BlueScope Steel, Visy Industries, and numerous food manufacturers rely on robotic automation to produce goods at globally competitive prices. Understanding industrial automation means understanding PLCs (Programmable Logic Controllers), robot programming, production line integration, safety standards, and the shift toward flexible manufacturing. This module bridges the gap between academic robotics and the practical reality of deploying robots in factories.",
+  "coreConcepts": ["Industrial robot types: articulated, SCARA, delta, cartesian", "Programmable Logic Controllers (PLCs)", "Robot programming: teach pendants, offline programming, simulation", "Production line integration and material handling", "Industrial communication protocols: EtherCAT, PROFINET, Modbus", "Safety standards: ISO 10218, IEC 62443", "Flexible manufacturing and Industry 4.0"],
+  "lessons": [],
+  "frameworks": ["safety-integrity-levels"],
+  "visualType": "factory-floor",
+  "relatedModules": ["robotic-manipulation", "collaborative-robots", "robot-ethics-and-safety"],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 2
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "arduino",
+  "name": "Arduino",
+  "category": "hardware",
+  "description": "An open-source electronics platform based on easy-to-use hardware and software. Used extensively in physics labs for building custom sensors, data acquisition systems, and experimental controls.",
+  "whyUseIt": "Arduino provides a low-cost, programmable way to interface with the physical world — reading sensors, controlling motors, and collecting data. It is perfect for building custom experimental apparatus when commercial equipment is too expensive or inflexible.",
+  "pricingTier": "freemium",
+  "url": "https://www.arduino.cc/",
+  "alternatives": ["Raspberry Pi", "ESP32", "Teensy"],
+  "fieldPosition": "Experimental physics — custom instrumentation, data acquisition, and lab automation",
+  "outputs": ["Sensor readings", "Motor control", "Data logging", "Custom measurement instruments"],
+  "physicistWorkflow": "Connect sensors to Arduino, write code to read and process signals, display data in real time, and log to a computer.",
+  "supervisorExpects": "Ability to build simple data acquisition systems and custom sensors for experimental work.",
+  "computationalImpact": "Enables custom instrumentation at a fraction of the cost of commercial equipment.",
+  "vocabulary": [
+    { "term": "Sketch", "definition": "An Arduino program — written in a C/C++ variant" },
+    { "term": "ADC", "definition": "Analogue-to-digital converter — converts continuous voltage to discrete digital values" }
+  ],
+  "beginnerMistakes": ["Not accounting for ADC resolution and noise in measurements", "Using analogRead in a tight loop without considering timing"],
+  "relatedProject": "pendulum-model"
+}

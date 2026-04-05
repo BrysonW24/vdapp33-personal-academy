@@ -1,0 +1,27 @@
+{
+  "slug": "leasing-support-and-vacancy-strategy",
+  "title": "Leasing Support and Vacancy Strategy",
+  "shortSummary": "Support occupancy by coordinating renewals, make-good, handbacks, fitouts, and the operational readiness behind leasing outcomes.",
+  "level": "advanced",
+  "category": "tenant",
+  "whyItMatters": "Property managers do not 'own' leasing, but they shape leasing outcomes constantly. Renewal confidence, vacancy readiness, handback quality, fitout coordination, and building presentation all affect the speed and quality of occupancy decisions. Strong managers understand how their operational execution influences vacancy risk and leasing momentum.",
+  "coreConcepts": [
+    "Where property management most strongly affects leasing outcomes",
+    "The operational checklist behind renewals and handbacks",
+    "Why vacancy strategy starts before a tenant leaves",
+    "How fitout quality and speed influence market perception"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Lease Obligation Check",
+    "Capex Priority Matrix"
+  ],
+  "relatedModules": [
+    "tenant-experience-and-occupancy",
+    "reading-commercial-leases",
+    "fitout-projects-and-handover"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 4
+}

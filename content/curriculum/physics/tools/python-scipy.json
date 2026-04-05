@@ -1,0 +1,22 @@
+{
+  "slug": "python-scipy",
+  "name": "Python / SciPy",
+  "category": "programming",
+  "description": "Python with the SciPy ecosystem (NumPy, SciPy, Matplotlib, Pandas) is the most widely used open-source scientific computing stack. It is rapidly becoming the default language of physics.",
+  "whyUseIt": "Python is free, open-source, and has an enormous ecosystem. NumPy handles arrays, SciPy provides scientific algorithms (integration, optimisation, FFT, linear algebra), Matplotlib produces publication-quality plots, and Pandas handles tabular data. The learning curve is gentle and the community is massive.",
+  "pricingTier": "free",
+  "url": "https://scipy.org/",
+  "alternatives": ["MATLAB", "Julia", "R"],
+  "fieldPosition": "Universal — used in every branch of physics from data analysis to simulation to machine learning",
+  "outputs": ["Data analysis scripts", "Simulations", "Visualisations", "Jupyter notebooks", "Machine learning models"],
+  "physicistWorkflow": "Write analysis code in Jupyter notebooks, use NumPy for computation, Matplotlib for plotting, and SciPy for fitting and integration.",
+  "supervisorExpects": "Clean, reproducible Python code with proper documentation and version control.",
+  "computationalImpact": "Democratises scientific computing — no licence fees, runs anywhere, interfaces with C/Fortran for performance.",
+  "demoDescription": "Fit a Lorentzian curve to spectral data, perform a chi-squared goodness-of-fit test, and produce a publication-ready plot with residuals.",
+  "vocabulary": [
+    { "term": "ndarray", "definition": "NumPy's multi-dimensional array object — the fundamental data structure" },
+    { "term": "Jupyter", "definition": "An interactive notebook environment combining code, output, and documentation" }
+  ],
+  "beginnerMistakes": ["Using Python lists instead of NumPy arrays for numerical work", "Not vectorising operations (writing explicit loops instead of array operations)"],
+  "relatedProject": "orbital-mechanics-sim"
+}

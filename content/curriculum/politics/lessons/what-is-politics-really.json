@@ -1,0 +1,53 @@
+{
+  "slug": "what-is-politics-really",
+  "moduleSlug": "what-politics-is",
+  "title": "What Is Politics, Really?",
+  "objective": "Understand politics as the process by which communities allocate power, resources, and values — and why this matters to everyone, not just politicians.",
+  "beginnerExplanation": "Politics is simply how groups of people make decisions together. Whenever a community needs to decide who gets what — money, services, rights, protections — that is politics. It happens in parliaments, but also in local councils, workplaces, and families. The formal political system is the way a whole society makes these decisions through elections, laws, and institutions. In Australia, this means a parliamentary democracy where citizens vote for representatives who make laws on their behalf. Politics is not inherently dirty or corrupt — it is the mechanism through which a free society governs itself.",
+  "deeperExplanation": "Politics, as Harold Lasswell defined it, is about 'who gets what, when, and how.' At its core, politics is the process of collective decision-making in conditions of scarcity and disagreement. Every society must decide how to distribute resources (taxation and spending), define rights (who can do what), and resolve conflicts (courts, mediation, negotiation). The Australian political system is a constitutional monarchy with a Westminster parliamentary system, three levels of government (Commonwealth, State/Territory, Local), and compulsory voting. Understanding politics means understanding power — who has it, how they got it, how they use it, and how it can be challenged. The Overton Window helps explain which ideas are considered acceptable at any given time and how political movements shift what is possible.",
+  "keyTakeaways": [
+    "Politics is how societies allocate power, resources, and values collectively",
+    "It is not inherently corrupt — it is the mechanism of democratic self-governance",
+    "Australia uses a Westminster parliamentary system with three levels of government",
+    "Understanding politics means understanding power structures and how they can change",
+    "The Overton Window explains why some ideas are 'acceptable' and others are not — yet"
+  ],
+  "frameworks": ["overton-window"],
+  "example": "Consider Medicare — Australia's universal healthcare system. It exists because of politics. In 1975, the Whitlam Government created Medibank (later dismantled, then re-created as Medicare by the Hawke Government in 1984). This was a political decision about values: should healthcare be a right or a market commodity? Both sides had legitimate arguments. The decision was made through democratic politics — elections, legislation, debate, compromise. Today, Medicare is so popular that no major party proposes abolishing it. The Overton Window has shifted: universal healthcare moved from radical to mainstream through sustained political action.",
+  "commonMistakes": [
+    "Thinking politics is only about parliament — politics happens at every level of society",
+    "Believing all politicians are corrupt — most enter public service with genuine intent",
+    "Confusing politics with partisanship — politics includes non-partisan civic participation",
+    "Assuming your political views are 'common sense' rather than one position among many",
+    "Ignoring local politics — council decisions often affect your daily life more than federal ones"
+  ],
+  "exercise": "Map the political decisions that affect your daily life. Start from when you wake up (water supply, electricity regulation, building codes for your home) through your commute (roads, public transport subsidies), work (workplace laws, minimum wage), and evening (food safety standards, entertainment regulations). List at least 15 political decisions and identify which level of government (federal, state, local) is responsible for each. This exercise demonstrates that politics is not distant — it is the infrastructure of your daily existence.",
+  "nextLesson": "how-australian-politics-works",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "According to Harold Lasswell, what is politics fundamentally about?",
+      "options": ["Who gets what, when, and how", "Winning elections at any cost", "The struggle between left and right", "Managing government budgets"],
+      "correctIndex": 0,
+      "explanation": "Lasswell's classic definition frames politics as the process of allocating scarce resources and values — who gets what, when, and how. This goes beyond partisanship to the fundamental mechanism of collective decision-making."
+    },
+    {
+      "question": "How many levels of government does Australia have?",
+      "options": ["Two: Federal and State", "Three: Commonwealth, State/Territory, and Local", "Four: Federal, State, Territory, and Local", "One: the Commonwealth Parliament"],
+      "correctIndex": 1,
+      "explanation": "Australia has three levels of government: the Commonwealth (federal), State and Territory governments, and Local government (councils). Each has different responsibilities defined by the Constitution and various acts."
+    },
+    {
+      "question": "What does the Overton Window describe?",
+      "options": ["The physical windows of Parliament House", "The range of policies politically acceptable to the mainstream at a given time", "The election cycle timing", "Media coverage of political events"],
+      "correctIndex": 1,
+      "explanation": "The Overton Window describes the range of ideas and policies that are considered politically acceptable or mainstream at any given moment. Political movements work to shift this window to make previously radical ideas acceptable."
+    }
+  ],
+  "perspectives": {
+    "citizen": "Politics determines the quality of your schools, hospitals, roads, and rights. Understanding it is not optional — it is the price of living in a democracy.",
+    "staffer": "Your job is to translate the messy reality of competing interests into coherent policy positions your member can defend publicly.",
+    "politician": "Politics is your medium. Just as an artist works in paint, you work in persuasion, compromise, and collective decision-making.",
+    "strategist": "Every political environment has an Overton Window. Your job is to know where it sits and decide whether to work within it or move it."
+  }
+}

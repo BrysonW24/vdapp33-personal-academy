@@ -1,0 +1,21 @@
+{
+  "slug": "surveymonkey-political",
+  "name": "SurveyMonkey / Typeform",
+  "category": "polling-research",
+  "description": "Online survey tools that let campaigns conduct their own research — community surveys, policy feedback forms, volunteer satisfaction surveys, and informal polling at a fraction of professional polling costs.",
+  "whyUseIt": "Not every campaign can afford professional polling. Survey tools let you gather structured feedback from constituents, test messages, and identify issues — providing directional data that is better than guessing, even if it lacks the rigour of professional research.",
+  "pricingTier": "freemium",
+  "url": "https://www.surveymonkey.com",
+  "aiCapabilities": "AI question suggestions, automated analysis, sentiment detection in open-ended responses",
+  "alternatives": ["Typeform", "Google Forms", "Microsoft Forms", "Qualtrics"],
+  "funnelPosition": "Research — informing strategy at any stage",
+  "outputs": ["Community survey results", "Policy feedback data", "Volunteer satisfaction scores", "Issue priority rankings"],
+  "marketerWorkflow": "Design a 10-question community survey on local priorities, distribute via email list and social media, analyse results by demographic segment, present findings to campaign strategy team",
+  "managerExpects": "Quarterly community survey results showing issue priorities, satisfaction with representation, and emerging concerns",
+  "vocabulary": [
+    { "term": "Response bias", "definition": "When survey respondents are not representative of the broader population — common in online surveys" },
+    { "term": "Likert scale", "definition": "A rating scale (e.g., strongly agree to strongly disagree) commonly used in surveys" }
+  ],
+  "beginnerMistakes": ["Treating self-selected online survey results as representative of the whole electorate", "Asking leading questions that push respondents toward a desired answer"],
+  "relatedProject": "map-your-electorate"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "monthly-owner-report",
+  "title": "Monthly Owner Report",
+  "difficulty": 5,
+  "estimatedHours": 6,
+  "description": "Build a monthly owner report for a commercial asset covering occupancy, arrears, operating performance, incidents, works, and decisions needed.",
+  "whyItMatters": "Owner reporting is where a property manager's judgment becomes visible. Great reports reduce friction, sharpen decision-making, and build trust because they tell the story behind the numbers instead of dumping raw detail.",
+  "skillsLearned": [
+    "Writing executive-friendly property updates",
+    "Selecting meaningful KPIs and commentary",
+    "Explaining operational and financial variance clearly",
+    "Connecting service issues to asset performance",
+    "Framing decisions and approvals for owners"
+  ],
+  "prerequisites": ["site-inspection-report"],
+  "steps": [
+    {
+      "title": "Assemble the operating facts",
+      "description": "Create a property snapshot with occupancy, arrears, service issues, notable tenant activity, spend versus budget, major work orders, and risk watch-list items.",
+      "tips": "Do not start by writing prose. Start by collecting the facts you would be comfortable defending in a client meeting."
+    },
+    {
+      "title": "Choose the story",
+      "description": "Use the Owner Report Storyline to identify the key messages for the month. Decide what changed, why it changed, and what matters most to asset value or tenant confidence.",
+      "tips": "If every issue gets the same weight, the report becomes background noise."
+    },
+    {
+      "title": "Write the narrative and decision asks",
+      "description": "Draft the report with headline summary, KPI table, commentary, works update, tenant and leasing notes, and any decisions or approvals required.",
+      "tips": "Be direct about what you need from the owner: approval, awareness, strategy input, or nothing."
+    },
+    {
+      "title": "Pressure-test the report",
+      "description": "Review the report as if you were the owner. Remove jargon, sharpen the variance commentary, and confirm every recommendation is evidence-backed.",
+      "tips": "A good test question is: 'Could this be read aloud in a 10-minute client call without confusion?'"
+    }
+  ],
+  "deliverables": [
+    "A monthly owner report deck or memo",
+    "A KPI table covering occupancy, collections, spend, and service performance",
+    "Three to five concise commentary sections explaining the month",
+    "A clear approval or decision list for the owner"
+  ],
+  "tools": ["jll-prism", "microsoft-excel", "power-bi", "microsoft-teams"],
+  "rubric": [
+    {
+      "criteria": "Narrative Clarity",
+      "description": "The report has a clear point of view and separates the important story from routine detail."
+    },
+    {
+      "criteria": "Commercial Insight",
+      "description": "Commentary connects operations, finance, tenant issues, and risk in a commercially sensible way."
+    },
+    {
+      "criteria": "KPI Selection",
+      "description": "Metrics are relevant, easy to scan, and tied to the asset's actual priorities."
+    },
+    {
+      "criteria": "Decision Readiness",
+      "description": "The report makes it obvious what the owner should approve, note, or challenge next."
+    }
+  ]
+}

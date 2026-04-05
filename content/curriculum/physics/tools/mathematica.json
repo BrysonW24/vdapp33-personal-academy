@@ -1,0 +1,22 @@
+{
+  "slug": "mathematica",
+  "name": "Wolfram Mathematica",
+  "category": "computation",
+  "description": "A comprehensive computational platform for symbolic mathematics, numerical computation, visualisation, and algorithm development. The gold standard for analytical physics calculations.",
+  "whyUseIt": "Mathematica can solve integrals, differential equations, and algebraic systems symbolically — giving you exact answers, not just numbers. It is widely used in theoretical physics for deriving results that would take pages of hand calculation.",
+  "pricingTier": "paid",
+  "url": "https://www.wolfram.com/mathematica/",
+  "alternatives": ["Maple", "SageMath", "SymPy"],
+  "fieldPosition": "Theory and computation — used across all branches of physics for symbolic and numerical work",
+  "outputs": ["Symbolic solutions to equations", "Publication-quality plots", "Animated visualisations", "Notebook documents"],
+  "physicistWorkflow": "Derive equations symbolically, solve them, plot results, and export to LaTeX for publication.",
+  "supervisorExpects": "Fluency in symbolic computation and the ability to verify hand calculations computationally.",
+  "computationalImpact": "Eliminates tedious algebra and catches errors in analytical derivations. Enables exploration of parameter spaces.",
+  "demoDescription": "Solve the Schrödinger equation for a harmonic oscillator symbolically, plot the first five wave functions, and animate the time evolution of a superposition state.",
+  "vocabulary": [
+    { "term": "Kernel", "definition": "The computational engine that evaluates Mathematica expressions" },
+    { "term": "Notebook", "definition": "An interactive document combining code, text, and output" }
+  ],
+  "beginnerMistakes": ["Using numerical approximations when exact symbolic solutions exist", "Not simplifying expressions before evaluating them"],
+  "relatedProject": "quantum-tunnelling-sim"
+}

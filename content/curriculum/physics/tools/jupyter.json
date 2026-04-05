@@ -1,0 +1,21 @@
+{
+  "slug": "jupyter",
+  "name": "Jupyter Notebooks",
+  "category": "programming",
+  "description": "An interactive computing environment that combines live code, equations, visualisations, and narrative text in a single document. The modern physics lab notebook.",
+  "whyUseIt": "Jupyter notebooks let you combine Python code, LaTeX equations, plots, and explanatory text in one place. They are ideal for exploratory data analysis, documenting calculations, and sharing reproducible research. Most physics departments now use them for teaching and research.",
+  "pricingTier": "free",
+  "url": "https://jupyter.org/",
+  "alternatives": ["Google Colab", "VS Code notebooks", "Mathematica notebooks"],
+  "fieldPosition": "Universal — used across all branches for data analysis, teaching, and reproducible research",
+  "outputs": ["Interactive analysis documents", "Teaching materials", "Reproducible research notebooks", "Presentation slides"],
+  "physicistWorkflow": "Write analysis code in cells, execute interactively, add markdown explanations, and share the notebook as a complete record of your work.",
+  "supervisorExpects": "Well-documented notebooks with clear narrative, clean code, and reproducible results.",
+  "computationalImpact": "Makes research reproducible and shareable. Combines documentation and computation in a single living document.",
+  "vocabulary": [
+    { "term": "Kernel", "definition": "The computational engine (e.g. Python) that executes code cells" },
+    { "term": "Cell", "definition": "A unit of content — either code, markdown text, or raw output" }
+  ],
+  "beginnerMistakes": ["Running cells out of order and creating hidden state bugs", "Not restarting the kernel and running all cells before sharing"],
+  "relatedProject": "orbital-mechanics-sim"
+}

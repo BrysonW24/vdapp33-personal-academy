@@ -1,0 +1,12 @@
+{
+  "slug": "commercial-property-management",
+  "name": "Commercial Property Management",
+  "shortName": "Property",
+  "group": "society",
+  "icon": "Building2",
+  "color": "#8C5A3C",
+  "tagline": "Leases, buildings, service delivery, reporting, and the operating judgment that protects commercial assets over time.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 7
+}

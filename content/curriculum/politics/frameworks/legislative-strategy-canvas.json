@@ -1,0 +1,17 @@
+{
+  "slug": "legislative-strategy-canvas",
+  "name": "Legislative Strategy Canvas",
+  "summary": "A one-page planning tool for getting legislation passed — mapping the political landscape, counting votes, identifying blockers, and sequencing your approach.",
+  "whenToUseIt": "When preparing a bill for introduction, when negotiating amendments with crossbenchers, when planning a legislative agenda for a parliamentary session, or when assessing whether legislation will survive the Senate.",
+  "steps": [
+    "Define the objective: What exactly does this legislation do? What is the minimum acceptable version?",
+    "Map the votes: Who will vote yes, who will vote no, and who is undecided in both chambers?",
+    "Identify blockers: Which senators or members could stop this? What are their objections?",
+    "Design concessions: What amendments could you offer to win over undecided votes without gutting the bill?",
+    "Sequence the process: Committee inquiry first? Negotiate with crossbench before or after introduction?",
+    "Plan the narrative: How will you explain this legislation to the public and the media?",
+    "Prepare for failure: If the bill is blocked, what is your Plan B — compromise, delay, or take it to an election?"
+  ],
+  "example": "The Albanese Government's Housing Australia Future Fund bill required Senate crossbench support. Legislative Strategy Canvas: Objective — establish a $10 billion fund for social housing. Votes — Labor 26 + Greens 12 = 38 (needed 39). Blocker — Greens demanded additional spending on public housing. Concession — agreed to an extra $1 billion in direct public housing funding. Sequence — introduced to House first, then negotiated with Greens during Senate committee process. Narrative — 'Building homes for Australians who need them most.' Result — passed with amendments after months of negotiation.",
+  "category": "legislative-strategy"
+}

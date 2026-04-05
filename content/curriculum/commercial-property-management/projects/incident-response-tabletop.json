@@ -1,0 +1,63 @@
+{
+  "slug": "incident-response-tabletop",
+  "title": "Incident Response Tabletop",
+  "difficulty": 5,
+  "estimatedHours": 4,
+  "description": "Run a tabletop exercise for a building incident, define the command structure, and produce a communication and closeout plan.",
+  "whyItMatters": "Crisis performance is mostly built before the crisis arrives. Tabletop exercises expose gaps in contact lists, decision authority, contractor readiness, and communication habits while the cost of learning is still low.",
+  "skillsLearned": [
+    "Incident command and escalation design",
+    "Role clarity under pressure",
+    "Tenant and owner communication planning",
+    "Emergency documentation and post-incident review",
+    "Risk-aware operational leadership"
+  ],
+  "prerequisites": [],
+  "steps": [
+    {
+      "title": "Choose the incident scenario",
+      "description": "Select a realistic event such as a burst pipe, extended power outage, major lift failure, security breach, or fire panel activation with tenant disruption.",
+      "tips": "Pick a scenario that would genuinely stretch the property team, not just a routine work order."
+    },
+    {
+      "title": "Map the RACI",
+      "description": "Using the Incident Command RACI, assign who leads, who approves emergency spend, who updates tenants, who handles contractors, and who records the timeline.",
+      "tips": "Tabletops become useful when ownership is specific down to named functions."
+    },
+    {
+      "title": "Write the communication sequence",
+      "description": "Draft the first tenant notice, owner escalation, internal update cadence, and criteria for when communications widen to legal, security, or executive stakeholders.",
+      "tips": "Speed matters, but so does confidence. Aim for clear and credible messages."
+    },
+    {
+      "title": "Complete the closeout review",
+      "description": "Document lessons learned, missing controls, contractor issues, and process changes that should be made after the exercise.",
+      "tips": "The closeout is where preparedness becomes lasting operational improvement."
+    }
+  ],
+  "deliverables": [
+    "An incident scenario brief",
+    "A completed response RACI",
+    "Draft tenant and owner communications",
+    "A closeout review with control improvements"
+  ],
+  "tools": ["microsoft-teams", "servicenow", "microsoft-power-automate"],
+  "rubric": [
+    {
+      "criteria": "Role Clarity",
+      "description": "The response plan makes ownership, escalation, and decision rights unmistakable."
+    },
+    {
+      "criteria": "Communication Quality",
+      "description": "Messages are timely, practical, and suited to stressed stakeholders."
+    },
+    {
+      "criteria": "Operational Realism",
+      "description": "The scenario and actions reflect how a real property team would need to respond."
+    },
+    {
+      "criteria": "Learning Value",
+      "description": "The closeout identifies concrete process or control improvements rather than vague lessons."
+    }
+  ]
+}

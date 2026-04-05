@@ -1,0 +1,12 @@
+{
+  "slug": "politics",
+  "name": "Politics",
+  "shortName": "Politics",
+  "group": "society",
+  "icon": "Landmark",
+  "color": "#A14C3A",
+  "tagline": "Power, institutions, campaigns, public life, and the systems that shape collective decisions.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 6
+}

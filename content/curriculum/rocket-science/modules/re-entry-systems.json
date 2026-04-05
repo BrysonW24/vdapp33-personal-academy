@@ -1,0 +1,23 @@
+{
+  "slug": "re-entry-systems",
+  "title": "Re-entry Systems",
+  "shortSummary": "Surviving the return — hypersonic aerodynamics, thermal protection, deceleration systems, and the engineering of controlled descent through an atmosphere.",
+  "level": "advanced",
+  "category": "structures",
+  "whyItMatters": "Re-entry is one of the most violent environments any engineered system faces. Temperatures exceed 1,600 degrees Celsius, deceleration loads reach multiple g-forces, and communications black out. SpaceX's Starship heat shield and Dragon's PICA-X are marvels of re-entry engineering.",
+  "coreConcepts": [
+    "Hypersonic aerodynamics and shock heating",
+    "Ablative and reusable thermal protection",
+    "Entry trajectory design",
+    "Parachute and propulsive landing systems",
+    "Communications blackout and plasma effects",
+    "Guidance during re-entry"
+  ],
+  "lessons": [],
+  "frameworks": ["failure-mode-analysis", "test-like-you-fly"],
+  "visualType": "re-entry-profile",
+  "relatedModules": ["materials-engineering", "reusable-launch-vehicles", "guidance-navigation-control"],
+  "status": "coming-soon",
+  "order": 11,
+  "levelNumber": 3
+}

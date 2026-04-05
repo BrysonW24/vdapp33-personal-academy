@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-networking",
+  "title": "Quantum Networking",
+  "shortSummary": "How entanglement, repeaters, photons, and control systems connect quantum devices across distance.",
+  "level": "intermediate",
+  "category": "communication",
+  "whyItMatters": "Large quantum systems may not live on one chip or even in one room. Networking is how quantum resources are distributed, shared, and extended.",
+  "coreConcepts": [
+    "Entanglement distribution",
+    "Quantum repeaters",
+    "Photon-based links",
+    "Classical control and timing",
+    "Network fidelity",
+    "Distributed quantum systems"
+  ],
+  "lessons": [],
+  "frameworks": ["quantum-network-stack", "quantum-teleportation"],
+  "visualType": "network-link",
+  "relatedModules": ["quantum-information-basics", "quantum-cryptography", "photonic-quantum-systems"],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 2
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "siemens-nx",
+  "name": "Siemens NX",
+  "category": "cad",
+  "description": "An integrated CAD, CAM, and CAE platform used for aerospace design, manufacturing preparation, and digital-thread workflows.",
+  "whyUseIt": "NX is powerful where geometry, analysis preparation, and manufacturing handoff need to stay tightly linked. It is especially useful in organisations building a digital pipeline from design through production.",
+  "pricingTier": "enterprise",
+  "url": "https://plm.sw.siemens.com/en-US/nx/",
+  "alternatives": ["CATIA", "SolidWorks", "Creo"],
+  "fieldPosition": "Detailed design, production preparation, and digital manufacturing integration",
+  "engineerWorkflow": "Refine geometry, define assemblies, prepare manufacturing data, and connect design changes to downstream tooling or production decisions.",
+  "managerExpects": "A controlled digital thread from released geometry into manufacturing and support artefacts.",
+  "demoDescription": "Model a simplified structural assembly and map how a geometry change would affect production tooling or process steps.",
+  "outputs": [
+    "Detailed CAD",
+    "Manufacturing-ready geometry",
+    "Assembly definitions",
+    "Production-support artefacts"
+  ],
+  "beginnerMistakes": [
+    "Optimising the model for CAD elegance instead of downstream use",
+    "Ignoring how geometry decisions affect tooling or assembly sequence"
+  ],
+  "relatedProject": "composite-cell-value-stream"
+}

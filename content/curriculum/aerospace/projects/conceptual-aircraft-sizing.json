@@ -1,0 +1,77 @@
+{
+  "slug": "conceptual-aircraft-sizing",
+  "title": "Conceptual Aircraft Sizing Study",
+  "difficulty": 5,
+  "estimatedHours": 14,
+  "description": "Turn a mission brief into a first-pass aircraft concept by sizing weight, wing area, and installed propulsion for a regional or utility aircraft.",
+  "whyItMatters": "Early sizing decisions shape everything downstream. If the concept does not close on weight, runway, climb, and range at the conceptual stage, detailed design will only make the problem more expensive.",
+  "skillsLearned": [
+    "Requirements translation",
+    "Wing loading and power loading analysis",
+    "Mass estimation",
+    "Constraint analysis",
+    "Design trade studies"
+  ],
+  "prerequisites": [
+    "What Aeronautical Engineering Is",
+    "Aircraft Design",
+    "Aircraft Performance"
+  ],
+  "steps": [
+    {
+      "title": "Define the mission",
+      "description": "Write a one-page requirement set covering payload, range, cruise speed, runway length, reserve policy, and operating environment.",
+      "tips": "Keep the mission specific. A vague aircraft brief leads to vague sizing results."
+    },
+    {
+      "title": "Estimate takeoff mass",
+      "description": "Use payload, crew, fuel fraction, and empty-weight assumptions to solve for takeoff gross weight using a conceptual sizing loop.",
+      "tips": "Capture every assumption in a simple table so you can iterate quickly."
+    },
+    {
+      "title": "Build constraint charts",
+      "description": "Plot wing loading against power or thrust loading for takeoff, landing, climb, cruise, and stall constraints.",
+      "tips": "The best concept point usually sits with some margin, not directly on every limit line."
+    },
+    {
+      "title": "Translate the concept into geometry",
+      "description": "Convert the chosen design point into wing area, aspect ratio, propulsion size, and a rough configuration sketch.",
+      "tips": "Use OpenVSP or a hand sketch first. The goal is coherent sizing, not polished CAD."
+    },
+    {
+      "title": "Review the trade",
+      "description": "Summarise what drives the concept most strongly and what assumptions would most likely force a redesign.",
+      "tips": "Sensitivity analysis is more valuable than pretending the first answer is exact."
+    }
+  ],
+  "deliverables": [
+    "Mission requirement sheet",
+    "Takeoff-mass estimate with assumptions",
+    "Constraint chart with chosen design point",
+    "Rough aircraft geometry or OpenVSP model",
+    "Short design review note on major risks and trade-offs"
+  ],
+  "tools": [
+    "OpenVSP",
+    "Python / SciPy",
+    "XFLR5"
+  ],
+  "rubric": [
+    {
+      "criteria": "Mission clarity",
+      "description": "Requirements are specific, measurable, and internally consistent."
+    },
+    {
+      "criteria": "Sizing logic",
+      "description": "Mass, wing loading, and propulsion choices follow from the assumptions and constraint analysis."
+    },
+    {
+      "criteria": "Trade awareness",
+      "description": "The work clearly explains what the design gains and gives up."
+    },
+    {
+      "criteria": "Communication",
+      "description": "Plots, assumptions, and conclusions are easy to review."
+    }
+  ]
+}

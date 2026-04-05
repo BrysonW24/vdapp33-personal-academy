@@ -1,0 +1,21 @@
+{
+  "slug": "lammps",
+  "name": "LAMMPS",
+  "category": "simulation",
+  "description": "Large-scale Atomic/Molecular Massively Parallel Simulator — an open-source molecular dynamics code for simulating the motion of atoms and molecules.",
+  "whyUseIt": "LAMMPS simulates systems of atoms interacting via a wide range of potentials — metals, polymers, biological molecules, granular materials. It runs efficiently on everything from a laptop to the world's largest supercomputers. Essential for condensed matter and materials physics.",
+  "pricingTier": "free",
+  "url": "https://www.lammps.org/",
+  "alternatives": ["GROMACS", "NAMD", "OpenMM"],
+  "fieldPosition": "Condensed matter, materials science, biophysics — atomistic and molecular simulation",
+  "outputs": ["Atomic trajectories", "Thermodynamic properties", "Structural analysis", "Phase diagrams"],
+  "physicistWorkflow": "Define the system geometry and interatomic potential, set temperature and pressure, run the simulation, and analyse trajectories.",
+  "supervisorExpects": "Ability to set up, run, and analyse molecular dynamics simulations with appropriate potentials and ensemble settings.",
+  "computationalImpact": "Enables the study of material properties from first principles of atomic interactions — bridging quantum mechanics and macroscopic behaviour.",
+  "vocabulary": [
+    { "term": "Potential", "definition": "The mathematical function describing the interaction between atoms" },
+    { "term": "Thermostat", "definition": "An algorithm that maintains constant temperature during the simulation" }
+  ],
+  "beginnerMistakes": ["Using an inappropriate interatomic potential for the material being studied", "Not equilibrating the system before collecting data"],
+  "relatedProject": "ising-model"
+}

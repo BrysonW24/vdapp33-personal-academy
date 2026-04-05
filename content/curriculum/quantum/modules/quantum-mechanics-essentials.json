@@ -1,0 +1,23 @@
+{
+  "slug": "quantum-mechanics-essentials",
+  "title": "Quantum Mechanics Essentials",
+  "shortSummary": "The core physics principles that underpin every quantum computer — superposition, entanglement, measurement, and decoherence.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "You cannot build or program quantum systems without understanding the physics. These concepts are the vocabulary of every quantum engineer.",
+  "coreConcepts": [
+    "Superposition",
+    "Entanglement",
+    "Quantum measurement",
+    "Decoherence and noise",
+    "No-cloning theorem",
+    "Wave-particle duality"
+  ],
+  "lessons": ["superposition-explained", "entanglement-and-bell-states"],
+  "frameworks": ["bloch-sphere", "bell-states"],
+  "visualType": "wave-function",
+  "relatedModules": ["what-quantum-engineering-is", "linear-algebra-for-quantum", "quantum-information-basics"],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

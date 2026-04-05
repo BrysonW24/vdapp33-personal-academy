@@ -1,0 +1,76 @@
+{
+  "slug": "flight-test-card-package",
+  "title": "Flight Test Card Package",
+  "difficulty": 5,
+  "estimatedHours": 12,
+  "description": "Plan a small flight-test campaign by writing test cards, defining build-up logic, and specifying what data must be captured at each point.",
+  "whyItMatters": "Flight test is where predictions meet reality. Good test cards protect people, protect hardware, and make sure each flight produces usable evidence instead of vague impressions.",
+  "skillsLearned": [
+    "Test planning",
+    "Risk identification",
+    "Envelope expansion logic",
+    "Data-acquisition thinking",
+    "Technical communication under operational constraints"
+  ],
+  "prerequisites": [
+    "Flight Testing",
+    "Aircraft Performance",
+    "Flight Dynamics and Control"
+  ],
+  "steps": [
+    {
+      "title": "Choose the campaign objective",
+      "description": "Select one clear goal such as stall-characterisation, climb performance, or handling-qualities assessment.",
+      "tips": "One campaign should answer a focused question, not every question."
+    },
+    {
+      "title": "Write the build-up sequence",
+      "description": "Define how you will move from low-risk to higher-risk points and what conditions must be satisfied before the next step.",
+      "tips": "Include specific abort triggers rather than general caution statements."
+    },
+    {
+      "title": "Draft individual test cards",
+      "description": "For each flight point, specify conditions, pilot actions, required instrumentation, and expected data outputs.",
+      "tips": "The card should be usable in the cockpit without interpretation."
+    },
+    {
+      "title": "Plan the safety and telemetry loop",
+      "description": "Describe who is monitoring the test, what data is watched live, and how go or no-go decisions are made.",
+      "tips": "Flight-test discipline is as much about communication as analysis."
+    },
+    {
+      "title": "Review against the objective",
+      "description": "Check that the full package would actually generate enough evidence to support the decision you care about.",
+      "tips": "Test points without a downstream decision are usually waste."
+    }
+  ],
+  "deliverables": [
+    "Campaign objective and scope note",
+    "Build-up sequence chart",
+    "Three to five complete test cards",
+    "Safety and telemetry roles summary"
+  ],
+  "tools": [
+    "MATLAB / Simulink",
+    "Python / SciPy",
+    "IBM DOORS Next"
+  ],
+  "rubric": [
+    {
+      "criteria": "Safety logic",
+      "description": "The package reflects a credible incremental approach with explicit stop criteria."
+    },
+    {
+      "criteria": "Test usefulness",
+      "description": "Each test point produces data that supports the stated objective."
+    },
+    {
+      "criteria": "Operational clarity",
+      "description": "Pilots and engineers could execute the cards without ambiguity."
+    },
+    {
+      "criteria": "Evidence quality",
+      "description": "Instrumentation and data capture are aligned to the decision being supported."
+    }
+  ]
+}

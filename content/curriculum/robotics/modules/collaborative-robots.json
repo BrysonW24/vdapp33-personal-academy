@@ -1,0 +1,16 @@
+{
+  "slug": "collaborative-robots",
+  "title": "Collaborative Robots",
+  "shortSummary": "Discover cobots — robots designed to work alongside humans without safety fences. Collaborative robots are transforming manufacturing, healthcare, and service industries by making automation accessible to small businesses.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Traditional industrial robots are powerful but dangerous — they operate behind safety fences, separated from humans. Collaborative robots (cobots) change the equation. Equipped with force-limiting joints, sensitive collision detection, and intuitive programming interfaces, cobots can share workspace with human workers. Universal Robots, the Danish company that pioneered the category, has sold over 75,000 cobots worldwide. In Australia, cobots are being adopted by small and medium manufacturers who cannot afford traditional automation — they are used for machine tending, quality inspection, packaging, and even coffee making. Cobots represent the democratisation of robotics, making automation accessible to businesses that previously thought robots were only for large factories.",
+  "coreConcepts": ["Cobot safety standards: ISO/TS 15066", "Power and force limiting", "Speed and separation monitoring", "Hand guiding and lead-through programming", "Cobot applications: machine tending, palletising, quality inspection", "Human-robot workspace design", "Economic case for cobots in SMBs"],
+  "lessons": [],
+  "frameworks": ["safety-integrity-levels"],
+  "visualType": "cobot-workspace",
+  "relatedModules": ["industrial-automation", "human-robot-interaction", "robot-ethics-and-safety", "robotic-manipulation"],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 3
+}

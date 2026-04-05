@@ -1,0 +1,25 @@
+{
+  "slug": "launch-vehicle-sizing",
+  "title": "Launch Vehicle Sizing Tool",
+  "difficulty": 7,
+  "estimatedHours": 30,
+  "description": "Build a complete launch vehicle sizing tool that takes a payload requirement and target orbit, and produces a preliminary vehicle design — number of stages, engine selection, propellant mass, structural mass, and performance prediction.",
+  "whyItMatters": "Vehicle sizing is the core of launch vehicle preliminary design. It integrates every discipline — propulsion, structures, astrodynamics, and systems engineering — into a single trade study tool. This is the kind of tool that SpaceX uses to evaluate Starship variants.",
+  "skillsLearned": ["Systems engineering integration", "Multi-disciplinary optimisation", "Trade study methodology", "Vehicle configuration analysis", "Cost estimation"],
+  "prerequisites": ["launch-vehicle-design", "rocket-engine-design", "structural-analysis"],
+  "steps": [
+    {"title": "Define the architecture", "description": "Build a parametric vehicle model: number of stages (1-3), engine type per stage, structural mass fraction per stage, and propellant type. Allow modular configuration.", "tips": "Use object-oriented design — each stage is an object with engines, tanks, and structure."},
+    {"title": "Implement the sizing loop", "description": "Starting from payload mass and orbit delta-v, work backwards through each stage using the Tsiolkovsky equation. Include gravity and drag losses. Iterate until convergence.", "tips": "The sizing loop converges in 5-10 iterations. Start with an initial guess of total mass = 100x payload."},
+    {"title": "Add engine database", "description": "Include real engine options (Merlin, Raptor, RS-25, BE-4, RL-10) with full performance data. Let the tool select optimal engine count per stage.", "tips": "Engine count affects both thrust-to-weight ratio and structural mass. More engines = more mass but more redundancy."},
+    {"title": "Optimise staging", "description": "Implement a staging optimisation that finds the optimal velocity split between stages for minimum total mass. Compare 1, 2, and 3-stage designs.", "tips": "The optimal staging split is rarely 50/50. First stage typically does 35-45% of total delta-v."},
+    {"title": "Generate the report", "description": "Output a complete vehicle summary: stage masses, propellant loads, engine counts, total height, performance predictions, and comparison with existing vehicles.", "tips": "Generate a vehicle schematic diagram showing relative sizes of stages and components."}
+  ],
+  "deliverables": ["Vehicle sizing tool (Python)", "Parametric trade studies for different payload classes", "Comparison with Falcon 9, Starship, and Vulcan", "Vehicle schematic generator", "Written report on design methodology and results"],
+  "tools": ["python-astropy", "matlab", "solidworks"],
+  "rubric": [
+    {"criteria": "Sizing accuracy", "description": "Tool produces vehicle masses within 15% of real vehicles when given the same requirements"},
+    {"criteria": "Trade study quality", "description": "Clear visualisation of how payload, orbit, and engine choice affect vehicle size"},
+    {"criteria": "Code architecture", "description": "Modular, extensible code that can easily add new engines or mission types"},
+    {"criteria": "Systems thinking", "description": "Demonstrates understanding of how subsystem choices interact to drive vehicle design"}
+  ]
+}

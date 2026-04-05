@@ -1,0 +1,23 @@
+{
+  "slug": "spacecraft-systems",
+  "title": "Spacecraft Systems",
+  "shortSummary": "The subsystems that keep spacecraft alive — power, thermal, communications, and the engineering of survival in the vacuum of space.",
+  "level": "intermediate",
+  "category": "avionics",
+  "whyItMatters": "Once in orbit, the launch vehicle's job is done but the spacecraft must survive. Power generation, thermal management, communications, and attitude control must all work flawlessly in an environment of extreme temperature swings, radiation, and vacuum. Dragon capsule, Starlink satellites, and the ISS all depend on these systems.",
+  "coreConcepts": [
+    "Electrical power systems (solar, batteries, RTGs)",
+    "Thermal control (active and passive)",
+    "Communication systems and data handling",
+    "Attitude determination and control",
+    "Propulsion for orbital manoeuvres",
+    "Radiation shielding and hardening"
+  ],
+  "lessons": [],
+  "frameworks": ["systems-engineering-v-model"],
+  "visualType": "spacecraft-diagram",
+  "relatedModules": ["guidance-navigation-control", "satellite-engineering", "life-support-systems"],
+  "status": "coming-soon",
+  "order": 9,
+  "levelNumber": 2
+}

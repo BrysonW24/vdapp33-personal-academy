@@ -1,0 +1,16 @@
+{
+  "slug": "control-systems-fundamentals",
+  "title": "Control Systems Fundamentals",
+  "shortSummary": "Understand how robots maintain precise control over their movements. Control theory is the mathematical framework that lets a robot follow a desired trajectory, reject disturbances, and remain stable.",
+  "level": "beginner",
+  "category": "foundations",
+  "whyItMatters": "Without control systems, a robot would overshoot every target, oscillate wildly, or drift off course. Control theory is the discipline that ensures a robot motor spins at exactly the right speed, a drone hovers at exactly the right altitude, and a robotic arm follows a smooth path without jerking. The PID controller alone — a simple three-term feedback loop — drives the majority of industrial robots worldwide. Understanding control systems lets you tune robot behaviour, diagnose instability, and design systems that perform reliably in the real world. Australian autonomous mining trucks, for example, use sophisticated control systems to navigate haul roads at high speed while maintaining safe following distances and responding to unexpected obstacles.",
+  "coreConcepts": ["Open-loop vs closed-loop control", "Feedback and error signals", "PID control: proportional, integral, derivative", "System response: rise time, overshoot, settling time", "Stability and the concept of poles", "Tuning methods: Ziegler-Nichols, trial and error", "Feedforward and model-based control"],
+  "lessons": ["control-systems-intro"],
+  "frameworks": ["pid-control-loop"],
+  "visualType": "control-diagram",
+  "relatedModules": ["actuators-and-motors", "robot-kinematics", "embedded-systems"],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 1
+}

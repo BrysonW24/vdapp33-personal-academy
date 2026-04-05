@@ -1,0 +1,47 @@
+{
+  "slug": "research-physicist",
+  "title": "Research Physicist — National Laboratory",
+  "setting": "A government-funded national research laboratory (e.g. ANSTO, CSIRO, or a university research group)",
+  "companySize": "Research group of 8–15 people within a larger facility of 500+",
+  "description": "You work at a national laboratory conducting fundamental or applied physics research. Your days split between designing experiments, collecting data, analysing results, and writing papers. You collaborate with researchers worldwide, supervise postdocs and students, and present at international conferences.",
+  "salary": "$95,000–$140,000 AUD (postdoc to senior researcher)",
+  "schedule": [
+    { "time": "07:30", "activity": "Arrive at the lab, check overnight experimental run logs", "tools": ["LabVIEW", "Python"], "note": "The experiment ran overnight collecting neutron scattering data" },
+    { "time": "08:00", "activity": "Morning coffee and scan arXiv for new papers in your field", "tools": ["arXiv"], "note": "Two relevant papers posted overnight — flag for later reading" },
+    { "time": "08:30", "activity": "Analyse overnight data — check for anomalies and extract preliminary results", "tools": ["Python/SciPy", "Jupyter"], "note": "The signal-to-noise looks promising but needs more statistics" },
+    { "time": "10:00", "activity": "Group meeting — present preliminary results, discuss next steps", "tools": [], "note": "Your supervisor suggests extending the measurement to lower temperatures" },
+    { "time": "11:00", "activity": "Work on a paper draft — writing the methods section and preparing figures", "tools": ["LaTeX", "Overleaf", "Matplotlib"], "note": "Target submission to Physical Review Letters" },
+    { "time": "12:30", "activity": "Lunch with collaborators — discuss a joint proposal", "tools": [], "note": "Informal discussions often lead to the best ideas" },
+    { "time": "13:30", "activity": "Reconfigure the experiment for the next measurement series", "tools": ["LabVIEW", "Oscilloscope"], "note": "Change the sample, realign optics, run calibration checks" },
+    { "time": "15:00", "activity": "Supervise a PhD student's analysis — help debug their fitting code", "tools": ["Python", "CERN ROOT"], "note": "Teaching is a core part of the research physicist role" },
+    { "time": "16:00", "activity": "Write code for a simulation that models the experiment", "tools": ["Python", "NumPy"], "note": "Comparing simulation to data helps identify systematic effects" },
+    { "time": "17:00", "activity": "Set up the overnight experimental run and head home", "tools": ["LabVIEW"], "note": "The experiment runs unattended overnight, collecting data while you sleep" }
+  ],
+  "responsibilities": [
+    "Design and conduct physics experiments",
+    "Analyse data and publish results in peer-reviewed journals",
+    "Write grant proposals to secure research funding",
+    "Supervise postdocs, PhD students, and honours students",
+    "Present at national and international conferences",
+    "Collaborate with researchers at other institutions",
+    "Maintain and develop experimental equipment",
+    "Peer-review papers for journals"
+  ],
+  "challenges": [
+    "Securing ongoing research funding through competitive grants",
+    "Balancing experiment time, analysis, writing, and supervision",
+    "Publishing at the pace required for career progression",
+    "Equipment failures at critical moments in an experimental campaign",
+    "The pressure to produce novel results in a competitive field"
+  ],
+  "rewards": [
+    "The thrill of discovering something no one has ever seen before",
+    "Intellectual freedom to pursue fundamental questions",
+    "Working with brilliant colleagues from around the world",
+    "Training the next generation of physicists",
+    "Contributing to humanity's understanding of the universe"
+  ],
+  "careerPath": [
+    "PhD → Postdoctoral researcher → Research fellow → Senior researcher → Laboratory director"
+  ]
+}

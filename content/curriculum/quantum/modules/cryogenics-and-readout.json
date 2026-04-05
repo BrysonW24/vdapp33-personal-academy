@@ -1,0 +1,23 @@
+{
+  "slug": "cryogenics-and-readout",
+  "title": "Cryogenics and Readout",
+  "shortSummary": "The infrastructure that keeps some qubit platforms cold, quiet, and measurable enough to perform useful quantum operations.",
+  "level": "advanced",
+  "category": "hardware",
+  "whyItMatters": "Quantum devices often fail because the lab environment is too hot, too noisy, or too poorly instrumented. Cryogenics and readout are not support functions; they are part of the machine.",
+  "coreConcepts": [
+    "Dilution refrigeration",
+    "Thermal noise",
+    "Signal amplification chains",
+    "Readout resonators",
+    "Filtering and shielding",
+    "Latency and measurement fidelity"
+  ],
+  "lessons": [],
+  "frameworks": ["hardware-stack-map"],
+  "visualType": "cryostat-stack",
+  "relatedModules": ["quantum-hardware-control", "superconducting-qubits", "fault-tolerant-quantum-computing"],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 3
+}

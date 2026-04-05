@@ -1,0 +1,76 @@
+{
+  "slug": "certification-compliance-matrix",
+  "title": "Certification Compliance Matrix",
+  "difficulty": 6,
+  "estimatedHours": 15,
+  "description": "Create a compliance matrix for an aircraft feature or subsystem, linking regulations to means of compliance, evidence owners, and closure status.",
+  "whyItMatters": "Certification work is where engineering, regulation, and documentation converge. A strong compliance matrix keeps programmes from discovering late that nobody owns a critical evidence thread.",
+  "skillsLearned": [
+    "Regulatory reading",
+    "Compliance planning",
+    "Requirements traceability",
+    "Evidence ownership mapping",
+    "Cross-functional coordination"
+  ],
+  "prerequisites": [
+    "Certification",
+    "Systems Engineering",
+    "Avionics Systems"
+  ],
+  "steps": [
+    {
+      "title": "Select the certification scope",
+      "description": "Choose a subsystem or change such as an autopilot function, fuel-system modification, or cabin safety feature.",
+      "tips": "A manageable scope makes the matrix deep enough to be useful."
+    },
+    {
+      "title": "Extract applicable requirements",
+      "description": "Identify the governing regulations, advisory material, and any special conditions that apply to the scope.",
+      "tips": "Do not stop at one top-level regulation. Follow the evidence chain."
+    },
+    {
+      "title": "Assign means of compliance",
+      "description": "For each requirement, decide whether compliance comes from analysis, test, inspection, similarity, or a mix.",
+      "tips": "The best matrix makes evidence strategy visible early."
+    },
+    {
+      "title": "Map evidence ownership",
+      "description": "Name the responsible team, expected artefact, and current maturity for each compliance item.",
+      "tips": "Ownership gaps are often the most important output of the exercise."
+    },
+    {
+      "title": "Review for programme risk",
+      "description": "Highlight the items most likely to slip, require authority negotiation, or trigger additional testing.",
+      "tips": "This is where the matrix becomes a management tool, not just a spreadsheet."
+    }
+  ],
+  "deliverables": [
+    "Certification-scope note",
+    "Compliance matrix",
+    "Means-of-compliance legend",
+    "Risk summary of the most vulnerable evidence items"
+  ],
+  "tools": [
+    "IBM DOORS Next",
+    "CATIA",
+    "MATLAB / Simulink"
+  ],
+  "rubric": [
+    {
+      "criteria": "Regulatory accuracy",
+      "description": "Applicable requirements are identified cleanly and interpreted sensibly."
+    },
+    {
+      "criteria": "Traceability",
+      "description": "Every requirement maps to evidence and an owner."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The compliance approach is realistic for a real programme."
+    },
+    {
+      "criteria": "Risk awareness",
+      "description": "The matrix surfaces the most consequential open issues."
+    }
+  ]
+}

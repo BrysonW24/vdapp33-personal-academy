@@ -1,0 +1,15 @@
+{
+  "slug": "freeflyer",
+  "name": "FreeFlyer",
+  "category": "mission-planning",
+  "description": "A commercial astrodynamics software platform for mission design, orbit determination, and spacecraft operations. Used by major satellite operators for high-fidelity orbit analysis, conjunction assessment, and autonomous manoeuvre planning.",
+  "whyUseIt": "FreeFlyer excels at operational astrodynamics — the day-to-day orbit management that keeps satellites safe and in the right place. Its scripting language makes it ideal for automating repetitive orbital analyses and building custom mission planning workflows.",
+  "pricingTier": "enterprise",
+  "url": "https://ai-solutions.com/freeflyer/",
+  "alternatives": ["STK", "GMAT", "Orekit"],
+  "funnelPosition": "Satellite operations and mission planning",
+  "outputs": ["Orbit predictions", "Conjunction assessments", "Manoeuvre plans", "Coverage analyses"],
+  "vocabulary": [{"term": "Conjunction assessment", "definition": "Evaluating the probability of collision between your satellite and another object — critical for space safety"},
+    {"term": "Manoeuvre planning", "definition": "Calculating the optimal thrust direction and duration to move a satellite to a new orbit while minimising propellant use"}],
+  "beginnerMistakes": ["Not accounting for atmospheric drag uncertainty in low-orbit predictions", "Using insufficient force models for high-precision orbit determination", "Ignoring the effect of solar activity on atmospheric drag"]
+}

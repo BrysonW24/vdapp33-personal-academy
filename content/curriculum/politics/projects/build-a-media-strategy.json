@@ -1,0 +1,27 @@
+{
+  "slug": "build-a-media-strategy",
+  "title": "Build a Media Strategy",
+  "difficulty": 4,
+  "estimatedHours": 15,
+  "description": "Create a comprehensive media strategy for a political figure or cause — covering earned media, social media, crisis preparation, and a 12-week content calendar.",
+  "whyItMatters": "In modern politics, if you don't have a media strategy, you don't have a strategy. Media coverage shapes how voters perceive candidates and issues. A deliberate media strategy ensures you are driving the narrative rather than reacting to it.",
+  "skillsLearned": ["Media planning", "Content creation", "Social media strategy", "Press relations", "Crisis preparation"],
+  "prerequisites": ["media-communications"],
+  "steps": [
+    { "title": "Audit the current landscape", "description": "Map the media landscape for your electorate or issue: which outlets cover it, who are the key journalists, what is the current narrative?", "tips": "Include traditional media, digital outlets, local publications, and social media influencers." },
+    { "title": "Define your media objectives", "description": "Set three specific goals: e.g., 'Establish candidate as the leading voice on housing in 3 months.'", "tips": "Goals should be measurable. 'Get more media coverage' is not a goal." },
+    { "title": "Develop key messages", "description": "Write three key messages and test them: can you say each in under 15 seconds? Do they work on radio, TV, print, and social?", "tips": "The best messages pass the 'dinner table test' — can a regular person repeat it to their family?" },
+    { "title": "Build the content calendar", "description": "Create a 12-week content calendar: one earned media opportunity per week, three social media posts per week, one longer-form piece per month.", "tips": "Align content with the parliamentary calendar, local events, and seasonal news cycles." },
+    { "title": "Prepare crisis protocols", "description": "Write crisis response templates for three likely scenarios: a personal attack, a policy failure, and an unexpected external event.", "tips": "The best crisis preparation is having the templates ready so you can respond in hours, not days." },
+    { "title": "Measure and iterate", "description": "Define how you will measure success: media mentions, social media engagement, message penetration in focus groups.", "tips": "Review weekly and adjust. A strategy that doesn't evolve is a strategy that fails." }
+  ],
+  "deliverables": ["A media strategy document (5 pages)", "A 12-week content calendar", "Three crisis response templates", "A media contact list for the electorate"],
+  "tools": ["Google Alerts", "Social media analytics", "Canva", "Media monitoring tools"],
+  "rubric": [
+    { "criteria": "Strategic coherence", "description": "Do the media objectives, messages, and content calendar align with the overall political strategy?" },
+    { "criteria": "Message quality", "description": "Are the key messages clear, memorable, and deliverable in under 15 seconds?" },
+    { "criteria": "Calendar realism", "description": "Is the content calendar achievable with available resources and aligned with the news cycle?" },
+    { "criteria": "Crisis readiness", "description": "Are the crisis templates specific, actionable, and realistic?" },
+    { "criteria": "Measurement", "description": "Is there a clear plan for measuring media strategy effectiveness?" }
+  ]
+}

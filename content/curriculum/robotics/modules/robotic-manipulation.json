@@ -1,0 +1,16 @@
+{
+  "slug": "robotic-manipulation",
+  "title": "Robotic Manipulation",
+  "shortSummary": "Learn how robots grasp, move, and manipulate objects. From industrial pick-and-place to dexterous human-like manipulation, this module covers the science of robotic hands and arms interacting with the physical world.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Manipulation is one of the hardest unsolved problems in robotics. Humans effortlessly pick up objects of any shape, weight, and texture — we adjust our grip in milliseconds based on tactile feedback. Robots struggle with this. Yet manipulation is essential for manufacturing, warehouse logistics, agriculture, healthcare, and domestic service. In Australian mining, robotic manipulation systems handle drill rods, rock samples, and equipment maintenance. In e-commerce fulfilment, robotic arms must pick thousands of different products per hour. This module covers gripper design, grasp planning, force control, and the emerging field of learning-based manipulation where robots teach themselves to handle novel objects.",
+  "coreConcepts": ["Gripper types: parallel jaw, vacuum, soft, dexterous hands", "Grasp planning and grasp quality metrics", "Force and impedance control", "Contact modelling and friction", "Pick-and-place pipelines", "Learning-based manipulation", "Tactile sensing and slip detection"],
+  "lessons": ["robotic-manipulation-fundamentals"],
+  "frameworks": ["task-decomposition"],
+  "visualType": "manipulation-pipeline",
+  "relatedModules": ["robot-kinematics", "computer-vision-for-robots", "collaborative-robots", "industrial-automation"],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 2
+}

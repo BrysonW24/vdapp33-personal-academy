@@ -1,0 +1,25 @@
+{
+  "slug": "calculate-orbit-parameters",
+  "title": "Calculate Orbit Parameters",
+  "difficulty": 2,
+  "estimatedHours": 4,
+  "description": "Build a Python calculator that takes orbital altitude and computes orbital velocity, period, and escape velocity for any celestial body. Visualise the orbit and compare LEO, MEO, and GEO parameters.",
+  "whyItMatters": "Orbital parameters are the foundation of every space mission. Being able to calculate them quickly and accurately is the most fundamental skill in astrodynamics. Every satellite operator, mission planner, and launch provider uses these calculations daily.",
+  "skillsLearned": ["Kepler's laws application", "Orbital velocity calculations", "Python scientific computing", "Data visualisation", "Gravitational parameter usage"],
+  "prerequisites": ["what-rocket-science-is", "orbital-mechanics"],
+  "steps": [
+    {"title": "Set up the physics", "description": "Define gravitational parameters for Earth, Moon, and Mars. Implement functions for orbital velocity v = sqrt(GM/r), orbital period T = 2*pi*sqrt(r^3/GM), and escape velocity v_esc = sqrt(2GM/r).", "tips": "Use scipy.constants for physical constants. Always work in SI units."},
+    {"title": "Build the calculator", "description": "Create a function that takes altitude (km above surface) and body name, and returns velocity, period, and escape velocity.", "tips": "Remember to add the body's radius to the altitude to get orbital radius r."},
+    {"title": "Generate comparison tables", "description": "Calculate parameters for standard orbits: LEO (200 km), MEO (20,200 km for GPS), GEO (35,786 km), and lunar orbit.", "tips": "Use pandas DataFrames for clean tabular output."},
+    {"title": "Visualise the orbits", "description": "Plot Earth with concentric orbit rings for LEO, MEO, and GEO using matplotlib. Label each with velocity and period.", "tips": "Use polar coordinates for clean circular orbit plots."},
+    {"title": "Extend to other bodies", "description": "Calculate the same parameters for Mars and the Moon. Compare how much easier it is to reach orbit from Mars vs Earth.", "tips": "Mars escape velocity is 5.03 km/s vs Earth's 11.2 km/s — that is a massive difference for mission design."}
+  ],
+  "deliverables": ["Python script with orbital parameter calculator", "Comparison table for standard orbits", "Visualisation of Earth orbits with labels", "Written analysis comparing orbital access difficulty for Earth, Mars, and Moon"],
+  "tools": ["python-astropy", "matlab"],
+  "rubric": [
+    {"criteria": "Calculation accuracy", "description": "All orbital parameters match known values to within 1%"},
+    {"criteria": "Code quality", "description": "Clean, well-documented Python with proper use of physical constants"},
+    {"criteria": "Visualisation", "description": "Clear, labelled orbit diagram that communicates the scale differences"},
+    {"criteria": "Analysis depth", "description": "Insightful comparison of orbital access across different celestial bodies"}
+  ]
+}

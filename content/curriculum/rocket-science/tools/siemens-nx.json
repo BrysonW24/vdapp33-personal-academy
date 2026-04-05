@@ -1,0 +1,15 @@
+{
+  "slug": "siemens-nx",
+  "name": "Siemens NX",
+  "category": "cad-design",
+  "description": "Enterprise-grade CAD/CAM/CAE platform from Siemens. Used by major aerospace manufacturers including SpaceX for advanced surface modelling, integrated simulation, and manufacturing process planning.",
+  "whyUseIt": "NX combines CAD modelling, FEA simulation, and manufacturing toolpath generation in a single platform. This integrated workflow reduces errors when moving from design to analysis to production — critical in aerospace where a drawing error can cause a mission failure.",
+  "pricingTier": "enterprise",
+  "url": "https://plm.sw.siemens.com/en-US/nx/",
+  "alternatives": ["CATIA", "SolidWorks", "Creo"],
+  "funnelPosition": "Design through manufacturing",
+  "outputs": ["3D models and assemblies", "Integrated FEA results", "Manufacturing toolpaths", "Technical drawings"],
+  "vocabulary": [{"term": "PLM", "definition": "Product Lifecycle Management — managing a product's data from concept through manufacturing to retirement"},
+    {"term": "Topology optimisation", "definition": "Algorithm that removes material from a design envelope, keeping only what is needed to carry loads"}],
+  "beginnerMistakes": ["Not leveraging the integrated simulation capabilities", "Creating models that are not manufacturing-aware", "Ignoring version control for collaborative projects"]
+}

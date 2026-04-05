@@ -1,0 +1,22 @@
+{
+  "slug": "policy-analysis",
+  "title": "Policy Analysis",
+  "shortSummary": "Learn to evaluate, design, and advocate for public policy. Understand cost-benefit analysis, regulatory impact statements, evidence-based policy, and the policy cycle from agenda-setting to evaluation.",
+  "level": "intermediate",
+  "category": "skills",
+  "whyItMatters": "Policy is the substance of politics. Without the ability to analyse policy rigorously, politicians are just performing — they cannot actually govern. The best politicians combine political skill with genuine policy expertise.",
+  "coreConcepts": [
+    "The policy cycle: agenda, formulation, adoption, implementation, evaluation",
+    "Cost-benefit and cost-effectiveness analysis",
+    "Regulatory impact statements",
+    "Evidence-based policy making",
+    "Stakeholder consultation and Green/White Papers",
+    "Unintended consequences and second-order effects"
+  ],
+  "lessons": ["analysing-public-policy"],
+  "frameworks": ["policy-impact-framework"],
+  "relatedModules": ["political-philosophy", "legislative-process", "political-economy"],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

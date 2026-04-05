@@ -1,0 +1,69 @@
+{
+  "slug": "bell-pair-simulator",
+  "title": "Bell Pair Simulator",
+  "difficulty": 4,
+  "estimatedHours": 7,
+  "description": "Simulate Bell-state creation and measurement in different bases to show the difference between entanglement and ordinary classical correlation.",
+  "whyItMatters": "Bell states are the simplest usable entanglement resource. This project turns them from a symbol on a page into an operational object you can test.",
+  "skillsLearned": [
+    "Entanglement intuition",
+    "Basis-change reasoning",
+    "Quantum-circuit implementation",
+    "Measurement statistics"
+  ],
+  "prerequisites": [
+    "Superposition Explained",
+    "Entanglement and Bell States",
+    "Quantum Gates and Circuits"
+  ],
+  "steps": [
+    {
+      "title": "Prepare a Bell circuit",
+      "description": "Build a two-qubit circuit that creates one Bell state from a computational basis input.",
+      "tips": "Start with the textbook H plus CNOT construction."
+    },
+    {
+      "title": "Measure in the computational basis",
+      "description": "Run repeated shots and confirm the strong correlations in the raw output.",
+      "tips": "Look at counts over many shots rather than individual runs."
+    },
+    {
+      "title": "Rotate the basis",
+      "description": "Measure after basis-changing gates so the simulator reveals behaviour that a classical mixture would not reproduce in the same way.",
+      "tips": "This is where the physics becomes more than a probability table."
+    },
+    {
+      "title": "Compare to a fake classical model",
+      "description": "Build a classical correlated baseline and show where it stops matching the quantum case.",
+      "tips": "The comparison is what makes the project educational."
+    },
+    {
+      "title": "Write up the conclusion",
+      "description": "Explain what the project demonstrates about entanglement and why Bell states matter.",
+      "tips": "Keep the explanation precise and avoid science-fiction language."
+    }
+  ],
+  "deliverables": [
+    "Bell-state simulation notebook or script",
+    "Measurement plots in at least two bases",
+    "Short comparison between quantum and classical correlations"
+  ],
+  "tools": [
+    "qiskit",
+    "qutip"
+  ],
+  "rubric": [
+    {
+      "criteria": "Simulation quality",
+      "description": "The Bell-state preparation and measurements are implemented correctly."
+    },
+    {
+      "criteria": "Comparison depth",
+      "description": "The project clearly distinguishes entanglement from ordinary correlation."
+    },
+    {
+      "criteria": "Explanation",
+      "description": "The learner can explain the result without overclaiming what entanglement means."
+    }
+  ]
+}

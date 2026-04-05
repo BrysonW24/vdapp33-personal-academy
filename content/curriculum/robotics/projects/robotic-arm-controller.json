@@ -1,0 +1,46 @@
+{
+  "slug": "robotic-arm-controller",
+  "title": "Robotic Arm Controller",
+  "difficulty": 4,
+  "estimatedHours": 30,
+  "description": "Program a robotic arm (real or simulated) to perform pick-and-place operations. Implement forward and inverse kinematics, trajectory planning, and a simple gripper control system. This project bridges the gap between kinematics theory and practical robot programming.",
+  "whyItMatters": "Robot arms are the foundation of industrial automation — every factory robot that welds, paints, assembles, or packages uses the same kinematic principles you will implement in this project. Understanding how to command a robot arm through Cartesian space, plan smooth trajectories, and coordinate gripper actions is a core competency for any robotics engineer.",
+  "skillsLearned": ["Forward kinematics implementation", "Inverse kinematics (analytical or numerical)", "Trajectory generation (linear and joint-space interpolation)", "Gripper control and timing", "3D coordinate transformations", "Robot simulation with Gazebo or a web-based simulator"],
+  "prerequisites": ["Robot kinematics theory (DH parameters, transformation matrices)", "Linear algebra basics (matrix multiplication)", "Python or C++ programming"],
+  "steps": [
+    {
+      "title": "Define the robot arm model",
+      "description": "Choose a robot arm to work with — either a physical arm (e.g. a low-cost 6-DOF hobby arm) or a simulated one (e.g. a UR5e in Gazebo or the Peter Corke Robotics Toolbox). Define the DH parameters for each joint. Implement forward kinematics: given a set of joint angles, compute the end-effector position and orientation using homogeneous transformation matrices.",
+      "tips": "Start with a simulated arm to avoid hardware issues while learning. The Peter Corke Robotics Toolbox for Python is excellent for prototyping kinematics code."
+    },
+    {
+      "title": "Implement inverse kinematics",
+      "description": "Implement an IK solver for your arm. For a 6-DOF arm with a spherical wrist, derive the analytical closed-form solution. For other configurations, implement a numerical solver (Jacobian pseudoinverse method). Test by computing IK for a target pose, then verifying with FK that the result reaches the target.",
+      "tips": "Handle multiple IK solutions by selecting the one closest to the current joint configuration. Implement joint limit checking to reject infeasible solutions."
+    },
+    {
+      "title": "Plan and execute trajectories",
+      "description": "Implement trajectory generation between two poses. Start with joint-space interpolation (linearly interpolate joint angles between start and goal). Then implement Cartesian-space interpolation (the end effector moves in a straight line while the IK solver computes joint angles at each step). Add velocity profiling — trapezoidal or S-curve — for smooth acceleration and deceleration.",
+      "tips": "Sample the trajectory at a fixed rate (e.g. 50 Hz) and send waypoints to the controller at that rate. Check for singularities along Cartesian paths."
+    },
+    {
+      "title": "Implement pick-and-place logic",
+      "description": "Define a pick-and-place sequence: move to pre-pick position (above the object), descend to pick position, close gripper, ascend with object, move to place position, descend, open gripper, retract. Implement this as a state machine with transitions gated by position reached and gripper confirmation.",
+      "tips": "Use approach and retreat motions (vertical moves before and after grasping) to avoid collisions with surrounding objects."
+    },
+    {
+      "title": "Test with multiple objects",
+      "description": "Set up a workspace with at least 3 objects at known positions. Program the arm to pick each object and place it at a designated target location. Measure placement accuracy — how close is the actual placement to the commanded position? Identify and correct sources of error.",
+      "tips": "In simulation, add small random perturbations to object positions to test robustness. On real hardware, calibrate the workspace coordinate frame carefully."
+    }
+  ],
+  "deliverables": ["Working FK and IK implementations with unit tests", "Trajectory planner with smooth velocity profiles", "Pick-and-place demonstration (video) with at least 3 objects", "Technical report documenting the kinematic model, IK solution approach, and measured accuracy"],
+  "tools": ["ros2", "gazebo-sim", "python-robotics", "moveit"],
+  "rubric": [
+    {"criteria": "Kinematics correctness", "description": "FK and IK produce accurate results verified by cross-checking (FK of IK solution matches target within 1mm)"},
+    {"criteria": "Trajectory smoothness", "description": "End effector follows smooth paths without jerky motions or velocity discontinuities"},
+    {"criteria": "Pick-and-place reliability", "description": "Successfully picks and places objects in at least 90% of attempts"},
+    {"criteria": "Error handling", "description": "System handles IK failures, singularities, and joint limits gracefully"},
+    {"criteria": "Documentation", "description": "Clear technical report with kinematic model derivation, code architecture, and test results"}
+  ]
+}

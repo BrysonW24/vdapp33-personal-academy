@@ -1,0 +1,25 @@
+{
+  "slug": "gnc-simulation",
+  "title": "GNC Landing Simulation",
+  "difficulty": 7,
+  "estimatedHours": 25,
+  "description": "Build a 2D simulation of a Falcon 9-style booster performing a propulsive landing. Implement guidance algorithms, thrust vector control, and a PID controller to land a simulated booster on a target pad.",
+  "whyItMatters": "Propulsive landing is SpaceX's signature achievement. The guidance and control algorithms that steer a 25-tonne booster to a precision landing from Mach 6 represent some of the most sophisticated real-time control engineering in existence. This project teaches the fundamentals of that system.",
+  "skillsLearned": ["Control system design", "PID tuning", "Trajectory guidance", "Real-time simulation", "State estimation"],
+  "prerequisites": ["guidance-navigation-control", "orbital-mechanics"],
+  "steps": [
+    {"title": "Build the dynamics model", "description": "Implement 2D rigid-body dynamics for a rocket booster: position, velocity, attitude, angular rate. Include gravity, thrust (variable magnitude and direction), and aerodynamic drag.", "tips": "Use state-space representation. The state vector is [x, y, vx, vy, theta, omega]."},
+    {"title": "Implement the guidance", "description": "Code a powered descent guidance algorithm that computes the optimal thrust profile to reach the landing pad from the entry point. Start with a polynomial guidance law.", "tips": "SpaceX uses convex optimisation for real-time powered descent guidance. A simplified version works for this project."},
+    {"title": "Build the controller", "description": "Implement a PID controller for thrust vector control that tracks the guidance commands. Tune gains for stability and response speed.", "tips": "The engine can only gimbal a few degrees. Saturate the control input to model this constraint."},
+    {"title": "Add disturbances", "description": "Add wind gusts, sensor noise, and initial condition errors. Test the controller's robustness to these disturbances.", "tips": "A good controller handles 10 m/s wind gusts without losing the landing pad."},
+    {"title": "Visualise the landing", "description": "Animate the landing sequence in real-time. Show the booster trajectory, thrust vector, and landing pad. Record success/failure rates over many runs.", "tips": "Use Pygame or matplotlib animation. Show the trajectory trace and current attitude."}
+  ],
+  "deliverables": ["Python simulation code", "Landing animation", "Controller tuning analysis", "Robustness study with Monte Carlo results", "Comparison with published Falcon 9 landing parameters"],
+  "tools": ["python-astropy", "matlab", "ksp-learning"],
+  "rubric": [
+    {"criteria": "Dynamics fidelity", "description": "Physics model produces realistic trajectories with correct scale and timing"},
+    {"criteria": "Guidance quality", "description": "Guidance algorithm generates fuel-efficient trajectories to the landing point"},
+    {"criteria": "Control robustness", "description": "Controller successfully lands the booster in 90%+ of Monte Carlo runs"},
+    {"criteria": "Visualisation", "description": "Clear, informative animation that shows the control system working"}
+  ]
+}

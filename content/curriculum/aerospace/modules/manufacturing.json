@@ -1,0 +1,16 @@
+{
+  "slug": "manufacturing",
+  "title": "Aerospace Manufacturing",
+  "shortSummary": "How aircraft are built — machining, forming, composite layup, assembly, and quality control in aerospace manufacturing.",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "Design means nothing if you cannot build it. Manufacturing constraints directly influence aircraft design decisions, cost, and production rates.",
+  "coreConcepts": ["CNC machining", "Sheet metal forming", "Composite layup and autoclave curing", "Additive manufacturing", "Assembly and jig design", "Quality assurance and NDT"],
+  "lessons": [],
+  "frameworks": ["lean-manufacturing-aerospace"],
+  "visualType": "assembly-line",
+  "relatedModules": ["materials-composites", "aircraft-structures", "systems-engineering"],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 3
+}

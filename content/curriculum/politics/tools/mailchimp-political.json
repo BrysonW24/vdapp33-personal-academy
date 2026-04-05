@@ -1,0 +1,21 @@
+{
+  "slug": "mailchimp-political",
+  "name": "Mailchimp / Campaign Monitor",
+  "category": "communications",
+  "description": "Email marketing platforms used by political campaigns to send fundraising appeals, policy updates, event invitations, and supporter newsletters. Email remains the highest-ROI channel for political fundraising.",
+  "whyUseIt": "Email is where political fundraising happens. Social media builds awareness, but email converts supporters into donors. Mailchimp and Campaign Monitor provide the segmentation, automation, and analytics that turn an email list into a campaign engine.",
+  "pricingTier": "freemium",
+  "url": "https://mailchimp.com",
+  "aiCapabilities": "AI subject line optimisation, send time prediction, content recommendations, automated journeys",
+  "alternatives": ["Campaign Monitor", "Constant Contact", "Sendinblue", "ActionNetwork"],
+  "funnelPosition": "Mid to bottom funnel — nurturing supporters and converting to donors/volunteers",
+  "outputs": ["Email campaigns", "Automated sequences", "A/B test results", "Subscriber analytics", "Fundraising reports"],
+  "marketerWorkflow": "Segment list by engagement level and interests, create weekly newsletter plus targeted fundraising asks, automate welcome sequences for new subscribers, A/B test subject lines and ask amounts",
+  "managerExpects": "Weekly email metrics: open rate, click rate, unsubscribes, donations generated per email, list growth rate",
+  "vocabulary": [
+    { "term": "Open rate", "definition": "Percentage of recipients who opened the email — political campaigns typically see 20-35%" },
+    { "term": "Segmentation", "definition": "Dividing your email list into groups based on behaviour, interests, or demographics for targeted messaging" }
+  ],
+  "beginnerMistakes": ["Emailing your entire list with every message instead of segmenting", "Sending only fundraising asks without providing value — this kills open rates"],
+  "relatedProject": "build-a-media-strategy"
+}

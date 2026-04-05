@@ -1,0 +1,15 @@
+{
+  "slug": "motion-planning-hierarchy",
+  "name": "Motion Planning Hierarchy",
+  "summary": "The motion planning hierarchy organises robot navigation into layered levels of abstraction: mission planning (where to go), global path planning (how to get there through the map), local planning (real-time obstacle avoidance), and trajectory tracking (converting plans into motor commands). Each layer operates at a different spatial and temporal scale.",
+  "whenToUseIt": "Use this hierarchy when designing a complete navigation system for any autonomous mobile robot — warehouse AGVs, autonomous vehicles, delivery robots, or mining trucks. The hierarchy clarifies responsibilities at each level and helps you select appropriate algorithms for each layer. It prevents the common mistake of trying to solve everything in one monolithic planner.",
+  "steps": [
+    "Mission planning: Define the high-level goals — 'go to loading dock 3, pick up pallet A, deliver to aisle 14, slot B2'. This layer sequences tasks and handles high-level decisions like which order to fulfil first. Operates on minutes-to-hours timescale.",
+    "Global path planning: Given a goal from the mission planner and a map, compute a collision-free route. Use A*, Dijkstra, or lattice-based planners. Consider static obstacles, road rules, one-way lanes, and traffic costs. Operates on seconds timescale. Replans when the map changes or the goal changes.",
+    "Local planning: Given the global path and real-time sensor data, compute velocity commands that follow the path while avoiding dynamic obstacles not in the map (people, other robots, dropped objects). Use DWA, TEB (Timed Elastic Band), or MPC. Operates at 10-50 Hz over a local window of 2-10 metres.",
+    "Trajectory tracking: Convert the velocity commands from the local planner into actuator-level commands (wheel speeds, steering angle). A trajectory tracking controller (e.g. pure pursuit, Stanley controller) ensures the robot follows the desired trajectory precisely. Operates at 50-1000 Hz.",
+    "Recovery behaviour: When any layer fails (no global path found, local planner stuck, trajectory infeasible), trigger recovery actions — wait, back up, replan, request help. Recovery is managed by a behaviour tree or state machine that supervises all layers."
+  ],
+  "example": "An autonomous forklift at a Coles distribution centre in Victoria uses the full hierarchy. Mission planner: receives pick-up orders from the warehouse management system and sequences them for efficiency. Global planner: uses A* on the facility map (updated with current aisle closures) to route the forklift from its current location to the target pallet. Local planner: uses TEB to navigate in real time, slowing for corners, yielding to human workers detected by LiDAR, and squeezing through narrow gaps between pallets. Trajectory tracker: converts velocity commands to differential drive wheel speeds using a pure pursuit controller. Recovery: if the local planner cannot find a path for 10 seconds (e.g. blocked aisle), the forklift stops, notifies the fleet manager, and waits for rerouting.",
+  "category": "navigation"
+}

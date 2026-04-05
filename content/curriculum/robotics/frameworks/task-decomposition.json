@@ -1,0 +1,17 @@
+{
+  "slug": "task-decomposition",
+  "name": "Task Decomposition",
+  "summary": "Task decomposition breaks a complex robotic task into a hierarchy of simpler sub-tasks, each of which can be independently designed, implemented, and tested. It transforms an overwhelming problem ('build a robot that sorts packages') into a structured set of manageable components with clear interfaces.",
+  "whenToUseIt": "Use task decomposition when designing any non-trivial robotic system. It is essential for manipulation tasks (break 'assemble a product' into detect, pick, align, insert, verify), navigation tasks (break 'deliver a package' into plan route, navigate, avoid obstacles, arrive, hand off), and system-level design (break 'autonomous mining truck' into perception, localisation, path planning, vehicle control, fleet coordination). Task decomposition is particularly valuable when multiple engineers or teams will work on different parts of the system.",
+  "steps": [
+    "Define the top-level task: State the overall goal clearly and concretely — 'Pick up a target object from a cluttered bin and place it in the correct shipping container.'",
+    "Identify major sub-tasks: Break the top-level task into 3-7 major phases — Detect (find the object), Plan Grasp (determine how to pick it up), Execute Grasp (move arm and close gripper), Transport (move object to destination), Place (position and release object), Verify (confirm successful placement).",
+    "Decompose further: Each sub-task may need further breakdown. 'Detect' becomes: capture image, run object detection model, estimate 3D pose, validate detection confidence.",
+    "Define interfaces: Specify what data flows between sub-tasks. 'Detect' outputs an object pose; 'Plan Grasp' takes that pose and outputs a grasp configuration and approach trajectory.",
+    "Identify dependencies and ordering: Some sub-tasks must be sequential (detect before grasp). Others can be parallel (plan the next pick while transporting the current object). Map these dependencies.",
+    "Assign error handling: For each sub-task, define what happens if it fails. If grasp fails (force sensor does not confirm grip), retry with a different grasp point. If detection fails (no target found), scan from a different angle.",
+    "Implement bottom-up: Start with the simplest sub-tasks, test them independently, then integrate upward. This reduces debugging complexity and allows parallel development."
+  ],
+  "example": "A robotics team at a Sydney logistics company decomposes 'autonomous pallet unloading' into: (1) Approach — navigate forklift to trailer, align with pallet. (2) Scan — use 3D camera to build a model of the pallet and its contents. (3) Plan — determine which boxes to remove first (top-down, maintaining stability), compute grasp points for each. (4) Pick — extend forks or gripper, secure the box. (5) Transport — reverse out of trailer, navigate to conveyor. (6) Place — deposit box on conveyor. (7) Verify — check conveyor belt sensor confirms box is placed. (8) Repeat — return for next box until pallet is empty. Each sub-task is developed by a different engineer, with clear interface contracts between them.",
+  "category": "design"
+}

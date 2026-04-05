@@ -1,0 +1,48 @@
+{
+  "slug": "how-wings-work",
+  "moduleSlug": "aerodynamics-fundamentals",
+  "title": "How Wings Work",
+  "objective": "Understand aerofoil shapes, how wing geometry affects performance, and how designers choose wing configurations for different aircraft missions.",
+  "beginnerExplanation": "A wing is not just a flat surface sticking out of an aircraft. It is a precisely shaped structure designed to generate lift efficiently across a range of flight conditions.\n\nThe cross-sectional shape of a wing is called an aerofoil (or airfoil in American English). An aerofoil has a rounded leading edge, a sharp trailing edge, and a curved upper surface that is typically more cambered than the lower surface. This shape forces air to accelerate over the top, creating low pressure, while the bottom surface maintains relatively higher pressure. The pressure difference generates lift.\n\nBut a wing is more than just its cross-section. Three-dimensional wing design involves choosing the planform shape (how the wing looks from above), the aspect ratio (span divided by chord), sweep angle, twist, taper, and dihedral. Each of these parameters trades off against others:\n\n- **High aspect ratio** (long, narrow wings like a glider) gives excellent lift-to-drag ratio but is heavy and structurally challenging\n- **Swept wings** delay the onset of compressibility effects at high speed but reduce low-speed lift\n- **Wing twist** (washout) ensures the wing root stalls before the tips, maintaining roll control\n- **Dihedral** (upward wing angle) provides roll stability",
+  "deeperExplanation": "Wing design is fundamentally a multi-objective optimisation problem. No single wing is best at everything — every design choice is a trade-off.\n\nThe NACA aerofoil series (developed by NASA's predecessor) provides standardised shapes. A NACA 2412, for example, has 2% maximum camber at 40% chord, with 12% thickness-to-chord ratio. Modern supercritical aerofoils, designed for transonic flight, have a flatter upper surface to delay shock formation.\n\nWing loading (W/S) — the ratio of aircraft weight to wing area — is a primary design parameter. High wing loading (small wings for the weight) means high cruise speed and a smooth ride in turbulence, but requires high approach speeds and long runways. Low wing loading (large wings) gives slow approach speeds and short field performance, but more drag at cruise.\n\nThe span efficiency factor (e) quantifies how close a real wing comes to the theoretical ideal of an elliptical lift distribution, which produces minimum induced drag. Winglets and raked wingtips increase effective span efficiency without increasing physical span.\n\nFor Australian conditions, wing design must account for high-temperature operations (reducing air density and lift), long overwater routes (requiring high aspect ratio for fuel efficiency), and operations into short regional strips (requiring effective high-lift systems).",
+  "keyTakeaways": [
+    "Aerofoil shape determines the basic lift and drag characteristics of a wing",
+    "Wing planform, aspect ratio, sweep, twist, and taper all affect performance",
+    "Every wing design parameter involves trade-offs between competing requirements",
+    "High aspect ratio wings are efficient but structurally heavy",
+    "Wing loading is a primary sizing parameter that affects speed, range, and field performance",
+    "Elliptical lift distribution minimises induced drag — winglets help approximate this"
+  ],
+  "frameworks": ["thin-aerofoil-theory", "panel-method"],
+  "example": "Compare the wings of two Australian-operated aircraft: the Pilatus PC-12 (used by the Royal Flying Doctor Service) and the Qantas Airbus A380. The PC-12 has a straight, unswept wing with moderate aspect ratio — optimised for slow flight, short runways, and unpaved strips in the outback. The A380 has a swept wing with high aspect ratio and supercritical aerofoils — optimised for Mach 0.85 cruise over 15,000 km. Both wings are perfectly designed for their mission, but they look and perform completely differently.",
+  "commonMistakes": [
+    "Thinking one wing shape is best for all aircraft — wing design must match the mission",
+    "Assuming bigger wings always produce more lift — wing area must be balanced against drag and structural weight",
+    "Ignoring the three-dimensional effects — a 2D aerofoil analysis can be misleading for real wings",
+    "Forgetting that wings must also house fuel, landing gear, and control surfaces — not just generate lift",
+    "Assuming swept wings are always better — they add weight and reduce low-speed performance"
+  ],
+  "exercise": "Research three different aircraft that operate in Australia: one regional turboprop (e.g. Dash 8), one narrow-body jet (e.g. 737), and one wide-body (e.g. 787). For each, find the wing span, wing area, and aspect ratio. Calculate the aspect ratio (span^2 / area) and explain why each aircraft has a different value. How does the mission drive the wing design?",
+  "nextLesson": "aircraft-stability",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What is the primary advantage of a high aspect ratio wing?",
+      "options": ["Higher maximum speed", "Lower induced drag and better L/D ratio", "Lighter structural weight", "Better manoeuvrability"],
+      "correctIndex": 1,
+      "explanation": "High aspect ratio wings produce less induced drag because the wingtip vortices are weaker relative to the total lift generated. This gives a better lift-to-drag ratio, which means better fuel efficiency."
+    },
+    {
+      "question": "Why are the wings of high-speed jets swept back?",
+      "options": ["To look more aerodynamic", "To delay the onset of compressibility drag at transonic speeds", "To increase lift at low speeds", "To reduce structural weight"],
+      "correctIndex": 1,
+      "explanation": "Sweep reduces the effective Mach number seen by the wing cross-section, delaying the formation of shock waves and the associated drag rise. This allows the aircraft to fly faster before hitting the transonic drag penalty."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As an aerodynamics engineer, you use tools like XFOIL and CFD to analyse aerofoil performance across the flight envelope. You optimise section shapes for specific design points while ensuring acceptable off-design behaviour.",
+    "manager": "As an engineering manager, you coordinate between aerodynamics, structures, and manufacturing teams. A wing shape that is aerodynamically perfect might be impossible to build or too heavy to be practical.",
+    "chiefEngineer": "As chief engineer, wing design is a programme-level decision. The wing geometry locks in performance, structural weight, and manufacturing cost for the life of the programme.",
+    "regulator": "As a regulator, you ensure the wing has adequate stall characteristics, control authority at all speeds, and structural margins under the worst-case load conditions defined in CS-25 or FAR Part 25."
+  }
+}

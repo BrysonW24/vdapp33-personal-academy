@@ -1,0 +1,21 @@
+{
+  "slug": "they-vote-for-you",
+  "name": "TheyVoteForYou.org.au",
+  "category": "analytics",
+  "description": "A free, open-source platform that tracks how every Australian federal and state politician votes in parliament. Makes voting records accessible and searchable for citizens, journalists, and researchers.",
+  "whyUseIt": "Politicians' words and votes don't always align. TheyVoteForYou makes it easy to check whether your representative actually voted the way they said they would. Essential for opposition research, accountability journalism, and informed citizenship.",
+  "pricingTier": "free",
+  "url": "https://theyvoteforyou.org.au",
+  "alternatives": ["APH Hansard", "OpenAustralia", "Parliament of Australia website"],
+  "funnelPosition": "Research and accountability — not a campaign tool per se",
+  "outputs": ["Voting record summaries", "Policy area voting patterns", "Comparison between MPs", "Attendance records"],
+  "marketerWorkflow": "Search for your target MP, review their voting record on key issues (climate, housing, healthcare), identify inconsistencies between their public statements and their votes, use in campaign materials or media pitches",
+  "managerExpects": "Quick fact-checking capability — can verify any politician's voting record within minutes",
+  "demoDescription": "Look up your local federal MP, check their voting record on climate legislation, compare it to their public statements on the issue, and assess the consistency",
+  "vocabulary": [
+    { "term": "Division", "definition": "A formal vote in parliament where members are counted as voting for or against a motion" },
+    { "term": "Crossing the floor", "definition": "When a politician votes against their own party — rare and politically significant" }
+  ],
+  "beginnerMistakes": ["Misinterpreting procedural votes as policy votes — not every division is a clear yes/no on an issue", "Not understanding that some votes are on amendments, not the final bill"],
+  "relatedProject": "conduct-opposition-research"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "energy-level-diagrams",
+  "name": "Energy Level Diagrams",
+  "summary": "Visual representations of the quantised energy states of a system — used in atomic physics, nuclear physics, molecular physics, and solid-state physics.",
+  "whenToUseIt": "Use energy level diagrams whenever you need to understand transitions between states, spectral lines, band gaps in semiconductors, or nuclear decay pathways.",
+  "steps": [
+    "Identify the system (atom, nucleus, molecule, solid)",
+    "Calculate or look up the allowed energy levels",
+    "Draw horizontal lines at each energy level, with spacing proportional to energy differences",
+    "Mark transitions (arrows) between levels, labelling with the energy/wavelength of emitted or absorbed photons",
+    "Identify selection rules that determine which transitions are allowed"
+  ],
+  "example": "The hydrogen atom has energy levels E_n = -13.6/n² eV. The transition from n=3 to n=2 emits a photon with energy 1.89 eV (wavelength 656 nm — visible red light). This is the H-alpha line, visible in the emission spectra of nebulae.",
+  "category": "visualisation"
+}

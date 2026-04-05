@@ -1,0 +1,76 @@
+{
+  "slug": "wing-box-load-case",
+  "title": "Wing Box Load-Case Review",
+  "difficulty": 6,
+  "estimatedHours": 16,
+  "description": "Build a simplified structural model of a wing box, apply representative flight loads, and identify the critical stress and deflection drivers.",
+  "whyItMatters": "Aircraft performance is meaningless if the structure cannot carry the loads. This project introduces the structural logic behind spars, skins, load paths, and margin thinking.",
+  "skillsLearned": [
+    "Load-path reasoning",
+    "Basic finite element modelling",
+    "Stress and deflection interpretation",
+    "Structural margin assessment",
+    "Design trade communication"
+  ],
+  "prerequisites": [
+    "Aircraft Structures",
+    "Materials and Composites",
+    "Flight Mechanics"
+  ],
+  "steps": [
+    {
+      "title": "Define the structure and load case",
+      "description": "Create a simplified wing-box geometry and choose a representative manoeuvre or gust load case.",
+      "tips": "Start with a simple beam or shell representation before adding complexity."
+    },
+    {
+      "title": "Estimate distributed loads",
+      "description": "Translate aerodynamic lift, fuel weight, and structural weight into a bending and shear picture across the span.",
+      "tips": "A clean free-body diagram usually prevents later modelling mistakes."
+    },
+    {
+      "title": "Run the structural model",
+      "description": "Use an FEA tool or spreadsheet beam model to calculate stresses, deflections, and likely hot spots.",
+      "tips": "Check whether the answer is physically plausible before trusting the software."
+    },
+    {
+      "title": "Interpret the weak points",
+      "description": "Identify which assumptions, material choices, or geometry features most strongly influence margin.",
+      "tips": "Do not only report max stress. Explain why it appears there."
+    },
+    {
+      "title": "Recommend the next design change",
+      "description": "Propose a realistic improvement such as spar-cap resizing, skin-thickness change, or load redistribution.",
+      "tips": "Tie the recommendation to both structural benefit and mass penalty."
+    }
+  ],
+  "deliverables": [
+    "Load-case definition and free-body diagram",
+    "Simplified structural model",
+    "Stress and deflection summary plots or tables",
+    "Short design note with one recommended improvement"
+  ],
+  "tools": [
+    "NASTRAN",
+    "CATIA",
+    "Siemens NX"
+  ],
+  "rubric": [
+    {
+      "criteria": "Structural logic",
+      "description": "The model reflects a believable load path and boundary condition set."
+    },
+    {
+      "criteria": "Analysis quality",
+      "description": "Results are interpreted correctly and linked back to the load case."
+    },
+    {
+      "criteria": "Trade-off awareness",
+      "description": "The recommendation acknowledges weight, manufacturability, or fatigue implications."
+    },
+    {
+      "criteria": "Communication",
+      "description": "The structural story is clear enough for another engineer to review."
+    }
+  ]
+}

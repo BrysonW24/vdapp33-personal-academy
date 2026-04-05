@@ -1,0 +1,15 @@
+{
+  "slug": "equilibrium-analysis",
+  "name": "Equilibrium Analysis",
+  "summary": "A systematic approach to finding the state where all forces, torques, or flows balance — the system is at rest or in steady state.",
+  "whenToUseIt": "Use equilibrium analysis for statics problems, thermodynamic equilibrium, chemical equilibrium, and any system that has settled into a stable or steady state.",
+  "steps": [
+    "Identify the system and draw a free-body diagram (or equivalent for thermal/chemical systems)",
+    "List all forces, torques, or flows acting on the system",
+    "Set the net force (or net torque, or net flow) equal to zero",
+    "Solve the resulting equations for unknown quantities",
+    "Check stability: if the system is displaced slightly, does it return to equilibrium (stable) or move further away (unstable)?"
+  ],
+  "example": "A ladder leans against a frictionless wall. Forces: gravity (centre of mass), normal force from wall (top), normal force from floor (bottom), friction from floor (bottom). Setting sum of forces = 0 and sum of torques = 0 gives the minimum angle before the ladder slips.",
+  "category": "problem-solving"
+}

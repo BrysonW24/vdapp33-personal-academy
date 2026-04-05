@@ -1,0 +1,22 @@
+{
+  "slug": "electoral-strategy",
+  "title": "Electoral Strategy",
+  "shortSummary": "Master the strategic layer of elections — seat-by-seat targeting, preference flows, redistribution impacts, above-the-line vs below-the-line, and the mathematics of winning government.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Winning elections requires more than a good campaign in your own seat. Electoral strategy is about understanding the entire battlefield — which seats are winnable, how preferences flow, and where to allocate finite resources for maximum impact.",
+  "coreConcepts": [
+    "Preferential voting and preference flows",
+    "Marginal seat analysis and targeting",
+    "Redistribution and electoral boundary changes",
+    "Senate strategy and quota calculations",
+    "State-by-state electoral dynamics",
+    "How-to-vote card strategy"
+  ],
+  "lessons": [],
+  "frameworks": ["voter-segmentation", "coalition-math"],
+  "relatedModules": ["campaign-strategy", "polling-analytics", "coalition-building"],
+  "status": "coming-soon",
+  "order": 18,
+  "levelNumber": 4
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "quantum-algorithm-researcher",
+  "title": "Quantum Algorithm Researcher - Research Lab or Quantum Startup",
+  "setting": "A research group or startup exploring algorithms for chemistry, optimisation, or quantum simulation",
+  "companySize": "Research team of 6-20 within a lab or company of 40-200 people",
+  "description": "You spend your days translating hard problems into quantum-friendly forms, testing algorithm ideas, and deciding whether claimed speedups survive real hardware and resource limits. The work is mathematical, experimental, and often more sceptical than the outside world expects.",
+  "salary": "$115,000-$165,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Read recent papers and review the current benchmark target",
+      "tools": ["python-scipy"],
+      "note": "The first question is usually whether the problem formulation still makes sense."
+    },
+    {
+      "time": "10:00",
+      "activity": "Prototype a circuit or variational workflow",
+      "tools": ["qiskit", "pennylane"],
+      "note": "Most promising ideas become debugging sessions before they become results."
+    },
+    {
+      "time": "12:00",
+      "activity": "Discuss resource estimates with hardware and software teammates",
+      "tools": [],
+      "note": "The algorithm only matters if the hardware could plausibly run it."
+    },
+    {
+      "time": "14:00",
+      "activity": "Compare noisy simulation output to a classical baseline",
+      "tools": ["qutip", "python-scipy"],
+      "note": "Much of the day is spent disproving weak claims."
+    },
+    {
+      "time": "16:00",
+      "activity": "Write a note, internal memo, or paper draft summarising the findings",
+      "tools": [],
+      "note": "Clear sceptical writing is part of the job."
+    }
+  ],
+  "responsibilities": [
+    "Map domain problems into quantum representations",
+    "Prototype and benchmark algorithms",
+    "Estimate circuit depth and hardware feasibility",
+    "Compare quantum proposals to strong classical baselines",
+    "Communicate which ideas are promising and which are not"
+  ],
+  "challenges": [
+    "Separating genuine opportunity from hype",
+    "Working with hardware that is still noisy and resource-limited",
+    "Explaining nuanced results to audiences who want simple breakthroughs"
+  ],
+  "rewards": [
+    "Working at the frontier of computation and physics",
+    "Contributing to how the field judges real value",
+    "Building rare cross-disciplinary intuition"
+  ],
+  "careerPath": [
+    "PhD or research engineer -> Quantum algorithm researcher -> Senior researcher -> Research lead or chief scientist"
+  ]
+}

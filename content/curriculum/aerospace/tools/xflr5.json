@@ -1,0 +1,35 @@
+{
+  "slug": "xflr5",
+  "name": "XFLR5",
+  "category": "aerodynamics",
+  "description": "A free low-order aerodynamic analysis tool for aerofoils, wings, and small aircraft concepts. It is widely used for conceptual wing studies and UAV design.",
+  "whyUseIt": "XFLR5 gives aerospace learners a fast way to explore lift curves, drag polars, stability, and wing geometry effects without the setup cost of full CFD. It is ideal for early-stage aerodynamic intuition.",
+  "pricingTier": "free",
+  "url": "http://www.xflr5.tech/xflr5.htm",
+  "alternatives": ["SU2", "OpenVSP", "AVL"],
+  "fieldPosition": "Conceptual and preliminary aerodynamic design, especially for UAVs and light aircraft",
+  "engineerWorkflow": "Import or define an aerofoil, build the wing or aircraft geometry, generate polars, then compare planform or twist changes before moving to higher-fidelity tools.",
+  "managerExpects": "Clear evidence that XFLR5 results were used for screening and intuition, not overstated as certification-grade truth.",
+  "demoDescription": "Compare two wing planforms for the same UAV mission and show how aspect ratio changes induced drag and static margin.",
+  "outputs": [
+    "Airfoil polars",
+    "Wing lift distribution",
+    "Static stability estimates",
+    "Concept-comparison plots"
+  ],
+  "vocabulary": [
+    {
+      "term": "Polar",
+      "definition": "A curve showing aerodynamic behaviour such as lift coefficient versus drag coefficient or angle of attack."
+    },
+    {
+      "term": "Aspect ratio",
+      "definition": "A wing-shape measure comparing span to chord; higher aspect ratio usually reduces induced drag."
+    }
+  ],
+  "beginnerMistakes": [
+    "Treating low-order output as if it captures viscous or transonic effects perfectly",
+    "Comparing concepts without keeping Reynolds number and mission assumptions consistent"
+  ],
+  "relatedProject": "airfoil-analysis-benchmark"
+}

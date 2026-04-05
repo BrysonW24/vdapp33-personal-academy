@@ -1,0 +1,47 @@
+{
+  "slug": "mixed-use-portfolio",
+  "title": "Mixed-Use Portfolio Manager",
+  "setting": "A portfolio spanning office, retail, and shared public-realm or amenity components",
+  "companySize": "Multi-asset institutional or major private owner platform",
+  "description": "You manage several assets with different tenant types, service rhythms, and owner expectations. The role is less about one building's daily detail and more about pattern recognition, risk scanning, client storytelling, and making sure each site is run to a consistent standard without losing local judgment.",
+  "salary": "Usually higher than single-asset roles because of broader scope, more client exposure, and multi-site accountability.",
+  "schedule": [
+    { "time": "07:30", "activity": "Portfolio scan of incidents, occupancy changes, arrears exceptions, and major work orders across all assets", "tools": ["jll-prism", "power-bi"], "note": "Portfolio work starts with finding where attention is needed most today." },
+    { "time": "08:30", "activity": "Call with on-site property managers to reset priorities and escalate one risk item from each asset", "tools": ["microsoft-teams"], "note": "A good portfolio manager creates focus, not extra noise." },
+    { "time": "10:00", "activity": "Review quarterly client-report draft covering NOI movement, leasing exposure, capex needs, and ESG progress", "tools": ["power-bi", "microsoft-excel", "notion"], "note": "Portfolio reporting is about trend and strategy, not just activity lists." },
+    { "time": "11:30", "activity": "Meeting with asset management on renewal risk, vacancy planning, and repositioning priorities", "tools": ["costar", "mri-software"], "note": "This is where property management becomes a strategic advisory function." },
+    { "time": "13:00", "activity": "Review contractor performance and procurement strategy across multiple service lines", "tools": ["microsoft-excel", "docusign"], "note": "Portfolio scale can unlock savings, but only if service quality stays visible." },
+    { "time": "14:30", "activity": "ESG check-in on metering gaps, utility trends, and proposed efficiency projects across the portfolio", "tools": ["energycap", "power-bi"], "note": "Portfolio sustainability work is partly about standardization and partly about asset-specific judgment." },
+    { "time": "16:00", "activity": "Owner briefing on one asset's capex decision, another asset's tenant retention risk, and portfolio-level operating themes", "tools": ["microsoft-teams", "jll-prism"], "note": "Senior clients value managers who can compare assets clearly and recommend where to act first." },
+    { "time": "17:15", "activity": "Document decisions, reset watch-list items, and align tomorrow's asks for site teams", "tools": ["notion", "microsoft-teams"], "note": "Portfolio leadership depends on turning many moving parts into a calm operating rhythm." }
+  ],
+  "responsibilities": [
+    "Oversee performance, risk, and reporting across multiple asset types",
+    "Coach on-site managers while maintaining portfolio standards",
+    "Prepare quarterly and strategic client reviews",
+    "Prioritize capex, renewal, and service interventions across assets",
+    "Monitor portfolio-wide contractor, ESG, and compliance patterns",
+    "Translate site-level activity into owner-level decisions"
+  ],
+  "challenges": [
+    "Attention can fragment quickly across competing asset issues",
+    "Different asset types need different service instincts and metrics",
+    "Client expectations often rise as scope expands",
+    "It is easy to lose site reality if reporting becomes too abstract",
+    "You must lead through other managers, not just through direct action"
+  ],
+  "rewards": [
+    "You get a broader commercial view of how property performance is created",
+    "The work builds strong client, portfolio, and leadership capability",
+    "You gain experience close to asset management and strategic planning",
+    "There is more room to shape standards and systems, not just respond to issues",
+    "It is one of the clearest pathways into senior property leadership"
+  ],
+  "careerPath": [
+    "Single-asset property manager",
+    "Senior property manager or client-facing lead",
+    "Mixed-use or multi-asset portfolio manager",
+    "Head of portfolio operations or major-account lead",
+    "Director of property management, account leadership, or owner-side advisory"
+  ]
+}

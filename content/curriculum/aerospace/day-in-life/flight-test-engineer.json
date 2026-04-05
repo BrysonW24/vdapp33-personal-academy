@@ -1,0 +1,66 @@
+{
+  "slug": "flight-test-engineer",
+  "title": "Flight Test Engineer - Aircraft Development Program",
+  "setting": "An aircraft manufacturer or modifier running performance, handling, and certification flight tests",
+  "companySize": "Flight-test team of 12-30 inside a program of several hundred engineers",
+  "description": "You sit at the point where design assumptions meet real aircraft behaviour. Your days blend planning, telemetry review, pilot coordination, data reduction, and risk management. The work is operational, technical, and unforgiving of sloppy preparation.",
+  "salary": "$110,000-$155,000 AUD",
+  "schedule": [
+    {
+      "time": "06:30",
+      "activity": "Arrive for weather, aircraft status, and telemetry briefing",
+      "tools": ["MATLAB / Simulink", "Python / SciPy"],
+      "note": "The morning call decides whether the planned points are still worth flying."
+    },
+    {
+      "time": "07:30",
+      "activity": "Run through the test cards with pilots, telemetry staff, and safety personnel",
+      "tools": [],
+      "note": "Every test point gets reviewed against abort criteria and expected aircraft response."
+    },
+    {
+      "time": "09:00",
+      "activity": "Monitor the sortie and compare live data against predictions",
+      "tools": ["Python / SciPy"],
+      "note": "You watch for trends that suggest the envelope expansion should pause."
+    },
+    {
+      "time": "11:30",
+      "activity": "Lead the immediate post-flight debrief",
+      "tools": [],
+      "note": "Pilot comments and quick-look data both matter before the next sortie is authorised."
+    },
+    {
+      "time": "13:00",
+      "activity": "Reduce flight data and update the performance or handling assessment",
+      "tools": ["MATLAB / Simulink", "Python / SciPy"],
+      "note": "This is where a test point becomes evidence instead of memory."
+    },
+    {
+      "time": "15:30",
+      "activity": "Rewrite cards and recommend the next envelope increment",
+      "tools": ["IBM DOORS Next"],
+      "note": "The afternoon often changes tomorrow's flight plan completely."
+    }
+  ],
+  "responsibilities": [
+    "Write and review flight-test cards",
+    "Coordinate pilots, telemetry, and safety roles",
+    "Reduce and interpret test data",
+    "Recommend whether the envelope can expand",
+    "Support certification evidence packages"
+  ],
+  "challenges": [
+    "Operational delays from weather, aircraft serviceability, or instrumentation issues",
+    "Making sound decisions with incomplete real-time information",
+    "Balancing test ambition against safety and evidence quality"
+  ],
+  "rewards": [
+    "Seeing design predictions tested on a real aircraft",
+    "Working close to pilots and the aircraft itself",
+    "Playing a visible role in major certification or development milestones"
+  ],
+  "careerPath": [
+    "Graduate flight-test analyst -> Flight test engineer -> Senior flight test engineer -> Test team lead -> Chief test engineer"
+  ]
+}

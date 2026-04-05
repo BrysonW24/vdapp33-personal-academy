@@ -1,0 +1,21 @@
+{
+  "slug": "oscilloscope",
+  "name": "Digital Oscilloscope",
+  "category": "laboratory",
+  "description": "An electronic instrument that displays voltage as a function of time. The most fundamental measurement tool in electronics and experimental physics.",
+  "whyUseIt": "Oscilloscopes let you see electrical signals in real time — waveforms, pulses, noise, transients. They are essential for debugging circuits, characterising detectors, and measuring time-varying phenomena. Every physics lab has at least one.",
+  "pricingTier": "paid",
+  "url": "https://www.keysight.com/",
+  "alternatives": ["Analog oscilloscope", "Logic analyser", "Spectrum analyser"],
+  "fieldPosition": "Experimental physics — fundamental measurement instrument in electronics and detector labs",
+  "outputs": ["Voltage vs time traces", "Frequency spectra (FFT)", "Signal amplitude and frequency measurements", "Trigger captures of transient events"],
+  "physicistWorkflow": "Connect a probe to the circuit under test, set the timebase and voltage scale, trigger on the signal of interest, and capture or measure.",
+  "supervisorExpects": "Competent use of oscilloscope controls, proper probe compensation, and correct measurement technique.",
+  "computationalImpact": "Provides direct visual feedback of electrical signals — indispensable for debugging and characterisation.",
+  "vocabulary": [
+    { "term": "Timebase", "definition": "The horizontal scale — how many seconds per division on screen" },
+    { "term": "Trigger", "definition": "The condition that starts a waveform capture — typically a voltage threshold crossing" }
+  ],
+  "beginnerMistakes": ["Not compensating the probe before measurement", "Using the wrong input coupling (AC vs DC) for the signal"],
+  "relatedProject": "build-a-spectrometer"
+}

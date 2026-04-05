@@ -1,0 +1,63 @@
+{
+  "slug": "contractor-tender-pack",
+  "title": "Contractor Tender Pack",
+  "difficulty": 6,
+  "estimatedHours": 7,
+  "description": "Assemble a tender pack and evaluation approach for a building-services contract, including scope, service levels, safety requirements, reporting expectations, and vendor scorecard.",
+  "whyItMatters": "Contractors deliver a huge share of the tenant experience and operational reliability of a property. A weak scope or poor evaluation method usually leads to price-driven decisions that cost more in failures, rework, and stakeholder frustration.",
+  "skillsLearned": [
+    "Writing clear contractor scopes",
+    "Defining service levels and governance expectations",
+    "Evaluating vendors using weighted criteria",
+    "Balancing price, safety, and service quality",
+    "Preparing owner-ready procurement recommendations"
+  ],
+  "prerequisites": ["site-inspection-report"],
+  "steps": [
+    {
+      "title": "Define the operating need",
+      "description": "Choose a contract area such as HVAC, cleaning, security, or vertical transport and document current pain points, asset context, and expected outcomes from the new contract.",
+      "tips": "A scope should solve a real operating problem, not just renew the incumbent by default."
+    },
+    {
+      "title": "Write the tender scope",
+      "description": "Draft a scope covering service frequency, attendance requirements, reporting cadence, safety and compliance standards, escalation protocols, and tenant-facing behavior expectations.",
+      "tips": "Include what good looks like in practice, not just the tasks."
+    },
+    {
+      "title": "Build the evaluation model",
+      "description": "Create a weighted scorecard covering price, technical capability, references, safety systems, communication quality, and reporting discipline.",
+      "tips": "A better tender pack makes trade-offs explicit before the quotes come in."
+    },
+    {
+      "title": "Prepare the recommendation",
+      "description": "Summarize how bids would be compared, what evidence is required from vendors, and how the final recommendation would be presented to the owner or procurement lead.",
+      "tips": "Decision-makers need a transparent process as much as they need a contractor name."
+    }
+  ],
+  "deliverables": [
+    "A contractor tender scope document",
+    "A weighted vendor scorecard",
+    "Submission requirements for bidders",
+    "A short recommendation memo template"
+  ],
+  "tools": ["procore", "microsoft-excel", "docusign", "servicenow"],
+  "rubric": [
+    {
+      "criteria": "Scope Clarity",
+      "description": "The scope is specific enough that vendors know what success looks like and how it will be measured."
+    },
+    {
+      "criteria": "Governance Strength",
+      "description": "Safety, reporting, communication, and escalation expectations are clearly defined."
+    },
+    {
+      "criteria": "Evaluation Quality",
+      "description": "The scorecard produces a balanced assessment rather than a price-only comparison."
+    },
+    {
+      "criteria": "Commercial Defensibility",
+      "description": "The tender approach could be defended confidently to an owner, procurement team, or audit review."
+    }
+  ]
+}

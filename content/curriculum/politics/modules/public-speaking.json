@@ -1,0 +1,22 @@
+{
+  "slug": "public-speaking",
+  "title": "Public Speaking",
+  "shortSummary": "Master the art of political communication — from stump speeches and parliamentary addresses to media interviews and town halls. Learn to persuade, inspire, and connect with any audience.",
+  "level": "intermediate",
+  "category": "skills",
+  "whyItMatters": "A politician who cannot speak is a politician who cannot lead. Public speaking is the primary tool of political influence — it moves voters, rallies supporters, and shapes public opinion. Every great political career is built on the ability to communicate.",
+  "coreConcepts": [
+    "Structuring a political speech",
+    "Rhetorical devices and persuasion techniques",
+    "Handling hostile questions and media scrums",
+    "Parliamentary speaking and procedure",
+    "Town hall and community engagement",
+    "Body language and vocal delivery"
+  ],
+  "lessons": ["art-of-political-speech"],
+  "frameworks": ["message-framing"],
+  "relatedModules": ["media-communications", "campaign-strategy", "community-organising"],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

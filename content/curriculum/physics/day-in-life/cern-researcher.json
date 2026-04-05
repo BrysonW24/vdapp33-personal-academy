@@ -1,0 +1,47 @@
+{
+  "slug": "cern-researcher",
+  "title": "CERN Researcher — Particle Physics",
+  "setting": "CERN, the European Organisation for Nuclear Research, Geneva, Switzerland",
+  "companySize": "Experiment collaboration of 3,000+ physicists; CERN itself employs 2,500 staff",
+  "description": "You are a postdoctoral researcher on one of the large LHC experiments (ATLAS or CMS). Your work involves analysing collision data from the world's most powerful particle accelerator, developing analysis software, maintaining detector hardware, and contributing to one of the largest scientific collaborations in history. You live in Geneva or nearby France and work in a truly international environment.",
+  "salary": "$85,000–$120,000 AUD equivalent (CERN fellow stipend, tax-free in Switzerland)",
+  "schedule": [
+    { "time": "08:00", "activity": "Arrive at CERN, check the LHC status and overnight data quality", "tools": ["CERN monitoring systems"], "note": "The LHC ran overnight — 40 million collisions per second, and your detector captured a fraction" },
+    { "time": "08:30", "activity": "Analysis work — run your signal selection code on the latest dataset", "tools": ["CERN ROOT", "Python", "HTCondor"], "note": "Searching for evidence of a rare decay process in billions of events" },
+    { "time": "10:00", "activity": "Physics analysis meeting — present your latest results to the working group", "tools": [], "note": "50 people in the room, all experts. Expect tough questions." },
+    { "time": "11:30", "activity": "Debug a detector calibration issue in the calorimeter", "tools": ["ROOT", "C++"], "note": "Detector operations shifts are a core responsibility — everyone takes turns" },
+    { "time": "12:30", "activity": "Lunch at CERN Restaurant 1 — sit with physicists from 5 different countries", "tools": [], "note": "The most international workplace on Earth — 110+ nationalities" },
+    { "time": "13:30", "activity": "Develop a new machine learning classifier for signal-background separation", "tools": ["Python", "scikit-learn", "ROOT"], "note": "ML is increasingly central to particle physics analysis" },
+    { "time": "15:00", "activity": "Collaboration-wide meeting — status update on the experiment's physics programme", "tools": ["Zoom/Indico"], "note": "3,000 collaborators; most join remotely from universities worldwide" },
+    { "time": "16:00", "activity": "Work on the internal review of a paper headed for publication", "tools": ["LaTeX", "Overleaf"], "note": "CERN papers go through extensive internal review before journal submission" },
+    { "time": "17:30", "activity": "Wrap up, push code to GitLab, update analysis documentation", "tools": ["Git", "GitLab"], "note": "Reproducibility is taken extremely seriously in big collaborations" },
+    { "time": "18:00", "activity": "Cycle home along Lake Geneva — discuss physics with a colleague on the ride", "tools": [], "note": "The views from CERN are spectacular. Mont Blanc on a clear day." }
+  ],
+  "responsibilities": [
+    "Analyse LHC collision data to search for new physics phenomena",
+    "Develop and maintain analysis software and frameworks",
+    "Take detector operation shifts (monitoring, calibration, data quality)",
+    "Contribute to detector hardware upgrades and maintenance",
+    "Present results at collaboration meetings and international conferences",
+    "Write and review papers for the collaboration",
+    "Mentor PhD students working on the experiment",
+    "Contribute to detector simulation (Geant4)"
+  ],
+  "challenges": [
+    "The sheer scale of the collaboration — your analysis is one of hundreds",
+    "Navigating the politics of a 3,000-person collaboration",
+    "The pressure to find new physics when the data might show nothing new",
+    "Living abroad, far from family (most CERN researchers are expatriates)",
+    "The uncertainty of short-term contracts (CERN fellowships are typically 2–3 years)"
+  ],
+  "rewards": [
+    "Working at the frontier of human knowledge — literally the edge of the Standard Model",
+    "Being part of historic discoveries (Higgs boson, gravitational waves of the particle world)",
+    "Collaborating with the brightest physicists from around the globe",
+    "Access to the most powerful scientific instruments ever built",
+    "Living in one of the most beautiful parts of Europe"
+  ],
+  "careerPath": [
+    "PhD → CERN Fellow (2–3 years) → Staff physicist or university faculty → Senior physicist → Group leader"
+  ]
+}

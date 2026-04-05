@@ -1,0 +1,26 @@
+{
+  "slug": "write-a-parliamentary-submission",
+  "title": "Write a Parliamentary Submission",
+  "difficulty": 4,
+  "estimatedHours": 12,
+  "description": "Write a formal submission to a current parliamentary inquiry — identify the inquiry, research the terms of reference, present evidence-based arguments, and submit through the official channel.",
+  "whyItMatters": "Parliamentary submissions are how citizens and organisations directly influence legislation. Committee members and staff read every submission. A well-crafted submission can change the course of a bill or shape recommendations in a committee report.",
+  "skillsLearned": ["Parliamentary process", "Formal writing", "Evidence-based argumentation", "Policy advocacy", "Civic participation"],
+  "prerequisites": ["civic-literacy", "policy-analysis"],
+  "steps": [
+    { "title": "Find an active inquiry", "description": "Search the APH website for current Senate or House committee inquiries. Choose one that interests you and is still accepting submissions.", "tips": "Senate inquiries often have more impact than House inquiries because the Senate is where legislation is scrutinised." },
+    { "title": "Study the terms of reference", "description": "Read the terms of reference carefully. Your submission must address the specific questions the committee has asked.", "tips": "Answer the terms of reference directly. Don't go off on tangents no matter how passionately you feel about them." },
+    { "title": "Research and draft", "description": "Write a 3-5 page submission: introduce yourself and your expertise, present evidence addressing each relevant term of reference, and make specific recommendations.", "tips": "Number your recommendations. Committees find it easier to adopt numbered, specific recommendations." },
+    { "title": "Cite sources", "description": "Support every claim with evidence — data, research, case studies, expert testimony.", "tips": "Link to publicly available sources where possible." },
+    { "title": "Review and submit", "description": "Have someone review your submission for clarity and tone. Submit through the official APH portal before the deadline.", "tips": "Keep the tone respectful and constructive. You are helping the committee do its job, not lecturing them." }
+  ],
+  "deliverables": ["A 3-5 page parliamentary submission", "A cover letter to the committee secretariat", "Confirmation of submission via the APH portal"],
+  "tools": ["APH Committee Portal", "ABS data", "Parliamentary Library resources", "Academic databases"],
+  "rubric": [
+    { "criteria": "Terms of reference alignment", "description": "Does the submission directly address the committee's specific questions?" },
+    { "criteria": "Evidence quality", "description": "Are claims supported by credible, verifiable data and research?" },
+    { "criteria": "Recommendations", "description": "Are the recommendations specific, numbered, and actionable?" },
+    { "criteria": "Tone and professionalism", "description": "Is the submission respectful, constructive, and properly formatted?" },
+    { "criteria": "Impact potential", "description": "Does the submission provide genuine value to the committee's deliberations?" }
+  ]
+}

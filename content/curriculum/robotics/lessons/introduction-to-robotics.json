@@ -1,0 +1,46 @@
+{
+  "slug": "introduction-to-robotics",
+  "moduleSlug": "what-is-robotics",
+  "title": "Introduction to Robotics",
+  "objective": "Understand what a robot is, how the field of robotics evolved, and why the sense-think-act paradigm underpins every robotic system from a warehouse AGV to a Mars rover.",
+  "beginnerExplanation": "A robot is a machine that can sense its environment, make decisions, and take physical action — often without direct human control. That definition is broad on purpose. A robot might be a six-axis arm welding car panels in a factory, a Roomba vacuuming your lounge room, a drone surveying a wheat field in rural New South Wales, or an autonomous haul truck carrying iron ore in Western Australia's Pilbara region.\n\nThe word 'robot' comes from the Czech word 'robota', meaning forced labour, and was first used in Karel Capek's 1920 play R.U.R. (Rossum's Universal Robots). But the real history of robotics begins in the 1950s and 1960s with Unimate, the first industrial robot, which was installed at a General Motors plant in 1961 to lift hot metal parts from a die-casting machine. Since then, robots have evolved from simple mechanical repeaters to intelligent machines capable of perception, learning, and autonomous decision-making.\n\nThe fundamental architecture of any robot can be understood through three words: sense, think, act. Sensors gather information about the world — cameras see, LiDAR measures distance, encoders track joint positions. The thinking layer processes this information and decides what to do — follow a path, pick up an object, avoid an obstacle. The action layer executes the decision through motors, grippers, and other actuators. Every robot, no matter how complex, follows this basic loop. Understanding this loop is your entry point to understanding all of robotics.",
+  "deeperExplanation": "Robotics sits at the intersection of mechanical engineering, electrical engineering, and computer science — and increasingly, artificial intelligence. This interdisciplinary nature is what makes robotics both challenging and exciting. A roboticist must understand dynamics and mechanisms (how things move), electronics and signal processing (how to sense and actuate), and algorithms and software (how to make decisions).\n\nThe field is broadly divided into several sub-domains. Industrial robotics focuses on manufacturing applications — welding, painting, assembly, palletising — where robots operate in structured environments performing repetitive tasks. Mobile robotics deals with robots that move through the world — on wheels, tracks, legs, or in the air. Field robotics addresses robots operating in unstructured, outdoor environments — mines, farms, oceans, disaster zones, and other planets. Medical robotics includes surgical systems like the da Vinci robot, rehabilitation devices, and diagnostic tools. Service robotics covers robots that assist humans in daily life — cleaning, delivery, companionship.\n\nAustralia has a particularly strong position in field robotics and mining automation. CSIRO's Data61 (formerly the Australian Centre for Field Robotics) has been a world leader since the 1990s. Companies like Caterpillar and Komatsu developed their autonomous mining systems with significant Australian engineering input. Rio Tinto's Mine of the Future programme, launched in 2008, created the world's largest fleet of autonomous haul trucks. More recently, Australian startups like Emesent (autonomous drone mapping for underground mines), Advanced Navigation (inertial navigation systems), and Swoop Aero (medical drone delivery) are pushing the frontier.\n\nThe key insight for a beginner is that robotics is not just about building clever machines — it is about building systems that reliably interact with the physical world. The gap between a demo that works in a lab and a system that works in the rain, dust, and heat of an Australian mine site is enormous. Bridging that gap is what makes robotics engineering distinct from pure software or pure mechanical engineering.",
+  "keyTakeaways": [
+    "A robot senses its environment, makes decisions, and takes physical action",
+    "The sense-think-act loop is the fundamental architecture of all robotic systems",
+    "Robotics is inherently interdisciplinary: mechanics, electronics, and computer science",
+    "Australia is a world leader in field robotics and mining automation",
+    "The gap between lab demos and real-world deployment is the central challenge of robotics"
+  ],
+  "frameworks": ["sense-plan-act"],
+  "example": "Consider Rio Tinto's autonomous haul trucks in the Pilbara. Each 300-tonne Komatsu truck uses GPS, radar, and LiDAR to sense its position and surroundings (sense). An on-board computer running path planning and traffic management algorithms decides the optimal route to the crusher and coordinates with other trucks at intersections (think). The truck's drive-by-wire system steers, accelerates, and brakes to follow the planned path (act). This sense-think-act loop runs continuously, dozens of times per second, 24 hours a day, in extreme heat and dust. The fleet has hauled over 4 billion tonnes of material since deployment, with better safety records than human-driven trucks.",
+  "commonMistakes": [
+    "Thinking robots need to look humanoid — most successful robots look nothing like people",
+    "Assuming robotics is only about programming — mechanical design, electronics, and systems integration matter just as much",
+    "Believing that AI and robotics are the same thing — AI is a tool that robots can use, but most robots run straightforward control algorithms",
+    "Underestimating the difficulty of operating in the real world — dust, vibration, temperature, and unexpected situations are the real challenges"
+  ],
+  "exercise": "Research three different robots operating in Australia today: one in mining (e.g. autonomous haul truck), one in agriculture (e.g. robotic weed sprayer), and one in logistics (e.g. warehouse AGV). For each robot, identify the sensors it uses (sense), the decision-making approach (think), and the actuators or mechanisms that produce physical action (act). Write a one-paragraph summary for each robot explaining how the sense-think-act loop works in practice.",
+  "nextLesson": "sensors-and-perception-fundamentals",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the fundamental operating loop shared by all robotic systems?",
+      "options": ["Build-test-deploy", "Sense-think-act", "Input-process-output", "Design-simulate-manufacture"],
+      "correctIndex": 1,
+      "explanation": "The sense-think-act loop is the fundamental architecture of all robotic systems. Sensors gather environmental data, processing algorithms make decisions, and actuators execute physical actions. While input-process-output describes computing generally, sense-think-act specifically captures the physical interaction that makes robotics distinct."
+    },
+    {
+      "question": "Why is Australia considered a world leader in field robotics?",
+      "options": ["Australia manufactures the most robots per capita", "Australian universities invented the first industrial robot", "Australia has deployed the world's largest autonomous mining fleet and has strong research institutions in field robotics", "Australian regulations are the most permissive for robot deployment"],
+      "correctIndex": 2,
+      "explanation": "Australia's leadership in field robotics stems from its mining industry driving autonomous haul truck deployment (Rio Tinto, BHP) and world-class research from institutions like CSIRO's Data61. The combination of economic need (vast remote mine sites, high labour costs) and research excellence has made Australia a global leader in robots that operate in unstructured outdoor environments."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As a robotics engineer, you design and integrate the sensing, computing, and actuation subsystems into a reliable whole. Your job is to bridge the gap between what works in simulation and what works in the field.",
+    "researcher": "As a robotics researcher, you push the boundaries of what robots can perceive, decide, and do. You publish papers, develop new algorithms, and prototype systems that might take years to reach commercial deployment.",
+    "operator": "As a robot operator or fleet manager, you monitor autonomous systems, intervene when needed, and ensure that robots work safely alongside human workers. You care about uptime, safety, and throughput.",
+    "businessOwner": "As a business owner considering robotics, you evaluate whether the investment in automation will improve safety, reduce costs, increase throughput, or enable operations that would be impossible with human labour alone."
+  }
+}

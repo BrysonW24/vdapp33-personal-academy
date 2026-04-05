@@ -1,0 +1,23 @@
+{
+  "slug": "guidance-navigation-control",
+  "title": "Guidance, Navigation & Control",
+  "shortSummary": "How rockets know where they are and where to go — inertial navigation, guidance algorithms, and the control systems that land boosters on droneships.",
+  "level": "intermediate",
+  "category": "avionics",
+  "whyItMatters": "GNC is the brain of the rocket. SpaceX's ability to land Falcon 9 boosters on a floating droneship is a triumph of guidance and control engineering. From launch to orbit insertion to precision landing, GNC systems make autonomous flight possible.",
+  "coreConcepts": [
+    "Inertial measurement units (IMUs)",
+    "Guidance algorithms and trajectory optimisation",
+    "Attitude determination and control",
+    "Thrust vector control (TVC)",
+    "GPS and ground-based tracking",
+    "Powered descent guidance (propulsive landing)"
+  ],
+  "lessons": [],
+  "frameworks": ["systems-engineering-v-model", "test-like-you-fly"],
+  "visualType": "control-loop",
+  "relatedModules": ["orbital-mechanics", "spacecraft-systems", "reusable-launch-vehicles"],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

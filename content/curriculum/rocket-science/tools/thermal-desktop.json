@@ -1,0 +1,15 @@
+{
+  "slug": "thermal-desktop",
+  "name": "Thermal Desktop",
+  "category": "analysis",
+  "description": "Specialised thermal analysis software for spacecraft and launch vehicle thermal design. Handles radiation modelling, orbital thermal environments, and cryogenic system analysis with aerospace-specific capabilities.",
+  "whyUseIt": "Spacecraft thermal design requires modelling radiation heat transfer in vacuum, solar heating, Earth albedo, and cryogenic propellant management. Thermal Desktop is purpose-built for these problems and trusted on major missions from James Webb to Dragon.",
+  "pricingTier": "enterprise",
+  "url": "https://www.crtech.com/products/thermal-desktop",
+  "alternatives": ["ESATAN-TMS", "ANSYS Thermal", "OpenRadioss"],
+  "funnelPosition": "Spacecraft and launch vehicle thermal design",
+  "outputs": ["Temperature distributions", "Heat flux maps", "Orbital thermal cycling", "Cryogenic boil-off predictions"],
+  "vocabulary": [{"term": "MLI", "definition": "Multi-Layer Insulation — the gold-coloured blankets on spacecraft that minimise radiative heat transfer"},
+    {"term": "View factor", "definition": "The fraction of radiation leaving one surface that reaches another — critical for spacecraft thermal modelling"}],
+  "beginnerMistakes": ["Ignoring the orbital thermal environment (sunlight vs eclipse)", "Not modelling radiative coupling between components", "Using overly simplified view factors"]
+}

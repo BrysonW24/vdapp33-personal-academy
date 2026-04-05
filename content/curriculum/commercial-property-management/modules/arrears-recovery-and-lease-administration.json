@@ -1,0 +1,27 @@
+{
+  "slug": "arrears-recovery-and-lease-administration",
+  "title": "Arrears Recovery and Lease Administration",
+  "shortSummary": "Control the administrative layer that protects cashflow: billing accuracy, arrears discipline, key dates, and lease records.",
+  "level": "intermediate",
+  "category": "finance",
+  "whyItMatters": "Cashflow problems often begin as administration problems. A missed billing adjustment, poor record, weak follow-up, or unclear escalation path can quickly become a landlord relationship problem. Strong lease administration keeps the building commercially clean: dates tracked, records current, actions documented, and arrears handled early rather than emotionally.",
+  "coreConcepts": [
+    "The admin controls that protect recurring income",
+    "Why arrears conversations should be disciplined and staged",
+    "How to separate tenant hardship, dispute, and avoidance",
+    "The role of clean records in escalation and recovery"
+  ],
+  "lessons": [],
+  "frameworks": [
+    "Lease Obligation Check",
+    "Tenant Escalation Ladder"
+  ],
+  "relatedModules": [
+    "reading-commercial-leases",
+    "operating-budgets-and-outgoings",
+    "owner-reporting-and-kpis"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 3
+}

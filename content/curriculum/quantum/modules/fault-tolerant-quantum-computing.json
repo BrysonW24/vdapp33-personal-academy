@@ -1,0 +1,23 @@
+{
+  "slug": "fault-tolerant-quantum-computing",
+  "title": "Fault-Tolerant Quantum Computing",
+  "shortSummary": "What it takes to move from noisy experiments to reliable logical computation at useful scale.",
+  "level": "advanced",
+  "category": "reliability",
+  "whyItMatters": "Much of the long-term promise of quantum computing depends on fault tolerance. This is where engineering optimism meets the full cost of noise, control, and logical overhead.",
+  "coreConcepts": [
+    "Logical qubits",
+    "Threshold theorem intuition",
+    "Surface-code scaling",
+    "Magic-state distillation",
+    "Resource overhead",
+    "Roadmaps to useful scale"
+  ],
+  "lessons": [],
+  "frameworks": ["surface-code-intuition", "divincenzo-criteria"],
+  "visualType": "logical-qubit",
+  "relatedModules": ["quantum-error-correction", "superconducting-qubits", "trapped-ions-neutral-atoms"],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 3
+}

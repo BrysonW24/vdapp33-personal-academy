@@ -1,0 +1,15 @@
+{
+  "slug": "thought-experiment-method",
+  "name": "Thought Experiment Method",
+  "summary": "A rigorous mental experiment used to explore the consequences of physical principles without performing an actual experiment — a hallmark of theoretical physics.",
+  "whenToUseIt": "Use thought experiments when physical conditions are extreme or impractical (travelling near light speed, falling into a black hole), when testing the consistency of a theory, or when you want to isolate the essential physics from experimental complications.",
+  "steps": [
+    "State the physical principles or laws you are testing",
+    "Construct an idealised scenario that isolates the key physics",
+    "Reason through the consequences step by step, applying the laws rigorously",
+    "Identify any contradictions, paradoxes, or surprising predictions",
+    "Determine whether the result confirms, extends, or challenges the theory"
+  ],
+  "example": "Einstein's elevator thought experiment: imagine you are in a sealed elevator. If the elevator accelerates upward at g, you feel exactly the same as standing in a gravitational field. This equivalence principle became the foundation of general relativity — gravity and acceleration are indistinguishable locally.",
+  "category": "methodology"
+}

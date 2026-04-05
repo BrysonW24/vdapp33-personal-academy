@@ -1,0 +1,10 @@
+{
+  "slug": "opencv",
+  "name": "OpenCV",
+  "category": "software",
+  "description": "OpenCV (Open Source Computer Vision Library) is the world's most widely used computer vision library, with over 2,500 optimised algorithms for image processing, feature detection, object recognition, camera calibration, stereo vision, optical flow, and machine learning. Available in C++, Python, and Java, OpenCV is the foundation of most robotic vision systems. It includes modules for deep neural network inference (DNN), 3D reconstruction (SfM), and GPU-accelerated processing via CUDA.",
+  "whyUseIt": "OpenCV is the Swiss Army knife of computer vision. Need to calibrate a camera? OpenCV. Detect edges? OpenCV. Track objects? OpenCV. Run a YOLO model? OpenCV's DNN module. Process point clouds? OpenCV's 3D module. It is free, extremely well-documented, and runs on everything from a Raspberry Pi to a GPU cluster. Learning OpenCV is a prerequisite for any work in robotic perception, and it is used in virtually every robotics lab and company worldwide.",
+  "pricingTier": "free",
+  "url": "https://opencv.org/",
+  "alternatives": ["Pillow (basic image processing)", "scikit-image", "Kornia (PyTorch-based)", "SimpleCV"]
+}

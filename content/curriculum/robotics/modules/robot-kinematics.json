@@ -1,0 +1,16 @@
+{
+  "slug": "robot-kinematics",
+  "title": "Robot Kinematics",
+  "shortSummary": "Learn the mathematics of robot motion. Kinematics describes how joints and links combine to produce movement, and how to calculate where a robot's end effector will be for any given set of joint angles.",
+  "level": "beginner",
+  "category": "foundations",
+  "whyItMatters": "Every time an industrial robot welds a car body panel or a surgical robot positions a scalpel, kinematics is at work. Kinematics is the branch of mechanics that describes motion without considering the forces that cause it. In robotics, forward kinematics tells you where the robot's hand will end up given a set of joint angles, and inverse kinematics tells you what joint angles you need to reach a specific point. This mathematical foundation underpins every robot arm, every walking robot, and every manipulator in existence. Without kinematics, you cannot program a robot to move where you want it to go.",
+  "coreConcepts": ["Degrees of freedom", "Joint types: revolute, prismatic, spherical", "Forward kinematics and DH parameters", "Inverse kinematics", "Workspace and reachability", "Homogeneous transformation matrices", "Jacobian matrix and velocity kinematics"],
+  "lessons": ["robot-kinematics-fundamentals"],
+  "frameworks": ["degrees-of-freedom-analysis"],
+  "visualType": "kinematic-chain",
+  "relatedModules": ["actuators-and-motors", "control-systems-fundamentals", "robotic-manipulation"],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

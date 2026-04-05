@@ -1,0 +1,22 @@
+{
+  "slug": "governance-reform",
+  "title": "Governance Reform",
+  "shortSummary": "Reform the system from within — constitutional change, electoral reform, anti-corruption measures, Indigenous recognition, and modernising democratic institutions for the 21st century.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The institutions of democracy need maintenance and renewal. Politicians who understand governance reform can improve the system itself — not just win within it. From anti-corruption bodies to constitutional recognition, reform is the legacy that outlasts any government.",
+  "coreConcepts": [
+    "Constitutional reform and referendums",
+    "Electoral reform: voting systems and representation",
+    "Anti-corruption and integrity commissions",
+    "Indigenous constitutional recognition",
+    "Transparency and accountability mechanisms",
+    "Digital government and democratic innovation"
+  ],
+  "lessons": [],
+  "frameworks": ["legislative-strategy-canvas"],
+  "relatedModules": ["political-philosophy", "legislative-process", "political-legacy"],
+  "status": "coming-soon",
+  "order": 19,
+  "levelNumber": 4
+}

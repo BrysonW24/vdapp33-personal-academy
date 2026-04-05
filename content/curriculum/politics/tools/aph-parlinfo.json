@@ -1,0 +1,20 @@
+{
+  "slug": "aph-parlinfo",
+  "name": "APH ParlInfo Search",
+  "category": "analytics",
+  "description": "The Parliament of Australia's comprehensive search engine — covering Hansard, bills, committee reports, tabled papers, and member information. The most powerful research tool for Australian political professionals.",
+  "whyUseIt": "ParlInfo is the definitive search tool for Australian parliamentary information. It lets you search across all parliamentary records simultaneously — finding every mention of an issue, tracking a bill's progress, or compiling a complete record of what a politician has said.",
+  "pricingTier": "free",
+  "url": "https://parlinfo.aph.gov.au",
+  "alternatives": ["Hansard", "OpenAustralia", "Federal Register of Legislation"],
+  "funnelPosition": "Research and preparation",
+  "outputs": ["Cross-referenced parliamentary search results", "Bill tracking", "Committee report access", "Member profiles and speeches"],
+  "marketerWorkflow": "Search for all references to your policy issue across Hansard, committee reports, and bills. Track the legislative history of related measures. Compile a briefing note for your member.",
+  "managerExpects": "Staff who can produce comprehensive parliamentary research on any topic within hours, not days",
+  "vocabulary": [
+    { "term": "Tabled paper", "definition": "A document formally presented to parliament — reports, treaties, regulations" },
+    { "term": "Committee report", "definition": "The findings and recommendations of a parliamentary committee inquiry" }
+  ],
+  "beginnerMistakes": ["Using only keyword search when ParlInfo's advanced filters (date range, document type, speaker) produce much better results", "Not checking committee reports — they often contain the most detailed analysis on any political issue"],
+  "relatedProject": "write-a-parliamentary-submission"
+}

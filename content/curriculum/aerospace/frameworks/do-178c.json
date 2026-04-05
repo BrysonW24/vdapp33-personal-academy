@@ -1,0 +1,15 @@
+{
+  "slug": "do-178c",
+  "name": "DO-178C Software Assurance",
+  "summary": "The core airborne-software development standard used to show that safety-critical avionics software has been specified, coded, verified, and controlled appropriately.",
+  "whenToUseIt": "Use it whenever airborne software contributes to aircraft safety and certification evidence must be generated for regulators and design authorities.",
+  "steps": [
+    "Determine software level from the system safety assessment.",
+    "Plan the software life cycle, standards, and verification approach.",
+    "Develop high-level and low-level requirements with full traceability.",
+    "Implement code and verify it with reviews, analysis, and testing.",
+    "Assemble configuration, quality, and certification evidence for approval."
+  ],
+  "example": "An autopilot mode-management function on a certified aircraft requires far more than working code. Under DO-178C, the team must prove traceability from requirement to test result and show that verification is commensurate with safety impact.",
+  "category": "software-assurance"
+}

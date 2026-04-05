@@ -1,0 +1,22 @@
+{
+  "slug": "political-philosophy",
+  "title": "Political Philosophy",
+  "shortSummary": "Explore the ideas that shape political movements — liberalism, conservatism, socialism, libertarianism, and the philosophical foundations of rights, justice, and the common good.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Every policy position rests on philosophical assumptions about human nature, freedom, equality, and the role of the state. Understanding these foundations lets you articulate why you believe what you believe — and engage honestly with those who disagree.",
+  "coreConcepts": [
+    "Liberalism and individual rights",
+    "Conservatism and tradition",
+    "Socialism and collective ownership",
+    "Libertarianism and limited government",
+    "Utilitarianism vs deontological ethics",
+    "Social contract theory: Hobbes, Locke, Rousseau"
+  ],
+  "lessons": ["foundations-of-political-thought"],
+  "frameworks": ["policy-impact-framework"],
+  "relatedModules": ["what-politics-is", "civic-literacy", "governance-reform"],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

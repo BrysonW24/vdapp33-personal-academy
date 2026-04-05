@@ -1,0 +1,12 @@
+{
+  "slug": "aerospace",
+  "name": "Aerospace",
+  "shortName": "Aero",
+  "group": "engineering",
+  "icon": "Plane",
+  "color": "#3D7F71",
+  "tagline": "Flight, vehicles, structures, propulsion, and the engineering of systems that move through air and space.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 3
+}

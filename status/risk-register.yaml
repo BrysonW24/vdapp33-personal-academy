@@ -1,0 +1,55 @@
+app_id: vdapp33-personal-academy
+last_updated: 2026-04-04
+
+risks:
+  - id: R1
+    title: Subject depth can drift back into unevenness if future additions skip verification
+    severity: medium
+    likelihood: medium
+    area: product
+    status: open
+    mitigation: Run route smoke checks and content-count sanity checks whenever a subject content pack is expanded or reshaped.
+    owner: unassigned
+
+  - id: R2
+    title: Source content schemas vary subtly across migrated subjects
+    severity: medium
+    likelihood: medium
+    area: quality
+    status: open
+    mitigation: Keep loaders tolerant, run type-check/build after migrations, and avoid over-constraining schemas to one subject's shape.
+    owner: unassigned
+
+  - id: R3
+    title: Ecosystem docs can drift from the approved founder-vs-personal split
+    severity: medium
+    likelihood: medium
+    area: operations
+    status: open
+    mitigation: Update app docs and academy-ecosystem doctrine together whenever routing, grouping, or migration posture changes.
+    owner: unassigned
+
+  - id: R4
+    title: `next lint` is deprecated in Next.js 16
+    severity: low
+    likelihood: high
+    area: operations
+    status: open
+    mitigation: Migrate lint execution from `next lint` to the ESLint CLI before the next framework upgrade cycle.
+    owner: unassigned
+
+  - id: R5
+    title: Generic subject framing can drift back into client branding
+    severity: low
+    likelihood: medium
+    area: content
+    status: open
+    mitigation: Keep manifests, navigation, and shell-level docs generic, and allow JLL-specific references only inside factual tool and workflow content where they materially help the curriculum.
+    owner: unassigned
+
+notes:
+  - Personal Academy source apps were archived on 2026-04-04 after archive-gate verification. Archived copies remain available for recovery/reference in `archive/2026-04-04-personal-academy-migration-sources/`.
+  - 2026-04-03 verification passed for install, type-check, lint, build, and manual route smoke coverage.
+  - Quantum was expanded beyond the original 4-module migration baseline on 2026-04-03.
+  - The 2026-04-04 QA regression involving stale build assets and missing `vendor-chunks/zod.js` was fixed by rebuilding from a clean `.next` state and isolating runtime schemas from shared curriculum types.
+  - Commercial Property Management was migrated from `vdapp46-jll-commercial-property-manager-academy` on 2026-04-04 with generic subject naming preserved in the shell.

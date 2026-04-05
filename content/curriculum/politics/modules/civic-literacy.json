@@ -1,0 +1,22 @@
+{
+  "slug": "civic-literacy",
+  "title": "Civic Literacy",
+  "shortSummary": "Know your rights, your responsibilities, and how to participate in Australian democracy — from voting and petitions to community advocacy and engagement with elected representatives.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Democracy only works when citizens participate. Civic literacy is the knowledge every Australian needs to hold their government accountable, engage in policy debates, and make informed choices at the ballot box.",
+  "coreConcepts": [
+    "Compulsory voting in Australia",
+    "How to read legislation and Hansard",
+    "Local, state, and federal responsibilities",
+    "The role of media in democracy",
+    "Freedom of information and transparency",
+    "How to engage with your local MP"
+  ],
+  "lessons": ["being-an-active-citizen"],
+  "frameworks": ["message-framing"],
+  "relatedModules": ["what-politics-is", "political-systems", "community-organising"],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

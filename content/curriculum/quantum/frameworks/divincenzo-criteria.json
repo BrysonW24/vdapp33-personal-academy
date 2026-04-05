@@ -1,0 +1,15 @@
+{
+  "slug": "divincenzo-criteria",
+  "name": "DiVincenzo Criteria",
+  "summary": "A classic checklist for what a physical system must provide to support quantum computation: scalable qubits, initialization, long coherence, universal gates, and measurement.",
+  "whenToUseIt": "Use it when comparing hardware platforms or asking whether a quantum technology is merely interesting physics or a plausible computing architecture.",
+  "steps": [
+    "Check whether the platform offers a scalable qubit representation.",
+    "Ask how states are initialized and reset.",
+    "Assess coherence time relative to control operations.",
+    "Confirm that a universal gate set can be implemented.",
+    "Evaluate whether individual qubits can be measured reliably."
+  ],
+  "example": "A platform might have excellent coherence but poor scaling or weak measurement. The DiVincenzo criteria help explain why that still limits its computing potential.",
+  "category": "hardware"
+}

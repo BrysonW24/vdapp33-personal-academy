@@ -1,0 +1,17 @@
+{
+  "slug": "fundraising-funnel",
+  "name": "Fundraising Funnel",
+  "summary": "A structured approach to political fundraising — from broad awareness to small donations to major donor cultivation, all within Australian electoral law.",
+  "whenToUseIt": "When setting up a campaign fundraising operation, when planning a fundraising event, when building a donor database, or when transitioning from grassroots to major donor fundraising.",
+  "steps": [
+    "Top of funnel: Build awareness — social media, community events, earned media coverage",
+    "Capture contacts: Email list, event attendees, social media followers — always with clear consent",
+    "First ask: Small-dollar digital donation ($5-$50) with a compelling reason to give now",
+    "Nurture: Regular updates showing impact — 'Your $20 funded 100 door-knocks this weekend'",
+    "Upgrade: Identify recurring small donors and invite to mid-tier events ($100-$500)",
+    "Major donors: Personal cultivation — one-on-one meetings, private briefings, policy discussions ($1,000+)",
+    "Compliance: Track every donation, ensure all disclosures meet AEC requirements, maintain donor privacy"
+  ],
+  "example": "A first-time candidate in a federal electorate might begin fundraising 18 months before the election. Month 1-6: build an email list of 2,000 through community events and social media. Month 6-9: launch a small-dollar campaign raising $30,000 from 800 donors (average $37.50). Month 9-12: host two fundraising events ($200/head, 100 attendees each = $40,000). Month 12-18: cultivate 10 major donors at $5,000-$10,000 each = $50,000-$100,000. Total raised: $120,000-$170,000, which is competitive for an independent candidate. All donations above the disclosure threshold ($16,300 in 2024-25) must be reported to the AEC.",
+  "category": "campaign-operations"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "matlab-simulink",
+  "name": "MATLAB / Simulink",
+  "category": "controls",
+  "description": "The standard modelling and simulation environment for control design, dynamic-system analysis, and engineering scripting across aerospace teams.",
+  "whyUseIt": "From flight-dynamics models to autopilot tuning, MATLAB and Simulink remain deeply embedded in aerospace engineering. They are especially useful where rapid modelling, control-law iteration, and test-data analysis meet.",
+  "pricingTier": "paid",
+  "url": "https://www.mathworks.com/products/simulink.html",
+  "alternatives": ["Python / SciPy", "Julia", "Modelica"],
+  "fieldPosition": "Dynamics, controls, and engineering-analysis workflows",
+  "engineerWorkflow": "Build a plant model, add sensors and controller logic, run scenarios, then compare simulation output against test data or requirement targets.",
+  "managerExpects": "Traceable assumptions, versioned models, and simulations that support decisions on stability, control, or test readiness.",
+  "demoDescription": "Prototype a simple pitch-control loop and compare step response before and after gain tuning.",
+  "outputs": [
+    "Dynamic-system models",
+    "Control-law simulations",
+    "Time-history plots",
+    "Parameter sweeps"
+  ],
+  "beginnerMistakes": [
+    "Tuning controllers without validating the plant model first",
+    "Leaving model assumptions undocumented when sharing results"
+  ],
+  "relatedProject": "flight-test-card-package"
+}

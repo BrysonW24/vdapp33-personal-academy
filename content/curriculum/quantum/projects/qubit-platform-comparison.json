@@ -1,0 +1,68 @@
+{
+  "slug": "qubit-platform-comparison",
+  "title": "Qubit Platform Comparison",
+  "difficulty": 4,
+  "estimatedHours": 7,
+  "description": "Compare the leading qubit platforms against one application goal and argue which hardware approach is most credible for that use case.",
+  "whyItMatters": "The field is full of platform claims. This project teaches how to compare coherence, control, scaling, and operating constraints without collapsing into hype.",
+  "skillsLearned": [
+    "Hardware trade-study thinking",
+    "Evidence-based comparison",
+    "Application matching",
+    "Technical synthesis"
+  ],
+  "prerequisites": [
+    "Qubit Technologies",
+    "Quantum Industry Applications"
+  ],
+  "steps": [
+    {
+      "title": "Choose the target application",
+      "description": "Pick a use case such as chemistry simulation, networking, or precision sensing.",
+      "tips": "A specific application produces a better comparison than a generic one."
+    },
+    {
+      "title": "Select the candidate platforms",
+      "description": "Compare at least three platforms such as superconducting, trapped-ion, and photonic systems.",
+      "tips": "Use common comparison axes so the trade stays fair."
+    },
+    {
+      "title": "Score the engineering trade-offs",
+      "description": "Assess coherence, gate quality, scaling path, infrastructure burden, and likely roadmap risk.",
+      "tips": "Explain why each criterion matters for the chosen application."
+    },
+    {
+      "title": "Write a recommendation",
+      "description": "Name the most credible platform and the strongest reason you might still choose a different one.",
+      "tips": "Good trade studies acknowledge uncertainty."
+    },
+    {
+      "title": "Reflect on hype versus evidence",
+      "description": "Identify one claim that sounds impressive but weakens under closer engineering scrutiny.",
+      "tips": "This is a judgement exercise, not just a spreadsheet exercise."
+    }
+  ],
+  "deliverables": [
+    "Platform comparison matrix",
+    "Application-specific recommendation",
+    "Short note on one overhyped or underappreciated trade-off"
+  ],
+  "tools": [
+    "python-scipy",
+    "amazon-braket"
+  ],
+  "rubric": [
+    {
+      "criteria": "Comparison quality",
+      "description": "The platforms are judged on relevant, application-linked criteria."
+    },
+    {
+      "criteria": "Judgement",
+      "description": "The recommendation is evidence-based rather than buzzword-based."
+    },
+    {
+      "criteria": "Communication",
+      "description": "The trade study is concise and reviewable."
+    }
+  ]
+}

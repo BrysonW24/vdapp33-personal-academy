@@ -1,0 +1,16 @@
+{
+  "slug": "human-robot-interaction",
+  "title": "Human-Robot Interaction",
+  "shortSummary": "Understand the science of designing robots that work effectively with people. HRI spans ergonomics, psychology, interface design, trust, and the social dynamics of humans sharing spaces with machines.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The most technically capable robot is worthless if people refuse to work with it, are afraid of it, or cannot understand what it is doing. Human-Robot Interaction (HRI) is the interdisciplinary field that studies how humans and robots communicate, collaborate, and coexist. As robots move out of fenced factory cells and into shared workspaces, hospitals, homes, and public spaces, HRI becomes critical. How should a delivery robot signal its intentions to pedestrians? How should a surgical robot communicate its state to a surgeon? How much autonomy should an operator give a mining robot before trust breaks down? In Australia, where labour shortages in healthcare, aged care, and agriculture are driving robot adoption, getting HRI right is the difference between robots that are welcomed and robots that are rejected. This module covers the technical, psychological, and design dimensions of making robots that people actually want to use.",
+  "coreConcepts": ["Levels of robot autonomy and supervisory control", "Trust in automation: calibration and over-reliance", "Natural language and gesture-based interfaces", "Robot social behaviour and non-verbal communication", "Telepresence and teleoperation", "User experience design for robot interfaces", "Cultural differences in robot acceptance"],
+  "lessons": [],
+  "frameworks": ["task-decomposition"],
+  "visualType": "hri-spectrum",
+  "relatedModules": ["collaborative-robots", "robot-ethics-and-safety", "industrial-automation"],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 3
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "material-selection-methodology",
+  "name": "Material Selection Methodology",
+  "summary": "A structured way to choose aerospace materials by balancing strength, stiffness, temperature capability, fatigue, corrosion, manufacturability, and cost.",
+  "whenToUseIt": "Use it whenever a component must be matched to a realistic environment instead of selecting materials by habit or headline performance.",
+  "steps": [
+    "Define the load case, environment, life requirement, and failure consequences.",
+    "Set the key performance indices such as specific stiffness or temperature capability.",
+    "Screen candidate materials and manufacturing routes.",
+    "Compare trade-offs including cost, inspection, repair, and supply chain risk.",
+    "Down-select and validate with analysis and test."
+  ],
+  "example": "For a UAV wing skin, carbon composite may win on stiffness and mass, but aluminium may still be better if field repair, cost, and moisture tolerance dominate the mission need.",
+  "category": "materials"
+}

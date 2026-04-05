@@ -1,0 +1,25 @@
+{
+  "slug": "delta-v-mission-planner",
+  "title": "Delta-V Mission Planner",
+  "difficulty": 5,
+  "estimatedHours": 15,
+  "description": "Build a comprehensive delta-v mission planning tool that maps the entire solar system's delta-v requirements. Users select origin, destination, and vehicle parameters to get a complete propellant and staging analysis.",
+  "whyItMatters": "Delta-v maps are the road maps of space travel. Every mission architect uses them to evaluate feasibility, size vehicles, and compare mission options. Building one from scratch teaches you the astrodynamics that underpins all mission design.",
+  "skillsLearned": ["Complete delta-v budgeting", "Mission architecture", "Graph-based pathfinding", "Vehicle sizing", "Full mission analysis"],
+  "prerequisites": ["orbital-mechanics", "what-rocket-science-is"],
+  "steps": [
+    {"title": "Build the delta-v graph", "description": "Create a data structure representing delta-v costs between key nodes: Earth surface, LEO, GEO, lunar orbit, lunar surface, Mars transfer, Mars orbit, Mars surface, and asteroid belt.", "tips": "Use a weighted graph — delta-v costs are not symmetric (e.g., landing on Mars costs less than launching from Mars)."},
+    {"title": "Implement pathfinding", "description": "Build a shortest-path algorithm that finds the minimum delta-v route between any two nodes. Account for gravity assists and aerobraking as reduced-cost edges.", "tips": "Dijkstra's algorithm works well here. Add optional edges for gravity assists."},
+    {"title": "Add vehicle sizing", "description": "Given a path and its total delta-v, use the Tsiolkovsky equation to calculate propellant mass, staging requirements, and payload capacity for different engine types.", "tips": "Allow users to select from real engines (Merlin, Raptor, RL-10) to see how engine choice affects the mission."},
+    {"title": "Visualise the map", "description": "Create an interactive solar system delta-v map. Nodes are destinations, edges show delta-v cost. Highlight the selected route.", "tips": "Colour-code routes by total delta-v. Show the 'no refuelling' limit for different vehicles."},
+    {"title": "Mission scenario analysis", "description": "Use the tool to analyse real mission scenarios: Falcon 9 to GEO, Starship to Mars with refuelling, Artemis to the Moon. Compare with published mission parameters.", "tips": "Starship's in-orbit refuelling changes everything — show how it unlocks missions that are impossible without it."}
+  ],
+  "deliverables": ["Interactive delta-v mission planner", "Solar system delta-v map visualisation", "Analysis of three real mission scenarios", "Report on how in-orbit refuelling changes mission feasibility"],
+  "tools": ["python-astropy", "matlab"],
+  "rubric": [
+    {"criteria": "Graph completeness", "description": "Delta-v map covers all major solar system destinations with accurate costs"},
+    {"criteria": "Pathfinding", "description": "Algorithm correctly finds minimum delta-v routes including optional assists"},
+    {"criteria": "Vehicle analysis", "description": "Accurate propellant and staging calculations for real engine parameters"},
+    {"criteria": "Insight", "description": "Clear demonstration of how refuelling and gravity assists change mission feasibility"}
+  ]
+}

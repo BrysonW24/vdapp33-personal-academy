@@ -1,0 +1,21 @@
+{
+  "slug": "slack-campaign",
+  "name": "Slack / Discord for Campaign Teams",
+  "category": "crm",
+  "description": "Team communication platforms used by campaign staff and volunteer coordinators for real-time coordination, file sharing, and rapid decision-making during campaign operations.",
+  "whyUseIt": "Campaigns move fast. Email is too slow for real-time coordination. Slack or Discord gives campaign teams instant communication, organised by topic (channels for media, field, fundraising, volunteers), with the ability to share documents, tag people, and make quick decisions.",
+  "pricingTier": "freemium",
+  "url": "https://slack.com",
+  "aiCapabilities": "AI search, automated summaries, workflow automation, integration with campaign tools",
+  "alternatives": ["Discord", "Microsoft Teams", "WhatsApp Groups", "Signal Groups"],
+  "funnelPosition": "Internal operations — not voter-facing",
+  "outputs": ["Team communications", "Decision logs", "File sharing", "Automated workflows"],
+  "marketerWorkflow": "Set up channels for each campaign function (media, field, events, fundraising), create automated daily briefing posts, use integrations to pipe NationBuilder notifications and social media alerts into relevant channels",
+  "managerExpects": "Centralised, searchable campaign communication that replaces scattered WhatsApp messages and email chains",
+  "vocabulary": [
+    { "term": "Channel", "definition": "A topic-specific conversation thread — e.g., #media, #field-ops, #fundraising" },
+    { "term": "Integration", "definition": "Connecting external tools (NationBuilder, Google Sheets, social media) to post updates automatically into Slack" }
+  ],
+  "beginnerMistakes": ["Using personal WhatsApp for campaign coordination — it's unsearchable and creates security risks", "Creating too many channels so important messages get lost"],
+  "relatedProject": "run-a-mock-campaign"
+}

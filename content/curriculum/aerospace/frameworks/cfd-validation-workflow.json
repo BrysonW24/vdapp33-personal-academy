@@ -1,0 +1,15 @@
+{
+  "slug": "cfd-validation-workflow",
+  "name": "CFD Validation Workflow",
+  "summary": "A disciplined sequence for turning a CFD result from an attractive picture into analysis you can trust for engineering decisions.",
+  "whenToUseIt": "Use it whenever CFD results affect design choices, performance claims, or certification evidence and you need to prove the model is credible.",
+  "steps": [
+    "Define the decision the CFD result is meant to support.",
+    "Choose turbulence models, boundary conditions, and mesh strategy appropriate to the flow regime.",
+    "Run mesh-sensitivity and solver-convergence studies.",
+    "Compare against analytical solutions, legacy data, or experiments.",
+    "Document the remaining uncertainty and limits of applicability."
+  ],
+  "example": "A drag-reduction concept may look promising on a single coarse mesh, but once the team performs grid refinement and compares against wind-tunnel polars, the claimed benefit may shrink from 8 percent to 2 percent. The workflow prevents false confidence.",
+  "category": "simulation"
+}

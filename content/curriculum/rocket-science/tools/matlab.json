@@ -1,0 +1,15 @@
+{
+  "slug": "matlab",
+  "name": "MATLAB",
+  "category": "programming",
+  "description": "The industry-standard numerical computing environment for aerospace engineering. Used for trajectory analysis, control system design, signal processing, and mathematical modelling across every major space programme.",
+  "whyUseIt": "MATLAB's Aerospace Toolbox and Control System Toolbox provide purpose-built functions for orbital mechanics, attitude dynamics, and GNC design. Most aerospace engineers learn MATLAB first and use it throughout their careers.",
+  "pricingTier": "paid",
+  "url": "https://www.mathworks.com/products/matlab.html",
+  "alternatives": ["Python/NumPy/SciPy", "Octave", "Julia"],
+  "funnelPosition": "Analysis and design",
+  "outputs": ["Trajectory simulations", "Control system models", "Performance analyses", "Mission trade studies"],
+  "vocabulary": [{"term": "Simulink", "definition": "MATLAB's graphical simulation environment for modelling dynamic systems"},
+    {"term": "Aerospace Toolbox", "definition": "MATLAB toolbox with functions for coordinate transforms, atmosphere models, and orbital mechanics"}],
+  "beginnerMistakes": ["Using MATLAB when Python would be simpler and free", "Not leveraging built-in aerospace functions", "Writing procedural code instead of vectorised operations"]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "cbd-office-tower",
+  "title": "CBD Office Tower Property Manager",
+  "setting": "A premium multi-tenant office tower in a major central business district",
+  "companySize": "Large institutional ownership with specialist support teams",
+  "description": "You manage a high-profile office tower where tenant expectations are sharp, owner reporting is disciplined, and building services cannot wobble for long without reputational and financial consequences. Your day sits at the intersection of tenant experience, contractor control, budgets, and client trust.",
+  "salary": "Often mid-five to low-six figures base in major markets, with higher ranges for premium assets and more complex portfolios.",
+  "schedule": [
+    { "time": "07:15", "activity": "Review overnight incidents, security notes, and open work orders before the building fills up", "tools": ["angus-anywhere", "microsoft-teams"], "note": "The best time to catch service risk is before tenants feel it." },
+    { "time": "08:00", "activity": "Walk the lobby, amenities, loading dock, and key common areas with engineering or facilities support", "tools": ["notion"], "note": "A ten-minute walk often tells you more than an hour of desk reporting." },
+    { "time": "09:00", "activity": "Tenant-service triage: HVAC comfort issue, after-hours access request, and one fitout noise complaint", "tools": ["angus-anywhere", "microsoft-teams"], "note": "Fast acknowledgment protects confidence even when fixes take longer." },
+    { "time": "10:00", "activity": "Monthly owner reporting prep: review occupancy, arrears, capex status, and budget variance commentary", "tools": ["jll-prism", "microsoft-excel", "power-bi"], "note": "Client trust grows when the story behind the numbers is already clear." },
+    { "time": "11:00", "activity": "Contractor review meeting for cleaning and HVAC performance", "tools": ["microsoft-teams", "notion"], "note": "Vendors shape tenant experience as much as the property team does." },
+    { "time": "12:30", "activity": "Working lunch with leasing support to review one upcoming expiry and one vacancy strategy question", "tools": ["costar", "mri-software"], "note": "Property management and leasing work best when they share timing and market context." },
+    { "time": "14:00", "activity": "Client call with ownership representative to discuss a lift-modernization capex case and one tenant relationship issue", "tools": ["microsoft-teams", "power-bi"], "note": "Owners want judgment, not just status updates." },
+    { "time": "15:30", "activity": "Review fitout progress on a new tenant floor and confirm handover risk items", "tools": ["procore"], "note": "Handover problems become operational problems very quickly." },
+    { "time": "16:30", "activity": "Reset tomorrow's priority stack and document follow-ups for tenants, contractors, and finance", "tools": ["notion", "microsoft-teams"], "note": "A calm close of day protects the next morning from avoidable chaos." }
+  ],
+  "responsibilities": [
+    "Maintain service quality and building presentation for a high-visibility office asset",
+    "Coordinate vendors, engineering teams, and fitout stakeholders",
+    "Prepare monthly client reporting and budget commentary",
+    "Support lease obligations, renewals, and tenant relationship management",
+    "Escalate incidents and protect compliance, safety, and owner confidence",
+    "Shape capex recommendations for aging-plant and tenant-experience upgrades"
+  ],
+  "challenges": [
+    "Premium-office tenants have low tolerance for comfort, lift, and cleanliness issues",
+    "Owner reporting standards are high and often fast-moving",
+    "A single building issue can affect many tenants at once",
+    "Fitout and access coordination can disrupt normal service rhythm",
+    "There is constant pressure to balance service quality with expense control"
+  ],
+  "rewards": [
+    "You develop strong client-facing judgment on a visible commercial asset",
+    "The work is varied and combines operations, finance, and stakeholder management",
+    "You gain experience that translates well into portfolio or senior client roles",
+    "Strong performance is highly visible to owners and internal leadership",
+    "You learn quickly because the building gives constant real-world feedback"
+  ],
+  "careerPath": [
+    "Property coordinator or assistant property manager",
+    "Single-asset commercial property manager",
+    "Senior property manager on premium office assets",
+    "Portfolio manager or client lead",
+    "Head of property operations, asset-management support, or account leadership"
+  ]
+}

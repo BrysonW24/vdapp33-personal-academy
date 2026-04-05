@@ -1,0 +1,51 @@
+{
+  "slug": "research-roboticist",
+  "title": "A Day as a Research Roboticist",
+  "setting": "CSIRO's Data61 Robotics and Autonomous Systems Lab, Pullenvale, Brisbane QLD",
+  "companySize": "Large government research organisation (5,000+ staff across CSIRO, ~200 in Data61 robotics)",
+  "description": "Dr. Sarah Chen is a Senior Research Scientist at CSIRO's Data61, working on autonomous navigation for mining inspection robots. Her work spans algorithm development, simulation testing, and field trials at partner mine sites. She divides her time between writing code in the lab, running experiments on real robots, publishing papers, supervising PhD students, and engaging with mining industry partners to understand real-world problems. Her current project is developing SLAM algorithms that work reliably in GPS-denied underground environments with dust, low light, and dynamic obstacles like moving vehicles.",
+  "salary": "$130,000 - $175,000 AUD per year (CSIRO Research Scientist level, depending on seniority and classification)",
+  "schedule": [
+    {"time": "07:30", "activity": "Arrive at lab, review overnight simulation results", "tools": ["Python", "ROS 2", "Gazebo"], "note": "Batch simulations run overnight on the compute cluster, testing SLAM algorithm variants across 50 different mine environments"},
+    {"time": "08:00", "activity": "Stand-up meeting with the autonomous systems team", "tools": ["Microsoft Teams"], "note": "8-person team reviews progress, blockers, and coordinates shared resources like the robot platforms and test arena"},
+    {"time": "08:30", "activity": "Code review and algorithm development", "tools": ["VS Code", "Git", "Python", "C++"], "note": "Implementing a new loop closure detection method using scan context descriptors for 3D LiDAR data"},
+    {"time": "10:00", "activity": "PhD student supervision meeting", "tools": ["Whiteboard", "research papers"], "note": "Discussing experimental design for a paper on multi-robot collaborative SLAM in underground tunnels"},
+    {"time": "11:00", "activity": "Hardware testing in the indoor test arena", "tools": ["Clearpath Husky robot", "Velodyne LiDAR", "ROS 2", "RViz"], "note": "Running the new SLAM algorithm on the physical robot in a mock tunnel environment built from shipping containers"},
+    {"time": "12:30", "activity": "Lunch and informal discussion with colleagues", "tools": [], "note": "Cross-pollination with the agricultural robotics team — discussing sensor fusion techniques that might transfer across domains"},
+    {"time": "13:30", "activity": "Write a section of the ICRA paper submission", "tools": ["LaTeX", "Overleaf", "matplotlib"], "note": "Generating comparison plots and writing the experimental results section for the International Conference on Robotics and Automation"},
+    {"time": "15:00", "activity": "Video call with mining industry partner", "tools": ["Teams", "PowerPoint"], "note": "Briefing the Rio Tinto autonomous systems team on field trial results from last month's underground test at a Pilbara mine site"},
+    {"time": "16:00", "activity": "Analyse field trial data from the mine site visit", "tools": ["Python", "Open3D", "CloudCompare"], "note": "Processing 3D point cloud data collected during the mine trial, comparing SLAM output against survey-grade ground truth"},
+    {"time": "17:30", "activity": "Plan next day, update project tracker, head home", "tools": ["Confluence", "Jira"], "note": "Tomorrow: field trial preparation — packing robot platform, spare batteries, and sensor housings for a week-long underground test"}
+  ],
+  "responsibilities": [
+    "Develop novel algorithms for autonomous robot navigation in challenging environments",
+    "Design and conduct experiments, both in simulation and on physical robots",
+    "Publish research papers at top robotics conferences (ICRA, IROS, RSS)",
+    "Supervise PhD and Masters students",
+    "Engage with industry partners to identify real-world problems and validate solutions",
+    "Maintain research software infrastructure and robot platforms",
+    "Write grant proposals and contribute to research strategy",
+    "Present work at conferences, workshops, and industry events"
+  ],
+  "challenges": [
+    "Bridging the gap between algorithms that work in simulation and algorithms that work in dusty, dark, vibrating mine environments",
+    "Balancing publication pressure with industry impact — academic novelty does not always align with practical value",
+    "Managing the timeline uncertainty of field trials — mine site access depends on operational schedules and safety clearances",
+    "Keeping up with the rapid pace of robotics research — hundreds of relevant papers published every month",
+    "Securing ongoing funding through competitive grant processes"
+  ],
+  "rewards": [
+    "Seeing your algorithms run autonomously in a real underground mine for the first time",
+    "Contributing to technology that makes mining safer by reducing human exposure to underground hazards",
+    "Intellectual freedom to explore novel ideas and define your own research direction",
+    "Working with world-class colleagues across disciplines",
+    "Presenting at international conferences and building a global professional network",
+    "The satisfaction of solving genuinely hard problems that matter to Australian industry"
+  ],
+  "careerPath": [
+    "Postdoctoral Researcher → Research Scientist → Senior Research Scientist → Principal Research Scientist",
+    "Alternative: transition to industry as a Robotics Engineering Lead at a mining automation company",
+    "Alternative: start a robotics spin-off company commercialising research (CSIRO's ON program supports this)",
+    "Alternative: move into a university academic position combining teaching and research"
+  ]
+}

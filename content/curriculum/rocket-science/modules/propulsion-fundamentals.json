@@ -1,0 +1,23 @@
+{
+  "slug": "propulsion-fundamentals",
+  "title": "Propulsion Fundamentals",
+  "shortSummary": "How rocket engines generate thrust — chemical propulsion, nozzle design, combustion chambers, and the physics of exhaust velocity.",
+  "level": "beginner",
+  "category": "propulsion",
+  "whyItMatters": "The engine is the heart of the rocket. Understanding how chemical energy converts to kinetic energy through a de Laval nozzle, how combustion chamber pressure drives performance, and why propellant choice matters is essential for every aspect of launch vehicle design.",
+  "coreConcepts": [
+    "Chemical rocket propulsion principles",
+    "De Laval nozzle theory",
+    "Combustion chamber design basics",
+    "Liquid vs solid vs hybrid propellants",
+    "Thrust chamber thermodynamics",
+    "Propellant combinations and performance"
+  ],
+  "lessons": ["how-thrust-is-generated", "nozzle-physics", "propellant-types", "combustion-chamber-basics", "engine-performance-metrics"],
+  "frameworks": ["tsiolkovsky-equation", "systems-engineering-v-model"],
+  "visualType": "engine-cutaway",
+  "relatedModules": ["what-rocket-science-is", "rocket-engine-design", "materials-engineering"],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

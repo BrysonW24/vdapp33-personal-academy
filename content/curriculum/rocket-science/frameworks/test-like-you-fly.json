@@ -1,0 +1,16 @@
+{
+  "slug": "test-like-you-fly",
+  "name": "Test Like You Fly",
+  "summary": "A testing philosophy that demands ground tests replicate flight conditions as closely as possible. Every hot-fire test, vibration test, and thermal vacuum test should subject the hardware to the same loads and environments it will experience during an actual mission. If you have not tested it under flight conditions, you have not tested it.",
+  "whenToUseIt": "Use this philosophy when designing test campaigns for any flight hardware — engines, avionics, structures, or complete vehicles. It applies to both component-level and integrated system testing.",
+  "steps": [
+    "Define the complete flight environment for the hardware (loads, temperatures, vibrations, durations)",
+    "Design test conditions to match or exceed flight conditions",
+    "Use flight-like hardware in testing — not prototype or qualification units that differ from flight articles",
+    "Test at the integrated level, not just component level",
+    "Run tests for realistic durations — short tests miss time-dependent failure modes",
+    "Document every anomaly, no matter how minor — 'test like you fly' means treating test anomalies as mission anomalies"
+  ],
+  "example": "SpaceX static fires every Falcon 9 first stage before flight — all nine Merlin engines fire for several seconds on the launch pad. This catches issues that only appear when all engines run simultaneously (acoustic loads, propellant system interactions, electrical interference). The Space Shuttle Challenger disaster was partly a failure of 'test like you fly' — the O-rings were never tested at the cold temperatures present on launch day.",
+  "category": "testing"
+}

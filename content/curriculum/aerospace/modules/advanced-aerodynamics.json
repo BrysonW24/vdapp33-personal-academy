@@ -1,0 +1,16 @@
+{
+  "slug": "advanced-aerodynamics",
+  "title": "Advanced Aerodynamics",
+  "shortSummary": "Beyond the fundamentals — transonic flow, supercritical aerofoils, vortex dynamics, and high-lift systems.",
+  "level": "advanced",
+  "category": "aerodynamics",
+  "whyItMatters": "Real aircraft operate in complex flow regimes. Understanding transonic effects, high-lift devices, and three-dimensional flow is essential for designing high-performance aircraft.",
+  "coreConcepts": ["Transonic aerodynamics", "Supercritical aerofoils", "Swept wing theory", "High-lift devices (slats, flaps)", "Vortex dynamics and wingtip devices", "3D aerodynamic effects"],
+  "lessons": [],
+  "frameworks": ["supercritical-design"],
+  "visualType": "shock-wave",
+  "relatedModules": ["aerodynamics-fundamentals", "cfd", "hypersonic"],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 4
+}

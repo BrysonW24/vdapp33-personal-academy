@@ -1,0 +1,15 @@
+{
+  "slug": "simulink",
+  "name": "Simulink",
+  "category": "simulation",
+  "description": "MATLAB's graphical model-based design environment for dynamic systems. The standard tool for GNC algorithm development, control system design, and hardware-in-the-loop simulation in aerospace.",
+  "whyUseIt": "Simulink lets you design, simulate, and auto-generate flight software for guidance and control systems. The same model used for simulation can generate the C code that flies on the vehicle. This model-based design approach reduces errors between design and implementation.",
+  "pricingTier": "paid",
+  "url": "https://www.mathworks.com/products/simulink.html",
+  "alternatives": ["Modelica", "Python + control library", "Julia DifferentialEquations.jl"],
+  "funnelPosition": "Control system design and flight software",
+  "outputs": ["Control system models", "Flight simulation results", "Auto-generated flight code", "Hardware-in-the-loop test setups"],
+  "vocabulary": [{"term": "Model-based design", "definition": "Design approach where the simulation model IS the specification — code is generated from the model, not written separately"},
+    {"term": "HIL", "definition": "Hardware-in-the-Loop — testing real flight computers against simulated vehicle dynamics"}],
+  "beginnerMistakes": ["Not testing edge cases and failure modes in simulation", "Creating models that are too complex to debug", "Skipping hardware-in-the-loop testing before flight"]
+}

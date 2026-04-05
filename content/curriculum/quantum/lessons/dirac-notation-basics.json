@@ -1,0 +1,23 @@
+{
+  "slug": "dirac-notation-basics",
+  "moduleSlug": "linear-algebra-for-quantum",
+  "title": "Dirac Notation Basics",
+  "objective": "Read and write the bra-ket language that quantum mechanics uses to represent states, operators, and measurement relationships.",
+  "beginnerExplanation": "Dirac notation is a compact way of writing vectors and inner products. A quantum state is written as a ket, like |psi>. Its dual is a bra, like <psi|. When you place a bra and ket together, you get an inner product, which tells you about overlap and probability amplitude.\n\nAt first this looks abstract, but it is just linear algebra written in a way that fits quantum problems cleanly. The notation makes it easier to talk about states, operators, basis changes, and tensor products without carrying large matrices around all the time.",
+  "deeperExplanation": "A ket is a column vector in a complex Hilbert space. A bra is its conjugate transpose. Operators act on kets from the left, and expectation values look like <psi|A|psi>. Measurement probabilities in a chosen basis come from the squared magnitude of the inner products between the state and basis vectors.\n\nDirac notation also makes tensor products and multi-system reasoning easier to read. For example, |01> means the tensor product |0> tensor |1>. This is one reason the notation appears everywhere from introductory quantum circuits to advanced many-body theory.",
+  "keyTakeaways": [
+    "Bra-ket notation is linear algebra written in quantum-friendly form.",
+    "Kets represent states and bras represent their conjugate duals.",
+    "Inner products encode overlap and measurement amplitude.",
+    "The notation scales naturally to operators and multi-qubit systems."
+  ],
+  "frameworks": ["density-matrix-toolkit", "bloch-sphere"],
+  "example": "If a qubit is in the state |psi> = (|0> + |1>)/sqrt(2), then the amplitude of measuring 0 is <0|psi> = 1/sqrt(2), and the probability is the squared magnitude: 1/2.",
+  "commonMistakes": [
+    "Treating bras and kets as unrelated symbols instead of dual objects.",
+    "Forgetting the complex conjugate when moving from ket to bra.",
+    "Mixing up amplitude and probability."
+  ],
+  "exercise": "Write the state |psi> = (|0> - |1>)/sqrt(2) in ordinary vector form and compute the probability of measuring |1>.",
+  "order": 1
+}

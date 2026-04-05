@@ -1,0 +1,23 @@
+{
+  "slug": "physics-research",
+  "title": "Physics Research",
+  "shortSummary": "How to read papers, design experiments, analyse data, write publications, and navigate the world of academic and industry physics research.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Research is how physics advances. Whether you go into academia, a national lab, or industry R&D, knowing how to formulate questions, design experiments, analyse results, and communicate findings is the meta-skill of physics.",
+  "coreConcepts": [
+    "Reading and critiquing research papers",
+    "Experimental design and controls",
+    "Statistical analysis and uncertainty",
+    "Scientific writing and publication",
+    "Grant writing and funding",
+    "Ethics in physics research"
+  ],
+  "lessons": [],
+  "frameworks": ["scientific-method", "error-analysis"],
+  "visualType": "workflow-diagram",
+  "relatedModules": ["what-physics-is", "computational-physics"],
+  "status": "coming-soon",
+  "order": 20,
+  "levelNumber": 4
+}

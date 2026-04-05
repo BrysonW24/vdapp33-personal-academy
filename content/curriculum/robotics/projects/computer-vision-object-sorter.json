@@ -1,0 +1,46 @@
+{
+  "slug": "computer-vision-object-sorter",
+  "title": "Computer Vision Object Sorter",
+  "difficulty": 5,
+  "estimatedHours": 35,
+  "description": "Build a robotic system that uses computer vision to identify, classify, and sort objects by type, colour, or shape. Integrate a camera with a robotic arm or conveyor mechanism to create a working automated sorting cell. This project combines vision processing, object detection, and robot control into a practical industrial application.",
+  "whyItMatters": "Automated sorting is one of the highest-value applications of robotic vision — used in recycling plants, food processing, e-commerce fulfilment, and quality inspection. The vision-to-action pipeline you build here (detect object, classify it, decide where it goes, pick and place it) is the same pipeline used in commercial sorting systems worldwide. In Australia, vision-based sorting is critical for the mining industry (ore sorting), agriculture (fruit grading), and the rapidly growing e-commerce logistics sector.",
+  "skillsLearned": ["Camera setup and calibration", "Object detection using OpenCV or deep learning", "Colour and shape classification", "Hand-eye calibration (camera to robot coordinate transform)", "Pick-and-place coordination", "Real-time vision processing pipeline"],
+  "prerequisites": ["Basic Python programming", "OpenCV fundamentals (image loading, colour spaces, thresholding)", "Basic understanding of robotic manipulation"],
+  "steps": [
+    {
+      "title": "Set up the vision system",
+      "description": "Mount a camera (USB webcam or Intel RealSense) above the workspace looking down. Calibrate the camera intrinsics using a checkerboard pattern. Establish the transform from camera coordinates to robot/workspace coordinates (hand-eye calibration or manual measurement). Verify by pointing the camera at an object at a known position and confirming the calculated coordinates match.",
+      "tips": "A fixed overhead camera is simpler than a wrist-mounted camera for a first project. Use good, diffuse lighting to minimise shadows and reflections."
+    },
+    {
+      "title": "Implement object detection and classification",
+      "description": "Write a vision pipeline that: captures an image, detects objects on the workspace (using background subtraction, contour detection, or a trained YOLO model), classifies each object by category (colour, shape, or type), and estimates the object's position in workspace coordinates. Test with at least 3 categories of objects (e.g. red circles, blue squares, green triangles, or different product types).",
+      "tips": "For colour-based sorting, convert to HSV colour space for robust colour detection. For shape-based sorting, use contour analysis (area, perimeter, aspect ratio, number of vertices)."
+    },
+    {
+      "title": "Design the sorting logic",
+      "description": "Define sorting bins or target locations for each category. Implement the decision logic: for each detected object, determine which bin it belongs to based on classification. Handle ambiguous cases (low confidence, partially occluded objects) by sending them to a 'manual review' bin. Implement a queue system if multiple objects are detected simultaneously.",
+      "tips": "Process objects in order of accessibility — pick the easiest-to-reach object first. Consider the optimal bin layout to minimise robot travel distance."
+    },
+    {
+      "title": "Integrate with robot control",
+      "description": "Connect the vision system to a robot arm (real or simulated). For each detected object: compute the pick pose from the object's position, generate a trajectory to approach and grasp the object, pick it up, move to the correct bin, and place it. Implement the full pick-detect-sort-place cycle as an automated loop.",
+      "tips": "Add a verification step after picking — check that the gripper actually has the object (using force sensing or a camera check) before moving to the bin."
+    },
+    {
+      "title": "Optimise and benchmark",
+      "description": "Run a full sorting session with 20+ objects of mixed types. Measure classification accuracy (correct bin assignment), pick success rate, cycle time per object, and total throughput. Identify bottlenecks and optimise — is vision processing, motion planning, or the physical pick the limiting factor?",
+      "tips": "Overlap vision processing with robot motion — while the arm is placing one object, the camera should be detecting the next. This parallelism can nearly double throughput."
+    }
+  ],
+  "deliverables": ["Working vision-guided sorting system (video demonstration)", "Classification accuracy report (confusion matrix across object categories)", "System performance metrics: cycle time, throughput, success rate", "Technical documentation covering vision pipeline, calibration, and robot integration"],
+  "tools": ["opencv", "python-robotics", "ros2", "arduino"],
+  "rubric": [
+    {"criteria": "Classification accuracy", "description": "Objects are correctly classified into the right category at least 95% of the time"},
+    {"criteria": "Pick-and-place reliability", "description": "Objects are successfully picked and placed in the correct bin at least 90% of the time"},
+    {"criteria": "Throughput", "description": "System achieves a reasonable cycle time (under 15 seconds per object for simulation, under 30 for real hardware)"},
+    {"criteria": "Robustness", "description": "System handles variation in object position, orientation, and lighting conditions"},
+    {"criteria": "Pipeline architecture", "description": "Clean separation between vision, decision, and robot control modules with well-defined interfaces"}
+  ]
+}
