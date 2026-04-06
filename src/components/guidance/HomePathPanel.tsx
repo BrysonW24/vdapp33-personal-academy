@@ -21,7 +21,7 @@ export function HomePathPanel({ catalog }: HomePathPanelProps) {
 
   if (!blueprint) {
     return (
-      <Card className="h-full">
+      <Card>
         <CardHeader>
           <div className="flex items-center gap-2">
             <Route className="h-4 w-4 text-editorial-green" />
@@ -54,7 +54,7 @@ export function HomePathPanel({ catalog }: HomePathPanelProps) {
   })
 
   return (
-    <Card className="h-full">
+    <Card>
       <CardHeader>
         <div className="flex items-center gap-2">
           <Compass className="h-4 w-4 text-editorial-blue" />

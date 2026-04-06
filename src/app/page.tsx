@@ -47,7 +47,7 @@ export default function NexusHomePage() {
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-10">
-      <section className="grid gap-6 lg:grid-cols-[1.1fr,0.9fr]">
+      <section className="grid gap-6 lg:grid-cols-[1.1fr,0.9fr] lg:items-start">
         <div className="academy-hero-shell relative overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.08)] bg-[linear-gradient(145deg,rgba(255,255,255,0.94),rgba(251,246,239,0.88))] p-8 shadow-editorial-soft backdrop-blur-[18px] sm:p-10">
           <div className="pointer-events-none absolute -left-10 top-20 h-44 w-44 rounded-full bg-[#1fb9ff]/20 blur-3xl" />
           <div className="pointer-events-none absolute left-32 top-8 h-44 w-44 rounded-full bg-[#8b5cf6]/16 blur-3xl" />

@@ -20,26 +20,26 @@ const SIZE_STYLES: Record<
   {
     glyph: string
     text: string
-    dot: string
+    dotText: string
     gap: string
   }
 > = {
   compact: {
     glyph: "h-8 w-8",
     text: "text-[1.15rem]",
-    dot: "h-2.5 w-2.5",
+    dotText: "text-[1.15rem]",
     gap: "gap-2.5",
   },
   default: {
     glyph: "h-10 w-10",
     text: "text-[1.75rem]",
-    dot: "h-3 w-3",
+    dotText: "text-[1.75rem]",
     gap: "gap-3",
   },
   hero: {
     glyph: "h-14 w-14 sm:h-16 sm:w-16",
     text: "text-5xl sm:text-7xl",
-    dot: "h-4 w-4 sm:h-5 sm:w-5",
+    dotText: "text-5xl sm:text-7xl",
     gap: "gap-4",
   },
 }
@@ -118,10 +118,10 @@ export function NexusWordmark({
     >
       <NexusGlyph className={styles.glyph} />
       {showText ? (
-        <span className="inline-flex items-end gap-2">
+        <span className="inline-flex items-baseline">
           <span
             className={cn(
-              "font-sans font-semibold tracking-[-0.075em] text-[#1f252d]",
+              "font-sans font-semibold leading-none tracking-[-0.075em] text-[#1f252d]",
               styles.text,
               textClassName
             )}
@@ -130,11 +130,13 @@ export function NexusWordmark({
           </span>
           <span
             className={cn(
-              "mb-[0.18em] inline-block rounded-full bg-[radial-gradient(circle_at_30%_30%,#FFE7AB_0%,#FFB347_40%,#FF9147_72%,#E25B2E_100%)] shadow-[0_0_28px_rgba(255,165,71,0.52)]",
-              styles.dot,
+              "relative -ml-[0.055em] font-sans font-semibold leading-none tracking-[-0.075em] text-transparent [background:radial-gradient(circle_at_35%_30%,#FFE7AB_0%,#FFB347_42%,#FF9147_72%,#E25B2E_100%)] bg-clip-text drop-shadow-[0_0_10px_rgba(255,165,71,0.28)]",
+              styles.dotText,
               dotClassName
             )}
-          />
+          >
+            .
+          </span>
         </span>
       ) : null}
     </span>
