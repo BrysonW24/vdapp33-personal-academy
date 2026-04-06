@@ -1,0 +1,19 @@
+{
+  "slug": "unit-economics",
+  "title": "Unit Economics",
+  "shortSummary": "CAC, LTV, payback period, and contribution margin — the numbers that tell you whether your business model actually works.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "You can grow revenue fast and still lose money on every customer. Unit economics tell you whether growth creates or destroys value.",
+  "coreConcepts": [
+    "CAC (Customer Acquisition Cost) = total sales and marketing spend / new customers",
+    "LTV (Lifetime Value) = average revenue per customer × average lifespan × gross margin",
+    "LTV:CAC ratio should be 3:1 or higher — below 1:1 means you lose money per customer",
+    "Payback period = how many months until a customer's revenue covers acquisition cost"
+  ],
+  "lessons": ["unit-economics-deep-dive"],
+  "frameworks": ["unit-economics-model", "rule-of-40"],
+  "relatedModules": ["financial-literacy-for-founders", "cash-flow-management"],
+  "status": "complete",
+  "order": 2
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "forecasting-inputs-in-practice",
+  "title": "Forecasting Inputs in Practice",
+  "shortSummary": "Build stronger forecasting inputs in practice judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "data-analytics",
+  "whyItMatters": "Forecasting Inputs in Practice is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Forecasting Inputs in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good forecasting inputs in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Forecasting Inputs in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "forecasting-inputs-in-practice-lesson"
+  ],
+  "frameworks": [
+    "instrumentation-design-canvas",
+    "event-taxonomy-scorecard"
+  ],
+  "relatedModules": [
+    "forecasting-inputs-foundations",
+    "privacy-boundaries-foundations"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

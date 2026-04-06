@@ -1,0 +1,15 @@
+{
+  "slug": "onboarding-design-canvas",
+  "name": "Onboarding Design Canvas",
+  "summary": "Onboarding Design Canvas gives customer success work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about onboarding design canvas without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Onboarding Design Canvas to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "customer-success"
+}

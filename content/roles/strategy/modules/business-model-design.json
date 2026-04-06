@@ -1,0 +1,19 @@
+{
+  "slug": "business-model-design",
+  "title": "Business Model Design",
+  "shortSummary": "How money flows through your business. Revenue models, unit economics, and the value chain that connects your product to your customer's wallet.",
+  "level": "intermediate",
+  "domain": "strategy",
+  "whyItMatters": "A great product with a broken business model is a hobby, not a company. Understanding your business model is understanding how your business survives.",
+  "coreConcepts": [
+    "A business model describes how you create, deliver, and capture value",
+    "Revenue model, cost structure, and unit economics must be coherent",
+    "Business models can be more defensible than products",
+    "The best business models create value for customers and capture a fair share"
+  ],
+  "lessons": ["business-model-fundamentals"],
+  "frameworks": ["business-model-canvas"],
+  "relatedModules": ["what-strategy-is", "competitive-positioning"],
+  "status": "complete",
+  "order": 3
+}

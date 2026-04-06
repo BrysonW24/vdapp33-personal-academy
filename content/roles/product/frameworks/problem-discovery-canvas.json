@@ -1,0 +1,15 @@
+{
+  "slug": "problem-discovery-canvas",
+  "name": "Problem Discovery Canvas",
+  "summary": "Problem Discovery Canvas gives product work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about problem discovery canvas without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Problem Discovery Canvas to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "product"
+}

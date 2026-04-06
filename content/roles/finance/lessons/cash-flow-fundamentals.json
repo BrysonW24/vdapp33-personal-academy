@@ -1,0 +1,67 @@
+{
+  "slug": "cash-flow-fundamentals",
+  "moduleSlug": "cash-flow-management",
+  "title": "Cash Flow Fundamentals",
+  "objective": "Understand the critical difference between profit and cash, learn to calculate burn rate and runway, and master the three levers of cash flow management — accelerating inflows, decelerating outflows, and building reserves.",
+  "beginnerExplanation": "Cash flow is not the same as profit, and confusing the two is one of the most common ways businesses fail. Profit is an accounting concept — it is revenue minus expenses calculated on an accrual basis. Cash flow is the actual money moving in and out of your bank account. A business can be profitable and still run out of cash. A business can be unprofitable and still have plenty of cash. Understanding this distinction is not optional — it is survival.\n\nBurn rate is how much cash your business consumes each month. If you start the month with $120,000 in the bank and end with $100,000, your gross burn rate is $20,000 per month. Net burn rate accounts for revenue: if you brought in $15,000 during the month, your net burn is $5,000. For early-stage businesses that are not yet profitable, net burn rate is the number that determines how long you can survive.\n\nRunway is how many months you can operate at your current burn rate before running out of cash. If you have $100,000 in the bank and a net burn of $20,000 per month, your runway is 5 months. This is the most important number for any pre-profit business. When runway drops below 3 months, you are in the danger zone — decisions become desperate, negotiating power disappears, and you start making choices you would not make with 12 months of runway.\n\nThere are three levers you can pull to improve cash flow. The first is accelerating inflows — getting money into your bank account faster. This means shorter payment terms (net-15 instead of net-30), deposits or prepayments, faster invoicing, and aggressive follow-up on overdue receivables. The second is decelerating outflows — slowing down the money leaving your account. This means negotiating longer payment terms with suppliers, timing large purchases strategically, and eliminating unnecessary subscriptions and expenses. The third is building reserves — maintaining a cash buffer that protects you from unexpected disruptions, seasonal dips, or delayed payments.\n\nMost founders focus on revenue growth and assume cash flow will sort itself out. It does not. Cash flow is a skill you must actively manage, and the founders who do it well have a massive advantage — they can weather downturns, negotiate from strength, and invest in opportunities that cash-poor competitors cannot.",
+  "deeperExplanation": "The cash conversion cycle is the more sophisticated way to understand cash flow dynamics. It measures how long it takes for a dollar you spend to come back as a dollar of revenue collected. For a product business, this includes the time to purchase inventory, the time to sell it, and the time to collect payment. The shorter your cash conversion cycle, the less working capital you need to operate.\n\nFor service businesses, the equivalent is the gap between when you incur costs (paying your team, running ads, purchasing tools) and when you collect payment from clients. If you pay your team on the first of the month but clients pay you on the 30th, you are funding 30 days of operations from your own reserves every single month. Multiply this by growth and the gap becomes a chasm.\n\nSeasonality is another critical factor most founders underestimate. E-commerce businesses often see 40-60% of revenue in Q4 but incur inventory costs months earlier. Service businesses may have quiet periods where revenue drops but fixed costs remain. If you do not plan for seasonality, a predictable annual pattern can create a cash crisis simply because you did not build reserves during the good months.\n\nThe three levers interact with each other in important ways. Accelerating inflows (offering early payment discounts of 2% for payment within 10 days) costs margin but improves cash position. Decelerating outflows (negotiating 60-day terms with suppliers) preserves cash but may limit your ability to negotiate discounts. Building reserves (maintaining 3-6 months of operating expenses in a separate account) means that cash is not generating returns but it provides insurance against disruption.\n\nThe best operators use a weekly cash flow cadence: every Monday, they review cash in bank, expected inflows for the week, committed outflows, and any overdue receivables. This 15-minute habit prevents surprises and keeps cash management proactive rather than reactive.",
+  "keyTakeaways": [
+    "Profit and cash are different things — a business can be profitable on paper and still run out of cash, which is why cash flow management is a separate and essential skill.",
+    "Burn rate (how much cash you consume monthly) and runway (how many months you can survive) are the two most critical metrics for any business that is not yet consistently cash-flow positive.",
+    "The three levers of cash flow are accelerating inflows, decelerating outflows, and building reserves — and you should be actively managing all three.",
+    "The cash conversion cycle measures how long it takes for money you spend to return as collected revenue — the shorter this cycle, the less working capital you need.",
+    "Weekly cash flow monitoring (15 minutes every Monday) is the single highest-value financial habit a founder can build — it prevents surprises and keeps you in control."
+  ],
+  "frameworks": ["scenario-planning", "break-even-analysis"],
+  "example": "An e-commerce business books $200,000 in revenue during December — a record month. The founder celebrates. But the reality is more complex: only $120,000 of that revenue has been collected (the rest is on credit terms with wholesale buyers). Meanwhile, the business spent $150,000 on inventory back in October to prepare for the holiday rush, and $40,000 on marketing in November and December. The bank balance on January 1st is $45,000 — down from $110,000 on October 1st. The P&L shows a profitable quarter, but cash dropped by $65,000. The founder now has 6 weeks of runway and $80,000 in receivables that may take 30-60 days to collect. To manage the situation, she immediately sends invoices with payment reminders to all outstanding wholesale accounts, negotiates a 30-day extension on a $25,000 supplier payment due in January, pauses non-essential marketing spend, and sets up a weekly cash monitoring dashboard. She also commits to pre-ordering less aggressively next year and requiring deposits from wholesale buyers.",
+  "commonMistakes": [
+    "Assuming profit means healthy cash flow — accrual accounting can show profit while your bank account is draining, especially when receivables are growing faster than collections.",
+    "Not knowing your runway at all times — if you cannot state your current runway within one day's accuracy, you are not managing cash, you are just hoping it works out.",
+    "Treating cash flow management as reactive (dealing with problems when they arise) rather than proactive (monitoring weekly and planning months ahead).",
+    "Ignoring seasonality — predictable annual patterns in revenue and expenses can create cash crises that are entirely preventable with basic planning and reserve building."
+  ],
+  "exercise": "Calculate your runway right now. (1) Open your bank account and write down your current cash balance across all business accounts. (2) Look at the last 3 months of bank statements and calculate your average monthly expenses (total outflows / 3). (3) Calculate your average monthly revenue collected (total inflows / 3 — use actual cash received, not invoiced amounts). (4) Calculate your net burn rate: average monthly expenses minus average monthly revenue collected. If this number is positive, you are burning cash. (5) Calculate your runway: current cash balance / net burn rate. (6) Write down three specific actions you could take this week to improve your cash position — one to accelerate inflows, one to decelerate outflows, and one to build reserves. If your runway is less than 6 months, treat this as urgent and take action today.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "A company has $180,000 in the bank, monthly revenue of $60,000, and monthly expenses of $80,000. What is the runway?",
+      "options": [
+        "2.25 months",
+        "9 months",
+        "3 months",
+        "6 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "Net burn rate = $80,000 - $60,000 = $20,000 per month. Runway = $180,000 / $20,000 = 9 months. This is a reasonable runway but the business needs to either reach profitability or raise additional capital well before it runs out."
+    },
+    {
+      "question": "A business shows $50,000 profit on the P&L for the quarter but its bank balance dropped by $30,000 over the same period. Which of the following is the most likely explanation?",
+      "options": [
+        "The P&L is wrong and needs to be recalculated",
+        "Revenue was recognised on an accrual basis but cash has not been collected yet — likely growing accounts receivable",
+        "The business is committing fraud",
+        "Expenses were understated on the P&L"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is the classic profit-vs-cash gap. The P&L recognises revenue when it is earned (accrual basis), but the bank balance reflects actual cash collected. Growing accounts receivable — revenue booked but not yet paid by customers — is the most common cause of this discrepancy."
+    },
+    {
+      "question": "Which of the three cash flow levers typically has the fastest impact on cash position?",
+      "options": [
+        "Building reserves over time",
+        "Accelerating inflows — collecting money you are already owed faster",
+        "Decelerating outflows — negotiating longer payment terms with suppliers",
+        "All three have equal impact speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Accelerating inflows — particularly chasing overdue receivables and tightening payment terms — typically has the fastest impact because you are collecting money that is already owed to you. It requires no new revenue generation, just faster collection of existing obligations."
+    }
+  ],
+  "perspectives": {
+    "founder": "Cash flow is the single most important operational skill you will develop as a founder. Revenue is vanity, profit is sanity, but cash is reality. You can survive low revenue. You can survive temporary losses. You cannot survive running out of cash. Make cash flow monitoring a weekly habit — not because it is exciting, but because the founders who run out of cash are almost always the ones who were not paying attention until it was too late.",
+    "delegator": "Have your bookkeeper or finance person send you a weekly cash summary every Monday morning: cash in bank, expected inflows this week, committed outflows this week, and any overdue receivables. This should take them 15 minutes to prepare and you 5 minutes to review. Do not delegate the decision-making — you should be the one deciding when to chase receivables, when to delay a purchase, or when to build reserves. But the data preparation should be systematised and reliable.",
+    "investor": "Investors assess cash management as a discipline signal. A founder who knows their burn rate, runway, and cash conversion cycle demonstrates operational rigour. A founder who is surprised by a cash crunch demonstrates a lack of control. During due diligence, investors look at actual bank statements alongside financial statements — they want to see that the cash story matches the accounting story. Strong cash management also reduces the urgency and desperation that leads to unfavourable funding terms.",
+    "advisor": "Build the weekly cash monitoring habit before you need it. The time to start tracking cash flow weekly is when things are going well — not when you are in crisis mode. Start with a simple spreadsheet: opening balance, inflows, outflows, closing balance, and a running 4-week average of net cash flow. Once the habit is established, you can add complexity — forecasting, scenario planning, and reserve targets. But the foundation is the weekly review rhythm.",
+    "scaler": "Cash flow management becomes treasury management at scale, but the foundation is exactly the same. A $50M business still needs to know its cash position, manage its conversion cycle, and maintain appropriate reserves. The difference is complexity — multiple revenue streams, multiple currencies, more sophisticated financing instruments, and larger teams involved in the process. The founders who built the cash discipline at $500K find the transition to treasury management natural. The ones who never built the habit find themselves hiring a CFO to fix a cultural problem, not just a financial one."
+  }
+}

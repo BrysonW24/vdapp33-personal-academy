@@ -1,0 +1,28 @@
+{
+  "slug": "accounts-receivable-in-practice",
+  "title": "Accounts Receivable in Practice",
+  "shortSummary": "Build stronger accounts receivable in practice judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "accounting",
+  "whyItMatters": "Accounts Receivable in Practice is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Accounts Receivable in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good accounts receivable in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Accounts Receivable in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "accounts-receivable-in-practice-lesson"
+  ],
+  "frameworks": [
+    "financial-statements-canvas",
+    "month-end-close-scorecard"
+  ],
+  "relatedModules": [
+    "accounts-receivable-foundations",
+    "accounts-payable-foundations"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

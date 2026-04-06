@@ -1,0 +1,28 @@
+{
+  "slug": "conflict-handling-foundations",
+  "title": "Conflict Handling Foundations",
+  "shortSummary": "Build stronger conflict handling foundations judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "leadership",
+  "whyItMatters": "Conflict Handling Foundations is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Conflict Handling Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good conflict handling foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Conflict Handling Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "conflict-handling-operator-lesson"
+  ],
+  "frameworks": [
+    "decision-cadence-roadmap",
+    "culture-signals-playbook-lens"
+  ],
+  "relatedModules": [
+    "team-communication-in-practice",
+    "conflict-handling-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

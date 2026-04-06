@@ -1,0 +1,28 @@
+{
+  "slug": "energy-management-foundations",
+  "title": "Energy Management Foundations",
+  "shortSummary": "Build stronger energy management foundations judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "founder-performance",
+  "whyItMatters": "Energy Management Foundations is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Energy Management Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good energy management foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Energy Management Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "energy-management-operator-lesson"
+  ],
+  "frameworks": [
+    "relationships-operating-loop",
+    "attention-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "decision-quality-in-practice",
+    "energy-management-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

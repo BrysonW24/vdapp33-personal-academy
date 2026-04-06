@@ -1,0 +1,26 @@
+{
+  "slug": "service-delivery-operator-lesson",
+  "moduleSlug": "service-delivery-foundations",
+  "title": "Service Delivery Operator Lesson",
+  "objective": "Understand the operator fundamentals behind service delivery in operations.",
+  "beginnerExplanation": "Service Delivery becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, service delivery is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Service Delivery improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether service delivery is working.",
+    "Service Delivery should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "service-delivery-scorecard",
+    "handoffs-review-lens"
+  ],
+  "example": "A founder or operator uses service delivery to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating service delivery like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve service delivery over the next two weeks inside a real business.",
+  "order": 2,
+  "nextLesson": "handoffs-operator-lesson"
+}

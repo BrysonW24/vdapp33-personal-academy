@@ -1,0 +1,20 @@
+{
+  "slug": "launchdarkly",
+  "name": "LaunchDarkly",
+  "category": "Analytics",
+  "description": "LaunchDarkly is commonly used to support product workflows, reviews, and handoffs.",
+  "whyUseIt": "Use LaunchDarkly when the team needs more structure, visibility, or speed in product work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Linear",
+    "Jira"
+  ],
+  "founderWorkflow": "Use LaunchDarkly to keep product work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding LaunchDarkly before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

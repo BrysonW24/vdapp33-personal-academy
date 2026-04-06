@@ -1,0 +1,28 @@
+{
+  "slug": "automation-design-in-practice",
+  "title": "Automation Design in Practice",
+  "shortSummary": "Build stronger automation design in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "operations",
+  "whyItMatters": "Automation Design in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Automation Design in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good automation design in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Automation Design in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "automation-design-in-practice-lesson"
+  ],
+  "frameworks": [
+    "capacity-planning-operating-loop",
+    "queue-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "automation-design-foundations",
+    "operating-reviews-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

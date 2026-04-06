@@ -1,0 +1,27 @@
+{
+  "slug": "feedback-loops-in-practice",
+  "title": "Feedback Loops in Practice",
+  "shortSummary": "Build stronger feedback loops in practice judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "product",
+  "whyItMatters": "Feedback Loops in Practice is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Feedback Loops in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good feedback loops in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Feedback Loops in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "feedback-loops-in-practice-lesson"
+  ],
+  "frameworks": [
+    "adoption-metrics-roadmap",
+    "feedback-loops-playbook-lens"
+  ],
+  "relatedModules": [
+    "feedback-loops-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "use-of-funds-operator-lesson",
+  "moduleSlug": "use-of-funds-foundations",
+  "title": "Use of Funds Operator Lesson",
+  "objective": "Understand the operator fundamentals behind use of funds in capital / fundraising.",
+  "beginnerExplanation": "Use of Funds becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, use of funds is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Use of Funds improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether use of funds is working.",
+    "Use of Funds should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "use-of-funds-roadmap",
+    "post-raise-discipline-playbook-lens"
+  ],
+  "example": "A founder or operator uses use of funds to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating use of funds like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve use of funds over the next two weeks inside a real business.",
+  "order": 9,
+  "nextLesson": "post-raise-discipline-operator-lesson"
+}

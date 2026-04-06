@@ -1,0 +1,11 @@
+{
+  "slug": "stripe-billing",
+  "name": "Stripe Billing",
+  "category": "billing",
+  "description": "Subscription billing and invoicing infrastructure for recurring revenue businesses that need flexible plans, usage pricing, dunning, and payment automation.",
+  "whyUseIt": "Stripe Billing helps founders tighten cash collection, automate renewals, and reduce failed payments. It matters when pricing and payment structure are central to runway.",
+  "pricingTier": "paid",
+  "url": "https://stripe.com/billing",
+  "aiCapabilities": "Stripe uses automation for smart retries, payment recovery, fraud scoring, failed payment workflows, and revenue reporting across billing cohorts.",
+  "alternatives": ["chargebee", "recurly", "xero"]
+}

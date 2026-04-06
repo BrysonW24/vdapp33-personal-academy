@@ -1,0 +1,20 @@
+{
+  "slug": "bigquery",
+  "name": "BigQuery",
+  "category": "Analytics",
+  "description": "BigQuery is commonly used to support data / analytics workflows, reviews, and handoffs.",
+  "whyUseIt": "Use BigQuery when the team needs more structure, visibility, or speed in data / analytics work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Metabase",
+    "Looker"
+  ],
+  "founderWorkflow": "Use BigQuery to keep data / analytics work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding BigQuery before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

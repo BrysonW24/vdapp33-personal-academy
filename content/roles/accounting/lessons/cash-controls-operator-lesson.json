@@ -1,0 +1,26 @@
+{
+  "slug": "cash-controls-operator-lesson",
+  "moduleSlug": "cash-controls-foundations",
+  "title": "Cash Controls Operator Lesson",
+  "objective": "Understand the operator fundamentals behind cash controls in accounting.",
+  "beginnerExplanation": "Cash Controls becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, cash controls is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Cash Controls improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether cash controls is working.",
+    "Cash Controls should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "cash-controls-review-lens",
+    "tax-calendar-decision-map"
+  ],
+  "example": "A founder or operator uses cash controls to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating cash controls like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve cash controls over the next two weeks inside a real business.",
+  "order": 3,
+  "nextLesson": "tax-calendar-operator-lesson"
+}

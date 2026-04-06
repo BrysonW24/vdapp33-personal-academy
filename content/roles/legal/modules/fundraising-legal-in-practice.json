@@ -1,0 +1,28 @@
+{
+  "slug": "fundraising-legal-in-practice",
+  "title": "Fundraising Legal in Practice",
+  "shortSummary": "Build stronger fundraising legal in practice judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "legal",
+  "whyItMatters": "Fundraising Legal in Practice is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Fundraising Legal in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good fundraising legal in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Fundraising Legal in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "fundraising-legal-in-practice-lesson"
+  ],
+  "frameworks": [
+    "contract-fundamentals-canvas",
+    "commercial-terms-scorecard"
+  ],
+  "relatedModules": [
+    "fundraising-legal-foundations",
+    "policy-design-foundations"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

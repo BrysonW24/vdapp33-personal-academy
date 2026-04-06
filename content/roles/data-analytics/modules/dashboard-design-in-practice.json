@@ -1,0 +1,28 @@
+{
+  "slug": "dashboard-design-in-practice",
+  "title": "Dashboard Design in Practice",
+  "shortSummary": "Build stronger dashboard design in practice judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "data-analytics",
+  "whyItMatters": "Dashboard Design in Practice is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Dashboard Design in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good dashboard design in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Dashboard Design in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "dashboard-design-in-practice-lesson"
+  ],
+  "frameworks": [
+    "instrumentation-design-canvas",
+    "event-taxonomy-scorecard"
+  ],
+  "relatedModules": [
+    "dashboard-design-foundations",
+    "warehouse-modeling-foundations"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

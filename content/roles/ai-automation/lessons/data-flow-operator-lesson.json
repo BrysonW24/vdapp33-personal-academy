@@ -1,0 +1,26 @@
+{
+  "slug": "data-flow-operator-lesson",
+  "moduleSlug": "data-flow-foundations",
+  "title": "Data Flow Operator Lesson",
+  "objective": "Understand the operator fundamentals behind data flow in ai / automation.",
+  "beginnerExplanation": "Data Flow becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, data flow is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Data Flow improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether data flow is working.",
+    "Data Flow should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "data-flow-control-tower",
+    "tool-orchestration-diagnostic"
+  ],
+  "example": "A founder or operator uses data flow to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating data flow like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve data flow over the next two weeks inside a real business.",
+  "order": 7,
+  "nextLesson": "tool-orchestration-operator-lesson"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "management-reporting-foundations",
+  "title": "Management Reporting Foundations",
+  "shortSummary": "Build stronger management reporting foundations judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Management Reporting Foundations is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Management Reporting Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good management reporting foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Management Reporting Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "management-reporting-operator-lesson"
+  ],
+  "frameworks": [
+    "cost-control-control-tower",
+    "revenue-quality-diagnostic"
+  ],
+  "relatedModules": [
+    "pricing-architecture-in-practice",
+    "management-reporting-in-practice"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

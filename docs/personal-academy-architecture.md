@@ -41,6 +41,7 @@ Current state:
 - `/{subject}/...` remains the canonical curriculum spine
 - `/roles/{slug}` and `/topics/{slug}` are now live route families layered on top of aliased subject content plus entity-native content packs
 - Roles can now own first-class modules, lessons, frameworks, projects, tools, and day-in-the-life content directly inside `content/roles/{slug}/` when the role should not be reduced to borrowed subject slices alone
+- Role-native content now includes imported Founder OS role academies that have been re-homed into the shared Nexus role contract instead of being left as standalone operator products
 - `/setup` and `/my-path` remain live but are secondary surfaces rather than the homepage story
 - `quantum-science` and `energy-systems` are the canonical expansions of the original science/content base
 - `/{subject|role|topic}/sources` and `/{subject|role|topic}/signals` are live curated surfaces
@@ -62,6 +63,7 @@ Current state:
 - Roles should use a structured presentation contract that makes them readable and comparable
 - Shared role pages should prioritise: what the role is, where it came from, what people do, how people enter, what strengths matter, what pressures show up, and how careers progress
 - Module indexes should read as learning maps rather than flat content catalogs where possible
+- When importing external academy content, normalize it into Nexus route families, docs, counts, and quality gates in the same pass
 
 ## UX doctrine for future work
 

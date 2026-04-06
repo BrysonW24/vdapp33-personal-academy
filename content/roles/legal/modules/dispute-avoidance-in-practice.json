@@ -1,0 +1,27 @@
+{
+  "slug": "dispute-avoidance-in-practice",
+  "title": "Dispute Avoidance in Practice",
+  "shortSummary": "Build stronger dispute avoidance in practice judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "legal",
+  "whyItMatters": "Dispute Avoidance in Practice is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Dispute Avoidance in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good dispute avoidance in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Dispute Avoidance in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "dispute-avoidance-in-practice-lesson"
+  ],
+  "frameworks": [
+    "policy-design-roadmap",
+    "dispute-avoidance-playbook-lens"
+  ],
+  "relatedModules": [
+    "dispute-avoidance-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

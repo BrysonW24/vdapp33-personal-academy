@@ -1,0 +1,27 @@
+{
+  "slug": "management-reporting-in-practice",
+  "title": "Management Reporting in Practice",
+  "shortSummary": "Build stronger management reporting in practice judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "accounting",
+  "whyItMatters": "Management Reporting in Practice is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Management Reporting in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good management reporting in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Management Reporting in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "management-reporting-in-practice-lesson"
+  ],
+  "frameworks": [
+    "accounts-payable-roadmap",
+    "management-reporting-playbook-lens"
+  ],
+  "relatedModules": [
+    "management-reporting-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

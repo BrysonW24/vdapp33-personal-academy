@@ -1,0 +1,20 @@
+{
+  "slug": "figma",
+  "name": "Figma",
+  "category": "Communication",
+  "description": "Figma is commonly used to support product workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Figma when the team needs more structure, visibility, or speed in product work.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Maze",
+    "Dovetail"
+  ],
+  "founderWorkflow": "Use Figma to keep product work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "low",
+  "stageRecommendation": "scale",
+  "beginnerMistakes": [
+    "Adding Figma before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

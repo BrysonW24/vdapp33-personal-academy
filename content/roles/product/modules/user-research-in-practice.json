@@ -1,0 +1,28 @@
+{
+  "slug": "user-research-in-practice",
+  "title": "User Research in Practice",
+  "shortSummary": "Build stronger user research in practice judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "product",
+  "whyItMatters": "User Research in Practice is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "User Research in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good user research in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "User Research in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "user-research-in-practice-lesson"
+  ],
+  "frameworks": [
+    "adoption-metrics-roadmap",
+    "feedback-loops-playbook-lens"
+  ],
+  "relatedModules": [
+    "user-research-foundations",
+    "requirements-foundations"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

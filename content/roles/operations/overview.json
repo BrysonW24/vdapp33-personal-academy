@@ -1,0 +1,57 @@
+{
+  "slug": "operations",
+  "title": "What working in Operations actually involves",
+  "summary": "Operations is the discipline of turning good intentions into repeatable execution. In practice, that means designing workflows, removing bottlenecks, building service delivery systems, documenting how work should run, and making sure the business can keep moving when volume increases.\n\nThe role is important because most organizations leak energy through improvisation. Strong operations people turn chaos into rhythm without turning the company into bureaucracy for its own sake.\n\nWhat makes the role compelling is that it touches the real machinery of how work gets done. You can see leverage quickly when systems, handoffs, and accountability improve.",
+  "coreWork": [
+    "Mapping and improving workflows, handoffs, and delivery systems.",
+    "Building SOPs, operating cadences, and exception handling routines.",
+    "Selecting automation opportunities that increase leverage without creating fragility.",
+    "Keeping measurement, compliance, and execution quality aligned."
+  ],
+  "frontierPull": "Operations pulls people in because it lets them make the business more capable at a systems level. It is one of the clearest ways to convert scattered effort into repeatable performance.",
+  "signals": [
+    "Process design",
+    "Execution rhythm",
+    "Automation readiness",
+    "Service delivery",
+    "Measurement",
+    "Compliance",
+    "Exception handling",
+    "Operational clarity"
+  ],
+  "whenItCameAbout": "Operations has always existed wherever organized work had to scale, but modern operating roles became more explicit as software, services, and cross-functional delivery made process quality a major competitive factor.",
+  "whatPeopleDo": [
+    "Document and improve core operating workflows.",
+    "Reduce avoidable friction between teams, systems, and clients.",
+    "Build routines, dashboards, and controls that keep execution visible.",
+    "Decide what should be automated, delegated, standardized, or left flexible."
+  ],
+  "howPeopleGetThere": "People often enter through project coordination, office management, service delivery, consulting, or founder-led execution roles. Strong operators usually develop from being the person who quietly makes messy systems work.",
+  "strengths": [
+    "Systems thinking",
+    "Reliability",
+    "Process design",
+    "Calm execution",
+    "Operational writing",
+    "Continuous improvement"
+  ],
+  "whoThrivesHere": "People do well when they are practical, observant, and more interested in making things run well than in taking credit for visible front-stage work.",
+  "exposures": [
+    "Messy handoffs and hidden failure points",
+    "Pressure to fix broken systems quickly",
+    "The temptation to over-process too early",
+    "Cross-functional frustration when responsibilities are blurry"
+  ],
+  "careerLevers": [
+    "Improving process clarity and measurement",
+    "Getting better at automation judgment",
+    "Reducing recurring exceptions, not just fighting fires",
+    "Building trust as the person who makes execution safer"
+  ],
+  "careerPath": [
+    "Coordinator or operations foundation",
+    "Ops manager or delivery owner",
+    "Cross-functional operations lead",
+    "Operational leadership or chief of staff track"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "gusto",
+  "name": "Gusto",
+  "category": "Operations",
+  "description": "Gusto is commonly used to support accounting workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Gusto when the team needs more structure, visibility, or speed in accounting work.",
+  "pricingTier": "enterprise",
+  "alternatives": [
+    "Deel",
+    "Expensify"
+  ],
+  "founderWorkflow": "Use Gusto to keep accounting work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "high",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Gusto before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

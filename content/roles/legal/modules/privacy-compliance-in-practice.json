@@ -1,0 +1,28 @@
+{
+  "slug": "privacy-compliance-in-practice",
+  "title": "Privacy Compliance in Practice",
+  "shortSummary": "Build stronger privacy compliance in practice judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "legal",
+  "whyItMatters": "Privacy Compliance in Practice is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Privacy Compliance in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good privacy compliance in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Privacy Compliance in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "privacy-compliance-in-practice-lesson"
+  ],
+  "frameworks": [
+    "employment-risk-operating-loop",
+    "vendor-risk-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "privacy-compliance-foundations",
+    "employment-risk-foundations"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 8,
+  "category": "strategy"
+}

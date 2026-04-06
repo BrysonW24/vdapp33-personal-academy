@@ -1,0 +1,28 @@
+{
+  "slug": "pricing-architecture-foundations",
+  "title": "Pricing Architecture Foundations",
+  "shortSummary": "Build stronger pricing architecture foundations judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Pricing Architecture Foundations is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Pricing Architecture Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good pricing architecture foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Pricing Architecture Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "pricing-architecture-operator-lesson"
+  ],
+  "frameworks": [
+    "scenario-planning-review-lens",
+    "pricing-architecture-decision-map"
+  ],
+  "relatedModules": [
+    "scenario-planning-in-practice",
+    "pricing-architecture-in-practice"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 12,
+  "category": "strategy"
+}

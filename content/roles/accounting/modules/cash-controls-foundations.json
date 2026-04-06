@@ -1,0 +1,28 @@
+{
+  "slug": "cash-controls-foundations",
+  "title": "Cash Controls Foundations",
+  "shortSummary": "Build stronger cash controls foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "accounting",
+  "whyItMatters": "Cash Controls Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Cash Controls Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good cash controls foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Cash Controls Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "cash-controls-operator-lesson"
+  ],
+  "frameworks": [
+    "accounts-payable-roadmap",
+    "management-reporting-playbook-lens"
+  ],
+  "relatedModules": [
+    "month-end-close-in-practice",
+    "cash-controls-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

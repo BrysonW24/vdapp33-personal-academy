@@ -1,0 +1,28 @@
+{
+  "slug": "policy-design-in-practice",
+  "title": "Policy Design in Practice",
+  "shortSummary": "Build stronger policy design in practice judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "legal",
+  "whyItMatters": "Policy Design in Practice is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Policy Design in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good policy design in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Policy Design in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "policy-design-in-practice-lesson"
+  ],
+  "frameworks": [
+    "employment-risk-operating-loop",
+    "vendor-risk-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "policy-design-foundations",
+    "dispute-avoidance-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

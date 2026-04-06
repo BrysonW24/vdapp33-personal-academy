@@ -1,0 +1,26 @@
+{
+  "slug": "conflict-handling-operator-lesson",
+  "moduleSlug": "conflict-handling-foundations",
+  "title": "Conflict Handling Operator Lesson",
+  "objective": "Understand the operator fundamentals behind conflict handling in leadership / people.",
+  "beginnerExplanation": "Conflict Handling becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, conflict handling is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Conflict Handling improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether conflict handling is working.",
+    "Conflict Handling should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "conflict-handling-diagnostic",
+    "decision-cadence-roadmap"
+  ],
+  "example": "A founder or operator uses conflict handling to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating conflict handling like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve conflict handling over the next two weeks inside a real business.",
+  "order": 8,
+  "nextLesson": "decision-cadence-operator-lesson"
+}

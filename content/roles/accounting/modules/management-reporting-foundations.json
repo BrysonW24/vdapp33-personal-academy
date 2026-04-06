@@ -1,0 +1,28 @@
+{
+  "slug": "management-reporting-foundations",
+  "title": "Management Reporting Foundations",
+  "shortSummary": "Build stronger management reporting foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "accounting",
+  "whyItMatters": "Management Reporting Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Management Reporting Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good management reporting foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Management Reporting Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "management-reporting-operator-lesson"
+  ],
+  "frameworks": [
+    "expense-policy-control-tower",
+    "accounts-receivable-diagnostic"
+  ],
+  "relatedModules": [
+    "accounts-payable-in-practice",
+    "management-reporting-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

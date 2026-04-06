@@ -1,0 +1,28 @@
+{
+  "slug": "instrumentation-design-in-practice",
+  "title": "Instrumentation Design in Practice",
+  "shortSummary": "Build stronger instrumentation design in practice judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "data-analytics",
+  "whyItMatters": "Instrumentation Design in Practice is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Instrumentation Design in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good instrumentation design in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Instrumentation Design in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "instrumentation-design-in-practice-lesson"
+  ],
+  "frameworks": [
+    "dashboard-design-review-lens",
+    "warehouse-modeling-decision-map"
+  ],
+  "relatedModules": [
+    "instrumentation-design-foundations",
+    "event-taxonomy-foundations"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "category": "foundation"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "culture-signals-operator-lesson",
+  "moduleSlug": "culture-signals-foundations",
+  "title": "Culture Signals Operator Lesson",
+  "objective": "Understand the operator fundamentals behind culture signals in leadership / people.",
+  "beginnerExplanation": "Culture Signals becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, culture signals is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Culture Signals improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether culture signals is working.",
+    "Culture Signals should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "culture-signals-playbook-lens",
+    "hiring-design-canvas"
+  ],
+  "example": "A founder or operator uses culture signals to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating culture signals like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve culture signals over the next two weeks inside a real business.",
+  "order": 10
+}

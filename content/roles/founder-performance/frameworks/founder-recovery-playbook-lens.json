@@ -1,0 +1,15 @@
+{
+  "slug": "founder-recovery-playbook-lens",
+  "name": "Founder Recovery Playbook Lens",
+  "summary": "Founder Recovery Playbook Lens gives founder performance work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about founder recovery playbook lens without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Founder Recovery Playbook Lens to sort noise from signal and decide which change should happen first.",
+  "category": "operator",
+  "domain": "founder-performance"
+}

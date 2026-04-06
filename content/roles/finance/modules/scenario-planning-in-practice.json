@@ -1,0 +1,28 @@
+{
+  "slug": "scenario-planning-in-practice",
+  "title": "Scenario Planning in Practice",
+  "shortSummary": "Build stronger scenario planning in practice judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Scenario Planning in Practice is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Scenario Planning in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good scenario planning in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Scenario Planning in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "scenario-planning-in-practice-lesson"
+  ],
+  "frameworks": [
+    "cash-planning-canvas",
+    "financial-modeling-scorecard"
+  ],
+  "relatedModules": [
+    "scenario-planning-foundations",
+    "pricing-architecture-foundations"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

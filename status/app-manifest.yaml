@@ -1,6 +1,6 @@
 id: vdapp33-personal-academy
 name: Nexus
-summary: Browse-first multi-subject academy for curiosity-driven learning across a 64-subject, 41-topic, 7-role map of human reality, with macro-bucket discovery, command-palette quick jump, guided-world role surfaces, and curated truth-stack/signal layers.
+summary: Browse-first multi-subject academy for curiosity-driven learning across a 64-subject, 41-topic, 22-role map of human reality, with macro-bucket discovery, command-palette quick jump, guided-world role surfaces, and curated truth-stack/signal layers.
 owner: unassigned
 phase: delivery
 release_stage: internal-beta
@@ -14,7 +14,7 @@ product:
   category: academy
   deployment_target: web
   business_model: internal-product
-  status_truth: "Shell implemented. The app is browse-first, macro-bucket exploration is live on the homepage, the command palette is part of the primary navigation, Politics now lands on its richer systems surface, flagship roles use the guided-world format, optional secondary guidance remains available through /setup and /my-path, and curated source/signal surfaces sit alongside the curriculum shell."
+  status_truth: "Shell implemented. The app is browse-first, macro-bucket exploration is live on the homepage, the command palette is part of the primary navigation, Politics now lands on its richer systems surface, flagship roles use the guided-world format, imported Founder OS role academies now live inside the shared role shell, optional secondary guidance remains available through /setup and /my-path, and curated source/signal surfaces sit alongside the curriculum shell."
 
 surfaces:
   primary_routes:
@@ -74,6 +74,7 @@ notes:
   - Robotics is a native Nexus subject with full route coverage.
   - Commercial Property Management was migrated from vdapp46 with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.
   - Roles and topics now live under content/roles/ and content/topics/ as entity-aware route families, not just content packs.
+  - The role catalog now includes the broader Founder OS functional role family re-homed into Nexus as first-class role academies.
   - The taxonomy now extends well beyond the original seven-subject shell to include additional sciences, engineering, society, markets, life, humanities, and mind subjects/topics.
   - Browse-first discovery now uses macro buckets above the raw technical groups: reality, human-being, civilization, built-world, markets-assets, meaning-culture, and frontier.
   - The header now includes a local static command palette for jumping across subjects, topics, roles, flagship modules, and signals.

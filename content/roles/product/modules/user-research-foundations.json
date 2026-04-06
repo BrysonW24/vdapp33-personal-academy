@@ -1,0 +1,28 @@
+{
+  "slug": "user-research-foundations",
+  "title": "User Research Foundations",
+  "shortSummary": "Build stronger user research foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "product",
+  "whyItMatters": "User Research Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "User Research Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good user research foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "User Research Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "user-research-operator-lesson"
+  ],
+  "frameworks": [
+    "experimentation-control-tower",
+    "launch-planning-diagnostic"
+  ],
+  "relatedModules": [
+    "roadmapping-in-practice",
+    "user-research-in-practice"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 9,
+  "category": "strategy"
+}

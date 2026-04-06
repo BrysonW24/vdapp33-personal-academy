@@ -1,0 +1,20 @@
+{
+  "slug": "synder",
+  "name": "Synder",
+  "category": "Automation",
+  "description": "Synder is commonly used to support accounting workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Synder when the team needs more structure, visibility, or speed in accounting work.",
+  "pricingTier": "enterprise",
+  "alternatives": [
+    "Float",
+    "Puzzle"
+  ],
+  "founderWorkflow": "Use Synder to keep accounting work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "medium",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding Synder before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

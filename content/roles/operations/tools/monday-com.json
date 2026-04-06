@@ -1,0 +1,20 @@
+{
+  "slug": "monday-com",
+  "name": "Monday.com",
+  "category": "Analytics",
+  "description": "Monday.com is commonly used to support operations workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Monday.com when the team needs more structure, visibility, or speed in operations work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Notion",
+    "Airtable"
+  ],
+  "founderWorkflow": "Use Monday.com to keep operations work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding Monday.com before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

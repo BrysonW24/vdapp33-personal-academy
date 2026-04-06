@@ -1,0 +1,28 @@
+{
+  "slug": "operating-focus-in-practice",
+  "title": "Operating Focus in Practice",
+  "shortSummary": "Build stronger operating focus in practice judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "strategy",
+  "whyItMatters": "Operating Focus in Practice is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Operating Focus in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good operating focus in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Operating Focus in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "operating-focus-in-practice-lesson"
+  ],
+  "frameworks": [
+    "operating-focus-control-tower",
+    "initiative-sequencing-diagnostic"
+  ],
+  "relatedModules": [
+    "operating-focus-foundations",
+    "initiative-sequencing-foundations"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

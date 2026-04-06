@@ -114,16 +114,28 @@ const REQUIRED_TOPICS = [
 ] as const
 
 const REQUIRED_ROLES = [
+  "accounting",
+  "ai-automation",
   "astronaut",
   "ai-researcher",
   "ai-engineering",
+  "capital",
+  "customer-success",
+  "data-analytics",
   "diplomat",
   "entrepreneur-startup-founder",
+  "finance",
+  "founder-performance",
   "intelligence-analyst",
+  "leadership",
+  "legal",
   "marketing",
+  "operations",
   "pilot",
+  "product",
   "robotics-engineer",
   "sales",
+  "strategy",
 ] as const
 
 describe("nexus catalog completeness", () => {
@@ -143,7 +155,7 @@ describe("nexus catalog completeness", () => {
     }
   })
 
-  it("keeps the flagship role set live", () => {
+  it("includes the full required role set", () => {
     const roles = new Set(getRoles().map((role) => role.slug))
 
     for (const slug of REQUIRED_ROLES) {

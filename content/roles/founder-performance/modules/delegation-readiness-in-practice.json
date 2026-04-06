@@ -1,0 +1,28 @@
+{
+  "slug": "delegation-readiness-in-practice",
+  "title": "Delegation Readiness in Practice",
+  "shortSummary": "Build stronger delegation readiness in practice judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "founder-performance",
+  "whyItMatters": "Delegation Readiness in Practice is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Delegation Readiness in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good delegation readiness in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Delegation Readiness in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "delegation-readiness-in-practice-lesson"
+  ],
+  "frameworks": [
+    "relationships-operating-loop",
+    "attention-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "delegation-readiness-foundations",
+    "founder-recovery-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

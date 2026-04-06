@@ -1,0 +1,10 @@
+{
+  "slug": "jobs-to-be-done",
+  "name": "Jobs To Be Done",
+  "summary": "Customers do not buy products — they hire them to get a job done. Understanding the job reveals the real competitive landscape.",
+  "whenToUseIt": "When defining product strategy, uncovering why customers switch, or identifying opportunities your competitors miss.",
+  "steps": ["Identify the functional job (what is the customer trying to accomplish?)", "Identify the emotional job (how do they want to feel?)", "Identify the social job (how do they want to be perceived?)", "Map the current solutions they use (what are they hiring today?)", "Find the gaps where current solutions fail or frustrate"],
+  "example": "People do not buy a drill because they want a drill. They hire a drill to make a hole. They hire the hole to hang a shelf. They hire the shelf to organise their home. Understanding the real job changes what you build and how you sell it.",
+  "category": "customer-insight",
+  "domain": "strategy"
+}

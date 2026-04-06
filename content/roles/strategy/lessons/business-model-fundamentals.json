@@ -1,0 +1,52 @@
+{
+  "slug": "business-model-fundamentals",
+  "moduleSlug": "business-model-design",
+  "title": "Business Model Fundamentals",
+  "objective": "Understand how money flows through your business — revenue models, cost structures, and the unit economics that determine whether your business can survive and scale.",
+  "beginnerExplanation": "A business model answers one question: how does your company make money? Not 'how much money do you want to make' — that is a goal. A business model describes the mechanics: who pays you, how much they pay, how often they pay, what it costs you to deliver, and what is left over.\n\nThere are a handful of core revenue models: subscription (monthly/annual recurring), transactional (pay per use), marketplace (take a cut of each transaction), licensing (charge for access to IP), services (charge for time/expertise), and advertising (charge for attention). Most businesses use one or two.\n\nYour business model is more defensible than your product. Products can be copied. A business model that creates network effects, switching costs, or compounding data advantages is much harder to replicate. That is why understanding your business model deeply matters more than obsessing over features.",
+  "deeperExplanation": "A complete business model has several interlocking parts:\n\n1. Value proposition — what problem do you solve and for whom?\n2. Revenue model — how do customers pay? (subscription, transactional, marketplace, etc.)\n3. Cost structure — what are your fixed costs (rent, salaries) and variable costs (hosting, delivery per customer)?\n4. Unit economics — what does it cost to acquire a customer (CAC), how much do they pay over their lifetime (LTV), and is LTV > CAC?\n5. Growth model — how do new customers find you? (sales-led, product-led, marketing-led, community-led)\n\nThe most important insight: these parts must be coherent. A premium pricing model does not work with a mass-market growth strategy. A self-serve product does not work with an enterprise sales model. When the parts conflict, the business model breaks.\n\nAlso critical: business models evolve. Your model at $10K MRR will be different from your model at $1M MRR. The founder's job is to recognise when the current model is hitting its limits and design the next evolution.",
+  "keyTakeaways": [
+    "A business model describes how money flows — who pays, how much, how often, and what it costs to deliver",
+    "Business models are more defensible than products — focus on structural advantages",
+    "Unit economics (CAC, LTV, margins) determine whether growth creates or destroys value",
+    "All parts of the model must be coherent — premium pricing requires premium delivery",
+    "Business models evolve — what works at $10K MRR may not work at $1M MRR"
+  ],
+  "frameworks": ["business-model-canvas"],
+  "example": "Atlassian built a $50B+ company on a business model insight: enterprise software does not need enterprise sales. While competitors like IBM and Oracle spent 40-50% of revenue on sales teams, Atlassian invested in a self-serve model where developers could adopt tools for free, then companies would upgrade. Their cost structure (low sales expense) enabled their pricing (lower than competitors), which enabled their growth model (product-led, bottom-up adoption). Every part of the model reinforced every other part.",
+  "commonMistakes": [
+    "Focusing on revenue without understanding cost structure — revenue without margin is just busy work",
+    "Ignoring unit economics — you can grow fast and still lose money on every customer",
+    "Choosing a business model because a famous company uses it — your model must fit YOUR market and capabilities",
+    "Not evolving the model — what got you to $100K will not get you to $1M"
+  ],
+  "exercise": "Draw your business model on one page. Answer: 1) Who pays you? 2) How much do they pay? 3) How often? 4) What does it cost you to acquire them? 5) What does it cost to serve them? 6) What is left over? 7) How do they find you? If any answer is 'I do not know,' that is your most important research task this week.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "Why is a business model often more defensible than a product?",
+      "options": ["Because business models are harder to understand", "Because patents protect business models", "Because structural advantages like network effects and switching costs are harder to copy than features", "Because customers do not care about business models"],
+      "correctIndex": 2,
+      "explanation": "Products can be copied relatively quickly. But structural advantages embedded in the business model — network effects, switching costs, data advantages, cost structure advantages — are much harder and slower to replicate."
+    },
+    {
+      "question": "What is the most important relationship in unit economics?",
+      "options": ["Revenue vs expenses", "CAC vs LTV — customer acquisition cost must be less than lifetime value", "Fixed costs vs variable costs", "Gross margin vs net margin"],
+      "correctIndex": 1,
+      "explanation": "If it costs more to acquire a customer (CAC) than they pay you over their lifetime (LTV), you lose money on every customer. Growth makes this worse, not better. LTV must exceed CAC for the business to be viable."
+    },
+    {
+      "question": "What is the biggest risk with business model design?",
+      "options": ["Choosing the wrong colour scheme for pricing pages", "Having parts of the model that conflict with each other", "Not having enough pricing tiers", "Launching before the model is perfect"],
+      "correctIndex": 1,
+      "explanation": "An incoherent business model — where pricing, delivery cost, growth strategy, and value proposition pull in different directions — is the most common failure mode. All parts must reinforce each other."
+    }
+  ],
+  "perspectives": {
+    "founder": "You are the architect of your business model. This is not a one-time design exercise — it is an ongoing process of understanding how money flows and where the model can be strengthened. The founders who win are the ones who deeply understand their unit economics and design every decision to improve them.",
+    "delegator": "The business model is a founder-level decision, but the analysis can be delegated. Have your finance person (or do it yourself) track CAC, LTV, and margins monthly. Delegate data gathering. Own the interpretation and the decisions that follow.",
+    "investor": "Investors evaluate business models on three dimensions: can it scale (do unit economics improve with volume?), is it defensible (are there structural advantages?), and is it efficient (how much capital is needed to grow?). A founder who can articulate all three is fundable.",
+    "advisor": "The most common advice: simplify your business model. Most early-stage companies try to do too many things. Pick one revenue model, one customer segment, and one growth channel. Master those before adding complexity.",
+    "scaler": "At 10x scale, business model advantages compound. A 5% improvement in gross margin across 10,000 customers is transformative. At scale, the business model IS the strategy. Companies like Amazon (low margin, high volume, reinvest everything) and Apple (premium pricing, integrated ecosystem) are defined by their business models, not individual products."
+  }
+}

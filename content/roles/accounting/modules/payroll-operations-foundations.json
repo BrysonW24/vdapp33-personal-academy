@@ -1,0 +1,28 @@
+{
+  "slug": "payroll-operations-foundations",
+  "title": "Payroll Operations Foundations",
+  "shortSummary": "Build stronger payroll operations foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "accounting",
+  "whyItMatters": "Payroll Operations Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Payroll Operations Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good payroll operations foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Payroll Operations Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "payroll-operations-operator-lesson"
+  ],
+  "frameworks": [
+    "expense-policy-control-tower",
+    "accounts-receivable-diagnostic"
+  ],
+  "relatedModules": [
+    "tax-calendar-in-practice",
+    "payroll-operations-in-practice"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 9,
+  "category": "strategy"
+}

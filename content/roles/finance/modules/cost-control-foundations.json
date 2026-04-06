@@ -1,0 +1,28 @@
+{
+  "slug": "cost-control-foundations",
+  "title": "Cost Control Foundations",
+  "shortSummary": "Build stronger cost control foundations judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "finance",
+  "whyItMatters": "Cost Control Foundations is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Cost Control Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good cost control foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Cost Control Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "cost-control-operator-lesson"
+  ],
+  "frameworks": [
+    "management-reporting-operating-loop",
+    "board-finance-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "board-finance-in-practice",
+    "cost-control-in-practice"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

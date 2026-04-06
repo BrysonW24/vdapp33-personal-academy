@@ -1,0 +1,28 @@
+{
+  "slug": "vendor-coordination-foundations",
+  "title": "Vendor Coordination Foundations",
+  "shortSummary": "Build stronger vendor coordination foundations judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "operations",
+  "whyItMatters": "Vendor Coordination Foundations is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Vendor Coordination Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good vendor coordination foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Vendor Coordination Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "vendor-coordination-operator-lesson"
+  ],
+  "frameworks": [
+    "automation-design-roadmap",
+    "operating-reviews-playbook-lens"
+  ],
+  "relatedModules": [
+    "documentation-in-practice",
+    "vendor-coordination-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

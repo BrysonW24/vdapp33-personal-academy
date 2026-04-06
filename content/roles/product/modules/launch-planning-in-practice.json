@@ -1,0 +1,28 @@
+{
+  "slug": "launch-planning-in-practice",
+  "title": "Launch Planning in Practice",
+  "shortSummary": "Build stronger launch planning in practice judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "product",
+  "whyItMatters": "Launch Planning in Practice is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Launch Planning in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good launch planning in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Launch Planning in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "launch-planning-in-practice-lesson"
+  ],
+  "frameworks": [
+    "problem-discovery-canvas",
+    "opportunity-sizing-scorecard"
+  ],
+  "relatedModules": [
+    "launch-planning-foundations",
+    "adoption-metrics-foundations"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

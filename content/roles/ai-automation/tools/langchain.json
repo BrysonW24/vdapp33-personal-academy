@@ -1,0 +1,20 @@
+{
+  "slug": "langchain",
+  "name": "LangChain",
+  "category": "Analytics",
+  "description": "LangChain is commonly used to support ai / automation workflows, reviews, and handoffs.",
+  "whyUseIt": "Use LangChain when the team needs more structure, visibility, or speed in ai / automation work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Zapier",
+    "Make"
+  ],
+  "founderWorkflow": "Use LangChain to keep ai / automation work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding LangChain before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

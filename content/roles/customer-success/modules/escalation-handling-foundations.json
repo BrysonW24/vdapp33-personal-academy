@@ -1,0 +1,28 @@
+{
+  "slug": "escalation-handling-foundations",
+  "title": "Escalation Handling Foundations",
+  "shortSummary": "Build stronger escalation handling foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "customer-success",
+  "whyItMatters": "Escalation Handling Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Escalation Handling Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good escalation handling foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Escalation Handling Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "escalation-handling-operator-lesson"
+  ],
+  "frameworks": [
+    "renewals-review-lens",
+    "churn-analysis-decision-map"
+  ],
+  "relatedModules": [
+    "qbr-design-in-practice",
+    "escalation-handling-in-practice"
+  ],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 17,
+  "category": "advanced"
+}

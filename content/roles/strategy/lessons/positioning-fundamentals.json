@@ -1,0 +1,52 @@
+{
+  "slug": "positioning-fundamentals",
+  "moduleSlug": "competitive-positioning",
+  "title": "Positioning Fundamentals",
+  "objective": "Learn how to find, articulate, and defend a market position that makes your product the obvious choice for your target customers.",
+  "beginnerExplanation": "Positioning is not what you say about your product. It is what your product IS in the mind of your customer. When a customer thinks about your category, what slot do you occupy? Are you the affordable option? The premium option? The one for small teams? The one with the best integrations?\n\nIf you cannot answer that question clearly, you do not have positioning. You just have a product.\n\nPositioning is about making a deliberate choice: you can compete on differentiation (we are different and better in a specific way), cost (we are cheaper), or focus (we serve a specific niche better than anyone). You cannot do all three. Trying to be the cheapest AND the most premium AND the most specialised is how products end up meaning nothing to anyone.\n\nThe best positioning makes competitors irrelevant rather than inferior. Instead of saying 'we are better than X,' strong positioning says 'we are the only option for people who need Y.'",
+  "deeperExplanation": "April Dunford's framework for positioning is the most actionable for founders. She identifies five components of positioning that work together:\n\n1. Competitive alternatives — what would customers use if your product did not exist?\n2. Unique attributes — what do you have that alternatives do not?\n3. Value — what benefit do those unique attributes deliver?\n4. Target customer — who cares most about that value?\n5. Market category — what context makes your value obvious?\n\nThe order matters. Most founders start with market category ('we are a CRM') and work backwards. Dunford argues you should start with competitive alternatives and work forward. This grounds your positioning in reality instead of aspiration.\n\nPositioning also evolves. Your positioning at $0 ARR is different from your positioning at $1M ARR. Early positioning is about finding any beachhead. Later positioning is about expanding from a position of strength. Do not try to position for the market you want in 5 years — position for the market you can win today.",
+  "keyTakeaways": [
+    "Positioning is what your product IS in the customer's mind, not what you say about it",
+    "You must choose: differentiation, cost leadership, or niche focus — you cannot do all three",
+    "The best positioning makes competitors irrelevant, not just inferior",
+    "Start with competitive alternatives, not your market category",
+    "Test positioning with customers, not in a meeting room"
+  ],
+  "frameworks": ["jobs-to-be-done", "ansoff-matrix"],
+  "example": "Basecamp positioned itself not as 'project management software' (competing with Microsoft Project and Jira) but as 'the sane way to work together' for small teams who hate complexity. This positioning made Jira irrelevant — not inferior. A 10-person creative agency would never compare Basecamp to Jira because they serve different jobs. By choosing a narrow positioning, Basecamp avoided competing on features with much larger companies and instead competed on simplicity and philosophy.",
+  "commonMistakes": [
+    "Positioning by features instead of outcomes — customers buy outcomes, not features",
+    "Positioning for the market you want instead of the market you can win today",
+    "Trying to appeal to everyone — broad positioning means weak positioning",
+    "Never testing your positioning with actual customers and prospects"
+  ],
+  "exercise": "Write a positioning statement for your product using this template: 'For [target customer] who [key need], [your product] is a [market category] that [key benefit]. Unlike [primary alternative], we [key differentiator].' Then ask 3 customers: does this describe why you chose us? If they say no or hesitate, your positioning needs work.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the most common positioning mistake founders make?",
+      "options": ["Pricing too high", "Trying to appeal to everyone", "Focusing too much on one customer segment", "Not having enough features"],
+      "correctIndex": 1,
+      "explanation": "Broad positioning means weak positioning. When you try to appeal to everyone, you end up meaning nothing to anyone. The strongest positions are narrow and specific."
+    },
+    {
+      "question": "According to April Dunford, where should you START when building positioning?",
+      "options": ["Your market category", "Your target customer", "Your competitive alternatives", "Your pricing strategy"],
+      "correctIndex": 2,
+      "explanation": "Dunford argues you should start by understanding what customers would use if your product did not exist. This grounds your positioning in reality and reveals your true competitive landscape."
+    },
+    {
+      "question": "What makes the strongest competitive positioning?",
+      "options": ["Being cheaper than all competitors", "Having the most features", "Making competitors irrelevant rather than inferior", "Having the best marketing"],
+      "correctIndex": 2,
+      "explanation": "The strongest positioning does not say 'we are better than X' — it says 'we are the only option for people who need Y.' This makes competitors irrelevant because they are playing a different game."
+    }
+  ],
+  "perspectives": {
+    "founder": "As the founder, you probably have strong intuitions about your positioning but have not made them explicit. The danger is that your positioning lives only in your head. Write it down, test it with customers, and make sure your team can articulate it. If your sales team describes your product differently from your marketing team, you have a positioning problem.",
+    "delegator": "You can delegate positioning research — customer interviews, competitor analysis, market mapping. But the final positioning decision is a founder job because it constrains everything else: messaging, pricing, product roadmap, hiring, partnerships. Delegate the inputs, own the decision.",
+    "investor": "Investors look for clear positioning as a signal of founder clarity. A founder who says 'we compete with everyone' is a red flag. A founder who says 'we are the only X for Y who need Z' is credible. Strong positioning also signals a large enough market that is specific enough to win.",
+    "advisor": "The most common advice: your positioning is probably too broad. Narrow it. You can always expand later from a position of strength. Expanding from a narrow beachhead is much easier than trying to narrow down after being too broad.",
+    "scaler": "At 10x scale, positioning becomes the foundation of your brand. Early positioning choices compound — they shape customer expectations, team culture, and market perception. Changing positioning at scale is expensive and slow. Get it right early, and it becomes an asset that appreciates over time."
+  }
+}

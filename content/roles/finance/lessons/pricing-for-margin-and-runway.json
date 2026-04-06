@@ -1,0 +1,67 @@
+{
+  "slug": "pricing-for-margin-and-runway",
+  "moduleSlug": "pricing-and-margin-management",
+  "title": "Pricing for Margin and Runway",
+  "objective": "Understand how pricing decisions shape gross margin, cash flow, and runway so you can raise prices or structure offers with financial discipline instead of guesswork.",
+  "beginnerExplanation": "Most founders think about pricing as a sales question: what number will customers say yes to? Finance forces a bigger question: what number lets the business survive and grow? Price is not just what the customer pays. It is what determines how much room you have to cover delivery costs, pay the team, reinvest in growth, and build reserves.\n\nStart with gross margin. If you sell a service for $2,000 and it costs $1,400 to deliver, your gross margin is only $600. That may sound fine until you realise the business still has software bills, rent, tax, contractors, and founder wages to cover. Weak gross margin means every sale creates work without creating much financial oxygen.\n\nFounders also underestimate how damaging uncontrolled discounting can be. A 10 percent discount is not a 10 percent reduction in profit. If your margin is already thin, that discount can destroy a much larger share of the cash you keep. This is why mature operators treat discounts like investments that require a reason, a time limit, and a trade-off in return.\n\nPricing should also reflect value, not only cost. If your product helps a client reduce churn, close more revenue, or save dozens of staff hours each month, pricing purely from internal cost leaves money on the table. Good pricing protects both sides: the customer sees a clear return, and the business preserves enough margin to deliver well.",
+  "deeperExplanation": "Margin management becomes more important as the company scales because pricing decisions multiply across every account, channel, and sales conversation. The right way to think about pricing is as a system with three linked layers: value capture, margin protection, and cash timing.\n\nValue capture asks whether the price reflects the economic outcome created for the customer. If a workflow product saves a client $60,000 per year in labour and error reduction, charging $3,000 per year may create an easy sale but signals weak value capture. A better range might still feel cheap to the customer while giving the business room to fund support, onboarding, and product improvements.\n\nMargin protection asks what happens after the sale. Founders often agree to discounts, custom work, extended support, or flexible payment terms without recalculating the real contribution margin. Revenue goes up, but the workload and delivery cost rise faster. The result is a business that looks busier every quarter while cash stays tight.\n\nCash timing is the runway layer. Annual upfront contracts, deposits, usage minimums, and disciplined invoice collection improve liquidity even when the headline price stays the same. The opposite is also true: generous payment terms can quietly turn healthy unit economics into a cash flow problem. This is why finance, sales, and strategy should review pricing together on a regular cadence.\n\nThe best founders do not wait for a crisis to revisit pricing. They set a review rhythm, compare win rate against margin quality, and decide in advance which customers, packages, or discount levels they will not support. That discipline protects runway and keeps growth investable.",
+  "keyTakeaways": [
+    "Pricing determines both perceived value in the market and the margin available to run the business well.",
+    "Discounts erode profit faster than most founders expect, so they need explicit guardrails and trade-offs.",
+    "Contribution margin matters more than vanity revenue because it shows what each sale actually leaves behind.",
+    "Payment structure affects runway just as much as price level because cash timing changes liquidity.",
+    "Pricing should be reviewed as a recurring operating decision, not a one-off launch exercise."
+  ],
+  "frameworks": ["break-even-analysis", "unit-economics-model"],
+  "example": "A founder sells a managed analytics service for $3,000 per month. On paper, demand looks strong because prospects often ask for a discount and still move forward. But delivery requires senior analyst time, custom reporting, and frequent stakeholder calls, so the real delivery cost is about $2,100 per month. When the founder offers a 15 percent discount to close deals faster, monthly revenue drops to $2,550 and margin falls to only $450. Five clients create $12,750 in revenue but just $2,250 in gross profit before overhead. After reviewing the numbers, the founder reframes the offer into a standard package, removes custom reporting from the base plan, requires quarterly prepayment, and raises the standard price to $3,400. Win rate stays healthy, but margin and cash flow improve immediately.",
+  "commonMistakes": [
+    "Setting prices by copying competitors without understanding your own delivery cost and positioning",
+    "Treating discounts as harmless when they are actually margin destruction",
+    "Accepting custom scope inside a standard price and quietly turning profitable deals into bad ones",
+    "Ignoring payment timing and focusing only on the sticker price"
+  ],
+  "exercise": "Review your main offer and write down five numbers: price, direct delivery cost, gross margin in dollars, gross margin percentage, and average time to collect cash. Then model two changes: a 10 percent price increase and a 10 percent discount. What happens to your margin dollars and your runway if you sell ten deals under each case? Use the result to decide what pricing guardrail you should enforce from now on.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "If a founder gives a discount without changing scope or cost, what usually happens?",
+      "options": [
+        "Revenue drops but margin stays the same",
+        "Only the sales team is affected",
+        "Margin is compressed because price falls while delivery cost stays constant",
+        "The customer automatically becomes more profitable later"
+      ],
+      "correctIndex": 2,
+      "explanation": "A discount lowers price immediately, but delivery cost usually stays fixed. That means the margin on each sale is reduced, sometimes dramatically."
+    },
+    {
+      "question": "Why does payment structure matter for runway?",
+      "options": [
+        "Because customers prefer annual billing",
+        "Because cash timing determines when money actually arrives in the business",
+        "Because accountants require fixed billing intervals",
+        "Because it eliminates the need for forecasting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Runway depends on real cash in the bank, not just booked revenue. Better billing structure and collections improve liquidity even if the headline price does not change."
+    },
+    {
+      "question": "What is the best reason to review pricing regularly?",
+      "options": [
+        "Pricing only matters when investors ask",
+        "It helps connect market value, margin quality, and cash health over time",
+        "Customers expect a new price every month",
+        "It is mostly a branding exercise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pricing is an operating decision, not just a launch choice. Regular review keeps price, margin, and growth quality aligned."
+    }
+  ],
+  "perspectives": {
+    "founder": "If you avoid pricing conversations because they feel uncomfortable, you are probably subsidising your customers with your own runway. Pricing discipline is not greed. It is how you build a business that can keep serving customers well.",
+    "delegator": "Delegate invoice execution and pricing analysis support, but not the final pricing principles. Founders need to own the discount rules, packaging logic, and minimum margin thresholds.",
+    "investor": "Investors care less about whether you are cheap and more about whether your pricing is defendable. Strong pricing discipline signals a healthier market position and better capital efficiency.",
+    "advisor": "Many founders do not need a full pricing overhaul. They need three simple rules: know your margin floor, require a reason for any discount, and review pricing on a fixed cadence.",
+    "scaler": "At scale, pricing mistakes become structural. A weak entry price or badly governed discount habit can distort the economics of the whole company for years."
+  }
+}

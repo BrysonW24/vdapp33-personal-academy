@@ -1,0 +1,20 @@
+{
+  "slug": "figjam",
+  "name": "FigJam",
+  "category": "Analytics",
+  "description": "FigJam is commonly used to support strategy workflows, reviews, and handoffs.",
+  "whyUseIt": "Use FigJam when the team needs more structure, visibility, or speed in strategy work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Miro",
+    "Notion"
+  ],
+  "founderWorkflow": "Use FigJam to keep strategy work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding FigJam before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

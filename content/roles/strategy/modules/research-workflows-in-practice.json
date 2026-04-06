@@ -1,0 +1,28 @@
+{
+  "slug": "research-workflows-in-practice",
+  "title": "Research Workflows in Practice",
+  "shortSummary": "Build stronger research workflows in practice judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "strategy",
+  "whyItMatters": "Research Workflows in Practice is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Research Workflows in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good research workflows in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Research Workflows in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "research-workflows-in-practice-lesson"
+  ],
+  "frameworks": [
+    "market-intelligence-canvas",
+    "scenario-planning-scorecard"
+  ],
+  "relatedModules": [
+    "research-workflows-foundations",
+    "prioritization-foundations"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

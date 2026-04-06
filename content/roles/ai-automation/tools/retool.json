@@ -1,0 +1,20 @@
+{
+  "slug": "retool",
+  "name": "Retool",
+  "category": "Workflow",
+  "description": "Retool is commonly used to support ai / automation workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Retool when the team needs more structure, visibility, or speed in ai / automation work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Airtable",
+    "Notion"
+  ],
+  "founderWorkflow": "Use Retool to keep ai / automation work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "scale",
+  "beginnerMistakes": [
+    "Adding Retool before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "vendor-coordination-in-practice",
+  "title": "Vendor Coordination in Practice",
+  "shortSummary": "Build stronger vendor coordination in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "operations",
+  "whyItMatters": "Vendor Coordination in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Vendor Coordination in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good vendor coordination in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Vendor Coordination in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "vendor-coordination-in-practice-lesson"
+  ],
+  "frameworks": [
+    "process-design-canvas",
+    "service-delivery-scorecard"
+  ],
+  "relatedModules": [
+    "vendor-coordination-foundations",
+    "automation-design-foundations"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

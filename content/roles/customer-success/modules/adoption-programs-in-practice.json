@@ -1,0 +1,27 @@
+{
+  "slug": "adoption-programs-in-practice",
+  "title": "Adoption Programs in Practice",
+  "shortSummary": "Build stronger adoption programs in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "customer-success",
+  "whyItMatters": "Adoption Programs in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Adoption Programs in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good adoption programs in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Adoption Programs in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "adoption-programs-in-practice-lesson"
+  ],
+  "frameworks": [
+    "escalation-handling-roadmap",
+    "adoption-programs-playbook-lens"
+  ],
+  "relatedModules": [
+    "adoption-programs-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

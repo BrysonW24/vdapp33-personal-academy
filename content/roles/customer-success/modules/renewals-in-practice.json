@@ -1,0 +1,28 @@
+{
+  "slug": "renewals-in-practice",
+  "title": "Renewals in Practice",
+  "shortSummary": "Build stronger renewals in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "customer-success",
+  "whyItMatters": "Renewals in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Renewals in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good renewals in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Renewals in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "renewals-in-practice-lesson"
+  ],
+  "frameworks": [
+    "onboarding-design-canvas",
+    "support-operations-scorecard"
+  ],
+  "relatedModules": [
+    "renewals-foundations",
+    "churn-analysis-foundations"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "tax-calendar-in-practice",
+  "title": "Tax Calendar in Practice",
+  "shortSummary": "Build stronger tax calendar in practice judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "accounting",
+  "whyItMatters": "Tax Calendar in Practice is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Tax Calendar in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good tax calendar in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Tax Calendar in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "tax-calendar-in-practice-lesson"
+  ],
+  "frameworks": [
+    "payroll-operations-operating-loop",
+    "revenue-recognition-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "tax-calendar-foundations",
+    "payroll-operations-foundations"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 8,
+  "category": "strategy"
+}

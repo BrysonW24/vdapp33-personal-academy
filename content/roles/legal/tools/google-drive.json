@@ -1,0 +1,20 @@
+{
+  "slug": "google-drive",
+  "name": "Google Drive",
+  "category": "Analytics",
+  "description": "Google Drive is commonly used to support legal / risk workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Google Drive when the team needs more structure, visibility, or speed in legal / risk work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Lexion",
+    "Termly"
+  ],
+  "founderWorkflow": "Use Google Drive to keep legal / risk work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Google Drive before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

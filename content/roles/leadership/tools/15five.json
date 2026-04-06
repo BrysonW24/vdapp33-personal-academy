@@ -1,0 +1,20 @@
+{
+  "slug": "15five",
+  "name": "15Five",
+  "category": "Planning",
+  "description": "15Five is commonly used to support leadership / people workflows, reviews, and handoffs.",
+  "whyUseIt": "Use 15Five when the team needs more structure, visibility, or speed in leadership / people work.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Miro",
+    "Google Calendar"
+  ],
+  "founderWorkflow": "Use 15Five to keep leadership / people work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "low",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding 15Five before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

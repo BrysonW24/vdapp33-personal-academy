@@ -1,0 +1,28 @@
+{
+  "slug": "expense-policy-foundations",
+  "title": "Expense Policy Foundations",
+  "shortSummary": "Build stronger expense policy foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "accounting",
+  "whyItMatters": "Expense Policy Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Expense Policy Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good expense policy foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Expense Policy Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "expense-policy-operator-lesson"
+  ],
+  "frameworks": [
+    "payroll-operations-operating-loop",
+    "revenue-recognition-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "revenue-recognition-in-practice",
+    "expense-policy-in-practice"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 13,
+  "category": "strategy"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "strategic-planning-cycles",
+  "title": "Strategic Planning Cycles",
+  "shortSummary": "How to run quarterly planning that actually works — OKRs, resource allocation, retrospectives, and the discipline of saying no.",
+  "level": "advanced",
+  "domain": "strategy",
+  "whyItMatters": "Without a planning rhythm, founders oscillate between fire-fighting and dreaming. Quarterly planning gives you the structure to step back, assess, and redirect — before you waste another 90 days on the wrong things.",
+  "coreConcepts": [
+    "Plan in 90-day cycles — long enough to achieve, short enough to adapt",
+    "OKRs (Objectives and Key Results) turn vague goals into measurable commitments",
+    "Resource allocation is where strategy becomes real — priorities without resources are wishes",
+    "A 'stop doing' list is the most valuable output of any planning session"
+  ],
+  "lessons": ["strategic-planning-fundamentals"],
+  "frameworks": ["swot", "ansoff-matrix"],
+  "relatedModules": ["what-strategy-is", "competitive-positioning"],
+  "status": "complete",
+  "order": 4
+}

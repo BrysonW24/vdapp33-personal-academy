@@ -1,0 +1,20 @@
+{
+  "slug": "greenhouse",
+  "name": "Greenhouse",
+  "category": "Analytics",
+  "description": "Greenhouse is commonly used to support leadership / people workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Greenhouse when the team needs more structure, visibility, or speed in leadership / people work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "BambooHR",
+    "HiBob"
+  ],
+  "founderWorkflow": "Use Greenhouse to keep leadership / people work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Greenhouse before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

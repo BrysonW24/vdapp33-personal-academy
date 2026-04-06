@@ -1,0 +1,10 @@
+{
+  "slug": "scenario-planning",
+  "name": "Scenario Planning",
+  "summary": "Model best, base, and worst case financial scenarios to prepare for uncertainty and make decisions with confidence.",
+  "whenToUseIt": "Before major spending decisions, during fundraising, or when external conditions are changing.",
+  "steps": ["Define your base case (current trajectory continues)", "Define your worst case (what happens if revenue drops 20-30%?)", "Define your best case (what happens if revenue grows 50%+?)", "For each scenario, calculate: monthly cash position, runway, and key decision points", "Identify trigger points (what signals tell you which scenario is playing out?)", "Pre-commit to actions for each scenario (so you act on data, not emotion)"],
+  "example": "Base: $50K MRR growing 10%/month, 12-month runway. Worst: growth stalls, runway drops to 8 months — trigger: cut 2 non-essential hires. Best: growing 15%/month, profitable in 6 months — trigger: accelerate hiring.",
+  "category": "financial-planning",
+  "domain": "finance"
+}

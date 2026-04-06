@@ -1,0 +1,26 @@
+{
+  "slug": "org-design-operator-lesson",
+  "moduleSlug": "org-design-foundations",
+  "title": "Org Design Operator Lesson",
+  "objective": "Understand the operator fundamentals behind org design in leadership / people.",
+  "beginnerExplanation": "Org Design becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, org design is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Org Design improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether org design is working.",
+    "Org Design should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "org-design-operating-loop",
+    "performance-management-prioritization-matrix"
+  ],
+  "example": "A founder or operator uses org design to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating org design like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve org design over the next two weeks inside a real business.",
+  "order": 5,
+  "nextLesson": "performance-management-operator-lesson"
+}

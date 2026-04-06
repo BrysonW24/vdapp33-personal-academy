@@ -1,0 +1,28 @@
+{
+  "slug": "copilot-use-cases-foundations",
+  "title": "Copilot Use Cases Foundations",
+  "shortSummary": "Build stronger copilot use cases foundations judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "ai-automation",
+  "whyItMatters": "Copilot Use Cases Foundations is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Copilot Use Cases Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good copilot use cases foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Copilot Use Cases Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "copilot-use-cases-operator-lesson"
+  ],
+  "frameworks": [
+    "monitoring-roadmap",
+    "change-management-playbook-lens"
+  ],
+  "relatedModules": [
+    "automation-design-in-practice",
+    "copilot-use-cases-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

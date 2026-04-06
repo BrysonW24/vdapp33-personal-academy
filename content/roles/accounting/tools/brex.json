@@ -1,0 +1,20 @@
+{
+  "slug": "brex",
+  "name": "Brex",
+  "category": "Automation",
+  "description": "Brex is commonly used to support accounting workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Brex when the team needs more structure, visibility, or speed in accounting work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Gusto",
+    "Deel"
+  ],
+  "founderWorkflow": "Use Brex to keep accounting work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "medium",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Brex before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

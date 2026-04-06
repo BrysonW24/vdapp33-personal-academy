@@ -1,0 +1,28 @@
+{
+  "slug": "renewals-foundations",
+  "title": "Renewals Foundations",
+  "shortSummary": "Build stronger renewals foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "customer-success",
+  "whyItMatters": "Renewals Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Renewals Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good renewals foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Renewals Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "renewals-operator-lesson"
+  ],
+  "frameworks": [
+    "escalation-handling-roadmap",
+    "adoption-programs-playbook-lens"
+  ],
+  "relatedModules": [
+    "support-operations-in-practice",
+    "renewals-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

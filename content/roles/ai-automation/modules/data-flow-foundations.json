@@ -1,0 +1,28 @@
+{
+  "slug": "data-flow-foundations",
+  "title": "Data Flow Foundations",
+  "shortSummary": "Build stronger data flow foundations judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "ai-automation",
+  "whyItMatters": "Data Flow Foundations is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Data Flow Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good data flow foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Data Flow Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "data-flow-operator-lesson"
+  ],
+  "frameworks": [
+    "approval-design-operating-loop",
+    "prompt-qa-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "prompt-qa-in-practice",
+    "data-flow-in-practice"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 13,
+  "category": "strategy"
+}

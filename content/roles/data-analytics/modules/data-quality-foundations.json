@@ -1,0 +1,28 @@
+{
+  "slug": "data-quality-foundations",
+  "title": "Data Quality Foundations",
+  "shortSummary": "Build stronger data quality foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "data-analytics",
+  "whyItMatters": "Data Quality Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Data Quality Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good data quality foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Data Quality Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "data-quality-operator-lesson"
+  ],
+  "frameworks": [
+    "instrumentation-design-canvas",
+    "event-taxonomy-scorecard"
+  ],
+  "relatedModules": [
+    "experimentation-analysis-in-practice",
+    "data-quality-in-practice"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "founder-recovery-foundations",
+  "title": "Founder Recovery Foundations",
+  "shortSummary": "Build stronger founder recovery foundations judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "founder-performance",
+  "whyItMatters": "Founder Recovery Foundations is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Founder Recovery Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good founder recovery foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Founder Recovery Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "founder-recovery-operator-lesson"
+  ],
+  "frameworks": [
+    "weekly-review-control-tower",
+    "communication-under-pressure-diagnostic"
+  ],
+  "relatedModules": [
+    "delegation-readiness-in-practice",
+    "founder-recovery-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

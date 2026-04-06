@@ -1,0 +1,28 @@
+{
+  "slug": "capacity-planning-in-practice",
+  "title": "Capacity Planning in Practice",
+  "shortSummary": "Build stronger capacity planning in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "operations",
+  "whyItMatters": "Capacity Planning in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Capacity Planning in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good capacity planning in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Capacity Planning in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "capacity-planning-in-practice-lesson"
+  ],
+  "frameworks": [
+    "automation-design-roadmap",
+    "operating-reviews-playbook-lens"
+  ],
+  "relatedModules": [
+    "capacity-planning-foundations",
+    "queue-management-foundations"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

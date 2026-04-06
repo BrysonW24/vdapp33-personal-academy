@@ -1,0 +1,10 @@
+{
+  "slug": "swot",
+  "name": "SWOT Analysis",
+  "summary": "A structured assessment of Strengths, Weaknesses, Opportunities, and Threats to inform strategic decisions.",
+  "whenToUseIt": "At the start of strategic planning, before a major decision, or when you need to communicate your strategic position to stakeholders.",
+  "steps": ["List internal Strengths (what you do well, resources you have, advantages over competitors)", "List internal Weaknesses (gaps, limitations, areas where competitors are stronger)", "List external Opportunities (market trends, unmet needs, emerging segments)", "List external Threats (competitive moves, regulatory changes, market shifts)", "Identify the 2-3 most important strategic implications by connecting items across quadrants"],
+  "example": "A startup with strong engineering (S) but no sales team (W) in a growing market (O) facing a well-funded competitor entering (T) should prioritise building sales capability before the competitor captures the market.",
+  "category": "strategic-planning",
+  "domain": "strategy"
+}

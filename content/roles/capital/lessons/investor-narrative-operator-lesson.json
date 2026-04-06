@@ -1,0 +1,26 @@
+{
+  "slug": "investor-narrative-operator-lesson",
+  "moduleSlug": "investor-narrative-foundations",
+  "title": "Investor Narrative Operator Lesson",
+  "objective": "Understand the operator fundamentals behind investor narrative in capital / fundraising.",
+  "beginnerExplanation": "Investor Narrative becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, investor narrative is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Investor Narrative improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether investor narrative is working.",
+    "Investor Narrative should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "investor-narrative-scorecard",
+    "data-room-readiness-review-lens"
+  ],
+  "example": "A founder or operator uses investor narrative to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating investor narrative like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve investor narrative over the next two weeks inside a real business.",
+  "order": 2,
+  "nextLesson": "data-room-readiness-operator-lesson"
+}

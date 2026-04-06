@@ -1,0 +1,28 @@
+{
+  "slug": "opportunity-sizing-foundations",
+  "title": "Opportunity Sizing Foundations",
+  "shortSummary": "Build stronger opportunity sizing foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "product",
+  "whyItMatters": "Opportunity Sizing Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Opportunity Sizing Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good opportunity sizing foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Opportunity Sizing Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "opportunity-sizing-operator-lesson"
+  ],
+  "frameworks": [
+    "user-research-operating-loop",
+    "requirements-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "problem-discovery-in-practice",
+    "opportunity-sizing-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

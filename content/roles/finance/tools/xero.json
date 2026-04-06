@@ -1,0 +1,11 @@
+{
+  "slug": "xero",
+  "name": "Xero",
+  "category": "accounting",
+  "description": "Cloud accounting software built for small businesses that need live bookkeeping, invoicing, bank reconciliation, payroll integrations, and clean month-end visibility.",
+  "whyUseIt": "Xero gives founders a real operating view of cash, receivables, payables, and monthly performance without waiting on a spreadsheet from someone else. It is strong for founder-led businesses that want simple finance hygiene and fast visibility.",
+  "pricingTier": "paid",
+  "url": "https://www.xero.com/au/",
+  "aiCapabilities": "Xero uses automation for bank rule matching, invoice reminders, transaction coding suggestions, and anomaly spotting across reconciliations.",
+  "alternatives": ["quickbooks-online", "freshbooks", "sage"]
+}

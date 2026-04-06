@@ -1,0 +1,11 @@
+{
+  "slug": "miro",
+  "name": "Miro",
+  "category": "workshops",
+  "description": "An online whiteboard for strategic workshops, market mapping, prioritisation exercises, and collaborative planning sessions.",
+  "whyUseIt": "Miro is valuable when strategic work requires visual thinking - mapping options, aligning stakeholders, or running workshops that are too messy for a standard document.",
+  "pricingTier": "freemium",
+  "url": "https://miro.com/",
+  "aiCapabilities": "Miro AI can cluster sticky notes, generate summaries from workshop boards, propose diagrams, and turn raw workshop output into cleaner next-step structures.",
+  "alternatives": ["figjam", "lucidchart", "whimsical"]
+}

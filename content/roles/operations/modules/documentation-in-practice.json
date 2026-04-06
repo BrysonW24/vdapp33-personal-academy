@@ -1,0 +1,28 @@
+{
+  "slug": "documentation-in-practice",
+  "title": "Documentation in Practice",
+  "shortSummary": "Build stronger documentation in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "operations",
+  "whyItMatters": "Documentation in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Documentation in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good documentation in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Documentation in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "documentation-in-practice-lesson"
+  ],
+  "frameworks": [
+    "documentation-control-tower",
+    "vendor-coordination-diagnostic"
+  ],
+  "relatedModules": [
+    "documentation-foundations",
+    "vendor-coordination-foundations"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

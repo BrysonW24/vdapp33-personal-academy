@@ -1,0 +1,28 @@
+{
+  "slug": "copilot-use-cases-in-practice",
+  "title": "Copilot Use Cases in Practice",
+  "shortSummary": "Build stronger copilot use cases in practice judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "ai-automation",
+  "whyItMatters": "Copilot Use Cases in Practice is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Copilot Use Cases in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good copilot use cases in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Copilot Use Cases in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "copilot-use-cases-in-practice-lesson"
+  ],
+  "frameworks": [
+    "workflow-discovery-canvas",
+    "automation-design-scorecard"
+  ],
+  "relatedModules": [
+    "copilot-use-cases-foundations",
+    "agent-boundaries-foundations"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

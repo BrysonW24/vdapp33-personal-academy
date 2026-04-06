@@ -1,0 +1,28 @@
+{
+  "slug": "use-of-funds-in-practice",
+  "title": "Use of Funds in Practice",
+  "shortSummary": "Build stronger use of funds in practice judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "capital",
+  "whyItMatters": "Use of Funds in Practice is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Use of Funds in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good use of funds in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Use of Funds in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "use-of-funds-in-practice-lesson"
+  ],
+  "frameworks": [
+    "term-sheet-logic-operating-loop",
+    "cap-table-strategy-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "use-of-funds-foundations",
+    "post-raise-discipline-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

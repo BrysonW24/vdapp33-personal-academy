@@ -1,0 +1,28 @@
+{
+  "slug": "opportunity-sizing-in-practice",
+  "title": "Opportunity Sizing in Practice",
+  "shortSummary": "Build stronger opportunity sizing in practice judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "product",
+  "whyItMatters": "Opportunity Sizing in Practice is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Opportunity Sizing in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good opportunity sizing in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Opportunity Sizing in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "opportunity-sizing-in-practice-lesson"
+  ],
+  "frameworks": [
+    "experimentation-control-tower",
+    "launch-planning-diagnostic"
+  ],
+  "relatedModules": [
+    "opportunity-sizing-foundations",
+    "prioritization-foundations"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "category": "foundation"
+}

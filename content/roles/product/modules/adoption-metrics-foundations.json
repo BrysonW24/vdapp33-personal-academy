@@ -1,0 +1,28 @@
+{
+  "slug": "adoption-metrics-foundations",
+  "title": "Adoption Metrics Foundations",
+  "shortSummary": "Build stronger adoption metrics foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "product",
+  "whyItMatters": "Adoption Metrics Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Adoption Metrics Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good adoption metrics foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Adoption Metrics Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "adoption-metrics-operator-lesson"
+  ],
+  "frameworks": [
+    "prioritization-review-lens",
+    "roadmapping-decision-map"
+  ],
+  "relatedModules": [
+    "launch-planning-in-practice",
+    "adoption-metrics-in-practice"
+  ],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 17,
+  "category": "advanced"
+}

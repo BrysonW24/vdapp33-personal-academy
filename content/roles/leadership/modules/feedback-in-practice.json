@@ -1,0 +1,28 @@
+{
+  "slug": "feedback-in-practice",
+  "title": "Feedback in Practice",
+  "shortSummary": "Build stronger feedback in practice judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "leadership",
+  "whyItMatters": "Feedback in Practice is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Feedback in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good feedback in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Feedback in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "feedback-in-practice-lesson"
+  ],
+  "frameworks": [
+    "org-design-operating-loop",
+    "performance-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "feedback-foundations",
+    "org-design-foundations"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 8,
+  "category": "strategy"
+}

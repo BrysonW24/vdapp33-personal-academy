@@ -1,0 +1,15 @@
+{
+  "slug": "health-scoring-prioritization-matrix",
+  "name": "Health Scoring Prioritization Matrix",
+  "summary": "Health Scoring Prioritization Matrix gives customer success work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about health scoring prioritization matrix without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Health Scoring Prioritization Matrix to sort noise from signal and decide which change should happen first.",
+  "category": "execution",
+  "domain": "customer-success"
+}

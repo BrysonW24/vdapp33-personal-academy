@@ -1,0 +1,28 @@
+{
+  "slug": "initiative-sequencing-foundations",
+  "title": "Initiative Sequencing Foundations",
+  "shortSummary": "Build stronger initiative sequencing foundations judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "strategy",
+  "whyItMatters": "Initiative Sequencing Foundations is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Initiative Sequencing Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good initiative sequencing foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Initiative Sequencing Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "initiative-sequencing-operator-lesson"
+  ],
+  "frameworks": [
+    "competitive-positioning-roadmap",
+    "decision-forums-playbook-lens"
+  ],
+  "relatedModules": [
+    "operating-focus-in-practice",
+    "initiative-sequencing-in-practice"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

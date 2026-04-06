@@ -1,0 +1,20 @@
+{
+  "slug": "slack",
+  "name": "Slack",
+  "category": "Communication",
+  "description": "Slack is commonly used to support customer success workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Slack when the team needs more structure, visibility, or speed in customer success work.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Google Meet",
+    "Stripe"
+  ],
+  "founderWorkflow": "Use Slack to keep customer success work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "low",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Slack before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

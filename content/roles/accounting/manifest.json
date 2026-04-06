@@ -1,0 +1,14 @@
+{
+  "slug": "accounting",
+  "name": "Accounting",
+  "kind": "role",
+  "group": "markets",
+  "icon": "Calculator",
+  "color": "#78716C",
+  "tagline": "P&L, balance sheet, tax basics, controls, and close cycles that keep financial truth clean.",
+  "tier": "flagship",
+  "order": 14,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

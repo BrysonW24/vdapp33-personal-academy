@@ -1,0 +1,28 @@
+{
+  "slug": "data-room-readiness-in-practice",
+  "title": "Data Room Readiness in Practice",
+  "shortSummary": "Build stronger data room readiness in practice judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "capital",
+  "whyItMatters": "Data Room Readiness in Practice is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Data Room Readiness in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good data room readiness in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Data Room Readiness in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "data-room-readiness-in-practice-lesson"
+  ],
+  "frameworks": [
+    "fundraising-strategy-canvas",
+    "investor-narrative-scorecard"
+  ],
+  "relatedModules": [
+    "data-room-readiness-foundations",
+    "pipeline-management-foundations"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

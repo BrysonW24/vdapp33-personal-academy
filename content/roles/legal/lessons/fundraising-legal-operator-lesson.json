@@ -1,0 +1,26 @@
+{
+  "slug": "fundraising-legal-operator-lesson",
+  "moduleSlug": "fundraising-legal-foundations",
+  "title": "Fundraising Legal Operator Lesson",
+  "objective": "Understand the operator fundamentals behind fundraising legal in legal / risk.",
+  "beginnerExplanation": "Fundraising Legal becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, fundraising legal is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Fundraising Legal improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether fundraising legal is working.",
+    "Fundraising Legal should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "fundraising-legal-diagnostic",
+    "policy-design-roadmap"
+  ],
+  "example": "A founder or operator uses fundraising legal to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating fundraising legal like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve fundraising legal over the next two weeks inside a real business.",
+  "order": 8,
+  "nextLesson": "policy-design-operator-lesson"
+}

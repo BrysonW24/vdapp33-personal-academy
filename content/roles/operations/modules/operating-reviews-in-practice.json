@@ -1,0 +1,27 @@
+{
+  "slug": "operating-reviews-in-practice",
+  "title": "Operating Reviews in Practice",
+  "shortSummary": "Build stronger operating reviews in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "operations",
+  "whyItMatters": "Operating Reviews in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Operating Reviews in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good operating reviews in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Operating Reviews in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "operating-reviews-in-practice-lesson"
+  ],
+  "frameworks": [
+    "automation-design-roadmap",
+    "operating-reviews-playbook-lens"
+  ],
+  "relatedModules": [
+    "operating-reviews-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

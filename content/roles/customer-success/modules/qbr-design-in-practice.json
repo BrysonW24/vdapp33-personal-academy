@@ -1,0 +1,28 @@
+{
+  "slug": "qbr-design-in-practice",
+  "title": "QBR Design in Practice",
+  "shortSummary": "Build stronger qbr design in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "customer-success",
+  "whyItMatters": "QBR Design in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "QBR Design in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good qbr design in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "QBR Design in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "qbr-design-in-practice-lesson"
+  ],
+  "frameworks": [
+    "onboarding-design-canvas",
+    "support-operations-scorecard"
+  ],
+  "relatedModules": [
+    "qbr-design-foundations",
+    "escalation-handling-foundations"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

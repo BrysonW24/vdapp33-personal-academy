@@ -1,0 +1,57 @@
+{
+  "slug": "data-analytics",
+  "title": "What working in Data & Analytics actually involves",
+  "summary": "Data and analytics work is not just dashboard building. It is the discipline of deciding what should be measured, how to instrument it, how to define metrics cleanly, and how to interpret signals without fooling yourself. In practice, analysts build reporting layers, investigate anomalies, shape decision forums, and make evidence more usable for the rest of the business.\n\nThe role matters because organizations often confuse data volume with clarity. Strong analytics operators know that definitions, context, and decision relevance matter more than just producing charts.\n\nWhat makes the field compelling is that it turns noise into signal. Done well, analytics changes what the organization sees and therefore what it does.",
+  "coreWork": [
+    "Designing instrumentation and metric definitions that make performance visible.",
+    "Building dashboards, reports, and analysis that support real decisions.",
+    "Running investigations, experiments, and deeper analysis when patterns look suspicious.",
+    "Translating technical data outputs into language other teams can actually use."
+  ],
+  "frontierPull": "People are drawn to analytics because it sits close to truth. You get to see which assumptions are wrong, which systems are working, and where decision quality improves when evidence gets sharper.",
+  "signals": [
+    "Instrumentation",
+    "KPIs",
+    "Dashboards",
+    "Experimentation",
+    "Warehouse logic",
+    "Definitions",
+    "Decision support",
+    "Signal quality"
+  ],
+  "whenItCameAbout": "Analytics matured as digital systems made large-scale measurement possible. The modern role sits between reporting, experimentation, data engineering, and business interpretation.",
+  "whatPeopleDo": [
+    "Set metric definitions and clean up inconsistent measurement.",
+    "Build dashboards and analysis for recurring decision rhythms.",
+    "Investigate anomalies, cohorts, and conversion patterns.",
+    "Help teams use evidence without oversimplifying what the data actually means."
+  ],
+  "howPeopleGetThere": "People often come in through analyst roles, finance, operations, BI, product analytics, or data science-adjacent work. The strongest analysts pair technical skill with the ability to ask better business questions.",
+  "strengths": [
+    "Analytical rigor",
+    "Metric design",
+    "Curiosity",
+    "Communication",
+    "Statistical caution",
+    "Pattern recognition"
+  ],
+  "whoThrivesHere": "People do well when they care about accuracy, definitions, and context, and when they can resist the pressure to make every chart tell a convenient story.",
+  "exposures": [
+    "Bad instrumentation and dirty data",
+    "Stakeholder bias toward flattering metrics",
+    "Pressure to answer quickly with incomplete evidence",
+    "The risk of dashboards that look precise but mean little"
+  ],
+  "careerLevers": [
+    "Improving metric clarity and instrumentation",
+    "Becoming stronger at experiment design",
+    "Learning better storytelling without distorting evidence",
+    "Getting closer to live decision forums"
+  ],
+  "careerPath": [
+    "Analyst foundation",
+    "Product or business analyst",
+    "Analytics lead or data strategist",
+    "Broader data, product, or operations leadership"
+  ]
+}

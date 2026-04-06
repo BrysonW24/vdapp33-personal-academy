@@ -1,0 +1,28 @@
+{
+  "slug": "capacity-planning-foundations",
+  "title": "Capacity Planning Foundations",
+  "shortSummary": "Build stronger capacity planning foundations judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "operations",
+  "whyItMatters": "Capacity Planning Foundations is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Capacity Planning Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good capacity planning foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Capacity Planning Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "capacity-planning-operator-lesson"
+  ],
+  "frameworks": [
+    "documentation-control-tower",
+    "vendor-coordination-diagnostic"
+  ],
+  "relatedModules": [
+    "quality-control-in-practice",
+    "capacity-planning-in-practice"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 9,
+  "category": "strategy"
+}

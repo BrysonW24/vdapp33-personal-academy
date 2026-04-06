@@ -1,0 +1,10 @@
+{
+  "slug": "unit-economics-model",
+  "name": "Unit Economics Model",
+  "summary": "A framework for understanding whether your business model creates or destroys value on a per-customer basis.",
+  "whenToUseIt": "Monthly when reviewing financials, before fundraising, or when deciding whether to increase acquisition spending.",
+  "steps": ["Calculate CAC (total S&M spend / new customers acquired)", "Calculate ARPU (total revenue / total customers)", "Calculate gross margin (revenue - COGS) / revenue", "Calculate LTV (ARPU × average lifespan × gross margin)", "Calculate LTV:CAC ratio (target 3:1+)", "Calculate payback period (CAC / monthly gross profit per customer)"],
+  "example": "SaaS company: $10K marketing spend, 20 new customers = $500 CAC. $100/month ARPU, 24-month lifespan, 80% margin = $1,920 LTV. LTV:CAC = 3.84:1 (healthy). Payback period = $500 / ($100 × 0.8) = 6.25 months.",
+  "category": "financial-analysis",
+  "domain": "finance"
+}

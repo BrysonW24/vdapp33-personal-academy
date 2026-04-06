@@ -1,0 +1,15 @@
+{
+  "slug": "voice-of-customer-control-tower",
+  "name": "Voice of Customer Control Tower",
+  "summary": "Voice of Customer Control Tower gives customer success work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about voice of customer control tower without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Voice of Customer Control Tower to sort noise from signal and decide which change should happen first.",
+  "category": "execution",
+  "domain": "customer-success"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ashby",
+  "name": "Ashby",
+  "category": "Workflow",
+  "description": "Ashby is commonly used to support leadership / people workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Ashby when the team needs more structure, visibility, or speed in leadership / people work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Greenhouse",
+    "BambooHR"
+  ],
+  "founderWorkflow": "Use Ashby to keep leadership / people work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "scale",
+  "beginnerMistakes": [
+    "Adding Ashby before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

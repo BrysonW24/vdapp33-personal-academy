@@ -1,0 +1,20 @@
+{
+  "slug": "make",
+  "name": "Make",
+  "category": "Workflow",
+  "description": "Make is commonly used to support ai / automation workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Make when the team needs more structure, visibility, or speed in ai / automation work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "n8n",
+    "OpenAI"
+  ],
+  "founderWorkflow": "Use Make to keep ai / automation work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Make before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

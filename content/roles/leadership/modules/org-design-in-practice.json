@@ -1,0 +1,28 @@
+{
+  "slug": "org-design-in-practice",
+  "title": "Org Design in Practice",
+  "shortSummary": "Build stronger org design in practice judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "leadership",
+  "whyItMatters": "Org Design in Practice is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Org Design in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good org design in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Org Design in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "org-design-in-practice-lesson"
+  ],
+  "frameworks": [
+    "decision-cadence-roadmap",
+    "culture-signals-playbook-lens"
+  ],
+  "relatedModules": [
+    "org-design-foundations",
+    "performance-management-foundations"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

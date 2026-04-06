@@ -1,0 +1,28 @@
+{
+  "slug": "change-management-foundations",
+  "title": "Change Management Foundations",
+  "shortSummary": "Build stronger change management foundations judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "ai-automation",
+  "whyItMatters": "Change Management Foundations is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Change Management Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good change management foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Change Management Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "change-management-operator-lesson"
+  ],
+  "frameworks": [
+    "data-flow-control-tower",
+    "tool-orchestration-diagnostic"
+  ],
+  "relatedModules": [
+    "monitoring-in-practice",
+    "change-management-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

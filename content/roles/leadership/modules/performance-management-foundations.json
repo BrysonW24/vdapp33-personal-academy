@@ -1,0 +1,28 @@
+{
+  "slug": "performance-management-foundations",
+  "title": "Performance Management Foundations",
+  "shortSummary": "Build stronger performance management foundations judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "leadership",
+  "whyItMatters": "Performance Management Foundations is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Performance Management Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good performance management foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Performance Management Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "performance-management-operator-lesson"
+  ],
+  "frameworks": [
+    "hiring-design-canvas",
+    "delegation-scorecard"
+  ],
+  "relatedModules": [
+    "org-design-in-practice",
+    "performance-management-in-practice"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

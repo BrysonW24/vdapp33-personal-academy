@@ -1,0 +1,27 @@
+{
+  "slug": "workflow-discovery-foundations",
+  "title": "Workflow Discovery Foundations",
+  "shortSummary": "Build stronger workflow discovery foundations judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "ai-automation",
+  "whyItMatters": "Workflow Discovery Foundations is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Workflow Discovery Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good workflow discovery foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Workflow Discovery Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "workflow-discovery-operator-lesson"
+  ],
+  "frameworks": [
+    "workflow-discovery-canvas",
+    "automation-design-scorecard"
+  ],
+  "relatedModules": [
+    "workflow-discovery-in-practice"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "category": "foundation"
+}

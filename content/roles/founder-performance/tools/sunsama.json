@@ -1,0 +1,20 @@
+{
+  "slug": "sunsama",
+  "name": "Sunsama",
+  "category": "Analytics",
+  "description": "Sunsama is commonly used to support founder performance workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Sunsama when the team needs more structure, visibility, or speed in founder performance work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Motion",
+    "Readwise"
+  ],
+  "founderWorkflow": "Use Sunsama to keep founder performance work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding Sunsama before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

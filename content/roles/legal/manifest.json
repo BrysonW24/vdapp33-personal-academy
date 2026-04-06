@@ -1,0 +1,14 @@
+{
+  "slug": "legal",
+  "name": "Legal / Risk",
+  "kind": "role",
+  "group": "society",
+  "icon": "Shield",
+  "color": "#64748B",
+  "tagline": "Contracts, privacy, IP, liabilities, and regulatory awareness that keep the business protected.",
+  "tier": "flagship",
+  "order": 21,
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "one-on-ones-in-practice",
+  "title": "One-on-ones in Practice",
+  "shortSummary": "Build stronger one-on-ones in practice judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "leadership",
+  "whyItMatters": "One-on-ones in Practice is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "One-on-ones in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good one-on-ones in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "One-on-ones in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "one-on-ones-in-practice-lesson"
+  ],
+  "frameworks": [
+    "hiring-design-canvas",
+    "delegation-scorecard"
+  ],
+  "relatedModules": [
+    "one-on-ones-foundations",
+    "feedback-foundations"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

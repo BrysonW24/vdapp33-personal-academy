@@ -1,0 +1,19 @@
+{
+  "slug": "financial-literacy-for-founders",
+  "title": "Financial Literacy for Founders",
+  "shortSummary": "The 3 financial statements every founder must understand: P&L, balance sheet, and cash flow. No accounting degree needed.",
+  "level": "beginner",
+  "domain": "finance",
+  "whyItMatters": "If you cannot read a P&L, you cannot run a business. Financial literacy is the difference between informed decisions and guesswork.",
+  "coreConcepts": [
+    "The P&L tells you if you are profitable — revenue minus expenses",
+    "The balance sheet tells you what you own and owe at a point in time",
+    "The cash flow statement tells you where cash came from and where it went",
+    "Profitable companies can still run out of cash — cash flow and profit are different"
+  ],
+  "lessons": ["reading-financial-statements"],
+  "frameworks": ["unit-economics-model", "break-even-analysis"],
+  "relatedModules": ["unit-economics", "cash-flow-management"],
+  "status": "complete",
+  "order": 1
+}

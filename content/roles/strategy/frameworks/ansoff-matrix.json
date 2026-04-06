@@ -1,0 +1,10 @@
+{
+  "slug": "ansoff-matrix",
+  "name": "Ansoff Matrix",
+  "summary": "A framework for choosing growth strategies based on whether you are targeting new or existing markets with new or existing products.",
+  "whenToUseIt": "When deciding how to grow: should you sell more to existing customers, enter new markets, build new products, or diversify?",
+  "steps": ["Map your current position (existing product + existing market = market penetration)", "Evaluate market development (existing product + new market)", "Evaluate product development (new product + existing market)", "Evaluate diversification (new product + new market — highest risk)", "Choose the quadrant with the best risk-adjusted return for your stage"],
+  "example": "A B2B SaaS company at $1M ARR should focus on market penetration before diversifying. Expanding to a new vertical (market development) is lower risk than building a completely new product (diversification).",
+  "category": "growth-strategy",
+  "domain": "strategy"
+}

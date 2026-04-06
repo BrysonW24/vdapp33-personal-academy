@@ -1,0 +1,26 @@
+{
+  "slug": "board-communication-operator-lesson",
+  "moduleSlug": "board-communication-foundations",
+  "title": "Board Communication Operator Lesson",
+  "objective": "Understand the operator fundamentals behind board communication in capital / fundraising.",
+  "beginnerExplanation": "Board Communication becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, board communication is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Board Communication improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether board communication is working.",
+    "Board Communication should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "board-communication-diagnostic",
+    "use-of-funds-roadmap"
+  ],
+  "example": "A founder or operator uses board communication to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating board communication like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve board communication over the next two weeks inside a real business.",
+  "order": 8,
+  "nextLesson": "use-of-funds-operator-lesson"
+}

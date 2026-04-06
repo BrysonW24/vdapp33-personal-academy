@@ -1,0 +1,27 @@
+{
+  "slug": "process-design-foundations",
+  "title": "Process Design Foundations",
+  "shortSummary": "Build stronger process design foundations judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "operations",
+  "whyItMatters": "Process Design Foundations is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Process Design Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good process design foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Process Design Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "process-design-operator-lesson"
+  ],
+  "frameworks": [
+    "process-design-canvas",
+    "service-delivery-scorecard"
+  ],
+  "relatedModules": [
+    "process-design-in-practice"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "category": "foundation"
+}

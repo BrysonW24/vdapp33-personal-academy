@@ -1,0 +1,28 @@
+{
+  "slug": "pipeline-management-in-practice",
+  "title": "Pipeline Management in Practice",
+  "shortSummary": "Build stronger pipeline management in practice judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "capital",
+  "whyItMatters": "Pipeline Management in Practice is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Pipeline Management in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good pipeline management in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Pipeline Management in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "pipeline-management-in-practice-lesson"
+  ],
+  "frameworks": [
+    "term-sheet-logic-operating-loop",
+    "cap-table-strategy-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "pipeline-management-foundations",
+    "term-sheet-logic-foundations"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 8,
+  "category": "strategy"
+}

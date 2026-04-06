@@ -1,0 +1,14 @@
+{
+  "slug": "customer-success",
+  "name": "Customer Success",
+  "kind": "role",
+  "group": "markets",
+  "icon": "HeartHandshake",
+  "color": "#22C55E",
+  "tagline": "Onboarding, retention, renewals, expansion, and customer health systems that keep value alive after the sale.",
+  "tier": "flagship",
+  "order": 17,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

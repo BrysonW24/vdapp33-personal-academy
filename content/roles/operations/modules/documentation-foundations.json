@@ -1,0 +1,28 @@
+{
+  "slug": "documentation-foundations",
+  "title": "Documentation Foundations",
+  "shortSummary": "Build stronger documentation foundations judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "operations",
+  "whyItMatters": "Documentation Foundations is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Documentation Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good documentation foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Documentation Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "documentation-operator-lesson"
+  ],
+  "frameworks": [
+    "capacity-planning-operating-loop",
+    "queue-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "queue-management-in-practice",
+    "documentation-in-practice"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 13,
+  "category": "strategy"
+}

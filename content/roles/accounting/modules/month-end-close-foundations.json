@@ -1,0 +1,28 @@
+{
+  "slug": "month-end-close-foundations",
+  "title": "Month-end Close Foundations",
+  "shortSummary": "Build stronger month-end close foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "accounting",
+  "whyItMatters": "Month-end Close Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Month-end Close Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good month-end close foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Month-end Close Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "month-end-close-operator-lesson"
+  ],
+  "frameworks": [
+    "payroll-operations-operating-loop",
+    "revenue-recognition-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "financial-statements-in-practice",
+    "month-end-close-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

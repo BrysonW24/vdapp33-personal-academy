@@ -1,0 +1,28 @@
+{
+  "slug": "research-workflows-foundations",
+  "title": "Research Workflows Foundations",
+  "shortSummary": "Build stronger research workflows foundations judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "strategy",
+  "whyItMatters": "Research Workflows Foundations is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Research Workflows Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good research workflows foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Research Workflows Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "research-workflows-operator-lesson"
+  ],
+  "frameworks": [
+    "competitive-positioning-roadmap",
+    "decision-forums-playbook-lens"
+  ],
+  "relatedModules": [
+    "scenario-planning-in-practice",
+    "research-workflows-in-practice"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

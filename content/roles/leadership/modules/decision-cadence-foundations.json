@@ -1,0 +1,28 @@
+{
+  "slug": "decision-cadence-foundations",
+  "title": "Decision Cadence Foundations",
+  "shortSummary": "Build stronger decision cadence foundations judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "leadership",
+  "whyItMatters": "Decision Cadence Foundations is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Decision Cadence Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good decision cadence foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Decision Cadence Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "decision-cadence-operator-lesson"
+  ],
+  "frameworks": [
+    "one-on-ones-review-lens",
+    "feedback-decision-map"
+  ],
+  "relatedModules": [
+    "conflict-handling-in-practice",
+    "decision-cadence-in-practice"
+  ],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 17,
+  "category": "advanced"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "forecasting-inputs-foundations",
+  "title": "Forecasting Inputs Foundations",
+  "shortSummary": "Build stronger forecasting inputs foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "data-analytics",
+  "whyItMatters": "Forecasting Inputs Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Forecasting Inputs Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good forecasting inputs foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Forecasting Inputs Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "forecasting-inputs-operator-lesson"
+  ],
+  "frameworks": [
+    "privacy-boundaries-roadmap",
+    "insight-communication-playbook-lens"
+  ],
+  "relatedModules": [
+    "stakeholder-reporting-in-practice",
+    "forecasting-inputs-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

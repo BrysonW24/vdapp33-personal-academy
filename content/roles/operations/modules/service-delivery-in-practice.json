@@ -1,0 +1,28 @@
+{
+  "slug": "service-delivery-in-practice",
+  "title": "Service Delivery in Practice",
+  "shortSummary": "Build stronger service delivery in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "operations",
+  "whyItMatters": "Service Delivery in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Service Delivery in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good service delivery in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Service Delivery in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "service-delivery-in-practice-lesson"
+  ],
+  "frameworks": [
+    "documentation-control-tower",
+    "vendor-coordination-diagnostic"
+  ],
+  "relatedModules": [
+    "service-delivery-foundations",
+    "handoffs-foundations"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "category": "foundation"
+}

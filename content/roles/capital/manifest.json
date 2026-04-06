@@ -1,0 +1,14 @@
+{
+  "slug": "capital",
+  "name": "Capital / Fundraising",
+  "kind": "role",
+  "group": "markets",
+  "icon": "Landmark",
+  "color": "#059669",
+  "tagline": "Fundraising, investor relations, capital allocation, and financial strategy that shape growth constraints.",
+  "tier": "flagship",
+  "order": 20,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

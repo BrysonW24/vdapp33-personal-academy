@@ -1,0 +1,28 @@
+{
+  "slug": "escalation-handling-in-practice",
+  "title": "Escalation Handling in Practice",
+  "shortSummary": "Build stronger escalation handling in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "customer-success",
+  "whyItMatters": "Escalation Handling in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Escalation Handling in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good escalation handling in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Escalation Handling in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "escalation-handling-in-practice-lesson"
+  ],
+  "frameworks": [
+    "expansion-strategy-operating-loop",
+    "health-scoring-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "escalation-handling-foundations",
+    "adoption-programs-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

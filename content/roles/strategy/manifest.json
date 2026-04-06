@@ -1,0 +1,14 @@
+{
+  "slug": "strategy",
+  "name": "Strategy",
+  "kind": "role",
+  "group": "markets",
+  "icon": "Compass",
+  "color": "#386A58",
+  "tagline": "Vision, positioning, competitive analysis, and strategic planning that shape where the business goes next.",
+  "tier": "flagship",
+  "order": 11,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

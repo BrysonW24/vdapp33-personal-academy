@@ -1,0 +1,28 @@
+{
+  "slug": "fundraising-legal-foundations",
+  "title": "Fundraising Legal Foundations",
+  "shortSummary": "Build stronger fundraising legal foundations judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "legal",
+  "whyItMatters": "Fundraising Legal Foundations is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Fundraising Legal Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good fundraising legal foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Fundraising Legal Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "fundraising-legal-operator-lesson"
+  ],
+  "frameworks": [
+    "policy-design-roadmap",
+    "dispute-avoidance-playbook-lens"
+  ],
+  "relatedModules": [
+    "incident-response-in-practice",
+    "fundraising-legal-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "culture-signals-playbook-lens",
+  "name": "Culture Signals Playbook Lens",
+  "summary": "Culture Signals Playbook Lens gives leadership / people work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about culture signals playbook lens without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Culture Signals Playbook Lens to sort noise from signal and decide which change should happen first.",
+  "category": "operator",
+  "domain": "leadership"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "term-sheet-logic-operator-lesson",
+  "moduleSlug": "term-sheet-logic-foundations",
+  "title": "Term Sheet Logic Operator Lesson",
+  "objective": "Understand the operator fundamentals behind term sheet logic in capital / fundraising.",
+  "beginnerExplanation": "Term Sheet Logic becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, term sheet logic is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Term Sheet Logic improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether term sheet logic is working.",
+    "Term Sheet Logic should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "term-sheet-logic-operating-loop",
+    "cap-table-strategy-prioritization-matrix"
+  ],
+  "example": "A founder or operator uses term sheet logic to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating term sheet logic like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve term sheet logic over the next two weeks inside a real business.",
+  "order": 5,
+  "nextLesson": "cap-table-strategy-operator-lesson"
+}

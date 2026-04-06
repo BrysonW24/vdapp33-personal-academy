@@ -1,0 +1,28 @@
+{
+  "slug": "dashboard-design-foundations",
+  "title": "Dashboard Design Foundations",
+  "shortSummary": "Build stronger dashboard design foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "data-analytics",
+  "whyItMatters": "Dashboard Design Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Dashboard Design Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good dashboard design foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Dashboard Design Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "dashboard-design-operator-lesson"
+  ],
+  "frameworks": [
+    "privacy-boundaries-roadmap",
+    "insight-communication-playbook-lens"
+  ],
+  "relatedModules": [
+    "event-taxonomy-in-practice",
+    "dashboard-design-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

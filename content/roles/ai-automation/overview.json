@@ -1,0 +1,57 @@
+{
+  "slug": "ai-automation",
+  "title": "What working in AI & Automation actually involves",
+  "summary": "AI and automation work is not just connecting tools and hoping for magic. It is the discipline of choosing the right workflows to automate, setting approval boundaries, handling exceptions, and making sure the system actually reduces human drag rather than creating new failure modes.\n\nThe role sits between operations, tooling, AI capability, and process design. Good operators understand where automation is worth it, where humans should stay in the loop, and how to make the workflow observable enough that the team can trust it.\n\nWhat makes the role compelling is that it creates leverage quickly. A strong AI automation operator can remove repeated low-value work, tighten response times, and improve consistency across the business.",
+  "coreWork": [
+    "Finding high-friction workflows that are good candidates for automation.",
+    "Designing approval loops, fallback paths, and exception handling around automated systems.",
+    "Combining AI capabilities with process design so outputs stay useful and safe.",
+    "Monitoring workflow performance and refining systems when reality breaks the neat diagram."
+  ],
+  "frontierPull": "People are pulled to this role because it sits at the practical frontier of leverage. You can take emerging AI capability and turn it into time savings, better process quality, and real operating advantage.",
+  "signals": [
+    "Workflow selection",
+    "Approvals",
+    "Copilots",
+    "Agents",
+    "Automation reliability",
+    "Measurement",
+    "Exception handling",
+    "Leverage"
+  ],
+  "whenItCameAbout": "Automation has long existed in software and operations, but the modern role accelerated as no-code tools, APIs, and generative AI made it possible to automate knowledge work and semi-structured workflows much more broadly.",
+  "whatPeopleDo": [
+    "Map repetitive workflows and identify safe automation candidates.",
+    "Build automations, copilots, and agentic flows with clear handoff logic.",
+    "Track failures, retries, and quality signals so systems stay trustworthy.",
+    "Teach teams when to rely on automation and when to intervene manually."
+  ],
+  "howPeopleGetThere": "People often enter from operations, no-code building, software engineering, RevOps, product ops, or technical consulting. The strongest path comes from combining process judgment with enough technical fluency to build and maintain real systems.",
+  "strengths": [
+    "Process judgment",
+    "Technical fluency",
+    "Risk awareness",
+    "Workflow design",
+    "Pragmatism",
+    "Measurement discipline"
+  ],
+  "whoThrivesHere": "People do well when they are leverage-minded but not naive, and when they care as much about approvals, observability, and cleanup as they do about the flashy first demo.",
+  "exposures": [
+    "Fragile integrations and workflow drift",
+    "Pressure to automate poor processes instead of fixing them",
+    "Quality risk when human review disappears too early",
+    "The temptation to overpromise what AI can actually handle"
+  ],
+  "careerLevers": [
+    "Choosing better automation candidates",
+    "Designing stronger approvals and fallback logic",
+    "Improving system observability",
+    "Building trust through useful, boring reliability"
+  ],
+  "careerPath": [
+    "Ops or technical foundation",
+    "Automation builder",
+    "AI workflow owner",
+    "Platform or leverage systems leadership"
+  ]
+}

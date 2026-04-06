@@ -1,0 +1,28 @@
+{
+  "slug": "feedback-loops-foundations",
+  "title": "Feedback Loops Foundations",
+  "shortSummary": "Build stronger feedback loops foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "product",
+  "whyItMatters": "Feedback Loops Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Feedback Loops Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good feedback loops foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Feedback Loops Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "feedback-loops-operator-lesson"
+  ],
+  "frameworks": [
+    "experimentation-control-tower",
+    "launch-planning-diagnostic"
+  ],
+  "relatedModules": [
+    "adoption-metrics-in-practice",
+    "feedback-loops-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

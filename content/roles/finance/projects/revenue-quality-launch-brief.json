@@ -1,0 +1,71 @@
+{
+  "slug": "revenue-quality-launch-brief",
+  "title": "Revenue Quality Launch Brief",
+  "difficulty": 9,
+  "estimatedHours": 18,
+  "description": "Build a practical revenue quality launch brief artifact that strengthens how finance is run.",
+  "whyItMatters": "Projects make finance tangible. This one forces you to turn theory into a reusable asset that another operator could follow.",
+  "skillsLearned": [
+    "Revenue Quality analysis",
+    "documentation",
+    "decision support",
+    "operating clarity",
+    "review design"
+  ],
+  "prerequisites": [
+    "Complete at least one related module and identify a real business context."
+  ],
+  "steps": [
+    {
+      "title": "Frame the problem",
+      "description": "Write down the business problem, why it matters now, and what a better outcome would look like."
+    },
+    {
+      "title": "Gather signal",
+      "description": "Collect the current data, notes, stakeholder input, and operating context needed to make a grounded recommendation."
+    },
+    {
+      "title": "Design the artifact",
+      "description": "Create the model, brief, template, dashboard, or system draft that addresses the problem."
+    },
+    {
+      "title": "Review and improve",
+      "description": "Pressure-test the output against stakeholder questions and tighten it into something another person could use."
+    },
+    {
+      "title": "Present the decision",
+      "description": "Explain the recommendation, tradeoffs, and next actions in a way leadership can act on."
+    }
+  ],
+  "deliverables": [
+    "Revenue Quality Launch Brief working draft",
+    "Decision memo or summary note",
+    "Review checklist",
+    "Recommended next steps"
+  ],
+  "tools": [
+    "Xero",
+    "QuickBooks Online",
+    "Dext",
+    "Stripe Billing"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The output is understandable and useful without extra translation."
+    },
+    {
+      "criteria": "Evidence",
+      "description": "The recommendation is grounded in real signal, not just opinion."
+    },
+    {
+      "criteria": "Actionability",
+      "description": "Another operator could use the artifact to move work forward."
+    },
+    {
+      "criteria": "Tradeoff awareness",
+      "description": "The work acknowledges what is being chosen and what is being deferred."
+    }
+  ],
+  "domain": "finance"
+}

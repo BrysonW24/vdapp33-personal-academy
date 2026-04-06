@@ -1,0 +1,28 @@
+{
+  "slug": "health-scoring-in-practice",
+  "title": "Health Scoring in Practice",
+  "shortSummary": "Build stronger health scoring in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Health Scoring in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Health Scoring in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good health scoring in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Health Scoring in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "health-scoring-in-practice-lesson"
+  ],
+  "frameworks": [
+    "renewals-review-lens",
+    "churn-analysis-decision-map"
+  ],
+  "relatedModules": [
+    "health-scoring-foundations",
+    "voice-of-customer-foundations"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 12,
+  "category": "strategy"
+}

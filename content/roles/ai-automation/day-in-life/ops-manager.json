@@ -1,0 +1,105 @@
+{
+  "slug": "ops-manager",
+  "title": "AI Automation - Ops Manager",
+  "setting": "Early-stage company",
+  "companySize": "10-50 employees",
+  "description": "You are operating inside ai / automation at a early-stage company. The work is a mix of planning, stakeholder communication, and protecting execution quality under time pressure.",
+  "salary": "$110,000 - $150,000 AUD",
+  "schedule": [
+    {
+      "time": "8:00 AM",
+      "activity": "Review key ai / automation signals and triage the most important decisions for the day",
+      "tools": [
+        "Zapier",
+        "n8n"
+      ],
+      "note": "Start with signal before activity."
+    },
+    {
+      "time": "8:45 AM",
+      "activity": "Run a short sync on blockers, owners, and immediate follow-ups",
+      "tools": [
+        "Make"
+      ],
+      "note": "Keep the meeting crisp and decision-oriented."
+    },
+    {
+      "time": "9:30 AM",
+      "activity": "Deep work block on the highest-leverage analysis or operating task",
+      "tools": [
+        "Zapier",
+        "n8n"
+      ]
+    },
+    {
+      "time": "11:00 AM",
+      "activity": "Cross-functional alignment with a partner team",
+      "tools": [
+        "Make",
+        "OpenAI"
+      ]
+    },
+    {
+      "time": "1:00 PM",
+      "activity": "Execution block for active workstreams and reviews",
+      "tools": [
+        "Zapier",
+        "Make"
+      ]
+    },
+    {
+      "time": "2:30 PM",
+      "activity": "Review changes against the weekly operating rhythm and update next steps",
+      "tools": [
+        "Zapier",
+        "n8n"
+      ]
+    },
+    {
+      "time": "4:00 PM",
+      "activity": "Document decisions, send follow-ups, and clean up the workflow system",
+      "tools": [
+        "Make",
+        "OpenAI"
+      ]
+    },
+    {
+      "time": "5:00 PM",
+      "activity": "Prepare tomorrow with a short reset and priority pass",
+      "tools": [
+        "Zapier"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Keep ai / automation priorities visible and moving.",
+    "Turn decisions into follow-through with named owners.",
+    "Review the most important metrics and risks each week.",
+    "Coordinate with stakeholders who depend on the function.",
+    "Improve the systems around the work, not just the work itself.",
+    "Document what changed so the team learns faster over time."
+  ],
+  "challenges": [
+    "Balancing reactive work with the higher-leverage ai / automation improvements that matter more long term.",
+    "Working with imperfect information while still making clean decisions.",
+    "Getting alignment from people with different incentives and timelines.",
+    "Keeping documentation and reality synchronized as the work evolves.",
+    "Resisting tool sprawl and process bloat.",
+    "Maintaining calm under pressure when priorities shift quickly."
+  ],
+  "rewards": [
+    "You can see the effect of better ai / automation systems quickly.",
+    "The work becomes more strategic as your judgment improves.",
+    "Strong operating rhythm creates trust with leadership and peers.",
+    "Good work here creates leverage for the rest of the company.",
+    "The role compounds because pattern recognition gets sharper over time.",
+    "You develop reusable operating instincts beyond ai / automation."
+  ],
+  "careerPath": [
+    "Coordinator / Analyst in Ops Manager",
+    "Ops Manager Specialist",
+    "Ops Manager Manager",
+    "Senior Ops Manager Lead",
+    "Head of Ops Manager"
+  ]
+}

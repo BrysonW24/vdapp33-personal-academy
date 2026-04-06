@@ -1,0 +1,28 @@
+{
+  "slug": "roadmapping-foundations",
+  "title": "Roadmapping Foundations",
+  "shortSummary": "Build stronger roadmapping foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "product",
+  "whyItMatters": "Roadmapping Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Roadmapping Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good roadmapping foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Roadmapping Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "roadmapping-operator-lesson"
+  ],
+  "frameworks": [
+    "prioritization-review-lens",
+    "roadmapping-decision-map"
+  ],
+  "relatedModules": [
+    "prioritization-in-practice",
+    "roadmapping-in-practice"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 7,
+  "category": "strategy"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "oura",
+  "name": "Oura",
+  "category": "Operations",
+  "description": "Oura is commonly used to support founder performance workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Oura when the team needs more structure, visibility, or speed in founder performance work.",
+  "pricingTier": "enterprise",
+  "alternatives": [
+    "Whoop",
+    "RescueTime"
+  ],
+  "founderWorkflow": "Use Oura to keep founder performance work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "high",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Oura before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

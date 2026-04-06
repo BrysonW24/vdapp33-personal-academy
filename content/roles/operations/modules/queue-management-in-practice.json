@@ -1,0 +1,28 @@
+{
+  "slug": "queue-management-in-practice",
+  "title": "Queue Management in Practice",
+  "shortSummary": "Build stronger queue management in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "operations",
+  "whyItMatters": "Queue Management in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Queue Management in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good queue management in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Queue Management in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "queue-management-in-practice-lesson"
+  ],
+  "frameworks": [
+    "handoffs-review-lens",
+    "quality-control-decision-map"
+  ],
+  "relatedModules": [
+    "queue-management-foundations",
+    "documentation-foundations"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 12,
+  "category": "strategy"
+}

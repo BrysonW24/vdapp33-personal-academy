@@ -1,0 +1,28 @@
+{
+  "slug": "investor-narrative-foundations",
+  "title": "Investor Narrative Foundations",
+  "shortSummary": "Build stronger investor narrative foundations judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "capital",
+  "whyItMatters": "Investor Narrative Foundations is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Investor Narrative Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good investor narrative foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Investor Narrative Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "investor-narrative-operator-lesson"
+  ],
+  "frameworks": [
+    "term-sheet-logic-operating-loop",
+    "cap-table-strategy-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "fundraising-strategy-in-practice",
+    "investor-narrative-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

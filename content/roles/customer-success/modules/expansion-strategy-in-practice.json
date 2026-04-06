@@ -1,0 +1,28 @@
+{
+  "slug": "expansion-strategy-in-practice",
+  "title": "Expansion Strategy in Practice",
+  "shortSummary": "Build stronger expansion strategy in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Expansion Strategy in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Expansion Strategy in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good expansion strategy in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Expansion Strategy in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "expansion-strategy-in-practice-lesson"
+  ],
+  "frameworks": [
+    "escalation-handling-roadmap",
+    "adoption-programs-playbook-lens"
+  ],
+  "relatedModules": [
+    "expansion-strategy-foundations",
+    "health-scoring-foundations"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

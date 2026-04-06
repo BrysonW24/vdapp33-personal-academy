@@ -1,0 +1,11 @@
+{
+  "slug": "float",
+  "name": "Float",
+  "category": "forecasting",
+  "description": "Cash flow forecasting software that connects to accounting data and models future inflows, outflows, and scenario changes in a rolling forecast.",
+  "whyUseIt": "Float is valuable when the founder needs a clearer runway view than the accounting platform alone provides. It turns historical finance data into forward-looking cash visibility.",
+  "pricingTier": "paid",
+  "url": "https://floatapp.com/",
+  "aiCapabilities": "Float automates forecast updates from connected accounting systems, surfaces cash runway scenarios, and models the impact of changing revenue or spend assumptions.",
+  "alternatives": ["fathom", "dryrun", "google-sheets"]
+}

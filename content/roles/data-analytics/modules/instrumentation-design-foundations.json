@@ -1,0 +1,27 @@
+{
+  "slug": "instrumentation-design-foundations",
+  "title": "Instrumentation Design Foundations",
+  "shortSummary": "Build stronger instrumentation design foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "data-analytics",
+  "whyItMatters": "Instrumentation Design Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Instrumentation Design Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good instrumentation design foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Instrumentation Design Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "instrumentation-design-operator-lesson"
+  ],
+  "frameworks": [
+    "instrumentation-design-canvas",
+    "event-taxonomy-scorecard"
+  ],
+  "relatedModules": [
+    "instrumentation-design-in-practice"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "category": "foundation"
+}

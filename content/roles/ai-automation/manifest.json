@@ -1,0 +1,14 @@
+{
+  "slug": "ai-automation",
+  "name": "AI / Automation",
+  "kind": "role",
+  "group": "engineering",
+  "icon": "Bot",
+  "color": "#F59E0B",
+  "tagline": "Workflow automation, copilots, agentic systems, and leverage through tooling that reduces manual drag.",
+  "tier": "flagship",
+  "order": 18,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "full"
+}

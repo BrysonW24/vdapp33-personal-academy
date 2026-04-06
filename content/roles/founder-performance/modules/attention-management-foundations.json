@@ -1,0 +1,28 @@
+{
+  "slug": "attention-management-foundations",
+  "title": "Attention Management Foundations",
+  "shortSummary": "Build stronger attention management foundations judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "founder-performance",
+  "whyItMatters": "Attention Management Foundations is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Attention Management Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good attention management foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Attention Management Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "attention-management-operator-lesson"
+  ],
+  "frameworks": [
+    "decision-quality-canvas",
+    "energy-management-scorecard"
+  ],
+  "relatedModules": [
+    "relationships-in-practice",
+    "attention-management-in-practice"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

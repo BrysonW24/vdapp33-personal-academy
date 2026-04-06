@@ -1,0 +1,28 @@
+{
+  "slug": "resource-allocation-foundations",
+  "title": "Resource Allocation Foundations",
+  "shortSummary": "Build stronger resource allocation foundations judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "strategy",
+  "whyItMatters": "Resource Allocation Foundations is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Resource Allocation Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good resource allocation foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Resource Allocation Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "resource-allocation-operator-lesson"
+  ],
+  "frameworks": [
+    "operating-focus-control-tower",
+    "initiative-sequencing-diagnostic"
+  ],
+  "relatedModules": [
+    "prioritization-in-practice",
+    "resource-allocation-in-practice"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

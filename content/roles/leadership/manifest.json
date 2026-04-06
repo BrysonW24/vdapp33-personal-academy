@@ -1,0 +1,14 @@
+{
+  "slug": "leadership",
+  "name": "Leadership / People",
+  "kind": "role",
+  "group": "society",
+  "icon": "Users",
+  "color": "#DC2626",
+  "tagline": "Hiring, delegation, culture, management, and communication that make teams stronger over time.",
+  "tier": "flagship",
+  "order": 19,
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
+}

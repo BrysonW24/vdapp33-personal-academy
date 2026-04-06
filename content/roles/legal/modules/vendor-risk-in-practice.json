@@ -1,0 +1,28 @@
+{
+  "slug": "vendor-risk-in-practice",
+  "title": "Vendor Risk in Practice",
+  "shortSummary": "Build stronger vendor risk in practice judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "legal",
+  "whyItMatters": "Vendor Risk in Practice is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Vendor Risk in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good vendor risk in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Vendor Risk in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "vendor-risk-in-practice-lesson"
+  ],
+  "frameworks": [
+    "ip-protection-review-lens",
+    "privacy-compliance-decision-map"
+  ],
+  "relatedModules": [
+    "vendor-risk-foundations",
+    "incident-response-foundations"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 12,
+  "category": "strategy"
+}

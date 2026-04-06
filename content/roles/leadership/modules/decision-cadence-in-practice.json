@@ -1,0 +1,28 @@
+{
+  "slug": "decision-cadence-in-practice",
+  "title": "Decision Cadence in Practice",
+  "shortSummary": "Build stronger decision cadence in practice judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "leadership",
+  "whyItMatters": "Decision Cadence in Practice is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Decision Cadence in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good decision cadence in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Decision Cadence in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "decision-cadence-in-practice-lesson"
+  ],
+  "frameworks": [
+    "org-design-operating-loop",
+    "performance-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "decision-cadence-foundations",
+    "culture-signals-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

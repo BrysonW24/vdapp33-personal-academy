@@ -1,0 +1,11 @@
+{
+  "slug": "quickbooks-online",
+  "name": "QuickBooks Online",
+  "category": "accounting",
+  "description": "A widely adopted cloud accounting platform for bookkeeping, invoicing, reporting, and cash flow visibility with a large accountant ecosystem around it.",
+  "whyUseIt": "QuickBooks Online is useful when you want mainstream bookkeeping workflows, strong reporting basics, and easy collaboration with finance contractors or accountants already familiar with the tool.",
+  "pricingTier": "paid",
+  "url": "https://quickbooks.intuit.com/online/",
+  "aiCapabilities": "QuickBooks uses automation for receipt capture, expense categorisation, transaction suggestions, recurring invoices, and basic cash flow forecasting prompts.",
+  "alternatives": ["xero", "freshbooks", "wave"]
+}

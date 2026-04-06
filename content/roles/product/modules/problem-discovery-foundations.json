@@ -1,0 +1,27 @@
+{
+  "slug": "problem-discovery-foundations",
+  "title": "Problem Discovery Foundations",
+  "shortSummary": "Build stronger problem discovery foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "product",
+  "whyItMatters": "Problem Discovery Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Problem Discovery Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good problem discovery foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Problem Discovery Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "problem-discovery-operator-lesson"
+  ],
+  "frameworks": [
+    "problem-discovery-canvas",
+    "opportunity-sizing-scorecard"
+  ],
+  "relatedModules": [
+    "problem-discovery-in-practice"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "category": "foundation"
+}

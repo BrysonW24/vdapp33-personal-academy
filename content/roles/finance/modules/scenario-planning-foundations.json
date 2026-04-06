@@ -1,0 +1,28 @@
+{
+  "slug": "scenario-planning-foundations",
+  "title": "Scenario Planning Foundations",
+  "shortSummary": "Build stronger scenario planning foundations judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Scenario Planning Foundations is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Scenario Planning Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good scenario planning foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Scenario Planning Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "scenario-planning-operator-lesson"
+  ],
+  "frameworks": [
+    "working-capital-roadmap",
+    "capital-allocation-playbook-lens"
+  ],
+  "relatedModules": [
+    "financial-modeling-in-practice",
+    "scenario-planning-in-practice"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

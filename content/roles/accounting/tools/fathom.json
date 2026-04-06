@@ -1,0 +1,19 @@
+{
+  "slug": "fathom",
+  "name": "Fathom",
+  "category": "Workflow",
+  "description": "Fathom is commonly used to support accounting workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Fathom when the team needs more structure, visibility, or speed in accounting work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Rippling"
+  ],
+  "founderWorkflow": "Use Fathom to keep accounting work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Fathom before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

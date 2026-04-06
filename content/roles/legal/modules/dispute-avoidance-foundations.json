@@ -1,0 +1,28 @@
+{
+  "slug": "dispute-avoidance-foundations",
+  "title": "Dispute Avoidance Foundations",
+  "shortSummary": "Build stronger dispute avoidance foundations judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "legal",
+  "whyItMatters": "Dispute Avoidance Foundations is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Dispute Avoidance Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good dispute avoidance foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Dispute Avoidance Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "dispute-avoidance-operator-lesson"
+  ],
+  "frameworks": [
+    "incident-response-control-tower",
+    "fundraising-legal-diagnostic"
+  ],
+  "relatedModules": [
+    "policy-design-in-practice",
+    "dispute-avoidance-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

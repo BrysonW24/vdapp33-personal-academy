@@ -1,0 +1,28 @@
+{
+  "slug": "term-sheet-logic-in-practice",
+  "title": "Term Sheet Logic in Practice",
+  "shortSummary": "Build stronger term sheet logic in practice judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "capital",
+  "whyItMatters": "Term Sheet Logic in Practice is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Term Sheet Logic in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good term sheet logic in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Term Sheet Logic in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "term-sheet-logic-in-practice-lesson"
+  ],
+  "frameworks": [
+    "use-of-funds-roadmap",
+    "post-raise-discipline-playbook-lens"
+  ],
+  "relatedModules": [
+    "term-sheet-logic-foundations",
+    "cap-table-strategy-foundations"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

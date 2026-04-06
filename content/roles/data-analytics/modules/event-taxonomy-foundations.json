@@ -1,0 +1,28 @@
+{
+  "slug": "event-taxonomy-foundations",
+  "title": "Event Taxonomy Foundations",
+  "shortSummary": "Build stronger event taxonomy foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "data-analytics",
+  "whyItMatters": "Event Taxonomy Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Event Taxonomy Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good event taxonomy foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Event Taxonomy Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "event-taxonomy-operator-lesson"
+  ],
+  "frameworks": [
+    "experimentation-analysis-operating-loop",
+    "data-quality-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "instrumentation-design-in-practice",
+    "event-taxonomy-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

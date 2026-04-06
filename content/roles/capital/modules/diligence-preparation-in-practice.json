@@ -1,0 +1,28 @@
+{
+  "slug": "diligence-preparation-in-practice",
+  "title": "Diligence Preparation in Practice",
+  "shortSummary": "Build stronger diligence preparation in practice judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "capital",
+  "whyItMatters": "Diligence Preparation in Practice is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Diligence Preparation in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good diligence preparation in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Diligence Preparation in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "diligence-preparation-in-practice-lesson"
+  ],
+  "frameworks": [
+    "diligence-preparation-control-tower",
+    "board-communication-diagnostic"
+  ],
+  "relatedModules": [
+    "diligence-preparation-foundations",
+    "board-communication-foundations"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

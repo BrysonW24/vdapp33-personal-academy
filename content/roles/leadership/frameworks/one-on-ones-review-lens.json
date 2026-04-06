@@ -1,0 +1,15 @@
+{
+  "slug": "one-on-ones-review-lens",
+  "name": "One-on-ones Review Lens",
+  "summary": "One-on-ones Review Lens gives leadership / people work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about one-on-ones review lens without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies One-on-ones Review Lens to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "leadership"
+}

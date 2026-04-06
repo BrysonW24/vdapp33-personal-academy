@@ -1,0 +1,28 @@
+{
+  "slug": "cash-controls-in-practice",
+  "title": "Cash Controls in Practice",
+  "shortSummary": "Build stronger cash controls in practice judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "accounting",
+  "whyItMatters": "Cash Controls in Practice is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Cash Controls in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good cash controls in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Cash Controls in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "cash-controls-in-practice-lesson"
+  ],
+  "frameworks": [
+    "financial-statements-canvas",
+    "month-end-close-scorecard"
+  ],
+  "relatedModules": [
+    "cash-controls-foundations",
+    "tax-calendar-foundations"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

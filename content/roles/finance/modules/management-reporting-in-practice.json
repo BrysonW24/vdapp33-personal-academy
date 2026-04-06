@@ -1,0 +1,28 @@
+{
+  "slug": "management-reporting-in-practice",
+  "title": "Management Reporting in Practice",
+  "shortSummary": "Build stronger management reporting in practice judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "finance",
+  "whyItMatters": "Management Reporting in Practice is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Management Reporting in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good management reporting in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Management Reporting in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "management-reporting-in-practice-lesson"
+  ],
+  "frameworks": [
+    "working-capital-roadmap",
+    "capital-allocation-playbook-lens"
+  ],
+  "relatedModules": [
+    "management-reporting-foundations",
+    "board-finance-foundations"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

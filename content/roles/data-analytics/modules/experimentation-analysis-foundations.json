@@ -1,0 +1,28 @@
+{
+  "slug": "experimentation-analysis-foundations",
+  "title": "Experimentation Analysis Foundations",
+  "shortSummary": "Build stronger experimentation analysis foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "data-analytics",
+  "whyItMatters": "Experimentation Analysis Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Experimentation Analysis Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good experimentation analysis foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Experimentation Analysis Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "experimentation-analysis-operator-lesson"
+  ],
+  "frameworks": [
+    "stakeholder-reporting-control-tower",
+    "forecasting-inputs-diagnostic"
+  ],
+  "relatedModules": [
+    "warehouse-modeling-in-practice",
+    "experimentation-analysis-in-practice"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 9,
+  "category": "strategy"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "decision-quality-foundations",
+  "title": "Decision Quality Foundations",
+  "shortSummary": "Build stronger decision quality foundations judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "founder-performance",
+  "whyItMatters": "Decision Quality Foundations is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Decision Quality Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good decision quality foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Decision Quality Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "decision-quality-operator-lesson"
+  ],
+  "frameworks": [
+    "decision-quality-canvas",
+    "energy-management-scorecard"
+  ],
+  "relatedModules": [
+    "decision-quality-in-practice"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "category": "foundation"
+}

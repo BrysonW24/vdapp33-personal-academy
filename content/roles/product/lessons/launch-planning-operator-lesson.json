@@ -1,0 +1,26 @@
+{
+  "slug": "launch-planning-operator-lesson",
+  "moduleSlug": "launch-planning-foundations",
+  "title": "Launch Planning Operator Lesson",
+  "objective": "Understand the operator fundamentals behind launch planning in product.",
+  "beginnerExplanation": "Launch Planning becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, launch planning is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Launch Planning improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether launch planning is working.",
+    "Launch Planning should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "launch-planning-diagnostic",
+    "adoption-metrics-roadmap"
+  ],
+  "example": "A founder or operator uses launch planning to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating launch planning like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve launch planning over the next two weeks inside a real business.",
+  "order": 8,
+  "nextLesson": "adoption-metrics-operator-lesson"
+}

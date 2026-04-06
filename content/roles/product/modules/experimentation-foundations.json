@@ -1,0 +1,28 @@
+{
+  "slug": "experimentation-foundations",
+  "title": "Experimentation Foundations",
+  "shortSummary": "Build stronger experimentation foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "product",
+  "whyItMatters": "Experimentation Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Experimentation Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good experimentation foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Experimentation Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "experimentation-operator-lesson"
+  ],
+  "frameworks": [
+    "user-research-operating-loop",
+    "requirements-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "requirements-in-practice",
+    "experimentation-in-practice"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 13,
+  "category": "strategy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "financial-modeling-in-practice",
+  "title": "Financial Modeling in Practice",
+  "shortSummary": "Build stronger financial modeling in practice judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Financial Modeling in Practice is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Financial Modeling in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good financial modeling in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Financial Modeling in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "financial-modeling-in-practice-lesson"
+  ],
+  "frameworks": [
+    "cost-control-control-tower",
+    "revenue-quality-diagnostic"
+  ],
+  "relatedModules": [
+    "financial-modeling-foundations",
+    "scenario-planning-foundations"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 9,
+  "category": "strategy"
+}

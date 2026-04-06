@@ -1,0 +1,25 @@
+{
+  "slug": "resource-allocation-operator-lesson",
+  "moduleSlug": "resource-allocation-foundations",
+  "title": "Resource Allocation Operator Lesson",
+  "objective": "Understand the operator fundamentals behind resource allocation in strategy.",
+  "beginnerExplanation": "Resource Allocation becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, resource allocation is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Resource Allocation improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether resource allocation is working.",
+    "Resource Allocation should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "resource-allocation-operating-loop",
+    "strategic-narratives-prioritization-matrix"
+  ],
+  "example": "A founder or operator uses resource allocation to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating resource allocation like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve resource allocation over the next two weeks inside a real business.",
+  "order": 10
+}

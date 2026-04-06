@@ -1,0 +1,28 @@
+{
+  "slug": "cap-table-strategy-foundations",
+  "title": "Cap Table Strategy Foundations",
+  "shortSummary": "Build stronger cap table strategy foundations judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "capital",
+  "whyItMatters": "Cap Table Strategy Foundations is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Cap Table Strategy Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good cap table strategy foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Cap Table Strategy Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "cap-table-strategy-operator-lesson"
+  ],
+  "frameworks": [
+    "fundraising-strategy-canvas",
+    "investor-narrative-scorecard"
+  ],
+  "relatedModules": [
+    "term-sheet-logic-in-practice",
+    "cap-table-strategy-in-practice"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

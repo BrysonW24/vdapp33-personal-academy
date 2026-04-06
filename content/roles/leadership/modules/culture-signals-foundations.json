@@ -1,0 +1,28 @@
+{
+  "slug": "culture-signals-foundations",
+  "title": "Culture Signals Foundations",
+  "shortSummary": "Build stronger culture signals foundations judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "leadership",
+  "whyItMatters": "Culture Signals Foundations is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Culture Signals Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good culture signals foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Culture Signals Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "culture-signals-operator-lesson"
+  ],
+  "frameworks": [
+    "team-communication-control-tower",
+    "conflict-handling-diagnostic"
+  ],
+  "relatedModules": [
+    "decision-cadence-in-practice",
+    "culture-signals-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "porters-five-forces",
+  "title": "Porter's Five Forces",
+  "name": "Porter's Five Forces",
+  "summary": "Analyses the competitive intensity of an industry through five forces: rivalry, new entrants, substitutes, buyer power, and supplier power.",
+  "whenToUseIt": "When evaluating whether a market is attractive to enter, or when trying to understand why margins are thin in your industry.",
+  "steps": ["Map competitive rivalry (how intense is competition?)", "Assess threat of new entrants (how easy is it to enter?)", "Evaluate threat of substitutes (what else could solve this problem?)", "Analyse buyer bargaining power (can customers pressure you on price?)", "Analyse supplier bargaining power (can suppliers squeeze your margins?)"],
+  "example": "A SaaS tool in a crowded market with low switching costs faces high rivalry and high buyer power. An AI tool with proprietary data in a regulated industry faces low rivalry and high barriers to entry.",
+  "category": "competitive-analysis",
+  "domain": "strategy"
+}

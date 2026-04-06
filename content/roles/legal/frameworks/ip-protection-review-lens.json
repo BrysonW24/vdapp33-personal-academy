@@ -1,0 +1,15 @@
+{
+  "slug": "ip-protection-review-lens",
+  "name": "IP Protection Review Lens",
+  "summary": "IP Protection Review Lens gives legal / risk work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about ip protection review lens without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies IP Protection Review Lens to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "legal"
+}

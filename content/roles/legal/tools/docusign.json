@@ -1,0 +1,20 @@
+{
+  "slug": "docusign",
+  "name": "DocuSign",
+  "category": "Analytics",
+  "description": "DocuSign is commonly used to support legal / risk workflows, reviews, and handoffs.",
+  "whyUseIt": "Use DocuSign when the team needs more structure, visibility, or speed in legal / risk work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "OneTrust",
+    "Vanta"
+  ],
+  "founderWorkflow": "Use DocuSign to keep legal / risk work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding DocuSign before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "operating-reviews-foundations",
+  "title": "Operating Reviews Foundations",
+  "shortSummary": "Build stronger operating reviews foundations judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "operations",
+  "whyItMatters": "Operating Reviews Foundations is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Operating Reviews Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good operating reviews foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Operating Reviews Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "operating-reviews-operator-lesson"
+  ],
+  "frameworks": [
+    "documentation-control-tower",
+    "vendor-coordination-diagnostic"
+  ],
+  "relatedModules": [
+    "automation-design-in-practice",
+    "operating-reviews-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "service-delivery-foundations",
+  "title": "Service Delivery Foundations",
+  "shortSummary": "Build stronger service delivery foundations judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "operations",
+  "whyItMatters": "Service Delivery Foundations is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Service Delivery Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good service delivery foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Service Delivery Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "service-delivery-operator-lesson"
+  ],
+  "frameworks": [
+    "capacity-planning-operating-loop",
+    "queue-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "process-design-in-practice",
+    "service-delivery-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "jira",
+  "name": "Jira",
+  "category": "Workflow",
+  "description": "Jira is commonly used to support product workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Jira when the team needs more structure, visibility, or speed in product work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Productboard",
+    "Figma"
+  ],
+  "founderWorkflow": "Use Jira to keep product work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Jira before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

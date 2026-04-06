@@ -1,0 +1,15 @@
+{
+  "slug": "pipeline-management-decision-map",
+  "name": "Pipeline Management Decision Map",
+  "summary": "Pipeline Management Decision Map gives capital / fundraising work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about pipeline management decision map without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Pipeline Management Decision Map to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "capital"
+}

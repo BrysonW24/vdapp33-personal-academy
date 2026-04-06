@@ -1,0 +1,19 @@
+{
+  "slug": "posthog",
+  "name": "PostHog",
+  "category": "Workflow",
+  "description": "PostHog is commonly used to support product workflows, reviews, and handoffs.",
+  "whyUseIt": "Use PostHog when the team needs more structure, visibility, or speed in product work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "LaunchDarkly"
+  ],
+  "founderWorkflow": "Use PostHog to keep product work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding PostHog before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

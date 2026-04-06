@@ -1,0 +1,28 @@
+{
+  "slug": "diligence-preparation-foundations",
+  "title": "Diligence Preparation Foundations",
+  "shortSummary": "Build stronger diligence preparation foundations judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "capital",
+  "whyItMatters": "Diligence Preparation Foundations is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Diligence Preparation Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good diligence preparation foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Diligence Preparation Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "diligence-preparation-operator-lesson"
+  ],
+  "frameworks": [
+    "term-sheet-logic-operating-loop",
+    "cap-table-strategy-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "cap-table-strategy-in-practice",
+    "diligence-preparation-in-practice"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 13,
+  "category": "strategy"
+}

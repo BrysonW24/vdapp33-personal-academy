@@ -1,0 +1,10 @@
+{
+  "slug": "rule-of-40",
+  "name": "Rule of 40",
+  "summary": "A SaaS health metric: your revenue growth rate plus your profit margin should exceed 40%. Balances growth and profitability.",
+  "whenToUseIt": "When evaluating overall business health, especially for SaaS businesses. Useful when deciding how much to invest in growth versus profitability.",
+  "steps": ["Calculate your annual revenue growth rate (%)", "Calculate your profit margin (net income / revenue as %)", "Add them together", "Score above 40 = healthy balance of growth and profit", "Score below 40 = investigate whether you are growing too slowly or spending too much"],
+  "example": "Company A: 60% growth + -20% margin = 40 (healthy — burning cash for fast growth). Company B: 10% growth + 20% margin = 30 (below 40 — growing too slowly). Company C: 30% growth + 15% margin = 45 (strong — balanced).",
+  "category": "financial-analysis",
+  "domain": "finance"
+}

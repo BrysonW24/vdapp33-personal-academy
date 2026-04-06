@@ -1,0 +1,11 @@
+{
+  "slug": "airtable",
+  "name": "Airtable",
+  "category": "planning-database",
+  "description": "A spreadsheet-database hybrid for tracking initiatives, strategic bets, owners, milestones, and decision criteria in a more structured way than flat docs.",
+  "whyUseIt": "Airtable is strong when strategy needs structured tracking across many initiatives, dependencies, and review cadences without jumping straight to heavyweight project software.",
+  "pricingTier": "freemium",
+  "url": "https://www.airtable.com/",
+  "aiCapabilities": "Airtable AI helps classify records, summarise initiative updates, generate fields from notes, and turn operational data into cleaner strategic review inputs.",
+  "alternatives": ["notion", "monday-com", "smartsheet"]
+}

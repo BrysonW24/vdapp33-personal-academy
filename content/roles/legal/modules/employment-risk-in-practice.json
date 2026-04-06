@@ -1,0 +1,28 @@
+{
+  "slug": "employment-risk-in-practice",
+  "title": "Employment Risk in Practice",
+  "shortSummary": "Build stronger employment risk in practice judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "legal",
+  "whyItMatters": "Employment Risk in Practice is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Employment Risk in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good employment risk in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Employment Risk in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "employment-risk-in-practice-lesson"
+  ],
+  "frameworks": [
+    "policy-design-roadmap",
+    "dispute-avoidance-playbook-lens"
+  ],
+  "relatedModules": [
+    "employment-risk-foundations",
+    "vendor-risk-foundations"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 10,
+  "category": "strategy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "voice-of-customer-in-practice",
+  "title": "Voice of Customer in Practice",
+  "shortSummary": "Build stronger voice of customer in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Voice of Customer in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Voice of Customer in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good voice of customer in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Voice of Customer in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "voice-of-customer-in-practice-lesson"
+  ],
+  "frameworks": [
+    "voice-of-customer-control-tower",
+    "qbr-design-diagnostic"
+  ],
+  "relatedModules": [
+    "voice-of-customer-foundations",
+    "qbr-design-foundations"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

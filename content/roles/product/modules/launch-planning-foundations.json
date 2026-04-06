@@ -1,0 +1,28 @@
+{
+  "slug": "launch-planning-foundations",
+  "title": "Launch Planning Foundations",
+  "shortSummary": "Build stronger launch planning foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "product",
+  "whyItMatters": "Launch Planning Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Launch Planning Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good launch planning foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Launch Planning Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "launch-planning-operator-lesson"
+  ],
+  "frameworks": [
+    "adoption-metrics-roadmap",
+    "feedback-loops-playbook-lens"
+  ],
+  "relatedModules": [
+    "experimentation-in-practice",
+    "launch-planning-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "category": "research",
+  "description": "An AI research tool for rapid market scans, competitor summaries, trend exploration, and source-backed starting points for strategic analysis.",
+  "whyUseIt": "Perplexity helps founders move faster through the early research phase of strategy work, especially when they need a quick picture of markets, competitors, or emerging shifts before going deeper.",
+  "pricingTier": "freemium",
+  "url": "https://www.perplexity.ai/",
+  "aiCapabilities": "Perplexity generates source-backed summaries, follow-up research paths, comparison tables, and quick briefs that accelerate strategic scanning and synthesis.",
+  "alternatives": ["chatgpt", "claude", "google-search"]
+}

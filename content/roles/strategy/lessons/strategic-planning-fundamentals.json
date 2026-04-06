@@ -1,0 +1,52 @@
+{
+  "slug": "strategic-planning-fundamentals",
+  "moduleSlug": "strategic-planning-cycles",
+  "title": "Strategic Planning Fundamentals",
+  "objective": "Learn how to set up quarterly planning cycles, define OKRs that actually drive progress, and allocate resources to match your strategic priorities.",
+  "beginnerExplanation": "Strategic planning is not a once-a-year retreat. It is a quarterly rhythm that keeps your business focused and adaptive. The best planning cadence for founders is 90-day cycles: long enough to achieve something meaningful, short enough to correct course.\n\nThe core of quarterly planning is answering three questions: What did we learn last quarter? What are our 3 priorities for next quarter? How will we allocate resources to those priorities?\n\nOKRs (Objectives and Key Results) are the most practical goal-setting tool for founders. An Objective is what you want to achieve (qualitative and inspirational). Key Results are how you know you achieved it (quantitative and measurable). Example: Objective = 'Build a repeatable sales process.' Key Results = '1) Close 15 new customers, 2) Achieve 25% close rate on qualified leads, 3) Document the sales playbook.'\n\nThe biggest planning mistake is not having one. The second biggest is making the plan too complicated. Keep it on one page.",
+  "deeperExplanation": "Effective quarterly planning has a specific structure:\n\n1. Retrospective (what happened last quarter) — 30% of planning time\n2. Strategic context (what changed in the market, with customers, with competitors) — 20%\n3. Priority setting (what are the 3 things that matter most) — 30%\n4. Resource allocation (who does what, with what budget) — 20%\n\nResource allocation is where most planning fails. Founders set ambitious priorities but do not reallocate resources to match. If you add a new priority without removing an old one, you have not actually prioritised. True prioritisation means some things get more resources and some things get fewer.\n\nOKR best practices for founders:\n- Set 2-3 Objectives per quarter (not 7)\n- Each Objective gets 2-4 Key Results\n- Key Results must be measurable (if you cannot put a number on it, it is not a Key Result)\n- Aim for 70% achievement — if you hit 100% every quarter, your OKRs are too easy\n- Review OKRs weekly, not just at quarter-end\n\nThe planning cycle should also include a 'stop doing' list. Every quarter, identify 1-2 things you will stop doing to free up capacity for new priorities.",
+  "keyTakeaways": [
+    "Plan in 90-day cycles — long enough to achieve, short enough to correct",
+    "Answer three questions: What did we learn? What are our 3 priorities? How do we allocate resources?",
+    "OKRs work: qualitative Objective + quantitative Key Results",
+    "If you add a priority without removing one, you have not actually prioritised",
+    "Include a 'stop doing' list every quarter — freeing capacity is as important as setting direction"
+  ],
+  "frameworks": ["swot", "ansoff-matrix"],
+  "example": "Spotify uses a quarterly planning cadence called 'company bets.' Each quarter, leadership identifies 3-5 company-level bets — things they believe will have the biggest impact. Each team then aligns their quarterly work to one or more bets. What makes this effective: the bets are public, limited in number, and reviewed at quarter-end with honest assessments. Teams that worked on things NOT aligned to bets were asked why. This creates alignment without micromanagement.",
+  "commonMistakes": [
+    "Planning annually instead of quarterly — the world changes too fast for 12-month plans",
+    "Setting too many priorities — if you have 7 priorities, you have zero",
+    "Not reviewing the plan mid-quarter — a plan reviewed only at quarter-end is a post-mortem, not a planning tool",
+    "Making OKRs too easy to hit — 100% completion means the bar was too low"
+  ],
+  "exercise": "Set up your next quarter's plan right now. Write down: 1) The 3 most important things you learned last quarter. 2) The 3 priorities for next quarter (not 4, not 5 — exactly 3). 3) For each priority, write 2 measurable Key Results. 4) For each priority, name who is responsible and what resources they need. 5) Name 1 thing you will STOP doing to free up capacity. Put it on one page.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the ideal planning cycle length for most founders?",
+      "options": ["Monthly", "90 days (quarterly)", "6 months", "Annually"],
+      "correctIndex": 1,
+      "explanation": "90-day cycles are long enough to achieve meaningful outcomes but short enough to adapt to changing conditions. Monthly is too short for strategic work, and annual planning cannot keep up with how quickly markets change."
+    },
+    {
+      "question": "What percentage of OKR achievement should you aim for?",
+      "options": ["100% — always hit your targets", "Around 70% — stretch goals should be ambitious", "50% — aim for moonshots", "It does not matter as long as you tried"],
+      "correctIndex": 1,
+      "explanation": "If you hit 100% of your OKRs every quarter, they are too easy. Aiming for ~70% achievement means your objectives are ambitious enough to stretch you while still being achievable. This prevents sandbagging."
+    },
+    {
+      "question": "What is the most common failure in quarterly planning?",
+      "options": ["Not having fancy presentation slides", "Adding new priorities without removing old ones", "Not involving enough stakeholders", "Spending too much time on the retrospective"],
+      "correctIndex": 1,
+      "explanation": "True prioritisation requires trade-offs. If you add a new priority without removing an existing one or reallocating resources, you have not actually prioritised — you have just added to an already full plate."
+    }
+  ],
+  "perspectives": {
+    "founder": "Quarterly planning is your most important management rhythm. It forces you to step back from daily fire-fighting and make deliberate choices about direction. Block 4 hours at the start of each quarter for planning — it will save you hundreds of hours of wasted effort on things that do not matter.",
+    "delegator": "Once you have a team, quarterly planning becomes collaborative. Bring your team into the priority-setting process — they will have insights you lack. But the final call on priorities is yours. Delegate the execution planning (how), own the strategic planning (what and why).",
+    "investor": "Investors love founders who run disciplined quarterly planning. It signals operational maturity and strategic clarity. Include your quarterly plan summary in investor updates — it shows you are running the business, not just working in it.",
+    "advisor": "The best advice for quarterly planning: start with what you will stop doing. Most founders have no shortage of ideas and ambitions. What they lack is the discipline to drop things. A 'stop doing' list is the most valuable output of any planning session.",
+    "scaler": "At 10x scale, quarterly planning becomes the primary coordination mechanism for the company. Teams need clear direction, aligned priorities, and the autonomy to execute within those constraints. The planning system you build now — OKRs, quarterly cycles, retrospectives — becomes the operating system for a much larger organisation."
+  }
+}

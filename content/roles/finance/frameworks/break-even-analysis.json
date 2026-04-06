@@ -1,0 +1,10 @@
+{
+  "slug": "break-even-analysis",
+  "name": "Break-Even Analysis",
+  "summary": "Calculate the point at which revenue covers all costs. Tells you how many customers or how much revenue you need to stop losing money.",
+  "whenToUseIt": "When launching, setting prices, or deciding whether a new product or market is viable.",
+  "steps": ["List all fixed costs (rent, salaries, subscriptions — costs that do not change with volume)", "Calculate variable cost per unit/customer (delivery, support, hosting per customer)", "Calculate contribution margin per unit (price per unit - variable cost per unit)", "Break-even point = fixed costs / contribution margin per unit"],
+  "example": "Fixed costs: $20K/month. Price: $200/month per customer. Variable cost: $50/month per customer. Contribution margin: $150. Break-even: $20K / $150 = 134 customers needed to break even.",
+  "category": "financial-analysis",
+  "domain": "finance"
+}

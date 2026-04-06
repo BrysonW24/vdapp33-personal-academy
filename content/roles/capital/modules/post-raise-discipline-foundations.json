@@ -1,0 +1,28 @@
+{
+  "slug": "post-raise-discipline-foundations",
+  "title": "Post-raise Discipline Foundations",
+  "shortSummary": "Build stronger post-raise discipline foundations judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "capital",
+  "whyItMatters": "Post-raise Discipline Foundations is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Post-raise Discipline Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good post-raise discipline foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Post-raise Discipline Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "post-raise-discipline-operator-lesson"
+  ],
+  "frameworks": [
+    "diligence-preparation-control-tower",
+    "board-communication-diagnostic"
+  ],
+  "relatedModules": [
+    "use-of-funds-in-practice",
+    "post-raise-discipline-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "churn-analysis-in-practice",
+  "title": "Churn Analysis in Practice",
+  "shortSummary": "Build stronger churn analysis in practice judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Churn Analysis in Practice is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Churn Analysis in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good churn analysis in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Churn Analysis in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "churn-analysis-in-practice-lesson"
+  ],
+  "frameworks": [
+    "expansion-strategy-operating-loop",
+    "health-scoring-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "churn-analysis-foundations",
+    "expansion-strategy-foundations"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 8,
+  "category": "strategy"
+}

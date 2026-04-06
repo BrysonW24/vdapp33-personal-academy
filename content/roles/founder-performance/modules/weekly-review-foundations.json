@@ -1,0 +1,28 @@
+{
+  "slug": "weekly-review-foundations",
+  "title": "Weekly Review Foundations",
+  "shortSummary": "Build stronger weekly review foundations judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "founder-performance",
+  "whyItMatters": "Weekly Review Foundations is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Weekly Review Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good weekly review foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Weekly Review Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "weekly-review-operator-lesson"
+  ],
+  "frameworks": [
+    "relationships-operating-loop",
+    "attention-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "attention-management-in-practice",
+    "weekly-review-in-practice"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 13,
+  "category": "strategy"
+}

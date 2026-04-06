@@ -1,0 +1,28 @@
+{
+  "slug": "financial-statements-in-practice",
+  "title": "Financial Statements in Practice",
+  "shortSummary": "Build stronger financial statements in practice judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "accounting",
+  "whyItMatters": "Financial Statements in Practice is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Financial Statements in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good financial statements in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Financial Statements in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "financial-statements-in-practice-lesson"
+  ],
+  "frameworks": [
+    "cash-controls-review-lens",
+    "tax-calendar-decision-map"
+  ],
+  "relatedModules": [
+    "financial-statements-foundations",
+    "month-end-close-foundations"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "category": "foundation"
+}

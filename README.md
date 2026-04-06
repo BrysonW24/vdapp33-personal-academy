@@ -2,7 +2,7 @@
 
 Repo lineage: `vdapp33-personal-academy`
 
-Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 64 subjects, 41 topics, and 10 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
+Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 64 subjects, 41 topics, and 22 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
 
 ## What This App Is
 
@@ -24,6 +24,7 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It n
 - Roles should feel like guided worlds: what the person does, what they see that others miss, how people get there, what they need to be strong in, what pressures they absorb, and how careers compound
 - Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, and module indexes
 - Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
+- Imported role academies are valid in Nexus when they are re-framed through the shared role-world contract rather than copied in as isolated mini-products
 - When meaningful design, architecture, or product-direction changes land, update the reference docs in the same pass
 
 ## Core Routes

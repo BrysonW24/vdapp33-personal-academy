@@ -1,0 +1,28 @@
+{
+  "slug": "energy-management-in-practice",
+  "title": "Energy Management in Practice",
+  "shortSummary": "Build stronger energy management in practice judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "founder-performance",
+  "whyItMatters": "Energy Management in Practice is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Energy Management in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good energy management in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Energy Management in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "energy-management-in-practice-lesson"
+  ],
+  "frameworks": [
+    "weekly-review-control-tower",
+    "communication-under-pressure-diagnostic"
+  ],
+  "relatedModules": [
+    "energy-management-foundations",
+    "time-design-foundations"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "category": "foundation"
+}

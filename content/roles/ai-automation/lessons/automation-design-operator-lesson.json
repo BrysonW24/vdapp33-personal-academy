@@ -1,0 +1,26 @@
+{
+  "slug": "automation-design-operator-lesson",
+  "moduleSlug": "automation-design-foundations",
+  "title": "Automation Design Operator Lesson",
+  "objective": "Understand the operator fundamentals behind automation design in ai / automation.",
+  "beginnerExplanation": "Automation Design becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, automation design is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Automation Design improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether automation design is working.",
+    "Automation Design should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "automation-design-scorecard",
+    "copilot-use-cases-review-lens"
+  ],
+  "example": "A founder or operator uses automation design to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating automation design like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve automation design over the next two weeks inside a real business.",
+  "order": 2,
+  "nextLesson": "copilot-use-cases-operator-lesson"
+}

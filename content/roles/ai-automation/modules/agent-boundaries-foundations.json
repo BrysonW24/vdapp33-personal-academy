@@ -1,0 +1,28 @@
+{
+  "slug": "agent-boundaries-foundations",
+  "title": "Agent Boundaries Foundations",
+  "shortSummary": "Build stronger agent boundaries foundations judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "ai-automation",
+  "whyItMatters": "Agent Boundaries Foundations is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Agent Boundaries Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good agent boundaries foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Agent Boundaries Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "agent-boundaries-operator-lesson"
+  ],
+  "frameworks": [
+    "copilot-use-cases-review-lens",
+    "agent-boundaries-decision-map"
+  ],
+  "relatedModules": [
+    "copilot-use-cases-in-practice",
+    "agent-boundaries-in-practice"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 7,
+  "category": "strategy"
+}

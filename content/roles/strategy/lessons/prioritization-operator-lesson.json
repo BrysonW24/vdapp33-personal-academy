@@ -1,0 +1,26 @@
+{
+  "slug": "prioritization-operator-lesson",
+  "moduleSlug": "prioritization-foundations",
+  "title": "Prioritization Operator Lesson",
+  "objective": "Understand the operator fundamentals behind prioritization in strategy.",
+  "beginnerExplanation": "Prioritization becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, prioritization is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Prioritization improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether prioritization is working.",
+    "Prioritization should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "prioritization-decision-map",
+    "resource-allocation-operating-loop"
+  ],
+  "example": "A founder or operator uses prioritization to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating prioritization like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve prioritization over the next two weeks inside a real business.",
+  "order": 9,
+  "nextLesson": "resource-allocation-operator-lesson"
+}

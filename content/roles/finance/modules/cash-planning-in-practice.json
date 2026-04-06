@@ -1,0 +1,28 @@
+{
+  "slug": "cash-planning-in-practice",
+  "title": "Cash Planning in Practice",
+  "shortSummary": "Build stronger cash planning in practice judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Cash Planning in Practice is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Cash Planning in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good cash planning in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Cash Planning in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "cash-planning-in-practice-lesson"
+  ],
+  "frameworks": [
+    "scenario-planning-review-lens",
+    "pricing-architecture-decision-map"
+  ],
+  "relatedModules": [
+    "cash-planning-foundations",
+    "financial-modeling-foundations"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 7,
+  "category": "strategy"
+}

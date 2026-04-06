@@ -1,0 +1,24 @@
+{
+  "slug": "pricing-and-margin-management",
+  "title": "Pricing and Margin Management",
+  "shortSummary": "How to price for value, protect margin, and avoid growing revenue that quietly destroys cash.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Pricing is one of the highest-leverage financial decisions a founder makes. A small pricing improvement compounds across every sale, while weak margins make growth harder to fund.",
+  "coreConcepts": [
+    "Price sets the ceiling for gross margin and the economics of growth",
+    "Discounting without rules trains customers to expect lower value",
+    "Contribution margin matters because revenue alone does not tell you what cash the business keeps",
+    "Pricing reviews should connect customer value, market context, and runway pressure"
+  ],
+  "lessons": ["pricing-for-margin-and-runway"],
+  "frameworks": ["break-even-analysis", "unit-economics-model"],
+  "relatedModules": [
+    "financial-literacy-for-founders",
+    "cash-flow-management",
+    "unit-economics",
+    "financial-planning-and-forecasting"
+  ],
+  "status": "complete",
+  "order": 5
+}

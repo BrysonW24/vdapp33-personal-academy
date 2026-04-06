@@ -1,0 +1,28 @@
+{
+  "slug": "strategic-narratives-in-practice",
+  "title": "Strategic Narratives in Practice",
+  "shortSummary": "Build stronger strategic narratives in practice judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "strategy",
+  "whyItMatters": "Strategic Narratives in Practice is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Strategic Narratives in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good strategic narratives in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Strategic Narratives in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "strategic-narratives-in-practice-lesson"
+  ],
+  "frameworks": [
+    "research-workflows-review-lens",
+    "prioritization-decision-map"
+  ],
+  "relatedModules": [
+    "strategic-narratives-foundations",
+    "operating-focus-foundations"
+  ],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 17,
+  "category": "advanced"
+}

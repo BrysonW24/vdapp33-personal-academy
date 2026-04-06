@@ -1,0 +1,28 @@
+{
+  "slug": "warehouse-modeling-foundations",
+  "title": "Warehouse Modeling Foundations",
+  "shortSummary": "Build stronger warehouse modeling foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "data-analytics",
+  "whyItMatters": "Warehouse Modeling Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Warehouse Modeling Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good warehouse modeling foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Warehouse Modeling Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "warehouse-modeling-operator-lesson"
+  ],
+  "frameworks": [
+    "dashboard-design-review-lens",
+    "warehouse-modeling-decision-map"
+  ],
+  "relatedModules": [
+    "dashboard-design-in-practice",
+    "warehouse-modeling-in-practice"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 7,
+  "category": "strategy"
+}

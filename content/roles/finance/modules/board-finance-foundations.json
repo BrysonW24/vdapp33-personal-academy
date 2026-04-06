@@ -1,0 +1,28 @@
+{
+  "slug": "board-finance-foundations",
+  "title": "Board Finance Foundations",
+  "shortSummary": "Build stronger board finance foundations judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "finance",
+  "whyItMatters": "Board Finance Foundations is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Board Finance Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good board finance foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Board Finance Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "board-finance-operator-lesson"
+  ],
+  "frameworks": [
+    "cash-planning-canvas",
+    "financial-modeling-scorecard"
+  ],
+  "relatedModules": [
+    "management-reporting-in-practice",
+    "board-finance-in-practice"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

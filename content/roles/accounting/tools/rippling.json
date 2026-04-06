@@ -1,0 +1,20 @@
+{
+  "slug": "rippling",
+  "name": "Rippling",
+  "category": "Analytics",
+  "description": "Rippling is commonly used to support accounting workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Rippling when the team needs more structure, visibility, or speed in accounting work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Xero",
+    "QuickBooks Online"
+  ],
+  "founderWorkflow": "Use Rippling to keep accounting work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding Rippling before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "handoffs-foundations",
+  "title": "Handoffs Foundations",
+  "shortSummary": "Build stronger handoffs foundations judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "operations",
+  "whyItMatters": "Handoffs Foundations is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Handoffs Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good handoffs foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Handoffs Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "handoffs-operator-lesson"
+  ],
+  "frameworks": [
+    "automation-design-roadmap",
+    "operating-reviews-playbook-lens"
+  ],
+  "relatedModules": [
+    "service-delivery-in-practice",
+    "handoffs-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

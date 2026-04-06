@@ -1,0 +1,20 @@
+{
+  "slug": "puzzle",
+  "name": "Puzzle",
+  "category": "Analytics",
+  "description": "Puzzle is commonly used to support finance workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Puzzle when the team needs more structure, visibility, or speed in finance work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Ramp",
+    "Brex"
+  ],
+  "founderWorkflow": "Use Puzzle to keep finance work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Puzzle before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "revenue-recognition-foundations",
+  "title": "Revenue Recognition Foundations",
+  "shortSummary": "Build stronger revenue recognition foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "accounting",
+  "whyItMatters": "Revenue Recognition Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Revenue Recognition Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good revenue recognition foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Revenue Recognition Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "revenue-recognition-operator-lesson"
+  ],
+  "frameworks": [
+    "financial-statements-canvas",
+    "month-end-close-scorecard"
+  ],
+  "relatedModules": [
+    "payroll-operations-in-practice",
+    "revenue-recognition-in-practice"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

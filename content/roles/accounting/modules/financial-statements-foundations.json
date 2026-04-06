@@ -1,0 +1,27 @@
+{
+  "slug": "financial-statements-foundations",
+  "title": "Financial Statements Foundations",
+  "shortSummary": "Build stronger financial statements foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "accounting",
+  "whyItMatters": "Financial Statements Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Financial Statements Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good financial statements foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Financial Statements Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "financial-statements-operator-lesson"
+  ],
+  "frameworks": [
+    "financial-statements-canvas",
+    "month-end-close-scorecard"
+  ],
+  "relatedModules": [
+    "financial-statements-in-practice"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "category": "foundation"
+}

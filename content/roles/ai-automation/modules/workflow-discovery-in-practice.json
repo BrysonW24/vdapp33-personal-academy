@@ -1,0 +1,28 @@
+{
+  "slug": "workflow-discovery-in-practice",
+  "title": "Workflow Discovery in Practice",
+  "shortSummary": "Build stronger workflow discovery in practice judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "ai-automation",
+  "whyItMatters": "Workflow Discovery in Practice is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Workflow Discovery in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good workflow discovery in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Workflow Discovery in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "workflow-discovery-in-practice-lesson"
+  ],
+  "frameworks": [
+    "copilot-use-cases-review-lens",
+    "agent-boundaries-decision-map"
+  ],
+  "relatedModules": [
+    "workflow-discovery-foundations",
+    "automation-design-foundations"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "category": "foundation"
+}

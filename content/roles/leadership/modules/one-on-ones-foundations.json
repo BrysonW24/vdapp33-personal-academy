@@ -1,0 +1,28 @@
+{
+  "slug": "one-on-ones-foundations",
+  "title": "One-on-ones Foundations",
+  "shortSummary": "Build stronger one-on-ones foundations judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "leadership",
+  "whyItMatters": "One-on-ones Foundations is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "One-on-ones Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good one-on-ones foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "One-on-ones Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "one-on-ones-operator-lesson"
+  ],
+  "frameworks": [
+    "decision-cadence-roadmap",
+    "culture-signals-playbook-lens"
+  ],
+  "relatedModules": [
+    "delegation-in-practice",
+    "one-on-ones-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

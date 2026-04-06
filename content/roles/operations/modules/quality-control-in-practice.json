@@ -1,0 +1,28 @@
+{
+  "slug": "quality-control-in-practice",
+  "title": "Quality Control in Practice",
+  "shortSummary": "Build stronger quality control in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "operations",
+  "whyItMatters": "Quality Control in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Quality Control in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good quality control in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Quality Control in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "quality-control-in-practice-lesson"
+  ],
+  "frameworks": [
+    "capacity-planning-operating-loop",
+    "queue-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "quality-control-foundations",
+    "capacity-planning-foundations"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 8,
+  "category": "strategy"
+}

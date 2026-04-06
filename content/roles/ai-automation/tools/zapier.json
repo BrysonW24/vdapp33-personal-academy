@@ -1,0 +1,20 @@
+{
+  "slug": "zapier",
+  "name": "Zapier",
+  "category": "Planning",
+  "description": "Zapier is commonly used to support ai / automation workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Zapier when the team needs more structure, visibility, or speed in ai / automation work.",
+  "pricingTier": "enterprise",
+  "alternatives": [
+    "Make",
+    "n8n"
+  ],
+  "founderWorkflow": "Use Zapier to keep ai / automation work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "low",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Zapier before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

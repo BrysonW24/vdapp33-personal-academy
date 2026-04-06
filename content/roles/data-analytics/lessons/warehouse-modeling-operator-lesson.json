@@ -1,0 +1,26 @@
+{
+  "slug": "warehouse-modeling-operator-lesson",
+  "moduleSlug": "warehouse-modeling-foundations",
+  "title": "Warehouse Modeling Operator Lesson",
+  "objective": "Understand the operator fundamentals behind warehouse modeling in data / analytics.",
+  "beginnerExplanation": "Warehouse Modeling becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, warehouse modeling is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Warehouse Modeling improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether warehouse modeling is working.",
+    "Warehouse Modeling should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "warehouse-modeling-decision-map",
+    "experimentation-analysis-operating-loop"
+  ],
+  "example": "A founder or operator uses warehouse modeling to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating warehouse modeling like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve warehouse modeling over the next two weeks inside a real business.",
+  "order": 4,
+  "nextLesson": "experimentation-analysis-operator-lesson"
+}

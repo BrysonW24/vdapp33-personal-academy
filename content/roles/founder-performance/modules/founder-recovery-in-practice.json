@@ -1,0 +1,27 @@
+{
+  "slug": "founder-recovery-in-practice",
+  "title": "Founder Recovery in Practice",
+  "shortSummary": "Build stronger founder recovery in practice judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "founder-performance",
+  "whyItMatters": "Founder Recovery in Practice is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Founder Recovery in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good founder recovery in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Founder Recovery in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "founder-recovery-in-practice-lesson"
+  ],
+  "frameworks": [
+    "delegation-readiness-roadmap",
+    "founder-recovery-playbook-lens"
+  ],
+  "relatedModules": [
+    "founder-recovery-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

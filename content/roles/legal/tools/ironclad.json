@@ -1,0 +1,20 @@
+{
+  "slug": "ironclad",
+  "name": "Ironclad",
+  "category": "Planning",
+  "description": "Ironclad is commonly used to support legal / risk workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Ironclad when the team needs more structure, visibility, or speed in legal / risk work.",
+  "pricingTier": "enterprise",
+  "alternatives": [
+    "Juro",
+    "DocuSign"
+  ],
+  "founderWorkflow": "Use Ironclad to keep legal / risk work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "low",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Ironclad before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "data-room-readiness-review-lens",
+  "name": "Data Room Readiness Review Lens",
+  "summary": "Data Room Readiness Review Lens gives capital / fundraising work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about data room readiness review lens without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Data Room Readiness Review Lens to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "capital"
+}

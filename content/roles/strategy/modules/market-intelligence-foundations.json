@@ -1,0 +1,27 @@
+{
+  "slug": "market-intelligence-foundations",
+  "title": "Market Intelligence Foundations",
+  "shortSummary": "Build stronger market intelligence foundations judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "strategy",
+  "whyItMatters": "Market Intelligence Foundations is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Market Intelligence Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good market intelligence foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Market Intelligence Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "market-intelligence-operator-lesson"
+  ],
+  "frameworks": [
+    "market-intelligence-canvas",
+    "scenario-planning-scorecard"
+  ],
+  "relatedModules": [
+    "market-intelligence-in-practice"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

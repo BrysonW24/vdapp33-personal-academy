@@ -1,0 +1,28 @@
+{
+  "slug": "ip-protection-foundations",
+  "title": "IP Protection Foundations",
+  "shortSummary": "Build stronger ip protection foundations judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "legal",
+  "whyItMatters": "IP Protection Foundations is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "IP Protection Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good ip protection foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "IP Protection Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "ip-protection-operator-lesson"
+  ],
+  "frameworks": [
+    "policy-design-roadmap",
+    "dispute-avoidance-playbook-lens"
+  ],
+  "relatedModules": [
+    "commercial-terms-in-practice",
+    "ip-protection-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

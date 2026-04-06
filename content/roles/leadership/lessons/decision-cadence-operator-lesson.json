@@ -1,0 +1,26 @@
+{
+  "slug": "decision-cadence-operator-lesson",
+  "moduleSlug": "decision-cadence-foundations",
+  "title": "Decision Cadence Operator Lesson",
+  "objective": "Understand the operator fundamentals behind decision cadence in leadership / people.",
+  "beginnerExplanation": "Decision Cadence becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, decision cadence is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Decision Cadence improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether decision cadence is working.",
+    "Decision Cadence should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "decision-cadence-roadmap",
+    "culture-signals-playbook-lens"
+  ],
+  "example": "A founder or operator uses decision cadence to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating decision cadence like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve decision cadence over the next two weeks inside a real business.",
+  "order": 9,
+  "nextLesson": "culture-signals-operator-lesson"
+}

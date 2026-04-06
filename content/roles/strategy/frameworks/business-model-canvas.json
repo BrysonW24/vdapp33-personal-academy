@@ -1,0 +1,10 @@
+{
+  "slug": "business-model-canvas",
+  "name": "Business Model Canvas",
+  "summary": "A one-page visual framework for designing and evaluating business models across 9 building blocks.",
+  "whenToUseIt": "When designing a new business model, evaluating a pivot, or communicating how your business works to investors or team members.",
+  "steps": ["Define Customer Segments (who are your customers?)", "Define Value Propositions (what problem do you solve?)", "Define Channels (how do you reach customers?)", "Define Customer Relationships (how do you retain customers?)", "Define Revenue Streams (how do you make money?)", "Define Key Resources (what do you need?)", "Define Key Activities (what must you do well?)", "Define Key Partners (who do you depend on?)", "Define Cost Structure (what are your main costs?)"],
+  "example": "A SaaS company might have: Segments = SMB e-commerce. Value Prop = automated inventory. Channel = content marketing + partnerships. Revenue = monthly subscription. Key Activity = product development. Cost Structure = engineering + cloud hosting.",
+  "category": "business-design",
+  "domain": "strategy"
+}

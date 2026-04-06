@@ -1,0 +1,28 @@
+{
+  "slug": "expansion-strategy-foundations",
+  "title": "Expansion Strategy Foundations",
+  "shortSummary": "Build stronger expansion strategy foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Expansion Strategy Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Expansion Strategy Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good expansion strategy foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Expansion Strategy Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "expansion-strategy-operator-lesson"
+  ],
+  "frameworks": [
+    "voice-of-customer-control-tower",
+    "qbr-design-diagnostic"
+  ],
+  "relatedModules": [
+    "churn-analysis-in-practice",
+    "expansion-strategy-in-practice"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 9,
+  "category": "strategy"
+}

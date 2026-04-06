@@ -1,0 +1,20 @@
+{
+  "slug": "google-sheets",
+  "name": "Google Sheets",
+  "category": "Planning",
+  "description": "Google Sheets is commonly used to support capital / fundraising workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Google Sheets when the team needs more structure, visibility, or speed in capital / fundraising work.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Pitch",
+    "Figma"
+  ],
+  "founderWorkflow": "Use Google Sheets to keep capital / fundraising work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "low",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding Google Sheets before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

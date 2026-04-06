@@ -1,0 +1,28 @@
+{
+  "slug": "tool-orchestration-in-practice",
+  "title": "Tool Orchestration in Practice",
+  "shortSummary": "Build stronger tool orchestration in practice judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "ai-automation",
+  "whyItMatters": "Tool Orchestration in Practice is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Tool Orchestration in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good tool orchestration in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Tool Orchestration in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "tool-orchestration-in-practice-lesson"
+  ],
+  "frameworks": [
+    "workflow-discovery-canvas",
+    "automation-design-scorecard"
+  ],
+  "relatedModules": [
+    "tool-orchestration-foundations",
+    "monitoring-foundations"
+  ],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 16,
+  "category": "advanced"
+}

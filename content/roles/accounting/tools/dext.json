@@ -1,0 +1,20 @@
+{
+  "slug": "dext",
+  "name": "Dext",
+  "category": "Analytics",
+  "description": "Dext is commonly used to support accounting workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Dext when the team needs more structure, visibility, or speed in accounting work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Ramp",
+    "Brex"
+  ],
+  "founderWorkflow": "Use Dext to keep accounting work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding Dext before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

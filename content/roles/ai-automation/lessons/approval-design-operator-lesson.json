@@ -1,0 +1,26 @@
+{
+  "slug": "approval-design-operator-lesson",
+  "moduleSlug": "approval-design-foundations",
+  "title": "Approval Design Operator Lesson",
+  "objective": "Understand the operator fundamentals behind approval design in ai / automation.",
+  "beginnerExplanation": "Approval Design becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, approval design is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Approval Design improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether approval design is working.",
+    "Approval Design should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "approval-design-operating-loop",
+    "prompt-qa-prioritization-matrix"
+  ],
+  "example": "A founder or operator uses approval design to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating approval design like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve approval design over the next two weeks inside a real business.",
+  "order": 5,
+  "nextLesson": "prompt-qa-operator-lesson"
+}

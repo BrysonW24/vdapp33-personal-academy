@@ -1,0 +1,28 @@
+{
+  "slug": "weekly-review-in-practice",
+  "title": "Weekly Review in Practice",
+  "shortSummary": "Build stronger weekly review in practice judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "founder-performance",
+  "whyItMatters": "Weekly Review in Practice is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Weekly Review in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good weekly review in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Weekly Review in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "weekly-review-in-practice-lesson"
+  ],
+  "frameworks": [
+    "weekly-review-control-tower",
+    "communication-under-pressure-diagnostic"
+  ],
+  "relatedModules": [
+    "weekly-review-foundations",
+    "communication-under-pressure-foundations"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

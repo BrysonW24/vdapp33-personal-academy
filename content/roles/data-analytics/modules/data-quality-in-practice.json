@@ -1,0 +1,28 @@
+{
+  "slug": "data-quality-in-practice",
+  "title": "Data Quality in Practice",
+  "shortSummary": "Build stronger data quality in practice judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "data-analytics",
+  "whyItMatters": "Data Quality in Practice is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Data Quality in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good data quality in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Data Quality in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "data-quality-in-practice-lesson"
+  ],
+  "frameworks": [
+    "dashboard-design-review-lens",
+    "warehouse-modeling-decision-map"
+  ],
+  "relatedModules": [
+    "data-quality-foundations",
+    "stakeholder-reporting-foundations"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 12,
+  "category": "strategy"
+}

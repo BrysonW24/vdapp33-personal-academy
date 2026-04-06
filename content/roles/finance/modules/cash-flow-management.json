@@ -1,0 +1,19 @@
+{
+  "slug": "cash-flow-management",
+  "title": "Cash Flow Management",
+  "shortSummary": "Runway, burn rate, collections, and payment terms. The operating discipline that keeps your business alive.",
+  "level": "intermediate",
+  "domain": "finance",
+  "whyItMatters": "Cash is oxygen. Profitable businesses die when they run out of cash. Understanding cash flow is understanding survival.",
+  "coreConcepts": [
+    "Burn rate = monthly expenses minus monthly revenue (when negative = burning cash)",
+    "Runway = total cash / monthly burn rate (how many months before you run out)",
+    "Collections management = getting paid faster directly extends runway",
+    "Payment terms negotiation = paying slower conserves cash"
+  ],
+  "lessons": ["cash-flow-fundamentals"],
+  "frameworks": ["scenario-planning", "break-even-analysis"],
+  "relatedModules": ["financial-literacy-for-founders", "unit-economics"],
+  "status": "complete",
+  "order": 3
+}

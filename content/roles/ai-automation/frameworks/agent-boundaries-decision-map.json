@@ -1,0 +1,15 @@
+{
+  "slug": "agent-boundaries-decision-map",
+  "name": "Agent Boundaries Decision Map",
+  "summary": "Agent Boundaries Decision Map gives ai / automation work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about agent boundaries decision map without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Agent Boundaries Decision Map to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "ai-automation"
+}

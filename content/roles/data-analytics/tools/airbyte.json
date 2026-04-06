@@ -1,0 +1,20 @@
+{
+  "slug": "airbyte",
+  "name": "Airbyte",
+  "category": "Automation",
+  "description": "Airbyte is commonly used to support data / analytics workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Airbyte when the team needs more structure, visibility, or speed in data / analytics work.",
+  "pricingTier": "enterprise",
+  "alternatives": [
+    "Mode",
+    "Tableau"
+  ],
+  "founderWorkflow": "Use Airbyte to keep data / analytics work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "medium",
+  "stageRecommendation": "growth",
+  "beginnerMistakes": [
+    "Adding Airbyte before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

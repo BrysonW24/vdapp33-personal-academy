@@ -1,0 +1,19 @@
+{
+  "slug": "what-strategy-is",
+  "title": "What Strategy Actually Is",
+  "shortSummary": "Strategy is not a business plan, a vision statement, or a to-do list. It is a set of integrated choices about where to play and how to win.",
+  "level": "beginner",
+  "domain": "strategy",
+  "whyItMatters": "Without strategy, you are just reacting to whatever happens. Strategy gives you a framework for saying no to good opportunities so you can focus on great ones.",
+  "coreConcepts": [
+    "Strategy is about choices — what you will and will not do",
+    "Good strategy has a diagnosis, a guiding policy, and coherent actions",
+    "Competitive advantage is not permanent — it must be maintained and evolved",
+    "The best strategies are simple enough to explain in one sentence"
+  ],
+  "lessons": ["what-strategy-actually-is"],
+  "frameworks": ["porters-five-forces", "swot", "business-model-canvas"],
+  "relatedModules": ["competitive-positioning", "business-model-design"],
+  "status": "complete",
+  "order": 1
+}

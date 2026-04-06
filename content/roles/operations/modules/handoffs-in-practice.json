@@ -1,0 +1,28 @@
+{
+  "slug": "handoffs-in-practice",
+  "title": "Handoffs in Practice",
+  "shortSummary": "Build stronger handoffs in practice judgment so operations work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "operations",
+  "whyItMatters": "Handoffs in Practice is a leverage point inside operations. It supports the broader goal of process design, sops, delivery systems, and execution rhythm.",
+  "coreConcepts": [
+    "Handoffs in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good handoffs in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Handoffs in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "handoffs-in-practice-lesson"
+  ],
+  "frameworks": [
+    "process-design-canvas",
+    "service-delivery-scorecard"
+  ],
+  "relatedModules": [
+    "handoffs-foundations",
+    "quality-control-foundations"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "category": "foundation"
+}

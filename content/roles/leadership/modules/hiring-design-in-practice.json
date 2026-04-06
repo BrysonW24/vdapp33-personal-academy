@@ -1,0 +1,28 @@
+{
+  "slug": "hiring-design-in-practice",
+  "title": "Hiring Design in Practice",
+  "shortSummary": "Build stronger hiring design in practice judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "leadership",
+  "whyItMatters": "Hiring Design in Practice is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Hiring Design in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good hiring design in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Hiring Design in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "hiring-design-in-practice-lesson"
+  ],
+  "frameworks": [
+    "one-on-ones-review-lens",
+    "feedback-decision-map"
+  ],
+  "relatedModules": [
+    "hiring-design-foundations",
+    "delegation-foundations"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "category": "foundation"
+}

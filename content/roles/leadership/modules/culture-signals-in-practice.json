@@ -1,0 +1,27 @@
+{
+  "slug": "culture-signals-in-practice",
+  "title": "Culture Signals in Practice",
+  "shortSummary": "Build stronger culture signals in practice judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "leadership",
+  "whyItMatters": "Culture Signals in Practice is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Culture Signals in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good culture signals in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Culture Signals in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "culture-signals-in-practice-lesson"
+  ],
+  "frameworks": [
+    "decision-cadence-roadmap",
+    "culture-signals-playbook-lens"
+  ],
+  "relatedModules": [
+    "culture-signals-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

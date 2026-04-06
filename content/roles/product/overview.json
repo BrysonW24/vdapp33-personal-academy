@@ -1,0 +1,57 @@
+{
+  "slug": "product",
+  "title": "What working in Product actually involves",
+  "summary": "Product work is not just feature prioritization or writing tickets. It is the discipline of deciding what should exist, why it should exist, how it should be sequenced, and what evidence proves it matters. In practice, product people balance customer pain, business value, technical reality, and delivery constraints at the same time.\n\nThe role is hard because almost every decision involves compromise. Good product operators learn to clarify the problem before debating solutions, protect teams from random churn, and keep strategy, delivery, and learning connected instead of fragmented.\n\nWhat makes the role compelling is that it sits at the hinge between user reality and what gets built. Product can translate messy demand into usable systems and real shipped outcomes.",
+  "coreWork": [
+    "Understanding user pain, business context, and product constraints before deciding what to build.",
+    "Running discovery, prioritisation, roadmapping, and release conversations with cross-functional teams.",
+    "Turning product direction into clear scopes, tradeoffs, and sequencing.",
+    "Using feedback, research, and usage data to improve the product instead of shipping blindly."
+  ],
+  "frontierPull": "The role attracts people who want leverage over what gets built. You are close to users, engineering, leadership, and strategy at once, and that lets you shape both the product itself and the way the team learns.",
+  "signals": [
+    "Discovery",
+    "Prioritisation",
+    "Roadmapping",
+    "User research",
+    "Release quality",
+    "Cross-functional alignment",
+    "Experimentation",
+    "Product judgment"
+  ],
+  "whenItCameAbout": "Modern product management evolved from industrial product planning, software delivery, and startup iteration. As software organizations grew faster and more complex, product became the role that connected user insight, business logic, and engineering execution.",
+  "whatPeopleDo": [
+    "Clarify the problem before feature debates spiral.",
+    "Coordinate discovery, roadmap, and delivery decisions across teams.",
+    "Write product narratives, specs, and decision notes that reduce ambiguity.",
+    "Review outcomes and use evidence to change what ships next."
+  ],
+  "howPeopleGetThere": "People often enter through design, engineering, customer-facing roles, consulting, operations, or founder work. The strongest product people usually combine user empathy, writing ability, delivery realism, and repeated exposure to hard tradeoffs.",
+  "strengths": [
+    "User empathy",
+    "Decision framing",
+    "Cross-functional communication",
+    "Delivery realism",
+    "Prioritisation",
+    "Research literacy"
+  ],
+  "whoThrivesHere": "People do well when they can listen carefully, avoid vanity roadmaps, and stay useful in the uncomfortable space between customer ambition and engineering constraint.",
+  "exposures": [
+    "Stakeholder pressure from multiple directions",
+    "Constant tradeoffs between speed, scope, and quality",
+    "The temptation to overbuild for loud requests",
+    "Responsibility without absolute authority"
+  ],
+  "careerLevers": [
+    "Getting stronger at discovery and framing",
+    "Improving written communication and decision clarity",
+    "Learning to sequence with engineering reality in mind",
+    "Developing better product taste through post-launch learning"
+  ],
+  "careerPath": [
+    "Product-adjacent foundation",
+    "Associate or product manager",
+    "Senior or staff product role",
+    "Product leadership or founder-level product ownership"
+  ]
+}

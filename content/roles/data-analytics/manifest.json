@@ -1,0 +1,14 @@
+{
+  "slug": "data-analytics",
+  "name": "Data / Analytics",
+  "kind": "role",
+  "group": "engineering",
+  "icon": "BarChart3",
+  "color": "#8B5CF6",
+  "tagline": "KPIs, dashboards, instrumentation, experimentation, and signal interpretation that make decisions more grounded.",
+  "tier": "flagship",
+  "order": 16,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
+}

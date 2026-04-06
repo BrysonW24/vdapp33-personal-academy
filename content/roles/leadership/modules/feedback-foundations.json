@@ -1,0 +1,28 @@
+{
+  "slug": "feedback-foundations",
+  "title": "Feedback Foundations",
+  "shortSummary": "Build stronger feedback foundations judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "leadership",
+  "whyItMatters": "Feedback Foundations is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Feedback Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good feedback foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Feedback Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "feedback-operator-lesson"
+  ],
+  "frameworks": [
+    "one-on-ones-review-lens",
+    "feedback-decision-map"
+  ],
+  "relatedModules": [
+    "one-on-ones-in-practice",
+    "feedback-in-practice"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 7,
+  "category": "strategy"
+}

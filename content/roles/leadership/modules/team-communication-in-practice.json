@@ -1,0 +1,28 @@
+{
+  "slug": "team-communication-in-practice",
+  "title": "Team Communication in Practice",
+  "shortSummary": "Build stronger team communication in practice judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "leadership",
+  "whyItMatters": "Team Communication in Practice is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Team Communication in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good team communication in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Team Communication in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "team-communication-in-practice-lesson"
+  ],
+  "frameworks": [
+    "team-communication-control-tower",
+    "conflict-handling-diagnostic"
+  ],
+  "relatedModules": [
+    "team-communication-foundations",
+    "conflict-handling-foundations"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

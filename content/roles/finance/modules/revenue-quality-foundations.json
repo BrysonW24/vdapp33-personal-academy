@@ -1,0 +1,28 @@
+{
+  "slug": "revenue-quality-foundations",
+  "title": "Revenue Quality Foundations",
+  "shortSummary": "Build stronger revenue quality foundations judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "finance",
+  "whyItMatters": "Revenue Quality Foundations is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Revenue Quality Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good revenue quality foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Revenue Quality Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "revenue-quality-operator-lesson"
+  ],
+  "frameworks": [
+    "working-capital-roadmap",
+    "capital-allocation-playbook-lens"
+  ],
+  "relatedModules": [
+    "cost-control-in-practice",
+    "revenue-quality-in-practice"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "operations",
+  "name": "Operations",
+  "kind": "role",
+  "group": "markets",
+  "icon": "Settings",
+  "color": "#0EA5E9",
+  "tagline": "Process design, delivery systems, SOPs, and execution rhythm that make the business repeatable.",
+  "tier": "flagship",
+  "order": 15,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

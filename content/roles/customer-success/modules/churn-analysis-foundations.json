@@ -1,0 +1,28 @@
+{
+  "slug": "churn-analysis-foundations",
+  "title": "Churn Analysis Foundations",
+  "shortSummary": "Build stronger churn analysis foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Churn Analysis Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Churn Analysis Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good churn analysis foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Churn Analysis Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "churn-analysis-operator-lesson"
+  ],
+  "frameworks": [
+    "renewals-review-lens",
+    "churn-analysis-decision-map"
+  ],
+  "relatedModules": [
+    "renewals-in-practice",
+    "churn-analysis-in-practice"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 7,
+  "category": "strategy"
+}

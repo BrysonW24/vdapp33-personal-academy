@@ -1,0 +1,28 @@
+{
+  "slug": "prioritization-foundations",
+  "title": "Prioritization Foundations",
+  "shortSummary": "Build stronger prioritization foundations judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "product",
+  "whyItMatters": "Prioritization Foundations is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Prioritization Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good prioritization foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Prioritization Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "prioritization-operator-lesson"
+  ],
+  "frameworks": [
+    "adoption-metrics-roadmap",
+    "feedback-loops-playbook-lens"
+  ],
+  "relatedModules": [
+    "opportunity-sizing-in-practice",
+    "prioritization-in-practice"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "category": "foundation"
+}

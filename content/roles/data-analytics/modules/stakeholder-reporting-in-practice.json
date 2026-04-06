@@ -1,0 +1,28 @@
+{
+  "slug": "stakeholder-reporting-in-practice",
+  "title": "Stakeholder Reporting in Practice",
+  "shortSummary": "Build stronger stakeholder reporting in practice judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "data-analytics",
+  "whyItMatters": "Stakeholder Reporting in Practice is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Stakeholder Reporting in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good stakeholder reporting in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Stakeholder Reporting in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "stakeholder-reporting-in-practice-lesson"
+  ],
+  "frameworks": [
+    "stakeholder-reporting-control-tower",
+    "forecasting-inputs-diagnostic"
+  ],
+  "relatedModules": [
+    "stakeholder-reporting-foundations",
+    "forecasting-inputs-foundations"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "forecasting-inputs-operator-lesson",
+  "moduleSlug": "forecasting-inputs-foundations",
+  "title": "Forecasting Inputs Operator Lesson",
+  "objective": "Understand the operator fundamentals behind forecasting inputs in data / analytics.",
+  "beginnerExplanation": "Forecasting Inputs becomes easier when you break it into signal, decisions, owners, and follow-through. This lesson gives you a practical structure instead of abstract advice.",
+  "deeperExplanation": "At higher levels, forecasting inputs is about tradeoffs. You are deciding where to focus, what to ignore, and how to keep the work legible enough for other people to trust.",
+  "keyTakeaways": [
+    "Forecasting Inputs improves when the operating goal is explicit.",
+    "You need evidence, not just motion, to judge whether forecasting inputs is working.",
+    "Forecasting Inputs should leave behind reusable assets like notes, decisions, scorecards, or systems."
+  ],
+  "frameworks": [
+    "forecasting-inputs-diagnostic",
+    "privacy-boundaries-roadmap"
+  ],
+  "example": "A founder or operator uses forecasting inputs to clarify what changed, what matters next, and what must happen before the next review.",
+  "commonMistakes": [
+    "Treating forecasting inputs like isolated activity instead of part of a larger system.",
+    "Skipping the review loop and assuming the first answer is good enough.",
+    "Letting ownership stay vague after the decision is made."
+  ],
+  "exercise": "Write a one-page note explaining how you would improve forecasting inputs over the next two weeks inside a real business.",
+  "order": 8,
+  "nextLesson": "privacy-boundaries-operator-lesson"
+}

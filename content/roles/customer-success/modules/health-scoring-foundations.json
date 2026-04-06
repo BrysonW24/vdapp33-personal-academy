@@ -1,0 +1,28 @@
+{
+  "slug": "health-scoring-foundations",
+  "title": "Health Scoring Foundations",
+  "shortSummary": "Build stronger health scoring foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Health Scoring Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Health Scoring Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good health scoring foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Health Scoring Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "health-scoring-operator-lesson"
+  ],
+  "frameworks": [
+    "onboarding-design-canvas",
+    "support-operations-scorecard"
+  ],
+  "relatedModules": [
+    "expansion-strategy-in-practice",
+    "health-scoring-in-practice"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 11,
+  "category": "strategy"
+}

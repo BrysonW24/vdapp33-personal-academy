@@ -1,0 +1,28 @@
+{
+  "slug": "voice-of-customer-foundations",
+  "title": "Voice of Customer Foundations",
+  "shortSummary": "Build stronger voice of customer foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "customer-success",
+  "whyItMatters": "Voice of Customer Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Voice of Customer Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good voice of customer foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Voice of Customer Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "voice-of-customer-operator-lesson"
+  ],
+  "frameworks": [
+    "expansion-strategy-operating-loop",
+    "health-scoring-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "health-scoring-in-practice",
+    "voice-of-customer-in-practice"
+  ],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 13,
+  "category": "strategy"
+}

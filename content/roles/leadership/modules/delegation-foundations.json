@@ -1,0 +1,28 @@
+{
+  "slug": "delegation-foundations",
+  "title": "Delegation Foundations",
+  "shortSummary": "Build stronger delegation foundations judgment so leadership / people work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "leadership",
+  "whyItMatters": "Delegation Foundations is a leverage point inside leadership / people. It supports the broader goal of hiring, delegation, culture, management, and communication.",
+  "coreConcepts": [
+    "Delegation Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good delegation foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Delegation Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "delegation-operator-lesson"
+  ],
+  "frameworks": [
+    "org-design-operating-loop",
+    "performance-management-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "hiring-design-in-practice",
+    "delegation-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

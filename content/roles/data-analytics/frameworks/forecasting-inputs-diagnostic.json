@@ -1,0 +1,15 @@
+{
+  "slug": "forecasting-inputs-diagnostic",
+  "name": "Forecasting Inputs Diagnostic",
+  "summary": "Forecasting Inputs Diagnostic gives data / analytics work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about forecasting inputs diagnostic without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Forecasting Inputs Diagnostic to sort noise from signal and decide which change should happen first.",
+  "category": "operator",
+  "domain": "data-analytics"
+}

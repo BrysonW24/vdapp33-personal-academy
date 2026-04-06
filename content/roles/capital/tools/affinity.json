@@ -1,0 +1,20 @@
+{
+  "slug": "affinity",
+  "name": "Affinity",
+  "category": "Communication",
+  "description": "Affinity is commonly used to support capital / fundraising workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Affinity when the team needs more structure, visibility, or speed in capital / fundraising work.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Attio",
+    "Notion"
+  ],
+  "founderWorkflow": "Use Affinity to keep capital / fundraising work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "low",
+  "stageRecommendation": "scale",
+  "beginnerMistakes": [
+    "Adding Affinity before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

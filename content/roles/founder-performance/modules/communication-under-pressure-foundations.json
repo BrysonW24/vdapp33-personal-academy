@@ -1,0 +1,28 @@
+{
+  "slug": "communication-under-pressure-foundations",
+  "title": "Communication Under Pressure Foundations",
+  "shortSummary": "Build stronger communication under pressure foundations judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "founder-performance",
+  "whyItMatters": "Communication Under Pressure Foundations is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Communication Under Pressure Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good communication under pressure foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Communication Under Pressure Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "communication-under-pressure-operator-lesson"
+  ],
+  "frameworks": [
+    "delegation-readiness-roadmap",
+    "founder-recovery-playbook-lens"
+  ],
+  "relatedModules": [
+    "weekly-review-in-practice",
+    "communication-under-pressure-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

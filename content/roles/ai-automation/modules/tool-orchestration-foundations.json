@@ -1,0 +1,28 @@
+{
+  "slug": "tool-orchestration-foundations",
+  "title": "Tool Orchestration Foundations",
+  "shortSummary": "Build stronger tool orchestration foundations judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "ai-automation",
+  "whyItMatters": "Tool Orchestration Foundations is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Tool Orchestration Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good tool orchestration foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Tool Orchestration Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "tool-orchestration-operator-lesson"
+  ],
+  "frameworks": [
+    "monitoring-roadmap",
+    "change-management-playbook-lens"
+  ],
+  "relatedModules": [
+    "data-flow-in-practice",
+    "tool-orchestration-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

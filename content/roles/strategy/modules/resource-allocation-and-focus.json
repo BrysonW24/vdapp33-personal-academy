@@ -1,0 +1,24 @@
+{
+  "slug": "resource-allocation-and-focus",
+  "title": "Resource Allocation and Focus",
+  "shortSummary": "How to decide where time, talent, and money should go when everything seems important and capacity is limited.",
+  "level": "intermediate",
+  "domain": "strategy",
+  "whyItMatters": "Strategy becomes real when resources move. If your budget, headcount, and founder time are spread too thin, even a smart strategy collapses into noise.",
+  "coreConcepts": [
+    "Resource allocation is the operating expression of strategy",
+    "Every priority creates an opportunity cost elsewhere in the business",
+    "Focus improves speed and quality because fewer initiatives compete for the same capacity",
+    "Great strategy includes a clear stop-doing list, not just a wish list of initiatives"
+  ],
+  "lessons": ["resource-allocation-tradeoffs"],
+  "frameworks": ["ansoff-matrix", "swot"],
+  "relatedModules": [
+    "what-strategy-is",
+    "competitive-positioning",
+    "strategic-planning-cycles",
+    "business-model-design"
+  ],
+  "status": "complete",
+  "order": 5
+}

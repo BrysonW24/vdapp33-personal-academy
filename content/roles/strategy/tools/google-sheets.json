@@ -1,0 +1,11 @@
+{
+  "slug": "google-sheets",
+  "name": "Google Sheets",
+  "category": "analysis",
+  "description": "A lightweight spreadsheet tool for scenario models, prioritisation matrices, market sizing, resource planning, and simple strategic dashboards.",
+  "whyUseIt": "Google Sheets is often the fastest way to model trade-offs, compare options, and keep a transparent record of the assumptions behind strategic decisions.",
+  "pricingTier": "free",
+  "url": "https://workspace.google.com/products/sheets/",
+  "aiCapabilities": "Google Sheets uses AI-powered formula help, cleanup suggestions, and natural-language assistance that make quick scenario modelling easier for non-experts.",
+  "alternatives": ["excel", "airtable", "coda"]
+}

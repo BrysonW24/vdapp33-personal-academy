@@ -1,0 +1,28 @@
+{
+  "slug": "operating-focus-foundations",
+  "title": "Operating Focus Foundations",
+  "shortSummary": "Build stronger operating focus foundations judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "strategy",
+  "whyItMatters": "Operating Focus Foundations is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Operating Focus Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good operating focus foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Operating Focus Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "operating-focus-operator-lesson"
+  ],
+  "frameworks": [
+    "resource-allocation-operating-loop",
+    "strategic-narratives-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "strategic-narratives-in-practice",
+    "operating-focus-in-practice"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

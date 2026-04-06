@@ -1,0 +1,28 @@
+{
+  "slug": "board-communication-foundations",
+  "title": "Board Communication Foundations",
+  "shortSummary": "Build stronger board communication foundations judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "capital",
+  "whyItMatters": "Board Communication Foundations is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Board Communication Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good board communication foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Board Communication Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "board-communication-operator-lesson"
+  ],
+  "frameworks": [
+    "use-of-funds-roadmap",
+    "post-raise-discipline-playbook-lens"
+  ],
+  "relatedModules": [
+    "diligence-preparation-in-practice",
+    "board-communication-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

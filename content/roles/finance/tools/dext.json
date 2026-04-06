@@ -1,0 +1,11 @@
+{
+  "slug": "dext",
+  "name": "Dext",
+  "category": "expense-management",
+  "description": "Receipt capture and expense processing software that turns messy paperwork into structured bookkeeping inputs for faster closes and cleaner records.",
+  "whyUseIt": "Dext reduces the admin drag of receipt chasing, transaction coding, and supplier paperwork. It is especially helpful when the founder wants finance hygiene without becoming the finance assistant.",
+  "pricingTier": "paid",
+  "url": "https://dext.com/",
+  "aiCapabilities": "Dext uses OCR and machine learning to extract receipt fields, code transactions, match paperwork to ledger entries, and flag missing supporting documents.",
+  "alternatives": ["hubdoc", "expensify", "ramp"]
+}

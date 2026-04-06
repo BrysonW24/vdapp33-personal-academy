@@ -1,0 +1,28 @@
+{
+  "slug": "cost-control-in-practice",
+  "title": "Cost Control in Practice",
+  "shortSummary": "Build stronger cost control in practice judgment so finance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "finance",
+  "whyItMatters": "Cost Control in Practice is a leverage point inside finance. It supports the broader goal of cash flow, runway, margins, pricing, and unit economics.",
+  "coreConcepts": [
+    "Cost Control in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good cost control in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Cost Control in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "cost-control-in-practice-lesson"
+  ],
+  "frameworks": [
+    "cost-control-control-tower",
+    "revenue-quality-diagnostic"
+  ],
+  "relatedModules": [
+    "cost-control-foundations",
+    "revenue-quality-foundations"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

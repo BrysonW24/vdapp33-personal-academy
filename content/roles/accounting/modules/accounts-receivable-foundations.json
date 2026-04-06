@@ -1,0 +1,28 @@
+{
+  "slug": "accounts-receivable-foundations",
+  "title": "Accounts Receivable Foundations",
+  "shortSummary": "Build stronger accounts receivable foundations judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "accounting",
+  "whyItMatters": "Accounts Receivable Foundations is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Accounts Receivable Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good accounts receivable foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Accounts Receivable Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "accounts-receivable-operator-lesson"
+  ],
+  "frameworks": [
+    "accounts-payable-roadmap",
+    "management-reporting-playbook-lens"
+  ],
+  "relatedModules": [
+    "expense-policy-in-practice",
+    "accounts-receivable-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

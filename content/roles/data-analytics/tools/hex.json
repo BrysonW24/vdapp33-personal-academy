@@ -1,0 +1,20 @@
+{
+  "slug": "hex",
+  "name": "Hex",
+  "category": "Operations",
+  "description": "Hex is commonly used to support data / analytics workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Hex when the team needs more structure, visibility, or speed in data / analytics work.",
+  "pricingTier": "enterprise",
+  "alternatives": [
+    "PostHog",
+    "Segment"
+  ],
+  "founderWorkflow": "Use Hex to keep data / analytics work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "high",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Hex before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

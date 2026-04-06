@@ -1,0 +1,19 @@
+{
+  "slug": "financial-planning-and-forecasting",
+  "title": "Financial Planning and Forecasting",
+  "shortSummary": "Budgets, forecasts, and scenario planning. How to plan for growth without gambling your runway.",
+  "level": "advanced",
+  "domain": "finance",
+  "whyItMatters": "Without a forecast, every spending decision is a guess. Financial planning turns intuition into informed bets with measurable downside.",
+  "coreConcepts": [
+    "A budget is what you plan to spend — a forecast is what you expect to happen",
+    "Rolling 3-month forecasts are more useful than rigid annual budgets",
+    "Scenario planning (best/base/worst case) reveals how sensitive your business is to assumptions",
+    "The purpose of a forecast is not prediction — it is preparation"
+  ],
+  "lessons": ["forecasting-fundamentals"],
+  "frameworks": ["scenario-planning", "rule-of-40"],
+  "relatedModules": ["cash-flow-management", "unit-economics"],
+  "status": "complete",
+  "order": 4
+}

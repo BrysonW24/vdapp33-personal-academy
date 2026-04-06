@@ -1,0 +1,67 @@
+{
+  "slug": "resource-allocation-tradeoffs",
+  "moduleSlug": "resource-allocation-and-focus",
+  "title": "Resource Allocation Trade-offs",
+  "objective": "Learn how to make deliberate allocation decisions across initiatives, people, and budget so strategy turns into focused execution instead of fragmented effort.",
+  "beginnerExplanation": "Most founders say they have priorities, but their calendar, budget, and team attention tell a different story. Resource allocation is the process of deciding where your limited time, money, and people will actually go. If you have five strategic priorities but enough capacity for two, you do not really have five priorities. You have a decision you are avoiding.\n\nThis is why focus matters. When every initiative gets a small piece of budget and attention, nothing gets enough to work properly. Marketing launches half-finished campaigns, product ships partial features, and sales chases too many customer types at once. The company feels busy but not decisive.\n\nA strong allocation decision starts by naming the highest-value goal for the next period. Then you ask what resources that goal truly requires: founder time, budget, specialist skill, cross-functional support, and operational slack. Once that is clear, the hard part begins - deciding what gets less attention or no attention at all.\n\nTrade-offs are not a sign of weakness. They are the substance of strategy. If you cannot explain what you are deprioritising, you probably have not made a real allocation decision yet.",
+  "deeperExplanation": "Advanced allocation work is about matching strategic intent with organisational capacity. The trap many founders fall into is assuming that priorities are free until the work begins. In reality, every commitment consumes scarce assets: money, management attention, engineering time, sales capacity, credibility, and speed.\n\nThe most useful mental model is to treat allocation as a portfolio problem. Some work protects the core business, some work compounds future growth, and some work explores uncertain upside. If you overinvest in exploration, the core weakens. If you overinvest in maintenance, growth stalls. Strategic allocation means choosing the mix consciously rather than drifting into it.\n\nSequencing matters as much as selection. A team may be capable of delivering three major initiatives in a year, but not all at once. Founders often create self-inflicted chaos by starting everything in the same quarter. Better operators stage work so the organisation can absorb one meaningful push, capture learning, and then redirect capacity.\n\nA second trap is hidden work. The visible budget may look controlled, but the real cost appears as fragmented leadership attention, meeting load, rework, and slow decision cycles. This is why the best resource allocation reviews include both financial inputs and management bandwidth.\n\nFinally, focus decisions must be revisited on a cadence, not every time someone has a persuasive idea. The operating discipline is to create a review window, make explicit trade-offs, and hold the line long enough for the chosen allocation to generate evidence.",
+  "keyTakeaways": [
+    "Resource allocation is where strategy becomes real because priorities only matter when time, budget, and people follow them.",
+    "You do not have real priorities if you cannot say what is being deprioritised.",
+    "Too many active initiatives create fragmentation, slow execution, and hidden coordination costs.",
+    "Allocation should balance core protection, growth investment, and selective exploration.",
+    "Review resource allocation on a defined cadence so focus does not collapse under constant reactive changes."
+  ],
+  "frameworks": ["ansoff-matrix", "swot"],
+  "example": "A founder has three attractive opportunities for the quarter: expand into a new market, improve onboarding for existing customers, and launch a second major feature set. Each idea seems defensible. But the team has one product lead, one growth contractor, limited founder capacity, and only enough budget to support one major push cleanly. Instead of spreading effort across all three, the founder chooses onboarding improvement as the primary bet because retention is weak and better retention will raise LTV before any new acquisition push. The market expansion research is reduced to a small exploration project, and the second feature set is deferred. The result is less exciting on paper but more coherent in execution.",
+  "commonMistakes": [
+    "Calling everything strategic and avoiding real trade-offs",
+    "Starting more initiatives than the team can finish well",
+    "Looking only at budget and ignoring leadership bandwidth and execution capacity",
+    "Changing allocation every week because a new idea feels urgent"
+  ],
+  "exercise": "List every major initiative currently competing for your team's time. For each one, write the primary outcome, the people required, the monthly budget needed, and the founder attention it consumes. Then rank them from highest to lowest strategic importance for the next 90 days. Draw a line where capacity realistically runs out. Everything below the line is either delayed, reduced, or stopped.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the clearest sign that a founder has not made a real resource allocation decision?",
+      "options": [
+        "They have a written roadmap",
+        "They can explain every initiative in detail",
+        "They cannot say what the business is deliberately not funding or pursuing",
+        "They review the budget monthly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Real allocation requires trade-offs. If nothing is being deprioritised, the strategy has not been translated into actual focus."
+    },
+    {
+      "question": "Why is sequencing important in resource allocation?",
+      "options": [
+        "Because teams should always work on only one task forever",
+        "Because starting every major initiative at once usually overloads the organisation",
+        "Because sequencing eliminates uncertainty",
+        "Because investors prefer annual plans"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sequencing helps the organisation absorb change, maintain quality, and learn from one push before adding another."
+    },
+    {
+      "question": "Which hidden cost often gets missed in allocation decisions?",
+      "options": [
+        "Logo design cost",
+        "Management attention and coordination overhead",
+        "Office rent",
+        "Website hosting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Allocation decisions affect leadership bandwidth, meeting load, and the speed of decision-making. Those hidden costs can be as damaging as direct spend."
+    }
+  ],
+  "perspectives": {
+    "founder": "Your calendar is one of the clearest allocation documents in the business. If your time is fragmented across too many priorities, the company will copy that fragmentation.",
+    "delegator": "Delegation does not eliminate trade-offs. It only changes which capacity pool is being used. Someone still needs to decide what work deserves the team.",
+    "investor": "Investors look for disciplined focus because companies that scatter resources rarely build compounding advantages. Clear allocation discipline signals strategic maturity.",
+    "advisor": "Good advisors often create value simply by forcing the founder to name what is being stopped. That conversation usually reveals whether the strategy is serious.",
+    "scaler": "As the company grows, poor allocation becomes more expensive. More teams means more dependencies, and weak focus creates system-wide drag."
+  }
+}

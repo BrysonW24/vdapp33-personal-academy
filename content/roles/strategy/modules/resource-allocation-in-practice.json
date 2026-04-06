@@ -1,0 +1,28 @@
+{
+  "slug": "resource-allocation-in-practice",
+  "title": "Resource Allocation in Practice",
+  "shortSummary": "Build stronger resource allocation in practice judgment so strategy work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "strategy",
+  "whyItMatters": "Resource Allocation in Practice is a leverage point inside strategy. It supports the broader goal of vision, positioning, competitive analysis, and strategic planning.",
+  "coreConcepts": [
+    "Resource Allocation in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good resource allocation in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Resource Allocation in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "resource-allocation-in-practice-lesson"
+  ],
+  "frameworks": [
+    "competitive-positioning-roadmap",
+    "decision-forums-playbook-lens"
+  ],
+  "relatedModules": [
+    "resource-allocation-foundations",
+    "strategic-narratives-foundations"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

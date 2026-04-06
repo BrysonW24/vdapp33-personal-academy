@@ -1,0 +1,28 @@
+{
+  "slug": "expense-policy-in-practice",
+  "title": "Expense Policy in Practice",
+  "shortSummary": "Build stronger expense policy in practice judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "accounting",
+  "whyItMatters": "Expense Policy in Practice is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Expense Policy in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good expense policy in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Expense Policy in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "expense-policy-in-practice-lesson"
+  ],
+  "frameworks": [
+    "expense-policy-control-tower",
+    "accounts-receivable-diagnostic"
+  ],
+  "relatedModules": [
+    "expense-policy-foundations",
+    "accounts-receivable-foundations"
+  ],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 14,
+  "category": "strategy"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "support-operations-foundations",
+  "title": "Support Operations Foundations",
+  "shortSummary": "Build stronger support operations foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "customer-success",
+  "whyItMatters": "Support Operations Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "Support Operations Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good support operations foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Support Operations Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "support-operations-operator-lesson"
+  ],
+  "frameworks": [
+    "expansion-strategy-operating-loop",
+    "health-scoring-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "onboarding-design-in-practice",
+    "support-operations-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

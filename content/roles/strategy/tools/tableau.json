@@ -1,0 +1,20 @@
+{
+  "slug": "tableau",
+  "name": "Tableau",
+  "category": "Communication",
+  "description": "Tableau is commonly used to support strategy workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Tableau when the team needs more structure, visibility, or speed in strategy work.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Claude",
+    "ChatGPT"
+  ],
+  "founderWorkflow": "Use Tableau to keep strategy work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "low",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Tableau before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

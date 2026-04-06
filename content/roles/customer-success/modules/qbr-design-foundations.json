@@ -1,0 +1,28 @@
+{
+  "slug": "qbr-design-foundations",
+  "title": "QBR Design Foundations",
+  "shortSummary": "Build stronger qbr design foundations judgment so customer success work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "customer-success",
+  "whyItMatters": "QBR Design Foundations is a leverage point inside customer success. It supports the broader goal of retention, onboarding, support, and churn prevention.",
+  "coreConcepts": [
+    "QBR Design Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good qbr design foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "QBR Design Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "qbr-design-operator-lesson"
+  ],
+  "frameworks": [
+    "escalation-handling-roadmap",
+    "adoption-programs-playbook-lens"
+  ],
+  "relatedModules": [
+    "voice-of-customer-in-practice",
+    "qbr-design-in-practice"
+  ],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 15,
+  "category": "advanced"
+}

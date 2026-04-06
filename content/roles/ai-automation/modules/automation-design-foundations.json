@@ -1,0 +1,28 @@
+{
+  "slug": "automation-design-foundations",
+  "title": "Automation Design Foundations",
+  "shortSummary": "Build stronger automation design foundations judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "ai-automation",
+  "whyItMatters": "Automation Design Foundations is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Automation Design Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good automation design foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Automation Design Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "automation-design-operator-lesson"
+  ],
+  "frameworks": [
+    "approval-design-operating-loop",
+    "prompt-qa-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "workflow-discovery-in-practice",
+    "automation-design-in-practice"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "category": "foundation"
+}

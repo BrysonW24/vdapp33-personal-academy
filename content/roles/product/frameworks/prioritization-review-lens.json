@@ -1,0 +1,15 @@
+{
+  "slug": "prioritization-review-lens",
+  "name": "Prioritization Review Lens",
+  "summary": "Prioritization Review Lens gives product work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about prioritization review lens without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Prioritization Review Lens to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "product"
+}

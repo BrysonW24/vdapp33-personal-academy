@@ -1,0 +1,28 @@
+{
+  "slug": "relationships-foundations",
+  "title": "Relationships Foundations",
+  "shortSummary": "Build stronger relationships foundations judgment so founder performance work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "founder-performance",
+  "whyItMatters": "Relationships Foundations is a leverage point inside founder performance. It supports the broader goal of decision-making, time allocation, energy management, and resilience.",
+  "coreConcepts": [
+    "Relationships Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good relationships foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Relationships Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "relationships-operator-lesson"
+  ],
+  "frameworks": [
+    "weekly-review-control-tower",
+    "communication-under-pressure-diagnostic"
+  ],
+  "relatedModules": [
+    "resilience-in-practice",
+    "relationships-in-practice"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 9,
+  "category": "strategy"
+}

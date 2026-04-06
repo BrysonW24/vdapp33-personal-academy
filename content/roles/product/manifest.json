@@ -1,0 +1,14 @@
+{
+  "slug": "product",
+  "name": "Product",
+  "kind": "role",
+  "group": "engineering",
+  "icon": "Package",
+  "color": "#6D28D9",
+  "tagline": "What to build, what not to build, and how to ship it with real user and business judgment.",
+  "tier": "flagship",
+  "order": 12,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
+}

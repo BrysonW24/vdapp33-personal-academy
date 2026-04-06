@@ -1,0 +1,14 @@
+{
+  "slug": "founder-performance",
+  "name": "Founder Performance",
+  "kind": "role",
+  "group": "mind",
+  "icon": "Brain",
+  "color": "#E11D48",
+  "tagline": "Decision-making, time allocation, energy management, and resilience that keep the founder useful over the long arc.",
+  "tier": "flagship",
+  "order": 22,
+  "academyTier": "thought-provoking",
+  "macroBucket": "human-being",
+  "contentStatus": "full"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "time-design-review-lens",
+  "name": "Time Design Review Lens",
+  "summary": "Time Design Review Lens gives founder performance work a clearer decision structure.",
+  "whenToUseIt": "Use this when the team needs a stronger way to reason about time design review lens without adding unnecessary complexity.",
+  "steps": [
+    "Name the operating problem clearly.",
+    "Map the signal and constraints that matter most.",
+    "Choose the smallest next move that improves the system.",
+    "Review the output and tighten the loop."
+  ],
+  "example": "A team applies Time Design Review Lens to sort noise from signal and decide which change should happen first.",
+  "category": "foundation",
+  "domain": "founder-performance"
+}

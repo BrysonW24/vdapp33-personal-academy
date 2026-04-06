@@ -1,0 +1,28 @@
+{
+  "slug": "use-of-funds-foundations",
+  "title": "Use of Funds Foundations",
+  "shortSummary": "Build stronger use of funds foundations judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "capital",
+  "whyItMatters": "Use of Funds Foundations is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Use of Funds Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good use of funds foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Use of Funds Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "use-of-funds-operator-lesson"
+  ],
+  "frameworks": [
+    "data-room-readiness-review-lens",
+    "pipeline-management-decision-map"
+  ],
+  "relatedModules": [
+    "board-communication-in-practice",
+    "use-of-funds-in-practice"
+  ],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 17,
+  "category": "advanced"
+}

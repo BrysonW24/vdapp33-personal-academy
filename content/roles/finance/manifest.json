@@ -1,0 +1,14 @@
+{
+  "slug": "finance",
+  "name": "Finance",
+  "kind": "role",
+  "group": "markets",
+  "icon": "DollarSign",
+  "color": "#A16A1F",
+  "tagline": "Cash flow, runway, margins, pricing, and unit economics that keep a business honest.",
+  "tier": "flagship",
+  "order": 13,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

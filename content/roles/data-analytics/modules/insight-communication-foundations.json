@@ -1,0 +1,28 @@
+{
+  "slug": "insight-communication-foundations",
+  "title": "Insight Communication Foundations",
+  "shortSummary": "Build stronger insight communication foundations judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "data-analytics",
+  "whyItMatters": "Insight Communication Foundations is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Insight Communication Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good insight communication foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Insight Communication Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "insight-communication-operator-lesson"
+  ],
+  "frameworks": [
+    "stakeholder-reporting-control-tower",
+    "forecasting-inputs-diagnostic"
+  ],
+  "relatedModules": [
+    "privacy-boundaries-in-practice",
+    "insight-communication-in-practice"
+  ],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 19,
+  "category": "advanced"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "gong",
+  "name": "Gong",
+  "category": "Workflow",
+  "description": "Gong is commonly used to support customer success workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Gong when the team needs more structure, visibility, or speed in customer success work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Calendly"
+  ],
+  "founderWorkflow": "Use Gong to keep customer success work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding Gong before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

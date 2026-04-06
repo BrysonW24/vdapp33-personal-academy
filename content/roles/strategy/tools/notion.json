@@ -1,0 +1,11 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "category": "documentation",
+  "description": "A connected workspace for strategy docs, planning notes, meeting decisions, dashboards, and operating templates.",
+  "whyUseIt": "Notion is useful when strategy keeps living in scattered docs, chats, and meeting memory. It gives founders one place to document priorities, decision logs, and operating cadences.",
+  "pricingTier": "freemium",
+  "url": "https://www.notion.com/",
+  "aiCapabilities": "Notion AI can summarise planning notes, draft operating documents, pull action items from long write-ups, and speed up first-pass strategic memos.",
+  "alternatives": ["confluence", "coda", "google-docs"]
+}

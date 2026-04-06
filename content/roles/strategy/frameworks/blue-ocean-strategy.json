@@ -1,0 +1,17 @@
+{
+  "slug": "blue-ocean-strategy",
+  "name": "Blue Ocean Strategy Canvas",
+  "summary": "A framework for creating uncontested market space by simultaneously eliminating, reducing, raising, and creating factors the industry competes on.",
+  "whenToUseIt": "When you want to break out of a crowded, competitive market (a 'red ocean') and create a new market space where competition is irrelevant.",
+  "steps": [
+    "Map the factors your industry competes on (price, features, quality, service, brand, convenience, etc.)",
+    "Score yourself and your top competitors on each factor (1-10)",
+    "Draw the strategy canvas — this shows where everyone clusters",
+    "Apply the Four Actions Framework: ELIMINATE (which factors should be eliminated entirely?), REDUCE (which factors should be reduced below industry standard?), RAISE (which factors should be raised above industry standard?), CREATE (which factors should be created that the industry has never offered?)",
+    "Design your new value curve — it should look fundamentally different from competitors, not just slightly better",
+    "Validate that the new combination creates a compelling offering for a specific customer segment"
+  ],
+  "example": "Cirque du Soleil eliminated animal acts, star performers, and arena venues (traditional circus factors). They reduced humour and thrill. They raised artistic expression and venue experience. They created a theme, refined viewing environment, and multiple productions. The result: a new category that commanded 10x the ticket price of traditional circuses, with no direct competition. In tech: Canva eliminated the need for design skills (which Adobe required), reduced feature complexity, raised ease of use and template quality, and created a collaborative, browser-based design experience.",
+  "category": "market-creation",
+  "domain": "strategy"
+}

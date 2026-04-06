@@ -1,0 +1,20 @@
+{
+  "slug": "clickup",
+  "name": "ClickUp",
+  "category": "Workflow",
+  "description": "ClickUp is commonly used to support operations workflows, reviews, and handoffs.",
+  "whyUseIt": "Use ClickUp when the team needs more structure, visibility, or speed in operations work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Monday.com",
+    "Notion"
+  ],
+  "founderWorkflow": "Use ClickUp to keep operations work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "early",
+  "beginnerMistakes": [
+    "Adding ClickUp before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "competitive-positioning",
+  "title": "Competitive Positioning",
+  "shortSummary": "How to find and defend a market position. Differentiation, cost leadership, niche focus — and why trying to be everything to everyone fails.",
+  "level": "intermediate",
+  "domain": "strategy",
+  "whyItMatters": "If customers cannot explain why they should choose you over alternatives, you do not have positioning. You have a product.",
+  "coreConcepts": [
+    "Positioning is what your product is in the mind of the customer",
+    "You can compete on differentiation, cost, or focus — but not all three",
+    "The best positioning makes competitors irrelevant rather than inferior",
+    "Positioning must be tested with customers, not decided in a meeting room"
+  ],
+  "lessons": ["positioning-fundamentals"],
+  "frameworks": ["ansoff-matrix", "jobs-to-be-done"],
+  "relatedModules": ["what-strategy-is", "business-model-design"],
+  "status": "complete",
+  "order": 2
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "warehouse-modeling-in-practice",
+  "title": "Warehouse Modeling in Practice",
+  "shortSummary": "Build stronger warehouse modeling in practice judgment so data / analytics work becomes clearer, more repeatable, and easier to lead.",
+  "level": "intermediate",
+  "domain": "data-analytics",
+  "whyItMatters": "Warehouse Modeling in Practice is a leverage point inside data / analytics. It supports the broader goal of kpis, dashboards, instrumentation, and interpreting signals.",
+  "coreConcepts": [
+    "Warehouse Modeling in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good warehouse modeling in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Warehouse Modeling in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "warehouse-modeling-in-practice-lesson"
+  ],
+  "frameworks": [
+    "experimentation-analysis-operating-loop",
+    "data-quality-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "warehouse-modeling-foundations",
+    "experimentation-analysis-foundations"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 8,
+  "category": "strategy"
+}

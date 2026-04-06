@@ -1,0 +1,28 @@
+{
+  "slug": "problem-discovery-in-practice",
+  "title": "Problem Discovery in Practice",
+  "shortSummary": "Build stronger problem discovery in practice judgment so product work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "product",
+  "whyItMatters": "Problem Discovery in Practice is a leverage point inside product. It supports the broader goal of what to build, what not to build, and how to ship it.",
+  "coreConcepts": [
+    "Problem Discovery in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good problem discovery in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Problem Discovery in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "problem-discovery-in-practice-lesson"
+  ],
+  "frameworks": [
+    "prioritization-review-lens",
+    "roadmapping-decision-map"
+  ],
+  "relatedModules": [
+    "problem-discovery-foundations",
+    "opportunity-sizing-foundations"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "category": "foundation"
+}

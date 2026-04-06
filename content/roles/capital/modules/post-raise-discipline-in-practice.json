@@ -1,0 +1,27 @@
+{
+  "slug": "post-raise-discipline-in-practice",
+  "title": "Post-raise Discipline in Practice",
+  "shortSummary": "Build stronger post-raise discipline in practice judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "capital",
+  "whyItMatters": "Post-raise Discipline in Practice is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Post-raise Discipline in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good post-raise discipline in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Post-raise Discipline in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "post-raise-discipline-in-practice-lesson"
+  ],
+  "frameworks": [
+    "use-of-funds-roadmap",
+    "post-raise-discipline-playbook-lens"
+  ],
+  "relatedModules": [
+    "post-raise-discipline-foundations"
+  ],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 20,
+  "category": "advanced"
+}

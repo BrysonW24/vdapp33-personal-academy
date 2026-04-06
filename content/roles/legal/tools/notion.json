@@ -1,0 +1,20 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "category": "Workflow",
+  "description": "Notion is commonly used to support legal / risk workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Notion when the team needs more structure, visibility, or speed in legal / risk work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Google Drive",
+    "Lexion"
+  ],
+  "founderWorkflow": "Use Notion to keep legal / risk work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": false,
+  "automationPotential": "medium",
+  "stageRecommendation": "scale",
+  "beginnerMistakes": [
+    "Adding Notion before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

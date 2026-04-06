@@ -1,0 +1,28 @@
+{
+  "slug": "monitoring-in-practice",
+  "title": "Monitoring in Practice",
+  "shortSummary": "Build stronger monitoring in practice judgment so ai / automation work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "ai-automation",
+  "whyItMatters": "Monitoring in Practice is a leverage point inside ai / automation. It supports the broader goal of workflow automation, copilots, agentic systems, and leverage through tooling.",
+  "coreConcepts": [
+    "Monitoring in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good monitoring in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Monitoring in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "monitoring-in-practice-lesson"
+  ],
+  "frameworks": [
+    "approval-design-operating-loop",
+    "prompt-qa-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "monitoring-foundations",
+    "change-management-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

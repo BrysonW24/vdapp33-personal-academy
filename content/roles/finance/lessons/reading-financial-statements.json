@@ -1,0 +1,67 @@
+{
+  "slug": "reading-financial-statements",
+  "moduleSlug": "financial-literacy-for-founders",
+  "title": "Reading Financial Statements",
+  "objective": "Understand what the three core financial statements — P&L, balance sheet, and cash flow statement — actually tell you, what to look for in each, and how to use them to make better decisions as a founder.",
+  "beginnerExplanation": "Every business produces three core financial statements, and as a founder, you need to understand all three — not because you should become an accountant, but because these documents are the scoreboard of your business. Without them, you are flying blind.\n\nThe first is the Profit and Loss statement (P&L), also called the income statement. It answers a simple question: over a given period, did you make more money than you spent? Revenue sits at the top, expenses are subtracted, and the bottom line is your net profit or loss. But here is the critical nuance — the P&L shows revenue when it is earned, not when cash arrives. You might book a $50,000 sale in March, but if the client pays in June, your P&L says March was great while your bank account tells a different story.\n\nThe second is the balance sheet. Think of it as a snapshot of everything your business owns and owes at a single point in time. Assets on one side (cash, inventory, equipment, money owed to you), liabilities on the other (debts, loans, money you owe suppliers), and equity at the bottom (what is left for the owners). The balance sheet always balances: Assets = Liabilities + Equity. When you see a healthy balance sheet, it means the business has more assets than obligations and enough liquidity to operate.\n\nThe third is the cash flow statement. This one tracks the actual movement of cash in and out of your business. It is divided into three sections: operating activities (cash from day-to-day business), investing activities (buying or selling assets), and financing activities (loans, investment, dividends). This is arguably the most important statement for early-stage founders because it tells you whether you can actually pay your bills — regardless of what the P&L says.\n\nThe key insight is that these three statements work together. The P&L tells you whether your business model is profitable. The balance sheet tells you whether your business is solvent. The cash flow statement tells you whether you can keep the lights on. You need all three to see the full picture.",
+  "deeperExplanation": "Once you understand the basics, the real skill is learning to read financial statements critically — spotting the signals that matter and the traps that mislead.\n\nOn the P&L, watch for revenue concentration risk. If 40% of your revenue comes from a single client, your P&L might look healthy but your business is fragile. Look at gross margin trends month over month — declining margins often signal pricing pressure, rising COGS, or an unsustainable discount culture. Also pay attention to the difference between one-off and recurring revenue. A spike from a one-time project flatters the P&L but does not indicate sustainable growth.\n\nOn the balance sheet, the current ratio (current assets divided by current liabilities) tells you whether you can cover short-term obligations. A ratio below 1.0 is a warning sign. Accounts receivable deserves special scrutiny — large receivables mean you have earned revenue but have not collected the cash, which creates real operational risk. The ageing of receivables matters too: $80,000 outstanding from last month is very different from $80,000 outstanding from six months ago.\n\nOn the cash flow statement, focus on operating cash flow first. A business that consistently generates negative operating cash flow is burning through capital regardless of what the P&L says. Free cash flow — operating cash flow minus capital expenditure — tells you how much cash is truly available for growth, debt repayment, or reserves. Many founders obsess over revenue growth while ignoring that their cash conversion cycle is getting worse with every quarter.\n\nFinally, learn to triangulate. If the P&L shows profit but cash flow is negative, investigate why. Common culprits include rising receivables, inventory build-up, or prepaid expenses. These are not necessarily bad — but you need to understand them, not just hope they resolve themselves.",
+  "keyTakeaways": [
+    "The P&L shows profitability (revenue minus expenses), but it does not tell you whether cash actually arrived in your bank account.",
+    "The balance sheet is a point-in-time snapshot of what you own, what you owe, and what equity remains — it must always balance.",
+    "The cash flow statement tracks actual cash movement and is the most critical statement for founders managing runway and liquidity.",
+    "A business can be profitable on paper and still run out of cash — the gap between accrual accounting and cash reality is where most founders get caught.",
+    "Always read the three statements together: profitability (P&L) plus solvency (balance sheet) plus liquidity (cash flow) gives you the complete picture."
+  ],
+  "frameworks": ["unit-economics-model", "break-even-analysis"],
+  "example": "Consider a SaaS startup that shows $50,000 net profit on its P&L for the quarter. The founder is pleased — until the CFO points out that the company only has $15,000 cash in the bank. How? The balance sheet reveals $80,000 in accounts receivable — enterprise clients who signed annual contracts but pay on 60-day terms. The P&L recognised the revenue when the contracts were signed, but the cash has not arrived yet. Meanwhile, the company paid $35,000 in developer salaries, $12,000 in cloud infrastructure, and $8,000 in marketing — all in cash, upfront. The cash flow statement confirms: operating cash flow was negative $40,000 for the quarter despite the profitable P&L. The founder now understands why profitable companies can still fail — and immediately implements 30-day payment terms for new contracts and starts chasing the overdue receivables.",
+  "commonMistakes": [
+    "Confusing revenue with cash — booking a sale on the P&L does not mean the money is in your bank account, and this mismatch has killed otherwise healthy businesses.",
+    "Only looking at the P&L and ignoring the balance sheet and cash flow statement — you need all three to understand what is really happening.",
+    "Not reviewing financial statements monthly — quarterly reviews are too infrequent for early-stage businesses where conditions change rapidly.",
+    "Treating financial statements as an accountant's job you do not need to understand — you can delegate the preparation, but you must own the interpretation."
+  ],
+  "exercise": "Pull your P&L from last month (from Xero, QuickBooks, or your accountant) and answer these five questions: (1) What was your total revenue, and what percentage came from your single largest client or product? (2) What was your gross margin percentage, and has it gone up or down compared to the prior month? (3) What was your largest single expense category, and was it higher or lower than you expected? (4) What was your net profit or loss — and does this match what happened to your bank balance over the same period? (5) If net profit and bank balance change do not match, can you identify why? Check accounts receivable, prepaid expenses, or loan repayments as likely culprits. Write your answers down — this exercise only works if you engage with real numbers.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "A SaaS company shows $100,000 revenue on its P&L but only $40,000 cash in the bank. Which financial statement would help you understand why?",
+      "options": [
+        "The P&L — it will show where the revenue went",
+        "The balance sheet — it will show accounts receivable and other assets",
+        "The cash flow statement alone is sufficient",
+        "You need both the balance sheet and cash flow statement to understand the full picture"
+      ],
+      "correctIndex": 3,
+      "explanation": "The balance sheet will show you the accounts receivable (revenue earned but not yet collected), while the cash flow statement will show you the actual cash movements. Together, they explain the gap between reported revenue and bank balance."
+    },
+    {
+      "question": "What does a current ratio below 1.0 on the balance sheet indicate?",
+      "options": [
+        "The business is highly profitable",
+        "The business has more current liabilities than current assets and may struggle to pay short-term obligations",
+        "The business has too much cash sitting idle",
+        "The business should invest more in long-term assets"
+      ],
+      "correctIndex": 1,
+      "explanation": "The current ratio (current assets / current liabilities) measures short-term liquidity. A ratio below 1.0 means the business may not be able to cover its short-term obligations with its short-term assets — a warning sign that requires attention."
+    },
+    {
+      "question": "Which section of the cash flow statement is most important for assessing whether a business can sustain itself from its core operations?",
+      "options": [
+        "Investing activities",
+        "Financing activities",
+        "Operating activities",
+        "All three sections are equally important"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operating cash flow measures cash generated or consumed by the core business activities. A business that consistently generates negative operating cash flow is dependent on external funding or asset sales to survive — regardless of what the P&L says about profitability."
+    }
+  ],
+  "perspectives": {
+    "founder": "You do not need to become an accountant, but you absolutely must be able to read your own financial statements. When an investor asks about your gross margin or a supplier asks for payment terms, you need to know the answer without calling your bookkeeper. The founders who get caught out are the ones who outsource understanding, not just preparation. Make it a monthly ritual: sit down with all three statements for 30 minutes, and ask yourself what surprised you.",
+    "delegator": "Delegate the bookkeeping and the preparation of financial statements — that is smart use of your time. But never delegate the understanding. Your bookkeeper or accountant should prepare the statements and flag anomalies, but you should be the one who reads them, questions them, and makes decisions from them. Set up a monthly 30-minute review where your accountant walks you through the statements until you can do it alone.",
+    "investor": "Investors expect you to know your numbers from memory. When they ask about revenue, margin, burn rate, or runway, hesitation signals that you are not in control of the business. They will also triangulate your statements — if your P&L shows profit but your cash flow is negative, they will ask why, and 'I am not sure' is not an acceptable answer. Knowing your financial statements cold is table stakes for fundraising.",
+    "advisor": "Start simple. Most early-stage founders do not need complex financial analysis — they need to reliably track three things each month: total revenue (and where it comes from), total expenses (and the biggest categories), and cash in the bank. Once that habit is solid, layer in gross margin analysis, receivables ageing, and cash flow forecasting. The goal is consistent visibility, not financial sophistication.",
+    "scaler": "Financial literacy compounds as you scale. The founder who understands statements at $500K revenue builds the muscle to manage a $5M P&L, a complex balance sheet with multiple asset classes, and a cash flow statement across business units. The founder who never learns this becomes the bottleneck — they cannot evaluate department budgets, assess acquisition targets, or negotiate with lenders. Build the habit early because it only gets more important."
+  }
+}

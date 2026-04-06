@@ -1,0 +1,20 @@
+{
+  "slug": "whimsical",
+  "name": "Whimsical",
+  "category": "Analytics",
+  "description": "Whimsical is commonly used to support strategy workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Whimsical when the team needs more structure, visibility, or speed in strategy work.",
+  "pricingTier": "paid",
+  "alternatives": [
+    "Similarweb",
+    "Claude"
+  ],
+  "founderWorkflow": "Use Whimsical to keep strategy work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "high",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Whimsical before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

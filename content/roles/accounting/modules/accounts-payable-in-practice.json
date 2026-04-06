@@ -1,0 +1,28 @@
+{
+  "slug": "accounts-payable-in-practice",
+  "title": "Accounts Payable in Practice",
+  "shortSummary": "Build stronger accounts payable in practice judgment so accounting work becomes clearer, more repeatable, and easier to lead.",
+  "level": "advanced",
+  "domain": "accounting",
+  "whyItMatters": "Accounts Payable in Practice is a leverage point inside accounting. It supports the broader goal of p&l, balance sheet, tax basics, and bookkeeping hygiene.",
+  "coreConcepts": [
+    "Accounts Payable in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good accounts payable in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Accounts Payable in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "accounts-payable-in-practice-lesson"
+  ],
+  "frameworks": [
+    "payroll-operations-operating-loop",
+    "revenue-recognition-prioritization-matrix"
+  ],
+  "relatedModules": [
+    "accounts-payable-foundations",
+    "management-reporting-foundations"
+  ],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 18,
+  "category": "advanced"
+}

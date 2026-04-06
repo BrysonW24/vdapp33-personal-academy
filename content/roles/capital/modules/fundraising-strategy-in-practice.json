@@ -1,0 +1,28 @@
+{
+  "slug": "fundraising-strategy-in-practice",
+  "title": "Fundraising Strategy in Practice",
+  "shortSummary": "Build stronger fundraising strategy in practice judgment so capital / fundraising work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "capital",
+  "whyItMatters": "Fundraising Strategy in Practice is a leverage point inside capital / fundraising. It supports the broader goal of fundraising, capital allocation, investor relations, and financial strategy.",
+  "coreConcepts": [
+    "Fundraising Strategy in Practice needs clear definitions before it can become a reliable operating system.",
+    "Good fundraising strategy in practice work depends on better signal, better sequencing, and cleaner ownership.",
+    "Fundraising Strategy in Practice should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "fundraising-strategy-in-practice-lesson"
+  ],
+  "frameworks": [
+    "data-room-readiness-review-lens",
+    "pipeline-management-decision-map"
+  ],
+  "relatedModules": [
+    "fundraising-strategy-foundations",
+    "investor-narrative-foundations"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "category": "foundation"
+}

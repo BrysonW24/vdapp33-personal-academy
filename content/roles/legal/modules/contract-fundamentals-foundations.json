@@ -1,0 +1,27 @@
+{
+  "slug": "contract-fundamentals-foundations",
+  "title": "Contract Fundamentals Foundations",
+  "shortSummary": "Build stronger contract fundamentals foundations judgment so legal / risk work becomes clearer, more repeatable, and easier to lead.",
+  "level": "beginner",
+  "domain": "legal",
+  "whyItMatters": "Contract Fundamentals Foundations is a leverage point inside legal / risk. It supports the broader goal of contracts, ip, privacy, liabilities, and regulatory awareness.",
+  "coreConcepts": [
+    "Contract Fundamentals Foundations needs clear definitions before it can become a reliable operating system.",
+    "Good contract fundamentals foundations work depends on better signal, better sequencing, and cleaner ownership.",
+    "Contract Fundamentals Foundations should reduce rework and improve the quality of decisions across the business."
+  ],
+  "lessons": [
+    "contract-fundamentals-operator-lesson"
+  ],
+  "frameworks": [
+    "contract-fundamentals-canvas",
+    "commercial-terms-scorecard"
+  ],
+  "relatedModules": [
+    "contract-fundamentals-in-practice"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "category": "foundation"
+}

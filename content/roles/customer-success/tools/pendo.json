@@ -1,0 +1,20 @@
+{
+  "slug": "pendo",
+  "name": "Pendo",
+  "category": "Planning",
+  "description": "Pendo is commonly used to support customer success workflows, reviews, and handoffs.",
+  "whyUseIt": "Use Pendo when the team needs more structure, visibility, or speed in customer success work.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Gong",
+    "Calendly"
+  ],
+  "founderWorkflow": "Use Pendo to keep customer success work visible enough for fast reviews and cleaner delegation.",
+  "delegationReady": true,
+  "automationPotential": "low",
+  "stageRecommendation": "pre-revenue",
+  "beginnerMistakes": [
+    "Adding Pendo before the process around it is defined.",
+    "Using the tool as a reporting surface instead of a decision surface."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "what-strategy-actually-is",
+  "moduleSlug": "what-strategy-is",
+  "title": "What Strategy Actually Is",
+  "objective": "Understand that strategy is a set of choices about where to play and how to win — not a business plan, a vision statement, or a to-do list.",
+  "beginnerExplanation": "Most founders confuse strategy with planning. A business plan says 'here is what we will do.' A strategy says 'here is what we will NOT do, and why.' Strategy is the art of making hard choices. It means deliberately choosing which customers to serve (and which to ignore), which problems to solve (and which to leave for competitors), and how to win in your chosen arena.\n\nGood strategy has three parts: a diagnosis (what is really going on?), a guiding policy (what is our approach?), and coherent actions (what specifically are we doing?). If your 'strategy' does not have all three, it is probably just a wish list.\n\nThe hardest part of strategy is not choosing what to do — it is choosing what NOT to do. Every yes to one direction is a no to everything else. That is what makes it strategy instead of a plan.",
+  "deeperExplanation": "Richard Rumelt's definition of good strategy is the most useful for founders: a strategy is a coherent set of analyses, concepts, policies, arguments, and actions that respond to a high-stakes challenge.\n\nThe key word is 'coherent.' Your strategy fails when different parts of your business are pulling in different directions — marketing says one thing, product builds another, sales promises a third. Coherence means every major decision reinforces every other major decision.\n\nStrategy also requires understanding competitive dynamics. You are not operating in a vacuum. Your strategy must account for what competitors are doing, what customers actually value (not what you think they should value), and what structural advantages you can build over time.\n\nThe best strategies create what Roger Martin calls 'integrated choices' — a cascading set of decisions from 'where to play' down to 'what capabilities do we need.' Each level constrains and reinforces the others.",
+  "keyTakeaways": [
+    "Strategy is about choices — specifically, what you will NOT do",
+    "Good strategy has three parts: diagnosis, guiding policy, coherent actions",
+    "If your strategy cannot be explained in one sentence, it is too complicated",
+    "Strategy without trade-offs is not strategy — it is just a to-do list",
+    "The best test of a strategy: does it help you say no to attractive opportunities?"
+  ],
+  "frameworks": ["swot", "porters-five-forces"],
+  "example": "When Steve Jobs returned to Apple in 1997, the company had dozens of products across multiple categories. His strategy was ruthlessly simple: reduce to 4 products (consumer desktop, consumer laptop, pro desktop, pro laptop). That single choice — what NOT to build — was more powerful than any product roadmap. It freed resources, clarified messaging, and created focus. Within 3 years, Apple went from near-bankruptcy to profitability. The strategy was not 'build great products.' It was 'stop building bad ones and focus everything on four great ones.'",
+  "commonMistakes": [
+    "Confusing a list of goals with a strategy — goals are not choices",
+    "Trying to be everything to everyone — the opposite of strategy",
+    "Copying competitor strategy without understanding your own advantages",
+    "Changing strategy every quarter — good strategy needs time to compound"
+  ],
+  "exercise": "Write your company's strategy in exactly one sentence using this format: 'We will [action] for [specific customers] by [how we win], and we will NOT [what we deliberately avoid].' If you cannot complete this sentence, you do not have a strategy yet. Share it with your co-founder or advisor and ask: 'Is this a real choice, or could any competitor say the same thing?'",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the most important characteristic of a good strategy?",
+      "options": ["It is detailed and comprehensive", "It involves making hard trade-offs about what NOT to do", "It includes financial projections for 5 years", "It is approved by the board of directors"],
+      "correctIndex": 1,
+      "explanation": "Strategy is fundamentally about choices and trade-offs. A strategy that tries to do everything is not a strategy — it is a wish list. The power of strategy comes from deciding what to focus on and what to deliberately ignore."
+    },
+    {
+      "question": "According to Richard Rumelt, what are the three parts of good strategy?",
+      "options": ["Vision, mission, and values", "Diagnosis, guiding policy, and coherent actions", "Goals, objectives, and tactics", "Analysis, planning, and execution"],
+      "correctIndex": 1,
+      "explanation": "Rumelt's framework is: diagnosis (what is really going on?), guiding policy (what is our overall approach?), and coherent actions (what specific steps are we taking?). This is the most practical definition of strategy for founders."
+    },
+    {
+      "question": "What is the best test of whether you have a real strategy?",
+      "options": ["Your team can recite the mission statement", "Your investors approve of the direction", "It helps you say no to attractive opportunities", "You have a detailed 12-month roadmap"],
+      "correctIndex": 2,
+      "explanation": "If your 'strategy' does not help you decline good opportunities because they do not fit, it is not a real strategy. Strategy creates focus by making trade-offs explicit."
+    }
+  ],
+  "perspectives": {
+    "founder": "As the founder, you are the chief strategist. No one else can make these choices for you because no one else has the full picture. Your job is to articulate the strategy clearly enough that every team member can use it to make decisions without asking you. If people keep coming to you for decisions about priorities, your strategy is not clear enough.",
+    "delegator": "Strategy formulation cannot be delegated — it is a founder job. But strategy research can be. Have someone else compile competitive intelligence, market data, and customer feedback. You synthesise and decide. Once the strategy is set, delegate the execution of specific strategic initiatives to capable team members.",
+    "investor": "Investors evaluate strategy by looking for coherent choices, not ambitious goals. They want to know: why this market? Why now? What is your unfair advantage? What are you NOT doing? A founder who can clearly articulate what they are choosing not to pursue is more credible than one who promises to capture every opportunity.",
+    "advisor": "A good advisor has seen many strategies succeed and fail. The most common failure mode is not having a strategy at all — just a collection of tactics. The second most common is changing strategy too frequently. A good advisor would tell you: pick a strategy, commit for at least 12 months, and only change if fundamental assumptions are invalidated.",
+    "scaler": "At 10x scale, strategy becomes even more important because mistakes are more expensive. Early on, you can pivot quickly. At scale, strategic pivots take months and cost millions. This means your early strategy work — understanding your market position, competitive advantages, and trade-offs — compounds in value. The strategic clarity you build now becomes the decision-making framework for a much larger organisation."
+  }
+}
