@@ -1,0 +1,15 @@
+{
+  "slug": "analytics-attribution-kpis",
+  "title": "Analytics, Attribution & KPIs",
+  "shortSummary": "Learn to measure what matters — track performance, attribute results, and report on marketing impact.",
+  "level": "intermediate",
+  "category": "analytics",
+  "whyItMatters": "Without measurement, marketing is guesswork. Analytics lets you understand what's working, what's not, and where to invest more. Every marketing decision should be backed by data, and every campaign should have clear success metrics.",
+  "coreConcepts": ["Key Performance Indicators", "Conversion tracking", "Attribution models", "Marketing ROI", "Customer Acquisition Cost", "Customer Lifetime Value", "Dashboard building", "A/B test analysis"],
+  "lessons": ["reading-your-analytics"],
+  "frameworks": ["kpi-cheat-sheet"],
+  "relatedModules": ["funnels-customer-journey", "testing-experimentation", "paid-advertising"],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 3
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "revenue-operations",
+  "title": "Revenue Operations",
+  "shortSummary": "RevOps is the future of go-to-market. Learn how marketing, sales, and customer success align around the full customer lifecycle to drive predictable revenue.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Revenue Operations (RevOps) breaks down the silos between marketing, sales, and customer success to create a unified revenue engine. As companies mature, they realise that optimising each function in isolation creates handoff gaps, data inconsistencies, and a fragmented customer experience. RevOps is the fastest-growing function in B2B — understanding it makes you a more strategic seller and prepares you for executive-level roles.",
+  "coreConcepts": [
+    "The RevOps model: aligning marketing, sales, and CS",
+    "Customer lifecycle revenue: acquisition to expansion to renewal",
+    "Lead-to-revenue process design and measurement",
+    "Data architecture: single source of truth across GTM",
+    "Attribution models and marketing-sales alignment",
+    "Compensation design that drives the right behaviours"
+  ],
+  "lessons": ["aligning-the-revenue-engine"],
+  "frameworks": ["sales-velocity", "forecast-methodology"],
+  "relatedModules": ["sales-analytics", "sales-ops-enablement", "sales-leadership"],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 4
+}

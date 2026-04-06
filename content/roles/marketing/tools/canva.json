@@ -1,0 +1,64 @@
+{
+  "slug": "canva",
+  "name": "Canva",
+  "category": "design",
+  "description": "A drag-and-drop design platform with thousands of templates for social media, presentations, documents, and marketing materials.",
+  "whyUseIt": "Canva democratises design. You don't need to be a designer to create professional-looking content. It's perfect for social media graphics, email headers, infographics, and quick marketing collateral.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "Magic Write for AI copywriting, Magic Design for auto-generated layouts, text-to-image generation, and background removal.",
+  "alternatives": [
+    "Figma",
+    "Adobe Express",
+    "Visme"
+  ],
+  "url": "https://www.canva.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/canva.svg",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Social media graphics sized for every platform (Instagram, Facebook, LinkedIn, TikTok)",
+    "Presentation decks for pitches, reports, and internal meetings",
+    "Infographics and data visualisations for content marketing",
+    "Email headers, banners, and promotional graphics",
+    "Brand kits with logos, colour palettes, and font presets",
+    "Short video content and animated social posts",
+    "Print-ready materials \u2014 flyers, business cards, posters, and brochures"
+  ],
+  "marketerWorkflow": "A marketer uses Canva to produce the visual assets their campaigns need \u2014 creating a batch of social media posts for the week, designing email headers for upcoming campaigns, and building presentation decks for stakeholder updates. They maintain a Brand Kit to keep colours, fonts, and logos consistent across everything they create. They use templates as starting points, customise them with brand elements, and use the content calendar feature to schedule posts directly to social platforms.",
+  "managerExpects": "A marketing manager expects you to produce professional, on-brand visual assets quickly without needing a designer for every request. They want consistency \u2014 every piece should use brand colours, fonts, and approved imagery. They expect you to batch-produce content efficiently, maintain an organised folder structure in Canva, and deliver assets in the correct formats and dimensions for each channel without being reminded.",
+  "aiWorkflowImpact": "Canva's Magic Design generates complete layouts from a single image or text prompt, cutting initial design time from 30 minutes to 30 seconds. Magic Write generates headlines, social captions, and body copy directly within designs. The AI background remover and image generation tools eliminate the need for separate photo editing software in most cases. For marketers producing high volumes of social and content assets, these AI features have turned Canva from a design shortcut into a full production studio.",
+  "demoDescription": "Open Canva (free account) and create an Instagram carousel post. Choose a template, then customise it with your own text and images. Use the Brand Kit feature to save a colour palette and font pairing. Then duplicate the design and use Magic Resize to instantly create versions for Facebook, LinkedIn, and a story format \u2014 all from the same base design.",
+  "vocabulary": [
+    {
+      "term": "Brand Kit",
+      "definition": "A saved collection of your brand's logos, colour palette, and fonts in Canva. Applying a Brand Kit ensures every design you create uses consistent brand elements."
+    },
+    {
+      "term": "Magic Resize",
+      "definition": "A feature that instantly resizes a design to fit different platform dimensions \u2014 turning an Instagram square into a Facebook cover, LinkedIn post, or Pinterest pin with one click."
+    },
+    {
+      "term": "Template",
+      "definition": "A pre-designed layout you can customise with your own text, images, and brand elements. Templates provide a professional starting point and are available for virtually every format and industry."
+    },
+    {
+      "term": "Content Planner",
+      "definition": "Canva's built-in scheduling tool that lets you post designs directly to social media platforms (Instagram, Facebook, LinkedIn, Pinterest, TikTok) at scheduled times."
+    },
+    {
+      "term": "Design Elements",
+      "definition": "The building blocks of a Canva design \u2014 shapes, icons, illustrations, stickers, frames, and lines. Elements are layered on the canvas and can be resized, recoloured, and animated."
+    },
+    {
+      "term": "Transparency and Layers",
+      "definition": "Controls that let you adjust opacity of elements and arrange them in front of or behind other elements. Mastering layers is essential for creating polished, professional-looking compositions."
+    }
+  ],
+  "beginnerMistakes": [
+    "Using too many fonts, colours, and effects in a single design instead of keeping it clean and aligned with brand guidelines",
+    "Not setting up a Brand Kit, which leads to inconsistent designs across campaigns and channels",
+    "Downloading images in the wrong format \u2014 using JPEG for graphics with transparency instead of PNG, or using PNG for photographs where JPEG is smaller and sufficient",
+    "Over-relying on templates without customising them enough, resulting in generic-looking content that blends in with thousands of other brands using the same template",
+    "Ignoring image resolution and safe zones, especially for social media posts where text can get cropped on different devices"
+  ],
+  "relatedProject": "social-media-calendar"
+}

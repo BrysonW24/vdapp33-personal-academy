@@ -1,0 +1,72 @@
+{
+  "slug": "land-and-expand-as-a-deliberate-strategy",
+  "moduleSlug": "strategic-accounts",
+  "title": "Land and Expand as a Deliberate Strategy",
+  "objective": "Learn how to use an initial win as a strategic beachhead, then expand deliberately into adjacent teams, geographies, and use cases without damaging trust.",
+  "beginnerExplanation": "Land and expand is not another name for upselling. It is a strategy for entering an account through a believable first use case, proving value quickly, and then widening the footprint with evidence instead of pressure.",
+  "deeperExplanation": "A strong land-and-expand motion starts with disciplined landing. The first deployment should be scoped tightly enough to win, but meaningful enough to create visible proof. Once proof exists, expansion becomes easier when it follows a logic: adjacent team, similar problem, shared sponsor, or company priority that the first win already supports. That is why strategic account work matters. You are not just waiting for more seats to appear. You are mapping where the next credible value path sits.\n\nThe biggest mistake is trying to expand before the original land has earned trust. Expansion should feel like the next sensible move, not like a seller changing the subject.",
+  "keyTakeaways": [
+    "Land and expand works when the first use case is both winnable and meaningful.",
+    "Proof from the first deployment is the strongest expansion asset.",
+    "Expansion should follow a clear logic, not random account pressure.",
+    "Adjacent teams and use cases are easier to win when the first sponsor can validate value.",
+    "Strategic account planning makes expansion timing more deliberate.",
+    "Pushing too hard before proof exists can damage trust and slow future growth."
+  ],
+  "frameworks": [
+    "land-and-expand",
+    "mutual-success-plan",
+    "account-planning-canvas"
+  ],
+  "example": "A workflow platform lands in one region's support team to solve escalation management. Within two quarters, the team shows faster resolution and cleaner reporting. That proof lets the AE and AM together build a case for rolling into the North America support team and then into customer success operations, where the same escalation logic exists. The footprint expands because the value pattern is already visible.",
+  "commonMistakes": [
+    "Landing in a use case too small to create meaningful proof",
+    "Trying to expand into unrelated teams with no shared logic",
+    "Assuming customer happiness automatically creates expansion readiness",
+    "Skipping stakeholder mapping in the adjacent area",
+    "Treating expansion as a quarterly target instead of a strategic path"
+  ],
+  "exercise": "Take one account and map a three-step expansion path: initial land, first adjacent expansion, and second strategic expansion. For each step, note the proof and sponsor required.",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What makes land and expand work best?",
+      "options": [
+        "A tiny pilot with no measurable value",
+        "A first win that creates visible proof and a logical next path",
+        "Immediate pressure to buy every product",
+        "Avoiding account planning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Land and expand succeeds when the initial win creates enough evidence to support the next move."
+    },
+    {
+      "question": "What is a common expansion mistake?",
+      "options": [
+        "Using proof from the first deployment",
+        "Trying to widen the footprint before the original land has earned trust",
+        "Planning the next sponsor path",
+        "Choosing adjacent use cases"
+      ],
+      "correctIndex": 1,
+      "explanation": "Expansion becomes harder when the initial use case has not yet generated confidence or proof."
+    },
+    {
+      "question": "Why is strategic account planning useful in land and expand?",
+      "options": [
+        "It replaces value proof",
+        "It helps identify the next credible path rather than expanding randomly",
+        "It only matters after renewal",
+        "It prevents multithreading"
+      ],
+      "correctIndex": 1,
+      "explanation": "Planning helps you choose the most credible next expansion path based on account reality."
+    }
+  ],
+  "perspectives": {
+    "ae": "Strategic AEs should treat the initial land as the foundation of a much larger account story.",
+    "manager": "Managers can improve expansion quality by checking whether there is real proof behind the next move.",
+    "vp": "A VP wants expansion paths that are strategic, defendable, and rooted in customer value.",
+    "cro": "A CRO sees land-and-expand discipline as a core growth engine in enterprise accounts."
+  }
+}

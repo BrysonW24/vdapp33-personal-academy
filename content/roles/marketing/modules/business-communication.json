@@ -1,0 +1,25 @@
+{
+  "slug": "business-communication",
+  "title": "Communication Skills for Business",
+  "shortSummary": "How to present ideas, write with authority, and communicate across every level of an organisation — from briefing agencies to presenting to boards.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Mastering the Pyramid Principle, stakeholder communication, writing marketing briefs, executive presence, and tailoring your message to different audiences is the difference between a marketer who executes and one who leads.",
+  "coreConcepts": [
+    "Pyramid Principle (lead with the conclusion, support with evidence)",
+    "Stakeholder communication (CFO needs financials, CEO needs strategy, team needs clarity)",
+    "Presentation structure (Problem, Insight, Solution, Call to Action)",
+    "Writing a marketing brief (objective, audience, message, channels, budget, timeline)",
+    "Executive presence and board-level communication",
+    "Active listening and asking better questions",
+    "Written vs verbal vs visual communication",
+    "Feedback giving and receiving"
+  ],
+  "lessons": ["communicating-like-a-leader"],
+  "frameworks": ["campaign-planning-template"],
+  "visualType": "diagram",
+  "relatedModules": ["marketing-leadership", "campaign-planning"],
+  "status": "complete",
+  "order": 25,
+  "levelNumber": 1
+}

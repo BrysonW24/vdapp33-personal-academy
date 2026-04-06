@@ -1,0 +1,13 @@
+{
+  "slug": "mlops-maturity",
+  "name": "MLOps Maturity Model",
+  "summary": "Google's framework for assessing how mature an organisation's ML operations are. It defines three levels of automation and reliability, from manual notebook-driven work to fully automated ML pipelines. Use it to understand where you are and what to improve.",
+  "whenToUseIt": "Use this model when assessing an organisation's ML infrastructure, planning MLOps investments, or explaining to stakeholders why you need better tooling. It is also useful for career planning — understanding which level an organisation operates at helps you choose the right role.",
+  "steps": [
+    "Level 0: Manual — Everything is manual. Data scientists train models in notebooks, hand them to engineers for deployment. No automation, no monitoring, no CI/CD. Models are retrained ad-hoc. This is where most organisations start.",
+    "Level 1: ML Pipeline Automation — Training is automated via ML pipelines. Data ingestion, feature engineering, model training, and evaluation run automatically. Models can be retrained on new data without manual intervention. But deployment is still semi-manual.",
+    "Level 2: CI/CD for ML — Full automation from code commit to production deployment. Automated testing for data quality, model performance, and code quality. Automated monitoring with alerts for data drift and performance degradation. Models deploy automatically when they pass all checks."
+  ],
+  "example": "A mid-size Australian fintech company's ML journey: Level 0 — Their data scientist trained a fraud detection model in a Jupyter notebook. An engineer manually converted it to a Flask API and deployed it. Retraining required the data scientist to rerun the notebook and hand off a new model file. Level 1 — They built an Airflow pipeline that automatically retrains the model weekly on new transaction data, evaluates it against a holdout set, and registers the model in MLflow. Level 2 — They added automated deployment: when a new model version passes evaluation thresholds, it is automatically A/B tested against the current model and promoted to production if it performs better. Monitoring alerts the team when fraud patterns shift.",
+  "category": "operations"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "email-welcome-sequence",
+  "title": "Email Welcome Sequence",
+  "difficulty": 4,
+  "estimatedHours": 5,
+  "description": "Design and write a 5-email welcome sequence that takes a new subscriber from signup to first purchase, building trust and delivering value at each step.",
+  "whyItMatters": "Welcome emails get 4x higher open rates and 5x higher click rates than regular emails. The first few emails a subscriber receives set the tone for the entire relationship. A strong welcome sequence can drive significant revenue on autopilot.",
+  "skillsLearned": ["Email marketing", "Copywriting", "Sequence design", "Customer journey mapping", "CRM fundamentals"],
+  "prerequisites": ["Basic understanding of content marketing", "Familiarity with email as a channel"],
+  "steps": [
+    {"title": "Define the scenario", "description": "Choose a brand and a signup trigger. Example: someone subscribes to a newsletter, creates an account, or downloads a freebie. Define what action you want them to take by email 5 (usually: first purchase)."},
+    {"title": "Map the sequence journey", "description": "Plan the emotional and informational arc across 5 emails: Welcome → Value → Trust → Desire → Action. Each email has one clear purpose.", "tips": "Think of the sequence as a story, not 5 random emails."},
+    {"title": "Write Email 1: Welcome", "description": "Delivered immediately after signup. Thank them, set expectations, deliver any promised content (lead magnet), and introduce the brand personality. Subject line is critical."},
+    {"title": "Write Email 2: Value", "description": "Delivered 2 days later. Share your best piece of content — a tip, guide, or insight. Demonstrate expertise without selling anything."},
+    {"title": "Write Email 3: Trust", "description": "Delivered 4 days later. Share social proof — customer stories, testimonials, or results. Build credibility."},
+    {"title": "Write Email 4: Desire", "description": "Delivered 6 days later. Highlight a specific product/service benefit. Address common objections. Show the transformation."},
+    {"title": "Write Email 5: Action", "description": "Delivered 8 days later. Clear CTA with an incentive — discount, free trial, or limited offer. Create urgency without being pushy."},
+    {"title": "Optimise details", "description": "Write subject lines (2-3 options per email for A/B testing), preview text, and CTAs. Define timing and segmentation rules."}
+  ],
+  "deliverables": ["5 complete emails with subject lines and preview text", "Sequence flow diagram showing timing and triggers", "A/B test plan for subject lines", "Brief strategy document explaining the approach"],
+  "tools": ["Google Docs", "Mailchimp or Klaviyo (free tier)", "Figma or Canva (for email mockups)"],
+  "rubric": [
+    {"criteria": "Sequence Logic", "description": "Each email builds on the last with a clear progression toward the goal."},
+    {"criteria": "Copy Quality", "description": "Subject lines are compelling, body copy is scannable, and CTAs are clear."},
+    {"criteria": "Brand Voice", "description": "All 5 emails feel like they come from the same brand with a consistent tone."},
+    {"criteria": "Value First", "description": "The sequence delivers genuine value before asking for anything."}
+  ]
+}

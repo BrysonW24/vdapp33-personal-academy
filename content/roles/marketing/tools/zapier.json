@@ -1,0 +1,46 @@
+{
+  "slug": "zapier",
+  "name": "Zapier",
+  "category": "ai-automation",
+  "description": "A no-code automation platform that connects 6,000+ apps and automates workflows between them — no coding required.",
+  "whyUseIt": "Zapier eliminates repetitive tasks. When a lead fills out a form, automatically add them to your CRM, send a welcome email, notify your sales team in Slack, and log it in a spreadsheet — all without writing code.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI-powered workflow suggestions, natural language automation creation (describe what you want and Zapier builds it), and AI actions within workflows.",
+  "alternatives": [
+    "Make",
+    "n8n",
+    "Power Automate"
+  ],
+  "url": "https://zapier.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/zapier.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Automated multi-step workflows (Zaps) connecting marketing tools",
+    "Lead routing automations from forms to CRM to email sequences",
+    "Social media cross-posting workflows",
+    "Automated reporting — pulling data from multiple sources into dashboards",
+    "Customer onboarding automation sequences",
+    "Internal notification workflows for campaign events and milestones",
+    "Data sync automations keeping contact lists consistent across platforms"
+  ],
+  "marketerWorkflow": "A marketer uses Zapier to connect their marketing stack — setting up automations like 'when a new subscriber joins Mailchimp, add them to the Google Sheet tracker and notify the team in Slack.' They build Zaps for repetitive tasks: auto-posting new blog content to social platforms, syncing leads between forms and CRM, and triggering follow-up emails based on webinar attendance. They check the Zap dashboard weekly to monitor task usage and fix any failed runs.",
+  "managerExpects": "A marketing manager expects the team to use Zapier to eliminate manual data entry and reduce the risk of leads or tasks falling through the cracks. They want to see documented automations for critical workflows — lead capture, content distribution, and reporting — with monitoring in place to catch failures. The goal is operational efficiency: more time on strategy, less time on copy-pasting between tools.",
+  "aiWorkflowImpact": "In 2025, Zapier's natural language interface lets marketers describe what they want automated in plain English and the AI builds the Zap for them, lowering the barrier from 'no-code' to 'no-thinking-about-code.' AI steps within Zaps can now summarise form submissions, categorise inbound leads, draft personalised responses, and route requests based on intent — adding intelligence to automations that were previously just data transfers.",
+  "demoDescription": "Create a free Zapier account and build your first Zap: connect a Google Form to a Google Sheet so that every form submission automatically creates a new row. Then extend it with a second step that sends you an email notification via Gmail when a submission comes in. Test it by submitting the form and watching the automation trigger in real time.",
+  "vocabulary": [
+    { "term": "Zap", "definition": "An automated workflow in Zapier that connects two or more apps — consisting of a trigger (what starts it) and one or more actions (what it does)." },
+    { "term": "Trigger", "definition": "The event that starts a Zap — such as a new form submission, a new email subscriber, or a new row in a spreadsheet." },
+    { "term": "Action", "definition": "The task a Zap performs after the trigger fires — such as creating a CRM record, sending an email, or posting to Slack." },
+    { "term": "Filter", "definition": "A conditional step that only lets the Zap continue if certain criteria are met — like only processing leads from a specific country or above a certain deal value." },
+    { "term": "Multi-step Zap", "definition": "A workflow with more than one action, allowing a single trigger to set off a chain of automated tasks across multiple apps." },
+    { "term": "Task", "definition": "Each action a Zap performs counts as one task — Zapier plans are priced by the number of tasks per month, making efficiency important." }
+  ],
+  "beginnerMistakes": [
+    "Building overly complex multi-step Zaps before testing each step individually, making it impossible to debug when something fails",
+    "Not setting up error notifications, so broken Zaps silently fail for days or weeks without anyone noticing",
+    "Creating duplicate automations that fire for the same event, resulting in double entries, duplicate emails, or conflicting data",
+    "Ignoring task limits on the free and starter plans, hitting the monthly cap mid-month and having critical automations stop running",
+    "Automating a broken process instead of fixing the underlying workflow first — if the manual process is flawed, automating it just scales the problem"
+  ],
+  "relatedProject": "email-welcome-sequence"
+}

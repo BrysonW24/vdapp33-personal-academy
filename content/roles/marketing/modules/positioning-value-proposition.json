@@ -1,0 +1,35 @@
+{
+  "slug": "positioning-value-proposition",
+  "title": "Positioning and Value Proposition",
+  "shortSummary": "Positioning is how you want customers to think about your product compared to alternatives. Your value proposition is the clear statement of why someone should choose you. This module teaches you to craft both so your marketing has a sharp, compelling foundation.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "In a world where customers have endless choices, positioning is the difference between being remembered and being ignored. A strong value proposition makes every piece of marketing you create more effective because it answers the most important question a customer has: why should I care? Without clear positioning, your marketing will feel generic and forgettable.",
+  "coreConcepts": [
+    "What positioning means and why it is a strategic decision",
+    "The difference between positioning, messaging, and branding",
+    "How to identify your unique differentiator",
+    "Writing a value proposition that is clear, specific, and compelling",
+    "Category design: creating a new space versus competing in an existing one",
+    "Perceptual maps and competitive positioning",
+    "The role of trade-offs in strong positioning",
+    "Testing and validating your positioning with real customers"
+  ],
+  "lessons": [
+    "crafting-a-value-proposition"
+  ],
+  "frameworks": [
+    "stp",
+    "brand-positioning-canvas",
+    "swot"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "what-marketing-is",
+    "customer-market-demand",
+    "messaging-brand-basics"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

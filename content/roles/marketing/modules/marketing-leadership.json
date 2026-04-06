@@ -1,0 +1,15 @@
+{
+  "slug": "marketing-leadership",
+  "title": "Marketing Leadership Thinking",
+  "shortSummary": "Think like a CMO — strategic planning, team leadership, stakeholder management, and executive communication.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Marketing leadership isn't just about tactics — it's about vision, team building, and translating marketing impact into language the CEO and CFO care about. This module prepares you to lead, not just execute.",
+  "coreConcepts": ["Strategic vision", "Team building", "Stakeholder management", "Executive reporting", "Cross-functional alignment", "Marketing culture", "Career development"],
+  "lessons": ["thinking-like-a-cmo"],
+  "frameworks": ["marketing-leadership-canvas", "kpi-cheat-sheet"],
+  "relatedModules": ["gtm-strategy", "budgeting-channel-allocation", "analytics-attribution-kpis"],
+  "status": "complete",
+  "order": 20,
+  "levelNumber": 4
+}

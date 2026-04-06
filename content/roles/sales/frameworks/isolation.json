@@ -1,0 +1,13 @@
+{
+  "slug": "isolation",
+  "name": "Isolation",
+  "summary": "An objection-handling technique used to confirm whether the stated concern is the only blocker or whether other hidden issues remain.",
+  "whenToUseIt": "Use isolation when you suspect the buyer is naming one objection but still has other unresolved concerns behind it.",
+  "steps": [
+    "Acknowledge the stated concern directly.",
+    "Ask whether, apart from that issue, anything else would stop the deal moving forward.",
+    "Use the answer to decide whether to solve one blocker or several."
+  ],
+  "example": "A buyer says price is the issue. The rep asks, 'Apart from price, is there anything else that would stop this moving forward?' The buyer then admits security review is also still unclear.",
+  "category": "objection-handling"
+}

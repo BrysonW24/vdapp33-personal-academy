@@ -1,0 +1,82 @@
+{
+  "slug": "ai-agent",
+  "title": "Agent With Tool Use and Approval Boundaries",
+  "difficulty": 7,
+  "estimatedHours": 12,
+  "description": "Build an agentic workflow that can plan, call tools, log decisions, and stop for human approval at the right moment.",
+  "whyItMatters": "This is one of the clearest portfolio signals for frontier product and platform roles today: useful autonomy with bounded risk.",
+  "skillsLearned": [
+    "Agent architecture design",
+    "Tool/function calling",
+    "ReAct pattern implementation",
+    "Error handling and recovery",
+    "Safety guardrails",
+    "Multi-step reasoning chains"
+  ],
+  "prerequisites": [
+    "Complete the AI Chatbot project",
+    "Complete the RAG Application project"
+  ],
+  "steps": [
+    {
+      "title": "Define the agent's domain",
+      "description": "Choose a specific use case: a research agent that answers questions by searching the web and reading pages, a data analyst agent that queries databases and creates visualisations, or a DevOps agent that monitors services and takes corrective actions."
+    },
+    {
+      "title": "Implement tool definitions",
+      "description": "Define 3-5 tools the agent can use. Each tool has a name, description, and parameter schema. Implement the actual tool functions in Python. Example tools: web_search, read_webpage, query_database, send_email, create_chart."
+    },
+    {
+      "title": "Build the ReAct loop",
+      "description": "Implement the core agent loop: (1) Present the task and available tools to the LLM. (2) The LLM decides which tool to call. (3) Execute the tool and return the result. (4) The LLM reasons about the result and decides the next action. (5) Repeat until the task is complete or a limit is reached."
+    },
+    {
+      "title": "Add safety guardrails",
+      "description": "Implement safety measures: maximum number of tool calls per task (prevent infinite loops), confirmation before destructive actions (deleting data, sending emails), input validation for tool parameters, and output filtering for sensitive information."
+    },
+    {
+      "title": "Implement error handling",
+      "description": "Tools fail. APIs time out. The LLM generates invalid tool calls. Handle all of these gracefully: retry with backoff, inform the agent of the error so it can try a different approach, and fail gracefully with a clear error message if recovery is impossible."
+    },
+    {
+      "title": "Add tracing and observability",
+      "description": "Log every step of the agent's reasoning: the thought, the tool call, the tool result, and the next decision. This trace is essential for debugging, evaluating, and improving the agent."
+    },
+    {
+      "title": "Evaluate on test scenarios",
+      "description": "Create 10-15 test scenarios with expected outcomes. Run the agent on each and evaluate: did it complete the task? How many steps did it take? Did it use the right tools? Did it handle errors correctly?"
+    }
+  ],
+  "deliverables": [
+    "Working AI agent with 3-5 tools",
+    "ReAct loop with reasoning traces",
+    "Safety guardrails and error handling",
+    "Evaluation results on test scenarios",
+    "Agent trace viewer for debugging"
+  ],
+  "tools": [
+    "Python",
+    "Anthropic or OpenAI SDK (function calling)",
+    "Python tool implementations",
+    "Logging framework"
+  ],
+  "rubric": [
+    {
+      "criteria": "Task Completion",
+      "description": "The agent successfully completes at least 70% of test scenarios using appropriate tools."
+    },
+    {
+      "criteria": "Reasoning Quality",
+      "description": "Agent reasoning traces show logical step-by-step thinking. Tool choices are appropriate for the task."
+    },
+    {
+      "criteria": "Safety",
+      "description": "Guardrails prevent infinite loops, destructive unchecked actions, and information leakage."
+    },
+    {
+      "criteria": "Error Recovery",
+      "description": "The agent handles tool failures gracefully — retries, tries alternative approaches, or fails with clear explanations."
+    }
+  ],
+  "track": "core-frontier"
+}

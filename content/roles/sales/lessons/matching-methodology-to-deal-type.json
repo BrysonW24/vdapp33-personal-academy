@@ -1,0 +1,75 @@
+{
+  "slug": "matching-methodology-to-deal-type",
+  "moduleSlug": "sales-methodologies",
+  "title": "Matching Methodology to Deal Type",
+  "objective": "Learn how to choose the right sales methodology based on deal complexity, stakeholder count, buying maturity, and change risk.",
+  "beginnerExplanation": "No methodology is best in every situation. The right approach depends on what kind of deal you are actually in. A transactional renewal, a consultative mid-market sale, and a complex enterprise transformation should not all be run the same way.",
+  "deeperExplanation": "Start with four questions. How complex is the decision? How many stakeholders matter? How clearly does the buyer understand the problem? How much change risk comes with the purchase? Simpler, buyer-led decisions often need lighter process and faster execution. Mid-market problem-solving deals often benefit from consultative, solution, and value selling. Complex enterprise opportunities benefit from MEDDPICC discipline, multithreading, strategic selling, and account-based coordination. That is also where CustomerCentric and Miller Heiman ideas become more useful.\n\nThe best methodology choice is usually a blend. For example, you might use consultative discovery, Challenger reframing, MEDDPICC qualification, and mutual action planning in the same enterprise deal. Methodology matching is really about choosing the right tools for the stage and shape of the opportunity.",
+  "keyTakeaways": [
+    "Methodology choice should follow deal reality, not rep preference alone.",
+    "Complexity, stakeholder count, and change risk are strong signals for methodology choice.",
+    "Enterprise deals usually require more strategic, multi-threaded methodology than smaller deals.",
+    "Blending methods is normal as long as the buyer experience stays coherent.",
+    "The wrong methodology often creates friction, confusion, or shallow qualification.",
+    "Strong sellers adapt their method without losing their core sales discipline."
+  ],
+  "frameworks": [
+    "account-based-selling",
+    "strategic-selling-miller-heiman",
+    "consultative-selling",
+    "solution-selling",
+    "value-selling",
+    "challenger-sale"
+  ],
+  "example": "A buyer already knows the product category, has one main approver, and wants a fast comparison. That deal may need lighter consultative work and more efficient solution/value selling. A second deal involves six stakeholders, a security review, executive sponsorship, and a workflow change across regions. That deal needs consultative discovery, strategic stakeholder planning, stronger qualification, and a more account-based motion.",
+  "commonMistakes": [
+    "Using the same methodology the same way on every deal",
+    "Treating complex deals like simple vendor comparisons",
+    "Overcomplicating low-risk deals with unnecessary process",
+    "Assuming a methodology label matters more than the buyer experience",
+    "Forgetting to change methodology as the deal evolves"
+  ],
+  "exercise": "Pick three deals of different sizes or complexity levels. For each one, choose the primary methodology blend you would use and explain why in three sentences.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What should drive methodology choice most strongly?",
+      "options": [
+        "The rep's favorite framework",
+        "Deal complexity, stakeholder count, and change risk",
+        "How long the discovery call is",
+        "Whether the quarter is ending"
+      ],
+      "correctIndex": 1,
+      "explanation": "Methodology should fit the actual shape and risk of the opportunity."
+    },
+    {
+      "question": "Why is blending methods normal in B2B sales?",
+      "options": [
+        "Because no single methodology covers every stage and challenge equally well",
+        "Because frameworks are useless alone",
+        "Because reps should ignore buyer context",
+        "Because only enterprise buyers need structure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strong reps often blend methods because different parts of the deal need different strengths."
+    },
+    {
+      "question": "What is a sign you are using the wrong methodology?",
+      "options": [
+        "The process feels mismatched to the buyer's actual complexity and needs",
+        "The buyer asks a good question",
+        "The deal has stakeholders",
+        "The rep takes notes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The wrong methodology usually creates unnecessary friction or leaves risk unaddressed."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should match their method to the deal instead of trying to make the deal match their favorite method.",
+    "manager": "Managers can improve coaching by asking whether the methodology fits the opportunity, not only whether the rep followed process.",
+    "vp": "A VP wants methodology choice to improve cycle efficiency on simple deals and control on complex ones.",
+    "cro": "A CRO sees methodology matching as part of a mature sales system rather than a one-size-fits-all doctrine."
+  }
+}

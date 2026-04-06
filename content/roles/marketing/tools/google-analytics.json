@@ -1,0 +1,46 @@
+{
+  "slug": "google-analytics",
+  "name": "Google Analytics 4",
+  "category": "analytics",
+  "description": "Google's free web analytics platform that tracks website traffic, user behaviour, conversions, and attribution across devices.",
+  "whyUseIt": "GA4 is the most widely used analytics tool in the world. It's free, powerful, and essential for understanding how people find and interact with your website. Every digital marketer needs to be comfortable in GA4.",
+  "pricingTier": "free",
+  "aiCapabilities": "AI-powered insights automatically surface trends and anomalies, predictive audiences for ad targeting, and automated conversion modelling.",
+  "alternatives": [
+    "Mixpanel",
+    "Plausible",
+    "Adobe Analytics"
+  ],
+  "url": "https://analytics.google.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/google-analytics-4.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Traffic acquisition reports showing channel performance",
+    "Conversion and goal completion reports",
+    "Audience demographic and interest profiles",
+    "User journey and path exploration reports",
+    "Custom dashboards and scheduled email reports",
+    "Funnel visualisation reports showing drop-off points",
+    "Attribution modelling reports across channels"
+  ],
+  "marketerWorkflow": "A marketer checks GA4 daily to monitor traffic trends, review which channels are driving visits and conversions, and spot any sudden drops or spikes. They build explorations and custom reports to answer specific questions like 'which landing pages convert best?' or 'where do users drop off in the checkout flow?' Weekly, they pull performance data to share with stakeholders and inform campaign optimisation decisions.",
+  "managerExpects": "A marketing manager expects you to confidently navigate GA4, pull accurate traffic and conversion data without being asked, and translate numbers into actionable insights. They want you to proactively flag anomalies — a sudden traffic drop, a spike in bounce rate, or a conversion rate change — and explain what caused it and what you recommend doing about it.",
+  "aiWorkflowImpact": "GA4's AI-powered Insights automatically detect anomalies and trends you might miss, such as unexpected traffic surges or conversion rate changes. Predictive audiences let you build segments of users likely to purchase or churn in the next 7 days, which you can push directly to Google Ads for targeting. The AI also handles conversion modelling to fill gaps left by cookie restrictions and privacy changes.",
+  "demoDescription": "Sign up for a free GA4 account and connect it to the Google Merchandise Store demo account (available in GA4's demo properties). Explore the Acquisition report to see which channels drive traffic, then build a custom Exploration using the free-form template to compare conversion rates across device categories over the last 30 days.",
+  "vocabulary": [
+    { "term": "Event", "definition": "The fundamental unit of measurement in GA4. Every user interaction — page view, click, scroll, purchase — is tracked as an event with associated parameters." },
+    { "term": "Exploration", "definition": "A custom reporting workspace in GA4 where you drag and drop dimensions and metrics to build tailored analyses like funnels, path explorations, and cohort reports." },
+    { "term": "Conversion", "definition": "A specific event you mark as important to your business, such as a purchase, form submission, or sign-up. GA4 lets you mark any event as a conversion." },
+    { "term": "Attribution Model", "definition": "The rule that determines which marketing touchpoints get credit for a conversion. GA4 uses data-driven attribution by default, distributing credit based on actual user behaviour." },
+    { "term": "Engaged Session", "definition": "A session that lasted longer than 10 seconds, had a conversion event, or had 2 or more page views. This replaces the old bounce rate metric with a more meaningful measure of engagement." },
+    { "term": "BigQuery Export", "definition": "A free feature that sends raw GA4 event data to Google BigQuery for advanced SQL-based analysis, enabling queries that are impossible within the GA4 interface." }
+  ],
+  "beginnerMistakes": [
+    "Looking at vanity metrics like total pageviews without connecting them to business outcomes like conversions or revenue",
+    "Forgetting to set up conversion events, so GA4 tracks traffic but cannot measure what actually matters",
+    "Not filtering out internal traffic from your own team, which inflates numbers and skews reports",
+    "Comparing date ranges without accounting for seasonality, holidays, or campaign launches that distort comparisons",
+    "Relying only on default reports instead of building custom Explorations to answer specific business questions"
+  ],
+  "relatedProject": "analytics-dashboard"
+}

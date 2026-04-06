@@ -1,0 +1,23 @@
+{
+  "slug": "pipeline-management",
+  "title": "Pipeline Management",
+  "shortSummary": "Your pipeline is your business. Learn CRM hygiene, forecast accuracy, deal velocity, and the operating rhythm that makes revenue predictable.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "A messy pipeline is a messy forecast, and a messy forecast means missed targets. Pipeline management is the operational backbone of sales. It tells you what is real, what is at risk, and where to focus your time. The best AEs manage their pipeline like a portfolio: constantly pruning, advancing, and rebalancing while keeping leaders confident in the commit.",
+  "coreConcepts": [
+    "Pipeline stages and exit criteria",
+    "CRM hygiene: accurate data, timely updates",
+    "Deal velocity and time-in-stage analysis",
+    "Weighted pipeline and forecast categories",
+    "Pipeline coverage ratios (3x, 4x rule)",
+    "Weekly pipeline reviews and deal inspection",
+    "Using tools like Salesforce and Clari to defend forecast calls"
+  ],
+  "lessons": ["building-a-defensible-forecast", "cleaning-your-pipeline"],
+  "frameworks": ["sales-velocity", "forecast-methodology", "meddic"],
+  "relatedModules": ["prospecting", "closing", "sales-analytics"],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 3
+}

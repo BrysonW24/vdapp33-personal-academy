@@ -1,0 +1,117 @@
+{
+  "slug": "big-tech",
+  "title": "AI Engineer — Big Tech",
+  "setting": "Big tech company (Google, Meta, Amazon, Microsoft)",
+  "companySize": "10,000+ employees",
+  "description": "You're an AI Engineer at a major tech company. You work on models and systems that serve millions of users. The scale is massive, the tooling is world-class, and the problems are complex. You're surrounded by brilliant people, and your work ships to production at a scale most engineers never experience.",
+  "salary": "$180,000 - $350,000+ AUD (incl. equity)",
+  "schedule": [
+    {
+      "time": "9:00 AM",
+      "activity": "Check overnight training runs — review loss curves, check for divergence, compare against baseline",
+      "tools": [
+        "Weights & Biases",
+        "TensorBoard"
+      ],
+      "note": "Training often runs overnight on GPU clusters"
+    },
+    {
+      "time": "9:30 AM",
+      "activity": "Team standup — each person shares experiment results, blockers, and priorities",
+      "tools": [
+        "Slack",
+        "Jira"
+      ]
+    },
+    {
+      "time": "10:00 AM",
+      "activity": "Deep work: implement a new attention mechanism variant and set up ablation studies",
+      "tools": [
+        "PyTorch",
+        "VS Code",
+        "Jupyter"
+      ]
+    },
+    {
+      "time": "12:00 PM",
+      "activity": "Lunch with the NLP team — discuss a paper from last week's arXiv digest"
+    },
+    {
+      "time": "1:00 PM",
+      "activity": "Design review — present your model architecture changes to the team for feedback",
+      "tools": [
+        "Google Slides",
+        "Figma"
+      ]
+    },
+    {
+      "time": "2:00 PM",
+      "activity": "Code review — review a colleague's feature engineering pipeline PR",
+      "tools": [
+        "GitHub",
+        "VS Code"
+      ]
+    },
+    {
+      "time": "3:00 PM",
+      "activity": "Debug a production inference latency issue — profile the model serving pipeline",
+      "tools": [
+        "PyTorch Profiler",
+        "Datadog",
+        "Grafana"
+      ]
+    },
+    {
+      "time": "4:00 PM",
+      "activity": "Write an experiment doc for next week's A/B test comparing model versions",
+      "tools": [
+        "Google Docs"
+      ]
+    },
+    {
+      "time": "5:00 PM",
+      "activity": "Kick off a new training run with updated hyperparameters, set up monitoring alerts",
+      "tools": [
+        "SageMaker",
+        "W&B"
+      ]
+    },
+    {
+      "time": "5:30 PM",
+      "activity": "Read 1-2 papers related to current project, take notes for team discussion"
+    }
+  ],
+  "responsibilities": [
+    "Design and train ML models at scale",
+    "Run experiments and publish internal results",
+    "Optimise model performance and inference latency",
+    "Write production-quality code with tests",
+    "Participate in code and design reviews",
+    "Mentor junior engineers",
+    "Stay current with research (papers, conferences)",
+    "Collaborate with product and infra teams"
+  ],
+  "challenges": [
+    "Slow iteration cycles (training can take days/weeks)",
+    "Navigating large codebases and internal tools",
+    "Keeping up with the pace of research",
+    "Complex deployment and serving infrastructure",
+    "Balancing research exploration with product deadlines",
+    "Performance reviews and promo culture"
+  ],
+  "rewards": [
+    "World-class compensation (salary + equity + bonuses)",
+    "Work on problems at unprecedented scale",
+    "Access to massive compute resources",
+    "Learn from the best engineers in the world",
+    "Your work impacts millions of users",
+    "Strong career brand and network"
+  ],
+  "careerPath": [
+    "Junior ML Engineer (L3/L4) — 0-2 years",
+    "ML Engineer (L5) — 2-5 years",
+    "Senior ML Engineer (L6) — 5-8 years",
+    "Staff ML Engineer (L7) — 8-12 years",
+    "Principal/Distinguished Engineer — 12+ years"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "gtm-strategy",
+  "title": "Go-to-Market Strategy",
+  "difficulty": 9,
+  "estimatedHours": 20,
+  "description": "Develop a complete go-to-market strategy for a new product launch. This is the most complex project — synthesising every skill you've learned into a launch plan that could work in the real world.",
+  "whyItMatters": "GTM strategy is where strategy meets execution at the highest level. It's the skill that differentiates marketing managers from marketing leaders. Every successful product launch — from Airbnb to Canva — started with a GTM plan.",
+  "skillsLearned": ["GTM strategy", "Market sizing", "Competitive analysis", "Launch planning", "Cross-functional coordination", "Pricing strategy", "Channel selection"],
+  "prerequisites": ["Complete the Full Marketing Plan project", "Understanding of all Level 1-3 modules"],
+  "steps": [
+    {"title": "Define the product", "description": "Choose a product to launch (real or fictional). Define what it does, what problem it solves, and why it's different. If fictional, make it realistic — something that could actually exist."},
+    {"title": "Market analysis", "description": "Size the market (TAM, SAM, SOM). Analyse competitors using Porter's Five Forces. Identify the market gap your product fills. Conduct PESTEL analysis for external factors."},
+    {"title": "Customer definition", "description": "Build detailed personas for your launch audience. Define early adopters vs. mainstream customers. Map the customer journey from discovery to advocacy."},
+    {"title": "Positioning and messaging", "description": "Complete a brand positioning canvas. Write your positioning statement. Create a messaging framework: tagline, elevator pitch, value propositions for each persona, and key proof points."},
+    {"title": "Pricing strategy", "description": "Define your pricing model (one-time, subscription, freemium, tiered). Justify with competitive pricing analysis and willingness-to-pay research. Show how pricing supports positioning.", "tips": "Pricing is the most powerful marketing lever. It communicates value more than any ad."},
+    {"title": "Channel strategy", "description": "Define your marketing channels: owned (website, email, social), earned (PR, word-of-mouth, SEO), and paid (ads, sponsorships, partnerships). Allocate budget by channel with expected ROI."},
+    {"title": "Launch plan", "description": "Create a detailed launch timeline: pre-launch (6 weeks), launch week, and post-launch (4 weeks). Include specific activities, responsible parties, and milestones for each phase."},
+    {"title": "Metrics and success criteria", "description": "Define launch success: what does a successful launch look like at 30, 60, and 90 days? Set specific targets for acquisition, activation, and revenue."},
+    {"title": "Risk assessment", "description": "Identify 5 things that could go wrong and your mitigation plan for each. This shows senior-level thinking."}
+  ],
+  "deliverables": ["Complete GTM strategy document (15-20 pages)", "Market sizing and competitive analysis", "Positioning and messaging framework", "Launch timeline (Gantt chart or calendar)", "Channel strategy with budget allocation", "Risk assessment and mitigation plan", "Executive summary presentation (10 slides)"],
+  "tools": ["Google Docs", "Google Slides", "Google Sheets", "Canva or Figma", "Ubersuggest or SimilarWeb (for market data)"],
+  "rubric": [
+    {"criteria": "Market Insight", "description": "Analysis demonstrates genuine understanding of the market, not surface-level research."},
+    {"criteria": "Strategic Coherence", "description": "Product, positioning, pricing, and channels all reinforce each other."},
+    {"criteria": "Launch Feasibility", "description": "The plan is detailed enough to actually execute — not just high-level strategy."},
+    {"criteria": "Financial Thinking", "description": "Budget is justified, ROI expectations are realistic, and pricing is strategic."},
+    {"criteria": "Executive Readiness", "description": "The strategy could be presented to a CEO or investor and hold up to scrutiny."}
+  ]
+}

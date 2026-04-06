@@ -1,0 +1,77 @@
+{
+  "slug": "sentiment-analyzer",
+  "title": "Applied ML Baseline",
+  "difficulty": 1,
+  "estimatedHours": 3,
+  "description": "Build a compact baseline project that turns raw text into a measurable prediction workflow. This is the fast lane for proving you can move from dataset to model to simple service.",
+  "whyItMatters": "A strong baseline project proves you understand data shape, evaluation, and simple production packaging. That foundation still matters when you later work with larger frontier systems.",
+  "skillsLearned": [
+    "Using pre-trained models from Hugging Face",
+    "Text preprocessing",
+    "Python API development",
+    "Model inference",
+    "Results interpretation"
+  ],
+  "prerequisites": [
+    "Complete the Python for AI Engineers lesson",
+    "Basic Python knowledge"
+  ],
+  "steps": [
+    {
+      "title": "Set up your environment",
+      "description": "Create a new Python project with a virtual environment. Install transformers, torch, and pandas.",
+      "tips": "Use `pip install transformers torch pandas` — transformers is the Hugging Face library."
+    },
+    {
+      "title": "Load a pre-trained sentiment model",
+      "description": "Use the Hugging Face pipeline API to load a sentiment analysis model. `from transformers import pipeline; classifier = pipeline('sentiment-analysis')` — that is two lines of code to get a working model."
+    },
+    {
+      "title": "Test with sample text",
+      "description": "Try the classifier on 10-15 sample sentences: product reviews, social media posts, customer feedback. Observe the predictions and confidence scores."
+    },
+    {
+      "title": "Build a batch processor",
+      "description": "Write a function that reads a CSV of customer reviews (create a sample CSV or download one from Kaggle), classifies each review, and outputs a new CSV with the original text plus the predicted sentiment and confidence score."
+    },
+    {
+      "title": "Analyse the results",
+      "description": "Use Pandas to summarise: what percentage of reviews are positive/negative/neutral? What is the average confidence? Are there reviews where the model seems wrong? Why?",
+      "tips": "Look at edge cases: sarcasm, mixed sentiment, very short texts. These reveal model limitations."
+    },
+    {
+      "title": "Wrap it in an API",
+      "description": "Create a simple FastAPI endpoint that accepts text and returns the sentiment. Test it with curl or the auto-generated docs."
+    }
+  ],
+  "deliverables": [
+    "Python script that classifies sentiment from a CSV file",
+    "FastAPI endpoint for real-time sentiment analysis",
+    "Summary analysis showing sentiment distribution and model accuracy observations"
+  ],
+  "tools": [
+    "Python",
+    "Hugging Face Transformers",
+    "Pandas",
+    "FastAPI"
+  ],
+  "rubric": [
+    {
+      "criteria": "Working Classifier",
+      "description": "The model correctly classifies at least 80% of test samples with reasonable confidence scores."
+    },
+    {
+      "criteria": "Batch Processing",
+      "description": "The script handles CSV input and output cleanly, with proper error handling for malformed text."
+    },
+    {
+      "criteria": "API Endpoint",
+      "description": "The FastAPI endpoint accepts text input and returns structured JSON with sentiment and confidence."
+    },
+    {
+      "criteria": "Analysis Quality",
+      "description": "The summary includes meaningful observations about model strengths, weaknesses, and edge cases."
+    }
+  ],
+  "track": "classical-ml"
+}

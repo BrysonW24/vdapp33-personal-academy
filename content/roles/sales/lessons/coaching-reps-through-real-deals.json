@@ -1,0 +1,71 @@
+{
+  "slug": "coaching-reps-through-real-deals",
+  "moduleSlug": "sales-leadership",
+  "title": "Coaching Reps Through Real Deals",
+  "objective": "Learn how to coach on live opportunities by diagnosing gaps, improving judgment, and making the rep stronger instead of taking the deal over.",
+  "beginnerExplanation": "Great sales leadership is not doing the rep's job for them. It is helping the rep see the deal more clearly, think more sharply, and act more intentionally. That is why strong coaching is different from rescuing. Rescuing may save one deal. Coaching improves the rep's future deals too.",
+  "deeperExplanation": "A useful coaching rhythm is simple: inspect, diagnose, prescribe. Inspect the facts of the deal. Diagnose the gap - stakeholder coverage, weak value case, poor next step, forecast optimism, negotiation prep, and so on. Then prescribe one or two concrete actions, not ten vague ideas.\n\nThe quality of the coaching question matters. Instead of saying, 'You need to multi-thread more,' ask, 'Who besides your champion would need to believe this value case before signature?' That keeps ownership with the rep while sharpening their thinking.\n\nCoaching also works best when it is close to reality. Real deals, real call recordings, real emails, and real forecast calls beat abstract theory. That is how leadership builds a team that can repeat good judgment under pressure.",
+  "keyTakeaways": [
+    "Coaching is about making the rep better, not temporarily replacing them.",
+    "Inspect, diagnose, and prescribe is a practical coaching flow.",
+    "Specific questions often coach better than general instructions.",
+    "Real deals create the best coaching moments.",
+    "One or two sharp actions beat a long list of vague advice.",
+    "Strong coaching improves both deal outcomes and rep development."
+  ],
+  "frameworks": [
+    "forecast-methodology",
+    "meddic"
+  ],
+  "example": "A manager reviews a late-stage deal and sees the rep is overconfident because the champion is enthusiastic. Instead of taking over, the manager asks: 'Who owns legal? What evidence do we have on procurement timing? What makes this deal commit instead of best case?' The rep realises the gap and leaves with a concrete next step list.",
+  "commonMistakes": [
+    "Jumping in to save the deal instead of building the rep's judgment",
+    "Giving generic advice with no diagnosis",
+    "Coaching too many things at once",
+    "Avoiding real call recordings and relying only on rep summaries",
+    "Confusing activity feedback with strategic coaching"
+  ],
+  "exercise": "Take one deal review and write three coaching questions that would help the rep uncover the real gap themselves. Then write the single action you would want them to take next.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main goal of deal coaching?",
+      "options": [
+        "To make the manager look smart",
+        "To improve the rep's judgment and next actions",
+        "To remove the rep from the deal",
+        "To avoid difficult conversations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deal coaching should strengthen the rep, not just patch the deal temporarily."
+    },
+    {
+      "question": "What is a strong coaching sequence?",
+      "options": [
+        "Pitch, discount, close",
+        "Inspect, diagnose, prescribe",
+        "Listen, ignore, escalate",
+        "Forecast, guess, defend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inspecting facts, diagnosing the gap, and prescribing focused next actions is a practical coaching rhythm."
+    },
+    {
+      "question": "Why are real deals powerful coaching material?",
+      "options": [
+        "Because they are more theoretical",
+        "Because the stakes and evidence are real",
+        "Because they require no preparation",
+        "Because they remove rep ownership"
+      ],
+      "correctIndex": 1,
+      "explanation": "Real opportunities make the learning immediate, specific, and memorable."
+    }
+  ],
+  "perspectives": {
+    "ae": "Good coaching should leave the AE clearer, more capable, and more responsible for the next move.",
+    "manager": "Managers win when their coaching compounds beyond one rescue moment.",
+    "vp": "A VP wants frontline coaching to sharpen inspection and forecast quality across the team.",
+    "cro": "A CRO sees coaching quality as a scale lever: better managers create better teams."
+  }
+}

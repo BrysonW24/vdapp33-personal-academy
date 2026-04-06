@@ -1,0 +1,71 @@
+{
+  "slug": "demo-deck",
+  "title": "Demo Presentation Build",
+  "difficulty": 4,
+  "estimatedHours": 6,
+  "description": "Build a complete demo presentation for a product, including a tailored slide deck, a live demo script using Tell-Show-Tell structure, and a follow-up plan. Practise delivering it to a timer.",
+  "whyItMatters": "The demo is your make-or-break moment. It's where the buyer decides whether you understand their world and whether your product can actually help. A great demo isn't about showing every feature — it's about telling a story that connects the buyer's pain to your solution's impact. Building and practising a demo from scratch develops the most important skill in a closing AE's toolkit.",
+  "skillsLearned": [
+    "Demo structure and storytelling",
+    "Tell-Show-Tell presentation technique",
+    "Stakeholder-tailored messaging",
+    "Handling tough questions",
+    "Post-demo follow-up strategy",
+    "Time management during presentations"
+  ],
+  "prerequisites": ["prospect-research", "discovery-practice"],
+  "steps": [
+    {
+      "title": "Define the Demo Scenario",
+      "description": "Choose a product and a specific buyer scenario. Document: who's attending the demo (titles and concerns), the 3 key pain points from discovery, the buyer's desired outcomes, and any competitive context. This is your demo brief.",
+      "tips": "Pick a scenario with at least 3 attendees (e.g. VP of Sales, Sales Ops Manager, IT Director) so you practise addressing multiple stakeholders."
+    },
+    {
+      "title": "Build the Slide Deck",
+      "description": "Create a 10-15 slide presentation. Structure: (1) Agenda slide. (2) 'We heard you' recap — summarise what you learned in discovery. (3) Three Tell-Show-Tell sections — one per pain point. (4) Business case / ROI summary. (5) Customer proof points. (6) Next steps. Keep slides visual — minimal text, strong imagery.",
+      "tips": "The slide deck supports the conversation — it's not a script. Use images, charts, and one-line statements. If a slide has more than 20 words, simplify it."
+    },
+    {
+      "title": "Script the Live Demo",
+      "description": "For each Tell-Show-Tell section, write: the 'Tell' opening (connect to pain), the 'Show' walkthrough (what you'll click and what you'll say), and the 'Tell' close (reinforce value and check in). Include transition phrases between sections. Write out how you'll handle the Q&A.",
+      "tips": "Practise your transitions. 'Now, Sarah, this next section is especially relevant to the reporting challenge you mentioned...' Smooth transitions show preparation and keep all attendees engaged."
+    },
+    {
+      "title": "Prepare for Tough Questions",
+      "description": "Anticipate the 5 hardest questions each attendee might ask. For each, write a response. Include at least one question you genuinely don't know the answer to and practise the honest 'I'll get back to you' response.",
+      "tips": "Common tough questions: 'How does this integrate with [specific tool]?' 'What's the implementation timeline?' 'Can you match [competitor]'s pricing?' 'What happens to our data if we cancel?' Have answers ready."
+    },
+    {
+      "title": "Deliver and Review",
+      "description": "Deliver the full demo to a timer (aim for 25-30 minutes including Q&A). Record yourself if possible. Then write a post-demo follow-up email that summarises key value points, answers any open questions, and proposes the next step.",
+      "tips": "Time yourself strictly. Going over time in a real demo is unprofessional and means you couldn't prioritise. If you're running long, cut the least important section — don't rush through everything."
+    }
+  ],
+  "deliverables": [
+    "A demo brief document (attendees, pain points, desired outcomes, competitive context)",
+    "A 10-15 slide presentation deck",
+    "A full Tell-Show-Tell demo script for 3 segments",
+    "A tough questions preparation sheet with 5+ anticipated questions and responses",
+    "A post-demo follow-up email template",
+    "A self-assessment noting what went well and what to improve"
+  ],
+  "tools": ["zoom", "loom", "google-workspace", "notion-sales"],
+  "rubric": [
+    {
+      "criteria": "Demo Structure",
+      "description": "The demo follows a clear Tell-Show-Tell structure, is tailored to the buyer's specific pain points, and stays within time limits."
+    },
+    {
+      "criteria": "Stakeholder Awareness",
+      "description": "The demo addresses the concerns of each attendee by name and role. Transitions between stakeholder-relevant sections are smooth."
+    },
+    {
+      "criteria": "Value Articulation",
+      "description": "Every feature shown is tied to a business outcome. The business case / ROI slide is credible and specific. Features without clear buyer relevance are omitted."
+    },
+    {
+      "criteria": "Follow-Up Quality",
+      "description": "The follow-up email is professional, summarises value clearly, addresses open items, and proposes a specific next step with a timeline."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "weights-and-biases",
+  "name": "Weights & Biases",
+  "category": "observability",
+  "description": "A ML experiment tracking platform with beautiful dashboards, hyperparameter sweeps, model versioning, and team collaboration.",
+  "whyUseIt": "W&B has the best experiment visualisation in the industry. Track experiments, compare runs, share results with team, and run hyperparameter sweeps — all with a few lines of code. Used by OpenAI, Meta, and most top AI labs.",
+  "pricingTier": "freemium",
+  "url": "https://wandb.ai",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/wandb.svg",
+  "alternatives": [
+    "MLflow",
+    "Neptune",
+    "Comet"
+  ]
+}

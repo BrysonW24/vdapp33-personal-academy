@@ -1,0 +1,68 @@
+{
+  "slug": "understanding-your-customer",
+  "moduleSlug": "customer-market-demand",
+  "title": "Understanding Your Customer",
+  "objective": "Learn how to research, define, and deeply understand the people you're trying to reach.",
+  "beginnerExplanation": "Before you write a single ad or social media post, you need to know who you're talking to. Understanding your customer means going beyond basic demographics (age, location, gender) and getting into their motivations, frustrations, and decision-making process.\n\nA customer persona is a semi-fictional representation of your ideal customer based on real data and research. Instead of saying 'our target market is women aged 25-40', you'd create 'Sarah, a 32-year-old marketing coordinator in Sydney who's time-poor, values convenience, and researches purchases on Instagram before buying.'\n\nThis matters because generic marketing that tries to speak to everyone ends up resonating with no one. When you deeply understand one specific type of person, you can write copy that feels like you're reading their mind, choose channels where they actually spend time, and create offers that solve their real problems.",
+  "deeperExplanation": "Customer research happens at multiple levels. At the broadest level, you're doing market research — understanding the size of the market, trends, and competitive landscape. At a deeper level, you're doing customer research — interviews, surveys, behavioural data analysis, and observation.\n\nThe best customer insights come from talking to real people. Surveys give you breadth (what do 1,000 people think?), but interviews give you depth (why does this person behave this way?). A good customer interview is open-ended: 'Tell me about the last time you bought [product category]' rather than 'Would you pay $50 for this?'\n\nBuying behaviour follows patterns. The consumer decision journey typically moves through: awareness (they realise they have a need), consideration (they research options), decision (they choose one), and post-purchase (they evaluate whether it was the right choice). Understanding where your customer is in this journey changes what kind of marketing works best.",
+  "keyTakeaways": [
+    "Know your customer deeply before creating any marketing material",
+    "Customer personas should be based on real data, not assumptions",
+    "Go beyond demographics — understand motivations, frustrations, and decision triggers",
+    "Talk to real customers through interviews and surveys",
+    "Different customers are at different stages of the buying journey"
+  ],
+  "frameworks": ["stp", "customer-journey-map"],
+  "example": "Spotify doesn't just know their users are 'young people who like music.' They segment deeply: the commuter who listens to podcasts on the train, the gym-goer who needs high-energy playlists, the parent who plays kids' music at dinner time. Each segment gets different playlist recommendations, different marketing messages, and different features highlighted. Their 'Wrapped' campaign works because it's hyper-personalised — showing each user their unique listening data. That level of customer understanding drives one of the most shared marketing campaigns in the world.",
+  "commonMistakes": [
+    "Assuming you know what customers want without asking them",
+    "Creating personas based on who you wish your customers were, not who they actually are",
+    "Only doing customer research once instead of continuously",
+    "Confusing what people say they'll do with what they actually do",
+    "Targeting too broad an audience — trying to be for everyone"
+  ],
+  "exercise": "Interview 3 friends or family members about their last significant purchase (over $100). Ask them: (1) What triggered the purchase? (2) How did they research options? (3) What nearly stopped them from buying? (4) How do they feel about the purchase now? Write up what patterns you notice across the three interviews.",
+  "nextLesson": "crafting-a-value-proposition",
+  "order": 1,
+  "perspectives": {
+    "marketer": "Customer research is the single most impactful thing you can do before launching any campaign. In practice, this means blocking out time every quarter to talk to actual customers — not just reading survey data, but having real conversations. Book five 20-minute calls with recent buyers and five with people who considered your product but didn't purchase. The insights you get will reshape your messaging overnight.\n\nWhen building personas, keep them actionable. A persona document that sits in a Google Drive folder helps nobody. Instead, create a one-page summary for each persona that lives on your desk: their top three frustrations, the exact words they use to describe their problem, where they spend time online, and what nearly stops them from buying. Reference it every time you write an ad, an email, or a landing page.\n\nThe biggest tactical win from customer research is discovering the language your customers use. When you write copy using their exact phrases — pulled from interviews, reviews, and support tickets — your conversion rates will improve dramatically. People click on ads that sound like their inner monologue, not ads that sound like a marketing textbook.",
+    "cmo": "Customer understanding is the foundation of every marketing strategy decision you'll make. Without it, you're guessing — and guessing at scale is expensive. As a CMO, your job is to build a systematic, ongoing customer research programme, not a one-off project that gathers dust.\n\nInvest in both qualitative and quantitative research infrastructure. On the qualitative side, establish a regular cadence of customer interviews — monthly at minimum. On the quantitative side, instrument your digital properties to capture behavioural data: what pages do people visit before purchasing? Where do they drop off? What search terms bring them in? Combine these two data streams and you'll have a customer understanding that competitors relying on gut instinct simply cannot match.\n\nThe strategic payoff is in segmentation. Most businesses treat their customer base as monolithic, but the reality is you likely have three to five distinct segments with different motivations, price sensitivities, and channel preferences. When you market to each segment with tailored messaging and offers, your overall efficiency improves dramatically — I've seen CAC drop by 30-40% just from proper segmentation work.",
+    "ceo": "Understanding your customer is not a marketing exercise — it's a business strategy imperative. The companies that win long-term are the ones that know their customers better than anyone else in the market. This knowledge should inform product development, pricing, hiring, partnerships, and expansion decisions — not just advertising copy.\n\nAs CEO, you should be talking to customers regularly yourself. Not through filtered reports or NPS dashboards, but actual conversations. Jeff Bezos famously kept an empty chair in meetings to represent the customer. The principle is sound: every strategic decision should start with 'what does the customer need?' rather than 'what can we build?' or 'what will the market bear?'\n\nCustomer understanding also drives competitive advantage in ways that aren't immediately obvious. When you deeply understand your customer's decision-making process — what triggers them to search, what criteria they evaluate, what nearly stops them buying — you can engineer your entire business around removing friction at each step. That's not a marketing advantage, it's a business model advantage that compounds over time.",
+    "cfo": "Customer research is one of the most cost-effective investments a business can make, yet it's often the first line item cut when budgets tighten. A well-designed research programme might cost $10,000-$30,000 per quarter, but the insight it generates can redirect hundreds of thousands in marketing spend toward the channels and messages that actually convert.\n\nThe financial case for customer segmentation is straightforward: not all customers are equally profitable. Segment-level analysis typically reveals that your top 20% of customers generate 60-80% of your gross margin, while your bottom 20% may actually cost you money when you factor in acquisition costs, support burden, and return rates. Armed with this data, you can allocate marketing budget toward acquiring more high-value customers and reduce spend on segments with poor unit economics.\n\nFrom a forecasting perspective, customer lifetime value analysis by segment gives you much more accurate revenue projections than top-line averages. If you know that Segment A has a 24-month CLV of $800 with a 70% retention rate, while Segment B has a CLV of $200 with a 30% retention rate, you can model future revenue with far greater precision — and make better decisions about how much to invest in acquisition versus retention."
+  },
+  "quiz": [
+    {
+      "question": "Why are customer personas more useful than broad demographic descriptions?",
+      "options": [
+        "They make your marketing materials look more professional",
+        "They help you write copy, choose channels, and create offers that resonate with real motivations and frustrations",
+        "They are required by advertising platforms like Meta and Google",
+        "They replace the need for any further customer research"
+      ],
+      "correctIndex": 1,
+      "explanation": "Personas go beyond demographics to capture motivations, frustrations, and decision-making patterns, which directly informs more effective marketing copy, channel selection, and offer design."
+    },
+    {
+      "question": "You're launching a new skincare brand. Which research approach would give you the deepest customer insights?",
+      "options": [
+        "Sending a 50-question survey to 10,000 random people",
+        "Copying the customer profiles from your biggest competitor's website",
+        "Conducting open-ended interviews with 10-15 people in your target market about their skincare buying habits",
+        "Analysing only your own assumptions about what customers want"
+      ],
+      "correctIndex": 2,
+      "explanation": "Open-ended interviews with real people in your target market provide depth of insight that surveys and assumptions cannot match. They reveal the 'why' behind buying behaviour."
+    },
+    {
+      "question": "Which of the following is an incorrect approach to customer research?",
+      "options": [
+        "Updating your personas as you learn more about your customers over time",
+        "Creating personas based on who you wish your customers were rather than who they actually are",
+        "Asking customers about their frustrations and decision triggers",
+        "Observing what customers do as well as what they say"
+      ],
+      "correctIndex": 1,
+      "explanation": "Personas must be grounded in real data and actual customer behaviour. Building them around an idealised customer leads to marketing that misses the mark with your true audience."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "enterprise",
+  "title": "ML Engineer — Enterprise",
+  "setting": "Large enterprise (banking, telco, retail)",
+  "companySize": "1,000-50,000 employees",
+  "description": "You're an ML Engineer in the data science team at a large Australian enterprise. You build models that predict customer churn, detect fraud, optimise pricing, and personalise recommendations. The work is impactful but operates within strict compliance, security, and governance frameworks.",
+  "salary": "$140,000 - $220,000 AUD",
+  "schedule": [
+    {
+      "time": "9:00 AM",
+      "activity": "Check model monitoring dashboards — data drift alerts, prediction accuracy trends",
+      "tools": [
+        "Evidently",
+        "Grafana",
+        "Databricks"
+      ]
+    },
+    {
+      "time": "9:30 AM",
+      "activity": "Team standup — data science team of 8, discuss sprint progress",
+      "tools": [
+        "Teams",
+        "Jira"
+      ]
+    },
+    {
+      "time": "10:00 AM",
+      "activity": "Feature engineering for the customer churn prediction model — join datasets, create lag features",
+      "tools": [
+        "PySpark",
+        "Databricks",
+        "SQL"
+      ]
+    },
+    {
+      "time": "11:30 AM",
+      "activity": "Model governance meeting — present model card for review before production deployment",
+      "tools": [
+        "PowerPoint",
+        "Model registry"
+      ]
+    },
+    {
+      "time": "12:30 PM",
+      "activity": "Lunch"
+    },
+    {
+      "time": "1:00 PM",
+      "activity": "Train and evaluate 3 model variants — XGBoost, LightGBM, and a neural net. Compare on holdout set",
+      "tools": [
+        "scikit-learn",
+        "XGBoost",
+        "MLflow"
+      ]
+    },
+    {
+      "time": "2:30 PM",
+      "activity": "Work with the data engineering team on a new data pipeline for real-time features",
+      "tools": [
+        "Kafka",
+        "Airflow",
+        "Python"
+      ]
+    },
+    {
+      "time": "3:30 PM",
+      "activity": "Write unit tests for the feature engineering code, update CI pipeline",
+      "tools": [
+        "pytest",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "time": "4:30 PM",
+      "activity": "Stakeholder meeting — present model results to the product director, explain precision/recall tradeoffs in business terms",
+      "tools": [
+        "PowerPoint",
+        "Looker"
+      ]
+    },
+    {
+      "time": "5:00 PM",
+      "activity": "Update Confluence documentation, plan tomorrow's work"
+    }
+  ],
+  "responsibilities": [
+    "Build and maintain ML models for business-critical applications",
+    "Work within model governance and compliance frameworks",
+    "Translate business problems into ML solutions",
+    "Collaborate with data engineers on feature pipelines",
+    "Present results to non-technical stakeholders",
+    "Monitor models in production and retrain as needed",
+    "Document models with model cards and audit trails",
+    "Ensure fairness, bias, and explainability requirements are met"
+  ],
+  "challenges": [
+    "Slow deployment cycles due to governance and compliance",
+    "Legacy systems and data quality issues",
+    "Explaining ML to non-technical stakeholders and executives",
+    "Strict security requirements (no cloud? on-prem GPUs only?)",
+    "Bureaucracy and change management processes",
+    "Data access restrictions and privacy requirements"
+  ],
+  "rewards": [
+    "Stable, well-compensated career with clear progression",
+    "Work on high-impact business problems (fraud detection = real money saved)",
+    "Access to large, rich datasets",
+    "Learn to work within enterprise constraints — valuable skill",
+    "Good work-life balance compared to startups",
+    "Strong benefits (super, leave, training budget)"
+  ],
+  "careerPath": [
+    "Junior Data Scientist — 0-2 years",
+    "Data Scientist / ML Engineer — 2-4 years",
+    "Senior ML Engineer — 4-7 years",
+    "Lead Data Scientist — 7-10 years",
+    "Head of Data Science / AI Director — 10+ years"
+  ]
+}

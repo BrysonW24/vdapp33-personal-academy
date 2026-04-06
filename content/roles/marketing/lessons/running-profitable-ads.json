@@ -1,0 +1,68 @@
+{
+  "slug": "running-profitable-ads",
+  "moduleSlug": "paid-advertising",
+  "title": "Running Profitable Ads",
+  "objective": "Understand paid media fundamentals, campaign structure, and optimisation techniques to achieve a positive return on ad spend.",
+  "beginnerExplanation": "Think of paid advertising like renting a billboard — except you get to choose exactly who walks past it, how much you pay, and you can measure whether they actually visited your shop afterwards. That's the power of digital ads: precision targeting, measurable results, and the ability to start small and scale what works.\n\nThe two biggest platforms are Meta (Facebook and Instagram) and Google. They work differently. Google Ads captures existing demand — people are already searching for 'best running shoes' and you put your product in front of them. Meta Ads creates demand — people are scrolling their feed and your ad interrupts them with something compelling enough to stop and click. Most businesses need both: Google to capture people who are ready to buy, and Meta to reach people who don't know they want your product yet.\n\nThe most important concept in paid advertising is ROAS — Return on Ad Spend. If you spend $100 on ads and generate $500 in revenue, your ROAS is 5x. But ROAS alone doesn't tell the full story — you also need to factor in your cost of goods, shipping, and other expenses to know if you're actually profitable. A 5x ROAS sounds great, but if your margins are thin, you might still be losing money. Always know your break-even ROAS before you start spending.",
+  "deeperExplanation": "Understanding auction dynamics is fundamental to running profitable ads. Both Google and Meta use auction systems, but they don't simply award the top spot to the highest bidder. Google factors in Quality Score — a combination of ad relevance, expected click-through rate, and landing page experience. Meta uses a similar system combining bid amount, estimated action rates, and ad quality. This means a well-crafted, relevant ad can win auctions at a lower cost than a lazy ad with a bigger budget.\n\nThe learning phase is a critical concept that trips up many advertisers. When you launch a new campaign or make significant changes, the platform's algorithm needs approximately 50 conversion events to optimise delivery. During this phase, performance is volatile and costs are higher. Pausing ads, changing budgets dramatically, or swapping creative during the learning phase resets it, wasting both time and money. Patience and restraint during this window are essential for long-term performance.\n\nAttribution — understanding which ads actually drove a sale — has become increasingly complex. Apple's iOS privacy changes and the deprecation of third-party cookies have reduced the accuracy of platform-reported conversions. Sophisticated advertisers now use a combination of platform attribution, Google Analytics, post-purchase surveys ('How did you hear about us?'), and media mix modelling to triangulate true ad performance. Relying solely on Meta's reported ROAS or Google's conversion tracking will increasingly lead to poor budget allocation decisions.",
+  "keyTakeaways": [
+    "Know your break-even ROAS before spending a dollar — factor in all costs, not just ad spend",
+    "Start with a clear campaign objective and let the platform optimise for that specific goal",
+    "Let campaigns exit the learning phase (approximately 50 conversions) before making changes",
+    "Test ad creative variations systematically — creative is the biggest lever for performance",
+    "Use multiple attribution methods to understand true ad performance beyond platform reporting"
+  ],
+  "frameworks": ["aida", "campaign-planning-template", "kpi-cheat-sheet"],
+  "example": "A mid-size Australian e-commerce brand selling premium homewares achieved a consistent 5x ROAS on Meta Ads by adopting a disciplined testing approach. They used Meta's Advantage+ Shopping campaigns with broad targeting, letting the algorithm find their best customers rather than over-constraining audiences. Each week, they tested two new creative variations — different hooks, formats, and angles — while keeping winning ads running untouched. By resisting the urge to micro-manage and letting the learning phase complete, they reduced their cost per acquisition by 35% over three months while scaling spend from $2,000 to $15,000 per month.",
+  "commonMistakes": [
+    "Not setting clear campaign objectives before launching and hoping for the best",
+    "Targeting too narrow an audience instead of letting the algorithm find your buyers",
+    "Not installing tracking pixels and conversion events before spending on ads",
+    "Changing ads or budgets before they exit the learning phase, resetting optimisation",
+    "Optimising for the wrong metric — measuring clicks when you should measure purchases"
+  ],
+  "exercise": "Create a mock campaign brief for a $500 Meta Ads campaign. Define: (1) the campaign objective (awareness, traffic, or conversions), (2) your target audience described in three segments, (3) two ad creative concepts with different hooks or angles, (4) your budget split and timeline, and (5) the specific metrics you'll use to measure success, including your target ROAS or CPA.",
+  "nextLesson": "getting-found-through-search",
+  "order": 1,
+  "perspectives": {
+    "marketer": "Running profitable ads is where the rubber meets the road — and where most of your daily optimisation work happens. The single most important habit to build is restraint during the learning phase. It's tempting to panic when a new campaign shows a $150 CPA in the first 48 hours, but making changes too early is the number one reason campaigns fail. Set a rule for yourself: no changes until 50 conversions or 7 days, whichever comes first.\n\nCreative testing is your highest-leverage activity. The targeting algorithm on Meta and Google is sophisticated enough that your audience selection matters less than it used to — but your creative matters more than ever. Build a systematic testing framework: test one variable at a time (hook, image, format, offer), run each test for a statistically significant period, and document every result. Over six months, you'll build a library of winning creative patterns specific to your brand.\n\nAttribution is getting harder, so build redundancy into your measurement. Use UTM parameters religiously, set up server-side conversion tracking where possible, add a 'how did you hear about us?' field to your checkout, and compare platform-reported conversions against actual revenue in your accounting system. The gap between what Meta says and what your bank account shows is your attribution reality check.",
+    "cmo": "Paid media strategy is about portfolio management, not individual campaign management. As CMO, your job isn't to optimise individual ad sets — it's to allocate budget across channels, campaigns, and funnel stages to maximise total marketing contribution. Think of your paid media budget like an investment portfolio: diversified across platforms, balanced between prospecting and retargeting, and regularly rebalanced based on performance.\n\nThe strategic shift happening right now is from audience-based targeting to creative-based targeting. With privacy changes reducing the accuracy of behavioural targeting, the algorithm increasingly relies on your creative to find the right audience. This means your creative team is now your most important competitive advantage in paid media — invest in creative talent and production capacity accordingly.\n\nBuild a measurement framework that goes beyond platform-reported ROAS. Implement incrementality testing — holdout experiments where you suppress ads to a random percentage of your audience and measure the difference in conversions. This tells you what your ads actually caused versus what would have happened anyway. Most brands discover their true incremental ROAS is 30-50% lower than platform-reported figures, which has major implications for budget allocation and scaling decisions.",
+    "ceo": "Paid advertising is the most scalable growth lever available to most businesses, but it's also the most dangerous if managed without discipline. The CEO's role is to ensure the business has clear unit economics before scaling ad spend. If you don't know your gross margin, your customer lifetime value, and your break-even ROAS, you're flying blind — and the platform algorithms will happily spend your money regardless.\n\nThe competitive dynamics of digital advertising are important to understand at the business level. Ad costs on Meta and Google have increased 40-60% over the past three years across most categories. This means businesses that rely solely on paid acquisition are facing structural margin compression. The strategic response is to invest in brand, content, and retention alongside paid — so that paid advertising is one growth channel, not the only growth channel.\n\nScale decisions should be made on contribution margin, not revenue. A campaign generating $100,000 in revenue at a 4x ROAS sounds impressive, but if your gross margin is 40%, your actual gross profit from that $25,000 ad spend is only $15,000. Now factor in fulfilment costs, platform fees, and overheads — are you actually making money? Insist on seeing the full P&L impact of ad spend, not just the top-line revenue figure.",
+    "cfo": "Paid advertising is the most measurable marketing channel, which makes it the easiest to evaluate from a financial perspective — but also the easiest to misinterpret. The critical metric is not ROAS (which is a gross revenue figure) but contribution margin after advertising costs. A 5x ROAS on a product with 30% gross margin means you spent $1 to generate $5 in revenue, but only $1.50 in gross profit — leaving $0.50 of actual contribution after ad costs. Know your break-even ROAS for every product category.\n\nCash flow timing is an underappreciated aspect of paid advertising. You pay for ads upfront (or within 30 days), but customer lifetime value accrues over months or years. A campaign that's profitable on a 12-month CLV basis might create significant cash flow pressure if you're scaling quickly. Model your ad spend against cash collection timelines, not just lifetime profitability. Many fast-growing e-commerce brands have gone bankrupt while being 'profitable' on a unit economics basis because they didn't manage this cash flow gap.\n\nBuild diminishing returns into your budget models. Ad platforms follow a classic diminishing returns curve: the first $10,000 per month might deliver a 6x ROAS, but scaling to $50,000 might drop to 3x, and $100,000 might yield only 2x. Plot your ROAS against spend levels monthly to identify the efficient frontier — the point beyond which each additional dollar of spend generates less return than alternative investments like content, retention, or product development."
+  },
+  "quiz": [
+    {
+      "question": "What is ROAS and why is it not sufficient on its own to determine profitability?",
+      "options": [
+        "ROAS is Return on Ad Spend; it doesn't account for cost of goods, shipping, and other expenses that affect actual profit",
+        "ROAS is Rate of Ad Success; it only measures clicks, not purchases",
+        "ROAS is Revenue on Average Sales; it doesn't work for digital advertising",
+        "ROAS is Return on Audience Size; it measures reach rather than revenue"
+      ],
+      "correctIndex": 0,
+      "explanation": "ROAS measures revenue generated per dollar of ad spend, but a 5x ROAS can still lose money if your margins are thin. You need to know your break-even ROAS by factoring in all costs."
+    },
+    {
+      "question": "You've just launched a new Meta Ads campaign and after two days the results look poor. What should you do?",
+      "options": [
+        "Immediately pause the campaign and start over with new creative",
+        "Double the budget to get more data faster",
+        "Let the campaign continue through the learning phase (approximately 50 conversions) before making changes",
+        "Switch all budget to Google Ads instead"
+      ],
+      "correctIndex": 2,
+      "explanation": "During the learning phase, the algorithm needs roughly 50 conversion events to optimise delivery. Making changes before this resets the learning phase, wasting time and money."
+    },
+    {
+      "question": "Which of the following is a paid advertising mistake?",
+      "options": [
+        "Installing tracking pixels and conversion events before spending on ads",
+        "Starting with a clear campaign objective and letting the platform optimise for it",
+        "Optimising for clicks when your actual goal is purchases",
+        "Testing multiple ad creative variations systematically"
+      ],
+      "correctIndex": 2,
+      "explanation": "Optimising for the wrong metric leads to misleading results. If your goal is sales, you should optimise for purchases — a campaign full of clicks but no conversions is not successful."
+    }
+  ]
+}

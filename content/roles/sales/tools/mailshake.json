@@ -1,0 +1,27 @@
+{
+  "slug": "mailshake",
+  "name": "Mailshake",
+  "category": "email",
+  "description": "A simple, focused sales engagement tool for cold email outreach and phone campaigns. Mailshake is designed for small to mid-sized teams that want effective outbound without the complexity of enterprise platforms like Outreach or Salesloft.",
+  "whyUseIt": "Mailshake does one thing well: cold email at scale. It's easy to set up, has a clean interface, and includes deliverability features that keep your emails out of spam folders. For small teams running outbound campaigns, Mailshake provides the right balance of power and simplicity at a fraction of enterprise pricing.",
+  "pricingTier": "paid",
+  "url": "https://mailshake.com",
+  "logoUrl": "/tools/mailshake.svg",
+  "aiCapabilities": "Mailshake's AI assists with email writing, suggests send time optimisation, and provides deliverability analysis to improve inbox placement rates.",
+  "alternatives": ["instantly", "outreach-io", "apollo-io"],
+  "funnelPosition": "Top of funnel — cold email outreach and follow-up automation",
+  "outputs": ["Email campaigns", "Deliverability reports", "Reply tracking", "A/B test results", "Call task management"],
+  "sellerWorkflow": "SDRs create email campaigns, upload prospect lists, personalise messages with merge fields, schedule sends, and track opens/clicks/replies. Warm replies are flagged for manual follow-up.",
+  "managerExpects": "Campaigns launched on schedule, personalisation completed for every prospect, deliverability monitored, and reply handling within 24 hours.",
+  "demoDescription": "Create a new campaign, upload a prospect list, write email copy with personalisation tokens, schedule the send cadence, and review deliverability scores before launching.",
+  "vocabulary": [
+    { "term": "Deliverability", "definition": "The percentage of your emails that reach the recipient's inbox rather than spam or promotions folders." },
+    { "term": "Domain Warm-Up", "definition": "Gradually increasing email volume from a new domain to build sender reputation and avoid spam filters." }
+  ],
+  "beginnerMistakes": [
+    "Sending too many emails too fast from a new domain — destroying deliverability",
+    "Not warming up your email domain before launching campaigns",
+    "Ignoring bounce rates — high bounces damage your sender reputation permanently"
+  ],
+  "relatedProject": "email-sequence"
+}

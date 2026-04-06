@@ -1,0 +1,14 @@
+{
+  "slug": "numpy-tool",
+  "name": "NumPy",
+  "category": "data",
+  "description": "The fundamental package for numerical computing in Python. N-dimensional arrays, linear algebra, random number generation, and mathematical operations.",
+  "whyUseIt": "NumPy is the foundation everything else is built on. PyTorch tensors, Pandas DataFrames, scikit-learn models — they all use NumPy under the hood. Understanding NumPy arrays is essential.",
+  "pricingTier": "free",
+  "url": "https://numpy.org",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/numpy-1.svg",
+  "alternatives": [
+    "JAX",
+    "CuPy"
+  ]
+}

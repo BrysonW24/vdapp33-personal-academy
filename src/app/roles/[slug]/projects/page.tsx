@@ -41,7 +41,10 @@ export default async function RoleProjectsPage({
           outcomes: project.skillsLearned,
           href: `/roles/${slug}/projects/${project.slug}`,
           ctaLabel: "Open project",
-          badge: project.sourceMeta?.sourceSlug,
+          badge:
+            project.sourceMeta?.sourceKind === "role"
+              ? "Core role"
+              : project.sourceMeta?.sourceSlug,
         }))}
       />
     </div>

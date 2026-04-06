@@ -1,0 +1,16 @@
+{
+  "slug": "customer-journey-map",
+  "name": "Customer Journey Map",
+  "summary": "A visual representation of every touchpoint a customer has with your brand, from first awareness to post-purchase loyalty.",
+  "whenToUseIt": "Use journey mapping when you want to improve customer experience, identify drop-off points, align your team on the customer perspective, or plan content/campaigns for each stage.",
+  "steps": [
+    "Define your persona: Choose a specific customer segment to map",
+    "List the stages: Awareness → Consideration → Decision → Purchase → Post-purchase → Advocacy",
+    "Map touchpoints: At each stage, list every interaction (ads, website, emails, reviews, support, etc.)",
+    "Capture emotions: How does the customer feel at each stage? Frustrated? Excited? Confused?",
+    "Identify pain points: Where do they struggle or drop off?",
+    "Find opportunities: Where can you improve the experience or add value?"
+  ],
+  "example": "Journey map for an online furniture store: Awareness (sees Instagram ad) → Consideration (visits website, reads reviews, visits showroom) → Decision (adds to cart, compares delivery options — pain point: high delivery cost nearly causes abandonment) → Purchase (uses Afterpay) → Post-purchase (tracking updates reduce anxiety) → Advocacy (shares photo on Instagram after delivery). The insight: offering free delivery over $500 would reduce the biggest drop-off point.",
+  "category": "customer"
+}

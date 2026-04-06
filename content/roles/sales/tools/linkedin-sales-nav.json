@@ -1,0 +1,28 @@
+{
+  "slug": "linkedin-sales-nav",
+  "name": "LinkedIn Sales Navigator",
+  "category": "social-media",
+  "description": "LinkedIn's premium sales tool that provides advanced search, lead recommendations, and account insights for B2B sales professionals. With 900M+ profiles, LinkedIn is where your buyers live — Sales Navigator helps you find and engage them strategically.",
+  "whyUseIt": "Sales Navigator transforms LinkedIn from a social network into a prospecting powerhouse. Advanced filters let you find exactly the right people (by title, company size, industry, geography, and dozens more criteria). Lead alerts tell you when prospects change jobs, post content, or engage with your company. For any AE doing outbound in B2B, Sales Nav is essential.",
+  "pricingTier": "paid",
+  "url": "https://business.linkedin.com/sales-solutions/sales-navigator",
+  "logoUrl": "/tools/linkedin-sales-nav.svg",
+  "aiCapabilities": "Sales Navigator uses AI to recommend leads and accounts based on your ICP, surface relationship paths (who in your network knows the prospect), and provide account insights from LinkedIn's data.",
+  "alternatives": ["zoominfo", "apollo-io", "lusha"],
+  "funnelPosition": "Top of funnel — prospect identification, research, and social selling",
+  "outputs": ["Lead lists", "Account maps", "Relationship intelligence", "Buyer intent signals", "InMail outreach"],
+  "sellerWorkflow": "AEs build saved searches matching their ICP, receive daily lead recommendations, monitor accounts for trigger events, engage with prospect content, and send personalised InMails. SDRs use it for contact discovery and warm-up before cold outreach.",
+  "managerExpects": "Saved searches aligned to territory and ICP, consistent use of lead and account lists, InMail usage with strong acceptance rates, and social selling activity integrated into the broader outreach strategy.",
+  "demoDescription": "Build an advanced search with ICP filters, save leads to a list, view account insights, check relationship paths, and send a personalised InMail with a connection request.",
+  "vocabulary": [
+    { "term": "InMail", "definition": "A direct message to a LinkedIn member you're not connected to. Sales Navigator provides a monthly InMail allowance." },
+    { "term": "Social Selling Index (SSI)", "definition": "LinkedIn's score (0-100) measuring how effectively you use LinkedIn for sales: building your brand, finding prospects, engaging insights, building relationships." }
+  ],
+  "beginnerMistakes": [
+    "Sending generic InMails — personalisation is critical for acceptance rates above 20%",
+    "Not saving searches — rebuilding the same search weekly wastes time",
+    "Ignoring the content feed — engaging with prospect posts before reaching out dramatically improves response rates",
+    "Using Sales Nav only for finding contacts instead of also monitoring account activity and trigger events"
+  ],
+  "relatedProject": "prospect-research"
+}

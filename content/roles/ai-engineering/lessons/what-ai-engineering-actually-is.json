@@ -1,0 +1,25 @@
+{
+  "slug": "what-ai-engineering-actually-is",
+  "moduleSlug": "what-ai-engineering-is",
+  "title": "What Frontier AI Engineering Actually Is",
+  "objective": "Build a clear mental model of the role before you learn the stack.",
+  "beginnerExplanation": "Frontier AI engineering is the work of turning powerful models into products and internal systems that real people can trust. It mixes software engineering, product judgment, evaluation, and platform thinking.",
+  "deeperExplanation": "The strongest AI engineers do not sit in a single box. They understand model capability, but they also know how to build retrieval layers, approval loops, telemetry, release gates, and UX around that capability. The job is about operational leverage, not just model literacy.",
+  "keyTakeaways": [
+    "Frontier AI engineering is a product-and-platform discipline.",
+    "Model choice matters, but system design usually matters more.",
+    "The strongest portfolios show working systems, not just notebooks or prompts."
+  ],
+  "frameworks": [
+    "llm-application-stack",
+    "ml-lifecycle"
+  ],
+  "example": "A product team wants an AI research assistant. The frontier engineer chooses the model, designs the retrieval path, adds citations, defines evals, instruments failures, and ships an interface that makes uncertainty visible.",
+  "commonMistakes": [
+    "Confusing AI engineering with pure model research.",
+    "Underestimating evals, latency, and reliability work.",
+    "Thinking prompt fluency alone is enough to be job-ready."
+  ],
+  "exercise": "Write a one-page role map comparing frontier AI product engineering, AI platform engineering, research engineering, and classical ML engineering.",
+  "order": 1
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "llm-application-stack",
+  "name": "The Modern LLM Application Stack",
+  "summary": "The technology stack that powers modern LLM applications — from the foundation model at the bottom to the user interface at the top. Understanding this stack is essential for making architectural decisions about which components to use and how they fit together.",
+  "whenToUseIt": "Use this framework when designing any LLM-powered application. It helps you understand the full stack of decisions you need to make, from choosing a model provider to building the user experience. Reference it when evaluating new tools — every AI tool fits somewhere in this stack.",
+  "steps": [
+    "Foundation Model — The LLM itself: Claude (Anthropic), GPT-4 (OpenAI), Gemini (Google), Llama (Meta), or Mistral. Choose based on capabilities, cost, latency, and data privacy requirements.",
+    "Embedding Model — Converts text into vector representations for semantic search. Options: OpenAI embeddings, Cohere, open-source (BGE, E5). Used in RAG and semantic search.",
+    "Vector Database — Stores and indexes embeddings for fast similarity search. Options: Pinecone (managed), Weaviate (open-source), ChromaDB (lightweight), pgvector (PostgreSQL extension).",
+    "Orchestration Layer — Coordinates the flow between components: prompt construction, RAG retrieval, tool calls, memory management. Options: LangChain, LlamaIndex, or custom code. Many teams start with frameworks and migrate to custom code as they mature.",
+    "Guardrails & Safety — Input validation, output filtering, PII detection, content moderation. Prevents prompt injection, harmful outputs, and data leakage.",
+    "Caching & Optimisation — Prompt caching, semantic caching (similar questions get cached answers), response streaming. Reduces cost and latency significantly.",
+    "User Interface — The frontend that users interact with: chat interface, copilot sidebar, form-based workflow, or API. Streaming responses, loading states, and error handling are critical UX decisions."
+  ],
+  "example": "Building an AI-powered customer support copilot for an Australian SaaS company. Stack decisions: Foundation Model — Claude 3.5 Sonnet (good balance of quality and cost). Embedding — OpenAI text-embedding-3-small (cost-effective, good quality). Vector DB — pgvector (they already use PostgreSQL, avoids adding another service). Orchestration — custom Python code (their use case is specific enough that LangChain adds more complexity than value). Guardrails — PII detection before sending customer data to the LLM, output filtering for competitor mentions. Caching — semantic cache for common questions (30% cache hit rate saves significant API costs). UI — streaming chat interface built with React, with a 'sources' panel showing which help docs the answer came from.",
+  "category": "architecture"
+}

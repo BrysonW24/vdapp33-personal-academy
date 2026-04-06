@@ -1,0 +1,49 @@
+{
+  "slug": "python",
+  "name": "Python",
+  "category": "developer-tooling",
+  "description": "The dominant programming language for AI and machine learning. Python's simplicity, vast ecosystem of scientific computing libraries, and strong community make it the lingua franca of AI engineering.",
+  "whyUseIt": "Every major AI framework, model, and tool is built for Python first. NumPy, Pandas, PyTorch, TensorFlow, scikit-learn, Hugging Face — all Python. You cannot be an AI engineer without Python fluency.",
+  "pricingTier": "free",
+  "url": "https://python.org",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+  "aiCapabilities": "Python is the foundation language for AI development. Its ecosystem includes PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, and virtually every AI library.",
+  "alternatives": [
+    "Julia",
+    "R",
+    "Rust (for performance-critical AI)"
+  ],
+  "funnelPosition": "Foundation",
+  "outputs": [
+    "ML models",
+    "Data pipelines",
+    "AI APIs",
+    "Analysis scripts",
+    "Jupyter notebooks"
+  ],
+  "engineerWorkflow": "An AI engineer uses Python for everything: data preparation with Pandas, model training with PyTorch, API development with FastAPI, scripting with standard library, and notebook-based exploration with Jupyter.",
+  "managerExpects": "Proficiency is assumed. A manager expects clean, type-hinted, well-tested Python code. They expect you to use Python idiomatically — list comprehensions, context managers, dataclasses — and to choose the right library for each task.",
+  "aiWorkflowImpact": "Python's GIL can be a bottleneck for CPU-bound work, but GPU operations (PyTorch, TensorFlow) and async I/O (API calls) bypass this. For high-performance inference, Python often wraps optimised C/Rust code.",
+  "demoDescription": "Install Python 3.11+, create a virtual environment, and run: `import numpy as np; import pandas as pd; print(np.random.randn(3,3)); print(pd.DataFrame({'col': [1,2,3]}).describe())`. You have just used the two most important AI libraries.",
+  "vocabulary": [
+    {
+      "term": "Virtual Environment",
+      "definition": "An isolated Python installation that keeps project dependencies separate. Created with `python -m venv .venv`."
+    },
+    {
+      "term": "pip",
+      "definition": "Python's package installer. `pip install numpy` downloads and installs the NumPy library."
+    },
+    {
+      "term": "Type Hints",
+      "definition": "Optional annotations that specify variable and function types: `def train(data: pd.DataFrame) -> float`. Helps with code quality and IDE support."
+    }
+  ],
+  "beginnerMistakes": [
+    "Not using virtual environments and polluting the system Python installation",
+    "Writing loops when vectorised NumPy/Pandas operations exist",
+    "Ignoring type hints in AI codebases — they catch bugs early and improve readability",
+    "Not pinning dependency versions in requirements.txt or pyproject.toml"
+  ],
+  "relatedProject": "data-pipeline"
+}

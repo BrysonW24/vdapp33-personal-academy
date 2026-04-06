@@ -1,0 +1,14 @@
+{
+  "slug": "chromadb",
+  "name": "ChromaDB",
+  "category": "vector-db",
+  "description": "A lightweight, open-source embedding database. Simple API, runs locally, perfect for prototyping and small-scale RAG applications.",
+  "whyUseIt": "ChromaDB is the easiest vector database to get started with. In-memory or persistent, simple Python API, and minimal setup. Great for learning and prototyping before scaling to Pinecone or Weaviate.",
+  "pricingTier": "free",
+  "url": "https://www.trychroma.com",
+  "alternatives": [
+    "Pinecone",
+    "Weaviate",
+    "FAISS"
+  ]
+}

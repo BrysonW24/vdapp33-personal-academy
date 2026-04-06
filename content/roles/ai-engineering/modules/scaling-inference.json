@@ -1,0 +1,31 @@
+{
+  "slug": "scaling-inference",
+  "title": "Inference, Serving, and Latency",
+  "shortSummary": "Explore the serving layer: throughput, caching, batching, fallbacks, and the cost-quality-speed triangle.",
+  "track": "core-frontier",
+  "level": "advanced",
+  "category": "systems",
+  "whyItMatters": "The demo and the production system diverge fastest at inference time. The ability to keep responses fast, affordable, and reliable under real traffic is a core frontier engineering skill.",
+  "coreConcepts": [
+    "Latency budgets and timeout design",
+    "Streaming, batching, caching, and routing strategies",
+    "Choosing between hosted APIs and self-hosted serving",
+    "Observing throughput, token usage, and failure spikes",
+    "Cost-aware fallbacks and graceful degradation"
+  ],
+  "lessons": [
+    "scaling-inference-lesson"
+  ],
+  "frameworks": [
+    "system-design-template",
+    "mlops-maturity"
+  ],
+  "relatedModules": [
+    "mlops-deployment",
+    "system-design-for-ai",
+    "ai-product-engineering"
+  ],
+  "status": "coming-soon",
+  "order": 9,
+  "levelNumber": 3
+}

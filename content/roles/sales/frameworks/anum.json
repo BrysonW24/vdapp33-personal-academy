@@ -1,0 +1,13 @@
+{
+  "slug": "anum",
+  "name": "ANUM",
+  "summary": "A qualification framework that prioritizes Authority, Need, Urgency, and Money so the rep learns quickly whether the deal can realistically move.",
+  "whenToUseIt": "Use ANUM when you want a faster, front-loaded qualification check on whether the buyer has influence, pain, urgency, and commercial viability.",
+  "steps": [
+    "Establish whether the buyer has authority or access to the real decision-maker.",
+    "Confirm a meaningful need and whether it is urgent enough to drive change.",
+    "Validate that there is money or a path to funding if the need is real."
+  ],
+  "example": "An inbound lead sounds interested, but ANUM reveals they are only gathering options for next year, have no internal sponsor, and no urgency tied to a real event. The rep avoids over-investing too early.",
+  "category": "qualification"
+}

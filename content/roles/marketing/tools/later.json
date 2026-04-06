@@ -1,0 +1,62 @@
+{
+  "slug": "later",
+  "name": "Later",
+  "category": "social-media",
+  "description": "A visual social media planning tool with a focus on Instagram, TikTok, and visual content scheduling.",
+  "whyUseIt": "Later's visual calendar makes it easy to plan how your feed will look before posting. Its link-in-bio tool (Linkin.bio) is widely used by brands and creators to drive traffic from Instagram.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Buffer",
+    "Hootsuite",
+    "Planoly"
+  ],
+  "url": "https://later.com",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Visually planned Instagram grids and feed previews",
+    "Scheduled posts across Instagram, TikTok, Pinterest, LinkedIn, and X",
+    "Linkin.bio landing pages driving traffic from Instagram",
+    "Best time to post analytics and recommendations",
+    "Hashtag performance reports and saved hashtag groups",
+    "Content performance reports with engagement metrics",
+    "User-generated content collections for reposting"
+  ],
+  "marketerWorkflow": "A marketer uploads a batch of visual content to Later's media library and uses the visual feed planner to arrange posts for aesthetic consistency on Instagram. They drag and drop content onto the calendar, write captions, add hashtag groups, and schedule posts for the week ahead. They check the Linkin.bio analytics to see which posts drive the most link clicks and update the bio landing page with current campaign links and product features.",
+  "managerExpects": "A marketing manager expects Later to keep the brand's social feed visually cohesive and consistently active. They want to see a full content calendar at least one week ahead, hashtag strategies being tested and optimised, and Linkin.bio being used effectively to convert social engagement into website traffic. Monthly reports should show which content formats and posting times drive the most engagement.",
+  "aiWorkflowImpact": "In 2025, Later's AI suggests optimal posting times based on your specific audience's behaviour, not just generic best practices. The AI generates caption drafts from uploaded images, suggests relevant hashtags ranked by reach potential, and can auto-crop content for different platform aspect ratios. This transforms the workflow from manually researching hashtags and writing every caption to reviewing and refining AI-generated suggestions.",
+  "demoDescription": "Create a free Later account and connect your Instagram account. Upload five images or graphics to the media library, then use the visual feed planner to arrange them in an order that looks cohesive. Schedule them across the next five days, write captions with hashtags for each, and set up a basic Linkin.bio page with three links to see how the traffic driver works.",
+  "vocabulary": [
+    {
+      "term": "Visual planner",
+      "definition": "A drag-and-drop preview of how your Instagram grid will look with upcoming scheduled posts, letting you curate aesthetic consistency before publishing."
+    },
+    {
+      "term": "Linkin.bio",
+      "definition": "Later's link-in-bio tool that creates a clickable landing page mirroring your Instagram feed, turning each post into a traffic driver to specific URLs."
+    },
+    {
+      "term": "Media library",
+      "definition": "A centralised storage area in Later where you upload, organise, label, and search all your visual content before scheduling it."
+    },
+    {
+      "term": "Hashtag groups",
+      "definition": "Pre-saved collections of hashtags that can be applied to posts with one click, enabling quick A/B testing of different hashtag strategies."
+    },
+    {
+      "term": "Auto-publish",
+      "definition": "Posts that Later publishes directly to the platform at the scheduled time, versus notification-based posting where you manually hit publish from a mobile reminder."
+    },
+    {
+      "term": "Best time to post",
+      "definition": "Later's analytics feature that analyses your audience's historical engagement patterns to recommend the specific days and hours when your posts will perform best."
+    }
+  ],
+  "beginnerMistakes": [
+    "Focusing only on making the grid look pretty while neglecting caption quality, hashtag strategy, and calls to action",
+    "Using the same generic hashtag group on every post instead of testing different sets and tracking which ones drive discovery",
+    "Not setting up Linkin.bio or forgetting to update it, wasting the primary traffic-driving tool available on Instagram",
+    "Scheduling all posts at the same time every day instead of varying posting times based on audience activity data",
+    "Ignoring TikTok and Pinterest scheduling in favour of Instagram only, missing platforms where visual content often gets more organic reach"
+  ],
+  "relatedProject": "social-media-calendar"
+}

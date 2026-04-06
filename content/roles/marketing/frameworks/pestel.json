@@ -1,0 +1,16 @@
+{
+  "slug": "pestel",
+  "name": "PESTEL Analysis",
+  "summary": "A macro-environment scanning tool that examines Political, Economic, Social, Technological, Environmental, and Legal factors.",
+  "whenToUseIt": "Use PESTEL when assessing a new market, planning for long-term strategy, or understanding external forces that could impact your business. Pairs well with SWOT for the 'Opportunities' and 'Threats' quadrants.",
+  "steps": [
+    "Political: Government policy, trade regulations, tax changes, political stability",
+    "Economic: GDP growth, inflation, exchange rates, consumer spending power, interest rates",
+    "Social: Demographics, cultural trends, lifestyle changes, consumer attitudes, health consciousness",
+    "Technological: New technologies, automation, digital infrastructure, R&D activity, tech adoption rates",
+    "Environmental: Climate change, sustainability expectations, waste regulations, carbon footprint",
+    "Legal: Consumer protection laws, privacy regulations (GDPR, Privacy Act), advertising standards, employment law"
+  ],
+  "example": "PESTEL for marketing in Australia 2026: Political = government pushing digital economy initiatives. Economic = cost-of-living pressure affecting discretionary spending. Social = growing preference for local/Australian brands. Technological = AI adoption accelerating in marketing. Environmental = consumers expect sustainability commitments. Legal = stricter privacy regulations affecting digital advertising targeting.",
+  "category": "strategy"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "objection-handling",
+  "title": "Objection Handling",
+  "shortSummary": "Objections are not rejections — they're buying signals. Learn frameworks for handling the most common objections and turning resistance into momentum.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "Every deal encounters objections. Price is too high, timing isn't right, they're happy with their current vendor, they need to think about it. Inexperienced reps hear these and panic. Experienced reps hear them and get curious. An objection means the buyer is engaged enough to push back — your job is to understand what's really behind it and address the root concern.",
+  "coreConcepts": [
+    "Why objections are buying signals, not rejections",
+    "The four types: price, timing, authority, need",
+    "Acknowledge-Question-Respond framework",
+    "Structured objection techniques that preserve control",
+    "Reframing: changing the lens on the objection",
+    "Preemptive objection handling in your pitch",
+    "When to walk away: not every objection can be overcome"
+  ],
+  "lessons": ["handling-price-and-budget-objections", "navigating-no-decision", "objection-techniques-that-keep-control"],
+  "frameworks": ["sandler-selling", "challenger-sale", "gap-selling", "feel-felt-found", "laer", "boomerang", "isolation", "reframing", "objection-prevention", "trial-alignment"],
+  "relatedModules": ["discovery-calls", "presentations-demos", "closing", "negotiation"],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 2
+}

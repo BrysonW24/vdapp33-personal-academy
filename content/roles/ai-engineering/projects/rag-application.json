@@ -1,0 +1,85 @@
+{
+  "slug": "rag-application",
+  "title": "Citation-Backed RAG App",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Build a retrieval-backed AI application that answers from a specific corpus, shows citations, and surfaces failure cases clearly.",
+  "whyItMatters": "Citation-backed retrieval is one of the clearest signals that you can build trustworthy AI features rather than generic chat wrappers.",
+  "skillsLearned": [
+    "Embedding generation",
+    "Vector database operations",
+    "Document chunking strategies",
+    "RAG pipeline architecture",
+    "Source citation",
+    "Retrieval quality evaluation"
+  ],
+  "prerequisites": [
+    "Complete the Working with LLMs lesson",
+    "Understanding of embeddings concept"
+  ],
+  "steps": [
+    {
+      "title": "Prepare your document collection",
+      "description": "Gather 10-20 documents on a specific topic: company documentation, technical guides, research papers, or product manuals. Convert to plain text if needed.",
+      "tips": "Use real documents, not toy examples. The more realistic, the more you learn about RAG challenges."
+    },
+    {
+      "title": "Implement document chunking",
+      "description": "Split documents into chunks of 200-500 tokens each. Try different strategies: fixed-size chunks, paragraph-based splitting, recursive splitting. Each strategy has tradeoffs."
+    },
+    {
+      "title": "Generate embeddings",
+      "description": "Use an embedding model (OpenAI text-embedding-3-small or a free alternative like sentence-transformers) to convert each chunk into a vector. Store the vectors alongside the original text and metadata."
+    },
+    {
+      "title": "Set up a vector database",
+      "description": "Use ChromaDB (easiest to start with — runs locally, no account needed) to store your embeddings. Create a collection, add your chunks, and test basic similarity search."
+    },
+    {
+      "title": "Build the retrieval pipeline",
+      "description": "When a user asks a question, embed the question, search the vector database for the most similar chunks (top 5), and return them with their source documents and similarity scores."
+    },
+    {
+      "title": "Build the generation pipeline",
+      "description": "Construct a prompt that includes the retrieved chunks as context and the user's question. Instruct the LLM to answer based only on the provided context and cite which document each fact came from."
+    },
+    {
+      "title": "Evaluate and improve",
+      "description": "Create a test set of 20 questions with known answers. Measure: retrieval accuracy (did the right chunks get retrieved?), answer accuracy (is the answer correct?), and citation accuracy (are sources attributed correctly?).",
+      "tips": "If retrieval is poor, try: different chunk sizes, better embeddings, hybrid search (combining semantic and keyword), or reranking retrieved results."
+    }
+  ],
+  "deliverables": [
+    "Document ingestion and chunking pipeline",
+    "Vector database with embedded documents",
+    "RAG Q&A system with source citations",
+    "Evaluation results on test question set",
+    "Web interface for asking questions"
+  ],
+  "tools": [
+    "Python",
+    "ChromaDB",
+    "OpenAI or Anthropic SDK",
+    "Sentence-transformers (optional)",
+    "Streamlit"
+  ],
+  "rubric": [
+    {
+      "criteria": "Retrieval Quality",
+      "description": "The system retrieves relevant chunks for at least 80% of test questions."
+    },
+    {
+      "criteria": "Answer Accuracy",
+      "description": "Answers are factually correct and grounded in the source documents, not hallucinated."
+    },
+    {
+      "criteria": "Citation Quality",
+      "description": "Every factual claim in the answer is attributed to a specific source document."
+    },
+    {
+      "criteria": "System Design",
+      "description": "Clean separation between ingestion, retrieval, and generation components. Easy to swap out individual parts."
+    }
+  ],
+  "track": "core-frontier"
+}

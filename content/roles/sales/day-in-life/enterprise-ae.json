@@ -1,0 +1,60 @@
+{
+  "slug": "enterprise-ae",
+  "title": "Enterprise Account Executive",
+  "setting": "A large technology company selling enterprise software to major corporations",
+  "companySize": "1,000+ employees",
+  "description": "You're an Enterprise Account Executive selling complex, high-value solutions to Australia's largest organisations — banks, telcos, government agencies, and ASX-listed companies. Your deals are six to seven figures, your sales cycles are 6-18 months, and you're managing multiple stakeholders across procurement, IT, business units, and the C-suite. This is strategic, relationship-driven selling at the highest level.",
+  "salary": "$150,000-$300,000 AUD OTE. Base salary typically $120,000-$180,000 with $30,000-$120,000 in variable commission. Accelerators can push total comp above $400,000 for exceptional years. Some roles include equity/RSUs.",
+  "schedule": [
+    { "time": "07:00", "activity": "Strategic reading: review industry news, ASX announcements, and LinkedIn activity for your top 10 accounts", "tools": ["linkedin-sales-nav", "google-workspace"], "note": "Enterprise selling is about knowing your customer's world better than they do" },
+    { "time": "07:30", "activity": "Account strategy: review your account planning canvas for today's key meetings. Update stakeholder notes.", "tools": ["notion-sales", "salesforce"], "note": "Before any enterprise meeting, know every attendee's priorities and concerns" },
+    { "time": "08:30", "activity": "Internal alignment: call with your Solutions Engineer to prep for a technical deep-dive with the CTO of a major bank", "tools": ["zoom", "google-workspace"], "note": "Enterprise deals are team sports. Your SE, Customer Success Manager, and executive sponsor all play roles." },
+    { "time": "09:30", "activity": "Executive meeting: QBR presentation to the CIO and VP Technology at a top-3 account ($500K ACV renewal + $200K expansion)", "tools": ["zoom", "google-workspace", "highspot"], "note": "This is not a product review — it's a strategic business review. Lead with their metrics, not yours." },
+    { "time": "10:30", "activity": "Debrief with your account team: what went well, what concerns were raised, action items for each person", "tools": ["notion-sales", "salesforce"], "note": "Document everything. Enterprise deals have long memories — something mentioned today will matter in 6 months." },
+    { "time": "11:00", "activity": "RFP response: working with the bid team to craft a response to a government agency RFP ($1.2M deal)", "tools": ["google-workspace", "claude-sales", "seismic"], "note": "RFP responses are a team effort. Your job is to ensure the response tells a story, not just answers questions." },
+    { "time": "12:00", "activity": "Executive lunch: meeting a CTO at a prospective account for an informal relationship-building lunch", "note": "Enterprise relationships are built over years, not calls. Face-to-face matters." },
+    { "time": "13:30", "activity": "Champion coaching: 1:1 call with your champion at a major deal to prep them for their internal business case presentation", "tools": ["zoom", "google-workspace"], "note": "The most important conversations happen when you're not in the room. Equip your champion to win internally." },
+    { "time": "14:30", "activity": "Procurement negotiation: call with procurement team at a large retailer. Discussing payment terms, SLAs, and data sovereignty.", "tools": ["zoom", "docusign"], "note": "Enterprise procurement teams are professional negotiators. Know your limits and trade strategically." },
+    { "time": "15:30", "activity": "Pipeline planning: review your $3M annual quota. Assess coverage, identify gaps, plan prospecting into new departments at existing accounts.", "tools": ["salesforce", "clari", "people-ai"], "note": "Enterprise AEs need 2-3x pipeline coverage. With 12-month cycles, next year's pipeline starts now." },
+    { "time": "16:30", "activity": "Executive alignment: brief your VP of Sales on the QBR outcomes and the government RFP strategy", "tools": ["google-workspace", "salesforce"], "note": "Managing up is crucial. Your VP needs to know where to deploy executive-to-executive support." },
+    { "time": "17:00", "activity": "Networking event: industry event in the city — building relationships with enterprise buyers and partners", "note": "Enterprise selling extends beyond business hours. The relationships you build at events pay dividends." }
+  ],
+  "responsibilities": [
+    "Own a portfolio of 5-15 named enterprise accounts with $1M-$5M+ annual revenue potential",
+    "Build and execute strategic account plans with 90-day action milestones",
+    "Develop multi-threaded relationships across C-suite, IT, procurement, and business units",
+    "Navigate complex 6-18 month sales cycles with multiple evaluation phases",
+    "Lead cross-functional account teams: Solutions Engineers, Customer Success, Professional Services",
+    "Respond to RFPs and manage formal procurement processes",
+    "Deliver executive-level QBRs that drive expansion and protect renewals",
+    "Maintain detailed account intelligence and stakeholder maps",
+    "Forecast accurately — enterprise forecasting tolerates less variance than mid-market"
+  ],
+  "challenges": [
+    "Extremely long sales cycles — a deal you start today might not close for 12-18 months",
+    "Navigating organisational politics: multiple stakeholders with competing agendas",
+    "Procurement teams who are trained negotiators with leverage",
+    "Maintaining deal momentum when buying committees take weeks between meetings",
+    "Security, compliance, and legal reviews that can stall deals for months",
+    "The pressure of carrying a $2M-$5M quota on a small number of large, complex deals",
+    "Competitors with existing relationships and entrenched positions"
+  ],
+  "rewards": [
+    "Highest earning potential in sales — $200K-$400K+ AUD with accelerators",
+    "Working with Australia's most prestigious organisations and senior executives",
+    "Deeply strategic work — every deal is a complex puzzle requiring creativity and patience",
+    "Building career-long executive relationships that open doors for decades",
+    "Intellectual challenge: no two enterprise deals are alike",
+    "The satisfaction of closing a seven-figure deal you've worked on for a year",
+    "Clear path to executive leadership: CRO, VP Sales, Managing Director"
+  ],
+  "careerPath": [
+    "SDR/BDR at a tech company (0-1 year) — learn prospecting and qualification fundamentals",
+    "Mid-Market Account Executive (1-3 years) — develop full-cycle selling skills",
+    "Enterprise Account Executive (3-7 years) — complex, high-value deal management",
+    "Senior Enterprise AE / Strategic Account Director (7-10 years) — top-tier accounts, $5M+ portfolios",
+    "Regional Sales Director (10-15 years) — lead a team of enterprise AEs across a region",
+    "VP of Sales / CRO (15+ years) — own the entire go-to-market strategy and execution",
+    "Board Advisory / Consulting (20+ years) — leverage enterprise relationships and expertise"
+  ]
+}

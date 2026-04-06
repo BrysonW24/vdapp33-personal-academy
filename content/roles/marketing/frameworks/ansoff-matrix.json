@@ -1,0 +1,15 @@
+{
+  "slug": "ansoff-matrix",
+  "name": "Ansoff Matrix",
+  "summary": "A 2x2 framework for evaluating growth strategies based on whether the market and product are new or existing.",
+  "whenToUseIt": "When evaluating growth options, deciding where to invest next, presenting strategic options to leadership.",
+  "steps": [
+    "Market Penetration (existing product, existing market)",
+    "Product Development (new product, existing market)",
+    "Market Development (existing product, new market)",
+    "Diversification (new product, new market)",
+    "Evaluate risk level of each option"
+  ],
+  "example": "McDonald's — market penetration through value meals, product development with McCafe, market development entering India with vegetarian menu, diversification with McDelivery logistics platform.",
+  "category": "strategy"
+}

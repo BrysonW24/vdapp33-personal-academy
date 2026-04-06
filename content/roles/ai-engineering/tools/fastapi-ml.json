@@ -1,0 +1,15 @@
+{
+  "slug": "fastapi-ml",
+  "name": "FastAPI",
+  "category": "infra",
+  "description": "A modern Python web framework for building APIs. Fast, async, auto-generates OpenAPI docs. The standard for serving ML models.",
+  "whyUseIt": "FastAPI is how most ML models get deployed as APIs. Its async support handles concurrent inference requests, automatic docs make testing easy, and Pydantic validation ensures clean input/output contracts.",
+  "pricingTier": "free",
+  "url": "https://fastapi.tiangolo.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/fastapi-1.svg",
+  "alternatives": [
+    "Flask",
+    "Django",
+    "Ray Serve"
+  ]
+}

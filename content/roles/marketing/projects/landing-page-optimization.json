@@ -1,0 +1,27 @@
+{
+  "slug": "landing-page-optimization",
+  "title": "Landing Page Optimisation",
+  "difficulty": 5,
+  "estimatedHours": 8,
+  "description": "Design, build, and optimise a high-converting landing page. You'll learn the principles of conversion-focused design and test different approaches.",
+  "whyItMatters": "A landing page is where marketing meets action. You can have the best ads in the world, but if the page they land on doesn't convert, you're wasting money. Understanding landing page optimisation is essential for every digital marketer.",
+  "skillsLearned": ["Conversion rate optimisation", "UX/UI basics", "Copywriting for conversion", "A/B testing concepts", "Analytics setup"],
+  "prerequisites": ["Understanding of value propositions", "Basic familiarity with web design tools"],
+  "steps": [
+    {"title": "Define the page goal", "description": "What single action should visitors take? Sign up, buy, download, book a call? One page, one goal. Choose a product/service and target audience."},
+    {"title": "Write the copy first", "description": "Before any design, write: headline (attention), subheadline (clarity), benefits (3-5 bullet points), social proof (testimonials), and CTA (action). Follow the AIDA framework.", "tips": "The headline is responsible for 80% of whether someone stays or leaves."},
+    {"title": "Design the page", "description": "Use Webflow, Unbounce, or Canva to create the page. Follow landing page best practices: hero section, benefits, social proof, CTA above and below the fold, minimal navigation."},
+    {"title": "Optimise for mobile", "description": "Over 60% of traffic is mobile. Ensure the page looks great and loads fast on phones. Test on your own device."},
+    {"title": "Set up tracking", "description": "Add Google Analytics or equivalent. Set up a conversion event for your CTA. Know your baseline metrics."},
+    {"title": "Create a variant", "description": "Design one alternative version (different headline, CTA colour, or layout). Document your hypothesis for what will perform better and why."},
+    {"title": "Write a test plan", "description": "Describe how you'd A/B test these variants: sample size needed, duration, success metric, and statistical significance threshold."}
+  ],
+  "deliverables": ["Live or mockup landing page (version A)", "Alternative version B with documented hypothesis", "Copy document with headline, benefits, social proof, and CTA", "A/B test plan document", "Mobile-responsive design"],
+  "tools": ["Webflow or Unbounce", "Google Analytics", "Canva or Figma", "Google Docs"],
+  "rubric": [
+    {"criteria": "Conversion Focus", "description": "The page has one clear goal and every element supports that goal."},
+    {"criteria": "Copy Effectiveness", "description": "Headlines are compelling, benefits are clear, and CTAs are action-oriented."},
+    {"criteria": "Design Quality", "description": "The page looks professional, loads fast, and works on mobile."},
+    {"criteria": "Test Validity", "description": "The A/B test plan is methodologically sound with a clear hypothesis."}
+  ]
+}

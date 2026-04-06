@@ -1,0 +1,68 @@
+{
+  "slug": "content-that-converts",
+  "moduleSlug": "content-marketing",
+  "title": "Content That Converts",
+  "objective": "Understand what content marketing is, the types of content that work, and how to plan a basic content strategy.",
+  "beginnerExplanation": "Content marketing is creating and sharing valuable, relevant content to attract and retain a clearly defined audience — and ultimately drive them to take a profitable action. The key word is 'valuable.' Nobody wants to read a thinly disguised sales pitch. People want content that helps them, teaches them, or entertains them.\n\nContent comes in many forms: blog posts, videos, podcasts, social media posts, infographics, email newsletters, ebooks, webinars, and case studies. The best content marketers don't try to do everything — they pick the formats that work best for their audience and their strengths, then do those really well.\n\nThe fundamental principle is: give before you ask. If you consistently help people solve their problems through your content, they'll trust you. And when they're ready to buy something in your category, you'll be the first brand they think of. That's the entire content marketing playbook.",
+  "deeperExplanation": "Content strategy answers four questions: (1) Who are we creating for? (2) What topics do we cover? (3) What formats do we use? (4) Where do we publish and distribute? Without a strategy, you end up posting randomly and wondering why nothing works.\n\nThe content funnel maps content types to the customer journey. Top-of-funnel content builds awareness — it's educational, broad, and designed to be discovered (blog posts, social content, videos). Middle-of-funnel content builds consideration — it's more specific and shows your expertise (case studies, comparison guides, webinars). Bottom-of-funnel content drives decisions — it's persuasive and specific (testimonials, product demos, free trials).\n\nDistribution is where most content marketing fails. Creating great content is only half the job. You need to actively promote it — through social media, email, SEO, partnerships, and paid amplification. The '80/20 rule' applies: spend 20% of your time creating and 80% distributing and promoting.",
+  "keyTakeaways": [
+    "Content marketing is about providing value first, selling second",
+    "Match your content format to where your audience spends time",
+    "Map content to the customer journey: awareness → consideration → decision",
+    "Distribution is as important as creation — plan how you'll promote every piece",
+    "Consistency beats perfection — publishing regularly matters more than occasional brilliance"
+  ],
+  "frameworks": ["aida", "customer-journey-map"],
+  "example": "HubSpot built a multi-billion dollar business primarily through content marketing. They created the blog that taught small businesses how to do marketing — for free. Their blog, free tools (like the Website Grader), ebooks, and courses established them as the go-to authority on inbound marketing. When those small businesses were ready to buy marketing software, HubSpot was already their trusted advisor. Their free content was their most powerful sales tool.",
+  "commonMistakes": [
+    "Creating content about what you want to say instead of what your audience wants to learn",
+    "Not having a distribution plan — posting and hoping people find it",
+    "Trying every content format at once instead of mastering one or two",
+    "Being too promotional too early — content should earn trust before asking for anything",
+    "Not measuring what works — every piece of content should have a metric tied to it"
+  ],
+  "exercise": "Imagine you're the marketing manager for a fictional specialty coffee brand targeting young professionals in Sydney. Plan 5 pieces of content: (1) Write a headline and one-line summary for each. (2) Identify whether each piece is top-of-funnel, middle, or bottom. (3) Choose where you'd publish each one. (4) Describe how you'd promote each piece.",
+  "nextLesson": "mastering-social-media",
+  "order": 1,
+  "perspectives": {
+    "marketer": "Content marketing is where your creativity and strategic thinking come together every single day. The practical reality is that most of your time should be spent on distribution, not creation — and that's a mindset shift that takes discipline. Before you write anything, have a distribution plan: which channels will you post it on, who will you email it to, what communities will you share it in, and is there a paid amplification budget?\n\nBuild a content calendar that maps to the customer journey. Monday's blog post targets top-of-funnel awareness searches. Wednesday's email nurture sequence moves consideration-stage leads closer to a decision. Friday's case study gives bottom-of-funnel prospects the social proof they need to convert. When every piece has a purpose and a position in the funnel, you stop producing content for content's sake.\n\nRepurposing is your secret weapon for productivity. One long-form blog post can become three LinkedIn posts, a newsletter section, two short-form videos, and an infographic. Create once, distribute many times. The best content marketers aren't the most prolific writers — they're the best repurposers and distributors.",
+    "cmo": "Content marketing is a long-term brand asset that compounds over time — but only if you treat it as a strategic programme, not a tactical activity. As CMO, your role is to define the content strategy at the highest level: what topics does your brand own? What's the editorial voice? How does content connect to pipeline and revenue?\n\nThe most important strategic decision in content marketing is choosing your 'content tilts' — the two or three topic areas where you aim to be the definitive authority. Trying to cover everything means you'll be mediocre at everything. HubSpot owns 'inbound marketing.' Canva owns 'design for non-designers.' What does your brand own? Once you've defined this, every content decision becomes easier: does this piece reinforce our authority in our chosen territory? If not, it doesn't get made.\n\nMeasure content marketing on a dual time horizon. In the short term (0-3 months), track engagement metrics: traffic, time on page, email subscribers, social shares. In the medium term (3-12 months), track pipeline metrics: leads generated, lead quality scores, assisted conversions. Content that performs well on engagement but poorly on pipeline needs strategic adjustment — you might be attracting the wrong audience or missing conversion opportunities in your content.",
+    "ceo": "Content marketing is one of the few strategies that builds a durable competitive moat. Paid advertising stops the moment you stop paying. Content — blog posts, guides, videos, tools — continues generating traffic, leads, and brand authority for years. From a business perspective, that's an asset on your balance sheet, even if accounting doesn't recognise it as one.\n\nThe CEO's role in content marketing is to champion it as a long-term investment when short-term pressures push toward cutting it. Content programmes typically take 6-12 months to show meaningful ROI, which means they're vulnerable in every quarterly budget review. But the businesses that sustain their content investment through those early months build search rankings, email lists, and brand authority that competitors cannot replicate quickly.\n\nContent also de-risks your customer acquisition strategy. If 100% of your leads come from paid ads, you're one algorithm change or cost increase away from a crisis. A mature content programme that generates 30-50% of leads organically gives you pricing power in ad auctions and resilience against platform changes. That strategic diversification is worth more than the direct ROI of any individual piece of content.",
+    "cfo": "Content marketing has one of the most attractive cost structures in the marketing mix — high upfront investment with declining marginal costs over time. A blog post that costs $500 to produce might generate 50 visits in month one, but 500 visits per month by month twelve as it ranks in search engines. Compare that to a $500 ad spend that generates visits only while the budget is active, and the long-term unit economics of content become compelling.\n\nThe key financial metric for content marketing is cost per lead by content type and funnel stage. Track what it costs to produce each piece of content, how many leads it generates over its lifetime (not just the first month), and what percentage of those leads convert to paying customers. This gives you a true cost-per-acquisition figure for your content programme that you can compare directly against paid channels.\n\nBudget allocation for content should follow a portfolio approach. Allocate 70% of your content budget to proven formats and topics that reliably generate leads. Allocate 20% to emerging formats or new topic areas with growth potential. Reserve 10% for experimental content that might not work but could unlock new audiences. This framework prevents both the waste of throwing money at unproven ideas and the stagnation of only doing what's always worked."
+  },
+  "quiz": [
+    {
+      "question": "What is the fundamental principle of content marketing?",
+      "options": [
+        "Create as much content as possible across every platform",
+        "Provide genuine value to your audience before asking for anything in return",
+        "Disguise sales pitches as helpful articles to trick readers",
+        "Only create content that directly promotes your products"
+      ],
+      "correctIndex": 1,
+      "explanation": "Content marketing works by consistently helping, teaching, or entertaining your audience. This builds trust so that when they're ready to buy, your brand is top of mind."
+    },
+    {
+      "question": "You've written a brilliant blog post but it's getting no traffic. Based on the 80/20 rule of content marketing, what is the most likely problem?",
+      "options": [
+        "The blog post needs to be rewritten with more keywords",
+        "You're spending too much time on distribution and not enough on creation",
+        "You're not actively promoting and distributing the content",
+        "Blog posts are no longer effective as a content format"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 80/20 rule suggests spending 20% of your time creating content and 80% distributing and promoting it. Great content that nobody sees cannot generate results."
+    },
+    {
+      "question": "Which of the following is an incorrect approach to content strategy?",
+      "options": [
+        "Mapping content types to different stages of the customer journey",
+        "Trying every content format at once instead of mastering one or two first",
+        "Measuring the performance of each piece of content against a clear metric",
+        "Choosing formats based on where your audience spends their time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spreading yourself across every format leads to mediocre results everywhere. It's better to master one or two formats that suit your audience and strengths before expanding."
+    }
+  ]
+}

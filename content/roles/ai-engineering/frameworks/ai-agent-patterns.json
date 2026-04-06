@@ -1,0 +1,17 @@
+{
+  "slug": "ai-agent-patterns",
+  "name": "AI Agent Patterns",
+  "summary": "A catalogue of proven architectural patterns for building AI agents — systems that can reason, plan, and take actions autonomously. From simple ReAct loops to sophisticated multi-agent systems, these patterns give you a toolkit for building reliable agent applications.",
+  "whenToUseIt": "Use these patterns when building any AI system that needs to take actions (not just generate text), make multi-step decisions, or coordinate multiple AI components. Choose the simplest pattern that solves your problem — agent complexity should be earned, not assumed.",
+  "steps": [
+    "ReAct (Reason + Act) — The simplest agent pattern. The LLM reasons about what to do, takes an action (calls a tool), observes the result, and repeats until the task is complete. Use this for single-purpose agents like research assistants or data analysts.",
+    "Tool Use — Give the LLM a set of functions it can call (search the web, query a database, send an email). The model decides which tool to use and what arguments to pass. The foundation of most agent systems.",
+    "Planning — Before acting, the agent creates a step-by-step plan. It then executes each step, revising the plan as it learns new information. Use this for complex multi-step tasks like writing a report or debugging code.",
+    "Multi-Agent — Multiple specialised agents collaborate on a task. A 'manager' agent delegates to 'worker' agents (researcher, writer, reviewer). Each agent has its own system prompt and tools. Use this when tasks require diverse expertise.",
+    "Reflection — The agent reviews its own output and critiques it. 'Is this answer correct? Did I miss anything? Could it be better?' This self-check pattern significantly improves quality for complex tasks.",
+    "Human-in-the-Loop — The agent works autonomously but pauses for human approval before taking high-stakes actions (sending emails, making purchases, modifying data). Essential for safety and trust.",
+    "Memory — The agent maintains state across interactions: short-term (current conversation), long-term (persistent knowledge), and episodic (past task experiences). Enables agents that learn and improve over time."
+  ],
+  "example": "Building a customer support agent for an Australian SaaS company. Pattern: ReAct with Tool Use and Human-in-the-Loop. The agent receives a customer complaint about billing. It reasons: 'I need to check this customer's account.' It calls the CRM tool to look up the account. It observes: the customer was double-charged. It reasons: 'I should issue a refund.' Before executing the refund, it pauses for human approval (Human-in-the-Loop). The support manager approves. The agent calls the billing API to process the refund, then drafts a personalised apology email for the support rep to review and send.",
+  "category": "architecture"
+}

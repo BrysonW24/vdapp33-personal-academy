@@ -1,0 +1,10 @@
+{
+  "slug": "bant",
+  "name": "BANT Qualification",
+  "summary": "A classic qualification framework: Budget, Authority, Need, Timeline. Helps you quickly assess whether a prospect is worth pursuing.",
+  "whenToUseIt": "During or after a discovery call to decide whether to invest more time in a deal.",
+  "steps": ["Budget — Can they afford your solution? Do they have budget allocated?", "Authority — Are you talking to the decision maker? If not, can they influence the decision?", "Need — Do they have a real, urgent problem that your solution addresses?", "Timeline — When do they need to solve this? Is there a deadline or trigger event?"],
+  "example": "A prospect with budget approved, talking to the VP who decides, with a compliance deadline in 90 days, and a clear pain from manual processes = strongly qualified. A prospect with no budget, talking to an intern, with vague interest and no timeline = not qualified.",
+  "category": "qualification",
+  "domain": "sales"
+}

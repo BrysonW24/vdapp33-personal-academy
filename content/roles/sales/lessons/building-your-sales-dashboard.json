@@ -1,0 +1,71 @@
+{
+  "slug": "building-your-sales-dashboard",
+  "moduleSlug": "sales-analytics",
+  "title": "Building Your Sales Dashboard",
+  "objective": "Learn which metrics deserve space on a sales dashboard, how to choose the right level of detail, and how to turn data into action instead of noise.",
+  "beginnerExplanation": "A dashboard should help you make better decisions, not just display more charts. The best sales dashboards are built around questions: Are we generating enough pipeline? Where are deals getting stuck? Which reps or segments need coaching? How accurate is the forecast? If the dashboard cannot help answer those questions, it is decoration.",
+  "deeperExplanation": "A useful sales dashboard usually has four layers. Activity: are the leading behaviours happening? Conversion: where is pipeline moving or breaking? Coverage and velocity: do we have enough quality pipeline and how quickly is it advancing? Forecast: what is likely to close and how reliable is that view?\n\nDifferent audiences need different cuts. Reps need personal pipeline and stage health. Managers need team conversion, aging, and forecast risk. Executives need a smaller set of board-level signals. Trying to force one giant dashboard to serve everyone usually makes it useful for no one.\n\nThe real test of a dashboard is actionability. If a metric moves, what changes? If you cannot answer that, it may not belong.",
+  "keyTakeaways": [
+    "Dashboards should answer decisions, not just display data.",
+    "Activity, conversion, coverage, velocity, and forecast are core measurement layers.",
+    "Different audiences need different levels of detail.",
+    "A smaller actionable dashboard is stronger than a larger noisy one.",
+    "Every metric should connect to an action.",
+    "The best dashboards reveal where intervention is needed before the quarter is lost."
+  ],
+  "frameworks": [
+    "sales-velocity",
+    "forecast-methodology"
+  ],
+  "example": "A manager dashboard shows meetings set, stage-to-stage conversion, days in stage, commit gap to target, and top at-risk deals. In one view, the manager can see that demo volume is healthy but proposal-to-close conversion has slipped and several large deals are aging out. That points directly to deal inspection and commercial coaching.",
+  "commonMistakes": [
+    "Adding metrics because they are available rather than useful",
+    "Using one dashboard for reps, managers, and executives",
+    "Tracking lagging metrics without enough leading signals",
+    "Ignoring stage aging and only looking at volume",
+    "Failing to define how each metric is calculated"
+  ],
+  "exercise": "Design a dashboard for one audience: AE, manager, or VP. Limit yourself to eight metrics. For each metric, write the decision it should influence.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the first job of a sales dashboard?",
+      "options": [
+        "To show every available metric",
+        "To help answer the decisions the user needs to make",
+        "To impress leadership with design",
+        "To replace pipeline reviews"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dashboard is useful when it helps the user make a better decision quickly."
+    },
+    {
+      "question": "Why is one giant dashboard usually weak?",
+      "options": [
+        "Because charts are bad",
+        "Because different audiences need different levels of detail",
+        "Because executives dislike data",
+        "Because CRMs cannot support it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reps, managers, and executives each need different slices of the data."
+    },
+    {
+      "question": "What is a good test for whether a metric belongs on the dashboard?",
+      "options": [
+        "It looks impressive",
+        "It changes often",
+        "You can explain what action changes when the metric moves",
+        "It is easy to export"
+      ],
+      "correctIndex": 2,
+      "explanation": "If a metric cannot drive action, it probably does not need a prime position."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs need dashboards that help them prioritise time and understand deal health quickly.",
+    "manager": "Managers use dashboards to spot coaching needs, forecast risk, and segment-level performance changes.",
+    "vp": "A VP needs a smaller set of metrics that connect team execution to the number.",
+    "cro": "A CRO wants dashboards that support planning, inspection, and accountability across the revenue engine."
+  }
+}

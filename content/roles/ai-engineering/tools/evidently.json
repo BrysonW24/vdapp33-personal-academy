@@ -1,0 +1,14 @@
+{
+  "slug": "evidently",
+  "name": "Evidently AI",
+  "category": "evals",
+  "description": "An open-source ML monitoring tool. Detect data drift, model degradation, and data quality issues in production ML systems.",
+  "whyUseIt": "Models degrade over time as data changes. Evidently detects drift before it impacts business metrics. Generates visual reports, integrates with MLflow, and supports custom metrics.",
+  "pricingTier": "freemium",
+  "url": "https://www.evidentlyai.com",
+  "alternatives": [
+    "WhyLabs",
+    "Arize",
+    "Fiddler"
+  ]
+}

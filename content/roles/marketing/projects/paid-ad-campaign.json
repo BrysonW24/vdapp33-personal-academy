@@ -1,0 +1,27 @@
+{
+  "slug": "paid-ad-campaign",
+  "title": "Paid Advertising Campaign",
+  "difficulty": 6,
+  "estimatedHours": 8,
+  "description": "Design a complete paid advertising campaign for Meta (Facebook/Instagram) or Google Ads, including audience targeting, creative, budget allocation, and measurement plan.",
+  "whyItMatters": "Paid advertising is the fastest way to reach a targeted audience at scale. Understanding how to plan, execute, and measure paid campaigns is a core skill for any digital marketer.",
+  "skillsLearned": ["Paid media strategy", "Audience targeting", "Ad creative development", "Budget planning", "ROAS calculation", "Campaign structure"],
+  "prerequisites": ["Understanding of customer personas", "Familiarity with AIDA framework", "Basic analytics knowledge"],
+  "steps": [
+    {"title": "Define campaign objective", "description": "Choose a clear goal: brand awareness, lead generation, or sales. This determines your campaign type, bidding strategy, and success metrics."},
+    {"title": "Define target audience", "description": "Build your targeting: demographics, interests, behaviours, and lookalike audiences. Create 2-3 audience segments to test.", "tips": "Start broader than you think — let the algorithm find the best performers within your audience."},
+    {"title": "Create ad concepts", "description": "Design 3-4 ad variations. For each: headline, primary text, visual/video concept, CTA. Follow platform best practices (Meta: square or vertical, Google: responsive search ads)."},
+    {"title": "Plan campaign structure", "description": "Organise into campaigns > ad sets > ads. Each ad set tests one variable (audience, placement, or creative). Keep it structured."},
+    {"title": "Set budget and bidding", "description": "Allocate a realistic budget (e.g., $500-$2,000). Split across ad sets. Define bidding strategy (lowest cost, target CPA, etc.). Calculate expected reach and results."},
+    {"title": "Build measurement plan", "description": "Define KPIs: impressions, CTR, CPC, conversion rate, CPA, ROAS. Set up conversion tracking (pixel or GA4). Build a simple reporting dashboard."},
+    {"title": "Create optimisation plan", "description": "Plan what you'll check daily/weekly. When will you pause underperformers? When will you scale winners? Define rules.", "tips": "Don't optimise too early — give each ad set at least 50 conversions before making big changes."}
+  ],
+  "deliverables": ["Campaign brief document", "3-4 ad creative mockups", "Audience targeting document", "Budget allocation spreadsheet", "Measurement and optimisation plan"],
+  "tools": ["Meta Ads Manager or Google Ads", "Canva (for ad creative)", "Google Sheets (for budget planning)", "Google Analytics"],
+  "rubric": [
+    {"criteria": "Strategic Foundation", "description": "Campaign has a clear objective tied to business goals, not vanity metrics."},
+    {"criteria": "Targeting Precision", "description": "Audiences are well-defined and differentiated for testing."},
+    {"criteria": "Creative Quality", "description": "Ad concepts are compelling, platform-appropriate, and follow best practices."},
+    {"criteria": "Measurement Rigour", "description": "KPIs are defined, tracking is planned, and optimisation rules are clear."}
+  ]
+}

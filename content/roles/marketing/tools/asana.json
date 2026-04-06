@@ -1,0 +1,46 @@
+{
+  "slug": "asana",
+  "name": "Asana",
+  "category": "project-management",
+  "description": "A project management tool for planning, tracking, and managing marketing campaigns and team workflows.",
+  "whyUseIt": "Asana excels at campaign management — tracking tasks, deadlines, dependencies, and team workload. Its timeline view is perfect for marketing campaign planning, and its forms feature works well for creative request intake.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI-powered task prioritisation, smart status updates, and workflow recommendations.",
+  "alternatives": [
+    "Monday.com",
+    "ClickUp",
+    "Trello"
+  ],
+  "url": "https://asana.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/asana-logo.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Campaign project plans with tasks, subtasks, and deadlines",
+    "Timeline views showing campaign milestones and dependencies",
+    "Workload reports showing team capacity and allocation",
+    "Creative request intake forms with standardised fields",
+    "Status update reports for stakeholders",
+    "Portfolio dashboards tracking multiple campaigns simultaneously",
+    "Automated workflow triggers for recurring marketing processes"
+  ],
+  "marketerWorkflow": "A marketer starts each day in Asana reviewing their My Tasks view, prioritising what's due today versus this week. They update task statuses as work progresses, attach deliverables to tasks for review, and use comments to communicate with teammates without leaving the project context. For each new campaign, they create a project from a template with pre-built task lists covering every phase from briefing through launch and post-mortem.",
+  "managerExpects": "A marketing manager expects every campaign to have a corresponding Asana project with clear ownership, deadlines, and status visibility. They review the portfolio view weekly to see which campaigns are on track, at risk, or blocked, and rely on status updates instead of asking for verbal check-ins. They want to see creative request forms actively used so nothing falls through the cracks.",
+  "aiWorkflowImpact": "In 2025, Asana's AI automatically drafts status updates by summarising task completions and upcoming milestones, saving managers 30 minutes per project per week. Smart task recommendations suggest next steps and flag potential bottlenecks before they cause delays. The AI can also auto-assign tasks based on team workload and past patterns, balancing capacity across the marketing team.",
+  "demoDescription": "Create a free Asana account and set up a project called 'Product Launch Campaign' using the Marketing Campaign template. Add five tasks covering key phases — brief, creative development, review, launch, and post-launch analysis. Set dependencies between them (creative can't start until the brief is approved) and switch to Timeline view to visualise the critical path.",
+  "vocabulary": [
+    { "term": "Task dependency", "definition": "A relationship between tasks where one cannot start or finish until another is completed — essential for mapping out campaign workflows in the correct sequence." },
+    { "term": "Portfolio", "definition": "A high-level view that groups multiple projects together, letting managers track the health and progress of all active campaigns in one place." },
+    { "term": "Workload", "definition": "A resource management view showing how many tasks and effort points are assigned to each team member, helping prevent burnout and bottlenecks." },
+    { "term": "Custom fields", "definition": "Additional data columns you add to tasks — like campaign type, priority level, or channel — enabling filtering and reporting beyond basic task information." },
+    { "term": "Rules / Automation", "definition": "If-then triggers that automate repetitive actions, such as moving a task to 'In Review' when marked complete or notifying a manager when a deadline is missed." },
+    { "term": "Forms", "definition": "Structured request intake pages that create tasks automatically when submitted — commonly used for creative briefs, content requests, or campaign proposals." }
+  ],
+  "beginnerMistakes": [
+    "Creating tasks without due dates or assignees, making it impossible to track accountability or manage deadlines",
+    "Not using templates for recurring campaign types, rebuilding task lists from scratch every time and missing steps",
+    "Putting all tasks in a single massive project instead of breaking work into logical projects with clear scopes",
+    "Ignoring the workload view and over-assigning team members, leading to missed deadlines and burnout",
+    "Using Asana for long-form documentation or brainstorming instead of keeping it focused on actionable tasks and status tracking"
+  ],
+  "relatedProject": "full-marketing-plan"
+}

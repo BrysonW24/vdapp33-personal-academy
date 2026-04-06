@@ -1,0 +1,27 @@
+{
+  "slug": "social-media-calendar",
+  "title": "30-Day Social Media Calendar",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Plan and create a complete 30-day social media content calendar for a brand, including post types, captions, visual direction, and posting schedule.",
+  "whyItMatters": "Social media is often the first marketing channel a brand uses. Planning content in advance ensures consistency, saves time, and allows strategic thinking rather than reactive posting.",
+  "skillsLearned": ["Content planning", "Social media strategy", "Copywriting", "Content pillars", "Platform-specific best practices"],
+  "prerequisites": ["Complete the 'Content That Converts' lesson", "Familiarity with at least one social platform"],
+  "steps": [
+    {"title": "Define the brand and goals", "description": "Choose a brand (real or fictional). Define their social media goals: awareness, engagement, traffic, or sales. Pick 1-2 platforms to focus on."},
+    {"title": "Identify content pillars", "description": "Choose 3-5 content themes that align with the brand and audience. Example: educational tips, behind-the-scenes, customer stories, product highlights, industry trends.", "tips": "Content pillars prevent your feed from being all sales or all fluff. Aim for a mix."},
+    {"title": "Plan the month", "description": "Map out 30 days of posts. Decide posting frequency (e.g., 5x/week). Assign each post a pillar, format (image, carousel, video, story), and platform."},
+    {"title": "Write captions", "description": "Write the actual caption for every post. Include hooks (first line grabs attention), body text, and CTAs where appropriate. Add relevant hashtag suggestions."},
+    {"title": "Create visual direction", "description": "For each post, describe the visual (or create it in Canva). Maintain consistent brand colours and style.", "tips": "You don't need to be a designer — Canva templates work great for this."},
+    {"title": "Add engagement strategy", "description": "Plan how you'll engage with comments, respond to DMs, and interact with other accounts. Schedule 15 minutes per day for community management."}
+  ],
+  "deliverables": ["30-day content calendar spreadsheet", "Written captions for all posts", "Visual mockups for at least 10 posts", "Content pillar strategy document"],
+  "tools": ["Google Sheets or Notion", "Canva", "Later or Buffer (for scheduling preview)"],
+  "rubric": [
+    {"criteria": "Strategic Alignment", "description": "Posts clearly support the stated goals and each pillar is represented."},
+    {"criteria": "Caption Quality", "description": "Captions are engaging, on-brand, and include clear hooks and CTAs."},
+    {"criteria": "Visual Consistency", "description": "Visuals follow a cohesive brand style and feel professional."},
+    {"criteria": "Posting Cadence", "description": "The calendar is realistic and sustainable — not too sparse or too aggressive."},
+    {"criteria": "Platform Fit", "description": "Content is appropriate for the chosen platform (not repurposed blindly)."}
+  ]
+}

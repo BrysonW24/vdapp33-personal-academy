@@ -1,0 +1,29 @@
+{
+  "slug": "perception-sensor-systems",
+  "title": "Perception and Sensor Systems",
+  "shortSummary": "A robotics specialization on visual perception, sensor fusion, calibration, and failure handling in the physical world.",
+  "track": "robotics-autonomy",
+  "level": "advanced",
+  "category": "specialization",
+  "whyItMatters": "Tesla- and SpaceX-style AI roles live at the boundary between models, sensors, and hardware. This module introduces the perception layer behind those systems.",
+  "coreConcepts": [
+    "Camera, lidar, radar, and sensor-fusion basics",
+    "Calibration and synchronization challenges",
+    "Perception failure modes in real-world environments",
+    "Latency and compute constraints on physical systems",
+    "Benchmarking perception beyond offline accuracy"
+  ],
+  "lessons": [
+    "perception-sensor-systems-lesson"
+  ],
+  "frameworks": [
+    "system-design-template"
+  ],
+  "relatedModules": [
+    "edge-inference-hardware-acceleration",
+    "real-time-embedded-ai"
+  ],
+  "status": "coming-soon",
+  "order": 13,
+  "levelNumber": 4
+}

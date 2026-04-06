@@ -1,0 +1,23 @@
+{
+  "slug": "outbound-outreach",
+  "title": "Outbound Outreach",
+  "shortSummary": "Cold email, cold call, LinkedIn, and multi-channel sequences. Learn to break through the noise and earn the first conversation.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "Your prospects are drowning in outreach. The average decision-maker receives over 100 emails a day and ignores most cold calls. To stand out, you need to be relevant, concise, and persistent without being annoying. Great outbound is a craft — it combines research, copywriting, timing, and multi-channel coordination.",
+  "coreConcepts": [
+    "Cold email: subject lines, personalisation, CTAs",
+    "Cold calling: openers, tone, handling gatekeepers",
+    "LinkedIn outreach: connection requests, InMails, engagement",
+    "Pattern interrupts, personalised first lines, and permission-based openers",
+    "Multi-channel sequence design and cadence",
+    "A/B testing and iteration",
+    "Compliance: CAN-SPAM, Australian spam laws, GDPR basics"
+  ],
+  "lessons": ["crafting-your-outreach", "cold-calling-that-earns-conversations", "writing-outreach-that-earns-replies"],
+  "frameworks": ["challenger-sale", "sandler-selling", "cold-email", "cold-calling", "personalised-first-line-outreach", "pattern-interrupt-openers", "permission-based-opener"],
+  "relatedModules": ["prospecting", "discovery-calls", "communication-fundamentals"],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

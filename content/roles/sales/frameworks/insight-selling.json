@@ -1,0 +1,13 @@
+{
+  "slug": "insight-selling",
+  "name": "Insight Selling",
+  "summary": "A selling approach that creates momentum by helping the buyer see something important about their situation that they had not fully framed before.",
+  "whenToUseIt": "Use insight selling when the buyer needs a sharper perspective on the problem, the cost of inaction, or a better way to understand the decision they are making.",
+  "steps": [
+    "Identify an insight that is relevant, credible, and commercially useful to the buyer.",
+    "Connect that perspective to the buyer's current situation and blind spots.",
+    "Use the insight to reframe the decision and guide the next conversation."
+  ],
+  "example": "A buyer thinks poor forecast accuracy is only a CRM hygiene issue. The rep introduces the insight that inconsistent manager inspection and stage definitions are the deeper system problem, which changes how the buyer approaches the solution.",
+  "category": "sales-methodology"
+}

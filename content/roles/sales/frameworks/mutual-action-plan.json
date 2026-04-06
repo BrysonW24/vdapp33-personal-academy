@@ -1,0 +1,13 @@
+{
+  "slug": "mutual-action-plan",
+  "name": "Mutual Action Plan",
+  "summary": "A close framework that lays out the shared milestones, owners, and dates required for a deal to progress from interest to signature.",
+  "whenToUseIt": "Use a mutual action plan in serious mid-market and enterprise deals where several workstreams such as security, procurement, legal, and executive approval must stay coordinated.",
+  "steps": [
+    "List the real milestones between current stage and signature.",
+    "Assign owners, dates, and success criteria for each milestone on both sides.",
+    "Review and update the plan together as the deal evolves."
+  ],
+  "example": "A MAP shows security review this week, procurement next week, CFO sign-off after that, and order form by month end, with named owners on both buyer and seller sides.",
+  "category": "closing"
+}

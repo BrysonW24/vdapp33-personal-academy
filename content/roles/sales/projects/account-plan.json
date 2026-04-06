@@ -1,0 +1,71 @@
+{
+  "slug": "account-plan",
+  "title": "Strategic Account Plan",
+  "difficulty": 8,
+  "estimatedHours": 10,
+  "description": "Create a comprehensive strategic account plan for a key account, including stakeholder mapping, competitive analysis, growth opportunities, risk assessment, and a 90-day action plan with specific milestones.",
+  "whyItMatters": "Strategic account planning is what separates account managers from strategic account leaders. A great account plan turns reactive firefighting into proactive growth. It forces you to think beyond the next renewal and consider the long-term partnership: where can you expand, who else needs to be involved, what's the competitive threat, and what does the 3-year revenue trajectory look like?",
+  "skillsLearned": [
+    "Strategic account analysis",
+    "Stakeholder mapping and relationship scoring",
+    "Competitive intelligence within accounts",
+    "Revenue expansion opportunity identification",
+    "Risk assessment and mitigation planning",
+    "Executive-level strategic thinking"
+  ],
+  "prerequisites": ["pipeline-audit", "proposal-writing"],
+  "steps": [
+    {
+      "title": "Account Overview and Research",
+      "description": "Choose a company (real or fictional) and create a comprehensive account profile. Document: company overview, industry, revenue, headcount, strategic priorities, recent news, executive team, competitive landscape, and technology stack. Include financial health indicators.",
+      "tips": "Use public sources: annual reports, LinkedIn, press releases, industry reports. For Australian companies, check ASX announcements, ASIC filings, and industry bodies."
+    },
+    {
+      "title": "Stakeholder Map",
+      "description": "Map every relevant stakeholder: title, role in buying decisions (champion, decision-maker, influencer, blocker, user), relationship strength (1-5), what they care about, and your engagement plan. Identify at least 8 stakeholders across multiple teams and seniority levels.",
+      "tips": "Use a visual format — a diagram showing reporting lines and influence relationships. Colour-code by relationship strength. The biggest gaps in your map are your biggest risks."
+    },
+    {
+      "title": "Current Footprint and Health Assessment",
+      "description": "Document your current presence in the account: products in use, contract values, renewal dates, satisfaction scores, support tickets, usage data, and any outstanding issues. Rate the overall health of the relationship (Red/Amber/Green) with specific evidence.",
+      "tips": "Be honest about red flags. An account where you have a great relationship with one champion but no executive sponsorship is more at risk than it appears."
+    },
+    {
+      "title": "Competitive and Risk Analysis",
+      "description": "Document competitive threats: what other vendors are present, where they're strong, what's at risk of displacement. Assess internal risks: champion departure, budget cuts, reorganisation, technology shifts. For each risk, write a mitigation plan.",
+      "tips": "The most dangerous competitor is often a new executive who brings their preferred vendor from their previous company. Monitor leadership changes closely."
+    },
+    {
+      "title": "Growth Strategy and 90-Day Plan",
+      "description": "Identify 3-5 specific growth opportunities: new teams, new use cases, product upgrades, additional seats. For each, estimate revenue, probability, champion, and timeline. Then create a 90-day action plan with specific weekly milestones: meetings to book, proposals to send, QBRs to schedule, relationships to build.",
+      "tips": "The best account plans have a 'protect, grow, deepen' structure. Protect existing revenue (renewals, risk mitigation). Grow through expansion (upsell, cross-sell). Deepen relationships (new stakeholders, executive alignment)."
+    }
+  ],
+  "deliverables": [
+    "A comprehensive account overview document (2-3 pages)",
+    "A visual stakeholder map with 8+ contacts, relationship scores, and engagement plans",
+    "A current footprint analysis with health assessment",
+    "A competitive and risk analysis with mitigation plans",
+    "A growth strategy with 3-5 prioritised opportunities and revenue estimates",
+    "A 90-day action plan with weekly milestones"
+  ],
+  "tools": ["salesforce", "linkedin-sales-nav", "notion-sales", "google-workspace"],
+  "rubric": [
+    {
+      "criteria": "Strategic Depth",
+      "description": "The plan demonstrates genuine strategic thinking — not just a list of contacts and products, but a clear analysis of where the account is heading and how to align."
+    },
+    {
+      "criteria": "Stakeholder Coverage",
+      "description": "The stakeholder map is comprehensive (8+ contacts), multi-threaded (across teams and seniority levels), and includes honest relationship strength assessments."
+    },
+    {
+      "criteria": "Growth Realism",
+      "description": "Expansion opportunities are specific, sized, and tied to champions and trigger events. Revenue estimates are grounded in reality, not wishful thinking."
+    },
+    {
+      "criteria": "Actionability",
+      "description": "The 90-day plan has specific, time-bound actions with owners. It could be reviewed weekly to track progress. It's a working document, not a shelf document."
+    }
+  ]
+}

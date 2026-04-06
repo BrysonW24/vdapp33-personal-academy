@@ -1,0 +1,46 @@
+{
+  "slug": "hubspot",
+  "name": "HubSpot CRM",
+  "category": "crm",
+  "description": "An all-in-one CRM platform with marketing, sales, and service hubs. The free CRM is one of the most generous in the industry.",
+  "whyUseIt": "HubSpot is the most popular CRM for growing businesses. Its free tier includes contact management, email marketing, forms, and basic automation. As you grow, you can add marketing automation, sales tools, and customer service — all in one platform.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI content assistant for emails and blogs, predictive lead scoring, AI chatbot builder, and automated data enrichment.",
+  "alternatives": [
+    "Salesforce",
+    "Pipedrive",
+    "Zoho CRM"
+  ],
+  "url": "https://www.hubspot.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/hubspot.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Contact records enriched with interaction history across email, website, and social",
+    "Email marketing campaigns with personalisation tokens and A/B testing",
+    "Landing pages and forms for lead capture",
+    "Automated workflows triggered by contact behaviour or lifecycle stage changes",
+    "Pipeline reports showing deal stages, velocity, and forecast",
+    "Blog posts and content published through HubSpot's CMS",
+    "Custom dashboards combining marketing, sales, and service metrics"
+  ],
+  "marketerWorkflow": "A marketer in HubSpot manages the full lead lifecycle — creating forms and landing pages to capture leads, building email nurture sequences to move them through the funnel, and monitoring the pipeline to ensure marketing-qualified leads convert to sales opportunities. They segment contacts by lifecycle stage, score leads based on engagement, and build automated workflows that trigger actions like sending a follow-up email when someone downloads a resource or assigning a lead to sales when they visit the pricing page.",
+  "managerExpects": "A marketing manager expects you to maintain a clean, well-organised CRM where every contact has accurate data and a clear lifecycle stage. They want to see lead generation metrics — how many MQLs marketing is producing, the conversion rate from MQL to SQL, and which channels and campaigns drive the highest-quality leads. They expect you to use workflows to automate repetitive tasks and produce reports that connect marketing activity directly to pipeline and revenue.",
+  "aiWorkflowImpact": "HubSpot's AI content assistant drafts emails, blog posts, and social captions directly within the platform, significantly cutting content creation time. Predictive lead scoring uses machine learning to rank contacts by likelihood to close, replacing manual scoring models that quickly go stale. The AI chatbot builder lets marketers create conversational bots that qualify leads on the website 24/7 without developer involvement, feeding qualified contacts directly into the CRM with full conversation history.",
+  "demoDescription": "Create a free HubSpot CRM account and import a small CSV of 10-20 test contacts. Set up a simple landing page with a form offering a downloadable resource. Then build a 3-step workflow: when someone submits the form, send a thank-you email, wait 2 days, then send a follow-up email with related content. Watch the contacts flow through the workflow in the automation view.",
+  "vocabulary": [
+    { "term": "Lifecycle Stage", "definition": "A classification that tracks where a contact is in your funnel — Subscriber, Lead, Marketing Qualified Lead (MQL), Sales Qualified Lead (SQL), Opportunity, Customer, Evangelist. It aligns marketing and sales on lead handoff criteria." },
+    { "term": "Workflow", "definition": "An automated sequence of actions triggered by a specific condition. Workflows can send emails, update contact properties, create tasks, assign leads to sales reps, and more — all without manual intervention." },
+    { "term": "Deal Pipeline", "definition": "A visual representation of your sales process with defined stages (e.g., Discovery, Proposal, Negotiation, Closed Won). Each deal moves through stages as it progresses toward close." },
+    { "term": "Lead Scoring", "definition": "A system that assigns numeric points to contacts based on their attributes (job title, company size) and behaviours (email opens, page views, form submissions) to identify who is most ready to buy." },
+    { "term": "Contact Property", "definition": "A data field stored on a contact record — name, email, company, lifecycle stage, last activity date, or any custom field you create. Properties power segmentation, personalisation, and reporting." },
+    { "term": "HubSpot Tracking Code", "definition": "A JavaScript snippet installed on your website that tracks which pages contacts visit, what forms they submit, and how they interact with your site — all tied back to their CRM record." }
+  ],
+  "beginnerMistakes": [
+    "Importing messy data without cleaning and deduplicating contacts first, which creates a disorganised CRM from day one",
+    "Not defining lifecycle stages and lead scoring criteria before launching campaigns, making it impossible to measure funnel performance",
+    "Building overly complex workflows before mastering simple ones, leading to automation errors and confused contacts",
+    "Ignoring contact property hygiene — letting records accumulate with missing fields, wrong lifecycle stages, and no engagement tracking",
+    "Using HubSpot as a glorified email tool instead of leveraging the CRM, automation, and reporting capabilities that make it valuable"
+  ],
+  "relatedProject": "full-marketing-plan"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "testing-experimentation",
+  "title": "Testing & Experimentation",
+  "shortSummary": "How to run experiments, A/B tests, and learn from data to continuously improve marketing performance.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "The best marketers treat everything as a hypothesis. Testing lets you validate ideas before committing big budgets. Small experiments compound into massive improvements over time.",
+  "coreConcepts": ["A/B testing", "Hypothesis formation", "Statistical significance", "Multivariate testing", "Test design", "Learning loops", "Iteration cycles"],
+  "lessons": ["running-marketing-experiments"],
+  "frameworks": ["ab-testing-framework", "kpi-cheat-sheet"],
+  "relatedModules": ["analytics-attribution-kpis", "paid-advertising", "content-marketing"],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 3
+}

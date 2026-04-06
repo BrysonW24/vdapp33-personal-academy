@@ -1,0 +1,46 @@
+{
+  "slug": "figma",
+  "name": "Figma",
+  "category": "design",
+  "description": "A collaborative interface design tool used for creating mockups, prototypes, and design systems. It runs in the browser and enables real-time collaboration.",
+  "whyUseIt": "Figma is the industry standard for digital design. Marketers use it to create social media graphics, landing page mockups, brand guidelines, and presentation decks. Its collaborative features mean you can work with designers in real-time.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "Figma AI can generate designs from text prompts, auto-layout suggestions, and smart component recommendations.",
+  "alternatives": [
+    "Canva",
+    "Adobe XD",
+    "Sketch"
+  ],
+  "url": "https://www.figma.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/figma-icon.svg",
+  "funnelPosition": "Mid-funnel — Consideration",
+  "outputs": [
+    "Landing page wireframes and high-fidelity mockups",
+    "Interactive prototypes with clickable user flows",
+    "Brand guidelines documents with typography, colour, and component specifications",
+    "Social media templates and ad creative mockups",
+    "Design system component libraries reusable across projects",
+    "Presentation decks with custom layouts and animations",
+    "Developer-ready design specs with exportable assets and CSS values"
+  ],
+  "marketerWorkflow": "A marketer working in Figma collaborates with designers to build landing page mockups, review ad creative concepts, and maintain brand assets. They use Figma to create wireframes for new campaigns, annotate designs with feedback using comments, and build presentation decks that go beyond what PowerPoint can do. When working on website or app marketing, they use prototyping to create clickable demos that stakeholders can interact with before development begins.",
+  "managerExpects": "A marketing manager expects you to use Figma to communicate visual ideas clearly — whether that is mocking up a landing page before briefing a developer, creating ad creative concepts for review, or maintaining a library of approved brand templates. They want you to leave precise, actionable feedback on designs using Figma's commenting system rather than vague verbal direction, and to understand basic design principles well enough to work effectively with design teams.",
+  "aiWorkflowImpact": "Figma AI generates initial design layouts from text descriptions, allowing marketers to produce rough mockups without waiting for a designer. Auto-layout intelligence suggests responsive spacing and alignment that follow best practices, reducing the learning curve for non-designers. The AI also recommends existing components from your design system when you are building new screens, ensuring consistency and saving time. For marketing teams, this means faster iteration on landing pages, ad creatives, and campaign assets.",
+  "demoDescription": "Create a free Figma account and open a new design file. Use the frame tool to create an iPhone-sized frame, then build a simple landing page mockup with a hero headline, a call-to-action button, and an image placeholder. Apply auto-layout to your button so it resizes with its text. Then duplicate the frame and create a second screen, linking them with a prototype interaction so clicking the button navigates to the second screen.",
+  "vocabulary": [
+    { "term": "Frame", "definition": "The fundamental container in Figma, similar to an artboard. Frames can represent screens, sections, or components, and they support auto-layout for responsive resizing." },
+    { "term": "Component", "definition": "A reusable design element — like a button, card, or navigation bar — that can be instanced throughout your designs. Editing the main component updates all instances automatically." },
+    { "term": "Auto Layout", "definition": "A feature that automatically arranges elements within a frame based on defined rules — padding, spacing, and alignment. It makes designs responsive and eliminates manual pixel pushing." },
+    { "term": "Prototype", "definition": "An interactive version of your designs where frames are linked together with transitions and interactions. Prototypes let stakeholders click through a design as if it were a real website or app." },
+    { "term": "Design System", "definition": "A structured library of reusable components, styles (colours, typography), and guidelines that ensure visual consistency across all designs. Marketing teams use design systems to maintain brand coherence." },
+    { "term": "Dev Mode", "definition": "A Figma view that provides developers with CSS code, spacing measurements, asset exports, and component properties — bridging the gap between design and implementation." }
+  ],
+  "beginnerMistakes": [
+    "Creating designs with absolute positioning instead of using auto-layout, resulting in layouts that break when content changes",
+    "Not using components for repeated elements like buttons and cards, leading to inconsistent designs and painful update processes",
+    "Leaving layers unnamed and unorganised, making the file difficult for collaborators (and your future self) to navigate",
+    "Designing at arbitrary sizes instead of using standard device frames, so mockups do not reflect how designs will actually appear",
+    "Forgetting to use Figma's commenting system for feedback and instead giving verbal or email direction that gets lost and lacks context"
+  ],
+  "relatedProject": "landing-page-optimization"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "trial-alignment",
+  "name": "Trial Alignment",
+  "summary": "A technique that checks alignment on key issues before a full close attempt so blockers appear earlier and more safely.",
+  "whenToUseIt": "Use trial alignment during discovery, after demos, and before late-stage milestones when you want to test whether the buyer is actually aligned or only being polite.",
+  "steps": [
+    "Summarize what you believe has been agreed so far.",
+    "Ask whether that summary feels accurate and complete to the buyer.",
+    "Use the gaps or hesitation to surface blockers before the official close."
+  ],
+  "example": "Before moving to proposal, the rep says, 'It sounds like we are aligned on the problem, the expected rollout, and the stakeholder group. Is there anything still missing from your side before a commercial step makes sense?'",
+  "category": "objection-handling"
+}

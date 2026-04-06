@@ -1,0 +1,72 @@
+{
+  "slug": "negotiation-prep-and-tradeables",
+  "moduleSlug": "negotiation",
+  "title": "Negotiation Prep and Tradeables",
+  "objective": "Learn how to prepare for negotiation, identify what you can trade, and protect value by giving only with purpose.",
+  "beginnerExplanation": "The best negotiators do not improvise from emotion. They prepare. Before the call, they know their target outcome, their walk-away point, the likely buyer asks, and what they can trade in return for concessions. That is important because negotiation is not about winning every point. It is about reaching terms both sides can commit to without damaging the value of the deal.",
+  "deeperExplanation": "Preparation starts with leverage. What does the buyer want badly enough that you still have room to hold value? What deadline exists? How much internal support does the deal already have? Then define your tradeables. These can include contract length, payment timing, implementation sequencing, case study rights, scope, services, or renewal structure. The rule is simple: every give should get a get.\n\nIt also helps to separate variables. Price is only one variable. If you negotiate only on price, you lose flexibility quickly. If you negotiate across price, term, scope, and timing, you have more room to create mutual value.\n\nFinally, rehearse the conversation. Negotiation gets emotional when reps are surprised. Preparation lowers surprise and makes you less likely to concede out of discomfort.",
+  "keyTakeaways": [
+    "Strong negotiation starts before the buyer asks for a concession.",
+    "Know your target outcome, floor, and walk-away point.",
+    "Every give should get a get.",
+    "Price is only one negotiation variable.",
+    "Preparation reduces emotional concession-making.",
+    "Well-prepared negotiators protect value while still making progress."
+  ],
+  "frameworks": [
+    "sandler-selling",
+    "value-selling"
+  ],
+  "example": "A buyer wants a 15 percent discount. Instead of saying yes or no immediately, you know your options. You can discuss a longer term, annual prepayment, a narrower rollout, or a reference commitment. The conversation changes from 'Can we pay less?' to 'What can both sides change to make this work?'",
+  "commonMistakes": [
+    "Entering negotiation without a clear floor or walk-away point",
+    "Conceding on price before exploring other variables",
+    "Giving something away for nothing in return",
+    "Treating negotiation as combat instead of commercial design",
+    "Failing to rehearse likely buyer asks in advance"
+  ],
+  "exercise": "For one hypothetical deal, write your ideal outcome, acceptable outcome, and walk-away point. Then list five tradeables you could use besides pure price and what you would ask for in return for each.",
+  "nextLesson": "working-with-procurement",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is a tradeable in negotiation?",
+      "options": [
+        "A product bug",
+        "Something you can change or offer in exchange for value from the buyer",
+        "Only a discount",
+        "A legal term you cannot influence"
+      ],
+      "correctIndex": 1,
+      "explanation": "A tradeable is any variable you can use to reach better terms while still protecting value."
+    },
+    {
+      "question": "Why is negotiating only on price risky?",
+      "options": [
+        "Because buyers do not care about price",
+        "Because it removes flexibility and often damages deal value quickly",
+        "Because finance prefers longer calls",
+        "Because it delays procurement"
+      ],
+      "correctIndex": 1,
+      "explanation": "When price is the only variable, you lose room to create mutual value through other terms."
+    },
+    {
+      "question": "What does 'every give gets a get' mean?",
+      "options": [
+        "You should never change terms",
+        "Every concession should come with something meaningful in return",
+        "Only procurement can ask for concessions",
+        "The first offer should always be your final offer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Good negotiators trade deliberately rather than conceding for free."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should prepare tradeables before the conversation so they negotiate with intention instead of stress.",
+    "manager": "Managers can protect ASP by reviewing negotiation prep before large commercial calls.",
+    "vp": "A VP wants the team aligned on which terms are flexible, which are protected, and when approval is needed.",
+    "cfo": "A CFO cares that concessions are made for real commercial reasons and that long-term value is not traded away casually."
+  }
+}

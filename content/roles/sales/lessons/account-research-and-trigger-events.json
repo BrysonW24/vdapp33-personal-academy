@@ -1,0 +1,72 @@
+{
+  "slug": "account-research-and-trigger-events",
+  "moduleSlug": "prospecting",
+  "title": "Account Research and Trigger Events",
+  "objective": "Learn how to research accounts efficiently, spot buying signals, and turn that research into credible outreach and prioritisation.",
+  "beginnerExplanation": "Good account research is not about collecting trivia. It is about finding information that changes how you prioritise the account or how you start the conversation. Trigger events are the moments that make change more likely: leadership hires, funding, expansion, layoffs, product launches, mergers, compliance deadlines, system changes, or public performance pressure. Research matters because timing matters.",
+  "deeperExplanation": "A practical research flow starts with the company, then narrows to the role. At the company level, look for strategic shifts: growth, restructuring, product direction, investor pressure, or operating issues. At the team level, look for changes in leadership, headcount, process maturity, or public priorities. At the individual level, look for what that person is accountable for right now.\n\nThe goal is not to build a beautiful dossier. The goal is to answer three questions quickly. Why this account? Why this person? Why now? If your research does not help you answer those, it is probably noise.\n\nStrong sellers also keep a trigger library. Over time you learn which signals are correlated with action in your market. That lets you prioritise faster. A new VP of Sales may be a stronger trigger than a funding announcement. A compliance deadline may beat both. Track what turns into meetings and opportunities so your research gets sharper every quarter.",
+  "keyTakeaways": [
+    "Research should improve prioritisation and messaging, not become a procrastination habit.",
+    "Trigger events increase the chance that the buyer is open to change now.",
+    "Strong research answers why this account, why this person, and why now.",
+    "Company-level, team-level, and individual-level research all matter.",
+    "A trigger library helps you learn which signals actually correlate with pipeline.",
+    "Good research should make your outreach more relevant and your account list cleaner."
+  ],
+  "frameworks": [
+    "challenger-sale",
+    "value-selling"
+  ],
+  "example": "You sell contract workflow software. Two accounts fit your ICP. Account A just raised funding, but there is no visible sign of operational strain. Account B hired a new General Counsel, expanded into two regulated markets, and posted three openings for legal operations. Account B is the better priority because the triggers are directly tied to process complexity, compliance pressure, and likely workflow pain.",
+  "commonMistakes": [
+    "Doing deep research on low-fit accounts because the company name feels exciting",
+    "Mistaking general news for a relevant buying trigger",
+    "Collecting information without translating it into a hypothesis or outreach angle",
+    "Spending 30 minutes researching an account that deserves a Tier 3 touch",
+    "Failing to track which triggers actually lead to meetings or opportunities"
+  ],
+  "exercise": "Choose five target accounts. For each one, write one company-level signal, one role-level signal, and one reason the timing may or may not be real. Rank the five in order of priority and explain your ranking in one sentence each.",
+  "nextLesson": "prospecting-motions-that-create-luck",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What is the main purpose of account research?",
+      "options": [
+        "To impress the buyer with random facts",
+        "To improve prioritisation and message relevance",
+        "To avoid making calls",
+        "To replace qualification"
+      ],
+      "correctIndex": 1,
+      "explanation": "Research is useful when it helps you prioritise better and speak more specifically."
+    },
+    {
+      "question": "Which of these is most likely to be a true trigger event?",
+      "options": [
+        "The company has a nice website",
+        "A new VP is hired to fix the exact function your product supports",
+        "The company logo is recognisable",
+        "A prospect accepted your connection request"
+      ],
+      "correctIndex": 1,
+      "explanation": "A new leader with a clear mandate often creates urgency, budget, and willingness to change."
+    },
+    {
+      "question": "What three questions should strong research answer?",
+      "options": [
+        "Why us, why price, why contract",
+        "Why this account, why this person, why now",
+        "Why outbound, why inbound, why partner",
+        "Why product, why roadmap, why support"
+      ],
+      "correctIndex": 1,
+      "explanation": "Those three questions force research to stay commercially relevant."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should use research to get smarter, not slower. Relevance beats volume, but relevance still has to scale.",
+    "manager": "Managers can improve prospecting quality by reviewing account prioritisation logic, not just activity counts.",
+    "vp": "A VP wants repeatable trigger patterns the whole team can use, not hero research that only one rep knows how to do.",
+    "cro": "A CRO sees better prioritisation as a direct path to higher pipeline efficiency and faster cycle times."
+  }
+}

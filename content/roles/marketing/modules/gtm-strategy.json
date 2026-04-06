@@ -1,0 +1,15 @@
+{
+  "slug": "gtm-strategy",
+  "title": "Go-to-Market Strategy",
+  "shortSummary": "Plan and execute a product launch — from market analysis to channel selection to launch day.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "A brilliant product with a bad go-to-market strategy will fail. GTM brings together everything you've learned — research, positioning, channels, messaging — into a coordinated launch plan.",
+  "coreConcepts": ["Market sizing", "Launch planning", "Channel strategy", "Pricing strategy", "Competitive positioning", "Sales enablement", "Launch metrics"],
+  "lessons": ["launching-a-product"],
+  "frameworks": ["swot", "stp"],
+  "relatedModules": ["positioning-value-proposition", "campaign-planning", "budgeting-channel-allocation"],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 4
+}

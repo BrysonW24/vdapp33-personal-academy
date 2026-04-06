@@ -1,0 +1,13 @@
+{
+  "slug": "summary-close",
+  "name": "Summary Close",
+  "summary": "A closing technique that restates the agreed pain, value, and path before asking for the next commitment.",
+  "whenToUseIt": "Use the summary close when the buyer has seen enough value but still needs the logic of the decision pulled together clearly before moving ahead.",
+  "steps": [
+    "Summarize the key problem, impact, and agreed outcomes in plain language.",
+    "Restate why the proposed path is the right next move.",
+    "Ask directly for the commitment that follows logically from the summary."
+  ],
+  "example": "A rep closes by summarizing the buyer's coaching inconsistency, the cost of poor forecast confidence, the agreed rollout shape, and then asks whether it is time to move into the commercial review.",
+  "category": "closing"
+}

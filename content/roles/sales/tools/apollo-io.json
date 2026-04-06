@@ -1,0 +1,27 @@
+{
+  "slug": "apollo-io",
+  "name": "Apollo.io",
+  "category": "email",
+  "description": "An all-in-one sales intelligence and engagement platform that combines a massive B2B contact database (275M+ contacts) with email sequencing, calling, and analytics. Apollo is popular with startups and growth-stage companies because it replaces multiple tools at a fraction of the cost.",
+  "whyUseIt": "Apollo solves two problems at once: finding prospects (with its built-in database) and reaching them (with its sequence and calling tools). For teams that can't afford separate tools for data, engagement, and analytics, Apollo provides 80% of the functionality at 20% of the price. It's particularly strong for building targeted prospect lists quickly.",
+  "pricingTier": "freemium",
+  "url": "https://www.apollo.io",
+  "logoUrl": "/tools/apollo-io.svg",
+  "aiCapabilities": "Apollo AI scores leads, suggests personalised email copy, recommends optimal send times, and provides intent signals showing which accounts are actively researching your product category.",
+  "alternatives": ["outreach-io", "salesloft", "zoominfo"],
+  "funnelPosition": "Top of funnel — lead sourcing, prospecting, and initial outreach",
+  "outputs": ["Prospect lists", "Email sequences", "Contact enrichment data", "Intent signals", "Engagement analytics"],
+  "sellerWorkflow": "SDRs search the database for prospects matching the ICP, build lists, enrich contact data, and enrol prospects into sequences — all within one tool. AEs use Apollo for account research and signal monitoring.",
+  "managerExpects": "Prospect lists aligned to ICP, consistent sequence execution, engagement metrics reviewed weekly, and CRM sync working cleanly so nothing falls through the cracks.",
+  "demoDescription": "Search the contact database with ICP filters, build a prospect list, enrich contacts with emails and phone numbers, create a multi-step sequence, and view engagement analytics.",
+  "vocabulary": [
+    { "term": "Intent Signal", "definition": "Behavioural data showing a company is actively researching topics related to your product — a buying signal." },
+    { "term": "Enrichment", "definition": "The process of adding missing data (email, phone, title, company info) to a contact record." }
+  ],
+  "beginnerMistakes": [
+    "Sending to unverified emails — always use Apollo's email verification before sequencing",
+    "Building lists that are too broad instead of tightly matching your ICP",
+    "Not syncing Apollo with your CRM — creating duplicate contacts and lost data"
+  ],
+  "relatedProject": "prospect-research"
+}

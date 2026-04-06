@@ -1,0 +1,14 @@
+{
+  "slug": "weaviate",
+  "name": "Weaviate",
+  "category": "vector-db",
+  "description": "An open-source vector database with built-in ML model inference. Supports hybrid search combining vector and keyword search.",
+  "whyUseIt": "Weaviate's hybrid search and built-in vectorisation make it ideal for complex retrieval scenarios. Self-hostable with a managed cloud option. Strong for production RAG applications.",
+  "pricingTier": "freemium",
+  "url": "https://weaviate.io",
+  "alternatives": [
+    "Pinecone",
+    "ChromaDB",
+    "Qdrant"
+  ]
+}

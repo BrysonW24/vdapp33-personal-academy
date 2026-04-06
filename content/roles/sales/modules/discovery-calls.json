@@ -1,0 +1,24 @@
+{
+  "slug": "discovery-calls",
+  "title": "Discovery Calls",
+  "shortSummary": "Discovery is where deals are won or lost. Learn to run structured business and technical discovery that uncovers real pain, qualifies opportunities, and positions you as a trusted adviser.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "Discovery is the most important stage of any sales process. Skip it or rush it, and you'll spend weeks chasing deals that were never going to close. Do it well, and you'll know what the buyer needs, what that problem costs, which technical and executive stakeholders matter, and how to position your solution with credibility. Every great AE is a great discovery caller first.",
+  "coreConcepts": [
+    "Discovery call structure and flow",
+    "Open-ended questioning techniques",
+    "Qualifying with BANT, MEDDIC, or SPIN",
+    "Choosing deeper qualification models for complex deals",
+    "Identifying the real decision-maker, champion, and technical evaluator",
+    "Uncovering the cost of inaction",
+    "Setting next steps and mutual action plans",
+    "Separating business discovery from technical discovery"
+  ],
+  "lessons": ["the-perfect-discovery-call", "qualifying-with-meddic-and-bant", "future-state-and-modern-qualification"],
+  "frameworks": ["meddic", "meddpicc", "bant", "champ", "neat", "anum", "faint", "gpctba-ci", "spin-selling", "gap-selling", "future-state-questioning", "problem-amplification"],
+  "relatedModules": ["communication-fundamentals", "presentations-demos", "objection-handling"],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

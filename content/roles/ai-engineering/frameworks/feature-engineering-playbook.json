@@ -1,0 +1,17 @@
+{
+  "slug": "feature-engineering-playbook",
+  "name": "Feature Engineering Playbook",
+  "summary": "A practical guide to creating useful features from raw data. Feature engineering is often the highest-leverage activity in an ML project — a simple model with great features usually beats a complex model with raw features. This playbook covers the most common and effective techniques.",
+  "whenToUseIt": "Use this playbook during the data preparation phase of any ML project. When model performance plateaus, feature engineering is usually the first thing to try before switching to a more complex algorithm.",
+  "steps": [
+    "Numeric Transformations — Normalisation (0-1 scaling), standardisation (mean=0, std=1), log transforms for skewed distributions, binning continuous values into categories.",
+    "Categorical Encoding — One-hot encoding for low-cardinality categories, target encoding for high-cardinality, ordinal encoding for ordered categories (small/medium/large).",
+    "Temporal Features — Extract hour, day of week, month, is_weekend, is_holiday from timestamps. Create time-since features (days since last purchase, hours since last login).",
+    "Text Features — TF-IDF scores, text length, word count, sentiment scores, presence of specific keywords. For modern NLP, use embeddings from pre-trained models.",
+    "Interaction Features — Combine existing features: price_per_sqm = price / area, click_through_rate = clicks / impressions. Domain knowledge drives the best interaction features.",
+    "Aggregation Features — Group-level statistics: average order value per customer, total purchases in last 30 days, count of support tickets per product category.",
+    "Feature Selection — Remove low-variance features, highly correlated feature pairs, and features with no predictive power. Use feature importance from tree-based models to guide selection."
+  ],
+  "example": "Predicting customer churn for an Australian subscription service. Raw data: customer_id, signup_date, last_login, plan_type, monthly_spend, support_tickets. Engineered features: days_since_signup (temporal), days_since_last_login (temporal — high churn signal), login_frequency_30d (aggregation), spend_trend_3m (is spending increasing or decreasing?), support_tickets_per_month (aggregation — frustrated customers churn), plan_type_encoded (categorical), is_annual_plan (binary — annual plans churn less). These engineered features improved the churn model's AUC from 0.72 to 0.89.",
+  "category": "data-engineering"
+}

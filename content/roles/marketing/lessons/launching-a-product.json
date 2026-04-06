@@ -1,0 +1,68 @@
+{
+  "slug": "launching-a-product",
+  "moduleSlug": "gtm-strategy",
+  "title": "Launching a Product",
+  "objective": "Understanding how to build and execute a go-to-market strategy from market analysis to launch.",
+  "beginnerExplanation": "Launching a product is like opening night for a play — months of preparation for a moment that has to land. Before anyone sees the curtain rise, you've done the research, rehearsed the positioning, set the price, chosen your channels, and aligned your team. A go-to-market (GTM) strategy is the plan that ties all of this together.\n\nThe first thing you need to understand is your market size. TAM (Total Addressable Market) tells you how big the entire opportunity is. SAM (Serviceable Addressable Market) narrows it to the segment you can realistically reach. SOM (Serviceable Obtainable Market) is the slice you can actually capture in the near term. These three numbers keep your ambition grounded in reality.\n\nA launch isn't a single event — it's a series of phases. There's the pre-launch (building buzz, validating assumptions, lining up early adopters), the launch itself (coordinated messaging across channels), and the critically important post-launch period where you gather feedback, iterate, and double down on what's working. Most products don't succeed or fail on launch day — they succeed or fail in the weeks that follow.",
+  "deeperExplanation": "Go-to-market strategy is where product strategy meets commercial execution. There are fundamentally different GTM motions: product-led growth (PLG) relies on the product itself to drive acquisition and expansion — users try it, love it, and invite colleagues. Sales-led growth depends on outbound or inbound sales teams to qualify and close deals. Community-led growth builds an ecosystem of advocates who pull others in. Each motion demands different team structures, metrics, and investment profiles.\n\nPricing is one of the most underappreciated elements of GTM. Your price isn't just a number — it's a signal. It positions you in the market, determines your unit economics, and shapes which customers you attract. Getting pricing wrong can doom a product that otherwise has strong product-market fit. The best GTM teams treat pricing as a hypothesis to be tested, not a decision to be made once.\n\nCross-functional coordination separates great launches from chaotic ones. Marketing, product, sales, customer success, and engineering all need to be synchronised. The GTM brief is your alignment document — it defines the target customer, the problem being solved, the positioning, the channels, the timeline, and the success metrics. Without it, every team optimises for their own goals rather than the shared outcome.",
+  "keyTakeaways": [
+    "Define your TAM, SAM, and SOM before deciding on channels or tactics",
+    "Choose a GTM motion (product-led, sales-led, or community-led) that matches your product and market",
+    "Treat pricing as a strategic positioning tool, not just a revenue calculation",
+    "Plan for three phases: pre-launch, launch, and post-launch iteration",
+    "Create a GTM brief that aligns every team around the same target customer, positioning, and success metrics"
+  ],
+  "frameworks": ["swot", "stp"],
+  "example": "Atlassian built a $50B company on a product-led GTM motion with no traditional sales team. Instead of hiring armies of salespeople, they invested in freemium products, self-serve onboarding, and documentation so good that teams could adopt Jira or Confluence without ever speaking to a human. Their genius was viral team adoption — one developer would start using Jira, invite their squad, and soon the entire engineering department was on it. This bottom-up GTM motion meant their customer acquisition cost stayed remarkably low while deal sizes grew organically as usage expanded within organisations.",
+  "commonMistakes": [
+    "Launching without validating product-market fit through customer conversations and data",
+    "Not defining a clear ideal customer profile before committing to launch channels",
+    "Trying to be everything to everyone at launch instead of dominating one niche first",
+    "Underinvesting in post-launch iteration and treating launch day as the finish line",
+    "Skipping competitive positioning work and assuming customers will see your differentiation on their own"
+  ],
+  "exercise": "Choose a product idea (real or imagined). Write a one-page GTM brief covering: target customer (who they are and why they need this), problem being solved (in the customer's own words), positioning statement (how you're different from alternatives), 3 launch channels (and why each one reaches your target customer), pricing rationale (what you'd charge and why), and 3 success metrics for the first 90 days.",
+  "nextLesson": "segmenting-your-audience",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the purpose of calculating TAM, SAM, and SOM before launching a product?",
+      "options": [
+        "To impress investors with large market numbers",
+        "To ground your ambition in reality by understanding how much of the market you can realistically capture",
+        "To determine exactly how many units you will sell in the first year",
+        "To decide which competitors to acquire"
+      ],
+      "correctIndex": 1,
+      "explanation": "TAM, SAM, and SOM help you move from the total theoretical opportunity down to the realistic slice you can capture in the near term, ensuring your launch strategy is grounded rather than aspirational."
+    },
+    {
+      "question": "A SaaS startup has a highly technical product that requires significant onboarding. Their target customers are enterprise IT teams. Which GTM motion is most appropriate?",
+      "options": [
+        "Product-led growth with a freemium tier and self-serve signup",
+        "Community-led growth through developer meetups only",
+        "Sales-led growth with outbound or inbound sales teams to qualify and close deals",
+        "No GTM motion — just launch the product and let word of mouth do the work"
+      ],
+      "correctIndex": 2,
+      "explanation": "Enterprise products with complex onboarding typically require a sales-led GTM motion, where trained sales teams can qualify leads, demonstrate value, and guide customers through the buying process."
+    },
+    {
+      "question": "Which of the following is a common mistake when launching a product?",
+      "options": [
+        "Creating a GTM brief to align cross-functional teams",
+        "Treating pricing as a hypothesis to be tested and refined",
+        "Investing heavily in the post-launch iteration phase",
+        "Trying to appeal to every possible customer segment at launch instead of dominating one niche first"
+      ],
+      "correctIndex": 3,
+      "explanation": "Trying to be everything to everyone dilutes your positioning and spreads resources too thin. The most successful launches focus on dominating a specific niche first, then expanding from a position of strength."
+    }
+  ],
+  "perspectives": {
+    "marketer": "Your job in a product launch is to be the person who turns the GTM brief into a concrete execution plan with dates, deliverables, and owners. Start by mapping every customer touchpoint that needs to be ready on launch day: landing page, email sequences, social content, ad creative, PR outreach, sales enablement materials, and customer support FAQs. Build a reverse timeline from the launch date and give yourself buffer — things always take longer than you expect.\n\nDuring the pre-launch phase, your most valuable work is building a waitlist or early access programme. This gives you a built-in audience on launch day and, critically, a group of early adopters who can provide testimonials and social proof within the first week. Coordinate closely with the product team on messaging — nothing kills a launch faster than marketing promising something the product does not deliver. After launch, shift your focus to rapid iteration: monitor which channels are driving signups, double down on what is working, and cut what is not within the first two weeks.",
+    "cmo": "A product launch is the ultimate test of cross-functional leadership. Your role as CMO is not to write the copy or build the landing page — it is to ensure that marketing, product, sales, customer success, and engineering are all moving toward the same target on the same timeline. The GTM brief is your alignment tool. If any team cannot articulate the target customer, the positioning, and the success metrics from memory, your brief has failed.\n\nStrategically, the most important decision you make is which GTM motion to deploy. Product-led growth, sales-led growth, and community-led growth are fundamentally different machines that require different team structures, metrics, and investment profiles. Choosing the wrong motion wastes months of effort and budget. Base this decision on your product's complexity, your target customer's buying behaviour, and your organisation's strengths. And treat pricing as a strategic lever, not an afterthought — your price positions you in the market and determines which customers you attract.",
+    "ceo": "Product launches are where strategy meets execution, and the CEO's role is to ensure the organisation is placing the right bets. Before greenlighting a launch, you need confidence in three things: the market is large enough to justify the investment (TAM/SAM/SOM), the product solves a real problem validated through customer conversations, and the team has the capability to execute the GTM plan. Missing any one of these dramatically increases the risk of failure.\n\nThe post-launch period is where most CEOs lose focus — they celebrate launch day and move on to the next initiative. But the data from the first 90 days is the most valuable strategic input you will get. It tells you whether you have product-market fit, which customer segments are responding, and whether your pricing is right. Build a cadence of weekly reviews in the first month and fortnightly reviews in months two and three. The companies that win are not the ones with the best launch day — they are the ones that iterate fastest after launch.",
+    "cfo": "Every product launch is an investment decision, and it should be evaluated with the same rigour as any capital allocation. Before approving launch spend, you need a financial model that projects: total investment required (development, marketing, operations), expected revenue over 12 months, customer acquisition cost, gross margin on the new product, and payback period. If the marketing team cannot provide these numbers, the launch is not ready.\n\nThe TAM/SAM/SOM framework is particularly important from a financial perspective because it grounds revenue projections in reality. A $50 billion TAM is meaningless if your SOM in year one is $2 million. Evaluate the launch budget against the realistic SOM, not the aspirational TAM. Post-launch, monitor unit economics weekly — if CAC is higher than projected or conversion rates are lower, you need to decide quickly whether to increase investment, pivot the approach, or cut losses. The worst financial outcome is a slow bleed where a struggling launch continues to consume budget without a clear path to profitability."
+  }
+}

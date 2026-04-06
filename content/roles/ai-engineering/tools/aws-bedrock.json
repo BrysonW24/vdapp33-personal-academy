@@ -1,0 +1,15 @@
+{
+  "slug": "aws-bedrock",
+  "name": "AWS Bedrock",
+  "category": "model-api",
+  "description": "Amazon's managed service for accessing foundation models (Claude, Llama, Mistral, Stable Diffusion) via API without managing infrastructure.",
+  "whyUseIt": "Bedrock gives you enterprise-grade access to multiple foundation models through a single API. Fine-tuning, RAG with Knowledge Bases, and Agents — all with AWS security, VPC support, and compliance.",
+  "pricingTier": "paid",
+  "url": "https://aws.amazon.com/bedrock",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/aws-2.svg",
+  "alternatives": [
+    "Google Vertex AI",
+    "Azure OpenAI",
+    "Together AI"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "meddic",
+  "name": "MEDDIC",
+  "summary": "A qualification framework for complex B2B deals that ensures you understand the six critical elements of any enterprise opportunity: Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, and Champion.",
+  "whenToUseIt": "Use MEDDIC for mid-market and enterprise deals with multiple stakeholders, long sales cycles, and deal values above $25K ACV. It's especially valuable when deals stall — running through MEDDIC quickly reveals what's missing. If you can't fill in every letter, the deal isn't properly qualified.",
+  "steps": [
+    "Metrics — What quantifiable business outcomes does the buyer expect? Get specific numbers: 'reduce churn by 15%', 'save 20 hours per week', 'increase revenue by $500K'. If the buyer can't articulate metrics, they haven't built a business case yet.",
+    "Economic Buyer — Who has the authority and budget to approve this purchase? This is not always the person you're talking to. Ask: 'Who ultimately signs off on an investment like this?' Get access to or at least influence this person.",
+    "Decision Criteria — What factors will the buyer use to evaluate options? Technical requirements, integration needs, pricing structure, vendor reputation, support SLAs. Ask: 'What are the must-haves vs nice-to-haves for this decision?'",
+    "Decision Process — What is the actual process for making this decision? Timeline, approvals needed, legal review, procurement involvement, evaluation steps. Ask: 'Walk me through how a purchase like this typically gets approved at your company.'",
+    "Identify Pain — What is the specific business pain driving this initiative? Go beyond surface-level complaints to find the root cause and its business impact. Ask: 'What happens if this problem isn't solved in the next 12 months?'",
+    "Champion — Who is your internal advocate? This person has influence, access to the economic buyer, and a personal stake in solving the problem. They sell on your behalf in meetings you're not invited to. Without a champion, enterprise deals almost never close."
+  ],
+  "example": "You're selling a cybersecurity platform to a 500-person fintech. Here's your MEDDIC scorecard:\n\nMetrics: Reduce security incident response time from 4 hours to 15 minutes; achieve SOC 2 Type II compliance within 6 months; save $180K/year in manual security monitoring costs.\n\nEconomic Buyer: CFO (Sarah Chen) — controls security budget, reports to board on risk.\n\nDecision Criteria: Must integrate with AWS and Azure; must support SSO via Okta; pricing must be per-seat, not per-asset; need 24/7 Australian support.\n\nDecision Process: CISO evaluates technically (2 weeks) → presents shortlist to CFO → 2-week POC with IT team → legal review (1 week) → CFO signs. Total timeline: 8-10 weeks.\n\nIdentify Pain: Had a data breach 6 months ago that cost $400K in remediation and nearly lost a major enterprise client. Board has mandated improved security posture.\n\nChampion: CISO (James Park) — his reputation is on the line after the breach. Actively wants this solved and has been advocating for budget internally.",
+  "category": "qualification"
+}

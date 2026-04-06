@@ -1,0 +1,33 @@
+{
+  "slug": "seo-discoverability",
+  "title": "SEO and Discoverability",
+  "shortSummary": "Search Engine Optimisation is the practice of making your website and content easy to find when people search for things related to your business. This module covers keyword research, on-page SEO, technical SEO, link building, and how to create content that ranks.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "Over 68% of all online experiences start with a search engine. If your business does not appear when people search for what you offer, you are invisible to the largest source of website traffic on the internet. SEO is a long-term investment that compounds over time. Unlike paid ads, the traffic from SEO does not stop when you stop paying.",
+  "coreConcepts": [
+    "How search engines work: crawling, indexing, and ranking",
+    "Keyword research: finding what your customers are searching for",
+    "Search intent: informational, navigational, transactional, commercial",
+    "On-page SEO: title tags, meta descriptions, headers, content optimisation",
+    "Technical SEO: site speed, mobile friendliness, structured data, crawlability",
+    "Link building and domain authority",
+    "Local SEO for businesses with physical locations",
+    "Content and SEO: creating pages that rank and convert",
+    "SEO tools and how to use them",
+    "Measuring SEO performance: rankings, organic traffic, conversions"
+  ],
+  "lessons": ["getting-found-through-search"],
+  "frameworks": [
+    "kpi-cheat-sheet"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "content-marketing",
+    "analytics-attribution-kpis",
+    "paid-advertising"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 2
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "buffer",
+  "name": "Buffer",
+  "category": "social-media",
+  "description": "A simple social media scheduling and analytics tool designed for small teams and individual creators.",
+  "whyUseIt": "Buffer is the easiest social media tool to learn. It's great for beginners who need to schedule posts across Instagram, Twitter, LinkedIn, and Facebook without a complex interface.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI Assistant generates post ideas and rewrites content for different platforms.",
+  "alternatives": [
+    "Hootsuite",
+    "Later",
+    "Sprout Social"
+  ],
+  "url": "https://buffer.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/buffer.svg",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Scheduled social media posts across multiple platforms",
+    "Post performance analytics reports",
+    "Optimal posting time recommendations",
+    "Content calendar overview",
+    "Engagement rate summaries",
+    "Hashtag performance tracking",
+    "AI-generated post variations"
+  ],
+  "marketerWorkflow": "A marketer using Buffer typically batch-creates a week's worth of social content in one sitting, writing captions and attaching images for each platform. They review the analytics dashboard each morning to see which posts drove engagement, then adjust upcoming content accordingly. The queue view lets them drag posts to rearrange the schedule and fill any gaps in the content calendar.",
+  "managerExpects": "A marketing manager expects consistent posting cadence across all active social channels with no gaps in the schedule. They want weekly engagement reports showing follower growth, top-performing posts, and click-through rates, along with evidence that the team is learning from analytics and iterating on content themes that resonate.",
+  "aiWorkflowImpact": "Buffer's AI Assistant now drafts post copy from a brief description, then automatically adapts tone and length for each platform \u2014 saving the manual rewrite step. It suggests optimal posting times based on historical engagement data rather than generic best-practice windows. AI-generated hashtag recommendations replace the guesswork of manual hashtag research.",
+  "demoDescription": "Sign up for Buffer's free plan and connect one social media account. Use the AI Assistant to generate three post variations from a single topic related to your brand, then schedule them across the next three days using Buffer's recommended posting times. Check back after 48 hours to compare engagement across the variations.",
+  "vocabulary": [
+    {
+      "term": "Queue",
+      "definition": "Buffer's scheduled lineup of upcoming posts, ordered by posting time, which you can reorder by dragging and dropping."
+    },
+    {
+      "term": "Posting schedule",
+      "definition": "The recurring time slots you set for each social channel, determining when queued content gets published."
+    },
+    {
+      "term": "Engagement rate",
+      "definition": "The percentage of people who interacted with your post (likes, comments, shares) out of total impressions."
+    },
+    {
+      "term": "Start Page",
+      "definition": "Buffer's simple link-in-bio landing page builder that consolidates multiple links into one shareable URL."
+    },
+    {
+      "term": "Channel",
+      "definition": "A connected social media account within Buffer, such as your Instagram business profile or LinkedIn page."
+    },
+    {
+      "term": "Analytics overview",
+      "definition": "Buffer's dashboard summarising reach, engagement, and follower growth metrics across all connected channels."
+    }
+  ],
+  "beginnerMistakes": [
+    "Posting the exact same caption and format across all platforms instead of tailoring content to each channel's audience and style",
+    "Scheduling posts and never checking back to respond to comments or engage with followers",
+    "Ignoring Buffer's analytics and continuing to post at arbitrary times instead of using data-driven scheduling",
+    "Overloading the queue with promotional content without mixing in educational, entertaining, or community-building posts",
+    "Not using the AI Assistant to test different content angles, relying on a single voice that may not resonate"
+  ],
+  "relatedProject": "social-media-calendar"
+}

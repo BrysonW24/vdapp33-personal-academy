@@ -1,0 +1,29 @@
+{
+  "slug": "autonomy-systems-capstone",
+  "title": "Autonomy Systems Capstone",
+  "shortSummary": "Bring the robotics track together with a portfolio piece spanning perception, latency, and systems reliability.",
+  "track": "robotics-autonomy",
+  "level": "advanced",
+  "category": "specialization",
+  "whyItMatters": "This capstone is the specialization bridge for learners targeting robotics and autonomy roles. It turns the track into a coherent public signal for interviews and portfolio review.",
+  "coreConcepts": [
+    "Capstone scoping for autonomy-adjacent work",
+    "Evaluation under real-world edge cases",
+    "Communicating hardware and systems tradeoffs",
+    "Portfolio packaging for robotics-facing roles",
+    "Turning prototypes into defensible engineering stories"
+  ],
+  "lessons": [
+    "autonomy-systems-capstone-lesson"
+  ],
+  "frameworks": [
+    "system-design-template"
+  ],
+  "relatedModules": [
+    "perception-sensor-systems",
+    "edge-inference-hardware-acceleration"
+  ],
+  "status": "coming-soon",
+  "order": 16,
+  "levelNumber": 4
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "reading-the-financial-statements",
+  "moduleSlug": "accounting-and-finance-basics",
+  "title": "Reading the Financial Statements",
+  "objective": "Understanding how to read a P&L, balance sheet, and cash flow statement — and why every marketer needs financial literacy.",
+  "beginnerExplanation": "If you want to be taken seriously in any business, you need to speak the language of money. Financial statements are the scoreboard of a business — they tell you whether the company is winning, losing, or running out of cash. There are three main statements: the Profit and Loss (P&L), the Balance Sheet, and the Cash Flow Statement.\n\nThe P&L — also called the income statement — is the one marketers interact with most. It shows revenue at the top, subtracts the cost of goods sold (COGS) to get gross profit, then subtracts operating expenses (including your marketing budget) to arrive at operating profit (EBIT). Every dollar you spend on ads, content, or campaigns appears as an operating expense on the P&L.\n\nThe balance sheet shows what the company owns (assets) versus what it owes (liabilities), with the difference being equity. The cash flow statement tracks actual cash moving in and out — because a profitable company can still run out of cash if it's spending faster than collecting. As a marketer, you might not prepare these statements, but you absolutely need to read them to understand the financial health of your business and justify your budget.",
+  "deeperExplanation": "Let's trace how marketing spend flows through the financials. Say you run a $50,000 Google Ads campaign for a D2C e-commerce brand. That $50K hits the P&L as a sales and marketing operating expense. If the campaign generates $200,000 in revenue, and COGS (product cost, shipping, packaging) is $80,000, the gross profit contribution is $120,000. After subtracting your $50K ad spend, the campaign contributed $70,000 to operating profit. Your ROAS (Return on Ad Spend) is 4x, and your ROI is 140%.\n\nUnit economics take this further. Customer Acquisition Cost (CAC) is how much you spend to win one customer — total marketing spend divided by new customers acquired. Lifetime Value (LTV) is the total revenue a customer generates over their relationship with you. The LTV:CAC ratio is arguably the most important metric in modern marketing — anything above 3:1 is generally considered healthy.\n\nFinancial ratios help you benchmark performance. Gross margin percentage tells you how efficient your production is. Operating margin tells you how efficiently the whole business runs. And the percentage of revenue spent on sales and marketing tells you how much the company invests in growth — SaaS companies often spend 30-50% of revenue on sales and marketing, while mature e-commerce brands might spend 10-20%. Understanding these ratios helps you speak the CFO's language and defend your budget with data.",
+  "keyTakeaways": [
+    "Learn to read a P&L top to bottom — revenue, COGS, gross profit, operating expenses, and EBIT",
+    "Calculate your marketing campaign's true ROI by tracing spend through to operating profit contribution",
+    "Track unit economics (CAC, LTV, LTV:CAC ratio) as your north-star marketing efficiency metrics",
+    "Compare your company's sales-and-marketing-as-percentage-of-revenue against industry benchmarks",
+    "Use financial literacy to justify marketing budgets in language that resonates with finance teams and executives"
+  ],
+  "frameworks": ["kpi-cheat-sheet"],
+  "example": "Consider a D2C e-commerce brand selling skincare products online. They run a $50,000 Meta Ads campaign over one month. The campaign generates $200,000 in revenue from 2,000 orders (average order value of $100). COGS — including product cost, packaging, and shipping — comes to $80,000, leaving $120,000 gross profit. After subtracting the $50K ad spend from gross profit, the campaign contributed $70,000 to operating profit. The CAC is $25 per customer ($50K / 2,000 customers), and if average LTV is $300, the LTV:CAC ratio is 12:1 — exceptionally strong. This is how financially literate marketers prove their value.",
+  "commonMistakes": [
+    "Reporting revenue generated without accounting for COGS, making campaigns look more profitable than they are",
+    "Confusing revenue with profit — a campaign that generates $100K revenue but costs $95K is not a success",
+    "Ignoring the difference between profit and cash flow — you can be profitable on paper and still run out of cash",
+    "Presenting marketing results without connecting them to financial metrics the CFO cares about",
+    "Calculating ROI on revenue instead of profit, which dramatically overstates marketing effectiveness"
+  ],
+  "exercise": "Find a publicly listed company's annual report (try Shopify, Canva, or any ASX-listed company — annual reports are free on their investor relations page). Read the P&L and identify: total revenue, gross margin percentage, and total operating expenses. Calculate what percentage of revenue they spend on sales and marketing. Compare this to one competitor in the same industry.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "Why is it important for marketers to calculate ROI based on profit rather than revenue?",
+      "options": [
+        "Revenue-based ROI is harder to calculate than profit-based ROI",
+        "Calculating ROI on revenue dramatically overstates marketing effectiveness by ignoring the costs of producing and delivering the product",
+        "Profit-based ROI always produces a higher number, which looks better in reports",
+        "Revenue and profit are the same thing for digital products"
+      ],
+      "correctIndex": 1,
+      "explanation": "Revenue does not account for the cost of goods sold (COGS) or other expenses. A campaign generating $100K revenue with $95K in total costs is barely breaking even, but revenue-based ROI would make it look highly successful."
+    },
+    {
+      "question": "A D2C brand spends $30,000 on ads and acquires 600 new customers. If the average customer lifetime value is $200, what is the LTV:CAC ratio and is it healthy?",
+      "options": [
+        "LTV:CAC is 1:4 — this is excellent",
+        "LTV:CAC is 4:1 — this is healthy, as anything above 3:1 is generally considered strong",
+        "LTV:CAC is 6:1 — this is dangerously high",
+        "LTV:CAC cannot be calculated without knowing the gross margin"
+      ],
+      "correctIndex": 1,
+      "explanation": "CAC is $30,000 / 600 = $50 per customer. LTV is $200. So LTV:CAC = $200 / $50 = 4:1. This is a healthy ratio — the generally accepted benchmark is that anything above 3:1 indicates efficient customer acquisition."
+    },
+    {
+      "question": "Which of the following is a common financial mistake made by marketers?",
+      "options": [
+        "Tracking unit economics like CAC and LTV as north-star efficiency metrics",
+        "Comparing sales-and-marketing spend as a percentage of revenue against industry benchmarks",
+        "Reporting revenue generated by a campaign without subtracting COGS, making it look more profitable than it is",
+        "Using financial language like EBIT and payback period when presenting to the CFO"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reporting raw revenue without accounting for the cost of goods sold inflates the apparent profitability of marketing campaigns. True marketing ROI must account for production, shipping, and other direct costs."
+    }
+  ]
+}

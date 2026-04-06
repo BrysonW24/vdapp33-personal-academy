@@ -1,0 +1,71 @@
+{
+  "slug": "co-selling-with-partners",
+  "moduleSlug": "channel-partnerships",
+  "title": "Co-Selling with Partners Without Channel Chaos",
+  "objective": "Learn how to run partner-led and co-sell motions clearly so direct teams, partners, and buyers all know how the deal will work.",
+  "beginnerExplanation": "Channel and partner selling creates leverage because trusted third parties can open doors, add credibility, or deliver services you do not. But partnerships only help when roles are clear. Without that clarity, deals become messy fast: duplicate outreach, confused ownership, mixed messaging, and channel conflict.",
+  "deeperExplanation": "A good co-sell motion starts by defining the partner's role. Are they opening the account, influencing the deal, implementing the solution, or all three? Then align the engagement model. Who owns the commercial conversation? Who runs discovery? Who handles technical validation? Who gets credited and compensated?\n\nThe buyer experience should feel coordinated. That means shared account planning, agreed messaging, and clear handoffs. The deal becomes harder when the partner and vendor are solving different problems or trying to win different internal audiences.\n\nStrong partner selling also requires discipline on conflict. If the direct team and the partner do not trust the rules of engagement, the motion breaks. Clear registration, account mapping, and communication prevent most of that friction.",
+  "keyTakeaways": [
+    "Partners add leverage when their role is clear and valuable.",
+    "Co-sell motions need explicit ownership across discovery, technical work, and commercial steps.",
+    "The buyer should experience one coordinated team, not two competing sellers.",
+    "Shared account planning improves partner-led opportunities.",
+    "Channel conflict is usually a rules and communication problem.",
+    "Good partner motions create reach without creating confusion."
+  ],
+  "frameworks": [
+    "account-planning-canvas",
+    "value-selling"
+  ],
+  "example": "A systems integrator introduces your platform into an enterprise transformation programme. The partner owns executive access and implementation credibility. Your team owns product positioning, technical validation, and commercial terms. Because the roles are agreed early, the buyer sees one aligned team instead of two parties stepping on each other.",
+  "commonMistakes": [
+    "Entering a co-sell motion without clear role definition",
+    "Allowing the partner and direct team to pitch different value stories",
+    "Ignoring deal registration or compensation expectations",
+    "Treating the partner only as a lead source instead of a selling stakeholder",
+    "Letting the buyer figure out the handoff confusion alone"
+  ],
+  "exercise": "Map one co-sell scenario and define who owns each part of the process: account access, discovery, technical validation, commercial review, implementation, and renewal influence.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What makes a co-sell motion healthy?",
+      "options": [
+        "Unclear ownership so everyone stays flexible",
+        "Clear roles, aligned messaging, and coordinated handoffs",
+        "Letting the partner run everything",
+        "Avoiding account planning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Healthy partner deals depend on clarity of role and a joined-up buyer experience."
+    },
+    {
+      "question": "What is channel conflict often caused by?",
+      "options": [
+        "Too much success",
+        "Weak rules of engagement and poor communication",
+        "Too many demos",
+        "Too much partner enablement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most conflict comes from unclear ownership, compensation, or communication."
+    },
+    {
+      "question": "How should the buyer experience a partner-led deal?",
+      "options": [
+        "As two competing teams",
+        "As one coordinated team with clear expertise",
+        "As a vendor-only process",
+        "As a long implementation pitch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The best co-sell motions feel coordinated and confidence-building to the buyer."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should treat partners as part of the deal team, not just a lead source.",
+    "manager": "Managers need clear rules of engagement so reps trust the partner motion rather than avoiding it.",
+    "vp": "A VP wants partner coverage that expands reach without creating channel conflict.",
+    "cro": "A CRO sees strong partnerships as a force multiplier when operating rules are clear."
+  }
+}

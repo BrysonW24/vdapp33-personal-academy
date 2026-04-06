@@ -1,0 +1,62 @@
+{
+  "slug": "mapping-the-customer-journey",
+  "moduleSlug": "funnels-customer-journey",
+  "title": "Mapping the Customer Journey",
+  "objective": "Understanding how customers move from awareness to purchase and beyond, and how to optimise each stage of their journey with your brand.",
+  "beginnerExplanation": "Imagine following someone through a shopping centre. They glance at a window display, wander in, pick something up, ask a question, maybe leave and come back later, then finally buy. That whole experience — from first glance to walking out with a bag — is the customer journey. In marketing, we map every one of those moments so we can make each step easier, more enjoyable, and more likely to end in a sale.\n\nThe classic model is AIDA: Attention, Interest, Desire, Action. First you grab their attention (an ad, a social post, a friend's recommendation). Then you build interest (they visit your site, read reviews). Then desire kicks in (they imagine owning it). Finally, action — they buy. But the journey doesn't stop there. What happens after they buy determines whether they come back and tell their mates.\n\nThe AARRR framework (Acquisition, Activation, Retention, Revenue, Referral) extends the funnel past the purchase. It reminds us that getting a customer in the door is only the beginning. The real value comes from keeping them engaged, earning repeat purchases, and turning them into advocates who bring in new customers for free.",
+  "deeperExplanation": "Google's 'messy middle' research fundamentally challenged the linear funnel model. Their study found that between the initial trigger and the final purchase, customers enter a chaotic loop of exploration (expanding their options) and evaluation (narrowing them down). They bounce between search engines, social media, review sites, and competitor pages in unpredictable patterns. This means marketers need to be present and persuasive at multiple touchpoints, not just at the top and bottom of a neat funnel.\n\nMulti-touch attribution attempts to solve the question of which touchpoints actually drove the conversion. Last-click attribution — giving all credit to the final touchpoint — dramatically undervalues awareness and consideration activities. Models like linear attribution (equal credit to all touchpoints), time-decay (more credit to recent touches), and data-driven attribution (algorithmic weighting) each tell a different story. The model you choose shapes where you invest your budget.\n\nDark social — private sharing via messaging apps, email, and DMs — represents a massive blind spot in journey mapping. Research suggests up to 84% of consumer sharing happens in dark social channels that analytics tools cannot track. Micro-moments (Google's framework for intent-rich mobile interactions) add another layer: customers make snap decisions in 'I-want-to-know', 'I-want-to-go', 'I-want-to-do', and 'I-want-to-buy' moments that don't fit neatly into funnel stages.",
+  "keyTakeaways": [
+    "Map every touchpoint a customer encounters from first awareness through to post-purchase advocacy",
+    "Use AIDA for simple purchase journeys and AARRR when retention and referral are critical to your model",
+    "Accept that real customer journeys are non-linear and build presence across the messy middle",
+    "Choose attribution models deliberately — last-click undervalues everything except the final touchpoint",
+    "Account for dark social and unmeasurable touchpoints when evaluating channel performance"
+  ],
+  "frameworks": ["aida", "aarrr", "customer-journey-map"],
+  "example": "Spotify's customer journey is a masterclass in full-funnel design. Awareness comes through multiple channels: social sharing when friends post their listening activity, algorithmically placed ads on YouTube and Instagram, and organic word-of-mouth about features like Discover Weekly. Engagement deepens through hyper-personalised playlists that make the free tier genuinely valuable. Conversion to Premium happens at friction points — an ad interrupts your workout playlist, or you can't download songs for an offline flight. The genius is in post-purchase: Spotify Wrapped turns every subscriber into a brand advocate each December, generating millions of organic social posts and pulling new users into the top of the funnel.",
+  "commonMistakes": [
+    "Assuming the customer journey is a neat linear progression from awareness to purchase",
+    "Only measuring last-click attribution and ignoring the touchpoints that built awareness and consideration",
+    "Ignoring the post-purchase journey and missing retention, upsell, and advocacy opportunities",
+    "Not mapping touchpoints by channel and failing to see where customers actually interact with your brand",
+    "Building funnels based on internal assumptions without conducting actual customer research"
+  ],
+  "exercise": "Map the customer journey for a recent purchase you made — from the very first moment you became aware of the product or brand through to your post-purchase experience. List every touchpoint, channel, and decision moment along the way. Identify at least three points where the brand could have lost you and explain what kept you moving forward (or what nearly stopped you).",
+  "nextLesson": "planning-a-marketing-campaign",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "Why did Google's 'messy middle' research challenge the traditional linear marketing funnel?",
+      "options": [
+        "It proved that customers only need one touchpoint before purchasing",
+        "It showed that between trigger and purchase, customers loop unpredictably between exploration and evaluation across multiple channels",
+        "It demonstrated that funnels only work for B2B businesses",
+        "It revealed that most customers skip directly from awareness to purchase"
+      ],
+      "correctIndex": 1,
+      "explanation": "Google's research found that customers enter a chaotic loop of expanding options (exploration) and narrowing them down (evaluation), bouncing between channels in unpredictable patterns rather than moving neatly through funnel stages."
+    },
+    {
+      "question": "Your e-commerce store has strong acquisition but poor repeat purchase rates. Which framework would be most useful to diagnose the problem?",
+      "options": [
+        "The 4Ps framework, focusing on product and price",
+        "AARRR (Acquisition, Activation, Retention, Revenue, Referral), examining the retention and revenue stages",
+        "SWOT analysis of your competitors",
+        "AIDA, focusing on the attention stage"
+      ],
+      "correctIndex": 1,
+      "explanation": "AARRR extends beyond the initial purchase to cover retention, revenue, and referral. Since acquisition is strong but repeat purchases are weak, the problem likely sits in the retention or revenue stages."
+    },
+    {
+      "question": "Which of the following is a customer journey mapping mistake?",
+      "options": [
+        "Mapping touchpoints across multiple channels including post-purchase",
+        "Using multiple attribution models to understand channel performance",
+        "Only using last-click attribution and ignoring all the touchpoints that built awareness and consideration",
+        "Accounting for dark social and unmeasurable sharing when evaluating results"
+      ],
+      "correctIndex": 2,
+      "explanation": "Last-click attribution gives all credit to the final touchpoint before purchase, dramatically undervaluing the awareness and consideration activities that made the sale possible."
+    }
+  ]
+}

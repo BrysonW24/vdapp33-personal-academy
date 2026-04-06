@@ -1,0 +1,61 @@
+{
+  "slug": "communicating-like-a-leader",
+  "moduleSlug": "business-communication",
+  "title": "Communicating Like a Leader",
+  "objective": "Understanding how to communicate effectively across all levels of a business — from writing briefs to presenting to boards.",
+  "beginnerExplanation": "The difference between a good marketer and a great one often isn't their technical skill — it's their ability to communicate. You can have the best campaign idea in the room, but if you can't explain it clearly to your team, sell it to leadership, and brief it to creative partners, it will never see the light of day.\n\nThe most important communication principle in business is BLUF — Bottom Line Up Front. Also known as the Pyramid Principle, it means starting with your conclusion or recommendation, then providing the evidence that supports it. Most people do the opposite: they build up slowly with background and context, saving their main point for the end. Executives don't have time for that. Lead with the answer, then prove it.\n\nDifferent stakeholders need different messages. Your marketing team wants tactical detail — which channels, what creative, what timeline. The CEO wants strategic impact — how does this move the needle on company goals? The CFO wants financial return — what's the ROI, what's the payback period? Same campaign, completely different conversations. Learning to tailor your message to your audience is one of the highest-leverage skills you can develop.",
+  "deeperExplanation": "The Pyramid Principle, developed by Barbara Minto at McKinsey, structures communication into three layers: the governing thought (your main point), the key arguments (2-4 supporting pillars), and the detailed evidence beneath each argument. This structure works for everything — emails, presentations, proposals, and verbal updates. It forces you to clarify your thinking before you start communicating, which is half the battle.\n\nPresentation structure follows a similar logic: Problem, Insight, Solution, Call to Action. Start by framing the problem your audience cares about. Share a key insight or data point that reframes their understanding. Present your solution as the logical response to that insight. End with a clear call to action — what you need from them and by when. This structure works whether you're presenting to a board of directors or pitching an idea in a team meeting.\n\nWriting a strong marketing brief is another essential communication skill. A brief aligns everyone — creative teams, agencies, stakeholders — around a single objective. The best briefs are one page and answer six questions: What are we trying to achieve? Who are we talking to? What's the single most important message? Why should the audience believe us? What do we want them to do? How will we measure success? Active listening completes the picture — great communicators spend as much time understanding others as they do being understood.",
+  "keyTakeaways": [
+    "Lead with your conclusion using the BLUF principle — state the answer first, then provide evidence",
+    "Tailor every message to your audience — tactical for teams, strategic for executives, financial for CFOs",
+    "Structure presentations as Problem → Insight → Solution → Call to Action for maximum impact",
+    "Write one-page marketing briefs that answer the six essential questions before any creative work begins",
+    "Practise active listening as deliberately as you practise presenting — understanding precedes being understood"
+  ],
+  "frameworks": ["campaign-planning-template"],
+  "example": "Amazon's meeting culture shows how communication structure drives better decisions. Jeff Bezos famously banned PowerPoint presentations in favour of six-page narrative memos that every attendee reads silently at the start of each meeting. The memo format forces clear thinking: it must lay out the situation, the challenge, the proposed approach, and the expected results — in complete sentences, not bullet points. This is the Pyramid Principle in action — start with the answer, then prove it with rigorous logic. The result is that decisions are made based on thorough written arguments rather than persuasive slide decks. For marketers, it's a powerful lesson: if you can't write your idea clearly in prose, you haven't thought it through well enough.",
+  "commonMistakes": [
+    "Burying the main point at the end of a long build-up instead of leading with the conclusion",
+    "Using the same level of detail for every audience — overwhelming executives with tactics or underwhelming teams with vague strategy",
+    "Writing marketing briefs that are so long and complex that nobody reads them properly",
+    "Focusing on what you want to say rather than what your audience needs to hear",
+    "Presenting data without a narrative — numbers don't persuade, stories built on numbers do"
+  ],
+  "exercise": "Write a 2-minute verbal update for 3 different audiences about the same marketing campaign result: (1) your marketing team — focus on tactical detail and next steps, (2) the CEO — focus on strategic impact and how it advances company goals, (3) the CFO — focus on financial return, ROI, and budget efficiency. Notice how the same information gets framed completely differently for each audience.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What does the BLUF (Bottom Line Up Front) principle mean for business communication?",
+      "options": [
+        "Always include a financial summary at the bottom of every document",
+        "Start with your conclusion or recommendation first, then provide the supporting evidence",
+        "Use bullet points instead of paragraphs to save time",
+        "Keep all communications to a single sentence"
+      ],
+      "correctIndex": 1,
+      "explanation": "BLUF means leading with your main point or recommendation before providing background and evidence. Executives and decision-makers need the conclusion first so they can evaluate the supporting arguments in context."
+    },
+    {
+      "question": "You need to update both the CEO and the CFO on the same marketing campaign results. How should you tailor your message?",
+      "options": [
+        "Send the same detailed report to both — consistency is more important than tailoring",
+        "Focus on strategic impact and company goal alignment for the CEO; focus on ROI, payback period, and budget efficiency for the CFO",
+        "Only update the CEO and let them brief the CFO",
+        "Focus on creative execution details for both, since that is what marketing is about"
+      ],
+      "correctIndex": 1,
+      "explanation": "Different stakeholders care about different outcomes. The CEO wants to know how marketing advances strategic goals, while the CFO evaluates marketing as a financial investment. Tailoring your message to each audience is one of the highest-leverage communication skills."
+    },
+    {
+      "question": "Which of the following is a common communication mistake in marketing?",
+      "options": [
+        "Using the Pyramid Principle to structure presentations and emails",
+        "Writing one-page marketing briefs that answer the six essential questions",
+        "Presenting data without a narrative, assuming the numbers will speak for themselves",
+        "Practising active listening to understand stakeholder needs before presenting solutions"
+      ],
+      "correctIndex": 2,
+      "explanation": "Numbers alone do not persuade — people are moved by stories built on data. Presenting raw metrics without a narrative that explains what they mean and what action to take leaves your audience without context to make decisions."
+    }
+  ]
+}

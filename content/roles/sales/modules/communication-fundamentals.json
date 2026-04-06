@@ -1,0 +1,23 @@
+{
+  "slug": "communication-fundamentals",
+  "title": "Communication Fundamentals",
+  "shortSummary": "Master the communication skills that underpin every sales interaction — active listening, powerful questions, building rapport, and projecting executive presence.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Sales is a communication sport. You can know every framework and have the best product in the market, but if you can't listen deeply, ask the right questions, and communicate with clarity and confidence, none of it matters. These fundamentals separate the reps who hit quota from the ones who don't.",
+  "coreConcepts": [
+    "Active listening: hearing what's said and what's not said",
+    "Open-ended vs closed questions and when to use each",
+    "Socratic, funnel, and root-cause questioning",
+    "Building genuine rapport without being fake",
+    "Executive presence: confidence without arrogance",
+    "Mirroring and matching communication styles",
+    "Written communication: emails that get responses"
+  ],
+  "lessons": ["asking-better-sales-questions", "executive-presence-and-follow-up", "layering-questions-for-real-discovery"],
+  "frameworks": ["spin-selling", "sandler-selling", "socratic-questioning", "funnel-questioning", "five-whys", "open-ended-questioning", "diagnostic-questioning", "quantification-questions"],
+  "relatedModules": ["what-sales-is", "discovery-calls", "outbound-outreach", "sales-methodologies"],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

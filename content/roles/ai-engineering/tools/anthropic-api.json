@@ -1,0 +1,15 @@
+{
+  "slug": "anthropic-api",
+  "name": "Anthropic API (Claude)",
+  "category": "model-api",
+  "description": "API access to Claude models — known for strong reasoning, long context windows (200K tokens), and safety-focused design.",
+  "whyUseIt": "Claude excels at complex reasoning, long document analysis, code generation, and nuanced tasks. Its 200K context window is the largest commercially available, and its constitutional AI approach emphasises safety.",
+  "pricingTier": "paid",
+  "url": "https://docs.anthropic.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/anthropic-1.svg",
+  "alternatives": [
+    "OpenAI API",
+    "Google Gemini",
+    "Mistral API"
+  ]
+}

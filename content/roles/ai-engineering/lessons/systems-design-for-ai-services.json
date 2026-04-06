@@ -1,0 +1,25 @@
+{
+  "slug": "systems-design-for-ai-services",
+  "moduleSlug": "system-design-for-ai",
+  "title": "Observability and AI Systems Design",
+  "objective": "Learn to reason about AI services in terms of traceability, cost, resilience, and scale.",
+  "beginnerExplanation": "AI system design is the practice of choosing how requests move through models, caches, retrieval systems, queues, and fallbacks. Observability tells you whether those choices are holding up under real use.",
+  "deeperExplanation": "Senior AI engineering means explaining tradeoffs, not just implementing features. You need to know what to trace, how to think about token and GPU spend, what reliability target the product needs, and how to describe those choices clearly to other engineers and leadership.",
+  "keyTakeaways": [
+    "Architecture quality depends on the metrics you can see.",
+    "Cost controls are part of system design, not a finance afterthought.",
+    "Traceability makes incident response dramatically faster."
+  ],
+  "frameworks": [
+    "system-design-template",
+    "mlops-maturity"
+  ],
+  "example": "A production assistant routes simple tasks to a fast model, complex ones to a slower model, logs retrieval traces, measures latency percentiles, and alerts on spend anomalies before the weekly budget is gone.",
+  "commonMistakes": [
+    "Designing architecture without a latency or cost budget.",
+    "Logging too little to debug failures.",
+    "Explaining technical systems only in technical language instead of decision language."
+  ],
+  "exercise": "Create a one-page architecture note for an AI feature that includes request flow, bottlenecks, failure modes, and the top five operational metrics you would monitor.",
+  "order": 1
+}

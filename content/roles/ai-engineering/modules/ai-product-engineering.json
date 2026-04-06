@@ -1,0 +1,31 @@
+{
+  "slug": "ai-product-engineering",
+  "title": "AI Product Engineering",
+  "shortSummary": "Translate model capability into user value with sharp UX, measurable outcomes, and disciplined feature scope.",
+  "track": "core-frontier",
+  "level": "advanced",
+  "category": "product",
+  "whyItMatters": "The frontier product engineer is the person who makes AI useful, not just possible. That means choosing the right interaction pattern, exposing uncertainty gracefully, and instrumenting the product so quality improves over time.",
+  "coreConcepts": [
+    "User-facing AI interaction patterns beyond chat",
+    "Latency, uncertainty, and trust in AI UX",
+    "Feedback loops for corrections and product improvement",
+    "Choosing success metrics that blend model quality and product impact",
+    "Shipping narrower products with stronger reliability"
+  ],
+  "lessons": [
+    "ai-product-systems"
+  ],
+  "frameworks": [
+    "llm-application-stack",
+    "system-design-template"
+  ],
+  "relatedModules": [
+    "model-evaluation",
+    "research-to-production",
+    "system-design-for-ai"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

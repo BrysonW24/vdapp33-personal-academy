@@ -1,0 +1,13 @@
+{
+  "slug": "future-state-questioning",
+  "name": "Future-State Questioning",
+  "summary": "A questioning technique that helps the buyer describe the improved outcome they want so the rep can anchor the solution and business case to that vision.",
+  "whenToUseIt": "Use future-state questioning once the buyer has described current pain and you need to understand what success looks like, what must change, and who would care about the improvement.",
+  "steps": [
+    "Ask the buyer what an ideal outcome would look like in practical terms.",
+    "Clarify what would be different for specific roles, teams, or customers if that outcome were achieved.",
+    "Tie that future state back to measurable success criteria and next-step planning."
+  ],
+  "example": "After a buyer describes messy handoffs, you ask, 'If this worked the way you wanted six months from now, what would managers, reps, and finance all notice was different?'",
+  "category": "discovery-questioning"
+}

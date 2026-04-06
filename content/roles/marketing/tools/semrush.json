@@ -1,0 +1,64 @@
+{
+  "slug": "semrush",
+  "name": "SEMrush",
+  "category": "seo",
+  "description": "An all-in-one digital marketing toolkit covering SEO, PPC, content marketing, social media, and competitive intelligence.",
+  "whyUseIt": "SEMrush does everything \u2014 SEO, paid ads research, social scheduling, and content marketing. It's particularly strong for competitive analysis, showing you exactly what keywords your competitors rank for and what ads they run.",
+  "pricingTier": "paid",
+  "aiCapabilities": "AI Writing Assistant for SEO-optimised content, automated site audit recommendations, and AI-powered topic research.",
+  "alternatives": [
+    "Ahrefs",
+    "Moz",
+    "SpyFu"
+  ],
+  "url": "https://www.semrush.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/semrush.svg",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Keyword research reports with search volume, difficulty, and intent classification",
+    "Competitive domain analysis showing rival traffic sources, top pages, and keyword gaps",
+    "Technical site audit reports with prioritised fix recommendations",
+    "Backlink profile analysis and toxic link identification",
+    "Content topic clusters and SEO writing briefs",
+    "PPC competitor ad copy and spend estimates",
+    "Rank tracking reports monitoring keyword positions over time"
+  ],
+  "marketerWorkflow": "A marketer using SEMrush starts a content planning cycle by running keyword research to find high-volume, low-difficulty terms aligned with their business. They analyse competitor domains to uncover keyword gaps \u2014 terms competitors rank for that they do not \u2014 and use Topic Research to build content clusters around pillar topics. They run monthly site audits to catch technical SEO issues, monitor rank tracking to see which pages are climbing or dropping, and review backlink reports to identify link-building opportunities.",
+  "managerExpects": "A marketing manager expects you to use SEMrush to build a data-driven SEO and content strategy, not just pull vanity metrics. They want to see a keyword target list prioritised by business value and achievability, a content calendar informed by search demand, competitive gap analysis showing where you can win, and regular site health scores showing technical issues are being resolved. They expect you to connect SEO efforts to organic traffic growth and conversions.",
+  "aiWorkflowImpact": "SEMrush's AI Writing Assistant generates full article drafts optimised for target keywords, including recommended headings, word count, and semantic terms to include. The AI also analyses your existing content against top-ranking competitors and gives an SEO score with specific improvement suggestions. This dramatically speeds up the content creation process \u2014 what used to take a day of research and writing can now produce a strong first draft in under an hour that a human editor refines.",
+  "demoDescription": "Create a free SEMrush account (limited to 10 searches per day). Enter a competitor's domain in the Domain Overview tool to see their estimated organic traffic, top organic keywords, and main paid keywords. Then use the Keyword Magic Tool to search for a topic in your industry and filter by keyword difficulty under 40 to find achievable ranking opportunities.",
+  "vocabulary": [
+    {
+      "term": "Keyword Difficulty (KD)",
+      "definition": "A score from 0-100 estimating how hard it would be to rank on the first page for a keyword. Lower scores mean less competition. Beginners should target keywords with KD under 40."
+    },
+    {
+      "term": "Search Intent",
+      "definition": "The reason behind a search query \u2014 Informational (learning), Navigational (finding a specific site), Commercial (researching before buying), or Transactional (ready to buy). Matching intent to content is critical for ranking."
+    },
+    {
+      "term": "Domain Authority",
+      "definition": "A score estimating the overall SEO strength of a domain based on its backlink profile, age, and other factors. Higher authority domains rank more easily for competitive keywords."
+    },
+    {
+      "term": "Content Gap",
+      "definition": "Keywords that your competitors rank for but you do not. Finding and targeting content gaps is one of the fastest ways to grow organic traffic."
+    },
+    {
+      "term": "Site Audit",
+      "definition": "An automated crawl of your website that identifies technical SEO issues \u2014 broken links, slow pages, missing meta tags, duplicate content \u2014 and prioritises fixes by impact."
+    },
+    {
+      "term": "Topic Cluster",
+      "definition": "A content strategy where a comprehensive pillar page covers a broad topic, linked to multiple cluster pages covering subtopics. This structure signals topical authority to search engines."
+    }
+  ],
+  "beginnerMistakes": [
+    "Targeting high-volume keywords with extremely high difficulty instead of finding achievable long-tail opportunities",
+    "Running a site audit but never acting on the findings \u2014 the value is in fixing issues, not just identifying them",
+    "Focusing only on search volume without considering search intent, leading to content that ranks but does not convert",
+    "Copying competitor strategy exactly instead of using competitive data to find gaps and differentiate",
+    "Treating SEMrush as a one-time research tool instead of using it for ongoing monitoring, tracking, and optimisation"
+  ],
+  "relatedProject": "seo-content-strategy"
+}

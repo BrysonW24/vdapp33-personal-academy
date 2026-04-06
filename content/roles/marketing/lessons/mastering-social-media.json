@@ -1,0 +1,62 @@
+{
+  "slug": "mastering-social-media",
+  "moduleSlug": "social-media-marketing",
+  "title": "Mastering Social Media Marketing",
+  "objective": "Understand platform-specific strategies, content formats, and engagement tactics to build an effective social media presence.",
+  "beginnerExplanation": "Think of each social media platform as a different type of event. LinkedIn is a professional networking dinner — people want insights, career stories, and industry takes. Instagram is a curated gallery opening — visually driven, aspirational, and aesthetic. TikTok is a house party — raw, entertaining, trend-driven, and fast-moving. YouTube is a lecture hall — people come to learn, be entertained at length, and deep-dive into topics. Posting the same content everywhere is like wearing a tuxedo to a beach barbecue.\n\nThe biggest shift in social media is moving from broadcasting to community building. The brands winning today aren't just posting — they're replying to comments, sliding into DMs, creating content their audience wants to share, and building genuine relationships. Engagement rate matters far more than follower count. A thousand engaged followers who buy from you are worth more than a hundred thousand passive ones who scroll past.\n\nStart by choosing one or two platforms where your audience actually spends time, and master those before expanding. Create content pillars — three to five recurring themes or categories that your posts rotate through. This gives you structure without being repetitive, and helps your audience know what to expect from you.",
+  "deeperExplanation": "The tension between reach and engagement is central to social media strategy. Algorithms on every platform now prioritise content that generates meaningful interaction — comments, shares, saves — over content that merely gets views. This means optimising for engagement signals rather than vanity metrics. Posts that spark conversation, teach something specific, or provoke a strong reaction will outperform polished but passive content every time.\n\nOrganic and paid social serve different purposes and should be planned together. Organic social builds community, establishes brand voice, and creates trust over time — it's your long game. Paid social amplifies your best organic content and drives specific actions like website visits, lead generation, or purchases. The smartest approach: use organic to test what resonates, then put paid spend behind the winners. This data-driven loop eliminates guesswork from your ad creative.\n\nSocial listening — monitoring conversations about your brand, competitors, and industry — is an underutilised advantage. Tools like Brandwatch, Sprout Social, or even manual monitoring reveal what your audience cares about, how they talk about problems you solve, and where competitors are falling short. This intelligence should feed directly into your content calendar. The best social media marketers spend as much time listening as they do posting.",
+  "keyTakeaways": [
+    "Choose one or two platforms to master before expanding — depth beats breadth",
+    "Build content pillars (3-5 recurring themes) to maintain consistency without repetition",
+    "Prioritise engagement rate over follower count as your primary success metric",
+    "Use organic content to test ideas, then amplify winners with paid spend",
+    "Invest time in social listening to understand what your audience actually cares about"
+  ],
+  "frameworks": ["aida", "campaign-planning-template"],
+  "example": "Gymshark, the UK fitness apparel brand, grew from a garage startup to a $1.4 billion valuation primarily through social media and community building. Rather than traditional advertising, founder Ben Francis partnered with fitness influencers on YouTube and Instagram when influencer marketing was still emerging. They built a community of 'Gymshark athletes' who created authentic content wearing the brand. Their social strategy centred on user-generated content, behind-the-scenes footage, and fitness challenges that encouraged participation. By treating social media as a community platform rather than a broadcast channel, they turned customers into brand ambassadors.",
+  "commonMistakes": [
+    "Posting identical content across every platform without adapting format or messaging",
+    "Focusing on follower count instead of engagement quality and conversion metrics",
+    "Selling too aggressively instead of providing value and building community first",
+    "Ignoring comments and direct messages — missing opportunities for genuine connection",
+    "Not using platform-native features like Reels, Stories, or LinkedIn carousels"
+  ],
+  "exercise": "Audit a brand's presence across Instagram, LinkedIn, and TikTok (or whichever three platforms they use). For each platform, note: (1) what type of content gets the most engagement, (2) how their tone and format differ per platform, and (3) one specific thing they could improve. Write a short recommendation for each platform.",
+  "nextLesson": "email-that-drives-revenue",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "Why is engagement rate a more valuable metric than follower count for measuring social media success?",
+      "options": [
+        "Because platforms charge you based on engagement rate",
+        "Because a smaller, engaged audience that interacts and buys is worth more than a large, passive following",
+        "Because follower count is always fake",
+        "Because engagement rate is easier to calculate"
+      ],
+      "correctIndex": 1,
+      "explanation": "A thousand engaged followers who buy from you are worth more than a hundred thousand passive ones who scroll past. Engagement signals genuine connection and intent."
+    },
+    {
+      "question": "You manage social media for a B2B software company. You have budget to focus on two platforms. Which approach is best?",
+      "options": [
+        "Post identical content on all five major platforms to maximise reach",
+        "Choose the two platforms where your target audience actually spends time and create platform-native content for each",
+        "Only use TikTok because it has the highest organic reach right now",
+        "Focus on whichever platforms your CEO personally uses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Depth beats breadth in social media. Choose platforms based on where your audience is, then adapt your content to each platform's native format and culture."
+    },
+    {
+      "question": "Which of the following is a social media marketing mistake?",
+      "options": [
+        "Using organic content to test ideas before putting paid spend behind winners",
+        "Posting the same content across every platform without adapting format or messaging",
+        "Building content pillars with 3-5 recurring themes for consistency",
+        "Investing time in social listening to understand audience conversations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each platform has its own culture, format, and audience expectations. Posting identical content everywhere is like wearing a tuxedo to a beach barbecue — it ignores context."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "meddpicc",
+  "name": "MEDDPICC",
+  "summary": "An enterprise qualification framework that extends MEDDIC by adding Paper Process and Competition so late-stage risk is surfaced earlier.",
+  "whenToUseIt": "Use MEDDPICC in complex B2B and enterprise deals where legal, procurement, formal approvals, and competitive pressure materially affect win rate and forecast confidence. Some teams say MEDDPPICC or add Partner; treat those as variants of the same core model.",
+  "steps": [
+    "Inspect the classic MEDDIC elements: Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, and Champion.",
+    "Add Paper Process so legal, procurement, security, and approval mechanics are mapped before late stage.",
+    "Inspect Competition explicitly so you know whether you are fighting another vendor, the status quo, or an internal option."
+  ],
+  "example": "A deal looks healthy on MEDDIC, but MEDDPICC reveals that procurement requires a master services agreement, security review takes three weeks, and the incumbent vendor has a renewal discount waiting in the wings. The rep now sees the real risk profile.",
+  "category": "qualification"
+}

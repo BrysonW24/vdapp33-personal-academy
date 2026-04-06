@@ -1,0 +1,61 @@
+{
+  "slug": "economics-that-shape-marketing",
+  "moduleSlug": "economics-for-marketers",
+  "title": "Economics That Shape Marketing",
+  "objective": "Understanding how economic forces affect marketing decisions, pricing strategy, and consumer behaviour.",
+  "beginnerExplanation": "Economics might sound like a dry university subject, but it quietly shapes every marketing decision you'll ever make. At its core, economics is about how people and businesses allocate scarce resources — and marketing is the bridge between what businesses produce and what consumers are willing to pay for.\n\nThe most important concept is supply and demand. When demand for a product is high and supply is limited, prices go up and marketing focuses on exclusivity. When supply exceeds demand, prices drop and marketing has to work harder to differentiate. This interplay determines your pricing power — how much control you have over what you charge.\n\nThen there are macroeconomic forces that sit above any single business. Interest rates affect how much consumers spend. Inflation erodes purchasing power, making people trade down from premium to budget options. Consumer confidence determines whether people buy now or wait. As a marketer, you can't control these forces, but you absolutely need to monitor them — because they change what messages resonate, which channels work, and how aggressively you can price.",
+  "deeperExplanation": "Price elasticity is one of the most practical economic concepts for marketers. Elastic demand means customers are sensitive to price changes — raise the price of generic laundry detergent by 20% and people switch brands immediately. Inelastic demand means customers will pay more regardless — insulin, premium coffee, luxury fashion. Understanding where your product sits on this spectrum determines your entire pricing and promotional strategy.\n\nMarket structure also matters. In a perfectly competitive market (think commodity agriculture), no single player has pricing power — marketing is about cost efficiency. In a monopolistic competition (most consumer brands), differentiation through marketing is everything. In an oligopoly (airlines, telecoms), pricing is strategic and marketing focuses on loyalty and switching costs.\n\nEconomic moats are the durable competitive advantages that protect a business from competition. Warren Buffett popularised the term, and marketers need to understand them because they determine long-term brand strength. Network effects (Facebook), switching costs (Salesforce), brand power (Coca-Cola), and cost advantages (Walmart) are all moats that marketing both benefits from and helps build. A marketer working for a business with a strong moat has a fundamentally different job than one competing in a commodity market.",
+  "keyTakeaways": [
+    "Assess whether your product has elastic or inelastic demand before setting pricing and promotional strategy",
+    "Monitor macroeconomic indicators (interest rates, inflation, consumer confidence) and adjust messaging accordingly",
+    "Identify your market structure to understand how much pricing power your marketing can actually create",
+    "Build and reinforce economic moats through brand, switching costs, and network effects",
+    "Adapt marketing budgets and tactics to economic cycles — what works in a boom often fails in a downturn"
+  ],
+  "frameworks": ["pestel"],
+  "example": "Apple is a masterclass in using economics to marketing's advantage. Their demand is highly inelastic — when iPhone prices increased from $999 to $1,199, unit sales barely flinched. This pricing power comes from multiple economic moats working together: the ecosystem lock-in (switching costs — your iCloud, apps, and Apple Watch all keep you loyal), brand power built over decades, and network effects (iMessage creates social pressure). Apple's marketing reinforces these moats constantly, positioning the brand as aspirational and making the ecosystem feel seamless. The result is a business that can maintain premium pricing even during economic downturns when competitors are forced to discount.",
+  "commonMistakes": [
+    "Assuming your product has inelastic demand without testing how customers actually respond to price changes",
+    "Ignoring macroeconomic shifts and running the same marketing playbook in a recession as in a boom",
+    "Competing on price in a market where differentiation and brand building would create more value",
+    "Confusing correlation with causation when sales rise alongside economic growth",
+    "Overlooking economic moats when analysing competitors — focusing on their ads instead of their structural advantages"
+  ],
+  "exercise": "Pick a product you buy regularly. Research: Is demand elastic or inelastic? What happens to sales when the price rises 10%? Name 2 macroeconomic factors that could affect this business next year. Then identify whether this business has any economic moats — and if so, which type.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What does price elasticity of demand tell a marketer?",
+      "options": [
+        "How quickly a product can be manufactured to meet demand",
+        "How sensitive customers are to changes in price, which shapes pricing and promotional strategy",
+        "How much a product costs to produce relative to its selling price",
+        "How many competitors exist in the market"
+      ],
+      "correctIndex": 1,
+      "explanation": "Price elasticity measures how much customer demand changes when you raise or lower prices. Products with elastic demand see significant sales drops from price increases, while inelastic products maintain sales — this directly shapes your pricing and discounting strategy."
+    },
+    {
+      "question": "During a period of rising inflation and declining consumer confidence, what should a marketer selling non-essential consumer goods prioritise?",
+      "options": [
+        "Raise prices significantly to offset declining volumes",
+        "Ignore macroeconomic conditions and maintain the existing marketing playbook",
+        "Adjust messaging to emphasise value and practical benefits, and reconsider aggressive pricing",
+        "Cut all marketing spend entirely until the economy recovers"
+      ],
+      "correctIndex": 2,
+      "explanation": "When inflation erodes purchasing power and confidence drops, consumers trade down and delay non-essential purchases. Adjusting messaging to emphasise value and being thoughtful about pricing helps maintain relevance during tough economic conditions."
+    },
+    {
+      "question": "Which of the following statements about economic moats is incorrect?",
+      "options": [
+        "Network effects make a product more valuable as more people use it",
+        "Switching costs make it difficult for customers to move to a competitor",
+        "A strong economic moat guarantees that a company will never need marketing",
+        "Brand power built over decades is a form of economic moat that affects pricing power"
+      ],
+      "correctIndex": 2,
+      "explanation": "Even companies with strong economic moats still need marketing to reinforce and extend those advantages. Moats provide structural protection, but marketing is what builds brand awareness, drives adoption, and strengthens the moat over time."
+    }
+  ]
+}

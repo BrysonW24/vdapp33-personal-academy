@@ -1,0 +1,13 @@
+{
+  "slug": "cold-calling",
+  "name": "Cold Calling",
+  "summary": "A prospecting technique that uses direct phone outreach to earn live conversations, test relevance quickly, and create meetings with buyers who were not expecting the interaction.",
+  "whenToUseIt": "Use cold calling when your market responds to live conversation, when urgency matters, or when email alone is too slow or too crowded to create reliable pipeline.",
+  "steps": [
+    "Use a short, direct opener that acknowledges the interruption honestly.",
+    "Give a specific reason for the call and ask a relevant question quickly.",
+    "Handle early pushback calmly and close for the next step or a clean no."
+  ],
+  "example": "An SDR calls a VP of Sales after noticing a new regional expansion and asks how forecast inspection is changing as the new team ramps, rather than launching into a generic product pitch.",
+  "category": "prospecting"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "docker-ml",
+  "name": "Docker",
+  "category": "infra",
+  "description": "Containerisation platform that packages your model, dependencies, and environment into a reproducible, deployable unit.",
+  "whyUseIt": "Docker solves 'it works on my machine'. Package your ML model with its exact Python version, CUDA drivers, and dependencies. Deploy the same container locally, on AWS, or on any cloud.",
+  "pricingTier": "free",
+  "url": "https://www.docker.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/docker-4.svg",
+  "alternatives": [
+    "Podman",
+    "Singularity",
+    "conda-pack"
+  ]
+}

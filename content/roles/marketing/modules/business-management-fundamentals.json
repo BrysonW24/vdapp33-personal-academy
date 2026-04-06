@@ -1,0 +1,25 @@
+{
+  "slug": "business-management-fundamentals",
+  "title": "Business Management Fundamentals",
+  "shortSummary": "How organisations are structured, governed, and managed. Every marketer operates inside a business — understanding how that business works is the foundation of effective marketing.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Marketing sits within the broader business context. Understanding the POLC framework, organisational structures, stakeholder relationships, and how business objectives cascade into marketing KPIs is essential for any marketer who wants to earn influence and deliver results that matter to the business.",
+  "coreConcepts": [
+    "POLC Framework (Plan, Organise, Lead, Control)",
+    "Organisational structures (hierarchical, flat, matrix, network)",
+    "Stakeholder theory",
+    "Corporate governance",
+    "Business objectives and how they cascade to marketing KPIs",
+    "Management vs Leadership",
+    "Cross-functional relationships (marketing with sales, finance, product)",
+    "Decision-making models"
+  ],
+  "lessons": ["understanding-business-management"],
+  "frameworks": ["balanced-scorecard"],
+  "visualType": "diagram",
+  "relatedModules": ["marketing-leadership", "budgeting-channel-allocation"],
+  "status": "complete",
+  "order": 21,
+  "levelNumber": 1
+}

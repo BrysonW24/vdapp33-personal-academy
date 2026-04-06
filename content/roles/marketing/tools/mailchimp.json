@@ -1,0 +1,46 @@
+{
+  "slug": "mailchimp",
+  "name": "Mailchimp",
+  "category": "email",
+  "description": "An all-in-one email marketing platform for creating campaigns, building audiences, automating emails, and tracking results.",
+  "whyUseIt": "Mailchimp is the most popular email marketing tool for small businesses. Its free tier is generous, the template editor is intuitive, and it integrates with almost everything.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI-generated subject lines, send time optimisation, content recommendations, and predictive segmentation.",
+  "alternatives": [
+    "Klaviyo",
+    "ConvertKit",
+    "HubSpot"
+  ],
+  "url": "https://mailchimp.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/mailchimp-freddie-icon-wink.svg",
+  "funnelPosition": "Mid-funnel — Consideration",
+  "outputs": [
+    "Email campaigns (newsletters, promotions, announcements)",
+    "Automated email sequences (welcome series, abandoned cart, re-engagement)",
+    "Audience segments and subscriber lists",
+    "A/B test results and performance reports",
+    "Landing pages and signup forms",
+    "Campaign performance dashboards with open and click rates",
+    "Customer journey maps and automation workflows"
+  ],
+  "marketerWorkflow": "A marketer logs into Mailchimp to build and schedule email campaigns — designing templates, writing copy, segmenting the audience, and setting up automations like welcome sequences. They review campaign reports daily, checking open rates, click-through rates, and unsubscribe trends to optimise future sends. Weekly, they clean their list, test new subject lines, and refine automations based on subscriber behaviour data.",
+  "managerExpects": "A marketing manager expects to see consistent email output — a regular newsletter cadence, functioning automations for key lifecycle stages, and growing list health metrics. They want reports showing open rates above industry benchmarks, click-through rates improving over time, and clear evidence that email is driving measurable revenue or engagement through tracked conversions.",
+  "aiWorkflowImpact": "In 2025, Mailchimp's AI generates subject line variations and predicts which will perform best before you send, saving hours of manual A/B testing. Predictive segmentation automatically groups subscribers by purchase likelihood and engagement level, letting marketers target high-value segments without building complex rules manually. The AI content assistant drafts email body copy based on your campaign goal and brand tone.",
+  "demoDescription": "Sign up for Mailchimp's free plan and import a small test list (even 5 email addresses you control). Build a simple welcome email using the drag-and-drop editor, set up a basic welcome automation triggered on signup, and send a test campaign to yourself to experience the full workflow from creation to inbox.",
+  "vocabulary": [
+    { "term": "Open rate", "definition": "The percentage of recipients who opened your email, used as a primary engagement metric (though less reliable since Apple's Mail Privacy Protection)." },
+    { "term": "Click-through rate (CTR)", "definition": "The percentage of email recipients who clicked on one or more links in your email." },
+    { "term": "Segmentation", "definition": "Dividing your email list into smaller groups based on shared characteristics like purchase history, location, or engagement level." },
+    { "term": "Automation / Drip sequence", "definition": "A series of pre-written emails that send automatically based on triggers like signing up, making a purchase, or abandoning a cart." },
+    { "term": "List hygiene", "definition": "The practice of regularly removing inactive, bounced, or invalid email addresses to maintain deliverability and sender reputation." },
+    { "term": "Merge tags", "definition": "Placeholder variables (like *|FNAME|*) that dynamically insert personalised subscriber data into email content." }
+  ],
+  "beginnerMistakes": [
+    "Sending campaigns without segmenting the audience, blasting the same message to everyone regardless of their interests or stage",
+    "Never cleaning the email list, leading to high bounce rates and damaged sender reputation over time",
+    "Writing subject lines as afterthoughts instead of testing multiple variations to maximise open rates",
+    "Setting up automations and never reviewing their performance, letting broken or underperforming sequences run indefinitely",
+    "Ignoring mobile preview — over 60% of emails are opened on mobile, and poorly formatted emails get deleted instantly"
+  ],
+  "relatedProject": "email-welcome-sequence"
+}

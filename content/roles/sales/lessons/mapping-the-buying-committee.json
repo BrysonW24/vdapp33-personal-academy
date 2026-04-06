@@ -1,0 +1,72 @@
+{
+  "slug": "mapping-the-buying-committee",
+  "moduleSlug": "understanding-buyers",
+  "title": "Mapping the Buying Committee",
+  "objective": "Learn to identify the real stakeholders in a B2B deal, understand what each one cares about, and avoid the single-threaded deals that quietly die in internal review.",
+  "beginnerExplanation": "One of the fastest ways to lose a B2B deal is to confuse your main contact with the whole decision. The person who takes your meeting is often not the person who owns the budget, signs the contract, checks security, or decides whether change is worth the effort. A buying committee is the group of people who influence the decision together. Your job is to map that group early and understand what each person needs to believe before the deal can move.",
+  "deeperExplanation": "A practical buying committee map usually includes at least five roles. First, the champion: the person who feels the pain and wants change. Second, the economic buyer: the person who can approve spend. Third, the technical evaluator: the person who checks integration, security, or implementation risk. Fourth, the end users or operational owners: the people who will live with the tool every day. Fifth, the blocker: someone who may not be anti-you specifically, but is anti-risk, anti-cost, or anti-change.\n\nThe mistake is thinking these people all care about the same narrative. They do not. Finance wants payback, risk, and contract terms. Operations wants adoption and workflow fit. IT wants security and architecture. The executive sponsor wants strategic impact and credible timing. A strong AE builds one core value story, then translates that story for each stakeholder.\n\nYou do not need to meet every stakeholder on day one. But you do need a plan. Ask your contact how decisions like this are normally made. Ask who would need to feel comfortable. Ask who has veto power. Then build your path: who to meet directly, who to equip through your champion, and what proof each person will need. That is multi-threading. It protects the deal from silence, politics, and internal drift.",
+  "keyTakeaways": [
+    "A buyer is rarely a person in B2B sales. It is a group with different priorities.",
+    "The champion is critical, but the champion is not the whole deal.",
+    "Every stakeholder needs a version of the value story that matches their concerns.",
+    "Single-threading creates hidden risk because the real objections surface when you are not in the room.",
+    "Ask about decision process and veto power early, not after the proposal is sent.",
+    "A clean stakeholder map makes discovery, demos, and negotiation much more effective."
+  ],
+  "frameworks": [
+    "meddic",
+    "challenger-sale",
+    "value-selling"
+  ],
+  "example": "You are selling a workflow automation platform to a national logistics company. Your first contact is the Director of Operations, who is frustrated by manual exception handling. She is a strong champion. But the CIO cares about integration and security, the CFO cares about labour savings and payback, the Head of Customer Experience cares about service-level impact, and procurement cares about commercial risk. If you only sell to operations, the deal stalls in review. If you map the committee properly, you bring the right proof to each conversation: ROI model for finance, architecture review for IT, service metrics for CX, and a mutual action plan for procurement.",
+  "commonMistakes": [
+    "Assuming the first enthusiastic contact can carry the whole deal internally",
+    "Using the same message with finance, IT, and operations",
+    "Waiting until late stage to ask who else needs to approve the purchase",
+    "Failing to identify the person who can quietly block the deal",
+    "Treating multi-threading like politics instead of deal insurance"
+  ],
+  "exercise": "Take a current or hypothetical deal and create a stakeholder map with five columns: role, person, what they care about, likely objection, and proof they need. Then write one sentence you would use with each stakeholder to connect your solution to their priorities.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What is the biggest risk of single-threading a deal?",
+      "options": [
+        "The AE spends too much time on discovery",
+        "The buyer asks for too many references",
+        "Important objections surface in internal conversations where the AE is absent",
+        "The CRM gets cluttered with extra contacts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Single-threading is dangerous because the real decision happens across the committee, not only with your main contact."
+    },
+    {
+      "question": "Who is the economic buyer?",
+      "options": [
+        "The person most excited about the product",
+        "The person who checks the technical requirements",
+        "The person who can approve the spend or strongly influence budget approval",
+        "The person who attends every call"
+      ],
+      "correctIndex": 2,
+      "explanation": "The economic buyer is the person with budget authority or decisive influence over the investment."
+    },
+    {
+      "question": "What should change when you map the buying committee well?",
+      "options": [
+        "Only the pricing page",
+        "Your message, proof points, and meeting plan",
+        "Nothing - one strong champion is enough",
+        "The product roadmap"
+      ],
+      "correctIndex": 1,
+      "explanation": "A good committee map changes how you communicate, who you involve, and what proof you bring."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should build contact coverage early. Three meaningful relationships are stronger than one enthusiastic contact.",
+    "manager": "Managers inspect deal health by asking who the rep has actually spoken to and which stakeholder still feels unknown.",
+    "vp": "A VP cares because deals with executive access and multi-threaded contact maps close more reliably and forecast more cleanly.",
+    "cro": "A CRO sees stakeholder discipline as a system-level habit. It raises win rate, reduces late-stage surprises, and improves expansion later."
+  }
+}

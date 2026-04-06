@@ -1,0 +1,30 @@
+{
+  "slug": "hubspot-crm",
+  "name": "HubSpot CRM",
+  "category": "crm",
+  "description": "A user-friendly CRM platform popular with SMBs and mid-market companies. HubSpot combines CRM, marketing automation, sales engagement, and customer service in one platform. Its free tier makes it accessible for startups and small teams.",
+  "whyUseIt": "HubSpot is often the first CRM companies adopt because of its generous free tier and intuitive interface. For AEs, it provides deal tracking, email integration, meeting scheduling, and pipeline management without the complexity of Salesforce. Many Australian tech companies use HubSpot, especially at the SMB and mid-market level.",
+  "pricingTier": "freemium",
+  "url": "https://www.hubspot.com",
+  "logoUrl": "/tools/hubspot-crm.svg",
+  "aiCapabilities": "HubSpot AI assists with email writing, call transcription, content generation, lead scoring, and predictive deal insights. The AI tools are integrated natively across the platform.",
+  "alternatives": ["salesforce", "pipedrive"],
+  "funnelPosition": "Full funnel — marketing to sales to service, all in one platform",
+  "outputs": ["Deal pipelines", "Contact timelines", "Email sequences", "Meeting bookings", "Revenue dashboards"],
+  "sellerWorkflow": "AEs manage deals in the pipeline view, log calls with one-click recording, send sequences from the CRM, and track email opens. SDRs use the prospecting workspace to manage their daily outreach activities.",
+  "managerExpects": "Deals accurately staged, contact associations complete, activity timeline showing consistent engagement, and pipeline reports reflecting reality.",
+  "aiWorkflowImpact": "HubSpot AI drafts follow-up emails, transcribes and summarises calls, scores leads based on engagement, and flags deals that need attention.",
+  "demoDescription": "Create a deal, drag it through pipeline stages, send a tracked email, book a meeting using the scheduling tool, and view the contact timeline showing all touchpoints.",
+  "vocabulary": [
+    { "term": "Deal", "definition": "HubSpot's term for an opportunity — a potential sale being tracked through your pipeline." },
+    { "term": "Sequence", "definition": "An automated series of emails and tasks that execute when enrolled, used for outbound prospecting." },
+    { "term": "Lifecycle Stage", "definition": "Where a contact sits in your funnel: subscriber, lead, MQL, SQL, opportunity, customer, evangelist." }
+  ],
+  "beginnerMistakes": [
+    "Not connecting your email inbox — losing automatic activity logging",
+    "Creating duplicate contacts instead of merging existing records",
+    "Ignoring the activity feed — it shows exactly what the prospect has engaged with",
+    "Not using deal properties to track key qualification data like budget and timeline"
+  ],
+  "relatedProject": "pipeline-audit"
+}

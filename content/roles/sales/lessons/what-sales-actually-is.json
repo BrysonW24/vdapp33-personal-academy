@@ -1,0 +1,72 @@
+{
+  "slug": "what-sales-actually-is",
+  "moduleSlug": "what-sales-is",
+  "title": "What Sales Actually Is",
+  "objective": "Understand that sales is fundamentally about solving problems and creating value — not manipulation or pressure. Walk away with a clear mental model of what great salespeople actually do.",
+  "beginnerExplanation": "When most people think of sales, they imagine a pushy car salesman or a cold caller interrupting dinner. That's not what professional B2B sales is. In reality, sales is about finding people who have a problem, understanding that problem deeply, and helping them see how your product or service solves it. Think of it like being a doctor — you diagnose before you prescribe. A great salesperson asks questions, listens carefully, and only recommends a solution when they genuinely believe it will help. If it won't help, they say so honestly. That's not just ethical — it's better business.",
+  "deeperExplanation": "Professional sales — particularly in B2B SaaS and technology — is a consultative discipline. Your job is to create value for both parties in every interaction. The buyer gets a solution to a real business problem. Your company gets revenue and a customer who will renew and expand. This value exchange is the foundation.\n\nThe best way to understand sales is through the 'gap' lens. Every buyer has a current state (how things work today, with all its problems) and a desired future state (how they wish things worked). The gap between these two states is where the sale lives. Your job is to help the buyer see the gap clearly, quantify the cost of the gap, and then show how your solution bridges it.\n\nConsultative selling differs from transactional selling in a critical way. In transactional sales (like retail), the buyer already knows what they want — your job is just to process the transaction. In consultative sales, the buyer often doesn't fully understand their own problem yet. They know something isn't working, but they haven't diagnosed the root cause or explored all the implications. That's your job.\n\nThe sales mindset has three pillars: curiosity (genuinely wanting to understand the buyer's world), resilience (handling rejection as data, not defeat), and empathy (caring about the buyer's outcome, not just your commission). Reps who internalise this mindset outsell those who rely on tactics alone by a wide margin.",
+  "keyTakeaways": [
+    "Sales is problem-solving. If you solve real problems, you'll never feel 'salesy'.",
+    "The gap between current state and desired future state is where every sale lives.",
+    "Consultative selling means diagnosing before prescribing — just like a doctor.",
+    "The best salespeople are curious, resilient, and empathetic.",
+    "Revenue is how every business survives — sales is the engine that drives it.",
+    "A good salesperson walks away from deals where the product isn't a genuine fit."
+  ],
+  "frameworks": ["gap-selling", "value-selling"],
+  "example": "Imagine you sell service operations software to a field maintenance company. A prospect tells you their team keeps missing service-level targets. A bad salesperson immediately says 'Our platform has automated alerts and mobile workflows.' A great salesperson asks: 'How are dispatch decisions made today? What happens when jobs run late? How much revenue or customer trust have you lost because technicians are reactive instead of scheduled well?' After understanding the full picture - maybe $180K in penalty credits, missed renewal risk, and burnt-out dispatch managers - they position the software not as 'a scheduling tool' but as 'the system that protects service revenue and restores operational control.' Same product, completely different conversation.",
+  "commonMistakes": [
+    "Leading with features instead of understanding the buyer's problem first",
+    "Talking more than listening — great salespeople aim for a 30/70 talk-to-listen ratio",
+    "Taking rejection personally instead of treating it as information",
+    "Trying to sell to everyone instead of qualifying who actually has the problem you solve",
+    "Thinking you need to be extroverted or aggressive — the best reps are often quiet, curious listeners"
+  ],
+  "exercise": "Think of the last time you bought something significant (a car, a laptop, a subscription). Write down: (1) What was the problem you were trying to solve? (2) What made you choose the option you chose? (3) Did anyone help you in the buying process — and if so, what did they do well or poorly? Now flip it: imagine you were selling that product. How would you have run the conversation differently knowing what you know now?",
+  "nextLesson": "consultative-vs-transactional-selling",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the primary role of a consultative salesperson?",
+      "options": [
+        "To convince buyers they need something they don't",
+        "To diagnose problems and connect buyers with genuine solutions",
+        "To process transactions as quickly as possible",
+        "To memorise and recite product features"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consultative selling is about diagnosis before prescription. Your job is to understand the buyer's problem deeply and then show how your solution addresses it — not to persuade them to buy something they don't need."
+    },
+    {
+      "question": "In the 'gap selling' model, what is the 'gap'?",
+      "options": [
+        "The difference between your price and the competitor's price",
+        "The space between the current state and the desired future state",
+        "The time between first contact and closing the deal",
+        "The gap in the market your product fills"
+      ],
+      "correctIndex": 1,
+      "explanation": "The gap is the distance between how things work today (current state, with all its problems and costs) and how the buyer wishes things worked (desired future state). Your solution bridges this gap."
+    },
+    {
+      "question": "Which mindset trait is NOT one of the three pillars of the sales mindset?",
+      "options": [
+        "Curiosity",
+        "Aggressiveness",
+        "Resilience",
+        "Empathy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The three pillars are curiosity (wanting to understand), resilience (handling rejection), and empathy (caring about the buyer's outcome). Aggressiveness is a common misconception about what makes a good salesperson."
+    }
+  ],
+  "perspectives": {
+    "ae": "As an Account Executive, you live this every day. Your job is to diagnose problems, not pitch features. The best AEs build genuine curiosity into every conversation and walk away from deals that aren't a fit — because protecting your pipeline quality matters more than padding your activity metrics.",
+    "manager": "A Sales Manager coaches reps to internalise the consultative mindset. They listen to call recordings, looking for whether reps ask enough questions, go deep on pain, and resist the urge to pitch too early. Managers know that mindset coaching compounds faster than tactics training.",
+    "vp": "The VP of Sales evaluates whether the entire sales org operates consultatively. They look at metrics like win rate, average deal size, and sales cycle length — all of which improve when reps diagnose before prescribing. A VP builds the systems and training that embed this mindset at scale.",
+    "cro": "The CRO sees sales as one part of the full revenue engine — from marketing-generated awareness through to customer success and expansion. They want every customer-facing team aligned on value creation, not just deal closure. A CRO who builds a consultative culture sees higher NRR and lower churn.",
+    "ceo": "The CEO sees sales as the revenue engine of the business. Without effective sales, even the best product fails. They want reps who represent the company's values and build relationships that last beyond a single deal.",
+    "cfo": "The CFO cares about unit economics: customer acquisition cost (CAC), lifetime value (LTV), and payback period. A salesperson who sells to the wrong customer creates revenue that churns — which is worse than no revenue at all.",
+    "cmo": "The CMO generates leads and awareness, but needs sales to convert that pipeline into revenue. They want reps who provide feedback on what messaging resonates, which leads are highest quality, and what objections keep coming up."
+  }
+}

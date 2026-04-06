@@ -1,0 +1,15 @@
+{
+  "slug": "segmentation-personalization",
+  "title": "Segmentation & Personalisation",
+  "shortSummary": "Divide your audience into meaningful groups and deliver personalised experiences that convert better.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Generic marketing underperforms. When you segment your audience and personalise your messaging, every dollar works harder. Personalised emails get 6x higher transaction rates.",
+  "coreConcepts": ["Demographic segmentation", "Behavioural segmentation", "Psychographic profiling", "Dynamic content", "Personalisation engines", "1:1 marketing", "Cohort analysis"],
+  "lessons": ["segmenting-your-audience"],
+  "frameworks": ["stp"],
+  "relatedModules": ["customer-market-demand", "email-and-crm", "analytics-attribution-kpis"],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 4
+}

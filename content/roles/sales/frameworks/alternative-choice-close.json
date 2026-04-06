@@ -1,0 +1,13 @@
+{
+  "slug": "alternative-choice-close",
+  "name": "Alternative Choice Close",
+  "summary": "A closing technique that offers two credible forward paths so the buyer chooses how to proceed rather than whether to proceed at all.",
+  "whenToUseIt": "Use the alternative choice close when the buyer is already leaning in and needs help choosing the next commitment, timeline, or rollout shape.",
+  "steps": [
+    "Identify two realistic next-step options that both move the deal forward.",
+    "Present the options clearly without sounding manipulative.",
+    "Use the choice to clarify the buyer's preferred path and timing."
+  ],
+  "example": "The AE asks, 'Would it make more sense to run the security review this week and procurement next week, or bring both workstreams together in one executive review?'",
+  "category": "closing"
+}

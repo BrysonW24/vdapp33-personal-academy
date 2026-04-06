@@ -1,0 +1,73 @@
+{
+  "slug": "navigating-no-decision",
+  "moduleSlug": "objection-handling",
+  "title": "Navigating No Decision and Status Quo",
+  "objective": "Learn how to handle the most common competitor in B2B sales - doing nothing - and create urgency without pressure or gimmicks.",
+  "beginnerExplanation": "Many deals are not lost to another vendor. They are lost to indecision. The buyer agrees the problem is real, but the change feels hard, the timing feels messy, or the current process feels familiar enough to tolerate. That is the status quo. If you cannot help the buyer feel the cost of staying still, even a strong product can end up in 'we will revisit this later.'",
+  "deeperExplanation": "Status quo wins when three things happen. First, the pain is acknowledged but not quantified. Second, the internal path to change feels risky or unclear. Third, nobody owns the decision strongly enough to push it through. Your job is to reduce all three problems.\n\nThe way to do that is not false urgency. It is consequence clarity. What happens financially, operationally, or strategically if the buyer waits another quarter? What initiative slips? What cost continues? What risk remains exposed? Then pair that with a practical path forward: who needs to align, what next step is reasonable, and how the process can be made easier.\n\nNo-decision also tells you something about deal quality. If there is no clear champion, no measurable impact, and no compelling event, the safest forecast call may be to downgrade or disqualify the opportunity. Mature selling is not only about reviving stalled deals. It is also about knowing which ones deserve fewer resources.",
+  "keyTakeaways": [
+    "Status quo is often the real competitor in B2B deals.",
+    "Urgency should come from consequence clarity, not pressure tactics.",
+    "No-decision usually reflects weak pain, weak ownership, or a risky change path.",
+    "A strong champion helps convert interest into movement.",
+    "Mutual next steps reduce the buyer's sense of effort and uncertainty.",
+    "Some stalled deals should be downgraded rather than endlessly chased."
+  ],
+  "frameworks": [
+    "gap-selling",
+    "meddic",
+    "challenger-sale"
+  ],
+  "example": "A buyer says your platform looks strong but they want to revisit next quarter. Instead of saying, 'No worries, I will check back then,' you ask, 'What changes if the current process stays in place until then?' They admit forecast misses are already affecting hiring and board planning. You then ask, 'If we made the next step a short technical validation with your RevOps lead and finance partner, would that help you make a cleaner decision this month?' That shifts the conversation from delay to decision process.",
+  "commonMistakes": [
+    "Accepting 'later' without exploring the cost of waiting",
+    "Trying to force urgency with discounts or arbitrary deadlines",
+    "Ignoring the missing champion or unclear decision process",
+    "Keeping dead deals in the forecast because the buyer was friendly",
+    "Mistaking politeness for commitment"
+  ],
+  "exercise": "Take a stalled deal and write two lists: the cost of waiting and the effort required to move forward. Then write one message that increases consequence clarity and one message that reduces the effort of the next step.",
+  "nextLesson": "objection-techniques-that-keep-control",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What is the status quo in a sales cycle?",
+      "options": [
+        "The current approach the buyer stays with if they do nothing",
+        "The contract language your legal team prefers",
+        "The vendor shortlist",
+        "The last pricing version sent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Status quo means keeping the existing process, tools, or habits instead of changing."
+    },
+    {
+      "question": "What is the healthiest way to create urgency?",
+      "options": [
+        "Artificial deadlines",
+        "Heavy pressure from leadership",
+        "Clarifying the consequences of delay and the path forward",
+        "Sending more generic follow-ups"
+      ],
+      "correctIndex": 2,
+      "explanation": "Urgency is strongest when it comes from real business consequences and a realistic decision path."
+    },
+    {
+      "question": "What should you do with a stalled deal that has no champion, no impact, and no next step?",
+      "options": [
+        "Keep it in commit",
+        "Add more product detail",
+        "Consider downgrading or disqualifying it",
+        "Assume it will revive itself"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mature deal management means recognising when a deal is too weak to keep treating as active."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs need to surface the cost of delay early enough that later urgency feels earned, not invented.",
+    "manager": "Managers should inspect stalled deals for missing pain, missing champions, and missing next steps.",
+    "vp": "A VP wants the team to distinguish between deals that need help and deals that are simply not real.",
+    "cro": "A CRO sees no-decision management as a major lever for forecast accuracy and resource allocation."
+  }
+}

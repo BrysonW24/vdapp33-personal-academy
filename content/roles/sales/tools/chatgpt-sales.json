@@ -1,0 +1,28 @@
+{
+  "slug": "chatgpt-sales",
+  "name": "ChatGPT for Sales",
+  "category": "ai-automation",
+  "description": "OpenAI's conversational AI assistant used by sales professionals for email drafting, prospect research, role-play practice, objection handling preparation, and proposal writing. ChatGPT is the Swiss Army knife of AI tools for sales.",
+  "whyUseIt": "ChatGPT accelerates almost every writing and research task in sales. Draft a cold email in 30 seconds. Research an industry in 2 minutes. Practise a discovery call by role-playing with the AI as the buyer. Generate objection responses. Summarise a long research report. The reps who learn to use AI effectively will outproduce those who don't by a significant margin.",
+  "pricingTier": "freemium",
+  "url": "https://chat.openai.com",
+  "logoUrl": "/tools/chatgpt-sales.svg",
+  "aiCapabilities": "Full conversational AI with internet access for research, document analysis for account intelligence, code interpretation for data analysis, and image generation for presentation visuals.",
+  "alternatives": ["claude-sales", "copy-ai"],
+  "funnelPosition": "Full funnel — productivity acceleration across every sales activity",
+  "outputs": ["Draft emails", "Research summaries", "Discovery call scripts", "Objection responses", "Proposal sections", "Competitive analysis"],
+  "sellerWorkflow": "Before a call: 'Research [company] and summarise their top 3 business challenges.' After a call: 'Turn these notes into a follow-up email.' For outreach: 'Write a cold email to a VP of Sales at an Australian SaaS company about our forecasting platform.' For practice: 'Act as a sceptical CFO and let me practise my pitch.'",
+  "managerExpects": "AI is used to accelerate work, not replace thinking. Emails should be human-reviewed and personalised before sending. Research should be verified against primary sources.",
+  "demoDescription": "Draft a personalised cold email, research a target account, role-play a discovery call, generate objection responses, and create a competitive comparison matrix — all through conversation.",
+  "vocabulary": [
+    { "term": "Prompt Engineering", "definition": "The skill of writing effective instructions for AI to get better outputs. In sales: specifying the persona, context, tone, and desired format." },
+    { "term": "System Prompt", "definition": "Background instructions that shape the AI's behaviour — like telling it to act as a sales coach or a buyer persona." }
+  ],
+  "beginnerMistakes": [
+    "Using AI-generated content without editing — buyers can spot generic AI writing instantly",
+    "Not providing enough context in prompts — 'write a cold email' produces garbage; 'write a cold email to a VP of Sales at a 200-person SaaS company about our forecasting platform, referencing their recent enterprise hiring push' produces gold",
+    "Trusting AI research without verification — always check facts against primary sources",
+    "Not using AI for practice and role-play — it's a free, available-24/7 training partner"
+  ],
+  "relatedProject": "email-sequence"
+}

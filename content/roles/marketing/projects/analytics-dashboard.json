@@ -1,0 +1,27 @@
+{
+  "slug": "analytics-dashboard",
+  "title": "Marketing Analytics Dashboard",
+  "difficulty": 8,
+  "estimatedHours": 12,
+  "description": "Build a marketing KPI dashboard using Google Analytics and Google Sheets (or Looker Studio) that tracks the metrics that matter. Learn to turn raw data into actionable insights.",
+  "whyItMatters": "Data-driven decision making separates good marketers from great ones. A well-built dashboard gives you and your stakeholders real-time visibility into what's working and what needs attention.",
+  "skillsLearned": ["Google Analytics 4", "Data visualisation", "KPI selection", "Dashboard design", "Reporting", "Data storytelling"],
+  "prerequisites": ["Complete the 'Reading Your Analytics' lesson", "Basic spreadsheet skills"],
+  "steps": [
+    {"title": "Define dashboard purpose", "description": "Who is this dashboard for? (Marketing team, CEO, client?) What decisions should it help them make? This determines which metrics to include."},
+    {"title": "Select KPIs", "description": "Choose 8-12 KPIs across the funnel: awareness (impressions, reach), engagement (CTR, session duration), conversion (conversion rate, leads), and revenue (ROAS, CLV, CAC).", "tips": "Less is more. A dashboard with 50 metrics helps no one. Pick the ones that drive decisions."},
+    {"title": "Set up data sources", "description": "Connect Google Analytics 4 (use the demo account if needed). Set up Google Search Console. Export social media and email data."},
+    {"title": "Build the dashboard", "description": "Use Google Sheets or Looker Studio. Create sections: overview (headline metrics), acquisition (traffic sources), engagement (content performance), and conversion (goal completions). Add charts and trendlines."},
+    {"title": "Add context and targets", "description": "Raw numbers mean nothing without context. Add: period-over-period comparisons, targets/benchmarks, colour coding (green/yellow/red against targets), and brief annotations."},
+    {"title": "Create an insights summary", "description": "Add a section at the top: '3 Key Insights This Month' — written in plain English. What's working, what's not, and what action should be taken.", "tips": "This is the most important part. Numbers tell you what happened; insights tell you what to do about it."},
+    {"title": "Design for readability", "description": "Clean layout, consistent formatting, logical flow from high-level to detail. Make it something someone can scan in 30 seconds and understand the headline story."}
+  ],
+  "deliverables": ["Live dashboard (Looker Studio or Google Sheets)", "KPI selection rationale document", "Written monthly insights summary", "Presentation-ready screenshot of the dashboard"],
+  "tools": ["Google Analytics 4", "Google Looker Studio (free)", "Google Sheets", "Google Search Console"],
+  "rubric": [
+    {"criteria": "KPI Selection", "description": "Metrics are relevant, covering the full funnel, and aligned with stated business goals."},
+    {"criteria": "Data Accuracy", "description": "Numbers are correctly sourced and calculations are verified."},
+    {"criteria": "Visual Design", "description": "Dashboard is clean, scannable, and uses appropriate chart types."},
+    {"criteria": "Actionable Insights", "description": "The insights summary translates data into clear next steps."}
+  ]
+}

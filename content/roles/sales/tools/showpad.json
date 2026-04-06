@@ -1,0 +1,27 @@
+{
+  "slug": "showpad",
+  "name": "Showpad",
+  "category": "project-management",
+  "description": "A revenue enablement platform combining content management, training, and coaching in a single solution. Showpad helps sellers find and share the right content, learn and practise new skills, and engage buyers with interactive experiences.",
+  "whyUseIt": "Showpad's strength is its combined content and coaching approach. It doesn't just organise your sales collateral — it also provides interactive training, practice exercises, and coaching scorecards. For sales teams that want one platform for both 'what to share' and 'how to sell', Showpad delivers. Its Shared Spaces feature creates personalised buyer microsites that impress enterprise prospects.",
+  "pricingTier": "enterprise",
+  "url": "https://www.showpad.com",
+  "logoUrl": "/tools/showpad.svg",
+  "aiCapabilities": "Showpad AI recommends relevant content, analyses buyer engagement patterns, scores coaching exercises, and identifies skill gaps for targeted training.",
+  "alternatives": ["highspot", "seismic"],
+  "funnelPosition": "Full funnel — content management, buyer engagement, training, and coaching",
+  "outputs": ["Buyer microsites", "Content recommendations", "Training courses", "Coaching scorecards", "Engagement analytics"],
+  "sellerWorkflow": "AEs create personalised Shared Spaces for key prospects — microsites with curated content, videos, and proposals. Buyers access these spaces and engage with content on their own schedule. AEs track engagement to prioritise follow-ups and tailor conversations.",
+  "managerExpects": "Shared Spaces created for enterprise opportunities, training modules completed on schedule, coaching scorecards reviewed monthly, and engagement analytics used to inform deal strategy.",
+  "demoDescription": "Create a Shared Space for a prospect with curated case studies and a proposal, complete a coaching exercise with AI scoring, review buyer engagement analytics, and check the training progress dashboard.",
+  "vocabulary": [
+    { "term": "Shared Space", "definition": "A personalised, branded microsite created for a specific buyer — containing curated content, videos, proposals, and meeting notes." },
+    { "term": "PitchIQ", "definition": "Showpad's practice and coaching feature where reps record themselves delivering a pitch and receive AI-powered feedback." }
+  ],
+  "beginnerMistakes": [
+    "Not using Shared Spaces for enterprise deals — they create a premium buyer experience that differentiates you from competitors",
+    "Skipping PitchIQ practice exercises — practising in a safe environment is far better than practising on real prospects",
+    "Overloading Shared Spaces with too much content — curate the 3-5 most relevant pieces, don't dump everything"
+  ],
+  "relatedProject": "demo-deck"
+}

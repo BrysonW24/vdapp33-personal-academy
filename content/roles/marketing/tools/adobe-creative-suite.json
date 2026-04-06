@@ -1,0 +1,46 @@
+{
+  "slug": "adobe-creative-suite",
+  "name": "Adobe Creative Suite",
+  "category": "design",
+  "description": "The professional creative toolkit including Photoshop (image editing), Illustrator (vector graphics), Premiere Pro (video), and InDesign (print layout).",
+  "whyUseIt": "Adobe tools are the gold standard for professional creative work. If you need pixel-perfect image editing, professional video production, or print-ready materials, Adobe is unmatched.",
+  "pricingTier": "paid",
+  "aiCapabilities": "Adobe Firefly for generative AI image creation and editing, content-aware fill, neural filters, and automated video editing suggestions.",
+  "alternatives": [
+    "Canva",
+    "Figma",
+    "DaVinci Resolve"
+  ],
+  "url": "https://www.adobe.com/au/creativecloud.html",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/adobe-2.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Social media graphics and ad creatives",
+    "Brand identity assets (logos, icons, colour palettes)",
+    "Video ads and promotional content",
+    "Print-ready brochures and packaging",
+    "Website and app mockups",
+    "Infographics and data visualisations",
+    "Animated motion graphics"
+  ],
+  "marketerWorkflow": "A marketer using Adobe Creative Suite spends time creating campaign visuals in Photoshop, building brand assets like logos and icons in Illustrator, and editing promotional videos in Premiere Pro. They work from brand guidelines to ensure colour, typography, and imagery are consistent across all touchpoints. Asset export happens in multiple formats and sizes for different channels — social, web, print, and email.",
+  "managerExpects": "A marketing manager expects pixel-perfect, brand-consistent creative assets delivered on time and in the correct formats for each channel. They want to see an organised asset library with proper naming conventions, along with version control so previous iterations can be retrieved. The ability to quickly resize and adapt creatives for new placements without starting from scratch is essential.",
+  "aiWorkflowImpact": "Adobe Firefly lets marketers generate background images, extend canvases, and create variations of existing assets using text prompts — eliminating the need for stock photo searches in many cases. Generative Fill in Photoshop removes or replaces objects in seconds, a task that previously required advanced retouching skills. Premiere Pro's AI-powered speech-to-text and auto-captioning have made video post-production dramatically faster.",
+  "demoDescription": "Open Adobe Express (free tier) and create a social media post template for an upcoming campaign. Use Firefly to generate a background image from a text prompt, add your headline text, and export in three sizes: Instagram square, Facebook cover, and LinkedIn post. This exercise demonstrates the AI-assisted creation workflow without needing a full Creative Cloud subscription.",
+  "vocabulary": [
+    { "term": "Artboard", "definition": "A defined canvas area within Illustrator or Photoshop where you design individual assets — you can have multiple artboards in one file for different sizes." },
+    { "term": "Vector graphic", "definition": "An image format (created in Illustrator) built from mathematical paths rather than pixels, allowing infinite scaling without quality loss." },
+    { "term": "Generative Fill", "definition": "A Photoshop AI feature that lets you select an area and describe what you want to appear there, generating realistic content using Adobe Firefly." },
+    { "term": "Colour mode (RGB vs CMYK)", "definition": "RGB is for digital screens; CMYK is for print. Using the wrong mode results in colours that look different on screen versus on paper." },
+    { "term": "Export presets", "definition": "Saved output configurations specifying file format, resolution, and dimensions for consistent asset delivery across channels." },
+    { "term": "Adobe Firefly", "definition": "Adobe's generative AI engine trained on licensed content, integrated across Creative Cloud apps for image generation, text effects, and colour grading." }
+  ],
+  "beginnerMistakes": [
+    "Working in RGB colour mode when designing for print, resulting in colour shifts when the piece is physically produced",
+    "Using raster images (Photoshop) for logos and brand marks instead of creating them as scalable vectors in Illustrator",
+    "Not organising layers and using descriptive layer names, making files impossible for teammates to edit later",
+    "Exporting assets at incorrect resolutions — too low for print (needs 300 DPI) or unnecessarily large for web (72 DPI is sufficient)",
+    "Relying on Adobe tools for simple social media graphics when Canva would be faster and more cost-effective for the task"
+  ],
+  "relatedProject": "brand-audit"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "social-media-marketing",
+  "title": "Social Media Marketing",
+  "shortSummary": "Social media is where your customers already spend hours every day. This module teaches you how to choose the right platforms, create engaging content, build a community, and use social media as a genuine business growth tool rather than a vanity metric machine.",
+  "level": "beginner",
+  "category": "channel",
+  "whyItMatters": "Over 4.9 billion people use social media worldwide. For most businesses, it is the fastest way to build brand awareness, engage with customers, and drive traffic. But posting randomly without a strategy wastes time. Understanding how each platform works, what content performs, and how to measure results separates effective social media marketing from noise.",
+  "coreConcepts": [
+    "Choosing the right platforms for your audience and goals",
+    "Platform differences: Instagram, TikTok, LinkedIn, Facebook, X, YouTube, Pinterest",
+    "Organic versus paid social media strategy",
+    "Content pillars and content planning",
+    "Community management and engagement best practices",
+    "Social media algorithms and how they decide what gets shown",
+    "Influencer and creator partnerships",
+    "Social media analytics and reporting"
+  ],
+  "lessons": ["mastering-social-media"],
+  "frameworks": [
+    "aida",
+    "campaign-planning-template"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "content-marketing",
+    "paid-advertising",
+    "messaging-brand-basics"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "prompting-structured-outputs",
+  "moduleSlug": "prompting-structured-outputs-tool-calling",
+  "title": "Prompt Contracts and Tool-Calling Basics",
+  "objective": "Design prompts that are explicit, typed, and easy to test.",
+  "beginnerExplanation": "Great prompting in production is less about cleverness and more about clarity. You tell the model exactly what role it has, what output shape you need, what tools are available, and what it should do when it is unsure.",
+  "deeperExplanation": "Prompt systems are contracts. That means you define structured outputs, tool schemas, retry behavior, and refusal conditions up front. The goal is not a beautiful chat answer; it is dependable behavior inside a larger product system.",
+  "keyTakeaways": [
+    "Prompting is strongest when paired with explicit output schemas.",
+    "Tool calls need argument validation and approval rules.",
+    "Prompts should be improved against eval sets, not anecdotal wins."
+  ],
+  "frameworks": [
+    "prompt-engineering-patterns",
+    "llm-application-stack"
+  ],
+  "example": "A support triage service asks the model to classify severity, extract structured fields, and call an escalation tool only when confidence is high. The output is typed JSON, not free text.",
+  "commonMistakes": [
+    "Using natural-language prompts where structured outputs are needed.",
+    "Letting the model call tools without argument checking.",
+    "Treating a single successful test prompt as proof of production readiness."
+  ],
+  "exercise": "Design a JSON schema for a ticket triage assistant, then write a prompt that fills it reliably and specifies what to do when required data is missing.",
+  "order": 1
+}

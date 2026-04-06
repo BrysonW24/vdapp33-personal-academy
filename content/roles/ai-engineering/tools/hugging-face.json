@@ -1,0 +1,15 @@
+{
+  "slug": "hugging-face",
+  "name": "Hugging Face",
+  "category": "framework",
+  "description": "The GitHub of ML — a platform for sharing models, datasets, and Spaces. The Transformers library provides access to thousands of pre-trained models.",
+  "whyUseIt": "Hugging Face is where the AI community shares and collaborates. Access 400K+ pre-trained models, 100K+ datasets, and deploy models with Inference API. The Transformers library is essential for NLP and increasingly for vision and audio.",
+  "pricingTier": "freemium",
+  "url": "https://huggingface.co",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/huggingface-2.svg",
+  "alternatives": [
+    "Model Zoo",
+    "TensorFlow Hub",
+    "PyTorch Hub"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "customer-market-demand",
+  "title": "Understanding Your Customer and Market Demand",
+  "shortSummary": "Great marketing starts with deep understanding of who your customer is, what they want, and why they buy. This module teaches you how to research your market, build customer personas, and validate that real demand exists before you spend a dollar on promotion.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "The number one reason marketing campaigns fail is that they target the wrong people with the wrong message. If you do not understand your customer deeply, you will guess. And guessing is expensive. Learning to research and validate demand saves you from building products nobody wants and running campaigns nobody cares about.",
+  "coreConcepts": [
+    "The difference between a customer and a target market",
+    "How to conduct basic market research without a big budget",
+    "Building customer personas that are actually useful",
+    "Understanding buying behaviour and decision-making psychology",
+    "Jobs To Be Done theory: what customers actually hire products to do",
+    "Market sizing: TAM, SAM, SOM explained simply",
+    "Validating demand before investing in campaigns",
+    "Competitor analysis as a research tool"
+  ],
+  "lessons": [
+    "understanding-your-customer"
+  ],
+  "frameworks": [
+    "stp",
+    "swot",
+    "customer-journey-map"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "what-marketing-is",
+    "positioning-value-proposition",
+    "funnels-customer-journey"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "model-evaluation",
+  "title": "Evals and Reliability",
+  "shortSummary": "Build the habit of measuring quality before launch and after release with task-specific evals and failure analysis.",
+  "track": "core-frontier",
+  "level": "intermediate",
+  "category": "systems",
+  "whyItMatters": "The strongest frontier AI teams are eval-first. They ship because they can see regressions, classify failures, and compare variants under pressure. Without that, every model upgrade is a gamble.",
+  "coreConcepts": [
+    "Golden sets, regression suites, and eval harnesses",
+    "Task-level metrics versus business-facing metrics",
+    "Human review loops and rubric design",
+    "Error taxonomies for hallucinations, latency, and refusal failures",
+    "Release gates for prompts, models, and retrieval changes"
+  ],
+  "lessons": [
+    "evals-and-reliability-basics"
+  ],
+  "frameworks": [
+    "model-evaluation-framework",
+    "responsible-ai-framework"
+  ],
+  "relatedModules": [
+    "vector-databases-retrieval",
+    "ai-agents",
+    "system-design-for-ai"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 2
+}

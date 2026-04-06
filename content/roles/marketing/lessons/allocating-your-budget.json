@@ -1,0 +1,68 @@
+{
+  "slug": "allocating-your-budget",
+  "moduleSlug": "budgeting-channel-allocation",
+  "title": "Allocating Your Budget",
+  "objective": "Understand how to build, defend, and optimise a marketing budget across channels and initiatives.",
+  "beginnerExplanation": "Your marketing budget is the money you have to spend on getting your business in front of customers and convincing them to buy. Just like a household budget, you need to cover the essentials, invest in growth, and keep a reserve for surprises. The key question is always: where will each dollar have the most impact?\n\nMost businesses allocate between 5% and 15% of their revenue to marketing, depending on the industry and growth stage. A startup trying to build awareness might spend 20%, while an established brand with strong organic traffic might spend 8%. There is no universal right answer — it depends on your business goals, competitive landscape, and growth ambitions.\n\nThe biggest mistake in budgeting is allocating by habit. Just because you spent 40% on Google Ads last year does not mean that is still the right split. Every budget cycle should start with your objectives, then work backwards to figure out what channels and activities will achieve them most efficiently. Data from last quarter informs next quarter — but it does not dictate it.",
+  "deeperExplanation": "Les Binet and Peter Field's research on marketing effectiveness is the foundation of modern budget allocation thinking. Their key finding: the optimal split is roughly 60% brand building and 40% performance marketing for most categories. Brand building drives long-term growth, pricing power, and market share. Performance marketing drives short-term sales and immediate revenue.\n\nMarketing mix modelling (MMM) is the advanced technique used by large organisations to understand how each channel contributes to sales. It uses statistical regression to isolate the impact of each marketing activity, controlling for external factors like seasonality and economic conditions. Incrementality testing goes further — it measures what would have happened without the marketing spend, giving you the true causal impact.\n\nWhen presenting a budget to a CFO or CEO, frame marketing as an investment with a projected return, not a cost. Build a financial model showing: investment required, projected revenue generated, payback period, and long-term CLV impact. The language of finance — ROI, EBIT contribution, payback — is what earns marketing a seat at the leadership table.",
+  "keyTakeaways": [
+    "Start with business objectives and work backwards to determine budget allocation — never allocate by habit",
+    "The Binet and Field 60/40 rule (brand vs performance) is a strong starting framework for most categories",
+    "Marketing mix modelling and incrementality testing reveal which channels truly drive results",
+    "Present marketing budgets as investments with projected returns, not as costs",
+    "Phase budgets quarterly to match business seasonality and maintain flexibility for reallocation"
+  ],
+  "frameworks": ["kpi-cheat-sheet"],
+  "example": "In 2021, Airbnb made one of the most talked-about budget decisions in marketing history. They cut $800 million in performance marketing spend and shifted investment toward brand marketing. The result surprised the industry: their traffic held steady, brand search volume increased, and they went public at a $100 billion valuation. CEO Brian Chesky explained that years of performance marketing had been cannibalising organic demand — they were paying for customers who would have come anyway. This case fundamentally changed how the industry thinks about the brand-versus-performance budget split.",
+  "commonMistakes": [
+    "Allocating budget by channel habit rather than performance data and business objectives",
+    "Not separating brand-building investment from performance marketing budgets",
+    "Failing to phase budget across quarters to match business seasonality and cash flow",
+    "Presenting budget requests to leadership without ROI projections or financial modelling",
+    "Cutting brand spend during economic downturns when evidence shows maintainers outperform cutters in recovery"
+  ],
+  "exercise": "Create a mock annual marketing budget for a $5M revenue e-commerce business. Allocate across five categories: brand building (content, PR, sponsorships), paid acquisition (search, social ads), organic growth (SEO, content marketing), retention (email, loyalty), and experimentation (testing, new channels). For each category, write the dollar amount, percentage of total budget, and a one-sentence rationale for why that allocation is right for this business.",
+  "nextLesson": "thinking-like-a-cmo",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the Binet and Field recommended split between brand building and performance marketing for most categories?",
+      "options": [
+        "80% performance marketing, 20% brand building",
+        "50% brand building, 50% performance marketing",
+        "60% brand building, 40% performance marketing",
+        "40% brand building, 60% performance marketing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les Binet and Peter Field's research on marketing effectiveness found that roughly 60% brand building and 40% performance marketing is the optimal split for most categories, balancing long-term growth with short-term sales."
+    },
+    {
+      "question": "You are presenting your marketing budget to the CFO. Which approach is most likely to get your budget approved?",
+      "options": [
+        "Show a list of planned campaigns with detailed creative concepts",
+        "Frame marketing as an investment with projected revenue, payback period, and long-term CLV impact",
+        "Present last year's budget and request the same amount plus inflation",
+        "Focus on impressions and reach metrics to demonstrate the scale of planned activity"
+      ],
+      "correctIndex": 1,
+      "explanation": "CFOs evaluate marketing as an investment and respond to financial language — ROI, payback period, EBIT contribution, and CLV impact. Framing your budget in these terms earns marketing credibility at the leadership table."
+    },
+    {
+      "question": "Which of the following is a common budgeting mistake?",
+      "options": [
+        "Using marketing mix modelling to understand each channel's contribution to sales",
+        "Phasing budgets quarterly to match business seasonality",
+        "Cutting brand-building spend during an economic downturn to protect short-term margins",
+        "Starting with business objectives and working backwards to determine channel allocation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Research consistently shows that brands which maintain brand-building investment during downturns outperform those that cut it during the recovery. Cutting brand spend creates a negative ESOV gap that competitors exploit."
+    }
+  ],
+  "perspectives": {
+    "marketer": "Budget allocation starts with getting your tracking right. Before you can allocate a single dollar intelligently, you need to know what each channel is actually delivering. Set up proper attribution in your analytics platform, tag every campaign with UTM parameters, and build a simple spreadsheet that tracks spend, revenue, and ROAS by channel each month. Without this data, you are guessing — and guessing with budget is how you waste money.\n\nIn practice, start with your best-performing channels and protect that spend before experimenting with anything new. If email is driving a 40x return and Google Ads is delivering a 4x return, do not shift budget from email to try TikTok ads because they are trendy. Allocate 70 to 80 per cent of your budget to proven channels and keep 10 to 20 per cent as an experimentation fund for testing new channels, creative formats, or audiences. Review allocation monthly, not annually — markets move fast and your budget should move with them.\n\nWhen you get asked to cut budget mid-year, protect your automated and organic channels first. These have the lowest marginal cost and the highest long-term compounding effect. Cut discretionary campaign spend before cutting investment in systems that run without ongoing cost.",
+    "cmo": "The Binet and Field 60/40 framework is your starting point, not your answer. The actual split depends on your category, brand maturity, and competitive position. A challenger brand in a crowded market might need 70 per cent brand building to break through, while a market leader with high awareness might shift to 50/50. Use the framework as a diagnostic tool to challenge your current allocation, not as a rule to follow blindly.\n\nThe most important strategic skill in budget allocation is defending long-term brand investment during periods of short-term pressure. Every downturn, every tough quarter, someone will propose cutting brand spend to hit this month's numbers. The evidence is unambiguous: brands that maintain share of voice during downturns recover faster and gain market share from competitors who cut. Build this case proactively — do not wait until the CFO asks. Present Binet and Field's research, show the Airbnb case study, and model what happens to your brand metrics if you cut versus maintain. Being prepared with data is what separates CMOs who protect their budgets from those who lose them.",
+    "ceo": "Marketing budget allocation is one of the most consequential capital allocation decisions you make as CEO, yet it is often delegated entirely to the marketing team without the strategic scrutiny applied to other investments. Treat marketing budget the same way you treat R&D or capex — it should be tied to your growth strategy, reviewed at the leadership level, and measured against clear return thresholds.\n\nThe Airbnb case study is instructive for every CEO. They discovered that hundreds of millions in performance marketing spend was cannibalising organic demand — they were paying for customers who would have come anyway. The lesson is not that performance marketing is bad, but that you need sophisticated measurement to understand the true incremental impact of each dollar. Push your marketing team to move beyond last-click attribution toward incrementality testing and marketing mix modelling. The companies that allocate budget based on true incremental return consistently outperform those that allocate based on vanity metrics or habit.",
+    "cfo": "Marketing budget conversations should be grounded in three financial concepts: marginal return on investment, payback period, and contribution to EBIT. For each channel or initiative, ask the marketing team: what is the incremental revenue generated per additional dollar invested? How long before that investment pays back? And what is the net contribution after accounting for variable costs?\n\nThe 60/40 brand-versus-performance split has financial implications that are often misunderstood. Brand spend has a longer payback period — typically 6 to 18 months — but it builds durable assets like brand equity, pricing power, and organic demand that reduce customer acquisition costs over time. Performance spend has a shorter payback but no compounding effect — when you stop spending, the results stop immediately. A healthy marketing budget balances both: performance spend for cash flow predictability and brand spend for long-term value creation. Phase the budget quarterly to match seasonality and maintain a 10 per cent reserve for reallocation based on in-year performance data. This gives you flexibility without the inefficiency of constant budget revisions."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "presentations-demos",
+  "title": "Presentations & Demos",
+  "shortSummary": "Learn to deliver demos that sell, not just show. Structure presentations around buyer outcomes, guide technical validation, and handle curveballs with confidence.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "A demo is not a product tour. The worst demos walk through every feature in order. The best demos show the buyer their future: how their specific problems get solved, in their context, with measurable outcomes. In technical SaaS sales, demos also build trust with evaluators and give your sales engineer a stage to reinforce credibility. Mastering the demo is what turns qualified opportunities into proposals and proposals into closed deals.",
+  "coreConcepts": [
+    "Tell-Show-Tell demo structure",
+    "Tailoring demos to different stakeholders",
+    "Storytelling with customer success stories",
+    "Using persuasion structures without sounding scripted",
+    "Handling technical questions you don't know the answer to",
+    "Partnering with sales engineers on technical validation",
+    "Demo environment preparation and fallback plans",
+    "Follow-up: turning demo momentum into next steps"
+  ],
+  "lessons": ["running-a-winning-demo", "demo-planning-for-buying-committees", "framing-a-demo-so-it-persuades"],
+  "frameworks": ["command-of-the-message", "value-selling", "fab", "aida", "pas", "story-selling", "social-proof", "contrast-framing", "anchoring", "roi-framing", "loss-aversion-framing", "personalisation"],
+  "relatedModules": ["discovery-calls", "objection-handling", "closing"],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

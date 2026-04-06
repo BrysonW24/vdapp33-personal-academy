@@ -1,0 +1,73 @@
+{
+  "slug": "demo-planning-for-buying-committees",
+  "moduleSlug": "presentations-demos",
+  "title": "Demo Planning for Buying Committees",
+  "objective": "Learn to design demos for multiple stakeholders, control the flow of the meeting, and connect each segment to the priorities of the buying committee.",
+  "beginnerExplanation": "A buying-committee demo is not one presentation for one audience. It is one meeting with several audiences sitting together. That is why generic demos fail. The finance person, the technical evaluator, the team lead, and the executive sponsor all care about different things. Your job is to create a planned flow where each person sees enough to trust the decision without forcing everyone through a long product tour.",
+  "deeperExplanation": "A strong committee demo starts before the meeting. Know who is attending, why each person matters, and what decision they are helping make. Build an agenda with explicit signposts: what you will cover, why it matters, and who each section is for. That reduces confusion and keeps the meeting structured.\n\nIn the demo itself, start with the business narrative. Remind the group of the agreed pains, goals, and priorities. Then move through short role-relevant sections. Operational users need to see workflow and usability. Technical evaluators need confidence in architecture, data handling, and integration. Executives need outcomes, risk reduction, and rollout credibility. Do not let one audience hijack the entire meeting.\n\nFinally, use the close of the demo to turn interest into process. Recap what each group validated, surface any open risks, and propose the next step explicitly: technical workshop, security review, commercial review, or proposal. A committee demo succeeds when it creates shared confidence and a clear path forward.",
+  "keyTakeaways": [
+    "Committee demos require planned role-based relevance, not one generic walkthrough.",
+    "Start with the business narrative before diving into product detail.",
+    "Use clear agenda signposts so each stakeholder knows what is coming and why.",
+    "Keep sections short and tied to the priorities uncovered in discovery.",
+    "Do not let one persona consume the whole meeting at the expense of the others.",
+    "A strong demo ends with validated outcomes, open risks, and a defined next step."
+  ],
+  "frameworks": [
+    "command-of-the-message",
+    "value-selling",
+    "meddic"
+  ],
+  "example": "You are demoing workflow software to a procurement team, an operations leader, and an IT architect. The operations leader needs to see queue management and escalation logic. IT needs API structure, permissions, and audit history. Procurement needs implementation confidence and commercial clarity. Instead of mixing these randomly, you open with the business problem, run a six-minute workflow segment for operations, a five-minute architecture segment for IT, a short rollout and controls segment for procurement, then close with the next steps each group agreed to.",
+  "commonMistakes": [
+    "Running the same demo regardless of who joins",
+    "Letting the most vocal attendee control the full agenda",
+    "Skipping the business recap and starting with screens immediately",
+    "Showing low-priority features to prove product breadth",
+    "Ending the meeting without clarifying what was validated and what happens next"
+  ],
+  "exercise": "Take a real or hypothetical deal with three stakeholder types. Write a 20-minute demo agenda with time blocks, the goal of each block, and the specific outcome each stakeholder should leave with. Then cut one section entirely to force prioritisation.",
+  "nextLesson": "framing-a-demo-so-it-persuades",
+  "order": 6,
+  "quiz": [
+    {
+      "question": "What is the biggest risk of a generic committee demo?",
+      "options": [
+        "The meeting starts on time",
+        "No one sees enough relevance to trust the decision",
+        "The AE uses fewer slides",
+        "The buyer asks fewer technical questions"
+      ],
+      "correctIndex": 1,
+      "explanation": "A generic demo spreads attention too thin and often leaves each stakeholder unconvinced."
+    },
+    {
+      "question": "What should usually come before product detail in a committee demo?",
+      "options": [
+        "Pricing negotiation",
+        "A long company history",
+        "The business narrative and agreed priorities",
+        "A full implementation plan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Starting with the business narrative frames the product in terms the committee already agrees matter."
+    },
+    {
+      "question": "How should a strong committee demo end?",
+      "options": [
+        "With 'let us know what you think'",
+        "With a recap of validated value, remaining risks, and a proposed next step",
+        "With a complete product walkthrough",
+        "With a discount offer"
+      ],
+      "correctIndex": 1,
+      "explanation": "A good ending turns shared understanding into process momentum."
+    }
+  ],
+  "perspectives": {
+    "ae": "For an AE, demo planning is deal strategy in presentation form.",
+    "manager": "Managers should review whether the demo agenda matches the stakeholder map, not just whether the rep knows the product.",
+    "vp": "A VP wants demo quality to raise conversion from qualified opportunity to proposal, especially on multi-stakeholder deals.",
+    "cro": "A CRO sees better demo orchestration as one of the cleanest ways to improve conversion without adding more pipeline."
+  }
+}

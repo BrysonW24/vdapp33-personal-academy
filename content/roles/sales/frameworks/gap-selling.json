@@ -1,0 +1,15 @@
+{
+  "slug": "gap-selling",
+  "name": "Gap Selling",
+  "summary": "Developed by Keenan, Gap Selling centres on one idea: the sale is the gap. The gap between the buyer's current state (problems, costs, frustrations) and their desired future state (outcomes, savings, growth) is what creates urgency and justifies the price. The bigger the gap, the easier the sale.",
+  "whenToUseIt": "Use Gap Selling in every sales conversation — it's a universal lens. It's especially powerful when deals stall because the buyer doesn't feel urgency, when you're competing on price, or when the buyer says 'we're fine with what we have.' Gap Selling forces you to quantify the cost of the current state so the buyer can see exactly what doing nothing costs them.",
+  "steps": [
+    "Map the Current State — Deeply understand the buyer's present situation. What tools do they use? What processes do they follow? What's working and what isn't? What are the tangible and intangible costs of the current approach? Don't just scratch the surface — understand the ripple effects.",
+    "Define the Future State — Help the buyer articulate what 'good' looks like. What outcomes do they want? What metrics would improve? What would their day look like if the problem were solved? Make this vivid and specific, not abstract.",
+    "Quantify the Gap — The gap is the difference between current state and future state, expressed in measurable terms: dollars lost, hours wasted, opportunities missed, risk exposure, employee turnover. The bigger and more specific this number, the more urgency the buyer feels.",
+    "Position Your Solution as the Bridge — Your product or service is the bridge that takes the buyer from current state to future state. Don't lead with features — lead with the gap, then show how you close it. The buyer should be thinking 'I need to fix this' before you ever show them how.",
+    "Anchor Every Conversation to the Gap — Throughout the deal, keep coming back to the gap. When price objections arise: 'The solution costs $60K, but the gap we identified is $400K per year. Every month you wait costs $33K.' When timing stalls: 'You mentioned the board meeting is in Q3 — if we start now, you'll have results to present.'"
+  ],
+  "example": "You sell a forecasting platform to a SaaS company doing $25M in ARR.\n\nCurrent State: Forecast calls rely on rep judgment, scattered notes, and manual spreadsheet rollups. Commit has missed by more than 10% in recent quarters. Managers spend 8 hours a week preparing inspection notes, and finance does not trust the number.\n\nFuture State: Forecast categories are evidence-based, call insights are centralised, and manager inspection is tied to real deal risk. Commit becomes more accurate, preparation time falls sharply, and quarter planning gets more reliable.\n\nThe Gap: missed planning confidence, wasted manager time, and avoidable late-quarter surprise across the revenue team.\n\nYour platform costs far less than the operational and commercial cost of continuing to run the number on weak information. The gap does the selling for you.",
+  "category": "sales-methodology"
+}

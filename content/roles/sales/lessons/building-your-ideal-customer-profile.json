@@ -1,0 +1,72 @@
+{
+  "slug": "building-your-ideal-customer-profile",
+  "moduleSlug": "prospecting",
+  "title": "Building Your Ideal Customer Profile",
+  "objective": "Learn how to define a real ICP, segment accounts by fit, and stop wasting prospecting time on companies that were never likely to buy.",
+  "beginnerExplanation": "An Ideal Customer Profile, or ICP, is the description of the companies most likely to buy, succeed, and stay. It is not just an industry label. A real ICP includes company traits, operational signals, likely pains, and buying conditions that make your solution relevant. Without one, prospecting turns into random activity. With one, prospecting becomes focused and much easier to improve.",
+  "deeperExplanation": "A useful ICP has three layers. First, firmographics: industry, company size, geography, revenue range, or team structure. Second, operational traits: process complexity, tech stack, compliance pressure, distributed teams, or volume of workflow. Third, buying context: likely trigger events, executive priorities, budget patterns, and change readiness.\n\nThe best teams also separate fit from timing. Fit asks, 'Could we win here and deliver value?' Timing asks, 'Why would they change now?' A strong ICP without timing still creates slow pipeline. Timing without fit creates noisy pipeline. You want both.\n\nOnce the ICP is clear, use account tiers. Tier 1 accounts deserve deep research and tailored plays. Tier 2 accounts deserve lighter personalisation and structured sequences. Tier 3 accounts may still matter, but they should not consume premium time. That is how prospecting becomes commercially disciplined instead of emotionally driven.",
+  "keyTakeaways": [
+    "An ICP describes the companies most likely to buy, succeed, and stay.",
+    "Good ICPs include firmographics, operational traits, and buying context.",
+    "Fit and timing are different - you need both for strong pipeline.",
+    "Account tiers help you match effort to likely return.",
+    "A weak ICP creates lots of activity but poor pipeline quality.",
+    "The best ICPs are refined using win/loss patterns, not guesswork alone."
+  ],
+  "frameworks": [
+    "meddic",
+    "value-selling"
+  ],
+  "example": "You sell a revenue intelligence platform. A weak ICP says 'B2B SaaS companies with 100 to 2,000 employees.' A stronger ICP says 'B2B SaaS companies selling mid-market or enterprise deals, with 20+ quota carriers, at least two sales managers, a formal forecast process, and pressure to improve forecast accuracy before the next planning cycle.' The second version tells you who to call and why they may care now.",
+  "commonMistakes": [
+    "Making the ICP so broad that almost any company qualifies",
+    "Defining the ICP by logos you admire rather than customer success patterns",
+    "Ignoring post-sale success and focusing only on who can buy",
+    "Treating all target accounts with the same depth of research",
+    "Failing to revisit the ICP after wins, losses, and churn"
+  ],
+  "exercise": "Write an ICP for your product using three sections: firmographics, operational traits, and buying context. Then list five companies that fit well, three that might fit but need better timing, and three that look attractive but should be excluded.",
+  "nextLesson": "account-research-and-trigger-events",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main purpose of an ICP?",
+      "options": [
+        "To create more leads regardless of fit",
+        "To identify the companies most likely to buy and succeed",
+        "To replace discovery calls",
+        "To justify any target list"
+      ],
+      "correctIndex": 1,
+      "explanation": "An ICP helps you focus on the accounts where buying likelihood and customer value are both high."
+    },
+    {
+      "question": "Why is timing separate from fit?",
+      "options": [
+        "Because timing only matters in inbound",
+        "Because a company can fit your ICP but still have no reason to act now",
+        "Because fit is only for marketing",
+        "Because timing only matters after the demo"
+      ],
+      "correctIndex": 1,
+      "explanation": "A strong-fit company may still be a slow or dead opportunity if there is no compelling reason to change."
+    },
+    {
+      "question": "What is the value of account tiers?",
+      "options": [
+        "They let you ignore research entirely",
+        "They help you match prospecting effort to expected return",
+        "They replace qualification frameworks",
+        "They are only useful for managers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Account tiers help you spend your best time where the return is likely to be highest."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs use the ICP to decide where to spend scarce attention and how much personalisation each account deserves.",
+    "manager": "Managers should inspect whether the team's target accounts really match the ICP or only look exciting on paper.",
+    "vp": "A VP needs a tight ICP so territory plans, hiring, and pipeline targets are grounded in reality.",
+    "cro": "A CRO sees ICP discipline as a major lever for efficiency, win rate, and retention."
+  }
+}

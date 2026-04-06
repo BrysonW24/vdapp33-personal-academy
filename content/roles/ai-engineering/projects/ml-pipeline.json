@@ -1,0 +1,89 @@
+{
+  "slug": "ml-pipeline",
+  "title": "Eval Harness and Regression Runner",
+  "difficulty": 8,
+  "estimatedHours": 15,
+  "description": "Create a repeatable evaluation runner that compares outputs across versions and flags regressions before they hit users.",
+  "whyItMatters": "Eval-first development is a frontier differentiator. This project proves you can build quality gates instead of relying on instinct.",
+  "skillsLearned": [
+    "MLflow experiment tracking",
+    "DVC data versioning",
+    "Automated model evaluation",
+    "Pipeline orchestration",
+    "Model comparison and selection",
+    "Reproducible ML experiments"
+  ],
+  "prerequisites": [
+    "Complete the Data Pipeline project",
+    "Complete the Image Classifier or Sentiment Analyser project"
+  ],
+  "steps": [
+    {
+      "title": "Set up experiment tracking",
+      "description": "Install MLflow and create a tracking server (local is fine). Configure your training scripts to log parameters, metrics, and artifacts to MLflow automatically."
+    },
+    {
+      "title": "Set up data versioning",
+      "description": "Use DVC (Data Version Control) to version your training data. This ensures every experiment is reproducible — you can always get back to the exact data that produced a specific model."
+    },
+    {
+      "title": "Build the training pipeline",
+      "description": "Create a structured pipeline: data loading → preprocessing → feature engineering → model training → evaluation. Each stage should be a separate Python module that can be run independently or as part of the full pipeline."
+    },
+    {
+      "title": "Implement model evaluation",
+      "description": "After training, automatically evaluate the model on a held-out test set. Log all metrics to MLflow. Generate a classification report, confusion matrix, and any task-specific metrics. Compare against the current best model."
+    },
+    {
+      "title": "Add automated model selection",
+      "description": "Write logic that compares the new model against the current production model. If the new model is better on key metrics (with statistical significance), flag it for promotion. If it is worse, alert the team."
+    },
+    {
+      "title": "Build the retraining trigger",
+      "description": "Create a script that checks for new data and triggers retraining. This could be scheduled (weekly) or event-driven (when new data exceeds a threshold). The full pipeline — data loading through evaluation — should run automatically."
+    },
+    {
+      "title": "Add monitoring",
+      "description": "Track model performance over time: prediction distribution, feature distributions, and key business metrics. Use Evidently or a custom dashboard to detect data drift — when the incoming data starts looking different from the training data."
+    },
+    {
+      "title": "Document everything",
+      "description": "Write a pipeline README: how to run it, how to add new data, how to evaluate a new model, how to roll back to a previous version, and the monitoring alert thresholds."
+    }
+  ],
+  "deliverables": [
+    "End-to-end ML pipeline with all stages",
+    "MLflow experiment tracking with logged runs",
+    "DVC-versioned datasets",
+    "Automated evaluation and model comparison",
+    "Monitoring dashboard or alerts",
+    "Pipeline documentation"
+  ],
+  "tools": [
+    "Python",
+    "MLflow",
+    "DVC",
+    "scikit-learn or PyTorch",
+    "Evidently (monitoring)",
+    "Make or shell scripts (orchestration)"
+  ],
+  "rubric": [
+    {
+      "criteria": "Pipeline Completeness",
+      "description": "All stages from data loading to monitoring are implemented and connected. The pipeline runs end-to-end."
+    },
+    {
+      "criteria": "Reproducibility",
+      "description": "Any experiment can be reproduced exactly by checking out the corresponding data version and code commit."
+    },
+    {
+      "criteria": "Experiment Tracking",
+      "description": "MLflow contains logged parameters, metrics, and artifacts for all training runs. Models can be compared visually."
+    },
+    {
+      "criteria": "Monitoring",
+      "description": "The system detects data drift and model performance degradation with clear alerts and visualisations."
+    }
+  ],
+  "track": "core-frontier"
+}

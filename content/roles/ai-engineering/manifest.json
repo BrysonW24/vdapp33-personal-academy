@@ -1,0 +1,14 @@
+{
+  "slug": "ai-engineering",
+  "name": "AI Engineering",
+  "kind": "role",
+  "group": "engineering",
+  "icon": "Cpu",
+  "color": "#F97316",
+  "tagline": "LLM products, evals, retrieval, agents, guardrails, and production AI systems that have to work in the real world.",
+  "tier": "flagship",
+  "order": 10,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "full"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "ai-product-systems",
+  "moduleSlug": "ai-product-engineering",
+  "title": "Designing AI Features People Can Actually Use",
+  "objective": "Translate model capability into trustworthy, fast, user-facing product behavior.",
+  "beginnerExplanation": "AI product engineering is where model performance meets user experience. You decide when to stream, when to ask follow-up questions, how to show uncertainty, and how to recover when the system fails.",
+  "deeperExplanation": "The best AI products feel narrow, intentional, and well-instrumented. They do not expose raw model capability everywhere. They wrap it in interaction design, telemetry, and feedback systems that let the team learn from real usage instead of assumptions.",
+  "keyTakeaways": [
+    "AI UX should make uncertainty visible without making the product feel broken.",
+    "Latency, cost, and output quality are product variables, not just engineering variables.",
+    "Feedback loops are part of the feature, not an afterthought."
+  ],
+  "frameworks": [
+    "llm-application-stack",
+    "system-design-template"
+  ],
+  "example": "A writing assistant highlights citation confidence, lets the user accept or reject edits, and logs each correction so the team can see what the model keeps getting wrong.",
+  "commonMistakes": [
+    "Adding AI to a surface without a clear user need.",
+    "Hiding uncertainty until a failure becomes obvious.",
+    "Launching without measuring real user task success."
+  ],
+  "exercise": "Take an everyday workflow and sketch an AI feature that reduces time-to-value without turning the interface into a chat toy.",
+  "order": 1
+}

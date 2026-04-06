@@ -1,0 +1,73 @@
+{
+  "slug": "orchestrating-complex-enterprise-deals",
+  "moduleSlug": "enterprise-sales",
+  "title": "Orchestrating Complex Enterprise Deals",
+  "objective": "Learn how to run enterprise opportunities with multiple stakeholders, internal deal teams, and long buying cycles without losing control.",
+  "beginnerExplanation": "Enterprise selling is not just a bigger version of SMB selling. The deal is usually slower, risk is higher, more people are involved, and internal coordination matters much more. That means the AE stops being only a seller and becomes an orchestrator - aligning the buyer's committee and the seller's internal team at the same time.",
+  "deeperExplanation": "Complex deals usually need three maps. Stakeholder map: who matters on the buyer side and what each person needs. Process map: how the decision actually gets made, including technical review, security, procurement, legal, and budget approval. Internal map: which seller-side resources are needed and when - AE, manager, SE, security, legal, executive sponsor.\n\nEnterprise deals are won by control without friction. That means staying ahead of risk, not surprising the buyer, and making internal alignment easier. You should know what the next milestone is before the current one ends.\n\nThis is also where patience matters. Enterprise velocity comes from removing blockers, not forcing fake urgency. The best enterprise reps make the hard parts of buying feel simpler.",
+  "keyTakeaways": [
+    "Enterprise deals require orchestration, not just good selling moments.",
+    "You need stakeholder, process, and internal-resource maps.",
+    "Control comes from seeing risk early and aligning both sides of the deal.",
+    "Internal coordination is a competitive advantage in long, complex cycles.",
+    "Mutual action plans and qualification discipline matter even more in enterprise.",
+    "The goal is to make a complex buying process feel manageable."
+  ],
+  "frameworks": [
+    "meddic",
+    "challenger-sale",
+    "command-of-the-message"
+  ],
+  "example": "A six-figure platform deal involves operations, security, finance, procurement, and an executive sponsor on the buyer side, plus an AE, SE, security lead, legal, and VP sponsor on the seller side. The rep who wins is the one who keeps all those threads aligned, knows where the process is at all times, and keeps the next milestone visible for everyone involved.",
+  "commonMistakes": [
+    "Treating the enterprise deal like a sequence of disconnected meetings",
+    "Underestimating the internal coordination needed on your own side",
+    "Waiting too long to map paper process and security review",
+    "Relying on one champion to carry everything",
+    "Trying to accelerate with pressure instead of process clarity"
+  ],
+  "exercise": "Take a hypothetical enterprise deal and create three mini maps: stakeholders, decision process, and internal resources. For each map, write the biggest current risk.",
+  "nextLesson": "enterprise-deal-control-in-the-real-world",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What changes most when a deal becomes enterprise?",
+      "options": [
+        "Only the price",
+        "The need for orchestration across stakeholders, process, and internal teams",
+        "The product stops mattering",
+        "Only procurement gets harder"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enterprise complexity comes from the number of people, steps, and dependencies in the deal."
+    },
+    {
+      "question": "What is one of the biggest advantages in enterprise sales?",
+      "options": [
+        "Talking more",
+        "Better internal coordination and process control",
+        "Avoiding technical stakeholders",
+        "Skipping mutual action plans"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strong internal coordination often creates a better buying experience and fewer late surprises."
+    },
+    {
+      "question": "How should enterprise velocity be improved?",
+      "options": [
+        "By forcing urgency without process clarity",
+        "By removing blockers and making the process easier to navigate",
+        "By reducing stakeholder coverage",
+        "By ignoring legal and security until late stage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Complex deals move faster when friction is removed and milestones are clearly managed."
+    }
+  ],
+  "perspectives": {
+    "ae": "An enterprise AE is a coordinator of people, proof, and process as much as a communicator.",
+    "manager": "Managers add value by helping reps inspect risk and align internal resources earlier.",
+    "vp": "A VP wants enterprise deals run with discipline because a few large opportunities can swing the quarter.",
+    "cro": "A CRO sees enterprise deal orchestration as a core capability of a serious revenue organisation."
+  }
+}

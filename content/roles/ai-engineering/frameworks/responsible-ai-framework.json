@@ -1,0 +1,16 @@
+{
+  "slug": "responsible-ai-framework",
+  "name": "Responsible AI Framework",
+  "summary": "A practical framework for building AI systems that are fair, transparent, accountable, and safe. Based on principles from Anthropic, Google, and Microsoft, adapted for working AI engineers who need to make daily decisions about responsible AI practices.",
+  "whenToUseIt": "Use this framework during the design phase of any AI system, and revisit it during evaluation and deployment. It is especially critical for systems that affect people's lives — hiring, lending, healthcare, content moderation — but every AI system benefits from responsible design.",
+  "steps": [
+    "Fairness — Test your model for bias across protected attributes (gender, age, ethnicity, location). Use fairness metrics: demographic parity, equalised odds, calibration. If your training data is biased, your model will be biased.",
+    "Transparency — Users should know when they are interacting with AI. Document what your model can and cannot do. Make it easy for users to understand why the model made a specific decision.",
+    "Accountability — Assign clear ownership for AI system behaviour. Establish processes for reporting and addressing harms. Maintain audit logs of model decisions.",
+    "Safety — Test for adversarial attacks, prompt injection, and jailbreaking. Implement guardrails: input validation, output filtering, rate limiting. Plan for failure modes — what happens when the model gets it wrong?",
+    "Privacy — Minimise data collection. Anonymise training data where possible. Comply with privacy regulations (Australian Privacy Act, GDPR if serving EU users). Never use personal data without consent.",
+    "Human Oversight — Keep humans in the loop for high-stakes decisions. Provide easy mechanisms for users to flag errors and provide feedback. Design for human override capability."
+  ],
+  "example": "An Australian recruitment platform uses AI to screen resumes. Fairness: they test the model across gender and age groups, discovering it favours candidates from prestigious universities (indirect socioeconomic bias). They retrain with university names removed. Transparency: candidates see a message: 'AI-assisted screening was used. Your application was reviewed for skills match, not filtered by personal characteristics.' Accountability: the HR team reviews all AI rejections weekly. Safety: they add a rule that no candidate is auto-rejected — AI only ranks, humans decide. Privacy: resumes are processed but not stored in the training pipeline.",
+  "category": "governance"
+}

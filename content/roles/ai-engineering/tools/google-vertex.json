@@ -1,0 +1,15 @@
+{
+  "slug": "google-vertex",
+  "name": "Google Vertex AI",
+  "category": "infra",
+  "description": "Google's unified ML platform. Access Gemini models, AutoML, custom training, model garden, and Vector Search — all in one platform.",
+  "whyUseIt": "Vertex AI combines Google's model ecosystem (Gemini, PaLM) with production ML tools (pipelines, feature store, model monitoring). Strong for enterprises already in Google Cloud.",
+  "pricingTier": "paid",
+  "url": "https://cloud.google.com/vertex-ai",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/google-cloud-1.svg",
+  "alternatives": [
+    "AWS SageMaker",
+    "AWS Bedrock",
+    "Azure ML"
+  ]
+}

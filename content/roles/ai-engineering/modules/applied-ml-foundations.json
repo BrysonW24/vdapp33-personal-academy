@@ -1,0 +1,31 @@
+{
+  "slug": "applied-ml-foundations",
+  "title": "Applied ML Foundations",
+  "shortSummary": "A compact classical ML lane for builders who want stronger grounding in Python, datasets, and first-model workflows.",
+  "track": "classical-ml",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Classical ML is no longer the whole story, but it still makes you stronger. This module is the fast lane for sharpening the foundations that help you reason about training data, baselines, and model behavior.",
+  "coreConcepts": [
+    "Python workflows for data and model iteration",
+    "Basic supervised learning and baseline selection",
+    "Data splits, leakage, and feature intuition",
+    "How to evaluate a first model honestly",
+    "Why strong baselines still matter in an LLM-heavy world"
+  ],
+  "lessons": [
+    "python-for-ai-engineers",
+    "your-first-ml-model"
+  ],
+  "frameworks": [
+    "feature-engineering-playbook",
+    "crisp-dm"
+  ],
+  "relatedModules": [
+    "deep-learning",
+    "production-mlops-trained-models"
+  ],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 4
+}

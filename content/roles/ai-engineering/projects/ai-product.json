@@ -1,0 +1,95 @@
+{
+  "slug": "ai-product",
+  "title": "Internal AI Developer Tool / Scaffold Generator",
+  "difficulty": 10,
+  "estimatedHours": 40,
+  "description": "Build an internal AI engineering tool that helps another builder move faster, with strong UX, instrumentation, and a clear product story.",
+  "whyItMatters": "Internal developer tooling is one of the fastest ways to signal platform and product maturity at once. It feels close to how frontier teams actually create leverage.",
+  "skillsLearned": [
+    "Product thinking for AI",
+    "Full-stack AI application development",
+    "User experience design for AI",
+    "End-to-end system architecture",
+    "Cost management",
+    "User feedback integration",
+    "Portfolio-quality project delivery"
+  ],
+  "prerequisites": [
+    "Complete at least 5 of the earlier projects",
+    "Comfortable with LLM APIs, deployment, and monitoring"
+  ],
+  "steps": [
+    {
+      "title": "Identify a real problem",
+      "description": "Find a genuine problem that AI can solve better than existing solutions. Talk to potential users. Validate that the problem is real and people would use a solution. Write a one-page product brief.",
+      "tips": "The best AI products are not general-purpose — they solve a specific problem for a specific audience extremely well."
+    },
+    {
+      "title": "Design the architecture",
+      "description": "Use the AI System Design Template. Define: data sources, model choices, API structure, storage, caching, and monitoring. Make buy-vs-build decisions for each component. Estimate costs at expected scale."
+    },
+    {
+      "title": "Build the AI backend",
+      "description": "Implement the core AI functionality: LLM integration, RAG pipeline, custom models, or agent logic — whatever your product requires. Focus on reliability: error handling, fallbacks, and consistent output quality."
+    },
+    {
+      "title": "Build the user interface",
+      "description": "Create a clean, functional UI. It does not need to be beautiful, but it must be usable. Handle AI-specific UX challenges: loading states, streaming responses, confidence indicators, error messages, and feedback mechanisms."
+    },
+    {
+      "title": "Add monitoring and feedback",
+      "description": "Instrument everything: API latency, model accuracy, user engagement, error rates, and cost per request. Add a feedback mechanism (thumbs up/down, corrections) so users can tell you when the AI gets it wrong."
+    },
+    {
+      "title": "Deploy and test with real users",
+      "description": "Deploy to a cloud provider. Share with 5-10 real users (friends, colleagues, or online communities). Collect feedback. Fix the most critical issues."
+    },
+    {
+      "title": "Iterate based on feedback",
+      "description": "Use feedback and monitoring data to improve: fix common failure modes, improve prompts, add missing features, optimise cost. Ship at least 3 meaningful improvements based on user feedback."
+    },
+    {
+      "title": "Write the case study",
+      "description": "Document the entire journey: problem statement, architecture decisions, technical challenges, user feedback, metrics, and lessons learned. This becomes the centrepiece of your AI engineering portfolio."
+    }
+  ],
+  "deliverables": [
+    "Deployed AI-powered product accessible via URL",
+    "Architecture diagram and technical documentation",
+    "User feedback summary and iteration log",
+    "Monitoring dashboard showing real usage metrics",
+    "Case study document covering the full product journey"
+  ],
+  "tools": [
+    "Python",
+    "FastAPI or Next.js",
+    "LLM APIs",
+    "Vector database",
+    "Docker",
+    "Cloud platform (Railway, Render, AWS, or GCP)",
+    "Monitoring tools"
+  ],
+  "rubric": [
+    {
+      "criteria": "Problem-Solution Fit",
+      "description": "The product solves a real problem for real users. Evidence of user research and validation."
+    },
+    {
+      "criteria": "Technical Execution",
+      "description": "Clean architecture, reliable AI integration, proper error handling, and monitoring. The system works consistently."
+    },
+    {
+      "criteria": "User Experience",
+      "description": "The product is usable without instructions. AI-specific UX challenges are handled well."
+    },
+    {
+      "criteria": "Iteration Quality",
+      "description": "Evidence of meaningful improvements based on user feedback and monitoring data. At least 3 shipped improvements."
+    },
+    {
+      "criteria": "Portfolio Readiness",
+      "description": "The case study is well-written and demonstrates end-to-end AI engineering capability. A hiring manager would be impressed."
+    }
+  ],
+  "track": "core-frontier"
+}

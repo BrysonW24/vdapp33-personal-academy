@@ -1,0 +1,13 @@
+{
+  "slug": "roi-framing",
+  "name": "ROI Framing",
+  "summary": "A persuasion technique that positions the decision around return, payoff, or business value rather than around price in isolation.",
+  "whenToUseIt": "Use ROI framing when the buyer or CFO needs the investment justified in measurable terms and when you need to defend price against status quo or competitor pressure.",
+  "steps": [
+    "Clarify the cost of the problem or the upside of solving it.",
+    "Connect your solution to a measurable change in revenue, efficiency, cost, or risk.",
+    "Frame the investment against the size and speed of the expected return."
+  ],
+  "example": "A buyer hesitates at a software price until the rep frames it against the labor cost, error reduction, and deal-speed improvement expected over the next twelve months.",
+  "category": "presentation-persuasion"
+}

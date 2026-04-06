@@ -1,0 +1,13 @@
+{
+  "slug": "gpctba-ci",
+  "name": "GPCTBA/C&I",
+  "summary": "A broad qualification and discovery framework covering Goals, Plans, Challenges, Timeline, Budget, Authority, plus Consequences and positive Implications.",
+  "whenToUseIt": "Use GPCTBA/C&I when you need a wide-angle view of the buyer's situation and want to understand not only the challenge, but also the planned path, stakes, and upside of solving it.",
+  "steps": [
+    "Explore the buyer's goals, current plans, and the challenges blocking progress.",
+    "Clarify timeline, budget, and authority so the opportunity can be judged realistically.",
+    "Surface the negative consequences of inaction and the positive implications of success."
+  ],
+  "example": "A CRO wants better pipeline discipline. GPCTBA/C&I helps the rep understand the revenue goal, the current plan for fixing the issue, the specific challenge, the deadline tied to board pressure, the available budget, the decision-makers, and the downside if the team misses again.",
+  "category": "qualification"
+}

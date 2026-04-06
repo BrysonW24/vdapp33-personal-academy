@@ -1,0 +1,92 @@
+{
+  "slug": "production-api",
+  "title": "Inference Service With Observability",
+  "difficulty": 9,
+  "estimatedHours": 20,
+  "description": "Ship a production-style service with serving endpoints, latency instrumentation, alerts, and cost-aware operating discipline.",
+  "whyItMatters": "Real AI work happens at the serving layer. This project shows you can think beyond the notebook and into production constraints.",
+  "skillsLearned": [
+    "Production FastAPI development",
+    "Docker and container orchestration",
+    "CI/CD for ML",
+    "Authentication and rate limiting",
+    "Monitoring and alerting",
+    "Blue-green deployments",
+    "Load testing"
+  ],
+  "prerequisites": [
+    "Complete the Deploying Your First Model lesson",
+    "Complete the Full ML Pipeline project"
+  ],
+  "steps": [
+    {
+      "title": "Build the API layer",
+      "description": "Create a FastAPI application with: /predict endpoint, /health endpoint, /metrics endpoint, request validation with Pydantic, structured logging, and proper error responses with status codes."
+    },
+    {
+      "title": "Add authentication",
+      "description": "Implement API key authentication. Store keys securely (environment variables or a secrets manager). Return 401 for missing keys, 403 for invalid keys. Log which key made each request."
+    },
+    {
+      "title": "Add rate limiting",
+      "description": "Implement per-key rate limiting using Redis or an in-memory solution. Return 429 (Too Many Requests) with a Retry-After header when limits are exceeded."
+    },
+    {
+      "title": "Containerise for production",
+      "description": "Create a production Dockerfile: multi-stage build, non-root user, health check, proper signal handling. Create docker-compose.yml with the API, Redis (for rate limiting), and a monitoring stack."
+    },
+    {
+      "title": "Set up CI/CD",
+      "description": "Create a GitHub Actions pipeline: lint → type check → unit tests → integration tests → build Docker image → push to registry. The pipeline should run on every PR and deploy to staging on merge to main."
+    },
+    {
+      "title": "Implement monitoring",
+      "description": "Add Prometheus metrics: request count, latency histogram, error rate, model inference time. Create a Grafana dashboard showing these metrics. Set up alerts for error rate spikes and latency increases."
+    },
+    {
+      "title": "Implement blue-green deployment",
+      "description": "Set up two deployment slots (blue and green). New model versions deploy to the inactive slot. Health checks verify the new deployment before traffic is switched. If the new version fails, traffic routes back automatically."
+    },
+    {
+      "title": "Load test",
+      "description": "Use locust or k6 to simulate realistic traffic. Find the throughput limits: how many requests per second can your API handle? Where is the bottleneck (CPU, memory, model inference, network)?"
+    }
+  ],
+  "deliverables": [
+    "Production FastAPI application with auth and rate limiting",
+    "Docker and docker-compose setup",
+    "CI/CD pipeline (GitHub Actions)",
+    "Monitoring dashboard (Grafana)",
+    "Load test results and analysis",
+    "Deployment runbook"
+  ],
+  "tools": [
+    "Python",
+    "FastAPI",
+    "Docker",
+    "Redis",
+    "GitHub Actions",
+    "Prometheus",
+    "Grafana",
+    "locust or k6"
+  ],
+  "rubric": [
+    {
+      "criteria": "API Quality",
+      "description": "Endpoints handle all edge cases: invalid input, authentication failures, rate limits, model errors. Proper HTTP status codes and error messages."
+    },
+    {
+      "criteria": "CI/CD Pipeline",
+      "description": "Automated pipeline from code commit to deployed container. Tests run and pass before any deployment."
+    },
+    {
+      "criteria": "Monitoring",
+      "description": "Dashboards show key metrics. Alerts fire on anomalies. Enough information to diagnose issues without SSH-ing into the server."
+    },
+    {
+      "criteria": "Production Readiness",
+      "description": "The system handles failures gracefully, scales under load, and can be deployed/rolled back without downtime."
+    }
+  ],
+  "track": "core-frontier"
+}

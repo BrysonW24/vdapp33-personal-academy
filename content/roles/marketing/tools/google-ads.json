@@ -1,0 +1,45 @@
+{
+  "slug": "google-ads",
+  "name": "Google Ads",
+  "category": "paid-advertising",
+  "description": "Google's advertising platform for search ads, display ads, YouTube ads, and Shopping ads — reaching people at the moment they're searching for what you offer.",
+  "whyUseIt": "Google Ads captures high-intent traffic — people actively searching for solutions. Search ads are the highest-converting paid channel for most businesses because you're reaching people who already want what you sell.",
+  "pricingTier": "paid",
+  "aiCapabilities": "Smart Bidding with AI-optimised bid strategies, Performance Max campaigns with automated creative and targeting, and responsive search ads that auto-optimise headlines.",
+  "alternatives": [
+    "Microsoft Ads",
+    "Meta Ads"
+  ],
+  "url": "https://ads.google.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/google-ads-2.svg",
+  "funnelPosition": "Mid-funnel — Consideration",
+  "outputs": [
+    "Search ad campaigns targeting specific keywords",
+    "Display ad campaigns with banner creatives across the Google Display Network",
+    "Shopping ad campaigns with product feeds for e-commerce",
+    "YouTube video ad campaigns for awareness and consideration",
+    "Performance Max campaigns with automated cross-channel delivery",
+    "Keyword performance and search term reports",
+    "Conversion tracking and ROAS reports"
+  ],
+  "marketerWorkflow": "A marketer in Google Ads starts each day reviewing campaign performance — checking spend, CPC, conversion rates, and ROAS against targets. They review the search terms report to add negative keywords, test new ad copy variations, and adjust bids or budgets based on performance trends. Weekly, they analyse which keywords and ad groups drive the most conversions, pause underperformers, and plan new campaigns or extensions to test.",
+  "managerExpects": "A marketing manager expects you to manage budgets responsibly, keeping spend within approved limits while maximising return on ad spend. They want to see regular reporting on cost per acquisition, conversion volume, and ROAS, along with a clear testing roadmap showing what ad copy, keywords, and audiences you are experimenting with and what you have learned.",
+  "aiWorkflowImpact": "Smart Bidding strategies like Target ROAS and Maximise Conversions now handle bid adjustments in real-time using hundreds of auction-time signals that no human could process. Performance Max campaigns use AI to allocate budget across Search, Display, YouTube, and Shopping automatically. This shifts the marketer's role from manual bid management to strategic oversight — setting the right goals, feeding the algorithm quality creative assets, and interpreting the results.",
+  "demoDescription": "Open the Google Ads Keyword Planner (free with any Google Ads account — no spend required). Enter a product or service you are interested in and explore the suggested keywords, their monthly search volumes, and estimated cost-per-click. Build a mock keyword list of 10-15 terms grouped into 2-3 ad groups based on intent.",
+  "vocabulary": [
+    { "term": "Quality Score", "definition": "A 1-10 rating Google assigns to each keyword based on expected click-through rate, ad relevance, and landing page experience. Higher scores lower your cost per click." },
+    { "term": "ROAS (Return on Ad Spend)", "definition": "Revenue generated divided by ad spend. A ROAS of 4.0 means every dollar spent on ads returned four dollars in revenue." },
+    { "term": "Negative Keyword", "definition": "A keyword you add to prevent your ad from showing on irrelevant searches. For example, adding 'free' as a negative keyword stops your ad appearing when someone searches 'free CRM software'." },
+    { "term": "Search Term Report", "definition": "A report showing the actual queries people typed that triggered your ads. Essential for finding new keywords to add and irrelevant terms to block." },
+    { "term": "Conversion Tracking", "definition": "Code placed on your website that records when a user completes a desired action (purchase, sign-up, phone call) after clicking your ad. Without it, you cannot measure campaign effectiveness." },
+    { "term": "Ad Extensions (Assets)", "definition": "Additional pieces of information added to your ads — sitelinks, callouts, structured snippets, phone numbers — that increase ad real estate and click-through rates at no extra cost." }
+  ],
+  "beginnerMistakes": [
+    "Running campaigns without conversion tracking set up, making it impossible to measure real results",
+    "Using only broad match keywords without negative keywords, wasting budget on irrelevant searches",
+    "Writing generic ad copy that does not match the specific intent behind each keyword group",
+    "Setting a daily budget and forgetting about it instead of reviewing performance and adjusting regularly",
+    "Sending all ad traffic to the homepage instead of dedicated landing pages tailored to each campaign"
+  ],
+  "relatedProject": "paid-ad-campaign"
+}

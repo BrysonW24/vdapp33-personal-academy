@@ -1,0 +1,23 @@
+{
+  "slug": "sales-analytics",
+  "title": "Sales Analytics",
+  "shortSummary": "Numbers tell the story of your sales performance. Learn pipeline metrics, conversion rates, forecast accuracy, and how to use data to improve your results.",
+  "level": "intermediate",
+  "category": "analytics",
+  "whyItMatters": "Top-performing AEs are data-literate. They do not just feel like they are having a good quarter; they know their numbers cold. Understanding conversion rates, average deal size, sales cycle length, self-sourced pipeline, and forecast variance lets you diagnose problems early, focus on high-impact activities, and forecast accurately. Your manager expects this; your VP demands it.",
+  "coreConcepts": [
+    "Key sales metrics: win rate, ACV, pipeline coverage, cycle length, and new ARR",
+    "Conversion rate analysis by stage",
+    "Activity metrics vs outcome metrics",
+    "Forecasting: commit, upside, best case, and variance to actuals",
+    "Sales velocity equation and how to improve each variable",
+    "Building your own performance dashboard",
+    "Reading expansion and retention signals alongside new business"
+  ],
+  "lessons": ["building-your-sales-dashboard"],
+  "frameworks": ["sales-velocity", "forecast-methodology"],
+  "relatedModules": ["pipeline-management", "sales-ops-enablement", "revenue-operations"],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 3
+}

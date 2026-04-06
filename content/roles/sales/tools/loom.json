@@ -1,0 +1,27 @@
+{
+  "slug": "loom",
+  "name": "Loom",
+  "category": "web-platforms",
+  "description": "An asynchronous video messaging tool that lets you record your screen and camera to send quick video messages. In sales, Loom is used for personalised prospecting videos, deal updates, proposal walkthroughs, and post-demo summaries.",
+  "whyUseIt": "Loom adds a personal touch to digital sales. Instead of writing a long email explaining your proposal, you record a 2-minute video walking through the key points with your face in the corner. It's more personal than email, more convenient than scheduling another call, and buyers consistently report higher engagement with video messages. Personalised Loom videos in outbound sequences can 2-3x reply rates.",
+  "pricingTier": "freemium",
+  "url": "https://www.loom.com",
+  "logoUrl": "/tools/loom.svg",
+  "aiCapabilities": "Loom AI generates titles, summaries, chapters, and action items from recorded videos. It also provides viewer engagement analytics showing which parts of the video were watched.",
+  "alternatives": ["zoom", "google-workspace"],
+  "funnelPosition": "Full funnel — prospecting videos, proposal walkthroughs, onboarding, and account management",
+  "outputs": ["Personalised prospecting videos", "Proposal walkthroughs", "Demo recaps", "Onboarding tutorials", "Internal deal updates"],
+  "sellerWorkflow": "SDRs record 30-60 second personalised videos for high-priority prospects (showing their LinkedIn profile or website on screen). AEs record proposal walkthroughs and post-demo summaries. Success managers use it for onboarding and feature tutorials.",
+  "managerExpects": "Videos are short (under 2 minutes for prospecting), professional, and genuinely personalised. Viewer analytics are monitored — if a prospect watches the whole video but doesn't respond, that's a warm lead to follow up with.",
+  "demoDescription": "Record a quick prospecting video showing the prospect's website on screen, narrate a specific observation, explain how you can help, and end with a CTA. Then check viewer analytics to see who watched and how much.",
+  "vocabulary": [
+    { "term": "Viewer Analytics", "definition": "Data showing who watched your video, how much they watched, and when they watched it — helping you prioritise follow-ups." },
+    { "term": "CTA Button", "definition": "A clickable call-to-action button embedded at the end of a Loom video — typically linking to a calendar booking page." }
+  ],
+  "beginnerMistakes": [
+    "Making videos too long — 60-90 seconds for prospecting, 2-3 minutes for proposals",
+    "Not showing the prospect's context on screen — just talking to camera misses the personalisation opportunity",
+    "Forgetting to add a CTA — every video should end with a clear next step"
+  ],
+  "relatedProject": "email-sequence"
+}

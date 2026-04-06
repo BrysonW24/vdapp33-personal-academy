@@ -1,0 +1,15 @@
+{
+  "slug": "openai-api",
+  "name": "OpenAI API",
+  "category": "model-api",
+  "description": "API access to GPT-4, DALL-E, Whisper, and embeddings. The most widely used LLM API for building AI applications.",
+  "whyUseIt": "OpenAI's API is the fastest way to add powerful AI capabilities to any application. GPT-4 for text, DALL-E for images, Whisper for speech-to-text, and text-embedding-3 for semantic search.",
+  "pricingTier": "paid",
+  "url": "https://platform.openai.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/openai-2.svg",
+  "alternatives": [
+    "Anthropic API",
+    "Google Gemini",
+    "Mistral API"
+  ]
+}

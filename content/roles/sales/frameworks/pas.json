@@ -1,0 +1,13 @@
+{
+  "slug": "pas",
+  "name": "PAS",
+  "summary": "A messaging framework built around Problem, Agitate, and Solution that sharpens urgency before introducing the answer.",
+  "whenToUseIt": "Use PAS when the buyer's problem is real but still emotionally or commercially underweighted, especially in outreach, demo framing, and proposal summaries.",
+  "steps": [
+    "Name the problem in specific, relevant language.",
+    "Agitate the consequences so the cost of leaving it unresolved becomes clearer.",
+    "Introduce the solution as a credible path to relief and improvement."
+  ],
+  "example": "You frame manual quote approvals as the problem, show how they delay revenue and frustrate customers, then position guided approvals and faster deal flow as the solution.",
+  "category": "presentation-persuasion"
+}

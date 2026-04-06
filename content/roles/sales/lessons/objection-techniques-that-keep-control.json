@@ -1,0 +1,76 @@
+{
+  "slug": "objection-techniques-that-keep-control",
+  "moduleSlug": "objection-handling",
+  "title": "Objection Techniques That Keep Control",
+  "objective": "Learn when to use LAER, Feel-Felt-Found, Boomerang, Isolation, Reframing, objection prevention, and trial alignment so objections move the deal forward instead of derailing it.",
+  "beginnerExplanation": "Objection-handling techniques are not magic phrases. They are structured ways to stay calm, diagnose the real issue, and respond without collapsing into defensiveness or discounting. Different objections need different handling moves, and strong reps know which technique fits the moment.",
+  "deeperExplanation": "LAER is usually the safest default because it starts with listening and exploration before response. Feel-Felt-Found is helpful when the buyer needs empathy and social normalisation. Isolation is useful when you need to know whether the stated objection is the only blocker. Reframing works when the buyer is looking at the issue through the wrong commercial lens. Boomerang can work when the objection genuinely reflects a strength, but it should be used carefully or it sounds gimmicky. Objection prevention and trial alignment help because the best objection is often the one you handle before it fully hardens.\n\nThe common thread is control through curiosity. If you rush to answer before you understand what the buyer actually means, you usually strengthen the objection instead of reducing it.",
+  "keyTakeaways": [
+    "Different objection techniques solve different conversational problems.",
+    "LAER is a strong default because it forces understanding before response.",
+    "Isolation is useful when several hidden blockers may be hiding behind one stated concern.",
+    "Reframing shifts the buyer from surface concern to business consequence.",
+    "Boomerang only works when the logic is credible and relevant.",
+    "Objection prevention and trial alignment reduce late-stage surprises."
+  ],
+  "frameworks": [
+    "laer",
+    "feel-felt-found",
+    "boomerang",
+    "isolation",
+    "reframing",
+    "objection-prevention",
+    "trial-alignment"
+  ],
+  "example": "A buyer says, 'This feels like too much change for the team.' A weak rep jumps to product features. A stronger rep uses LAER: listens fully, acknowledges the adoption concern, explores what kind of change feels risky, and only then responds with a phased rollout story and proof from a similar team. If another hidden blocker is suspected, they use isolation: 'Apart from adoption risk, is there anything else that would stop this moving forward?'",
+  "commonMistakes": [
+    "Using the same objection script for every situation",
+    "Trying to rebut before you understand the real concern",
+    "Using boomerang responses so aggressively that they sound manipulative",
+    "Skipping trial alignment until the deal is already fragile",
+    "Assuming the first objection stated is the only one that matters"
+  ],
+  "exercise": "Take three common objections in your market and pair each one with the best technique to handle it. Then write your first two sentences for that response.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "Why is LAER a strong default technique?",
+      "options": [
+        "It helps you answer before the buyer finishes speaking",
+        "It forces listening and exploration before response",
+        "It guarantees there is only one objection",
+        "It is only useful for pricing"
+      ],
+      "correctIndex": 1,
+      "explanation": "LAER works because it keeps you from answering a concern you do not fully understand yet."
+    },
+    {
+      "question": "What is the purpose of isolation?",
+      "options": [
+        "To end the conversation quickly",
+        "To test whether the stated objection is the only real blocker",
+        "To avoid empathy",
+        "To replace qualification"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isolation helps reveal whether other hidden issues are still sitting behind the stated objection."
+    },
+    {
+      "question": "When is boomerang risky?",
+      "options": [
+        "When it turns into a clever-sounding dodge instead of a credible point",
+        "When the buyer agrees with you",
+        "When the deal is small",
+        "When the buyer asks for proof"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boomerang works only when the logic is believable. Otherwise it feels slippery."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should match the technique to the objection instead of memorising one universal response.",
+    "manager": "Managers can improve objection handling by coaching diagnosis quality before talk-track polish.",
+    "vp": "A VP wants objection handling to protect both win rate and margin, not just rescue conversations.",
+    "cro": "A CRO sees objection discipline as part of overall deal quality and forecast integrity."
+  }
+}

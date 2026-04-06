@@ -1,0 +1,32 @@
+{
+  "slug": "what-ai-engineering-is",
+  "title": "What Frontier AI Engineering Is",
+  "shortSummary": "Map the real job: turning powerful models into usable, reliable products and platform systems.",
+  "track": "core-frontier",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Most people still confuse frontier AI engineering with research, prompt hobbyism, or classical ML. This module gives you the operating definition for the roles that labs and top startups actually hire: product engineers, platform engineers, eval engineers, and research-to-production builders.",
+  "coreConcepts": [
+    "The blended product-plus-platform shape of a frontier AI engineer",
+    "How AI product engineers differ from researchers, ML engineers, and pure backend developers",
+    "Why evals, retrieval, tool use, latency, and reliability matter as much as model choice",
+    "Where classical ML and robotics fit as secondary tracks instead of the default path",
+    "What hiring managers at frontier labs actually look for in portfolios and interviews"
+  ],
+  "lessons": [
+    "what-ai-engineering-actually-is"
+  ],
+  "frameworks": [
+    "llm-application-stack",
+    "ml-lifecycle"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "llm-engineering",
+    "model-evaluation",
+    "mlops-deployment"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

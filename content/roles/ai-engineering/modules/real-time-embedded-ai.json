@@ -1,0 +1,29 @@
+{
+  "slug": "real-time-embedded-ai",
+  "title": "Real-Time and Embedded AI Systems",
+  "shortSummary": "Learn how AI interacts with firmware, control loops, and real-time safety requirements.",
+  "track": "robotics-autonomy",
+  "level": "advanced",
+  "category": "specialization",
+  "whyItMatters": "In embodied AI, missing a deadline can matter more than missing a benchmark. This module centers the systems mindset needed for embedded and autonomy-heavy work.",
+  "coreConcepts": [
+    "Real-time constraints and deterministic behavior",
+    "Model integration with firmware and control software",
+    "Observability and rollback in hardware-adjacent systems",
+    "Testing and validation in safety-critical loops",
+    "What changes when models leave the data center"
+  ],
+  "lessons": [
+    "real-time-embedded-ai-lesson"
+  ],
+  "frameworks": [
+    "system-design-template"
+  ],
+  "relatedModules": [
+    "edge-inference-hardware-acceleration",
+    "autonomy-systems-capstone"
+  ],
+  "status": "coming-soon",
+  "order": 15,
+  "levelNumber": 4
+}

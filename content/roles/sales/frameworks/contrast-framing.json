@@ -1,0 +1,13 @@
+{
+  "slug": "contrast-framing",
+  "name": "Contrast Framing",
+  "summary": "A persuasion technique that clarifies value by comparing the old way and the new way in a sharp, meaningful way.",
+  "whenToUseIt": "Use contrast framing when buyers are still underestimating the difference between staying the same and changing, especially in demos, business cases, and executive conversations.",
+  "steps": [
+    "Describe the current-state approach honestly and clearly.",
+    "Show what the improved state changes in outcome, speed, control, or risk.",
+    "Make the difference feel practical rather than abstract."
+  ],
+  "example": "You contrast spreadsheet-based pipeline reviews that take hours and still feel uncertain with a live inspection view that lets managers challenge risk in real time.",
+  "category": "presentation-persuasion"
+}

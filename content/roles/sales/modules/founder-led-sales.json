@@ -1,0 +1,19 @@
+{
+  "slug": "founder-led-sales",
+  "title": "Founder-Led Sales",
+  "shortSummary": "Why the founder must sell first, how to do it without a sales background, and when you have earned the right to hire someone else.",
+  "level": "beginner",
+  "domain": "sales",
+  "whyItMatters": "No one can sell your product better than you in the early days. You understand the problem, you built the solution, and you need the direct feedback loop that only selling provides.",
+  "coreConcepts": [
+    "Founders sell better than early hires because they have conviction and can adapt on the fly",
+    "Selling is not about persuasion — it is about understanding problems and matching solutions",
+    "The first 20 sales teach you more about your market than any amount of research",
+    "You earn the right to hire a rep only after you can describe a repeatable sales process"
+  ],
+  "lessons": ["founder-selling-basics"],
+  "frameworks": ["bant", "sandler-pain-funnel"],
+  "relatedModules": ["sales-process-design"],
+  "status": "complete",
+  "order": 1
+}

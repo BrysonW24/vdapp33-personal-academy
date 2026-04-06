@@ -1,0 +1,14 @@
+{
+  "slug": "sales",
+  "name": "Sales",
+  "kind": "role",
+  "group": "markets",
+  "icon": "Handshake",
+  "color": "#2F4F79",
+  "tagline": "Outbound, discovery, demos, negotiation, and forecast discipline that turns conversations into revenue.",
+  "tier": "flagship",
+  "order": 8,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

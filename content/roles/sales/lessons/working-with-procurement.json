@@ -1,0 +1,72 @@
+{
+  "slug": "working-with-procurement",
+  "moduleSlug": "negotiation",
+  "title": "Working with Procurement Without Panicking",
+  "objective": "Learn how procurement teams operate, how to stay composed in commercial review, and how to protect the deal without turning procurement into the enemy.",
+  "beginnerExplanation": "Procurement is often misunderstood by inexperienced reps. It is easy to think procurement exists to kill the deal or grind down price. In reality, procurement exists to reduce risk, enforce process, and improve commercial terms for the buyer. If you understand that, procurement becomes easier to navigate. You do not have to love every request, but you do need to know what game is being played.",
+  "deeperExplanation": "Procurement usually enters once the business and technical decision is mostly made. That means their power is real, but it is different from the champion's power. Champions care about solving the problem. Procurement cares about terms, compliance, precedent, and leverage. Strong reps prepare for that shift.\n\nThree habits help. First, map the paper process early so procurement is not a surprise. Second, keep your internal team aligned on which terms are flexible and which need escalation. Third, separate tactic from truth. Aggressive asks are common. They do not always reflect deal intent. Stay calm, return to value, and trade deliberately.\n\nProcurement also becomes easier when your champion stays involved. If the business sponsor disappears during commercial review, the deal often slows and price pressure grows. Keep the champion connected to why the decision matters.",
+  "keyTakeaways": [
+    "Procurement's job is risk and commercial control, not product evaluation.",
+    "Map the paper process before the deal reaches late stage.",
+    "Aggressive asks are common and should not trigger emotional concessions.",
+    "Know which commercial terms are flexible before the negotiation begins.",
+    "Keep the business champion engaged during procurement review.",
+    "Calm, prepared reps handle procurement far better than reactive reps."
+  ],
+  "frameworks": [
+    "meddic",
+    "sandler-selling"
+  ],
+  "example": "Procurement asks for a 20 percent discount, net 90 payment terms, and uncapped liability. A reactive rep panics and starts bargaining randomly. A prepared rep knows the approved range on discounting, understands which legal terms must escalate, and asks what commercial movement would unlock signature. The conversation becomes structured instead of defensive.",
+  "commonMistakes": [
+    "Treating procurement like the true buyer and forgetting the business sponsor",
+    "Reacting emotionally to aggressive commercial asks",
+    "Entering procurement review without internal alignment on fallback positions",
+    "Discovering the paper process too late",
+    "Giving commercial ground without understanding what it changes in return"
+  ],
+  "exercise": "Create a procurement prep sheet for one deal. List the likely asks on price, payment terms, legal terms, and services scope. Then write your first response to each ask before the call happens.",
+  "nextLesson": "negotiation-moves-that-protect-value",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What does procurement usually care about most?",
+      "options": [
+        "The product story only",
+        "Commercial terms, process, and risk",
+        "Which AE is friendliest",
+        "How creative the demo was"
+      ],
+      "correctIndex": 1,
+      "explanation": "Procurement focuses on commercial protection and process more than product vision."
+    },
+    {
+      "question": "Why should the champion stay involved during procurement review?",
+      "options": [
+        "To explain product features to legal",
+        "To keep the business value visible while commercial details are being negotiated",
+        "To avoid signing the order form",
+        "To replace finance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The business sponsor keeps the deal grounded in why the purchase matters."
+    },
+    {
+      "question": "What is the best response to an aggressive procurement ask?",
+      "options": [
+        "Concede immediately",
+        "Get defensive",
+        "Stay calm, clarify the ask, and trade deliberately",
+        "End the conversation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Preparation and composure create better commercial outcomes than panic."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should view procurement as a predictable stage that rewards preparation, not as an ambush.",
+    "manager": "Managers add value by aligning internal fallback positions before the commercial call.",
+    "vp": "A VP wants procurement discipline because quarter-end deals often swing on late-stage commercial mistakes.",
+    "cfo": "A CFO cares that legal and commercial terms protect margin and company risk appropriately."
+  }
+}

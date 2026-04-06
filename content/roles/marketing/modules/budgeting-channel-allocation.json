@@ -1,0 +1,15 @@
+{
+  "slug": "budgeting-channel-allocation",
+  "title": "Budgeting & Channel Allocation",
+  "shortSummary": "Learn to plan marketing budgets, allocate spend across channels, and maximise return on investment.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Marketing budgets are finite. Knowing how to allocate spend across channels — and justify it to leadership — separates strategic marketers from tactical ones. Poor allocation wastes money; smart allocation compounds growth.",
+  "coreConcepts": ["Budget planning", "Channel ROI", "Media mix modelling", "Cost allocation", "Forecasting", "Diminishing returns", "Budget justification"],
+  "lessons": ["allocating-your-budget"],
+  "frameworks": ["kpi-cheat-sheet"],
+  "relatedModules": ["paid-advertising", "analytics-attribution-kpis", "marketing-leadership"],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 4
+}

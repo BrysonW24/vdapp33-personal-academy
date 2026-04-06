@@ -1,0 +1,22 @@
+{
+  "slug": "sales-leadership",
+  "title": "Sales Leadership",
+  "shortSummary": "Transition from individual contributor to leader. Learn to manage a sales team, coach reps, build culture, and consistently hit team targets.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The jump from top-performing AE to sales leader is one of the hardest transitions in any career. What made you great as an individual contributor — doing the work yourself — is exactly what you need to stop doing. Sales leadership is about building systems, coaching others to succeed, hiring the right people, and creating an environment where your team can consistently perform.",
+  "coreConcepts": [
+    "Transitioning from IC to manager mindset",
+    "Coaching frameworks: observe, diagnose, prescribe",
+    "Running effective 1:1s and pipeline reviews",
+    "Hiring: what to look for in sales candidates",
+    "Building team culture and motivation",
+    "Managing up: communicating with your VP/CRO"
+  ],
+  "lessons": ["coaching-reps-through-real-deals"],
+  "frameworks": ["forecast-methodology", "sales-velocity"],
+  "relatedModules": ["enterprise-sales", "sales-ops-enablement", "revenue-operations"],
+  "status": "complete",
+  "order": 16,
+  "levelNumber": 4
+}

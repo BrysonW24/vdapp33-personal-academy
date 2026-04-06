@@ -1,0 +1,73 @@
+{
+  "slug": "building-a-value-hypothesis",
+  "moduleSlug": "value-propositions-for-sales",
+  "title": "Building a Value Hypothesis",
+  "objective": "Learn to turn account research into a sharp, testable value hypothesis you can use in outreach, discovery, and demo planning.",
+  "beginnerExplanation": "A value hypothesis is your best early guess about why a specific buyer should care. It is not a generic pitch and it is not a full business case yet. It is a working hypothesis built from research: what might be broken, why it probably matters, and what result your solution could create. Good sellers do not walk into a call empty. They arrive with a point of view they are ready to test.",
+  "deeperExplanation": "A strong value hypothesis has four parts. First, a trigger: what changed or what is visible from the outside? New hires, expansion, product complexity, layoffs, funding pressure, a public initiative, or a shift in the market. Second, a likely problem: what friction typically follows from that trigger for a team like this? Third, a measurable consequence: how that problem likely shows up in revenue, cost, cycle time, risk, or capacity. Fourth, a credible outcome: what kind of result companies like theirs often achieve after fixing it.\n\nThe key word is hypothesis. You are not pretending to know their business better than they do. You are showing that you have thought about their world and can start a serious conversation. In discovery, your job is to confirm, sharpen, or disprove the hypothesis quickly. If you are wrong, that is fine. Thoughtful and wrong is still more useful than generic and forgettable.\n\nThis is why the best outreach feels specific without sounding arrogant. You are not saying, 'Here is our platform and all the things it does.' You are saying, 'Based on what I can see, I believe this issue may be costing you momentum, and I have helped similar teams fix it.' That is much harder to ignore.",
+  "keyTakeaways": [
+    "A value hypothesis is a testable point of view, not a generic pitch.",
+    "The best hypotheses connect an external trigger to a likely business problem.",
+    "Measurable consequences make the hypothesis commercially credible.",
+    "You do not need perfect certainty to start the conversation - you need relevance.",
+    "Discovery should validate or refine the hypothesis, not replace it.",
+    "Great outreach and great demos both start from the same value hypothesis."
+  ],
+  "frameworks": [
+    "value-selling",
+    "challenger-sale",
+    "gap-selling"
+  ],
+  "example": "You sell call coaching software. A mid-market SaaS company has doubled AE headcount in six months and just hired a new VP of Sales. Your value hypothesis might be: 'Because the team has scaled quickly, frontline coaching quality is probably inconsistent. That likely shows up as lower discovery quality, forecast slippage, and slower ramp for new reps. Companies in this phase often use call analysis to tighten manager coaching, improve ramp speed, and recover forecast confidence.' That gives you a relevant outreach angle and a discovery path.",
+  "commonMistakes": [
+    "Writing a hypothesis so broad that it could apply to any company",
+    "Skipping the measurable consequence and leaving the idea commercially weak",
+    "Treating your first guess as fact instead of testing it in discovery",
+    "Starting from your product features instead of the buyer's likely problem",
+    "Using industry buzzwords that sound smart but communicate nothing"
+  ],
+  "exercise": "Pick a real target account. Find one visible trigger from the last 90 days. Then write a four-sentence value hypothesis: trigger, likely problem, measurable consequence, credible outcome. Read it out loud and cut anything that sounds like vendor jargon.",
+  "nextLesson": "quantifying-roi-for-stakeholders",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is a value hypothesis?",
+      "options": [
+        "A full proposal with pricing and implementation",
+        "A researched, testable point of view about why a buyer may care",
+        "A list of product features tailored to an industry",
+        "A contract summary for procurement"
+      ],
+      "correctIndex": 1,
+      "explanation": "A value hypothesis is an informed guess about a buyer's likely problem, impact, and desired outcome."
+    },
+    {
+      "question": "Which element makes a value hypothesis commercially stronger?",
+      "options": [
+        "More adjectives",
+        "A measurable consequence of the problem",
+        "A longer company introduction",
+        "A detailed feature list"
+      ],
+      "correctIndex": 1,
+      "explanation": "A measurable consequence gives the hypothesis business weight and makes discovery more focused."
+    },
+    {
+      "question": "What should happen to your value hypothesis during discovery?",
+      "options": [
+        "It should stay unchanged",
+        "It should be validated, refined, or disproved",
+        "It should be replaced by a product demo",
+        "It should only be shared after pricing is sent"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hypothesis exists to start a smarter conversation, not to be defended at all costs."
+    }
+  ],
+  "perspectives": {
+    "ae": "An AE uses the value hypothesis to make outreach sharper, discovery faster, and demos more relevant.",
+    "manager": "Managers can coach hypothesis quality before meetings. A stronger pre-call point of view usually leads to stronger discovery.",
+    "vp": "A VP wants the whole team using consistent, market-informed hypotheses so the message to the market stays clear.",
+    "cro": "A CRO sees value hypotheses as the bridge between market insight and pipeline generation."
+  }
+}

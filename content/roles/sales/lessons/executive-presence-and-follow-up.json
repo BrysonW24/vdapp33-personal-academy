@@ -1,0 +1,72 @@
+{
+  "slug": "executive-presence-and-follow-up",
+  "moduleSlug": "communication-fundamentals",
+  "title": "Executive Presence and Follow-Up",
+  "objective": "Learn to sound clear and credible in live conversations, then reinforce that credibility with follow-up messages that keep deals moving.",
+  "beginnerExplanation": "Executive presence is not about sounding fancy. It is about sounding clear, calm, and commercially aware. Senior buyers do not need more words. They need a rep who can explain the issue, the impact, and the next step without rambling. Your follow-up matters for the same reason. A strong follow-up note shows you listened, understood, and can drive an organised buying process.",
+  "deeperExplanation": "In live conversation, executive presence comes from four habits. First, structure your thoughts before you speak: problem, impact, recommendation, next step. Second, answer the question that was asked instead of wandering through product detail. Third, use the buyer's language when you can, because that signals listening. Fourth, stay calm under pressure. Slow beats rushed. Precise beats impressive.\n\nIn follow-up, the goal is not to send a long recap. It is to create momentum. A good note usually includes what you heard, what matters commercially, what was agreed, who owns what, and when the next step happens. Think of follow-up as deal control in writing. If there is no owner or date, the note may feel polished but it will not move the opportunity.\n\nThis skill compounds because buyers remember how you make them feel. A rep who sounds scattered creates risk. A rep who sounds organised reduces it. That matters even before pricing is discussed.",
+  "keyTakeaways": [
+    "Executive presence is mainly clarity, composure, and business relevance.",
+    "Short, structured answers are usually stronger than long product speeches.",
+    "Use the buyer's language to show you actually listened.",
+    "A follow-up note should create momentum, not just summarise the meeting.",
+    "Every follow-up should clarify ownership and timing for next steps.",
+    "The way you communicate affects perceived deal risk."
+  ],
+  "frameworks": [
+    "command-of-the-message",
+    "value-selling"
+  ],
+  "example": "After a discovery call with a VP of Operations, a weak follow-up says, 'Thanks for the chat. Great to learn more about your business. Attached is some info about our platform.' A stronger follow-up says, 'You shared that manual exception handling is creating roughly 12 hours of manager admin per week and delaying customer updates. We agreed the next step is a 45-minute demo focused on workflow routing and reporting. You will bring your operations manager and IT lead. I will send a draft agenda by Thursday and hold Tuesday 2pm for the session.'",
+  "commonMistakes": [
+    "Trying to sound senior by using vague corporate language",
+    "Answering a commercial question with a feature list",
+    "Sending follow-up notes with no clear next step or owner",
+    "Writing long recap emails that bury the important point",
+    "Talking too quickly when a senior stakeholder pushes back"
+  ],
+  "exercise": "Record yourself answering this question in under 45 seconds: 'Why does this matter to our business right now?' Then write a follow-up email from the same meeting using five headings: problem, impact, agreed priority, next step, owners and timing.",
+  "nextLesson": "layering-questions-for-real-discovery",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What is the strongest foundation of executive presence?",
+      "options": [
+        "Using impressive jargon",
+        "Talking quickly to show confidence",
+        "Clarity, composure, and commercial relevance",
+        "Memorising a perfect script"
+      ],
+      "correctIndex": 2,
+      "explanation": "Senior buyers trust reps who sound clear, calm, and tied to business outcomes."
+    },
+    {
+      "question": "What should a strong follow-up email include?",
+      "options": [
+        "A product brochure only",
+        "A thank-you line and no specific next step",
+        "What matters, what was agreed, and who owns the next step by when",
+        "Every feature discussed in the meeting"
+      ],
+      "correctIndex": 2,
+      "explanation": "Strong follow-up creates movement by clarifying decisions, ownership, and timing."
+    },
+    {
+      "question": "Why does the tone of your communication matter in B2B sales?",
+      "options": [
+        "Because buyers mainly judge typography",
+        "Because communication quality changes how risky you seem as a partner",
+        "Because longer emails close faster",
+        "Because executives only buy from extroverts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Clear communication lowers perceived execution risk and increases confidence in you and your team."
+    }
+  ],
+  "perspectives": {
+    "ae": "For an AE, executive presence means staying commercially sharp without becoming stiff or robotic.",
+    "manager": "Managers should coach both call delivery and follow-up notes, because deals often stall in the written handoff between meetings.",
+    "vp": "A VP expects reps to represent the company with clarity in front of senior buyers and internal deal teams.",
+    "cro": "A CRO sees communication quality as part of the brand of the sales organisation itself."
+  }
+}

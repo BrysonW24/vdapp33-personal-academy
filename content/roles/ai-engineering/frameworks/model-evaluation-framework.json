@@ -1,0 +1,16 @@
+{
+  "slug": "model-evaluation-framework",
+  "name": "Model Evaluation Framework",
+  "summary": "A systematic approach to evaluating ML model performance using the right metrics for your problem type. Covers classification metrics (precision, recall, F1, AUC), regression metrics (MSE, MAE, R-squared), and the confusion matrix that ties them all together.",
+  "whenToUseIt": "Use this framework every time you train a model or evaluate a system change. Choose metrics based on your problem type and business context — accuracy alone is almost never sufficient. Always start by asking: what is the cost of different types of errors?",
+  "steps": [
+    "Define your problem type — Classification (predicting categories) or Regression (predicting numbers)? Binary or multi-class? This determines which metrics to use.",
+    "Build a confusion matrix (classification) — Map predictions against actual values: True Positives, True Negatives, False Positives, False Negatives. This is the foundation of all classification metrics.",
+    "Choose primary metrics — For classification: Precision (of predicted positives, how many were correct?), Recall (of actual positives, how many did we find?), F1 (harmonic mean of precision and recall). For regression: MAE (average error magnitude), RMSE (penalises large errors), R-squared (proportion of variance explained).",
+    "Consider business context — A spam filter should maximise precision (do not put real emails in spam). A cancer detector should maximise recall (do not miss actual cancer). The business context determines which errors are more costly.",
+    "Evaluate on held-out data — Always evaluate on data the model has never seen. Use cross-validation for robust estimates. Never tune hyperparameters on the test set.",
+    "Compare against a baseline — A model that achieves 90% accuracy sounds good until you learn that always predicting the majority class gets 89%. Always compare against a simple baseline."
+  ],
+  "example": "Building a support triage assistant that classifies tickets into billing, technical, account, and general. The confusion matrix shows repeated mistakes between billing and account issues, while latency spikes during longer prompts. The team expands the eval set, improves routing prompts, and adds a fallback rule when confidence is low.",
+  "category": "evaluation"
+}

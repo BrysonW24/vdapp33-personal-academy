@@ -1,0 +1,27 @@
+{
+  "slug": "qwilr",
+  "name": "Qwilr",
+  "category": "web-platforms",
+  "description": "An Australian-founded proposal and sales document platform that creates beautiful, interactive web-based proposals instead of static PDFs. Qwilr proposals look like modern web pages with embedded video, interactive pricing, and analytics.",
+  "whyUseIt": "Qwilr proposals stand out because they're interactive. Instead of a static PDF, the buyer gets a branded web page with embedded videos, interactive pricing calculators, and e-signature built in. The analytics show you exactly what the buyer engaged with. Founded in Sydney, Qwilr is a popular choice for Australian sales teams who want proposals that feel modern and premium.",
+  "pricingTier": "paid",
+  "url": "https://qwilr.com",
+  "logoUrl": "/tools/qwilr.svg",
+  "aiCapabilities": "Qwilr AI assists with content generation for proposal sections, suggests design improvements, and auto-populates proposal fields from CRM data integration.",
+  "alternatives": ["pandadoc", "docusign"],
+  "funnelPosition": "Bottom of funnel — proposal creation, interactive quoting, and e-signatures",
+  "outputs": ["Interactive proposals", "Web-based quotes", "E-signatures", "Engagement analytics", "Branded sales pages"],
+  "sellerWorkflow": "AEs build proposals using Qwilr's drag-and-drop editor with pre-built blocks for case studies, pricing, and team introductions. Proposals are shared as URLs. The buyer interacts with pricing options, watches embedded videos, and signs — all in one place. AEs monitor analytics to see engagement.",
+  "managerExpects": "Proposals are visually professional and on-brand. Interactive pricing is used where appropriate. Analytics are monitored to time follow-ups based on buyer engagement.",
+  "demoDescription": "Build an interactive proposal with a pricing calculator, embed a Loom video walkthrough, add a case study block, publish the page, and check analytics showing buyer engagement.",
+  "vocabulary": [
+    { "term": "Interactive Pricing", "definition": "A pricing table where the buyer can select options and see the total update in real-time — making it easy to compare packages." },
+    { "term": "Page Analytics", "definition": "Data showing how many times the proposal was viewed, time spent on each section, and which pricing option was most engaged with." }
+  ],
+  "beginnerMistakes": [
+    "Overdesigning proposals — keep them focused on the buyer's pain and your solution, not visual flash",
+    "Not embedding a personal video — Qwilr proposals with a Loom walkthrough have significantly higher engagement",
+    "Ignoring page analytics — they tell you exactly what the buyer cares about most"
+  ],
+  "relatedProject": "proposal-writing"
+}

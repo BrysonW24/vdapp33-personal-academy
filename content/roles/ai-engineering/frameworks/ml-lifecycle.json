@@ -1,0 +1,17 @@
+{
+  "slug": "ml-lifecycle",
+  "name": "ML Lifecycle: Problem to Production",
+  "summary": "The end-to-end process for building an ML system — from defining the problem to monitoring the model in production. Every ML project follows this lifecycle, whether you are building a simple classifier or a complex LLM application.",
+  "whenToUseIt": "Use this framework at the start of every ML project to ensure you have a clear plan from problem definition through to production monitoring. Reference it when you feel lost or stuck — it tells you what stage you are at and what comes next.",
+  "steps": [
+    "Problem Definition — What are you trying to predict or generate? What business problem does it solve? What does success look like? Define metrics before writing any code.",
+    "Data Collection — Identify and gather the data you need. Is it available? Is it labelled? Is there enough of it? This step often takes longer than expected.",
+    "Data Preparation — Clean, transform, and engineer features. Handle missing values, encode categories, normalise numbers. Split into train/validation/test sets.",
+    "Model Development — Choose an algorithm, train the model, tune hyperparameters. Start simple (baseline model) and iterate toward complexity.",
+    "Evaluation — Test the model on held-out data. Check metrics (accuracy, F1, etc.), look for bias, test edge cases. Compare against the baseline.",
+    "Deployment — Serve the model via an API, batch pipeline, or edge device. Containerise, set up CI/CD, implement health checks.",
+    "Monitoring — Track model performance over time. Watch for data drift, performance degradation, and unexpected inputs. Set up alerts."
+  ],
+  "example": "Building a product recommendation system for an Australian e-commerce retailer: (1) Problem: increase average order value by suggesting relevant products — success metric is click-through rate on recommendations. (2) Data: 2 years of purchase history, product catalogue, user browsing data. (3) Preparation: create user-product interaction matrix, encode product categories, handle cold-start users. (4) Model: start with collaborative filtering baseline, iterate to a neural recommendation model. (5) Evaluation: A/B test against the existing 'popular products' section — did CTR increase? (6) Deploy: real-time API that returns top-5 recommendations per user. (7) Monitor: track CTR daily, retrain monthly as new purchase data arrives.",
+  "category": "methodology"
+}

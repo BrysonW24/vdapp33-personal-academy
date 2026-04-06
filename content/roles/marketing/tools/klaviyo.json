@@ -1,0 +1,63 @@
+{
+  "slug": "klaviyo",
+  "name": "Klaviyo",
+  "category": "email",
+  "description": "An email and SMS marketing platform built specifically for e-commerce, with deep Shopify integration and advanced segmentation.",
+  "whyUseIt": "If you're doing e-commerce marketing, Klaviyo is the gold standard. Its event-based segmentation, automated flows (abandoned cart, browse abandonment, post-purchase), and revenue attribution are unmatched.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI subject line generation, predictive analytics for customer lifetime value, and AI-powered product recommendations in emails.",
+  "alternatives": [
+    "Mailchimp",
+    "Drip",
+    "Omnisend"
+  ],
+  "url": "https://www.klaviyo.com",
+  "funnelPosition": "Post-purchase \u2014 Retention",
+  "outputs": [
+    "Automated email flows for abandoned cart, welcome series, and post-purchase follow-ups",
+    "Segmented email campaigns based on purchase history and browsing behaviour",
+    "SMS campaigns and automated text message flows",
+    "Revenue attribution reports showing exactly how much each email and flow generated",
+    "A/B test results for subject lines, send times, and content variations",
+    "Customer lifetime value predictions and churn risk scores",
+    "Sign-up forms and pop-ups for list growth"
+  ],
+  "marketerWorkflow": "A Klaviyo marketer spends their week building and scheduling campaigns \u2014 segmenting the list by purchase behaviour, engagement level, or product interest, then crafting targeted emails with personalised product recommendations. They monitor flow performance daily, checking metrics like open rate, click rate, and revenue per recipient for automated sequences. They also run A/B tests on subject lines and content blocks, update sign-up forms to improve list growth, and clean the list by suppressing unengaged subscribers.",
+  "managerExpects": "A marketing manager expects you to demonstrate that email is a reliable revenue channel, not just a broadcasting tool. They want to see the percentage of total revenue attributed to email (benchmark: 25-30% for e-commerce), growing list size with healthy engagement rates, and a calendar of planned campaigns alongside always-on automated flows. They expect you to segment thoughtfully \u2014 not blast the entire list with every email.",
+  "aiWorkflowImpact": "Klaviyo's AI now generates subject lines and preview text that outperform human-written versions in many tests. Predictive analytics automatically score customers by expected lifetime value, churn risk, and next expected purchase date \u2014 allowing you to build segments like 'high-value customers likely to churn in 30 days' without manual analysis. AI-powered product recommendations in emails personalise content at scale, showing each recipient products they are most likely to buy based on their browsing and purchase history.",
+  "demoDescription": "Sign up for Klaviyo's free plan (up to 250 contacts). Connect it to a Shopify store or use their sample data. Build a 3-email Welcome Series flow: email 1 with a welcome discount, email 2 introducing your brand story, and email 3 showcasing best-selling products. Set timing delays between each email and add a conditional split based on whether the subscriber made a purchase.",
+  "vocabulary": [
+    {
+      "term": "Flow",
+      "definition": "An automated email or SMS sequence triggered by a specific event \u2014 such as someone joining your list, abandoning a cart, or making a purchase. Flows run continuously without manual intervention."
+    },
+    {
+      "term": "Segment",
+      "definition": "A dynamic group of subscribers defined by conditions like purchase history, engagement, or browsing behaviour. Unlike static lists, segments update automatically as subscribers meet or stop meeting the criteria."
+    },
+    {
+      "term": "Revenue Per Recipient (RPR)",
+      "definition": "The average revenue generated per person who received an email. This is the key metric for comparing the effectiveness of different campaigns and flows."
+    },
+    {
+      "term": "Browse Abandonment",
+      "definition": "An automated flow triggered when someone views a product on your website but does not add it to their cart. It reminds them of the product and often includes similar recommendations."
+    },
+    {
+      "term": "Deliverability",
+      "definition": "The percentage of your emails that actually reach the inbox rather than landing in spam. Affected by list hygiene, engagement rates, sending domain reputation, and authentication (SPF, DKIM, DMARC)."
+    },
+    {
+      "term": "Sunset Flow",
+      "definition": "An automated sequence sent to subscribers who have not engaged with your emails for a defined period (e.g., 90 days). It attempts to re-engage them and, if unsuccessful, suppresses them to protect deliverability."
+    }
+  ],
+  "beginnerMistakes": [
+    "Sending every campaign to the entire list instead of segmenting by engagement level, purchase history, or interest",
+    "Not setting up core automated flows (welcome, abandoned cart, post-purchase) before focusing on one-off campaigns",
+    "Ignoring list hygiene \u2014 never suppressing unengaged subscribers, which damages deliverability and increases costs",
+    "Using generic subject lines and preview text instead of testing variations with A/B splits",
+    "Failing to authenticate your sending domain with SPF, DKIM, and DMARC, leading to emails landing in spam"
+  ],
+  "relatedProject": "email-welcome-sequence"
+}

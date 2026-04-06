@@ -1,0 +1,25 @@
+{
+  "slug": "accounting-and-finance-basics",
+  "title": "Accounting and Finance Basics",
+  "shortSummary": "Read financial statements, understand costs, and speak the language of money. A marketer who cannot explain how their spend hits the P&L will never earn budget trust.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Reading P&L statements, understanding marketing budget mechanics, financial ratios, and communicating marketing value in financial terms is what separates marketers who get budget from those who beg for it.",
+  "coreConcepts": [
+    "Profit and Loss (P&L) statement structure",
+    "Balance sheet fundamentals (assets, liabilities, equity)",
+    "Cash flow statement and why cash flow kills companies",
+    "Marketing budget mechanics (CAPEX vs OPEX)",
+    "Key financial ratios (gross margin, ROI, ROAS, payback period)",
+    "Budget management (accruals, purchase orders, phasing)",
+    "Unit economics (CAC, LTV, contribution margin)",
+    "Financial modelling for marketing investment cases"
+  ],
+  "lessons": ["reading-the-financial-statements"],
+  "frameworks": ["kpi-cheat-sheet"],
+  "visualType": "diagram",
+  "relatedModules": ["budgeting-channel-allocation", "marketing-leadership"],
+  "status": "complete",
+  "order": 23,
+  "levelNumber": 1
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "future-state-and-modern-qualification",
+  "moduleSlug": "discovery-calls",
+  "title": "Future-State and Modern Qualification",
+  "objective": "Learn how future-state questioning and deeper qualification models like MEDDPICC, CHAMP, NEAT, and GPCTBA/C&I help you understand whether a deal is truly winnable.",
+  "beginnerExplanation": "Qualification is not only about confirming that a deal exists. It is also about understanding whether the buyer has a believable path from today's pain to a future outcome they care enough to buy for. That is why strong discovery combines future-state questioning with the right qualification model for the complexity of the deal.",
+  "deeperExplanation": "BANT and MEDDIC are important, but modern teams often need more options. MEDDPICC adds paper process and competition when enterprise friction matters. CHAMP starts with challenges and prioritisation, which can make early discovery feel more natural. NEAT focuses on economic impact and access to authority. GPCTBA/C&I is helpful when you need a broad operating map of goals, plans, challenges, timeline, budget, authority, consequences, and implications. The point is not to memorize every acronym. The point is to choose the model that best exposes deal reality.\n\nFuture-state questioning matters because buyers do not only buy away from pain. They buy toward a better outcome. When you ask what success looks like, what must change internally, and what the buyer wants six to twelve months from now, you build better demos, stronger business cases, and clearer next steps.",
+  "keyTakeaways": [
+    "Future-state questioning helps you understand what the buyer is trying to become, not only what they want to escape.",
+    "Different qualification models are useful in different deal contexts.",
+    "MEDDPICC is strongest when enterprise process, competition, and paper risk matter.",
+    "CHAMP and NEAT can feel more natural in earlier discovery than a rigid checklist.",
+    "A qualification model is useful only if it improves the quality of evidence you collect.",
+    "Choosing the wrong qualification model can make discovery either too shallow or too mechanical."
+  ],
+  "frameworks": [
+    "future-state-questioning",
+    "problem-amplification",
+    "meddpicc",
+    "champ",
+    "neat",
+    "gpctba-ci",
+    "anum",
+    "faint"
+  ],
+  "example": "A buyer says they are frustrated with manual quoting. A shallow rep stops there. A stronger rep asks, 'If this worked the way you wanted six months from now, what would be different for reps, managers, and customers?' Then they choose MEDDPICC because legal, procurement, and competition are already visible in the deal. That combination gives them both emotional direction and operational clarity.",
+  "commonMistakes": [
+    "Using every acronym at once instead of choosing the one that fits the deal",
+    "Treating future-state questions as fluffy vision talk with no business consequence",
+    "Collecting qualification labels without evidence behind them",
+    "Ignoring paper process until late stage in enterprise deals",
+    "Using a lightweight framework when the deal clearly has enterprise complexity"
+  ],
+  "exercise": "Take one active opportunity and answer two questions: what future state is the buyer trying to reach, and which qualification framework best fits this deal? Then list three gaps you still need to close.",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "What does future-state questioning add to discovery?",
+      "options": [
+        "It replaces pain discovery entirely",
+        "It clarifies the outcome the buyer wants to move toward",
+        "It shortens every sales cycle automatically",
+        "It is only useful in demos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Future-state questioning surfaces the buyer's desired outcome, not only current pain."
+    },
+    {
+      "question": "When is MEDDPICC especially useful?",
+      "options": [
+        "When a deal is highly transactional",
+        "When enterprise complexity, paper process, and competition matter",
+        "Only for inbound leads",
+        "Only after a contract is signed"
+      ],
+      "correctIndex": 1,
+      "explanation": "MEDDPICC is valuable when enterprise deal complexity needs stronger inspection."
+    },
+    {
+      "question": "How should a rep choose a qualification model?",
+      "options": [
+        "By copying whatever acronym their manager likes most",
+        "By selecting the model that best exposes the real risks in the deal",
+        "By using every framework every time",
+        "By avoiding qualification to keep discovery conversational"
+      ],
+      "correctIndex": 1,
+      "explanation": "The right framework is the one that helps you see the real evidence and risk profile of the opportunity."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should choose qualification frameworks intentionally, not out of habit.",
+    "manager": "Managers can coach framework choice by asking which model best matches the actual deal complexity.",
+    "vp": "A VP wants a common language for inspection, but also enough judgment that reps do not force one model onto every deal.",
+    "cro": "A CRO values qualification discipline because it improves prioritisation, forecast quality, and late-stage control."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "layering-questions-for-real-discovery",
+  "moduleSlug": "communication-fundamentals",
+  "title": "Layering Questions for Real Discovery",
+  "objective": "Learn how to combine Socratic, funnel, root-cause, and quantification questions so discovery feels natural while still getting to business truth.",
+  "beginnerExplanation": "Strong discovery is usually a sequence, not a magic question. You start broad so the buyer can explain their world, then narrow into process, friction, consequence, and numbers. That is what question layering does: it keeps the conversation comfortable while still moving toward commercial clarity.",
+  "deeperExplanation": "A practical questioning arc often starts with open-ended and funnel questions so the buyer can describe the current state. Then Socratic and diagnostic questions test assumptions and expose gaps in logic. Five Whys-style follow-up helps you move past symptoms to root cause, while quantification questions convert frustration into time, money, risk, or capacity impact. The quality of your layering determines whether discovery feels like advice or interrogation.\n\nThe main mistake is jumping too quickly to budget or product questions before the buyer has fully named the problem. When you slow down and layer properly, the buyer often gives you the qualification evidence without feeling cross-examined. That makes later positioning, pricing, and next steps much easier.",
+  "keyTakeaways": [
+    "Open-ended and funnel questions create room for the buyer to explain their world.",
+    "Socratic and diagnostic questions help the buyer examine assumptions instead of defending them.",
+    "Five Whys-style follow-up is useful for uncovering root cause, not just surface pain.",
+    "Quantification questions turn vague frustration into business impact.",
+    "Question layering works best when it feels conversational, not mechanical.",
+    "Better question design improves qualification, demos, and pricing conversations later."
+  ],
+  "frameworks": [
+    "socratic-questioning",
+    "funnel-questioning",
+    "five-whys",
+    "open-ended-questioning",
+    "diagnostic-questioning",
+    "quantification-questions"
+  ],
+  "example": "A buyer says forecast calls are painful. Instead of jumping to features, you layer: 'How does forecasting work today?' 'Where does it usually break down?' 'Why does that keep happening?' 'What does that miss do to hiring or spend decisions?' 'Roughly how many hours or dollars does that create each quarter?' By the end of the sequence, you have process, root cause, executive consequence, and measurable pain.",
+  "commonMistakes": [
+    "Asking smart-sounding questions in a random order",
+    "Stopping at the first problem statement instead of digging deeper",
+    "Using too many closed questions too early",
+    "Forgetting to quantify after the buyer describes pain",
+    "Sounding like a checklist instead of following the buyer's logic"
+  ],
+  "exercise": "Write a six-question sequence for one common problem in your market: one open question, one funnel question, one diagnostic question, one Five Whys follow-up, one implication question, and one quantification question.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What is the main job of a funnel question?",
+      "options": [
+        "To close the deal quickly",
+        "To move the conversation from broad context toward specific detail",
+        "To avoid qualification entirely",
+        "To replace open-ended questions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Funnel questions narrow the conversation so you can move from context to specifics."
+    },
+    {
+      "question": "Why are quantification questions important?",
+      "options": [
+        "They make the call feel more formal",
+        "They turn pain into business impact that can support urgency and value",
+        "They replace discovery",
+        "They should always be asked first"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quantification makes the problem commercially real."
+    },
+    {
+      "question": "What usually happens when question layering is weak?",
+      "options": [
+        "Discovery stays shallow and later deal stages feel fragile",
+        "The buyer always shares more detail",
+        "The demo becomes shorter automatically",
+        "Pricing objections disappear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weak layering produces thin discovery, which usually shows up as weak qualification and poor late-stage control."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should build question sequences by pain area, then adapt them live instead of reading them in order.",
+    "manager": "Managers can improve discovery quality quickly by coaching how reps layer follow-up questions after the first answer.",
+    "vp": "A VP wants question design to be teachable and repeatable across the team, because it drives qualification quality.",
+    "cro": "A CRO sees disciplined discovery as the foundation for better forecast quality and cleaner pipeline."
+  }
+}

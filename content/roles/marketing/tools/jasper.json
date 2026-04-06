@@ -1,0 +1,63 @@
+{
+  "slug": "jasper",
+  "name": "Jasper",
+  "category": "ai-automation",
+  "description": "An AI marketing platform specifically designed for marketing teams, with templates for ads, emails, social posts, and brand voice training.",
+  "whyUseIt": "Jasper is purpose-built for marketing, unlike general AI tools. It includes templates for every marketing format, can learn your brand voice, and integrates with your marketing workflow. Good for teams that need consistent, on-brand AI output.",
+  "pricingTier": "paid",
+  "aiCapabilities": "Brand voice training, marketing-specific templates (ads, emails, social), campaign brief generation, and team collaboration on AI-generated content.",
+  "alternatives": [
+    "ChatGPT",
+    "Copy.ai",
+    "Writer"
+  ],
+  "url": "https://www.jasper.ai",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Ad copy variations for paid campaigns",
+    "Email subject lines and body content",
+    "Social media post copy across platforms",
+    "Blog post drafts and outlines",
+    "Landing page headline and body copy",
+    "Product descriptions for e-commerce",
+    "Brand voice style guides"
+  ],
+  "marketerWorkflow": "A marketer using Jasper starts by setting up brand voice profiles and knowledge assets so all generated content matches the company's tone and terminology. They use campaign workflows to generate multiple content formats from a single brief \u2014 producing ad copy, email content, and social posts in one session. Each output is reviewed, edited for accuracy and nuance, then published through the team's normal distribution channels.",
+  "managerExpects": "A marketing manager expects Jasper to accelerate content production without sacrificing brand consistency or quality. They want to see that the team has configured brand voice properly, is using templates strategically rather than accepting raw AI output, and that content production timelines have measurably shortened. Output quality should be indistinguishable from human-written copy after editing.",
+  "aiWorkflowImpact": "Jasper's campaign workflow feature generates an entire content suite from a single marketing brief \u2014 ads, emails, social posts, and landing page copy \u2014 reducing what used to be a multi-day process to hours. Brand voice training means the AI starts closer to the final tone, cutting editing rounds in half. Knowledge base integration lets Jasper reference product documentation and past campaigns, producing more accurate and contextually relevant content than generic AI tools.",
+  "demoDescription": "Sign up for a Jasper free trial and create a brand voice profile by pasting in three examples of your best-performing content. Then use the Campaign Brief template to describe a product launch, and let Jasper generate ad copy, an email, and three social posts. Compare the AI output against your brand voice examples and note where editing is needed \u2014 this teaches you the review-and-refine workflow essential to AI content tools.",
+  "vocabulary": [
+    {
+      "term": "Brand Voice",
+      "definition": "A trained AI profile in Jasper that captures your company's tone, style, and terminology so generated content sounds consistent."
+    },
+    {
+      "term": "Template",
+      "definition": "A pre-built content format in Jasper (e.g., Facebook Ad, Product Description, Email Subject Line) with structured input fields and optimised prompts."
+    },
+    {
+      "term": "Campaign workflow",
+      "definition": "A Jasper feature that generates multiple content formats from a single marketing brief, producing coordinated copy for an entire campaign."
+    },
+    {
+      "term": "Knowledge base",
+      "definition": "Uploaded company documents and information that Jasper references when generating content, ensuring factual accuracy about your products and brand."
+    },
+    {
+      "term": "Content score",
+      "definition": "Jasper's SEO scoring feature that analyses draft content against target keywords and suggests improvements for search ranking potential."
+    },
+    {
+      "term": "AI hallucination",
+      "definition": "When AI generates plausible-sounding but factually incorrect information \u2014 the primary reason human review of all AI output is mandatory."
+    }
+  ],
+  "beginnerMistakes": [
+    "Publishing AI-generated content without thorough human review, risking factual errors, brand inconsistencies, and generic-sounding copy",
+    "Not setting up brand voice profiles before generating content, resulting in output that sounds generic rather than on-brand",
+    "Using Jasper as a replacement for strategic thinking rather than as an accelerator \u2014 AI generates copy, humans provide strategy and direction",
+    "Accepting the first AI output instead of generating multiple variations and selecting or combining the best elements",
+    "Failing to upload product documentation and company knowledge, which forces Jasper to guess at details it could otherwise get right"
+  ],
+  "relatedProject": "seo-content-strategy"
+}

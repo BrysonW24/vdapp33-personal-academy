@@ -1,0 +1,71 @@
+{
+  "slug": "aligning-the-revenue-engine",
+  "moduleSlug": "revenue-operations",
+  "title": "Aligning the Revenue Engine",
+  "objective": "Learn how marketing, sales, and customer success connect operationally so revenue becomes more predictable across the full customer lifecycle.",
+  "beginnerExplanation": "Revenue operations exists because customers do not experience your company in silos. They experience one journey: awareness, evaluation, purchase, onboarding, expansion, and renewal. When marketing, sales, and customer success all measure and work differently, friction appears at the handoffs. RevOps is the discipline of reducing that friction.",
+  "deeperExplanation": "At a practical level, RevOps creates shared definitions, shared processes, and shared visibility. Shared definitions mean the team agrees on what counts as an MQL, SQL, qualified opportunity, commit deal, churn risk, and expansion signal. Shared processes mean handoffs are not random. Shared visibility means leadership can see the engine as one system instead of three disconnected reports.\n\nThe commercial benefit is predictability. When lead response is clear, qualification is consistent, forecast categories are credible, and customer health signals are visible, leadership can make better decisions earlier. That does not mean every team uses the same metrics. It means the metrics connect.\n\nFor sellers, RevOps matters because it changes how much friction exists around you. Better routing, cleaner data, faster handoffs, tighter forecasting, and clearer expansion signals all make selling easier and more strategic.",
+  "keyTakeaways": [
+    "RevOps aligns the revenue journey across marketing, sales, and customer success.",
+    "Shared definitions reduce confusion at critical handoff points.",
+    "Shared visibility helps leadership see where the engine is leaking.",
+    "Predictability improves when processes and metrics connect cleanly.",
+    "RevOps is not only a systems function - it changes how effectively sellers can operate.",
+    "The goal is one coordinated revenue engine, not three local optimisations."
+  ],
+  "frameworks": [
+    "sales-velocity",
+    "forecast-methodology"
+  ],
+  "example": "Marketing is sending leads that sales says are weak, sales is forecasting based on loose stage criteria, and customer success only learns about risk after a renewal slips. RevOps steps in to tighten scoring definitions, clean up stage exits, and connect health data earlier. The result is faster response, cleaner pipeline, and more visible expansion timing.",
+  "commonMistakes": [
+    "Optimising one function while making the handoff worse for the next one",
+    "Using different definitions for the same lifecycle stage",
+    "Treating data clean-up as separate from commercial performance",
+    "Assuming RevOps only matters to operations teams",
+    "Measuring each department well but the customer journey poorly"
+  ],
+  "exercise": "Map one revenue handoff in your business - for example MQL to sales, closed won to onboarding, or health risk to expansion. List the definition, owner, SLA, and the top two ways the handoff breaks today.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main purpose of RevOps?",
+      "options": [
+        "To replace sales leadership",
+        "To align definitions, processes, and visibility across the revenue journey",
+        "To make every team use the same dashboard only",
+        "To reduce headcount"
+      ],
+      "correctIndex": 1,
+      "explanation": "RevOps exists to make the whole revenue engine work together more predictably."
+    },
+    {
+      "question": "Why do shared definitions matter?",
+      "options": [
+        "Because they make reporting more decorative",
+        "Because they reduce confusion at handoffs and improve accountability",
+        "Because only finance needs them",
+        "Because they eliminate all disagreement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shared definitions create cleaner process handoffs and better operating visibility."
+    },
+    {
+      "question": "How does good RevOps help sellers directly?",
+      "options": [
+        "By giving them less information",
+        "By reducing friction through cleaner routing, better data, and clearer handoffs",
+        "By replacing discovery calls",
+        "By removing the need for forecasting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Good RevOps removes operational drag and helps reps spend more time on real selling."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs feel RevOps most clearly in cleaner routing, better CRM discipline, and smoother expansion visibility.",
+    "manager": "Managers benefit when definitions and handoffs make forecast reviews and coaching more reliable.",
+    "vp": "A VP needs RevOps to turn local execution into company-wide predictability.",
+    "cro": "A CRO sees RevOps as the operating system of the revenue engine."
+  }
+}

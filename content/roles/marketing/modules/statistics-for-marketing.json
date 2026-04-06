@@ -1,0 +1,24 @@
+{
+  "slug": "statistics-for-marketing",
+  "title": "Statistics for Marketing",
+  "shortSummary": "The quantitative foundation for every data-driven marketing decision — from understanding averages to knowing when an A/B test result is real.",
+  "level": "beginner",
+  "category": "analytics",
+  "whyItMatters": "Descriptive statistics, statistical significance, correlation vs causation, sample sizes, and regression analysis are the maths behind marketing decisions. Without this foundation, marketers mistake noise for signal.",
+  "coreConcepts": [
+    "Descriptive statistics (mean, median, mode, standard deviation)",
+    "Statistical significance and p-values",
+    "Confidence intervals and why they matter",
+    "Correlation vs causation (critical for attribution)",
+    "Sample size and bias",
+    "Regression analysis (how variables influence outcomes)",
+    "Bayesian thinking for marketing decisions"
+  ],
+  "lessons": ["statistics-that-matter"],
+  "frameworks": ["ab-testing-framework"],
+  "visualType": "diagram",
+  "relatedModules": ["testing-experimentation", "analytics-attribution-kpis"],
+  "status": "complete",
+  "order": 26,
+  "levelNumber": 1
+}

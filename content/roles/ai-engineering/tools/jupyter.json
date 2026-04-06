@@ -1,0 +1,42 @@
+{
+  "slug": "jupyter",
+  "name": "Jupyter Notebooks",
+  "category": "developer-tooling",
+  "description": "Interactive computing environment where you write code, run it, and see results inline — including visualisations, tables, and text. The standard tool for AI experimentation, data exploration, and sharing results.",
+  "whyUseIt": "Jupyter is where AI engineers explore data, prototype models, and share findings. The ability to run code cell-by-cell, see outputs immediately, and mix code with documentation makes it perfect for the iterative, experimental nature of AI work.",
+  "pricingTier": "free",
+  "url": "https://jupyter.org",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/jupyter.svg",
+  "aiCapabilities": "Jupyter integrates with every Python AI library. Rich display of DataFrames, plots, images, and even interactive widgets. JupyterLab adds a full IDE experience.",
+  "alternatives": [
+    "Google Colab",
+    "VS Code Notebooks",
+    "Databricks Notebooks"
+  ],
+  "funnelPosition": "Exploration and prototyping",
+  "outputs": [
+    "Interactive notebooks with code and results",
+    "Data visualisations",
+    "Model training experiments",
+    "Shareable reports"
+  ],
+  "engineerWorkflow": "An AI engineer opens Jupyter for exploration: loading a new dataset, visualising distributions, testing feature engineering ideas, training quick model prototypes. Once the approach is validated, they extract the working code into proper Python modules.",
+  "managerExpects": "You use notebooks for exploration and prototyping, not for production code. Shared notebooks should be clean: clear markdown headers, no dead code cells, results that run top-to-bottom without errors.",
+  "vocabulary": [
+    {
+      "term": "Kernel",
+      "definition": "The computational engine that executes code in a notebook. Typically a Python process, but can be R, Julia, or other languages."
+    },
+    {
+      "term": "Cell",
+      "definition": "A single block of code or markdown text in a notebook. Code cells can be run independently and show their output below."
+    }
+  ],
+  "beginnerMistakes": [
+    "Running cells out of order, creating hidden state that makes notebooks unreproducible",
+    "Using notebooks for production code instead of extracting into proper Python modules",
+    "Not restarting the kernel and running all cells before sharing — ensuring the notebook works top-to-bottom",
+    "Committing notebooks with large outputs (images, DataFrames) to git, bloating the repository"
+  ],
+  "relatedProject": "sentiment-analyzer"
+}

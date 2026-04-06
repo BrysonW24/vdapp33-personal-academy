@@ -1,0 +1,15 @@
+{
+  "slug": "langchain",
+  "name": "LangChain",
+  "category": "framework",
+  "description": "A framework for building LLM-powered applications. Provides abstractions for chains, agents, memory, retrieval, and tool use.",
+  "whyUseIt": "LangChain accelerates LLM app development with ready-made components for RAG, agents, chatbots, and workflows. Its integrations cover 700+ tools and services.",
+  "pricingTier": "free",
+  "url": "https://langchain.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/langchain.svg",
+  "alternatives": [
+    "LlamaIndex",
+    "Haystack",
+    "Semantic Kernel"
+  ]
+}

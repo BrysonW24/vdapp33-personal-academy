@@ -1,0 +1,72 @@
+{
+  "slug": "cold-calling-that-earns-conversations",
+  "moduleSlug": "outbound-outreach",
+  "title": "Cold Calling That Earns Conversations",
+  "objective": "Learn how to open cold calls cleanly, earn permission to continue, handle early pushback, and create real meetings without sounding scripted.",
+  "beginnerExplanation": "Cold calling feels hard because it compresses a lot into a few seconds. The buyer did not expect you. They are busy. They are judging whether you are relevant almost immediately. The goal of a cold call is not to pitch the whole product. It is to earn enough interest and credibility to continue the conversation. Usually that means a short opener, a reason for the call, one relevant observation or hypothesis, and a question that makes the buyer think.",
+  "deeperExplanation": "A useful cold call structure has five beats. First, pattern interrupt: be direct that the call is unexpected. Second, reason: why you chose them specifically. Third, relevance: what issue you believe may matter. Fourth, question: invite them to react. Fifth, branch: if interest appears, continue; if not, ask a short clarifying question or close politely.\n\nThe opening matters because it sets the tone. Long introductions sound like danger. Short, calm, adult language sounds safer. Something like, 'Hi Sarah, this is Alex from Northstar Cloud. I know I am calling you out of the blue. Can I take 30 seconds to tell you why I called, and then you can decide if it is worth continuing?' works because it is honest and low pressure.\n\nExpect resistance. 'Send me an email' is not always rejection; often it is a reflex. The skill is to respond without sounding defensive. 'Happy to. So I send something relevant, can I ask one quick question?' That keeps the conversation alive and often earns a better next step than a blind email.",
+  "keyTakeaways": [
+    "The goal of a cold call is to start a real conversation, not deliver a full pitch.",
+    "Short, direct openers outperform long introductions.",
+    "Permission-based language lowers resistance and buys attention.",
+    "A relevant question is more powerful than a product monologue.",
+    "Early pushback is normal and should be handled calmly, not emotionally.",
+    "Cold calling improves fastest when you review real call outcomes and iterate."
+  ],
+  "frameworks": [
+    "sandler-selling",
+    "challenger-sale"
+  ],
+  "example": "You sell security automation software to IT leaders. A practical opener might be: 'Hi James, this is Priya from Northstar Cloud. I know I have caught you cold. We work with security teams that are drowning in manual access reviews after SOC 2 and customer audit requests. I noticed your team is hiring in governance and risk right now. Can I ask how much of that process is still manual today?' That opener is short, specific, and invites a business answer instead of forcing a product discussion.",
+  "commonMistakes": [
+    "Explaining your company before giving the buyer a reason to care",
+    "Reading a script so tightly that you stop sounding human",
+    "Trying to overcome every objection instead of staying curious",
+    "Treating 'send me an email' as the end of the conversation every time",
+    "Making cold calls without tracking which openers and questions actually work"
+  ],
+  "exercise": "Write three cold call openers for one persona in your market. Each should include a direct opener, a specific reason for the call, and one question. Practise them until you can deliver them without reading, then shorten each by 20 percent.",
+  "nextLesson": "writing-outreach-that-earns-replies",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "What is the main goal of the first 30 seconds of a cold call?",
+      "options": [
+        "To explain the full product",
+        "To create enough relevance and permission to continue",
+        "To ask for pricing approval",
+        "To overcome every objection immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first job is to earn the right to continue, not to close the deal on the spot."
+    },
+    {
+      "question": "Why do permission-based openers work well?",
+      "options": [
+        "They make the caller sound uncertain",
+        "They reduce pressure and acknowledge the reality of the interruption",
+        "They let you avoid being specific",
+        "They only work in inbound calls"
+      ],
+      "correctIndex": 1,
+      "explanation": "Permission-based language lowers the buyer's guard because it is honest and respectful."
+    },
+    {
+      "question": "How should you treat 'send me an email' early in a call?",
+      "options": [
+        "As a guaranteed meeting",
+        "As a reason to argue",
+        "As a reflex you can often explore with one smart question",
+        "As proof cold calling does not work"
+      ],
+      "correctIndex": 2,
+      "explanation": "It is often a default response, not a final answer. One clarifying question can reopen the conversation."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should treat cold calling as a skill with patterns, not a personality test. Calm repetition beats hype.",
+    "manager": "Managers can improve call performance quickly by coaching openings, first questions, and pushback handling from real recordings.",
+    "vp": "A VP wants a team-level calling playbook that keeps language consistent while still allowing reps to sound natural.",
+    "cro": "A CRO values cold calling because it creates pipeline control and reduces overdependence on one channel."
+  }
+}

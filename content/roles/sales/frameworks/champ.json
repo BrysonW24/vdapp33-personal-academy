@@ -1,0 +1,13 @@
+{
+  "slug": "champ",
+  "name": "CHAMP",
+  "summary": "A qualification framework that focuses on Challenges, Authority, Money, and Prioritisation so the rep starts with the problem instead of the budget line item.",
+  "whenToUseIt": "Use CHAMP in early to mid-stage discovery when you want a qualification model that feels more problem-led and natural than a strict budget-first checklist.",
+  "steps": [
+    "Clarify the buyer's challenge and why it matters now.",
+    "Map who has authority or influence over the decision.",
+    "Understand money and prioritisation so the issue is not only real but likely to be funded."
+  ],
+  "example": "A sales leader admits manager coaching is inconsistent across regions. CHAMP helps the rep understand the challenge first, then who decides, whether budget exists, and whether this initiative can beat other revenue priorities this quarter.",
+  "category": "qualification"
+}

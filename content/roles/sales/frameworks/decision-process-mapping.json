@@ -1,0 +1,13 @@
+{
+  "slug": "decision-process-mapping",
+  "name": "Decision Process Mapping",
+  "summary": "A technique for understanding how a buying decision actually gets approved, not just how the buyer says they think it works.",
+  "whenToUseIt": "Use decision process mapping in any deal that has several steps, reviewers, or approvals, and especially before the opportunity reaches proposal or procurement.",
+  "steps": [
+    "Ask how a purchase like this typically gets reviewed and approved.",
+    "Map the sequence of evaluation, sign-off, legal, procurement, and executive steps.",
+    "Use that map to test timing assumptions and uncover hidden blockers early."
+  ],
+  "example": "A buyer says the team wants to move quickly. Process mapping reveals that IT review, security review, procurement, and CFO approval still sit between interest and signature.",
+  "category": "enterprise-deal-execution"
+}

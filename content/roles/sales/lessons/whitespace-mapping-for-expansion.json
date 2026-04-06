@@ -1,0 +1,73 @@
+{
+  "slug": "whitespace-mapping-for-expansion",
+  "moduleSlug": "account-management",
+  "title": "Whitespace Mapping for Expansion",
+  "objective": "Learn how to find expansion paths inside existing customers by mapping teams, use cases, and unmet value across the account.",
+  "beginnerExplanation": "Whitespace means the parts of the account you are not yet serving. That could be other business units, other regions, other user groups, or additional use cases within the same team. Expansion does not happen just because the customer likes you. It happens because you can identify where more value still exists and build a credible plan to capture it.",
+  "deeperExplanation": "Whitespace mapping starts with the current footprint. What teams use the product today? For what use cases? At what level of maturity? Then compare that footprint to the account's broader structure. Which adjacent teams share similar pains? Which executives own priorities your product could support? Which workflows are still being handled manually or by another tool?\n\nGood expansion work also respects timing. Just because a use case exists does not mean the account is ready now. The best reps match whitespace to trigger events such as new leadership, new initiatives, regional rollout, renewal windows, or proof of value from the first deployment.\n\nThis is why expansion feels strategic. You are not just upselling harder. You are mapping where additional business value can be created next and aligning that with account timing and sponsorship.",
+  "keyTakeaways": [
+    "Whitespace is the value inside the account you are not serving yet.",
+    "Start with current footprint before jumping to expansion ideas.",
+    "Expansion works best when adjacent teams share similar pains or goals.",
+    "Timing matters as much in expansion as it does in net-new sales.",
+    "Whitespace mapping turns account growth from guesswork into strategy.",
+    "Proof from the first deployment is often the strongest expansion lever."
+  ],
+  "frameworks": [
+    "account-planning-canvas",
+    "value-selling",
+    "meddic"
+  ],
+  "example": "Your platform is used today by the EMEA support team. Usage data and QBR feedback show strong results on case handling speed. Whitespace mapping reveals that the North America team runs a similar process on a different tool, and the customer success organisation has a related workflow still managed in spreadsheets. That gives you two credible expansion paths - regional and functional - both backed by proof from the existing deployment.",
+  "commonMistakes": [
+    "Jumping to expansion ideas without understanding the current footprint deeply",
+    "Trying to sell every adjacent team at once",
+    "Ignoring whether the original deployment has actually earned credibility yet",
+    "Treating expansion as entitlement because the customer is happy",
+    "Forgetting to map who owns budget and sponsorship in the adjacent area"
+  ],
+  "exercise": "Choose one existing account and draw a simple matrix: current users, adjacent teams, possible use cases, likely sponsor, and likely trigger. Then rank the top two whitespace opportunities by timing and value.",
+  "nextLesson": "mutual-success-plans-and-expansion-rhythm",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What does whitespace mean in account management?",
+      "options": [
+        "Unused CRM fields",
+        "Unserved teams, regions, or use cases inside an account",
+        "The period between meetings",
+        "A renewal notice"
+      ],
+      "correctIndex": 1,
+      "explanation": "Whitespace refers to the value and footprint inside the account you have not captured yet."
+    },
+    {
+      "question": "What should usually come first in whitespace mapping?",
+      "options": [
+        "A discount plan",
+        "Understanding the current footprint and outcomes",
+        "A product roadmap review",
+        "A procurement call"
+      ],
+      "correctIndex": 1,
+      "explanation": "You need to know what is already deployed and what value it is creating before planning expansion."
+    },
+    {
+      "question": "Why is timing important in expansion?",
+      "options": [
+        "Because every happy customer is ready immediately",
+        "Because an opportunity may be real but not yet tied to a buying moment",
+        "Because whitespace only matters at renewal",
+        "Because expansion does not need sponsorship"
+      ],
+      "correctIndex": 1,
+      "explanation": "Expansion needs both fit and timing, just like net-new sales."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should treat whitespace mapping like strategic prospecting inside accounts they already know.",
+    "manager": "Managers can raise expansion quality by forcing the team to map footprint, sponsor, and timing clearly.",
+    "vp": "A VP wants expansion to come from repeatable account strategy, not random opportunism.",
+    "cro": "A CRO sees whitespace discipline as one of the cleanest paths to higher NRR."
+  }
+}

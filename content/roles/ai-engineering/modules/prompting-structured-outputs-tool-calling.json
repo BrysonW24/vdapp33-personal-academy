@@ -1,0 +1,31 @@
+{
+  "slug": "prompting-structured-outputs-tool-calling",
+  "title": "Prompting, Structured Outputs, and Tool Calling",
+  "shortSummary": "Design prompts that are testable, typed, and operationally useful instead of vague chat instructions.",
+  "track": "core-frontier",
+  "level": "intermediate",
+  "category": "llm-systems",
+  "whyItMatters": "Frontier teams care far less about clever prompt hacks than about reproducible prompting patterns, typed outputs, and safe tool invocation. This is the bridge from toy prompt work to product-grade behavior.",
+  "coreConcepts": [
+    "Prompt scaffolds for classification, extraction, and planning",
+    "JSON schemas and contract-first model outputs",
+    "Tool selection, arguments, retries, and approval boundaries",
+    "Failure handling for malformed or partial responses",
+    "Prompt iteration with evals instead of vibes"
+  ],
+  "lessons": [
+    "prompting-structured-outputs"
+  ],
+  "frameworks": [
+    "prompt-engineering-patterns",
+    "llm-application-stack"
+  ],
+  "relatedModules": [
+    "model-evaluation",
+    "ai-agents",
+    "ai-product-engineering"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

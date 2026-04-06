@@ -1,0 +1,17 @@
+{
+  "slug": "prompt-engineering-patterns",
+  "name": "Prompt Engineering Patterns",
+  "summary": "A collection of proven prompting techniques that reliably improve LLM output quality. These patterns work across all major LLMs (Claude, GPT-4, Gemini) and are the core toolkit of any AI engineer building LLM applications.",
+  "whenToUseIt": "Use these patterns whenever you are designing prompts for LLM applications. Start with the simplest pattern that works, and layer on more sophisticated techniques only when needed. Most production LLM applications use 2-3 of these patterns in combination.",
+  "steps": [
+    "System Prompt — Define the model's role, rules, and output format upfront. Be specific: 'You are a customer support agent for AcmeCo. Only answer questions about our products. Respond in Australian English. Return JSON.'",
+    "Few-Shot Examples — Include 2-5 examples of ideal input/output pairs. The model learns the pattern from examples more reliably than from abstract instructions.",
+    "Chain-of-Thought (CoT) — Ask the model to think step-by-step before giving its final answer. This dramatically improves accuracy on reasoning, maths, and multi-step problems.",
+    "Output Formatting — Specify the exact format: JSON schema, markdown structure, or structured text. Use XML tags or delimiters to separate sections.",
+    "Role Prompting — Assign the model a specific expert role: 'You are a senior Python developer with 10 years of experience.' This biases outputs toward expertise-appropriate responses.",
+    "Constraint Setting — Explicitly state what the model should NOT do: 'Do not make up information. If you do not know the answer, say so. Do not use jargon without explaining it.'",
+    "Retrieval Augmentation — Include relevant context from your database in the prompt. Prefix with clear labels: 'CONTEXT: [retrieved documents]. QUESTION: [user query]. Answer based only on the provided context.'"
+  ],
+  "example": "Building a product description generator for an Australian e-commerce store. System prompt: 'You are a copywriter for an Australian fashion retailer. Write product descriptions in a warm, conversational tone. Use Australian English. Keep descriptions under 150 words.' Few-shot: include 3 examples of product images and their ideal descriptions. Output format: 'Return JSON with fields: headline (under 10 words), description (under 150 words), key_features (array of 3-5 bullet points).' Constraints: 'Do not mention competitor brands. Do not invent features not visible in the image.'",
+  "category": "llm-engineering"
+}

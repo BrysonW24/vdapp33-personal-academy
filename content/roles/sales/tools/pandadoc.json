@@ -1,0 +1,27 @@
+{
+  "slug": "pandadoc",
+  "name": "PandaDoc",
+  "category": "web-platforms",
+  "description": "A document automation platform for creating, sending, tracking, and e-signing proposals, quotes, and contracts. PandaDoc streamlines the proposal-to-close process with templates, content libraries, and built-in analytics.",
+  "whyUseIt": "The proposal and contract phase is where deals go to die. Slow proposal turnaround, manual quote building, and cumbersome signing processes add unnecessary friction. PandaDoc lets you build professional proposals from templates in minutes, send them with a click, track when the buyer opens and reads them, and collect e-signatures — all in one tool. It can cut your proposal-to-close time in half.",
+  "pricingTier": "paid",
+  "url": "https://www.pandadoc.com",
+  "logoUrl": "/tools/pandadoc.svg",
+  "aiCapabilities": "PandaDoc AI assists with document creation from templates, suggests content based on deal context, and auto-populates proposal fields from CRM data.",
+  "alternatives": ["docusign", "qwilr"],
+  "funnelPosition": "Bottom of funnel — proposal creation, quoting, contract management, and e-signatures",
+  "outputs": ["Proposals", "Quotes", "Contracts", "E-signatures", "Document analytics"],
+  "sellerWorkflow": "AEs select a proposal template, customise it with deal-specific content and pricing, add approval workflows if needed, send to the buyer, and monitor viewing analytics. When the buyer is ready, they sign electronically within the document.",
+  "managerExpects": "Proposals sent within 24 hours of verbal agreement to send. Document analytics monitored — if a buyer opens the proposal 5 times without signing, that's a signal to follow up. Standard templates used to maintain brand consistency.",
+  "demoDescription": "Create a proposal from a template, add pricing tables with options, send to a buyer, view the analytics showing which pages they read and how long they spent, and process the e-signature.",
+  "vocabulary": [
+    { "term": "Content Library", "definition": "A shared repository of pre-approved content blocks (case studies, pricing tables, terms) that can be dragged into any document." },
+    { "term": "Document Analytics", "definition": "Data showing when the recipient opened the document, how long they spent on each page, and whether they forwarded it to anyone." }
+  ],
+  "beginnerMistakes": [
+    "Not monitoring document analytics — if the buyer hasn't opened your proposal after 3 days, follow up",
+    "Building proposals from scratch instead of using templates — wastes time and risks inconsistency",
+    "Sending proposals before getting verbal alignment on scope and pricing — the proposal should confirm, not surprise"
+  ],
+  "relatedProject": "proposal-writing"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "hootsuite",
+  "name": "Hootsuite",
+  "category": "social-media",
+  "description": "A social media management platform for scheduling posts, monitoring conversations, and measuring performance across multiple social networks from one dashboard.",
+  "whyUseIt": "Managing multiple social accounts manually is unsustainable. Hootsuite lets you schedule content in advance, track brand mentions, and report on performance \u2014 all in one place.",
+  "pricingTier": "paid",
+  "aiCapabilities": "AI caption writer, best time to post recommendations, and automated social listening alerts.",
+  "alternatives": [
+    "Buffer",
+    "Sprout Social",
+    "Later"
+  ],
+  "url": "https://www.hootsuite.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hootsuite.svg",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Scheduled social media posts across multiple platforms",
+    "Social listening reports tracking brand mentions and sentiment",
+    "Monthly social media performance reports with engagement metrics",
+    "Content calendars with planned and published post timelines",
+    "Competitor benchmarking reports",
+    "Team collaboration streams for approvals and responses",
+    "Custom analytics dashboards for stakeholder reporting"
+  ],
+  "marketerWorkflow": "A marketer uses Hootsuite to batch-schedule a week or month of social content in one sitting, using the content calendar to visualise the posting cadence across Instagram, LinkedIn, X, and Facebook. They check the streams view daily to respond to comments, monitor brand mentions, and engage with industry conversations. Weekly, they pull performance reports to identify top-performing content and adjust the upcoming schedule based on what's resonating.",
+  "managerExpects": "A marketing manager expects to see a consistently populated content calendar with no gaps, engagement metrics trending upward or at least benchmarked against industry averages, and social listening insights fed back into the broader marketing strategy. They want monthly reports showing reach, engagement rate, follower growth, and content mix \u2014 not just vanity metrics but evidence that social is driving awareness or traffic.",
+  "aiWorkflowImpact": "In 2025, Hootsuite's OwlyWriter AI generates platform-specific captions and hashtag sets from a single content brief, cutting content creation time significantly. The AI analyses your historical engagement data to recommend optimal posting times per platform and audience segment. Social listening AI automatically categorises mentions by sentiment and urgency, surfacing potential brand crises before they escalate.",
+  "demoDescription": "Sign up for Hootsuite's free trial and connect one or two social accounts. Schedule five posts across the next week using the content calendar \u2014 try writing the same message adapted for two different platforms. Set up a social listening stream for your brand name or a competitor, and monitor it for 48 hours to see what conversations surface.",
+  "vocabulary": [
+    {
+      "term": "Social listening",
+      "definition": "Monitoring social media platforms for mentions of your brand, competitors, or industry keywords to track sentiment and spot trends."
+    },
+    {
+      "term": "Engagement rate",
+      "definition": "The percentage of your audience that interacts with your content (likes, comments, shares, saves) relative to total reach or followers."
+    },
+    {
+      "term": "Content calendar",
+      "definition": "A visual schedule showing what content will be published, when, and on which platforms \u2014 the backbone of organised social media management."
+    },
+    {
+      "term": "Streams",
+      "definition": "Real-time feeds within Hootsuite that display mentions, keywords, hashtags, or specific account activity for monitoring."
+    },
+    {
+      "term": "Best time to post",
+      "definition": "The optimal days and hours to publish content based on when your specific audience is most active and likely to engage."
+    },
+    {
+      "term": "Bulk scheduling",
+      "definition": "Uploading and scheduling multiple posts at once via CSV or spreadsheet, enabling efficient content planning at scale."
+    }
+  ],
+  "beginnerMistakes": [
+    "Scheduling the same identical post across all platforms instead of adapting the message, format, and tone for each network's audience",
+    "Scheduling content and then never checking back for comments or replies, missing engagement opportunities",
+    "Focusing only on follower count and likes instead of tracking meaningful engagement and click-through metrics",
+    "Posting at random times instead of using analytics to determine when the target audience is most active",
+    "Never using social listening features, missing valuable conversations about the brand or industry happening in real time"
+  ],
+  "relatedProject": "social-media-calendar"
+}

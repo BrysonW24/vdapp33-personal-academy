@@ -34,7 +34,11 @@ export default async function RoleLessonPage({
     <LessonTemplate
       lesson={lesson}
       module={roleModule}
-      progressSubjectSlug={lesson.sourceMeta?.sourceSlug}
+      progressSubjectSlug={
+        lesson.sourceMeta?.sourceKind === "subject"
+          ? lesson.sourceMeta.sourceSlug
+          : undefined
+      }
       basePath={`/roles/${slug}/modules`}
       toolkitHref={`/roles/${slug}/toolkit`}
       breadcrumbs={[

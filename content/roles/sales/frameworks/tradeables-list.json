@@ -1,0 +1,13 @@
+{
+  "slug": "tradeables-list",
+  "name": "Tradeables List",
+  "summary": "A negotiation prep tool that lists what the seller can flex on, what each item costs, and what should be asked for in return.",
+  "whenToUseIt": "Use a tradeables list before late-stage commercial conversations so you know which levers are available beyond discount and which require escalation.",
+  "steps": [
+    "List the variables that can move, such as term length, payment structure, support, services, or rollout scope.",
+    "Rank those variables by business cost and strategic importance.",
+    "Define the return you would need if one of those levers is used."
+  ],
+  "example": "The rep knows that payment terms and onboarding timing are more flexible than discount, so the negotiation begins with those levers instead of collapsing price first.",
+  "category": "negotiation"
+}

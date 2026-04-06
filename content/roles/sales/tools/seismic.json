@@ -1,0 +1,27 @@
+{
+  "slug": "seismic",
+  "name": "Seismic",
+  "category": "project-management",
+  "description": "An enterprise sales enablement and content management platform. Seismic automates content personalisation, provides guided selling workflows, and delivers training and coaching tools — making it one of the most comprehensive enablement platforms on the market.",
+  "whyUseIt": "Seismic goes beyond basic content management. It automatically personalises content based on the buyer's industry, company size, and role. A case study deck shown to a CFO is automatically tailored differently from one shown to a CTO. For large sales organisations, this personalisation at scale is a significant competitive advantage.",
+  "pricingTier": "enterprise",
+  "url": "https://seismic.com",
+  "logoUrl": "/tools/seismic.svg",
+  "aiCapabilities": "Seismic's AI personalises content dynamically based on buyer context, recommends next-best content actions, provides coaching insights from conversation analysis, and generates content variations for different personas.",
+  "alternatives": ["highspot", "showpad"],
+  "funnelPosition": "Full funnel — content management, personalisation, training, and coaching",
+  "outputs": ["Personalised content", "Guided selling paths", "Training modules", "Coaching insights", "Content engagement analytics"],
+  "sellerWorkflow": "Reps select a content template and Seismic automatically personalises it for the target buyer. Guided selling paths suggest what content to share at each deal stage. Managers use Seismic's coaching tools to review rep performance and assign training modules.",
+  "managerExpects": "Reps following guided selling paths, sharing personalised content at each stage, completing assigned training modules, and leveraging Seismic's coaching insights for self-improvement.",
+  "demoDescription": "Select a proposal template and watch it auto-personalise for an enterprise buyer, follow a guided selling path for a mid-market deal, review coaching insights, and assign training to a team member.",
+  "vocabulary": [
+    { "term": "LiveDocs", "definition": "Seismic's dynamic documents that automatically personalise content (stats, case studies, logos) based on CRM data and buyer context." },
+    { "term": "Guided Selling", "definition": "Step-by-step workflows that recommend what to say, share, and do at each stage of the sales process." }
+  ],
+  "beginnerMistakes": [
+    "Skipping the personalisation step — sending generic content when Seismic can auto-tailor it",
+    "Not completing assigned training modules — enablement only works if you engage with it",
+    "Ignoring guided selling recommendations — they're based on what works for top performers"
+  ],
+  "relatedProject": "demo-deck"
+}

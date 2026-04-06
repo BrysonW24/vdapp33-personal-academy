@@ -1,0 +1,71 @@
+{
+  "slug": "cleaning-your-pipeline",
+  "moduleSlug": "pipeline-management",
+  "title": "Cleaning Your Pipeline and Killing Zombies",
+  "objective": "Learn how to remove fake opportunities, keep CRM reality aligned with deal reality, and free your time for deals that can actually close.",
+  "beginnerExplanation": "A zombie deal is an opportunity that looks alive in the CRM but has quietly stopped moving in the real world. It may still have a close date, a stage, and a big value, but nothing meaningful is happening. Zombie deals feel comforting because they make the pipeline look fuller. In practice, they steal attention, distort the forecast, and stop you from prospecting hard enough.",
+  "deeperExplanation": "The cleanest way to manage pipeline hygiene is to define red flags. No next step. No recent buyer engagement. No multi-threading. No economic path. No reason the close date still makes sense. Any one of those may be recoverable. Several together usually mean the deal is stale.\n\nPipeline cleaning is not pessimism. It is portfolio management. By removing dead weight, you see the true coverage gap and can act earlier. Most reps dislike this because deleting deals feels like admitting failure. But carrying false pipeline is worse because it creates fake confidence.\n\nThe best teams also use stage exit criteria. A deal does not advance because the rep wants it to. It advances because the required evidence for that stage exists. That is what keeps the CRM useful instead of decorative.",
+  "keyTakeaways": [
+    "Zombie deals create false confidence and waste time.",
+    "Pipeline hygiene is portfolio management, not negativity.",
+    "Clear red flags help you spot stale opportunities quickly.",
+    "Stage movement should be evidence-based, not rep-driven.",
+    "A smaller but cleaner pipeline is usually healthier than a bloated one.",
+    "Cleaning the pipeline earlier gives you more time to create real coverage."
+  ],
+  "frameworks": [
+    "forecast-methodology",
+    "meddic"
+  ],
+  "example": "A $120K opportunity has sat in proposal stage for 45 days with no meeting, no updated next step, and no confirmed procurement owner. The rep keeps it in forecast because the buyer was enthusiastic last month. A clean pipeline review moves it back to nurture or closed lost. That creates discomfort for one moment, but it also exposes the real gap and forces new pipeline creation before the quarter is gone.",
+  "commonMistakes": [
+    "Keeping dead deals active because they are large",
+    "Changing close dates without updating the real stage of the deal",
+    "Advancing opportunities without exit criteria",
+    "Treating CRM hygiene like admin rather than revenue discipline",
+    "Avoiding pipeline cleanup because it makes the quarter look harder"
+  ],
+  "exercise": "Audit ten opportunities and tag each one green, yellow, or red. Green means active next step and clear movement. Yellow means real but risky. Red means stale or fake. Then decide which red deals you will close out this week.",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What is a zombie deal?",
+      "options": [
+        "A deal that closed lost to a competitor",
+        "A deal that still looks active in CRM but has stopped moving in reality",
+        "A renewal opportunity",
+        "A deal with multiple stakeholders"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zombie deals create the illusion of health while contributing little or nothing."
+    },
+    {
+      "question": "Why is pipeline cleaning valuable?",
+      "options": [
+        "It makes the CRM prettier",
+        "It reveals real coverage gaps and frees time for real opportunities",
+        "It guarantees more inbound leads",
+        "It removes the need to prospect"
+      ],
+      "correctIndex": 1,
+      "explanation": "A cleaner pipeline gives you a truer view of risk and where effort should go next."
+    },
+    {
+      "question": "What should drive stage movement?",
+      "options": [
+        "Rep confidence only",
+        "Quarter pressure",
+        "Defined evidence and exit criteria",
+        "Deal size"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stages should reflect what has actually happened in the deal, not what the rep hopes will happen."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs win more when they stop protecting fake pipeline and start protecting their time.",
+    "manager": "Managers need stage discipline so pipeline reviews surface truth instead of theatre.",
+    "vp": "A VP cares because bloated pipeline hides risk until it is too late to fix the quarter.",
+    "cro": "A CRO sees pipeline hygiene as a basic operating standard for revenue predictability."
+  }
+}

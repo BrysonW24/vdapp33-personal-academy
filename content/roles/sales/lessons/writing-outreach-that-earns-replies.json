@@ -1,0 +1,73 @@
+{
+  "slug": "writing-outreach-that-earns-replies",
+  "moduleSlug": "outbound-outreach",
+  "title": "Writing Outreach That Earns Replies",
+  "objective": "Learn how to combine cold email fundamentals with personalised first lines, pattern interrupts, and permission-based language that earns genuine responses.",
+  "beginnerExplanation": "Strong outreach gets a reply because it feels relevant, safe, and easy to answer. Weak outreach feels like marketing copy pasted into someone's inbox. The fastest way to improve reply rates is to reduce friction: make the message shorter, more specific, and more obviously tied to the buyer's context.",
+  "deeperExplanation": "A useful outbound message has four parts. First, a relevant opening that shows why this person, not just why this market. Second, a point of view or problem hypothesis that earns attention. Third, a simple question or low-friction CTA. Fourth, language that sounds human enough to continue a conversation. Pattern interrupts help because they break the expected sales-email rhythm, while permission-based phrasing lowers resistance by sounding honest instead of forceful.\n\nPersonalisation should not become trivia. The goal is not to prove you read their LinkedIn profile. The goal is to connect something true about their world to a business problem you can help solve. That is the difference between customized noise and relevant outreach.",
+  "keyTakeaways": [
+    "The best outreach is short, relevant, and easy to respond to.",
+    "Personalised first lines should connect to a business hypothesis, not random trivia.",
+    "Pattern interrupts work when they feel direct and credible, not gimmicky.",
+    "Permission-based language lowers resistance because it sounds honest.",
+    "A good CTA should be low-friction and specific.",
+    "Cold email quality usually improves when you cut words, not when you add them."
+  ],
+  "frameworks": [
+    "cold-email",
+    "personalised-first-line-outreach",
+    "pattern-interrupt-openers",
+    "permission-based-opener"
+  ],
+  "example": "Instead of writing, 'I hope you're well. I wanted to reach out because we help innovative teams transform workflows,' a stronger email says, 'Saw you're rolling out a new customer support model across APAC. Teams doing that often discover their QA and coaching process lags the new volume. Worth a quick compare on how your managers are handling that today?' The note is shorter, more grounded, and easier to answer.",
+  "commonMistakes": [
+    "Using personalisation that has nothing to do with business value",
+    "Hiding the actual point of the email under a long intro",
+    "Writing CTAs that ask for too much too early",
+    "Copying the same first line across several accounts in the same segment",
+    "Trying to sound clever instead of relevant"
+  ],
+  "exercise": "Rewrite one of your current cold emails three ways: one with a stronger first line, one with a pattern interrupt, and one with a permission-based CTA. Compare which version feels easiest to answer.",
+  "order": 6,
+  "quiz": [
+    {
+      "question": "What makes a personalised first line valuable?",
+      "options": [
+        "It proves you can browse LinkedIn",
+        "It connects the buyer's context to a relevant business problem",
+        "It makes the email longer",
+        "It replaces the need for a CTA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Good personalisation is commercially relevant, not just observant."
+    },
+    {
+      "question": "Why do permission-based openers help?",
+      "options": [
+        "They reduce pressure and make the interaction feel more human",
+        "They guarantee a meeting",
+        "They avoid specificity",
+        "They only work on the phone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Permission-based language lowers resistance because it sounds respectful and direct."
+    },
+    {
+      "question": "What is one of the most common outreach mistakes?",
+      "options": [
+        "Being too concise",
+        "Asking for a small next step",
+        "Using a generic message with superficial personalization",
+        "Making the CTA clear"
+      ],
+      "correctIndex": 2,
+      "explanation": "Generic outreach with fake personalisation rarely earns meaningful replies."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should aim for relevance and ease, not cleverness, in outbound writing.",
+    "manager": "Managers can improve outbound quickly by coaching first lines and CTAs instead of rewriting every email end to end.",
+    "vp": "A VP wants outbound messaging to be consistent in quality while still feeling tailored by segment and persona.",
+    "cro": "A CRO sees better outbound as a multiplier on pipeline efficiency, especially when market attention is harder to win."
+  }
+}

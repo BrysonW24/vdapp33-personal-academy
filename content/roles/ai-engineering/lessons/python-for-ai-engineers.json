@@ -1,0 +1,72 @@
+{
+  "slug": "python-for-ai-engineers",
+  "moduleSlug": "applied-ml-foundations",
+  "title": "Python for AI Engineers",
+  "objective": "Get comfortable with the Python tools and libraries that AI engineers use daily — NumPy, Pandas, Jupyter notebooks, virtual environments, and package management.",
+  "beginnerExplanation": "Python is the language of AI. Not because it is the fastest language (it is not), but because it has the best ecosystem of libraries for data science, machine learning, and AI. Every major AI framework — PyTorch, TensorFlow, scikit-learn, Hugging Face — is built for Python.\n\nAs an AI engineer, you need to be fluent in a specific subset of Python. You do not need to know everything about the language — you need to know the parts that matter for AI work.\n\nThe essential tools:\n\n**NumPy** is the foundation. It lets you work with arrays and matrices of numbers efficiently. When a model processes data, it is working with NumPy arrays (or PyTorch tensors, which work similarly). Understanding NumPy means understanding how data flows through AI systems.\n\n**Pandas** is for working with tabular data — think spreadsheets but in code. Loading CSVs, cleaning messy data, filtering rows, computing statistics. Most AI projects start with Pandas to explore and prepare the data.\n\n**Jupyter Notebooks** are interactive documents where you write code, run it, and see the results inline. They are the scratch pad of AI engineering — perfect for exploration, prototyping, and sharing results with your team.\n\n**Virtual environments** keep your projects isolated. AI projects have complex dependency chains — one project might need PyTorch 2.0 while another needs 1.13. Virtual environments (via venv, conda, or poetry) prevent these from conflicting.",
+  "deeperExplanation": "Beyond the basics, there are Python patterns that separate proficient AI engineers from beginners:\n\n**Vectorised operations** — NumPy and Pandas are fast because they operate on entire arrays at once instead of looping through elements. Writing `np.dot(a, b)` instead of a for-loop is not just cleaner — it can be 100x faster. Thinking in terms of array operations rather than element-wise loops is a fundamental mindset shift.\n\n**Data pipelines** — Real AI work involves chaining transformations: load data → clean nulls → encode categories → normalise numbers → split into train/test. Using Pandas method chaining (`df.dropna().assign(feature=lambda x: x.col * 2).query('feature > 0')`) keeps this readable and maintainable.\n\n**Type hints** — Modern Python AI codebases use type hints extensively. `def train_model(data: pd.DataFrame, epochs: int = 10) -> dict[str, float]` makes your code self-documenting and catches bugs early.\n\n**Package management** — Production AI projects use `pyproject.toml` with poetry or pip-tools to pin exact dependency versions. A model that works on your laptop must also work on the production server, and dependency mismatches are a common source of bugs.\n\n**Async Python** — Many AI applications call external APIs (LLM providers, databases). Understanding `async/await` lets you make concurrent API calls, which is essential for building responsive AI applications.\n\nThe Jupyter to production transition is important. Notebooks are excellent for exploration, but production code should be in proper `.py` files with tests, type hints, and clean structure. A common workflow: explore in Jupyter → extract working code into modules → add tests → deploy.",
+  "keyTakeaways": [
+    "NumPy is the foundation — learn to think in arrays and matrices, not loops",
+    "Pandas is for data preparation, which takes 60-80% of most AI projects",
+    "Jupyter notebooks are for exploration and prototyping, not production code",
+    "Virtual environments are mandatory — always isolate your project dependencies",
+    "Type hints and clean code matter just as much in AI as in any other software",
+    "Learn async Python early — you will need it for API-based AI applications"
+  ],
+  "frameworks": [
+    "ml-lifecycle"
+  ],
+  "example": "Here is a typical AI engineer workflow in Python:\n\n1. Create a virtual environment: `python -m venv .venv && source .venv/bin/activate`\n2. Install dependencies: `pip install numpy pandas jupyter scikit-learn`\n3. Open Jupyter: `jupyter notebook`\n4. Load and explore data with Pandas: `df = pd.read_csv('data.csv'); df.describe()`\n5. Clean the data: `df = df.dropna().reset_index(drop=True)`\n6. Create features with NumPy: `features = np.column_stack([df['col1'].values, df['col2'].values])`\n7. Train a model with scikit-learn: `model = RandomForestClassifier(); model.fit(X_train, y_train)`\n8. Evaluate: `accuracy = model.score(X_test, y_test)`\n\nThis entire workflow — from raw data to trained model — happens in Python, using the libraries this module teaches.",
+  "commonMistakes": [
+    "Writing Python loops when NumPy vectorised operations exist — always check if there is a NumPy/Pandas way first",
+    "Not using virtual environments and breaking your system Python installation",
+    "Keeping all code in Jupyter notebooks instead of extracting reusable modules",
+    "Ignoring data types — a DataFrame column that looks like numbers might actually be strings",
+    "Not pinning dependency versions, causing 'it works on my machine' problems"
+  ],
+  "exercise": "Set up your AI engineering environment: (1) Install Python 3.11+ if you have not already. (2) Create a virtual environment. (3) Install NumPy and Pandas. (4) Open a Jupyter notebook. (5) Load any CSV file (search Kaggle for a beginner dataset). (6) Use Pandas to answer: How many rows? Any missing values? What are the column types? What is the mean of each numeric column? (7) Use NumPy to normalise one numeric column to a 0-1 range.",
+  "nextLesson": "your-first-ml-model",
+  "svgDiagram": "python-ai-ecosystem",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "Why is vectorised NumPy code faster than Python for-loops for numerical computation?",
+      "options": [
+        "NumPy uses a different programming language internally",
+        "NumPy operates on entire arrays at once using optimised C code, avoiding Python's per-element overhead",
+        "Python for-loops have a deliberate speed limit",
+        "NumPy compresses the data to make it smaller"
+      ],
+      "correctIndex": 1,
+      "explanation": "NumPy's vectorised operations execute in optimised C/Fortran code under the hood, operating on entire arrays at once. Python for-loops incur interpreter overhead for each element. The difference can be 100x or more for large arrays."
+    },
+    {
+      "question": "What is the primary purpose of virtual environments in Python AI projects?",
+      "options": [
+        "To make Python run faster",
+        "To encrypt your source code",
+        "To isolate project dependencies and prevent version conflicts",
+        "To connect to cloud computing resources"
+      ],
+      "correctIndex": 2,
+      "explanation": "Virtual environments keep each project's dependencies isolated. One project might need PyTorch 2.0 while another needs 1.13 — without virtual environments, these would conflict. They are mandatory for any serious AI engineering work."
+    },
+    {
+      "question": "When should you move code from a Jupyter notebook to proper .py files?",
+      "options": [
+        "Never — notebooks are the standard for production AI code",
+        "When the code is working and ready for production, tests, and deployment",
+        "Only when the notebook file gets too large to open",
+        "Immediately — never use notebooks at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jupyter notebooks are excellent for exploration and prototyping, but production code should be in proper .py files with tests, type hints, and clean structure. The common workflow is: explore in Jupyter, extract working code into modules, add tests, then deploy."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As an ML engineer, Python mastery is non-negotiable. You need to be fluent in NumPy broadcasting, Pandas method chaining, and async patterns for API-heavy applications. You also need strong opinions on tooling: poetry vs pip, ruff vs flake8, pytest fixtures. Your Python code is production code — treat it with the same rigour as any other language.",
+    "manager": "As an engineering manager, you evaluate Python proficiency during hiring. Can the candidate write clean, typed, tested Python? Do they understand the ecosystem beyond basic scripts? You also manage the team's tooling decisions — standardising on a package manager, linter, and testing framework saves weeks of friction over a project lifecycle.",
+    "cto": "As a CTO, Python's dominance in AI is a strategic reality. Your team's Python infrastructure — CI/CD, dependency management, deployment pipelines — directly impacts development velocity. You evaluate whether to invest in Python tooling standardisation across the org or allow teams to make independent choices.",
+    "investor": "As an investor, Python ecosystem maturity signals lower technical risk. Teams using modern Python practices (type hints, proper packaging, automated testing) ship more reliably than those writing scripts in Jupyter notebooks. Look for evidence of engineering discipline in the codebase, not just ML expertise."
+  }
+}

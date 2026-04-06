@@ -1,0 +1,62 @@
+{
+  "slug": "keeping-customers-for-life",
+  "moduleSlug": "retention-lifecycle",
+  "title": "Keeping Customers for Life",
+  "objective": "Understanding retention marketing, lifecycle stages, and why keeping existing customers is more valuable than constantly acquiring new ones.",
+  "beginnerExplanation": "Here's a number that should change how you think about marketing: it costs five to seven times more to acquire a new customer than to keep an existing one. Yet most businesses pour the vast majority of their budget into acquisition — chasing new customers while their existing ones quietly slip away. Retention is where profit lives, and the smartest marketers know it.\n\nCustomer lifecycle stages help you understand where each person sits in their relationship with your brand. A first-time buyer needs a different experience from a loyal repeat customer. Someone who hasn't purchased in six months needs a different nudge from someone who bought last week. By segmenting customers into lifecycle stages — new, active, at-risk, lapsed — you can tailor your messaging and offers to what each group actually needs.\n\nThe metrics that matter in retention are churn rate (what percentage of customers you lose over a period), customer lifetime value or CLV (how much revenue a customer generates over their entire relationship), and Net Promoter Score or NPS (how likely customers are to recommend you). When you improve retention by even a small margin, the compound effect on revenue is enormous — a 5% increase in retention can boost profits by 25–95% according to research by Bain & Company.",
+  "deeperExplanation": "Cohort analysis is the most powerful tool for understanding retention. Rather than looking at aggregate retention rates, you group customers by when they first purchased (or signed up) and track each cohort's behaviour over time. This reveals whether your retention is genuinely improving or whether a recent influx of new customers is masking a deteriorating trend. Retention curves — plotting the percentage of a cohort still active over time — show you exactly when customers tend to drop off, helping you intervene at the right moment.\n\nThe 'aha moment' concept, popularised by growth teams at companies like Facebook and Slack, describes the point at which a new user first experiences the core value of your product. Facebook found that users who connected with seven friends within ten days were dramatically more likely to become long-term active users. Identifying and accelerating your product's aha moment is one of the highest-leverage retention strategies available. For e-commerce, this might be the moment a customer receives their first order and it exceeds their expectations.\n\nSubscription businesses and e-commerce model retention very differently. Subscription retention focuses on renewal rates, voluntary vs involuntary churn (failed payments), and expansion revenue (upselling to higher tiers). E-commerce retention centres on repeat purchase rate, purchase frequency, and average order value over time. Both benefit from win-back campaigns targeting lapsed customers with personalised offers, but the timing and triggers differ. The common thread is that retention requires deliberate, ongoing investment — it never happens by accident.",
+  "keyTakeaways": [
+    "Shift budget toward retention — acquiring a new customer costs 5–7x more than keeping an existing one",
+    "Segment customers by lifecycle stage (new, active, at-risk, lapsed) and tailor communications accordingly",
+    "Use cohort analysis to track retention trends over time rather than relying on aggregate metrics",
+    "Identify your product's 'aha moment' and design onboarding to help every customer reach it quickly",
+    "Build win-back campaigns with personalised triggers before customers fully lapse rather than after"
+  ],
+  "frameworks": ["aarrr", "customer-journey-map"],
+  "example": "Amazon Prime is arguably the most effective retention strategy in retail history. Rather than relying on discounts or points, Prime builds compounding value — free shipping removes purchase friction, Prime Video adds entertainment, Prime Music adds another reason to stay, and Prime Reading rounds it out further. Each additional benefit raises the switching cost: cancelling Prime means losing access to an entire ecosystem, not just one perk. The result is a 93% first-year renewal rate, climbing to 98% by the second year, with Prime members spending on average 2.3 times more than non-members. The strategy works because it creates genuine ongoing value rather than artificial lock-in.",
+  "commonMistakes": [
+    "Spending all budget on acquisition with nothing allocated for retaining existing customers",
+    "Treating all churned customers the same way instead of segmenting by reason and recency of churn",
+    "Relying on discounts to retain customers instead of building genuine product or service value",
+    "Not measuring churn until it becomes a crisis and missing early signals that could have been addressed",
+    "Ignoring early warning signals like declining engagement, reduced purchase frequency, and support complaints"
+  ],
+  "exercise": "Pick a subscription product you currently use. Identify: (1) what specifically keeps you subscribed each month, (2) what would make you cancel tomorrow, (3) what the company actively does to retain you (emails, rewards, new features), and (4) one thing they could do better to increase your loyalty. Then compare your answers with a friend or colleague who uses the same product — notice how retention drivers vary by segment and how a one-size-fits-all approach would miss both of you.",
+  "nextLesson": "launching-a-product",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "Why is cohort analysis more valuable than looking at aggregate retention rates?",
+      "options": [
+        "It reveals whether retention is genuinely improving or being masked by new customer growth",
+        "It is easier to calculate than aggregate metrics",
+        "It only tracks your most profitable customers",
+        "It eliminates the need to measure churn rate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cohort analysis groups customers by when they first purchased and tracks each group over time, revealing whether retention trends are truly improving or whether an influx of new customers is hiding a deteriorating trend."
+    },
+    {
+      "question": "An e-commerce brand notices that 60% of first-time buyers never make a second purchase. Which retention strategy should they prioritise first?",
+      "options": [
+        "Launch a loyalty points programme for repeat buyers",
+        "Run a discount campaign for customers who churned over a year ago",
+        "Identify and accelerate the 'aha moment' during the first purchase experience",
+        "Increase spending on acquisition to replace lost customers"
+      ],
+      "correctIndex": 2,
+      "explanation": "When the biggest drop-off happens between the first and second purchase, the highest-leverage move is to ensure new customers experience the core value of the product quickly — the 'aha moment' — so they are motivated to return."
+    },
+    {
+      "question": "Which of the following is a common mistake in retention marketing?",
+      "options": [
+        "Segmenting customers by lifecycle stage before sending communications",
+        "Tracking churn rate alongside customer lifetime value",
+        "Relying primarily on discounts to keep customers instead of building genuine product value",
+        "Using win-back campaigns to re-engage at-risk customers before they fully lapse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Discounts can temporarily prevent churn but they erode margins and train customers to expect deals rather than value. Sustainable retention comes from building genuine product or service value that gives customers a reason to stay."
+    }
+  ]
+}

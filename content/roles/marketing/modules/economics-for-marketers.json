@@ -1,0 +1,25 @@
+{
+  "slug": "economics-for-marketers",
+  "title": "Economics in Context",
+  "shortSummary": "How markets work, what drives prices, and the macroeconomic forces that shape every business decision — essential context for any marketer setting price strategy or forecasting demand.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Understanding supply and demand, market structures, price elasticity, and how macroeconomic conditions affect marketing budgets and consumer behaviour gives marketers the economic literacy to make smarter pricing, positioning, and investment decisions.",
+  "coreConcepts": [
+    "Supply and demand fundamentals",
+    "Market structures (perfect competition, monopoly, oligopoly)",
+    "Price elasticity of demand",
+    "Macroeconomic forces (GDP, inflation, interest rates, unemployment)",
+    "Economic moats and competitive advantage",
+    "Opportunity cost in marketing decisions",
+    "Consumer confidence and spending cycles",
+    "Pricing strategy fundamentals (cost-plus, value-based, competitive)"
+  ],
+  "lessons": ["economics-that-shape-marketing"],
+  "frameworks": ["pestel"],
+  "visualType": "diagram",
+  "relatedModules": ["budgeting-channel-allocation", "positioning-value-proposition"],
+  "status": "complete",
+  "order": 22,
+  "levelNumber": 1
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "clari",
+  "name": "Clari",
+  "category": "analytics",
+  "description": "A revenue intelligence platform focused on forecast accuracy and pipeline management. Clari uses AI to analyse CRM data, email activity, and calendar signals to provide a more accurate picture of pipeline health and likely revenue outcomes.",
+  "whyUseIt": "Clari solves the forecasting problem. Most sales forecasts are based on what reps tell their managers, which is often biased or incomplete. Clari analyses actual engagement signals — email frequency, meeting cadence, stakeholder involvement — to predict which deals will close and which won't. For AEs, it helps you understand your own pipeline objectively. For managers, it transforms forecasting from art to science.",
+  "pricingTier": "enterprise",
+  "url": "https://www.clari.com",
+  "logoUrl": "/tools/clari.svg",
+  "aiCapabilities": "Clari's AI predicts deal outcomes, identifies pipeline risks before they materialise, automates forecast roll-ups, and provides deal scoring based on engagement signals rather than rep self-reporting.",
+  "alternatives": ["salesforce", "people-ai"],
+  "funnelPosition": "Mid to bottom of funnel — pipeline management, forecasting, and deal inspection",
+  "outputs": ["AI-powered forecasts", "Deal health scores", "Pipeline analytics", "Risk alerts", "Forecast accuracy reports"],
+  "sellerWorkflow": "AEs review their Clari dashboard weekly to check deal health scores, identify at-risk deals, and ensure their forecast categories are accurate. Managers run forecast calls using Clari's pipeline view instead of spreadsheets.",
+  "managerExpects": "AEs reviewing their deal health scores weekly, responding to risk alerts promptly, and using Clari's data (not gut feel) to justify their forecast commitments.",
+  "demoDescription": "View the pipeline waterfall showing how deals have moved week-over-week, check AI deal health scores, review risk alerts, and submit a forecast with commit/upside/best case categories.",
+  "vocabulary": [
+    { "term": "Pipeline Waterfall", "definition": "A visual showing how pipeline has changed period-over-period: new deals added, deals moved forward, deals slipped, and deals lost." },
+    { "term": "CRM Score", "definition": "Clari's AI-generated deal health rating based on activity signals, engagement patterns, and historical close data." }
+  ],
+  "beginnerMistakes": [
+    "Ignoring Clari's risk alerts — they're based on engagement data, not opinions, so they're usually accurate",
+    "Not updating CRM data — Clari is only as good as the data it analyses",
+    "Over-relying on AI scores without applying your own deal knowledge"
+  ],
+  "relatedProject": "pipeline-audit"
+}

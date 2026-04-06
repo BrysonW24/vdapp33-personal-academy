@@ -116,11 +116,14 @@ const REQUIRED_TOPICS = [
 const REQUIRED_ROLES = [
   "astronaut",
   "ai-researcher",
+  "ai-engineering",
   "diplomat",
   "entrepreneur-startup-founder",
   "intelligence-analyst",
+  "marketing",
   "pilot",
   "robotics-engineer",
+  "sales",
 ] as const
 
 describe("nexus catalog completeness", () => {

@@ -1,0 +1,62 @@
+{
+  "slug": "running-marketing-experiments",
+  "moduleSlug": "testing-experimentation",
+  "title": "Running Marketing Experiments",
+  "objective": "Understanding how to design, run, and learn from controlled marketing experiments that drive measurable improvement.",
+  "beginnerExplanation": "Think of marketing experiments like taste tests. If you want to know whether customers prefer your new recipe, you need to be fair about how you test it. You give one group the original and another group the new version. You don't tell them which is which. You make sure enough people try both. And you only change one thing at a time — otherwise you won't know what actually made the difference.\n\nThat's the essence of A/B testing. You take something — a headline, an email subject line, a landing page layout — and create two versions. Version A is the control (what you're already running). Version B is the variant (your hypothesis for something better). You split your audience randomly, show each group a different version, and measure which one performs better on the metric you care about.\n\nThe key is starting with a hypothesis, not a guess. A good hypothesis sounds like: 'If we change the call-to-action button from blue to green, we expect click-through rate to increase by 10% because green creates more visual contrast on our page.' The hypothesis forces you to state what you're changing, what you expect to happen, and why. That structure turns random tinkering into genuine learning.",
+  "deeperExplanation": "Statistical significance is the gatekeeper of valid experiments. A result is statistically significant when there's a low probability (typically less than 5%, or p < 0.05) that the observed difference happened by chance. Running a test for two days with 50 visitors per variant and declaring a winner is one of the most common — and most dangerous — mistakes in marketing experimentation. Sample size calculators exist for a reason: use them before you launch to determine how long the test needs to run.\n\nThe frequentist approach (traditional A/B testing) requires you to set your sample size in advance and only check results once the test is complete. The Bayesian approach updates probability estimates continuously as data arrives, offering a more intuitive output: 'there's a 94% probability that variant B is better.' Multi-armed bandit algorithms take this further by dynamically shifting traffic toward the winning variant during the test, reducing opportunity cost. Each approach has trade-offs — frequentist is rigorous but slow, Bayesian is flexible but requires careful prior selection, and bandits optimise for revenue but sacrifice learning.\n\nBooking.com's experimentation culture shows what happens when testing becomes organisational DNA rather than a marketing tactic. They run over 1,000 concurrent experiments and have built internal tooling that lets any employee propose and launch a test. Their philosophy is that no opinion outranks a test result — even senior leadership decisions get validated experimentally. This culture of 'test everything, trust data' has compounded over years into one of the highest-converting websites globally, demonstrating that test velocity (how many experiments you run) matters as much as individual test quality.",
+  "keyTakeaways": [
+    "Start every experiment with a written hypothesis that states what you're changing, what you expect, and why",
+    "Calculate required sample size before launching and never end a test early just because results look promising",
+    "Test one variable at a time to isolate what actually caused the change in performance",
+    "Document every experiment result — including failures — to build an organisational knowledge base",
+    "Prioritise test velocity and build a culture where experimentation is continuous, not occasional"
+  ],
+  "frameworks": ["ab-testing-framework", "kpi-cheat-sheet"],
+  "example": "Booking.com runs over 1,000 concurrent experiments at any given time, testing everything from button colours and copy variations to entirely different page layouts and booking flows. Any employee can propose an experiment, and the company has built sophisticated internal tooling to manage this volume. Their philosophy is radical: no opinion — regardless of seniority — outranks a properly run experiment. This relentless testing culture has compounded over more than a decade into one of the highest-converting websites globally, with conversion improvements of fractions of a percent adding up to billions in additional revenue.",
+  "commonMistakes": [
+    "Testing too many variables at once and being unable to determine which change drove the result",
+    "Ending tests too early before reaching statistical significance and acting on random noise",
+    "Ignoring negative results that challenge existing assumptions instead of learning from them",
+    "Not documenting learnings from experiments and losing institutional knowledge when team members leave",
+    "Testing trivial changes like button colours while ignoring strategic hypotheses about messaging and positioning"
+  ],
+  "exercise": "Write three marketing experiment hypotheses for a website or app you use regularly. For each, state: (1) what you'd change and why, (2) what metric you'd measure to determine success, (3) what result would make you implement the change permanently, and (4) how long you'd run the test and approximately how many users you'd need in each variant.",
+  "nextLesson": "keeping-customers-for-life",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "Why is a written hypothesis essential before running a marketing experiment?",
+      "options": [
+        "It is legally required for A/B testing on most platforms",
+        "It forces you to state what you're changing, what you expect to happen, and why — turning random tinkering into genuine learning",
+        "It guarantees the experiment will produce a positive result",
+        "It replaces the need for statistical significance"
+      ],
+      "correctIndex": 1,
+      "explanation": "A hypothesis provides structure to experimentation. Without one, you're guessing randomly. With one, every test produces a learning — even if the result is negative."
+    },
+    {
+      "question": "You're running an A/B test on a landing page headline. After 3 days, variant B shows a 15% improvement with only 40 visitors per variant. What should you do?",
+      "options": [
+        "Declare variant B the winner and implement it immediately",
+        "Continue running the test until you reach the sample size needed for statistical significance",
+        "End the test and run a completely different experiment instead",
+        "Double the traffic to variant B since it's already winning"
+      ],
+      "correctIndex": 1,
+      "explanation": "With only 40 visitors per variant, the observed difference could easily be random noise. You must reach your pre-calculated sample size to have confidence that the result is real, not chance."
+    },
+    {
+      "question": "Which of the following is a marketing experimentation mistake?",
+      "options": [
+        "Starting with a clear hypothesis before launching an A/B test",
+        "Documenting experiment results, including failures, for future reference",
+        "Testing multiple variables at once and being unable to determine which change caused the result",
+        "Calculating required sample size before launching a test"
+      ],
+      "correctIndex": 2,
+      "explanation": "Testing multiple variables simultaneously makes it impossible to isolate which change drove the difference in performance. Change one variable at a time so you know exactly what worked."
+    }
+  ]
+}

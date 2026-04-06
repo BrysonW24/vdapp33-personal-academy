@@ -1,0 +1,73 @@
+{
+  "slug": "asking-better-sales-questions",
+  "moduleSlug": "communication-fundamentals",
+  "title": "Asking Better Sales Questions",
+  "objective": "Learn how to ask questions that open buyers up, deepen discovery, and move conversations from surface facts to real commercial insight.",
+  "beginnerExplanation": "Great sales questions do more than collect information. They make the buyer think. Weak questions get short factual answers: 'Do you have a budget?' or 'Are you using a CRM?' Strong questions invite the buyer to explain how things work, where friction shows up, and what happens when those problems persist. That is why the quality of your questions has such a direct effect on the quality of your deals.",
+  "deeperExplanation": "A practical question mix has four layers. Start with context questions so you understand the current situation. Move to problem questions so the buyer names the friction in their own words. Go deeper with implication questions so the business cost becomes visible. Then use commitment questions so the buyer starts describing what a better future would need to look like.\n\nThe easiest trap is stacking questions that sound logical to you but feel like interrogation to the buyer. Pace matters. Listen to the answer, then build from it. Good follow-up questions often sound simple: 'Tell me more about that.' 'What happens next?' 'How often does that occur?' 'Who else feels it?' 'What does that cost you?' Those follow-ups are where the real insight appears.\n\nBetter questions also improve trust. Buyers notice when your questions are tailored to their role, their likely pressure, and the stage of the deal. That makes the conversation feel advisory instead of scripted. When your questions improve, your talk track can get shorter because the buyer starts giving you the material you need.",
+  "keyTakeaways": [
+    "The quality of your questions shapes the quality of your discovery.",
+    "Context, problem, implication, and commitment questions each serve a different purpose.",
+    "Follow-up questions usually matter more than the first question.",
+    "Good questions sound specific and curious, not mechanical.",
+    "You should listen for commercial impact, not just product fit.",
+    "Better questions make you sound more credible and less salesy."
+  ],
+  "frameworks": [
+    "spin-selling",
+    "gap-selling",
+    "sandler-selling"
+  ],
+  "example": "A weak question is: 'Do you struggle with forecasting?' A stronger sequence is: 'How do forecast calls currently run?' 'Where do reps tend to overstate confidence?' 'What happens to planning when the commit misses?' 'If that pattern keeps happening this quarter, what does it do to hiring or spend decisions?' That sequence moves from process to pain to consequence.",
+  "commonMistakes": [
+    "Asking a list of scripted questions without reacting to the buyer's answers",
+    "Using yes-or-no questions when the moment requires explanation",
+    "Jumping to product questions before understanding the business context",
+    "Confusing personal curiosity with commercial relevance",
+    "Talking over the buyer because you are worried about silence"
+  ],
+  "exercise": "Take one common pain point in your market. Write two context questions, three problem questions, two implication questions, and two commitment questions. Then practise asking them out loud and remove any that sound robotic.",
+  "nextLesson": "executive-presence-and-follow-up",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What kind of question helps uncover the cost of a problem?",
+      "options": [
+        "A context question",
+        "An implication question",
+        "A pricing question",
+        "A closing question"
+      ],
+      "correctIndex": 1,
+      "explanation": "Implication questions connect the problem to business impact and urgency."
+    },
+    {
+      "question": "Why are follow-up questions so important?",
+      "options": [
+        "They make the call longer",
+        "They show the buyer you memorised a framework",
+        "They reveal the depth behind the buyer's first answer",
+        "They help you avoid taking notes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The first answer is often surface level. Follow-up questions uncover meaning, impact, and nuance."
+    },
+    {
+      "question": "What is a sign your questions are too weak?",
+      "options": [
+        "The buyer gives long, detailed answers",
+        "The buyer reflects on consequences",
+        "The buyer only answers with short facts and the conversation stays shallow",
+        "The buyer asks you a question back"
+      ],
+      "correctIndex": 2,
+      "explanation": "Weak questions usually produce shallow, factual responses that do not move the deal forward."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should build question banks by persona and pain area, then adapt in real time instead of reading from a script.",
+    "manager": "Managers can improve reps quickly by reviewing call recordings and coaching the follow-up questions, not only the opening questions.",
+    "vp": "A VP wants discovery quality to be repeatable across the team, because better questions improve qualification and demo relevance.",
+    "cro": "A CRO sees question quality as a leading indicator of forecast quality and win rate."
+  }
+}

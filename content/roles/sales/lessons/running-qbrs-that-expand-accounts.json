@@ -1,0 +1,72 @@
+{
+  "slug": "running-qbrs-that-expand-accounts",
+  "moduleSlug": "account-management",
+  "title": "Running QBRs That Expand Accounts",
+  "objective": "Learn how to run quarterly business reviews that prove value, build executive trust, and open credible expansion conversations.",
+  "beginnerExplanation": "A QBR should not feel like a routine check-in or a usage report readout. A strong QBR reminds the customer why they bought, shows the progress made, highlights the gaps that still matter, and opens the door to the next phase of value. That is why QBRs are one of the best account expansion tools in B2B sales.",
+  "deeperExplanation": "A practical QBR has four sections. First, the original goals: what did the customer want to achieve? Second, progress and outcomes: what changed, what metrics improved, and what value has already been created? Third, remaining gaps or new opportunities: what is still unresolved or has emerged since launch? Fourth, forward plan: what should the next quarter focus on and what support or expansion could help.\n\nThe best QBRs are balanced. If you only celebrate wins, the meeting feels self-serving. If you only surface problems, it feels defensive. The right balance is evidence of progress plus a credible path to greater value.\n\nQBRs also help you multi-thread. They create a reason to involve new stakeholders and re-engage executives who may not attend day-to-day meetings. That makes the account harder to displace and easier to expand.",
+  "keyTakeaways": [
+    "A strong QBR proves value and sets up the next phase of value.",
+    "Original goals should anchor the whole review.",
+    "Progress metrics matter because they make the value real and repeatable.",
+    "Remaining gaps are often the opening for expansion or broader adoption.",
+    "QBRs create natural opportunities to multi-thread the account.",
+    "The meeting should end with a forward plan, not just a recap."
+  ],
+  "frameworks": [
+    "account-planning-canvas",
+    "value-selling"
+  ],
+  "example": "A customer bought your platform to shorten onboarding time and improve reporting quality. In the QBR you show that onboarding time has fallen from 18 days to 11 and manager reporting prep has dropped by six hours per week. Then you highlight that the customer still lacks executive visibility across regions. That gap becomes the opening to discuss an analytics add-on and broader deployment.",
+  "commonMistakes": [
+    "Treating the QBR like a product update instead of a business review",
+    "Failing to tie the review back to the customer's original goals",
+    "Bringing activity data without translating it into outcomes",
+    "Skipping the forward plan and ending with vague goodwill",
+    "Only inviting the same day-to-day contacts every quarter"
+  ],
+  "exercise": "Build a one-page QBR outline for one account with four headings: original goals, outcomes achieved, gaps remaining, and recommended next step. Then rewrite the opening slide so it speaks to an executive sponsor, not just an end user.",
+  "nextLesson": "whitespace-mapping-for-expansion",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main purpose of a good QBR?",
+      "options": [
+        "To review every feature release",
+        "To prove value and create a forward-looking growth conversation",
+        "To avoid difficult conversations",
+        "To replace renewal planning"
+      ],
+      "correctIndex": 1,
+      "explanation": "A strong QBR shows progress, surfaces new opportunities, and builds momentum for the next phase."
+    },
+    {
+      "question": "What should anchor the story in a QBR?",
+      "options": [
+        "Your latest roadmap",
+        "The customer's original goals and current outcomes",
+        "Your internal quota target",
+        "A generic product deck"
+      ],
+      "correctIndex": 1,
+      "explanation": "The QBR is strongest when it is tied to the business outcomes the customer originally cared about."
+    },
+    {
+      "question": "Why are QBRs useful for expansion?",
+      "options": [
+        "Because they create a structured moment to connect value delivered to value still available",
+        "Because they always require a price increase",
+        "Because they avoid executive involvement",
+        "Because they replace account plans"
+      ],
+      "correctIndex": 0,
+      "explanation": "QBRs naturally bridge past results and future opportunity."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should treat QBRs as strategic account moments, not calendar maintenance.",
+    "manager": "Managers can coach reps to turn evidence of value into a forward account plan.",
+    "vp": "A VP wants QBRs to strengthen retention and expansion, not just satisfaction.",
+    "cro": "A CRO sees strong QBRs as a direct lever on NRR and strategic account growth."
+  }
+}

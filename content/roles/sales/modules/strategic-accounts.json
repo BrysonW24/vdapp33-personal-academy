@@ -1,0 +1,23 @@
+{
+  "slug": "strategic-accounts",
+  "title": "Strategic Accounts",
+  "shortSummary": "Your top 10 accounts deserve a different approach. Learn key account planning, executive alignment, QBR strategy, and long-term partnership building.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "In most B2B businesses, 20% of accounts drive 80% of revenue. Strategic account management is about maximising the lifetime value of your most important customers. It requires a different skillset from net-new sales — you need to think like a general manager, building multi-threaded relationships, creating joint business plans, and becoming so embedded in the customer's business that switching costs are enormous.",
+  "coreConcepts": [
+    "Key account identification and tiering",
+    "Strategic account planning frameworks",
+    "Executive-level relationship building",
+    "Multi-threading: relationships at every level",
+    "Land-and-expand paths across departments and buying centers",
+    "Joint business plans and shared success metrics",
+    "Quarterly Business Reviews that drive expansion"
+  ],
+  "lessons": ["strategic-account-planning-that-compounds", "land-and-expand-as-a-deliberate-strategy"],
+  "frameworks": ["account-planning-canvas", "meddic", "value-selling", "land-and-expand", "mutual-success-plan"],
+  "relatedModules": ["enterprise-sales", "account-management", "sales-leadership"],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 4
+}

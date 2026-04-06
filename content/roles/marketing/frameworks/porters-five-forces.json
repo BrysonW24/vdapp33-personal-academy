@@ -1,0 +1,15 @@
+{
+  "slug": "porters-five-forces",
+  "name": "Porter's Five Forces",
+  "summary": "A competitive analysis framework that evaluates five forces shaping industry competition and profitability.",
+  "whenToUseIt": "Use Porter's Five Forces when evaluating whether to enter a market, assessing competitive dynamics, or building a competitive strategy. It helps you understand why some industries are more profitable than others.",
+  "steps": [
+    "Competitive Rivalry: How intense is competition? Many similar competitors = lower margins. Consider market concentration, differentiation, and switching costs.",
+    "Threat of New Entrants: How easy is it for new competitors to enter? Low barriers = more competition. Consider capital requirements, brand loyalty, and regulations.",
+    "Threat of Substitutes: Can customers solve their problem a different way? High substitutability = price pressure.",
+    "Bargaining Power of Suppliers: Can suppliers dictate terms? Few suppliers = they have power. Consider supplier concentration and switching costs.",
+    "Bargaining Power of Buyers: Can customers dictate terms? Many alternatives = buyers have power. Consider buyer concentration and price sensitivity."
+  ],
+  "example": "The Australian coffee shop industry: High rivalry (saturated market, many players). Low barriers to entry (anyone can open a café). Many substitutes (home brewing, instant coffee, energy drinks). Suppliers have moderate power (coffee bean prices fluctuate globally). Buyers have high power (endless choices, low switching costs). This explains why most cafés compete on experience and community rather than price.",
+  "category": "strategy"
+}

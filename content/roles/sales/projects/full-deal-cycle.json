@@ -1,0 +1,78 @@
+{
+  "slug": "full-deal-cycle",
+  "title": "Full Deal Cycle Simulation",
+  "difficulty": 10,
+  "estimatedHours": 20,
+  "description": "Simulate an entire B2B sales cycle from initial prospecting through to a signed contract. This capstone project ties together everything you've learned: research, outreach, discovery, demo, proposal, negotiation, and close.",
+  "whyItMatters": "Real sales isn't a series of isolated skills — it's a continuous flow from one stage to the next, where each interaction builds on the last. This simulation forces you to connect the dots: your prospect research informs your outreach, your outreach earns a discovery call, your discovery shapes your demo, your demo feeds your proposal, and your proposal frames the negotiation. Completing this project gives you a portfolio-ready case study and the confidence that you can run a deal end-to-end.",
+  "skillsLearned": [
+    "End-to-end sales process management",
+    "Stage-to-stage transition and momentum building",
+    "CRM documentation and pipeline hygiene",
+    "Multi-stakeholder deal orchestration",
+    "Time and priority management across multiple deal stages",
+    "Professional deal documentation"
+  ],
+  "prerequisites": ["prospect-research", "email-sequence", "discovery-practice", "demo-deck", "proposal-writing", "negotiation-sim"],
+  "steps": [
+    {
+      "title": "Prospect and Research (2 hours)",
+      "description": "Select a target company and build a complete account intelligence profile. Identify 3-4 target contacts across the buying committee. Research the company's challenges, technology stack, competitive landscape, and recent news. Create your outreach strategy.",
+      "tips": "Choose a company complex enough to have a buying committee (50+ employees) but not so large that the deal feels abstract. A mid-market SaaS or tech company is ideal."
+    },
+    {
+      "title": "Outbound Outreach (3 hours)",
+      "description": "Write and 'send' a complete multi-channel outreach sequence: 5 emails, 2 LinkedIn touches, and 2 cold call scripts targeting different stakeholders. Document the buyer's 'responses' (role-play or simulate) and how you handled them. At least one contact should agree to a discovery call.",
+      "tips": "Simulate realistic responses: one person ignores you, one person says 'not interested', one person asks for more info, and one agrees to a call. Document how you'd handle each scenario."
+    },
+    {
+      "title": "Discovery Call (3 hours)",
+      "description": "Run a full discovery call simulation. Document the call: agenda, questions asked, buyer responses, pain points uncovered, qualification criteria (MEDDIC scorecard), and agreed next steps. The discovery should uncover at least 2 quantified pain points and identify the economic buyer.",
+      "tips": "The discovery should surface something unexpected — a pain point you didn't anticipate or a competitor you didn't know about. Real deals always have surprises."
+    },
+    {
+      "title": "Demo and Presentation (4 hours)",
+      "description": "Build and deliver a tailored demo using Tell-Show-Tell, anchored to the pain points from discovery. Include a slide deck, demo script, and preparation for 5 tough questions. Document the buyer's reactions and feedback. The demo should result in a request for a proposal.",
+      "tips": "Include at least 3 attendees in the demo scenario with different priorities. Show how you'd address each stakeholder's concerns while keeping the demo focused and on time."
+    },
+    {
+      "title": "Proposal and Business Case (4 hours)",
+      "description": "Write a complete proposal with executive summary, problem statement, proposed solution, ROI model, implementation plan, pricing (with 2-3 options), and next steps. The proposal should be professional enough to send to a real buyer.",
+      "tips": "Use the buyer's own words and numbers from discovery. 'Based on the $300K in annual churn you mentioned...' is far more compelling than generic industry stats."
+    },
+    {
+      "title": "Negotiation and Close (4 hours)",
+      "description": "Simulate the negotiation phase. The buyer pushes back on price, asks for a shorter contract, wants additional scope for free, and mentions a competitor's lower quote. Document your negotiation strategy, the back-and-forth, the final agreed terms, and the close. Write the closing email and internal deal summary.",
+      "tips": "The negotiation should include at least one moment where you need to hold firm and one moment where you make a strategic trade. Document your reasoning for each decision."
+    }
+  ],
+  "deliverables": [
+    "Account intelligence profile and outreach strategy",
+    "Complete multi-channel outreach sequence with simulated responses",
+    "Discovery call transcript and completed MEDDIC scorecard",
+    "Demo slide deck, script, and tough questions preparation",
+    "Full client proposal with ROI model",
+    "Negotiation strategy document and outcome summary",
+    "Closing email and internal deal summary",
+    "A portfolio-ready deal case study (2-3 pages) summarising the entire journey"
+  ],
+  "tools": ["salesforce", "hubspot-crm", "linkedin-sales-nav", "outreach-io", "zoom", "gong", "pandadoc", "google-workspace"],
+  "rubric": [
+    {
+      "criteria": "End-to-End Coherence",
+      "description": "Each stage builds logically on the previous one. Insights from discovery appear in the demo. Demo feedback shapes the proposal. The story is consistent throughout."
+    },
+    {
+      "criteria": "Professional Quality",
+      "description": "All deliverables are at a professional standard — ready to share with a hiring manager as portfolio pieces. Documents are well-written, well-formatted, and error-free."
+    },
+    {
+      "criteria": "Strategic Thinking",
+      "description": "The simulation demonstrates strategic decision-making: who to target, what to prioritise in discovery, how to structure the demo, when to trade vs hold firm in negotiation."
+    },
+    {
+      "criteria": "Self-Reflection",
+      "description": "The deal case study includes honest reflection on what went well, what could be improved, and what the candidate learned about their own selling approach."
+    }
+  ]
+}

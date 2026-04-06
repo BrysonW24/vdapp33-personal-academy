@@ -1,0 +1,13 @@
+{
+  "slug": "stp",
+  "name": "STP: Segmentation, Targeting, Positioning",
+  "summary": "The foundational framework for deciding who to market to and how to position your offering for them.",
+  "whenToUseIt": "Use STP when launching a new product, entering a new market, or refining your marketing strategy. It's the starting point for any strategic marketing plan.",
+  "steps": [
+    "Segment: Divide your total market into distinct groups based on demographics, behaviour, needs, or psychographics",
+    "Target: Evaluate each segment's size, growth potential, and fit with your business — then choose which segments to focus on",
+    "Position: Craft a clear positioning statement for each target segment that communicates your unique value"
+  ],
+  "example": "Nike segments the athletic wear market into serious athletes, casual fitness enthusiasts, and fashion-conscious streetwear buyers. They target all three but with different sub-brands and messaging. For serious athletes: performance technology and endorsements. For casual fitness: aspirational lifestyle content. For streetwear: limited edition drops and cultural collaborations.",
+  "category": "strategy"
+}

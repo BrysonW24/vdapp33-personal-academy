@@ -1,0 +1,25 @@
+{
+  "slug": "data-analytics-foundations",
+  "title": "Business Data Analytics",
+  "shortSummary": "Using data to make smarter, faster, and more confident business decisions. The analytics ladder — from descriptive to prescriptive — is the marketer's decision-making framework.",
+  "level": "beginner",
+  "category": "analytics",
+  "whyItMatters": "Understanding the analytics maturity curve, key data sources, building dashboards, data quality, and making decisions from imperfect data is what turns marketers from gut-feel operators into evidence-based strategists.",
+  "coreConcepts": [
+    "The analytics ladder (descriptive, diagnostic, predictive, prescriptive)",
+    "Key marketing data sources (CRM, web analytics, social listening, surveys, POS)",
+    "A/B testing fundamentals",
+    "Dashboards and KPI design",
+    "Attribution modelling (last-click, first-click, linear, data-driven)",
+    "Data quality (garbage in garbage out, collection methods, sample bias)",
+    "Data storytelling and visualisation",
+    "Data-informed vs data-driven decision making"
+  ],
+  "lessons": ["making-decisions-with-data"],
+  "frameworks": ["kpi-cheat-sheet", "ab-testing-framework"],
+  "visualType": "diagram",
+  "relatedModules": ["analytics-attribution-kpis", "testing-experimentation"],
+  "status": "complete",
+  "order": 24,
+  "levelNumber": 1
+}

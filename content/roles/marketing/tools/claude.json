@@ -1,0 +1,46 @@
+{
+  "slug": "claude",
+  "name": "Claude",
+  "category": "ai-automation",
+  "description": "Anthropic's AI assistant known for nuanced, thoughtful responses and strong analytical capabilities. Excellent for strategy work, long-form writing, and complex analysis.",
+  "whyUseIt": "Claude excels at longer, more thoughtful marketing work — writing comprehensive marketing plans, analysing competitive landscapes, crafting brand voice guidelines, and providing strategic recommendations. It handles nuance better than most AI tools.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "Long-form content creation, strategic analysis, code generation, document analysis, and multi-step reasoning for complex marketing problems.",
+  "alternatives": [
+    "ChatGPT",
+    "Gemini",
+    "Copilot"
+  ],
+  "url": "https://claude.ai",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/anthropic-1.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Marketing strategy documents and plans",
+    "Long-form blog posts and thought leadership articles",
+    "Competitive analysis reports",
+    "Brand voice guidelines and tone-of-voice frameworks",
+    "Email sequence copy and campaign messaging",
+    "Customer persona write-ups",
+    "Campaign performance analysis summaries"
+  ],
+  "marketerWorkflow": "A marketer opens Claude to draft campaign briefs, brainstorm positioning angles, or rewrite landing page copy with a specific tone. They paste in analytics data or competitor content and ask Claude to identify patterns, gaps, or opportunities. Throughout the day, Claude becomes a thinking partner for tasks that require strategic depth rather than quick one-liners.",
+  "managerExpects": "A marketing manager expects team members to use Claude to accelerate strategic deliverables — producing first drafts of marketing plans, competitive analyses, and campaign briefs in hours instead of days. They want to see the AI used as a force multiplier for quality thinking, not a replacement for it, with all outputs reviewed and refined by the marketer before sharing.",
+  "aiWorkflowImpact": "In 2025, Claude's extended context window means marketers can upload entire brand guideline documents, past campaign reports, and competitor research in a single conversation and get analysis that accounts for all of it. Projects functionality allows persistent workspaces where the AI remembers your brand context across sessions, eliminating repetitive re-prompting.",
+  "demoDescription": "Open claude.ai and paste in a competitor's homepage copy. Ask Claude to analyse their positioning, identify their target audience, list their key value propositions, and suggest three ways your brand could differentiate. Then ask it to draft a one-page competitive positioning brief based on the analysis.",
+  "vocabulary": [
+    { "term": "Prompt engineering", "definition": "The practice of crafting specific, well-structured instructions to get the best possible output from an AI model." },
+    { "term": "Context window", "definition": "The maximum amount of text (measured in tokens) that the AI can process in a single conversation, determining how much information it can consider at once." },
+    { "term": "Artifacts", "definition": "Standalone documents, code, or visualisations that Claude creates in a separate panel for easy copying and iteration." },
+    { "term": "System prompt", "definition": "Background instructions given to Claude that shape its behaviour, tone, and output format for a specific use case." },
+    { "term": "Projects", "definition": "Persistent workspaces in Claude where you can store custom instructions and reference documents that carry across multiple conversations." },
+    { "term": "Temperature", "definition": "A setting that controls how creative or deterministic the AI's responses are — lower is more predictable, higher is more varied." }
+  ],
+  "beginnerMistakes": [
+    "Writing vague one-line prompts instead of providing detailed context, examples, and constraints",
+    "Accepting the first output without iterating — treating the AI as a vending machine rather than a collaborator",
+    "Failing to provide brand voice guidelines or existing content samples, resulting in generic-sounding output",
+    "Using Claude for real-time data or current events without verifying, since the model has a knowledge cutoff",
+    "Not breaking complex requests into steps — asking for an entire marketing plan in one prompt instead of building it section by section"
+  ],
+  "relatedProject": "full-marketing-plan"
+}

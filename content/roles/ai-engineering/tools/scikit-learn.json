@@ -1,0 +1,15 @@
+{
+  "slug": "scikit-learn",
+  "name": "scikit-learn",
+  "category": "framework",
+  "description": "The standard library for classical machine learning in Python. Clean API for classification, regression, clustering, dimensionality reduction, and model evaluation.",
+  "whyUseIt": "scikit-learn is where every ML engineer starts. Its consistent API (fit/predict/transform), excellent documentation, and comprehensive algorithm library make it the foundation for tabular ML.",
+  "pricingTier": "free",
+  "url": "https://scikit-learn.org",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/scikit-learn.svg",
+  "alternatives": [
+    "XGBoost",
+    "LightGBM",
+    "CatBoost"
+  ]
+}

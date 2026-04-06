@@ -1,0 +1,24 @@
+{
+  "slug": "agents-and-approval-loops",
+  "moduleSlug": "ai-agents",
+  "title": "Agents, Tool Loops, and Approval Boundaries",
+  "objective": "Understand the difference between autonomous-looking demos and production-safe agent systems.",
+  "beginnerExplanation": "An agent system usually plans a task, calls tools, checks results, and either continues or asks for help. The human job is to decide where approval is required and what the system should do when it cannot complete a step cleanly.",
+  "deeperExplanation": "Production agent design is about bounded autonomy. That means permission scopes, retries, partial failure recovery, action logging, and clear human checkpoints for high-impact steps. The frontier pattern is not “let it run”; it is “let it run safely.”",
+  "keyTakeaways": [
+    "Agents need explicit permission boundaries.",
+    "Tool traces are essential for debugging and auditability.",
+    "The best agent systems recover gracefully instead of pretending everything worked."
+  ],
+  "frameworks": [
+    "ai-agent-patterns"
+  ],
+  "example": "A code review agent summarizes diffs, runs tests, proposes a patch, and pauses for human approval before opening a pull request.",
+  "commonMistakes": [
+    "Giving agents more authority than their observability supports.",
+    "Skipping action logs and then being unable to debug behavior.",
+    "Treating planning as more important than recovery and rollback."
+  ],
+  "exercise": "Design an internal agent that can propose but not merge code changes. List its tools, approval boundaries, and the telemetry you would capture.",
+  "order": 1
+}

@@ -32,9 +32,9 @@ export default async function RoleBlueprintPage({
           Blueprint
         </h1>
         <p className="mt-3 max-w-3xl text-lg text-editorial-muted">
-          This blueprint is assembled from the subjects most closely related to the role.
-          It shows where the training is coming from rather than pretending the role lives
-          in only one subject.
+          This blueprint shows where the role training is coming from, whether it lives
+          inside the role itself or is pulled from related subjects. It keeps the role
+          grounded without pretending every capability comes from one place.
         </p>
       </div>
 
@@ -60,16 +60,19 @@ export default async function RoleBlueprintPage({
       </div>
 
       {Object.entries(grouped).map(([sourceSlug, sourceModules]) => {
-        const subject = getSubject(sourceSlug)
+        const sourceKind = sourceModules[0]?.sourceMeta?.sourceKind
+        const subject = sourceKind === "subject" ? getSubject(sourceSlug) : null
+        const sourceLabel = subject?.name ?? (sourceKind === "role" ? role.name : sourceSlug)
+        const sourceEyebrow = sourceKind === "role" ? "Core role material" : "Source subject"
 
         return (
           <section key={sourceSlug} className="space-y-4">
             <div>
               <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-                Source subject
+                {sourceEyebrow}
               </p>
               <h2 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
-                {subject?.name ?? sourceSlug}
+                {sourceLabel}
               </h2>
             </div>
 

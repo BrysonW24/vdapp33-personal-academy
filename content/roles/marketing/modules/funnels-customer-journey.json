@@ -1,0 +1,33 @@
+{
+  "slug": "funnels-customer-journey",
+  "title": "Funnels and the Customer Journey",
+  "shortSummary": "Customers do not buy the first time they hear about you. They go through a journey from awareness to consideration to decision. This module teaches you how to map that journey, build marketing funnels, and create the right content and touchpoints at each stage.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "Understanding the customer journey is the difference between random marketing and strategic marketing. When you know where someone is in their buying process, you can give them exactly the right information at the right time. This dramatically increases conversion rates and reduces wasted spend on messages that miss the mark.",
+  "coreConcepts": [
+    "The traditional marketing funnel: awareness, consideration, decision",
+    "Why the funnel is actually more like a flywheel",
+    "Customer journey mapping: touchpoints, emotions, and decisions",
+    "Top of funnel (TOFU), middle of funnel (MOFU), bottom of funnel (BOFU) content",
+    "Lead magnets and entry points",
+    "Nurture sequences and progressive engagement",
+    "Conversion rate optimisation at each stage",
+    "Multi-touch attribution: understanding how channels work together"
+  ],
+  "lessons": ["mapping-the-customer-journey"],
+  "frameworks": [
+    "aida",
+    "aarrr",
+    "customer-journey-map"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "customer-market-demand",
+    "content-marketing",
+    "analytics-attribution-kpis"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 3
+}

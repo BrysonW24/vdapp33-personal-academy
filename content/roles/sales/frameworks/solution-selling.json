@@ -1,0 +1,13 @@
+{
+  "slug": "solution-selling",
+  "name": "Solution Selling",
+  "summary": "A sales methodology focused on matching a defined buyer problem to a specific, believable solution path rather than leading with generic product pitch.",
+  "whenToUseIt": "Use solution selling after the buyer's problem is clear enough to map your product to a practical fix, especially when several options exist and fit matters more than hype.",
+  "steps": [
+    "Clarify the business problem and the required capabilities to solve it.",
+    "Position the parts of the solution that directly address those capabilities.",
+    "Validate that the proposed solution fits the buyer's process, stakeholders, and success criteria."
+  ],
+  "example": "A rep selling revenue software does not demo the whole platform. They show only the workflow, inspection, and analytics pieces that solve the manager-coaching problem uncovered in discovery.",
+  "category": "sales-methodology"
+}

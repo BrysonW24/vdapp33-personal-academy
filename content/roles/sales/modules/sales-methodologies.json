@@ -1,0 +1,42 @@
+{
+  "slug": "sales-methodologies",
+  "title": "Sales Methodologies",
+  "shortSummary": "Learn the major selling systems modern B2B teams use so you can choose the right motion for each deal instead of copying one playbook blindly.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Sales methodologies are operating systems for how you think, question, position, qualify, and move a deal. Reps who know only one methodology tend to overuse it. Strong sellers understand several, then combine the right pieces for the buyer, the product, and the decision complexity in front of them.",
+  "coreConcepts": [
+    "The difference between questioning techniques, qualification frameworks, and full sales methodologies",
+    "Consultative, solution, value, and insight-led selling motions",
+    "Challenger and Sandler as behavior systems rather than scripts",
+    "Customer-centric, account-based, and enterprise strategic selling models",
+    "Choosing methodology by deal complexity, stakeholder count, and change risk",
+    "Blending multiple methods without sounding formulaic"
+  ],
+  "lessons": [
+    "consultative-solution-and-value-selling",
+    "challenger-sandler-and-insight-selling",
+    "matching-methodology-to-deal-type"
+  ],
+  "frameworks": [
+    "consultative-selling",
+    "solution-selling",
+    "value-selling",
+    "challenger-sale",
+    "sandler-selling",
+    "customer-centric-selling",
+    "strategic-selling-miller-heiman",
+    "account-based-selling",
+    "insight-selling",
+    "gap-selling"
+  ],
+  "relatedModules": [
+    "what-sales-is",
+    "communication-fundamentals",
+    "discovery-calls",
+    "enterprise-sales"
+  ],
+  "status": "complete",
+  "order": 4.5,
+  "levelNumber": 1
+}

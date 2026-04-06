@@ -1,0 +1,31 @@
+{
+  "slug": "llm-engineering",
+  "title": "LLM Application Foundations",
+  "shortSummary": "Understand how modern AI products are assembled from models, prompts, retrieval, guardrails, UI, and feedback loops.",
+  "track": "core-frontier",
+  "level": "intermediate",
+  "category": "foundation",
+  "whyItMatters": "If you want to build for OpenAI-, Anthropic-, Cursor-, or Perplexity-style environments, you need to think in application systems, not isolated model demos. This module introduces the practical surface area of real LLM products.",
+  "coreConcepts": [
+    "Model APIs versus self-hosted models",
+    "Structured outputs, tool use, and orchestration basics",
+    "The relationship between prompts, retrieval, context, and UX",
+    "Where reliability breaks in production LLM systems",
+    "How to choose the smallest architecture that solves the problem"
+  ],
+  "lessons": [
+    "working-with-llms"
+  ],
+  "frameworks": [
+    "llm-application-stack",
+    "prompt-engineering-patterns"
+  ],
+  "relatedModules": [
+    "prompting-structured-outputs-tool-calling",
+    "vector-databases-retrieval",
+    "ai-agents"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

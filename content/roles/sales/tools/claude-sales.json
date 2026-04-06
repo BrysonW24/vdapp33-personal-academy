@@ -1,0 +1,28 @@
+{
+  "slug": "claude-sales",
+  "name": "Claude for Sales",
+  "category": "ai-automation",
+  "description": "Anthropic's AI assistant known for nuanced reasoning, long-context analysis, and thoughtful writing. Claude excels at complex sales tasks: analysing long documents, building business cases, crafting sophisticated proposals, and providing strategic advice.",
+  "whyUseIt": "Claude's strength is depth and reasoning. Where other AI tools are good for quick tasks, Claude excels at complex ones: analysing a 50-page RFP and drafting a tailored response, building a detailed ROI model with multiple scenarios, writing proposals that sound human and strategic, and role-playing difficult buyer personas with realistic pushback. Its long context window means you can feed it your entire deal history and get nuanced advice.",
+  "pricingTier": "freemium",
+  "url": "https://claude.ai",
+  "logoUrl": "/tools/claude-sales.svg",
+  "aiCapabilities": "Advanced reasoning, 200K+ token context window for analysing long documents, nuanced writing that avoids typical AI patterns, and strong analytical capabilities for business case building and strategic planning.",
+  "alternatives": ["chatgpt-sales", "copy-ai"],
+  "funnelPosition": "Full funnel — complex analysis, strategic planning, and sophisticated writing tasks",
+  "outputs": ["Proposal drafts", "RFP responses", "Business case models", "Strategic account analysis", "Deal strategy memos", "Competitive intelligence"],
+  "sellerWorkflow": "For proposals: paste discovery notes and ask Claude to draft the executive summary and business case. For deal strategy: share the MEDDIC scorecard and ask for advice on next steps. For RFPs: upload the document and have Claude draft responses section by section. For coaching: ask Claude to critique your email or call script.",
+  "managerExpects": "AI augments the rep's expertise — it doesn't replace it. Complex deliverables should be AI-assisted but human-directed, with the rep adding their deal knowledge and relationship context.",
+  "demoDescription": "Upload discovery notes and generate a proposal executive summary. Feed in an RFP and draft responses. Share a MEDDIC scorecard and get strategic deal advice. Role-play a tough negotiation with Claude as procurement.",
+  "vocabulary": [
+    { "term": "Context Window", "definition": "The amount of text the AI can process at once — Claude's large context window allows it to analyse entire proposals, RFPs, and deal histories in a single conversation." },
+    { "term": "System Prompt", "definition": "Instructions that shape Claude's behaviour — like 'Act as an experienced B2B sales coach specialising in SaaS enterprise deals.'" }
+  ],
+  "beginnerMistakes": [
+    "Not providing enough context — the more deal history and background you share, the better the output",
+    "Using AI for tasks where your own deal knowledge is essential — AI drafts, you decide",
+    "Sending AI-generated proposals without adding your personal insight and relationship context",
+    "Not iterating — the first output is a starting point, not the final product"
+  ],
+  "relatedProject": "proposal-writing"
+}

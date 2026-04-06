@@ -1,0 +1,69 @@
+{
+  "slug": "negotiation-sim",
+  "title": "Negotiation Simulation",
+  "difficulty": 9,
+  "estimatedHours": 6,
+  "description": "Navigate a complex deal negotiation with multiple variables: price, contract length, payment terms, implementation scope, SLA levels, and support tiers. Prepare your strategy, role-play with a partner playing procurement, and document your approach.",
+  "whyItMatters": "Negotiation is where margin is protected or given away. Most reps cave too quickly on price because they haven't prepared, don't understand procurement tactics, and are afraid of losing the deal. This simulation teaches you to negotiate commercially: trading value rather than conceding, anchoring effectively, and knowing your walk-away point. These skills directly affect your commission cheque and your company's profitability.",
+  "skillsLearned": [
+    "Multi-variable negotiation strategy",
+    "Anchoring and framing techniques",
+    "Understanding procurement tactics",
+    "Trading vs conceding",
+    "BATNA analysis (Best Alternative to Negotiated Agreement)",
+    "Closing under pressure"
+  ],
+  "prerequisites": ["objection-playbook", "proposal-writing"],
+  "steps": [
+    {
+      "title": "Set Up the Negotiation Scenario",
+      "description": "Define the deal: product, list price ($80K ACV), buyer company, buyer's budget constraints, competitive alternatives, and all negotiable variables. Create a term sheet with 6 variables: annual price, contract length (1-3 years), payment terms (monthly/quarterly/annual), implementation scope (basic/premium), SLA level (standard/enterprise), and support tier (email/phone/dedicated).",
+      "tips": "Make the scenario complex enough to require trade-offs. The buyer wants a discount but also wants premium implementation. You can trade: lower price for longer contract, or free premium implementation for annual upfront payment."
+    },
+    {
+      "title": "Prepare Your Strategy",
+      "description": "Before the negotiation, document: (1) Your ideal outcome for each variable. (2) Your acceptable range for each variable. (3) Your walk-away point (BATNA). (4) The 3 most likely procurement tactics and how you'll respond. (5) Your opening position. (6) Three pre-planned concessions with what you'll ask for in return.",
+      "tips": "Never make a concession without getting something back. 'I can reduce the price by 10% if you commit to a 3-year term' is a trade. 'OK, I'll drop the price by 10%' is a giveaway."
+    },
+    {
+      "title": "Role-Play the Negotiation",
+      "description": "Brief a partner on the buyer's position (give them a procurement brief with their budget, alternatives, and tactics to use). Then run a 30-40 minute negotiation. The buyer should push on price, reference a competitor's lower price, ask for free extras, and try to shorten the contract. Record if possible.",
+      "tips": "Ask your partner to use real procurement tactics: 'We really like your product but competitor X came in 20% lower', 'Can you throw in implementation for free?', 'We're only prepared to sign for 12 months.' Practise responding calmly to each."
+    },
+    {
+      "title": "Document the Outcome",
+      "description": "After the negotiation, document: what you agreed on for each variable, how the outcome compares to your ideal and walk-away positions, the total value of what you gave away vs what you got in return, and whether the deal is profitable for both sides.",
+      "tips": "Calculate the total contract value of the final agreement. Compare it to both your list price and your walk-away. Assess: did you protect enough margin? Did you create a win-win?"
+    },
+    {
+      "title": "After-Action Review",
+      "description": "Write an honest after-action review: (1) What tactics did the buyer use? (2) Which ones worked on you? (3) Where did you hold firm? (4) Where did you give away value unnecessarily? (5) What would you do differently next time? (6) How did your preparation hold up?",
+      "tips": "The most valuable learning is identifying where you caved under pressure. Was it when they mentioned the competitor? When they pushed back a third time? Understanding your own negotiation psychology is half the battle."
+    }
+  ],
+  "deliverables": [
+    "A negotiation scenario brief with term sheet and 6 negotiable variables",
+    "A pre-negotiation strategy document with ideal outcomes, ranges, BATNA, and planned trades",
+    "A completed outcome document showing final terms vs plan",
+    "An after-action review with tactical analysis and personal improvement insights"
+  ],
+  "tools": ["notion-sales", "google-workspace", "zoom"],
+  "rubric": [
+    {
+      "criteria": "Preparation Quality",
+      "description": "Strategy document shows clear thinking: ideal outcomes, acceptable ranges, walk-away points, anticipated tactics, and pre-planned trades are all documented before the negotiation begins."
+    },
+    {
+      "criteria": "Negotiation Skill",
+      "description": "During the role-play, the negotiator trades rather than concedes, handles pressure calmly, uses anchoring effectively, and moves towards a mutually acceptable outcome."
+    },
+    {
+      "criteria": "Commercial Awareness",
+      "description": "The final agreement is commercially sound — not a giveaway. Total contract value is within acceptable range and the terms create a sustainable business relationship."
+    },
+    {
+      "criteria": "Self-Awareness",
+      "description": "The after-action review is honest and insightful. The negotiator identifies specific moments where they were effective or vulnerable and draws actionable lessons."
+    }
+  ]
+}

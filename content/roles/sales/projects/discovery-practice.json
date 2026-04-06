@@ -1,0 +1,70 @@
+{
+  "slug": "discovery-practice",
+  "title": "Discovery Call Practice",
+  "difficulty": 3,
+  "estimatedHours": 3,
+  "description": "Script a complete discovery call for a specific product and buyer persona, then role-play it with a partner. Practise open-ended questioning, active listening, pain quantification, and next-step setting. Record yourself if possible.",
+  "whyItMatters": "You can study discovery frameworks all day, but the skill only develops through practice. The first few discovery calls every rep does are awkward — they ask leading questions, talk too much, forget to quantify pain, and end without next steps. This project gets the awkward reps out of the way in a safe environment so your real calls are sharper.",
+  "skillsLearned": [
+    "Discovery call structure and flow",
+    "Open-ended questioning techniques",
+    "Active listening and follow-up questioning",
+    "Pain quantification",
+    "BANT and MEDDIC qualification in practice",
+    "Setting clear next steps"
+  ],
+  "prerequisites": ["prospect-research"],
+  "steps": [
+    {
+      "title": "Choose Your Scenario",
+      "description": "Select a product (real or hypothetical) and a buyer persona. Define the buyer's company, role, current situation, pain points (that they may or may not reveal easily), budget range, decision process, and timeline. Write a one-page scenario brief.",
+      "tips": "Make the scenario realistic. Include details that the buyer wouldn't volunteer unless asked — like a competitor evaluation in progress, or a sceptical CFO who needs convincing. This makes the role-play more valuable."
+    },
+    {
+      "title": "Script Your Call",
+      "description": "Write a full discovery call script following the structure: Opening and agenda-setting (2 min) → Situational questions (5 min) → Pain discovery questions (10 min) → Impact quantification (5 min) → Future state (5 min) → Process and next steps (5 min). Write out every question you plan to ask, plus 3-4 follow-up questions for each section.",
+      "tips": "A script is a guide, not a straitjacket. You won't follow it word-for-word in real life. But having it written forces you to think through the flow and ensures you don't forget critical qualification questions."
+    },
+    {
+      "title": "Prepare a MEDDIC Scorecard",
+      "description": "Create a blank MEDDIC scorecard that you'll fill in during the role-play. For each letter (Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion), write the specific questions you'll ask to uncover that information.",
+      "tips": "Don't ask MEDDIC questions in order — weave them naturally into the conversation. 'Who else is involved in evaluating this?' (Decision Process) can come up organically after discussing pain."
+    },
+    {
+      "title": "Role-Play the Call",
+      "description": "Find a partner to play the buyer. Brief them on the scenario (but hold back some details so they can improvise). Run the full 30-minute discovery call. If possible, record it. The buyer should be realistic — give short answers sometimes, push back, mention a competitor, express time pressure.",
+      "tips": "If you don't have a partner, record yourself speaking both parts. Alternatively, use an AI tool like ChatGPT or Claude as a simulated buyer — give it the scenario brief and have a voice conversation."
+    },
+    {
+      "title": "Self-Assessment",
+      "description": "After the role-play, fill in your MEDDIC scorecard based on what you learned. Then review the recording (or your notes) and assess: How much did you talk vs listen? Did you go deep enough on pain? Did you quantify the impact? Did you set clear next steps? Write 3 things you did well and 3 things to improve.",
+      "tips": "The talk-to-listen ratio is the single best indicator. If you talked more than 40% of the time, you're talking too much. Top discovery callers aim for 30/70."
+    }
+  ],
+  "deliverables": [
+    "A one-page scenario brief (product, buyer persona, situation)",
+    "A full discovery call script with questions for each section",
+    "A blank MEDDIC scorecard with tailored questions for this scenario",
+    "A completed MEDDIC scorecard filled in after the role-play",
+    "A self-assessment with 3 strengths and 3 improvement areas"
+  ],
+  "tools": ["gong", "zoom", "notion-sales"],
+  "rubric": [
+    {
+      "criteria": "Question Quality",
+      "description": "Questions are open-ended, layered (going deeper on answers), and designed to uncover real pain rather than confirm assumptions."
+    },
+    {
+      "criteria": "Discovery Depth",
+      "description": "Pain is quantified with specific numbers, impact is explored across the business, and the cost of inaction is established."
+    },
+    {
+      "criteria": "Qualification Completeness",
+      "description": "The MEDDIC scorecard is substantially complete — at minimum, Pain, Economic Buyer, and Decision Process are identified."
+    },
+    {
+      "criteria": "Self-Awareness",
+      "description": "The self-assessment is honest and specific — not generic ('I should listen more') but actionable ('I asked three leading questions in the pain section that I should rephrase as open-ended')."
+    }
+  ]
+}

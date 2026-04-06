@@ -1,0 +1,73 @@
+{
+  "slug": "strategic-account-planning-that-compounds",
+  "moduleSlug": "strategic-accounts",
+  "title": "Strategic Account Planning That Compounds",
+  "objective": "Learn how to build account plans for your most important customers so relationships, influence, and revenue all grow over time.",
+  "beginnerExplanation": "Strategic account planning is what separates large, compounding accounts from accounts that simply renew. The goal is to understand the customer like an operator: their priorities, power structure, growth plans, risks, and whitespace. That lets you act early instead of reacting late.",
+  "deeperExplanation": "A useful account plan covers five areas. Business priorities: what matters to the customer this year? Relationship map: who trusts you, who does not know you, and who can sponsor bigger outcomes? Current footprint: where are you already embedded and what proof exists? Risk map: what could reduce renewal confidence or shrink usage? Expansion map: where is the next logical value?\n\nStrategic account plans are living documents. They should change when leadership changes, initiatives shift, or usage patterns move. They are not annual paperwork. They are operating tools.\n\nThe compounding effect comes from consistency. When you keep updating the plan and acting from it, you become harder to replace and better positioned to grow the account deliberately.",
+  "keyTakeaways": [
+    "Strategic account planning is about running the account proactively, not just reacting to requests.",
+    "Strong plans connect business priorities, relationship strength, risk, and expansion.",
+    "Account plans should evolve as the customer changes.",
+    "Current footprint and proven outcomes are your expansion foundation.",
+    "Strategic accounts grow when influence and value both deepen over time.",
+    "The plan matters only if it shapes actions, not if it sits untouched."
+  ],
+  "frameworks": [
+    "account-planning-canvas",
+    "value-selling",
+    "meddic"
+  ],
+  "example": "A strategic account plan for a global customer shows a strong foothold in one region, weak executive coverage in another, and a renewal risk tied to low adoption in one team. That plan drives three actions: a QBR with the executive sponsor, an adoption recovery plan with operations, and a whitespace conversation with a second region that shares similar use cases.",
+  "commonMistakes": [
+    "Treating account plans as annual admin rather than active strategy",
+    "Focusing on opportunity value without mapping relationship risk",
+    "Ignoring low adoption because the renewal still feels safe",
+    "Failing to update the plan when leaders or priorities change",
+    "Listing expansion ideas without ranking them by timing and value"
+  ],
+  "exercise": "Build a simple account plan with five headings: business priorities, relationship map, current footprint, risk, and expansion. Then write the top three actions you would take in the next 30 days based on it.",
+  "nextLesson": "land-and-expand-as-a-deliberate-strategy",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main purpose of a strategic account plan?",
+      "options": [
+        "To store contract files",
+        "To manage growth, risk, and relationships proactively inside a key account",
+        "To replace QBRs",
+        "To delay expansion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strategic account plans help you operate the account deliberately rather than reactively."
+    },
+    {
+      "question": "Why should an account plan be updated regularly?",
+      "options": [
+        "Because the customer and their priorities change",
+        "Because templates demand it",
+        "Because renewals never happen",
+        "Because account plans should always get longer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A static plan goes stale quickly because the account itself keeps moving."
+    },
+    {
+      "question": "What makes strategic account growth compound?",
+      "options": [
+        "Random upsell attempts",
+        "Consistent planning tied to real action across relationships, risk, and value creation",
+        "Ignoring low-adoption signals",
+        "Only talking to procurement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Compounding comes from repeated, strategic account work over time."
+    }
+  ],
+  "perspectives": {
+    "ae": "Strategic AEs use account plans to decide where to invest attention before the customer asks for anything.",
+    "manager": "Managers can spot whether account strategy is real by looking at the action plan, not the document length.",
+    "vp": "A VP wants strategic accounts managed with rigor because a small number of customers often drive a large share of revenue.",
+    "cro": "A CRO sees account planning as core to enterprise retention, expansion, and executive alignment."
+  }
+}

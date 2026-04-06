@@ -1,0 +1,13 @@
+{
+  "slug": "assumptive-close",
+  "name": "Assumptive Close",
+  "summary": "A close technique that speaks as if the buyer is moving forward, but only when enough momentum already exists to make that assumption feel natural.",
+  "whenToUseIt": "Use the assumptive close only when alignment is already strong and the buyer has clearly signaled that the main question is how to move forward, not whether to move forward.",
+  "steps": [
+    "Confirm there is real alignment on problem, value, and process first.",
+    "Frame the conversation around the next move rather than the existence of the deal.",
+    "Watch carefully for hesitation so you can return to diagnosis if needed."
+  ],
+  "example": "A rep says, 'Let's plan the paperwork and implementation review for next week,' because the buyer has already agreed on the business case, budget, and stakeholder path.",
+  "category": "closing"
+}

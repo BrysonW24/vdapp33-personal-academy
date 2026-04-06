@@ -29,9 +29,11 @@ export default async function RoleModuleDetailPage({
 
   const lessons = getRoleLessonsForModule(slug, moduleSlug)
   const firstLesson = lessons[0] ?? null
-  const sourceSubject = roleModule.sourceMeta?.sourceSlug
-    ? getSubject(roleModule.sourceMeta.sourceSlug)
-    : null
+  const sourceSubject =
+    roleModule.sourceMeta?.sourceKind === "subject" && roleModule.sourceMeta.sourceSlug
+      ? getSubject(roleModule.sourceMeta.sourceSlug)
+      : null
+  const isRoleCoreModule = roleModule.sourceMeta?.sourceKind === "role"
   const guideRail = buildGuideRail({
     entity: { kind: "role", slug, name: role.name },
     whyThisMatters: `${roleModule.title} matters here because ${role.name} uses this knowledge in live decisions, real systems, and accountable work.`,
@@ -56,7 +58,11 @@ export default async function RoleModuleDetailPage({
     <div className="container mx-auto max-w-4xl px-4 py-10">
       <ProgressTracker
         slug={roleModule.slug}
-        subjectSlug={roleModule.sourceMeta?.sourceSlug}
+        subjectSlug={
+          roleModule.sourceMeta?.sourceKind === "subject"
+            ? roleModule.sourceMeta.sourceSlug
+            : undefined
+        }
         type="module"
       />
 
@@ -76,6 +82,11 @@ export default async function RoleModuleDetailPage({
         {roleModule.category ? (
           <span className="inline-block rounded-full bg-editorial-blue-soft px-2.5 py-0.5 text-xs font-medium text-editorial-blue">
             {humanize(roleModule.category)}
+          </span>
+        ) : null}
+        {isRoleCoreModule ? (
+          <span className="inline-block rounded-full bg-editorial-violet-soft px-2.5 py-0.5 text-xs font-medium text-editorial-violet">
+            Core role material
           </span>
         ) : null}
         {sourceSubject ? (

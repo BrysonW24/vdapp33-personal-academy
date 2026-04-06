@@ -1,0 +1,58 @@
+{
+  "slug": "small-business",
+  "title": "Solo Marketer — Small Business",
+  "setting": "Small business (under 50 employees)",
+  "companySize": "5-50 employees",
+  "description": "You're the only person doing marketing at a small Australian business. You might not even have 'Marketing' in your title — you could be 'Marketing & Communications Coordinator' or even 'Office Manager who also does marketing.' You do everything: social media, emails, website updates, flyers, events. It's scrappy, resourceful, and deeply rewarding when it works.",
+  "salary": "$65,000 - $90,000 AUD",
+  "schedule": [
+    {"time": "8:30 AM", "activity": "Open the shop or office. Check Google reviews, social media comments, and email enquiries from overnight.", "tools": ["Gmail", "Instagram", "Google Business Profile"], "note": "Customer service and marketing overlap heavily in small business"},
+    {"time": "9:00 AM", "activity": "Post today's social media content — photo from yesterday's event, customer testimonial, or product highlight", "tools": ["Canva", "Instagram", "Facebook"]},
+    {"time": "9:30 AM", "activity": "Quick chat with the owner about this week's priorities — new product arriving, upcoming sale, community event"},
+    {"time": "10:00 AM", "activity": "Update the website with new products and this week's specials", "tools": ["Shopify", "WordPress"]},
+    {"time": "10:45 AM", "activity": "Design a promotional flyer for the local market this weekend", "tools": ["Canva"]},
+    {"time": "11:30 AM", "activity": "Reply to customer DMs and comments on social media", "tools": ["Instagram", "Facebook Messenger"]},
+    {"time": "12:00 PM", "activity": "Lunch — scroll through competitor socials and industry trends for inspiration"},
+    {"time": "12:30 PM", "activity": "Write this week's email newsletter — feature a customer story and upcoming events", "tools": ["Mailchimp"]},
+    {"time": "1:30 PM", "activity": "Take product photos for next week's social content", "tools": ["iPhone", "Canva"]},
+    {"time": "2:30 PM", "activity": "Review last month's sales data to understand what marketing drove results", "tools": ["Shopify Analytics", "Google Analytics"]},
+    {"time": "3:00 PM", "activity": "Coordinate with a local influencer for a collaboration post", "tools": ["Instagram DMs", "Email"]},
+    {"time": "3:30 PM", "activity": "Update Google Business Profile with new photos and respond to reviews", "tools": ["Google Business Profile"]},
+    {"time": "4:00 PM", "activity": "Brainstorm next month's marketing initiatives with the owner", "tools": ["Notion"]},
+    {"time": "4:30 PM", "activity": "Print materials for this weekend's market stall, pack marketing collateral"},
+    {"time": "5:00 PM", "activity": "Wrap up — queue tomorrow's social post, check email one last time"}
+  ],
+  "responsibilities": [
+    "Manage all social media accounts (content creation, scheduling, engagement)",
+    "Send weekly/monthly email newsletters",
+    "Update and maintain the website",
+    "Create all marketing materials (digital and print)",
+    "Manage Google Business Profile and local SEO",
+    "Handle customer communication on social platforms",
+    "Coordinate local partnerships and community events",
+    "Track basic marketing metrics and report to the owner"
+  ],
+  "challenges": [
+    "Tiny budget (or no budget) — you need to be creative with free tools",
+    "Doing everything alone with no specialist support",
+    "No formal marketing training — learning on the job",
+    "Blurred lines between marketing, admin, and customer service",
+    "Difficulty measuring ROI when systems aren't sophisticated",
+    "The owner may not understand what marketing requires"
+  ],
+  "rewards": [
+    "Total creative freedom — you decide what to post, when, and how",
+    "Incredibly broad experience across every marketing channel",
+    "Direct relationship with customers — you see the human impact",
+    "Resourcefulness becomes your superpower",
+    "Every skill you learn is immediately applicable",
+    "Perfect springboard to a bigger marketing role"
+  ],
+  "careerPath": [
+    "Marketing Coordinator / Solo Marketer (1-2 years)",
+    "Marketing Manager at a medium business (2-4 years)",
+    "Head of Marketing (4-6 years)",
+    "Start your own consultancy or agency",
+    "Transition to a specialist role (content, social, email) at a larger company"
+  ]
+}

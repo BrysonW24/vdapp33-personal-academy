@@ -1,0 +1,13 @@
+{
+  "slug": "risk-reversal",
+  "name": "Risk Reversal",
+  "summary": "A closing technique that reduces perceived risk by offering a pilot, phased rollout, guarantee, or controlled entry path.",
+  "whenToUseIt": "Use risk reversal when the buyer is interested but still worried about commitment, change management, or downside if the rollout underperforms.",
+  "steps": [
+    "Identify the specific risk the buyer is still reacting to.",
+    "Offer a credible way to reduce or contain that risk without destroying commercial logic.",
+    "Tie the reduced-risk path to a clear success measure and next step."
+  ],
+  "example": "A buyer nervous about a company-wide rollout agrees to start with one region and predefined success metrics before expanding globally.",
+  "category": "closing"
+}

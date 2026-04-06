@@ -1,0 +1,19 @@
+{
+  "slug": "business-model-canvas",
+  "name": "Business Model Canvas",
+  "summary": "A one-page framework that maps the 9 building blocks of how a business creates, delivers, and captures value.",
+  "whenToUseIt": "When launching a new business, evaluating a startup, understanding a competitor's model, or presenting a business overview.",
+  "steps": [
+    "Value Proposition (what you offer)",
+    "Customer Segments (who you serve)",
+    "Channels (how you reach them)",
+    "Customer Relationships (how you engage)",
+    "Revenue Streams (how you earn)",
+    "Key Resources (what you need)",
+    "Key Activities (what you do)",
+    "Key Partnerships (who helps)",
+    "Cost Structure (what it costs)"
+  ],
+  "example": "Airbnb — value prop is affordable unique stays, customer segments are travellers and hosts, channels are app/web/social, revenue from service fees, key resource is the platform and trust system, key partnership with property owners, cost structure is tech and support.",
+  "category": "strategy"
+}

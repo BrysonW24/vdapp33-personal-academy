@@ -1,0 +1,23 @@
+{
+  "slug": "closing",
+  "title": "Closing",
+  "shortSummary": "Closing isn't a trick — it's the natural conclusion of a well-run sales process. Learn when and how to ask for the business with confidence.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "You can prospect brilliantly, run perfect discovery, and deliver a killer demo — but if you can't close, none of it matters. Closing is not about high-pressure tactics. It's about guiding the buyer through their decision process, removing friction, creating appropriate urgency, and having the confidence to ask for the business. Most deals don't close because the rep simply never asked.",
+  "coreConcepts": [
+    "Assumptive close, summary close, and next-steps close",
+    "Creating urgency without being manipulative",
+    "Mutual action plans and close plans",
+    "Choosing the right close for the right moment",
+    "Getting verbal commitment and moving to paperwork",
+    "Navigating legal and procurement review",
+    "Post-close: setting up for successful onboarding"
+  ],
+  "lessons": ["building-a-mutual-action-plan", "asking-for-the-business", "closing-without-pressure"],
+  "frameworks": ["sandler-selling", "meddic", "gap-selling", "trial-close", "assumptive-close", "alternative-choice-close", "summary-close", "urgency-close", "risk-reversal", "next-step-close", "mutual-action-plan"],
+  "relatedModules": ["negotiation", "objection-handling", "account-management"],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 3
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "boomerang",
+  "name": "Boomerang",
+  "summary": "An objection technique that turns a concern into part of the reason to buy, but only when the logic is genuinely credible.",
+  "whenToUseIt": "Use boomerang carefully when the objection highlights a strength of the solution or the seriousness of the buyer's problem, and only if the logic will sound believable.",
+  "steps": [
+    "Clarify the objection so you know exactly what the buyer means.",
+    "Identify whether that concern actually reflects a strength or differentiator.",
+    "Reframe it back to the buyer only if the logic is fair and relevant."
+  ],
+  "example": "A buyer worries the rollout process seems rigorous. The rep explains that the rigor exists because the platform touches forecasting, governance, and management cadence, so sloppy implementation would create more risk than careful rollout.",
+  "category": "objection-handling"
+}

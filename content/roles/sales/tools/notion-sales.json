@@ -1,0 +1,27 @@
+{
+  "slug": "notion-sales",
+  "name": "Notion for Sales",
+  "category": "project-management",
+  "description": "A flexible workspace for notes, documents, wikis, and project management. In sales, Notion is used for deal notes, meeting prep, playbooks, competitive intelligence, and personal CRM tracking alongside the official CRM.",
+  "whyUseIt": "Your CRM tracks the deal. Notion tracks your thinking. Use it for detailed meeting notes, discovery call prep sheets, stakeholder analysis, competitive battle cards, and personal deal strategy. Many top AEs maintain a Notion workspace as their 'second brain' for sales — it's where the nuance lives that doesn't fit in CRM fields.",
+  "pricingTier": "freemium",
+  "url": "https://www.notion.so",
+  "logoUrl": "/tools/notion-sales.svg",
+  "aiCapabilities": "Notion AI can summarise meeting notes, draft follow-up emails, generate competitive analysis, and answer questions about your workspace content.",
+  "alternatives": ["google-workspace"],
+  "funnelPosition": "Full funnel — personal productivity and knowledge management across all deal stages",
+  "outputs": ["Meeting prep docs", "Deal strategy notes", "Competitive battle cards", "Sales playbooks", "Personal dashboards"],
+  "sellerWorkflow": "Before every call, create a meeting prep page with the prospect's background, questions to ask, and goals. After the call, capture notes and action items. Build a personal deal tracker with columns the CRM doesn't have. Maintain a library of competitive intelligence and objection responses.",
+  "managerExpects": "Organised, searchable notes for every deal. Meeting prep visible for coaching conversations. Playbook content kept current and shared with the team.",
+  "demoDescription": "Create a deal strategy page with linked databases for stakeholders, meeting notes, and action items. Use Notion AI to summarise a long meeting transcript into key takeaways.",
+  "vocabulary": [
+    { "term": "Database", "definition": "Notion's structured data tables — similar to a spreadsheet but with rich properties, views, and relations." },
+    { "term": "Template", "definition": "A pre-built page structure you can duplicate for repeated tasks — like a meeting prep template or deal review template." }
+  ],
+  "beginnerMistakes": [
+    "Over-engineering your workspace — start simple, add complexity only when needed",
+    "Duplicating CRM data in Notion — use Notion for the context and strategy that CRM can't capture",
+    "Not using templates — creating meeting prep pages from scratch each time wastes time"
+  ],
+  "relatedProject": "account-plan"
+}

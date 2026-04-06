@@ -1,0 +1,62 @@
+{
+  "slug": "scaling-with-automation",
+  "moduleSlug": "marketing-ops-automation",
+  "title": "Scaling with Automation",
+  "objective": "Understanding how to build marketing operations that scale through technology, automation, and process design.",
+  "beginnerExplanation": "Marketing automation is like setting up a series of dominoes — once you design the sequence, it runs on its own every time a trigger happens. A customer abandons their cart? An email goes out automatically. A lead downloads a whitepaper? They enter a nurture sequence. A trial user hasn't logged in for a week? A re-engagement message fires. You design it once, and it works around the clock.\n\nMarketing operations (often called 'marketing ops') is the discipline of making marketing run efficiently at scale. It covers the technology stack, the workflows, the data integrations, and the processes that allow a small team to execute like a much larger one. Without ops, marketing teams drown in manual work — copying data between tools, manually sending emails, building reports from scratch every week.\n\nThe goal isn't to remove humans from marketing — it's to free humans to do the work that actually requires human judgement: strategy, creative, empathy, and relationship building. Automation handles the repetitive, rules-based tasks so your team can focus on the work that moves the needle.",
+  "deeperExplanation": "The martech landscape has exploded to over 13,000 tools, making stack architecture a genuine strategic decision. The best marketing ops leaders think about their stack in layers: a core platform (CRM or marketing automation), a data layer (CDP or data warehouse), an execution layer (email, ads, social, web), and an analytics layer. The critical design principle is integration — every tool must connect to the others, or you end up with data silos that undermine everything.\n\nWorkflow automation platforms like Zapier, Make (formerly Integromat), and n8n allow marketers to build sophisticated multi-step automations without writing code. But the real power comes from combining these with lead scoring models — assigning points based on demographic fit and behavioural signals to prioritise which leads deserve human attention. A well-designed lead scoring model ensures sales teams spend time on the prospects most likely to convert.\n\nAI is reshaping marketing operations fundamentally. Predictive analytics can forecast campaign performance before launch. Natural language generation can draft email copy at scale. Conversational AI can qualify leads 24/7. Computer vision can analyse creative performance. The marketing ops leader of today needs to understand not just workflows and data, but how to evaluate, implement, and govern AI tools responsibly — including when automation should hand off to a human.",
+  "keyTakeaways": [
+    "Design your martech stack around integration capability, not individual feature lists",
+    "Automate repetitive, rules-based tasks first — cart abandonment, lead nurturing, reporting — to free your team for strategic work",
+    "Implement lead scoring to bridge marketing and sales with a shared definition of lead quality",
+    "Document every automation workflow so knowledge doesn't live in a single person's head",
+    "Evaluate AI tools for marketing ops by their ability to integrate with your existing stack and operate within your data governance framework"
+  ],
+  "frameworks": ["martech-stack-model", "aarrr"],
+  "example": "HubSpot practises what it preaches with its own marketing operations. Their team of roughly 500 marketers serves over 200,000 customers globally using automated lead scoring that evaluates hundreds of behavioural signals, behaviour-triggered nurture sequences that adapt based on engagement, and a connected martech stack that gives every team member a single view of the customer. Their blog alone drives millions of monthly visitors through SEO-optimised content workflows, with automated distribution across email, social, and retargeting channels — all orchestrated through their own platform.",
+  "commonMistakes": [
+    "Automating bad processes instead of fixing them first — automation amplifies inefficiency just as well as efficiency",
+    "Building a martech stack without an integration strategy, creating data silos that undermine personalisation",
+    "Over-automating to the point of losing human touch in moments that require empathy and judgement",
+    "Not documenting workflows so only one person understands how automations work and why they were built",
+    "Choosing tools based on feature checklists rather than integration capability and long-term scalability"
+  ],
+  "exercise": "Map your current (or a hypothetical) marketing workflow from lead capture to first sale. Identify each step, who owns it, and whether it's manual or automated. Then pick 3 manual steps that could be automated, choose a tool for each (Zapier, Make, or native platform integrations), and sketch the trigger-action logic for one automation — including the trigger event, any conditions or filters, and the action that fires.",
+  "nextLesson": "allocating-your-budget",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "What is the most important design principle when building a marketing technology stack?",
+      "options": [
+        "Choosing the tool with the most features in each category",
+        "Ensuring every tool integrates with the others to avoid data silos",
+        "Selecting the cheapest option in every category to minimise costs",
+        "Using only tools from a single vendor for simplicity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Integration capability is the critical design principle for a martech stack. Tools that cannot share data create silos that undermine personalisation, reporting accuracy, and the ability to build a complete customer view."
+    },
+    {
+      "question": "A marketing team is experiencing high volumes of inbound leads but the sales team complains that most leads are low quality. What automation strategy would best address this?",
+      "options": [
+        "Stop all lead generation campaigns immediately",
+        "Send every lead directly to sales without any filtering",
+        "Implement a lead scoring model that assigns points based on demographic fit and behavioural signals",
+        "Automate a discount offer to every inbound lead to increase conversion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lead scoring prioritises leads based on signals like demographic fit and engagement behaviour, ensuring sales teams spend their time on prospects most likely to convert rather than sifting through unqualified leads manually."
+    },
+    {
+      "question": "Which of the following is a common automation mistake?",
+      "options": [
+        "Documenting every automation workflow so multiple team members understand how it works",
+        "Automating a broken process without fixing it first, which amplifies the inefficiency",
+        "Using lead scoring to bridge marketing and sales alignment",
+        "Freeing the team from repetitive tasks so they can focus on strategy and creative"
+      ],
+      "correctIndex": 1,
+      "explanation": "Automation amplifies whatever process it is applied to — if the underlying process is inefficient or broken, automation will scale that inefficiency. Always fix the process before automating it."
+    }
+  ]
+}

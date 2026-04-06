@@ -1,0 +1,15 @@
+{
+  "slug": "vscode-ai",
+  "name": "VS Code + AI Extensions",
+  "category": "developer-tooling",
+  "description": "The most popular code editor with AI-powered extensions — GitHub Copilot, Continue, Cody, and Jupyter notebook support.",
+  "whyUseIt": "VS Code is the standard editor for AI engineers. With Copilot for code completion, Jupyter integration for experimentation, remote SSH for GPU servers, and Git integration — it's the complete development environment.",
+  "pricingTier": "freemium",
+  "url": "https://code.visualstudio.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg",
+  "alternatives": [
+    "Cursor",
+    "JetBrains",
+    "Vim"
+  ]
+}

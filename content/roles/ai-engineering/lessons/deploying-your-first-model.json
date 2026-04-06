@@ -1,0 +1,71 @@
+{
+  "slug": "deploying-your-first-model",
+  "moduleSlug": "mlops-deployment",
+  "title": "Deploying Your First Model",
+  "objective": "Take a trained model and deploy it as a live API that other applications can call — using FastAPI, Docker, and basic deployment practices.",
+  "beginnerExplanation": "A model sitting in a Jupyter notebook is useless to users. To make it useful, you need to wrap it in an API that other software can call. This is deployment — getting your model from your laptop into a place where it can serve predictions to real users.\n\nThe simplest deployment path:\n\n1. **Save your trained model** to a file (using pickle or joblib in scikit-learn, or `model.save()` in PyTorch).\n2. **Build an API** with FastAPI — a Python framework that makes it easy to create web APIs. Your API has an endpoint like `/predict` that accepts input data and returns the model's prediction.\n3. **Containerise with Docker** — Package your API, model, and all dependencies into a Docker container. This ensures it runs the same everywhere — your laptop, a colleague's machine, or a cloud server.\n4. **Deploy to the cloud** — Push your container to a cloud service. The simplest options: Railway, Render, or Google Cloud Run. More advanced: AWS ECS, Kubernetes.\n\nThat is the entire process. It sounds complex, but each step is straightforward, and once you have done it once, you can deploy any model.\n\nWhy FastAPI? It is fast, modern, generates automatic API documentation, and has excellent support for async operations (important for LLM applications that make external API calls). It is the most popular choice for ML model serving in Python.",
+  "deeperExplanation": "Let us look at each step in more detail.\n\n**Model serialisation** — For scikit-learn models, use `joblib.dump(model, 'model.joblib')` and `joblib.load('model.joblib')`. For PyTorch, use `torch.save(model.state_dict(), 'model.pth')`. For LLM applications, there is no model file — you call an API at runtime.\n\n**FastAPI structure** for ML serving:\n```python\nfrom fastapi import FastAPI\nfrom pydantic import BaseModel\nimport joblib\n\napp = FastAPI()\nmodel = joblib.load('model.joblib')\n\nclass PredictionRequest(BaseModel):\n    features: list[float]\n\nclass PredictionResponse(BaseModel):\n    prediction: int\n    confidence: float\n\n@app.post('/predict', response_model=PredictionResponse)\ndef predict(request: PredictionRequest):\n    pred = model.predict([request.features])[0]\n    proba = model.predict_proba([request.features])[0].max()\n    return PredictionResponse(prediction=int(pred), confidence=float(proba))\n```\n\n**Docker** ensures reproducibility. Your Dockerfile specifies the Python version, installs dependencies, copies your code and model, and defines the startup command. A typical ML Dockerfile:\n```\nFROM python:3.11-slim\nWORKDIR /app\nCOPY requirements.txt .\nRUN pip install -r requirements.txt\nCOPY . .\nCMD [\"uvicorn\", \"main:app\", \"--host\", \"0.0.0.0\", \"--port\", \"8000\"]\n```\n\n**Health checks and monitoring** — Always include a `/health` endpoint that returns 200. Add logging for every prediction: input, output, latency. This is essential for debugging and monitoring in production.\n\n**Common production considerations**: input validation (reject malformed requests), rate limiting (prevent abuse), authentication (who can call your API), graceful error handling (what happens when the model fails), and versioning (how to update the model without downtime).\n\n**Scaling** — Start simple. A single container can handle thousands of requests per day. When you need more, add horizontal scaling (multiple containers behind a load balancer) or use managed services like AWS SageMaker or Google Vertex AI that handle scaling automatically.",
+  "keyTakeaways": [
+    "Deployment is what makes a model useful — a notebook is not a product",
+    "FastAPI is the standard for ML model serving in Python",
+    "Docker ensures your model runs the same everywhere — your laptop, CI, and production",
+    "Always include health checks, logging, and input validation in your API",
+    "Start with simple cloud platforms (Railway, Render) before complex orchestration",
+    "A single container is enough to start — scale when you actually need it"
+  ],
+  "frameworks": [
+    "mlops-maturity",
+    "ml-lifecycle"
+  ],
+  "example": "Let us deploy the Titanic survival model from the previous lesson.\n\n1. Train and save: `joblib.dump(model, 'titanic_model.joblib')`\n2. Create `main.py` with FastAPI: a `/predict` endpoint that takes passenger features (class, sex, age, fare) and returns survival probability.\n3. Create `Dockerfile` and `requirements.txt`.\n4. Build: `docker build -t titanic-api .`\n5. Run locally: `docker run -p 8000:8000 titanic-api`\n6. Test: `curl -X POST http://localhost:8000/predict -H 'Content-Type: application/json' -d '{\"pclass\": 1, \"sex\": 1, \"age\": 25, \"fare\": 100}'`\n7. Open `http://localhost:8000/docs` — FastAPI generates interactive API documentation automatically.\n\nCongratulations — you now have a model serving predictions via an API. Deploy this container to any cloud provider and you have a production ML system.",
+  "commonMistakes": [
+    "Loading the model inside the prediction function — load it once at startup, not on every request",
+    "Not validating inputs — sending wrong data types or missing fields should return clear error messages",
+    "Forgetting to add a health check endpoint — cloud platforms need this to know your service is alive",
+    "Using debug mode in production — always run with proper WSGI/ASGI servers like uvicorn",
+    "Not logging predictions — you need this data to monitor performance and debug issues"
+  ],
+  "exercise": "Deploy a model as an API: (1) Take any trained scikit-learn model (from the previous exercise or a new one). (2) Save it with joblib. (3) Create a FastAPI app with a /predict endpoint and a /health endpoint. (4) Run it locally with `uvicorn main:app --reload`. (5) Test it with curl or the auto-generated docs at /docs. (6) Create a Dockerfile. (7) Build and run the Docker container. (8) Verify it works the same in the container as it did locally. Bonus: Deploy to Railway or Render (both have free tiers).",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "Why should you load your ML model once at startup rather than inside each prediction function call?",
+      "options": [
+        "Loading the model multiple times improves accuracy",
+        "Loading a model is slow and doing it per-request adds unnecessary latency and resource usage",
+        "Python cannot load a model more than once",
+        "It does not matter — both approaches are equally fast"
+      ],
+      "correctIndex": 1,
+      "explanation": "Model loading involves reading a file from disk and deserialising it into memory, which can take seconds. Loading it once at startup means every prediction request uses the already-loaded model, keeping response times fast. Loading per-request would add seconds of latency to every API call."
+    },
+    {
+      "question": "What is the primary benefit of containerising your ML API with Docker?",
+      "options": [
+        "Docker makes your model more accurate",
+        "Docker ensures the application runs the same way everywhere — your laptop, CI, and production",
+        "Docker is required by all cloud providers",
+        "Docker automatically scales your application"
+      ],
+      "correctIndex": 1,
+      "explanation": "Docker packages your application, model, and all dependencies into a container that runs identically everywhere. This eliminates 'it works on my machine' problems caused by different Python versions, missing libraries, or OS differences between development and production environments."
+    },
+    {
+      "question": "Why should every deployed ML API include a /health endpoint?",
+      "options": [
+        "It is required by Python law",
+        "Cloud platforms and load balancers use health checks to know if your service is alive and ready to serve traffic",
+        "It makes the API documentation look better",
+        "Users need to check the API's health manually before every request"
+      ],
+      "correctIndex": 1,
+      "explanation": "Health check endpoints return a simple 200 status to indicate the service is running. Cloud platforms, container orchestrators, and load balancers poll this endpoint to detect failures, route traffic away from unhealthy instances, and trigger automatic restarts when a service goes down."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As an ML engineer, deployment is where your software engineering skills matter most. You design the API contract (request/response schemas), implement proper error handling, set up logging and monitoring, and write integration tests. You think about model versioning — how to deploy a new model without downtime and how to roll back if it performs worse.",
+    "manager": "As an engineering manager, you care about deployment reliability and operational costs. Can the team deploy a new model version in under an hour? Is there monitoring to catch model degradation? You establish SLAs for prediction latency and availability, and ensure the team has on-call procedures for ML-specific incidents like model performance drops.",
+    "cto": "As a CTO, ML deployment infrastructure is a platform investment. You decide between building custom serving infrastructure, using managed services (SageMaker, Vertex AI), or keeping it simple with containerised APIs. The choice depends on scale, team size, and whether ML is a core competency or a supporting capability.",
+    "investor": "As an investor, the ability to deploy and iterate on models quickly is a strong signal of engineering maturity. Companies that can go from model training to production in hours (not weeks) have a significant competitive advantage. Look for automated deployment pipelines, A/B testing infrastructure, and monitoring dashboards as evidence of operational readiness."
+  }
+}

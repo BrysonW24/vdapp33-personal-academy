@@ -1,0 +1,46 @@
+{
+  "slug": "salesforce",
+  "name": "Salesforce",
+  "category": "crm",
+  "description": "The world's largest CRM platform, used by enterprises for sales, marketing, service, and commerce. Highly customisable but complex.",
+  "whyUseIt": "Salesforce is the CRM you'll encounter at medium-to-large companies. Understanding it — even at a basic level — is valuable for your career. Its Marketing Cloud handles email, social, advertising, and customer journey orchestration at enterprise scale.",
+  "pricingTier": "enterprise",
+  "aiCapabilities": "Einstein AI for predictive analytics, lead scoring, email send time optimisation, and automated insights.",
+  "alternatives": [
+    "HubSpot",
+    "Microsoft Dynamics",
+    "Zoho CRM"
+  ],
+  "url": "https://www.salesforce.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/salesforce-2.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Lead and opportunity pipeline reports",
+    "Customer journey maps across email, social, and advertising channels",
+    "Marketing attribution reports linking campaigns to revenue",
+    "Automated lead scoring and qualification rankings",
+    "Campaign performance dashboards with ROI tracking",
+    "Segmented audience lists for targeted campaigns",
+    "Sales and marketing alignment reports showing lead handoff metrics"
+  ],
+  "marketerWorkflow": "A marketer in Salesforce creates and manages campaigns, building audience segments from CRM data and launching multi-channel journeys through Marketing Cloud. They monitor lead flow daily — checking which leads came in from marketing efforts, how they scored, and whether sales is following up. Weekly, they pull campaign attribution reports to show which marketing activities drove pipeline and revenue, adjusting budget allocation based on what's performing.",
+  "managerExpects": "A CMO expects Salesforce to be the single source of truth for marketing's impact on revenue. They want to see dashboards showing marketing-sourced pipeline, cost per acquisition by channel, and lead-to-customer conversion rates. They expect the marketing team to maintain clean data, properly attribute campaigns, and demonstrate clear ROI for every major marketing investment.",
+  "aiWorkflowImpact": "In 2025, Salesforce Einstein AI automatically scores leads based on likelihood to convert, prioritising sales follow-up on the highest-value prospects without manual rules. Predictive analytics forecast campaign performance before launch, helping marketers allocate budget more effectively. Einstein Copilot lets marketers query CRM data in natural language — asking questions like 'which campaign drove the most enterprise pipeline last quarter' and getting instant answers.",
+  "demoDescription": "Sign up for a Salesforce Developer Edition (free) and explore the Sales Cloud setup. Create five sample leads with different companies and sources, then build a simple report showing leads by source. Navigate to the campaign object, create a test campaign, and associate your leads with it to see how Salesforce tracks campaign membership and influence.",
+  "vocabulary": [
+    { "term": "Lead", "definition": "A potential customer who has shown interest but hasn't been qualified yet — the starting point of the sales funnel in Salesforce." },
+    { "term": "Opportunity", "definition": "A qualified deal in the sales pipeline with an associated value, stage, and close date — what marketing aims to generate through campaigns." },
+    { "term": "Campaign influence", "definition": "Salesforce's model for attributing revenue to marketing campaigns, tracking which campaigns touched a deal before it closed." },
+    { "term": "Marketing Cloud", "definition": "Salesforce's dedicated marketing platform for email, mobile, social, advertising, and customer journey orchestration at enterprise scale." },
+    { "term": "Einstein AI", "definition": "Salesforce's built-in artificial intelligence layer that provides lead scoring, predictive analytics, next-best-action recommendations, and natural language querying." },
+    { "term": "Object", "definition": "A database table in Salesforce (like Lead, Contact, Account, Opportunity, Campaign) — understanding the standard objects is essential for working in the platform." }
+  ],
+  "beginnerMistakes": [
+    "Not understanding the difference between Leads, Contacts, Accounts, and Opportunities — mixing up these objects creates messy data and broken reports",
+    "Creating campaigns without setting up proper tracking and attribution, making it impossible to prove marketing ROI",
+    "Importing dirty data (duplicates, missing fields, inconsistent formatting) and polluting the CRM for the entire sales team",
+    "Ignoring the Admin/setup side and trying to do everything through workarounds instead of learning how objects, fields, and automations work",
+    "Treating Salesforce as just a contact database rather than using its journey, automation, and analytics capabilities"
+  ],
+  "relatedProject": "gtm-strategy"
+}

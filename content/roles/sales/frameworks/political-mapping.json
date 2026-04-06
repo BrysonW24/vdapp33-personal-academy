@@ -1,0 +1,13 @@
+{
+  "slug": "political-mapping",
+  "name": "Political Mapping",
+  "summary": "A strategic technique for understanding who supports, resists, or influences a deal behind the scenes and why.",
+  "whenToUseIt": "Use political mapping in enterprise and strategic account deals where stakeholder agendas differ and internal alignment cannot be assumed.",
+  "steps": [
+    "Identify the visible and hidden stakeholders with influence over the decision.",
+    "Assess who is supportive, neutral, skeptical, or opposed and what drives that position.",
+    "Adjust your stakeholder strategy so proof and messaging match the political reality of the account."
+  ],
+  "example": "Operations wants the change, IT is cautious, finance is skeptical on spend, and a legacy system owner feels threatened. Political mapping stops the rep from assuming the enthusiastic champion represents the whole account.",
+  "category": "enterprise-deal-execution"
+}

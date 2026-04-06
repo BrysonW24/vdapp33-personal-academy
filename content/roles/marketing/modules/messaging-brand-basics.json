@@ -1,0 +1,32 @@
+{
+  "slug": "messaging-brand-basics",
+  "title": "Messaging and Brand Basics",
+  "shortSummary": "Your brand is not your logo. It is what people think and feel when they encounter your business. This module covers the fundamentals of brand building, messaging hierarchy, tone of voice, and how to create consistent communication that builds trust over time.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "People buy from brands they trust. Trust comes from consistency, clarity, and emotional connection. If your messaging changes every week or feels different on every channel, customers will not remember you or believe in you. Strong messaging and brand basics mean every post, email, and ad works harder because it all adds up to a coherent story.",
+  "coreConcepts": [
+    "What a brand really is beyond logos and colours",
+    "Brand identity versus brand image versus brand equity",
+    "The messaging hierarchy: tagline, value proposition, key messages, proof points",
+    "Tone of voice and how to define yours",
+    "Storytelling in marketing: why humans are wired for narrative",
+    "Consistency across channels and touchpoints",
+    "Brand guidelines: what they are and why they matter",
+    "The emotional versus rational drivers of purchase decisions"
+  ],
+  "lessons": ["building-your-brand-voice"],
+  "frameworks": [
+    "brand-positioning-canvas",
+    "aida"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "positioning-value-proposition",
+    "content-marketing",
+    "social-media-marketing"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

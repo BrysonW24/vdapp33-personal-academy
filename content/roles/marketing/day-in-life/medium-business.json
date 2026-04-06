@@ -1,0 +1,56 @@
+{
+  "slug": "medium-business",
+  "title": "Marketing Lead — Medium Business",
+  "setting": "Medium business (50-200 employees)",
+  "companySize": "50-200 employees",
+  "description": "You're the Marketing Lead at a growing Australian business. You might manage 1-2 junior team members or be a senior individual contributor. You do both strategy and execution — planning campaigns in the morning and writing email copy in the afternoon. It's hands-on, fast-paced, and you see the direct impact of your work.",
+  "salary": "$90,000 - $130,000 AUD",
+  "schedule": [
+    {"time": "8:30 AM", "activity": "Check email, Slack, and social media notifications. Respond to any urgent items from overnight.", "tools": ["Gmail", "Slack", "Hootsuite"]},
+    {"time": "9:00 AM", "activity": "Quick sync with the CEO or Head of Sales on this week's marketing priorities", "tools": ["Slack", "Google Meet"], "note": "In medium businesses, marketing often reports directly to the CEO"},
+    {"time": "9:30 AM", "activity": "Write and schedule this week's social media content", "tools": ["Canva", "Buffer", "ChatGPT"], "note": "You're creating the content yourself, not just approving it"},
+    {"time": "10:30 AM", "activity": "Deep work: Build a landing page for the upcoming product feature launch", "tools": ["Webflow", "Figma"]},
+    {"time": "12:00 PM", "activity": "Lunch — sometimes at desk while reviewing campaign analytics"},
+    {"time": "12:30 PM", "activity": "Review Google Ads and Meta Ads performance, adjust budgets and bids", "tools": ["Google Ads", "Meta Ads Manager", "Google Analytics"]},
+    {"time": "1:30 PM", "activity": "Write email newsletter for this week — including featured product, blog recap, and CTA", "tools": ["Klaviyo", "Google Docs"]},
+    {"time": "2:30 PM", "activity": "Briefing call with freelance designer about new campaign creative", "tools": ["Google Meet", "Figma"]},
+    {"time": "3:00 PM", "activity": "SEO check: review Search Console data, update keyword tracking, brief a blog article", "tools": ["Google Search Console", "Ahrefs", "Google Docs"]},
+    {"time": "3:45 PM", "activity": "Meet with Sales to review lead quality from recent campaigns", "tools": ["HubSpot", "Google Sheets"], "note": "Feedback loop with Sales is critical for improving targeting"},
+    {"time": "4:30 PM", "activity": "Plan next month's campaign calendar and content themes", "tools": ["Notion", "Google Sheets"]},
+    {"time": "5:15 PM", "activity": "Wrap up: update project board, set tomorrow's top 3 priorities", "tools": ["Asana"]},
+    {"time": "5:30 PM", "activity": "Head home — occasionally check social media engagement in the evening"}
+  ],
+  "responsibilities": [
+    "Own the entire marketing function across all channels",
+    "Create and execute content (social, email, blog, ads)",
+    "Manage paid advertising budgets ($5K-$30K/month)",
+    "Build and optimise the lead generation funnel",
+    "Manage 1-2 junior team members or freelancers",
+    "Report results to leadership monthly",
+    "Maintain the website and landing pages",
+    "Coordinate with Sales on lead quality and pipeline"
+  ],
+  "challenges": [
+    "Wearing many hats — strategy AND execution every day",
+    "Limited budget compared to larger competitors",
+    "Being the only senior marketing person (lonely at the top)",
+    "Pressure to deliver measurable results quickly",
+    "Keeping up with multiple channels simultaneously",
+    "Balancing quality with speed when you're the one producing everything"
+  ],
+  "rewards": [
+    "Direct impact — you can see the results of your work immediately",
+    "Broad skill development across the entire marketing mix",
+    "Close relationship with leadership and influence on company direction",
+    "Autonomy to make decisions without layers of approval",
+    "Fast career growth as the company scales",
+    "Great preparation for a senior role at a larger company or starting your own business"
+  ],
+  "careerPath": [
+    "Marketing Coordinator (1-2 years)",
+    "Marketing Manager / Lead (2-4 years)",
+    "Head of Marketing (4-6 years)",
+    "Marketing Director (6-8 years)",
+    "VP Marketing or CMO at a larger company, or start your own business"
+  ]
+}

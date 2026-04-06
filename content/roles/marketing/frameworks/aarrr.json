@@ -1,0 +1,15 @@
+{
+  "slug": "aarrr",
+  "name": "AARRR: Pirate Metrics",
+  "summary": "A startup growth framework that tracks five key stages: Acquisition, Activation, Retention, Revenue, and Referral.",
+  "whenToUseIt": "Use AARRR when building or optimising a growth engine, especially for digital products and startups. It helps identify where your biggest drop-off or opportunity is.",
+  "steps": [
+    "Acquisition: How do users find you? (SEO, ads, social, referrals) — measure: new visitors, signups",
+    "Activation: Do they have a great first experience? — measure: onboarding completion, first key action",
+    "Retention: Do they come back? — measure: return visits, repeat purchases, DAU/MAU ratio",
+    "Revenue: Do they pay you? — measure: conversion to paid, ARPU, CLV",
+    "Referral: Do they tell others? — measure: referral rate, NPS, viral coefficient"
+  ],
+  "example": "Dropbox famously optimised each stage: Acquisition (referral program giving free storage), Activation (simple onboarding — just drop a file), Retention (files sync automatically so you use it daily), Revenue (storage limits push to paid plans), Referral (invite friends = more free space). Their referral program alone grew signups by 60%.",
+  "category": "growth"
+}

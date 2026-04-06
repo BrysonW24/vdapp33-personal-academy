@@ -1,0 +1,13 @@
+{
+  "slug": "diagnostic-questioning",
+  "name": "Diagnostic Questioning",
+  "summary": "A consultant-style questioning approach that treats discovery like diagnosis, aiming to understand process, root cause, and operating reality before prescribing change.",
+  "whenToUseIt": "Use diagnostic questioning in consultative sales, technical discovery, and enterprise deals where the problem is not obvious enough to solve with surface-level conversation.",
+  "steps": [
+    "Map the current process, system, or workflow without rushing to solution language.",
+    "Investigate where friction, inconsistency, or failure occurs and for whom.",
+    "Use the findings to isolate the real problem and the conditions needed for change."
+  ],
+  "example": "Instead of pitching enablement software immediately, you diagnose how content is created, where it lives, how reps find it, and where managers lose visibility. The diagnosis reveals the real issue is not content volume but content governance.",
+  "category": "discovery-questioning"
+}

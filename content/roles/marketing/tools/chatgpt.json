@@ -1,0 +1,46 @@
+{
+  "slug": "chatgpt",
+  "name": "ChatGPT",
+  "category": "ai-automation",
+  "description": "OpenAI's conversational AI that can write copy, brainstorm ideas, analyse data, research topics, and assist with virtually any marketing task.",
+  "whyUseIt": "ChatGPT is the Swiss Army knife of marketing AI. Use it for drafting blog posts, brainstorming campaign ideas, writing ad copy variations, summarising research, creating email sequences, and more. It doesn't replace your thinking — it accelerates it.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "Text generation, code writing, data analysis, image generation (DALL-E), web browsing for research, and custom GPTs for specific workflows.",
+  "alternatives": [
+    "Claude",
+    "Gemini",
+    "Copilot"
+  ],
+  "url": "https://chat.openai.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/chatgpt-6.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Blog post drafts, outlines, and content briefs",
+    "Ad copy variations for A/B testing across platforms",
+    "Email sequences including subject lines, body copy, and CTAs",
+    "Social media captions and content calendars",
+    "Customer persona documents based on research inputs",
+    "Competitive analysis summaries and market research briefs",
+    "Data analysis and visualisation from uploaded spreadsheets"
+  ],
+  "marketerWorkflow": "A marketer uses ChatGPT throughout their day as an on-demand writing and thinking partner. They draft blog posts by providing an outline and letting the AI generate a first draft they refine, brainstorm campaign angles by describing the product and audience, generate multiple ad copy variations for testing, and summarise long reports or competitor content into actionable takeaways. They build custom GPTs for repeatable tasks like writing product descriptions in a specific brand voice or generating weekly social content from a template.",
+  "managerExpects": "A marketing manager expects you to use AI to increase your output and quality, not as a crutch that replaces critical thinking. They want to see that AI-generated content is always reviewed, fact-checked, and refined to match the brand voice — not published as-is. They expect you to use AI strategically — for first drafts, ideation, and data analysis — while applying your own marketing judgement to strategy, positioning, and creative direction.",
+  "aiWorkflowImpact": "ChatGPT has fundamentally changed the content creation workflow in marketing. Tasks that took hours — writing a first draft, generating headline variations, summarising competitor research, creating persona documents — now take minutes. The key shift is from 'writing from scratch' to 'editing and refining AI-generated drafts.' Custom GPTs allow teams to encode their brand voice, templates, and processes into reusable tools that maintain consistency across team members. Data analysis with Code Interpreter lets marketers upload spreadsheets and get instant insights without knowing SQL or Python.",
+  "demoDescription": "Open ChatGPT (free account works) and give it this prompt: 'Act as a senior digital marketer. I sell [your product/service] to [your target audience]. Generate 5 Google Ads headlines (30 characters max each) and 3 descriptions (90 characters max each) for a search campaign targeting people searching for [your main keyword].' Review the output, refine your prompt to improve the results, and compare the final versions against ads you see in Google search results.",
+  "vocabulary": [
+    { "term": "Prompt Engineering", "definition": "The practice of crafting specific, structured instructions to get better outputs from AI. Good prompts include context (who you are), task (what you want), format (how to structure the output), and constraints (word limits, tone, audience)." },
+    { "term": "Custom GPT", "definition": "A tailored version of ChatGPT configured with specific instructions, knowledge files, and capabilities for a particular use case — like a brand voice writer, content strategist, or data analyst." },
+    { "term": "Temperature", "definition": "A setting (0-2) that controls how creative or deterministic the AI's output is. Lower temperature (0.2) produces consistent, predictable text. Higher temperature (1.0+) produces more varied, creative responses." },
+    { "term": "Hallucination", "definition": "When an AI generates information that sounds plausible but is factually incorrect. This is why all AI-generated content must be fact-checked before publishing, especially statistics, quotes, and specific claims." },
+    { "term": "System Prompt", "definition": "The initial instruction that sets the AI's role, behaviour, and constraints for a conversation. In Custom GPTs, this defines the personality and rules the AI follows throughout every interaction." },
+    { "term": "Context Window", "definition": "The maximum amount of text (measured in tokens) the AI can process in a single conversation. When you exceed the context window, the AI loses access to earlier parts of the conversation, which can affect response quality." }
+  ],
+  "beginnerMistakes": [
+    "Publishing AI-generated content without reviewing, editing, and fact-checking it — especially statistics, claims, and links that may be hallucinated",
+    "Writing vague, one-line prompts instead of providing specific context, examples, format requirements, and constraints to get useful output",
+    "Using AI for final strategy decisions instead of using it for ideation, first drafts, and analysis that you then apply marketing judgement to",
+    "Not iterating on prompts — accepting the first output instead of refining the prompt 2-3 times to get significantly better results",
+    "Ignoring brand voice and tone when using AI for copy, resulting in generic content that does not sound like your company"
+  ],
+  "relatedProject": "customer-persona"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "building-a-mutual-action-plan",
+  "moduleSlug": "closing",
+  "title": "Building a Mutual Action Plan",
+  "objective": "Learn how to create a shared close plan that aligns the buyer and seller around milestones, owners, and timing.",
+  "beginnerExplanation": "A mutual action plan, often called a MAP, is a simple document that lays out what has to happen for the deal to move forward and who owns each step. It turns vague optimism into a visible plan. Instead of saying, 'Let us stay in touch,' both sides can see the path: technical review, security, pricing, legal, executive sign-off, and signature.",
+  "deeperExplanation": "A good MAP does three things. First, it creates clarity by showing the real steps between interest and signature. Second, it builds accountability by assigning owners on both sides. Third, it reveals risk early because missing owners, unrealistic dates, or hidden approvals become visible.\n\nThe plan should be lightweight and honest. Include milestone, owner, target date, and success criteria. Start with what the buyer already knows must happen, then add the seller-side tasks required to support them. If the buyer will not engage with the plan at all, that is useful data. It often means the deal is less real than it appears.\n\nMAPs are especially helpful in complex SaaS deals because close risk usually comes from process slippage, not product interest. Security reviews take longer than expected, procurement enters late, or the economic buyer goes quiet. A shared plan helps you surface those realities while there is still time to manage them.",
+  "keyTakeaways": [
+    "A mutual action plan turns late-stage hope into shared process clarity.",
+    "Good MAPs assign owners, dates, and success criteria.",
+    "A buyer's willingness to engage with the plan is itself qualification data.",
+    "MAPs help reveal hidden approvals and realistic timing.",
+    "Complex deals are often lost to process slippage more than product weakness.",
+    "The best MAPs are simple enough that both sides actually use them."
+  ],
+  "frameworks": [
+    "meddic",
+    "forecast-methodology",
+    "value-selling"
+  ],
+  "example": "You are closing a six-figure platform deal. The MAP includes: security questionnaire due Friday, technical validation session next Tuesday, commercial review with procurement by the 18th, CFO review by the 21st, final order form by month-end, and implementation kickoff the following week. Each step has an owner on both sides. When procurement slips a review date, you can see the forecast impact immediately and act early instead of being surprised on the last day of the quarter.",
+  "commonMistakes": [
+    "Creating a MAP only for internal use and never sharing it with the buyer",
+    "Listing tasks without owners or dates",
+    "Making the plan too complicated to maintain",
+    "Pretending a buyer has committed when they will not engage with the plan",
+    "Using the MAP as admin instead of as a strategic risk tool"
+  ],
+  "exercise": "Take a current or hypothetical late-stage deal and build a six-line MAP with milestone, owner, target date, and risk if missed. Then rewrite it so the buyer would actually want to use it.",
+  "nextLesson": "asking-for-the-business",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main job of a mutual action plan?",
+      "options": [
+        "To replace the contract",
+        "To create shared clarity around what must happen to close the deal",
+        "To avoid involving procurement",
+        "To shorten the demo"
+      ],
+      "correctIndex": 1,
+      "explanation": "A MAP turns an abstract close into visible steps with owners and timing."
+    },
+    {
+      "question": "What should every good MAP include?",
+      "options": [
+        "Only product features",
+        "Owner, target date, and success criteria for each milestone",
+        "A discount schedule",
+        "A long company overview"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without ownership and timing, the plan is not actionable."
+    },
+    {
+      "question": "What does it often mean if a buyer refuses to engage with the MAP?",
+      "options": [
+        "The deal is guaranteed",
+        "The deal may be less real or less urgent than it seems",
+        "The rep should add more slides",
+        "The product is underpriced"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lack of engagement with the close plan can signal weak commitment or hidden risk."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs use MAPs to control close risk without becoming pushy.",
+    "manager": "Managers can review MAP quality to understand whether late-stage optimism is supported by real process evidence.",
+    "vp": "A VP values MAPs because they improve quarter-end predictability and surface deal risk earlier.",
+    "cro": "A CRO sees buyer engagement with close plans as one of the strongest late-stage commitment signals."
+  }
+}

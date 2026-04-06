@@ -34,6 +34,7 @@ import type {
   Lesson,
   Module,
   Project,
+  TeachingStage,
   SubjectManifest,
   Tool,
 } from "@/types/curriculum"
@@ -46,6 +47,7 @@ import type {
   TopicOverview,
   TopicSection,
 } from "@/types/entity"
+import { sortModulesForDisplay } from "@/lib/teaching-contract"
 
 const ENTITY_DIRS: Record<OverlayEntityKind, string> = {
   role: path.join(process.cwd(), "content/roles"),
@@ -136,9 +138,13 @@ export function parseAliasedSlug(value: string) {
   }
 }
 
-function createSourceMeta(sourceSlug: string, originalSlug: string): EntitySourceMeta {
+function createSourceMeta(
+  sourceKind: "subject" | "role" | "topic",
+  sourceSlug: string,
+  originalSlug: string
+): EntitySourceMeta {
   return {
-    sourceKind: "subject",
+    sourceKind,
     sourceSlug,
     originalSlug,
   }
@@ -149,8 +155,17 @@ function compareBySourceOrder<T extends { sourceMeta?: EntitySourceMeta }>(
   right: T
 ) {
   const subjectOrder = new Map(getSubjects().map((subject) => [subject.slug, subject.order]))
-  const leftOrder = subjectOrder.get(left.sourceMeta?.sourceSlug ?? "") ?? 999
-  const rightOrder = subjectOrder.get(right.sourceMeta?.sourceSlug ?? "") ?? 999
+
+  const resolveOrder = (item: T) => {
+    if (item.sourceMeta?.sourceKind === "role") return -1
+    if (item.sourceMeta?.sourceKind === "subject") {
+      return subjectOrder.get(item.sourceMeta.sourceSlug) ?? 999
+    }
+    return 999
+  }
+
+  const leftOrder = resolveOrder(left)
+  const rightOrder = resolveOrder(right)
 
   if (leftOrder !== rightOrder) return leftOrder - rightOrder
   return 0
@@ -164,7 +179,7 @@ function aliasModule(module: Module, subject: SubjectManifest): Module {
     relatedModules: module.relatedModules.map((moduleSlug) =>
       aliasedSlug(subject.slug, moduleSlug)
     ),
-    sourceMeta: createSourceMeta(subject.slug, module.slug),
+    sourceMeta: createSourceMeta("subject", subject.slug, module.slug),
   }
 }
 
@@ -176,7 +191,7 @@ function aliasLesson(lesson: Lesson, subject: SubjectManifest): Lesson {
     nextLesson: lesson.nextLesson
       ? aliasedSlug(subject.slug, lesson.nextLesson)
       : undefined,
-    sourceMeta: createSourceMeta(subject.slug, lesson.slug),
+    sourceMeta: createSourceMeta("subject", subject.slug, lesson.slug),
   }
 }
 
@@ -184,7 +199,7 @@ function aliasFramework(framework: Framework, subject: SubjectManifest): Framewo
   return {
     ...framework,
     slug: aliasedSlug(subject.slug, framework.slug),
-    sourceMeta: createSourceMeta(subject.slug, framework.slug),
+    sourceMeta: createSourceMeta("subject", subject.slug, framework.slug),
   }
 }
 
@@ -192,7 +207,7 @@ function aliasProject(project: Project, subject: SubjectManifest): Project {
   return {
     ...project,
     slug: aliasedSlug(subject.slug, project.slug),
-    sourceMeta: createSourceMeta(subject.slug, project.slug),
+    sourceMeta: createSourceMeta("subject", subject.slug, project.slug),
   }
 }
 
@@ -204,8 +219,56 @@ function aliasTool(tool: Tool, subject: SubjectManifest): Tool {
       typeof tool.relatedProject === "string"
         ? aliasedSlug(subject.slug, tool.relatedProject)
         : tool.relatedProject,
-    sourceMeta: createSourceMeta(subject.slug, tool.slug),
+    sourceMeta: createSourceMeta("subject", subject.slug, tool.slug),
   }
+}
+
+function withRoleSourceMeta<T extends { slug: string; sourceMeta?: EntitySourceMeta }>(
+  roleSlug: string,
+  item: T
+): T {
+  return {
+    ...item,
+    sourceMeta: item.sourceMeta ?? createSourceMeta("role", roleSlug, item.slug),
+  }
+}
+
+function getLocalRoleModules(slug: string): Module[] {
+  return sortModulesForDisplay(
+    readEntityDir("role", slug, "modules", ModuleSchema).map((module) =>
+      withRoleSourceMeta(slug, module)
+    )
+  )
+}
+
+function getLocalRoleLessons(slug: string): Lesson[] {
+  return readEntityDir("role", slug, "lessons", LessonSchema)
+    .map((lesson) => withRoleSourceMeta(slug, lesson))
+    .sort((left, right) => left.order - right.order)
+}
+
+function getLocalRoleFrameworks(slug: string): Framework[] {
+  return readEntityDir("role", slug, "frameworks", FrameworkSchema)
+    .map((framework) => withRoleSourceMeta(slug, framework))
+    .sort((left, right) => left.name.localeCompare(right.name))
+}
+
+function getLocalRoleProjects(slug: string): Project[] {
+  return readEntityDir("role", slug, "projects", ProjectSchema)
+    .map((project) => withRoleSourceMeta(slug, project))
+    .sort((left, right) => left.difficulty - right.difficulty || left.title.localeCompare(right.title))
+}
+
+function getLocalRoleTools(slug: string): Tool[] {
+  return readEntityDir("role", slug, "tools", ToolSchema)
+    .map((tool) => withRoleSourceMeta(slug, tool))
+    .sort((left, right) => left.name.localeCompare(right.name))
+}
+
+function getLocalRoleDayInLifeScenarios(slug: string): DayInLife[] {
+  return readEntityDir("role", slug, "day-in-life", DayInLifeSchema)
+    .map((scenario) => withRoleSourceMeta(slug, scenario))
+    .sort((left, right) => left.title.localeCompare(right.title))
 }
 
 export function getEntities(kind: OverlayEntityKind): EntityManifest[] {
@@ -299,21 +362,21 @@ export function getTopicSection(slug: string, sectionSlug: string): TopicSection
 }
 
 export function getRoleDayInLifeScenarios(slug: string): DayInLife[] {
-  return readEntityDir("role", slug, "day-in-life", DayInLifeSchema).sort((left, right) =>
-    left.title.localeCompare(right.title)
-  )
+  return getLocalRoleDayInLifeScenarios(slug)
 }
 
 export function getRoleDayInLifeScenario(
   slug: string,
   scenarioSlug: string
 ): DayInLife | null {
-  return readEntityJson(
+  const scenario = readEntityJson(
     "role",
     slug,
     `day-in-life/${scenarioSlug}.json`,
     DayInLifeSchema
   )
+
+  return scenario ? withRoleSourceMeta(slug, scenario) : null
 }
 
 export function getRelatedSubjectsForEntity(
@@ -329,8 +392,12 @@ export function getRelatedSubjectsForEntity(
 }
 
 export function getRoleModules(slug: string): Module[] {
-  return getRelatedSubjectsForEntity("role", slug)
-    .flatMap((subject) => getModules(subject.slug).map((module) => aliasModule(module, subject)))
+  return [
+    ...getLocalRoleModules(slug),
+    ...getRelatedSubjectsForEntity("role", slug).flatMap((subject) =>
+      getModules(subject.slug).map((module) => aliasModule(module, subject))
+    ),
+  ]
     .sort((left, right) => {
       const sourceOrder = compareBySourceOrder(left, right)
       if (sourceOrder !== 0) return sourceOrder
@@ -339,6 +406,11 @@ export function getRoleModules(slug: string): Module[] {
 }
 
 export function getRoleModule(slug: string, moduleSlug: string): Module | null {
+  const localModule = readEntityJson("role", slug, `modules/${moduleSlug}.json`, ModuleSchema)
+  if (localModule) {
+    return withRoleSourceMeta(slug, localModule)
+  }
+
   const parsed = parseAliasedSlug(moduleSlug)
   if (!parsed) return null
 
@@ -350,10 +422,12 @@ export function getRoleModule(slug: string, moduleSlug: string): Module | null {
 }
 
 export function getRoleLessons(slug: string): Lesson[] {
-  return getRelatedSubjectsForEntity("role", slug)
-    .flatMap((subject) =>
+  return [
+    ...getLocalRoleLessons(slug),
+    ...getRelatedSubjectsForEntity("role", slug).flatMap((subject) =>
       getAllLessons(subject.slug).map((lesson) => aliasLesson(lesson, subject))
-    )
+    ),
+  ]
     .sort((left, right) => {
       const sourceOrder = compareBySourceOrder(left, right)
       if (sourceOrder !== 0) return sourceOrder
@@ -362,6 +436,13 @@ export function getRoleLessons(slug: string): Lesson[] {
 }
 
 export function getRoleLessonsForModule(slug: string, moduleSlug: string): Lesson[] {
+  const localModule = getLocalRoleModules(slug).find((module) => module.slug === moduleSlug)
+  if (localModule) {
+    return getLocalRoleLessons(slug)
+      .filter((lesson) => lesson.moduleSlug === moduleSlug)
+      .sort((left, right) => left.order - right.order)
+  }
+
   const parsed = parseAliasedSlug(moduleSlug)
   if (!parsed) return []
 
@@ -375,6 +456,11 @@ export function getRoleLessonsForModule(slug: string, moduleSlug: string): Lesso
 }
 
 export function getRoleLesson(slug: string, lessonSlug: string): Lesson | null {
+  const localLesson = readEntityJson("role", slug, `lessons/${lessonSlug}.json`, LessonSchema)
+  if (localLesson) {
+    return withRoleSourceMeta(slug, localLesson)
+  }
+
   const parsed = parseAliasedSlug(lessonSlug)
   if (!parsed) return null
 
@@ -388,10 +474,12 @@ export function getRoleLesson(slug: string, lessonSlug: string): Lesson | null {
 }
 
 export function getRoleFrameworks(slug: string): Framework[] {
-  return getRelatedSubjectsForEntity("role", slug)
-    .flatMap((subject) =>
+  return [
+    ...getLocalRoleFrameworks(slug),
+    ...getRelatedSubjectsForEntity("role", slug).flatMap((subject) =>
       getFrameworks(subject.slug).map((framework) => aliasFramework(framework, subject))
-    )
+    ),
+  ]
     .sort((left, right) => {
       const sourceOrder = compareBySourceOrder(left, right)
       if (sourceOrder !== 0) return sourceOrder
@@ -400,10 +488,12 @@ export function getRoleFrameworks(slug: string): Framework[] {
 }
 
 export function getRoleProjects(slug: string): Project[] {
-  return getRelatedSubjectsForEntity("role", slug)
-    .flatMap((subject) =>
+  return [
+    ...getLocalRoleProjects(slug),
+    ...getRelatedSubjectsForEntity("role", slug).flatMap((subject) =>
       getProjects(subject.slug).map((project) => aliasProject(project, subject))
-    )
+    ),
+  ]
     .sort((left, right) => {
       const sourceOrder = compareBySourceOrder(left, right)
       if (sourceOrder !== 0) return sourceOrder
@@ -412,6 +502,11 @@ export function getRoleProjects(slug: string): Project[] {
 }
 
 export function getRoleProject(slug: string, projectSlug: string): Project | null {
+  const localProject = readEntityJson("role", slug, `projects/${projectSlug}.json`, ProjectSchema)
+  if (localProject) {
+    return withRoleSourceMeta(slug, localProject)
+  }
+
   const parsed = parseAliasedSlug(projectSlug)
   if (!parsed) return null
 
@@ -423,8 +518,12 @@ export function getRoleProject(slug: string, projectSlug: string): Project | nul
 }
 
 export function getRoleTools(slug: string): Tool[] {
-  return getRelatedSubjectsForEntity("role", slug)
-    .flatMap((subject) => getTools(subject.slug).map((tool) => aliasTool(tool, subject)))
+  return [
+    ...getLocalRoleTools(slug),
+    ...getRelatedSubjectsForEntity("role", slug).flatMap((subject) =>
+      getTools(subject.slug).map((tool) => aliasTool(tool, subject))
+    ),
+  ]
     .sort((left, right) => {
       const sourceOrder = compareBySourceOrder(left, right)
       if (sourceOrder !== 0) return sourceOrder
@@ -433,6 +532,11 @@ export function getRoleTools(slug: string): Tool[] {
 }
 
 export function getRoleTool(slug: string, toolSlug: string): Tool | null {
+  const localTool = readEntityJson("role", slug, `tools/${toolSlug}.json`, ToolSchema)
+  if (localTool) {
+    return withRoleSourceMeta(slug, localTool)
+  }
+
   const parsed = parseAliasedSlug(toolSlug)
   if (!parsed) return null
 

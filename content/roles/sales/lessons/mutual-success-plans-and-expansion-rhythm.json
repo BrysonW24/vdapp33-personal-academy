@@ -1,0 +1,72 @@
+{
+  "slug": "mutual-success-plans-and-expansion-rhythm",
+  "moduleSlug": "account-management",
+  "title": "Mutual Success Plans and Expansion Rhythm",
+  "objective": "Learn how to use mutual success plans to keep customers aligned on outcomes, protect renewals, and build expansion opportunities with better timing.",
+  "beginnerExplanation": "A mutual success plan is the post-sale version of a mutual action plan. Instead of only focusing on signature, it focuses on what must happen for the customer to realise value. That matters because renewals and expansions are much easier when both sides can point to a shared plan and visible progress.",
+  "deeperExplanation": "The best success plans do three jobs. First, they define what value the customer expects and how it will be measured. Second, they create operating rhythm by making owners, milestones, and review points visible. Third, they create expansion timing because new use cases become easier to discuss when the original outcomes are already being tracked and achieved. Without that rhythm, account management becomes reactive and expansion feels opportunistic rather than strategic.\n\nA good success plan is not a slide deck you send once. It is a living operating document used in onboarding, adoption reviews, QBRs, and expansion conversations. That is what makes it commercially useful.",
+  "keyTakeaways": [
+    "Mutual success plans focus the relationship on outcomes, not only activity.",
+    "Shared milestones and ownership reduce renewal risk.",
+    "Expansion timing improves when the original value plan is visible and on track.",
+    "QBRs are stronger when they review a live success plan, not only usage charts.",
+    "Success plans create continuity across AE, AM, and customer success teams.",
+    "Reactive account management usually signals that the plan is too vague or unused."
+  ],
+  "frameworks": [
+    "mutual-success-plan",
+    "land-and-expand",
+    "account-planning-canvas"
+  ],
+  "example": "A customer bought for one regional support team. The success plan defines adoption targets, response-time improvements, manager enablement milestones, and the date of the first executive QBR. Because those outcomes are tracked visibly, the AM can later show proof when proposing rollout to a second region. Expansion feels like the next step in the shared plan, not a surprise upsell.",
+  "commonMistakes": [
+    "Treating success planning as a customer-success-only activity",
+    "Making the plan too vague to review against",
+    "Trying to expand before the first value proof is clear",
+    "Running QBRs with no agreed commercial narrative",
+    "Letting ownership disappear between teams after the deal closes"
+  ],
+  "exercise": "Build a simple success plan for one account with outcome, metric, owner, review date, and expansion signal. Then identify the next QBR conversation it should shape.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What makes a mutual success plan valuable?",
+      "options": [
+        "It replaces adoption work",
+        "It keeps both sides aligned on outcomes, milestones, and ownership",
+        "It removes the need for QBRs",
+        "It is only useful at renewal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Success plans are valuable because they create shared clarity around what good looks like and who owns progress."
+    },
+    {
+      "question": "Why do success plans help expansion?",
+      "options": [
+        "They make upselling automatic",
+        "They create visible proof and better timing for adjacent value conversations",
+        "They increase discounting",
+        "They remove the need for relationship building"
+      ],
+      "correctIndex": 1,
+      "explanation": "Expansion is stronger when it is built on documented value and a visible operating rhythm."
+    },
+    {
+      "question": "What is a common sign a success plan is weak?",
+      "options": [
+        "It is reviewed in QBRs",
+        "It has clear metrics",
+        "It is too vague to guide action or accountability",
+        "It includes customer owners"
+      ],
+      "correctIndex": 2,
+      "explanation": "A weak plan is usually too vague to influence real customer behavior or internal coordination."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should stay close enough to success planning that future expansion is not disconnected from the original promise.",
+    "manager": "Managers can improve NRR by checking whether account teams are working from a real success plan or from memory.",
+    "vp": "A VP wants expansion to feel like the next chapter of delivered value, not a random commercial push.",
+    "cro": "A CRO sees success-plan discipline as a direct driver of retention quality and expansion readiness."
+  }
+}

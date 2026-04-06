@@ -1,0 +1,27 @@
+{
+  "slug": "people-ai",
+  "name": "People.ai",
+  "category": "analytics",
+  "description": "A revenue intelligence platform that automatically captures sales activity data from emails, calendars, and calls, then maps it to accounts and opportunities in your CRM. People.ai provides visibility into what's actually happening in your deals.",
+  "whyUseIt": "Salespeople spend 30% of their time on data entry. People.ai eliminates most of it by automatically capturing and logging activities. But the real value is the intelligence layer: it shows you which accounts are getting enough attention, which stakeholders you haven't engaged, and how your activity patterns compare to top performers. It turns activity data into actionable insights.",
+  "pricingTier": "enterprise",
+  "url": "https://people.ai",
+  "logoUrl": "/tools/people-ai.svg",
+  "aiCapabilities": "People.ai's AI automatically captures all sales activities, maps contacts to opportunities, identifies engagement gaps in deals, scores account health, and benchmarks rep activity against top-performer patterns.",
+  "alternatives": ["clari", "gong"],
+  "funnelPosition": "Full funnel — automatic activity tracking and pipeline intelligence",
+  "outputs": ["Automatic activity logs", "Account engagement maps", "Stakeholder coverage reports", "Activity benchmarking", "Pipeline intelligence"],
+  "sellerWorkflow": "People.ai runs in the background, automatically logging emails, calls, and meetings. AEs review their account engagement maps to identify stakeholders they haven't contacted and deals that need more attention. Managers use it to understand team activity patterns.",
+  "managerExpects": "Reps review their People.ai dashboards weekly, identify gaps in stakeholder coverage, and proactively reach out to underengaged contacts in key deals.",
+  "demoDescription": "View automatically captured activities, check the stakeholder engagement map for a key account, identify underengaged contacts, and compare your activity patterns to top performers on the team.",
+  "vocabulary": [
+    { "term": "Stakeholder Map", "definition": "A visual showing all contacts engaged on a deal, with engagement frequency and recency — revealing single-threading and coverage gaps." },
+    { "term": "Activity Score", "definition": "A composite score based on email, call, and meeting volume — benchmarked against successful deal patterns." }
+  ],
+  "beginnerMistakes": [
+    "Not reviewing the stakeholder map — it reveals single-threading before it's too late",
+    "Focusing on total activity volume instead of quality and coverage of engagement",
+    "Ignoring the benchmarking data that shows how your patterns differ from top performers"
+  ],
+  "relatedProject": "pipeline-audit"
+}

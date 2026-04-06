@@ -1,0 +1,13 @@
+{
+  "slug": "story-selling",
+  "name": "Story Selling",
+  "summary": "A persuasion approach that uses narrative, relatable examples, and customer scenarios to make the value of change feel more real and memorable.",
+  "whenToUseIt": "Use story selling in demos, executive presentations, objections, and expansion conversations when buyers need to see the change in a concrete, human way.",
+  "steps": [
+    "Choose a story that closely matches the buyer's role, industry, or problem.",
+    "Show the before state, the turning point, and the after state clearly.",
+    "Tie the story back to the buyer's own decision rather than leaving it as entertainment."
+  ],
+  "example": "Instead of listing adoption features, a rep tells the story of a similar sales team that could not standardize coaching until managers began reviewing one shared dashboard weekly and then saw forecast calls change within a quarter.",
+  "category": "presentation-persuasion"
+}

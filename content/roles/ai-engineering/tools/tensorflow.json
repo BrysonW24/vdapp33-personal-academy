@@ -1,0 +1,15 @@
+{
+  "slug": "tensorflow",
+  "name": "TensorFlow",
+  "category": "framework",
+  "description": "Google's end-to-end ML platform. Strong production tooling with TF Serving, TF Lite (mobile), and TF.js (browser). Keras is its high-level API.",
+  "whyUseIt": "TensorFlow excels in production deployment, especially for mobile (TF Lite) and web (TF.js). Its ecosystem includes TFX for pipelines, TF Serving for inference, and TensorBoard for visualisation.",
+  "pricingTier": "free",
+  "url": "https://www.tensorflow.org",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg",
+  "alternatives": [
+    "PyTorch",
+    "JAX",
+    "Keras"
+  ]
+}

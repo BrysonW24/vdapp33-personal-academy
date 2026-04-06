@@ -1,0 +1,22 @@
+{
+  "slug": "understanding-buyers",
+  "title": "Understanding Buyers",
+  "shortSummary": "Buyers are people with problems, politics, and pressures. Learn how they think, decide, and what really drives a purchase decision in B2B.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "You cannot sell effectively if you don't understand how people buy. B2B purchases involve multiple stakeholders, competing priorities, and risk aversion. The best salespeople deeply understand their buyer's world — their fears, their goals, their internal politics — and tailor every interaction accordingly.",
+  "coreConcepts": [
+    "Buyer psychology and decision-making",
+    "The buying committee: champions, decision-makers, blockers",
+    "Stakeholder mapping and influence",
+    "Risk aversion and status quo bias",
+    "The buyer's journey: problem-aware to solution-aware to vendor-aware",
+    "Emotional vs rational decision-making in B2B"
+  ],
+  "lessons": ["understanding-your-buyer", "mapping-the-buying-committee"],
+  "frameworks": ["meddic", "challenger-sale"],
+  "relatedModules": ["what-sales-is", "discovery-calls", "enterprise-sales"],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

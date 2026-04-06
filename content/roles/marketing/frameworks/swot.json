@@ -1,0 +1,14 @@
+{
+  "slug": "swot",
+  "name": "SWOT Analysis",
+  "summary": "A simple 2x2 framework for evaluating Strengths, Weaknesses, Opportunities, and Threats — internal vs external factors.",
+  "whenToUseIt": "Use SWOT at the start of any strategic planning process, before a product launch, when entering a new market, or during annual planning. It provides a quick snapshot of where you stand.",
+  "steps": [
+    "Strengths (Internal): What do you do well? What advantages do you have? What resources are available?",
+    "Weaknesses (Internal): Where do you struggle? What could be improved? What resources are you missing?",
+    "Opportunities (External): What market trends could you capitalise on? What gaps exist in the market?",
+    "Threats (External): What competitors or market shifts could hurt you? What regulations are changing?"
+  ],
+  "example": "SWOT for a small Australian skincare brand: Strengths = unique native ingredients, strong Instagram community. Weaknesses = limited budget, no retail distribution. Opportunities = growing demand for natural/sustainable beauty, rising interest in Australian botanicals globally. Threats = large brands launching 'natural' lines, rising shipping costs.",
+  "category": "strategy"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "convertkit",
+  "name": "ConvertKit",
+  "category": "email",
+  "description": "An email marketing platform designed for creators \u2014 bloggers, podcasters, YouTubers, and course creators.",
+  "whyUseIt": "ConvertKit is built for people who create content and want to build an audience. Its visual automation builder, landing page creator, and subscriber tagging system are designed for creators, not corporate marketers.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Mailchimp",
+    "Beehiiv",
+    "Substack"
+  ],
+  "url": "https://convertkit.com",
+  "funnelPosition": "Mid-funnel \u2014 Consideration",
+  "outputs": [
+    "Automated email welcome sequences",
+    "Broadcast newsletters to segmented audiences",
+    "Landing pages for lead magnets and opt-ins",
+    "Visual automation workflows",
+    "Subscriber growth and engagement reports",
+    "Tag-based audience segments",
+    "Digital product sales pages"
+  ],
+  "marketerWorkflow": "A marketer using ConvertKit writes and schedules broadcast emails to their subscriber list, monitors open and click rates, and refines subject lines based on performance data. They build visual automations that tag subscribers based on behaviour \u2014 such as clicking a link or purchasing a product \u2014 and use those tags to send increasingly relevant follow-up sequences. Landing pages and opt-in forms are created directly in ConvertKit to grow the list without needing a separate tool.",
+  "managerExpects": "A marketing manager expects to see steady subscriber list growth alongside healthy open rates (above 35% for creator audiences) and low unsubscribe rates. They want well-structured automation sequences that nurture new subscribers through a clear journey, and evidence that the team is segmenting the audience with tags rather than blasting the same message to everyone.",
+  "aiWorkflowImpact": "ConvertKit's AI features now suggest subject line variations and preview text to improve open rates, reducing the need for manual A/B test setup. AI-assisted writing helps draft email content from topic prompts, which creators then personalise with their own voice. Smart send-time optimisation delivers emails when each individual subscriber is most likely to open, replacing the guesswork of picking a single send time.",
+  "demoDescription": "Sign up for ConvertKit's free plan and create a simple three-email welcome sequence. Write a short welcome email, a value-delivery email sharing your best resource, and a soft ask email inviting the reader to reply. Then build a basic landing page with an opt-in form connected to this sequence. This gives you hands-on experience with ConvertKit's core automation loop.",
+  "vocabulary": [
+    {
+      "term": "Sequence",
+      "definition": "A series of pre-written emails sent automatically on a schedule after a subscriber triggers an entry point, such as joining a list."
+    },
+    {
+      "term": "Broadcast",
+      "definition": "A one-time email sent to your entire list or a filtered segment, typically used for newsletters and announcements."
+    },
+    {
+      "term": "Tag",
+      "definition": "A label applied to subscribers based on their actions or interests, used to segment your audience for targeted messaging."
+    },
+    {
+      "term": "Visual Automation",
+      "definition": "ConvertKit's drag-and-drop workflow builder where you map out subscriber journeys with triggers, actions, and conditions."
+    },
+    {
+      "term": "Lead magnet",
+      "definition": "A free resource (PDF, template, checklist) offered in exchange for an email address to grow your subscriber list."
+    },
+    {
+      "term": "Creator Network",
+      "definition": "ConvertKit's cross-promotion feature where creators recommend each other's newsletters to their audiences for mutual growth."
+    }
+  ],
+  "beginnerMistakes": [
+    "Sending every email to the entire list instead of using tags and segments to deliver relevant content to specific groups",
+    "Writing welcome sequences that are purely promotional rather than building trust and delivering genuine value first",
+    "Not setting up a double opt-in process, resulting in low-quality subscribers and higher spam complaints",
+    "Ignoring open and click rate data instead of using it to improve subject lines, content, and send times",
+    "Creating too many tags without a clear naming convention, making audience segmentation confusing and unreliable"
+  ],
+  "relatedProject": "email-welcome-sequence"
+}

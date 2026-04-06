@@ -1,0 +1,69 @@
+{
+  "slug": "pipeline-audit",
+  "title": "Pipeline Audit & Recommendations",
+  "difficulty": 6,
+  "estimatedHours": 4,
+  "description": "Audit a mock sales pipeline of 25 deals, assess the health of each deal using MEDDIC, identify risks, calculate sales velocity, and present actionable recommendations to improve pipeline performance.",
+  "whyItMatters": "Pipeline reviews are a weekly ritual at every sales organisation. Your manager will review your pipeline regularly and expect you to know: which deals are real, which are at risk, where the gaps are, and what you're doing about it. Being able to critically assess pipeline health — your own or a team's — is a fundamental operational skill.",
+  "skillsLearned": [
+    "Pipeline assessment and deal health scoring",
+    "MEDDIC qualification applied to real deals",
+    "Sales velocity calculation and analysis",
+    "Forecast accuracy and pipeline coverage",
+    "Risk identification and mitigation planning",
+    "Presenting pipeline analysis to leadership"
+  ],
+  "prerequisites": ["discovery-practice"],
+  "steps": [
+    {
+      "title": "Review the Mock Pipeline",
+      "description": "You'll work with a mock pipeline of 25 deals at various stages. For each deal, review: deal name, value, stage, days in stage, last activity date, number of stakeholders engaged, competition status, and next steps. Create a summary spreadsheet.",
+      "tips": "Create your own mock data if needed. Include a mix: some healthy deals progressing well, some stalled deals with no recent activity, some deals with missing information, and some deals that should be disqualified."
+    },
+    {
+      "title": "Score Each Deal with MEDDIC",
+      "description": "For each deal, assess how well it scores on MEDDIC criteria. Use a simple RAG (Red/Amber/Green) rating for each element: Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion. Flag any deal where more than 2 elements are red.",
+      "tips": "A deal without an identified champion is almost certainly going to stall. A deal without economic buyer access will die in procurement. These are the two most common fatal gaps."
+    },
+    {
+      "title": "Calculate Sales Velocity",
+      "description": "Using the pipeline data, calculate overall sales velocity: (Number of Opportunities x Average Deal Value x Win Rate) / Average Cycle Length. Then calculate velocity for each pipeline stage to identify where deals slow down or drop off.",
+      "tips": "If deals are spending more than 2x the average time in a stage, they're probably stalled. Create a 'stalled deals' list and recommend actions for each."
+    },
+    {
+      "title": "Identify Pipeline Gaps",
+      "description": "Assess overall pipeline health: Is there enough pipeline coverage (target: 3-4x quota)? Is the stage distribution healthy (not too top-heavy or bottom-heavy)? Are there enough new opportunities entering the pipe? What's the average age of deals?",
+      "tips": "A healthy pipeline looks like a funnel — wider at the top, narrower at the bottom. If most of your pipeline is in early stages, you have a closing problem. If it's mostly in late stages, you have a prospecting problem."
+    },
+    {
+      "title": "Write Recommendations",
+      "description": "Create a one-page recommendations document: (1) Top 5 deals to accelerate (and how). (2) Top 5 deals to disqualify or deprioritise (and why). (3) Pipeline health summary with key metrics. (4) Three actions to improve overall pipeline performance.",
+      "tips": "Be decisive. The most valuable pipeline advice is 'stop wasting time on these 5 deals and focus energy on these 5 instead.' Managers value reps who can self-diagnose."
+    }
+  ],
+  "deliverables": [
+    "A pipeline spreadsheet with MEDDIC RAG scores for all 25 deals",
+    "Sales velocity calculations (overall and by stage)",
+    "A pipeline health summary with coverage ratio and stage distribution analysis",
+    "A one-page recommendations document with accelerate, disqualify, and improvement actions"
+  ],
+  "tools": ["salesforce", "hubspot-crm", "google-workspace", "clari"],
+  "rubric": [
+    {
+      "criteria": "Analysis Rigour",
+      "description": "MEDDIC scoring is applied consistently with clear evidence for each rating. Sales velocity is calculated correctly and interpreted meaningfully."
+    },
+    {
+      "criteria": "Risk Identification",
+      "description": "Stalled, under-qualified, and at-risk deals are identified with specific reasons. No deal is flagged without a clear rationale."
+    },
+    {
+      "criteria": "Actionable Recommendations",
+      "description": "Recommendations are specific, prioritised, and actionable. Each deal recommendation includes a clear next action, not just a diagnosis."
+    },
+    {
+      "criteria": "Executive Readiness",
+      "description": "The analysis could be presented in a pipeline review meeting. It's concise, data-driven, and focuses on the most important takeaways."
+    }
+  ]
+}

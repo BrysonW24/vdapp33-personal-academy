@@ -1,0 +1,72 @@
+{
+  "slug": "crafting-your-outreach",
+  "moduleSlug": "outbound-outreach",
+  "title": "Crafting Your Outreach",
+  "objective": "Learn to write cold emails that get opened, cold call scripts that earn conversations, and LinkedIn messages that don't get ignored.",
+  "beginnerExplanation": "Outbound outreach is how you start conversations with people who don't know you yet. It's hard because these people are busy and didn't ask to hear from you. The secret is relevance — if your message shows you understand their world and have something genuinely useful to say, you'll stand out from the 99% of outreach that's generic spam. Good outreach is short, specific, and focused on the buyer — not on you.",
+  "deeperExplanation": "**Cold Email**\nThe best cold emails follow a simple formula: (1) Relevance trigger — show you've done your homework. (2) Problem statement — name a problem they likely have. (3) Credibility — briefly show how you've helped similar companies. (4) CTA — one simple ask.\n\nExample structure:\nSubject: [Specific trigger] at [Company]\nHi [Name],\nI noticed [specific observation about their company/role]. [One sentence about a common challenge for companies like theirs]. We helped [similar company] [specific result]. Worth a 15-minute chat to see if we can help [Company] do the same?\n\nKeep it under 100 words. One CTA. No attachments. Personalise the first line.\n\n**Cold Calling**\nCold calls still work — they just need to be done well. The opener matters most. Don't say 'How are you today?' (they know you're selling). Try: 'Hi [Name], this is [You] from [Company]. I know I'm calling out of the blue — do you have 30 seconds for me to tell you why, and you can decide if it's worth continuing?' This honest, pattern-interrupting approach earns more conversations than any scripted pitch.\n\n**LinkedIn**\nLinkedIn outreach sits between email and calling. The key is to engage before you pitch — like, comment on, and share their content for 1-2 weeks before sending a connection request. When you do reach out, reference something specific: 'Loved your post about X — it reminded me of a challenge we helped [similar company] solve.'\n\n**Multi-Channel Sequences**\nThe best outbound combines all three channels in a sequence: Day 1 email, Day 3 LinkedIn connect, Day 5 call, Day 7 follow-up email, Day 10 LinkedIn message, Day 14 break-up email. Most responses come on the 3rd-5th touch. Persistence (with variation) wins.\n\n**Metrics to track**: Open rate (aim for 50%+), reply rate (aim for 5-15%), positive reply rate, meetings booked per 100 emails sent.",
+  "keyTakeaways": [
+    "Relevance beats volume. One researched email outperforms 50 generic ones.",
+    "Keep cold emails under 100 words with one clear call to action.",
+    "On cold calls, earn the right to continue — don't launch into a pitch.",
+    "LinkedIn works best when you engage with their content before reaching out.",
+    "Most responses come on the 3rd-5th touch — persistence with variation wins.",
+    "Always A/B test subject lines, messaging, and sequences to improve over time."
+  ],
+  "frameworks": ["challenger-sale", "sandler-selling"],
+  "example": "Here's a cold email structure that works well for a SaaS seller targeting RevOps leaders:\n\nSubject: Quick question on forecast visibility at [Company]\n\nHi Sarah,\n\nI noticed [Company] has added several new AEs over the last quarter. Teams in that stage often find forecast calls get noisier before they get better.\n\nWe recently helped a software company in a similar ramp tighten commit accuracy and reduce manual forecast prep for managers.\n\nOpen to a 15-minute chat to compare notes on how your team is handling forecast discipline today?\n\nCheers,\n[Name]\n\nWhy it works: there is a visible trigger (team growth), a likely operational consequence (forecast noise), a relevant proof point, and a low-friction CTA.",
+  "commonMistakes": [
+    "Writing emails about yourself instead of the buyer — 'We are a leading provider of...' gets deleted instantly",
+    "Making the CTA too big — 'Book a 60-minute demo' scares people off. Start with '15-minute chat'",
+    "Giving up after one or two touches — most meetings are booked on touches 3-5",
+    "Using the same message across all channels instead of varying the angle",
+    "Not tracking and iterating on metrics — outbound is a craft that improves with data"
+  ],
+  "exercise": "Choose a real company you'd like to sell to. Research them for 10 minutes (website, LinkedIn, recent news). Then write: (1) A cold email under 100 words with a specific trigger and CTA. (2) A cold call opener (the first 30 seconds). (3) A LinkedIn connection request message. Bonus: design a 14-day multi-channel sequence using all three channels with 6-8 touches.",
+  "nextLesson": "cold-calling-that-earns-conversations",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "What is the ideal length for a cold email?",
+      "options": [
+        "Under 50 words",
+        "Under 100 words",
+        "200-300 words",
+        "As long as needed to explain your product"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under 100 words. Busy decision-makers scan emails on their phone. Short, relevant, specific emails get read. Anything longer gets skipped."
+    },
+    {
+      "question": "When do most cold outbound responses come in a multi-touch sequence?",
+      "options": [
+        "First touch",
+        "Second touch",
+        "3rd-5th touch",
+        "After 10+ touches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Research consistently shows most positive responses come on the 3rd-5th touch. This is why persistence with variation is essential — most reps give up after 1-2 attempts."
+    },
+    {
+      "question": "What should the first line of a cold email focus on?",
+      "options": [
+        "Your company's achievements and awards",
+        "A specific observation about the prospect's company",
+        "A question about their budget for new tools",
+        "An introduction of yourself and your role"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first line should demonstrate you've done your research — a specific trigger like recent news, a new hire, a product launch, or a LinkedIn post. This proves you're not sending mass spam."
+    }
+  ],
+  "perspectives": {
+    "ae": "As an AE, outbound is how you control your own pipeline. The best AEs don't rely solely on SDR-generated meetings — they prospect strategically into their target accounts. Personalise every touch, reference something specific, and always offer value before asking for time.",
+    "manager": "A Sales Manager monitors outbound activity and outcomes: emails sent, calls made, reply rates, meetings booked. But smart managers focus on quality metrics, not just volume. They A/B test messaging with the team, share winning templates, and coach reps on personalisation — not just activity quotas.",
+    "vp": "The VP of Sales builds the outbound playbook and tech stack. They decide the sequence structure, channel mix, and cadence. They track pipeline sourced from outbound vs inbound, cost per meeting, and ensure the SDR-to-AE handoff is seamless. A great VP creates repeatable outbound motions that scale with headcount.",
+    "cro": "The CRO orchestrates outbound as part of the total go-to-market engine. They ensure sales development, marketing, and partnerships all target the same ICP with consistent messaging. The CRO measures outbound's contribution to total pipeline and ARR, and invests in the channel mix that delivers the best unit economics.",
+    "ceo": "The CEO sees outbound as a growth lever. They want a repeatable, scalable outbound engine that generates predictable pipeline. They care about pipeline generated per rep, not just activity metrics.",
+    "cfo": "The CFO evaluates outbound efficiency: cost per meeting booked, cost per opportunity created. They want to see that the investment in SDRs, tools, and sequences delivers a measurable return.",
+    "cmo": "The CMO wants outbound and inbound to reinforce each other. Outbound sequences should use insights from marketing content. Marketing should create assets (case studies, one-pagers) that outbound teams can leverage."
+  }
+}

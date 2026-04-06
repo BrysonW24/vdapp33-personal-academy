@@ -1,0 +1,74 @@
+{
+  "slug": "consultative-solution-and-value-selling",
+  "moduleSlug": "sales-methodologies",
+  "title": "Consultative, Solution, and Value Selling",
+  "objective": "Understand how consultative, solution, and value selling differ, where they overlap, and how to use them together in modern B2B sales.",
+  "beginnerExplanation": "These three ideas are related but not identical. Consultative selling is about diagnosing before prescribing. Solution selling connects your offer to a defined business problem. Value selling focuses on measurable outcomes and commercial impact. Strong reps usually use all three.",
+  "deeperExplanation": "Consultative selling changes your posture: you ask, diagnose, and guide rather than pitch. Solution selling sharpens the match between the customer's problem and your product's practical fit. Value selling makes the case economically credible by tying the solution to revenue, efficiency, cost reduction, risk reduction, or strategic upside. In real deals, these layers work together. You discover consultatively, position the solution against the problem, and defend the investment through value.\n\nThe mistake is treating them as competing religions. They are complementary lenses. If you only consult and never position, you become a free advisor. If you only position the solution and never diagnose, the buyer will not trust the fit. If you never quantify value, price becomes much harder to defend.",
+  "keyTakeaways": [
+    "Consultative selling is about diagnosis and guidance.",
+    "Solution selling is about matching the offer to a real business problem.",
+    "Value selling is about proving that the change is commercially worth making.",
+    "These methodologies are complementary, not mutually exclusive.",
+    "Strong B2B sellers often move through all three in a single deal.",
+    "Poor selling usually fails because one of the three layers is missing."
+  ],
+  "frameworks": [
+    "consultative-selling",
+    "solution-selling",
+    "value-selling",
+    "gap-selling"
+  ],
+  "example": "A logistics buyer complains about planning inefficiency. A consultative seller diagnoses where the workflow breaks. A solution seller maps those problems to the parts of the platform that fix them. A value seller then shows that reduced overtime and cleaner staffing decisions justify the investment. Same deal, three lenses.",
+  "commonMistakes": [
+    "Confusing consultative selling with simply being friendly",
+    "Jumping to the solution before the problem is fully understood",
+    "Making value claims without credible math or evidence",
+    "Treating these labels as separate camps instead of complementary tools",
+    "Overcomplicating a simple deal that mostly needs clarity and speed"
+  ],
+  "exercise": "Take one deal and write three short versions of your positioning: one consultative angle, one solution angle, and one value angle. Compare what changes in each version.",
+  "nextLesson": "challenger-sandler-and-insight-selling",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the main job of consultative selling?",
+      "options": [
+        "To push harder on urgency",
+        "To diagnose and guide before prescribing",
+        "To avoid discussing product fit",
+        "To skip value conversations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consultative selling starts with diagnosis and guidance."
+    },
+    {
+      "question": "What does value selling add to the motion?",
+      "options": [
+        "It replaces the solution entirely",
+        "It ties the decision to measurable business impact",
+        "It eliminates the need for discovery",
+        "It only matters in renewals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Value selling makes the commercial case for change more concrete."
+    },
+    {
+      "question": "How do strong reps use these approaches in practice?",
+      "options": [
+        "They choose one forever and ignore the others",
+        "They combine them depending on the stage and need of the deal",
+        "They avoid methodology entirely",
+        "They use them only in enterprise deals"
+      ],
+      "correctIndex": 1,
+      "explanation": "The best reps blend consultative, solution, and value selling in one coherent motion."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should think in layers: diagnose well, position clearly, and prove value credibly.",
+    "manager": "Managers can coach which layer is missing when a rep's deal feels weak.",
+    "vp": "A VP wants the team to standardise value language without losing consultative quality.",
+    "cro": "A CRO sees these methodologies as a foundation for better win rates and cleaner margin defense."
+  }
+}

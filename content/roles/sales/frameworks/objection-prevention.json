@@ -1,0 +1,13 @@
+{
+  "slug": "objection-prevention",
+  "name": "Objection Prevention",
+  "summary": "A technique that anticipates likely concerns and addresses them before they harden into formal objections later in the deal.",
+  "whenToUseIt": "Use objection prevention in demos, proposals, and late-stage planning when you already know the most likely concerns the buyer, IT, finance, or procurement will raise.",
+  "steps": [
+    "Identify the likely objections before the conversation happens.",
+    "Address them proactively with proof, framing, or process clarity.",
+    "Check whether the concern still remains after the buyer has seen the context."
+  ],
+  "example": "Before procurement raises rollout risk, the rep proactively shows the phased onboarding model, named owners, and timeline used by a similar customer.",
+  "category": "objection-handling"
+}

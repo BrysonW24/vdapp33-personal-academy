@@ -1,0 +1,56 @@
+{
+  "slug": "freelancer",
+  "title": "Freelance Marketing Consultant",
+  "setting": "Independent freelancer / consultant",
+  "companySize": "Solo (serving 3-8 clients)",
+  "description": "You're an independent marketing consultant working with multiple clients. You set your own hours, choose your clients, and run your own business. Some weeks you're doing strategy, some weeks you're deep in execution. The freedom is real — but so is the hustle of finding clients, managing invoices, and being your own boss.",
+  "salary": "$70,000 - $200,000+ AUD (highly variable)",
+  "schedule": [
+    {"time": "7:30 AM", "activity": "Morning routine — review today's client commitments and deadlines over coffee", "tools": ["Notion", "Google Calendar"], "note": "As a freelancer, planning your day is your responsibility"},
+    {"time": "8:00 AM", "activity": "Client A: Review and approve scheduled social content for the week", "tools": ["Buffer", "Canva"]},
+    {"time": "8:45 AM", "activity": "Client B: Write monthly marketing report — analyse last month's campaign performance", "tools": ["Google Analytics", "Google Slides", "Google Sheets"]},
+    {"time": "10:00 AM", "activity": "Client C: Strategy call — present a 90-day marketing plan for their new product launch", "tools": ["Google Meet", "Google Slides"]},
+    {"time": "11:00 AM", "activity": "Business development: Follow up with a prospective client, update proposal", "tools": ["Gmail", "Google Docs"], "note": "If you're not selling, you're not eating. Always keep the pipeline moving."},
+    {"time": "11:30 AM", "activity": "Professional development: Read industry news, take an online course module", "tools": ["LinkedIn", "HubSpot Academy"]},
+    {"time": "12:00 PM", "activity": "Lunch and a walk — protect your energy, you're the entire workforce"},
+    {"time": "1:00 PM", "activity": "Client A: Set up and launch a new Meta Ads campaign", "tools": ["Meta Ads Manager", "Canva"]},
+    {"time": "2:30 PM", "activity": "Client D: SEO audit and keyword research for their new website", "tools": ["Ahrefs", "Google Search Console"]},
+    {"time": "3:30 PM", "activity": "Admin: Send invoices, update bookkeeping, chase a late payment", "tools": ["Xero", "Gmail"], "note": "The unglamorous but essential side of freelancing"},
+    {"time": "4:00 PM", "activity": "Client B: Write 3 blog posts for their content calendar", "tools": ["Google Docs", "Claude"]},
+    {"time": "5:00 PM", "activity": "Networking: Coffee catch-up with a former colleague who might refer work"},
+    {"time": "5:30 PM", "activity": "Wrap up: review tomorrow's schedule, update project trackers, switch off", "tools": ["Notion"]}
+  ],
+  "responsibilities": [
+    "Manage marketing strategy and execution for 3-8 clients simultaneously",
+    "Scope projects, write proposals, and negotiate contracts",
+    "Deliver reports and attend client meetings regularly",
+    "Stay current with marketing trends and platform updates",
+    "Handle your own business admin: invoicing, tax, insurance",
+    "Build and maintain your professional network for referrals",
+    "Market yourself — your own business needs marketing too",
+    "Continuously upskill to stay competitive"
+  ],
+  "challenges": [
+    "Inconsistent income — feast or famine cycles are real",
+    "No team to lean on — you're the strategist, executor, and admin",
+    "Scope creep from clients who expect more than what they're paying for",
+    "Loneliness and isolation of working alone",
+    "Difficulty switching off — your phone is always on",
+    "Chasing late payments and managing client expectations"
+  ],
+  "rewards": [
+    "Complete freedom over your schedule, clients, and work",
+    "Unlimited earning potential — your income scales with your skills and network",
+    "Variety — every client is a different industry, challenge, and opportunity",
+    "Deep expertise from working across multiple businesses simultaneously",
+    "No corporate politics or pointless meetings",
+    "Building something that's truly yours"
+  ],
+  "careerPath": [
+    "Junior Marketer at a company (1-3 years to build skills)",
+    "Start freelancing part-time alongside your job (year 3-4)",
+    "Go full-time freelance (year 4-5)",
+    "Scale to a boutique agency with 1-3 contractors (year 5-7)",
+    "Grow into a full agency or transition to fractional CMO work (year 7+)"
+  ]
+}

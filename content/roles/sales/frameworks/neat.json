@@ -1,0 +1,13 @@
+{
+  "slug": "neat",
+  "name": "NEAT",
+  "summary": "A qualification framework built around Need, Economic Impact, Access to Authority, and Timeline so the deal is judged by business weight as well as fit.",
+  "whenToUseIt": "Use NEAT when you need a practical mid-market qualification lens that keeps the conversation focused on business need and economic consequence instead of checklist theater.",
+  "steps": [
+    "Confirm the real need and whether it is significant enough to matter.",
+    "Quantify the economic impact so the value case has commercial credibility.",
+    "Secure access to authority and understand the timeline driving action."
+  ],
+  "example": "A support leader wants faster onboarding. NEAT helps the rep confirm whether the need is big enough, what the current delay costs in lost productivity, who can sponsor the spend, and what event makes the timeline real.",
+  "category": "qualification"
+}

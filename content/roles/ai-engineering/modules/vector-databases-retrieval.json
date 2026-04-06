@@ -1,0 +1,31 @@
+{
+  "slug": "vector-databases-retrieval",
+  "title": "RAG and Knowledge Systems",
+  "shortSummary": "Learn retrieval as a product system: ingestion, chunking, indexing, ranking, citations, and freshness.",
+  "track": "core-frontier",
+  "level": "intermediate",
+  "category": "llm-systems",
+  "whyItMatters": "Most useful AI products are not one-shot chat interfaces. They are knowledge systems that combine retrieval, ranking, and generation. This module helps you design those systems so they are inspectable and defensible.",
+  "coreConcepts": [
+    "Chunking, embedding, indexing, and retrieval tradeoffs",
+    "Citation-backed generation and answer grounding",
+    "Freshness, ownership, and ingestion pipelines",
+    "Failure cases like missing context, duplicate chunks, and stale knowledge",
+    "When to use RAG versus fine-tuning versus plain search"
+  ],
+  "lessons": [
+    "rag-knowledge-systems"
+  ],
+  "frameworks": [
+    "rag-architecture",
+    "llm-application-stack"
+  ],
+  "relatedModules": [
+    "llm-engineering",
+    "ai-agents",
+    "research-to-production"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

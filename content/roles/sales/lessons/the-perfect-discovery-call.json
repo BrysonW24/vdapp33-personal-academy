@@ -1,0 +1,72 @@
+{
+  "slug": "the-perfect-discovery-call",
+  "moduleSlug": "discovery-calls",
+  "title": "The Perfect Discovery Call",
+  "objective": "Learn to structure and run a discovery call that uncovers real pain, qualifies the opportunity, and positions you as a trusted adviser — not just another vendor.",
+  "beginnerExplanation": "A discovery call is your first real conversation with a potential buyer. It's not a pitch — it's an interview. Your goal is to understand the buyer's world: what's working, what's not, what they've tried, and what would success look like. Think of it like a first date — you're both figuring out if there's a fit. The best discovery calls feel like a conversation between two smart people solving a problem together, not like a salesperson reading from a script.",
+  "deeperExplanation": "Discovery is the most important stage in any sales process. Research from Gong.io shows that top-performing reps ask 11-14 questions in discovery (not 20+ — that feels like an interrogation) and spend 46% of the call listening. Here's a proven structure:\n\n**1. Open (2-3 minutes)**: Thank them for their time. Set an agenda: 'I'd love to learn about your current setup, understand what's working and what's not, and if it makes sense, explore how we might help. Sound fair?' This gives you permission to ask questions.\n\n**2. Situational context (5 minutes)**: Understand their world. 'Walk me through how your team handles X today.' 'What tools are you using?' 'How big is the team?' These aren't exciting questions, but they build the foundation.\n\n**3. Pain discovery (10-15 minutes)**: This is the heart of discovery. Use open-ended questions: 'What's the biggest challenge with that?' 'What happens when that breaks down?' 'How does that affect the broader team?' Go three layers deep — the first answer is usually surface-level. The real pain is underneath.\n\n**4. Impact quantification (5 minutes)**: 'What does this cost you — in time, revenue, or missed opportunities?' 'If this problem persists for another 12 months, what happens?' This is where you build the business case.\n\n**5. Future state (5 minutes)**: 'In an ideal world, how would this work?' 'What would success look like 6 months from now?' This gives you the buyer's vision to anchor your demo to.\n\n**6. Process and next steps (5 minutes)**: 'Who else is involved in evaluating something like this?' 'What does your decision process look like?' 'What would a sensible next step be?' MEDDIC and BANT questions fit naturally here.\n\nThe qualification frameworks — BANT (Budget, Authority, Need, Timing) and MEDDIC (Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion) — give you a mental checklist. BANT is simpler and works for straightforward deals. MEDDIC is more thorough and essential for enterprise sales where multiple stakeholders are involved.",
+  "keyTakeaways": [
+    "Discovery is an interview, not a pitch. Your job is to listen and understand.",
+    "Ask 11-14 questions — enough to diagnose, not so many it feels like an interrogation.",
+    "Go three layers deep on pain. The first answer is never the real answer.",
+    "Quantify the impact: if the problem costs $200K/year, your $50K solution is easy to justify.",
+    "Always establish next steps before hanging up. Never end with 'I'll send you some info.'",
+    "Use BANT for simple deals, MEDDIC for complex ones."
+  ],
+  "frameworks": ["meddic", "bant", "spin-selling", "gap-selling"],
+  "example": "You sell HR software to mid-market companies. On a discovery call with the Head of People at a 200-person fintech:\n\nYou: 'Walk me through how you handle onboarding today.'\nThem: 'It's mostly manual — spreadsheets, email chains, a shared drive with documents.'\nYou: 'What happens when things fall through the cracks?'\nThem: 'New hires miss important compliance training. We had an audit issue last quarter.'\nYou: 'What was the impact of that audit issue?' (Going deeper)\nThem: 'It cost us about $30K in remediation and we nearly lost our SOC 2 certification, which would have been catastrophic for our enterprise deals.'\n\nNow you have a quantified pain point ($30K direct cost + potential loss of enterprise revenue) tied to a specific business risk (SOC 2 compliance). Your demo can focus precisely on automated compliance tracking, not a generic product tour.",
+  "commonMistakes": [
+    "Pitching your product in the first 5 minutes instead of asking questions",
+    "Asking yes/no questions instead of open-ended ones that invite the buyer to talk",
+    "Accepting the first answer without going deeper — 'That must be frustrating' is not a follow-up question",
+    "Not asking about the decision process — then being surprised when the deal stalls",
+    "Ending the call without clear, calendar-booked next steps"
+  ],
+  "exercise": "Write a discovery call script for a product you know (or make one up). Include: (1) Your opening and agenda-setting statement. (2) 3 situational questions. (3) 5 pain-discovery questions that go progressively deeper. (4) 2 impact-quantification questions. (5) 2 future-state questions. (6) 3 process/next-steps questions. Then practise with a friend or colleague — have them play a difficult buyer who gives short answers.",
+  "nextLesson": "qualifying-with-meddic-and-bant",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "According to Gong.io research, how many questions do top-performing reps ask in discovery?",
+      "options": [
+        "3-5",
+        "11-14",
+        "20-25",
+        "30+"
+      ],
+      "correctIndex": 1,
+      "explanation": "Top performers ask 11-14 questions — enough to thoroughly understand the buyer's situation and pain, but not so many that it feels like an interrogation. Quality of questions matters more than quantity."
+    },
+    {
+      "question": "What does BANT stand for?",
+      "options": [
+        "Business, Approach, Negotiation, Timeline",
+        "Budget, Authority, Need, Timing",
+        "Buyer, Advocate, Necessity, Terms",
+        "Business, Alignment, Needs, Targets"
+      ],
+      "correctIndex": 1,
+      "explanation": "BANT stands for Budget, Authority, Need, Timing. It's a simple qualification framework that helps you determine if a prospect has the budget, the authority to decide, a genuine need, and a reasonable timeline."
+    },
+    {
+      "question": "What should you do at the END of every discovery call?",
+      "options": [
+        "Send a follow-up email with your pricing",
+        "Immediately start a demo of your product",
+        "Establish clear, calendar-booked next steps",
+        "Tell them you'll circle back next quarter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Always book the next meeting before ending the call. 'I'll send you some info' or 'Let's reconnect soon' are deal-killers. Get a specific date, time, and attendee list for the next step."
+    }
+  ],
+  "perspectives": {
+    "ae": "Discovery is where you earn or lose the deal. The best AEs prepare 5-7 open-ended questions tailored to the prospect's industry and role, then let the conversation flow naturally. Your goal is to leave the call knowing the pain, impact, decision process, and timeline — without it feeling like a checklist.",
+    "manager": "A Sales Manager listens to discovery call recordings looking for depth. Are reps going three layers deep on pain, or accepting surface-level answers? Are they qualifying with MEDDIC/BANT, or just running through a demo request? Managers build discovery scorecards and do weekly call reviews.",
+    "vp": "The VP of Sales tracks discovery-to-demo conversion and demo-to-close rates. When discovery is thorough, both metrics improve dramatically. VPs invest in discovery training, call recording tools like Gong, and standardised qualification criteria that prevent bad deals from advancing.",
+    "cro": "The CRO sees discovery as the foundation of revenue predictability. When every rep qualifies consistently, forecasting becomes reliable. The CRO ensures that discovery insights flow back to marketing (for better targeting) and product (for roadmap prioritisation) — creating a compounding intelligence loop.",
+    "ceo": "The CEO values discovery because it determines deal quality. A well-qualified pipeline of genuine opportunities is worth far more than a bloated pipeline of unqualified leads. They want reps who disqualify fast and focus on winnable deals.",
+    "cfo": "The CFO cares about sales efficiency. Reps who run thorough discovery close at higher rates with shorter cycles — meaning lower customer acquisition costs. Poor discovery leads to wasted demo time on deals that were never going to close.",
+    "cmo": "The CMO wants discovery intelligence fed back into marketing. What pain points come up most? What language do buyers use? What competitors are in the mix? This intel shapes better messaging, content, and lead scoring."
+  }
+}

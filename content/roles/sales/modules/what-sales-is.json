@@ -1,0 +1,23 @@
+{
+  "slug": "what-sales-is",
+  "title": "What Sales Actually Is",
+  "shortSummary": "Sales is problem-solving, not persuasion. Learn what sales really means, how it creates value, and develop the mindset that separates good reps from great ones.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Every successful sales career starts with understanding what sales truly is. Most people think sales is about convincing someone to buy something they don't need. In reality, sales is the art of identifying problems and connecting people with solutions. When you internalise this, you stop feeling like you're 'selling' and start feeling like you're helping — and buyers can feel the difference.",
+  "coreConcepts": [
+    "Sales as problem-solving, not persuasion",
+    "The value exchange: both sides should win",
+    "Consultative vs transactional selling",
+    "How major sales methodologies shape rep behavior",
+    "The sales mindset: curiosity, resilience, and empathy",
+    "How revenue drives every business function",
+    "The difference between features and outcomes"
+  ],
+  "lessons": ["what-sales-actually-is", "consultative-vs-transactional-selling"],
+  "frameworks": ["gap-selling", "value-selling", "consultative-selling", "solution-selling"],
+  "relatedModules": ["understanding-buyers", "value-propositions-for-sales", "communication-fundamentals", "sales-methodologies"],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

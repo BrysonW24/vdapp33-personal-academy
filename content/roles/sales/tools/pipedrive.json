@@ -1,0 +1,27 @@
+{
+  "slug": "pipedrive",
+  "name": "Pipedrive",
+  "category": "crm",
+  "description": "A sales-focused CRM designed specifically for small sales teams. Pipedrive's visual pipeline management and activity-based selling approach make it popular with startups and SMBs who want simplicity without sacrificing pipeline visibility.",
+  "whyUseIt": "Pipedrive is built by salespeople for salespeople. Its visual pipeline — where you drag deals between stages — is intuitive and keeps your focus on next actions. If Salesforce feels overwhelming and HubSpot feels too marketing-heavy, Pipedrive is the sweet spot for pure sales teams under 50 people.",
+  "pricingTier": "paid",
+  "url": "https://www.pipedrive.com",
+  "logoUrl": "/tools/pipedrive.svg",
+  "aiCapabilities": "Pipedrive's AI Sales Assistant analyses your pipeline and suggests actions: which deals to focus on, when to follow up, and where deals are at risk of stalling.",
+  "alternatives": ["hubspot-crm", "salesforce"],
+  "funnelPosition": "Sales pipeline — from qualified lead through to close",
+  "outputs": ["Visual pipeline boards", "Activity reports", "Revenue forecasts", "Win/loss analysis", "Email tracking"],
+  "sellerWorkflow": "AEs manage deals on the visual pipeline board, set activities (calls, emails, meetings) for each deal, and track progress. The activity-based approach keeps focus on next steps rather than deal status.",
+  "managerExpects": "Every deal has a scheduled next activity. Pipeline stages reflect reality. Activity velocity is consistent — no deals sitting idle without next steps.",
+  "demoDescription": "View the visual pipeline, drag a deal to a new stage, schedule a next activity, send a tracked email, and review the AI assistant's recommendations for pipeline improvement.",
+  "vocabulary": [
+    { "term": "Activity", "definition": "A task tied to a deal: call, email, meeting, deadline. Pipedrive's core philosophy is that you can't control outcomes, but you can control activities." },
+    { "term": "Rotting Deal", "definition": "A deal that has been idle for too long without activity. Pipedrive highlights these automatically to prevent pipeline rot." }
+  ],
+  "beginnerMistakes": [
+    "Letting deals rot without scheduled next activities",
+    "Not customising pipeline stages to match your actual sales process",
+    "Forgetting to log activities — Pipedrive's value comes from consistent usage"
+  ],
+  "relatedProject": "pipeline-audit"
+}

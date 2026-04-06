@@ -1,0 +1,68 @@
+{
+  "slug": "reading-your-analytics",
+  "moduleSlug": "analytics-attribution-kpis",
+  "title": "Reading Your Analytics",
+  "objective": "Understand the key marketing metrics, what they mean, and how to use data to make better decisions.",
+  "beginnerExplanation": "Marketing analytics is about measuring what's working and what's not. Every click, view, purchase, and email open generates data — your job is to turn that data into insight and then into action.\n\nThe most important metrics to start with are: impressions (how many people saw your content), clicks (how many took action), conversion rate (what percentage completed a goal), cost per acquisition or CPA (how much you spent to get each customer), and return on investment or ROI (how much revenue your marketing generated relative to cost).\n\nDon't try to track everything. Beginners often drown in dashboards. Instead, pick 3-5 metrics that directly relate to your goals. If your goal is brand awareness, track impressions and reach. If your goal is sales, track conversion rate and CPA. The right metrics depend on what you're trying to achieve.",
+  "deeperExplanation": "Attribution is one of the most complex challenges in marketing analytics. When a customer sees your Instagram ad, reads your blog, gets an email, and then buys — which touchpoint gets credit? 'Last-click attribution' gives all credit to the final touchpoint. 'First-click attribution' credits the discovery moment. 'Multi-touch attribution' spreads credit across all touchpoints.\n\nTwo metrics that every marketer should understand deeply are Customer Acquisition Cost (CAC) and Customer Lifetime Value (CLV). CAC is the total cost of acquiring one customer (marketing spend + sales costs, divided by new customers). CLV is the total revenue a customer generates over their entire relationship with you. The golden rule: CLV should be at least 3x your CAC. If you spend $50 to acquire a customer who only ever spends $30, you're losing money.\n\nMarketing ROI is calculated as: (Revenue from marketing - Cost of marketing) / Cost of marketing × 100. If you spent $10,000 on a campaign that generated $50,000 in revenue, your ROI is 400%. This is the metric that CFOs and CEOs care about most.",
+  "keyTakeaways": [
+    "Track 3-5 metrics that directly relate to your goals — don't try to measure everything",
+    "Conversion rate tells you how effective your marketing is at driving action",
+    "Customer Lifetime Value should be at least 3x your Customer Acquisition Cost",
+    "Attribution helps you understand which marketing touchpoints actually drive results",
+    "Marketing ROI is how you justify your budget to leadership"
+  ],
+  "frameworks": ["kpi-cheat-sheet", "aarrr"],
+  "example": "A small e-commerce brand spending $5,000/month on Google Ads checks their analytics and finds: 50,000 impressions, 2,500 clicks (5% CTR), 75 purchases (3% conversion rate), at a CPA of $66.67. Their average order value is $120, giving a 1.8x return on ad spend. But when they factor in that 40% of those customers reorder within 6 months (CLV = $200), the true return is much higher. This analysis tells them Google Ads is profitable — but they should also invest in retention to maximise CLV.",
+  "commonMistakes": [
+    "Vanity metrics — obsessing over follower counts or page views instead of conversions and revenue",
+    "Not setting up conversion tracking before launching campaigns",
+    "Comparing metrics without context (a 2% conversion rate might be excellent or terrible depending on the industry)",
+    "Making big decisions based on small sample sizes",
+    "Only looking at last-click attribution and ignoring how customers actually discover you"
+  ],
+  "exercise": "Go to the Google Analytics demo account (analytics.google.com — Google provides a free demo). Find these three things: (1) Total users in the last 30 days and the top traffic source. (2) The page with the highest engagement rate. (3) The conversion rate for any goal or event. Write a one-paragraph summary of what the data tells you about this business.",
+  "nextLesson": "running-marketing-experiments",
+  "order": 1,
+  "perspectives": {
+    "marketer": "Analytics is where you prove your value and find your next win. The practical skill to develop is building a weekly reporting habit — every Monday morning, pull your key metrics and compare them to last week and last month. You're looking for trends, not snapshots. A single week's data can be misleading, but three consecutive weeks of declining conversion rates is a signal that demands investigation.\n\nLearn to distinguish between diagnostic metrics and performance metrics. Performance metrics tell you whether you're winning (revenue, conversions, CPA). Diagnostic metrics tell you why (bounce rate, time on page, click-through rate by ad creative). When a performance metric drops, use diagnostic metrics to trace the problem. If CPA spiked, was it because click-through rates dropped (creative fatigue) or because conversion rates dropped (landing page issue)? This diagnostic thinking is what separates a data-literate marketer from one who just reads dashboards.\n\nSet up automated alerts for your most critical metrics. Most analytics platforms let you create alerts when metrics deviate significantly from their baseline. A 30% drop in daily conversions should trigger an immediate notification, not wait for your Monday morning review. The faster you catch problems, the less revenue you lose.",
+    "cmo": "As CMO, your analytics framework needs to serve two purposes: operational optimisation (are our campaigns working?) and strategic decision-making (are we investing in the right channels and markets?). Most marketing teams over-index on operational metrics and under-invest in strategic analytics. You need both.\n\nBuild a marketing measurement hierarchy. At the top level, track marketing's contribution to revenue and the efficiency of that contribution (marketing ROI, blended CAC). At the channel level, track channel-specific CAC, ROAS, and contribution margin. At the campaign level, track tactical metrics like CTR, conversion rate, and CPA. This hierarchy ensures you're making decisions at the right altitude — you don't need campaign-level CTR data to decide whether to shift budget from Meta to Google, and you don't need blended CAC to decide which ad creative to scale.\n\nAttribution is the most politically fraught area of marketing analytics. Every channel wants credit for conversions, and platform-reported data is inherently biased — Meta will always over-attribute to Meta, Google will always over-attribute to Google. Implement a source-of-truth measurement system that's independent of any platform: server-side tracking, post-purchase surveys, and periodic incrementality tests. This gives you an unbiased view that you can defend in board meetings and budget discussions.",
+    "ceo": "Analytics is how you hold your marketing function accountable — and how marketing justifies its investment. The CEO doesn't need to understand every metric, but you absolutely need to understand three: Customer Acquisition Cost (what does it cost to win a customer?), Customer Lifetime Value (what is that customer worth?), and the ratio between them. If your CLV:CAC ratio is below 3:1, your business model has a fundamental problem that no amount of optimisation will fix.\n\nThe most important analytical question at the CEO level is: 'If we spend an additional $100,000 on marketing next quarter, what will the return be?' If your marketing team can't answer this with confidence, you have a measurement problem. Push for incrementality testing and media mix modelling — these methodologies give you causal evidence of marketing's impact, not just correlational data from platform dashboards.\n\nAnalytics also protects you from narrative bias. It's easy for a marketing team to present a story that makes their work look good by cherry-picking metrics. Insist on a consistent reporting framework that tracks the same metrics month over month, with honest commentary on what's not working alongside what is. The marketing leaders worth keeping are the ones who bring you bad news early and a plan to fix it.",
+    "cfo": "Marketing analytics is the bridge between marketing activity and financial outcomes, and your role as CFO is to ensure that bridge is sturdy. Start by insisting on a single source of truth for revenue attribution. If the marketing team reports $500,000 in attributed revenue but finance only sees $400,000 in total revenue for the period, there's a double-counting or attribution inflation problem that needs resolving before any budget decisions are made.\n\nThe CLV:CAC ratio is your most important marketing efficiency metric, but it needs to be calculated correctly. CAC should include all marketing and sales costs — not just ad spend, but also agency fees, tool subscriptions, content production, and the fully loaded cost of marketing headcount. CLV should be calculated on gross margin, not revenue, and discounted for the time value of money if your payback period exceeds 6 months. Most marketing teams calculate a flattering version of both numbers; your job is to ensure rigour.\n\nBuild marketing spend into your financial models as a variable cost with predictable returns, not a fixed overhead. If you can demonstrate that every $1 of marketing spend generates $3 in gross margin with a 4-month payback period, marketing becomes self-funding — and budget conversations shift from 'how much can we afford?' to 'how fast can we deploy capital profitably?' That's the analytics maturity level every CFO should be pushing toward."
+  },
+  "quiz": [
+    {
+      "question": "What is the golden rule for the relationship between Customer Lifetime Value (CLV) and Customer Acquisition Cost (CAC)?",
+      "options": [
+        "CAC should always be zero",
+        "CLV should be at least 3 times your CAC",
+        "CAC and CLV should be equal for a balanced business",
+        "CLV doesn't matter as long as your conversion rate is high"
+      ],
+      "correctIndex": 1,
+      "explanation": "If you spend $50 to acquire a customer who only ever spends $30, you're losing money. CLV should be at least 3x CAC to ensure a sustainable, profitable business."
+    },
+    {
+      "question": "Your e-commerce store has a 5% click-through rate but only a 0.5% conversion rate. What does this data suggest you should investigate?",
+      "options": [
+        "Your ads are poorly targeted and need different audiences",
+        "People are clicking through but something on your landing page or checkout is preventing them from purchasing",
+        "You should stop running ads entirely since the conversion rate is low",
+        "You need to increase your advertising budget to get more clicks"
+      ],
+      "correctIndex": 1,
+      "explanation": "A healthy click-through rate with a low conversion rate suggests the ads are attracting interest, but the post-click experience (landing page, pricing, checkout flow) has friction that prevents purchases."
+    },
+    {
+      "question": "Which of the following is an analytics mistake?",
+      "options": [
+        "Tracking 3-5 metrics that directly relate to your business goals",
+        "Considering industry benchmarks when evaluating your conversion rate",
+        "Obsessing over vanity metrics like follower counts and page views instead of conversions and revenue",
+        "Using multiple attribution models to understand the full customer journey"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vanity metrics like follower counts and page views feel good but don't tell you whether your marketing is actually driving business results. Focus on metrics tied to conversions and revenue."
+    }
+  ]
+}

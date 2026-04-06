@@ -1,0 +1,31 @@
+{
+  "slug": "ai-safety-alignment",
+  "title": "Safety, Abuse Resistance, and Guardrails",
+  "shortSummary": "Study the practical safety surface of shipping AI features to real users and high-stakes environments.",
+  "track": "core-frontier",
+  "level": "advanced",
+  "category": "safety",
+  "whyItMatters": "OpenAI- and Anthropic-style roles increasingly expect engineers to understand misuse, prompt injection, escalation paths, and failure containment. Safety is not a separate department; it is part of the build.",
+  "coreConcepts": [
+    "Prompt injection, jailbreaks, and misuse surfaces",
+    "Guardrails versus true system-level safety",
+    "Human escalation for risky outputs or actions",
+    "Release checklists for public-facing AI features",
+    "Balancing helpfulness, refusal quality, and user trust"
+  ],
+  "lessons": [
+    "ai-safety-alignment-lesson"
+  ],
+  "frameworks": [
+    "responsible-ai-framework",
+    "model-evaluation-framework"
+  ],
+  "relatedModules": [
+    "model-evaluation",
+    "ai-agents",
+    "system-design-for-ai"
+  ],
+  "status": "coming-soon",
+  "order": 11,
+  "levelNumber": 3
+}

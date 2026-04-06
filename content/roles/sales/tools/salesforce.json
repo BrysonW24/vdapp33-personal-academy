@@ -1,0 +1,30 @@
+{
+  "slug": "salesforce",
+  "name": "Salesforce",
+  "category": "crm",
+  "description": "The world's leading CRM platform, used by sales teams of all sizes to manage contacts, opportunities, forecasts, and the entire customer lifecycle. Salesforce is the industry standard — if you work in B2B sales, you will almost certainly use it at some point in your career.",
+  "whyUseIt": "Salesforce is where your pipeline lives. It tracks every deal from first touch to close, stores contact and account intelligence, generates forecasts, and provides the dashboards your leadership uses to run the business. Mastering Salesforce — proper data entry, pipeline views, report building, and forecast management — is a non-negotiable skill for any AE.",
+  "pricingTier": "enterprise",
+  "url": "https://www.salesforce.com",
+  "logoUrl": "/tools/salesforce.svg",
+  "aiCapabilities": "Einstein AI provides lead scoring, opportunity insights, activity capture, and predictive forecasting. Einstein GPT generates personalised emails, call summaries, and next-step recommendations.",
+  "alternatives": ["hubspot-crm", "pipedrive"],
+  "funnelPosition": "Full funnel — from lead capture through to renewal and expansion",
+  "outputs": ["Pipeline reports", "Forecast dashboards", "Activity logs", "Deal inspection views", "Customer 360 profiles"],
+  "sellerWorkflow": "AEs log activities, update deal stages, track next steps, and generate pipeline reports. SDRs log calls and emails, convert leads to opportunities. Managers run forecast reviews and pipeline inspections.",
+  "managerExpects": "Clean, accurate, up-to-date pipeline data. Every deal at the right stage with current next steps. Forecast categories (commit/upside/best case) accurately assigned. Activities logged within 24 hours.",
+  "aiWorkflowImpact": "Einstein AI automates activity capture, scores leads, and predicts deal outcomes, reducing manual data entry by 30-40% and improving forecast accuracy.",
+  "demoDescription": "Explore the opportunity pipeline view, create a new deal, update stages, build a pipeline report, and generate a forecast. See how Einstein surfaces at-risk deals automatically.",
+  "vocabulary": [
+    { "term": "Opportunity", "definition": "A qualified sales deal being tracked through the pipeline with an expected value and close date." },
+    { "term": "Lead", "definition": "An unqualified contact or company that may become an opportunity after qualification." },
+    { "term": "Forecast Category", "definition": "Classification of deal likelihood: Commit, Upside, Best Case, Pipeline, or Omitted." }
+  ],
+  "beginnerMistakes": [
+    "Not updating deal stages — stale pipeline data destroys forecast accuracy",
+    "Logging activities days after they happen instead of immediately",
+    "Using the Notes field instead of structured fields for important deal data",
+    "Not attaching contacts to opportunities — makes stakeholder tracking impossible"
+  ],
+  "relatedProject": "pipeline-audit"
+}

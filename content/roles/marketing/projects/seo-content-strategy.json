@@ -1,0 +1,27 @@
+{
+  "slug": "seo-content-strategy",
+  "title": "SEO Content Strategy",
+  "difficulty": 5,
+  "estimatedHours": 10,
+  "description": "Research keywords, analyse search intent, and plan a 10-article content strategy designed to rank on Google and drive organic traffic.",
+  "whyItMatters": "SEO is one of the highest-ROI marketing channels because organic traffic is essentially free once you rank. A well-researched content strategy can drive traffic for years after publishing.",
+  "skillsLearned": ["Keyword research", "Search intent analysis", "Content planning", "SEO fundamentals", "Competitive analysis"],
+  "prerequisites": ["Understanding of content marketing", "Basic knowledge of how search engines work"],
+  "steps": [
+    {"title": "Choose a niche", "description": "Pick a business or topic area. The more specific, the easier to rank. Example: 'sustainable fashion in Australia' rather than just 'fashion'."},
+    {"title": "Keyword research", "description": "Use free tools (Google Search Console, Ubersuggest, AnswerThePublic) to find 30-50 relevant keywords. Record search volume, difficulty, and intent for each.", "tips": "Long-tail keywords (3+ words) are easier to rank for and often convert better."},
+    {"title": "Analyse search intent", "description": "For each keyword, search it on Google. What type of content ranks? Informational (how-to), commercial (comparisons), transactional (buy now), or navigational? Match your content type to the intent."},
+    {"title": "Competitive analysis", "description": "For your top 10 keywords, analyse the first page results. How long are the articles? What topics do they cover? What's missing? Find gaps you can fill."},
+    {"title": "Plan 10 articles", "description": "Create a content plan with 10 articles. For each: target keyword, secondary keywords, search intent, working headline, outline (H2s), estimated word count, and content type."},
+    {"title": "Write one article", "description": "Choose your strongest topic and write a full article (1,500-2,500 words). Follow SEO best practices: keyword in title, H2s, meta description, internal/external links, image alt text."},
+    {"title": "Create a publishing calendar", "description": "Plan when each article will be published over 3 months. Include promotion plans for each."}
+  ],
+  "deliverables": ["Keyword research spreadsheet (30-50 keywords with data)", "10-article content plan with outlines", "One fully written and SEO-optimised article", "3-month publishing calendar", "Competitive analysis summary"],
+  "tools": ["Google Search Console", "Ubersuggest or Ahrefs (free tier)", "AnswerThePublic", "Google Docs", "Google Sheets"],
+  "rubric": [
+    {"criteria": "Research Depth", "description": "Keywords are well-researched with volume, difficulty, and intent data."},
+    {"criteria": "Strategic Thinking", "description": "Articles are planned to target a mix of difficulties and intents, not just high-volume keywords."},
+    {"criteria": "Content Quality", "description": "The written article is comprehensive, well-structured, and genuinely helpful."},
+    {"criteria": "SEO Optimisation", "description": "The article follows on-page SEO best practices."}
+  ]
+}

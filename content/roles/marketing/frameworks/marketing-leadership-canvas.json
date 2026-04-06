@@ -1,0 +1,16 @@
+{
+  "slug": "marketing-leadership-canvas",
+  "name": "Marketing Leadership Canvas",
+  "summary": "A strategic tool for senior marketers to align vision, team structure, budget, and stakeholder communication into a single coherent plan.",
+  "whenToUseIt": "Use this canvas when stepping into a marketing leadership role, during annual planning cycles, when restructuring the marketing function, or when advocating for budget and headcount with the executive team.",
+  "steps": [
+    "Define Marketing Vision and 3-Year Objectives: Articulate where marketing needs to take the business over the next three years — tie marketing goals directly to company revenue targets and strategic priorities",
+    "Map Team Structure and Capability Gaps: Assess your current team's skills against what's needed — identify gaps in areas like analytics, content, performance marketing, or brand — and plan for hiring, training, or agency partnerships",
+    "Build Budget Advocacy Framework: Create a data-backed case for your marketing budget — show historical ROI, benchmark against industry spend ratios, and model scenarios at different investment levels to demonstrate impact",
+    "Design Stakeholder Reporting Rhythm: Establish a cadence for reporting to the C-suite and cross-functional leaders — define what metrics matter to each audience and how frequently they need updates (weekly dashboards vs monthly deep dives vs quarterly reviews)",
+    "Set OKRs for Each Quarter: Break the 3-year vision into quarterly Objectives and Key Results that are specific, measurable, and cascaded down to team members so everyone knows how their work connects to the bigger picture",
+    "Establish Cross-Functional Governance: Define how marketing collaborates with sales, product, customer success, and finance — set up regular syncs, shared KPIs, and escalation paths to prevent silos and misalignment"
+  ],
+  "example": "A new CMO joins a Series B SaaS company and uses the Marketing Leadership Canvas in her first 90 days. She defines a 3-year vision to take marketing-sourced revenue from 30% to 55% of pipeline. She maps her team and identifies a gap in product marketing and marketing analytics. She builds a budget case showing that increasing spend from 8% to 12% of revenue — benchmarked against SaaS peers — would fund two key hires and a brand refresh. She sets up fortnightly reports for the CEO, monthly pipeline reviews with sales, and quarterly board updates. Her Q1 OKRs focus on hiring and infrastructure; Q2 shifts to campaign execution and pipeline generation.",
+  "category": "strategy"
+}

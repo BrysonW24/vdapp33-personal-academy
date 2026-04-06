@@ -1,0 +1,13 @@
+{
+  "slug": "social-proof",
+  "name": "Social Proof",
+  "summary": "A persuasion technique that reduces perceived risk by showing that similar buyers have already succeeded with the solution.",
+  "whenToUseIt": "Use social proof when a buyer needs confidence that the change is credible, especially in demos, executive reviews, procurement conversations, and objection handling.",
+  "steps": [
+    "Choose proof that is actually similar in role, environment, or problem.",
+    "Explain what changed and why it mattered, not only the customer logo.",
+    "Connect that proof directly to the buyer's current concern or decision."
+  ],
+  "example": "A CRO worried about forecast discipline sees that another 300-rep SaaS company improved commit accuracy after standardizing inspection and pipeline definitions with the platform. The similarity matters more than the brand name alone.",
+  "category": "presentation-persuasion"
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "ai-engineering",
+  "title": "What working in AI Engineering actually involves",
+  "summary": "AI engineering is not just calling a model API and shipping a chat interface. The serious version of the role is production systems work under uncertainty: choosing the right model shape, building retrieval and tool flows, running evals, handling failures, setting guardrails, and making sure the system is reliable enough for real users and real businesses.\n\nThe role sits between software engineering, product judgment, data handling, and operational discipline. Good AI engineers care about prompt quality, retrieval quality, latency, cost, traceability, and failure modes at the same time. They spend as much time on evaluation, instrumentation, and rollback logic as they do on feature demos.\n\nWhat makes the field compelling is that it is still being invented in public. You are helping define how AI systems should be built, tested, and trusted. The work is frontier-facing, but the best operators are grounded: they know hype is cheap and reliability is hard.",
+  "coreWork": [
+    "Designing model, retrieval, tool-use, and workflow architecture for user-facing AI systems.",
+    "Building evals, test harnesses, and observability so quality is judged through evidence rather than vibes.",
+    "Managing latency, routing, cost, fallback logic, and incident response in production environments.",
+    "Working across product, data, and platform layers to make AI features useful, safe, and maintainable."
+  ],
+  "frontierPull": "The role is compelling because it is where frontier capability meets shipping reality. AI engineering gives you exposure to model progress, product design, infrastructure, and the hardest question in the space: how to make powerful systems dependable enough that people can actually build on them.",
+  "signals": [
+    "LLM product design",
+    "Evals",
+    "RAG quality",
+    "Agentic workflows",
+    "Latency and cost",
+    "Guardrails",
+    "Observability",
+    "Release discipline"
+  ],
+  "whenItCameAbout": "The role emerged as machine learning engineering matured, then accelerated sharply during the foundation-model era. Once companies started shipping LLM features into real products, the need for a blended operator became obvious: someone who could handle prompts, retrieval, product tradeoffs, infra, and reliability in one role shape.",
+  "whatPeopleDo": [
+    "Prototype and harden AI workflows that combine prompts, retrieval, tools, and application logic.",
+    "Run eval suites, inspect traces, and fix the specific failures that matter most to users.",
+    "Tune system architecture for reliability, cost, and speed rather than raw novelty alone.",
+    "Translate frontier AI capability into production patterns the broader team can trust."
+  ],
+  "howPeopleGetThere": "Most people enter through software engineering, machine learning engineering, data systems, or applied AI product work. The role gets stronger when someone builds serious systems literacy alongside hands-on model experience. The fastest growth comes from shipping real workflows, learning from failures, and developing unusually strong judgment about what not to automate.",
+  "strengths": [
+    "Software engineering rigor",
+    "Evaluation discipline",
+    "Prompt and retrieval judgment",
+    "Systems thinking",
+    "Operational calm",
+    "Cost awareness",
+    "Product sense",
+    "Failure-mode analysis"
+  ],
+  "whoThrivesHere": "People tend to do well when they are both technically solid and skeptical of easy demos. The strongest AI engineers are patient with ambiguity, precise about failure, and willing to spend time on boring reliability work because they know that is what makes the system trustworthy.",
+  "exposures": [
+    "Fast-moving model and vendor changes",
+    "Unreliable behavior that looks impressive until it breaks",
+    "Pressure to ship quickly while quality bars are still forming",
+    "Cross-functional debates about risk, scope, and trust",
+    "Tradeoffs between capability, latency, and unit economics"
+  ],
+  "careerLevers": [
+    "Getting better at eval design and release gates",
+    "Building stronger product judgment around where AI actually adds leverage",
+    "Improving retrieval, tooling, and observability discipline",
+    "Becoming trusted on reliability, not just demos"
+  ],
+  "careerPath": [
+    "Software or ML foundation",
+    "Applied AI builder",
+    "AI engineer owning production systems",
+    "Platform, product, or frontier engineering leadership"
+  ]
+}

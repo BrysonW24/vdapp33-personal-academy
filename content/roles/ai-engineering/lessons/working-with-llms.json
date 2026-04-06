@@ -1,0 +1,74 @@
+{
+  "slug": "working-with-llms",
+  "moduleSlug": "llm-engineering",
+  "title": "Working with LLMs",
+  "objective": "Learn to build applications with Large Language Models — API calls, prompt engineering, context windows, and the basics of Retrieval Augmented Generation (RAG).",
+  "beginnerExplanation": "Large Language Models like Claude, GPT-4, and Llama are the most transformative technology in AI right now. As an AI engineer, you do not need to train these models — you need to know how to use them effectively.\n\nWorking with an LLM is like working with an incredibly knowledgeable but sometimes unreliable colleague. You communicate through prompts (instructions in natural language), and the model responds with generated text. The quality of the response depends enormously on the quality of your prompt.\n\nHere is how it works in practice:\n\n**API calls** — You send a request to the model provider (Anthropic for Claude, OpenAI for GPT-4) with your prompt and settings. The model returns a response. It is just an HTTP request, like calling any other API. Most AI applications are built on top of these API calls.\n\n**Prompt engineering** — The art and science of writing instructions that get reliable, high-quality outputs. A vague prompt gets a vague response. A specific prompt with examples, structure, and clear constraints gets a specific, useful response.\n\n**Context windows** — Every LLM has a limit on how much text it can process at once. Claude can handle up to 200,000 tokens (roughly 150,000 words). GPT-4 handles 128,000 tokens. Fitting the right information within this window is a core engineering challenge.\n\n**RAG (Retrieval Augmented Generation)** — Instead of relying on what the model already knows, you retrieve relevant documents from your own database and include them in the prompt. This grounds the model in your specific data and dramatically reduces hallucinations.",
+  "deeperExplanation": "Let us go deeper into the practical engineering of LLM applications.\n\n**System prompts** are instructions that set the model's behaviour for the entire conversation. They define the persona, rules, output format, and constraints. A well-crafted system prompt is the most important part of an LLM application. Example: 'You are a customer support agent for AcmeCo. Only answer questions about our products. If asked about competitors, politely redirect to our features. Always cite the relevant documentation section.'\n\n**Few-shot prompting** means including examples of the desired input/output pairs in your prompt. Instead of explaining what you want in abstract terms, you show the model: 'Input: \"great product!\" → Sentiment: positive. Input: \"total waste of money\" → Sentiment: negative. Input: \"arrived on time\" → Sentiment: ?'. This is often more reliable than elaborate instructions.\n\n**Chain-of-thought** prompting asks the model to think step-by-step before answering. Adding 'Think through this step by step' or showing a worked example dramatically improves accuracy on reasoning tasks. This is because LLMs process text left-to-right — giving them space to reason improves the quality of their final answer.\n\n**Structured output** — For production applications, you typically want JSON, not free-text. Modern LLM APIs support structured output modes that guarantee valid JSON matching a specific schema. This makes it easy to parse model outputs in your code.\n\n**Cost management** — LLM API costs are per-token. A busy application can cost thousands per month. Techniques: use smaller models for simpler tasks, cache common responses, truncate unnecessary context, batch similar requests.\n\n**RAG architecture** involves four steps: (1) Embed your documents into vectors. (2) Store them in a vector database. (3) When a user asks a question, embed the question and find the most similar documents. (4) Include those documents in the prompt as context. This gives the model access to your specific data without expensive fine-tuning.\n\n**Evaluation** — You cannot ship an LLM application without testing it. Build evaluation datasets: sets of inputs with expected outputs. Run your system against them and measure accuracy, relevance, and safety. LLM-as-judge (using one LLM to evaluate another's output) is a common and effective approach.",
+  "keyTakeaways": [
+    "LLM applications are built on API calls — the model is a service you call, not software you run",
+    "Prompt engineering is a core skill — the quality of your prompt determines the quality of the output",
+    "System prompts define your application's behaviour and are the most important design decision",
+    "RAG grounds LLMs in your data and dramatically reduces hallucinations",
+    "Always evaluate LLM outputs systematically — do not ship without testing",
+    "Cost management matters — token-based pricing can add up quickly at scale"
+  ],
+  "frameworks": [
+    "prompt-engineering-patterns",
+    "rag-architecture",
+    "llm-application-stack"
+  ],
+  "example": "Let us build a simple document Q&A system. You have a company's product documentation (50 pages). A customer asks: 'How do I reset my password?'\n\nWithout RAG, the LLM might hallucinate an answer that sounds plausible but is wrong for your specific product. With RAG:\n\n1. You have already embedded all 50 pages into a vector database (Pinecone, ChromaDB).\n2. The customer's question is embedded and compared against your documents.\n3. The most relevant section — 'Account Settings > Password Reset' — is retrieved.\n4. Your prompt becomes: 'Based on the following documentation, answer the customer's question. Documentation: [retrieved text]. Question: How do I reset my password?'\n5. The LLM now generates an accurate answer grounded in your actual documentation.\n\nThis pattern — retrieve then generate — powers most production LLM applications today, from customer support to internal knowledge bases to legal research tools.",
+  "commonMistakes": [
+    "Writing vague prompts and expecting specific outputs — be explicit about format, length, and constraints",
+    "Stuffing the entire context window with irrelevant information — only include what the model needs",
+    "Not handling hallucinations — always validate critical outputs and use RAG for factual accuracy",
+    "Ignoring cost — sending large prompts to expensive models for simple tasks wastes money",
+    "Skipping evaluation — shipping an LLM application without systematic testing is like deploying untested code"
+  ],
+  "exercise": "Build a simple LLM application: (1) Sign up for an API key from Anthropic (Claude) or OpenAI. (2) Install the Python SDK: `pip install anthropic` or `pip install openai`. (3) Write a script that sends a message and prints the response. (4) Add a system prompt that makes the model act as a helpful coding tutor. (5) Try few-shot prompting: include 2-3 examples of questions and ideal answers. (6) Ask the same question with and without the examples — compare the quality. (7) Modify the script to return JSON output with fields: answer, confidence, follow_up_question.",
+  "nextLesson": "deploying-your-first-model",
+  "svgDiagram": "llm-application-flow",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "What is RAG (Retrieval Augmented Generation)?",
+      "options": [
+        "A technique for training LLMs from scratch",
+        "Retrieving relevant documents from your data and including them in the prompt to ground the model's response",
+        "A method for reducing the size of language models",
+        "A type of neural network architecture"
+      ],
+      "correctIndex": 1,
+      "explanation": "RAG works by retrieving relevant documents from your own database and including them in the prompt as context. This grounds the model in your specific data, dramatically reducing hallucinations and enabling accurate answers about your domain without expensive fine-tuning."
+    },
+    {
+      "question": "Why is few-shot prompting often more reliable than elaborate written instructions?",
+      "options": [
+        "It uses less tokens and is therefore cheaper",
+        "Showing the model examples of desired input/output pairs demonstrates exactly what you want, removing ambiguity",
+        "Few-shot prompting changes the model's weights",
+        "It bypasses the context window limit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Few-shot prompting provides concrete examples of the desired behaviour rather than abstract instructions. By showing the model input/output pairs, you remove ambiguity about format, tone, and level of detail. This is often more reliable than trying to describe what you want in words."
+    },
+    {
+      "question": "What is the most important part of a production LLM application?",
+      "options": [
+        "Using the largest available model",
+        "The system prompt that defines the application's behaviour and constraints",
+        "Making as many API calls as possible",
+        "Using the newest model release"
+      ],
+      "correctIndex": 1,
+      "explanation": "The system prompt defines the persona, rules, output format, and constraints for the entire application. A well-crafted system prompt is the single most impactful design decision in an LLM application — it determines reliability, safety, and output quality more than model choice."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As an ML engineer building LLM applications, you obsess over prompt reliability, structured output parsing, and error handling. You build evaluation suites, implement caching strategies, and design fallback chains for when the primary model fails. You think about latency budgets — streaming responses, parallel tool calls, and token-efficient prompts.",
+    "manager": "As an engineering manager, LLM applications introduce new challenges: non-deterministic outputs, hard-to-reproduce bugs, and cost unpredictability. You establish evaluation frameworks, set up cost monitoring dashboards, and ensure the team has systematic testing before shipping. You also manage stakeholder expectations about what LLMs can and cannot reliably do.",
+    "cto": "As a CTO, LLM integration is a build-vs-buy decision at multiple levels. Which model provider? Self-hosted or API? Build your own RAG or use a managed platform? You evaluate vendor lock-in, data privacy implications (does customer data go to third-party APIs?), and the total cost trajectory as usage scales.",
+    "investor": "As an investor, you assess whether an LLM-powered product has a defensible moat. If the value comes purely from wrapping an API, competitors can replicate it overnight. Look for proprietary data, unique evaluation datasets, domain-specific fine-tuning, or workflow integration that creates switching costs. The prompt is not the moat — the data and distribution are."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "rag-knowledge-systems",
+  "moduleSlug": "vector-databases-retrieval",
+  "title": "How Retrieval Becomes a Product System",
+  "objective": "See RAG as an end-to-end knowledge system instead of a vector database demo.",
+  "beginnerExplanation": "RAG works by finding relevant context and giving it to the model before it answers. The engineering work lives in how documents are ingested, chunked, stored, ranked, refreshed, and cited.",
+  "deeperExplanation": "Strong knowledge systems are built around observability and trust. You need to inspect retrieved chunks, trace failures to ingestion choices, and know when the system should abstain instead of bluffing. That makes retrieval a product system, not a hack.",
+  "keyTakeaways": [
+    "Ingestion quality shapes answer quality downstream.",
+    "Chunking and ranking decisions are product decisions, not just infrastructure settings.",
+    "Citations are a trust feature, not a cosmetic one."
+  ],
+  "frameworks": [
+    "rag-architecture",
+    "llm-application-stack"
+  ],
+  "example": "An internal research assistant ingests docs nightly, stores ownership metadata, retrieves top passages with citations, and refuses to answer when freshness requirements are not met.",
+  "commonMistakes": [
+    "Chunking too aggressively or too loosely.",
+    "Mixing stale and fresh data without visibility.",
+    "Blaming the model when retrieval is actually the broken layer."
+  ],
+  "exercise": "Sketch a retrieval pipeline for a document-heavy product, including ingestion, chunking strategy, citation UX, and the events you would log for debugging.",
+  "order": 1
+}

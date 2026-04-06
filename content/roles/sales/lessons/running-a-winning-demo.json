@@ -1,0 +1,72 @@
+{
+  "slug": "running-a-winning-demo",
+  "moduleSlug": "presentations-demos",
+  "title": "Running a Winning Demo",
+  "objective": "Learn to deliver product demonstrations that sell outcomes, not features. Master the Tell-Show-Tell structure, handle tough questions, and turn demo momentum into deal momentum.",
+  "beginnerExplanation": "A demo is your chance to show the buyer their future. But here's the trap most new reps fall into: they open the product and start clicking through every screen, explaining every feature, hoping something sticks. This is called a 'feature dump' and it's the fastest way to lose a buyer's attention. Instead, a great demo is tailored. You use what you learned in discovery to show only the features that solve their specific problems, in the context of their business. Think of it as a movie trailer — you show the highlights that make them want to see the full film.",
+  "deeperExplanation": "**The Tell-Show-Tell Structure**\nEvery demo segment should follow three beats:\n1. **Tell**: Set the context. 'You mentioned your team spends 3 hours a day manually reconciling orders. Let me show you how that goes away.'\n2. **Show**: Demonstrate the feature in action, ideally with their data or a scenario close to their reality.\n3. **Tell**: Reinforce the value. 'So instead of 3 hours of manual work, your team gets a clean reconciliation in under 5 minutes. That's 12 hours a week back.'\n\n**Preparation is everything**\nBefore any demo, you should know: (1) Who's attending and what each person cares about. (2) The 2-3 pain points from discovery that you'll anchor the demo to. (3) The 'wow moment' — the single feature that will make them lean forward. (4) Your fallback plan if the demo environment breaks.\n\n**Handling questions you don't know**\nThis happens to every AE. The right response is: 'That's a great question and I want to give you an accurate answer rather than guess. Let me confirm with our product team and come back to you by end of day.' Never bluff. Buyers respect honesty far more than confident guessing.\n\n**Multi-stakeholder demos**\nWhen the CTO, CFO, and end users are all on the call, structure the demo to address each audience. Start with the strategic overview (for the CFO/CTO), then show the day-to-day workflow (for end users), then close with integration and security (for the CTO). Announce transitions: 'Sarah, this next section is especially relevant to what you mentioned about reporting.'\n\n**Turning momentum into next steps**\nEnd every demo with: (1) A summary of value delivered. (2) A check: 'Does this address the challenges we discussed?' (3) A clear next step: 'The natural next step would be [a technical deep-dive / a proposal / a meeting with your team]. I can have that ready by Thursday — does that work?'",
+  "keyTakeaways": [
+    "Never demo without discovery — you need to know what to show and what to skip.",
+    "Use Tell-Show-Tell: set the context, demonstrate, reinforce the value.",
+    "Tailor every demo to the specific pain points uncovered in discovery.",
+    "When you don't know the answer, say so honestly and follow up quickly.",
+    "End every demo with a summary and a specific, calendar-booked next step.",
+    "Practise your demo until the technology fades into the background and the story shines."
+  ],
+  "frameworks": ["command-of-the-message", "value-selling"],
+  "example": "You sell a customer success platform to a SaaS company. In discovery, the VP of Customer Success told you: (1) They're losing 15% of customers at renewal because they don't spot at-risk accounts early enough. (2) Their team wastes 5 hours a week building health score reports manually. (3) They need to prove to the board that CS is driving revenue.\n\nYour demo structure:\n- Open: 'Today I'm going to show you three things: how to spot at-risk accounts 60 days before renewal, how to automate your health score reporting, and how to generate a board-ready CS revenue impact report in one click.'\n- Segment 1 (Tell-Show-Tell): Risk detection — show the churn risk dashboard, walk through an at-risk account alert, show the recommended intervention playbook.\n- Segment 2 (Tell-Show-Tell): Automated reporting — show the health score engine, demonstrate how it replaces their manual spreadsheet process.\n- Segment 3 (Tell-Show-Tell): Board reporting — generate a revenue attribution report showing CS-influenced revenue.\n- Close: 'Based on your current churn rate and team size, this would save approximately $400K in retained revenue and 260 hours per year in reporting time. Does that align with what you're looking for?'",
+  "commonMistakes": [
+    "Feature-dumping: showing every feature instead of the 3-4 that matter to this buyer",
+    "Not preparing the demo environment — nothing kills credibility like broken data or loading errors",
+    "Talking at the buyer instead of making the demo interactive — pause and ask 'Is this how you'd use it?'",
+    "Running the same demo for every prospect instead of tailoring it to their discovery",
+    "Forgetting to involve all attendees — if someone is silent for 30 minutes, they're disengaging"
+  ],
+  "exercise": "Choose a product you know (the software you use at work, a SaaS tool you're familiar with, or a hypothetical product). Create a 15-minute demo script with: (1) A 2-minute opening that references the buyer's pain points. (2) Three Tell-Show-Tell segments, each 3-4 minutes. (3) A 2-minute close with value summary and next-step proposal. Then practise delivering it out loud — time yourself and aim for smooth transitions between segments.",
+  "nextLesson": "demo-planning-for-buying-committees",
+  "order": 5,
+  "quiz": [
+    {
+      "question": "What does the 'Tell-Show-Tell' demo structure mean?",
+      "options": [
+        "Tell the buyer about your company, show the product, tell them the price",
+        "Set the context for a feature, demonstrate it, then reinforce the value",
+        "Tell a customer story, show a case study, tell them to buy",
+        "Show three different features in sequence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tell-Show-Tell means: (1) Tell — set the context by referencing the buyer's specific pain. (2) Show — demonstrate the feature in action. (3) Tell — reinforce the value by quantifying the impact. This structure ensures every feature shown is tied to a business outcome."
+    },
+    {
+      "question": "What should you do when a buyer asks a technical question you can't answer?",
+      "options": [
+        "Make your best guess to show confidence",
+        "Redirect to a different feature to avoid the question",
+        "Acknowledge honestly and commit to following up with an accurate answer",
+        "Tell them it's on the product roadmap even if you're not sure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Never bluff. Buyers can tell, and it destroys trust. The professional response is: 'That's a great question — I want to give you an accurate answer. Let me confirm with our team and get back to you by end of day.' Then actually follow up."
+    },
+    {
+      "question": "What's the most important thing to do BEFORE running a demo?",
+      "options": [
+        "Memorise every feature of the product",
+        "Prepare clean demo data and know which pain points to address",
+        "Create a 50-slide presentation deck",
+        "Send the buyer a list of all your product's capabilities"
+      ],
+      "correctIndex": 1,
+      "explanation": "Preparation means: clean demo environment (no broken data), clear understanding of the buyer's 2-3 key pain points from discovery, and a plan for which features to show and which to skip. A well-prepared, targeted demo always beats an exhaustive product tour."
+    }
+  ],
+  "perspectives": {
+    "ae": "The demo is your moment to shine. Prepare obsessively — know every attendee's role, pre-load relevant data, and rehearse transitions. Use Tell-Show-Tell for each segment and always tie features back to the specific pain points from discovery. Leave 10 minutes at the end for questions and next steps.",
+    "manager": "A Sales Manager evaluates demos by watching recordings and sitting in live. They look for: Is the AE tailoring to this buyer or running a generic tour? Are they handling questions confidently? Do they close with clear next steps? Managers build demo certification programs and maintain a library of best-practice recordings.",
+    "vp": "The VP of Sales tracks demo-to-proposal conversion rates across the team. When demos are well-structured and tailored, this metric climbs. VPs invest in demo environments, solution consulting resources, and pre-demo preparation checklists. They also ensure multi-stakeholder demos address each audience segment.",
+    "cro": "The CRO sees the demo as a critical conversion point in the revenue funnel. They care about the overall buyer experience — from marketing touch to demo to proposal. A CRO ensures the demo narrative aligns with the company's value proposition and that sales engineering resources are allocated to the highest-value opportunities.",
+    "ceo": "The CEO wants demos that advance deals, not stall them. They care about demo-to-proposal conversion rates and whether the sales team can articulate strategic value — not just walk through screens.",
+    "cfo": "The CFO often joins demos for larger deals. They want to hear ROI, payback period, and total cost of ownership — not feature details. A demo that quantifies value in their language accelerates approval.",
+    "cmo": "If a marketing leader joins the deal, they care that the demo connects clearly to pipeline quality, execution speed, and measurable revenue outcomes - not just product polish."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "prospect-research",
+  "title": "Prospect Research & ICP Profiling",
+  "difficulty": 1,
+  "estimatedHours": 2,
+  "description": "Research 10 target accounts, build Ideal Customer Profile (ICP) criteria, and create a prioritised prospect list with key intelligence for each account. This is the foundation of all outbound selling — before you can sell, you need to know who to sell to and why they'd care.",
+  "whyItMatters": "Every wasted hour spent on a bad-fit prospect is an hour not spent on a deal that could close. The best AEs are ruthless about who they spend time on. Building a strong ICP and doing deep account research before you reach out separates strategic sellers from spray-and-pray reps. This project teaches you the discipline of targeted prospecting.",
+  "skillsLearned": [
+    "Ideal Customer Profile (ICP) development",
+    "Account research using LinkedIn, company websites, and news",
+    "Identifying trigger events and buying signals",
+    "Lead scoring and prioritisation",
+    "Building prospect intelligence dossiers"
+  ],
+  "prerequisites": [],
+  "steps": [
+    {
+      "title": "Define Your ICP",
+      "description": "Choose a product or service (real or hypothetical) and define the Ideal Customer Profile. Document: company size (revenue and headcount), industry/vertical, geography, technology stack signals, common pain points, typical buyer titles, and disqualification criteria (who is NOT a fit).",
+      "tips": "Start with your best customers (or hypothetical best customers) and work backwards. What do they have in common? Be specific — 'Australian SaaS companies with 50-200 employees, using Salesforce, in growth mode' is better than 'tech companies.'"
+    },
+    {
+      "title": "Build Your Target Account List",
+      "description": "Using LinkedIn Sales Navigator, Apollo.io, or manual research, identify 10 companies that match your ICP. For each, record: company name, website, headcount, estimated revenue, industry, and why they match your ICP.",
+      "tips": "Look for companies showing buying signals: recent funding rounds, new executive hires, job postings for roles your product supports, technology adoption signals, or expansion announcements."
+    },
+    {
+      "title": "Research Each Account",
+      "description": "For each of the 10 accounts, create a one-page intelligence brief. Include: company overview, recent news, key executives (with LinkedIn profiles), technology stack (use BuiltWith or Wappalyzer), potential pain points, and a personalisation hook for outreach.",
+      "tips": "Spend 10-15 minutes per account. Check their LinkedIn company page, recent press releases, Glassdoor reviews (for internal culture signals), and job postings (which reveal priorities and gaps)."
+    },
+    {
+      "title": "Score and Prioritise",
+      "description": "Create a simple scoring model to rank your 10 accounts. Score each on: ICP fit (1-5), buying signals present (1-5), accessibility of contacts (1-5), and estimated deal size (1-5). Total the scores and rank from highest to lowest. Your top 3-4 accounts are where you should focus first.",
+      "tips": "Don't overthink the scoring — the goal is to force a prioritisation decision, not to build a perfect model. A simple spreadsheet with four columns works perfectly."
+    }
+  ],
+  "deliverables": [
+    "A written ICP document with clear inclusion and exclusion criteria",
+    "A spreadsheet of 10 target accounts with company details and ICP match rationale",
+    "One-page intelligence briefs for each of the 10 accounts",
+    "A scored and ranked priority list with your top 3-4 accounts identified"
+  ],
+  "tools": ["linkedin-sales-nav", "apollo-io", "zoominfo", "google-workspace"],
+  "rubric": [
+    {
+      "criteria": "ICP Specificity",
+      "description": "ICP is specific enough to filter out bad-fit accounts. Includes company size, industry, geography, pain points, and disqualification criteria."
+    },
+    {
+      "criteria": "Research Depth",
+      "description": "Intelligence briefs go beyond basic company info — they include trigger events, key contacts, technology stack, and personalisation hooks."
+    },
+    {
+      "criteria": "Scoring Model",
+      "description": "A clear, logical scoring model is applied consistently across all 10 accounts, leading to a defensible prioritisation."
+    },
+    {
+      "criteria": "Practical Usefulness",
+      "description": "The output is genuinely useful for outreach — you could hand this to an SDR and they'd have enough context to start personalised prospecting immediately."
+    }
+  ]
+}

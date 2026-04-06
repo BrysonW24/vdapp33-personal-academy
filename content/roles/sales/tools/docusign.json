@@ -1,0 +1,27 @@
+{
+  "slug": "docusign",
+  "name": "DocuSign",
+  "category": "web-platforms",
+  "description": "The market-leading electronic signature platform used globally for signing contracts, agreements, and legal documents. DocuSign's Agreement Cloud extends beyond signatures to include document generation, contract lifecycle management, and notarisation.",
+  "whyUseIt": "When the buyer says 'send me the contract', DocuSign makes signing effortless. No printing, scanning, or mailing — the buyer reviews and signs on any device in minutes. For AEs, faster signatures mean faster closed deals. DocuSign is so widely adopted that most enterprise buyers already have an account, reducing friction further. It's legally binding in Australia under the Electronic Transactions Act.",
+  "pricingTier": "paid",
+  "url": "https://www.docusign.com",
+  "logoUrl": "/tools/docusign.svg",
+  "aiCapabilities": "DocuSign AI assists with contract analysis, identifies key terms and clauses, suggests where signatures and initials are needed, and provides insights on agreement completion times.",
+  "alternatives": ["pandadoc", "qwilr"],
+  "funnelPosition": "Bottom of funnel — contract execution and e-signatures",
+  "outputs": ["Electronic signatures", "Signed contracts", "Audit trails", "Agreement analytics", "Template management"],
+  "sellerWorkflow": "After proposal acceptance, AEs prepare the contract in DocuSign (or use a template), mark signature and initial fields, send to all signers in the correct order, and track completion. The signed document is automatically stored and synced to the CRM.",
+  "managerExpects": "Contracts sent within 24 hours of verbal commitment. Signer order is correct (internal approvals before external). Completed contracts are filed and synced to the CRM immediately.",
+  "demoDescription": "Upload a contract, place signature fields, set the signing order, send for signature, track the signing progress, and download the completed document with full audit trail.",
+  "vocabulary": [
+    { "term": "Envelope", "definition": "DocuSign's container for a set of documents sent for signature — can include multiple documents and signers." },
+    { "term": "Audit Trail", "definition": "A tamper-proof record of every action taken on a document: who opened it, when they signed, their IP address, and authentication details." }
+  ],
+  "beginnerMistakes": [
+    "Sending contracts without all required fields marked — the signer gets confused about where to sign",
+    "Not setting the correct signing order — external signers should usually go last",
+    "Forgetting to CC stakeholders who need visibility but don't need to sign"
+  ],
+  "relatedProject": "proposal-writing"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "building-brand-systems",
+  "moduleSlug": "brand-systems-growth",
+  "title": "Building Brand Systems",
+  "objective": "Understanding how to build scalable brand systems that drive long-term growth.",
+  "beginnerExplanation": "A brand system is like a person's reputation — it's built over time through consistent behaviour, not a single action. When you think of a strong brand, you're not thinking of one clever ad. You're thinking of a feeling, a set of associations, and a level of trust that has been reinforced across hundreds of touchpoints over years.\n\nA brand is far more than a logo. It's a system of distinctive assets — colours, typography, imagery style, tone of voice, sonic cues, packaging, store design — that work together to make your business instantly recognisable. The more consistent and distinctive these assets are, the easier it becomes for customers to notice you, remember you, and choose you when they're ready to buy.\n\nThis is what marketers call mental availability: being the brand that comes to mind when a customer has a need in your category. Physical availability — actually being easy to find and buy — is the other half of the equation. The brands that grow fastest are the ones that maximise both. You need to be thought of and easy to get.",
+  "deeperExplanation": "Professor Byron Sharp's research at the Ehrenberg-Bass Institute has fundamentally reshaped how evidence-based marketers think about brand growth. His key finding: brands grow primarily by increasing penetration (acquiring new and light buyers), not by deepening loyalty among existing customers. This challenges the popular notion that loyalty programmes and retention tactics should dominate marketing strategy.\n\nThe implications are profound. To grow penetration, brands need to build broad mental availability through category entry points — the situations, needs, and occasions that trigger a purchase decision. A chocolate brand doesn't just compete on taste; it competes for the 'afternoon energy boost' occasion, the 'gift for someone' occasion, and the 'treat after a hard day' occasion. The more category entry points your brand is linked to, the more chances it has to be chosen.\n\nExcess Share of Voice (ESOV) — the gap between your share of voice and your share of market — is one of the strongest predictors of brand growth. Brands that invest in share of voice above their current market share tend to grow; those that underinvest tend to shrink. This is why cutting brand-building budgets during downturns is so damaging — it creates a negative ESOV gap that competitors exploit. Distinctive brand assets compound over decades, making consistency one of the highest-ROI marketing decisions a leader can make.",
+  "keyTakeaways": [
+    "Invest in distinctive brand assets that make your business instantly recognisable across every touchpoint",
+    "Prioritise penetration growth over loyalty — reaching new and light buyers drives category growth",
+    "Map your category entry points and ensure your brand is linked to as many relevant purchase occasions as possible",
+    "Maintain excess share of voice above your market share to drive sustained growth",
+    "Resist the urge to rebrand or reinvent — consistency in distinctive assets compounds value over decades"
+  ],
+  "frameworks": ["brand-positioning-canvas", "aarrr"],
+  "example": "McDonald's brand system — the golden arches, the red and yellow colour palette, 'I'm Lovin' It', the consistent store layout, the packaging design, even the fry container shape — creates instant recognition in 119 countries. This wasn't built through constant reinvention; it was built through decades of consistent distinctive asset investment. When McDonald's temporarily removed the golden arches from a campaign in 2019, people still recognised the brand from its other assets alone. That's the power of a brand system: each element reinforces the others, and the whole becomes greater than the sum of its parts.",
+  "commonMistakes": [
+    "Rebranding too frequently instead of building brand equity through consistent distinctive assets over time",
+    "Confusing brand awareness with brand salience — being known is not the same as being thought of at the moment of purchase",
+    "Ignoring Byron Sharp's evidence that penetration growth matters more than loyalty for most brands",
+    "Not investing in distinctive brand assets beyond the logo, missing sonic, verbal, and experiential opportunities",
+    "Measuring brand only through campaign-level metrics rather than tracking brand equity and mental availability over years"
+  ],
+  "exercise": "Audit a major brand's distinctive assets. List their: visual identity elements (colour palette, logo, typography, imagery style), sonic assets (jingle, sound logo, hold music), verbal assets (tagline, tone of voice, key phrases), and experiential assets (store design, packaging, digital UX). Rate each asset on a scale of 1-5 for distinctiveness (how unique is it?) and consistency (how reliably is it applied?). Identify the weakest asset and suggest one improvement.",
+  "nextLesson": "scaling-with-automation",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "According to Byron Sharp's research, what is the primary driver of brand growth?",
+      "options": [
+        "Deepening loyalty among existing heavy buyers through rewards programmes",
+        "Increasing penetration by reaching new and light buyers",
+        "Raising prices to signal premium quality",
+        "Reducing the number of product variants to simplify the brand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sharp's research at the Ehrenberg-Bass Institute shows that brands grow primarily by increasing penetration — acquiring new and light buyers — rather than by deepening loyalty among existing customers."
+    },
+    {
+      "question": "A growing skincare brand is considering a complete visual rebrand after just two years. Based on brand systems thinking, what should they do instead?",
+      "options": [
+        "Rebrand immediately to stay fresh and relevant",
+        "Keep their distinctive assets consistent and invest in building recognition over time",
+        "Copy a competitor's visual identity that is performing well",
+        "Remove all branding and let the product quality speak for itself"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distinctive brand assets compound in value over decades. Rebranding too frequently resets the recognition you have built and forces customers to re-learn your visual identity. Consistency is one of the highest-ROI brand decisions."
+    },
+    {
+      "question": "Which of the following statements about brand building is incorrect?",
+      "options": [
+        "Mental availability means being the brand that comes to mind when a customer has a need in your category",
+        "Category entry points are the situations and occasions that trigger a purchase decision",
+        "Brand awareness and brand salience are the same thing",
+        "Excess Share of Voice above your market share is a strong predictor of growth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brand awareness (being known) and brand salience (being thought of at the moment of purchase) are different concepts. A brand can have high awareness but low salience if it does not come to mind in the buying situation."
+    }
+  ]
+}

@@ -30,21 +30,26 @@ export default async function RoleToolkitPage({
           Toolkit
         </h1>
         <p className="mt-3 max-w-3xl text-lg text-editorial-muted">
-          Frameworks and mental models pulled from the subjects that most matter for this role.
+          Frameworks and mental models that either belong to this role directly or come
+          from the subjects that most matter underneath it.
         </p>
       </div>
 
       {Object.entries(grouped).map(([sourceSlug, items]) => {
-        const sourceSubject = getSubject(sourceSlug)
+        const sourceKind = items[0]?.sourceMeta?.sourceKind
+        const sourceSubject = sourceKind === "subject" ? getSubject(sourceSlug) : null
+        const sourceLabel =
+          sourceSubject?.name ?? (sourceKind === "role" ? role.name : sourceSlug)
+        const sourceEyebrow = sourceKind === "role" ? "Core role material" : "Source subject"
 
         return (
           <section key={sourceSlug} className="space-y-4">
             <div>
               <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-                Source subject
+                {sourceEyebrow}
               </p>
               <h2 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
-                {sourceSubject?.name ?? sourceSlug}
+                {sourceLabel}
               </h2>
             </div>
             <div className="grid gap-4 md:grid-cols-2">

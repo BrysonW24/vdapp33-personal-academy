@@ -1,0 +1,29 @@
+{
+  "slug": "edge-inference-hardware-acceleration",
+  "title": "Edge Inference and Hardware Acceleration",
+  "shortSummary": "Study optimization paths for running models under tight power, memory, and latency constraints.",
+  "track": "robotics-autonomy",
+  "level": "advanced",
+  "category": "specialization",
+  "whyItMatters": "Frontier software roles and robotics roles diverge most sharply at deployment. This module is for builders who want to understand the GPU, edge, and hardware acceleration side of the stack.",
+  "coreConcepts": [
+    "Quantization and model compression",
+    "CUDA, TensorRT, and inference acceleration patterns",
+    "Edge deployment constraints",
+    "Profiling latency on constrained devices",
+    "Tradeoffs between accuracy, speed, and power draw"
+  ],
+  "lessons": [
+    "edge-inference-hardware-acceleration-lesson"
+  ],
+  "frameworks": [
+    "system-design-template"
+  ],
+  "relatedModules": [
+    "perception-sensor-systems",
+    "real-time-embedded-ai"
+  ],
+  "status": "coming-soon",
+  "order": 14,
+  "levelNumber": 4
+}

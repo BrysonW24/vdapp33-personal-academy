@@ -1,0 +1,30 @@
+{
+  "slug": "production-mlops-trained-models",
+  "title": "Production MLOps for Trained Models",
+  "shortSummary": "A classical ML operations lane focused on registries, monitoring, retraining, and deployment discipline for trained models.",
+  "track": "classical-ml",
+  "level": "advanced",
+  "category": "platform",
+  "whyItMatters": "This module keeps the classical MLOps path visible without pretending it is the only modern AI engineering story. It is here for builders who still want the registry-monitor-retrain deployment track in a clear package.",
+  "coreConcepts": [
+    "Experiment tracking and model registries",
+    "Deployment patterns for trained models",
+    "Monitoring drift and model health over time",
+    "Retraining triggers and release discipline",
+    "Where classical MLOps overlaps with frontier AI platform work"
+  ],
+  "lessons": [
+    "production-mlops-trained-models-lesson"
+  ],
+  "frameworks": [
+    "mlops-maturity",
+    "ml-lifecycle"
+  ],
+  "relatedModules": [
+    "applied-ml-foundations",
+    "mlops-deployment"
+  ],
+  "status": "coming-soon",
+  "order": 20,
+  "levelNumber": 4
+}

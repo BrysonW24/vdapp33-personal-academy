@@ -1,0 +1,73 @@
+{
+  "slug": "your-first-ml-model",
+  "moduleSlug": "applied-ml-foundations",
+  "title": "Your First ML Model",
+  "objective": "Build a working machine learning classifier with scikit-learn — from loading data to evaluating performance — and understand every step of the process.",
+  "beginnerExplanation": "Building your first ML model is simpler than you think. With scikit-learn, you can go from raw data to a working prediction system in about 20 lines of code. The hard part is not the code — it is understanding what each step does and why.\n\nHere is the process in plain English:\n\n1. **Get some data** — You need examples of the thing you want to predict. For a spam detector, you need emails labelled as spam or not-spam. For a house price predictor, you need houses with their features (bedrooms, location, size) and their actual prices.\n\n2. **Prepare the data** — Split it into features (the inputs your model sees) and labels (the answers you want it to predict). Then split again into a training set (what the model learns from) and a test set (what you evaluate it on).\n\n3. **Choose an algorithm** — For your first model, use a Random Forest. It works well on most problems, requires minimal tuning, and is easy to understand.\n\n4. **Train the model** — Feed the training data to the algorithm. It finds patterns — like 'houses with more bedrooms tend to cost more' or 'emails with URGENT in all caps tend to be spam'.\n\n5. **Evaluate** — Use the test set to see how well the model predicts on data it has never seen before. This is the only honest measure of performance.\n\nThat is it. Five steps. The entire scikit-learn library is built around this exact workflow.",
+  "deeperExplanation": "Let us dig into what is actually happening under the hood.\n\n**The train/test split** is the most important concept in ML. If you evaluate a model on the same data it trained on, it will score artificially high — like a student taking a test they have already seen the answers to. By holding back 20-30% of the data for testing, you get an honest measure of how well the model generalises to new data.\n\n**Random Forests** work by building many decision trees (typically 100+), each trained on a random subset of the data and features. Each tree votes on the prediction, and the majority wins. This averaging effect makes Random Forests robust and resistant to overfitting — which is why they are an excellent first algorithm.\n\n**Evaluation metrics** depend on your problem type. For classification (predicting categories like spam/not-spam), use accuracy, precision, recall, and F1 score. For regression (predicting numbers like house prices), use mean absolute error (MAE) and R-squared. Accuracy alone can be misleading — if 95% of emails are not-spam, a model that always predicts 'not-spam' gets 95% accuracy while being completely useless.\n\n**Feature engineering** often matters more than algorithm choice. A simple algorithm with well-crafted features often beats a complex algorithm with raw features. For example, instead of feeding a model raw timestamps, creating features like 'hour of day', 'day of week', and 'is weekend' gives it much more useful information.\n\n**Overfitting** is when a model memorises the training data instead of learning general patterns. Signs: high accuracy on training data but low accuracy on test data. Solutions: more data, simpler models, regularisation, or cross-validation.\n\nA typical scikit-learn workflow:\n```python\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import classification_report\n\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\nmodel = RandomForestClassifier(n_estimators=100)\nmodel.fit(X_train, y_train)\nprint(classification_report(y_test, model.predict(X_test)))\n```",
+  "keyTakeaways": [
+    "The ML workflow is: data → prepare → train → evaluate — every project follows this pattern",
+    "Always evaluate on a held-out test set, never on training data",
+    "Random Forest is an excellent first algorithm — robust, requires minimal tuning",
+    "Feature engineering often matters more than algorithm choice",
+    "Accuracy alone can be misleading — always look at precision, recall, and F1",
+    "Overfitting is the most common failure mode — watch for the gap between train and test performance"
+  ],
+  "frameworks": [
+    "ml-lifecycle",
+    "model-evaluation-framework"
+  ],
+  "example": "Let us build a model that predicts whether a passenger survived the Titanic — a classic beginner dataset.\n\nThe features: passenger class (1st, 2nd, 3rd), sex, age, fare, number of siblings/spouses, number of parents/children. The label: survived (1) or did not survive (0).\n\nAfter loading the data and handling missing values (fill missing ages with the median), a Random Forest achieves about 80% accuracy. Looking deeper at the classification report, it predicts survival better for women and first-class passengers — which matches the historical reality that women and wealthy passengers were prioritised for lifeboats.\n\nThis is the power of ML: the model discovered a real-world pattern from data, without being explicitly told the rules.",
+  "commonMistakes": [
+    "Evaluating on training data and thinking the model works well — always use a separate test set",
+    "Not handling missing values before training — most algorithms cannot handle NaN values",
+    "Using accuracy as the only metric — check precision, recall, and F1 especially for imbalanced datasets",
+    "Tuning hyperparameters on the test set — this is data leakage. Use cross-validation on training data instead",
+    "Spending too long on algorithm selection before understanding the data — explore the data first"
+  ],
+  "exercise": "Build your first classifier: (1) Go to Kaggle and download the Titanic dataset. (2) Load it with Pandas. (3) Explore: how many passengers? What percentage survived? Any missing values? (4) Prepare features: select numeric columns, handle missing values. (5) Split into train/test with scikit-learn. (6) Train a RandomForestClassifier. (7) Print the classification report. (8) Try changing n_estimators from 10 to 500 — does accuracy change? (9) Try adding/removing features — which ones matter most?",
+  "nextLesson": "working-with-llms",
+  "svgDiagram": "ml-workflow",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "Why should you never evaluate a model on the same data it was trained on?",
+      "options": [
+        "It takes too long to compute",
+        "The model will score artificially high because it has memorised the training data",
+        "Training data is always too noisy for evaluation",
+        "It is technically impossible to do so"
+      ],
+      "correctIndex": 1,
+      "explanation": "Evaluating on training data is like giving a student a test they have already seen the answers to. The model may have memorised patterns specific to the training set rather than learning general rules. A held-out test set gives an honest measure of how well the model generalises to new, unseen data."
+    },
+    {
+      "question": "What is overfitting?",
+      "options": [
+        "When a model is too small to learn the patterns in the data",
+        "When a model trains for too few epochs",
+        "When a model memorises the training data instead of learning general patterns",
+        "When the training data has too many features"
+      ],
+      "correctIndex": 2,
+      "explanation": "Overfitting occurs when a model memorises the training data — including its noise and quirks — instead of learning general patterns. The telltale sign is high accuracy on training data but low accuracy on test data. Solutions include using more data, simpler models, regularisation, or cross-validation."
+    },
+    {
+      "question": "Why might accuracy alone be a misleading metric for a spam classifier?",
+      "options": [
+        "Accuracy only works for regression problems",
+        "If 95% of emails are not-spam, predicting 'not-spam' always gives 95% accuracy while catching zero spam",
+        "Accuracy cannot be calculated for binary classification",
+        "Accuracy is always the best metric to use"
+      ],
+      "correctIndex": 1,
+      "explanation": "When classes are imbalanced, accuracy can be misleading. A naive model that always predicts the majority class achieves high accuracy while being useless for the minority class. Precision, recall, and F1 score give a more complete picture of model performance across all classes."
+    }
+  ],
+  "perspectives": {
+    "engineer": "As an ML engineer, your first model is just the beginning. You think about reproducibility (can I retrain this and get the same results?), experiment tracking (which hyperparameters worked best?), and pipeline automation (can I retrain with one command?). You care about code quality — the model training script should be tested, versioned, and documented.",
+    "manager": "As an engineering manager, you evaluate ML projects by their evaluation methodology, not their accuracy numbers. Is the team using proper train/test splits? Are they tracking experiments? Do they have a baseline to compare against? A disciplined evaluation process matters more than impressive-sounding metrics.",
+    "cto": "As a CTO, the first ML model in production is a strategic milestone. It forces the organisation to build ML infrastructure — data pipelines, model serving, monitoring. You evaluate whether to invest in this infrastructure now or defer until the business case is proven. The build vs buy decision for ML platforms is critical.",
+    "investor": "As an investor, you look beyond the model's accuracy to the data advantage. Can this company collect proprietary training data that competitors cannot? A simple Random Forest trained on unique data is more defensible than a state-of-the-art model trained on public datasets. The data moat matters more than the algorithm."
+  }
+}

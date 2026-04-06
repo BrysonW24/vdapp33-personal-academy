@@ -1,0 +1,84 @@
+{
+  "slug": "image-classifier",
+  "title": "Robotics Perception Starter",
+  "difficulty": 5,
+  "estimatedHours": 8,
+  "description": "Train and serve a perception model that can become the first portfolio signal for autonomy, robotics, or edge-inference roles.",
+  "whyItMatters": "This is the optional bridge into the robotics/autonomy specialization track, where perception and hardware constraints matter.",
+  "skillsLearned": [
+    "PyTorch training loop",
+    "Transfer learning",
+    "Data augmentation",
+    "Training visualisation",
+    "Model evaluation for vision",
+    "GPU utilisation"
+  ],
+  "prerequisites": [
+    "Complete the Deep Learning module",
+    "Basic Python and NumPy knowledge"
+  ],
+  "steps": [
+    {
+      "title": "Choose a dataset",
+      "description": "Download a classification dataset from Kaggle or torchvision. Good options: CIFAR-10 (10 classes, good for learning), Food-101 (real-world, harder), or create your own by scraping images.",
+      "tips": "Start with a small dataset (1000-5000 images). You can always scale up once your pipeline works."
+    },
+    {
+      "title": "Set up data loading",
+      "description": "Use PyTorch DataLoaders with torchvision transforms. Implement data augmentation: random crops, horizontal flips, colour jitter, rotation. Split into train/validation/test sets."
+    },
+    {
+      "title": "Load a pre-trained model",
+      "description": "Use torchvision to load a pre-trained ResNet-50 or EfficientNet-B0. Replace the final classification layer to match your number of classes. Freeze the early layers initially."
+    },
+    {
+      "title": "Train the model",
+      "description": "Write the training loop: forward pass, compute loss (CrossEntropyLoss), backward pass, optimiser step (Adam). Track training and validation loss/accuracy each epoch. Train for 10-20 epochs."
+    },
+    {
+      "title": "Visualise training",
+      "description": "Plot training vs validation loss curves. Are they converging? Is there a gap (overfitting)? Try unfreezing more layers and reducing learning rate if the model plateaus."
+    },
+    {
+      "title": "Evaluate thoroughly",
+      "description": "Generate a classification report and confusion matrix on the test set. Which classes does the model confuse? Look at misclassified examples — do they make sense?"
+    },
+    {
+      "title": "Deploy as an API",
+      "description": "Save the model and create a FastAPI endpoint that accepts an image upload and returns the predicted class with confidence scores."
+    }
+  ],
+  "deliverables": [
+    "Trained image classification model",
+    "Training curves showing loss and accuracy",
+    "Confusion matrix and classification report",
+    "FastAPI endpoint for image classification",
+    "Brief write-up of experiments and findings"
+  ],
+  "tools": [
+    "Python",
+    "PyTorch",
+    "torchvision",
+    "matplotlib",
+    "FastAPI"
+  ],
+  "rubric": [
+    {
+      "criteria": "Model Performance",
+      "description": "The model achieves at least 85% accuracy on the test set (for standard datasets like CIFAR-10)."
+    },
+    {
+      "criteria": "Training Process",
+      "description": "Training curves show proper convergence. Evidence of addressing overfitting through augmentation or regularisation."
+    },
+    {
+      "criteria": "Evaluation Depth",
+      "description": "Confusion matrix analysis identifies which classes are confused and why. Misclassified examples are examined."
+    },
+    {
+      "criteria": "Code Quality",
+      "description": "Training loop is clean and modular. Data loading, model definition, training, and evaluation are in separate functions or files."
+    }
+  ],
+  "track": "robotics-autonomy"
+}

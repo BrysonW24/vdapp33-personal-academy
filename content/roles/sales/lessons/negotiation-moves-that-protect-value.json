@@ -1,0 +1,75 @@
+{
+  "slug": "negotiation-moves-that-protect-value",
+  "moduleSlug": "negotiation",
+  "title": "Negotiation Moves That Protect Value",
+  "objective": "Learn how to use give-get, bracketing, silence, tradeables, non-price negotiation, and red-line discipline to negotiate confidently without giving away value.",
+  "beginnerExplanation": "Most weak negotiation happens because the rep reacts instead of prepares. They hear a push on price or terms and start conceding without a plan. Strong negotiation feels calmer because the rep already knows what is flexible, what is not, and what they need in return for movement.",
+  "deeperExplanation": "Give-get is the core principle because it keeps concessions tied to exchange rather than discomfort. Bracketing helps when you need to narrow a range strategically instead of jumping to a number. Silence works because many buyers reveal more when you do not rush to fill the gap. A tradeables list helps you separate what costs your company real money from what is simply negotiable in structure. Non-price negotiation matters because scope, rollout, support, term length, and payment structure often matter as much as the headline discount. Red-line control keeps you from agreeing to terms that create bad margin, risk, or precedent.\n\nNegotiation is most effective when the buyer still feels the business value strongly. That is why preparation and earlier value work matter so much.",
+  "keyTakeaways": [
+    "Prepared negotiators protect value better than reactive negotiators.",
+    "Give-get prevents one-sided concessions.",
+    "Silence is useful because buyers often reveal their real position if you let them.",
+    "Many negotiations are better solved through scope, timing, or structure than through discounting.",
+    "Tradeables should be known before the conversation starts.",
+    "Red lines protect margin, risk posture, and team discipline."
+  ],
+  "frameworks": [
+    "give-get",
+    "bracketing",
+    "silence-in-negotiation",
+    "tradeables-list",
+    "non-price-negotiation",
+    "red-line-control"
+  ],
+  "example": "A buyer asks for a 15 percent discount and quarterly billing. Instead of reacting, the AE uses give-get: a smaller commercial move is possible if the buyer agrees to annual prepay and a reference call after rollout. When the buyer hesitates, the AE uses silence long enough for the buyer to reveal that cash flow timing matters more than absolute price. Now the negotiation can move toward structure instead of discount alone.",
+  "commonMistakes": [
+    "Conceding price before understanding what the buyer actually needs",
+    "Going into negotiation without a written tradeables list",
+    "Talking too much instead of using silence strategically",
+    "Treating every negotiation issue as a price issue",
+    "Ignoring internal red lines until after the buyer asks"
+  ],
+  "exercise": "Build a negotiation prep sheet for one live or mock deal with five columns: likely ask, business meaning, possible give, required get, and red line. Use it to script your opening response.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What is the purpose of give-get?",
+      "options": [
+        "To make concessions faster",
+        "To ensure movement is exchanged for something meaningful in return",
+        "To avoid discussing value",
+        "To replace pricing entirely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Give-get protects value by making every concession part of an exchange."
+    },
+    {
+      "question": "Why can silence be powerful in negotiation?",
+      "options": [
+        "It makes the buyer uncomfortable for no reason",
+        "It often creates space for the buyer to reveal priorities or move first",
+        "It replaces preparation",
+        "It should always be used after every sentence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Silence works because many buyers reveal more when you do not rush to react."
+    },
+    {
+      "question": "What is a red line?",
+      "options": [
+        "A preferred discount level only",
+        "A boundary the rep should not cross because it creates unacceptable risk or value loss",
+        "A legal term that never changes",
+        "A fallback talk track"
+      ],
+      "correctIndex": 1,
+      "explanation": "Red lines define the commercial or legal boundaries that should not be crossed."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should enter negotiation knowing what they can trade and what they must protect.",
+    "manager": "Managers add value by aligning tradeables and red lines before procurement pressure shows up.",
+    "vp": "A VP wants negotiation discipline because sloppy concession behavior damages ASP and precedent.",
+    "cfo": "A CFO cares that negotiations protect both revenue quality and company risk."
+  }
+}

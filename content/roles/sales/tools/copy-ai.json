@@ -1,0 +1,27 @@
+{
+  "slug": "copy-ai",
+  "name": "Copy.ai",
+  "category": "ai-automation",
+  "description": "An AI-powered copywriting platform designed for go-to-market teams. Copy.ai provides pre-built sales workflows for email generation, prospect research, account enrichment, and content creation at scale.",
+  "whyUseIt": "Copy.ai is purpose-built for sales and marketing workflows, unlike general AI assistants. It offers pre-built templates for common sales tasks: cold email generation, LinkedIn outreach, follow-up sequences, and competitive analysis. For teams that want AI integrated into repeatable workflows rather than one-off conversations, Copy.ai provides structure and consistency.",
+  "pricingTier": "freemium",
+  "url": "https://www.copy.ai",
+  "logoUrl": "/tools/copy-ai.svg",
+  "aiCapabilities": "Pre-built GTM workflows powered by AI: prospect research, email personalisation at scale, competitive analysis generation, and content repurposing for sales enablement.",
+  "alternatives": ["chatgpt-sales", "claude-sales", "lavender-ai"],
+  "funnelPosition": "Top and mid-funnel — outbound content creation and prospect research",
+  "outputs": ["Cold email drafts", "LinkedIn messages", "Prospect research briefs", "Competitive comparisons", "Follow-up sequences", "Sales enablement content"],
+  "sellerWorkflow": "SDRs use Copy.ai workflows to generate personalised email drafts at scale: input a list of prospects, and the AI researches each one and drafts a personalised email. AEs use it for follow-up messages, proposal sections, and competitive response templates.",
+  "managerExpects": "AI-generated content is reviewed and personalised before sending. Copy.ai templates are refined based on what's working (open rates, reply rates) and shared across the team.",
+  "demoDescription": "Run the prospect research workflow on a target account, generate a personalised cold email, create a LinkedIn outreach message, and draft a competitive comparison for a common competitor.",
+  "vocabulary": [
+    { "term": "Workflow", "definition": "A pre-built, multi-step AI process that chains together research, generation, and personalisation steps into a repeatable task." },
+    { "term": "Brand Voice", "definition": "Copy.ai's feature that learns your company's tone and style, ensuring all generated content sounds consistent." }
+  ],
+  "beginnerMistakes": [
+    "Using default templates without customising them for your product and buyer personas",
+    "Generating content at scale without quality-checking a sample first",
+    "Not feeding results data back into the workflow to improve output quality over time"
+  ],
+  "relatedProject": "email-sequence"
+}

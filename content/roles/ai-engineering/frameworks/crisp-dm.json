@@ -1,0 +1,16 @@
+{
+  "slug": "crisp-dm",
+  "name": "CRISP-DM: Cross-Industry Standard Process for Data Mining",
+  "summary": "The industry-standard methodology for data mining and ML projects, used since 1996. CRISP-DM provides a structured, iterative approach that emphasises business understanding and data quality before modelling. It remains the most widely adopted methodology in the field.",
+  "whenToUseIt": "Use CRISP-DM when starting any data-intensive AI project, especially when working with business stakeholders. It forces you to understand the business context before jumping into modelling, which prevents the most common failure mode: building a technically impressive model that does not solve the actual problem.",
+  "steps": [
+    "Business Understanding — What is the business objective? What are the constraints? How will success be measured? Talk to stakeholders and define clear goals before touching any data.",
+    "Data Understanding — Explore the available data. What do you have? What is missing? What are the quality issues? Create exploratory visualisations and summary statistics.",
+    "Data Preparation — Select, clean, and transform data for modelling. This typically takes 60-80% of total project time. Feature engineering happens here.",
+    "Modelling — Select modelling techniques and train models. Try multiple approaches. Tune hyperparameters. This is the step most people want to start with, but it only works well if the previous steps were done properly.",
+    "Evaluation — Assess results against business objectives (not just technical metrics). Does the model actually solve the business problem? Are there risks or biases? Would stakeholders trust this?",
+    "Deployment — Deploy the model into the business process. This includes integration, monitoring, maintenance planning, and documentation. The model is only valuable when it is being used."
+  ],
+  "example": "An Australian bank wants to reduce credit card fraud. Business Understanding: the bank loses $12M AUD annually to fraud; they want to flag suspicious transactions in real-time with less than 200ms latency. Data Understanding: 3 years of transactions, 0.1% fraud rate (heavily imbalanced), geographic and merchant data available. Data Preparation: create velocity features (transactions per hour per card), geographic anomaly features, merchant risk scores. Modelling: try logistic regression (baseline), random forest, and gradient boosting; gradient boosting performs best. Evaluation: achieves 95% recall on fraud at 2% false positive rate — the business accepts this tradeoff. Deployment: real-time scoring API integrated into the payment processing pipeline.",
+  "category": "methodology"
+}

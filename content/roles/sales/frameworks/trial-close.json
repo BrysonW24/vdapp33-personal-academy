@@ -1,0 +1,13 @@
+{
+  "slug": "trial-close",
+  "name": "Trial Close",
+  "summary": "A close technique used to test readiness for commitment before asking for a larger next step or final decision.",
+  "whenToUseIt": "Use a trial close after a meaningful discovery, demo, or business case discussion when you want to see whether the buyer is moving toward commitment or still holding back.",
+  "steps": [
+    "Summarize the progress made or the key value points.",
+    "Ask a light commitment question that tests readiness without forcing a yes.",
+    "Use the response to uncover the next blocker or advance the process."
+  ],
+  "example": "After a strong demo, the AE asks, 'Does this feel like something worth taking into a formal evaluation, or is there still too much unclear on your side?'",
+  "category": "closing"
+}

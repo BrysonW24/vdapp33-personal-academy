@@ -1,0 +1,73 @@
+{
+  "slug": "handling-price-and-budget-objections",
+  "moduleSlug": "objection-handling",
+  "title": "Handling Price and Budget Objections",
+  "objective": "Learn how to explore price objections, protect deal value, and separate true budget issues from weak value perception.",
+  "beginnerExplanation": "When a buyer says, 'It is too expensive,' that does not automatically mean the price is the problem. Sometimes the budget really is constrained. But very often the buyer has not yet connected the cost of your solution to the cost of their problem. Strong reps do not panic and discount. They slow down, get curious, and find out what the objection actually means.",
+  "deeperExplanation": "A practical approach to price objections has three steps. First, acknowledge without collapsing: 'Understood - help me unpack that a little.' Second, diagnose: is this a cash-flow issue, a budget-timing issue, a value issue, or a prioritisation issue? Third, re-anchor around impact: what happens if the problem remains unsolved for another quarter or two?\n\nThe most important distinction is between inability and unwillingness. Inability means the budget is genuinely constrained, so the conversation may move toward scope, timing, payment structure, or phased rollout. Unwillingness means the buyer is not convinced the value outweighs the spend. That means the real work is not discounting - it is clarifying impact and internal confidence.\n\nGood reps also remember that price objections often surface late because they were underbuilt earlier. Weak discovery and weak business cases create fragile pricing conversations. Strong pricing defence starts much earlier than negotiation.",
+  "keyTakeaways": [
+    "A price objection is often a value or priority objection in disguise.",
+    "Do not discount before you understand what the objection really means.",
+    "Separate budget timing issues from low perceived value.",
+    "Re-anchor the conversation around the cost of the status quo.",
+    "Strong price defence starts in discovery and business case work, not only at the end.",
+    "Protecting value matters because discounting trains buyers to push harder."
+  ],
+  "frameworks": [
+    "value-selling",
+    "gap-selling",
+    "sandler-selling"
+  ],
+  "example": "A VP of Sales says your platform is too expensive at $60K ARR. Instead of offering a discount, you ask, 'Too expensive compared to what?' The buyer explains that they are already paying for other tools and are not sure the change is worth the disruption. Now the real issue is visible: not cash, but confidence. You return to the problem: manager coaching inconsistency, forecast slippage, and lost productivity. The deal moves when the buyer sees that one missed deal or one bad hiring plan costs more than the software.",
+  "commonMistakes": [
+    "Discounting before understanding the objection",
+    "Treating every budget pushback as a commercial negotiation",
+    "Getting defensive when the buyer challenges price",
+    "Failing to connect the price to measurable business impact",
+    "Assuming procurement language reflects the real executive concern"
+  ],
+  "exercise": "Write three responses to 'This is too expensive.' One should explore the objection, one should re-anchor around business impact, and one should test whether timing rather than value is the real issue.",
+  "nextLesson": "navigating-no-decision",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What should usually happen before a discount is discussed?",
+      "options": [
+        "A better understanding of what the price objection actually means",
+        "A product tour",
+        "A legal review",
+        "A new proposal version"
+      ],
+      "correctIndex": 0,
+      "explanation": "You need to know whether the issue is budget, timing, value, or something else before changing price."
+    },
+    {
+      "question": "What is the difference between inability and unwillingness to pay?",
+      "options": [
+        "There is no difference",
+        "One is a genuine budget constraint and the other is low confidence in value",
+        "One only happens in enterprise deals",
+        "One only happens with procurement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inability is a real resource constraint. Unwillingness usually means the value case is not strong enough yet."
+    },
+    {
+      "question": "When does strong price defence begin?",
+      "options": [
+        "At the final proposal stage only",
+        "At the moment the buyer asks for a discount",
+        "During discovery and business case building",
+        "After procurement gets involved"
+      ],
+      "correctIndex": 2,
+      "explanation": "Strong pricing conversations are built on earlier discovery, quantified pain, and credible ROI."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should stay calm on price pushback and use it as a signal to clarify value, not a cue to collapse.",
+    "manager": "Managers can protect margin by coaching reps on diagnosis before concession.",
+    "vp": "A VP cares because unnecessary discounting damages forecast quality, ASP, and team discipline.",
+    "cfo": "A CFO wants pricing decisions tied to value and commercial logic, not rep discomfort."
+  }
+}

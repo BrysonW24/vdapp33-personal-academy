@@ -1,0 +1,72 @@
+{
+  "slug": "building-a-defensible-forecast",
+  "moduleSlug": "pipeline-management",
+  "title": "Building a Defensible Forecast",
+  "objective": "Learn how to call commit, best case, and upside with evidence instead of hope, so your forecast can stand up to manager and executive scrutiny.",
+  "beginnerExplanation": "A forecast is not a wish list. It is your best evidence-based view of what will close and when. The difference matters because leaders use the forecast to make decisions on hiring, spend, and board communication. A defensible forecast is one you can explain deal by deal: what is happening, who is involved, what evidence supports the date, and what risk remains.",
+  "deeperExplanation": "Strong forecasts rely on evidence, not emotion. A deal belongs in commit only when the close date is backed by process proof: active champion, economic path, agreed next steps, realistic paper process, and credible urgency. Best case means the deal can close in the period but still carries meaningful uncertainty. Upside means it is possible but not reliable enough to plan around.\n\nThe discipline is not only about classifying deals. It is about removing ambiguity. What exactly makes a deal move from pipeline to best case? What makes it move from best case to commit? Define that clearly and use the same standard every week.\n\nForecast accuracy improves when reps would rather be trusted than be liked. Sandbagging and optimism both damage trust. The goal is not to look positive. The goal is to be reliable.",
+  "keyTakeaways": [
+    "A forecast should be based on evidence, not enthusiasm.",
+    "Commit, best case, and upside need clear definitions and consistent standards.",
+    "Late-stage process proof matters more than rep confidence.",
+    "Forecast discipline helps leadership make better decisions beyond sales.",
+    "Trust is built when your calls are consistently grounded in reality.",
+    "Good forecasting requires weekly maintenance, not last-minute heroics."
+  ],
+  "frameworks": [
+    "forecast-methodology",
+    "meddic"
+  ],
+  "example": "Two deals are projected to close on the same date. Deal A has a confirmed champion, security review completed, procurement engaged, and a signed mutual action plan. Deal B had a strong demo and positive feedback but no paper process mapped and no executive approval yet. Deal A may belong in commit. Deal B is still best case at most, regardless of how excited the rep feels.",
+  "commonMistakes": [
+    "Calling deals committed because the buyer sounds positive",
+    "Using different standards every week",
+    "Ignoring paper process risk until the final days of the quarter",
+    "Keeping inflated close dates to make the pipeline look healthier",
+    "Confusing activity with evidence"
+  ],
+  "exercise": "Pick five deals in your pipeline and label each as commit, best case, or upside. Under each one, write the exact evidence supporting that call and the single biggest risk that could change it.",
+  "nextLesson": "cleaning-your-pipeline",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What should put a deal into commit?",
+      "options": [
+        "The rep feels strongly about it",
+        "The buyer liked the demo",
+        "Clear evidence that the decision process and timing are real",
+        "It is the biggest deal in the quarter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Commit should reflect real process evidence, not optimism or deal size."
+    },
+    {
+      "question": "Why does forecast accuracy matter beyond sales leadership?",
+      "options": [
+        "It does not",
+        "Because finance and executives make planning decisions from it",
+        "Because it changes product usage",
+        "Because it removes the need for pipeline reviews"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forecasts shape hiring, spend, board communication, and company planning."
+    },
+    {
+      "question": "What is a sign a forecast is weak?",
+      "options": [
+        "It includes risk notes",
+        "It relies on vague confidence instead of concrete evidence",
+        "It is reviewed weekly",
+        "It distinguishes commit from upside"
+      ],
+      "correctIndex": 1,
+      "explanation": "Weak forecasts are usually built on belief instead of evidence."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs earn trust by calling the deal as it is, not as they wish it to be.",
+    "manager": "Managers rely on evidence-backed forecasts to coach properly and allocate resources.",
+    "vp": "A VP needs forecast language to mean the same thing across the whole team.",
+    "cro": "A CRO sees forecast quality as a proxy for the health of the entire operating rhythm."
+  }
+}

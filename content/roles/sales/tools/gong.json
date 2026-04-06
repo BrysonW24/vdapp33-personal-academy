@@ -1,0 +1,27 @@
+{
+  "slug": "gong",
+  "name": "Gong",
+  "category": "analytics",
+  "description": "The leading revenue intelligence platform that records, transcribes, and analyses sales calls and meetings using AI. Gong provides insights on talk-to-listen ratios, question patterns, competitor mentions, and deal progression — making it the most powerful coaching tool in modern sales.",
+  "whyUseIt": "Gong turns every sales conversation into a learning opportunity. It records your calls, transcribes them, and uses AI to surface insights: How much did you talk vs listen? Did you ask enough questions? Did the buyer mention a competitor? What topics correlated with won deals? For individual reps, it accelerates skill development. For managers, it transforms coaching from opinion-based to data-driven.",
+  "pricingTier": "enterprise",
+  "url": "https://www.gong.io",
+  "logoUrl": "/tools/gong.svg",
+  "aiCapabilities": "Gong's AI analyses conversation patterns, identifies winning behaviours, tracks competitor mentions, scores deal health based on conversation signals, and generates call summaries and action items automatically.",
+  "alternatives": ["zoom", "salesloft"],
+  "funnelPosition": "Full funnel — every call from first touch through to renewal is recorded and analysed",
+  "outputs": ["Call recordings and transcripts", "Talk-to-listen ratio analysis", "Competitor mention tracking", "Deal health scores", "Coaching dashboards", "Automated call summaries"],
+  "sellerWorkflow": "Gong automatically joins and records all scheduled calls. After each call, reps review the AI summary and action items. Managers review flagged calls, use the coaching dashboard to identify skill gaps, and share exemplary calls with the team.",
+  "managerExpects": "All calls recorded (no opting out), reps reviewing their own call analytics weekly, and willingness to receive coaching based on Gong data.",
+  "demoDescription": "Review a recorded call with the AI-generated transcript, check the talk-to-listen ratio, view competitor mentions and key topics, and explore the deal health dashboard showing which deals are progressing well vs stalling.",
+  "vocabulary": [
+    { "term": "Talk-to-Listen Ratio", "definition": "The percentage of the call where you spoke vs the buyer spoke. Top discovery callers aim for 30/70 (30% talking, 70% listening)." },
+    { "term": "Deal Board", "definition": "Gong's pipeline view that scores deal health based on conversation signals: engagement levels, stakeholder involvement, and topic coverage." }
+  ],
+  "beginnerMistakes": [
+    "Being self-conscious about recording — everyone sounds awkward at first, but the coaching value is enormous",
+    "Not reviewing your own calls — Gong's value is wasted if reps don't watch their replays",
+    "Ignoring the data — if Gong shows you're talking 60% of the time on discovery calls, that's a clear signal to ask more questions"
+  ],
+  "relatedProject": "discovery-practice"
+}

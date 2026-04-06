@@ -1,0 +1,31 @@
+{
+  "slug": "ai-agents",
+  "title": "Agents and Multi-Step Systems",
+  "shortSummary": "Move from one-shot responses to supervised systems that plan, call tools, recover from failure, and ask for approval when needed.",
+  "track": "core-frontier",
+  "level": "intermediate",
+  "category": "llm-systems",
+  "whyItMatters": "Agentic systems are now a real engineering surface, not just a demo pattern. Strong engineers know how to constrain autonomy, log decisions, and design loops that can survive the messiness of production.",
+  "coreConcepts": [
+    "Single-agent versus workflow-style orchestration",
+    "Tool execution, retries, and bounded permissions",
+    "Memory and context handling across steps",
+    "Human approval checkpoints for risky actions",
+    "Tracing agent decisions for debugging and trust"
+  ],
+  "lessons": [
+    "agents-and-approval-loops"
+  ],
+  "frameworks": [
+    "ai-agent-patterns",
+    "llm-application-stack"
+  ],
+  "relatedModules": [
+    "prompting-structured-outputs-tool-calling",
+    "model-evaluation",
+    "system-design-for-ai"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "value-propositions-for-sales",
+  "title": "Value Propositions for Sales",
+  "shortSummary": "Stop selling features. Learn to articulate value in terms your buyer actually cares about — outcomes, ROI, and business impact.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Buyers don't care about your product. They care about their problems. The gap between what your product does and what your buyer needs is bridged by your value proposition. Get this wrong and every conversation stalls at 'sounds interesting, let me think about it.' Get it right and buyers lean forward.",
+  "coreConcepts": [
+    "Features vs benefits vs outcomes",
+    "Connecting product capabilities to buyer pain",
+    "Quantifying value: ROI, time saved, risk reduced",
+    "Tailoring your value prop to different stakeholders",
+    "The 'so what?' test for every claim you make",
+    "Building a business case that gets internal buy-in"
+  ],
+  "lessons": ["building-a-value-hypothesis", "quantifying-roi-for-stakeholders"],
+  "frameworks": ["value-selling", "command-of-the-message", "gap-selling"],
+  "relatedModules": ["what-sales-is", "presentations-demos", "closing"],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

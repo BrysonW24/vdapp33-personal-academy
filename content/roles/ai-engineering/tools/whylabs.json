@@ -1,0 +1,15 @@
+{
+  "slug": "whylabs",
+  "name": "WhyLabs",
+  "category": "evals",
+  "description": "An AI observability platform for monitoring ML models in production. Detects data drift, model performance degradation, and data quality issues in real-time.",
+  "whyUseIt": "WhyLabs provides lightweight model monitoring that integrates with any ML stack. Its open-source library (whylogs) generates statistical profiles of your data with minimal overhead. Critical for knowing when your models need retraining.",
+  "pricingTier": "freemium",
+  "url": "https://whylabs.ai",
+  "alternatives": [
+    "Evidently AI",
+    "Arize",
+    "Fiddler",
+    "Seldon"
+  ]
+}

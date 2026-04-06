@@ -1,0 +1,14 @@
+{
+  "slug": "aida",
+  "name": "AIDA: Marketing Funnel",
+  "summary": "The classic customer journey model: Attention, Interest, Desire, Action — how people move from not knowing you to buying from you.",
+  "whenToUseIt": "Use AIDA when planning campaigns, writing copy, designing landing pages, or mapping out your sales funnel. It helps ensure your marketing addresses each stage of decision-making.",
+  "steps": [
+    "Attention: Capture their attention — bold headlines, striking visuals, pattern interrupts, SEO visibility",
+    "Interest: Build their interest — relevant content, storytelling, problem identification, social proof",
+    "Desire: Create desire — show benefits (not just features), testimonials, demos, emotional triggers",
+    "Action: Drive action — clear CTA, reduced friction, urgency, guarantees, easy checkout"
+  ],
+  "example": "A Facebook ad for a fitness app: Attention = 'Lost 15kg in 12 weeks — here's how' with a before/after image. Interest = '3 meals a day, no gym required, backed by nutritionists.' Desire = video testimonials from real users with similar starting points. Action = 'Start your free 7-day trial — no credit card required.'",
+  "category": "fundamentals"
+}

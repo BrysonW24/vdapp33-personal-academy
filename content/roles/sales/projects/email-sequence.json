@@ -1,0 +1,70 @@
+{
+  "slug": "email-sequence",
+  "title": "Outbound Email Sequence",
+  "difficulty": 2,
+  "estimatedHours": 4,
+  "description": "Design and write a complete 5-email outbound sequence targeting a specific buyer persona. Each email should be personalised, concise, and build on the previous touch. Include subject lines, body copy, CTAs, and a cadence plan.",
+  "whyItMatters": "Outbound email is still one of the most effective channels for B2B sales. But the bar is high — decision-makers receive 100+ emails a day and ignore most cold outreach. A well-crafted, researched email sequence that's personalised and persistent (without being annoying) is a genuine skill. The best SDRs and AEs can write sequences that earn 15-25% reply rates consistently.",
+  "skillsLearned": [
+    "Cold email copywriting",
+    "Subject line optimisation",
+    "Personalisation at scale",
+    "Multi-touch sequence design",
+    "CTA strategy and call-to-action writing",
+    "Email compliance (CAN-SPAM, Australian spam laws)"
+  ],
+  "prerequisites": ["prospect-research"],
+  "steps": [
+    {
+      "title": "Define Your Buyer Persona and Pain Points",
+      "description": "Select one buyer persona from your prospect research project. Document their title, responsibilities, daily challenges, and what success looks like for them. Identify 2-3 pain points your product addresses for this specific persona.",
+      "tips": "Be specific about the persona. 'VP of Sales at a 100-person SaaS company' is much better than 'sales leader'. The more specific you are, the more personalised your emails can be."
+    },
+    {
+      "title": "Design the Sequence Cadence",
+      "description": "Plan a 5-email sequence over 14-21 days. Map out: which day each email sends, the angle/theme of each email, and how each email builds on or differs from the previous one. Common pattern: trigger-based intro, pain point, social proof, value add, break-up.",
+      "tips": "Vary your approach across the sequence. Don't send the same message five times. Email 1: personalised intro. Email 2: different pain angle. Email 3: case study or proof point. Email 4: value-add (share a relevant insight). Email 5: break-up email."
+    },
+    {
+      "title": "Write the 5 Emails",
+      "description": "Write each email in full. Each should be under 100 words, have a compelling subject line, open with a personalisation or trigger, state the pain/value clearly, and end with one simple CTA. Write 2-3 subject line variants for each email.",
+      "tips": "Read each email on your phone — that's where your prospect will read it. If it looks like a wall of text on mobile, it's too long. Use short paragraphs (1-2 sentences each). No attachments in cold email."
+    },
+    {
+      "title": "Add Personalisation Tokens",
+      "description": "Identify the personalisation points in each email — which parts would change for different prospects. Mark them with {{tokens}}: {{company_name}}, {{trigger_event}}, {{competitor_tool}}, {{relevant_metric}}. Then write 3 fully personalised versions of Email 1 for 3 different real companies.",
+      "tips": "The first line and the CTA are the most important parts to personalise. Generic first lines get deleted. 'I noticed {{company}} just expanded into {{new_market}}' is infinitely better than 'Hope this email finds you well.'"
+    },
+    {
+      "title": "Quality Check and Compliance",
+      "description": "Review all 5 emails against a checklist: under 100 words? One CTA per email? No spam trigger words? Compliant with Australian spam legislation (clear sender identity, unsubscribe option, not misleading)? Would you reply to this if you received it?",
+      "tips": "The ultimate test: read each email and honestly ask 'would I reply to this?' If not, rewrite it. Also check for compliance — under Australian spam law, commercial emails must include your identity and a way to unsubscribe."
+    }
+  ],
+  "deliverables": [
+    "A buyer persona document with pain points and messaging angles",
+    "A cadence plan showing the 5-email timeline with themes for each touch",
+    "5 complete emails with subject lines (2-3 variants each), body copy, and CTAs",
+    "3 fully personalised versions of Email 1 for real companies",
+    "A compliance checklist confirming all emails meet Australian spam legislation"
+  ],
+  "tools": ["apollo-io", "lavender-ai", "instantly", "mailshake"],
+  "rubric": [
+    {
+      "criteria": "Personalisation Quality",
+      "description": "Emails demonstrate genuine research — triggers, specific pain points, and relevant proof points. Not just {{first_name}} mail merge."
+    },
+    {
+      "criteria": "Copywriting Quality",
+      "description": "Each email is concise (<100 words), compelling, and has a clear CTA. Subject lines are specific and non-spammy. Tone is professional but human."
+    },
+    {
+      "criteria": "Sequence Logic",
+      "description": "The 5 emails build on each other with varied angles. Each touch adds new value rather than repeating the same message."
+    },
+    {
+      "criteria": "Practical Readiness",
+      "description": "The sequence is ready to load into a sales engagement tool and send. Templates are complete, personalisation tokens are defined, and compliance is verified."
+    }
+  ]
+}

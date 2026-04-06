@@ -1,0 +1,60 @@
+{
+  "slug": "independent-sales",
+  "title": "Independent Sales Consultant",
+  "setting": "Self-employed sales consultant or agent working with multiple clients across industries",
+  "companySize": "1 person (you) with a network of clients",
+  "description": "You're an independent sales consultant — you either represent multiple products/services as a commission-based agent, or you consult with companies to build and fix their sales processes. You set your own hours, choose your clients, and your income is entirely performance-based. It's the ultimate test of sales skill: no salary safety net, no company brand behind you, just your ability to create value and close deals.",
+  "salary": "$100,000-$250,000+ AUD variable. No base salary — income is 100% commission, retainer, or project-based. Top independent consultants earning $300K-$500K+ are not uncommon. Income is volatile: some months are $30K+, some months are lean. Financial discipline is essential.",
+  "schedule": [
+    { "time": "06:30", "activity": "Morning strategy: review the day's plan, prioritise client work, check overnight messages from international clients", "tools": ["notion-sales", "google-workspace"], "note": "As an independent, you're the CEO of your own business. Strategy time is non-negotiable." },
+    { "time": "07:00", "activity": "Content and brand building: post on LinkedIn, write a short article or comment on industry content to build your personal brand", "tools": ["linkedin-sales-nav"], "note": "Your personal brand IS your lead generation engine. No company marketing team is doing this for you." },
+    { "time": "08:00", "activity": "Client A work: discovery call for a SaaS client you represent — selling their analytics platform to a mid-market retailer", "tools": ["zoom", "gong", "salesforce"], "note": "As an agent, you represent the product but bring your own relationships and credibility." },
+    { "time": "09:00", "activity": "Client B consulting: review the pipeline of a startup you're advising. Coach their two AEs on deal strategy and discovery skills.", "tools": ["zoom", "notion-sales"], "note": "Consulting clients pay retainers ($5K-$15K/month) for your expertise in building their sales function." },
+    { "time": "10:30", "activity": "Proposal writing: draft a consulting proposal for a new prospective client - a B2B SaaS company that needs help fixing pipeline discipline and outbound execution", "tools": ["google-workspace", "pandadoc", "claude-sales"], "note": "You're selling yourself. Your proposal needs to demonstrate deep expertise and quantify the ROI of your services." },
+    { "time": "11:30", "activity": "Business development: reach out to 5 potential consulting clients. Follow up on 3 warm introductions from your referral network.", "tools": ["google-workspace", "linkedin-sales-nav", "calendly"], "note": "Independent consultants live and die by their network. Referrals are your highest-converting lead source." },
+    { "time": "12:00", "activity": "Networking lunch: meet a former colleague who's now a VP Sales at a growing company — potential client or referral partner", "note": "Build relationships before you need them. Your network is your pipeline." },
+    { "time": "13:30", "activity": "Client A work: follow up on yesterday's demo with a personalised Loom video and proposal for the retailer deal", "tools": ["loom", "pandadoc", "google-workspace"], "note": "Speed and quality of follow-up is where independents differentiate. No bureaucracy, no approval chains — you move fast." },
+    { "time": "14:30", "activity": "Client C training: run a 90-minute sales training workshop for a tech company's SDR team on cold calling and discovery", "tools": ["zoom", "google-workspace"], "note": "Training workshops are a high-value, time-efficient revenue stream. $2K-$5K per session." },
+    { "time": "16:00", "activity": "Admin: invoicing, expense tracking, updating your CRM with all client activities, reviewing monthly financials", "tools": ["google-workspace", "notion-sales"], "note": "Nobody does your admin for you. Set aside time weekly or it piles up." },
+    { "time": "16:30", "activity": "Learning and skill development: read industry reports, take an online course, or review the latest sales methodology research", "tools": ["chatgpt-sales", "claude-sales"], "note": "Your expertise is your product. If you stop learning, your value declines." },
+    { "time": "17:00", "activity": "Planning: review the week, assess client pipeline, plan next week's priorities, update financial projections", "tools": ["notion-sales", "google-workspace"], "note": "Weekly planning prevents the feast-or-famine cycle that kills independent consultants." }
+  ],
+  "responsibilities": [
+    "Generate your own pipeline through networking, referrals, content marketing, and outbound",
+    "Manage multiple client relationships simultaneously with different products, cycles, and expectations",
+    "Deliver sales consulting: pipeline reviews, coaching, training, and process design",
+    "Represent client products as a commission-based agent — running the full sales cycle",
+    "Build and maintain your personal brand as a trusted sales expert",
+    "Handle all business operations: invoicing, tax, insurance, contracts, and financial planning",
+    "Continuously develop your expertise to justify premium consulting rates",
+    "Maintain a referral network that generates consistent warm introductions"
+  ],
+  "challenges": [
+    "No base salary — income is 100% dependent on your ability to generate business",
+    "Feast-or-famine cycles: some months are excellent, others are quiet",
+    "Wearing every hat: sales, marketing, operations, finance, and administration",
+    "No team support: no SDR booking your meetings, no SE supporting your demos, no manager coaching you",
+    "Client management: balancing competing priorities across multiple clients",
+    "Loneliness: working independently without a team for daily motivation and support",
+    "Tax complexity: managing GST, BAS statements, and quarterly tax obligations as a sole trader or company"
+  ],
+  "rewards": [
+    "Complete autonomy: you choose your clients, your hours, and your focus",
+    "Uncapped income: no corporate salary bands or quota caps. You earn what you're worth.",
+    "Variety: every day is different. Multiple clients, industries, and challenges keep the work stimulating.",
+    "Building equity: your reputation, network, and client relationships are assets that compound over time",
+    "Location independence: most work can be done remotely from anywhere",
+    "The satisfaction of building something that's entirely yours",
+    "Premium rates: experienced independent sales consultants charge $200-$400+ per hour",
+    "Work-life flexibility: you design your schedule around your life, not the other way around"
+  ],
+  "careerPath": [
+    "SDR/BDR at a tech company (0-1 year) — learn the fundamentals of prospecting and qualification",
+    "Account Executive (1-5 years) — master full-cycle selling and build your network",
+    "Senior AE or Sales Manager (5-8 years) — develop expertise and industry reputation",
+    "Independent Sales Consultant (8+ years) — leverage your network and expertise for premium clients",
+    "Boutique Sales Agency (10+ years) — hire other consultants and scale beyond your own time",
+    "Fractional CRO/VP Sales (12+ years) — serve as a part-time sales leader for multiple growth-stage companies",
+    "Advisory Board Member (15+ years) — leverage your network and expertise for equity-based advisory roles"
+  ]
+}

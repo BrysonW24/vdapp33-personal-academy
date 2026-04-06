@@ -1,0 +1,13 @@
+{
+  "slug": "feel-felt-found",
+  "name": "Feel-Felt-Found",
+  "summary": "An objection-handling technique that acknowledges how the buyer feels, normalizes it through others who felt the same way, and then reframes with what those buyers found.",
+  "whenToUseIt": "Use Feel-Felt-Found when the buyer needs empathy and reassurance before they will fully consider the response, especially on risk, change, or confidence objections.",
+  "steps": [
+    "Acknowledge the buyer's concern sincerely.",
+    "Normalize it by showing that similar buyers felt the same way.",
+    "Share what those buyers found after evaluating or adopting the solution."
+  ],
+  "example": "A buyer says implementation feels risky. The rep responds, 'That makes sense. A lot of teams felt that way at first. What they found was that a phased rollout made the change much easier than they expected.'",
+  "category": "objection-handling"
+}

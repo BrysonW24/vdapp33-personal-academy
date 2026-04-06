@@ -1,0 +1,10 @@
+{
+  "slug": "sandler-pain-funnel",
+  "name": "Sandler Pain Funnel",
+  "summary": "A sequence of increasingly specific questions that uncover the real depth of a prospect's pain. The deeper the pain, the stronger the buying motivation.",
+  "whenToUseIt": "During discovery calls when you need to move beyond surface-level problems to understand the true business impact.",
+  "steps": ["Start broad: 'Tell me more about that'", "Get specific: 'Can you give me an example?'", "Quantify: 'How long has this been going on?'", "Impact: 'What has that cost you?'", "Emotional: 'How does that make you feel?'", "Commitment: 'Have you tried to fix it? What happened?'", "Urgency: 'What happens if you do not solve this?'"],
+  "example": "Prospect says 'We have trouble with reporting.' Pain funnel response sequence: 'Tell me more about that' → 'Our monthly reports take a week to produce' → 'A week? How long has that been happening?' → 'About 18 months' → 'What does that cost you in terms of delayed decisions?' → 'We missed two major pricing opportunities' → 'What was the revenue impact?' → 'Probably $200K+'",
+  "category": "discovery",
+  "domain": "sales"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "sales-process-design",
+  "title": "Sales Process Design",
+  "shortSummary": "How to build a sales process from scratch: pipeline stages, qualification frameworks, CRM setup, and the metrics that matter.",
+  "level": "intermediate",
+  "domain": "sales",
+  "whyItMatters": "Without a process, sales depends on luck and heroics. A repeatable process means predictable revenue and the ability to scale beyond the founder.",
+  "coreConcepts": [
+    "A sales process is a series of defined stages with clear entry and exit criteria",
+    "Qualification frameworks (BANT, MEDDIC) help you focus on deals that will close",
+    "CRM is not optional — you cannot improve what you do not measure",
+    "The goal is a process that works without the founder in every deal"
+  ],
+  "lessons": ["building-your-pipeline"],
+  "frameworks": ["meddic-simplified", "challenger-sale"],
+  "relatedModules": ["founder-led-sales"],
+  "status": "complete",
+  "order": 2
+}

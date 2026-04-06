@@ -1,0 +1,15 @@
+{
+  "slug": "brand-systems-growth",
+  "title": "Brand Systems & Growth Loops",
+  "shortSummary": "Build a self-reinforcing brand system where every touchpoint strengthens the next.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The strongest brands don't just run campaigns — they build systems. Growth loops create compounding returns where each customer action feeds the next cycle of acquisition.",
+  "coreConcepts": ["Brand architecture", "Growth loops", "Viral coefficients", "Network effects", "Brand consistency", "Design systems", "Brand equity measurement"],
+  "lessons": ["building-brand-systems"],
+  "frameworks": ["brand-positioning-canvas", "aarrr"],
+  "relatedModules": ["messaging-brand-basics", "content-marketing", "retention-lifecycle"],
+  "status": "complete",
+  "order": 17,
+  "levelNumber": 4
+}

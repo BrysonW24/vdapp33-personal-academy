@@ -1,0 +1,15 @@
+{
+  "slug": "dbt-tool",
+  "name": "dbt (data build tool)",
+  "category": "data",
+  "description": "A transformation tool for analytics engineering. dbt lets you write SQL SELECT statements that transform raw data into clean, tested, documented datasets in your data warehouse.",
+  "whyUseIt": "dbt is the standard for data transformation in modern data stacks. For AI engineers working with structured data, dbt creates the clean feature tables that feed ML models. Version-controlled SQL, automated testing, and documentation.",
+  "pricingTier": "freemium",
+  "url": "https://getdbt.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/dbt.svg",
+  "alternatives": [
+    "SQLMesh",
+    "Apache Spark",
+    "Dataform"
+  ]
+}

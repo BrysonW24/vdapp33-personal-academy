@@ -1,0 +1,27 @@
+{
+  "slug": "brand-audit",
+  "title": "Brand Audit",
+  "difficulty": 1,
+  "estimatedHours": 3,
+  "description": "Analyse an existing brand's marketing strategy by examining their product, pricing, distribution, promotion, positioning, and customer experience. This is your first real marketing analysis.",
+  "whyItMatters": "Before you can create marketing, you need to read it. A brand audit trains your marketing eye — learning to see the strategic decisions behind every brand interaction. This skill is foundational for every marketing role.",
+  "skillsLearned": ["4Ps analysis", "Competitive observation", "Brand positioning", "Critical thinking", "Marketing research"],
+  "prerequisites": ["Complete the 'What Marketing Actually Is' lesson"],
+  "steps": [
+    {"title": "Choose a brand", "description": "Pick a brand you interact with regularly — a coffee shop, clothing brand, tech product, or food brand. Choose something you're genuinely interested in.", "tips": "Avoid massive brands like Apple or Nike for your first audit — medium-sized brands are easier to analyse."},
+    {"title": "Analyse their Product", "description": "What do they sell? What problem does it solve? What's the quality level? How is it packaged? What's unique about it compared to competitors?"},
+    {"title": "Analyse their Price", "description": "What's their pricing strategy? Premium, mid-range, or budget? How do they compare to competitors? Do they use discounts, bundles, or subscriptions?"},
+    {"title": "Analyse their Place", "description": "Where can you buy their products? Online, retail, both? How easy is it to find and purchase? What's their distribution strategy?"},
+    {"title": "Analyse their Promotion", "description": "How do they market? Check their website, social media, email (sign up for their newsletter), ads, and any PR. What channels are they most active on? What's their tone of voice?"},
+    {"title": "Assess their positioning", "description": "Who is their target customer? What value proposition do they communicate? How do they differentiate from competitors? Write their positioning statement as you understand it."},
+    {"title": "Write your audit report", "description": "Compile your findings into a 1-2 page document. Include a summary of strengths, weaknesses, and one recommendation for improvement.", "tips": "Use screenshots and examples to support your analysis."}
+  ],
+  "deliverables": ["1-2 page brand audit document", "4Ps analysis table", "Positioning statement (as you interpret it)", "One recommendation for improvement"],
+  "tools": ["Google Docs", "Canva (for formatting)", "The brand's website and social channels"],
+  "rubric": [
+    {"criteria": "4Ps Analysis Depth", "description": "Each P is analysed with specific observations, not generic statements."},
+    {"criteria": "Positioning Clarity", "description": "You can clearly articulate who the brand targets and how they differentiate."},
+    {"criteria": "Evidence-Based", "description": "Claims are supported by screenshots, examples, or data points."},
+    {"criteria": "Actionable Recommendation", "description": "Your recommendation is specific and realistic for the brand."}
+  ]
+}

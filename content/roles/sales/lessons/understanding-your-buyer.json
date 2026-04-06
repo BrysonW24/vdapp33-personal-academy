@@ -1,0 +1,72 @@
+{
+  "slug": "understanding-your-buyer",
+  "moduleSlug": "understanding-buyers",
+  "title": "Understanding Your Buyer",
+  "objective": "Learn how B2B buyers actually make decisions, map the key stakeholders in a buying committee, and understand the psychology that drives (or stalls) a purchase.",
+  "beginnerExplanation": "In B2B sales, you're almost never selling to just one person. Even if one person takes your call, there's usually a group of people involved in the decision — a 'buying committee.' There's the person who feels the pain (your champion), the person who signs the cheque (the economic buyer), the person who evaluates the technology (the technical evaluator), and often someone who can block the deal entirely (a gatekeeper or blocker). Understanding who these people are and what each of them cares about is the difference between a deal that progresses and one that stalls forever in 'we're still evaluating.'",
+  "deeperExplanation": "B2B buying behaviour is fundamentally different from B2C. A consumer buys on impulse, emotion, or personal preference. A B2B buyer is spending someone else's money on behalf of an organisation, with their reputation and career on the line. This creates powerful dynamics:\n\n**Risk aversion**: The number one competitor in B2B is not another vendor — it's the status quo. Doing nothing feels safer than making a change that might fail. Your job is to quantify the cost of inaction so that staying still feels riskier than moving forward.\n\n**The buying committee**: Gartner research shows the average B2B deal involves 6-10 decision-makers. Each has different priorities. The end user wants ease of use. The IT team wants security and integration. The CFO wants ROI. The CEO wants strategic alignment. You need to map these stakeholders early and tailor your message to each.\n\n**The buyer's journey**: Buyers go through three phases. First, they become problem-aware (something isn't working). Then they become solution-aware (there are tools that could help). Finally, they become vendor-aware (they're comparing specific options). Your messaging should match where they are in this journey — don't pitch features to someone who hasn't even agreed they have a problem.\n\n**Champions vs decision-makers**: Your champion is the internal advocate who wants your solution to win. But they're rarely the person who signs. You need to equip your champion to sell internally — with business cases, ROI calculators, competitive comparisons — because the conversations that matter most happen when you're not in the room.",
+  "keyTakeaways": [
+    "The average B2B deal involves 6-10 decision-makers — you're selling to a committee, not a person.",
+    "Your biggest competitor is usually the status quo, not another vendor.",
+    "Map stakeholders early: champion, economic buyer, technical evaluator, blocker.",
+    "Buyers care about risk reduction as much as value creation.",
+    "Equip your champion to sell internally — the most important conversations happen without you.",
+    "Match your messaging to where the buyer is in their journey."
+  ],
+  "frameworks": ["meddic", "challenger-sale"],
+  "example": "You're selling a revenue forecasting platform to a mid-market SaaS company. Your initial contact is the Director of Revenue Operations - she is frustrated that forecast updates live across spreadsheets, CRM fields, and Slack threads. She is your champion. But she cannot approve a $50K annual spend alone. You need access to the VP of Sales, who cares about forecast confidence, the CFO, who cares about planning accuracy and payback, and the CIO, who cares about security and data access. If you only sell to RevOps, the deal dies in internal review because the value case was never translated for the rest of the committee.",
+  "commonMistakes": [
+    "Single-threading: only building a relationship with one person at the account",
+    "Assuming the person you're talking to is the decision-maker",
+    "Not understanding internal politics and competing priorities",
+    "Ignoring the technical evaluator who can veto the deal on integration concerns",
+    "Failing to quantify the cost of doing nothing — letting the status quo win"
+  ],
+  "exercise": "Choose a company you'd like to sell to (real or hypothetical). Create a stakeholder map with at least 4 roles: (1) Who feels the pain day-to-day? (Champion) (2) Who controls the budget? (Economic Buyer) (3) Who evaluates the technical fit? (Technical Evaluator) (4) Who could block the deal? (Blocker). For each role, write one sentence about what they care about most. Then write a one-line message tailored to each person's priorities.",
+  "nextLesson": "mapping-the-buying-committee",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "According to Gartner research, how many decision-makers are typically involved in a B2B purchase?",
+      "options": [
+        "1-2",
+        "3-4",
+        "6-10",
+        "15-20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gartner's research shows the average B2B buying committee has 6-10 members. This is why single-threading (only talking to one contact) is so dangerous — you need relationships across the committee."
+    },
+    {
+      "question": "What is the number one competitor in most B2B sales cycles?",
+      "options": [
+        "The cheapest vendor",
+        "The market leader",
+        "The status quo (doing nothing)",
+        "Open-source alternatives"
+      ],
+      "correctIndex": 2,
+      "explanation": "Most deals are lost not to a competitor but to 'no decision' — the buyer decides to stick with what they have. Quantifying the cost of inaction is essential to overcoming this."
+    },
+    {
+      "question": "What is a 'champion' in B2B sales?",
+      "options": [
+        "The person who signs the contract",
+        "Your internal advocate who wants your solution to win",
+        "The most senior person at the company",
+        "The first person who responds to your email"
+      ],
+      "correctIndex": 1,
+      "explanation": "A champion is your internal advocate — someone who feels the pain your product solves and actively wants to bring your solution in. They're essential because they sell on your behalf in meetings you're not invited to."
+    }
+  ],
+  "perspectives": {
+    "ae": "As an AE, stakeholder mapping is your superpower. On every deal, identify the champion, economic buyer, technical evaluator, and potential blockers within the first two calls. Build a relationship with at least three contacts — single-threading is the number one reason deals stall.",
+    "manager": "A Sales Manager reviews deals by asking 'Who have you spoken to besides your main contact?' If the answer is 'no one,' that deal is at risk. Managers coach reps to multi-thread early and provide frameworks like MEDDIC to ensure thorough qualification.",
+    "vp": "The VP of Sales looks at pipeline health through a stakeholder lens. Deals with executive sponsors close at 2-3x the rate of deals without them. VPs build processes that require multi-threading and economic buyer engagement before deals advance to later stages.",
+    "cro": "The CRO thinks about buyer enablement at scale. Modern buyers complete 70% of their research before talking to sales. The CRO ensures marketing, sales, and CS all contribute to helping the buying committee make a confident decision — with the right content, business cases, and proof points at every stage.",
+    "ceo": "The CEO thinks in terms of strategic initiatives and board-level priorities. They won't care about your feature list — they want to know how your solution drives revenue growth, reduces risk, or delivers competitive advantage.",
+    "cfo": "The CFO is thinking about cash flow, payback period, and total cost of ownership. They'll ask: What's the ROI? How quickly do we see returns? What are the hidden costs — implementation, training, ongoing maintenance?",
+    "cmo": "The CMO is your most likely executive sponsor in many SaaS deals. They care about attribution, customer experience, and whether your solution helps them prove marketing's impact on revenue."
+  }
+}

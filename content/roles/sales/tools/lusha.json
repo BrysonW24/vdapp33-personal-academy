@@ -1,0 +1,27 @@
+{
+  "slug": "lusha",
+  "name": "Lusha",
+  "category": "analytics",
+  "description": "A B2B contact enrichment tool that provides verified email addresses and direct dial phone numbers for prospects. Lusha integrates as a browser extension, letting you pull contact details while browsing LinkedIn or company websites.",
+  "whyUseIt": "Lusha is the quickest way to get a prospect's direct email and phone number. The browser extension works on LinkedIn profiles — click it, and you get verified contact details in seconds. It's simpler and more affordable than ZoomInfo, making it ideal for individual reps and small teams who need contact data without enterprise pricing.",
+  "pricingTier": "freemium",
+  "url": "https://www.lusha.com",
+  "logoUrl": "/tools/lusha.svg",
+  "aiCapabilities": "Lusha uses AI for data verification, ensuring email addresses are current and deliverable. It also provides company enrichment data and basic lead scoring.",
+  "alternatives": ["zoominfo", "apollo-io", "linkedin-sales-nav"],
+  "funnelPosition": "Top of funnel — contact discovery and data enrichment",
+  "outputs": ["Verified email addresses", "Direct dial phone numbers", "Company enrichment data", "CRM-ready contact exports"],
+  "sellerWorkflow": "Reps browse LinkedIn, click the Lusha extension on promising profiles, and get contact details instantly. Contacts can be exported directly to the CRM or sales engagement tool with one click.",
+  "managerExpects": "Contact data sourced from Lusha is verified before outreach. Credit usage is managed efficiently — don't waste credits on unqualified prospects.",
+  "demoDescription": "Install the browser extension, navigate to a LinkedIn profile, click Lusha to reveal the contact's email and phone number, and push the contact directly to your CRM.",
+  "vocabulary": [
+    { "term": "Credits", "definition": "Lusha's currency for revealing contact details. Each plan includes a monthly credit allowance — one credit per contact reveal." },
+    { "term": "Enrichment", "definition": "Adding missing data fields (email, phone, company info) to an existing contact record." }
+  ],
+  "beginnerMistakes": [
+    "Burning credits on contacts you haven't qualified against your ICP first",
+    "Not verifying emails before sending — even verified data can be outdated",
+    "Using Lusha for mass list building instead of targeted, high-value prospect enrichment"
+  ],
+  "relatedProject": "prospect-research"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "webflow",
+  "name": "Webflow",
+  "category": "web-platforms",
+  "description": "A visual web development platform that lets you design, build, and launch responsive websites without writing code.",
+  "whyUseIt": "Webflow gives marketers independence from developers. You can build and update landing pages, campaign microsites, and even full websites without waiting for engineering support. It's the bridge between design and development.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI-assisted design suggestions and responsive layout auto-generation.",
+  "alternatives": [
+    "WordPress",
+    "Squarespace",
+    "Framer"
+  ],
+  "url": "https://webflow.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/webflow.svg",
+  "funnelPosition": "Mid-funnel \u2014 Consideration",
+  "outputs": [
+    "Responsive landing pages for campaigns",
+    "Full marketing websites with CMS-powered content",
+    "Campaign microsites and event pages",
+    "Blog and content hub layouts",
+    "Lead capture forms with integrations",
+    "Interactive animations and scroll-triggered effects",
+    "Style guides and component libraries"
+  ],
+  "marketerWorkflow": "A marketer using Webflow designs and publishes landing pages directly, dragging elements onto the canvas, styling them visually, and connecting forms to their CRM or email platform. They use the built-in CMS to manage blog posts, case studies, or product listings without touching the site's design. When a new campaign launches, they duplicate an existing page template, swap in new copy and images, and publish \u2014 all without filing a developer ticket.",
+  "managerExpects": "A marketing manager expects the team to launch new landing pages within hours rather than weeks, removing the developer bottleneck from campaign timelines. They want consistent brand application across all pages using a shared style guide and component library, along with performance metrics showing that pages load fast and convert well. SEO fundamentals \u2014 meta tags, clean URLs, proper heading hierarchy \u2014 should be built in from the start.",
+  "aiWorkflowImpact": "Webflow's AI features now generate initial page layouts from text descriptions, giving marketers a starting point that they refine rather than building from a blank canvas. AI-assisted responsive design automatically adjusts layouts for mobile and tablet, reducing the manual breakpoint tuning that used to be the most tedious part of web design. Upcoming AI integrations with copywriting tools will allow marketers to populate entire page sections with generated content directly within the Webflow editor.",
+  "demoDescription": "Create a free Webflow account and use the blank canvas to build a simple landing page with a hero section, three feature blocks, and a call-to-action form. Apply a consistent colour scheme and typography using Webflow's global styles. Publish to a webflow.io subdomain and view it on both desktop and mobile. This exercise teaches you the fundamentals of visual web design and responsive layout building.",
+  "vocabulary": [
+    {
+      "term": "Designer",
+      "definition": "Webflow's visual editor where you build and style pages using a drag-and-drop canvas with full CSS control \u2014 no code required."
+    },
+    {
+      "term": "CMS Collection",
+      "definition": "A structured content database in Webflow (like blog posts or team members) that dynamically populates template pages."
+    },
+    {
+      "term": "Interactions",
+      "definition": "Webflow's animation system for creating scroll-triggered effects, hover states, and page load animations without JavaScript."
+    },
+    {
+      "term": "Global styles",
+      "definition": "Reusable style definitions (colours, fonts, spacing) applied across the entire site, ensuring brand consistency and enabling bulk updates."
+    },
+    {
+      "term": "Breakpoint",
+      "definition": "A screen width threshold where the layout adapts \u2014 Webflow provides desktop, tablet, mobile landscape, and mobile portrait breakpoints."
+    },
+    {
+      "term": "Webflow hosting",
+      "definition": "Webflow's built-in hosting with CDN, SSL, and automatic publishing \u2014 sites can also be exported as code for self-hosting."
+    }
+  ],
+  "beginnerMistakes": [
+    "Designing only for desktop and neglecting responsive breakpoints, resulting in a broken experience on mobile devices where most traffic comes from",
+    "Using fixed pixel values for spacing and sizing instead of relative units, making the design rigid and hard to maintain across screen sizes",
+    "Not using global styles and classes, leading to one-off styles that are impossible to update consistently across the site",
+    "Overloading pages with heavy animations and interactions that slow load times and hurt SEO performance",
+    "Building pages without proper heading hierarchy (H1, H2, H3) and meta tags, which undermines search engine visibility"
+  ],
+  "relatedProject": "landing-page-optimization"
+}

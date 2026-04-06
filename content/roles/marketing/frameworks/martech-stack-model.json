@@ -1,0 +1,16 @@
+{
+  "slug": "martech-stack-model",
+  "name": "Martech Stack Model",
+  "summary": "A framework for selecting, organising, and integrating marketing technology tools into a cohesive system that supports every stage of the customer lifecycle.",
+  "whenToUseIt": "Use this model when building or evaluating your marketing operations infrastructure, when justifying tool purchases to leadership, or when scaling team efficiency by reducing manual work and tool fragmentation.",
+  "steps": [
+    "Audit Current Tools: Catalogue every marketing tool in use — including shadow IT and free tools individuals use — noting cost, owner, usage frequency, and data flows",
+    "Map to Marketing Stages: Organise tools against the four lifecycle stages — Attract (SEO, ads, social), Engage (content, email, chat), Convert (landing pages, CRO, checkout), and Retain (loyalty, support, re-engagement)",
+    "Identify Gaps and Overlaps: Highlight stages with no tooling coverage (gaps) and stages where multiple tools do the same job (overlaps creating data silos and wasted spend)",
+    "Evaluate Integration Capabilities: Assess how well tools connect — native integrations, API availability, and middleware options like Zapier or Make — because disconnected tools create fragmented customer data",
+    "Select and Implement: Choose tools that fill gaps, consolidate overlaps, and integrate cleanly — prioritise platforms that serve multiple stages over single-purpose point solutions",
+    "Measure ROI of Stack: Track the total cost of your martech stack against the revenue it enables — review quarterly to identify underused tools and emerging needs"
+  ],
+  "example": "A growing D2C skincare brand starts with Shopify (convert), Klaviyo (engage/retain), and GA4 (measure). Using this model, they identify gaps: no paid ad management tool (attract) and no landing page builder (convert). They evaluate options, choosing Meta Ads Manager + Google Ads for acquisition and Unbounce for landing pages. They connect everything through Klaviyo as their central customer data hub, giving them a unified view from first touch to repeat purchase — and they cut their cost per acquisition by 23% within three months.",
+  "category": "execution"
+}

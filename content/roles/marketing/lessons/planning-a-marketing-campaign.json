@@ -1,0 +1,62 @@
+{
+  "slug": "planning-a-marketing-campaign",
+  "moduleSlug": "campaign-planning",
+  "title": "Planning a Marketing Campaign",
+  "objective": "Learning how to plan, brief, execute, and measure an integrated marketing campaign from start to finish.",
+  "beginnerExplanation": "Planning a marketing campaign is a lot like planning a wedding. You need a clear vision (what are we celebrating?), a guest list (who's the audience?), a budget (how much can we spend?), a timeline (when does everything need to happen?), vendors and venues (which channels and partners?), and a way to know if it was a success (did people have a great time?). Skip any of those steps and things fall apart.\n\nThe campaign brief is your single source of truth. It's a document — usually one to two pages — that captures the objective, target audience, key message, channels, budget, timeline, and KPIs. Every person working on the campaign should be able to read the brief and understand exactly what they're contributing to. Without it, the designer interprets the campaign differently from the copywriter, who interprets it differently from the media buyer.\n\nIntegrated campaigns work across multiple channels with one consistent message adapted for each platform. A social post, an email, a landing page, and an in-store display should all feel like they belong to the same story. The magic is in the consistency — when a customer sees the same message three times across three channels, it reinforces the idea and drives action far more effectively than three different messages.",
+  "deeperExplanation": "Campaign layering is the practice of sequencing activities across phases rather than launching everything simultaneously. A typical structure is: seed (teaser content to build anticipation), launch (hero content across all channels), sustain (ongoing engagement content), and convert (retargeting and direct response). Each phase has distinct KPIs — awareness metrics in the seed phase, engagement in launch, and conversion in the final push. This phased approach lets you learn and optimise as the campaign progresses.\n\nTest-and-learn budgets are a hallmark of sophisticated campaign planning. Rather than committing 100% of budget upfront, allocate 10–20% for experimentation — testing different audiences, creative variants, or channel mixes in the first week before scaling what works. This approach requires building measurement into the campaign from day one, not as an afterthought. Define your KPIs before launch, set up tracking, and agree on what 'good' looks like so you can make real-time optimisation decisions.\n\nPost-campaign analysis (PCA) is where most teams fail. A proper PCA goes beyond 'did we hit our KPIs?' to ask 'what did we learn that makes the next campaign better?' It should cover performance by channel, creative effectiveness, audience insights, budget efficiency (cost per acquisition, return on ad spend), and qualitative learnings. The best marketing teams present PCA findings to leadership within two weeks of campaign end and feed insights directly into the brief for the next campaign.",
+  "keyTakeaways": [
+    "Write a campaign brief before any creative work begins — it aligns every contributor around a single vision",
+    "Set measurable objectives with specific KPIs rather than vague goals like 'raise awareness'",
+    "Plan campaigns in phases (seed, launch, sustain, convert) with distinct KPIs for each stage",
+    "Reserve 10–20% of budget for test-and-learn experimentation during the campaign",
+    "Conduct a thorough post-campaign analysis within two weeks and feed learnings into future briefs"
+  ],
+  "frameworks": ["campaign-planning-template", "aida", "kpi-cheat-sheet"],
+  "example": "Tourism Australia's 'Come and Say G'day' campaign is a textbook example of integrated planning. The brief centred on repositioning Australia as a warm, welcoming destination using Ruby the kangaroo as a character vehicle. The campaign launched with a cinematic hero film voiced by Rose Byrne, then rolled out across TV, cinema, social media, influencer partnerships, and experiential activations at airports. Each channel carried the same core message adapted for its format — the TV spot told Ruby's story, social content featured behind-the-scenes and UGC, and influencers created their own 'G'day' moments. Clear KPIs tracked awareness uplift, destination consideration, and booking intent at each stage, enabling real-time optimisation across markets.",
+  "commonMistakes": [
+    "Launching without a written brief and relying on verbal alignment that inevitably drifts",
+    "Setting vague objectives like 'raise awareness' without defining measurable targets and timeframes",
+    "Not aligning channels around one consistent message and running disconnected creative across platforms",
+    "Forgetting to plan measurement before launch and scrambling to prove results after the fact",
+    "Skipping post-campaign analysis and repeating the same mistakes in the next campaign"
+  ],
+  "exercise": "Write a one-page campaign brief for a product launch of your choice. Include: the campaign objective (specific and measurable), target audience (demographics and psychographics), key message (one sentence), three channels you'd use and why, a percentage budget split across those channels, a four-week timeline with key milestones, and three KPIs you'd track to measure success.",
+  "nextLesson": "reading-your-analytics",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What is the primary purpose of a campaign brief?",
+      "options": [
+        "To impress clients with detailed marketing jargon",
+        "To serve as a single source of truth that aligns every contributor around the campaign's objective, audience, message, and KPIs",
+        "To replace the need for a post-campaign analysis",
+        "To lock in the exact creative assets before any research is done"
+      ],
+      "correctIndex": 1,
+      "explanation": "A campaign brief ensures everyone working on the campaign — designers, copywriters, media buyers — understands exactly what they're contributing to. Without it, interpretations drift and the campaign loses coherence."
+    },
+    {
+      "question": "You're planning a product launch campaign with a $10,000 budget. How should you allocate spending according to the test-and-learn approach?",
+      "options": [
+        "Spend the entire $10,000 on the channel that worked best last time",
+        "Split equally across 10 channels to maximise reach",
+        "Reserve 10-20% ($1,000-$2,000) for experimentation in the first week, then scale what works with the remaining budget",
+        "Hold all spending until the final week and run a single burst campaign"
+      ],
+      "correctIndex": 2,
+      "explanation": "The test-and-learn approach allocates a portion of budget to experiment with different audiences, creative, or channels early on, then scales the winners with the remaining budget based on real data."
+    },
+    {
+      "question": "Which of the following is a campaign planning mistake?",
+      "options": [
+        "Writing a campaign brief before any creative work begins",
+        "Planning campaigns in phases with distinct KPIs for each stage",
+        "Skipping post-campaign analysis and moving straight to the next campaign",
+        "Setting measurable objectives with specific KPIs and timeframes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Skipping post-campaign analysis means you lose the learnings that make each subsequent campaign better. A proper PCA should happen within two weeks and feed directly into the next brief."
+    }
+  ]
+}

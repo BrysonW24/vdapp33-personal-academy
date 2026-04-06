@@ -15,15 +15,21 @@ export default async function RoleProjectDetailPage({
   const project = getRoleProject(slug, projectSlug)
   if (!role || !project) notFound()
 
-  const sourceSubject = project.sourceMeta?.sourceSlug
-    ? getSubject(project.sourceMeta.sourceSlug)
-    : null
+  const sourceSubject =
+    project.sourceMeta?.sourceKind === "subject" && project.sourceMeta.sourceSlug
+      ? getSubject(project.sourceMeta.sourceSlug)
+      : null
+  const isRoleCoreProject = project.sourceMeta?.sourceKind === "role"
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-10">
       <ProgressTracker
         slug={project.slug}
-        subjectSlug={project.sourceMeta?.sourceSlug}
+        subjectSlug={
+          project.sourceMeta?.sourceKind === "subject"
+            ? project.sourceMeta.sourceSlug
+            : undefined
+        }
         type="project"
       />
 
@@ -41,6 +47,11 @@ export default async function RoleProjectDetailPage({
           Difficulty {project.difficulty}/10
         </span>
         <span className="text-xs text-editorial-muted">~{project.estimatedHours} hours</span>
+        {isRoleCoreProject ? (
+          <span className="inline-block rounded-full bg-editorial-violet-soft px-2.5 py-0.5 text-xs font-medium text-editorial-violet">
+            Core role material
+          </span>
+        ) : null}
         {sourceSubject ? (
           <Link
             href={`/${sourceSubject.slug}`}

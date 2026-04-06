@@ -1,0 +1,61 @@
+{
+  "slug": "making-decisions-with-data",
+  "moduleSlug": "data-analytics-foundations",
+  "title": "Making Decisions with Data",
+  "objective": "Understanding the analytics maturity ladder and how to use data to make better marketing decisions.",
+  "beginnerExplanation": "Data is everywhere in modern marketing — website visits, email open rates, ad clicks, purchase behaviour, social engagement. But having data isn't the same as using it well. Most marketers drown in numbers without knowing which ones actually matter or what to do with them.\n\nThe analytics maturity ladder gives you a framework for thinking about data at four levels. Descriptive analytics answers 'what happened?' — last month we had 10,000 website visitors and 200 sales. Diagnostic analytics asks 'why did it happen?' — conversion dropped because the checkout page loaded slowly on mobile. Predictive analytics forecasts 'what will happen?' — based on seasonal trends, we expect a 15% sales lift in November. Prescriptive analytics recommends 'what should we do?' — shift 30% of budget from Meta to Google because predicted ROAS is higher.\n\nMost businesses are stuck at the descriptive level — they have dashboards full of numbers but no insight. The real value comes from moving up the ladder, asking better questions, and turning data into decisions. A single diagnostic insight (why did that campaign fail?) is worth more than a hundred descriptive reports (here's what happened last month).",
+  "deeperExplanation": "Data sources for marketers typically include web analytics (Google Analytics, GA4), advertising platforms (Meta Ads, Google Ads), CRM systems (HubSpot, Salesforce), email platforms (Klaviyo, Mailchimp), and social media insights. The challenge isn't access — it's connecting these sources to build a complete picture of the customer journey.\n\nAttribution modelling is where data gets genuinely complex. When a customer sees a Meta ad, clicks a Google search result, reads an email, and then buys — which channel gets the credit? Last-click attribution gives all credit to the final touchpoint (Google search). First-click gives it to the initial awareness driver (Meta ad). Multi-touch attribution distributes credit across all touchpoints. No model is perfect, but understanding attribution is critical because it determines where you invest your budget.\n\nThere's an important distinction between being data-driven and data-informed. Data-driven means you let the numbers decide everything — which can lead to optimising for metrics that don't matter or missing qualitative insights the data can't capture. Data-informed means you use data as one input alongside experience, intuition, and customer conversations. The best marketers know when to trust the data and when to trust their gut — particularly when entering new markets or launching innovative products where historical data doesn't exist.",
+  "keyTakeaways": [
+    "Move beyond descriptive analytics — always ask 'why did this happen?' and 'what should we do about it?'",
+    "Build dashboards around decisions, not vanity metrics — every number should connect to an action",
+    "Understand attribution modelling basics so you can intelligently allocate budget across channels",
+    "Be data-informed rather than blindly data-driven — use data as one input alongside experience and intuition",
+    "Prioritise data quality over data quantity — bad data leads to confidently wrong decisions"
+  ],
+  "frameworks": ["kpi-cheat-sheet", "ab-testing-framework"],
+  "example": "Spotify demonstrates all four levels of the analytics maturity ladder in action. Descriptive: they track listening stats — what songs you played, how many minutes you streamed, which genres dominated. Diagnostic: when churn spikes, they analyse why — was it a price increase, a competitor launch, or a content gap? Predictive: their recommendation engine uses listening history to predict what you'll enjoy next, powering playlists like Release Radar. Prescriptive: Discover Weekly goes further — the algorithm doesn't just predict what you'll like, it prescribes a specific playlist designed to maximise engagement and reduce churn. Each level builds on the one below it.",
+  "commonMistakes": [
+    "Reporting vanity metrics (page views, impressions, followers) without connecting them to business outcomes",
+    "Trusting data from a single source without cross-referencing against other platforms",
+    "Ignoring data quality issues — duplicate records, broken tracking, and misattributed conversions silently corrupt your analysis",
+    "Waiting for perfect data before making any decision — sometimes directionally correct is good enough",
+    "Using last-click attribution by default and dramatically undervaluing awareness and consideration channels"
+  ],
+  "exercise": "Open any free analytics tool — Google Analytics demo account, your social media insights, or even your own email open rates. Find 3 descriptive metrics (what happened), ask 1 diagnostic question (why did it happen), and write 1 predictive hypothesis (what might happen next month based on current trends).",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the key difference between being 'data-driven' and 'data-informed'?",
+      "options": [
+        "Data-driven uses more expensive analytics tools than data-informed",
+        "Data-informed uses data as one input alongside experience and intuition, while data-driven lets numbers decide everything",
+        "Data-driven is always better because it removes human bias entirely",
+        "There is no meaningful difference between the two approaches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Being data-informed means using data as one valuable input alongside experience, intuition, and qualitative insights. Being purely data-driven can lead to optimising for metrics that don't matter or missing insights that numbers cannot capture."
+    },
+    {
+      "question": "Your team notices that email is credited with 60% of conversions using last-click attribution, while Meta Ads shows very low conversion numbers. What should you investigate before reallocating budget away from Meta?",
+      "options": [
+        "Nothing — the data clearly shows email is the top performer",
+        "Whether Meta Ads are driving the initial awareness that leads customers to later convert via email, using multi-touch attribution",
+        "Whether the email platform is more expensive than Meta Ads",
+        "Whether competitors are also reducing their Meta Ads spend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Last-click attribution credits only the final touchpoint before conversion. Meta Ads may be driving essential awareness and consideration at the top of the funnel, which multi-touch attribution would reveal. Cutting awareness channels based on last-click data is a common and costly mistake."
+    },
+    {
+      "question": "Which of the following is a common data analysis mistake?",
+      "options": [
+        "Moving beyond descriptive analytics to ask why something happened",
+        "Building dashboards around decisions rather than vanity metrics",
+        "Reporting vanity metrics like page views and follower counts without connecting them to business outcomes",
+        "Prioritising data quality to ensure analysis is built on accurate information"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vanity metrics like page views, impressions, and follower counts look impressive but are meaningless unless connected to business outcomes like revenue, customer acquisition, or retention. Reporting them without context leads to misguided decisions."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "account-research-led-outreach",
+  "name": "Account Research-Led Outreach",
+  "summary": "A prospecting technique that builds outreach around account-specific research so the message reflects the buyer's actual environment rather than a generic sequence.",
+  "whenToUseIt": "Use account-research-led outreach on named accounts and higher-value targets where stronger relevance justifies the extra effort.",
+  "steps": [
+    "Research the account's current priorities, changes, and likely friction points.",
+    "Form a business hypothesis about what may matter to the buyer now.",
+    "Build the outreach around that hypothesis with concise, relevant language."
+  ],
+  "example": "A rep sees a company is hiring enablement managers in two regions and uses that signal to build a hypothesis about inconsistent onboarding and coaching at scale.",
+  "category": "prospecting"
+}

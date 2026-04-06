@@ -1,0 +1,14 @@
+{
+  "slug": "dvc",
+  "name": "DVC (Data Version Control)",
+  "category": "data",
+  "description": "Git for data and ML models. Version your datasets, track experiments, and build reproducible ML pipelines.",
+  "whyUseIt": "DVC solves the 'data versioning problem' — tracking which data and code produced which model. It extends Git to handle large files, datasets, and ML pipelines. Essential for reproducibility.",
+  "pricingTier": "free",
+  "url": "https://dvc.org",
+  "alternatives": [
+    "MLflow",
+    "LakeFS",
+    "Pachyderm"
+  ]
+}

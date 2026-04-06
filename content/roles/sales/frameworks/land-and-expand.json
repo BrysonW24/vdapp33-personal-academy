@@ -1,0 +1,13 @@
+{
+  "slug": "land-and-expand",
+  "name": "Land and Expand",
+  "summary": "An account strategy focused on winning an initial use case, proving value quickly, and then expanding the footprint into adjacent teams, regions, or workflows.",
+  "whenToUseIt": "Use land and expand when the full account opportunity is larger than the first winnable entry point and when evidence from the initial deployment can make later expansion more credible.",
+  "steps": [
+    "Choose a first land that is winnable and meaningful enough to create proof.",
+    "Deliver value clearly enough that the first win becomes a reference point inside the account.",
+    "Expand deliberately into adjacent areas where the proof and stakeholder logic already support the next move."
+  ],
+  "example": "A support operations team adopts the platform first, proves manager productivity gains, and then uses that result to justify rollout into customer success and a second region.",
+  "category": "account-strategy"
+}

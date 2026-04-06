@@ -1,0 +1,13 @@
+{
+  "slug": "personalisation",
+  "name": "Personalisation",
+  "summary": "A persuasion technique that tailors the message to the buyer's role, company context, priorities, and decision stage so relevance feels obvious.",
+  "whenToUseIt": "Use personalisation across outreach, discovery, demos, and proposals whenever generic messaging would force the buyer to do too much translation work themselves.",
+  "steps": [
+    "Identify what matters most to this specific role and account context.",
+    "Adapt the message, proof, and examples so they speak to that reality.",
+    "Keep the personalization tied to business meaning, not trivia."
+  ],
+  "example": "The same product is framed around forecast discipline for a CRO, manager productivity for frontline leaders, and adoption governance for enablement - because each stakeholder judges the decision differently.",
+  "category": "presentation-persuasion"
+}

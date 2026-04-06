@@ -1,0 +1,27 @@
+{
+  "slug": "salesloft",
+  "name": "Salesloft",
+  "category": "email",
+  "description": "A sales engagement platform competing directly with Outreach. Salesloft helps sales teams automate outreach, manage deals, and gain AI-powered insights across the revenue cycle. Known for its user-friendly interface and strong coaching features.",
+  "whyUseIt": "Salesloft combines sales engagement (sequences and cadences) with deal management (pipeline and forecasting) and conversation intelligence (call recording and analysis). This all-in-one approach means fewer tools and more cohesive data. Many mid-market and enterprise teams choose Salesloft for its balance of power and usability.",
+  "pricingTier": "enterprise",
+  "url": "https://www.salesloft.com",
+  "logoUrl": "/tools/salesloft.svg",
+  "aiCapabilities": "Salesloft's AI analyses call recordings for coaching insights, scores deal health, suggests optimal sequence timing, and generates recommended next actions based on buyer engagement patterns.",
+  "alternatives": ["outreach-io", "apollo-io"],
+  "funnelPosition": "Full funnel — from prospecting through deal management to renewal",
+  "outputs": ["Cadence execution", "Call coaching reports", "Deal health scores", "Forecast dashboards", "Engagement analytics"],
+  "sellerWorkflow": "SDRs execute cadences and make calls through the dialler. AEs use deal intelligence to track opportunities. Managers use conversation intelligence to coach reps on recorded calls.",
+  "managerExpects": "Cadences executed consistently, calls logged and recorded, deal stages updated, and engagement data reviewed weekly to optimise sequences.",
+  "demoDescription": "Run through a cadence, use the integrated dialler to make a call, review conversation intelligence from a recorded call, and check deal health scores in the pipeline view.",
+  "vocabulary": [
+    { "term": "Cadence", "definition": "Salesloft's term for a multi-step outreach sequence — similar to Outreach's 'sequence'." },
+    { "term": "Rhythm", "definition": "Salesloft's AI-powered workflow that prioritises and recommends the most impactful actions for each rep each day." }
+  ],
+  "beginnerMistakes": [
+    "Not recording calls — losing valuable coaching and review data",
+    "Running too many cadences simultaneously and losing track of who's receiving what",
+    "Ignoring the Rhythm recommendations that surface the highest-priority actions"
+  ],
+  "relatedProject": "email-sequence"
+}

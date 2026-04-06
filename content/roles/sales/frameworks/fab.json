@@ -1,0 +1,13 @@
+{
+  "slug": "fab",
+  "name": "FAB",
+  "summary": "A persuasion framework that links Features to Advantages and then to the buyer-facing Benefits that actually matter in the deal.",
+  "whenToUseIt": "Use FAB in demos, proposals, and stakeholder conversations when you need to translate product capability into practical buyer value without sounding overly technical.",
+  "steps": [
+    "Name the feature or capability clearly.",
+    "Explain the practical advantage it creates in workflow, speed, control, or reliability.",
+    "Translate that advantage into the business benefit the buyer actually cares about."
+  ],
+  "example": "A manager dashboard is the feature. The advantage is real-time visibility into rep activity and pipeline movement. The benefit is faster coaching and more accurate weekly forecasts.",
+  "category": "presentation-persuasion"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "anchoring",
+  "name": "Anchoring",
+  "summary": "A persuasion and negotiation technique that sets the reference point for how the buyer interprets price, value, or decision stakes.",
+  "whenToUseIt": "Use anchoring before serious price discussion so the buyer compares the investment against the cost of the problem, the value of the outcome, or a larger commercial context rather than a raw number alone.",
+  "steps": [
+    "Establish the size of the problem, the opportunity, or the cost of delay first.",
+    "Introduce the investment only after the buyer has a stronger reference point.",
+    "Re-anchor again if the conversation drifts back to price without value."
+  ],
+  "example": "Before discussing a $60K annual investment, the rep establishes that the buyer is losing more than $200K a year in wasted management time and slipped deals from inconsistent forecast control.",
+  "category": "presentation-persuasion"
+}

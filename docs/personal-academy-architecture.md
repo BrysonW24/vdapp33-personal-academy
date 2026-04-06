@@ -40,6 +40,7 @@ Current state:
 - Subject, role, and topic routes are all live in the app router
 - `/{subject}/...` remains the canonical curriculum spine
 - `/roles/{slug}` and `/topics/{slug}` are now live route families layered on top of aliased subject content plus entity-native content packs
+- Roles can now own first-class modules, lessons, frameworks, projects, tools, and day-in-the-life content directly inside `content/roles/{slug}/` when the role should not be reduced to borrowed subject slices alone
 - `/setup` and `/my-path` remain live but are secondary surfaces rather than the homepage story
 - `quantum-science` and `energy-systems` are the canonical expansions of the original science/content base
 - `/{subject|role|topic}/sources` and `/{subject|role|topic}/signals` are live curated surfaces
@@ -54,6 +55,7 @@ Current state:
 - Subjects remain canonical depth owners
 - Topics are cross-disciplinary lenses
 - Roles are embodied synthesis tracks
+- Roles may synthesize subjects, own their own role-native content, or do both when that produces a clearer world for the user
 - Macro buckets are a discovery layer above those canonical structures, not a replacement for them
 - The guidance layer sits across all three rather than replacing them
 - The UI should lead with exploration surfaces first, not with a required path flow

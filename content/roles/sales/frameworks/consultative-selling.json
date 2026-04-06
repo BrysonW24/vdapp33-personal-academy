@@ -1,0 +1,13 @@
+{
+  "slug": "consultative-selling",
+  "name": "Consultative Selling",
+  "summary": "A selling methodology centered on diagnosing the buyer's situation, guiding their thinking, and helping them make a confident decision instead of rushing to pitch.",
+  "whenToUseIt": "Use consultative selling when the buyer needs help understanding the problem, the implications, and the path to change, especially in B2B, SaaS, and multi-stakeholder deals.",
+  "steps": [
+    "Diagnose the current state and the real business problem before prescribing anything.",
+    "Guide the buyer toward clearer understanding of impact, risk, and desired outcome.",
+    "Position the solution only after the diagnosis is strong enough to make it credible."
+  ],
+  "example": "A buyer says efficiency is a problem, but cannot explain why. A consultative seller slows down, explores workflow, cost, and decision pressure, then frames the solution against what the buyer actually needs rather than what the rep assumed.",
+  "category": "sales-methodology"
+}

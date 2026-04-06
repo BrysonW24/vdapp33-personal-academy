@@ -1,0 +1,16 @@
+{
+  "slug": "pytorch",
+  "name": "PyTorch",
+  "category": "framework",
+  "description": "The most popular deep learning framework, developed by Meta. Used for research and production ML, with dynamic computation graphs and strong GPU support.",
+  "whyUseIt": "PyTorch is the default choice for AI research and increasingly for production. Its Pythonic API, dynamic graphs, and massive ecosystem (torchvision, torchaudio, HuggingFace) make it the most versatile deep learning framework.",
+  "pricingTier": "free",
+  "url": "https://pytorch.org",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/pytorch-2.svg",
+  "aiCapabilities": "Core deep learning framework — CNNs, RNNs, Transformers, GANs, reinforcement learning. TorchServe for model serving.",
+  "alternatives": [
+    "TensorFlow",
+    "JAX",
+    "Keras"
+  ]
+}

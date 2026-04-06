@@ -1,0 +1,15 @@
+{
+  "slug": "aws-sagemaker",
+  "name": "AWS SageMaker",
+  "category": "infra",
+  "description": "Amazon's fully managed ML platform. Covers the entire lifecycle — notebooks, training, tuning, deployment, and monitoring at scale.",
+  "whyUseIt": "SageMaker is the most comprehensive managed ML platform. Built-in algorithms, distributed training, automatic model tuning, one-click deployment, and A/B testing for models. Enterprise-grade scaling.",
+  "pricingTier": "paid",
+  "url": "https://aws.amazon.com/sagemaker",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/aws-2.svg",
+  "alternatives": [
+    "Google Vertex AI",
+    "Azure ML",
+    "Databricks"
+  ]
+}

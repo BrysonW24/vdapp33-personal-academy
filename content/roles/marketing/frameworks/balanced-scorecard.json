@@ -1,0 +1,14 @@
+{
+  "slug": "balanced-scorecard",
+  "name": "Balanced Scorecard",
+  "summary": "A strategic management framework that measures performance across four perspectives beyond just financial metrics.",
+  "whenToUseIt": "When setting company objectives, evaluating performance beyond revenue, aligning marketing metrics with business strategy, building executive dashboards.",
+  "steps": [
+    "Financial Perspective (revenue, profitability, ROI)",
+    "Customer Perspective (satisfaction, retention, market share)",
+    "Internal Process Perspective (operational efficiency, quality, cycle time)",
+    "Learning & Growth Perspective (employee skills, innovation, culture)"
+  ],
+  "example": "A SaaS company using a balanced scorecard — Financial: MRR and churn revenue; Customer: NPS and retention rate; Internal: deployment frequency and bug resolution time; Learning: employee satisfaction and training hours per quarter.",
+  "category": "strategy"
+}

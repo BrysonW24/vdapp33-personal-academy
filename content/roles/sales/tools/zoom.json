@@ -1,0 +1,28 @@
+{
+  "slug": "zoom",
+  "name": "Zoom",
+  "category": "web-platforms",
+  "description": "The ubiquitous video conferencing platform used for sales calls, demos, internal meetings, and webinars. Zoom's reliability, recording capabilities, and widespread adoption make it the default meeting tool for most B2B sales teams.",
+  "whyUseIt": "Zoom is where your sales conversations happen. Video calls have replaced most in-person meetings in B2B sales, and Zoom is the standard. Beyond basic video calls, Zoom offers recording (essential for coaching and deal review), transcription, breakout rooms for large presentations, and integration with most CRMs and sales tools.",
+  "pricingTier": "freemium",
+  "url": "https://zoom.us",
+  "logoUrl": "/tools/zoom.svg",
+  "aiCapabilities": "Zoom AI Companion generates meeting summaries, identifies action items, creates smart recordings with chapters, and provides conversation analytics including talk time and engagement metrics.",
+  "alternatives": ["google-workspace", "loom"],
+  "funnelPosition": "Full funnel — discovery calls, demos, negotiations, QBRs, and internal reviews",
+  "outputs": ["Video meetings", "Call recordings", "Meeting transcripts", "AI summaries", "Webinars"],
+  "sellerWorkflow": "AEs schedule calls via CRM integration, run discovery and demo meetings on Zoom, record all calls for later review and coaching, share recordings with stakeholders, and use transcripts for follow-up notes.",
+  "managerExpects": "All external calls recorded (with buyer permission), professional backgrounds and audio quality, meetings started on time, and recordings tagged and accessible for coaching.",
+  "demoDescription": "Schedule a meeting, set up recording and transcription, run a call with screen sharing for a demo, review the AI-generated summary, and share the recording with team members.",
+  "vocabulary": [
+    { "term": "Breakout Rooms", "definition": "Separate virtual rooms within a Zoom meeting — useful for splitting a large demo into stakeholder-specific deep-dives." },
+    { "term": "Cloud Recording", "definition": "Recordings stored on Zoom's servers rather than your local machine — accessible via link sharing." }
+  ],
+  "beginnerMistakes": [
+    "Poor audio quality — invest in a decent headset; laptop microphones pick up too much background noise",
+    "Cluttered or unprofessional virtual backgrounds — keep it clean and simple",
+    "Not recording calls — every call is a coaching opportunity and a reference for follow-ups",
+    "Sharing your full screen instead of a specific window — risking notification pop-ups during demos"
+  ],
+  "relatedProject": "discovery-practice"
+}

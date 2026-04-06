@@ -1,0 +1,13 @@
+{
+  "slug": "laer",
+  "name": "LAER",
+  "summary": "An objection-handling framework built around Listen, Acknowledge, Explore, and Respond so the rep understands the concern before trying to answer it.",
+  "whenToUseIt": "Use LAER as a default objection structure when you need to keep composure, avoid defensiveness, and diagnose the real blocker before responding.",
+  "steps": [
+    "Listen without interrupting and let the concern land fully.",
+    "Acknowledge the concern and explore what it really means or where it comes from.",
+    "Respond only after the issue is clearer and better scoped."
+  ],
+  "example": "A buyer says the platform feels expensive. Instead of defending price immediately, the rep explores whether the concern is budget timing, low confidence in value, or implementation risk.",
+  "category": "objection-handling"
+}

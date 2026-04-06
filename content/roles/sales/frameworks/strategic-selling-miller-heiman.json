@@ -1,0 +1,13 @@
+{
+  "slug": "strategic-selling-miller-heiman",
+  "name": "Miller Heiman Strategic Selling",
+  "summary": "An enterprise sales methodology focused on stakeholder roles, influence patterns, and strategy for navigating complex buying groups over long cycles.",
+  "whenToUseIt": "Use Miller Heiman Strategic Selling in complex enterprise deals where multiple stakeholders, internal politics, and deal strategy matter as much as product fit.",
+  "steps": [
+    "Map the different stakeholder roles, influence levels, and likely attitudes toward the deal.",
+    "Identify where support is strong, weak, or missing across the buying group.",
+    "Build a strategy for coverage, proof, and next actions that matches the political reality of the account."
+  ],
+  "example": "An enterprise rep sees that operations loves the solution, finance is neutral, and IT is quietly skeptical. Strategic Selling helps them treat those as separate strategic threads instead of one generic committee.",
+  "category": "sales-methodology"
+}

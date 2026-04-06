@@ -1,0 +1,74 @@
+{
+  "slug": "challenger-sandler-and-insight-selling",
+  "moduleSlug": "sales-methodologies",
+  "title": "Challenger, Sandler, and Insight Selling",
+  "objective": "Learn what Challenger, Sandler, and insight-led selling are actually trying to accomplish, and when each approach adds value.",
+  "beginnerExplanation": "These methodologies are often reduced to stereotypes. Challenger gets reduced to being provocative. Sandler gets reduced to talking about pain. Insight selling gets reduced to sharing a hot take. In reality, all three are about creating movement through better thinking, not through force.",
+  "deeperExplanation": "Challenger is strongest when the buyer needs a clearer perspective on their problem, the cost of inaction, or the path to change. Sandler is strong when qualification, pain discovery, and equal business stature matter. Insight selling overlaps with Challenger, but it focuses more explicitly on helping the buyer see something important they had not fully framed before. These approaches are most useful when the buyer is not just comparing vendors; they are still making sense of the decision itself.\n\nThey fail when reps use them theatrically. Challenging without credibility sounds arrogant. Sandler without empathy sounds interrogative. Insight without relevance sounds like generic thought leadership. The value is in changing the quality of the buying conversation, not in sounding clever.",
+  "keyTakeaways": [
+    "Challenger is about teaching, tailoring, and taking control with credibility.",
+    "Sandler emphasizes pain, qualification, and equal business stature.",
+    "Insight selling works when the perspective is genuinely useful and timely.",
+    "All three are conversation-shaping methodologies, not personality styles.",
+    "The buyer's situation should determine how assertive or diagnostic you become.",
+    "These approaches work best when grounded in real business understanding."
+  ],
+  "frameworks": [
+    "challenger-sale",
+    "sandler-selling",
+    "insight-selling",
+    "customer-centric-selling"
+  ],
+  "example": "A revenue leader thinks their forecast problem is just a rep-discipline issue. A Challenger-style move is to show that the root problem is actually inconsistent inspection and stage definitions. A Sandler-style move is to explore how that pattern affects quarter planning and leadership trust. An insight-selling move is to reframe the issue as a planning-system problem, not only a rep-behavior problem.",
+  "commonMistakes": [
+    "Trying to challenge before earning enough credibility",
+    "Using Sandler questions in a way that feels like an interrogation",
+    "Calling generic industry commentary an insight",
+    "Mistaking confidence for relevance",
+    "Using one style the same way with every buyer"
+  ],
+  "exercise": "Choose one buyer pain and write three openers for it: one Challenger-style reframe, one Sandler-style pain exploration, and one insight-led perspective. Compare the tone and likely fit.",
+  "nextLesson": "matching-methodology-to-deal-type",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What makes Challenger effective?",
+      "options": [
+        "Provoking the buyer for attention only",
+        "Teaching something useful, tailoring it, and guiding the conversation with control",
+        "Avoiding discovery",
+        "Discounting early"
+      ],
+      "correctIndex": 1,
+      "explanation": "Challenger works when the rep offers a relevant perspective and leads credibly."
+    },
+    {
+      "question": "What is a core Sandler principle?",
+      "options": [
+        "Equal business stature and pain-first qualification",
+        "Skipping authority questions",
+        "Avoiding direct questions",
+        "Leading with product demo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sandler emphasizes equal business stature, pain, and qualification discipline."
+    },
+    {
+      "question": "When does insight selling fail?",
+      "options": [
+        "When the perspective is generic or not relevant to the buyer's current reality",
+        "When the rep understands the account deeply",
+        "When the buyer has a real problem",
+        "When the rep uses proof"
+      ],
+      "correctIndex": 0,
+      "explanation": "Insight only works if it helps the buyer see their situation more clearly."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should use these methodologies to sharpen conversations, not to perform a persona.",
+    "manager": "Managers can coach whether the rep needs more perspective, more pain depth, or more buyer relevance.",
+    "vp": "A VP wants methodology use to increase deal quality, not create stylized conversations that sound forced.",
+    "cro": "A CRO values these approaches when they improve how buyers understand the decision and its business stakes."
+  }
+}

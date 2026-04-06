@@ -1,0 +1,13 @@
+{
+  "slug": "loss-aversion-framing",
+  "name": "Loss Aversion Framing",
+  "summary": "A persuasion technique that highlights what the buyer risks losing by doing nothing or delaying action, not only what they might gain.",
+  "whenToUseIt": "Use loss aversion framing when status quo feels safer than change and the buyer needs help seeing the real downside of delay or inaction.",
+  "steps": [
+    "Clarify what negative outcome continues if the current state remains unchanged.",
+    "Make that loss feel specific and credible rather than dramatic.",
+    "Tie the solution to avoiding or reducing that loss."
+  ],
+  "example": "A buyer may not care much about marginal efficiency gains, but they do care about continuing forecast misses that distort hiring plans and executive credibility for another quarter.",
+  "category": "presentation-persuasion"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "data-pipeline",
+  "title": "AI Product Data Ingestion Pipeline",
+  "difficulty": 2,
+  "estimatedHours": 5,
+  "description": "Build the ingestion layer for an AI product: parse raw inputs, validate structure, version outputs, and make them reusable for evals, retrieval, or downstream services.",
+  "whyItMatters": "Frontier AI products live or die by their data path. This project shows you can build the rails that keep product systems grounded and maintainable.",
+  "skillsLearned": [
+    "ETL pipeline design",
+    "Data cleaning and validation",
+    "Pandas advanced operations",
+    "File format handling (CSV, JSON, Parquet)",
+    "Data quality testing",
+    "Pipeline orchestration"
+  ],
+  "prerequisites": [
+    "Complete the Python for AI Engineers lesson",
+    "Basic Pandas knowledge"
+  ],
+  "steps": [
+    {
+      "title": "Define the pipeline requirements",
+      "description": "Choose a realistic scenario: merging customer data from a CRM export (CSV), transaction data from an API (JSON), and product data from a database dump (CSV). Define what the clean output should look like."
+    },
+    {
+      "title": "Build the extraction layer",
+      "description": "Write functions that load data from each source format. Handle encoding issues, malformed rows, and missing files gracefully.",
+      "tips": "Always log what you loaded: 'Loaded 10,432 rows from transactions.json, 3 rows had parsing errors'."
+    },
+    {
+      "title": "Build the transformation layer",
+      "description": "Clean the data: handle missing values (fill, drop, or flag), standardise formats (dates, currencies, phone numbers), remove duplicates, and merge datasets on common keys."
+    },
+    {
+      "title": "Add data validation",
+      "description": "Write validation checks: no null values in required fields, all dates within expected range, all prices positive, referential integrity between tables. Log violations."
+    },
+    {
+      "title": "Build the load layer",
+      "description": "Write the clean, merged dataset to Parquet format (columnar, compressed, typed). Also output a data quality report: row counts, null percentages, validation results."
+    },
+    {
+      "title": "Make it rerunnable",
+      "description": "Structure the pipeline so it can run end-to-end with a single command. Add a CLI using argparse or typer with options for input/output paths and verbosity.",
+      "tips": "A good pipeline is idempotent — running it twice on the same input produces the same output."
+    }
+  ],
+  "deliverables": [
+    "Python ETL pipeline with extract, transform, and load stages",
+    "Data quality report (automated)",
+    "Clean output dataset in Parquet format",
+    "CLI interface for running the pipeline"
+  ],
+  "tools": [
+    "Python",
+    "Pandas",
+    "Parquet (pyarrow)",
+    "Typer or argparse"
+  ],
+  "rubric": [
+    {
+      "criteria": "Pipeline Completeness",
+      "description": "All three stages (extract, transform, load) work end-to-end from raw sources to clean output."
+    },
+    {
+      "criteria": "Data Quality",
+      "description": "Validation checks catch real data quality issues and produce a clear report."
+    },
+    {
+      "criteria": "Error Handling",
+      "description": "The pipeline handles malformed data, missing files, and edge cases without crashing."
+    },
+    {
+      "criteria": "Reproducibility",
+      "description": "Running the pipeline twice on the same input produces identical output. The CLI is well-documented."
+    }
+  ],
+  "track": "core-frontier"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "paid-advertising",
+  "title": "Paid Advertising",
+  "shortSummary": "Paid advertising lets you put your message in front of exactly the right people at exactly the right time. This module covers the major platforms, how ad auctions work, targeting, creative best practices, budgeting, and how to measure whether your ads are actually making money.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "Organic reach takes time. Paid advertising gives you immediate visibility and the ability to scale quickly. But it is also the fastest way to burn money if you do not know what you are doing. Understanding how platforms like Google Ads and Meta Ads work, how to target effectively, and how to measure return on ad spend separates profitable campaigns from expensive mistakes.",
+  "coreConcepts": [
+    "How digital ad auctions work: bidding, quality, and relevance",
+    "Search ads versus display ads versus social ads versus video ads",
+    "Google Ads: search intent and keyword targeting",
+    "Meta Ads (Facebook and Instagram): interest and behaviour targeting",
+    "TikTok, LinkedIn, and emerging ad platforms",
+    "Ad creative best practices: copy, imagery, video",
+    "Landing pages and the connection between ads and conversions",
+    "Budget setting and bid strategies",
+    "Return on Ad Spend (ROAS) and Cost Per Acquisition (CPA)",
+    "A/B testing ads and creative iteration"
+  ],
+  "lessons": ["running-profitable-ads"],
+  "frameworks": [
+    "aida",
+    "campaign-planning-template",
+    "kpi-cheat-sheet"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "seo-discoverability",
+    "analytics-attribution-kpis",
+    "funnels-customer-journey"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

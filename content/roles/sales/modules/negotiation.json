@@ -1,0 +1,23 @@
+{
+  "slug": "negotiation",
+  "title": "Negotiation",
+  "shortSummary": "Negotiation isn't about winning — it's about finding terms both sides can commit to. Learn tactics, commercial awareness, and how to protect your deal value.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "The negotiation phase is where margin is made or lost. Many reps discount too early, give away value for free, or cave under pressure. Strong negotiators understand that negotiation starts long before the pricing conversation — it starts with how you position value, how you build urgency, and how you establish your credibility as a partner, not a vendor.",
+  "coreConcepts": [
+    "Anchoring: setting the frame for the negotiation",
+    "Trading, not conceding: every give requires a get",
+    "Understanding procurement tactics and how to counter them",
+    "Silence, bracketing, and give-get discipline",
+    "Commercial terms: payment terms, SLAs, contract length",
+    "Multi-variable negotiation: price, scope, timeline, support",
+    "Walking away: knowing your BATNA (Best Alternative to a Negotiated Agreement)"
+  ],
+  "lessons": ["negotiation-prep-and-tradeables", "working-with-procurement", "negotiation-moves-that-protect-value"],
+  "frameworks": ["sandler-selling", "gap-selling", "give-get", "bracketing", "silence-in-negotiation", "tradeables-list", "non-price-negotiation", "red-line-control"],
+  "relatedModules": ["objection-handling", "closing", "enterprise-sales"],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 3
+}

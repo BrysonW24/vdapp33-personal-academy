@@ -1,0 +1,60 @@
+{
+  "slug": "saas-ae",
+  "title": "Account Executive — SaaS Company",
+  "setting": "A mid-market SaaS company selling B2B software in Australia",
+  "companySize": "50-500 employees",
+  "description": "You're an Account Executive at a SaaS company selling to mid-market businesses. Your role is full-cycle: you prospect, run discovery, deliver demos, negotiate, and close. You carry a quarterly quota and earn commission on every deal you close. It's fast-paced, intellectually stimulating, and your income is directly tied to your performance.",
+  "salary": "$120,000-$200,000 AUD OTE (On-Target Earnings). Base salary typically $80,000-$120,000 with $40,000-$80,000 in variable commission. Top performers regularly exceed OTE by 20-50%.",
+  "schedule": [
+    { "time": "07:30", "activity": "Morning routine: coffee, check Slack and email for overnight responses from prospects", "tools": ["google-workspace"], "note": "Start the day by triaging — respond to hot leads within 30 minutes" },
+    { "time": "08:00", "activity": "Pipeline review: check CRM for today's follow-ups, update deal stages, review Clari for at-risk deals", "tools": ["salesforce", "clari"], "note": "Spend 15 minutes ensuring your pipeline data is accurate before the day gets busy" },
+    { "time": "08:30", "activity": "Prospecting block: 60 minutes of focused outbound — personalised emails, LinkedIn engagement, cold calls", "tools": ["outreach-io", "linkedin-sales-nav", "apollo-io"], "note": "Protect this time religiously. No prospecting = no pipeline in 90 days." },
+    { "time": "09:30", "activity": "Discovery call with a new prospect — Head of Operations at a logistics company", "tools": ["zoom", "gong", "notion-sales"], "note": "Pre-call prep takes 10 minutes. Review their LinkedIn, company news, and your discovery questions." },
+    { "time": "10:15", "activity": "Post-call: update CRM, send follow-up email, fill in MEDDIC scorecard, brief your manager if it's a big deal", "tools": ["salesforce", "google-workspace"], "note": "Do this immediately — don't let notes go stale" },
+    { "time": "10:30", "activity": "Internal meeting: weekly pipeline review with your manager. Walk through your top 5 deals, discuss blockers, get coaching.", "tools": ["salesforce", "clari"], "note": "Come prepared with specific asks: 'I need help getting to the CFO at Account X'" },
+    { "time": "11:30", "activity": "Demo prep: review discovery notes for your afternoon demo, tailor the slide deck, prepare for tough questions", "tools": ["notion-sales", "google-workspace", "highspot"], "note": "Never wing a demo. 15 minutes of prep can make or break a $50K deal." },
+    { "time": "12:00", "activity": "Lunch break — step away from the screen", "note": "Protect your energy. Afternoon calls need you sharp." },
+    { "time": "13:00", "activity": "Product demo for a qualified opportunity — 3 stakeholders attending (VP Sales, Sales Ops, IT)", "tools": ["zoom", "gong", "loom"], "note": "Tell-Show-Tell for each pain point. Address each stakeholder's concerns directly." },
+    { "time": "14:00", "activity": "Proposal writing: draft a business case and proposal for a deal moving to the contract stage", "tools": ["pandadoc", "google-workspace", "claude-sales"], "note": "Use the buyer's own numbers from discovery. The ROI model should sell itself." },
+    { "time": "15:00", "activity": "Follow-up block: respond to prospect emails, send Loom videos to engaged accounts, chase stalled deals", "tools": ["google-workspace", "loom", "outreach-io"], "note": "A Loom video walking through the proposal gets 3x more engagement than a text email" },
+    { "time": "16:00", "activity": "Negotiation call: final terms discussion with a prospect's procurement team", "tools": ["zoom", "docusign"], "note": "Know your walk-away point before the call. Trade, don't concede." },
+    { "time": "16:45", "activity": "Admin: update CRM with the day's activities, prepare tomorrow's calendar, send any outstanding follow-ups", "tools": ["salesforce", "calendly", "google-workspace"], "note": "End each day with a clean CRM and a clear plan for tomorrow" },
+    { "time": "17:30", "activity": "Learning block (optional): review a Gong call recording, read a sales article, or listen to a podcast", "tools": ["gong"], "note": "Top performers invest 30 minutes daily in getting better. Listen to a call you lost and figure out why." }
+  ],
+  "responsibilities": [
+    "Carry and consistently achieve a quarterly revenue quota ($200K-$500K per quarter)",
+    "Prospect and generate your own pipeline — typically 30-50% self-sourced",
+    "Run discovery calls that qualify opportunities and uncover real business pain",
+    "Deliver tailored product demos to buying committees with multiple stakeholders",
+    "Write proposals and business cases that quantify ROI for the buyer",
+    "Negotiate contracts with procurement teams and close deals",
+    "Maintain accurate CRM data, pipeline stages, and forecast categories",
+    "Collaborate with SDRs, solutions engineers, and customer success for deal support",
+    "Provide weekly forecast updates to your sales manager"
+  ],
+  "challenges": [
+    "Balancing prospecting with managing existing deals — time is your scarcest resource",
+    "Handling rejection: expect a 70-80% loss rate. Most deals don't close. Resilience is essential.",
+    "Navigating complex buying committees with competing priorities and internal politics",
+    "Maintaining motivation during slow quarters when pipeline feels thin",
+    "Keeping CRM data accurate when you'd rather be selling — but managers need clean data",
+    "Managing the emotional rollercoaster: a big deal closes on Monday, another one dies on Tuesday"
+  ],
+  "rewards": [
+    "Uncapped earning potential — top performers earn $200K-$300K+ AUD in their first few years",
+    "Direct correlation between effort and income — you eat what you kill",
+    "Intellectual challenge: every deal is a puzzle with different stakeholders, politics, and dynamics",
+    "Rapid career progression: AE to Senior AE to Enterprise AE to Sales Manager in 3-5 years",
+    "Transferable skills: sales skills work in every industry and every economy",
+    "The rush of closing a big deal after months of work — there's nothing quite like it"
+  ],
+  "careerPath": [
+    "SDR/BDR (0-1 year) — learn prospecting and qualification",
+    "Account Executive (1-3 years) — full-cycle selling, carry your own quota",
+    "Senior Account Executive (3-5 years) — larger deals, strategic accounts, mentoring junior reps",
+    "Enterprise Account Executive (5-8 years) — complex, high-value deals with long cycles",
+    "Sales Manager / Team Lead (5-8 years) — manage a team of 6-10 AEs",
+    "Director of Sales (8-12 years) — own a segment or region",
+    "VP of Sales / CRO (12+ years) — lead the entire go-to-market organisation"
+  ]
+}

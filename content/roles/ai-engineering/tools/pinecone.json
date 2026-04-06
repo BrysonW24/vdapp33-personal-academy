@@ -1,0 +1,16 @@
+{
+  "slug": "pinecone",
+  "name": "Pinecone",
+  "category": "vector-db",
+  "description": "A fully managed vector database for similarity search. Designed for production AI applications with real-time indexing and querying.",
+  "whyUseIt": "Pinecone removes the infrastructure burden of running a vector database. Fast similarity search, automatic scaling, and simple API make it ideal for production RAG and recommendation systems.",
+  "pricingTier": "freemium",
+  "url": "https://www.pinecone.io",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/pinecone-1.svg",
+  "alternatives": [
+    "Weaviate",
+    "ChromaDB",
+    "Qdrant",
+    "Milvus"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "objection-playbook",
+  "title": "Objection Handling Playbook",
+  "difficulty": 5,
+  "estimatedHours": 5,
+  "description": "Document the top 15 objections your product or company would face, categorise them by type, and write clear response frameworks for each. Include role-play scripts and practice scenarios.",
+  "whyItMatters": "Objections are predictable. The top 10 objections account for 90% of the pushback you'll ever receive. If you've thought through each one in advance — understood what's really behind it, prepared a response, and practised delivering it — you'll handle objections with confidence instead of panic. This playbook becomes a living document you refine throughout your career.",
+  "skillsLearned": [
+    "Objection categorisation (price, timing, authority, need, competition)",
+    "Root cause analysis — what's really behind the objection",
+    "Acknowledge-Question-Respond framework",
+    "Reframing techniques",
+    "Competitive positioning under pressure",
+    "Knowing when to walk away"
+  ],
+  "prerequisites": ["discovery-practice"],
+  "steps": [
+    {
+      "title": "List and Categorise Objections",
+      "description": "Brainstorm the top 15 objections a salesperson would face for your chosen product. Categorise each as: Price ('too expensive'), Timing ('not now'), Authority ('I need to check with my boss'), Need ('we're fine with what we have'), or Competition ('we're already using X'). Include at least 2 from each category.",
+      "tips": "Talk to actual salespeople if you can — or search online forums, G2 reviews, and Reddit threads for common complaints about products in your space. Real objections are more valuable than hypothetical ones."
+    },
+    {
+      "title": "Analyse Root Causes",
+      "description": "For each objection, write what the buyer is really saying underneath. 'It's too expensive' often means 'I don't see enough value to justify the cost' or 'I don't have budget authority and I'm embarrassed to say so.' Understanding the root cause determines your response strategy.",
+      "tips": "The stated objection is rarely the real objection. Price objections are almost always value objections. Timing objections are often priority objections. Always dig one level deeper."
+    },
+    {
+      "title": "Write Response Frameworks",
+      "description": "For each objection, write a response using Acknowledge-Question-Respond: (1) Acknowledge — validate their concern without agreeing with their conclusion. (2) Question — ask a clarifying question to understand the root cause. (3) Respond — address the real concern with evidence, reframing, or a concession.",
+      "tips": "Never dismiss an objection. 'I understand the concern about price — that's a fair question' is always better than 'Actually, we're competitively priced.' Acknowledge first, always."
+    },
+    {
+      "title": "Write Role-Play Scripts",
+      "description": "For the 5 most common objections, write a complete role-play script: the buyer's objection, your acknowledgement, your clarifying question, the buyer's response, and your final response. Include two variations — one where the objection is overcome and one where it reveals a genuine disqualification.",
+      "tips": "The disqualification path is just as important. Not every objection can be overcome, and knowing when to walk away is a sign of maturity, not weakness."
+    },
+    {
+      "title": "Practise and Refine",
+      "description": "Role-play the top 5 objections with a partner. Ask them to be difficult — short answers, sceptical tone, follow-up objections. After each, rate your response on a 1-5 scale for composure, empathy, and effectiveness. Revise any responses that scored below 3.",
+      "tips": "Speed matters. In real conversations, you have 2-3 seconds to respond. Practise until your responses feel natural, not rehearsed."
+    }
+  ],
+  "deliverables": [
+    "A categorised list of 15 objections with root cause analysis for each",
+    "Acknowledge-Question-Respond frameworks for all 15 objections",
+    "Complete role-play scripts for the top 5 objections (with overcome and disqualification paths)",
+    "A self-assessment from role-play practice with scores and improvement notes"
+  ],
+  "tools": ["notion-sales", "gong", "google-workspace"],
+  "rubric": [
+    {
+      "criteria": "Objection Realism",
+      "description": "Objections are realistic and diverse — covering all five categories with specific, nuanced variations rather than generic pushback."
+    },
+    {
+      "criteria": "Root Cause Depth",
+      "description": "Root cause analysis goes beyond surface level — each objection has a thoughtful explanation of what the buyer is really saying and feeling."
+    },
+    {
+      "criteria": "Response Quality",
+      "description": "Responses acknowledge the concern genuinely, use questions to diagnose, and provide evidence-based or reframing responses. No dismissive or aggressive tactics."
+    },
+    {
+      "criteria": "Practical Readiness",
+      "description": "The playbook is a genuine reference tool — well-organised, easy to scan quickly, and includes responses that feel natural to deliver out loud."
+    }
+  ]
+}

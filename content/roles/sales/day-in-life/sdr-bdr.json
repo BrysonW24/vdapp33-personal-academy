@@ -1,0 +1,59 @@
+{
+  "slug": "sdr-bdr",
+  "title": "Sales Development Representative (SDR/BDR)",
+  "setting": "A technology company with a dedicated outbound sales development team",
+  "companySize": "50-500 employees",
+  "description": "You're an SDR (Sales Development Representative) or BDR (Business Development Representative) at a tech company. Your entire job is to generate qualified meetings for the Account Executive team. You prospect, research, write outreach, make cold calls, and qualify inbound leads. It's high-activity, high-energy, and the best training ground in sales — most top AEs started as SDRs.",
+  "salary": "$80,000-$120,000 AUD OTE. Base salary typically $60,000-$80,000 with $20,000-$40,000 in variable commission based on meetings booked and pipeline generated. Top SDRs who consistently exceed targets often get promoted to AE within 12-18 months.",
+  "schedule": [
+    { "time": "08:00", "activity": "Start of day: check email and Slack for inbound leads that came in overnight. Respond within 5 minutes to any hot leads.", "tools": ["google-workspace", "salesforce"], "note": "Speed to lead matters. Inbound leads responded to within 5 minutes are 10x more likely to convert." },
+    { "time": "08:15", "activity": "Daily standup: 10-minute team huddle. Share yesterday's wins, today's targets, and any blockers.", "note": "SDR teams are high-energy. Celebrate bookings, share what's working, and keep morale high." },
+    { "time": "08:30", "activity": "Prospect research block: research 10-15 new accounts, build personalised notes for outreach, find trigger events", "tools": ["linkedin-sales-nav", "apollo-io", "zoominfo"], "note": "Spend 5-8 minutes per account. Find a trigger event or personalisation hook for each one." },
+    { "time": "09:30", "activity": "Cold calling power hour: 25-40 dials targeting decision-makers at researched accounts", "tools": ["outreach-io", "salesloft"], "note": "Smile when you dial. Energy comes through the phone. Aim for 3-5 conversations per hour." },
+    { "time": "10:30", "activity": "Email and LinkedIn outreach: send personalised emails and LinkedIn messages to prospects who didn't pick up", "tools": ["outreach-io", "linkedin-sales-nav", "lavender-ai"], "note": "Multi-channel is key. The call warms them up for the email, and the email warms them up for the LinkedIn message." },
+    { "time": "11:30", "activity": "Inbound lead qualification: call 3 inbound leads, ask qualifying questions (BANT), and book meetings for AEs", "tools": ["salesforce", "calendly", "zoom"], "note": "Inbound leads are already interested — your job is to qualify quickly and book the right AE meeting." },
+    { "time": "12:00", "activity": "Lunch break", "note": "Recharge. The afternoon calling block needs your best energy." },
+    { "time": "13:00", "activity": "Second calling block: 20-30 dials targeting different time zones or decision-makers who are harder to reach in the morning", "tools": ["outreach-io", "salesloft"], "note": "C-suite executives are often more reachable between 1-3pm when their meeting schedule clears." },
+    { "time": "14:00", "activity": "Sequence management: enrol new prospects into automated sequences, pause sequences for prospects who responded, update CRM", "tools": ["outreach-io", "salesforce"], "note": "Keep your sequences clean. Nothing's more embarrassing than an automated follow-up hitting someone who already booked a meeting." },
+    { "time": "14:30", "activity": "Coaching session: 30-minute 1:1 with your SDR manager. Review call recordings, discuss techniques, set goals.", "tools": ["gong"], "note": "Top SDRs seek feedback actively. Bring a specific call you want help with — don't wait for your manager to find issues." },
+    { "time": "15:00", "activity": "Creative outreach: record personalised Loom videos for top-priority prospects, engage with prospect LinkedIn content", "tools": ["loom", "linkedin-sales-nav"], "note": "Save creative outreach for your highest-value targets. A 45-second personalised video can cut through the noise." },
+    { "time": "15:30", "activity": "Follow-up block: call back prospects who asked you to call later, respond to email threads, handle objections", "tools": ["outreach-io", "google-workspace"], "note": "Most meetings are booked on follow-up, not first touch. Persistence wins." },
+    { "time": "16:30", "activity": "Admin and planning: update CRM with all activities, review tomorrow's target list, prepare notes for morning calls", "tools": ["salesforce", "notion-sales"], "note": "End the day with a clean CRM and a prepared call list for tomorrow morning." },
+    { "time": "17:00", "activity": "Skill development: listen to a call recording, read a sales book, or practise a new cold call opener", "tools": ["gong"], "note": "The SDR role is a 12-18 month apprenticeship. The reps who invest in learning get promoted fastest." }
+  ],
+  "responsibilities": [
+    "Generate 15-25 qualified meetings per month for the Account Executive team",
+    "Make 50-80 outbound calls per day and send 30-50 personalised emails",
+    "Research target accounts and identify key decision-makers and trigger events",
+    "Qualify inbound leads using BANT or similar frameworks within SLA (typically <5 minutes)",
+    "Execute multi-channel outreach sequences across email, phone, and LinkedIn",
+    "Maintain accurate CRM data: every call logged, every email tracked, every lead updated",
+    "Collaborate with AEs to ensure smooth handoff of qualified meetings",
+    "Continuously improve through coaching, call reviews, and skill development"
+  ],
+  "challenges": [
+    "Extremely high rejection rate — expect 95%+ of calls and emails to be ignored or declined",
+    "Repetitive daily activity: the same call scripts, the same objections, the same rejections",
+    "Maintaining energy and positivity when you've had 30 'no's in a row",
+    "Hitting monthly targets that reset to zero on the 1st of every month",
+    "Getting past gatekeepers and voicemail walls to reach decision-makers",
+    "Working in a metrics-driven environment where every activity is tracked and measured"
+  ],
+  "rewards": [
+    "The fastest on-ramp into a high-paying sales career — most AE roles require SDR experience",
+    "Rapid skill development: you'll learn more in 12 months as an SDR than most people learn in 3 years",
+    "Clear promotion path: SDRs who hit target consistently get promoted to AE within 12-18 months",
+    "Competitive team environment with regular incentives, competitions, and celebrations",
+    "Building resilience and communication skills that are valuable in every career",
+    "The thrill of booking a meeting that turns into a six-figure deal for your AE partner",
+    "Earning potential grows rapidly: SDR to AE doubles your income within 1-2 years"
+  ],
+  "careerPath": [
+    "SDR/BDR (0-12 months) — master prospecting, cold outreach, and qualification",
+    "Senior SDR / SDR Team Lead (12-18 months) — mentor new SDRs, handle strategic accounts",
+    "Account Executive (18-24 months) — carry your own quota, run full sales cycles",
+    "Senior Account Executive (3-5 years) — larger deals, strategic selling",
+    "Sales Manager (5-7 years) — lead an SDR or AE team",
+    "Alternative paths: Sales Enablement, Sales Operations, Customer Success, Marketing — SDR skills transfer everywhere"
+  ]
+}

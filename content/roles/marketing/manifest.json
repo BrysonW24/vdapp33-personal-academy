@@ -1,0 +1,14 @@
+{
+  "slug": "marketing",
+  "name": "Marketing",
+  "kind": "role",
+  "group": "markets",
+  "icon": "Megaphone",
+  "color": "#14B8A6",
+  "tagline": "Messaging, channels, campaigns, measurement, and customer understanding that turn attention into action.",
+  "tier": "flagship",
+  "order": 9,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "instantly",
+  "name": "Instantly",
+  "category": "email",
+  "description": "A cold email platform built for deliverability and scale. Instantly specialises in email warm-up, sender rotation, and campaign management — helping sales teams send cold emails that actually reach the inbox.",
+  "whyUseIt": "Deliverability is the hidden challenge of cold email. If your emails land in spam, nothing else matters. Instantly solves this with automated domain warm-up, sender reputation monitoring, and smart sending algorithms that optimise for inbox placement. It's become the go-to tool for teams serious about cold email at scale.",
+  "pricingTier": "paid",
+  "url": "https://instantly.ai",
+  "logoUrl": "/tools/instantly.svg",
+  "aiCapabilities": "Instantly's AI optimises send timing, manages email account rotation to maintain deliverability, generates campaign copy, and provides deliverability health monitoring.",
+  "alternatives": ["mailshake", "apollo-io", "outreach-io"],
+  "funnelPosition": "Top of funnel — high-volume cold email outreach with deliverability focus",
+  "outputs": ["Email campaigns", "Warm-up analytics", "Deliverability health scores", "Campaign performance reports", "Lead management"],
+  "sellerWorkflow": "SDRs connect multiple email accounts, let Instantly warm them up, create campaigns with personalisation, and let the platform rotate sending across accounts to maximise deliverability. Replies are centralised in one inbox.",
+  "managerExpects": "Email accounts properly warmed before campaign launch, deliverability scores above 95%, and campaign metrics reviewed daily during active sends.",
+  "demoDescription": "Connect email accounts, start the warm-up process, create a campaign with personalised emails, set up account rotation, and monitor deliverability health in real-time.",
+  "vocabulary": [
+    { "term": "Email Warm-Up", "definition": "The process of gradually building sender reputation by sending and receiving legitimate emails before launching cold campaigns." },
+    { "term": "Account Rotation", "definition": "Distributing outgoing emails across multiple sender accounts to avoid triggering volume-based spam filters." }
+  ],
+  "beginnerMistakes": [
+    "Skipping the warm-up period — takes 2-3 weeks but is absolutely essential",
+    "Using your primary business email for cold outreach — always use dedicated sending domains",
+    "Sending more than 30-50 emails per account per day — exceeding limits destroys deliverability"
+  ],
+  "relatedProject": "email-sequence"
+}

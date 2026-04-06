@@ -1,0 +1,62 @@
+{
+  "slug": "google-search-console",
+  "name": "Google Search Console",
+  "category": "seo",
+  "description": "Google's free tool for monitoring your website's presence in Google search results \u2014 see what queries bring traffic, fix indexing issues, and submit sitemaps.",
+  "whyUseIt": "Search Console is the only tool that shows you exactly how Google sees your site. It's free, directly from Google, and essential for any website. It shows you which keywords you actually rank for (not estimates).",
+  "pricingTier": "free",
+  "alternatives": [
+    "Bing Webmaster Tools",
+    "Ahrefs Webmaster Tools"
+  ],
+  "url": "https://search.google.com/search-console",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlesearchconsole.svg",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Search query performance reports (clicks, impressions, CTR, position)",
+    "Index coverage reports showing which pages Google can and cannot crawl",
+    "Core Web Vitals scores for page experience",
+    "Sitemap submission confirmations",
+    "Mobile usability issue reports",
+    "Manual action and security issue alerts",
+    "Page-level performance breakdowns"
+  ],
+  "marketerWorkflow": "A marketer using Google Search Console checks the Performance report weekly to identify which queries drive the most impressions and clicks, spotting opportunities where high impressions but low click-through rates signal a need for better title tags and meta descriptions. They monitor the Index Coverage report for crawl errors and ensure new pages are being picked up by Google. When publishing new content, they use the URL Inspection tool to request indexing and verify the page renders correctly.",
+  "managerExpects": "A marketing manager expects regular SEO performance summaries showing trending queries, ranking movements for target keywords, and click-through rate improvements from metadata optimisation. They want proactive flagging of indexing issues, Core Web Vitals regressions, and any manual actions \u2014 not reactive firefighting after traffic drops. Clear month-over-month organic traffic growth tied to content efforts is the core deliverable.",
+  "aiWorkflowImpact": "AI-powered SEO tools now layer on top of Search Console data to automatically identify keyword clustering opportunities and content gaps that would take hours to find manually. Machine learning models predict which pages are most likely to rank higher with minor optimisations, prioritising effort. Automated anomaly detection flags sudden traffic drops or ranking changes in real time, replacing the need for daily manual dashboard checks.",
+  "demoDescription": "Verify your website (or a test site) in Google Search Console using the URL prefix method. Once verified, navigate to the Performance report and filter by the last 28 days. Identify your top five queries by impressions, note their average position and CTR, then pick one query where you rank between positions 5 and 15 \u2014 this is your quick-win optimisation target. Review the page ranking for that query and brainstorm title tag improvements.",
+  "vocabulary": [
+    {
+      "term": "Impressions",
+      "definition": "The number of times your page appeared in Google search results for a query, regardless of whether anyone clicked."
+    },
+    {
+      "term": "Click-through rate (CTR)",
+      "definition": "The percentage of impressions that resulted in a click to your website \u2014 calculated as clicks divided by impressions."
+    },
+    {
+      "term": "Index Coverage",
+      "definition": "A report showing which of your pages Google has successfully crawled and added to its search index, and which were excluded and why."
+    },
+    {
+      "term": "Core Web Vitals",
+      "definition": "Google's page experience metrics measuring loading speed (LCP), interactivity (INP), and visual stability (CLS) \u2014 factors in search ranking."
+    },
+    {
+      "term": "URL Inspection",
+      "definition": "A tool that shows exactly how Google sees a specific URL \u2014 whether it is indexed, any crawl issues, and how it renders."
+    },
+    {
+      "term": "Sitemap",
+      "definition": "An XML file listing all the pages on your website that you want Google to crawl and index, submitted through Search Console."
+    }
+  ],
+  "beginnerMistakes": [
+    "Only checking Search Console after a traffic drop instead of monitoring it regularly to catch issues early",
+    "Ignoring pages with high impressions but low CTR \u2014 these are quick wins where better title tags and meta descriptions can immediately increase traffic",
+    "Not submitting a sitemap, which slows down Google's ability to discover and index new content",
+    "Confusing Google Search Console data with Google Analytics data \u2014 Search Console shows search visibility, Analytics shows on-site behaviour",
+    "Failing to set up email alerts for critical issues like manual actions, security problems, or major indexing drops"
+  ],
+  "relatedProject": "seo-content-strategy"
+}

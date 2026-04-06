@@ -1,0 +1,77 @@
+{
+  "slug": "framing-a-demo-so-it-persuades",
+  "moduleSlug": "presentations-demos",
+  "title": "Framing a Demo So It Persuades",
+  "objective": "Learn how to use structures like FAB, AIDA, PAS, story selling, and social proof to make demos feel memorable, relevant, and commercially persuasive.",
+  "beginnerExplanation": "A demo persuades when the buyer can follow the logic of the story. They need to understand the problem, see why it matters, recognize the contrast between the old way and the new way, and believe that people like them have already made the change successfully. That is why framing matters as much as product knowledge.",
+  "deeperExplanation": "Frameworks like FAB, AIDA, and PAS are not old copywriting trivia when used well. FAB helps translate features into buyer benefit. AIDA helps sequence attention, interest, desire, and action. PAS sharpens the buyer's understanding of the problem before the solution appears. Story selling, social proof, contrast framing, ROI framing, and personalisation all work because they help buyers process risk and value faster.\n\nThe trick is not to stack every persuasion technique into one meeting. Choose the ones that match the audience and decision stage. Executives usually need contrast, ROI, and proof. End users often need workflow clarity and believable day-to-day benefit. Technical evaluators need confidence that the promise is credible in their environment.",
+  "keyTakeaways": [
+    "A persuasive demo has a narrative arc, not just a feature order.",
+    "FAB is useful for translating product capability into buyer value.",
+    "AIDA and PAS help structure attention and urgency without sounding dramatic.",
+    "Story selling and social proof reduce perceived risk by making the outcome feel real.",
+    "Contrast and ROI framing help buyers compare change against the status quo.",
+    "Personalisation matters because different stakeholders process value differently."
+  ],
+  "frameworks": [
+    "fab",
+    "aida",
+    "pas",
+    "story-selling",
+    "social-proof",
+    "contrast-framing",
+    "roi-framing",
+    "personalisation"
+  ],
+  "example": "Instead of saying, 'Here is our dashboard feature,' you frame it with FAB: 'Managers can see rep activity by stage in one view, which means fewer manual forecast check-ins, and the benefit is faster coaching and more accurate weekly calls.' Then you support it with social proof: 'A team like yours used this to cut forecast prep time by 30 percent in one quarter.'",
+  "commonMistakes": [
+    "Showing features before the buyer understands the business stakes",
+    "Using customer stories with no similarity to the buyer's environment",
+    "Personalising for job title but not for real business priority",
+    "Over-explaining the framework instead of using it naturally",
+    "Forgetting to connect the story back to the agreed next step"
+  ],
+  "exercise": "Take one demo segment and rewrite it three ways: once with FAB, once with PAS, and once with a short customer story plus ROI proof. Compare which version would resonate best with your target stakeholder.",
+  "order": 7,
+  "quiz": [
+    {
+      "question": "What does FAB help a rep do?",
+      "options": [
+        "Avoid mentioning features entirely",
+        "Translate product capability into relevant buyer benefit",
+        "Skip the value story",
+        "Replace discovery"
+      ],
+      "correctIndex": 1,
+      "explanation": "FAB helps bridge the gap between what the product does and why the buyer should care."
+    },
+    {
+      "question": "Why is social proof powerful in demos?",
+      "options": [
+        "It reduces risk by showing that similar buyers have succeeded",
+        "It removes the need for discovery",
+        "It replaces the product",
+        "It is only useful for SMB deals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Social proof makes the change feel more credible and less risky."
+    },
+    {
+      "question": "What is a common persuasion mistake in demos?",
+      "options": [
+        "Tying the story to a stakeholder's actual priority",
+        "Using a narrative structure",
+        "Showing features without first framing why they matter",
+        "Including a relevant proof point"
+      ],
+      "correctIndex": 2,
+      "explanation": "Without the value frame, buyers see product but not importance."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should think of demo persuasion as value translation, not performance.",
+    "manager": "Managers can make demos stronger by coaching the story arc and proof points, not only feature coverage.",
+    "vp": "A VP wants demos that scale across the team without becoming generic product tours.",
+    "cro": "A CRO sees stronger demo framing as a lever on conversion, margin defense, and deal quality."
+  }
+}

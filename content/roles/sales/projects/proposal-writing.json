@@ -1,0 +1,69 @@
+{
+  "slug": "proposal-writing",
+  "title": "Client Proposal Writing",
+  "difficulty": 7,
+  "estimatedHours": 8,
+  "description": "Write a complete client proposal including executive summary, problem statement, proposed solution, business case with ROI, implementation plan, pricing, and terms. Make it ready to send to a real buyer.",
+  "whyItMatters": "The proposal is often the document that gets circulated internally at the buyer's company — to people you've never met. It needs to sell on your behalf when you're not in the room. A great proposal tells a clear story: here's your problem, here's the cost of the problem, here's our solution, here's the evidence it works, and here's the investment. The best AEs write proposals that make the decision easy.",
+  "skillsLearned": [
+    "Proposal structure and storytelling",
+    "Executive summary writing",
+    "Business case and ROI modelling",
+    "Pricing presentation and anchoring",
+    "Implementation planning",
+    "Professional document design"
+  ],
+  "prerequisites": ["discovery-practice", "demo-deck"],
+  "steps": [
+    {
+      "title": "Define the Proposal Scenario",
+      "description": "Choose a specific deal scenario: company, buyer personas, pain points uncovered in discovery, competitive context, and budget range. Write a deal summary that captures everything you know about the opportunity.",
+      "tips": "Base this on your earlier project work if possible — use the same company and personas. This creates continuity and makes the proposal feel grounded in real discovery."
+    },
+    {
+      "title": "Write the Executive Summary",
+      "description": "Write a one-page executive summary that a CEO could read in 2 minutes and understand the value proposition. Structure: current challenge, cost of the problem, proposed solution, expected outcomes, and investment required. No jargon, no fluff.",
+      "tips": "Write this last, even though it goes first. It's the most important page of the proposal — many executives only read this page. Every sentence should earn its place."
+    },
+    {
+      "title": "Build the Problem Statement and Business Case",
+      "description": "Document the buyer's current state, the problems they face, and the quantified business impact. Then build a simple ROI model: Annual cost of the problem - Annual investment in your solution = Net annual value. Include payback period and 3-year total value.",
+      "tips": "Use the buyer's own numbers from discovery wherever possible. 'Based on the $180K in lost revenue you mentioned' is far more compelling than 'Industry benchmarks suggest companies lose $X.'"
+    },
+    {
+      "title": "Propose the Solution and Implementation Plan",
+      "description": "Describe your proposed solution — specifically what the buyer gets, how it addresses their pain points, and what the implementation looks like. Include a timeline with milestones: kickoff, configuration, training, go-live, first value review. Be realistic about timelines.",
+      "tips": "Map each solution component to a specific pain point. Don't describe features in isolation — connect every element to a business outcome the buyer articulated."
+    },
+    {
+      "title": "Present Pricing and Terms",
+      "description": "Present pricing clearly with 2-3 options (good/better/best). Anchor the price against the cost of the problem, not against competitors. Include contract terms, payment schedule, and any conditions. Write a clear 'next steps' section with a specific call to action.",
+      "tips": "The pricing section should feel like a logical conclusion to the business case, not a separate topic. If the ROI is 5:1, the price feels like a bargain. If you present price without context, it always feels expensive."
+    }
+  ],
+  "deliverables": [
+    "A deal summary document",
+    "A complete proposal (8-15 pages) with executive summary, problem statement, solution, business case, implementation plan, and pricing",
+    "An ROI model spreadsheet with assumptions and calculations",
+    "A cover email to accompany the proposal"
+  ],
+  "tools": ["pandadoc", "qwilr", "google-workspace", "notion-sales"],
+  "rubric": [
+    {
+      "criteria": "Executive Summary Quality",
+      "description": "Concise, compelling, and self-contained. A senior executive could read it in 2 minutes and understand the full value proposition without needing the rest of the document."
+    },
+    {
+      "criteria": "Business Case Rigour",
+      "description": "ROI model is credible with clear assumptions, conservative estimates, and specific numbers. Payback period and multi-year value are calculated."
+    },
+    {
+      "criteria": "Solution-Pain Alignment",
+      "description": "Every proposed solution component is explicitly tied to a pain point uncovered in discovery. Nothing is included that doesn't address a stated need."
+    },
+    {
+      "criteria": "Professional Quality",
+      "description": "The proposal is well-designed, error-free, and ready to share with a buyer. Formatting is consistent, language is professional, and the document tells a cohesive story."
+    }
+  ]
+}

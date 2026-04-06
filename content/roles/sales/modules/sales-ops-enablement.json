@@ -1,0 +1,22 @@
+{
+  "slug": "sales-ops-enablement",
+  "title": "Sales Ops & Enablement",
+  "shortSummary": "The infrastructure behind great sales teams. Learn about sales operations, enablement programmes, playbooks, and the tech stack that makes reps more effective.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Behind every high-performing sales team is a strong sales operations and enablement function. Sales ops manages the systems, processes, and data that keep the engine running. Enablement ensures reps have the training, content, and tools they need to win. Understanding these functions makes you a more effective AE and prepares you for leadership roles.",
+  "coreConcepts": [
+    "Sales operations: territory planning, comp design, reporting",
+    "Sales enablement: onboarding, training, content management",
+    "Building and maintaining sales playbooks",
+    "Tech stack optimisation and tool consolidation",
+    "Process design: from lead to close to renewal",
+    "Cross-functional alignment: sales, marketing, CS, product"
+  ],
+  "lessons": ["designing-a-sales-playbook"],
+  "frameworks": ["sales-velocity", "forecast-methodology"],
+  "relatedModules": ["sales-leadership", "revenue-operations", "sales-analytics"],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 4
+}

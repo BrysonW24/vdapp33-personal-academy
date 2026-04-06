@@ -1,0 +1,72 @@
+{
+  "slug": "designing-a-sales-playbook",
+  "moduleSlug": "sales-ops-enablement",
+  "title": "Designing a Sales Playbook That Gets Used",
+  "objective": "Learn how to build a practical sales playbook that helps reps execute consistently instead of becoming a document nobody opens.",
+  "beginnerExplanation": "A playbook should make good selling easier to repeat. It should help a rep know how your team targets accounts, runs discovery, qualifies deals, prepares demos, handles objections, and manages the close. If it becomes a giant document full of theory, people stop using it. A good playbook is specific, usable, and close to the real workflow.",
+  "deeperExplanation": "Strong playbooks have four traits. They are opinionated: the team can see the preferred way of working. They are modular: reps can find the section they need quickly. They are evidence-backed: examples come from real calls, real deals, and proven messaging. And they are maintained: outdated playbooks create mistrust faster than missing playbooks.\n\nEnablement teams often fail by overbuilding. The goal is not to document everything at once. It is to capture the few patterns that matter most: ICP, messaging, qualification, stage exit criteria, call prep, mutual action plans, and core objection handling.\n\nA playbook becomes valuable when it improves ramp speed and consistency. That means managers must use it in coaching, not only send the link during onboarding.",
+  "keyTakeaways": [
+    "A playbook should improve repeatability and ramp, not only store information.",
+    "Usable playbooks are opinionated, modular, and updated regularly.",
+    "Real examples beat theoretical guidance.",
+    "Playbooks should focus on the moments that most affect win rate and forecast quality.",
+    "Managers need to use the playbook in coaching for it to become real.",
+    "Overbuilt playbooks often become ignored playbooks."
+  ],
+  "frameworks": [
+    "forecast-methodology",
+    "meddic",
+    "value-selling"
+  ],
+  "example": "A practical playbook section on discovery includes: who to target, pre-call research checklist, ten core discovery questions, qualification fields to capture, a sample follow-up email, and two recorded calls that model the standard well. That is far more useful than twenty pages of generic philosophy.",
+  "commonMistakes": [
+    "Writing a giant playbook with no easy path to the needed section",
+    "Keeping outdated messaging and examples in circulation",
+    "Treating the playbook as onboarding only",
+    "Documenting everything except the moments reps actually struggle with",
+    "Failing to connect the playbook to manager coaching"
+  ],
+  "exercise": "Design a one-page outline for a sales playbook with six sections. Under each section, write the exact asset or checklist the rep would use in real work.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What makes a sales playbook strong?",
+      "options": [
+        "Maximum length",
+        "High usability, clear standards, and real examples",
+        "A long company history section",
+        "No updates once published"
+      ],
+      "correctIndex": 1,
+      "explanation": "A useful playbook helps reps execute faster and more consistently in the real workflow."
+    },
+    {
+      "question": "Why do many playbooks fail?",
+      "options": [
+        "Because reps dislike structure",
+        "Because they are overbuilt, outdated, or disconnected from daily work",
+        "Because managers never need them",
+        "Because enablement should not document anything"
+      ],
+      "correctIndex": 1,
+      "explanation": "Playbooks lose trust when they are bloated, stale, or irrelevant to how the team actually sells."
+    },
+    {
+      "question": "How does a playbook become real inside the team?",
+      "options": [
+        "By existing in Notion",
+        "By being used in onboarding, coaching, and deal reviews",
+        "By being very detailed",
+        "By being locked from editing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Usage in real management moments is what turns documentation into execution."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs want playbooks that help them act faster, not documents that create more reading.",
+    "manager": "Managers use the playbook to standardise coaching and speed up ramp for new hires.",
+    "vp": "A VP wants playbooks to codify what works so performance is less dependent on tribal knowledge.",
+    "cro": "A CRO sees playbooks as one of the tools that turns individual talent into organisational capability."
+  }
+}

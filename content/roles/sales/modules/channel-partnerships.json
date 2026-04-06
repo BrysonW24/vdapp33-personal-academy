@@ -1,0 +1,22 @@
+{
+  "slug": "channel-partnerships",
+  "title": "Channel & Partnerships",
+  "shortSummary": "Not all revenue comes from direct sales. Learn partner sales, channel strategy, co-selling, and how to build an ecosystem that multiplies your reach.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "The most successful technology companies sell through partners as well as direct. Channel partnerships — resellers, referral partners, technology partners, system integrators — can multiply your reach and revenue without multiplying your headcount. Understanding how to build, manage, and co-sell with partners is a valuable and increasingly in-demand skill.",
+  "coreConcepts": [
+    "Channel models: reseller, referral, technology, SI",
+    "Partner programme design and tiering",
+    "Co-selling: joint discovery, joint demos, deal registration",
+    "Partner enablement and certification",
+    "Channel conflict management",
+    "Measuring partner ROI and programme health"
+  ],
+  "lessons": ["co-selling-with-partners"],
+  "frameworks": ["account-planning-canvas", "value-selling"],
+  "relatedModules": ["enterprise-sales", "strategic-accounts", "revenue-operations"],
+  "status": "complete",
+  "order": 19,
+  "levelNumber": 4
+}

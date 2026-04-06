@@ -1,0 +1,13 @@
+{
+  "slug": "urgency-close",
+  "name": "Urgency Close",
+  "summary": "A close technique that uses real timing pressure or business deadlines to help the buyer decide before the opportunity to act changes.",
+  "whenToUseIt": "Use urgency closes when there is a genuine time-bound reason to move now, such as a renewal date, board review, hiring plan, launch, or fiscal event.",
+  "steps": [
+    "Identify a real deadline or consequence tied to the buyer's business.",
+    "Connect the timing pressure to the decision and process required to hit it.",
+    "Ask for the next commitment needed to stay on track."
+  ],
+  "example": "The rep ties the close to the buyer's system renewal date and the lead time required for implementation, making it clear that delay affects the business outcome rather than only the seller's quarter.",
+  "category": "closing"
+}

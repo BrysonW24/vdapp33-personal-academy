@@ -1,0 +1,73 @@
+{
+  "slug": "qualifying-with-meddic-and-bant",
+  "moduleSlug": "discovery-calls",
+  "title": "Qualifying with MEDDIC and BANT",
+  "objective": "Learn when to use MEDDIC and BANT, how to gather qualification evidence without making discovery feel robotic, and how qualification protects forecast quality.",
+  "beginnerExplanation": "Qualification frameworks help you answer one question: is this deal real, and if so, how real? MEDDIC and BANT are not scripts. They are checklists for commercial evidence. BANT is simpler and works well in straightforward deals. MEDDIC is deeper and better for complex B2B opportunities with multiple stakeholders, formal approval steps, and real deal risk.",
+  "deeperExplanation": "BANT stands for Budget, Authority, Need, and Timing. It is useful when the deal is relatively simple and you need a quick read on whether there is a genuine opportunity. MEDDIC goes further: Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, and Champion. That makes it much better for enterprise and technical deals where qualification gaps often hide until late stage.\n\nThe key is to gather evidence naturally. Qualification should be woven into discovery, not stapled on awkwardly at the end. For example, when the buyer describes a painful process, that opens the door to Identify Pain and Metrics. When they explain how they evaluate vendors, you are learning Decision Criteria and Decision Process. When they mention who signs off, you are moving toward the Economic Buyer. The framework should organise your listening, not replace it.\n\nStrong qualification improves more than win rate. It improves prioritisation, forecast confidence, resource allocation, and manager trust. Poor qualification creates fake pipeline, rushed demos, and late-stage surprises. That is why top teams treat qualification as operating discipline, not admin.",
+  "keyTakeaways": [
+    "BANT is lighter and faster; MEDDIC is deeper and better for complex deals.",
+    "Qualification frameworks are evidence checklists, not scripts.",
+    "You should gather qualification information during discovery, not bolt it on afterward.",
+    "A missing champion or unknown decision process is a real deal risk, not a paperwork gap.",
+    "Qualification helps forecast quality as much as it helps win rate.",
+    "Good reps do not advance deals on hope alone."
+  ],
+  "frameworks": [
+    "meddic",
+    "bant",
+    "gap-selling"
+  ],
+  "example": "You are selling observability software to a fintech. BANT quickly tells you there is budget this quarter, the VP of Engineering is involved, the team has a real need, and timing is tied to a migration deadline. MEDDIC then deepens the picture: the key metric is incident resolution time, the economic buyer is the CTO, decision criteria include security and deployment complexity, the paper process requires procurement and security review, and the champion is the Head of Platform Engineering. That is the difference between a plausible deal and a deal you can actually run.",
+  "commonMistakes": [
+    "Treating qualification as a form to complete instead of evidence to gather",
+    "Asking framework questions in a way that sounds mechanical or abrupt",
+    "Advancing deals without understanding the decision process",
+    "Confusing a friendly contact with a real champion",
+    "Using qualification to justify optimism instead of to test it"
+  ],
+  "exercise": "Take one active opportunity and score it twice: once with BANT and once with MEDDIC. Write down what BANT gives you quickly and what MEDDIC reveals that BANT misses. Then list the top three qualification gaps you still need to close.",
+  "nextLesson": "future-state-and-modern-qualification",
+  "order": 4,
+  "quiz": [
+    {
+      "question": "When is MEDDIC usually more useful than BANT?",
+      "options": [
+        "When the deal is simple and low risk",
+        "When the deal is complex and involves multiple stakeholders",
+        "Only after procurement starts",
+        "Only for inbound leads"
+      ],
+      "correctIndex": 1,
+      "explanation": "MEDDIC is designed for more complex deals where qualification depth matters."
+    },
+    {
+      "question": "What is the right way to use a qualification framework in discovery?",
+      "options": [
+        "Read each item as a checklist in the first five minutes",
+        "Use it to organise what evidence you still need to learn naturally",
+        "Skip discovery and send a questionnaire",
+        "Only review it after a proposal is sent"
+      ],
+      "correctIndex": 1,
+      "explanation": "The framework should guide your listening and follow-up, not make the conversation feel robotic."
+    },
+    {
+      "question": "Why does qualification matter beyond win rate?",
+      "options": [
+        "It reduces the need for demos entirely",
+        "It improves forecast confidence and pipeline quality",
+        "It guarantees pricing approval",
+        "It replaces stakeholder mapping"
+      ],
+      "correctIndex": 1,
+      "explanation": "Better qualification creates cleaner pipeline, better prioritisation, and more accurate forecasts."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should use qualification to decide where to lean in, where to multi-thread, and where to disqualify quickly.",
+    "manager": "Managers rely on qualification evidence during pipeline reviews. If the evidence is thin, the deal is thin.",
+    "vp": "A VP wants consistent qualification language so forecasting is based on reality rather than rep optimism.",
+    "cro": "A CRO sees MEDDIC discipline as one of the strongest predictors of revenue predictability."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "email-and-crm",
+  "title": "Email Marketing and CRM",
+  "shortSummary": "Email remains the highest-ROI marketing channel, returning an average of $36 for every $1 spent. This module covers building an email list, writing emails that get opened and clicked, automation sequences, and using a CRM to manage customer relationships at scale.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "Unlike social media, you own your email list. Algorithm changes cannot take it away. Email is the most direct line of communication between you and your customers. Combined with a CRM, it lets you personalise messages, nurture leads over time, and turn one-time buyers into repeat customers. Every serious marketer needs to master this channel.",
+  "coreConcepts": [
+    "Why email marketing still outperforms most channels on ROI",
+    "Building an email list ethically and effectively",
+    "Email types: newsletters, promotional, transactional, automated sequences",
+    "Writing subject lines that get opened",
+    "Email copywriting: structure, tone, and calls to action",
+    "Automation and drip campaigns for lead nurturing",
+    "Segmentation: sending the right message to the right people",
+    "CRM fundamentals: managing contacts, deals, and pipelines",
+    "Email deliverability: staying out of spam folders",
+    "Measuring email performance: open rate, click rate, conversion rate, unsubscribe rate"
+  ],
+  "lessons": ["email-that-drives-revenue"],
+  "frameworks": [
+    "aida",
+    "aarrr",
+    "customer-journey-map"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "content-marketing",
+    "retention-lifecycle",
+    "funnels-customer-journey"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

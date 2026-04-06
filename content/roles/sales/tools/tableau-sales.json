@@ -1,0 +1,27 @@
+{
+  "slug": "tableau-sales",
+  "name": "Tableau for Sales",
+  "category": "analytics",
+  "description": "A powerful data visualisation platform used by sales operations and leadership to create interactive dashboards for pipeline analysis, forecasting, territory performance, and revenue reporting. Tableau turns raw CRM data into visual insights.",
+  "whyUseIt": "While most AEs use CRM reports for day-to-day work, Tableau is what your sales leadership and ops team use for strategic analysis. Understanding how to read Tableau dashboards — and even build simple ones — makes you more data-literate and more valuable to your organisation. The ability to analyse your own performance data in Tableau sets you apart.",
+  "pricingTier": "enterprise",
+  "url": "https://www.tableau.com",
+  "logoUrl": "/tools/tableau-sales.svg",
+  "aiCapabilities": "Tableau AI (powered by Einstein) provides natural language querying ('Show me win rate by industry'), automatic insight detection, and predictive analytics for revenue forecasting.",
+  "alternatives": ["clari", "salesforce"],
+  "funnelPosition": "Full funnel — strategic analytics and reporting across the entire revenue operation",
+  "outputs": ["Pipeline dashboards", "Forecast visualisations", "Territory maps", "Win/loss analysis", "Activity correlation reports"],
+  "sellerWorkflow": "Sales ops builds dashboards showing pipeline health, conversion rates, and rep performance. AEs use these dashboards to understand their own metrics. Managers use them in pipeline reviews and QBRs. Leadership uses them for board reporting.",
+  "managerExpects": "AEs should be able to read and interpret the standard pipeline and performance dashboards. Top performers use the data to self-diagnose and improve without waiting for their manager to tell them.",
+  "demoDescription": "Open a sales performance dashboard, filter by territory and time period, analyse conversion rates by stage, compare rep performance, and use natural language to ask 'what's my win rate for enterprise deals this quarter?'",
+  "vocabulary": [
+    { "term": "Dashboard", "definition": "An interactive collection of visualisations (charts, graphs, tables) that update in real-time as underlying data changes." },
+    { "term": "Filter", "definition": "A control that lets you narrow the data shown — by time period, territory, rep, deal size, industry, etc." }
+  ],
+  "beginnerMistakes": [
+    "Looking at dashboards without understanding what the metrics actually mean",
+    "Ignoring negative trends because the data is uncomfortable",
+    "Not asking sales ops to explain unfamiliar dashboards — they built them to be used"
+  ],
+  "relatedProject": "pipeline-audit"
+}

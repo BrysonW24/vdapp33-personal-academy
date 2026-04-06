@@ -1,0 +1,34 @@
+{
+  "slug": "what-marketing-is",
+  "title": "What Marketing Actually Is",
+  "shortSummary": "Marketing is not just advertising. It is the entire process of understanding what people need, creating something valuable, and communicating that value so the right people find it. This module strips away the jargon and gives you a clear, practical understanding of what marketing really means.",
+  "level": "beginner",
+  "category": "foundation",
+  "whyItMatters": "Every business decision you make ties back to marketing. Whether you are launching a product, writing an email, posting on social media, or setting a price, you are doing marketing. Without understanding the fundamentals, you will waste money on tactics that do not connect to a strategy. This module gives you the mental model that everything else builds on.",
+  "coreConcepts": [
+    "Marketing is about creating, communicating, and delivering value to customers",
+    "The difference between marketing, advertising, sales, and branding",
+    "Marketing is a conversation, not a megaphone",
+    "The marketing mix: Product, Price, Place, Promotion",
+    "Customer-centric thinking versus product-centric thinking",
+    "Why marketing starts before a product is built",
+    "The role of research and data in modern marketing",
+    "How marketing creates sustainable competitive advantage"
+  ],
+  "lessons": [
+    "what-marketing-actually-is"
+  ],
+  "frameworks": [
+    "four-ps",
+    "stp"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "customer-market-demand",
+    "positioning-value-proposition",
+    "messaging-brand-basics"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

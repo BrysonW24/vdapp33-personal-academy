@@ -1,0 +1,15 @@
+{
+  "slug": "retention-lifecycle",
+  "title": "Retention & Lifecycle Marketing",
+  "shortSummary": "Keep customers coming back. Learn the strategies and systems that turn one-time buyers into loyal advocates.",
+  "level": "intermediate",
+  "category": "retention",
+  "whyItMatters": "Acquiring a new customer costs 5-7x more than retaining an existing one. Retention marketing directly impacts profitability and is the foundation of sustainable growth.",
+  "coreConcepts": ["Customer retention", "Lifecycle stages", "Churn prevention", "Loyalty programs", "Win-back campaigns", "Net Promoter Score", "Customer success"],
+  "lessons": ["keeping-customers-for-life"],
+  "frameworks": ["aarrr", "customer-journey-map"],
+  "relatedModules": ["email-and-crm", "funnels-customer-journey", "analytics-attribution-kpis"],
+  "status": "complete",
+  "order": 14,
+  "levelNumber": 3
+}

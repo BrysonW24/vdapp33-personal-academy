@@ -1,0 +1,61 @@
+{
+  "slug": "statistics-that-matter",
+  "moduleSlug": "statistics-for-marketing",
+  "title": "Statistics That Matter",
+  "objective": "Understanding the statistical concepts every marketer needs to make confident, data-backed decisions.",
+  "beginnerExplanation": "Statistics sounds intimidating, but you're already using statistical thinking every day without realising it. When you say 'that email subject line usually gets more opens' or 'our ads perform better on weekdays,' you're making statistical claims. The difference between casual observation and proper statistics is rigour — knowing whether your observation is real or just random noise.\n\nThe basics start with descriptive statistics: mean (average), median (middle value), and mode (most common value). These sound simple, but choosing the wrong one leads to bad decisions. If a marketing team has five members earning $60K, $65K, $70K, $75K, and $250K, the mean salary is $104K — which makes it sound like everyone's well-paid. The median is $70K, which better represents the typical experience. Knowing when to use which measure is a genuine skill.\n\nStandard deviation tells you how spread out your data is. If your daily website traffic averages 1,000 visitors with a standard deviation of 50, your traffic is very consistent. If the standard deviation is 500, your traffic is wildly unpredictable. This matters for forecasting — you can't reliably plan campaigns around metrics that swing dramatically from day to day.",
+  "deeperExplanation": "Statistical significance is the concept that separates professional marketers from guessers. When you run an A/B test and Version B gets 5% more clicks than Version A, the question is: is that a real difference, or could it have happened by chance? Statistical significance, measured by p-values, answers this. A p-value of 0.05 means there's only a 5% probability the result occurred by random chance — the industry standard threshold for declaring a winner.\n\nConfidence intervals complement p-values by showing the range of plausible outcomes. If your test shows a 5% conversion lift with a 95% confidence interval of 2% to 8%, you can be confident the true lift is somewhere in that range. But if the confidence interval is -3% to 13%, the result could be negative — you shouldn't act on it despite the positive average.\n\nCorrelation versus causation is perhaps the most critical statistical concept for marketers. Just because two metrics move together doesn't mean one causes the other. Ice cream sales and drowning deaths both rise in summer — but ice cream doesn't cause drowning. In marketing, you might see that customers who engage with email buy more — but that might be because loyal customers both open emails and buy frequently, not because the emails drive purchases. Regression analysis helps untangle these relationships by isolating the effect of individual variables while controlling for others.",
+  "keyTakeaways": [
+    "Choose the right descriptive statistic — use median over mean when outliers could distort the picture",
+    "Never declare an A/B test winner without reaching statistical significance (typically p < 0.05)",
+    "Check confidence intervals alongside p-values — a statistically significant result with a wide interval may not be actionable",
+    "Always question whether a relationship is correlation or causation before changing strategy based on it",
+    "Ensure adequate sample size before drawing conclusions — small samples produce unreliable, misleading results"
+  ],
+  "frameworks": ["ab-testing-framework"],
+  "example": "Booking.com is one of the most data-rigorous companies in the world, running over 1,000 A/B tests simultaneously. They require 95% statistical confidence before declaring any test a winner. A new checkout button design might show 3% higher conversion after two days with 500 visitors, but the confidence interval is too wide to trust. They wait until 10,000 or more visitors have been through the test before acting, preventing false positives that could cost millions in lost bookings. This discipline extends to every team — even small copy changes on a listing page must pass statistical scrutiny. Their lesson for marketers: patience and rigour in testing always outperform gut-feel decisions at scale.",
+  "commonMistakes": [
+    "Declaring A/B test winners after too few conversions, mistaking random variation for a genuine result",
+    "Using mean averages when median would give a more accurate picture of typical performance",
+    "Assuming correlation implies causation — especially dangerous in multi-channel attribution analysis",
+    "Ignoring confidence intervals and only looking at the point estimate of a test result",
+    "Cherry-picking time periods or segments that support a preferred conclusion rather than analysing the full dataset"
+  ],
+  "exercise": "Flip a coin 10 times and record your results. Now imagine flipping it 1,000 times. Which sample would you trust more to determine if the coin is fair? This is the core of statistical significance — more data means more confidence. Apply this thinking to marketing: if an A/B test has only 50 conversions total, should you declare a winner? Write down the minimum sample size you'd want before making a budget decision.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "Why should marketers use the median instead of the mean when analysing data with outliers?",
+      "options": [
+        "The median is always a larger number than the mean, which looks better in reports",
+        "The median is unaffected by extreme values, so it better represents the typical experience in skewed datasets",
+        "The mean cannot be calculated when there are outliers in the data",
+        "The median and the mean always produce the same result, so it does not matter"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mean is pulled toward extreme values, which can misrepresent the typical experience. The median gives the middle value and is unaffected by outliers, making it a more accurate measure of central tendency for skewed data."
+    },
+    {
+      "question": "Your A/B test shows Version B has a 4% higher conversion rate than Version A after 200 visitors, with a 95% confidence interval of -2% to 10%. Should you declare Version B the winner?",
+      "options": [
+        "Yes — 4% is a meaningful improvement worth acting on immediately",
+        "Yes — 200 visitors is more than enough to draw conclusions",
+        "No — the confidence interval includes negative values, meaning the true result could be worse than Version A",
+        "No — you should always wait exactly 30 days regardless of sample size"
+      ],
+      "correctIndex": 2,
+      "explanation": "A confidence interval of -2% to 10% means the true effect could range from a 2% decrease to a 10% increase. Since the interval crosses zero, you cannot confidently say Version B is better — you need more data to narrow the interval."
+    },
+    {
+      "question": "Which of the following is a common statistical mistake in marketing?",
+      "options": [
+        "Waiting for statistical significance before declaring an A/B test winner",
+        "Checking confidence intervals alongside p-values before acting on results",
+        "Assuming that because two metrics move together, one must be causing the other",
+        "Ensuring adequate sample size before drawing conclusions from test data"
+      ],
+      "correctIndex": 2,
+      "explanation": "Confusing correlation with causation is one of the most dangerous statistical errors. Two metrics can move together due to a shared underlying factor rather than a direct causal relationship — acting on a false causal assumption can lead to wasted budget and misguided strategy."
+    }
+  ]
+}

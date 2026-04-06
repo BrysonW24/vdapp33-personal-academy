@@ -2,7 +2,7 @@
 
 Repo lineage: `vdapp33-personal-academy`
 
-Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 64 subjects, 41 topics, and 7 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
+Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 64 subjects, 41 topics, and 10 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
 
 ## What This App Is
 
@@ -154,6 +154,7 @@ For lightweight verification guidance, see `docs/testing-smoke.md`.
 - Add new subjects by creating `content/curriculum/{slug}/manifest.json`
 - Add subject content via JSON files in `modules/`, `lessons/`, `frameworks/`, `projects/`, `tools/`, and `day-in-life/`
 - Add roles under `content/roles/{slug}/`
+- Roles can now own their own `modules/`, `lessons/`, `frameworks/`, `projects/`, `tools/`, and `day-in-life/` content in addition to linking out to related subjects
 - Add topics under `content/topics/{slug}/`
 - Add onboarding packs under `content/onboarding/`
 - Add curated truth stacks under `content/sources/`

@@ -1,0 +1,16 @@
+{
+  "slug": "rag-architecture",
+  "name": "RAG: Retrieval Augmented Generation",
+  "summary": "The most common architecture for building LLM applications that need access to specific, up-to-date, or proprietary data. RAG retrieves relevant documents and includes them in the prompt, grounding the model in your data without expensive fine-tuning.",
+  "whenToUseIt": "Use RAG whenever your LLM application needs to answer questions about specific data — company documentation, product catalogues, legal documents, knowledge bases. It is the right approach for most enterprise AI applications and is preferred over fine-tuning when your data changes frequently.",
+  "steps": [
+    "Document Ingestion — Load your source documents (PDFs, web pages, databases). Parse them into clean text.",
+    "Chunking — Split documents into manageable pieces (typically 200-1000 tokens). Choose chunk size based on your content type — larger for narrative text, smaller for factual Q&A.",
+    "Embedding — Convert each chunk into a vector (array of numbers) using an embedding model. This captures the semantic meaning of each chunk.",
+    "Indexing — Store the vectors in a vector database (Pinecone, Weaviate, ChromaDB, pgvector). This enables fast similarity search.",
+    "Retrieval — When a user asks a question, embed the question and find the most similar chunks in the vector database. Retrieve the top 3-10 most relevant chunks.",
+    "Augmented Generation — Include the retrieved chunks in the LLM prompt as context. The model generates its answer based on this context, dramatically reducing hallucinations."
+  ],
+  "example": "An Australian law firm builds an internal knowledge base powered by RAG. They ingest 10,000 legal precedents, client memos, and regulatory documents. A lawyer asks: 'What are the disclosure requirements for a Series A funding round in NSW?' The system embeds the question, retrieves the 5 most relevant document chunks (covering ASIC requirements, Corporations Act sections, and a recent client memo), and includes them in the prompt. The LLM generates a clear, well-cited answer grounded in the firm's own legal expertise — not generic internet knowledge.",
+  "category": "architecture"
+}

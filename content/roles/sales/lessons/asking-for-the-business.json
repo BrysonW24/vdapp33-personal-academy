@@ -1,0 +1,73 @@
+{
+  "slug": "asking-for-the-business",
+  "moduleSlug": "closing",
+  "title": "Asking for the Business with Confidence",
+  "objective": "Learn how to close directly, test for commitment, and ask for a decision in a way that feels helpful rather than pushy.",
+  "beginnerExplanation": "Many deals stall because the rep never actually asks for the next commitment. They run discovery, deliver the demo, answer the questions, and then finish with vague language like, 'Let me know what you think.' Closing is not a trick. It is the moment where you test whether the buyer is ready to move and what still needs to be resolved if they are not.",
+  "deeperExplanation": "A healthy close usually follows clarity, not pressure. Before you ask, make sure the buyer has acknowledged the problem, seen a credible path forward, and understands the likely value. Then use direct language. That can sound like: 'Based on everything we have discussed, does it make sense to move to the agreement stage?' or 'It sounds like we are aligned on the business case. Is there anything that would stop us from moving forward this week?'\n\nThe point of the close question is not only to get a yes. It is to surface the real blocker. If the buyer hesitates, you have useful information. Maybe finance still needs confidence. Maybe legal is a concern. Maybe the champion is not truly aligned. That is better than silence.\n\nConfident closing also means not apologising for asking. If the buyer has a real problem and your solution can help, asking for a decision is part of doing your job well. Indecision has a cost. Help them decide.",
+  "keyTakeaways": [
+    "Deals often stall because reps avoid direct commitment questions.",
+    "A close question should test readiness and reveal blockers clearly.",
+    "Closing works best when discovery, value, and process are already aligned.",
+    "Hesitation is useful information, not instant failure.",
+    "Direct language can feel respectful and professional, not pushy.",
+    "You are helping the buyer make a decision, not forcing one on them."
+  ],
+  "frameworks": [
+    "sandler-selling",
+    "value-selling",
+    "meddic"
+  ],
+  "example": "After a strong evaluation process, the buyer says the product fits and the ROI is compelling. Instead of ending with, 'Great chat, I will send some info,' you say, 'It sounds like we have validated the use case, the rollout, and the economics. Is there anything material that would stop us from moving to paperwork this week?' If they say procurement still needs to review, the deal now has a clear blocker. If they say no, you have earned the right to move forward.",
+  "commonMistakes": [
+    "Ending meetings with vague follow-up language instead of a commitment question",
+    "Asking for the close before value and process are clear",
+    "Softening the ask until it becomes meaningless",
+    "Treating hesitation as rejection instead of diagnosis",
+    "Waiting for the buyer to lead every next step"
+  ],
+  "exercise": "Write five close questions for different moments: after a discovery call, after a demo, after a business case review, after a security review, and before signature. Make each one specific to the next commitment you want.",
+  "nextLesson": "closing-without-pressure",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "Why do many deals fail to close?",
+      "options": [
+        "Because buyers never want to commit",
+        "Because reps avoid asking for clear next commitments",
+        "Because demos are always too short",
+        "Because procurement always wins"
+      ],
+      "correctIndex": 1,
+      "explanation": "Many deals drift because the rep never tests for commitment directly."
+    },
+    {
+      "question": "What is a good close question designed to do?",
+      "options": [
+        "Pressure the buyer into agreement",
+        "Reveal readiness and surface blockers clearly",
+        "Replace discovery",
+        "Avoid commercial discussion"
+      ],
+      "correctIndex": 1,
+      "explanation": "A strong close question clarifies whether the buyer is ready and what still needs to be resolved."
+    },
+    {
+      "question": "How should you interpret hesitation after a close question?",
+      "options": [
+        "As proof the deal is dead",
+        "As useful information about what still feels unresolved",
+        "As a signal to send more case studies and wait",
+        "As a reason to discount immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hesitation often points to the real blocker, which is valuable if you handle it directly."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should treat closing as a clarity skill, not a bravery contest.",
+    "manager": "Managers can raise close rates by coaching reps on when and how to ask for the next commitment directly.",
+    "vp": "A VP wants close language to be consistent enough that late-stage deals do not drift through avoidable ambiguity.",
+    "cro": "A CRO sees disciplined closing as essential to forecast accuracy and commercial efficiency."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "open-ended-questioning",
+  "name": "Open-Ended Questioning",
+  "summary": "A questioning technique designed to draw out explanation, context, and thinking rather than yes-or-no responses.",
+  "whenToUseIt": "Use open-ended questions throughout discovery, account research, and objection handling whenever you need the buyer to explain how things work, what they care about, or what is really happening.",
+  "steps": [
+    "Ask questions that start with how, what, walk me through, or tell me more.",
+    "Listen for the language the buyer uses to describe pain, process, and outcomes.",
+    "Build follow-up questions from their answer rather than jumping to your next scripted question."
+  ],
+  "example": "Instead of asking, 'Do you struggle with coaching reps?' ask, 'Walk me through how your managers coach today and where that process starts to break down.'",
+  "category": "discovery-questioning"
+}

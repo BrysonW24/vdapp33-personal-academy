@@ -1,0 +1,27 @@
+{
+  "slug": "lavender-ai",
+  "name": "Lavender",
+  "category": "ai-automation",
+  "description": "An AI-powered email coaching tool that analyses your cold emails in real-time and suggests improvements. Lavender scores your email, identifies issues (too long, too salesy, weak subject line), and recommends fixes before you hit send.",
+  "whyUseIt": "Writing good cold emails is a skill that takes years to develop — Lavender accelerates the learning curve. It analyses your email against millions of data points and tells you exactly what to fix: shorten this paragraph, make the subject line more specific, remove the jargon, add personalisation. It's like having a cold email coach sitting next to you for every message.",
+  "pricingTier": "freemium",
+  "url": "https://www.lavender.ai",
+  "logoUrl": "/tools/lavender-ai.svg",
+  "aiCapabilities": "Lavender's AI scores emails on readability, personalisation, and likely reply rate. It suggests rewrites, generates personalised openers based on the prospect's LinkedIn profile, and benchmarks your emails against top performers.",
+  "alternatives": ["chatgpt-sales", "copy-ai"],
+  "funnelPosition": "Top of funnel — outbound email optimisation",
+  "outputs": ["Email scores", "Rewrite suggestions", "Personalisation recommendations", "A/B test insights", "Team benchmarking"],
+  "sellerWorkflow": "Reps write an email in their email client or sequencing tool, Lavender analyses it in real-time (as a sidebar), provides a score and specific recommendations, and the rep edits before sending. Over time, reps internalise the patterns and need less coaching.",
+  "managerExpects": "Email quality scores trending upward over time. Reps using Lavender's recommendations to improve reply rates, not just hitting send on the first draft.",
+  "demoDescription": "Compose a cold email, watch Lavender score it in real-time, review the specific recommendations (length, tone, personalisation), apply the fixes, and see the score improve.",
+  "vocabulary": [
+    { "term": "Email Score", "definition": "Lavender's 0-100 rating of your email's likely effectiveness, based on length, readability, personalisation, and subject line quality." },
+    { "term": "Personalisation Assistant", "definition": "Lavender's feature that pulls data from the prospect's LinkedIn profile and suggests personalised opening lines." }
+  ],
+  "beginnerMistakes": [
+    "Blindly accepting all AI suggestions instead of using them as guidance",
+    "Obsessing over a perfect score instead of focusing on genuine personalisation and relevance",
+    "Not using Lavender consistently — the value comes from building better habits over time"
+  ],
+  "relatedProject": "email-sequence"
+}

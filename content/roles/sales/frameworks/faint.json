@@ -1,0 +1,13 @@
+{
+  "slug": "faint",
+  "name": "FAINT",
+  "summary": "A qualification framework built around Funds, Authority, Interest, Need, and Timing, often used when budget is less fixed but buying capacity still matters.",
+  "whenToUseIt": "Use FAINT in emerging, growth, or exploratory deals where a hard budget may not already be assigned, but access to funds and executive interest still determine whether the deal is worth pursuing.",
+  "steps": [
+    "Assess whether the organization has funds or capacity to invest if the problem is important enough.",
+    "Clarify authority, interest, and need so the initiative is more than casual curiosity.",
+    "Validate timing so the opportunity has a believable path to action."
+  ],
+  "example": "A fast-growing startup has no formal software budget line yet, but the VP and CFO both care about the operational problem. FAINT helps the rep understand that funds can be created if the need and timing are strong enough.",
+  "category": "qualification"
+}

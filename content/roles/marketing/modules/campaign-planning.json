@@ -1,0 +1,33 @@
+{
+  "slug": "campaign-planning",
+  "title": "Campaign Planning and Execution",
+  "shortSummary": "A marketing campaign is a coordinated effort to achieve a specific goal within a set timeframe. This module teaches you how to plan campaigns from brief to launch, coordinate across channels, manage timelines, and measure success.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "Random acts of marketing do not work. Campaigns give your efforts structure, focus, and measurability. Whether you are launching a product, running a seasonal promotion, or building awareness, campaign planning ensures every piece of content, every ad, and every email works together toward a single goal instead of pulling in different directions.",
+  "coreConcepts": [
+    "What makes a campaign different from ongoing marketing",
+    "The campaign brief: goals, audience, message, channels, timeline, budget",
+    "Setting SMART objectives for campaigns",
+    "Channel selection and integrated campaign strategy",
+    "Creative development: messaging, assets, and production",
+    "Campaign timelines and project management",
+    "Launch, monitor, and optimise: the campaign lifecycle",
+    "Post-campaign analysis and reporting"
+  ],
+  "lessons": ["planning-a-marketing-campaign"],
+  "frameworks": [
+    "campaign-planning-template",
+    "aida",
+    "kpi-cheat-sheet"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "paid-advertising",
+    "content-marketing",
+    "analytics-attribution-kpis"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 3
+}

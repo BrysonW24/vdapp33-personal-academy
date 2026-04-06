@@ -44,9 +44,11 @@ export default async function RoleToolDetailPage({
       : []
   })
 
-  const sourceSubject = tool.sourceMeta?.sourceSlug
-    ? getSubject(tool.sourceMeta.sourceSlug)
-    : null
+  const sourceSubject =
+    tool.sourceMeta?.sourceKind === "subject" && tool.sourceMeta.sourceSlug
+      ? getSubject(tool.sourceMeta.sourceSlug)
+      : null
+  const isRoleCoreTool = tool.sourceMeta?.sourceKind === "role"
   const guideRail = buildGuideRail({
     entity: { kind: "role", slug, name: role.name },
     whyThisMatters: `${tool.name} matters here because roles are partly shaped by the tools they trust, the workflows they inherit, and the outputs they are expected to produce.`,
@@ -69,7 +71,11 @@ export default async function RoleToolDetailPage({
     <div className="container mx-auto max-w-4xl px-4 py-10">
       <ProgressTracker
         slug={tool.slug}
-        subjectSlug={tool.sourceMeta?.sourceSlug}
+        subjectSlug={
+          tool.sourceMeta?.sourceKind === "subject"
+            ? tool.sourceMeta.sourceSlug
+            : undefined
+        }
         type="tool"
       />
 
@@ -89,6 +95,11 @@ export default async function RoleToolDetailPage({
         <span className="inline-block rounded-full bg-editorial-blue-soft px-2.5 py-0.5 text-xs font-medium text-editorial-blue">
           {humanize(tool.category)}
         </span>
+        {isRoleCoreTool ? (
+          <span className="inline-block rounded-full bg-editorial-violet-soft px-2.5 py-0.5 text-xs font-medium text-editorial-violet">
+            Core role material
+          </span>
+        ) : null}
         {sourceSubject ? (
           <Link
             href={`/${sourceSubject.slug}`}

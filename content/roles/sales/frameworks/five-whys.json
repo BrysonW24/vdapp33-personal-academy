@@ -1,0 +1,13 @@
+{
+  "slug": "five-whys",
+  "name": "5 Whys",
+  "summary": "A root-cause questioning technique that repeatedly asks why a problem exists until the underlying issue becomes visible.",
+  "whenToUseIt": "Use 5 Whys when the buyer gives you a symptom instead of a real business problem, especially in discovery, process diagnosis, and post-mortem style conversations.",
+  "steps": [
+    "Take the first stated problem at face value without challenging it immediately.",
+    "Ask why that problem exists, then ask why again as each deeper cause appears.",
+    "Stop once you reach a root cause that meaningfully changes the solution, urgency, or stakeholder picture."
+  ],
+  "example": "The buyer says rep onboarding takes too long. Why? Managers do it inconsistently. Why? There is no shared playbook. Why? Enablement content lives in too many tools. That root cause changes the deal conversation completely.",
+  "category": "discovery-questioning"
+}

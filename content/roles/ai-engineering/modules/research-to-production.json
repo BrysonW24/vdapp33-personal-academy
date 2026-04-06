@@ -1,0 +1,31 @@
+{
+  "slug": "research-to-production",
+  "title": "Data Pipelines for AI Products",
+  "shortSummary": "Build the ingestion, labeling, transformation, and handoff flows that keep AI products grounded in usable data.",
+  "track": "core-frontier",
+  "level": "advanced",
+  "category": "platform",
+  "whyItMatters": "A lot of frontier work fails because the data path is brittle. This module looks at how raw documents, events, evaluations, and annotations become reusable assets for AI products and internal tooling.",
+  "coreConcepts": [
+    "Data contracts for prompts, retrieval, and eval datasets",
+    "Ingestion pipelines, enrichment, and transformation",
+    "Dataset freshness, versioning, and rollback practices",
+    "The handoff between exploration, product, and platform teams",
+    "Why boring data plumbing is often the differentiator"
+  ],
+  "lessons": [
+    "research-to-production-handshake"
+  ],
+  "frameworks": [
+    "feature-engineering-playbook",
+    "ml-lifecycle"
+  ],
+  "relatedModules": [
+    "vector-databases-retrieval",
+    "mlops-deployment",
+    "system-design-for-ai"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

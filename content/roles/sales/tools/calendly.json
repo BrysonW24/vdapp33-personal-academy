@@ -1,0 +1,27 @@
+{
+  "slug": "calendly",
+  "name": "Calendly",
+  "category": "web-platforms",
+  "description": "An automated scheduling tool that eliminates the back-and-forth of booking meetings. Share a link, the prospect picks a time that works, and the meeting is automatically added to both calendars with a video conferencing link.",
+  "whyUseIt": "Every email exchange spent negotiating meeting times is friction that could kill a deal. Calendly removes that friction entirely. Your prospect clicks a link, sees your real-time availability, and books instantly. For SDRs booking discovery calls and AEs scheduling demos, Calendly can increase meeting booking rates by 30-50% compared to manual scheduling.",
+  "pricingTier": "freemium",
+  "url": "https://calendly.com",
+  "logoUrl": "/tools/calendly.svg",
+  "aiCapabilities": "Calendly's routing features automatically assign meetings to the right team member based on criteria like territory, deal size, or round-robin. Smart scheduling suggests optimal times based on past booking patterns.",
+  "alternatives": ["google-workspace"],
+  "funnelPosition": "Full funnel — meeting scheduling from first call through to renewal reviews",
+  "outputs": ["Booked meetings", "Calendar management", "Automated reminders", "Meeting analytics", "Routing and assignment"],
+  "sellerWorkflow": "Include your Calendly link in email signatures, outreach sequences, and LinkedIn messages. Set up different event types for different meetings (15-min intro, 30-min discovery, 60-min demo). Use round-robin for team scheduling.",
+  "managerExpects": "Calendly link in all outreach, appropriate event types configured, buffer times set between meetings, and booking analytics reviewed monthly.",
+  "demoDescription": "Create event types for different meeting types, set availability and buffer times, share the booking link, and review the analytics dashboard showing booking rates and popular times.",
+  "vocabulary": [
+    { "term": "Event Type", "definition": "A configured meeting template with specific duration, availability, and conferencing settings — e.g. '30-min Discovery Call'." },
+    { "term": "Round Robin", "definition": "Automatic distribution of meetings across team members based on availability and workload balancing." }
+  ],
+  "beginnerMistakes": [
+    "Not setting buffer times between meetings — back-to-back calls with no prep time is a recipe for poor performance",
+    "Using a single event type for all meetings — create different types for discovery, demo, and follow-up",
+    "Forgetting to integrate with your CRM — meetings booked via Calendly should automatically create activities"
+  ],
+  "relatedProject": "discovery-practice"
+}

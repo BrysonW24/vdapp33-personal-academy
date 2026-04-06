@@ -1,0 +1,64 @@
+{
+  "slug": "clickup",
+  "name": "ClickUp",
+  "category": "project-management",
+  "description": "An all-in-one productivity platform combining project management, docs, goals, and time tracking in a single tool.",
+  "whyUseIt": "ClickUp tries to replace multiple tools with one platform. It's highly customisable and offers views for every working style \u2014 lists, boards, Gantt charts, calendars, and more. Popular with marketing teams who want everything in one place.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "ClickUp Brain for AI writing, task summarisation, project updates, and automated standup reports.",
+  "alternatives": [
+    "Asana",
+    "Monday.com",
+    "Notion"
+  ],
+  "url": "https://clickup.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/clickup.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Campaign project plans with task dependencies",
+    "Marketing content calendars",
+    "Automated standup and status reports",
+    "Sprint and workload dashboards",
+    "Campaign briefs and documentation",
+    "Time tracking reports by project",
+    "Goal progress tracking summaries"
+  ],
+  "marketerWorkflow": "A marketer in ClickUp starts each day reviewing their task list and checking the board view for campaign progress across the team. They create tasks for new content requests, attach briefs and assets, set due dates, and assign teammates \u2014 then update task statuses as work moves through review and approval. Weekly, they pull dashboard views to report on campaign velocity and identify bottlenecks.",
+  "managerExpects": "A marketing manager expects to open ClickUp and immediately see campaign status without asking anyone \u2014 which tasks are on track, which are overdue, and where bottlenecks exist. They want clean sprint boards with consistent naming conventions, accurate time estimates, and regular use of status updates so the team's workload is transparent and forecasting is reliable.",
+  "aiWorkflowImpact": "ClickUp Brain auto-generates standup summaries from recent task activity, eliminating manual status update meetings. It drafts campaign briefs and task descriptions from bullet-point prompts, cutting planning documentation time significantly. AI-powered project insights flag at-risk deadlines and suggest task re-prioritisation before issues surface in team meetings.",
+  "demoDescription": "Create a free ClickUp workspace and set up a simple marketing campaign project with five tasks: brief, design, copy, review, and publish. Add due dates, assign a priority level to each, then switch between List, Board, and Calendar views to see how the same data looks in different formats. This exercise teaches you how flexible views work in project management tools.",
+  "vocabulary": [
+    {
+      "term": "Space",
+      "definition": "The highest-level organiser in ClickUp, typically representing a department or business unit like Marketing or Product."
+    },
+    {
+      "term": "List",
+      "definition": "A collection of tasks within a folder, often representing a specific project or campaign."
+    },
+    {
+      "term": "Custom Field",
+      "definition": "A user-defined data field added to tasks \u2014 such as campaign type, channel, or budget \u2014 enabling filtering and reporting."
+    },
+    {
+      "term": "ClickUp Brain",
+      "definition": "ClickUp's built-in AI that summarises projects, drafts content, generates standups, and answers questions about your workspace data."
+    },
+    {
+      "term": "Sprint",
+      "definition": "A time-boxed work period (usually one or two weeks) where the team commits to completing a defined set of tasks."
+    },
+    {
+      "term": "Dependency",
+      "definition": "A relationship between tasks where one task must be completed before another can start, ensuring correct sequencing."
+    }
+  ],
+  "beginnerMistakes": [
+    "Over-customising the workspace with too many custom fields, views, and statuses before understanding the basics",
+    "Creating tasks without clear assignees, due dates, or priority levels, making the board unreliable for tracking",
+    "Using ClickUp as a note-taking app instead of a project management tool \u2014 dumping information without actionable tasks",
+    "Not establishing naming conventions or folder structures, leading to a disorganised workspace that teammates cannot navigate",
+    "Skipping the habit of updating task statuses regularly, which makes dashboards and reports inaccurate"
+  ],
+  "relatedProject": "social-media-calendar"
+}

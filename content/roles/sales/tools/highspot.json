@@ -1,0 +1,27 @@
+{
+  "slug": "highspot",
+  "name": "Highspot",
+  "category": "project-management",
+  "description": "A sales enablement platform that organises, manages, and delivers sales content to reps at the right time. Highspot ensures reps always have the latest case studies, battle cards, one-pagers, and presentation decks at their fingertips.",
+  "whyUseIt": "Sales teams produce mountains of content — case studies, competitive battle cards, product one-pagers, demo scripts, email templates — but reps can never find what they need when they need it. Highspot solves this by organising content, recommending the right assets for each deal stage, and tracking which content actually helps close deals. It's the bridge between marketing's content creation and sales' content consumption.",
+  "pricingTier": "enterprise",
+  "url": "https://www.highspot.com",
+  "logoUrl": "/tools/highspot.svg",
+  "aiCapabilities": "Highspot AI recommends the most relevant content based on deal context, buyer persona, and stage. It also analyses which content correlates with higher win rates and shorter sales cycles.",
+  "alternatives": ["seismic", "showpad"],
+  "funnelPosition": "Full funnel — sales content management, delivery, and analytics",
+  "outputs": ["Content recommendations", "Sales playbooks", "Training courses", "Content performance analytics", "Buyer engagement tracking"],
+  "sellerWorkflow": "Before a meeting, reps search Highspot for relevant content (case studies, battle cards) or receive AI recommendations. During the meeting, they share content directly from the platform. After, they track whether the buyer engaged with shared materials. Marketing uses engagement data to create more of what works.",
+  "managerExpects": "Reps using approved, up-to-date content — not creating their own rogue slide decks. Content engagement data reviewed to understand what resonates with buyers.",
+  "demoDescription": "Search for content relevant to a specific deal, view AI recommendations, share a case study with a buyer via a trackable link, and review content analytics showing what buyers engaged with.",
+  "vocabulary": [
+    { "term": "SmartPage", "definition": "A guided selling experience that serves up the right content, messaging, and next steps based on the deal context." },
+    { "term": "Content Analytics", "definition": "Data showing which content is used most, which correlates with won deals, and which buyers engage with most." }
+  ],
+  "beginnerMistakes": [
+    "Creating your own content instead of checking Highspot first — the approved, tested content almost always outperforms DIY",
+    "Not sharing content via Highspot links — losing tracking and analytics",
+    "Ignoring content recommendations — the AI surfaces what works for similar deals"
+  ],
+  "relatedProject": "demo-deck"
+}

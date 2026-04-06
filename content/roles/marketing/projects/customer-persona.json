@@ -1,0 +1,26 @@
+{
+  "slug": "customer-persona",
+  "title": "Customer Persona Development",
+  "difficulty": 2,
+  "estimatedHours": 4,
+  "description": "Build 3 detailed customer personas for a real or fictional brand, based on research and interviews. You'll learn to define who your audience really is beyond basic demographics.",
+  "whyItMatters": "Every marketing decision starts with 'who is this for?' Personas transform vague audience descriptions into vivid, actionable profiles that guide copy, design, channel selection, and offer creation.",
+  "skillsLearned": ["Customer research", "Interview techniques", "Persona creation", "Audience segmentation", "Empathy mapping"],
+  "prerequisites": ["Complete the 'Understanding Your Customer' lesson"],
+  "steps": [
+    {"title": "Choose your subject", "description": "Pick a brand or business to create personas for. Could be a local café, an online store you like, or a fictional startup idea."},
+    {"title": "Conduct research interviews", "description": "Talk to 3-5 people who are or could be customers of this brand. Ask open-ended questions: What problem were you solving? How did you find the brand? What nearly stopped you from buying?", "tips": "Don't ask leading questions. Let people tell their story. The insights come from the unexpected details."},
+    {"title": "Identify patterns", "description": "Review your interview notes. What patterns emerge? Group similar people together — these groups become your persona segments."},
+    {"title": "Build 3 personas", "description": "For each persona, create a detailed profile: Name, age, job, goals, frustrations, media habits, decision triggers, preferred channels, objections to buying."},
+    {"title": "Add a day-in-the-life narrative", "description": "Write a short paragraph describing a typical day for each persona. This brings them to life and helps you understand their context."},
+    {"title": "Map personas to marketing implications", "description": "For each persona, write: What message resonates with them? Which channels reach them? What offer would convert them?"}
+  ],
+  "deliverables": ["3 detailed persona profiles (1 page each)", "Interview notes summary", "Persona-to-marketing-implication mapping", "One recommendation on which persona to prioritise"],
+  "tools": ["Google Docs", "Canva or Figma (for visual persona cards)", "A survey tool like Typeform (optional)"],
+  "rubric": [
+    {"criteria": "Research Quality", "description": "Personas are based on real conversations, not assumptions."},
+    {"criteria": "Depth of Detail", "description": "Each persona includes goals, frustrations, behaviours, and media habits — not just demographics."},
+    {"criteria": "Marketing Relevance", "description": "Each persona has clear marketing implications — channel, message, and offer recommendations."},
+    {"criteria": "Differentiation", "description": "The 3 personas are clearly distinct from each other, representing different segments."}
+  ]
+}

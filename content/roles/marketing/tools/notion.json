@@ -1,0 +1,46 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "category": "project-management",
+  "description": "An all-in-one workspace for notes, documents, project management, wikis, and databases. Highly flexible and customisable.",
+  "whyUseIt": "Notion is where marketing teams organise everything — content calendars, campaign briefs, brand guidelines, meeting notes, and project tracking. Its flexibility means it adapts to however your team works.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "Notion AI can write, summarise, translate, brainstorm, and extract action items from your documents and databases.",
+  "alternatives": [
+    "Asana",
+    "ClickUp",
+    "Confluence"
+  ],
+  "url": "https://www.notion.so",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/notion-2.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Campaign briefs and creative briefs",
+    "Content calendars with status tracking and assignments",
+    "Brand guideline wikis and style guides",
+    "Meeting notes with extracted action items",
+    "Marketing SOPs and process documentation",
+    "Competitive research databases",
+    "Project dashboards with timeline and Kanban views"
+  ],
+  "marketerWorkflow": "A marketer opens Notion each morning to check their task list, review upcoming campaign deadlines, and update the status of work in progress. They draft campaign briefs directly in Notion, link them to the content calendar database, and tag teammates for review and feedback. Throughout the week, they maintain the team wiki with updated brand assets, document learnings from completed campaigns, and use templates to standardise recurring workflows like blog post production.",
+  "managerExpects": "A marketing manager expects Notion to be the single source of truth for the team — every campaign brief, content calendar, and process document lives there and is kept current. They want to open a dashboard and immediately see project statuses, upcoming deadlines, and who owns what, without having to ask in Slack. Clean, well-organised workspaces signal that the team has its operations under control.",
+  "aiWorkflowImpact": "In 2025, Notion AI acts as an in-workspace assistant that can summarise lengthy campaign reports, draft first versions of briefs from bullet points, and auto-generate action items from meeting notes. The AI can query across your entire workspace — asking questions like 'what were the key learnings from Q1 campaigns?' and getting answers pulled from multiple pages. This eliminates the friction of switching between a writing tool and an AI tool.",
+  "demoDescription": "Create a free Notion account and build a simple content calendar database with columns for Title, Platform, Status (Draft/Review/Published), Publish Date, and Owner. Add five sample entries for an upcoming week of social content. Then create a linked Campaign Brief template page with sections for Objective, Target Audience, Key Messages, and Success Metrics.",
+  "vocabulary": [
+    { "term": "Database", "definition": "A structured collection of pages in Notion that can be viewed as tables, boards, calendars, timelines, or galleries — the foundation of most marketing workflows in Notion." },
+    { "term": "Template", "definition": "A pre-built page structure that can be duplicated for recurring work like campaign briefs, meeting notes, or blog post outlines, ensuring consistency." },
+    { "term": "Relation", "definition": "A property type that links entries across two different databases, such as connecting a campaign brief to its content calendar entries." },
+    { "term": "Wiki", "definition": "A collection of interconnected Notion pages that serves as a team knowledge base — commonly used for brand guidelines, processes, and onboarding materials." },
+    { "term": "Block", "definition": "The fundamental unit of content in Notion — every paragraph, image, toggle, database, or embed is a block that can be moved, nested, or transformed." },
+    { "term": "View", "definition": "A filtered and sorted perspective on a database — the same data can be displayed as a table, Kanban board, calendar, or timeline depending on the use case." }
+  ],
+  "beginnerMistakes": [
+    "Over-engineering the workspace with complex nested databases and relations before understanding the team's actual workflow needs",
+    "Creating pages and never organising them into a logical hierarchy, leading to an unsearchable mess within weeks",
+    "Building elaborate systems without using templates, forcing team members to recreate structures from scratch each time",
+    "Not establishing naming conventions or page ownership, resulting in duplicate pages and outdated information",
+    "Using Notion for real-time communication instead of async documentation — it replaces wikis and docs, not Slack"
+  ],
+  "relatedProject": "social-media-calendar"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "make",
+  "name": "Make (formerly Integromat)",
+  "category": "ai-automation",
+  "description": "A visual automation platform for creating complex workflows between apps, with more flexibility than Zapier for advanced scenarios.",
+  "whyUseIt": "Make is more powerful than Zapier for complex automations. Its visual workflow builder makes it easy to see data flowing between systems. Great for marketers who need sophisticated lead routing, data transformation, or multi-step processes.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI module for integrating ChatGPT/Claude into workflows, visual debugging, and scenario templates for common marketing automations.",
+  "alternatives": [
+    "Zapier",
+    "n8n",
+    "Power Automate"
+  ],
+  "url": "https://www.make.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/make.svg",
+  "funnelPosition": "Full funnel",
+  "outputs": [
+    "Automated lead routing workflows between CRM and email platforms",
+    "Multi-step data transformation scenarios",
+    "Scheduled reporting automations",
+    "Social media cross-posting workflows",
+    "Customer onboarding automation sequences",
+    "Webhook-triggered notification systems",
+    "AI-enriched data processing pipelines"
+  ],
+  "marketerWorkflow": "A marketer using Make builds visual automation scenarios by connecting trigger modules (like a new form submission) to action modules (like adding a contact to a CRM and sending a welcome email). They monitor the scenario dashboard for failed executions, review error logs, and adjust filters and routers to handle edge cases. Over time, they expand simple two-step automations into sophisticated multi-branch workflows that handle lead scoring, data enrichment, and cross-platform synchronisation.",
+  "managerExpects": "A marketing manager expects automations to eliminate repetitive manual tasks \u2014 lead entry, data syncing, report generation \u2014 and run reliably without constant supervision. They want documentation of each scenario's purpose and logic, alerts when automations fail, and measurable time savings reported. The team should be progressively automating more of the marketing operations stack rather than manually moving data between tools.",
+  "aiWorkflowImpact": "Make's AI modules let marketers insert GPT or Claude into any automation \u2014 for example, automatically summarising customer feedback, scoring lead quality from form responses, or generating personalised email content triggered by user behaviour. This turns static automations into intelligent workflows that adapt their output based on context. Visual debugging with AI-assisted error diagnosis reduces the troubleshooting time that previously made complex automations risky for non-technical users.",
+  "demoDescription": "Create a free Make account and build a simple two-step scenario: use a webhook trigger that accepts a name and email, then connect it to a Google Sheets module that logs the data in a spreadsheet. Test it by sending a sample webhook request. This teaches you the fundamental trigger-action pattern that underlies every automation you will build in Make.",
+  "vocabulary": [
+    {
+      "term": "Scenario",
+      "definition": "A complete automation workflow in Make, consisting of connected modules that execute in sequence when triggered."
+    },
+    {
+      "term": "Module",
+      "definition": "A single step in a scenario \u2014 either a trigger that starts the workflow, an action that does something, or a transformer that processes data."
+    },
+    {
+      "term": "Router",
+      "definition": "A module that splits a scenario into multiple paths based on conditions, allowing different actions depending on the data received."
+    },
+    {
+      "term": "Webhook",
+      "definition": "A URL endpoint that Make creates to receive real-time data from external systems, triggering a scenario instantly when data arrives."
+    },
+    {
+      "term": "Operations",
+      "definition": "Make's billing unit \u2014 each module execution in a scenario counts as one operation, and plans have monthly operation limits."
+    },
+    {
+      "term": "Data store",
+      "definition": "Make's built-in simple database for storing and retrieving data between scenario runs, useful for tracking state or accumulating records."
+    }
+  ],
+  "beginnerMistakes": [
+    "Building complex multi-branch scenarios before mastering simple two-step automations, leading to hard-to-debug failures",
+    "Not setting up error handling and notifications, so broken automations run silently and data gets lost",
+    "Ignoring the operations limit on their plan and building scenarios that consume the monthly quota in days",
+    "Hardcoding values instead of using variables and filters, making scenarios rigid and impossible to reuse for similar tasks",
+    "Not documenting what each scenario does, so teammates cannot understand, maintain, or modify automations when the original builder is unavailable"
+  ],
+  "relatedProject": "full-marketing-plan"
+}

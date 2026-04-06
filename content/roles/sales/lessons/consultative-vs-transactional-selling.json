@@ -1,0 +1,72 @@
+{
+  "slug": "consultative-vs-transactional-selling",
+  "moduleSlug": "what-sales-is",
+  "title": "Consultative vs Transactional Selling",
+  "objective": "Understand the difference between transactional and consultative selling, and learn why most B2B SaaS deals require diagnosis, not just persuasion.",
+  "beginnerExplanation": "Transactional selling happens when the buyer already knows what they want. Think of replacing a laptop charger, booking a standard software seat, or renewing a simple subscription. The buyer mostly needs speed, price clarity, and low friction. Consultative selling is different. The buyer knows something is wrong or something must improve, but they are not fully sure what the root problem is, what the cost of that problem is, or what the best path forward looks like. In that environment, your job is not to push. Your job is to help them think clearly, make trade-offs, and choose with confidence.",
+  "deeperExplanation": "The easiest way to separate the two motions is to look at risk and complexity. If the purchase is low-cost, low-risk, and easy to compare, transactional selling can work well. The buyer wants a quick answer and minimal meetings. If the purchase changes workflow, budget, headcount, data, or executive commitments, consultative selling wins because the buyer needs help making sense of the decision.\n\nConsultative selling usually follows a pattern. First, understand the current state: how the team works today, where the friction lives, and who feels it most. Second, quantify the gap: what the current approach costs in time, revenue, risk, or missed opportunity. Third, build the future state: what improvement matters, how success will be measured, and who must support the change. Fourth, guide the decision process: align stakeholders, remove risk, and create a path to action. That is why discovery, qualification, demos, business cases, and close plans matter so much in modern B2B sales.\n\nGreat sellers move between both motions. A skilled AE can be highly consultative in discovery, then highly transactional when the buyer is ready for legal, pricing, and signature steps. The mistake is assuming every deal should be rushed or every deal should be endlessly explored. Match the motion to the buyer's decision.",
+  "keyTakeaways": [
+    "Transactional selling works best when the buyer already knows what they want and the risk is low.",
+    "Consultative selling works best when the buyer needs help understanding the problem, the impact, and the path forward.",
+    "B2B SaaS deals usually require consultative work because they affect process, budget, and multiple stakeholders.",
+    "Risk and complexity determine the selling motion more than product category alone.",
+    "The best reps can shift from consultative diagnosis to efficient execution when the buyer is ready.",
+    "Diagnosis before prescription is what makes consultative selling feel helpful rather than pushy."
+  ],
+  "frameworks": [
+    "gap-selling",
+    "value-selling",
+    "challenger-sale"
+  ],
+  "example": "You sell workforce planning software. A 40-person services firm comes in asking for pricing because they have already shortlisted vendors and want a clean comparison. That deal may be mostly transactional. But a 1,200-person logistics company says overtime costs are exploding, managers cannot forecast staffing needs, and finance has lost confidence in labour planning. That deal is consultative. You will need discovery with operations, finance, and HR, a quantified business case, and a rollout plan. Same product family, completely different sales motion.",
+  "commonMistakes": [
+    "Running a transactional pitch on a consultative deal and skipping diagnosis",
+    "Turning a simple, ready-to-buy deal into a slow consulting project with too many meetings",
+    "Confusing friendliness with consultative selling - the value comes from insight and structure",
+    "Assuming the buyer's stated problem is the real problem without testing it",
+    "Trying to sound persuasive before you sound credible"
+  ],
+  "exercise": "Choose two products you know well. For each one, describe a transactional buying situation and a consultative buying situation. Then write three signs that would tell you which motion you should use in a real call: decision complexity, stakeholder count, urgency, budget scrutiny, or implementation risk.",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "When is transactional selling most appropriate?",
+      "options": [
+        "When the buyer has a complex change project with many stakeholders",
+        "When the buyer already knows what they want and risk is low",
+        "When the AE wants to shorten the sales cycle at any cost",
+        "When the product is expensive and highly customised"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transactional selling is best when the buyer is clear on the need, the stakes are low, and the process should be simple."
+    },
+    {
+      "question": "What is the core job of a consultative seller?",
+      "options": [
+        "To create urgency through pressure",
+        "To explain every product feature in detail",
+        "To help the buyer diagnose the problem and make a confident decision",
+        "To avoid qualifying until the proposal stage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consultative selling is about diagnosis, clarity, and decision support, not pressure or product dumping."
+    },
+    {
+      "question": "Which factor most strongly suggests a consultative motion is needed?",
+      "options": [
+        "The buyer wants a pricing sheet",
+        "The deal affects workflow, budget, and multiple stakeholders",
+        "The AE prefers longer conversations",
+        "The product has a free trial"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the purchase affects several teams and carries real change risk, consultative work becomes essential."
+    }
+  ],
+  "perspectives": {
+    "ae": "An AE should ask early: is this a simple transaction or a decision that needs guidance? That answer changes everything from discovery depth to demo design.",
+    "manager": "Managers coach reps to match the selling motion to the deal. Overcomplicating simple deals wastes time, but under-discovering complex ones kills forecast accuracy.",
+    "vp": "A VP wants the team to standardise where consultative depth is required and where process efficiency should dominate. That improves cycle time without hurting win rate.",
+    "cro": "A CRO sees consultative selling as a revenue quality lever. It produces cleaner qualification, stronger retention, and fewer deals that should never have been sold."
+  }
+}

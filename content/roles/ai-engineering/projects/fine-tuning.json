@@ -1,0 +1,84 @@
+{
+  "slug": "fine-tuning",
+  "title": "Frontier Fine-Tuning Lab",
+  "difficulty": 6,
+  "estimatedHours": 10,
+  "description": "Run a focused fine-tuning workflow and compare it against prompt-only and retrieval-based alternatives so you can defend the decision to adapt a model.",
+  "whyItMatters": "Fine-tuning is no longer the default move, which makes judgment around when to use it more valuable. This project teaches that judgment.",
+  "skillsLearned": [
+    "Training data preparation",
+    "Hugging Face fine-tuning workflow",
+    "LoRA and parameter-efficient fine-tuning",
+    "Evaluation of fine-tuned vs base models",
+    "Training cost estimation",
+    "Hyperparameter selection for fine-tuning"
+  ],
+  "prerequisites": [
+    "Complete the LLM Engineering module",
+    "Complete the Image Classifier project (for training loop familiarity)"
+  ],
+  "steps": [
+    {
+      "title": "Choose a fine-tuning task",
+      "description": "Pick a specific task where fine-tuning makes sense: email classification, code generation for a specific framework, domain-specific Q&A, or structured data extraction from unstructured text.",
+      "tips": "Fine-tuning works best when you need consistent output format or domain-specific knowledge, not general intelligence."
+    },
+    {
+      "title": "Prepare training data",
+      "description": "Create or collect at least 100 training examples (ideally 500+). Each example should be an input/output pair in the format your task requires. Split into train/validation sets. Quality matters more than quantity."
+    },
+    {
+      "title": "Choose a base model",
+      "description": "Select a model to fine-tune. For learning: Llama 3 8B or Mistral 7B (open-source, can run locally). For production: OpenAI fine-tuning API or Anthropic fine-tuning (easier but less control)."
+    },
+    {
+      "title": "Fine-tune with LoRA",
+      "description": "Use LoRA (Low-Rank Adaptation) for parameter-efficient fine-tuning — it trains only a small number of adapter parameters instead of the full model, dramatically reducing compute and memory requirements. Use the Hugging Face PEFT library."
+    },
+    {
+      "title": "Evaluate against baseline",
+      "description": "Run both the base model (with prompting) and the fine-tuned model on a held-out test set. Compare accuracy, consistency, and output quality. Is fine-tuning actually better for this task?"
+    },
+    {
+      "title": "Iterate on data quality",
+      "description": "Look at examples where the fine-tuned model fails. Are the failures due to bad training data? Add more examples in the areas where the model struggles. Retrain and re-evaluate."
+    },
+    {
+      "title": "Document the decision",
+      "description": "Write a brief report: task description, why fine-tuning was chosen over prompting, data preparation approach, results comparison, cost analysis (training cost vs API cost savings), and recommendations."
+    }
+  ],
+  "deliverables": [
+    "Fine-tuned model with LoRA adapters",
+    "Training dataset (cleaned and formatted)",
+    "Evaluation comparison: fine-tuned vs base model with prompting",
+    "Cost analysis document",
+    "Decision report: when to fine-tune vs prompt"
+  ],
+  "tools": [
+    "Python",
+    "Hugging Face Transformers and PEFT",
+    "PyTorch",
+    "Weights & Biases (for tracking)",
+    "Google Colab or similar GPU access"
+  ],
+  "rubric": [
+    {
+      "criteria": "Data Quality",
+      "description": "Training data is clean, well-formatted, and representative of the target task. At least 100 high-quality examples."
+    },
+    {
+      "criteria": "Fine-Tuning Process",
+      "description": "LoRA fine-tuning completes successfully with documented hyperparameters. Training loss shows proper convergence."
+    },
+    {
+      "criteria": "Evaluation Rigour",
+      "description": "Systematic comparison between fine-tuned and base model on held-out data. Multiple metrics reported."
+    },
+    {
+      "criteria": "Decision Analysis",
+      "description": "Clear, honest assessment of whether fine-tuning was worth it for this task, with cost and quality tradeoffs documented."
+    }
+  ],
+  "track": "classical-ml"
+}

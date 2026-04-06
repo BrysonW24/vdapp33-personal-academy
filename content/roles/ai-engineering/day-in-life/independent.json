@@ -1,0 +1,123 @@
+{
+  "slug": "independent",
+  "title": "Independent AI Consultant",
+  "setting": "Independent consultant / contractor",
+  "companySize": "Solo (serving 2-5 clients)",
+  "description": "You're an independent AI consultant working with multiple clients. You help businesses implement AI solutions — from strategy and architecture to hands-on model building and deployment. You set your own rates, choose your projects, and build a reputation as a specialist.",
+  "salary": "$150,000 - $400,000+ AUD (highly variable)",
+  "schedule": [
+    {
+      "time": "8:00 AM",
+      "activity": "Morning routine — review client Slack channels, check overnight model training results",
+      "tools": [
+        "Slack",
+        "W&B"
+      ]
+    },
+    {
+      "time": "8:30 AM",
+      "activity": "Client A: Build a RAG pipeline for their internal knowledge base",
+      "tools": [
+        "LangChain",
+        "Pinecone",
+        "Claude API"
+      ]
+    },
+    {
+      "time": "10:30 AM",
+      "activity": "Client B: Strategy call — assess whether they need custom fine-tuning or if prompt engineering is sufficient",
+      "tools": [
+        "Zoom",
+        "Notion"
+      ]
+    },
+    {
+      "time": "11:30 AM",
+      "activity": "Write a technical proposal for a new client — scope, architecture, timeline, pricing",
+      "tools": [
+        "Google Docs",
+        "Notion"
+      ]
+    },
+    {
+      "time": "12:00 PM",
+      "activity": "Lunch and walk — protect your energy, you're the entire team"
+    },
+    {
+      "time": "1:00 PM",
+      "activity": "Client A: Deploy the RAG pipeline to production, set up monitoring",
+      "tools": [
+        "FastAPI",
+        "Docker",
+        "AWS"
+      ]
+    },
+    {
+      "time": "2:30 PM",
+      "activity": "Professional development — take an online course module, read papers, experiment with new tools",
+      "tools": [
+        "Coursera",
+        "arXiv",
+        "Jupyter"
+      ]
+    },
+    {
+      "time": "3:30 PM",
+      "activity": "Client C: Review and optimise their model inference costs — quantisation, batching, caching",
+      "tools": [
+        "PyTorch",
+        "ONNX",
+        "vLLM"
+      ]
+    },
+    {
+      "time": "4:30 PM",
+      "activity": "Admin: send invoices, update project trackers, follow up on a late payment",
+      "tools": [
+        "Xero",
+        "Notion"
+      ]
+    },
+    {
+      "time": "5:00 PM",
+      "activity": "Network: coffee with a former colleague who might refer a project"
+    },
+    {
+      "time": "5:30 PM",
+      "activity": "Wrap up: update client project boards, plan tomorrow"
+    }
+  ],
+  "responsibilities": [
+    "Assess client AI readiness and recommend solutions",
+    "Architect and build AI systems end-to-end",
+    "Manage multiple client projects simultaneously",
+    "Write proposals, scope projects, negotiate contracts",
+    "Stay current with rapidly evolving AI tools and models",
+    "Handle your own business admin (invoicing, tax, insurance)",
+    "Build and maintain your professional network",
+    "Build your reputation — your own business still needs visibility and trust"
+  ],
+  "challenges": [
+    "Inconsistent income — feast or famine cycles",
+    "Staying current when the field moves this fast",
+    "Scope creep from clients who keep adding requirements",
+    "Being the sole decision-maker with no team to consult",
+    "Explaining complex AI concepts to non-technical clients",
+    "Managing client expectations around what AI can and can't do"
+  ],
+  "rewards": [
+    "Complete freedom over schedule, clients, and technology choices",
+    "Highest earning potential in AI — rates of $200-400/hour are common",
+    "Variety — every client is a different problem domain",
+    "Build deep expertise across multiple industries",
+    "No corporate politics or pointless meetings",
+    "Build something that's truly yours"
+  ],
+  "careerPath": [
+    "AI Engineer at a company (2-5 years to build skills and reputation)",
+    "Start consulting part-time alongside your job",
+    "Go full-time independent (year 4-6)",
+    "Scale to a boutique AI consultancy with 2-4 engineers",
+    "Or: become a fractional CTO/Head of AI for multiple companies"
+  ]
+}

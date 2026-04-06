@@ -1,0 +1,13 @@
+{
+  "slug": "quantification-questions",
+  "name": "Quantification Questions",
+  "summary": "Questions designed to turn vague pain into measurable business impact such as revenue, time, risk, headcount, or cost.",
+  "whenToUseIt": "Use quantification questions once a buyer has admitted a problem and you need to build urgency, defend value, or prepare a business case that will hold up internally.",
+  "steps": [
+    "Identify the process or problem that is currently creating friction.",
+    "Ask for scale, frequency, and consequence in business terms such as hours, dollars, delays, or error rates.",
+    "Translate the answer into an outcome that can support priority and investment."
+  ],
+  "example": "A buyer says proposal generation is messy. You ask how many proposals go out per month, how long each one takes, and what happens when quotes are delayed. The issue becomes a measurable productivity and deal-speed problem.",
+  "category": "discovery-questioning"
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "red-line-control",
+  "name": "Red-Line Control",
+  "summary": "A negotiation discipline that makes the seller's non-negotiable commercial or legal boundaries explicit before the conversation starts.",
+  "whenToUseIt": "Use red-line control in every meaningful commercial negotiation so the team knows what cannot be traded away because of margin, risk, or precedent.",
+  "steps": [
+    "Define the minimum commercial and legal boundaries internally before negotiation begins.",
+    "Align the deal team on what requires escalation and what does not.",
+    "Use those lines to protect the deal from reactive concessions under pressure."
+  ],
+  "example": "The AE knows that uncapped liability and a below-floor discount both require executive approval, so those requests are handled calmly instead of improvised live.",
+  "category": "negotiation"
+}

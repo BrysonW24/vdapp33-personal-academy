@@ -1,0 +1,13 @@
+{
+  "slug": "funnel-questioning",
+  "name": "Funnel Questioning",
+  "summary": "A questioning approach that starts broad and then narrows into specifics so the rep can move from context to detail without making the conversation feel abrupt.",
+  "whenToUseIt": "Use funnel questioning early in discovery, qualification, and objection handling when you need the buyer to explain the broader context before drilling into process, pain, and consequences.",
+  "steps": [
+    "Begin with broad context questions that help the buyer explain the current environment.",
+    "Narrow into process, friction, and stakeholder detail based on the buyer's answers.",
+    "Finish with implication or quantification questions once the specific issue is clear."
+  ],
+  "example": "You begin with, 'How does forecasting work today?' then move to, 'Where does confidence usually break down?' and finally, 'What does that miss do to hiring or spend decisions this quarter?'",
+  "category": "discovery-questioning"
+}

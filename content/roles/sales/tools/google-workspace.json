@@ -1,0 +1,27 @@
+{
+  "slug": "google-workspace",
+  "name": "Google Workspace",
+  "category": "project-management",
+  "description": "Google's suite of productivity tools — Gmail, Calendar, Drive, Docs, Sheets, Slides, and Meet. The foundation of daily work for most sales professionals. If you use email, calendars, and documents, you're using Google Workspace (or its Microsoft equivalent).",
+  "whyUseIt": "Google Workspace is your daily operating system. Gmail with send-later and templates, Calendar for meeting scheduling, Sheets for pipeline tracking and analysis, Slides for presentations, and Docs for proposals and meeting notes. Mastering these basics — email productivity, calendar management, spreadsheet skills — is the foundation for everything else.",
+  "pricingTier": "paid",
+  "url": "https://workspace.google.com",
+  "logoUrl": "/tools/google-workspace.svg",
+  "aiCapabilities": "Gemini AI assists across Workspace: drafting emails in Gmail, generating content in Docs, creating formulas in Sheets, building presentations in Slides, and summarising meetings in Meet.",
+  "alternatives": ["notion-sales"],
+  "funnelPosition": "Full funnel — daily productivity across all sales activities",
+  "outputs": ["Emails and templates", "Meeting schedules", "Proposals and documents", "Pipeline spreadsheets", "Presentation decks"],
+  "sellerWorkflow": "Reps manage their email workflow in Gmail (templates, scheduling, tracking), organise their day in Calendar, build proposals in Docs, create demo decks in Slides, analyse pipeline data in Sheets, and host meetings on Meet.",
+  "managerExpects": "Professional email communication, well-organised calendar, timely meeting scheduling, and clean document management. Documents shared internally are well-formatted and use consistent naming.",
+  "demoDescription": "Set up email templates in Gmail for common follow-ups, create a pipeline tracking spreadsheet in Sheets, schedule a meeting with calendar integration, and draft a proposal in Docs.",
+  "vocabulary": [
+    { "term": "Email Template", "definition": "A pre-written email that can be inserted with one click — used for common follow-ups, meeting confirmations, and outreach messages." },
+    { "term": "Shared Drive", "definition": "A team-owned storage space where documents are owned by the team rather than individuals — ensuring continuity when people leave." }
+  ],
+  "beginnerMistakes": [
+    "Not using email templates for repetitive messages — rewriting the same follow-up email every time",
+    "Poor calendar management — double-booking, not leaving buffer time between calls, no prep time blocked",
+    "Sending proposals as attachments instead of shared links — losing the ability to track views and make updates"
+  ],
+  "relatedProject": "proposal-writing"
+}

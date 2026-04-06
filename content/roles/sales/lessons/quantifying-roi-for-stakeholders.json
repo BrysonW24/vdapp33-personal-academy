@@ -1,0 +1,72 @@
+{
+  "slug": "quantifying-roi-for-stakeholders",
+  "moduleSlug": "value-propositions-for-sales",
+  "title": "Quantifying ROI for Different Stakeholders",
+  "objective": "Learn to turn a value proposition into numbers that matter to finance, operations, executives, and champions inside the account.",
+  "beginnerExplanation": "A value proposition becomes much more convincing when the buyer can see the maths. Not every stakeholder needs a massive spreadsheet, but every serious deal needs a clear answer to one question: what business return will this create? The important part is that different stakeholders care about different returns. Finance may care about payback and margin. Operations may care about productivity and error reduction. Executives may care about strategic speed or risk. Your job is to translate one solution into several stakeholder-specific outcomes.",
+  "deeperExplanation": "A simple ROI model usually starts with three buckets. First, savings: time recovered, manual work removed, reduced contractor spend, lower error rates, fewer lost opportunities. Second, revenue impact: pipeline created faster, win rate improvement, expansion capacity, reduced churn, increased average deal size. Third, risk reduction: audit readiness, security improvement, less forecast volatility, better compliance, lower reliance on tribal knowledge.\n\nDo not overcomplicate the first model. Use conservative assumptions. Show your inputs. If the buyer does not trust the assumptions, the model dies. A useful structure is: current baseline, likely improvement range, annual impact, investment required, and payback period. Conservative numbers win credibility. Inflated numbers kill it.\n\nThe real skill is tailoring the emphasis. A CFO might focus on payback period and downside protection. A VP of Sales may focus on ramp speed, win rate, and forecast confidence. A frontline manager may care most about coaching time saved and rep consistency. Same solution, different economic story.",
+  "keyTakeaways": [
+    "A strong value proposition gets stronger when it is translated into simple business maths.",
+    "Use conservative assumptions and make the inputs visible.",
+    "Savings, revenue impact, and risk reduction are the three main ROI buckets.",
+    "Different stakeholders care about different slices of the same value story.",
+    "Payback period is often easier for executives to trust than abstract ROI percentages.",
+    "If the buyer cannot repeat the value case internally, the deal becomes fragile."
+  ],
+  "frameworks": [
+    "value-selling",
+    "meddic",
+    "command-of-the-message"
+  ],
+  "example": "You sell proposal automation software. Current state: six AEs each spend about four hours per week building proposals manually, and average proposal turnaround is three business days. With fully loaded AE cost at $120K, that admin time alone is worth roughly $72K per year. Faster turnaround also improves close timing on late-stage deals. If you estimate even one additional closed deal per quarter from improved proposal speed and consistency, the revenue impact could exceed the labour savings. For finance, the story is time recovered plus faster revenue. For sales leadership, the story is deal velocity plus better commercial control.",
+  "commonMistakes": [
+    "Using heroic assumptions that no serious buyer will trust",
+    "Showing one generic ROI model to every stakeholder",
+    "Forgetting to quantify risk reduction because it feels less tangible",
+    "Making the spreadsheet so complex that the champion cannot explain it internally",
+    "Treating ROI as a pricing defence only at the end of the deal"
+  ],
+  "exercise": "Take one product you know and build a one-page ROI model with five rows: current cost, expected improvement, annual value, investment, payback period. Then rewrite the summary for three audiences: CFO, operational leader, and executive sponsor.",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "What makes an ROI model more credible?",
+      "options": [
+        "Using the biggest number you can justify",
+        "Using conservative assumptions and showing the inputs",
+        "Removing risk reduction because it is hard to measure",
+        "Only discussing revenue upside"
+      ],
+      "correctIndex": 1,
+      "explanation": "Credibility comes from clear assumptions and conservative maths the buyer can defend internally."
+    },
+    {
+      "question": "Which stakeholder is most likely to care about payback period?",
+      "options": [
+        "The end user only",
+        "Finance leadership",
+        "The SDR who booked the meeting",
+        "The marketing intern"
+      ],
+      "correctIndex": 1,
+      "explanation": "Finance leaders often want to know how quickly the investment returns the money spent."
+    },
+    {
+      "question": "Why should a champion understand your ROI case?",
+      "options": [
+        "So they can negotiate against you",
+        "So they can sell the decision internally when you are not in the room",
+        "So they can avoid procurement",
+        "So they can shorten the legal review"
+      ],
+      "correctIndex": 1,
+      "explanation": "Your champion needs a simple, defensible story they can repeat internally."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should build lightweight ROI models early enough to shape the deal, not only to defend price at the end.",
+    "manager": "Managers can raise deal quality by checking whether the rep has quantified value in a way the buyer can repeat.",
+    "vp": "A VP wants ROI models that reinforce forecast confidence and reduce unnecessary discounting.",
+    "cfo": "A CFO cares less about product excitement and more about credible assumptions, downside protection, and payback."
+  }
+}

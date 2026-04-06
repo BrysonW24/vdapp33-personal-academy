@@ -1,0 +1,63 @@
+{
+  "slug": "pipedrive",
+  "name": "Pipedrive",
+  "category": "crm",
+  "description": "A sales-focused CRM with a visual pipeline that makes it easy to track deals and manage customer relationships.",
+  "whyUseIt": "Pipedrive is the simplest CRM to learn and use. Its visual deal pipeline is intuitive, and it's great for small businesses and startups where the marketing team works closely with sales.",
+  "pricingTier": "paid",
+  "aiCapabilities": "AI sales assistant that suggests next actions, automated lead scoring, and smart contact data enrichment.",
+  "alternatives": [
+    "HubSpot",
+    "Close",
+    "Freshsales"
+  ],
+  "url": "https://www.pipedrive.com",
+  "funnelPosition": "Bottom of funnel \u2014 Conversion",
+  "outputs": [
+    "Visual deal pipeline views by stage",
+    "Sales activity and revenue forecast reports",
+    "Automated follow-up email sequences",
+    "Lead and deal conversion rate analytics",
+    "Contact and company relationship records",
+    "Win/loss analysis reports",
+    "Custom sales dashboard summaries"
+  ],
+  "marketerWorkflow": "A marketer working with Pipedrive logs new leads from campaigns, ensuring each contact has source attribution and relevant tags. They track marketing-qualified leads as they move through the sales pipeline, monitoring conversion rates at each stage to identify where leads stall. Weekly, they pull reports comparing lead quality across campaigns and share pipeline metrics with sales to align on follow-up priorities and messaging adjustments.",
+  "managerExpects": "A marketing manager expects to see clean pipeline data with accurate lead source attribution so they can calculate marketing's contribution to revenue. They want deal stage conversion rates broken down by campaign and channel, showing which marketing efforts produce leads that actually close. Regular pipeline reviews should highlight stuck deals, forecast accuracy, and the average time from marketing-qualified lead to closed deal.",
+  "aiWorkflowImpact": "Pipedrive's AI assistant now analyses deal patterns and suggests the optimal next action for each opportunity \u2014 whether to call, email, or wait \u2014 reducing decision fatigue for sales teams following up on marketing leads. Automated lead scoring uses historical conversion data to rank incoming leads, helping marketing and sales prioritise high-potential contacts. Smart contact enrichment auto-fills company details, saving the manual research step that previously slowed down lead qualification.",
+  "demoDescription": "Sign up for Pipedrive's free trial and create a five-stage deal pipeline: Lead, Qualified, Proposal, Negotiation, and Won. Add three fictional deals with different values and move them through the stages. Then create a simple activity reminder for each deal \u2014 a call or email follow-up. This exercise teaches you how CRM pipelines work and why activity-based selling is the foundation of modern sales management.",
+  "vocabulary": [
+    {
+      "term": "Pipeline",
+      "definition": "A visual representation of your sales process, divided into stages that deals move through from initial contact to close."
+    },
+    {
+      "term": "Deal",
+      "definition": "A potential sale tracked in Pipedrive, associated with a contact or organisation, with a monetary value and expected close date."
+    },
+    {
+      "term": "Activity",
+      "definition": "A scheduled sales action \u2014 call, email, meeting \u2014 linked to a deal or contact, forming the basis of Pipedrive's activity-driven methodology."
+    },
+    {
+      "term": "Lead scoring",
+      "definition": "An automated system that ranks leads by their likelihood to convert, based on demographic data, engagement signals, and historical patterns."
+    },
+    {
+      "term": "Rotting deal",
+      "definition": "A deal that has been sitting in the same pipeline stage for longer than the expected duration, signalling it needs attention or should be disqualified."
+    },
+    {
+      "term": "Win rate",
+      "definition": "The percentage of deals that reach the Won stage out of all deals that entered the pipeline \u2014 a key indicator of sales and marketing alignment."
+    }
+  ],
+  "beginnerMistakes": [
+    "Not defining clear criteria for each pipeline stage, so deals get moved forward prematurely and forecast accuracy suffers",
+    "Failing to log activities (calls, emails, meetings) consistently, which makes it impossible to analyse what sales actions drive conversions",
+    "Letting the pipeline fill with stale deals instead of regularly disqualifying leads that are not progressing",
+    "Not setting up lead source tracking, making it impossible to attribute revenue back to specific marketing campaigns",
+    "Using Pipedrive as a contact database rather than an activity-driven sales tool \u2014 storing names without attaching next steps"
+  ],
+  "relatedProject": "gtm-strategy"
+}

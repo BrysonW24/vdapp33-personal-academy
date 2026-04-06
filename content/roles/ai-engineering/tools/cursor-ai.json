@@ -1,0 +1,14 @@
+{
+  "slug": "cursor-ai",
+  "name": "Cursor",
+  "category": "developer-tooling",
+  "description": "An AI-first code editor built on VS Code. Deep AI integration for code generation, editing, and understanding across your entire codebase.",
+  "whyUseIt": "Cursor is the most advanced AI coding tool. It understands your full codebase context, can generate and refactor code with natural language, and has Composer for multi-file edits. Purpose-built for AI-assisted development.",
+  "pricingTier": "freemium",
+  "url": "https://cursor.com",
+  "alternatives": [
+    "VS Code + Copilot",
+    "Windsurf",
+    "Zed"
+  ]
+}

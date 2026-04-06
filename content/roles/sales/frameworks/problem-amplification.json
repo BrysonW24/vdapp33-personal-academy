@@ -1,0 +1,13 @@
+{
+  "slug": "problem-amplification",
+  "name": "Problem Amplification",
+  "summary": "A questioning technique that helps the buyer feel the business consequences of the current problem more clearly so urgency becomes real.",
+  "whenToUseIt": "Use problem amplification after the buyer has admitted a pain point but before the value case or close plan is fully built. It is especially useful when the status quo still feels safer than change.",
+  "steps": [
+    "Confirm the current problem in the buyer's own language.",
+    "Explore the downstream impact on time, revenue, risk, team morale, or customer outcomes.",
+    "Ask what happens if the problem stays unresolved for another quarter or year."
+  ],
+  "example": "A buyer admits forecast misses are frustrating. You amplify by asking how those misses affect hiring decisions, board confidence, and manager credibility if they continue through the next two quarters.",
+  "category": "discovery-questioning"
+}

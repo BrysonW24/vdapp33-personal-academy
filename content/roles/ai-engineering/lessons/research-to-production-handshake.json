@@ -1,0 +1,25 @@
+{
+  "slug": "research-to-production-handshake",
+  "moduleSlug": "research-to-production",
+  "title": "From Raw Inputs to Production-Ready AI Data",
+  "objective": "See how ingestion, dataset shape, and ownership determine product reliability later on.",
+  "beginnerExplanation": "Every AI system depends on a data path. Documents, events, annotations, or feedback have to be collected, cleaned, enriched, versioned, and moved into the systems that use them.",
+  "deeperExplanation": "The strongest teams treat data plumbing as a product-quality function. They track freshness, ownership, schema drift, and rollout risk because small upstream issues can create large downstream failures in retrieval, evals, or user-facing outputs.",
+  "keyTakeaways": [
+    "Data contracts make AI systems more stable.",
+    "Versioning matters for datasets and prompts, not just models.",
+    "Upstream quality issues usually show up later as confusing product failures."
+  ],
+  "frameworks": [
+    "feature-engineering-playbook",
+    "ml-lifecycle"
+  ],
+  "example": "A support automation product ingests tickets, sanitizes PII, enriches metadata, versions training and eval snapshots, and alerts the team when schema changes break extraction logic.",
+  "commonMistakes": [
+    "Treating ingestion as a one-time setup task.",
+    "Skipping versioning for datasets and annotations.",
+    "Losing ownership when multiple teams touch the same data path."
+  ],
+  "exercise": "Document the upstream inputs, transformations, ownership rules, and freshness checks for a retrieval or eval pipeline you would trust in production.",
+  "order": 1
+}

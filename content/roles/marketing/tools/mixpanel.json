@@ -1,0 +1,45 @@
+{
+  "slug": "mixpanel",
+  "name": "Mixpanel",
+  "category": "analytics",
+  "description": "A product analytics platform focused on tracking user actions and events within web and mobile applications.",
+  "whyUseIt": "Mixpanel excels at understanding user behaviour within products — which features they use, where they drop off, and what drives retention. Essential for SaaS and app marketing.",
+  "pricingTier": "freemium",
+  "alternatives": [
+    "Amplitude",
+    "Google Analytics",
+    "Heap"
+  ],
+  "url": "https://mixpanel.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/mixpanel.svg",
+  "funnelPosition": "Bottom of funnel — Conversion",
+  "outputs": [
+    "Conversion funnel analysis reports",
+    "User retention cohort charts",
+    "Event-based engagement dashboards",
+    "A/B test performance comparisons",
+    "User flow and drop-off visualisations",
+    "Custom real-time metric alerts",
+    "Segmented behavioural reports by user property"
+  ],
+  "marketerWorkflow": "A marketer using Mixpanel defines key events to track — sign-ups, feature usage, purchases — and builds funnel reports to see where users drop off in critical journeys. They create cohort analyses to understand whether users acquired from different campaigns have different retention rates, and set up saved reports that update automatically. When running experiments, they use Mixpanel to compare conversion rates between variants and determine statistical significance.",
+  "managerExpects": "A marketing manager expects clear funnel conversion metrics showing where users drop off between acquisition and purchase, with actionable insights on why. They want retention cohort analysis proving that marketing-acquired users are not just signing up but continuing to engage over time. Campaign-level attribution data should demonstrate which channels deliver users with the highest lifetime value, not just the lowest cost per acquisition.",
+  "aiWorkflowImpact": "Mixpanel's AI features now let marketers ask natural language questions about their data — for example, 'Which user segment has the highest retention this month?' — and receive instant chart-based answers without writing queries. Anomaly detection automatically surfaces unexpected changes in key metrics, eliminating the need for manual monitoring. AI-powered insight summaries generate executive-ready narratives from complex data, cutting report preparation time significantly.",
+  "demoDescription": "Sign up for Mixpanel's free plan and use their sample demo dataset to explore product analytics without needing your own data. Build a three-step conversion funnel (e.g., page view to sign-up to purchase), then create a retention cohort analysis to see how many users return after their first visit. This exercise teaches you the difference between acquisition analytics and product analytics.",
+  "vocabulary": [
+    { "term": "Event", "definition": "A specific user action tracked in Mixpanel, such as 'Signed Up', 'Added to Cart', or 'Viewed Page' — the building block of all analyses." },
+    { "term": "Funnel", "definition": "A multi-step analysis showing the conversion rate between sequential events, revealing where users drop off in a journey." },
+    { "term": "Cohort", "definition": "A group of users defined by a shared characteristic or timeframe (e.g., all users who signed up in March), used to compare behaviour across groups." },
+    { "term": "Retention", "definition": "A metric measuring how many users return to your product after their first visit or sign-up, typically displayed as a cohort curve over time." },
+    { "term": "User properties", "definition": "Attributes attached to individual users — such as plan type, acquisition channel, or location — used to segment and filter analyses." },
+    { "term": "Segmentation", "definition": "Breaking down metrics by user properties or event properties to compare performance across different groups — essential for finding actionable insights." }
+  ],
+  "beginnerMistakes": [
+    "Tracking too many events without a clear measurement plan, resulting in noisy data that is difficult to analyse meaningfully",
+    "Confusing Mixpanel's event-based model with Google Analytics' session-based model, leading to misinterpretation of metrics",
+    "Not defining a clear conversion funnel before implementation, which makes it impossible to measure what matters most to the business",
+    "Ignoring retention analysis in favour of vanity metrics like total sign-ups, missing the signal about whether users actually stay",
+    "Failing to set up user properties during implementation, which prevents segmentation and makes it impossible to compare cohorts by acquisition channel"
+  ],
+  "relatedProject": "analytics-dashboard"
+}

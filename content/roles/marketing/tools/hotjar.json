@@ -1,0 +1,64 @@
+{
+  "slug": "hotjar",
+  "name": "Hotjar",
+  "category": "analytics",
+  "description": "A behaviour analytics tool that provides heatmaps, session recordings, and user feedback surveys to understand how visitors interact with your website.",
+  "whyUseIt": "While GA4 tells you what happened, Hotjar shows you why. Heatmaps reveal where people click and scroll, session recordings let you watch real user journeys, and surveys capture direct feedback.",
+  "pricingTier": "freemium",
+  "aiCapabilities": "AI-powered survey analysis, automatic insight summaries from session recordings, and smart heatmap highlights.",
+  "alternatives": [
+    "Microsoft Clarity",
+    "FullStory",
+    "Crazy Egg"
+  ],
+  "url": "https://www.hotjar.com",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hotjar.svg",
+  "funnelPosition": "Bottom of funnel \u2014 Conversion",
+  "outputs": [
+    "Click, scroll, and move heatmaps for key pages",
+    "Session recording libraries filtered by behaviour patterns",
+    "User feedback survey results and NPS scores",
+    "Conversion funnel drop-off analysis reports",
+    "Form analytics showing field-level abandonment",
+    "Rage click and error click highlight reports",
+    "On-page feedback widget responses with sentiment analysis"
+  ],
+  "marketerWorkflow": "A marketer installs Hotjar's tracking snippet on key pages \u2014 landing pages, product pages, checkout \u2014 and reviews heatmaps weekly to spot unexpected click patterns or content that users scroll past. They watch 10-15 session recordings per week, focusing on sessions where users dropped off, to identify friction points. Before a landing page redesign, they deploy a quick survey asking visitors what's missing or confusing.",
+  "managerExpects": "A marketing manager expects the team to use Hotjar data to justify design and copy changes with evidence rather than opinions. They want to see regular reports showing where users drop off in conversion funnels, which page elements attract attention versus get ignored, and how on-site survey feedback is being actioned into specific improvements.",
+  "aiWorkflowImpact": "In 2025, Hotjar's AI automatically surfaces the most interesting sessions \u2014 ones with rage clicks, u-turns, or unusual paths \u2014 saving marketers hours of manual video review. AI-generated summaries distil hundreds of survey responses into key themes and sentiment patterns in seconds. Smart heatmap highlights flag statistically significant click patterns you might otherwise miss.",
+  "demoDescription": "Sign up for Hotjar's free plan and install the tracking code on any website you control (even a personal portfolio site). After collecting a day of traffic, view the heatmap for your homepage and watch three session recordings. Note one surprising finding \u2014 something users did that you didn't expect \u2014 and write down what change you'd make based on it.",
+  "vocabulary": [
+    {
+      "term": "Heatmap",
+      "definition": "A colour-coded visual overlay on your webpage showing where users click, move their mouse, or scroll \u2014 red indicates high activity, blue indicates low."
+    },
+    {
+      "term": "Session recording",
+      "definition": "A video playback of an individual user's visit to your site, showing their mouse movements, clicks, scrolls, and page transitions."
+    },
+    {
+      "term": "Rage click",
+      "definition": "When a user rapidly clicks the same element multiple times, indicating frustration \u2014 often because a button doesn't work or a link is misleading."
+    },
+    {
+      "term": "Scroll depth",
+      "definition": "How far down a page users scroll before leaving, shown as a percentage \u2014 revealing whether your key content is actually being seen."
+    },
+    {
+      "term": "NPS (Net Promoter Score)",
+      "definition": "A survey metric asking users how likely they are to recommend your product on a 0-10 scale, calculated as percentage of promoters minus detractors."
+    },
+    {
+      "term": "Form analytics",
+      "definition": "Data showing how users interact with form fields \u2014 which fields cause hesitation, where users abandon, and how long each field takes to complete."
+    }
+  ],
+  "beginnerMistakes": [
+    "Installing Hotjar on every page instead of focusing on high-traffic, high-value pages where insights actually matter",
+    "Watching session recordings without a hypothesis \u2014 randomly browsing videos instead of filtering for specific behaviours like drop-offs or rage clicks",
+    "Drawing conclusions from heatmaps with too little data, making design changes based on 50 visits instead of waiting for statistical significance",
+    "Collecting survey responses but never acting on the feedback, creating a pile of unreviewed qualitative data",
+    "Forgetting to exclude internal team traffic, which skews heatmaps and recordings with non-customer behaviour"
+  ],
+  "relatedProject": "landing-page-optimization"
+}

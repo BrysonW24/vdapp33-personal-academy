@@ -1,0 +1,62 @@
+{
+  "slug": "segmenting-your-audience",
+  "moduleSlug": "segmentation-personalization",
+  "title": "Segmenting Your Audience",
+  "objective": "Understanding advanced segmentation techniques and how to deliver personalised marketing at scale.",
+  "beginnerExplanation": "Segmentation is sorting your customers into groups so you can talk to each group about what they actually care about. Instead of sending the same message to everyone and hoping it sticks, you figure out who your customers are, what they want, and how they behave — then tailor your marketing to each group.\n\nThe simplest form of segmentation is demographic — age, gender, location, income. But that only scratches the surface. Behavioural segmentation looks at what people actually do: what they buy, how often, how much they spend, and what they browse but don't purchase. This is where the real insights live, because actions reveal intent far better than demographics.\n\nPersonalisation is segmentation's more ambitious sibling. Once you've grouped people, you can start customising their experience — different emails, different product recommendations, different landing pages, different offers. The goal isn't to be creepy; it's to be relevant. When a customer feels like a brand genuinely understands what they need, they're far more likely to engage, convert, and come back.",
+  "deeperExplanation": "Advanced segmentation goes well beyond basic demographic slicing. RFM analysis (Recency, Frequency, Monetary value) scores customers on how recently they purchased, how often they buy, and how much they spend. This creates actionable segments like 'champions' (high across all three), 'at-risk' (previously high but declining recency), and 'new customers' (recent but low frequency). RFM is powerful because it's based entirely on actual purchase behaviour.\n\nPredictive segmentation takes this further by using machine learning models to anticipate future behaviour. Propensity models can predict which customers are likely to churn, which are ready for an upsell, and which are most price-sensitive. Customer Data Platforms (CDPs) like Segment, mParticle, or Bloomreach enable real-time segmentation by unifying data from every touchpoint — website, app, email, in-store — into a single customer profile that updates continuously.\n\nThe personalisation-privacy tradeoff is the defining tension of modern segmentation. Customers want relevant experiences but are increasingly wary of how their data is used. The best marketers build trust through transparency — clear consent mechanisms, genuine value exchange for data, and personalisation that feels helpful rather than surveillance. Privacy regulations like GDPR and Australia's Privacy Act aren't obstacles; they're guardrails that force better marketing practices.",
+  "keyTakeaways": [
+    "Move beyond demographics to behavioural and psychographic segmentation for deeper customer insight",
+    "Use RFM analysis to create actionable segments based on actual purchase behaviour",
+    "Invest in a Customer Data Platform to enable real-time, cross-channel segmentation",
+    "Treat segmentation as a continuous practice, not a one-off project — customer behaviour shifts constantly",
+    "Build personalisation on a foundation of transparency and consent to maintain customer trust"
+  ],
+  "frameworks": ["stp"],
+  "example": "Netflix segments viewers not by age or gender but by viewing behaviour clusters. They identify groups like 'comfort rewatchers' (who revisit familiar favourites), 'binge racers' (who finish entire series within days of release), and 'genre loyalists' (who stick to specific categories). This behavioural segmentation drives everything — from which thumbnail image you see for a show (personalised from dozens of options) to recommendation algorithms, email timing, and even which shows get renewed. The result is a platform that feels uncannily attuned to each viewer's preferences, driving industry-leading engagement and retention.",
+  "commonMistakes": [
+    "Segmenting by demographics alone when behavioural data is available and far more predictive",
+    "Creating too many micro-segments that are impossible to action with existing resources",
+    "Personalising without sufficient data or proper consent, eroding customer trust",
+    "Treating segmentation as a one-time exercise rather than a continuously evolving practice",
+    "Ignoring the 'other' segment — the customers who don't fit neatly into any group often reveal new opportunities"
+  ],
+  "exercise": "Take a brand's customer base (use one you know or a hypothetical e-commerce store). Create 4 distinct behavioural segments based on purchase frequency, average order value, and product category preference. Name each segment with a memorable label, describe their typical behaviour in 2-3 sentences, and write one tailored email subject line for each segment that would drive engagement.",
+  "nextLesson": "building-brand-systems",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "Why is behavioural segmentation generally more valuable than demographic segmentation?",
+      "options": [
+        "Behavioural data is cheaper to collect than demographic data",
+        "Demographics are no longer legal to collect under privacy regulations",
+        "Actions reveal customer intent far better than attributes like age or location",
+        "Behavioural segments always contain more customers than demographic segments"
+      ],
+      "correctIndex": 2,
+      "explanation": "What customers actually do — what they buy, how often, what they browse — reveals their intent and needs far more accurately than demographic attributes like age or gender, making behavioural segmentation more predictive and actionable."
+    },
+    {
+      "question": "An online retailer has RFM data showing a segment of customers who used to buy frequently and spend heavily, but haven't purchased in three months. What should they do?",
+      "options": [
+        "Remove these customers from the mailing list to improve open rates",
+        "Send them the same promotional emails as all other customers",
+        "Launch a targeted win-back campaign with personalised offers before they fully lapse",
+        "Wait six more months to see if they return on their own"
+      ],
+      "correctIndex": 2,
+      "explanation": "Customers with declining recency but historically high frequency and monetary value are 'at-risk' in RFM terms. A targeted win-back campaign while they still have brand affinity is far more effective than waiting until they've fully lapsed."
+    },
+    {
+      "question": "Which of the following is a common segmentation mistake?",
+      "options": [
+        "Using RFM analysis to score customers on purchase behaviour",
+        "Treating segmentation as a continuous practice that evolves over time",
+        "Creating so many micro-segments that the team cannot realistically act on them all",
+        "Building personalisation on a foundation of transparency and customer consent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Over-segmentation creates complexity that overwhelms your team's capacity to deliver tailored experiences. It is better to have fewer, well-actioned segments than dozens of micro-segments that never receive differentiated treatment."
+    }
+  ]
+}

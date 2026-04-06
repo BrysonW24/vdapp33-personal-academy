@@ -1,0 +1,15 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "category": "developer-tooling",
+  "description": "AI pair programmer by GitHub/OpenAI. Suggests code completions, writes functions from comments, and answers questions about your code.",
+  "whyUseIt": "Copilot accelerates coding by 30-50%. It suggests entire functions, writes boilerplate, handles repetitive patterns, and can explain unfamiliar code. Works in VS Code, JetBrains, and Neovim.",
+  "pricingTier": "paid",
+  "url": "https://github.com/features/copilot",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
+  "alternatives": [
+    "Cursor",
+    "Cody",
+    "Amazon CodeWhisperer"
+  ]
+}

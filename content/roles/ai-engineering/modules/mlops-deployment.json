@@ -1,0 +1,31 @@
+{
+  "slug": "mlops-deployment",
+  "title": "Platform Engineering for AI",
+  "shortSummary": "Learn the deployment rails that let teams ship prompts, models, datasets, and services safely.",
+  "track": "core-frontier",
+  "level": "advanced",
+  "category": "platform",
+  "whyItMatters": "Frontier AI products need more than prompt fluency. They need release discipline, rollback paths, registries, CI, and operational tooling. This is where platform engineering turns clever systems into dependable ones.",
+  "coreConcepts": [
+    "Release pipelines for prompts, models, and retrieval changes",
+    "Model and artifact versioning",
+    "Observability, alerts, and rollback readiness",
+    "Environment promotion from local to staging to production",
+    "Internal developer platforms and golden paths for AI teams"
+  ],
+  "lessons": [
+    "deploying-your-first-model"
+  ],
+  "frameworks": [
+    "mlops-maturity",
+    "ml-lifecycle"
+  ],
+  "relatedModules": [
+    "research-to-production",
+    "system-design-for-ai",
+    "scaling-inference"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 3
+}

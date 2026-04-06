@@ -1,0 +1,13 @@
+{
+  "slug": "cold-email",
+  "name": "Cold Email",
+  "summary": "A prospecting technique that uses short, relevant email to create enough interest and trust for a buyer to reply or take a first meeting.",
+  "whenToUseIt": "Use cold email when you can connect a specific buyer context to a believable business problem and want an asynchronous way to start the conversation.",
+  "steps": [
+    "Open with a relevant reason for writing to this person now.",
+    "State a clear business hypothesis or problem worth their attention.",
+    "Ask for a low-friction next step or simple reply."
+  ],
+  "example": "A short note references a recent VP hire, ties it to pipeline visibility issues common during scale-up, and asks one focused question instead of requesting a 30-minute meeting immediately.",
+  "category": "prospecting"
+}

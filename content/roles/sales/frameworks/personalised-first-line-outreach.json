@@ -1,0 +1,13 @@
+{
+  "slug": "personalised-first-line-outreach",
+  "name": "Personalised First-Line Outreach",
+  "summary": "An outbound technique that uses the first line of a message to prove relevance quickly and earn the buyer's attention.",
+  "whenToUseIt": "Use personalised first-line outreach in cold email or LinkedIn when one sharp, relevant opening observation can make the rest of the message easier to trust.",
+  "steps": [
+    "Choose one relevant fact, trigger, or public priority connected to the buyer's world.",
+    "Link it to a business hypothesis rather than leaving it as trivia.",
+    "Use the rest of the message to explore that hypothesis briefly."
+  ],
+  "example": "Instead of commenting on a hobby or school, the first line references the buyer's public note about ramping a new team and connects it to coaching consistency risk.",
+  "category": "prospecting"
+}

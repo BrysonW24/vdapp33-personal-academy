@@ -1,0 +1,23 @@
+{
+  "slug": "account-management",
+  "title": "Account Management",
+  "shortSummary": "Winning the deal is just the beginning. Learn to expand accounts through upsell, cross-sell, and renewals — where the real revenue compounds.",
+  "level": "intermediate",
+  "category": "strategy",
+  "whyItMatters": "It costs 5-7x more to acquire a new customer than to expand an existing one. The best AEs don't just close and move on — they build long-term relationships that compound revenue. Account management is about understanding your customer's evolving needs, delivering consistent value, and positioning yourself as an indispensable partner.",
+  "coreConcepts": [
+    "Customer success handoff and relationship continuity",
+    "Quarterly business reviews (QBRs) that drive expansion",
+    "Upsell and cross-sell identification",
+    "Mutual success planning to protect renewals",
+    "Renewal management and churn prevention",
+    "Net Revenue Retention (NRR) and its impact on your comp",
+    "Building a referral engine from happy customers"
+  ],
+  "lessons": ["running-qbrs-that-expand-accounts", "whitespace-mapping-for-expansion", "mutual-success-plans-and-expansion-rhythm"],
+  "frameworks": ["account-planning-canvas", "value-selling", "mutual-success-plan", "land-and-expand"],
+  "relatedModules": ["closing", "strategic-accounts", "enterprise-sales"],
+  "status": "complete",
+  "order": 13,
+  "levelNumber": 3
+}

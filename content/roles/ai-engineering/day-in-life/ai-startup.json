@@ -1,0 +1,120 @@
+{
+  "slug": "ai-startup",
+  "title": "AI Engineer — Startup",
+  "setting": "AI startup (20-100 people)",
+  "companySize": "20-100 employees",
+  "description": "You're one of the first AI engineers at a funded startup. You do everything — train models, build APIs, set up infrastructure, talk to customers, and ship features weekly. The pace is intense, the ownership is total, and what you build today is in production tomorrow.",
+  "salary": "$130,000 - $200,000 AUD (+ equity)",
+  "schedule": [
+    {
+      "time": "8:30 AM",
+      "activity": "Check production dashboards — model accuracy, latency, error rates, customer usage",
+      "tools": [
+        "Grafana",
+        "Datadog"
+      ]
+    },
+    {
+      "time": "9:00 AM",
+      "activity": "Quick standup with the team (4 engineers) — what shipped, what's blocked",
+      "tools": [
+        "Slack",
+        "Linear"
+      ]
+    },
+    {
+      "time": "9:30 AM",
+      "activity": "Build a new RAG pipeline for a customer use case — embeddings, chunking, retrieval",
+      "tools": [
+        "LangChain",
+        "Pinecone",
+        "Python"
+      ]
+    },
+    {
+      "time": "11:00 AM",
+      "activity": "Customer call — demo the new feature, gather feedback on accuracy and UX",
+      "tools": [
+        "Zoom"
+      ]
+    },
+    {
+      "time": "12:00 PM",
+      "activity": "Lunch at desk — review a competitor's product launch announcement"
+    },
+    {
+      "time": "12:30 PM",
+      "activity": "Fine-tune a model on customer-specific data, evaluate against benchmarks",
+      "tools": [
+        "Hugging Face",
+        "W&B"
+      ]
+    },
+    {
+      "time": "2:00 PM",
+      "activity": "Write the API endpoint for the new feature, add tests, deploy to staging",
+      "tools": [
+        "FastAPI",
+        "Docker",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "time": "3:30 PM",
+      "activity": "Pair with the frontend engineer on the AI response streaming UX",
+      "tools": [
+        "VS Code",
+        "Next.js"
+      ]
+    },
+    {
+      "time": "4:30 PM",
+      "activity": "Architecture discussion with CTO — scaling strategy for 10x user growth",
+      "tools": [
+        "Whiteboard",
+        "Notion"
+      ]
+    },
+    {
+      "time": "5:30 PM",
+      "activity": "Deploy to production, monitor for 30 minutes, then head home",
+      "tools": [
+        "AWS",
+        "Slack"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Build end-to-end ML features from data to deployment",
+    "Own model performance and reliability in production",
+    "Talk directly to customers and translate needs into AI features",
+    "Set up and maintain ML infrastructure",
+    "Make buy vs build decisions on models and tools",
+    "Ship fast while maintaining quality",
+    "Contribute to technical hiring",
+    "Write technical documentation and runbooks"
+  ],
+  "challenges": [
+    "Wearing every hat — data eng, ML eng, infra, and sometimes PM",
+    "Limited compute budget — can't just throw GPUs at problems",
+    "Balancing speed with technical debt",
+    "No established best practices — you're creating them",
+    "Uncertainty — the product might pivot",
+    "Fewer peers to learn from compared to big tech"
+  ],
+  "rewards": [
+    "Massive ownership — you build it, you ship it, you own it",
+    "Direct customer impact — see your AI help real people",
+    "Equity upside if the company succeeds",
+    "Rapid skill growth from breadth of work",
+    "Shape the culture and technical direction",
+    "No bureaucracy — decisions happen in minutes, not months"
+  ],
+  "careerPath": [
+    "Founding/Early AI Engineer — 0-3 years",
+    "Senior AI Engineer / Tech Lead — 3-5 years",
+    "Head of AI / VP Engineering — 5-7 years",
+    "CTO — 7+ years",
+    "Or: start your own AI company with the experience"
+  ]
+}

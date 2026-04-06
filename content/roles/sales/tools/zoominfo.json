@@ -1,0 +1,27 @@
+{
+  "slug": "zoominfo",
+  "name": "ZoomInfo",
+  "category": "analytics",
+  "description": "A B2B intelligence platform providing company and contact data, intent signals, and workflow automation. ZoomInfo's database covers millions of companies and contacts with direct dial phone numbers, verified emails, and organisational charts.",
+  "whyUseIt": "ZoomInfo is the data layer underneath your prospecting. While LinkedIn shows you who people are, ZoomInfo gives you direct contact details (verified emails and mobile numbers), company technographic data, org charts, and intent signals. It's particularly valuable for building large prospect lists quickly with accurate, actionable data.",
+  "pricingTier": "enterprise",
+  "url": "https://www.zoominfo.com",
+  "logoUrl": "/tools/zoominfo.svg",
+  "aiCapabilities": "ZoomInfo's AI identifies companies showing buying intent based on web activity, provides recommended contacts within target accounts, and scores leads based on fit and engagement signals.",
+  "alternatives": ["apollo-io", "lusha", "linkedin-sales-nav"],
+  "funnelPosition": "Top of funnel — data enrichment, contact discovery, and intent monitoring",
+  "outputs": ["Verified contact lists", "Company profiles", "Intent signals", "Org charts", "Technographic data"],
+  "sellerWorkflow": "SDRs use ZoomInfo to build prospect lists with verified contact details, monitor intent signals for accounts researching relevant topics, and export contacts into their CRM and sequencing tools. AEs use it for account research and stakeholder discovery.",
+  "managerExpects": "Prospect lists built from ZoomInfo are accurate, targeted, and imported cleanly into the CRM. Intent signals are monitored and actioned within 48 hours.",
+  "demoDescription": "Search for companies matching your ICP, drill into an account to see the org chart, export verified contacts with email and phone, and view intent signals showing which accounts are in-market.",
+  "vocabulary": [
+    { "term": "Intent Data", "definition": "Signals that a company is actively researching a topic related to your product — derived from web browsing behaviour, content consumption, and search activity." },
+    { "term": "Technographics", "definition": "Data about which technologies a company uses — useful for identifying whether they use a competitor or a complementary tool." }
+  ],
+  "beginnerMistakes": [
+    "Exporting too many contacts at once without a plan to reach them all",
+    "Relying solely on ZoomInfo data without cross-referencing LinkedIn for accuracy",
+    "Ignoring intent signals — these are the hottest leads in your territory"
+  ],
+  "relatedProject": "prospect-research"
+}

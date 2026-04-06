@@ -1,0 +1,31 @@
+{
+  "slug": "system-design-for-ai",
+  "title": "Systems Design, Observability, and AI FinOps",
+  "shortSummary": "Tie architecture together with capacity planning, tracing, cost controls, and decision-ready operational metrics.",
+  "track": "core-frontier",
+  "level": "advanced",
+  "category": "systems",
+  "whyItMatters": "The senior step-change in frontier AI engineering is architectural judgment. You need to explain tradeoffs, spot weak links, and instrument the system so leaders can make decisions about quality, cost, and scale.",
+  "coreConcepts": [
+    "Architecture tradeoff writing for AI services",
+    "Tracing, logging, metrics, and incident visibility",
+    "GPU and API-spend economics",
+    "Reliability budgets, rollback readiness, and release risk",
+    "Explaining technical health in terms leadership can act on"
+  ],
+  "lessons": [
+    "systems-design-for-ai-services"
+  ],
+  "frameworks": [
+    "system-design-template",
+    "mlops-maturity"
+  ],
+  "relatedModules": [
+    "model-evaluation",
+    "mlops-deployment",
+    "scaling-inference"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 3
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "four-ps",
+  "name": "4Ps Marketing Mix (+ 7Ps Extension)",
+  "summary": "The classic framework for the four key decisions every marketer must make: Product, Price, Place, and Promotion.",
+  "whenToUseIt": "Use the 4Ps when planning any product launch or marketing campaign. The 7Ps extension (adding People, Process, Physical Evidence) is particularly useful for service businesses.",
+  "steps": [
+    "Product: Define what you're selling — features, quality, design, branding, packaging, and the problem it solves",
+    "Price: Set your pricing strategy — premium, competitive, penetration, or freemium. Price signals value.",
+    "Place: Decide where and how customers can buy — online, retail, direct, wholesale, marketplace",
+    "Promotion: Plan how you'll communicate — advertising, content marketing, PR, social media, email, events",
+    "(7Ps) People: Who delivers the experience? Staff training, customer service, brand ambassadors",
+    "(7Ps) Process: How is the service delivered? Ordering flow, onboarding, support systems",
+    "(7Ps) Physical Evidence: What tangible proof exists? Packaging, store design, website UX, testimonials"
+  ],
+  "example": "For a new specialty coffee brand: Product = single-origin beans with tasting notes. Price = premium ($22/250g bag) to position as artisan. Place = online DTC store + select specialty cafes. Promotion = Instagram content, coffee influencer partnerships, local market stalls for sampling.",
+  "category": "fundamentals"
+}

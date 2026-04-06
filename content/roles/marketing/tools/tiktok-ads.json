@@ -1,0 +1,46 @@
+{
+  "slug": "tiktok-ads",
+  "name": "TikTok Ads",
+  "category": "paid-advertising",
+  "description": "TikTok's advertising platform for reaching younger audiences through short-form video ads in the For You feed.",
+  "whyUseIt": "TikTok has the highest engagement rates of any social platform and is where Gen Z and younger millennials spend their time. Its ad format (native video) feels less like advertising, which drives better engagement.",
+  "pricingTier": "paid",
+  "aiCapabilities": "Smart Creative for automated video ad generation, automated targeting optimisation, and TikTok Creative Center for trending content insights.",
+  "alternatives": [
+    "Meta Ads",
+    "YouTube Ads",
+    "Snapchat Ads"
+  ],
+  "url": "https://ads.tiktok.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/tiktok-icon-2.svg",
+  "funnelPosition": "Top of funnel — Awareness",
+  "outputs": [
+    "In-feed video ad campaigns",
+    "Spark Ads (boosted organic posts)",
+    "TopView and branded hashtag challenges",
+    "Audience performance reports",
+    "Creative performance breakdowns",
+    "Conversion tracking dashboards",
+    "Lead generation form submissions"
+  ],
+  "marketerWorkflow": "A marketer using TikTok Ads spends their day reviewing creative performance metrics, testing new video hooks in the first three seconds, and adjusting audience targeting based on engagement signals. They frequently browse TikTok Creative Center for trending sounds and formats, then brief creators or shoot content that blends natively into the For You feed. Budget pacing and bid adjustments happen daily, especially during campaign launches.",
+  "managerExpects": "A marketing manager expects to see cost-per-view and cost-per-click benchmarks that beat other paid social channels, along with clear creative testing frameworks showing which hooks and formats drive the best results. They want evidence that campaigns are reaching the intended demographic with strong thumb-stop rates, and that spend is being allocated toward top-performing creatives.",
+  "aiWorkflowImpact": "TikTok's Smart Creative tool now auto-generates multiple video ad variations from uploaded assets, drastically reducing production time. AI-powered audience signals replace manual interest-based targeting, letting the algorithm find converters faster. Automated creative optimisation continuously rotates winning combinations of text, visuals, and calls-to-action without manual A/B test management.",
+  "demoDescription": "Open TikTok Creative Center (ads.tiktok.com/business/creativecenter) and explore the Top Ads dashboard for your industry. Filter by region (Australia) and your product category, then analyse the top three performing ads — note the hook style, video length, and call-to-action format. This gives you a data-backed brief for your first ad concept.",
+  "vocabulary": [
+    { "term": "Spark Ads", "definition": "A native ad format that lets brands boost existing organic TikTok posts (their own or a creator's) as paid ads, preserving engagement metrics." },
+    { "term": "TopView", "definition": "A premium ad placement that appears as the first video when a user opens TikTok, offering maximum visibility." },
+    { "term": "Thumb-stop rate", "definition": "The percentage of users who stop scrolling and watch your ad for more than a fraction of a second — a key metric for creative effectiveness." },
+    { "term": "Smart Creative", "definition": "TikTok's AI tool that automatically generates and tests multiple creative variations from your uploaded video and text assets." },
+    { "term": "Custom Audiences", "definition": "Targeting groups built from your own data, such as website visitors, app users, or customer email lists uploaded to TikTok." },
+    { "term": "Creative Center", "definition": "TikTok's free research tool showing top-performing ads, trending hashtags, songs, and creative patterns across industries and regions." }
+  ],
+  "beginnerMistakes": [
+    "Creating polished, corporate-looking ads that feel out of place in the raw, authentic TikTok feed",
+    "Ignoring the first three seconds of the video, which is where most viewers decide to keep watching or scroll away",
+    "Targeting audiences too narrowly instead of letting TikTok's algorithm find the right viewers through broad targeting",
+    "Not using TikTok Creative Center to research what is actually working before spending budget on untested concepts",
+    "Setting daily budgets too low for the algorithm to exit the learning phase, resulting in poor delivery and inflated costs"
+  ],
+  "relatedProject": "paid-ad-campaign"
+}

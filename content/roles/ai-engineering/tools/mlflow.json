@@ -1,0 +1,14 @@
+{
+  "slug": "mlflow",
+  "name": "MLflow",
+  "category": "observability",
+  "description": "An open-source platform for the complete ML lifecycle — experiment tracking, model registry, deployment, and monitoring.",
+  "whyUseIt": "MLflow is the standard for ML experiment tracking. Log parameters, metrics, and artifacts. Compare runs. Register models for deployment. It integrates with every major ML framework.",
+  "pricingTier": "free",
+  "url": "https://mlflow.org",
+  "alternatives": [
+    "Weights & Biases",
+    "Neptune",
+    "ClearML"
+  ]
+}

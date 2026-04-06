@@ -1,0 +1,13 @@
+{
+  "slug": "reframing",
+  "name": "Reframing",
+  "summary": "An objection and persuasion technique that changes the lens on the issue so the buyer evaluates it in a more commercially useful way.",
+  "whenToUseIt": "Use reframing when the buyer is evaluating the issue through a narrow or misleading lens, such as treating price as the whole problem instead of timing, risk, or value.",
+  "steps": [
+    "Identify the current frame the buyer is using.",
+    "Shift the conversation to the more important business lens.",
+    "Support the new frame with evidence, logic, or a relevant example."
+  ],
+  "example": "A buyer says the software is expensive. The rep reframes from headline price to the ongoing cost of missed deals, poor coaching, and low confidence in pipeline planning.",
+  "category": "objection-handling"
+}

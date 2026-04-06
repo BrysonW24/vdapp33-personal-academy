@@ -1,0 +1,63 @@
+{
+  "slug": "ahrefs",
+  "name": "Ahrefs",
+  "category": "seo",
+  "description": "A comprehensive SEO toolset for keyword research, backlink analysis, site auditing, rank tracking, and competitive research.",
+  "whyUseIt": "Ahrefs has the largest backlink database and one of the most accurate keyword research tools. It's essential for understanding your SEO landscape, finding content opportunities, and tracking rankings.",
+  "pricingTier": "paid",
+  "aiCapabilities": "AI-powered content gap analysis and keyword clustering suggestions.",
+  "alternatives": [
+    "SEMrush",
+    "Moz",
+    "Ubersuggest"
+  ],
+  "url": "https://ahrefs.com",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Keyword research reports with traffic potential, difficulty, and click distribution",
+    "Backlink profile audits showing referring domains, anchor text distribution, and link quality",
+    "Content Explorer reports identifying high-performing content in any niche",
+    "Site audit reports with crawl data, health scores, and technical issue breakdowns",
+    "Rank tracking dashboards monitoring keyword positions across countries and devices",
+    "Competitive analysis showing organic keyword overlap and content gaps",
+    "Link intersect reports revealing sites that link to competitors but not to you"
+  ],
+  "marketerWorkflow": "A marketer using Ahrefs begins by analysing their own domain in Site Explorer to understand current organic performance \u2014 which pages drive the most traffic, which keywords they rank for, and how their backlink profile looks. They use Keywords Explorer to research new content opportunities, filtering by traffic potential and keyword difficulty. They regularly run Site Audit to catch technical issues, monitor rank changes for priority keywords, and use Content Explorer to find link-building prospects by discovering who links to similar content in their industry.",
+  "managerExpects": "A marketing manager expects you to use Ahrefs to build and maintain an evidence-based SEO strategy. They want to see monthly organic traffic trends, a prioritised list of keyword targets with realistic timelines, backlink growth metrics, and technical health improvements. They expect you to proactively identify content decay \u2014 pages losing rankings \u2014 and recommend refreshes before traffic declines significantly.",
+  "aiWorkflowImpact": "Ahrefs' AI-powered keyword clustering automatically groups thousands of keywords by topic, saving hours of manual spreadsheet work when planning content. The Content Gap tool uses algorithmic analysis to instantly surface the most valuable keywords your competitors rank for that you are missing. While Ahrefs is more conservative with AI features than some competitors, its data accuracy and crawl freshness remain industry-leading, making it the preferred tool for SEO professionals who prioritise reliable data over AI-generated suggestions.",
+  "demoDescription": "Use Ahrefs' free Webmaster Tools by verifying your website (or use their Site Explorer with a free account to analyse any domain). Enter a competitor's URL and explore their Top Pages report to see which content drives the most organic traffic. Then check the Referring Domains report to see who links to them and identify potential link-building opportunities for your own site.",
+  "vocabulary": [
+    {
+      "term": "Domain Rating (DR)",
+      "definition": "Ahrefs' proprietary metric (0-100) that measures the strength of a website's backlink profile. Higher DR correlates with greater ability to rank, though it is a relative metric, not an absolute one."
+    },
+    {
+      "term": "Referring Domain",
+      "definition": "A unique website that links to your site. One referring domain may contain multiple backlinks, but it is the number of unique referring domains that most strongly correlates with ranking ability."
+    },
+    {
+      "term": "Traffic Potential",
+      "definition": "Ahrefs' estimate of total organic traffic a page could receive if it ranked number one for a keyword, including traffic from all related keyword variations \u2014 often a more useful metric than raw search volume."
+    },
+    {
+      "term": "Content Decay",
+      "definition": "The gradual decline in organic traffic to a page over time as content becomes outdated or competitors publish better alternatives. Identifying and refreshing decaying content is a high-ROI SEO activity."
+    },
+    {
+      "term": "Link Intersect",
+      "definition": "A report showing websites that link to one or more of your competitors but not to you. These represent high-probability link-building targets because they have already demonstrated willingness to link to content in your niche."
+    },
+    {
+      "term": "Anchor Text",
+      "definition": "The clickable text in a hyperlink. The distribution of anchor text across your backlinks signals to search engines what your page is about. A natural profile has a diverse mix of branded, topical, and generic anchors."
+    }
+  ],
+  "beginnerMistakes": [
+    "Obsessing over Domain Rating as a vanity metric instead of focusing on actual organic traffic growth and keyword rankings",
+    "Ignoring Traffic Potential and only looking at search volume, which does not account for clicks going to featured snippets or zero-click results",
+    "Chasing backlinks from high-DR sites without considering topical relevance \u2014 a relevant DR 30 link is often more valuable than an irrelevant DR 80 link",
+    "Running Site Audit once and never returning to it instead of scheduling regular crawls to catch new issues as they appear",
+    "Using Content Explorer to find content ideas but not analysing why top-performing content succeeds \u2014 what format, depth, and angle make it work"
+  ],
+  "relatedProject": "seo-content-strategy"
+}

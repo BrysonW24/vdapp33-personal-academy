@@ -1,0 +1,62 @@
+{
+  "slug": "crafting-a-value-proposition",
+  "moduleSlug": "positioning-value-proposition",
+  "title": "Crafting a Value Proposition",
+  "objective": "Learn how to articulate why someone should choose your product over every alternative — in one clear statement.",
+  "beginnerExplanation": "A value proposition is a clear statement that explains how your product solves a problem, what benefits it delivers, and why someone should choose you over the competition. It's the single most important piece of marketing copy you'll ever write.\n\nThink of it as the answer to the question every customer silently asks: 'Why should I care?' If you can't answer that in one or two sentences, your marketing will struggle everywhere — your ads won't convert, your website won't hold attention, and your sales team won't know what to say.\n\nA good value proposition has three ingredients: (1) who it's for, (2) what it does for them, and (3) why it's better than the alternatives. For example: 'For busy professionals who hate meal planning, HelloFresh delivers pre-portioned ingredients and easy recipes to your door, so you can cook great food without the shopping or the thinking.'",
+  "deeperExplanation": "Positioning is the strategic decision about where your product sits in the customer's mind relative to alternatives. Value proposition is how you communicate that positioning. They're deeply connected but not the same thing.\n\nThe classic positioning formula is: 'For [target customer] who [need/want], [product] is the [category] that [key benefit] because [reason to believe].' This forces you to make choices — you can't be everything to everyone. Trying to appeal to every possible customer is the most common positioning mistake.\n\nStrong positioning creates what marketers call a 'category of one' — you're not competing on price or features with everyone else; you've carved out a space that feels uniquely yours. Think of how Volvo owns 'safety' in cars, or how Patagonia owns 'environmental responsibility' in outdoor gear. These aren't accidents — they're deliberate positioning decisions backed by consistent messaging over years.",
+  "keyTakeaways": [
+    "A value proposition answers 'Why should I choose you?' in one clear statement",
+    "It must include: who it's for, what benefit it delivers, and why you're different",
+    "Positioning is strategic; value proposition is how you communicate it",
+    "The biggest mistake is trying to be everything to everyone",
+    "Strong positioning creates differentiation that competitors can't easily copy"
+  ],
+  "frameworks": ["stp", "brand-positioning-canvas"],
+  "example": "Slack's original positioning was brilliant: 'Be less busy.' In a world full of complex enterprise software, they positioned themselves as the tool that actually reduces work noise rather than adding to it. Their value proposition spoke directly to the frustration of drowning in email. They didn't say 'we're a chat app' (a commodity). They said 'we replace the worst parts of email with something faster and more organised.' That positioning helped them grow from zero to millions of daily users in just a few years.",
+  "commonMistakes": [
+    "Writing a value proposition that could apply to any competitor",
+    "Focusing on features instead of benefits (nobody cares about 256-bit encryption — they care about feeling safe)",
+    "Making it too long or complex — if it needs a paragraph, it's not sharp enough",
+    "Not testing your value proposition with real customers",
+    "Changing positioning every few months instead of committing and building on it"
+  ],
+  "exercise": "Write a value proposition for a product you love using the format: 'For [target customer] who [need], [product] is the [category] that [key benefit] because [reason to believe].' Then write a second version for the same product targeting a different customer segment. Notice how the same product can be positioned differently for different people.",
+  "nextLesson": "building-your-brand-voice",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is the primary purpose of a value proposition?",
+      "options": [
+        "To list every feature your product offers",
+        "To clearly explain why someone should choose your product over alternatives",
+        "To describe your company's history and mission statement",
+        "To set the price point for your product"
+      ],
+      "correctIndex": 1,
+      "explanation": "A value proposition answers the customer's silent question 'Why should I care?' by articulating who it's for, what it does for them, and why it's better than the alternatives."
+    },
+    {
+      "question": "You're writing a value proposition for a meal kit delivery service. Which version is strongest?",
+      "options": [
+        "We deliver food to your door",
+        "For busy professionals who hate meal planning, we deliver pre-portioned ingredients and easy recipes so you can cook great food without the shopping or the thinking",
+        "We are an innovative food technology company disrupting the grocery industry",
+        "Our meal kits use 256 quality-checked ingredients sourced from local farms"
+      ],
+      "correctIndex": 1,
+      "explanation": "The strongest value proposition names a specific audience, states the benefit clearly, and explains why it's better than alternatives — features alone or vague claims don't achieve this."
+    },
+    {
+      "question": "Which of these is a common positioning mistake?",
+      "options": [
+        "Choosing a specific target customer and tailoring your message to them",
+        "Testing your value proposition with real customers before committing",
+        "Trying to appeal to every possible customer segment at once",
+        "Focusing on benefits rather than technical features"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trying to be everything to everyone is the most common positioning mistake. Strong positioning requires making deliberate choices about who you serve and what makes you different."
+    }
+  ]
+}

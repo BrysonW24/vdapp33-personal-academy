@@ -1,0 +1,20 @@
+{
+  "slug": "kpi-cheat-sheet",
+  "name": "Marketing KPI Cheat Sheet",
+  "summary": "A quick reference guide to the most important marketing metrics, what they measure, and when to use them.",
+  "whenToUseIt": "Keep this handy whenever you're setting campaign goals, building reports, or presenting to leadership. Choose 3-5 KPIs per campaign that directly relate to your objective.",
+  "steps": [
+    "Impressions: How many times your content was displayed. Good for measuring awareness reach.",
+    "Click-Through Rate (CTR): Clicks ÷ Impressions × 100. Measures how compelling your ad or content is. Average varies by channel (Google Ads ~3-5%, email ~2-3%).",
+    "Conversion Rate: Conversions ÷ Total visitors × 100. Measures how effective your page/funnel is at driving action.",
+    "Customer Acquisition Cost (CAC): Total marketing + sales spend ÷ New customers. How much it costs to get one customer.",
+    "Customer Lifetime Value (CLV): Average order value × Purchase frequency × Customer lifespan. How much a customer is worth over time. Aim for CLV > 3× CAC.",
+    "Return on Ad Spend (ROAS): Revenue from ads ÷ Ad spend. A ROAS of 4:1 means $4 revenue per $1 spent.",
+    "Marketing ROI: (Revenue from marketing - Marketing cost) ÷ Marketing cost × 100. The overall return on your marketing investment.",
+    "Net Promoter Score (NPS): Survey-based metric (-100 to +100) measuring customer loyalty. 'How likely are you to recommend us?' Score > 50 is excellent.",
+    "Cost Per Lead (CPL): Total spend ÷ Leads generated. Helps compare channel efficiency.",
+    "Churn Rate: Customers lost ÷ Total customers × 100. Key retention metric. Lower is better."
+  ],
+  "example": "A SaaS company's monthly marketing dashboard: Impressions = 500K (awareness), CTR = 3.2% (engagement), Conversion Rate = 2.1% (website effectiveness), CAC = $85 (acquisition efficiency), CLV = $340 (4:1 ratio = healthy), ROAS = 5.2:1 (paid ads working well), NPS = 62 (strong loyalty). The one red flag: churn rate at 8% monthly suggests retention needs work despite strong acquisition.",
+  "category": "analytics"
+}

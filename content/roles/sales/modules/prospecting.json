@@ -1,0 +1,25 @@
+{
+  "slug": "prospecting",
+  "title": "Prospecting",
+  "shortSummary": "Finding, researching, and qualifying the right prospects is the engine of your pipeline. Learn cold outreach, trigger research, and account planning that creates real top-of-funnel momentum.",
+  "level": "intermediate",
+  "category": "channel",
+  "whyItMatters": "No prospects, no pipeline, no revenue. Prospecting is the single most important activity for any AE or SDR, yet it's the one most people avoid. The best enterprise SaaS sellers treat prospecting like a discipline: they research systematically, look for trigger events, build a point of view, and target precisely so they spend time on deals that can actually close.",
+  "coreConcepts": [
+    "Ideal Customer Profile (ICP) development",
+    "Total Addressable Market (TAM) mapping",
+    "Account research, trigger events, and persona-based value hypotheses",
+    "Warm referrals, social selling, and account-led motions",
+    "Lead scoring and qualification criteria",
+    "Building prospect lists and outbound sequences at scale",
+    "Cold calling, personalised email, and social selling orchestration",
+    "Cross-functional territory planning with SDRs and partners",
+    "Multi-threading target accounts before a deal exists"
+  ],
+  "lessons": ["building-your-ideal-customer-profile", "account-research-and-trigger-events", "prospecting-motions-that-create-luck"],
+  "frameworks": ["bant", "meddic", "trigger-event-selling", "account-research-led-outreach", "warm-referral-selling", "social-selling"],
+  "relatedModules": ["outbound-outreach", "discovery-calls", "pipeline-management"],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "socratic-questioning",
+  "name": "Socratic Questioning",
+  "summary": "A questioning technique that helps buyers examine their assumptions and arrive at a clearer conclusion through guided reasoning rather than direct persuasion.",
+  "whenToUseIt": "Use Socratic questioning in discovery, objection handling, or executive conversations when the buyer needs to think more deeply about the root issue, the cost of staying the same, or the logic behind a decision.",
+  "steps": [
+    "Start with a neutral question that explores how the buyer currently thinks about the issue.",
+    "Follow with probing questions that test assumptions, gaps, or hidden consequences.",
+    "Let the buyer articulate the conclusion rather than forcing the answer yourself."
+  ],
+  "example": "A buyer says forecast misses are mainly a rep-discipline problem. Instead of arguing, you ask, 'What makes those misses hard to catch earlier?' then 'How consistent are your stage definitions across managers?' The buyer begins to see that the process, not only rep behavior, is part of the issue.",
+  "category": "discovery-questioning"
+}

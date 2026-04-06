@@ -1,0 +1,29 @@
+{
+  "slug": "nlp-computer-vision-foundations",
+  "title": "NLP and Computer Vision Foundations",
+  "shortSummary": "Survey the two classic deep learning application domains that still shape frontier product and robotics work.",
+  "track": "classical-ml",
+  "level": "intermediate",
+  "category": "specialization",
+  "whyItMatters": "A compact grounding in NLP and CV helps you read papers, evaluate specialized models, and understand how frontier roles branch into multimodal and embodied systems.",
+  "coreConcepts": [
+    "Text pipelines, tokenization, and sequence modeling",
+    "Image pipelines, augmentations, and perception tasks",
+    "Evaluation for text and vision tasks",
+    "Transfer learning and embeddings across domains",
+    "How these foundations feed frontier multimodal systems"
+  ],
+  "lessons": [
+    "nlp-computer-vision-foundations-lesson"
+  ],
+  "frameworks": [
+    "feature-engineering-playbook"
+  ],
+  "relatedModules": [
+    "deep-learning",
+    "perception-sensor-systems"
+  ],
+  "status": "coming-soon",
+  "order": 19,
+  "levelNumber": 4
+}

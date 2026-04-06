@@ -1,0 +1,84 @@
+{
+  "slug": "chatbot",
+  "title": "Structured Output Service",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Build a small but production-minded LLM service that accepts input, returns typed output, handles failure cleanly, and is ready to sit inside a larger product flow.",
+  "whyItMatters": "Hiring managers increasingly care about typed AI services and system fit, not just chat demos. This project demonstrates that shift.",
+  "skillsLearned": [
+    "LLM API integration",
+    "Prompt engineering",
+    "Conversation state management",
+    "System prompt design",
+    "Error handling for AI applications",
+    "Streaming responses"
+  ],
+  "prerequisites": [
+    "Complete the Working with LLMs lesson",
+    "Basic Python and API knowledge"
+  ],
+  "steps": [
+    {
+      "title": "Choose a persona and use case",
+      "description": "Define your chatbot's purpose: a customer support bot for a specific product, a coding tutor, a recipe assistant, or a travel advisor. Write a detailed persona document."
+    },
+    {
+      "title": "Design the system prompt",
+      "description": "Write a comprehensive system prompt that defines the persona, rules, output format, and constraints. Include what the bot should and should not do.",
+      "tips": "Spend real time on this — the system prompt is the most important design decision in any chatbot."
+    },
+    {
+      "title": "Build the API integration",
+      "description": "Write a Python class that wraps the LLM API. Handle authentication, message formatting, error retries, and rate limiting. Support both Claude and OpenAI APIs."
+    },
+    {
+      "title": "Implement conversation history",
+      "description": "Store conversation messages and include them in each API call so the bot remembers context. Implement a sliding window to stay within token limits — drop older messages when the context gets too long."
+    },
+    {
+      "title": "Add streaming support",
+      "description": "Implement streaming responses so the user sees text appear word-by-word instead of waiting for the complete response. This dramatically improves perceived performance."
+    },
+    {
+      "title": "Handle edge cases",
+      "description": "Test and handle: very long messages, off-topic questions, attempts to override the system prompt, empty messages, API errors, and rate limits. The bot should respond gracefully in every case."
+    },
+    {
+      "title": "Build a simple UI",
+      "description": "Create a terminal-based chat interface or a simple web UI with Streamlit or Gradio. The user should be able to have a natural conversation.",
+      "tips": "Streamlit is the fastest path to a web UI: `pip install streamlit` and about 30 lines of code."
+    }
+  ],
+  "deliverables": [
+    "Working chatbot with defined persona and rules",
+    "System prompt document",
+    "Conversation management with history",
+    "Simple chat interface (terminal or web)",
+    "Test cases covering edge cases"
+  ],
+  "tools": [
+    "Python",
+    "Anthropic or OpenAI SDK",
+    "Streamlit or Gradio (optional)",
+    "pytest"
+  ],
+  "rubric": [
+    {
+      "criteria": "Persona Consistency",
+      "description": "The chatbot stays in character and follows its defined rules throughout the conversation."
+    },
+    {
+      "criteria": "Conversation Quality",
+      "description": "Responses are helpful, contextually aware, and reference previous messages appropriately."
+    },
+    {
+      "criteria": "Edge Case Handling",
+      "description": "The bot handles off-topic questions, prompt injection attempts, and API errors gracefully."
+    },
+    {
+      "criteria": "Code Quality",
+      "description": "Clean, well-structured code with proper error handling, type hints, and documentation."
+    }
+  ],
+  "track": "core-frontier"
+}

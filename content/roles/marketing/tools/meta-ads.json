@@ -1,0 +1,64 @@
+{
+  "slug": "meta-ads",
+  "name": "Meta Ads (Facebook & Instagram)",
+  "category": "paid-advertising",
+  "description": "Meta's advertising platform for reaching people on Facebook, Instagram, Messenger, and the Audience Network with highly targeted ads.",
+  "whyUseIt": "Meta has the most sophisticated audience targeting in advertising. You can target by demographics, interests, behaviours, and create lookalike audiences. It's the best platform for brand awareness, e-commerce, and lead generation at scale.",
+  "pricingTier": "paid",
+  "aiCapabilities": "Advantage+ campaigns with AI-optimised targeting, automated creative variations, and AI-powered audience expansion.",
+  "alternatives": [
+    "Google Ads",
+    "TikTok Ads",
+    "LinkedIn Ads"
+  ],
+  "url": "https://www.facebook.com/business/ads",
+  "logoUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/meta.svg",
+  "funnelPosition": "Top of funnel \u2014 Awareness",
+  "outputs": [
+    "Image and video ad campaigns for Facebook and Instagram feeds",
+    "Stories and Reels ad creatives optimised for vertical formats",
+    "Lead generation forms that capture contact information without leaving the platform",
+    "Dynamic product ads that retarget users with items they viewed on your website",
+    "Lookalike audiences built from your customer lists or website visitors",
+    "Campaign performance reports with demographic and placement breakdowns",
+    "A/B test results comparing creative variations, audiences, and placements"
+  ],
+  "marketerWorkflow": "A marketer managing Meta Ads checks Ads Manager daily to monitor campaign delivery, CPM, click-through rate, and cost per result. They review creative performance to identify which images, videos, and copy variations are winning, then create new variations to prevent ad fatigue. They also manage audience segments \u2014 building new lookalike audiences, refreshing retargeting pools, and excluding recent converters to avoid wasted spend.",
+  "managerExpects": "A marketing manager expects you to demonstrate strong creative instincts alongside data discipline. They want to see a structured testing framework \u2014 what creatives, audiences, and placements you are testing, what the results show, and how you are scaling winners. They also expect accurate attribution reporting and an honest assessment of how Meta's modelled conversions compare to actual backend sales.",
+  "aiWorkflowImpact": "Advantage+ Shopping campaigns now handle audience selection, placement, and creative rotation almost entirely through AI, often outperforming manually configured campaigns. The creative AI generates dozens of ad variations from a handful of assets. This means the marketer's value shifts toward producing high-quality creative inputs \u2014 strong images, compelling hooks, and clear value propositions \u2014 and understanding when to override the algorithm's decisions with manual controls.",
+  "demoDescription": "Open Meta Ads Manager (free with any Facebook Business account) and navigate to the Audience tool. Create a saved audience targeting people in your city aged 25-45 who are interested in a specific hobby or product category. Then explore the Audience Insights to see estimated reach, demographics, and related interests for that audience.",
+  "vocabulary": [
+    {
+      "term": "Lookalike Audience",
+      "definition": "An audience Meta builds by finding people who share characteristics with a source audience you provide, such as your existing customers. A 1% lookalike is the closest match; 10% is broader."
+    },
+    {
+      "term": "CPM (Cost Per Mille)",
+      "definition": "The cost to show your ad 1,000 times. This is Meta's primary pricing metric. Lower CPMs mean you are reaching more people for less money."
+    },
+    {
+      "term": "Pixel",
+      "definition": "A snippet of JavaScript code placed on your website that tracks user actions \u2014 page views, add to carts, purchases \u2014 and sends that data back to Meta for conversion tracking and audience building."
+    },
+    {
+      "term": "Ad Fatigue",
+      "definition": "When your target audience sees the same ad too many times, causing click-through rates to drop and costs to rise. Measured by frequency \u2014 the average number of times each person has seen your ad."
+    },
+    {
+      "term": "Advantage+",
+      "definition": "Meta's AI-powered campaign type that automates targeting, placements, and creative optimisation. It requires less manual setup but offers fewer controls."
+    },
+    {
+      "term": "CAPI (Conversions API)",
+      "definition": "A server-side tracking method that sends conversion data directly from your server to Meta, bypassing browser restrictions and improving data accuracy beyond what the Pixel alone can capture."
+    }
+  ],
+  "beginnerMistakes": [
+    "Targeting audiences that are too narrow or too broad instead of testing multiple audience sizes and letting Meta's algorithm optimise",
+    "Using the Boost Post button instead of Ads Manager, which gives you far less control over targeting, placement, and optimisation",
+    "Changing campaign settings too frequently without giving the algorithm enough time to exit the learning phase (usually 50 conversions)",
+    "Ignoring creative refresh \u2014 running the same ad for weeks until performance degrades from ad fatigue",
+    "Not installing the Meta Pixel and Conversions API, which means Meta cannot optimise for actual purchases or leads"
+  ],
+  "relatedProject": "paid-ad-campaign"
+}

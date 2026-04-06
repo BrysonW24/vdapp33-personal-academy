@@ -1,0 +1,15 @@
+{
+  "slug": "pandas-tool",
+  "name": "Pandas",
+  "category": "data",
+  "description": "The essential Python library for data manipulation. DataFrames for tabular data — filtering, grouping, joining, cleaning, and analysis.",
+  "whyUseIt": "Pandas is the first tool you reach for when working with tabular data. Load CSVs, clean messy data, engineer features, compute statistics, and prepare datasets for ML. Every AI engineer uses it daily.",
+  "pricingTier": "free",
+  "url": "https://pandas.pydata.org",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/pandas.svg",
+  "alternatives": [
+    "Polars",
+    "Dask",
+    "Vaex"
+  ]
+}

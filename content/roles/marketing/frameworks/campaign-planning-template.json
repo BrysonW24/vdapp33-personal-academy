@@ -1,0 +1,19 @@
+{
+  "slug": "campaign-planning-template",
+  "name": "Campaign Planning Template",
+  "summary": "A structured template for planning any marketing campaign from objective to execution to measurement.",
+  "whenToUseIt": "Use before launching any campaign — whether it's a product launch, seasonal promotion, brand awareness push, or lead generation drive. Prevents the common mistake of jumping straight into tactics without a plan.",
+  "steps": [
+    "Objective: What specific, measurable goal are you trying to achieve? (e.g., 500 new leads, 20% sales increase, 10,000 email signups)",
+    "Target Audience: Who specifically are you reaching? Use your personas.",
+    "Key Message: What's the single most important thing you want the audience to think, feel, or do?",
+    "Channels: Where will you reach them? (Social, email, paid ads, PR, events, partnerships)",
+    "Budget: How much will you spend? Break it down by channel.",
+    "Timeline: When does the campaign launch, run, and end? Key milestones?",
+    "Creative Brief: What assets do you need? (Copy, images, video, landing pages)",
+    "KPIs: How will you measure success? Set targets for each metric.",
+    "Post-Campaign Review: What worked? What didn't? What will you do differently next time?"
+  ],
+  "example": "Campaign plan for a Black Friday sale: Objective = 40% revenue increase vs. last year. Audience = existing customers + warm leads. Message = 'Our biggest sale of the year — up to 50% off everything.' Channels = email (3 emails), Instagram stories, Google Shopping ads, website banner. Budget = $3,000 (50% paid ads, 30% email platform, 20% creative). Timeline = teaser 1 week before, launch day, 3-day event, follow-up. KPIs = revenue, conversion rate, email open rate, ROAS.",
+  "category": "execution"
+}

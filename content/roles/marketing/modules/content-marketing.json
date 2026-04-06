@@ -1,0 +1,34 @@
+{
+  "slug": "content-marketing",
+  "title": "Content Marketing",
+  "shortSummary": "Content marketing is the practice of creating and sharing valuable, relevant content to attract and retain a clearly defined audience. Instead of interrupting people with ads, you earn their attention by being genuinely helpful. This module covers content strategy, creation, distribution, and measurement.",
+  "level": "beginner",
+  "category": "channel",
+  "whyItMatters": "Content marketing costs 62% less than traditional marketing and generates roughly three times as many leads. More importantly, it builds trust and authority over time. When people find your content helpful, they remember you when they are ready to buy. It is the foundation of organic growth and works across every industry.",
+  "coreConcepts": [
+    "What content marketing is and what it is not",
+    "The content marketing flywheel: attract, engage, delight",
+    "Types of content: blog posts, videos, podcasts, infographics, case studies, newsletters",
+    "Content strategy: planning what to create and why",
+    "The editorial calendar and content cadence",
+    "Content distribution: owned, earned, and paid channels",
+    "Repurposing content across formats and platforms",
+    "Measuring content performance: traffic, engagement, conversions"
+  ],
+  "lessons": [
+    "content-that-converts"
+  ],
+  "frameworks": [
+    "aida",
+    "customer-journey-map"
+  ],
+  "visualType": "diagram",
+  "relatedModules": [
+    "social-media-marketing",
+    "seo-discoverability",
+    "email-and-crm"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

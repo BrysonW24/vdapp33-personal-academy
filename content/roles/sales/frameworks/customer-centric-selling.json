@@ -1,0 +1,13 @@
+{
+  "slug": "customer-centric-selling",
+  "name": "CustomerCentric Selling",
+  "summary": "A buyer-focused methodology built around understanding the customer's goals, use cases, and decision process so the conversation stays grounded in what the buyer is trying to accomplish.",
+  "whenToUseIt": "Use CustomerCentric Selling when you want to keep discovery, demos, and progression tightly aligned to the buyer's goals, evaluation path, and practical use cases.",
+  "steps": [
+    "Clarify the buyer's business goals and the role-specific outcomes they care about.",
+    "Map the likely use cases and decision path before overwhelming them with product detail.",
+    "Advance the deal through agreed commitments tied to the buyer's view of success."
+  ],
+  "example": "A buyer evaluating enablement software cares most about rep adoption and manager visibility. A customer-centric rep keeps the conversation anchored to those use cases instead of showing every product module.",
+  "category": "sales-methodology"
+}

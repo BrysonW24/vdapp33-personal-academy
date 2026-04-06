@@ -1,0 +1,16 @@
+{
+  "slug": "ab-testing-framework",
+  "name": "A/B Testing Framework",
+  "summary": "A structured framework for running controlled experiments to optimise marketing performance through data-driven decision-making.",
+  "whenToUseIt": "Use this framework when you need data-driven evidence for a marketing decision, when optimising conversion rates across your funnel, or when settling team debates about creative direction with real performance data.",
+  "steps": [
+    "Hypothesis Formation: Define a clear, testable hypothesis — state what you believe will happen and why (e.g. 'Changing the CTA from blue to green will increase click-through rate because green signals go/action')",
+    "Test Design: Isolate a single variable to test so you can attribute any change in results to that one factor — never change multiple things at once",
+    "Sample Size Calculation: Determine how many visitors or recipients you need to reach statistical significance — use a sample size calculator based on your baseline conversion rate and minimum detectable effect",
+    "Run Test to Significance: Launch the experiment and let it run until you hit your required sample size — resist the urge to call it early based on early trends",
+    "Analyse Results: Compare the control and variant using statistical significance (p < 0.05) — look at both primary and secondary metrics to understand the full impact",
+    "Document Learnings: Record the hypothesis, result, confidence level, and implications in a shared testing log so the team builds institutional knowledge over time"
+  ],
+  "example": "An e-commerce fashion brand notices their cart abandonment rate is 72%. They hypothesise that simplifying the checkout button from 'Proceed to Secure Checkout' to 'Buy Now' will increase conversions. They calculate they need 5,000 visitors per variant, run the test for two weeks, and find 'Buy Now' increases checkout completion by 11% with 95% confidence. They document the insight — shorter, action-oriented CTAs outperform longer descriptive ones — and apply it across their entire site.",
+  "category": "analytics"
+}

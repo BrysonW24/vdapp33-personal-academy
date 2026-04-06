@@ -1,0 +1,42 @@
+{
+  "slug": "google-colab",
+  "name": "Google Colab",
+  "category": "developer-tooling",
+  "description": "Google's free cloud-hosted Jupyter notebook environment with access to GPUs and TPUs. No setup required — open a browser, write Python, and train models on powerful hardware without buying a GPU.",
+  "whyUseIt": "Free GPU access is Colab's killer feature. Training deep learning models requires a GPU, and Colab gives you one for free (with limits). It is the fastest way to start training models without any local setup or cloud billing.",
+  "pricingTier": "freemium",
+  "url": "https://colab.research.google.com",
+  "logoUrl": "https://cdn.worldvectorlogo.com/logos/google-colab.svg",
+  "aiCapabilities": "Free GPU (T4) and TPU access for model training. Pre-installed with PyTorch, TensorFlow, and common AI libraries. Integrates with Google Drive for data storage.",
+  "alternatives": [
+    "Jupyter (local)",
+    "Kaggle Notebooks",
+    "Lightning AI",
+    "Paperspace Gradient"
+  ],
+  "funnelPosition": "Learning and prototyping",
+  "outputs": [
+    "Cloud-hosted notebooks",
+    "Trained models",
+    "Experiment results",
+    "Shareable links"
+  ],
+  "engineerWorkflow": "An AI engineer uses Colab for GPU-intensive work: training image classifiers, fine-tuning language models, running embedding pipelines on large datasets. For lighter work, they use local Jupyter.",
+  "managerExpects": "You use Colab for learning and prototyping, not production workloads. For production GPU work, use proper cloud infrastructure (AWS, GCP) with cost controls.",
+  "vocabulary": [
+    {
+      "term": "Runtime",
+      "definition": "The virtual machine that runs your notebook code. You can change the runtime type to include a GPU or TPU."
+    },
+    {
+      "term": "T4 GPU",
+      "definition": "The free GPU tier in Colab. An NVIDIA T4 with 16GB memory — sufficient for training medium-sized models and fine-tuning with LoRA."
+    }
+  ],
+  "beginnerMistakes": [
+    "Relying on Colab for production workloads — sessions time out, GPUs are not guaranteed, and data is not persistent",
+    "Not saving your work to Google Drive — Colab instances are temporary and data is lost when the session ends",
+    "Using the free tier for large training jobs — it has usage limits and will disconnect you mid-training"
+  ],
+  "relatedProject": "image-classifier"
+}

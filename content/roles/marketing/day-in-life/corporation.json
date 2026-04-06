@@ -1,0 +1,57 @@
+{
+  "slug": "corporation",
+  "title": "Marketing Manager — Corporation",
+  "setting": "Large corporation (500+ employees)",
+  "companySize": "500-5,000+ employees",
+  "description": "You're a Marketing Manager at a large Australian company. You lead a team of 3-5 marketers, manage significant budgets, and work cross-functionally with product, sales, and executive teams. Your role is strategic with layers of approval, but the resources and impact are substantial.",
+  "salary": "$110,000 - $160,000 AUD",
+  "schedule": [
+    {"time": "8:00 AM", "activity": "Review overnight campaign performance dashboards and flag anything unusual", "tools": ["Google Analytics", "Looker Studio", "Salesforce"], "note": "Data review is always first — it sets your priorities for the day"},
+    {"time": "8:30 AM", "activity": "Team standup — each team member shares progress, blockers, and priorities", "tools": ["Slack", "Asana"], "note": "Keep it under 15 minutes. Focus on blockers, not status updates."},
+    {"time": "9:00 AM", "activity": "Review and approve creative assets for upcoming product launch campaign", "tools": ["Figma", "Google Docs"], "note": "Your job is to ensure brand consistency and strategic alignment"},
+    {"time": "9:45 AM", "activity": "Cross-functional sync with Product team about Q3 feature launches and marketing support needed", "tools": ["Google Meet", "Notion"]},
+    {"time": "10:30 AM", "activity": "Deep work: Writing the quarterly marketing strategy presentation for the CMO", "tools": ["Google Slides", "Google Sheets"], "note": "This is your highest-value work — block your calendar for it"},
+    {"time": "12:00 PM", "activity": "Lunch — often used for informal catch-ups with Sales or Product leads"},
+    {"time": "1:00 PM", "activity": "Budget review meeting with Finance — justifying marketing spend and forecasting Q3 ROI", "tools": ["Google Sheets", "Salesforce"], "note": "Learn to speak the language of finance: ROI, CAC, CLV, pipeline value"},
+    {"time": "2:00 PM", "activity": "Review agency deliverables — creative concepts for brand campaign, provide feedback", "tools": ["Figma", "Email"]},
+    {"time": "2:45 PM", "activity": "1:1 coaching session with junior marketing coordinator", "note": "People management is a major part of this role"},
+    {"time": "3:30 PM", "activity": "Review A/B test results from email campaign and decide on next iteration", "tools": ["Klaviyo", "Google Sheets"]},
+    {"time": "4:00 PM", "activity": "Stakeholder alignment: brief the Sales team on upcoming campaign messaging and materials", "tools": ["Google Slides", "Slack"]},
+    {"time": "4:45 PM", "activity": "Plan tomorrow's priorities, respond to remaining emails, update Asana boards", "tools": ["Asana", "Gmail"]},
+    {"time": "5:30 PM", "activity": "End of day — occasionally attend industry events or marketing meetups in the evening"}
+  ],
+  "responsibilities": [
+    "Own the marketing strategy and annual marketing plan",
+    "Manage and develop a team of 3-5 marketers",
+    "Control and justify a six-figure marketing budget",
+    "Report marketing performance to the CMO and executive team",
+    "Coordinate with Product, Sales, and Customer Success teams",
+    "Manage relationships with external agencies and vendors",
+    "Ensure brand consistency across all touchpoints",
+    "Drive pipeline and revenue through marketing campaigns"
+  ],
+  "challenges": [
+    "Multiple layers of approval slow down execution",
+    "Balancing long-term brand building with short-term performance pressure",
+    "Proving marketing ROI to finance and executive stakeholders",
+    "Managing a team while still contributing strategically",
+    "Navigating corporate politics and competing priorities",
+    "Keeping up with marketing technology and industry changes"
+  ],
+  "rewards": [
+    "Significant budgets mean you can execute ambitious campaigns",
+    "Access to data, tools, and resources that smaller companies can't afford",
+    "Clear career progression path to Senior Manager, Director, VP, CMO",
+    "Working with talented specialists across the marketing mix",
+    "Impact at scale — campaigns can reach millions of people",
+    "Competitive salary and benefits package"
+  ],
+  "careerPath": [
+    "Marketing Coordinator (1-2 years)",
+    "Marketing Specialist (2-3 years)",
+    "Marketing Manager (3-5 years)",
+    "Senior Marketing Manager (5-7 years)",
+    "Head of Marketing / Director (7-10 years)",
+    "VP Marketing / CMO (10+ years)"
+  ]
+}

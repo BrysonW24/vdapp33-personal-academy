@@ -1,0 +1,62 @@
+{
+  "slug": "getting-found-through-search",
+  "moduleSlug": "seo-discoverability",
+  "title": "Getting Found Through Search",
+  "objective": "Understand how search engines work and how to build organic visibility that drives consistent, free traffic to your brand.",
+  "beginnerExplanation": "Think of Google as a librarian managing the world's biggest library. When someone asks a question, the librarian needs to understand every book (website) in the collection, decide which ones are most relevant, and recommend the best ones first. Search engine optimisation (SEO) is about making sure your 'book' is well-organised, clearly written, and widely recommended — so the librarian picks it for the top shelf.\n\nGoogle works in three steps: crawling, indexing, and ranking. Crawling is when Google's bots visit your website and read every page. Indexing is when they add your pages to their massive database. Ranking is when they decide where your page appears in search results for a given query. Your job is to make all three steps as easy as possible — by having a well-structured site, useful content, and signals that prove you're trustworthy.\n\nThe beauty of SEO is that once you rank for a keyword, you get free, consistent traffic without paying for every click. Unlike ads that stop the moment you stop spending, a well-ranked page can drive visitors for months or years. The trade-off is time — SEO is a long game. It typically takes three to six months to see meaningful results. But for businesses that commit, organic search often becomes their largest and most cost-effective traffic source.",
+  "deeperExplanation": "Google's E-E-A-T framework — Experience, Expertise, Authoritativeness, and Trustworthiness — is the lens through which content quality is evaluated. Since the 2022 Helpful Content updates, Google has increasingly prioritised content written by people with genuine experience and expertise over content that merely targets keywords. For e-commerce brands, this means product reviews from actual users, buying guides from genuine experts, and 'about' pages that establish real credentials carry significantly more weight.\n\nTopical authority is a strategic concept that separates brands that dabble in content from those that dominate search. Rather than writing scattered articles on unrelated topics, topical authority means creating comprehensive coverage of a specific subject area. If you sell running shoes, you don't just write one article about running shoes — you cover training plans, injury prevention, gear comparisons, race guides, and nutrition for runners. This interconnected web of content signals to Google that you're a definitive source on the topic, boosting rankings across all related pages.\n\nThe rise of AI-generated search results — Google's AI Overviews and similar features — is reshaping SEO strategy. These summaries often answer questions directly in the search results, reducing click-through rates for informational queries. Smart marketers are adapting by targeting transactional and comparison queries where clicks remain high, creating content that AI summaries cite as sources, and building brand recognition so users seek them out directly. Programmatic SEO — creating templated landing pages at scale for long-tail queries — remains effective for e-commerce but requires genuine value on each page to avoid thin content penalties.",
+  "keyTakeaways": [
+    "Start every piece of content with keyword research — understand what your audience is actually searching for",
+    "Build topical authority by creating comprehensive content clusters around your core subject areas",
+    "Match content to search intent — informational queries need guides, transactional queries need product pages",
+    "Invest in internal linking to help Google understand your site structure and distribute authority",
+    "Treat SEO as a six-month commitment minimum — quick wins are rare but compounding returns are significant"
+  ],
+  "frameworks": ["kpi-cheat-sheet"],
+  "example": "Canva, the Australian design platform, built one of the most impressive organic traffic strategies in SaaS. They created thousands of landing pages targeting specific design use cases — 'wedding invitation template', 'business card maker', 'Instagram post template', 'resume builder' — each matching exact search intent with a relevant, usable template. This programmatic SEO approach meant that whenever someone searched for any type of design template, Canva appeared at the top. By matching search intent with immediate value (a free, ready-to-use template), they drove millions of monthly organic visits and turned searchers into users. Their strategy proves that the best SEO isn't about gaming algorithms — it's about being genuinely useful for every query you target.",
+  "commonMistakes": [
+    "Writing content without doing keyword research first and hoping it ranks for something",
+    "Stuffing keywords unnaturally into content instead of writing for humans who search",
+    "Ignoring search intent — creating a blog post when the searcher wants a product page, or vice versa",
+    "Building no internal linking structure, leaving pages orphaned and hard for Google to discover",
+    "Expecting SEO results in weeks instead of committing to the three-to-six month timeline it requires"
+  ],
+  "exercise": "Pick a topic relevant to a business you're interested in. Use Google's autocomplete (start typing and see suggestions) and the 'People Also Ask' section to find 10 related questions people are searching for. Organise them into two groups: informational intent (people wanting to learn) and transactional intent (people wanting to buy or compare). For each group, describe what type of content you'd create to match that intent.",
+  "nextLesson": "mapping-the-customer-journey",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What is topical authority and why does it matter for SEO?",
+      "options": [
+        "It means being the first website to write about a trending topic",
+        "It means creating comprehensive content coverage of a specific subject area, which signals to Google that you're a definitive source",
+        "It means having the most backlinks of any website in your industry",
+        "It means your website has been online longer than your competitors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Topical authority is built by creating an interconnected web of content covering all aspects of your subject area. This signals to Google that you're a definitive source, boosting rankings across all related pages."
+    },
+    {
+      "question": "You sell running shoes online. Someone searches 'best running shoes for flat feet.' What type of content should you create to match this search intent?",
+      "options": [
+        "A product page listing all your running shoes with prices",
+        "A detailed comparison guide reviewing the best options for flat feet, including your products alongside competitors",
+        "A blog post about the history of running shoes",
+        "A homepage redesign featuring your bestselling shoe"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is an informational/comparison query. The searcher wants expert guidance on which shoes suit their specific need. A comparison guide matches this intent and builds trust before directing them to purchase."
+    },
+    {
+      "question": "Which of the following is an SEO mistake?",
+      "options": [
+        "Starting every piece of content with keyword research",
+        "Building internal links to help Google understand your site structure",
+        "Writing content without doing keyword research and hoping it ranks for something",
+        "Committing to SEO as a six-month minimum investment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Creating content without keyword research means you have no idea whether anyone is actually searching for what you've written. Research ensures your content matches real demand."
+    }
+  ]
+}

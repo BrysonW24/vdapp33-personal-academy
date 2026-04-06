@@ -1,0 +1,13 @@
+{
+  "slug": "paper-process-management",
+  "name": "Paper Process Management",
+  "summary": "A deal control technique that manages the commercial, legal, security, and procurement work required to turn verbal agreement into an executed contract.",
+  "whenToUseIt": "Use paper process management in any deal where contracting, security review, legal terms, procurement, or internal approval mechanics could slow the close.",
+  "steps": [
+    "Map every commercial and approval step that must happen after buying intent exists.",
+    "Assign owners and dates to each review or paperwork stage.",
+    "Inspect the process regularly so silent delay does not surprise the forecast."
+  ],
+  "example": "A rep learns early that the MSA must be approved by legal, data processing terms must be reviewed by security, and procurement only meets twice per month. That knowledge changes the close plan immediately.",
+  "category": "enterprise-deal-execution"
+}

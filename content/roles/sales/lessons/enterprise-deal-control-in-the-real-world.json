@@ -1,0 +1,76 @@
+{
+  "slug": "enterprise-deal-control-in-the-real-world",
+  "moduleSlug": "enterprise-sales",
+  "title": "Enterprise Deal Control in the Real World",
+  "objective": "Learn how champion building, multithreading, economic buyer mapping, decision-process mapping, paper-process management, and political awareness combine to keep enterprise deals on track.",
+  "beginnerExplanation": "Enterprise deals rarely die because of one dramatic event. They usually drift because key people were not engaged, one approval path was misunderstood, or paper process friction appeared late. Deal control means seeing those risks early enough to act.",
+  "deeperExplanation": "Champion building matters because internal selling still happens when you are not in the room. Multithreading matters because one relationship is never enough in enterprise. Economic buyer mapping matters because interest without budget authority is still fragile. Decision-process mapping matters because timing assumptions are often wrong. Paper-process management matters because legal, security, and procurement can quietly destroy momentum if left too late. Political mapping matters because support and resistance are rarely distributed evenly across the account.\n\nThese skills work together. The best enterprise reps do not treat them as separate tasks. They use them as one deal-control system that keeps value, process, and power aligned.",
+  "keyTakeaways": [
+    "Enterprise deal control is a system, not one heroic relationship.",
+    "Champions and multithreading reduce the risk of internal silence.",
+    "Economic buyer and decision-process clarity improve forecast quality.",
+    "Paper process must be mapped before it becomes late-stage friction.",
+    "Political awareness helps you understand who will support or resist the change.",
+    "Strong control makes the deal feel simpler for the buyer as well as the seller."
+  ],
+  "frameworks": [
+    "champion-building",
+    "multithreading",
+    "economic-buyer-mapping",
+    "decision-process-mapping",
+    "paper-process-management",
+    "political-mapping",
+    "mutual-success-plan"
+  ],
+  "example": "A deal looks healthy because the director champion loves the platform. But economic buyer access is weak, procurement timelines are assumed rather than confirmed, and the security lead has never spoken to the seller. A controlled enterprise rep fixes that before the forecast call: they coach the champion, open a second thread with security, map the CFO approval path, and document the paper process with dates.",
+  "commonMistakes": [
+    "Calling a deal well-qualified when the economic buyer is still unknown",
+    "Waiting for procurement or security to appear instead of surfacing them early",
+    "Assuming a champion has more internal influence than they actually do",
+    "Ignoring political resistance because one stakeholder seems enthusiastic",
+    "Treating enterprise risk as unavoidable instead of manageable"
+  ],
+  "exercise": "Take one enterprise-style deal and score it on six areas: champion, thread coverage, economic buyer, decision process, paper process, and political risk. Then write the next action to strengthen the weakest area.",
+  "order": 2,
+  "quiz": [
+    {
+      "question": "Why is multithreading important in enterprise sales?",
+      "options": [
+        "It lets the rep send more emails",
+        "It reduces dependence on one contact and exposes more of the real decision process",
+        "It removes the need for a champion",
+        "It shortens every deal automatically"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multithreading is valuable because enterprise decisions are made by groups, not single contacts."
+    },
+    {
+      "question": "What does paper-process management protect against?",
+      "options": [
+        "Only product objections",
+        "Late-stage commercial, legal, security, and procurement friction",
+        "Competitive positioning",
+        "Poor discovery questions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paper process matters because many enterprise deals slow down in legal, procurement, or security review."
+    },
+    {
+      "question": "What is one sign a deal is politically risky?",
+      "options": [
+        "Everyone expresses identical priorities",
+        "One champion is excited but other influential stakeholders are still unknown or skeptical",
+        "The buyer asks good questions",
+        "The implementation team wants a plan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enterprise risk often hides in unseen stakeholders and misaligned internal politics."
+    }
+  ],
+  "perspectives": {
+    "ae": "Enterprise AEs should inspect control gaps regularly instead of assuming momentum will hold.",
+    "manager": "Managers add value by pressure-testing thread coverage, paper process, and buyer power before the deal goes late stage.",
+    "vp": "A VP wants enterprise deals forecast based on evidence of control, not only rep optimism.",
+    "cro": "A CRO sees deal control discipline as one of the biggest differences between good enterprise teams and inconsistent ones."
+  }
+}

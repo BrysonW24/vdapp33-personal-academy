@@ -1,0 +1,13 @@
+{
+  "slug": "aida",
+  "name": "AIDA",
+  "summary": "A classic persuasion structure that moves the buyer through Attention, Interest, Desire, and Action.",
+  "whenToUseIt": "Use AIDA when you need a simple narrative shape for emails, talk tracks, demos, or commercial recaps that must build momentum in a clear sequence.",
+  "steps": [
+    "Grab attention with a relevant problem, change event, or point of view.",
+    "Build interest and desire by connecting the issue to the buyer's priorities and the value of fixing it.",
+    "End with a clear action or next commitment."
+  ],
+  "example": "A demo opens with a forecast credibility problem, shows how the buyer's current process creates it, builds desire around a cleaner inspection rhythm, and closes on a management review session as the next step.",
+  "category": "presentation-persuasion"
+}

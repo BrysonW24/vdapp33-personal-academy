@@ -1,0 +1,23 @@
+{
+  "slug": "enterprise-sales",
+  "title": "Enterprise Sales",
+  "shortSummary": "Selling to large organisations means longer cycles, more stakeholders, and higher stakes. Learn to navigate technical evaluations, procurement, and executive alignment to win big.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "Enterprise deals are the pinnacle of B2B sales. They involve 6-18 month cycles, 5-15 stakeholders, technical evaluators, procurement teams, legal reviews, and six-figure or seven-figure contract values. The skills that work in mid-market do not automatically scale to enterprise. You need political savvy, executive presence, technical collaboration, patience, and the ability to orchestrate a complex buying process.",
+  "coreConcepts": [
+    "Enterprise buying process: from discovery to procurement",
+    "Navigating multiple stakeholders and buying committees",
+    "Executive sponsorship, champion development, and mutual action plans",
+    "Political navigation and paper process control",
+    "RFP/RFI response strategy and security review management",
+    "Proof of concept (POC) and pilot management",
+    "Contract negotiation at enterprise scale with finance and legal alignment"
+  ],
+  "lessons": ["orchestrating-complex-enterprise-deals", "enterprise-deal-control-in-the-real-world"],
+  "frameworks": ["meddic", "meddpicc", "challenger-sale", "command-of-the-message", "champion-building", "multithreading", "economic-buyer-mapping", "decision-process-mapping", "paper-process-management", "political-mapping", "mutual-success-plan"],
+  "relatedModules": ["strategic-accounts", "negotiation", "sales-leadership"],
+  "status": "complete",
+  "order": 15,
+  "levelNumber": 4
+}

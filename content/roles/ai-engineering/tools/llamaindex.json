@@ -1,0 +1,14 @@
+{
+  "slug": "llamaindex",
+  "name": "LlamaIndex",
+  "category": "framework",
+  "description": "A data framework for building RAG applications. Specialises in connecting LLMs to external data sources with optimised retrieval.",
+  "whyUseIt": "LlamaIndex is the best tool specifically for RAG — connecting LLMs to your own data. Its indexing strategies, query engines, and data connectors are purpose-built for retrieval-augmented generation.",
+  "pricingTier": "free",
+  "url": "https://llamaindex.ai",
+  "alternatives": [
+    "LangChain",
+    "Haystack",
+    "Embedchain"
+  ]
+}

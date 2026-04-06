@@ -1,0 +1,27 @@
+{
+  "slug": "outreach-io",
+  "name": "Outreach",
+  "category": "email",
+  "description": "The leading sales engagement platform for enterprise sales teams. Outreach automates multi-channel sequences (email, phone, LinkedIn, SMS), provides AI-driven insights, and helps reps execute consistent outbound at scale.",
+  "whyUseIt": "Outreach is the tool that turns your outbound strategy into an executable machine. Instead of manually sending emails and tracking follow-ups in spreadsheets, Outreach automates the cadence, tracks engagement (opens, clicks, replies), and surfaces the hottest prospects. For teams doing serious outbound, it's the standard.",
+  "pricingTier": "enterprise",
+  "url": "https://www.outreach.io",
+  "logoUrl": "/tools/outreach-io.svg",
+  "aiCapabilities": "Outreach AI scores sequences by effectiveness, suggests optimal send times, recommends next actions, generates email copy, and provides sentiment analysis on buyer responses.",
+  "alternatives": ["salesloft", "apollo-io"],
+  "funnelPosition": "Top of funnel — prospecting and outbound engagement",
+  "outputs": ["Automated email sequences", "Call task queues", "Engagement analytics", "A/B test results", "Pipeline generation reports"],
+  "sellerWorkflow": "SDRs load prospects into sequences, Outreach sends emails on schedule, logs calls and tasks, and tracks engagement. AEs use sequences for nurturing and re-engagement. Managers view team activity and sequence performance dashboards.",
+  "managerExpects": "Consistent sequence execution — prospects enrolled on time, personalisation completed, call tasks executed daily, and engagement data feeding back into strategy.",
+  "demoDescription": "Create a multi-step sequence with email, call, and LinkedIn steps. Enrol a prospect. View the engagement timeline showing opens, clicks, and replies. Analyse sequence performance across the team.",
+  "vocabulary": [
+    { "term": "Sequence", "definition": "A multi-step, multi-channel cadence that automatically executes outreach tasks on a defined schedule." },
+    { "term": "Touch", "definition": "A single interaction step within a sequence: an email, a call, a LinkedIn action, or a manual task." }
+  ],
+  "beginnerMistakes": [
+    "Using templates without personalising the first line and trigger",
+    "Not pausing sequences when a prospect responds (avoiding awkward automated follow-ups)",
+    "Ignoring engagement data — if open rates are below 30%, your subject lines need work"
+  ],
+  "relatedProject": "email-sequence"
+}

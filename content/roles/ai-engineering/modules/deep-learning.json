@@ -1,0 +1,29 @@
+{
+  "slug": "deep-learning",
+  "title": "Deep Learning Foundations",
+  "shortSummary": "Build intuition for neural nets, training loops, optimization, and the practical shape of modern deep learning systems.",
+  "track": "classical-ml",
+  "level": "intermediate",
+  "category": "specialization",
+  "whyItMatters": "Even if you spend most of your time shipping with foundation models, deep learning fluency helps you understand model behavior, papers, and systems tradeoffs more clearly.",
+  "coreConcepts": [
+    "Training loops, loss curves, and debugging",
+    "Representations, embeddings, and modern architectures",
+    "Optimization, regularization, and overfitting",
+    "Transfer learning and adaptation strategies",
+    "Where deep learning foundations still show up in frontier roles"
+  ],
+  "lessons": [
+    "deep-learning-lesson"
+  ],
+  "frameworks": [
+    "ml-lifecycle"
+  ],
+  "relatedModules": [
+    "applied-ml-foundations",
+    "nlp-computer-vision-foundations"
+  ],
+  "status": "coming-soon",
+  "order": 18,
+  "levelNumber": 4
+}

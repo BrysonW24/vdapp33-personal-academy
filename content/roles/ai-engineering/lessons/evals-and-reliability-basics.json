@@ -1,0 +1,24 @@
+{
+  "slug": "evals-and-reliability-basics",
+  "moduleSlug": "model-evaluation",
+  "title": "Designing Evals Before You Ship",
+  "objective": "Learn how to turn fuzzy quality judgments into repeatable evaluation systems.",
+  "beginnerExplanation": "An eval is a repeatable check that tells you whether your AI system is doing the job. It might score factual grounding, format correctness, latency, refusal quality, or task success.",
+  "deeperExplanation": "The real power of evals is that they create release discipline. When prompts, retrieval settings, or base models change, your eval suite tells you whether you improved, regressed, or just shifted failures into a new category.",
+  "keyTakeaways": [
+    "Golden datasets and failure taxonomies make quality visible.",
+    "Reliability includes latency, format correctness, and fallback behavior.",
+    "Without evals, every model update is a trust-destroying gamble."
+  ],
+  "frameworks": [
+    "model-evaluation-framework"
+  ],
+  "example": "A citation-backed Q&A system is scored on retrieval quality, answer grounding, source citation correctness, and response time before any model upgrade goes live.",
+  "commonMistakes": [
+    "Only measuring one metric, like overall accuracy.",
+    "Relying on ad hoc manual spot checks.",
+    "Ignoring error categories that users feel even when averages look good."
+  ],
+  "exercise": "Create a 15-example eval set for an LLM feature you admire, define the rubric, and note the top three failure classes you would track.",
+  "order": 1
+}

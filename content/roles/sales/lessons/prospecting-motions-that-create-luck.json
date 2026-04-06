@@ -1,0 +1,73 @@
+{
+  "slug": "prospecting-motions-that-create-luck",
+  "moduleSlug": "prospecting",
+  "title": "Prospecting Motions That Create Luck",
+  "objective": "Learn how to combine trigger events, account research, warm introductions, and social selling into a prospecting system that creates more real buying conversations.",
+  "beginnerExplanation": "Top prospectors do not rely on one tactic. They mix several motions so outreach lands with better timing and more context. That is why some reps seem lucky: they are not guessing, they are stacking signal, relevance, and access more intelligently.",
+  "deeperExplanation": "Modern prospecting usually blends four motions. Trigger-event selling helps you find buying moments. Account-research-led outreach gives you a tailored hypothesis. Warm referrals reduce trust friction. Social selling helps you build familiarity before or between direct touches. None of these replace each other. Together they create more quality than raw volume alone.\n\nThe trick is to match the motion to account value and stage. A Tier 1 target deserves research, social touches, referral paths, and tightly tailored outreach. A lower-value segment may justify lighter personalization with a clear trigger. Good prospecting systems create enough structure that reps can do this consistently, not only when inspiration strikes.",
+  "keyTakeaways": [
+    "Prospecting quality improves when you combine multiple motions instead of relying on one channel.",
+    "Trigger events help with timing, but research makes the message credible.",
+    "Warm referrals compress trust faster than cold outreach alone.",
+    "Social selling works best as support for relevance, not as random posting.",
+    "Account tiers should determine how much effort and tailoring each account gets.",
+    "What looks like luck is usually disciplined prioritisation and repetition."
+  ],
+  "frameworks": [
+    "trigger-event-selling",
+    "account-research-led-outreach",
+    "warm-referral-selling",
+    "social-selling"
+  ],
+  "example": "An AE targets a strategic retailer account. First, they notice a new COO hire and a warehouse expansion announcement. Then they build a value hypothesis tied to throughput and staffing pressure. They engage thoughtfully with the COO's public posts, ask a mutual customer for an introduction to the operations leader, and send a short note referencing the expansion pressure. The meeting came from stacked relevance, not from one lucky email.",
+  "commonMistakes": [
+    "Treating social selling as brand vanity instead of buyer relevance",
+    "Over-researching small accounts that do not justify it",
+    "Ignoring referral paths because cold outreach feels more controllable",
+    "Using trigger events without translating them into a business hypothesis",
+    "Running one generic motion across all account tiers"
+  ],
+  "exercise": "Choose one Tier 1 target account and plan a five-touch sequence that includes one trigger event, one social interaction, one referral path, and one direct outreach angle.",
+  "order": 3,
+  "quiz": [
+    {
+      "question": "What makes a prospecting motion strong?",
+      "options": [
+        "It relies on one channel only",
+        "It combines timing, relevance, and access thoughtfully",
+        "It maximises email volume at all costs",
+        "It avoids research to save time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strong prospecting works because the motion aligns timing, message, and route into the account."
+    },
+    {
+      "question": "Why are warm referrals powerful?",
+      "options": [
+        "They remove the need for discovery",
+        "They reduce trust friction and increase response quality",
+        "They only work in small deals",
+        "They replace account research"
+      ],
+      "correctIndex": 1,
+      "explanation": "Referrals often compress trust because the buyer receives context from a person they already know."
+    },
+    {
+      "question": "How should account tier affect prospecting?",
+      "options": [
+        "It should not affect it at all",
+        "Higher-value accounts should receive more tailored, multi-motion work",
+        "Only small accounts need social selling",
+        "Tiering is mainly for CRM reporting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tiering helps you invest prospecting effort where the return justifies it."
+    }
+  ],
+  "perspectives": {
+    "ae": "AEs should think of prospecting as a system of motions, not a daily mood.",
+    "manager": "Managers can raise top-of-funnel quality by inspecting account selection and motion design, not just activity count.",
+    "vp": "A VP wants tiered prospecting discipline because it creates more efficient pipeline coverage.",
+    "cro": "A CRO values structured prospecting because it creates pipeline control in uncertain quarters."
+  }
+}

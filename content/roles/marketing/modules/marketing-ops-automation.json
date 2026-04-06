@@ -1,0 +1,15 @@
+{
+  "slug": "marketing-ops-automation",
+  "title": "Marketing Ops & Automation",
+  "shortSummary": "Scale your marketing with systems, workflows, and automation tools that save time and reduce errors.",
+  "level": "advanced",
+  "category": "advanced",
+  "whyItMatters": "As marketing scales, manual processes break. Marketing operations builds the infrastructure that lets your team do more with less — automating repetitive tasks, managing data flows, and keeping everything running smoothly.",
+  "coreConcepts": ["Marketing automation", "Workflow design", "Lead scoring", "Data hygiene", "Martech stack", "Integration architecture", "Process documentation"],
+  "lessons": ["scaling-with-automation"],
+  "frameworks": ["martech-stack-model", "aarrr"],
+  "relatedModules": ["email-and-crm", "analytics-attribution-kpis", "budgeting-channel-allocation"],
+  "status": "complete",
+  "order": 18,
+  "levelNumber": 4
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "brand-positioning-canvas",
+  "name": "Brand Positioning Canvas",
+  "summary": "A structured exercise for defining your brand's unique position in the market — who you serve, what you promise, and how you're different.",
+  "whenToUseIt": "Use when building a new brand, repositioning an existing one, or when your team can't clearly articulate what makes you different. This canvas creates alignment across marketing, sales, and product.",
+  "steps": [
+    "Target Customer: Who specifically are you for? Be narrow and precise.",
+    "Category: What market or category do you compete in?",
+    "Key Benefit: What is the single most important benefit you deliver?",
+    "Reason to Believe: What proof do you have? (Data, testimonials, credentials, technology)",
+    "Competitive Alternative: What would customers use if you didn't exist?",
+    "Key Differentiator: What do you do that no one else does — or does as well?",
+    "Brand Personality: If your brand were a person, how would they speak, dress, and behave?"
+  ],
+  "example": "Brand positioning canvas for Canva: Target = non-designers who need to create professional visuals. Category = graphic design software. Key Benefit = anyone can create beautiful designs without design skills. Reason to Believe = millions of templates, drag-and-drop interface, used by 100M+ people. Alternative = hiring a designer or using PowerPoint. Differentiator = removes the skill barrier to good design. Personality = friendly, empowering, approachable.",
+  "category": "brand"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "understanding-business-management",
+  "moduleSlug": "business-management-fundamentals",
+  "title": "Understanding Business Management",
+  "objective": "Understanding how organisations are structured and managed, and where marketing fits within the broader business.",
+  "beginnerExplanation": "Every business — from a two-person startup to a multinational corporation — needs some kind of structure and management to get things done. Management is the process of planning what needs to happen, organising people and resources, leading teams toward goals, and controlling performance to stay on track. This is often called the POLC framework: Plan, Organise, Lead, Control.\n\nOrganisations are structured in different ways. A hierarchical structure has clear layers — CEO at the top, then directors, then managers, then individual contributors. A flat structure removes most of those layers, giving people more autonomy. A matrix structure means people report to both a functional manager (like a Head of Marketing) and a project or product manager simultaneously.\n\nMarketing doesn't exist in a vacuum. It connects to nearly every other function in the business. Sales needs marketing to generate leads. Finance needs marketing to justify budgets with ROI. Product needs marketing to understand what customers want. HR needs marketing to build employer brand. Understanding these cross-functional relationships is essential — because a marketer who only talks to other marketers will never be truly effective.",
+  "deeperExplanation": "The POLC framework (Planning, Organising, Leading, Controlling) gives you a mental model for what managers actually do. Planning sets direction and strategy. Organising allocates resources and defines roles. Leading motivates and guides people. Controlling measures performance and corrects course. Every marketing manager uses all four — planning a campaign, organising the team, leading creative direction, and controlling spend against KPIs.\n\nStakeholder theory adds another critical lens. A business doesn't just serve its shareholders — it serves customers, employees, suppliers, communities, and regulators. Smart marketers understand which stakeholders matter most for any given decision and tailor their approach accordingly. When launching a new product, your primary stakeholders might be customers and the sales team; when rebranding, it's employees and partners.\n\nFinally, there's an important distinction between management and leadership. Management is about doing things right — processes, efficiency, consistency. Leadership is about doing the right things — vision, inspiration, change. The best marketing leaders do both: they run disciplined campaigns (management) while also challenging the team to think bigger and take calculated risks (leadership).",
+  "keyTakeaways": [
+    "Apply the POLC framework (Plan, Organise, Lead, Control) to every marketing initiative you run",
+    "Identify your organisation's structure type and understand how it affects decision-making speed",
+    "Map marketing's cross-functional relationships with sales, finance, product, and HR before starting any major project",
+    "Consider all stakeholders — not just customers — when making marketing decisions",
+    "Develop both management skills (process and efficiency) and leadership skills (vision and inspiration)"
+  ],
+  "frameworks": ["balanced-scorecard"],
+  "example": "Atlassian, the Australian software company behind Jira and Confluence, is a textbook example of how structure affects marketing. They use a famously flat structure with cross-functional squads — small teams that include engineering, design, and marketing working together on a single product area. Instead of marketing sitting in a silo and receiving briefs from product, marketers are embedded directly in product teams. This means marketing understands the product deeply, can influence roadmap decisions, and creates campaigns grounded in real user problems. Their structure is a key reason Atlassian grew to over $3 billion in revenue with almost no traditional sales team — marketing and product were never separated.",
+  "commonMistakes": [
+    "Treating marketing as a standalone function that doesn't need input from other departments",
+    "Ignoring organisational politics when trying to push through marketing initiatives",
+    "Confusing being a good manager (efficient processes) with being a good leader (inspiring vision)",
+    "Assuming every company operates with the same structure and decision-making process",
+    "Skipping the planning and organising phases and jumping straight to execution"
+  ],
+  "exercise": "Draw an org chart for a company you know well (your employer, a company you've worked at, or one you admire). Identify exactly where marketing sits in the structure. Then list 3 cross-functional relationships that marketing depends on to be effective — for each one, write down what marketing gives to that function and what it needs in return.",
+  "order": 1,
+  "quiz": [
+    {
+      "question": "What does the POLC framework stand for and why is it useful for marketers?",
+      "options": [
+        "Product, Operations, Logistics, Commerce — it maps the supply chain",
+        "Plan, Organise, Lead, Control — it provides a mental model for what managers actually do across any initiative",
+        "Profit, Overhead, Labour, Capital — it tracks financial performance",
+        "Promote, Outreach, Launch, Convert — it structures a marketing campaign"
+      ],
+      "correctIndex": 1,
+      "explanation": "POLC stands for Plan, Organise, Lead, Control. It gives marketers a framework for managing any initiative — from planning a campaign and organising the team, to leading creative direction and controlling spend against KPIs."
+    },
+    {
+      "question": "A marketing team wants to launch a major rebranding initiative. According to stakeholder theory, who should they consider beyond customers?",
+      "options": [
+        "Only the CEO and board of directors",
+        "Only the creative agency producing the new brand assets",
+        "Employees, partners, suppliers, and the sales team — all groups affected by the rebrand",
+        "Only the finance team to ensure budget approval"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stakeholder theory recognises that a business serves multiple groups. A rebrand affects employees (who embody the brand daily), partners, suppliers, and the sales team — not just customers. Ignoring internal stakeholders is a common reason rebrands fail."
+    },
+    {
+      "question": "Which of the following statements about management and leadership is incorrect?",
+      "options": [
+        "Management focuses on doing things right — processes, efficiency, and consistency",
+        "Leadership focuses on doing the right things — vision, inspiration, and change",
+        "Management and leadership are the same thing, just different words for the same skills",
+        "The best marketing leaders combine strong management discipline with inspiring leadership"
+      ],
+      "correctIndex": 2,
+      "explanation": "Management and leadership are distinct competencies. Management is about processes and efficiency, while leadership is about vision and inspiration. Conflating the two can lead to teams that are well-organised but lack strategic direction, or inspired but poorly executed."
+    }
+  ]
+}

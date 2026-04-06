@@ -1,0 +1,17 @@
+{
+  "slug": "system-design-template",
+  "name": "AI System Design Template",
+  "summary": "A structured template for designing AI-powered systems, modelled on the system design interview format used at top tech companies. Use it to think through requirements, architecture, data flow, and failure modes before writing any code.",
+  "whenToUseIt": "Use this template when designing a new AI system, preparing for a system design interview, or writing a technical design document for your team. It forces you to think through the critical decisions before committing to an implementation.",
+  "steps": [
+    "Requirements Gathering — What is the problem? Who are the users? What are the functional requirements (what it must do) and non-functional requirements (latency, throughput, availability, cost)?",
+    "Scale Estimation — How many users? How many requests per second? How much data? What is the acceptable latency? Back-of-the-envelope calculations ground your design in reality.",
+    "High-Level Architecture — Draw the major components: data pipeline, model serving layer, API gateway, storage, monitoring. Show how data flows from input to output.",
+    "Data Pipeline Design — How does training data get collected, cleaned, and stored? How are features computed? Is it batch or streaming? How often is the model retrained?",
+    "Model Architecture — What type of model? Pre-trained foundation model, fine-tuned model, or custom trained? What is the inference pattern: real-time API, batch processing, or edge deployment?",
+    "Serving & Scaling — How is the model served? How does it scale under load? What is the caching strategy? How do you handle cold starts and traffic spikes?",
+    "Monitoring & Iteration — How do you know the system is working? What metrics are tracked? How do you detect data drift? What is the rollback plan if a new model performs worse?"
+  ],
+  "example": "Designing a real-time internal research assistant for a software team. Requirements: return cited answers in under 2 seconds, handle 10,000 daily queries, and support document freshness within 15 minutes of source changes. Architecture: request -> API gateway -> retrieval service -> vector index and metadata store -> model router -> response composer with citations. Monitoring tracks latency, retrieval hit rate, grounding quality, and cost per request.",
+  "category": "architecture"
+}
