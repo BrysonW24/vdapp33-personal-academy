@@ -1,0 +1,16 @@
+{
+  "slug": "legislation-funnel",
+  "name": "Legislation Funnel",
+  "summary": "Track a bill from drafting instruction through both houses to assent and implementation.",
+  "whenToUseIt": "Use this for any lawmaking analysis, parliamentary tracking, advocacy strategy, or legislative project.",
+  "steps": [
+    "Identify the policy trigger and drafting instruction.",
+    "Map the bill's introduction and principal chamber debates.",
+    "Mark committee scrutiny, amendment points, and Senate leverage.",
+    "Check what must happen for both houses to agree on the same text.",
+    "List the post-assent requirements: regulations, agencies, guidance, systems, and budgets."
+  ],
+  "example": "A government bill may survive the House quickly, then encounter real bargaining in the Senate before assent and administrative implementation.",
+  "category": "process",
+  "domain": "politics"
+}

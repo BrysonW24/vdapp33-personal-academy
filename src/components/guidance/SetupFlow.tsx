@@ -153,7 +153,7 @@ function BlueprintPreview({
           Your blueprint
         </p>
         <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
-          Personal Academy has a path now
+          Nexus has a path now
         </h2>
       </div>
 

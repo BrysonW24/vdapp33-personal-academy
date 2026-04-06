@@ -1,5 +1,5 @@
 id: vdapp33-personal-academy
-name: Personal Academy
+name: Nexus
 summary: Guided multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science, with live role/topic routes, onboarding, My Path, truth stacks, and signal digests.
 owner: unassigned
 phase: delivery
@@ -66,11 +66,11 @@ operations:
 
 notes:
   - Subject discovery is manifest-driven from content/curriculum/{subject}/manifest.json.
-  - Progress persists locally under the personal-academy-progress key.
-  - Guidance state persists locally under the personal-academy-state key.
+  - Progress persists locally under the `nexus-progress` key, with fallback migration from `personal-academy-progress`.
+  - Guidance state persists locally under the `nexus-state` key, with fallback migration from `personal-academy-state`.
   - Founder-only route concepts are intentionally excluded from this app.
-  - Quantum and Aerospace now extend beyond their original migration baselines with authored Personal Academy content.
-  - Robotics is a native Personal Academy subject with full route coverage.
+  - Quantum and Aerospace now extend beyond their original migration baselines with authored Nexus content.
+  - Robotics is a native Nexus subject with full route coverage.
   - Commercial Property Management was migrated from vdapp46 with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.
   - Roles and topics now live under content/roles/ and content/topics/ as entity-aware route families, not just content packs.
   - Curated onboarding questions, path archetypes, truth stacks, and signal digests now live under content/onboarding, content/guidance, content/sources, and content/signals.

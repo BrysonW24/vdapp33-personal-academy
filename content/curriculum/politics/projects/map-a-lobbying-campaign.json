@@ -1,0 +1,54 @@
+{
+  "slug": "map-a-lobbying-campaign",
+  "title": "Map a Lobbying Campaign",
+  "difficulty": 5,
+  "estimatedHours": 5,
+  "description": "Map the actors, access points, messages, and integrity risks around a real political influence effort.",
+  "whyItMatters": "This project turns lobbying from a vague suspicion into a concrete process of actors, incentives, access, and transparency risks.",
+  "skillsLearned": [
+    "Stakeholder mapping",
+    "Influence analysis",
+    "Integrity risk spotting"
+  ],
+  "prerequisites": [
+    "lobbying-and-influence"
+  ],
+  "steps": [
+    {
+      "title": "Choose an issue",
+      "description": "Pick a live or recent issue where organised interests clearly tried to move government."
+    },
+    {
+      "title": "List actors and interests",
+      "description": "Identify corporations, NGOs, unions, industry bodies, ministers, departments, committees, and media actors."
+    },
+    {
+      "title": "Map channels and timing",
+      "description": "Show where influence entered: submissions, meetings, media, committees, coalition work."
+    },
+    {
+      "title": "Flag integrity risks",
+      "description": "Note where transparency, access asymmetry, or corruption risk appears."
+    }
+  ],
+  "deliverables": [
+    "An influence map diagram",
+    "A short note on the main integrity risk and underrepresented interest"
+  ],
+  "tools": [
+    "Ministerial diaries where available",
+    "Committee submissions",
+    "Media archive"
+  ],
+  "rubric": [
+    {
+      "criteria": "Completeness",
+      "description": "Does the map include both formal and informal influence channels?"
+    },
+    {
+      "criteria": "Integrity insight",
+      "description": "Does it distinguish legitimate influence from corrupted or opaque influence?"
+    }
+  ],
+  "domain": "politics"
+}

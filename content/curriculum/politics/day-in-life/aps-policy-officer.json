@@ -1,0 +1,41 @@
+{
+  "slug": "aps-policy-officer",
+  "title": "APS Policy Officer",
+  "setting": "Commonwealth department, Canberra",
+  "companySize": "A division of 30-80 people inside a larger department",
+  "description": "APS policy officers sit in the machinery of government. They research, draft, consult, clear briefs, revise advice, and help translate political direction into workable policy and implementation steps.",
+  "salary": "$95,000-$125,000 AUD",
+  "schedule": [
+    { "time": "08:15", "activity": "Scan overnight developments and check ministerial or executive requests", "tools": ["Email", "Internal briefs", "Media summary"] },
+    { "time": "09:00", "activity": "Team check-in on priorities, deadlines, and clearance risks", "tools": ["Task tracker", "Calendar"] },
+    { "time": "10:00", "activity": "Draft or revise a brief for the branch head or minister's office", "tools": ["Brief template", "Word", "Internal data"] },
+    { "time": "11:30", "activity": "Consult colleagues in legal, program, or finance about delivery implications", "tools": ["Teams", "Policy papers"] },
+    { "time": "13:00", "activity": "Working lunch while reviewing stakeholder submissions", "tools": ["Consultation submissions"] },
+    { "time": "14:00", "activity": "Meeting with another department or state counterpart on implementation dependencies", "tools": ["Agenda papers", "Action list"] },
+    { "time": "15:30", "activity": "Update the options paper and risk section after feedback", "tools": ["Cabinet process guidance"] },
+    { "time": "17:15", "activity": "Send revised advice up the line and prepare tomorrow's briefing notes", "tools": ["Email", "Brief tracker"] }
+  ],
+  "responsibilities": [
+    "Draft policy briefs, options papers, and speaking notes",
+    "Coordinate consultation and capture stakeholder feedback accurately",
+    "Work across legal, financial, and implementation constraints",
+    "Translate political priorities into administratively feasible options"
+  ],
+  "challenges": [
+    "Fast deadlines with limited information",
+    "Balancing evidence quality against political timing",
+    "Managing multiple clearance rounds and conflicting views",
+    "Working under ministerial pressure without losing analytical discipline"
+  ],
+  "rewards": [
+    "You learn how government really works",
+    "The work builds judgment and writing quickly",
+    "Good policy work can influence major public outcomes"
+  ],
+  "careerPath": [
+    "Graduate program or analyst role",
+    "APS policy officer",
+    "Senior policy adviser or manager",
+    "Director or executive role"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "how-power-incentives-and-failure-modes-distort-systems",
+  "moduleSlug": "power-incentives-and-failure-modes",
+  "title": "How Power, Incentives, and Failure Modes Distort Systems",
+  "objective": "Learn how political systems underperform even when the formal rules look reasonable.",
+  "beginnerExplanation": "Political systems do not fail only because bad people win. They also fail because incentives quietly reward the wrong behaviour. Election cycles reward short-term optics. Media systems reward conflict and speed. Bureaucracies can reward caution over learning. Lobbying can over-reward organised interests. Over time, institutions can still decay even while formal rules remain intact.",
+  "deeperExplanation": "This is the module that moves you beyond civics and into system diagnosis. Institutions can be well-designed on paper yet still produce weak outcomes if attention, incentives, and feedback loops are distorted. Capture happens when the regulated gain too much influence. Short-termism happens when the next news cycle or next election overwhelms long-run thinking. Bureaucratic drift happens when procedures start protecting themselves instead of the mission. Legitimacy then weakens because citizens feel the system is formally alive but practically unresponsive. Strong political judgment means seeing those failure modes before they become a crisis.",
+  "keyTakeaways": [
+    "Rules matter, but incentives shape how rules are actually used.",
+    "Political failure often emerges gradually through misaligned feedback loops.",
+    "Short-termism is one of the most reliable distortions in democratic systems.",
+    "Capture and drift can happen without open illegality.",
+    "Understanding failure modes makes the rest of the subject more realistic."
+  ],
+  "frameworks": ["incentive-audit"],
+  "example": "A government may create a sound reform on paper, but if agencies are under-resourced, media incentives reward conflict, organised stakeholders fight hard, and elections are near, the reform can collapse without any single dramatic act of corruption.",
+  "commonMistakes": [
+    "Explaining every failure as individual villainy",
+    "Assuming formal legality guarantees good outcomes",
+    "Ignoring attention incentives and media structure",
+    "Treating institutional trust as automatic"
+  ],
+  "exercise": "Choose one political or policy failure and identify at least four incentives that pushed the system in the wrong direction. Which one seems most decisive?",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Systems fail where incentives quietly point the wrong way.",
+      "summary": "A system can look lawful, procedural, and busy while still producing weak outcomes. The hidden layer is what it rewards, punishes, and ignores.",
+      "anchors": [
+        "What behaviour is this system actually rewarding?",
+        "Where does feedback arrive too late?",
+        "What looks legitimate on paper but weak in practice?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "Formal rules create a structure.",
+        "Actors respond to incentives inside that structure.",
+        "Media, money, timelines, and access shape behaviour further.",
+        "Failure modes accumulate until trust or performance breaks."
+      ]
+    },
+    "upsides": [
+      "This lens explains failure without relying on simplistic moral narratives.",
+      "It improves institutional diagnosis and policy realism.",
+      "It helps you ask better questions about reform."
+    ],
+    "downsides": [
+      "It can tempt cynicism if you forget that institutions can still improve.",
+      "It is harder to communicate than simple hero-villain narratives.",
+      "It requires more patience than surface political commentary."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "Australian politics often shows short-termism clearly: governments chase daily message discipline, oppositions chase tactical attack, media chases conflict, and long-run institutional maintenance becomes harder to sell.",
+    "realWorldApplications": [
+      "Diagnosing why reforms fail",
+      "Seeing trust decline as a structural issue rather than only a moral one",
+      "Designing better questions for governance reform"
+    ],
+    "whoWorksWithThis": [
+      "Reformers",
+      "Policy advisers",
+      "Journalists",
+      "Think tanks",
+      "Senior public servants"
+    ],
+    "goDeeper": [
+      {
+        "label": "Return to the politics system map",
+        "href": "/politics/system",
+        "description": "Revisit the whole field with failure modes and incentives in view."
+      }
+    ]
+  }
+}

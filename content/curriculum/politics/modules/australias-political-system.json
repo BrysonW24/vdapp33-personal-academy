@@ -1,0 +1,44 @@
+{
+  "slug": "australias-political-system",
+  "title": "Australia's Political System",
+  "shortSummary": "Learn the operational map of Australian politics: voters, House, Senate, Cabinet, ministers, the APS, courts, states, and the accountability layer around them.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "systems",
+  "whyItMatters": "Australia is the main worked example for this subject. Without a clear power map, Parliament looks like theatre instead of a real operating system.",
+  "coreConcepts": [
+    "Constitutional monarchy and parliamentary democracy",
+    "House of Representatives and government formation",
+    "Senate scrutiny and negotiation",
+    "Cabinet, ministers, and responsible government",
+    "APS departments and implementation",
+    "Federalism, states, and local government"
+  ],
+  "mentalModels": [
+    "House forms government, Senate makes negotiation real",
+    "Cabinet is the political decision core",
+    "Departments turn politics into machinery"
+  ],
+  "lessons": ["how-australian-power-actually-moves"],
+  "frameworks": ["power-map"],
+  "goDeeper": [
+    {
+      "label": "See the politics system map",
+      "href": "/politics/system",
+      "description": "Use the visual map if the institutional picture still feels abstract."
+    },
+    {
+      "label": "Continue into elections and representation",
+      "href": "/politics/modules/elections-parties-and-representation",
+      "description": "Move from structure into how people actually win and hold power."
+    }
+  ],
+  "relatedModules": [
+    "regimes-and-ideologies",
+    "elections-parties-and-representation",
+    "cabinet-ministers-and-public-service"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 1
+}

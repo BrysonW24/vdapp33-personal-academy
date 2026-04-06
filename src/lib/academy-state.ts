@@ -1,7 +1,7 @@
 "use client"
 
 import { create } from "zustand"
-import { persist } from "zustand/middleware"
+import { createJSONStorage, persist } from "zustand/middleware"
 import type {
   LearningBlueprint,
   LearningMode,
@@ -25,6 +25,11 @@ interface AcademyState {
   resetSetup: () => void
 }
 
+type PersistedAcademyState = Pick<
+  AcademyState,
+  "answers" | "reflections" | "blueprint" | "activeMode" | "setupCompleted" | "reviews"
+>
+
 const INITIAL_STATE = {
   answers: {},
   reflections: {},
@@ -33,6 +38,27 @@ const INITIAL_STATE = {
   setupCompleted: false,
   reviews: [] as ReviewEntry[],
 }
+
+const NEXUS_STATE_KEY = "nexus-state"
+const LEGACY_ACADEMY_STATE_KEY = "personal-academy-state"
+
+const academyStateStorage = createJSONStorage<PersistedAcademyState>(() => ({
+  getItem: (name) => {
+    if (typeof window === "undefined") return null
+    return (
+      window.localStorage.getItem(name) ??
+      window.localStorage.getItem(LEGACY_ACADEMY_STATE_KEY)
+    )
+  },
+  setItem: (name, value) => {
+    if (typeof window === "undefined") return
+    window.localStorage.setItem(name, value)
+  },
+  removeItem: (name) => {
+    if (typeof window === "undefined") return
+    window.localStorage.removeItem(name)
+  },
+}))
 
 function createReviewId() {
   return `review-${Date.now()}`
@@ -88,11 +114,20 @@ export const useAcademyState = create<AcademyState>()(
       resetSetup: () => set(INITIAL_STATE),
     }),
     {
-      name: "personal-academy-state",
+      name: NEXUS_STATE_KEY,
       version: 1,
+      storage: academyStateStorage,
+      partialize: (state): PersistedAcademyState => ({
+        answers: state.answers,
+        reflections: state.reflections,
+        blueprint: state.blueprint,
+        activeMode: state.activeMode,
+        setupCompleted: state.setupCompleted,
+        reviews: state.reviews,
+      }),
       migrate: (persistedState) => ({
         ...INITIAL_STATE,
-        ...(persistedState as Partial<AcademyState>),
+        ...(persistedState as Partial<PersistedAcademyState>),
       }),
     }
   )

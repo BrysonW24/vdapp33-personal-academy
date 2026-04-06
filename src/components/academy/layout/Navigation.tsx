@@ -9,7 +9,7 @@ import {
   Clock3,
   Compass,
   FolderKanban,
-  GraduationCap,
+  Landmark,
   Library,
   Map,
   Menu,
@@ -17,6 +17,7 @@ import {
   Wrench,
   X,
 } from "lucide-react"
+import { NexusGlyph, NexusWordmark } from "@/components/branding/NexusWordmark"
 import { cn } from "@/lib/utils"
 import { getNavSections, resolveNavContext } from "@/lib/entity-nav"
 import { SUBJECT_GROUP_LABELS, type SubjectManifest } from "@/types/curriculum"
@@ -34,6 +35,7 @@ const ICONS = {
   Compass,
   FolderKanban,
   Library,
+  Landmark,
   Map,
   Wrench,
 } as const
@@ -79,7 +81,16 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
     return acc
   }, {})
 
-  const navSections = currentContext ? getNavSections(currentContext.kind) : []
+  const navSections = currentContext
+    ? getNavSections(
+        currentContext.kind,
+        currentContext.kind === "subject" &&
+          currentEntity &&
+          "deepDivePages" in currentEntity
+          ? currentEntity
+          : null
+      )
+    : []
 
   const sectionHref = (segment: string) =>
     currentContext ? `${currentContext.basePath}${segment}` : "/"
@@ -103,12 +114,12 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
     <header className="fixed left-0 right-0 top-0 z-50 rounded-none border-b border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.95)] backdrop-blur-[16px] shadow-editorial-soft sm:left-[18px] sm:right-[18px] sm:top-[18px] sm:rounded-[18px] sm:border">
       <div className="container flex h-14 items-center justify-between gap-2">
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
-          <div className="flex h-8 w-8 items-center justify-center rounded-[10px] bg-editorial-blue">
-            <GraduationCap className="h-4 w-4 text-white" />
-          </div>
-          <span className="hidden font-serif text-lg font-semibold text-editorial-ink sm:inline">
-            Personal Academy
-          </span>
+          <NexusGlyph className="h-8 w-8 sm:hidden" />
+          <NexusWordmark
+            size="compact"
+            className="hidden sm:inline-flex"
+            textClassName="text-[1.2rem]"
+          />
         </Link>
 
         {currentEntity ? (

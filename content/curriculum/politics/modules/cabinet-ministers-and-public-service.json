@@ -1,0 +1,44 @@
+{
+  "slug": "cabinet-ministers-and-public-service",
+  "title": "Cabinet, Ministers, and the Public Service",
+  "shortSummary": "See how political authority and administrative capacity work together. This is where campaigns stop mattering and government starts mattering.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "governing",
+  "whyItMatters": "People often think politics happens in Parliament alone. In practice, a large amount of real governing happens through Cabinet processes, ministerial offices, and the APS.",
+  "coreConcepts": [
+    "Responsible government",
+    "Cabinet solidarity and collective decision-making",
+    "Portfolio ministers and departments",
+    "Ministerial advisers versus public servants",
+    "Cabinet submissions and briefing processes",
+    "Implementation discipline"
+  ],
+  "mentalModels": [
+    "Cabinet chooses direction; the APS builds feasible options",
+    "Ministers are accountable for portfolios they do not personally operate",
+    "A government can win politics and still fail implementation"
+  ],
+  "lessons": ["how-cabinet-and-the-aps-turn-politics-into-government"],
+  "frameworks": ["career-ladder-politics", "power-map"],
+  "goDeeper": [
+    {
+      "label": "Move into policy process",
+      "href": "/politics/modules/policy-process",
+      "description": "Follow the chain from executive intent into real policy machinery."
+    },
+    {
+      "label": "See the APS policy officer day-in-the-life",
+      "href": "/politics/day-in-the-life/aps-policy-officer",
+      "description": "Ground the institutional model in an actual working week."
+    }
+  ],
+  "relatedModules": [
+    "australias-political-system",
+    "policy-process",
+    "working-in-politics-and-public-policy"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 2
+}

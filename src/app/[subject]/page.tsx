@@ -23,16 +23,27 @@ export default async function SubjectPage({
   const projects = getProjects(slug)
   const tools = getTools(slug)
   const firstModule = modules[0] ?? null
+  const firstDeepDive = subject.deepDivePages[0] ?? null
 
   const guideRail = buildGuideRail({
     entity: { kind: "subject", slug, name: subject.name },
     whyThisMatters: `${subject.name} is one of the academy's canonical foundations. Use it to build durable mental models before you widen back out into topics, roles, projects, and live signals.`,
     nextAction: {
-      href: firstModule ? `/${slug}/modules/${firstModule.slug}` : `/${slug}/blueprint`,
-      label: firstModule ? `Start ${firstModule.title}` : "Open the subject blueprint",
-      description: firstModule
-        ? "The fastest way to make this subject useful is to move through one real module instead of skimming the whole surface."
-        : "There is no clear first module yet, so use the blueprint to understand the shape of the field.",
+      href: firstDeepDive
+        ? `/${slug}/${firstDeepDive.slug}`
+        : firstModule
+          ? `/${slug}/modules/${firstModule.slug}`
+          : `/${slug}/blueprint`,
+      label: firstDeepDive
+        ? `Open ${firstDeepDive.label}`
+        : firstModule
+          ? `Start ${firstModule.title}`
+          : "Open the subject blueprint",
+      description: firstDeepDive
+        ? "Use the master map first so the field becomes memorable before you branch into curriculum detail."
+        : firstModule
+          ? "The fastest way to make this subject useful is to move through one real module instead of skimming the whole surface."
+          : "There is no clear first module yet, so use the blueprint to understand the shape of the field.",
     },
     applyPrompt: `Pick one idea from ${subject.name} and locate where it shows up in a real system, institution, company, or decision you care about.`,
     debatePrompt: `Which parts of ${subject.name} feel settled here, and which parts are still interpretive, contested, or model-dependent?`,

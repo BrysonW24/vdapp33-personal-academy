@@ -1,0 +1,44 @@
+{
+  "slug": "elections-parties-and-representation",
+  "title": "Elections, Parties, and Representation",
+  "shortSummary": "Understand how Australians choose representatives, how parties organise power, and why the Senate, crossbench, and preferences matter so much in practice.",
+  "level": "beginner",
+  "teachingStage": "frameworks",
+  "category": "representation",
+  "whyItMatters": "Politics is not only institutions; it is also the competition for authority inside them. This module explains how representation and party incentives shape what governments can actually do.",
+  "coreConcepts": [
+    "Preferential voting in the House",
+    "Proportional representation in the Senate",
+    "Major parties, minors, and independents",
+    "Compulsory voting and turnout",
+    "Party discipline, caucus, and whips",
+    "Why the crossbench matters"
+  ],
+  "mentalModels": [
+    "Votes create representation, but parties aggregate power",
+    "The Senate often changes what the House wants to do",
+    "Preferences and the crossbench turn margins into leverage"
+  ],
+  "lessons": ["how-elections-parties-and-the-senate-shape-outcomes"],
+  "frameworks": ["representation-lens"],
+  "goDeeper": [
+    {
+      "label": "Open current politics signals",
+      "href": "/politics/signals",
+      "description": "See how elections, parties, and institutions collide in current public life."
+    },
+    {
+      "label": "Continue into Cabinet and the APS",
+      "href": "/politics/modules/cabinet-ministers-and-public-service",
+      "description": "Follow representation into executive power and administrative delivery."
+    }
+  ],
+  "relatedModules": [
+    "australias-political-system",
+    "cabinet-ministers-and-public-service",
+    "lobbying-and-influence"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 1
+}

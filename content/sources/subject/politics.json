@@ -2,91 +2,94 @@
   "slug": "politics",
   "kind": "subject",
   "title": "Politics Truth Stack",
-  "summary": "Politics is the study of power, institutions, public decision-making, legitimacy, and how societies organise collective life.",
+  "summary": "Treat politics as the study of power, institutions, legitimacy, incentives, and collective decision-making. The strongest starting posture is Australia first, then comparative systems second.",
   "starterPack": [
-    "Start with Parliament, the AEC, and ABS.",
-    "Read Lowy Institute and Chatham House for interpretation.",
-    "Use primary records before commentary."
+    "Start with Parliament, the Constitution, PM&C guidance, the AEC, and the High Court before reading commentary.",
+    "Use committee reports, ANAO work, and official inquiries to understand what the system says about itself when things go wrong.",
+    "Read mature interpreters after you have anchored yourself in primary records."
   ],
   "tiers": [
     {
       "slug": "first-principles",
       "title": "First Principles",
-      "description": "Politics is structured conflict, legitimacy, and coordination under scarcity.",
+      "description": "The durable ideas underneath political noise.",
       "items": [
-        { "name": "Power is distributed", "kind": "principle", "description": "Institutions, incentives, and information shape outcomes." },
-        { "name": "Legitimacy matters", "kind": "principle", "description": "Rules only work when people accept them as valid." },
-        { "name": "Every decision has tradeoffs", "kind": "principle", "description": "Public choices create winners, losers, and second-order effects." }
+        { "name": "Politics allocates power and values", "kind": "principle", "description": "Politics is about who decides, who benefits, who pays, and what institutions make the decision stick." },
+        { "name": "Legitimacy matters", "kind": "principle", "description": "Power lasts better when people accept it as lawful, fair, and procedurally valid." },
+        { "name": "Every system trades speed, freedom, accountability, and control", "kind": "principle", "description": "Regimes and institutions optimise different things and pay different costs." }
       ]
     },
     {
       "slug": "primary-authorities",
       "title": "Primary Authorities",
-      "description": "The official sources that anchor political reality.",
+      "description": "The closest formal records of Australian political reality.",
       "items": [
-        { "name": "Parliament of Australia", "kind": "institution", "description": "Primary legislative and committee record.", "link": "https://www.aph.gov.au/" },
-        { "name": "Australian Electoral Commission", "kind": "institution", "description": "Election administration and official results.", "link": "https://www.aec.gov.au/" },
-        { "name": "Australian Bureau of Statistics", "kind": "dataset", "description": "Core demographic and social data.", "link": "https://www.abs.gov.au/" }
+        { "name": "Parliament of Australia", "kind": "institution", "description": "Bills, committees, Hansard, procedure, and the primary public record of federal parliamentary work.", "link": "https://www.aph.gov.au/" },
+        { "name": "Australian Constitution", "kind": "book", "description": "The legal foundation for Commonwealth power and federal structure.", "link": "https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution" },
+        { "name": "Australian Electoral Commission", "kind": "institution", "description": "Election administration, formal results, and electoral integrity.", "link": "https://www.aec.gov.au/" },
+        { "name": "Department of the Prime Minister and Cabinet", "kind": "institution", "description": "Central executive guidance and Cabinet-facing administrative truth.", "link": "https://www.pmc.gov.au/" },
+        { "name": "High Court of Australia", "kind": "institution", "description": "The highest authority on constitutional and legal boundaries.", "link": "https://www.hcourt.gov.au/" }
       ]
     },
     {
       "slug": "mature-interpreters",
       "title": "Mature Interpreters",
-      "description": "Analysts who explain politics with institutional seriousness.",
+      "description": "People and institutions that translate the field with judgment rather than noise.",
       "items": [
-        { "name": "Chatham House", "kind": "institution", "description": "Policy analysis with strong institutional credibility.", "link": "https://www.chathamhouse.org/" },
-        { "name": "Lowy Institute", "kind": "institution", "description": "Australian lens on geopolitics and policy.", "link": "https://www.lowyinstitute.org/" },
-        { "name": "Anne Twomey", "kind": "person", "description": "Constitutional and institutional analysis.", "link": "https://www.sydney.edu.au/law/our-people/academic-staff/anne-twomey.html" }
+        { "name": "Anne Twomey", "kind": "person", "description": "Clear constitutional and institutional explanation anchored in Australian reality.", "link": "https://www.sydney.edu.au/law/our-people/academic-staff/anne-twomey.html" },
+        { "name": "Lowy Institute", "kind": "institution", "description": "Useful for geopolitics, foreign policy, and statecraft with an Australian lens.", "link": "https://www.lowyinstitute.org/" },
+        { "name": "Parliamentary Library", "kind": "institution", "description": "Serious non-partisan background on bills, policy questions, and institutional context.", "link": "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library" }
       ]
     },
     {
       "slug": "practitioners",
       "title": "Practitioners",
-      "description": "The people who make politics operate every day.",
+      "description": "The working roles that make the system move.",
       "items": [
-        { "name": "Parliamentary staff", "kind": "person", "description": "Committee, briefing, and legislative support work.", "link": "https://www.aph.gov.au/About_Parliament/Employment" },
-        { "name": "Public servants", "kind": "person", "description": "Policy execution and administrative statecraft.", "link": "https://www.apsc.gov.au/" },
-        { "name": "Campaign managers", "kind": "person", "description": "Messaging, field work, and election operations.", "link": "https://www.aec.gov.au/Elections/" }
+        { "name": "APS policy officers", "kind": "person", "description": "Translate political direction into options, briefs, and implementation." },
+        { "name": "Ministerial advisers", "kind": "person", "description": "Carry political judgment, coordination, and risk management around ministers." },
+        { "name": "Committee and inquiry staff", "kind": "person", "description": "Run scrutiny, evidence handling, and report-writing inside the accountability layer." }
       ]
     },
     {
       "slug": "institutions",
       "title": "Institutions",
-      "description": "The structures where political power is formalised.",
+      "description": "The places where Australian political power is formalised, limited, and corrected.",
       "items": [
-        { "name": "Parliament", "kind": "institution", "description": "Representative lawmaking and scrutiny.", "link": "https://www.aph.gov.au/" },
-        { "name": "Cabinet and departments", "kind": "institution", "description": "Executive decision-making and policy coordination.", "link": "https://www.pmc.gov.au/" },
-        { "name": "Independent commissions", "kind": "institution", "description": "Oversight, accountability, and administrative checks.", "link": "https://www.aec.gov.au/" }
+        { "name": "Australian National Audit Office", "kind": "institution", "description": "The strongest starting point for understanding public administration failures and value-for-money concerns.", "link": "https://www.anao.gov.au/" },
+        { "name": "Commonwealth Ombudsman", "kind": "institution", "description": "A practical accountability body for administrative complaints and misconduct patterns.", "link": "https://www.ombudsman.gov.au/" },
+        { "name": "National Anti-Corruption Commission", "kind": "institution", "description": "Part of the integrity architecture around serious corruption risks in the Commonwealth sphere.", "link": "https://www.nacc.gov.au/" },
+        { "name": "Productivity Commission", "kind": "institution", "description": "A useful source for long-run policy and reform analysis beyond daily politics.", "link": "https://www.pc.gov.au/" }
       ]
     },
     {
       "slug": "media-publications",
       "title": "Media and Publications",
-      "description": "Public writing that helps separate signal from noise.",
+      "description": "Public writing that helps without pretending to be the field itself.",
       "items": [
-        { "name": "Inside Story", "kind": "publication", "description": "Deep Australian policy and politics coverage.", "link": "https://insidestory.org.au/" },
-        { "name": "The Conversation", "kind": "publication", "description": "Academic-informed public explanation.", "link": "https://theconversation.com/au" },
-        { "name": "The Guardian Australia - Politics", "kind": "publication", "description": "Fast-moving public affairs coverage.", "link": "https://www.theguardian.com/australia-news/politics" }
+        { "name": "Inside Story", "kind": "publication", "description": "High-quality Australian politics and policy analysis.", "link": "https://insidestory.org.au/" },
+        { "name": "The Conversation Australia", "kind": "publication", "description": "Academic-informed explanation that often adds useful context to public debate.", "link": "https://theconversation.com/au" },
+        { "name": "ABC Politics", "kind": "publication", "description": "Useful broad coverage with public-service context and reach.", "link": "https://www.abc.net.au/news/politics" }
       ]
     },
     {
       "slug": "channels-documentaries",
       "title": "Channels and Documentaries",
-      "description": "Video and webcast sources worth trusting.",
+      "description": "Video and public-facing sources that help politics feel alive without dropping the institutional layer.",
       "items": [
-        { "name": "ABC News Politics", "kind": "channel", "description": "Accessible Australian political coverage.", "link": "https://www.youtube.com/@ABCNewsAustralia" },
-        { "name": "Lowy Institute events", "kind": "channel", "description": "Public policy and geopolitical discussion.", "link": "https://www.youtube.com/@LowyInstitute" },
-        { "name": "Parliament of Australia webcasts", "kind": "documentary", "description": "Primary-source political process viewing.", "link": "https://www.aph.gov.au/Visit_Parliament/Watch_Parliament" }
+        { "name": "Parliament webcasts", "kind": "channel", "description": "Direct access to hearings, debates, and the procedural reality behind headlines.", "link": "https://www.aph.gov.au/Visit_Parliament/Watch_Parliament" },
+        { "name": "ABC News Australia", "kind": "channel", "description": "Accessible Australian public affairs coverage and interviews.", "link": "https://www.youtube.com/@ABCNewsAustralia" },
+        { "name": "Lowy Institute events", "kind": "channel", "description": "Useful when politics overlaps with geopolitics and statecraft.", "link": "https://www.youtube.com/@LowyInstitute" }
       ]
     },
     {
       "slug": "frontier-watchlist",
       "title": "Frontier Watchlist",
-      "description": "Emerging pressures reshaping politics.",
+      "description": "The forces putting pressure on politics right now.",
       "items": [
-        { "name": "AI-generated political communication", "kind": "tool", "description": "Disinformation, persuasion, and media manipulation." },
-        { "name": "Climate and industrial policy", "kind": "publication", "description": "Long-run economic and policy shifts." },
-        { "name": "Electoral reform", "kind": "institution", "description": "Voting rules, legitimacy, and representation." }
+        { "name": "AI and political communication", "kind": "tool", "description": "Synthetic media, persuasion, and authenticity pressures inside democratic systems." },
+        { "name": "Institutional trust and democratic resilience", "kind": "publication", "description": "The health of democratic legitimacy is becoming a first-order political question." },
+        { "name": "Climate, industry, and security policy convergence", "kind": "publication", "description": "Domestic politics increasingly overlaps with long-run strategic and geopolitical choices." }
       ]
     }
   ]

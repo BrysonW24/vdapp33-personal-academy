@@ -1,0 +1,16 @@
+{
+  "slug": "influence-map",
+  "name": "Influence Map",
+  "summary": "Map the actors, channels, incentives, and integrity risks around a political decision.",
+  "whenToUseIt": "Use this when analysing lobbying, stakeholder campaigns, advocacy pushes, or why a policy is moving unexpectedly fast.",
+  "steps": [
+    "List the actors who want the decision to move.",
+    "Identify their interests, resources, and preferred outcomes.",
+    "Map the channels they can use: departments, ministers, committees, media, coalitions, public pressure.",
+    "Mark where timing and access matter most.",
+    "Flag the main integrity risks and who is underrepresented."
+  ],
+  "example": "An industry body, a union, a minister's office, a department, and a committee can all sit inside the same influence map on one reform.",
+  "category": "applications",
+  "domain": "politics"
+}

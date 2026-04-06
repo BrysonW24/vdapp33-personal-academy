@@ -1,6 +1,8 @@
-# vdapp33-personal-academy
+# Nexus
 
-Personal Academy is a unified multi-subject Next.js app for curiosity-driven learning. It keeps politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science inside one shell, one deploy, and one local-first state model, while roles and topics add applied and cross-disciplinary ways into the same academy.
+Repo lineage: `vdapp33-personal-academy`
+
+Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It keeps politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science inside one shell, one deploy, and one local-first state model, while roles and topics add applied and cross-disciplinary ways into the same academy.
 
 ## What This App Is
 
@@ -13,7 +15,7 @@ Personal Academy is a unified multi-subject Next.js app for curiosity-driven lea
 
 ## Core Routes
 
-- `/` — Personal Academy exploration dashboard
+- `/` — Nexus exploration dashboard
 - `/setup` — Soft onboarding that generates a personal blueprint
 - `/my-path` — Guided dashboard with next actions, weekly rhythm, and review prompts
 - `/subjects` — Subject directory
@@ -63,7 +65,7 @@ Overlay content lives alongside subjects:
 
 ## Guided OS Layer
 
-Personal Academy now has a guidance system on top of the content shell:
+Nexus now has a guidance system on top of the content shell:
 
 - Soft onboarding at `/setup`
 - Deterministic blueprint generation from curated questions and archetypes
@@ -90,7 +92,7 @@ Personal Academy now has a guidance system on top of the content shell:
 - `politics` — rich subject migrated from `vdapp35-politician-academy`
 - `physics` — rich subject migrated from `vdapp36-physicist-academy`
 - `aerospace` — expanded beyond migration baseline with frameworks, projects, tools, and day-in-the-life
-- `robotics` — full native subject inside Personal Academy with 20 modules, 10 lessons, 10 frameworks, 10 projects, 15 tools, and 4 day-in-the-life scenarios
+- `robotics` — full native subject inside Nexus with 20 modules, 10 lessons, 10 frameworks, 10 projects, 15 tools, and 4 day-in-the-life scenarios
 - `rocket-science` — rich subject migrated from `vdapp38-rocket-science-academy`
 - `quantum` — expanded beyond migration baseline with a full 20-module spine, lessons, frameworks, projects, tools, and day-in-the-life
 - `commercial-property-management` — genericised subject migrated from `vdapp46-jll-commercial-property-manager-academy` with 20 modules, 5 lessons, 10 frameworks, 8 projects, 14 tools, and 4 day-in-the-life scenarios

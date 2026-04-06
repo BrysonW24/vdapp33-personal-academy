@@ -1,6 +1,11 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getAllLessons, getModules, getSubject } from "@/lib/content"
+import {
+  TEACHING_STAGE_META,
+  usesTeachingContract,
+  groupModulesByTeachingStage,
+} from "@/lib/teaching-contract"
 
 const LEVEL_ORDER = ["beginner", "intermediate", "advanced"] as const
 
@@ -21,6 +26,7 @@ export default async function BlueprintPage({
 
   const modules = getModules(slug)
   const lessons = getAllLessons(slug)
+  const hasTeachingContract = usesTeachingContract(modules)
 
   const grouped = LEVEL_ORDER.map((level) => ({
     level,
@@ -56,49 +62,97 @@ export default async function BlueprintPage({
           </p>
         </div>
       ) : (
-        grouped.map(({ level, modules: levelModules }) => (
-          <section key={level}>
-            <div className="mb-4">
-              <h2 className="font-serif text-2xl font-semibold text-editorial-ink mb-2 capitalize">
-                {level}
-              </h2>
-              <p className="text-sm text-editorial-muted max-w-3xl">
-                {LEVEL_COPY[level]}
-              </p>
-            </div>
+        hasTeachingContract ? (
+          Array.from(groupModulesByTeachingStage(modules).entries()).map(
+            ([stage, stageModules]) => (
+              <section key={stage}>
+                <div className="mb-4">
+                  <h2 className="font-serif text-2xl font-semibold text-editorial-ink mb-2">
+                    {TEACHING_STAGE_META[stage].label}
+                  </h2>
+                  <p className="text-sm text-editorial-muted max-w-3xl">
+                    {TEACHING_STAGE_META[stage].description}
+                  </p>
+                </div>
 
-            {levelModules.length === 0 ? (
-              <div className="rounded-[18px] border border-dashed border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.5)] p-5 text-sm text-editorial-muted">
-                No {level} modules have been published for this subject yet.
+                {stageModules.length === 0 ? (
+                  <div className="rounded-[18px] border border-dashed border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.5)] p-5 text-sm text-editorial-muted">
+                    No modules in this teaching stage have been published yet.
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    {stageModules.map((module, index) => (
+                      <Link
+                        key={module.slug}
+                        href={`/${slug}/modules/${module.slug}`}
+                        className="flex items-start gap-4 rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-5 hover:shadow-editorial-soft transition-shadow"
+                      >
+                        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-editorial-green-soft text-editorial-green text-sm font-semibold">
+                          {index + 1}
+                        </span>
+                        <div>
+                          <h3 className="font-semibold text-editorial-ink mb-1">
+                            {module.title}
+                          </h3>
+                          <p className="text-sm text-editorial-muted mb-2">
+                            {module.shortSummary}
+                          </p>
+                          <p className="text-xs text-editorial-muted">
+                            {module.lessons.length} lessons · {module.coreConcepts.length} core concepts
+                          </p>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </section>
+            )
+          )
+        ) : (
+          grouped.map(({ level, modules: levelModules }) => (
+            <section key={level}>
+              <div className="mb-4">
+                <h2 className="font-serif text-2xl font-semibold text-editorial-ink mb-2 capitalize">
+                  {level}
+                </h2>
+                <p className="text-sm text-editorial-muted max-w-3xl">
+                  {LEVEL_COPY[level]}
+                </p>
               </div>
-            ) : (
-              <div className="space-y-3">
-                {levelModules.map((module, index) => (
-                  <Link
-                    key={module.slug}
-                    href={`/${slug}/modules/${module.slug}`}
-                    className="flex items-start gap-4 rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-5 hover:shadow-editorial-soft transition-shadow"
-                  >
-                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-editorial-green-soft text-editorial-green text-sm font-semibold">
-                      {index + 1}
-                    </span>
-                    <div>
-                      <h3 className="font-semibold text-editorial-ink mb-1">
-                        {module.title}
-                      </h3>
-                      <p className="text-sm text-editorial-muted mb-2">
-                        {module.shortSummary}
-                      </p>
-                      <p className="text-xs text-editorial-muted">
-                        {module.lessons.length} lessons · {module.coreConcepts.length} core concepts
-                      </p>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </section>
-        ))
+
+              {levelModules.length === 0 ? (
+                <div className="rounded-[18px] border border-dashed border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.5)] p-5 text-sm text-editorial-muted">
+                  No {level} modules have been published for this subject yet.
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {levelModules.map((module, index) => (
+                    <Link
+                      key={module.slug}
+                      href={`/${slug}/modules/${module.slug}`}
+                      className="flex items-start gap-4 rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-5 hover:shadow-editorial-soft transition-shadow"
+                    >
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-editorial-green-soft text-editorial-green text-sm font-semibold">
+                        {index + 1}
+                      </span>
+                      <div>
+                        <h3 className="font-semibold text-editorial-ink mb-1">
+                          {module.title}
+                        </h3>
+                        <p className="text-sm text-editorial-muted mb-2">
+                          {module.shortSummary}
+                        </p>
+                        <p className="text-xs text-editorial-muted">
+                          {module.lessons.length} lessons · {module.coreConcepts.length} core concepts
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </section>
+          ))
+        )
       )}
     </div>
   )

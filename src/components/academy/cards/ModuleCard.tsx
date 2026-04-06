@@ -14,6 +14,7 @@ import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 import { useProgress } from "@/lib/progress"
 import type { Module } from "@/types/curriculum"
+import { TEACHING_STAGE_META } from "@/lib/teaching-contract"
 
 interface ModuleCardProps {
   module: Module
@@ -27,6 +28,11 @@ function humanize(value?: string) {
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .replace(/-/g, " ")
     .replace(/\b\w/g, (char) => char.toUpperCase())
+}
+
+function getModuleEyebrow(module: Module) {
+  if (module.teachingStage) return TEACHING_STAGE_META[module.teachingStage].label
+  return humanize(module.category ?? module.domain)
 }
 
 export function ModuleCard({
@@ -83,7 +89,7 @@ export function ModuleCard({
                 )}
               </div>
               <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
-                {humanize(module.category ?? module.domain)}
+                {getModuleEyebrow(module)}
               </span>
             </div>
             <CardTitle className="text-lg">{module.title}</CardTitle>

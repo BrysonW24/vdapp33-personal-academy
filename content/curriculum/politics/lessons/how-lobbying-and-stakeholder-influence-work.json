@@ -1,0 +1,75 @@
+{
+  "slug": "how-lobbying-and-stakeholder-influence-work",
+  "moduleSlug": "lobbying-and-influence",
+  "title": "How Lobbying and Stakeholder Influence Work",
+  "objective": "Understand how outside actors influence Australian government and where the line sits between legitimate advocacy and corrupt conduct.",
+  "beginnerExplanation": "Lobbying is the attempt to influence government decisions. Corporations, unions, NGOs, peak bodies, industry associations, and community groups all do it. They meet ministers and advisers, brief departments, make submissions, coordinate media, and build coalitions. In Australia, this is a normal part of politics. The core question is not whether influence exists. It is whether influence is transparent, lawful, and proportionate.",
+  "deeperExplanation": "A good mental model is that lobbying works through access, timing, credibility, and alignment. Arguments matter, but arguments arriving at the wrong stage or through the wrong channel often fail. Corporate affairs teams usually work through relationship management, issue tracking, and structured submissions. NGOs may combine advocacy with media pressure and coalition building. Peak bodies aggregate whole sectors. The integrity risk appears when access becomes opaque, favours become personal, or decision-makers stop applying public criteria consistently.",
+  "keyTakeaways": [
+    "Lobbying is a normal part of politics, not automatically corruption.",
+    "Timing and access are as important as argument quality.",
+    "Influence enters through departments, ministers' offices, committees, and media.",
+    "Transparency and integrity are what distinguish advocacy from corruption.",
+    "Many of the decisive conversations happen before the public fight is visible."
+  ],
+  "frameworks": ["influence-map"],
+  "example": "A major energy company might brief a department on regulatory impacts, meet a ministerial office, work through an industry association, and prepare a committee submission. None of that is unusual. The real question is whether the process remains transparent and tied to public criteria.",
+  "commonMistakes": [
+    "Thinking only corporations lobby government",
+    "Treating every form of advocacy as corruption",
+    "Ignoring the role of departments and consultation processes",
+    "Forgetting that access without integrity controls can distort outcomes"
+  ],
+  "exercise": "Pick one policy issue and map the likely stakeholders, their interests, where they would try to influence the process, and where the main integrity risks sit.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Influence is normal. The boundary problem is integrity.",
+      "summary": "The useful question is not whether actors try to influence government. It is whether that influence is visible, lawful, balanced, and tied to public reasons.",
+      "anchors": [
+        "Who wants the decision to move?",
+        "What channel are they using?",
+        "Where could access become improper?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "Stakeholders identify the decision point that matters.",
+        "They build an argument, coalition, or pressure campaign.",
+        "They target ministers, advisers, departments, committees, or media.",
+        "They try to move the issue before the formal decision closes."
+      ]
+    },
+    "upsides": [
+      "It makes government more informed about real-world effects.",
+      "It allows affected groups to be heard.",
+      "It can improve policy design when done transparently."
+    ],
+    "downsides": [
+      "Actors with money, access, or organisation can dominate quieter interests.",
+      "Opaque influence can degrade trust.",
+      "Short-term political pressure can overwhelm long-term public value."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "Australian lobbying often runs through ministerial offices, departments, consultation papers, committee submissions, industry associations, and media campaigns. The process is ordinary; the integrity boundaries are where the real scrutiny belongs.",
+    "realWorldApplications": [
+      "Reading stakeholder campaigns more clearly",
+      "Designing better consultation or advocacy strategies",
+      "Spotting where a policy process may be at risk of capture"
+    ],
+    "whoWorksWithThis": [
+      "Corporate affairs teams",
+      "Lobbyists",
+      "Ministerial advisers",
+      "APS policy officers",
+      "Journalists"
+    ],
+    "goDeeper": [
+      {
+        "label": "Map a lobbying campaign",
+        "href": "/politics/projects/map-a-lobbying-campaign",
+        "description": "Turn the influence model into a concrete stakeholder map."
+      }
+    ]
+  }
+}

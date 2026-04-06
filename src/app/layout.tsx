@@ -8,13 +8,13 @@ import "@/styles/globals.css"
 
 export const metadata: Metadata = {
   title: {
-    default: "Personal Academy",
-    template: "%s | Personal Academy",
+    default: "Nexus",
+    template: "%s | Nexus",
   },
   description:
-    "A guided academy for curiosity-driven learning across subjects, topics, and roles, with local-first onboarding, My Path, truth stacks, and curated signals.",
+    "Nexus is a guided knowledge operating system for curiosity-driven learning across subjects, topics, and roles, with local-first onboarding, My Path, truth stacks, and curated signals.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }, { url: "/favicon.ico" }],
   },
 }
 

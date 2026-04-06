@@ -1,0 +1,44 @@
+{
+  "slug": "lobbying-and-influence",
+  "title": "Lobbying and Influence",
+  "shortSummary": "Learn how corporations, unions, NGOs, peak bodies, and advocates try to move government through meetings, submissions, media, coalitions, and timing.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "influence",
+  "whyItMatters": "Politics is not only formal institutions. Influence enters through relationships, submissions, campaigns, and pressure. If you do not understand this layer, you misunderstand how policy actually moves.",
+  "coreConcepts": [
+    "Direct lobbying versus public advocacy",
+    "Industry groups, unions, NGOs, and peak bodies",
+    "Ministerial offices, departments, and access points",
+    "Consultation submissions and committee evidence",
+    "Corporate affairs and issue management",
+    "The line between influence and corruption"
+  ],
+  "mentalModels": [
+    "Influence is normal; corruption is the boundary problem",
+    "Timing and access often matter as much as argument quality",
+    "Most influence happens before the public fight is visible"
+  ],
+  "lessons": ["how-lobbying-and-stakeholder-influence-work"],
+  "frameworks": ["influence-map"],
+  "goDeeper": [
+    {
+      "label": "See the lobbying campaign project",
+      "href": "/politics/projects/map-a-lobbying-campaign",
+      "description": "Map actors, pressure points, and integrity risks around a real issue."
+    },
+    {
+      "label": "Open the corporate affairs day-in-the-life",
+      "href": "/politics/day-in-the-life/lobbyist-corporate-affairs",
+      "description": "See how influence work actually feels inside a working week."
+    }
+  ],
+  "relatedModules": [
+    "policy-process",
+    "legislation-and-regulation",
+    "committees-inquiries-and-royal-commissions"
+  ],
+  "status": "complete",
+  "order": 8,
+  "levelNumber": 2
+}

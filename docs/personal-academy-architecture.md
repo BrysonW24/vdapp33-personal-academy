@@ -1,8 +1,8 @@
-# Personal Academy Architecture
+# Nexus Architecture
 
 ## Intent
 
-Personal Academy is the learning-first side of the academy ecosystem. It shares the multi-subject shell pattern with Founder OS, but not the operator doctrine. The current goal is no longer just “one shell for many subjects.” It is “one shell that can direct a learner through a broad, deep, and applied education.”
+Nexus is the learning-first side of the academy ecosystem. It shares the multi-subject shell pattern with Founder OS, but not the operator doctrine. The current goal is no longer just “one shell for many subjects.” It is “one shell that can direct a learner through a broad, deep, and applied education.”
 
 ## Design rules
 

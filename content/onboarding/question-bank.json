@@ -7,7 +7,7 @@
       "questions": [
         {
           "id": "primary_outcome",
-          "prompt": "What do you most want from Personal Academy right now?",
+          "prompt": "What do you most want from Nexus right now?",
           "type": "single-choice",
           "required": true,
           "options": [

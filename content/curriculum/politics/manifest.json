@@ -5,8 +5,14 @@
   "group": "society",
   "icon": "Landmark",
   "color": "#A14C3A",
-  "tagline": "Power, institutions, campaigns, public life, and the systems that shape collective decisions.",
+  "tagline": "Power, institutions, lawmaking, policy, and the systems that shape collective life.",
   "blueprintSlug": "blueprint",
-  "deepDivePages": [],
+  "deepDivePages": [
+    {
+      "slug": "system",
+      "label": "System",
+      "icon": "Landmark"
+    }
+  ],
   "order": 6
 }

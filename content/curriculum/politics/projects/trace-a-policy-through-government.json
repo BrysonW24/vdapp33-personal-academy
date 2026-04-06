@@ -1,0 +1,57 @@
+{
+  "slug": "trace-a-policy-through-government",
+  "title": "Trace a Policy Through Government",
+  "difficulty": 4,
+  "estimatedHours": 4,
+  "description": "Choose one Australian policy issue and map it from public problem through consultation, decision, delivery, and evaluation.",
+  "whyItMatters": "This project forces you to stop treating policy as a headline and start seeing it as a sequence of institutions, tradeoffs, and bottlenecks.",
+  "skillsLearned": [
+    "Policy mapping",
+    "Stakeholder identification",
+    "Institutional literacy",
+    "Political process analysis"
+  ],
+  "prerequisites": [
+    "what-politics-is",
+    "policy-process"
+  ],
+  "steps": [
+    {
+      "title": "Pick a live issue",
+      "description": "Choose a current or recent Australian policy issue such as housing, energy, migration, or aged care."
+    },
+    {
+      "title": "Map the cycle",
+      "description": "Write the issue framing, option generation, consultation, decision point, delivery path, and likely evaluation loop."
+    },
+    {
+      "title": "Add the institutions",
+      "description": "Identify which ministers, departments, states, or committees matter most."
+    },
+    {
+      "title": "Mark the bottleneck",
+      "description": "Highlight where the issue is most likely to stall, distort, or get watered down."
+    }
+  ],
+  "deliverables": [
+    "One policy map on a single page",
+    "A short note on the main bottleneck and why it matters"
+  ],
+  "tools": [
+    "Parliament of Australia",
+    "PM&C guidance",
+    "ABS data",
+    "News archive"
+  ],
+  "rubric": [
+    {
+      "criteria": "Institutional accuracy",
+      "description": "Does the map reflect the real Australian process rather than a civics simplification?"
+    },
+    {
+      "criteria": "Tradeoff quality",
+      "description": "Does it show actual constraints, not just preferred outcomes?"
+    }
+  ],
+  "domain": "politics"
+}

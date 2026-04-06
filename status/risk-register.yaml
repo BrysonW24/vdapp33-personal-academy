@@ -75,7 +75,7 @@ risks:
     owner: unassigned
 
 notes:
-  - Personal Academy source apps were archived on 2026-04-04 after archive-gate verification. Archived copies remain available for recovery/reference in `archive/2026-04-04-personal-academy-migration-sources/`.
+  - Nexus source apps were archived on 2026-04-04 after archive-gate verification. Archived copies remain available for recovery/reference in `archive/2026-04-04-personal-academy-migration-sources/`.
   - 2026-04-03 verification passed for install, type-check, lint, build, and manual route smoke coverage.
   - Quantum was expanded beyond the original 4-module migration baseline on 2026-04-03.
   - The 2026-04-04 QA regression involving stale build assets and missing `vendor-chunks/zod.js` was fixed by rebuilding from a clean `.next` state and isolating runtime schemas from shared curriculum types.

@@ -1,0 +1,44 @@
+{
+  "slug": "committees-inquiries-and-royal-commissions",
+  "title": "Committees, Inquiries, and Royal Commissions",
+  "shortSummary": "Understand the scrutiny machinery around politics: parliamentary committees, public inquiries, integrity processes, and royal commissions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "scrutiny",
+  "whyItMatters": "A political system is only as trustworthy as its correction mechanisms. Committees, inquiries, audits, regulators, and royal commissions are where claims get tested and failures become visible.",
+  "coreConcepts": [
+    "Parliamentary committees",
+    "Public submissions and hearings",
+    "Formal inquiries",
+    "Royal commissions and Letters Patent",
+    "Recommendations versus actual reform",
+    "Why scrutiny is slow on purpose"
+  ],
+  "mentalModels": [
+    "Not every failure goes straight to a royal commission",
+    "Scrutiny is the corrective layer around power",
+    "Recommendations still have to re-enter politics to matter"
+  ],
+  "lessons": ["how-committees-inquiries-and-royal-commissions-work"],
+  "frameworks": ["oversight-ladder"],
+  "goDeeper": [
+    {
+      "label": "Analyse a royal commission",
+      "href": "/politics/projects/analyse-a-royal-commission",
+      "description": "Trace one major inquiry from trigger through findings to reform."
+    },
+    {
+      "label": "See the committee secretariat day-in-the-life",
+      "href": "/politics/day-in-the-life/committee-secretariat",
+      "description": "Ground scrutiny work in a real operational role."
+    }
+  ],
+  "relatedModules": [
+    "lobbying-and-influence",
+    "courts-federalism-and-accountability",
+    "working-in-politics-and-public-policy"
+  ],
+  "status": "complete",
+  "order": 9,
+  "levelNumber": 2
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "regulator-investigator",
+  "title": "Regulator / Integrity Investigator",
+  "setting": "Integrity agency, regulator, or inquiry office",
+  "companySize": "A specialist team inside a regulator or integrity body",
+  "description": "This role sits inside the accountability layer. The work is evidence-heavy, procedural, and often sensitive. It is less theatrical than politics itself, but it is where institutional trust is tested.",
+  "salary": "$105,000-$145,000 AUD",
+  "schedule": [
+    { "time": "08:30", "activity": "Review incoming matters, complaints, or case updates", "tools": ["Case system", "Evidence tracker"] },
+    { "time": "09:30", "activity": "Plan evidence requests and legal or procedural steps", "tools": ["Investigation plan", "Legal guidance"] },
+    { "time": "11:00", "activity": "Interview preparation or document review", "tools": ["Transcripts", "Documents", "Timeline"] },
+    { "time": "13:00", "activity": "Working lunch while drafting findings or next actions", "tools": ["Draft memo"] },
+    { "time": "14:00", "activity": "Meet internal legal or senior case staff on the evidentiary threshold", "tools": ["Case brief"] },
+    { "time": "15:30", "activity": "Draft a findings note, recommendation, or procedural summary", "tools": ["Report template"] },
+    { "time": "17:00", "activity": "Close the day with evidence requests, secure recordkeeping, and escalation notes", "tools": ["Case system", "Secure file store"] }
+  ],
+  "responsibilities": [
+    "Gather and assess evidence",
+    "Maintain procedural fairness and secure records",
+    "Draft findings, recommendations, or case notes",
+    "Escalate matters according to legal and institutional rules"
+  ],
+  "challenges": [
+    "High evidentiary standards",
+    "Sensitive and reputationally risky matters",
+    "Need for neutrality and careful documentation"
+  ],
+  "rewards": [
+    "Strong institutional purpose",
+    "Deep exposure to accountability and rule-of-law work",
+    "Skill development in evidence, judgment, and process discipline"
+  ],
+  "careerPath": [
+    "Investigation or compliance analyst",
+    "Regulatory or integrity investigator",
+    "Senior case manager or principal investigator",
+    "Move into senior integrity, inquiry, legal, or regulatory leadership"
+  ]
+}

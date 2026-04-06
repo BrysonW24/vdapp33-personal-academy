@@ -1,0 +1,16 @@
+{
+  "slug": "power-map",
+  "name": "Power Map",
+  "summary": "Map who decides, who advises, who blocks, who implements, and who scrutinises.",
+  "whenToUseIt": "Use this whenever politics feels abstract or personality-driven. It is the fastest way to turn a noisy issue into a structured picture.",
+  "steps": [
+    "Name the decision that matters.",
+    "Identify who formally decides it.",
+    "List who advises, who can block or amend, and who implements.",
+    "Add the scrutiny layer: courts, committees, audits, media, elections.",
+    "Mark where the main bottleneck or leverage point actually sits."
+  ],
+  "example": "In Australian housing policy, Cabinet may decide direction, departments build options, the Senate can slow or amend legislation, states shape delivery, and media plus voters determine the political pain tolerance.",
+  "category": "mental-models",
+  "domain": "politics"
+}

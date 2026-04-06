@@ -1,0 +1,16 @@
+{
+  "slug": "policy-cycle",
+  "name": "Policy Cycle",
+  "summary": "A memory tool for turning issues into policy stages: issue, options, consultation, decision, delivery, evaluation.",
+  "whenToUseIt": "Use this to structure policy analysis, briefs, stakeholder planning, or post-mortems on failed reforms.",
+  "steps": [
+    "State the issue and how it is currently framed.",
+    "List the plausible options and tradeoffs.",
+    "Identify who must be consulted and why.",
+    "Mark the real decision point: minister, Cabinet, agency, or Parliament.",
+    "Define the delivery path and how success will be evaluated."
+  ],
+  "example": "A public housing reform can be tracked from problem framing through consultation with states and industry, Cabinet choice, budget or law, then implementation and review.",
+  "category": "process",
+  "domain": "politics"
+}

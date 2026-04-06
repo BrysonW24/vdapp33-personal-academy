@@ -1,0 +1,76 @@
+{
+  "slug": "how-a-bill-becomes-law-in-australia",
+  "moduleSlug": "legislation-and-regulation",
+  "title": "How a Bill Becomes Law in Australia",
+  "objective": "Understand the legislation funnel from drafting through both houses to assent and implementation.",
+  "beginnerExplanation": "A law starts once government decides policy needs legal force. Drafters prepare the bill, it is introduced into a chamber, debated, scrutinised, and voted on. The other chamber then does the same. If both houses agree on the same text, the Governor-General grants assent and the bill becomes an Act. Regulations, commencement dates, and agency implementation then determine when it actually changes real life.",
+  "deeperExplanation": "The memorable mistake is to think legislation is just one chamber speech and a vote. In reality, the important stages include drafting instructions, internal review, committee scrutiny, Senate negotiation, amendment, and delegated legislation after the Act passes. The Senate matters because governments often need support beyond their own side. Implementation matters because a passed Act without enforcement, regulations, guidance, systems, or budget backing can remain mostly symbolic. In politics, legal change is only one part of operational change.",
+  "keyTakeaways": [
+    "Legislation is a funnel, not a single moment.",
+    "Committee scrutiny and Senate negotiation are often decisive.",
+    "An Act is not the end of the story; regulation and implementation still matter.",
+    "Drafting quality shapes what can survive legal and political challenge.",
+    "A promise becomes real only when law and machinery align."
+  ],
+  "frameworks": ["legislation-funnel"],
+  "example": "A government housing reform bill may be drafted after Cabinet approval, debated in the House, negotiated in the Senate, amended to secure support, assented to, and only then implemented through agencies and subordinate instruments. The public often sees only the middle part of that journey.",
+  "commonMistakes": [
+    "Thinking a bill is law as soon as it is announced",
+    "Ignoring the Senate's power to reshape or delay legislation",
+    "Assuming implementation is automatic after assent",
+    "Confusing legislation with regulation or policy intention"
+  ],
+  "exercise": "Take one bill currently or recently before an Australian parliament. Trace its path: policy trigger, drafting, debate, scrutiny, amendment risk, assent, and implementation requirements.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Legislation is a funnel.",
+      "summary": "Remember the path as narrowing stages: instruction, drafting, chamber debate, scrutiny, Senate leverage, assent, implementation.",
+      "anchors": [
+        "Where is the bill in the funnel?",
+        "Who can still amend or block it?",
+        "What has to happen after assent?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "Government or a member decides legal change is needed.",
+        "The bill is drafted and checked.",
+        "A chamber introduces and debates it.",
+        "Scrutiny, amendment, and negotiation test the text.",
+        "Both houses agree, assent arrives, and implementation begins."
+      ]
+    },
+    "upsides": [
+      "This model helps you distinguish promises from legal change.",
+      "It clarifies where negotiation really matters.",
+      "It makes parliamentary process much easier to follow."
+    ],
+    "downsides": [
+      "The funnel metaphor can hide the back-and-forth reality.",
+      "Public attention often over-focuses on speeches and under-focuses on drafting.",
+      "Legal passage can still fail to produce real-world change."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "In Australian politics, the Senate is often the place where governments discover that a formal majority in the House is not enough to deliver law exactly as announced.",
+    "realWorldApplications": [
+      "Tracking bills with more realism",
+      "Writing submissions or advocacy strategies at the right stage",
+      "Understanding why regulation and administration matter after passage"
+    ],
+    "whoWorksWithThis": [
+      "Parliamentarians",
+      "Ministerial advisers",
+      "Committee staff",
+      "Lobbyists",
+      "Regulators"
+    ],
+    "goDeeper": [
+      {
+        "label": "Continue into lobbying and influence",
+        "href": "/politics/modules/lobbying-and-influence",
+        "description": "See who tries to shape bills and policy before the final vote."
+      }
+    ]
+  }
+}

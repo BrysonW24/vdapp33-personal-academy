@@ -9,6 +9,7 @@ import {
   getSubjects,
 } from "@/lib/content"
 import { buildGuideRail } from "@/lib/guide-rail"
+import { TEACHING_STAGE_META } from "@/lib/teaching-contract"
 
 function humanize(value: string) {
   return value
@@ -93,6 +94,11 @@ export default async function ModuleDetailPage({
         <span className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium bg-editorial-green-soft text-editorial-green">
           {curriculumModule.level}
         </span>
+        {curriculumModule.teachingStage ? (
+          <span className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium bg-[rgba(47,79,121,0.1)] text-editorial-blue">
+            {TEACHING_STAGE_META[curriculumModule.teachingStage].label}
+          </span>
+        ) : null}
         {curriculumModule.category && (
           <span className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium bg-editorial-blue-soft text-editorial-blue">
             {curriculumModule.category.replace(/-/g, " ")}
@@ -118,6 +124,22 @@ export default async function ModuleDetailPage({
         </h2>
         <p className="text-editorial-muted">{curriculumModule.whyItMatters}</p>
       </div>
+
+      {curriculumModule.mentalModels && curriculumModule.mentalModels.length > 0 && (
+        <div className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(247,243,234,0.78)] p-6 mb-8">
+          <h2 className="font-serif text-xl font-semibold text-editorial-ink mb-4">
+            Memorable mental models
+          </h2>
+          <ul className="space-y-2">
+            {curriculumModule.mentalModels.map((model) => (
+              <li key={model} className="flex items-start gap-2 text-editorial-muted">
+                <span className="text-editorial-blue mt-0.5">•</span>
+                {model}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="mb-8">
         <h2 className="font-serif text-xl font-semibold text-editorial-ink mb-4">
@@ -178,6 +200,28 @@ export default async function ModuleDetailPage({
                 <span className="inline-block rounded-full px-3 py-1 text-xs font-medium bg-editorial-blue-soft text-editorial-blue">
                   {humanize(framework)}
                 </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {curriculumModule.goDeeper && curriculumModule.goDeeper.length > 0 && (
+        <div className="mb-8">
+          <h2 className="font-serif text-xl font-semibold text-editorial-ink mb-4">
+            Go deeper from here
+          </h2>
+          <div className="grid gap-3 md:grid-cols-2">
+            {curriculumModule.goDeeper.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-4 hover:shadow-editorial-soft transition-shadow"
+              >
+                <p className="font-medium text-editorial-ink">{link.label}</p>
+                {link.description ? (
+                  <p className="mt-1 text-sm text-editorial-muted">{link.description}</p>
+                ) : null}
               </Link>
             ))}
           </div>

@@ -1,0 +1,39 @@
+{
+  "slug": "lobbyist-corporate-affairs",
+  "title": "Lobbyist / Corporate Affairs Manager",
+  "setting": "Corporate affairs firm or in-house policy team, Sydney or Canberra",
+  "companySize": "Small specialist advisory team or in-house corporate affairs function",
+  "description": "Corporate affairs and lobbying work sits at the edge of government, business, and media. The day revolves around issue tracking, stakeholder mapping, meeting preparation, submissions, and message discipline.",
+  "salary": "$120,000-$180,000 AUD",
+  "schedule": [
+    { "time": "07:30", "activity": "Monitor political and regulatory developments affecting clients or the business", "tools": ["Media summary", "Policy tracker"] },
+    { "time": "09:00", "activity": "Internal strategy meeting on active issues and stakeholder priorities", "tools": ["Stakeholder map", "Issue briefs"] },
+    { "time": "10:30", "activity": "Prepare for a meeting with a ministerial adviser or department contact", "tools": ["Meeting brief", "Key messages"] },
+    { "time": "12:00", "activity": "Draft or revise a submission responding to a consultation process", "tools": ["Consultation paper", "Submission draft"] },
+    { "time": "14:00", "activity": "Client or executive update on political risk and likely decision paths", "tools": ["Issue memo", "Calendar"] },
+    { "time": "15:30", "activity": "Coordinate media and stakeholder alignment on a public position", "tools": ["Media lines", "Approval workflow"] },
+    { "time": "17:30", "activity": "Update the stakeholder map and note the next access point or pressure point", "tools": ["CRM", "Action tracker"] }
+  ],
+  "responsibilities": [
+    "Track policy and regulatory issues",
+    "Build stakeholder maps and access plans",
+    "Prepare submissions and meeting briefs",
+    "Advise executives or clients on political risk"
+  ],
+  "challenges": [
+    "Balancing persuasion with integrity boundaries",
+    "Working through opaque timing and access constraints",
+    "Managing reputational risk for public-facing issues"
+  ],
+  "rewards": [
+    "Strong exposure to how external actors move government",
+    "Fast development in judgment, stakeholder handling, and writing",
+    "High visibility on live policy and regulatory change"
+  ],
+  "careerPath": [
+    "Policy or public affairs analyst",
+    "Corporate affairs manager or lobbyist",
+    "Senior adviser / partner / director",
+    "Move into government relations leadership or strategic advisory work"
+  ]
+}

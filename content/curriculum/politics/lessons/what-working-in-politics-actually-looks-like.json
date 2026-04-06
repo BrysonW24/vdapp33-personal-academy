@@ -1,0 +1,75 @@
+{
+  "slug": "what-working-in-politics-actually-looks-like",
+  "moduleSlug": "working-in-politics-and-public-policy",
+  "title": "What Working in Politics Actually Looks Like",
+  "objective": "Understand what politics and public policy jobs actually involve, how people are educated, what they are exposed to, and what improves a career in the field.",
+  "beginnerExplanation": "Politics is not one job. It is a field of jobs: MPs, advisers, public servants, committee staff, lobbyists, journalists, regulators, and issue advocates. Most of them spend far more time reading, writing, briefing, coordinating, and responding under time pressure than people outside the field realise. The glamour is overstated; the document load is real.",
+  "deeperExplanation": "The most transferable mental model is that politics is a profession of judgment under ambiguity. Documents matter because decisions need to be briefed. Relationships matter because decisions require access and coordination. Institutional literacy matters because the same problem looks different from a minister's office, a department, a lobby group, a newsroom, or a regulator. Common education pathways include politics, law, economics, history, public policy, communications, or journalism, but the real career multipliers are clearer writing, stronger institutional judgment, steadier temperament, and better incentive-reading.",
+  "keyTakeaways": [
+    "Politics is a document-heavy, deadline-heavy field.",
+    "Most roles involve more briefing, drafting, and stakeholder management than public speaking.",
+    "Institutional literacy is a career multiplier.",
+    "Judgment under ambiguity matters more than ideological certainty.",
+    "Writing quality, calmness, and trustworthiness improve careers."
+  ],
+  "frameworks": ["career-ladder-politics"],
+  "example": "A junior APS policy officer may spend a week drafting a brief, analysing stakeholder submissions, and revising advice after comments. A political journalist may spend the same week sourcing leaks, checking lines with offices, watching Parliament, and filing on deadline. Same field, very different exposure.",
+  "commonMistakes": [
+    "Thinking politics careers are mostly about speeches and TV appearances",
+    "Assuming academic knowledge alone is enough",
+    "Underestimating how much writing and briefing quality matter",
+    "Ignoring the emotional load of time pressure and public scrutiny"
+  ],
+  "exercise": "Pick two roles in politics or public policy. Write the documents they most likely read, the documents they most likely write, who they most likely deal with, and what pressure they most likely carry.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Politics is a profession of judgment under ambiguity.",
+      "summary": "The field rewards people who can absorb complexity, brief clearly, handle pressure, and move inside institutions without losing their integrity.",
+      "anchors": [
+        "What does this role read?",
+        "What does this role write?",
+        "What pressure lives on this desk?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "A role sits inside a particular institution or influence channel.",
+        "That role consumes information, reframes it, and passes it on.",
+        "Decisions are shaped through briefs, meetings, drafts, and negotiations.",
+        "Career progression follows trust, judgment, and increasingly sensitive exposure."
+      ]
+    },
+    "upsides": [
+      "The field develops judgment, writing, and institutional literacy quickly.",
+      "You learn how real decisions get made.",
+      "Networks formed here often translate across government, media, and advocacy."
+    ],
+    "downsides": [
+      "Hours and pressure can be intense.",
+      "Job security varies sharply by role and political cycle.",
+      "Moral compromises and burnout risks are real if boundaries are weak."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "In Australian politics, sitting weeks, budget periods, major reforms, and election campaigns create very different workloads, but the recurring reality is still writing, briefing, coordination, and fast judgment under scrutiny.",
+    "realWorldApplications": [
+      "Choosing which political or policy roles actually fit your temperament",
+      "Building the right skill stack for entry-level and mid-level progression",
+      "Understanding why some people rise quickly in politics while others burn out"
+    ],
+    "whoWorksWithThis": [
+      "Political staffers",
+      "APS officers",
+      "Lobbyists",
+      "Journalists",
+      "Parliamentarians"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the politics day-in-the-life section",
+        "href": "/politics/day-in-the-life",
+        "description": "See the field through real working schedules."
+      }
+    ]
+  }
+}

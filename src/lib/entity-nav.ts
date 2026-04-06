@@ -1,4 +1,5 @@
 import type { EntityKind } from "@/types/entity"
+import type { SubjectManifest } from "@/types/curriculum"
 
 export interface NavContext {
   kind: EntityKind
@@ -54,7 +55,28 @@ const SECTION_MAP: Record<EntityKind, NavSectionItem[]> = {
   topic: TOPIC_SECTIONS,
 }
 
-export function getNavSections(kind: EntityKind): NavSectionItem[] {
+function getSubjectNavSections(subject?: SubjectManifest | null): NavSectionItem[] {
+  if (!subject?.deepDivePages?.length) return SUBJECT_SECTIONS
+
+  const deepDiveSections = subject.deepDivePages.map((page) => ({
+    segment: `/${page.slug}`,
+    label: page.label,
+    iconName: page.icon,
+    isPrimary: true,
+  }))
+
+  return [
+    SUBJECT_SECTIONS[0],
+    ...deepDiveSections,
+    ...SUBJECT_SECTIONS.slice(1),
+  ]
+}
+
+export function getNavSections(
+  kind: EntityKind,
+  subject?: SubjectManifest | null
+): NavSectionItem[] {
+  if (kind === "subject") return getSubjectNavSections(subject)
   return SECTION_MAP[kind]
 }
 

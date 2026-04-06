@@ -2,28 +2,28 @@
   "slug": "politics",
   "kind": "subject",
   "title": "Politics Signals",
-  "summary": "Politics is the signal layer for power, institutions, legitimacy, incentives, and collective decision-making. It is the arena where truth competes with persuasion, procedure, and coalition building.",
+  "summary": "Politics is the live layer for power, legitimacy, lawmaking, policy execution, public trust, and institutional stress. The useful habit is to read signals structurally, not just as personalities and outrage.",
   "sections": [
     {
       "slug": "major-developments",
       "title": "Major Developments",
       "items": [
         {
-          "name": "Democratic trust is under pressure",
-          "summary": "Many democracies are dealing with declining trust, fragmentation, and stronger demand for transparency and competence.",
-          "whyItMatters": "Legitimacy is the operating system of politics.",
-          "entities": ["world-history", "public-administration"]
+          "name": "Democratic trust is increasingly a governance problem",
+          "summary": "Politics in many democracies is under pressure from distrust, fragmentation, and weak confidence in institutions.",
+          "whyItMatters": "Legitimacy is not decorative. It is part of whether systems can still govern effectively.",
+          "entities": ["politics", "public-administration", "world-history"]
         },
         {
-          "name": "Geopolitics is more central to domestic politics",
-          "summary": "Trade, security, supply chains, and migration are now frontline political issues rather than specialist concerns.",
-          "whyItMatters": "The boundary between domestic policy and foreign policy is thinning.",
-          "entities": ["geopolitics", "supply-chain-logistics"]
+          "name": "Domestic politics and geopolitics are bleeding into one another",
+          "summary": "Trade, energy, migration, defence, and supply chains increasingly shape internal political argument.",
+          "whyItMatters": "The line between national policy and international strategy is thinner than it used to be.",
+          "entities": ["geopolitics", "energy", "supply-chain-logistics"]
         },
         {
-          "name": "Digital platforms shape political communication",
-          "summary": "Political persuasion now runs through social media, creator ecosystems, and algorithmic attention systems.",
-          "whyItMatters": "Power now moves through platform design as much as through parliament.",
+          "name": "Political communication is now platform-mediated",
+          "summary": "Social media, creator ecosystems, algorithmic feeds, and synthetic media increasingly shape what political attention looks like.",
+          "whyItMatters": "Power now moves through information systems as much as through chambers and speeches.",
           "entities": ["communication", "artificial-intelligence", "Meta"]
         }
       ]
@@ -34,21 +34,21 @@
       "items": [
         {
           "name": "Meta",
-          "summary": "Its platforms remain central to political communication, moderation, and public debate.",
-          "whyItMatters": "It shapes the information environment politicians have to operate in.",
-          "entities": ["politics", "communication"]
+          "summary": "Still central to how political communication, moderation, and public debate are distributed.",
+          "whyItMatters": "Platform design shapes the information environment political actors have to operate inside.",
+          "entities": ["communication", "politics"]
         },
         {
           "name": "Google",
-          "summary": "Search and advertising still shape political information flows at scale.",
-          "whyItMatters": "Search remains one of the strongest agenda-setting systems in public life.",
-          "entities": ["politics", "data-science"]
+          "summary": "Search, video, and advertising still influence agenda-setting and information discovery.",
+          "whyItMatters": "Search and video remain major gateways to public understanding.",
+          "entities": ["communication", "data-science", "politics"]
         },
         {
           "name": "NationBuilder",
-          "summary": "A visible example of political software that helps campaigns organise supporters and outreach.",
-          "whyItMatters": "Campaign infrastructure is increasingly software-defined.",
-          "entities": ["public-administration", "communication"]
+          "summary": "A visible example of how campaign and organising infrastructure has become software-mediated.",
+          "whyItMatters": "Political operations increasingly rely on tooling, data hygiene, and supporter systems.",
+          "entities": ["politics", "communication"]
         }
       ]
     },
@@ -58,21 +58,21 @@
       "items": [
         {
           "name": "Parliament of Australia",
-          "summary": "The core site of Australian democratic decision-making.",
-          "whyItMatters": "It is where formal authority is translated into law and budget decisions.",
-          "entities": ["law", "public-administration"]
+          "summary": "The core public site of lawmaking, scrutiny, and representative legitimacy at the federal level.",
+          "whyItMatters": "It remains the formal arena where political authority is translated into public decisions.",
+          "entities": ["law", "public-administration", "politics"]
         },
         {
           "name": "Australian Electoral Commission",
-          "summary": "The institution that keeps elections legitimate and operationally credible.",
-          "whyItMatters": "Electoral integrity is the foundation of political legitimacy.",
-          "entities": ["law", "demography"]
+          "summary": "The institution that keeps election administration credible and visible.",
+          "whyItMatters": "Electoral integrity is one of the key foundations of legitimacy.",
+          "entities": ["law", "demography", "politics"]
         },
         {
-          "name": "United Nations",
-          "summary": "A central arena for diplomacy, norms, and global coordination.",
-          "whyItMatters": "It is one of the main places where politics scales beyond the nation-state.",
-          "entities": ["diplomat", "geopolitics"]
+          "name": "ANAO and integrity architecture",
+          "summary": "Audit and integrity bodies shape how public failure gets surfaced and corrected.",
+          "whyItMatters": "Political trust depends partly on visible correction mechanisms.",
+          "entities": ["public-administration", "law", "politics"]
         }
       ]
     },
@@ -82,21 +82,21 @@
       "items": [
         {
           "name": "Machiavelli",
-          "summary": "Still one of the clearest thinkers on power, strategy, and statecraft.",
-          "whyItMatters": "His work remains a durable lens for political realism.",
+          "summary": "Still one of the sharpest lenses on power, incentives, and statecraft.",
+          "whyItMatters": "He remains useful because politics rarely stops being a problem of power under uncertainty.",
           "entities": ["politics", "diplomat"]
         },
         {
           "name": "Hannah Arendt",
-          "summary": "Essential for thinking about authority, totalitarianism, and public life.",
-          "whyItMatters": "She forces politics to stay connected to moral and institutional structure.",
+          "summary": "A central thinker on authority, public life, totalitarianism, and the conditions of political judgment.",
+          "whyItMatters": "She keeps politics connected to moral and institutional seriousness.",
           "entities": ["politics", "philosophy"]
         },
         {
-          "name": "John Locke",
-          "summary": "A foundational thinker on consent, rights, and liberal governance.",
-          "whyItMatters": "Modern political legitimacy still borrows from his assumptions.",
-          "entities": ["law", "philosophy"]
+          "name": "Anne Twomey",
+          "summary": "A practical Australian guide for constitutional and institutional explanation.",
+          "whyItMatters": "She is one of the clearest mature interpreters when Australian institutions are under stress or confusion.",
+          "entities": ["politics", "law"]
         }
       ]
     },
@@ -105,22 +105,22 @@
       "title": "Active Debates",
       "items": [
         {
-          "name": "Institutions versus populism",
-          "summary": "A central debate is whether modern politics should strengthen institutions or lean into anti-establishment energy.",
-          "whyItMatters": "This shapes the durability of public trust.",
-          "entities": ["public-administration", "world-history"]
+          "name": "Institutions versus anti-establishment politics",
+          "summary": "A core modern debate is whether to strengthen institutions or distrust them as obstacles to change.",
+          "whyItMatters": "This tension shapes public trust and the durability of democratic systems.",
+          "entities": ["public-administration", "world-history", "politics"]
         },
         {
-          "name": "How much should platforms be regulated?",
-          "summary": "Speech, moderation, misinformation, and competition remain contested in digital politics.",
-          "whyItMatters": "The answer affects democracy, markets, and public discourse.",
-          "entities": ["Meta", "Google", "communication"]
+          "name": "How much should digital platforms shape public discourse?",
+          "summary": "Speech, moderation, misinformation, and algorithmic amplification remain deeply contested.",
+          "whyItMatters": "The architecture of public attention is becoming a constitutional-scale political issue.",
+          "entities": ["communication", "artificial-intelligence", "law"]
         },
         {
-          "name": "What is the balance between security and openness?",
-          "summary": "Migration, trade, and foreign policy are all shaped by this tension.",
-          "whyItMatters": "States are constantly choosing between resilience and freedom of movement.",
-          "entities": ["geopolitics", "supply-chain-logistics"]
+          "name": "Can democracies stay strategic under long-term pressure?",
+          "summary": "Security, climate, industry, and fiscal pressure all demand longer-term political coordination than many systems reward.",
+          "whyItMatters": "This is really a debate about whether modern democratic politics can still handle sustained strategic problems.",
+          "entities": ["geopolitics", "energy", "public-administration"]
         }
       ]
     }

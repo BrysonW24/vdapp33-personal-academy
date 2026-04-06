@@ -1,5 +1,5 @@
 import { create } from "zustand"
-import { persist } from "zustand/middleware"
+import { createJSONStorage, persist } from "zustand/middleware"
 
 export interface QuizResult {
   score: number
@@ -25,6 +25,8 @@ const EMPTY_SUBJECT: SubjectProgress = {
 }
 
 const LEGACY = "_legacy"
+const NEXUS_PROGRESS_KEY = "nexus-progress"
+const LEGACY_PROGRESS_KEY = "personal-academy-progress"
 
 export interface ProgressState {
   subjects: Record<string, SubjectProgress>
@@ -51,6 +53,17 @@ export interface ProgressState {
   viewedTools: string[]
   quizResults: Record<string, QuizResult>
 }
+
+type PersistedProgressState = Pick<
+  ProgressState,
+  | "subjects"
+  | "completedModules"
+  | "completedLessons"
+  | "completedProjects"
+  | "completedFrameworks"
+  | "viewedTools"
+  | "quizResults"
+>
 
 interface LegacyPersistedProgressState {
   subjects?: Record<string, SubjectProgress>
@@ -140,6 +153,24 @@ export function migrateProgressState(
 
   return buildSnapshot(hasLegacyData ? { [LEGACY]: legacySubject } : {})
 }
+
+const progressStorage = createJSONStorage<PersistedProgressState>(() => ({
+  getItem: (name) => {
+    if (typeof window === "undefined") return null
+    return (
+      window.localStorage.getItem(name) ??
+      window.localStorage.getItem(LEGACY_PROGRESS_KEY)
+    )
+  },
+  setItem: (name, value) => {
+    if (typeof window === "undefined") return
+    window.localStorage.setItem(name, value)
+  },
+  removeItem: (name) => {
+    if (typeof window === "undefined") return
+    window.localStorage.removeItem(name)
+  },
+}))
 
 export const useProgress = create<ProgressState>()(
   persist(
@@ -284,8 +315,18 @@ export const useProgress = create<ProgressState>()(
       },
     }),
     {
-      name: "personal-academy-progress",
+      name: NEXUS_PROGRESS_KEY,
       version: 1,
+      storage: progressStorage,
+      partialize: (state): PersistedProgressState => ({
+        subjects: state.subjects,
+        completedModules: state.completedModules,
+        completedLessons: state.completedLessons,
+        completedProjects: state.completedProjects,
+        completedFrameworks: state.completedFrameworks,
+        viewedTools: state.viewedTools,
+        quizResults: state.quizResults,
+      }),
       migrate: (persistedState) =>
         migrateProgressState(persistedState as LegacyPersistedProgressState | undefined),
     }

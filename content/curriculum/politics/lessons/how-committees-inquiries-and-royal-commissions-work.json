@@ -1,0 +1,76 @@
+{
+  "slug": "how-committees-inquiries-and-royal-commissions-work",
+  "moduleSlug": "committees-inquiries-and-royal-commissions",
+  "title": "How Committees, Inquiries, and Royal Commissions Work",
+  "objective": "Understand the main scrutiny pathways in Australian politics and when issues escalate into major public inquiries.",
+  "beginnerExplanation": "Parliamentary committees gather evidence, hear witnesses, and scrutinise bills or public administration. Public inquiries investigate specific issues in a more structured way. Royal commissions are the most serious form: they are established by government, given formal terms of reference, and receive strong powers to compel evidence and hold hearings. Their job is to investigate and recommend, not automatically rewrite the law.",
+  "deeperExplanation": "The accountability layer matters because politics without scrutiny becomes performance. Committees are often the first serious evidence-testing environment. Audits, ombudsmen, regulators, and inquiries handle other kinds of failure. Royal commissions arrive when the ordinary system is judged too weak, too conflicted, or too distrusted to investigate itself credibly. Even then, the recommendations still have to re-enter politics. That is the crucial lesson: scrutiny can expose and clarify, but reform still depends on political will, legislative action, and administrative follow-through.",
+  "keyTakeaways": [
+    "Committees, inquiries, and royal commissions are different levels of scrutiny, not the same thing.",
+    "Royal commissions investigate and recommend; they do not automatically change law.",
+    "Scrutiny slows politics down on purpose so claims can be tested.",
+    "The accountability layer matters because formal power is never enough on its own.",
+    "Real reform still has to re-enter politics after the inquiry is finished."
+  ],
+  "frameworks": ["oversight-ladder"],
+  "example": "A scandal might first trigger committee attention or regulator action. If the issue proves systemic and public trust collapses, government may commission a formal inquiry or royal commission. The public often assumes that announcement solves the problem, but recommendations still need to become policy and law.",
+  "commonMistakes": [
+    "Thinking every major problem needs a royal commission",
+    "Assuming recommendations automatically become law",
+    "Ignoring committees because they look less dramatic than televised hearings",
+    "Treating scrutiny as anti-government rather than part of healthy government"
+  ],
+  "exercise": "Choose one major Australian inquiry or royal commission. Write the trigger, terms of reference, evidence path, recommendations, and what actually changed afterwards.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Scrutiny is a ladder.",
+      "summary": "Do not jump straight to royal commissions in your head. The accountability layer escalates through committees, audits, ombudsmen, regulators, inquiries, and only sometimes commissions.",
+      "anchors": [
+        "What kind of failure is this?",
+        "What scrutiny mechanism is proportional?",
+        "What still has to happen after the report?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "A failure, allegation, or systemic problem becomes too serious to ignore.",
+        "The system chooses a scrutiny mechanism.",
+        "Evidence is gathered through hearings, submissions, document review, or compelled testimony.",
+        "Findings and recommendations are issued.",
+        "Politics decides whether reform actually follows."
+      ]
+    },
+    "upsides": [
+      "It gives citizens a cleaner way to understand correction mechanisms.",
+      "It clarifies that scrutiny is part of system health, not an exception to it.",
+      "It helps distinguish symbolic response from structural reform."
+    ],
+    "downsides": [
+      "Public attention can over-focus on the spectacle of hearings.",
+      "Recommendations can still die politically.",
+      "Scrutiny can be slow and resource-intensive."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "In Australia, committees often do quiet but serious evidence work, while royal commissions step in when trust has broken down so badly that ordinary mechanisms are not seen as enough.",
+    "realWorldApplications": [
+      "Interpreting inquiries with more realism",
+      "Understanding how oversight fits inside the broader political system",
+      "Seeing whether a reform process is performative or genuine"
+    ],
+    "whoWorksWithThis": [
+      "Committee staff",
+      "Regulators",
+      "Journalists",
+      "Lobbyists",
+      "Parliamentarians"
+    ],
+    "goDeeper": [
+      {
+        "label": "Analyse a royal commission",
+        "href": "/politics/projects/analyse-a-royal-commission",
+        "description": "Practice tracing the full accountability loop."
+      }
+    ]
+  }
+}

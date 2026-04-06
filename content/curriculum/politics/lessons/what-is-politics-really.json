@@ -22,8 +22,63 @@
     "Ignoring local politics — council decisions often affect your daily life more than federal ones"
   ],
   "exercise": "Map the political decisions that affect your daily life. Start from when you wake up (water supply, electricity regulation, building codes for your home) through your commute (roads, public transport subsidies), work (workplace laws, minimum wage), and evening (food safety standards, entertainment regulations). List at least 15 political decisions and identify which level of government (federal, state, local) is responsible for each. This exercise demonstrates that politics is not distant — it is the infrastructure of your daily existence.",
-  "nextLesson": "how-australian-politics-works",
   "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Politics is the system for deciding together under conditions of scarcity and disagreement.",
+      "summary": "If you remember one thing, remember this: politics is not just parties and personalities. It is the mechanism through which communities distribute power, rights, resources, and penalties.",
+      "anchors": [
+        "Who decides?",
+        "Who benefits or loses?",
+        "What institution makes the decision stick?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "A community faces a conflict, a scarcity problem, or a question of values.",
+        "Institutions decide who is allowed to make the call.",
+        "Political actors compete to shape the outcome through persuasion, procedure, coalition, or law.",
+        "The decision gets implemented through policy, budgets, regulation, or legislation.",
+        "Citizens, courts, media, and later elections test whether the decision remains legitimate."
+      ]
+    },
+    "upsides": [
+      "Politics allows conflict to be managed without constant violence.",
+      "It gives societies a lawful way to revise priorities over time.",
+      "It turns values into durable institutions and services."
+    ],
+    "downsides": [
+      "Politics can become cynical performance if institutions are weak or voters are disengaged.",
+      "Short-term incentives can distort long-term public good.",
+      "The loudest or best organised actors can overpower quieter interests."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "Medicare is a strong Australian example because it shows politics as a system of values plus institutions. A government chose a model of healthcare, legislation and administration made it real, opponents contested it, and over time the public turned it into mainstream common sense.",
+    "realWorldApplications": [
+      "Understanding why some public services survive changes of government while others do not",
+      "Seeing council, state, and federal decisions as part of one political ecosystem",
+      "Recognising how legitimacy matters as much as technical competence"
+    ],
+    "whoWorksWithThis": [
+      "MPs and ministers",
+      "Political staffers",
+      "Public servants",
+      "Journalists",
+      "Lobbyists and advocates"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the politics system map",
+        "href": "/politics/system",
+        "description": "See the field laid out as regimes, institutions, processes, and careers."
+      },
+      {
+        "label": "Continue into regimes and ideologies",
+        "href": "/politics/modules/regimes-and-ideologies",
+        "description": "Learn how different systems justify and organise power."
+      }
+    ]
+  },
   "quiz": [
     {
       "question": "According to Harold Lasswell, what is politics fundamentally about?",

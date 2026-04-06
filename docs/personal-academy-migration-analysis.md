@@ -1,8 +1,8 @@
-# Personal Academy Migration Analysis
+# Nexus Migration Analysis
 
 ## Summary
 
-Personal Academy is now the canonical learning surface for politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science. The five original personal-source apps plus the commercial property manager source app were archived on 2026-04-04 after the unified app passed build verification, representative route verification, and browser QA.
+Nexus is now the canonical learning surface for politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science. The five original personal-source apps plus the commercial property manager source app were archived on 2026-04-04 after the unified app passed build verification, representative route verification, and browser QA.
 
 This analysis covers the subject-academy migration only. The newer roles/topics entity-aware direction is a separate follow-on layer and should not be confused with the subject migration completed here.
 
@@ -26,9 +26,9 @@ The migration changed the product shape in four important ways:
 
 ## Depth comparison
 
-These counts compare the archived source apps to the active Personal Academy subject directories:
+These counts compare the archived source apps to the active Nexus subject directories:
 
-| Subject | Source app counts | Personal Academy counts | Result |
+| Subject | Source app counts | Nexus counts | Result |
 | --- | --- | --- | --- |
 | Politics | 20 modules, 8 lessons, 11 frameworks, 10 projects, 20 tools, 4 day-in-the-life | 20 modules, 8 lessons, 11 frameworks, 10 projects, 20 tools, 4 day-in-the-life | Full parity migration |
 | Physics | 20 modules, 5 lessons, 12 frameworks, 11 projects, 20 tools, 4 day-in-the-life | 20 modules, 5 lessons, 12 frameworks, 11 projects, 20 tools, 4 day-in-the-life | Full parity migration |

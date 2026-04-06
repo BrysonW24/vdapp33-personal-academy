@@ -1,0 +1,56 @@
+{
+  "slug": "write-a-ministerial-brief",
+  "title": "Write a Ministerial Brief",
+  "difficulty": 6,
+  "estimatedHours": 6,
+  "description": "Draft a short ministerial brief that frames a political issue, lays out options, and recommends one path with risks.",
+  "whyItMatters": "Politics and policy careers are writing careers. A good brief turns complexity into judgment-ready advice.",
+  "skillsLearned": [
+    "Brief writing",
+    "Option framing",
+    "Risk identification",
+    "Executive synthesis"
+  ],
+  "prerequisites": [
+    "policy-process",
+    "cabinet-ministers-and-public-service"
+  ],
+  "steps": [
+    {
+      "title": "Define the issue",
+      "description": "State the problem clearly in plain English and note why it is urgent now."
+    },
+    {
+      "title": "Lay out options",
+      "description": "Offer at least three options, including risks, cost considerations, and political tradeoffs."
+    },
+    {
+      "title": "Recommend a path",
+      "description": "Make one recommendation and justify it in a way a minister could act on."
+    },
+    {
+      "title": "Add implementation notes",
+      "description": "State what would need to happen next: consultation, Cabinet, legislation, funding, or regulation."
+    }
+  ],
+  "deliverables": [
+    "A two-page ministerial brief",
+    "A one-page implementation and risk appendix"
+  ],
+  "tools": [
+    "Policy cycle",
+    "ABS data",
+    "Parliamentary Library sources"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "Could a decision-maker understand the issue quickly and trust the structure?"
+    },
+    {
+      "criteria": "Judgment",
+      "description": "Does the recommendation show tradeoff awareness rather than pure advocacy?"
+    }
+  ],
+  "domain": "politics"
+}

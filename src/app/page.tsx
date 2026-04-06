@@ -9,6 +9,7 @@ import {
   Sparkles,
   Wrench,
 } from "lucide-react"
+import { NexusWordmark } from "@/components/branding/NexusWordmark"
 import { EntityCard } from "@/components/entities/EntityCard"
 import { HomePathPanel } from "@/components/guidance/HomePathPanel"
 import { getSubjectStats, getSubjects } from "@/lib/content"
@@ -16,7 +17,7 @@ import { getAcademyCatalog } from "@/lib/guidance-content"
 import { getRoles, getRoleStats, getTopics, getTopicStats } from "@/lib/entities"
 import { SUBJECT_GROUP_LABELS } from "@/types/curriculum"
 
-export default function PersonalAcademyHomePage() {
+export default function NexusHomePage() {
   const subjects = getSubjects()
   const roles = getRoles()
   const topics = getTopics()
@@ -47,23 +48,29 @@ export default function PersonalAcademyHomePage() {
   return (
     <div className="container mx-auto px-4 py-8 space-y-10">
       <section className="grid gap-6 lg:grid-cols-[1.1fr,0.9fr]">
-        <div className="rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.82)] p-8 shadow-editorial-soft backdrop-blur-[18px]">
-          <div className="mb-4 flex items-center gap-2">
-            <span className="flex h-10 w-10 items-center justify-center rounded-[14px] bg-editorial-blue text-white">
-              <GraduationCap className="h-5 w-5" />
+        <div className="academy-hero-shell relative overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.08)] bg-[linear-gradient(145deg,rgba(255,255,255,0.94),rgba(251,246,239,0.88))] p-8 shadow-editorial-soft backdrop-blur-[18px] sm:p-10">
+          <div className="pointer-events-none absolute -left-10 top-20 h-44 w-44 rounded-full bg-[#1fb9ff]/20 blur-3xl" />
+          <div className="pointer-events-none absolute left-32 top-8 h-44 w-44 rounded-full bg-[#8b5cf6]/16 blur-3xl" />
+          <div className="pointer-events-none absolute left-48 top-28 h-40 w-40 rounded-full bg-[#ffb347]/24 blur-3xl" />
+          <div className="academy-hero-grid absolute inset-0" />
+
+          <div className="relative mb-5 flex flex-wrap items-center gap-3">
+            <span className="rounded-full border border-[rgba(44,49,59,0.08)] bg-white/72 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted shadow-sm">
+              Knowledge operating system
             </span>
-            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+            <span className="rounded-full border border-[rgba(44,49,59,0.08)] bg-white/72 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted shadow-sm">
               Curiosity engine
-            </p>
+            </span>
           </div>
 
-          <h1 className="font-serif text-4xl font-semibold text-editorial-ink sm:text-5xl">
-            Personal Academy
-          </h1>
+          <h1 className="sr-only">Nexus</h1>
+          <div className="relative">
+            <NexusWordmark size="hero" />
+          </div>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-editorial-muted">
-            One shell for going broad and going deep. Subjects stay canonical, while roles
-            and topics let you explore the same academy through real jobs, real systems,
-            and the things you keep finding yourself curious about.
+            Learn the shape of a field first, then go deeper wherever curiosity pulls.
+            Subjects stay canonical, while roles and topics let you move through the
+            same system by job, by question, and by real-world application.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-4 text-sm text-editorial-muted">

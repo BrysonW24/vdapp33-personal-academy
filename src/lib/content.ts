@@ -18,6 +18,7 @@ import type {
   SubjectManifest,
   Tool,
 } from "@/types/curriculum"
+import { sortModulesForDisplay } from "@/lib/teaching-contract"
 
 const CONTENT_DIR = path.join(process.cwd(), "content/curriculum")
 
@@ -84,9 +85,7 @@ export function getSubjectSlugs(): string[] {
 }
 
 export function getModules(subject: string): Module[] {
-  return readJsonDir(subject, "modules", ModuleSchema).sort(
-    (a, b) => a.order - b.order
-  )
+  return sortModulesForDisplay(readJsonDir(subject, "modules", ModuleSchema))
 }
 
 export function getModule(subject: string, slug: string): Module | null {

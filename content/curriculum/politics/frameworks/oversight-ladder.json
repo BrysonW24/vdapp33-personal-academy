@@ -1,0 +1,16 @@
+{
+  "slug": "oversight-ladder",
+  "name": "Oversight Ladder",
+  "summary": "A memory device for the accountability layer: committee, audit, ombudsman, court, inquiry, royal commission, election.",
+  "whenToUseIt": "Use this when diagnosing failure, scandal, misconduct, or public distrust in institutions.",
+  "steps": [
+    "Define the type of failure: legal, administrative, ethical, or systemic.",
+    "Identify the lowest-level scrutiny mechanism that can realistically test it.",
+    "Escalate only if the lower mechanism is insufficient or lacks trust.",
+    "Separate investigation from reform.",
+    "Track what still needs to happen politically after findings are released."
+  ],
+  "example": "A procurement failure may start with audit and committee scrutiny before any argument for a larger public inquiry appears.",
+  "category": "accountability",
+  "domain": "politics"
+}

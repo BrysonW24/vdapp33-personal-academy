@@ -1,0 +1,79 @@
+{
+  "slug": "how-cabinet-and-the-aps-turn-politics-into-government",
+  "moduleSlug": "cabinet-ministers-and-public-service",
+  "title": "How Cabinet and the APS Turn Politics into Government",
+  "objective": "Understand how Cabinet, ministers, advisers, and the APS translate political authority into decisions, briefs, implementation, and accountability.",
+  "beginnerExplanation": "Cabinet is the executive core of government. It brings ministers together to settle priorities, resolve conflicts, and choose political direction. Ministers then oversee portfolios, while departments provide advice and implementation capacity. Ministerial advisers are political staff working to the minister; public servants are expected to be professional, impartial, and implementation-focused. This division is not perfect, but it is central to Australian government.",
+  "deeperExplanation": "A useful way to see government is this: elections decide who gets to steer, Cabinet decides where to steer, advisers help with political judgment, and the APS helps design the route and operate the machinery. Friction matters. Advisers may want speed or political advantage; departments may warn about delivery risk, legal limits, or second-order effects. Good government depends on that tension being productive rather than dysfunctional. Many political failures come from misunderstanding how much administrative detail stands between a slogan and a working system.",
+  "keyTakeaways": [
+    "Cabinet is the real executive decision core inside Australian government.",
+    "Ministers are politically accountable, even when departments do the operating work.",
+    "Advisers and public servants play different but interlocking roles.",
+    "Administrative feasibility matters as much as political ambition.",
+    "Many public failures are implementation failures, not just idea failures."
+  ],
+  "frameworks": ["power-map", "career-ladder-politics"],
+  "example": "A minister may promise a housing initiative quickly, but the department still needs to model cost, design eligibility, consult states, identify legislative or regulatory needs, and warn about delivery risks. Cabinet chooses, but departments make the decision real or expose where it breaks.",
+  "commonMistakes": [
+    "Assuming ministers personally design every policy detail",
+    "Thinking the APS is merely passive paperwork",
+    "Ignoring the friction between political urgency and administrative feasibility",
+    "Confusing ministerial advisers with career public servants"
+  ],
+  "exercise": "Pick a major policy promise and break it into political decisions, departmental work, implementation tasks, and accountability points. Where do you think the biggest failure risk sits?",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Politics steers; administration builds.",
+      "summary": "The memorable version of governing is not that politicians do everything. It is that politics chooses direction and the administrative state turns direction into real machinery.",
+      "anchors": [
+        "Who decides direction?",
+        "Who builds feasible options?",
+        "Who gets blamed if delivery fails?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "Cabinet settles major direction and resolves ministerial conflict.",
+        "Ministers and advisers pressure-test the politics of timing, message, and risk.",
+        "Departments build policy options, implementation detail, and legal advice.",
+        "The system then delivers through agencies, regulation, funding, and administration."
+      ]
+    },
+    "upsides": [
+      "This model helps you understand where real governing work sits.",
+      "It clarifies why briefing, drafting, and implementation are political capabilities.",
+      "It makes careers in government easier to interpret."
+    ],
+    "downsides": [
+      "The political-administrative boundary is often blurrier in practice than theory suggests.",
+      "Cabinet secrecy can make external accountability difficult to trace.",
+      "Departments can still become slow, risk-averse, or captured by inertia."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "During a major reform, Cabinet might settle the direction in principle, but the working detail arrives through cabinet submissions, departmental drafts, intergovernmental negotiation, and implementation planning long after the press conference.",
+    "realWorldApplications": [
+      "Understanding why governments can announce quickly but deliver slowly",
+      "Reading the difference between politics, policy, and administration",
+      "Evaluating whether a reform failed because of design, politics, or execution"
+    ],
+    "whoWorksWithThis": [
+      "APS policy officers",
+      "Ministerial advisers",
+      "Chiefs of staff",
+      "Department executives"
+    ],
+    "goDeeper": [
+      {
+        "label": "See the APS policy officer day-in-the-life",
+        "href": "/politics/day-in-the-life/aps-policy-officer",
+        "description": "Ground the model in a real working schedule."
+      },
+      {
+        "label": "Continue into policy process",
+        "href": "/politics/modules/policy-process/how-policy-moves-from-problem-to-delivery",
+        "description": "Move from who governs into how problems become formal policy."
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "map-a-bill-through-parliament",
+  "title": "Map a Bill Through Parliament",
+  "difficulty": 5,
+  "estimatedHours": 5,
+  "description": "Take one Australian bill and trace its movement through drafting, debate, scrutiny, amendment risk, assent, and implementation.",
+  "whyItMatters": "You will stop confusing political announcements with actual legal change once you can track a bill as a funnel instead of a speech.",
+  "skillsLearned": [
+    "Legislative tracking",
+    "Parliamentary process analysis",
+    "Implementation awareness"
+  ],
+  "prerequisites": [
+    "legislation-and-regulation"
+  ],
+  "steps": [
+    {
+      "title": "Select a bill",
+      "description": "Choose a government bill or significant private member's bill with enough public material to trace."
+    },
+    {
+      "title": "Build the funnel",
+      "description": "Map drafting, introduction, debates, scrutiny, possible amendment points, assent, and post-passage needs."
+    },
+    {
+      "title": "Find the leverage point",
+      "description": "Identify where the bill is most vulnerable to negotiation, delay, or dilution."
+    }
+  ],
+  "deliverables": [
+    "A legislative funnel diagram",
+    "A one-page note on the decisive stage and why it mattered"
+  ],
+  "tools": [
+    "APH Bills and Legislation",
+    "Hansard",
+    "Committee reports"
+  ],
+  "rubric": [
+    {
+      "criteria": "Process literacy",
+      "description": "Does the work show the difference between debate, scrutiny, assent, and implementation?"
+    },
+    {
+      "criteria": "Political realism",
+      "description": "Does it identify where the real leverage or blockage sits?"
+    }
+  ],
+  "domain": "politics"
+}

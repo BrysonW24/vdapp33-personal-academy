@@ -3,6 +3,7 @@
   "title": "What Politics Is",
   "shortSummary": "Understand what politics actually means — the allocation of power, resources, and values in society. Move beyond cynicism to see politics as the mechanism through which communities make collective decisions.",
   "level": "beginner",
+  "teachingStage": "orientation",
   "category": "foundation",
   "whyItMatters": "Every law, tax, public service, and right you have exists because of politics. Understanding what politics is — and isn't — is the foundation for participating in or leading democratic society. Without this grounding, everything else is just noise.",
   "coreConcepts": [
@@ -13,9 +14,30 @@
     "The role of institutions",
     "Politics vs governance vs government"
   ],
+  "mentalModels": [
+    "Politics is collective decision-making under disagreement",
+    "Power has four verbs: decide, advise, block, implement",
+    "Institutions are slow on purpose because legitimacy matters"
+  ],
   "lessons": ["what-is-politics-really"],
-  "frameworks": ["overton-window"],
-  "relatedModules": ["political-systems", "political-philosophy", "civic-literacy"],
+  "frameworks": ["power-map", "overton-window"],
+  "goDeeper": [
+    {
+      "label": "Open the politics system map",
+      "href": "/politics/system",
+      "description": "See the field as one clear master map before you start branching."
+    },
+    {
+      "label": "Go into regimes and ideologies",
+      "href": "/politics/modules/regimes-and-ideologies",
+      "description": "Compare democracy, communism, fascism, and authoritarian rule as tradeoff systems."
+    }
+  ],
+  "relatedModules": [
+    "regimes-and-ideologies",
+    "australias-political-system",
+    "power-incentives-and-failure-modes"
+  ],
   "status": "complete",
   "order": 1,
   "levelNumber": 1

@@ -1,0 +1,54 @@
+{
+  "slug": "analyse-a-royal-commission",
+  "title": "Analyse a Royal Commission",
+  "difficulty": 6,
+  "estimatedHours": 6,
+  "description": "Trace a royal commission or major inquiry from trigger through evidence, findings, recommendations, and actual reform.",
+  "whyItMatters": "It teaches the difference between public inquiry, public attention, and real institutional change.",
+  "skillsLearned": [
+    "Inquiry analysis",
+    "Accountability mapping",
+    "Reform evaluation"
+  ],
+  "prerequisites": [
+    "committees-inquiries-and-royal-commissions"
+  ],
+  "steps": [
+    {
+      "title": "Select a commission or inquiry",
+      "description": "Choose a major Australian case with published findings and some public aftermath."
+    },
+    {
+      "title": "Map the trigger and scope",
+      "description": "Explain why the issue escalated and what the terms of reference covered."
+    },
+    {
+      "title": "Summarise the findings",
+      "description": "Identify the core failures, the recommendations, and the institutions implicated."
+    },
+    {
+      "title": "Judge what changed",
+      "description": "Separate symbolic response from actual reform."
+    }
+  ],
+  "deliverables": [
+    "A one-page accountability timeline",
+    "A short evaluation of what changed and what did not"
+  ],
+  "tools": [
+    "Commission report",
+    "Government response",
+    "Committee follow-up"
+  ],
+  "rubric": [
+    {
+      "criteria": "Structural understanding",
+      "description": "Does the analysis distinguish investigation from reform?"
+    },
+    {
+      "criteria": "Reality check",
+      "description": "Does it clearly separate recommendations from implemented change?"
+    }
+  ],
+  "domain": "politics"
+}

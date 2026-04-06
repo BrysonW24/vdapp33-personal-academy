@@ -1,4 +1,4 @@
-# Personal Academy Smoke Checks
+# Nexus Smoke Checks
 
 This app does not have a heavy automated test suite yet. Use this note as the lightweight verification path for docs, status, and content-model changes.
 

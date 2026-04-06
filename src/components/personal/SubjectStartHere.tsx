@@ -5,6 +5,7 @@ import {
   BookOpen,
   Clock3,
   FolderKanban,
+  Landmark,
   Library,
   Map,
   Wrench,
@@ -13,6 +14,8 @@ import {
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import type { Module, Project, SubjectManifest, Tool } from "@/types/curriculum"
+import { TEACHING_CONTRACT_STEPS } from "@/lib/teaching-contract"
+import { getSubjectDeepDiveCards } from "@/lib/subject-deep-dives"
 
 interface SubjectStartHereProps {
   subject: SubjectManifest
@@ -35,7 +38,8 @@ type SectionCard = {
   label: string
   title: string
   description: string
-  count: number
+  count?: number
+  badgeText?: string
   emptyState: string
   icon: LucideIcon
 }
@@ -48,7 +52,22 @@ export function SubjectStartHere({
   featuredTool,
   guideRail,
 }: SubjectStartHereProps) {
+  const deepDiveCards = getSubjectDeepDiveCards(subject)
+  const featuredDeepDive = deepDiveCards[0] ?? null
+  const deepDiveIconMap: Record<string, LucideIcon> = {
+    Landmark,
+    Map,
+  }
   const sections: SectionCard[] = [
+    ...deepDiveCards.map((page) => ({
+      href: page.href,
+      label: "Master Map",
+      title: page.label,
+      description: page.description,
+      badgeText: "Flagship",
+      emptyState: "Deep-dive views have not landed for this subject yet.",
+      icon: deepDiveIconMap[page.icon] ?? Map,
+    })),
     {
       href: `/${subject.slug}/blueprint`,
       label: "Path",
@@ -105,6 +124,17 @@ export function SubjectStartHere({
     },
   ]
 
+  const primaryHref = featuredDeepDive
+    ? featuredDeepDive.href
+    : firstModule
+      ? `/${subject.slug}/modules/${firstModule.slug}`
+      : `/${subject.slug}/blueprint`
+  const primaryLabel = featuredDeepDive
+    ? `Open ${featuredDeepDive.label}`
+    : firstModule
+      ? "Start the first module"
+      : "Open the blueprint"
+
   return (
     <div className="container mx-auto px-4 py-10 space-y-8">
       <section className="grid gap-6 lg:grid-cols-[1.25fr,0.75fr]">
@@ -130,13 +160,15 @@ export function SubjectStartHere({
 
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild>
-              <Link href={firstModule ? `/${subject.slug}/modules/${firstModule.slug}` : `/${subject.slug}/blueprint`}>
-                {firstModule ? "Start the first module" : "Open the blueprint"}
+              <Link href={primaryHref}>
+                {primaryLabel}
                 <ArrowRight className="h-4 w-4 ml-2" />
               </Link>
             </Button>
             <Button asChild variant="secondary">
-              <Link href={`/${subject.slug}/modules`}>Browse all modules</Link>
+              <Link href={firstModule ? `/${subject.slug}/modules` : `/${subject.slug}/blueprint`}>
+                {firstModule ? "Browse all modules" : "See the subject arc"}
+              </Link>
             </Button>
           </div>
         </div>
@@ -149,14 +181,22 @@ export function SubjectStartHere({
             Learn for understanding first
           </h2>
           <p className="text-editorial-muted leading-relaxed mb-5">
-            Personal Academy is intentionally learning-first. Use the blueprint to
-            orient yourself, work through modules for depth, then branch into
-            projects, tools, and real-world context when the subject is ready.
+            Nexus is intentionally learning-first. Use the blueprint to
+            orient yourself, lock in the mental models, then branch into
+            processes, projects, tools, and real-world context when the subject is ready.
           </p>
-          <div className="space-y-2 text-sm text-editorial-muted">
-            <p>{stats.projects > 0 ? "Projects are ready for applied practice." : "Projects are still coming in for this subject."}</p>
-            <p>{stats.tools > 0 ? "Tool coverage is available when you want to get practical." : "Tool coverage has not landed yet in this migration."}</p>
-            <p>{stats.dayInLife > 0 ? "Day-in-the-life stories add real-world grounding." : "Career snapshots are still thin for this subject."}</p>
+          <div className="space-y-3 text-sm text-editorial-muted">
+            {TEACHING_CONTRACT_STEPS.map((step, index) => (
+              <div key={step.slug} className="flex items-start gap-3">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-white text-[11px] font-semibold text-editorial-ink shadow-sm">
+                  {index + 1}
+                </span>
+                <div>
+                  <p className="font-medium text-editorial-ink">{step.label}</p>
+                  <p>{step.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -164,7 +204,8 @@ export function SubjectStartHere({
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {sections.map((section) => {
           const Icon = section.icon
-          const hasContent = section.count > 0
+          const hasContent =
+            typeof section.count === "number" ? section.count > 0 : true
 
           return (
             <Link
@@ -189,8 +230,12 @@ export function SubjectStartHere({
                     </h3>
                   </div>
                 </div>
-                <Badge variant={hasContent ? "secondary" : "coming-soon"}>
-                  {hasContent ? `${section.count} items` : "Thin"}
+                <Badge variant={hasContent || section.badgeText ? "secondary" : "coming-soon"}>
+                  {section.badgeText
+                    ? section.badgeText
+                    : hasContent
+                      ? `${section.count} items`
+                      : "Thin"}
                 </Badge>
               </div>
 

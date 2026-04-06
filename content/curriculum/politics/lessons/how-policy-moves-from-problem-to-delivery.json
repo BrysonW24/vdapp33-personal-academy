@@ -1,0 +1,76 @@
+{
+  "slug": "how-policy-moves-from-problem-to-delivery",
+  "moduleSlug": "policy-process",
+  "title": "How Policy Moves from Problem to Delivery",
+  "objective": "Learn the policy cycle as a memory tool and understand where issues, consultation, political choice, and implementation interact in practice.",
+  "beginnerExplanation": "Policy starts when a problem becomes politically unavoidable: a crisis, a public demand, a ministerial priority, or an election promise. Departments, advisers, and external stakeholders then shape possible options. Consultation tests feasibility and backlash. Cabinet or ministers choose a path. Finally, the decision is delivered through a program, regulation, funding, or legislation. That whole journey is what people mean by the policy process.",
+  "deeperExplanation": "The policy cycle is not a perfect description of reality, but it is a strong memory device. Issues are framed first, and framing determines which options even appear legitimate. Consultation matters because every option creates losers and implementation burdens. Decision-makers are rarely choosing between 'good' and 'bad'; they are choosing between costly, contested, imperfect paths. Delivery then reopens the whole process, because real implementation generates new information, resistance, and second-order effects. Policy is therefore never just analysis. It is analysis under political constraints.",
+  "keyTakeaways": [
+    "The policy cycle is a useful model even though real politics is messier.",
+    "Issue framing often matters more than later technical detail.",
+    "Consultation is where feasibility, cost, and resistance become visible.",
+    "Implementation is part of policy, not something that happens after policy.",
+    "Second-order effects are one of the biggest reasons policies disappoint."
+  ],
+  "frameworks": ["policy-cycle"],
+  "example": "A housing affordability response might begin with the public framing of a crisis, move into departmental option papers, trigger consultation with states, industry, and community groups, reach Cabinet for political choice, and then split into budget measures, planning reforms, or legislation. Each stage removes some options and makes others politically survivable.",
+  "commonMistakes": [
+    "Thinking policy starts only once a bill is written",
+    "Ignoring the power of issue framing",
+    "Confusing consultation with approval",
+    "Underestimating implementation difficulty and second-order effects"
+  ],
+  "exercise": "Pick one Australian public issue. Write the likely path from problem framing through consultation, decision, delivery, and evaluation. Then identify the two biggest failure points.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Policy is a cycle, not a speech.",
+      "summary": "Use the policy cycle to remember the field: issue, options, consultation, decision, delivery, evaluation. It is not perfect, but it stops you mistaking rhetoric for substance.",
+      "anchors": [
+        "How is the problem framed?",
+        "Who is consulted or excluded?",
+        "How will delivery actually happen?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "An issue becomes salient enough to demand attention.",
+        "Officials and advisers generate options and tradeoffs.",
+        "Stakeholders test feasibility, cost, and political pain.",
+        "Decision-makers choose a path.",
+        "Agencies deliver and reality produces new feedback."
+      ]
+    },
+    "upsides": [
+      "The cycle makes a very messy field easier to remember.",
+      "It reveals where influence and failure usually occur.",
+      "It turns political headlines into a structured process."
+    ],
+    "downsides": [
+      "The model can look cleaner than real politics.",
+      "Some issues loop backwards or stall entirely.",
+      "Actors with access can shape the process before the public sees it."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "Policy on housing, energy, migration, or aged care all follows this broad logic even when the details differ: public problem, internal option-building, consultation, political choice, delivery, then accountability.",
+    "realWorldApplications": [
+      "Reading reform announcements with more realism",
+      "Writing policy briefs that do not stop at moral preference",
+      "Seeing where implementation risk should shape decision-making"
+    ],
+    "whoWorksWithThis": [
+      "APS policy officers",
+      "Ministerial advisers",
+      "Think tanks",
+      "Corporate affairs teams",
+      "NGO advocates"
+    ],
+    "goDeeper": [
+      {
+        "label": "Continue into legislation and regulation",
+        "href": "/politics/modules/legislation-and-regulation/how-a-bill-becomes-law-in-australia",
+        "description": "See what happens when policy needs legal force."
+      }
+    ]
+  }
+}

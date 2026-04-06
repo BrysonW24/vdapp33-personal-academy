@@ -131,7 +131,7 @@ supporting_capabilities:
 
   - name: Subject coverage
     status: live
-    notes: Politics, Physics, Rocket Science, Aerospace, Quantum, and Commercial Property Management all have meaningful migrated depth inside the shared shell, while Robotics is a native Personal Academy subject with equivalent route coverage.
+    notes: Politics, Physics, Rocket Science, Aerospace, Quantum, and Commercial Property Management all have meaningful migrated depth inside the shared shell, while Robotics is a native Nexus subject with equivalent route coverage.
 
   - name: Entity-aware navigation layer
     status: live

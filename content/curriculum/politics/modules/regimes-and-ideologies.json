@@ -1,0 +1,44 @@
+{
+  "slug": "regimes-and-ideologies",
+  "title": "Regimes and Ideologies",
+  "shortSummary": "Compare democracy, communism, fascism, socialism, and authoritarian rule through the tradeoffs they make around legitimacy, freedom, coordination, and coercion.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "systems",
+  "whyItMatters": "If you cannot distinguish how regimes justify power, you cannot interpret history, current affairs, or the risks inside your own system. This module gives you the high-level map before you drown in details.",
+  "coreConcepts": [
+    "How regimes justify power",
+    "Legitimacy, coercion, and consent",
+    "Democracy versus authoritarianism",
+    "Communism as theory versus practice",
+    "Fascism as authoritarian ultranationalism",
+    "Why every regime promises an upside and carries a failure mode"
+  ],
+  "mentalModels": [
+    "Regimes are tradeoff systems, not brand labels",
+    "Freedom, accountability, speed, and control rarely all move up together",
+    "The most important question is what corrects bad power"
+  ],
+  "lessons": ["how-regimes-justify-power"],
+  "frameworks": ["regime-tradeoff-matrix"],
+  "goDeeper": [
+    {
+      "label": "Open the system map",
+      "href": "/politics/system",
+      "description": "Use the flagship visual explainer to keep the whole subject coherent."
+    },
+    {
+      "label": "Jump to Australia's political system",
+      "href": "/politics/modules/australias-political-system",
+      "description": "Apply the regime comparison to the system you actually live inside."
+    }
+  ],
+  "relatedModules": [
+    "what-politics-is",
+    "australias-political-system",
+    "power-incentives-and-failure-modes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 1
+}

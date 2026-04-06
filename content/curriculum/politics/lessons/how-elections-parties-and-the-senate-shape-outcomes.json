@@ -1,0 +1,74 @@
+{
+  "slug": "how-elections-parties-and-the-senate-shape-outcomes",
+  "moduleSlug": "elections-parties-and-representation",
+  "title": "How Elections, Parties, and the Senate Shape Outcomes",
+  "objective": "Understand how representation works in Australia, how parties aggregate power, and why preferences and the crossbench matter in practice.",
+  "beginnerExplanation": "Australians vote for representatives in the House and Senate, but the mechanics differ. Preferential voting in the House helps decide who wins local seats and who can form government. The Senate uses proportional representation, which gives minor parties and independents more room. Parties matter because they discipline MPs, coordinate strategy, and create governing blocs. The crossbench matters because in a Senate without an automatic government majority, negotiation becomes real.",
+  "deeperExplanation": "Representation is never just a neutral mirror of public opinion. Electoral systems translate votes into power differently. Australia's compulsory voting boosts legitimacy and turnout, while preferential voting means second and third choices matter. Parties reduce chaos by creating collective positions, but they also compress diversity and reward discipline. The Senate inserts review, bargaining, and delay into the system. When people say politics is 'just about numbers', this is what they mean: institutions turn arithmetic into leverage.",
+  "keyTakeaways": [
+    "The House and Senate produce different kinds of political power.",
+    "Parties are power-aggregation machines, not just ideas clubs.",
+    "Preferences matter because Australian voting does not stop at first choice.",
+    "The crossbench matters because the Senate is often where realism arrives.",
+    "Compulsory voting changes the legitimacy base of Australian politics."
+  ],
+  "frameworks": ["representation-lens"],
+  "example": "A government may win the House clearly and still need to negotiate with Greens, independents, or a minor party in the Senate to pass key legislation. That single fact explains a large amount of Australian political frustration and compromise.",
+  "commonMistakes": [
+    "Thinking election night alone tells you what government can deliver",
+    "Ignoring the Senate when evaluating political strategy",
+    "Treating parties as purely ideological rather than organisational systems of discipline",
+    "Forgetting how preferences reshape apparently simple results"
+  ],
+  "exercise": "Choose a recent federal election result and identify what it meant separately for the House, the Senate, and the crossbench. Then explain how that would change a government's strategy.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Representation creates legitimacy, but parties turn legitimacy into power.",
+      "summary": "Votes matter, but votes do not govern by themselves. Parties, the Senate, and the crossbench convert public opinion into actual leverage.",
+      "anchors": [
+        "How are votes translated into seats?",
+        "Who controls the House?",
+        "Who controls the Senate balance?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "Voters choose representatives through different electoral systems in each chamber.",
+        "Parties aggregate candidates, messages, resources, and discipline.",
+        "The House result determines who can form government.",
+        "The Senate and crossbench shape what government can get through."
+      ]
+    },
+    "upsides": [
+      "You can interpret elections with more realism and less theatre.",
+      "It clarifies why governments negotiate even after 'winning'.",
+      "It explains why party discipline remains so central."
+    ],
+    "downsides": [
+      "Simple left-right stories can hide how institutional design shapes outcomes.",
+      "People often overread election night and underread the Senate.",
+      "Party discipline can reduce individual representation."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "A House majority might let a government claim a mandate, but a fractured Senate can still force amendment, delay, or retreat. The real system is bicameral, not single-chamber triumphalism.",
+    "realWorldApplications": [
+      "Reading election results more intelligently",
+      "Understanding why Senate negotiations dominate some policy fights",
+      "Seeing how independents and minor parties can matter beyond their raw vote share"
+    ],
+    "whoWorksWithThis": [
+      "Party strategists",
+      "Political staffers",
+      "Journalists",
+      "Electoral analysts"
+    ],
+    "goDeeper": [
+      {
+        "label": "Continue into Cabinet and the APS",
+        "href": "/politics/modules/cabinet-ministers-and-public-service/how-cabinet-and-the-aps-turn-politics-into-government",
+        "description": "Follow representation into executive power and governing reality."
+      }
+    ]
+  }
+}

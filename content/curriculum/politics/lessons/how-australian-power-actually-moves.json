@@ -1,0 +1,81 @@
+{
+  "slug": "how-australian-power-actually-moves",
+  "moduleSlug": "australias-political-system",
+  "title": "How Australian Power Actually Moves",
+  "objective": "Understand the practical power map of Australian politics: voters, Parliament, Cabinet, ministers, the APS, courts, states, and scrutiny bodies.",
+  "beginnerExplanation": "Australia is a federal parliamentary democracy and a constitutional monarchy. In practice, that means voters elect the House and Senate, the House determines who can form government, the Cabinet becomes the executive decision core, and departments carry decisions into policy and administration. The Senate matters because it reviews, delays, and amends. Courts matter because they draw legal boundaries. States matter because major service systems are not run from Canberra alone. This is the real operating map behind the surface theatre.",
+  "deeperExplanation": "Many people learn Australia as a formal chart and then never convert it into a practical model. A more useful version is this: legitimacy begins with voters; governing authority depends on commanding the House; the Senate forces negotiation; Cabinet chooses political direction; ministers own portfolios; departments turn choices into briefs, bills, regulation, and delivery; courts police legality; states complicate everything through federalism; committees, audits, regulators, and inquiries slow the system down on purpose. Once you can picture those relationships, news stories stop feeling random.",
+  "keyTakeaways": [
+    "The House forms government, but the Senate often shapes what government can actually pass.",
+    "Cabinet is the real political decision core inside executive government.",
+    "The APS is not ornamental; it is the machinery that turns politics into action.",
+    "Federalism means Canberra never has a monopoly on governing reality.",
+    "Courts and scrutiny bodies matter because legality and accountability are part of the system."
+  ],
+  "frameworks": ["power-map"],
+  "example": "A federal housing reform proposal is a good Australian example. Cabinet may decide it is a priority, but the details run through departments, the Senate may demand changes, states may resist delivery conditions, and courts may later interpret the law or regulation. The headline is one thing; the operating map is another.",
+  "commonMistakes": [
+    "Thinking Parliament alone runs government",
+    "Assuming the Prime Minister personally controls every policy detail",
+    "Ignoring state governments when analysing national policy problems",
+    "Treating the Senate as procedural noise instead of real leverage"
+  ],
+  "exercise": "Take one current Australian issue and map it across voters, parties, the House, Senate, Cabinet, departments, states, courts, and scrutiny bodies. Note where the main bottleneck is.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Australia runs on a power map, not a civics poster.",
+      "summary": "The memorable version of Australian politics is not 'three branches' alone. It is a living chain of legitimacy, decision, administration, federalism, and scrutiny.",
+      "anchors": [
+        "Who forms government?",
+        "Who can block or amend?",
+        "Who turns decisions into machinery?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "Voters confer legitimacy through elections.",
+        "The House determines who can govern.",
+        "Cabinet and ministers set political direction.",
+        "Departments turn direction into options, implementation, and administration.",
+        "The Senate, courts, states, and scrutiny bodies constrain or reshape the outcome."
+      ]
+    },
+    "upsides": [
+      "This model turns abstract institutions into a usable memory hook.",
+      "It helps you interpret Australian news with less confusion.",
+      "It makes later modules on policy, lawmaking, and careers much easier."
+    ],
+    "downsides": [
+      "A simple power map can hide the complexity inside party rooms and departments.",
+      "Informal influence can matter as much as formal structure.",
+      "Federalism makes clean diagrams look tidier than reality."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "Housing, energy, and health reforms all show the same pattern: a political promise gains Cabinet backing, departments work up the detail, the Senate tests passage, states negotiate delivery, and scrutiny arrives if implementation fails.",
+    "realWorldApplications": [
+      "Interpreting Australian political news without over-focusing on personality",
+      "Understanding why some promises stall even when governments are serious",
+      "Seeing where a public issue is likely to get stuck"
+    ],
+    "whoWorksWithThis": [
+      "APS policy officers",
+      "Ministerial advisers",
+      "Journalists",
+      "Lobbyists",
+      "Committee staff"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the politics system map",
+        "href": "/politics/system",
+        "description": "See the same institutional picture as a visual network."
+      },
+      {
+        "label": "Continue into elections and representation",
+        "href": "/politics/modules/elections-parties-and-representation/how-elections-parties-and-the-senate-shape-outcomes",
+        "description": "Follow how public votes become bargaining power inside the system."
+      }
+    ]
+  }
+}

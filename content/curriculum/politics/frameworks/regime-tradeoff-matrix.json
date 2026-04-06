@@ -1,0 +1,16 @@
+{
+  "slug": "regime-tradeoff-matrix",
+  "name": "Regime Tradeoff Matrix",
+  "summary": "Compare regimes by legitimacy, accountability, freedom, speed, coercion risk, and correction mechanisms.",
+  "whenToUseIt": "Use this when comparing political systems, reading history, or trying to understand why different regimes attract support despite obvious risks.",
+  "steps": [
+    "Choose the regimes you want to compare.",
+    "Score each on legitimacy source, freedom, accountability, speed, coercion risk, and correction mechanisms.",
+    "Write one genuine upside for each model.",
+    "Write one predictable failure mode for each model.",
+    "Ask what daily life would feel like for an ordinary citizen in each case."
+  ],
+  "example": "Liberal democracy scores better on lawful opposition and correction, while authoritarian systems often score higher on short-term speed but lower on accountability and citizen freedom.",
+  "category": "mental-models",
+  "domain": "politics"
+}

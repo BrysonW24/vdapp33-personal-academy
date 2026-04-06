@@ -13,6 +13,16 @@ export type SubjectLevel = "beginner" | "intermediate" | "advanced"
 export type ContentStatus = "complete" | "coming-soon"
 export type ToolPricingTier = "free" | "freemium" | "paid" | "enterprise"
 export type EntityKind = "subject" | "role" | "topic"
+export const TEACHING_STAGE_ORDER = [
+  "orientation",
+  "mental-models",
+  "frameworks",
+  "processes",
+  "applications",
+  "careers",
+  "go-deeper",
+] as const
+export type TeachingStage = (typeof TEACHING_STAGE_ORDER)[number]
 export type EntitySectionKey =
   | "blueprint"
   | "modules"
@@ -45,6 +55,35 @@ export interface DeepDivePage {
   slug: string
   label: string
   icon: string
+}
+
+export interface GoDeeperLink {
+  label: string
+  href: string
+  description?: string
+}
+
+export interface MentalModelDefinition {
+  title: string
+  summary: string
+  anchors: string[]
+}
+
+export interface ProcessBreakdown {
+  title?: string
+  steps: string[]
+}
+
+export interface LessonTeachingContract {
+  mentalModel?: MentalModelDefinition
+  howItWorks?: ProcessBreakdown
+  upsides?: string[]
+  downsides?: string[]
+  workedExampleLabel?: string
+  workedExample?: string
+  realWorldApplications?: string[]
+  whoWorksWithThis?: string[]
+  goDeeper?: GoDeeperLink[]
 }
 
 export interface EntityReference {
@@ -160,12 +199,15 @@ export interface Module {
   title: string
   shortSummary: string
   level: SubjectLevel
+  teachingStage?: TeachingStage
   domain?: string
   category?: string
   whyItMatters: string
   coreConcepts: string[]
+  mentalModels?: string[]
   lessons: string[]
   frameworks: string[]
+  goDeeper?: GoDeeperLink[]
   visualType?: string
   relatedModules: string[]
   status: ContentStatus
@@ -193,6 +235,7 @@ export interface Lesson {
   example: string
   commonMistakes: string[]
   exercise: string
+  teaching?: LessonTeachingContract
   nextLesson?: string
   order: number
   quiz?: QuizQuestion[]

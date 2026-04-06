@@ -1,4 +1,4 @@
-# CLAUDE.md — Personal Academy
+# CLAUDE.md — Nexus
 
 ## What this app is
 
@@ -47,7 +47,7 @@ Each role or topic uses a small manifest plus related-entity metadata. Onboardin
 ### Route architecture
 
 ```text
-/                                    → Personal Academy dashboard
+/                                    → Nexus dashboard
 /setup                               → Soft onboarding
 /my-path                             → Guided dashboard
 /subjects                            → Subject directory
@@ -118,7 +118,7 @@ npm run build
 ### Product doctrine
 
 - Learning is the point here
-- Keep Personal Academy distinct from Founder OS
+- Keep Nexus distinct from Founder OS
 - Prefer honest scope over fake completeness
 - Keep content static and manifest-driven
 - Keep the guidance layer deterministic and local-first
@@ -137,7 +137,7 @@ npm run build
 
 ## Current state
 
-- Personal Academy shell is active and building
+- Nexus shell is active and building
 - Physics, Quantum, Aerospace, Robotics, and Rocket Science now anchor the science and engineering side of the academy
 - Politics and Commercial Property Management now anchor the society group
 - Aerospace now includes modules, lessons, frameworks, projects, tools, and day-in-the-life content

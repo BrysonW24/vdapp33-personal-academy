@@ -1,0 +1,44 @@
+{
+  "slug": "power-incentives-and-failure-modes",
+  "title": "Power, Incentives, and Failure Modes",
+  "shortSummary": "Go deeper into the distortions inside political systems: capture, short-termism, bureaucratic drift, media incentives, performative politics, and institutional decay.",
+  "level": "advanced",
+  "teachingStage": "go-deeper",
+  "category": "systems",
+  "whyItMatters": "Once the basic map is clear, this is the module that explains why political systems still underperform even when the formal rules look reasonable.",
+  "coreConcepts": [
+    "Incentive misalignment",
+    "Short-term electoral pressure",
+    "Lobbying, capture, and access asymmetry",
+    "Media distortion and attention economics",
+    "Bureaucratic inertia and drift",
+    "Institutional trust decay"
+  ],
+  "mentalModels": [
+    "Systems fail where incentives quietly point the wrong way",
+    "Good rules can still produce weak outcomes",
+    "Performance and legitimacy are not the same thing"
+  ],
+  "lessons": ["how-power-incentives-and-failure-modes-distort-systems"],
+  "frameworks": ["incentive-audit"],
+  "goDeeper": [
+    {
+      "label": "Return to the politics system map",
+      "href": "/politics/system",
+      "description": "Re-read the master map with failure modes in view."
+    },
+    {
+      "label": "Review the politics signals",
+      "href": "/politics/signals",
+      "description": "Use current developments to test which failure modes are live."
+    }
+  ],
+  "relatedModules": [
+    "regimes-and-ideologies",
+    "lobbying-and-influence",
+    "courts-federalism-and-accountability"
+  ],
+  "status": "complete",
+  "order": 12,
+  "levelNumber": 3
+}

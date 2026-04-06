@@ -1,0 +1,39 @@
+{
+  "slug": "political-journalist",
+  "title": "Political Journalist",
+  "setting": "National newsroom, Canberra press gallery",
+  "companySize": "Political team inside a national newsroom",
+  "description": "Political journalists live at the intersection of power, information, and deadlines. The work is about sources, context, verification, framing, and deciding what the public should pay attention to right now.",
+  "salary": "$90,000-$150,000 AUD",
+  "schedule": [
+    { "time": "06:30", "activity": "Scan overnight developments, media lines, and likely agenda-setters", "tools": ["News wires", "Source messages", "Social feeds"] },
+    { "time": "08:00", "activity": "Editorial conference on the day's priorities", "tools": ["Story diary", "Pitch notes"] },
+    { "time": "09:30", "activity": "Call sources in offices, parties, departments, and advocacy groups", "tools": ["Phone", "Encrypted messaging"] },
+    { "time": "11:30", "activity": "Attend press conference, hearing, or Parliament event", "tools": ["Recorder", "Notes", "Background brief"] },
+    { "time": "13:00", "activity": "Write the first draft under deadline pressure", "tools": ["CMS", "Notes", "Source checks"] },
+    { "time": "15:00", "activity": "Update the story with reaction, context, and verification", "tools": ["Hansard", "Policy documents"] },
+    { "time": "18:00", "activity": "File for the evening edition and prepare tomorrow's source list", "tools": ["CMS", "Editor notes"] }
+  ],
+  "responsibilities": [
+    "Source and verify political information",
+    "Explain institutional significance, not just spectacle",
+    "Write quickly without losing accuracy",
+    "Track the incentives and narratives around political events"
+  ],
+  "challenges": [
+    "Tight deadlines and incomplete information",
+    "Source management and verification pressure",
+    "Risk of over-focusing on conflict instead of institutional meaning"
+  ],
+  "rewards": [
+    "Deep visibility into power and public decision-making",
+    "Rapid development in source judgment and explanation",
+    "A chance to shape how the public understands politics"
+  ],
+  "careerPath": [
+    "Newsroom researcher or junior reporter",
+    "Political reporter",
+    "Senior correspondent or bureau role",
+    "Editor, columnist, or analyst"
+  ]
+}

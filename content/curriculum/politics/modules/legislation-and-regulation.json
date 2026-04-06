@@ -1,0 +1,44 @@
+{
+  "slug": "legislation-and-regulation",
+  "title": "Legislation and Regulation",
+  "shortSummary": "Learn how policy becomes binding law in Australia, how delegated legislation works, and why the Senate often decides whether governments can actually deliver.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "lawmaking",
+  "whyItMatters": "Laws are how political promises become durable obligations. If you do not understand the legislative funnel, you cannot tell the difference between announcement, policy intention, and actual legal change.",
+  "coreConcepts": [
+    "Government bills and private members' bills",
+    "Drafting instructions and bill preparation",
+    "First reading, second reading, committee stages, third reading",
+    "Senate amendment and negotiation",
+    "Royal assent",
+    "Delegated legislation and regulation"
+  ],
+  "mentalModels": [
+    "Legislation is a funnel, not a single vote",
+    "The Senate is often the realism chamber",
+    "A law without implementation capacity stays symbolic"
+  ],
+  "lessons": ["how-a-bill-becomes-law-in-australia"],
+  "frameworks": ["legislation-funnel"],
+  "goDeeper": [
+    {
+      "label": "Draft a private member's bill",
+      "href": "/politics/projects/draft-a-private-members-bill",
+      "description": "Use a project to test whether you can move from principle into legal structure."
+    },
+    {
+      "label": "Continue into influence and lobbying",
+      "href": "/politics/modules/lobbying-and-influence",
+      "description": "See how actors try to move policy and law before the public vote arrives."
+    }
+  ],
+  "relatedModules": [
+    "policy-process",
+    "lobbying-and-influence",
+    "committees-inquiries-and-royal-commissions"
+  ],
+  "status": "complete",
+  "order": 7,
+  "levelNumber": 2
+}

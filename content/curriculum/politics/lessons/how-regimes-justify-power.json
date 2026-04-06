@@ -1,0 +1,79 @@
+{
+  "slug": "how-regimes-justify-power",
+  "moduleSlug": "regimes-and-ideologies",
+  "title": "How Regimes Justify Power",
+  "objective": "Compare regime types through legitimacy, accountability, coercion, and correction mechanisms rather than slogans or aesthetics.",
+  "beginnerExplanation": "A regime is the basic way power is organised and justified in a society. Liberal democracies justify power through elections, rights, and institutional limits. Communist systems, at least in theory, justify power through collective ownership and class rule, though in practice many communist states have concentrated power in a single party. Fascism justifies power through nation, unity, hierarchy, and the leader. Authoritarian systems justify power through order, stability, or security. The question is never only 'what does the regime say?' It is also 'how does it correct bad power?'",
+  "deeperExplanation": "The useful mental move is to treat each regime as a tradeoff machine. Democracies usually slow decision-making down because legitimacy and contestability matter. Authoritarian systems speed decision-making up by narrowing challenge. Communist systems promise coordinated planning but often struggle with feedback and dissent. Fascist systems mobilise intensely but do so by crushing pluralism and elevating myths of unity over lawful correction. Upsides are real enough to explain why these systems attract followers; downsides are real enough to explain why they become dangerous. Politics gets clearer when you stop expecting a regime to maximise every virtue at once.",
+  "keyTakeaways": [
+    "Every regime is trading among freedom, speed, order, accountability, and coercion risk.",
+    "The most important question is how a system corrects bad power.",
+    "Democracy's slowness is not just a bug; it is often the price of legitimacy.",
+    "Communism and fascism both promise mobilisation but produce very different moral and institutional worlds.",
+    "Authoritarian systems often look efficient until you ask who can safely challenge them."
+  ],
+  "frameworks": ["regime-tradeoff-matrix"],
+  "example": "Australia is a liberal democracy, which means opposition is legal, governments can lose office peacefully, courts matter, and citizens retain rights to challenge power. That does not make the system perfect. It does mean the correction mechanisms are built into the design in a way they are not in fascist or authoritarian systems.",
+  "commonMistakes": [
+    "Treating regime labels as pure moral branding instead of institutional design choices",
+    "Assuming fast decision-making always means better governance",
+    "Confusing the theory of communism with how communist states have usually operated in practice",
+    "Using fascism as a generic insult instead of a specific authoritarian ideology"
+  ],
+  "exercise": "Pick one historical regime and one current system. Compare them across legitimacy, accountability, treatment of opposition, coercion risk, and economic coordination. Keep the comparison structural, not partisan.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Regimes are tradeoff systems.",
+      "summary": "The cleanest way to compare regimes is to stop asking which one sounds noble and start asking what each system optimises, sacrifices, and uses to correct abuse.",
+      "anchors": [
+        "What gives this regime legitimacy?",
+        "How quickly can it act?",
+        "What happens when power goes bad?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "A regime claims a legitimate source of authority.",
+        "It builds institutions that distribute or concentrate power.",
+        "It sets rules for opposition, dissent, and correction.",
+        "Citizens experience the regime through rights, coercion, and administrative life."
+      ]
+    },
+    "upsides": [
+      "Regime comparison helps you understand history and current affairs much faster.",
+      "It prevents shallow politics where every disagreement becomes moral panic.",
+      "It gives you a reusable way to interpret state power."
+    ],
+    "downsides": [
+      "Abstract regime categories can hide the messy variation inside real states.",
+      "People often mistake self-description for reality.",
+      "Comparisons become misleading if you ignore institutions and lived experience."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "Australia is useful because it is clearly democratic yet still full of friction, negotiation, media heat, and institutional limits. It shows what democracy actually feels like in operation rather than in civics slogans.",
+    "realWorldApplications": [
+      "Reading international news without collapsing everything into heroes and villains",
+      "Understanding why institutional design matters as much as ideology",
+      "Seeing why accountability mechanisms are central to political maturity"
+    ],
+    "whoWorksWithThis": [
+      "Diplomats",
+      "Intelligence analysts",
+      "Political journalists",
+      "Public policy advisers"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the politics system map",
+        "href": "/politics/system",
+        "description": "Keep the regime comparison inside the full subject map."
+      },
+      {
+        "label": "Continue into Australia's political system",
+        "href": "/politics/modules/australias-political-system/how-australian-power-actually-moves",
+        "description": "Apply the regime lens to the system you actually live inside."
+      }
+    ]
+  }
+}

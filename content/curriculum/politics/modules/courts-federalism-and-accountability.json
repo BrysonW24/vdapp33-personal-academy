@@ -1,0 +1,39 @@
+{
+  "slug": "courts-federalism-and-accountability",
+  "title": "Courts, Federalism, and Accountability",
+  "shortSummary": "Learn how courts, federal-state relations, auditors, integrity bodies, and administrative law stop politics from pretending it is above the rules.",
+  "level": "advanced",
+  "teachingStage": "applications",
+  "category": "accountability",
+  "whyItMatters": "Power without limits is not politics; it is domination. This module explains the legal and structural limits that make Australian politics a governed system instead of a raw contest of will.",
+  "coreConcepts": [
+    "Judicial review and legality",
+    "The High Court and constitutional interpretation",
+    "Federalism and division of power",
+    "Auditors, ombudsmen, and integrity bodies",
+    "Administrative accountability",
+    "Why implementation can fail even when law is valid"
+  ],
+  "mentalModels": [
+    "Courts do not run politics, but they define legal boundaries",
+    "Federalism means power is split, negotiated, and often messy",
+    "Accountability is a ladder, not a single institution"
+  ],
+  "lessons": ["how-courts-federalism-and-accountability-limit-power"],
+  "frameworks": ["oversight-ladder", "power-map"],
+  "goDeeper": [
+    {
+      "label": "Open the politics truth stack",
+      "href": "/politics/sources",
+      "description": "See which institutions and authorities anchor serious political understanding."
+    }
+  ],
+  "relatedModules": [
+    "australias-political-system",
+    "committees-inquiries-and-royal-commissions",
+    "power-incentives-and-failure-modes"
+  ],
+  "status": "complete",
+  "order": 10,
+  "levelNumber": 3
+}

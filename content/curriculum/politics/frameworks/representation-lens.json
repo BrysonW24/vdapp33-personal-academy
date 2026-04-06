@@ -1,0 +1,16 @@
+{
+  "slug": "representation-lens",
+  "name": "Representation Lens",
+  "summary": "Compare how votes become seats, how seats become power, and how institutions translate public preference into governing leverage.",
+  "whenToUseIt": "Use this when analysing elections, party strategy, Senate leverage, or whether a result actually creates a working mandate.",
+  "steps": [
+    "Separate House and Senate arithmetic.",
+    "Map which chamber determines government formation and which shapes review power.",
+    "Identify party discipline, crossbench leverage, and preference flow effects.",
+    "Note what the result changes for governing strategy.",
+    "Ask whether public interpretation of the result matches institutional reality."
+  ],
+  "example": "A party can win government in the House yet still require extensive Senate negotiation, which means the public story of victory overstates the executive freedom available.",
+  "category": "frameworks",
+  "domain": "politics"
+}

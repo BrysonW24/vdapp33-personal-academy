@@ -1,0 +1,16 @@
+{
+  "slug": "career-ladder-politics",
+  "name": "Politics Career Ladder",
+  "summary": "Map how careers progress across public service, political offices, lobbying, journalism, and scrutiny roles.",
+  "whenToUseIt": "Use this when choosing a path into politics or public policy, or when comparing how different roles build judgment and influence.",
+  "steps": [
+    "Choose the lane: elected office, political staff, APS, lobbying, media, or scrutiny.",
+    "List the entry role, the mid-level role, and the senior role.",
+    "Identify what the role reads, writes, and gets judged on.",
+    "Mark the real career multipliers: writing, judgment, networks, calmness, institutional literacy.",
+    "Add the main burnout or integrity risks."
+  ],
+  "example": "A graduate APS officer, a junior adviser, a committee secretariat analyst, and a newsroom producer are all entry points into the same broader field with very different pressures.",
+  "category": "careers",
+  "domain": "politics"
+}

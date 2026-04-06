@@ -1,0 +1,75 @@
+{
+  "slug": "how-courts-federalism-and-accountability-limit-power",
+  "moduleSlug": "courts-federalism-and-accountability",
+  "title": "How Courts, Federalism, and Accountability Limit Power",
+  "objective": "Learn the legal and structural limits around political authority in Australia.",
+  "beginnerExplanation": "Australian governments do not operate in a vacuum. Courts interpret the Constitution and legislation, administrative law constrains how power is used, and states maintain their own areas of control. Auditors, ombudsmen, regulators, and integrity bodies test whether government is acting properly. Together, these systems stop politics from becoming purely whatever the executive wants in the moment.",
+  "deeperExplanation": "A mature political system is not defined only by who wins elections. It is defined by what elected actors still cannot lawfully or structurally do. Courts matter because legality is part of legitimacy. Federalism matters because power is dispersed across Commonwealth and state systems that must cooperate and compete. Accountability bodies matter because elections are too blunt and infrequent to catch every failure. The deeper lesson is that political power sits inside boundaries. When those boundaries weaken, public trust weakens with them.",
+  "keyTakeaways": [
+    "Courts define legality even when they do not determine policy.",
+    "Federalism means Australian politics is inherently negotiated and multi-layered.",
+    "Accountability is distributed across several bodies, not one watchdog.",
+    "Elections do not replace legal and administrative scrutiny.",
+    "Legitimacy depends partly on visible limits to power."
+  ],
+  "frameworks": ["oversight-ladder", "power-map"],
+  "example": "A Commonwealth policy may be politically popular, but if it exceeds constitutional power or is implemented unlawfully, courts can intervene. Even where the law stands, states may still shape delivery through federal negotiation or resistance.",
+  "commonMistakes": [
+    "Thinking courts should or do run politics",
+    "Ignoring states in national political analysis",
+    "Assuming elections are sufficient accountability on their own",
+    "Treating integrity bodies as optional extras"
+  ],
+  "exercise": "Pick one policy area where Commonwealth and states overlap. Map who holds the legal power, who holds the money, who holds delivery capacity, and where accountability arrives if it goes wrong.",
+  "order": 1,
+  "teaching": {
+    "mentalModel": {
+      "title": "Political power lives inside boundaries.",
+      "summary": "A useful political system is not just a contest over who governs. It is also a contest bounded by law, federal structure, and ongoing scrutiny.",
+      "anchors": [
+        "Who has the formal legal power?",
+        "Who can challenge or review it?",
+        "Who else must cooperate to make it real?"
+      ]
+    },
+    "howItWorks": {
+      "steps": [
+        "Parliament and executive make or administer decisions.",
+        "Courts test legality and interpretation.",
+        "Federalism splits responsibility across governments.",
+        "Auditors, regulators, and integrity bodies test compliance and misconduct."
+      ]
+    },
+    "upsides": [
+      "It protects against executive overreach.",
+      "It makes accountability more continuous than elections alone.",
+      "It explains why legal and federal detail can reshape political ambition."
+    ],
+    "downsides": [
+      "The system can be slow and hard for the public to follow.",
+      "Boundary disputes can create blame-shifting.",
+      "Too much complexity can weaken clear responsibility."
+    ],
+    "workedExampleLabel": "Australia example",
+    "workedExample": "Many Australian reforms in health, housing, climate, and education only make sense once you see that legal authority, money, and delivery capacity are often split across different levels of government.",
+    "realWorldApplications": [
+      "Reading legal challenges more intelligently",
+      "Understanding why national reform often depends on state buy-in",
+      "Seeing how integrity bodies support trust in government"
+    ],
+    "whoWorksWithThis": [
+      "Lawyers",
+      "Public servants",
+      "Regulators",
+      "Journalists",
+      "Parliamentarians"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the politics truth stack",
+        "href": "/politics/sources",
+        "description": "Use the most mature institutions and interpreters to deepen this layer."
+      }
+    ]
+  }
+}

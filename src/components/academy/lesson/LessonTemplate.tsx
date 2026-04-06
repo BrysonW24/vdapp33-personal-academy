@@ -113,6 +113,48 @@ export function LessonTemplate({
         <p className="text-muted-foreground leading-relaxed">{module.whyItMatters}</p>
       </section>
 
+      {lesson.teaching?.mentalModel ? (
+        <section className="space-y-3">
+          <h2 className="text-xl font-semibold">Mental model</h2>
+          <Card className="bg-secondary/50">
+            <CardContent className="space-y-3 p-5">
+              <div>
+                <h3 className="font-semibold">{lesson.teaching.mentalModel.title}</h3>
+                <p className="mt-2 text-muted-foreground leading-relaxed">
+                  {lesson.teaching.mentalModel.summary}
+                </p>
+              </div>
+              <ul className="space-y-2">
+                {lesson.teaching.mentalModel.anchors.map((anchor) => (
+                  <li key={anchor} className="flex items-start gap-2 text-muted-foreground">
+                    <span className="mt-1 shrink-0 text-primary">•</span>
+                    {anchor}
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+        </section>
+      ) : null}
+
+      {lesson.teaching?.howItWorks ? (
+        <section className="space-y-3">
+          <h2 className="text-xl font-semibold">
+            {lesson.teaching.howItWorks.title ?? "How it works"}
+          </h2>
+          <ol className="space-y-2">
+            {lesson.teaching.howItWorks.steps.map((step, index) => (
+              <li key={step} className="flex gap-3 text-muted-foreground">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-semibold text-primary">
+                  {index + 1}
+                </span>
+                <span className="pt-0.5">{step}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ) : null}
+
       <section className="space-y-3">
         <h2 className="text-xl font-semibold">Going deeper</h2>
         {lesson.perspectives ? (
@@ -143,10 +185,56 @@ export function LessonTemplate({
 
       <Card className="bg-secondary/50">
         <CardContent className="p-5 space-y-2">
-          <h3 className="font-semibold">Real Example</h3>
-          <p className="text-muted-foreground leading-relaxed">{lesson.example}</p>
+          <h3 className="font-semibold">
+            {lesson.teaching?.workedExampleLabel ?? "Real Example"}
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            {lesson.teaching?.workedExample ?? lesson.example}
+          </p>
         </CardContent>
       </Card>
+
+      {(lesson.teaching?.upsides?.length || lesson.teaching?.downsides?.length) && (
+        <section className="grid gap-4 md:grid-cols-2">
+          {lesson.teaching?.upsides?.length ? (
+            <Card className="border-editorial-green/20 bg-editorial-green-soft/20">
+              <CardContent className="space-y-2 p-5">
+                <h3 className="font-semibold text-editorial-ink">Upsides</h3>
+                <ul className="space-y-2">
+                  {lesson.teaching.upsides.map((item) => (
+                    <li
+                      key={item}
+                      className="flex items-start gap-2 text-sm text-muted-foreground"
+                    >
+                      <span className="mt-1 shrink-0 text-editorial-green">+</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          ) : null}
+
+          {lesson.teaching?.downsides?.length ? (
+            <Card className="border-[rgba(161,76,58,0.18)] bg-[rgba(161,76,58,0.06)]">
+              <CardContent className="space-y-2 p-5">
+                <h3 className="font-semibold text-editorial-ink">Downsides</h3>
+                <ul className="space-y-2">
+                  {lesson.teaching.downsides.map((item) => (
+                    <li
+                      key={item}
+                      className="flex items-start gap-2 text-sm text-muted-foreground"
+                    >
+                      <span className="mt-1 shrink-0 text-[rgb(127,53,41)]">-</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          ) : null}
+        </section>
+      )}
 
       <section className="space-y-3">
         <h2 className="text-xl font-semibold flex items-center gap-2">
@@ -173,6 +261,33 @@ export function LessonTemplate({
         </CardContent>
       </Card>
 
+      {lesson.teaching?.realWorldApplications?.length ? (
+        <section className="space-y-3">
+          <h2 className="text-xl font-semibold">Where you see this in the real world</h2>
+          <ul className="space-y-2">
+            {lesson.teaching.realWorldApplications.map((item) => (
+              <li key={item} className="flex items-start gap-2 text-muted-foreground">
+                <span className="mt-1 shrink-0 text-editorial-amber">•</span>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {lesson.teaching?.whoWorksWithThis?.length ? (
+        <section className="space-y-3">
+          <h2 className="text-xl font-semibold">Who works with this</h2>
+          <div className="flex flex-wrap gap-2">
+            {lesson.teaching.whoWorksWithThis.map((entry) => (
+              <Badge key={entry} variant="outline">
+                {entry}
+              </Badge>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       {lesson.quiz && lesson.quiz.length > 0 && (
           <QuizSection
             quiz={lesson.quiz}
@@ -198,6 +313,26 @@ export function LessonTemplate({
           </div>
         </section>
       )}
+
+      {lesson.teaching?.goDeeper?.length ? (
+        <section className="space-y-3">
+          <h3 className="font-semibold">Go deeper</h3>
+          <div className="grid gap-3 md:grid-cols-2">
+            {lesson.teaching.goDeeper.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-4 hover:shadow-editorial-soft transition-shadow"
+              >
+                <p className="font-medium text-foreground">{link.label}</p>
+                {link.description ? (
+                  <p className="mt-1 text-sm text-muted-foreground">{link.description}</p>
+                ) : null}
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {lesson.nextLesson && (
         <div className="flex justify-end pt-4">

@@ -1,0 +1,16 @@
+{
+  "slug": "incentive-audit",
+  "name": "Incentive Audit",
+  "summary": "Diagnose where political systems quietly reward the wrong behaviour.",
+  "whenToUseIt": "Use this when a policy, institution, or public system looks reasonable on paper but keeps generating weak results.",
+  "steps": [
+    "Define the official goal of the system.",
+    "List the incentives each actor actually faces.",
+    "Compare the formal goal with the rewarded behaviour.",
+    "Mark where feedback arrives too late or is politically inconvenient.",
+    "Suggest one structural change that would reward better behaviour."
+  ],
+  "example": "A reform can claim to be long-term and evidence-based while election cycles, media pressure, and under-resourcing quietly reward short-term symbolism instead.",
+  "category": "go-deeper",
+  "domain": "politics"
+}

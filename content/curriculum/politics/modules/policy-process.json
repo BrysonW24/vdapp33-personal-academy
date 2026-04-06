@@ -1,0 +1,44 @@
+{
+  "slug": "policy-process",
+  "title": "Policy Process",
+  "shortSummary": "Trace how public problems become options, how options become decisions, and how decisions become programs, regulation, funding, or legislation.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "process",
+  "whyItMatters": "Policy is where politics becomes substance. This module helps you see how problems are framed, who gets consulted, where options are filtered out, and why implementation matters as much as the decision itself.",
+  "coreConcepts": [
+    "Agenda-setting and issue framing",
+    "Policy options and tradeoffs",
+    "Consultation and stakeholder pressure",
+    "Cabinet decision-making",
+    "Implementation pathways",
+    "Evaluation and unintended consequences"
+  ],
+  "mentalModels": [
+    "The policy cycle is messy but still useful as a memory tool",
+    "Much of the real contest happens before a bill is public",
+    "Implementation is where elegant policy ideas collide with reality"
+  ],
+  "lessons": ["how-policy-moves-from-problem-to-delivery"],
+  "frameworks": ["policy-cycle"],
+  "goDeeper": [
+    {
+      "label": "See the policy brief project",
+      "href": "/politics/projects/write-a-policy-brief",
+      "description": "Turn the policy cycle into an actual decision-ready document."
+    },
+    {
+      "label": "Continue into legislation and regulation",
+      "href": "/politics/modules/legislation-and-regulation",
+      "description": "See when policy needs a law, and how the law gets made."
+    }
+  ],
+  "relatedModules": [
+    "cabinet-ministers-and-public-service",
+    "legislation-and-regulation",
+    "lobbying-and-influence"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 2
+}

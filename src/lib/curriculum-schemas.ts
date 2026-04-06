@@ -6,6 +6,35 @@ const DeepDivePageSchema = z.object({
   icon: z.string(),
 })
 
+const GoDeeperLinkSchema = z.object({
+  label: z.string(),
+  href: z.string(),
+  description: z.string().optional(),
+})
+
+const MentalModelDefinitionSchema = z.object({
+  title: z.string(),
+  summary: z.string(),
+  anchors: z.array(z.string()),
+})
+
+const ProcessBreakdownSchema = z.object({
+  title: z.string().optional(),
+  steps: z.array(z.string()),
+})
+
+const LessonTeachingContractSchema = z.object({
+  mentalModel: MentalModelDefinitionSchema.optional(),
+  howItWorks: ProcessBreakdownSchema.optional(),
+  upsides: z.array(z.string()).optional(),
+  downsides: z.array(z.string()).optional(),
+  workedExampleLabel: z.string().optional(),
+  workedExample: z.string().optional(),
+  realWorldApplications: z.array(z.string()).optional(),
+  whoWorksWithThis: z.array(z.string()).optional(),
+  goDeeper: z.array(GoDeeperLinkSchema).optional(),
+})
+
 const EntityReferenceSchema = z.object({
   kind: z.enum(["subject", "role", "topic"]),
   slug: z.string(),
@@ -150,12 +179,25 @@ export const ModuleSchema = z.object({
   title: z.string(),
   shortSummary: z.string(),
   level: levelEnum,
+  teachingStage: z
+    .enum([
+      "orientation",
+      "mental-models",
+      "frameworks",
+      "processes",
+      "applications",
+      "careers",
+      "go-deeper",
+    ])
+    .optional(),
   domain: z.string().optional(),
   category: z.string().optional(),
   whyItMatters: z.string(),
   coreConcepts: z.array(z.string()),
+  mentalModels: z.array(z.string()).optional(),
   lessons: z.array(z.string()),
   frameworks: z.array(z.string()),
+  goDeeper: z.array(GoDeeperLinkSchema).optional(),
   visualType: z.string().optional(),
   relatedModules: z.array(z.string()),
   status: statusEnum.default("coming-soon"),
@@ -189,6 +231,7 @@ export const LessonSchema = z.object({
   example: z.string(),
   commonMistakes: z.array(z.string()),
   exercise: z.string(),
+  teaching: LessonTeachingContractSchema.optional(),
   nextLesson: z.string().optional(),
   order: z.number(),
   quiz: z.array(QuizQuestionSchema).optional(),

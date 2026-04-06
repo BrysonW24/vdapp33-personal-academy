@@ -1,0 +1,39 @@
+{
+  "slug": "working-in-politics-and-public-policy",
+  "title": "Working in Politics and Public Policy",
+  "shortSummary": "See what people in the field actually do: what they read, what they write, who they deal with, what pressure they face, and how careers improve over time.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "A field only becomes real when you know what its jobs actually look like. This module grounds politics in working lives rather than abstract interest.",
+  "coreConcepts": [
+    "Parliamentarian and adviser roles",
+    "APS policy officer work",
+    "Committee and inquiry staff",
+    "Lobbying and corporate affairs",
+    "Regulators and integrity roles",
+    "Political journalism"
+  ],
+  "mentalModels": [
+    "Politics is a document-heavy profession",
+    "Judgment under ambiguity is a career multiplier",
+    "Network quality matters, but integrity limits matter too"
+  ],
+  "lessons": ["what-working-in-politics-actually-looks-like"],
+  "frameworks": ["career-ladder-politics"],
+  "goDeeper": [
+    {
+      "label": "Open the day-in-the-life section",
+      "href": "/politics/day-in-the-life",
+      "description": "Browse grounded working weeks across politics, policy, scrutiny, influence, and media."
+    }
+  ],
+  "relatedModules": [
+    "cabinet-ministers-and-public-service",
+    "lobbying-and-influence",
+    "power-incentives-and-failure-modes"
+  ],
+  "status": "complete",
+  "order": 11,
+  "levelNumber": 2
+}
