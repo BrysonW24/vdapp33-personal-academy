@@ -8,11 +8,15 @@ import {
   Waypoints,
 } from "lucide-react"
 import { KnowledgeHierarchyScene } from "@/components/browse/KnowledgeHierarchyScene"
-import { MacroBucketExplorer } from "@/components/browse/MacroBucketExplorer"
 import { NexusWordmark } from "@/components/branding/NexusWordmark"
-import { getBrowseCatalogData } from "@/lib/browse-data"
+import { EntityCard } from "@/components/entities/EntityCard"
 import { getSubjectStats, getSubjects } from "@/lib/content"
-import { getRoles, getTopics } from "@/lib/entities"
+import { getRoles, getRoleStats, getTopics, getTopicStats } from "@/lib/entities"
+import {
+  SUBJECT_GROUP_LABELS,
+  SUBJECT_GROUPS,
+  type SubjectManifest,
+} from "@/types/curriculum"
 
 const STRUCTURE_CARDS = [
   {
@@ -27,7 +31,7 @@ const STRUCTURE_CARDS = [
     title: "Cross-domain lenses",
     body: "Topics let Nexus go broad on purpose. They pull ideas together by question, tension, or worldview instead of by discipline alone.",
     icon: Sparkles,
-    color: "#8A63D2",
+    color: "#7A63D8",
   },
   {
     label: "Roles",
@@ -57,11 +61,30 @@ const TEACHING_LENSES = [
   },
 ] as const
 
+const QUICK_JUMP_LINKS = [
+  { label: "Roles", href: "#roles" },
+  { label: "Topics", href: "#topics" },
+  { label: "Sciences", href: "#subjects-sciences" },
+  { label: "Engineering", href: "#subjects-engineering" },
+  { label: "Society", href: "#subjects-society" },
+  { label: "Markets", href: "#subjects-markets" },
+  { label: "Life", href: "#subjects-life" },
+  { label: "Humanities", href: "#subjects-humanities" },
+  { label: "Mind", href: "#subjects-mind" },
+] as const
+
 export default function NexusHomePage() {
   const subjects = getSubjects()
   const roles = getRoles()
   const topics = getTopics()
-  const { bucketGroups } = getBrowseCatalogData()
+
+  const groupedSubjects = subjects.reduce<Record<string, SubjectManifest[]>>((acc, subject) => {
+    if (!acc[subject.group]) acc[subject.group] = []
+    acc[subject.group].push(subject)
+    return acc
+  }, {})
+
+  const orderedGroups = SUBJECT_GROUPS.filter((group) => groupedSubjects[group]?.length)
 
   const subjectTotals = subjects.reduce(
     (acc, subject) => {
@@ -107,9 +130,8 @@ export default function NexusHomePage() {
             depth, topics for cross-domain lenses, and roles for embodied intelligence.
           </p>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-editorial-muted sm:text-base">
-            It is not trying to force one learning path. It gives you a clean way to
-            move between reality, civilization, culture, frontier ideas, and the roles
-            that make those systems tangible.
+            Everything stays visible. You can start from a field, a bigger question,
+            or a role in the world without losing the deeper structure underneath.
           </p>
 
           <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm text-editorial-muted sm:flex sm:flex-wrap">
@@ -132,29 +154,29 @@ export default function NexusHomePage() {
           </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            {featuredSubject ? (
-              <Link
-                href={`/${featuredSubject.slug}`}
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-green px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-editorial-green/90 sm:w-auto"
-              >
-                Open a subject
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            ) : null}
             {featuredRole ? (
               <Link
                 href={`/roles/${featuredRole.slug}`}
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-blue-soft px-5 py-2.5 text-sm font-medium text-editorial-blue transition-colors hover:bg-editorial-blue/10 sm:w-auto"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-green px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-editorial-green/90 sm:w-auto"
               >
-                Explore a role
+                Open a role
+                <ArrowRight className="h-4 w-4" />
               </Link>
             ) : null}
             {featuredTopic ? (
               <Link
                 href={`/topics/${featuredTopic.slug}`}
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-blue-soft px-5 py-2.5 text-sm font-medium text-editorial-blue transition-colors hover:bg-editorial-blue/10 sm:w-auto"
+              >
+                Explore a topic
+              </Link>
+            ) : null}
+            {featuredSubject ? (
+              <Link
+                href={`/${featuredSubject.slug}`}
                 className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-editorial-ink transition-colors hover:bg-editorial-canvas sm:w-auto"
               >
-                Browse a topic
+                Open a subject
               </Link>
             ) : null}
           </div>
@@ -162,7 +184,7 @@ export default function NexusHomePage() {
 
         <div className="rounded-[30px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.82)] p-6 shadow-editorial-soft backdrop-blur-[18px] sm:p-8">
           <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-            Open by structure
+            Browse first
           </p>
           <div className="mt-5 space-y-4">
             {STRUCTURE_CARDS.map((item) => {
@@ -214,7 +236,7 @@ export default function NexusHomePage() {
           </p>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
             The point is to let you start from wherever your curiosity is strongest
-            without losing the deeper structure underneath.
+            without hiding the rest of the map.
           </p>
 
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -240,22 +262,173 @@ export default function NexusHomePage() {
         <KnowledgeHierarchyScene className="h-full" />
       </section>
 
-      <section className="space-y-4">
-        <div>
-          <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-            Explore the map
-          </p>
-          <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink sm:text-4xl">
-            Browse by the big domains of human reality
-          </h2>
-          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
-            These macro buckets sit above the raw catalog so the system stays navigable
-            even as Nexus grows. Use them to jump into the part of the map you care
-            about most, then move deeper through subjects, roles, and topics underneath.
-          </p>
+      <section className="rounded-[24px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-5 shadow-editorial-soft sm:p-6">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+              Jump straight in
+            </p>
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+              Everything is on the page below. Use these anchors when you want to move
+              quickly between roles, topics, and the subject families.
+            </p>
+          </div>
+
+          <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1">
+            {QUICK_JUMP_LINKS.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="shrink-0 rounded-full border border-[rgba(44,49,59,0.08)] bg-white px-4 py-2 text-xs uppercase tracking-[0.16em] text-editorial-muted transition-colors hover:bg-editorial-canvas"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="roles" className="space-y-4">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+              Guided worlds
+            </p>
+            <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+              Roles
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+              Roles are embodied tracks. They show what a capable person in a field
+              actually does, what they notice, what they depend on, and what shapes
+              their judgment.
+            </p>
+          </div>
+
+          <Link
+            href="/roles"
+            className="inline-flex items-center gap-2 text-sm font-medium text-editorial-blue transition-colors hover:text-editorial-green"
+          >
+            Open all roles
+            <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
 
-        <MacroBucketExplorer groups={bucketGroups} />
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {roles.map((role) => {
+            const stats = getRoleStats(role.slug)
+
+            return (
+              <EntityCard
+                key={role.slug}
+                entity={role}
+                href={`/roles/${role.slug}`}
+                eyebrow="Role"
+                statLine={`${stats.modules} modules · ${stats.projects} projects · ${stats.dayInLife} stories`}
+              />
+            )
+          })}
+        </div>
+      </section>
+
+      <section id="topics" className="space-y-4">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+              Cross-domain lenses
+            </p>
+            <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+              Topics
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+              Topics stay broad on purpose. They help you move through the academy by
+              question, tension, worldview, and synthesis instead of discipline alone.
+            </p>
+          </div>
+
+          <Link
+            href="/topics"
+            className="inline-flex items-center gap-2 text-sm font-medium text-editorial-blue transition-colors hover:text-editorial-green"
+          >
+            Open all topics
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {topics.map((topic) => {
+            const stats = getTopicStats(topic.slug)
+
+            return (
+              <EntityCard
+                key={topic.slug}
+                entity={topic}
+                href={`/topics/${topic.slug}`}
+                eyebrow="Topic"
+                statLine={`${stats.sections} concepts · ${stats.projects} applications · ${stats.tools} tools`}
+              />
+            )
+          })}
+        </div>
+      </section>
+
+      <section id="subjects" className="space-y-8">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+              Canonical subjects
+            </p>
+            <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+              Subjects still own the curriculum
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+              Every subject stays visible here. This is the deep end of Nexus: the
+              foundations, the field logic, the frameworks, the tools, and the
+              cumulative structures underneath the wider map.
+            </p>
+          </div>
+
+          <Link
+            href="/subjects"
+            className="inline-flex items-center gap-2 text-sm font-medium text-editorial-blue transition-colors hover:text-editorial-green"
+          >
+            Open all subjects
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+
+        {orderedGroups.map((group) => {
+          const groupSubjects = groupedSubjects[group]
+
+          return (
+            <section
+              key={group}
+              id={`subjects-${group}`}
+              className="space-y-4"
+            >
+              <div>
+                <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+                  {SUBJECT_GROUP_LABELS[group] ?? group}
+                </p>
+              </div>
+
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                {groupSubjects.map((subject) => {
+                  const stats = getSubjectStats(subject.slug)
+
+                  return (
+                    <EntityCard
+                      key={subject.slug}
+                      entity={subject}
+                      href={`/${subject.slug}`}
+                      eyebrow="Subject"
+                      statLine={`${stats.modules} modules · ${stats.frameworks} frameworks · ${stats.projects} projects`}
+                    />
+                  )
+                })}
+              </div>
+            </section>
+          )
+        })}
       </section>
     </div>
   )
