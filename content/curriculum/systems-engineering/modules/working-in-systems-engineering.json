@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-systems-engineering",
+  "title": "Working in Systems Engineering",
+  "shortSummary": "Understand what people in Systems Engineering actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Systems Engineering matters because it helps you reason about defense, aerospace, transport, energy, and large technical programs.",
+  "coreConcepts": [
+    "requirements",
+    "interfaces",
+    "integration",
+    "verification",
+    "risk",
+    "lifecycle thinking"
+  ],
+  "mentalModels": [
+    "system-of-systems thinking",
+    "interface control",
+    "verification traceability"
+  ],
+  "lessons": [
+    "systems-engineering-career-reality"
+  ],
+  "frameworks": [
+    "systems-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "what-systems-engineering-is",
+    "systems-engineering-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

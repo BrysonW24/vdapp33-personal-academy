@@ -1,0 +1,36 @@
+{
+  "slug": "what-software-engineering-is",
+  "title": "What Software Engineering Is",
+  "shortSummary": "Get oriented to Software Engineering: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Software Engineering matters because it helps you reason about consumer products, enterprise systems, infrastructure, automation, and developer platforms.",
+  "coreConcepts": [
+    "requirements",
+    "architecture",
+    "testing",
+    "deployment",
+    "reliability",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "abstraction boundaries",
+    "tradeoff-driven architecture",
+    "feedback loop engineering"
+  ],
+  "lessons": [
+    "what-is-software-engineering"
+  ],
+  "frameworks": [
+    "software-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "software-engineering-mental-models",
+    "software-engineering-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

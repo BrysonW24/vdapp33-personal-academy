@@ -1,0 +1,36 @@
+{
+  "slug": "biology-systems-and-processes",
+  "title": "Biology Systems and Processes",
+  "shortSummary": "See how Biology moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Biology matters because it helps you reason about medicine, conservation, agriculture, ecology, and biotechnology.",
+  "coreConcepts": [
+    "cells",
+    "genes",
+    "metabolism",
+    "evolution",
+    "physiology",
+    "ecology"
+  ],
+  "mentalModels": [
+    "form and function",
+    "evolutionary pressure",
+    "systems within systems"
+  ],
+  "lessons": [
+    "biology-systems-in-the-world"
+  ],
+  "frameworks": [
+    "biology-systems-map"
+  ],
+  "relatedModules": [
+    "biology-applications",
+    "working-in-biology"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

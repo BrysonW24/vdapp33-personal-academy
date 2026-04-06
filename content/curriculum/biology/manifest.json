@@ -1,0 +1,12 @@
+{
+  "slug": "biology",
+  "name": "Biology",
+  "shortName": "Biology",
+  "group": "life",
+  "icon": "Leaf",
+  "color": "#2F855A",
+  "tagline": "Cells, organisms, ecosystems, and the processes that make life possible.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 27
+}

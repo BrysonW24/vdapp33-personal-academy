@@ -1,0 +1,36 @@
+{
+  "slug": "religion-belief-systems-applications",
+  "title": "Religion & Belief Systems Applications",
+  "shortSummary": "Trace where Religion & Belief Systems shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Religion & Belief Systems matters because it helps you reason about culture, ethics, politics, history, identity, and intergroup relations.",
+  "coreConcepts": [
+    "ritual",
+    "myth",
+    "doctrine",
+    "community",
+    "authority",
+    "meaning"
+  ],
+  "mentalModels": [
+    "belief as worldview",
+    "ritual as social technology",
+    "institution and interpretation"
+  ],
+  "lessons": [
+    "religion-belief-systems-where-it-shows-up"
+  ],
+  "frameworks": [
+    "religion-belief-systems-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-religion-belief-systems",
+    "what-religion-belief-systems-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

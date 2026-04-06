@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-materials-science",
+  "title": "Working in Materials Science",
+  "shortSummary": "Understand what people in Materials Science actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Materials Science matters because it helps you reason about electronics, aerospace, energy storage, construction, and manufacturing.",
+  "coreConcepts": [
+    "microstructure",
+    "processing",
+    "mechanical properties",
+    "electronic properties",
+    "failure",
+    "selection"
+  ],
+  "mentalModels": [
+    "structure-processing-property-performance chain",
+    "failure analysis",
+    "materials tradeoff curves"
+  ],
+  "lessons": [
+    "materials-science-career-reality"
+  ],
+  "frameworks": [
+    "materials-science-systems-map"
+  ],
+  "relatedModules": [
+    "what-materials-science-is",
+    "materials-science-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

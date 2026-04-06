@@ -1,0 +1,36 @@
+{
+  "slug": "energy-systems-systems-and-processes",
+  "title": "Energy Systems Systems and Processes",
+  "shortSummary": "See how Energy Systems moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Energy Systems matters because it helps you reason about electric grids, industrial systems, transport, climate transition, and national resilience.",
+  "coreConcepts": [
+    "generation",
+    "storage",
+    "transmission",
+    "demand",
+    "grid balancing",
+    "energy economics"
+  ],
+  "mentalModels": [
+    "conversion chains",
+    "capacity factor thinking",
+    "grid balancing logic"
+  ],
+  "lessons": [
+    "energy-systems-systems-in-the-world"
+  ],
+  "frameworks": [
+    "energy-systems-systems-map"
+  ],
+  "relatedModules": [
+    "energy-systems-applications",
+    "working-in-energy-systems"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

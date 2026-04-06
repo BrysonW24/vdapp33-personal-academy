@@ -1,0 +1,25 @@
+{
+  "slug": "health",
+  "title": "Health",
+  "whatItIs": "Health is the state of physical, mental, and social wellbeing, not merely the absence of disease. It includes prevention, diagnosis, treatment, recovery, and the systems that make care possible.\n\nThe topic spans physiology, medicine, public health, health systems, behaviour, nutrition, exercise, mental health, and the social determinants that make health unequal across populations.\n\nHealth is therefore both deeply personal and deeply institutional. A person’s habits matter, but so do their housing, income, education, access to care, and the quality of the health system around them.",
+  "whyItMatters": "Health matters because it shapes capacity. People cannot reliably learn, work, care, or create when they are chronically unwell or unsupported.\n\nIt also matters because health is unevenly distributed. Public health and health systems determine who receives care, who is protected from preventable disease, and who gets left behind.\n\nGood health knowledge helps people make better daily choices, but it also helps them read policy, medicine, and public debate more intelligently.",
+  "keyIdeas": [
+    "Prevention is usually cheaper and better than treatment",
+    "Health is shaped by more than medicine",
+    "Behaviour matters, but so do systems and environments",
+    "Mental health is part of health",
+    "Evidence-based care should outrank intuition alone",
+    "Public health protects populations, not just individuals",
+    "Access and equity are health issues",
+    "Health decisions are often made under uncertainty"
+  ],
+  "frontier": "The frontier of health includes AI-assisted diagnostics, telehealth, precision medicine, genomics, and better tools for mental health support. These technologies can improve access and accuracy, but they also raise issues of bias, privacy, and uneven rollout.\n\nLongevity research and preventive medicine are becoming more visible as populations age and chronic disease becomes more dominant. At the same time, public health is grappling with misinformation, antimicrobial resistance, obesity, and the mental health consequences of modern life.\n\nThe field is moving toward systems that are more personalised and more data-rich, but still depend on human judgment, trust, and equity.",
+  "openQuestions": [
+    "How much of health is individual choice versus social structure?",
+    "What should medicine do that prevention cannot?",
+    "How do we make health systems both efficient and fair?",
+    "Can digital tools improve access without widening inequality?",
+    "How should societies balance privacy and health data use?",
+    "What counts as good health across a whole life?"
+  ]
+}

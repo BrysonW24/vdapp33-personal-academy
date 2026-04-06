@@ -1,0 +1,36 @@
+{
+  "slug": "space-infrastructure-systems-and-processes",
+  "title": "Space Infrastructure Systems and Processes",
+  "shortSummary": "See how Space Infrastructure moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Space Infrastructure matters because it helps you reason about communications, earth observation, defense, navigation, and launch operations.",
+  "coreConcepts": [
+    "launch systems",
+    "satellites",
+    "ground stations",
+    "orbital operations",
+    "communications",
+    "resilience"
+  ],
+  "mentalModels": [
+    "space stack thinking",
+    "mission lifecycle planning",
+    "ground-to-orbit integration"
+  ],
+  "lessons": [
+    "space-infrastructure-systems-in-the-world"
+  ],
+  "frameworks": [
+    "space-infrastructure-systems-map"
+  ],
+  "relatedModules": [
+    "space-infrastructure-applications",
+    "working-in-space-infrastructure"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

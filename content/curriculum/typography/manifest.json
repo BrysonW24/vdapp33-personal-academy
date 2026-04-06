@@ -1,0 +1,12 @@
+{
+  "slug": "typography",
+  "name": "Typography",
+  "shortName": "Typography",
+  "group": "humanities",
+  "icon": "Type",
+  "color": "#111827",
+  "tagline": "How letters, spacing, rhythm, and hierarchy shape reading, tone, and visual intelligence.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 31
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "civil-engineering-professional",
+  "title": "A Day as a Project Civil Engineer",
+  "setting": "A design office or infrastructure contractor balancing engineering standards, site reality, and delivery pressure.",
+  "companySize": "Mid-sized to large organization with cross-functional coordination and measurable delivery pressure.",
+  "description": "You work as a project civil engineer using Civil Engineering to notice patterns, frame decisions, and improve outcomes under real constraints.",
+  "salary": "$95,000 - $150,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review the current system state and pending priorities",
+      "tools": [
+        "AutoCAD Civil 3D",
+        "Revit"
+      ]
+    },
+    {
+      "time": "09:30",
+      "activity": "Team check-in on risks, decisions, and dependencies",
+      "tools": [
+        "AutoCAD Civil 3D"
+      ]
+    },
+    {
+      "time": "11:00",
+      "activity": "Deep work on a live piece of public infrastructure and its constraints",
+      "tools": [
+        "AutoCAD Civil 3D",
+        "Revit",
+        "Microsoft Project"
+      ]
+    },
+    {
+      "time": "13:00",
+      "activity": "Stakeholder or operator discussion",
+      "tools": [
+        "AutoCAD Civil 3D"
+      ],
+      "note": "The useful work usually sits where models meet people and constraints."
+    },
+    {
+      "time": "15:00",
+      "activity": "Analysis, documentation, or design iteration",
+      "tools": [
+        "AutoCAD Civil 3D",
+        "Revit"
+      ]
+    },
+    {
+      "time": "17:00",
+      "activity": "Close out notes, decisions, and the next day’s handoff",
+      "tools": [
+        "AutoCAD Civil 3D"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Use Civil Engineering to frame real problems instead of reacting at surface level.",
+    "Translate complexity into clearer choices for other people.",
+    "Balance quality, speed, cost, and institutional constraints.",
+    "Document decisions well enough that others can build on them."
+  ],
+  "challenges": [
+    "The field rarely arrives as a clean textbook version of Civil Engineering.",
+    "Time pressure, incomplete information, and competing priorities distort judgment.",
+    "Good work is often invisible when systems are stable and only obvious when they fail."
+  ],
+  "rewards": [
+    "You get to make Civil Engineering feel real, usable, and consequential.",
+    "The work improves your judgment far beyond the field itself.",
+    "You become the kind of person who can simplify complexity without flattening it."
+  ],
+  "careerPath": [
+    "Graduate / junior project civil engineer",
+    "Mid-level project civil engineer",
+    "Senior project civil engineer",
+    "Lead / principal role",
+    "Head of function or specialist advisor"
+  ]
+}

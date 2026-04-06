@@ -1,0 +1,12 @@
+{
+  "slug": "money",
+  "name": "Money",
+  "kind": "topic",
+  "group": "markets",
+  "icon": "Wallet",
+  "color": "#0EA5E9",
+  "tagline": "How people earn, spend, save, borrow, and think about financial security.",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 13
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "what-sociology-is",
+  "title": "What Sociology Is",
+  "shortSummary": "Get oriented to Sociology: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Sociology matters because it helps you reason about policy, research, education, organisations, and social analysis.",
+  "coreConcepts": [
+    "institutions",
+    "norms",
+    "class",
+    "identity",
+    "culture",
+    "social change"
+  ],
+  "mentalModels": [
+    "structure vs agency",
+    "social stratification",
+    "institutional reproduction"
+  ],
+  "lessons": [
+    "what-is-sociology"
+  ],
+  "frameworks": [
+    "sociology-systems-map"
+  ],
+  "relatedModules": [
+    "sociology-mental-models",
+    "sociology-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "electrical-engineering-systems-and-processes",
+  "title": "Electrical Engineering Systems and Processes",
+  "shortSummary": "See how Electrical Engineering moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Electrical Engineering matters because it helps you reason about power networks, electronics, control systems, automation, and communications.",
+  "coreConcepts": [
+    "circuits",
+    "power systems",
+    "signals",
+    "electronics",
+    "control",
+    "safety"
+  ],
+  "mentalModels": [
+    "energy and signal flow",
+    "feedback control",
+    "failure under load"
+  ],
+  "lessons": [
+    "electrical-engineering-systems-in-the-world"
+  ],
+  "frameworks": [
+    "electrical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "electrical-engineering-applications",
+    "working-in-electrical-engineering"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

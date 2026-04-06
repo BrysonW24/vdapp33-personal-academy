@@ -1,0 +1,23 @@
+{
+  "slug": "ltspice",
+  "name": "LTspice",
+  "category": "circuit-simulation",
+  "description": "LTspice is a useful circuit simulation surface inside Electrical Engineering.",
+  "whyUseIt": "People in Electrical Engineering use LTspice to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html",
+  "alternatives": [
+    "MATLAB Simulink",
+    "Altium Designer"
+  ],
+  "outputs": [
+    "Electrical Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using LTspice as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from LTspice."
+  ],
+  "relatedProject": "map-a-electrical-engineering-system"
+}

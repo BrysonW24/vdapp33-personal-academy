@@ -12,13 +12,13 @@
           "name": "Quantum technologies are moving from theory into instruments",
           "summary": "Quantum computing, sensing, and communication are pushing demand for better cryogenics, control electronics, and error correction.",
           "whyItMatters": "Quantum physics is increasingly becoming an applied instrumentation problem.",
-          "entities": ["quantum", "IBM", "NIST"]
+          "entities": ["quantum-science", "IBM", "NIST"]
         },
         {
           "name": "Fusion research is increasingly engineering-driven",
           "summary": "The conversation around fusion is moving from pure plasma physics toward materials, magnets, control systems, and maintainability.",
           "whyItMatters": "The frontier is now about turning physics into a reliable machine.",
-          "entities": ["energy", "ITER", "materials-science"]
+          "entities": ["energy-systems", "ITER", "materials-science"]
         },
         {
           "name": "Precision measurement is becoming more important",
@@ -48,7 +48,7 @@
           "name": "Oxford Instruments",
           "summary": "Supplies precision scientific equipment used across labs, materials research, and cryogenic systems.",
           "whyItMatters": "Precision tooling is the bridge between theory and usable science.",
-          "entities": ["physics", "quantum"]
+          "entities": ["physics", "quantum-science"]
         }
       ]
     },
@@ -84,7 +84,7 @@
           "name": "Albert Einstein",
           "summary": "A symbol of first-principles thinking in physics and beyond.",
           "whyItMatters": "He remains the archetype for deep conceptual clarity.",
-          "entities": ["physics", "quantum"]
+          "entities": ["physics", "quantum-science"]
         },
         {
           "name": "Richard Feynman",
@@ -96,7 +96,7 @@
           "name": "Donna Strickland",
           "summary": "Represents the experimental and optical frontier of modern physics.",
           "whyItMatters": "Her work shows how precision optics can change the practical frontier.",
-          "entities": ["physics", "energy"]
+          "entities": ["physics", "energy-systems"]
         }
       ]
     },
@@ -114,7 +114,7 @@
           "name": "Can fusion become commercially meaningful?",
           "summary": "The question is no longer whether fusion is scientifically interesting; it is whether it can become a reliable machine.",
           "whyItMatters": "The answer will affect energy strategy and long-range infrastructure planning.",
-          "entities": ["energy", "materials-science"]
+          "entities": ["energy-systems", "materials-science"]
         },
         {
           "name": "How should physics use AI?",

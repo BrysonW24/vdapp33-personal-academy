@@ -1,0 +1,200 @@
+{
+  "slug": "communication",
+  "kind": "topic",
+  "title": "Communication Truth Stack",
+  "summary": "Communication is best grounded in rhetoric, media theory, design, and the institutions that keep public information credible.",
+  "starterPack": [
+    "Start with audience, medium, and feedback.",
+    "Use evidence-based communication before virality.",
+    "Trust sources that improve clarity rather than amplify noise."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The basic structure of effective communication.",
+      "items": [
+        {
+          "name": "Audience matters",
+          "kind": "principle",
+          "description": "A message only works relative to the listener."
+        },
+        {
+          "name": "Medium changes meaning",
+          "kind": "principle",
+          "description": "A slide, speech, memo, and video are not the same thing."
+        },
+        {
+          "name": "Feedback closes the loop",
+          "kind": "principle",
+          "description": "You only know communication worked if it landed."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Where communication knowledge is grounded.",
+      "items": [
+        {
+          "name": "Poynter",
+          "kind": "institution",
+          "description": "Media literacy and journalism training.",
+          "link": "https://www.poynter.org/"
+        },
+        {
+          "name": "Reuters Institute",
+          "kind": "institution",
+          "description": "News, trust, and media research.",
+          "link": "https://reutersinstitute.politics.ox.ac.uk/"
+        },
+        {
+          "name": "University communication departments",
+          "kind": "institution",
+          "description": "Research on rhetoric, media, and organisation."
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Writers and teachers with strong communication craft.",
+      "items": [
+        {
+          "name": "Barbara Minto",
+          "kind": "person",
+          "description": "Structured thinking and the pyramid principle.",
+          "link": "https://www.barbaraminto.com/"
+        },
+        {
+          "name": "Chip and Dan Heath",
+          "kind": "person",
+          "description": "Clear writing on sticky ideas.",
+          "link": "https://heathbrothers.com/"
+        },
+        {
+          "name": "Nancy Duarte",
+          "kind": "person",
+          "description": "Communication and presentation design.",
+          "link": "https://www.duarte.com/"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People who communicate professionally.",
+      "items": [
+        {
+          "name": "Editors",
+          "kind": "person",
+          "description": "Improve clarity and consistency."
+        },
+        {
+          "name": "Speechwriters",
+          "kind": "person",
+          "description": "Write for public delivery."
+        },
+        {
+          "name": "Communications strategists",
+          "kind": "person",
+          "description": "Shape message, timing, and channel."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Where communication becomes institutional.",
+      "items": [
+        {
+          "name": "Newsrooms",
+          "kind": "institution",
+          "description": "Public information systems."
+        },
+        {
+          "name": "PR agencies",
+          "kind": "institution",
+          "description": "Message management and reputation work."
+        },
+        {
+          "name": "Communications teams",
+          "kind": "institution",
+          "description": "Internal and external messaging control."
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Communication writing worth reading.",
+      "items": [
+        {
+          "name": "Nieman Lab",
+          "kind": "publication",
+          "description": "News and media analysis.",
+          "link": "https://www.niemanlab.org/"
+        },
+        {
+          "name": "Poynter",
+          "kind": "publication",
+          "description": "Practical media and fact-checking resources.",
+          "link": "https://www.poynter.org/"
+        },
+        {
+          "name": "Harvard Business Review communication essays",
+          "kind": "publication",
+          "description": "Communication in work and leadership.",
+          "link": "https://hbr.org/"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video sources for communication craft.",
+      "items": [
+        {
+          "name": "TED Talks",
+          "kind": "channel",
+          "description": "Public speaking and idea communication.",
+          "link": "https://www.ted.com/"
+        },
+        {
+          "name": "BBC Ideas",
+          "kind": "channel",
+          "description": "Short explainers on communication and media.",
+          "link": "https://www.youtube.com/@bbcideas"
+        },
+        {
+          "name": "The Futur",
+          "kind": "channel",
+          "description": "Design and message craft.",
+          "link": "https://www.youtube.com/@thefutur"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "What is changing in communication.",
+      "items": [
+        {
+          "name": "Synthetic media",
+          "kind": "tool",
+          "description": "Authenticity and provenance matter more than before."
+        },
+        {
+          "name": "AI drafting tools",
+          "kind": "tool",
+          "description": "Writing workflows are changing across industries."
+        },
+        {
+          "name": "Misinformation detection",
+          "kind": "dataset",
+          "description": "Trust infrastructure is now a communication issue."
+        }
+      ]
+    }
+  ]
+}

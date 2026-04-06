@@ -1,0 +1,37 @@
+{
+  "slug": "mechanical-engineering-frameworks",
+  "title": "Mechanical Engineering Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Mechanical Engineering.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Mechanical Engineering matters because it helps you reason about vehicles, industrial equipment, robotics, energy systems, and product hardware.",
+  "coreConcepts": [
+    "forces",
+    "motion",
+    "thermodynamics",
+    "materials",
+    "manufacturing",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "load and failure thinking",
+    "energy conversion",
+    "design for manufacture"
+  ],
+  "lessons": [
+    "mechanical-engineering-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "mechanical-engineering-systems-map",
+    "mechanical-engineering-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "mechanical-engineering-systems-and-processes",
+    "mechanical-engineering-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

@@ -21,13 +21,77 @@ import type {
 import { sortModulesForDisplay } from "@/lib/teaching-contract"
 
 const CONTENT_DIR = path.join(process.cwd(), "content/curriculum")
+const SUBJECT_MANIFEST_ALIASES: Record<
+  string,
+  { slug: string; name: string; shortName: string }
+> = {
+  quantum: {
+    slug: "quantum-science",
+    name: "Quantum Science",
+    shortName: "Quantum Science",
+  },
+}
+
+const SYNTHETIC_SUBJECTS: SubjectManifest[] = [
+  {
+    kind: "subject",
+    slug: "energy-systems",
+    name: "Energy Systems",
+    shortName: "Energy Systems",
+    group: "engineering",
+    icon: "Zap",
+    color: "#F59E0B",
+    tagline: "How humanity generates, stores, transmits, and consumes the power that drives civilisation.",
+    description:
+      "The physics, engineering, economics, and politics of power generation and consumption.",
+    blueprintSlug: "blueprint",
+    deepDivePages: [],
+    order: 2,
+  },
+]
+
+function getSubjectDir(slug: string) {
+  const directPath = path.join(CONTENT_DIR, slug, "manifest.json")
+  if (fs.existsSync(directPath)) return slug
+
+  if (
+    slug === "quantum-science" &&
+    fs.existsSync(path.join(CONTENT_DIR, "quantum", "manifest.json"))
+  ) {
+    return "quantum"
+  }
+
+  if (
+    slug === "quantum" &&
+    fs.existsSync(path.join(CONTENT_DIR, "quantum-science", "manifest.json"))
+  ) {
+    return "quantum-science"
+  }
+
+  return slug
+}
+
+function transformSubjectManifest(
+  raw: SubjectManifest,
+  sourceSlug: string
+): SubjectManifest {
+  const alias = SUBJECT_MANIFEST_ALIASES[sourceSlug]
+  if (!alias) return raw
+
+  return {
+    ...raw,
+    slug: alias.slug,
+    name: alias.name,
+    shortName: alias.shortName,
+  }
+}
 
 function readJsonDir<T>(
   subject: string,
   dir: string,
   schema: { parse: (data: unknown) => T }
 ): T[] {
-  const fullPath = path.join(CONTENT_DIR, subject, dir)
+  const fullPath = path.join(CONTENT_DIR, getSubjectDir(subject), dir)
   if (!fs.existsSync(fullPath)) return []
 
   return fs
@@ -44,7 +108,7 @@ function readJsonFile<T>(
   filePath: string,
   schema: { parse: (data: unknown) => T }
 ): T | null {
-  const fullPath = path.join(CONTENT_DIR, subject, filePath)
+  const fullPath = path.join(CONTENT_DIR, getSubjectDir(subject), filePath)
   if (!fs.existsSync(fullPath)) return null
 
   const raw = JSON.parse(fs.readFileSync(fullPath, "utf-8"))
@@ -54,30 +118,52 @@ function readJsonFile<T>(
 export function getSubjects(): SubjectManifest[] {
   if (!fs.existsSync(CONTENT_DIR)) return []
 
-  return fs
+  const hasCanonicalQuantumScience = fs.existsSync(
+    path.join(CONTENT_DIR, "quantum-science", "manifest.json")
+  )
+  const hasEnergySystems = fs.existsSync(
+    path.join(CONTENT_DIR, "energy-systems", "manifest.json")
+  )
+
+  const subjects = fs
     .readdirSync(CONTENT_DIR, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
     .filter((entry) =>
       fs.existsSync(path.join(CONTENT_DIR, entry.name, "manifest.json"))
     )
-    .map((entry) => {
+    .flatMap((entry) => {
+      if (entry.name === "quantum" && hasCanonicalQuantumScience) return []
+
       const raw = JSON.parse(
         fs.readFileSync(
           path.join(CONTENT_DIR, entry.name, "manifest.json"),
           "utf-8"
         )
       )
-      return SubjectManifestSchema.parse(raw)
+      const parsed = SubjectManifestSchema.parse(raw)
+      return [transformSubjectManifest(parsed, entry.name)]
     })
-    .sort((a, b) => a.order - b.order)
+  
+  if (!hasEnergySystems) {
+    subjects.push(...SYNTHETIC_SUBJECTS)
+  }
+
+  return subjects.sort((a, b) => a.order - b.order)
 }
 
 export function getSubject(slug: string): SubjectManifest | null {
-  const manifestPath = path.join(CONTENT_DIR, slug, "manifest.json")
+  const syntheticSubject = SYNTHETIC_SUBJECTS.find((subject) => subject.slug === slug)
+  if (syntheticSubject && !fs.existsSync(path.join(CONTENT_DIR, slug, "manifest.json"))) {
+    return syntheticSubject
+  }
+
+  const resolvedSlug = getSubjectDir(slug)
+  const manifestPath = path.join(CONTENT_DIR, resolvedSlug, "manifest.json")
   if (!fs.existsSync(manifestPath)) return null
 
   const raw = JSON.parse(fs.readFileSync(manifestPath, "utf-8"))
-  return SubjectManifestSchema.parse(raw)
+  const parsed = SubjectManifestSchema.parse(raw)
+  return transformSubjectManifest(parsed, resolvedSlug)
 }
 
 export function getSubjectSlugs(): string[] {

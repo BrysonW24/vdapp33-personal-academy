@@ -1,0 +1,37 @@
+{
+  "slug": "supply-chain-logistics-frameworks",
+  "title": "Supply Chain & Logistics Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Supply Chain & Logistics.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Supply Chain & Logistics matters because it helps you reason about manufacturing, retail, defense, food systems, and global trade.",
+  "coreConcepts": [
+    "inventory",
+    "forecasting",
+    "transport",
+    "warehousing",
+    "suppliers",
+    "service levels"
+  ],
+  "mentalModels": [
+    "flow and bottleneck thinking",
+    "inventory-position tradeoffs",
+    "resilience vs efficiency"
+  ],
+  "lessons": [
+    "supply-chain-logistics-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "supply-chain-logistics-systems-map",
+    "supply-chain-logistics-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "supply-chain-logistics-systems-and-processes",
+    "supply-chain-logistics-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

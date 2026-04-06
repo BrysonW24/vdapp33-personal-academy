@@ -1,0 +1,36 @@
+{
+  "slug": "chemistry-systems-and-processes",
+  "title": "Chemistry Systems and Processes",
+  "shortSummary": "See how Chemistry moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Chemistry matters because it helps you reason about materials, medicine, manufacturing, energy storage, and life processes.",
+  "coreConcepts": [
+    "atomic structure",
+    "bonding",
+    "thermodynamics",
+    "kinetics",
+    "equilibrium",
+    "analysis"
+  ],
+  "mentalModels": [
+    "structure-property relationships",
+    "reaction pathways",
+    "equilibrium tradeoffs"
+  ],
+  "lessons": [
+    "chemistry-systems-in-the-world"
+  ],
+  "frameworks": [
+    "chemistry-systems-map"
+  ],
+  "relatedModules": [
+    "chemistry-applications",
+    "working-in-chemistry"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

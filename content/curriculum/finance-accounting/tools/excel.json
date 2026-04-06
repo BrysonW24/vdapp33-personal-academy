@@ -1,0 +1,23 @@
+{
+  "slug": "excel",
+  "name": "Microsoft Excel",
+  "category": "modeling",
+  "description": "Microsoft Excel is a useful modeling surface inside Finance & Accounting.",
+  "whyUseIt": "People in Finance & Accounting use Microsoft Excel to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.microsoft.com/microsoft-365/excel",
+  "alternatives": [
+    "Xero",
+    "Power BI"
+  ],
+  "outputs": [
+    "Finance & Accounting working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Microsoft Excel as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Microsoft Excel."
+  ],
+  "relatedProject": "map-a-finance-accounting-system"
+}

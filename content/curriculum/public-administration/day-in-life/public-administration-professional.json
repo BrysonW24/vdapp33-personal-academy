@@ -1,0 +1,80 @@
+{
+  "slug": "public-administration-professional",
+  "title": "A Day as a Policy Officer",
+  "setting": "A government department turning ministerial direction into implementable policy and operational decisions.",
+  "companySize": "Mid-sized to large organization with cross-functional coordination and measurable delivery pressure.",
+  "description": "You work as a policy officer using Public Administration to notice patterns, frame decisions, and improve outcomes under real constraints.",
+  "salary": "$95,000 - $145,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review the current system state and pending priorities",
+      "tools": [
+        "Microsoft Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "time": "09:30",
+      "activity": "Team check-in on risks, decisions, and dependencies",
+      "tools": [
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "time": "11:00",
+      "activity": "Deep work on a live public program or institutional delivery problem",
+      "tools": [
+        "Microsoft Excel",
+        "Power BI",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "time": "13:00",
+      "activity": "Stakeholder or operator discussion",
+      "tools": [
+        "Microsoft Excel"
+      ],
+      "note": "The useful work usually sits where models meet people and constraints."
+    },
+    {
+      "time": "15:00",
+      "activity": "Analysis, documentation, or design iteration",
+      "tools": [
+        "Microsoft Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "time": "17:00",
+      "activity": "Close out notes, decisions, and the next day’s handoff",
+      "tools": [
+        "Microsoft Excel"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Use Public Administration to frame real problems instead of reacting at surface level.",
+    "Translate complexity into clearer choices for other people.",
+    "Balance quality, speed, cost, and institutional constraints.",
+    "Document decisions well enough that others can build on them."
+  ],
+  "challenges": [
+    "The field rarely arrives as a clean textbook version of Public Administration.",
+    "Time pressure, incomplete information, and competing priorities distort judgment.",
+    "Good work is often invisible when systems are stable and only obvious when they fail."
+  ],
+  "rewards": [
+    "You get to make Public Administration feel real, usable, and consequential.",
+    "The work improves your judgment far beyond the field itself.",
+    "You become the kind of person who can simplify complexity without flattening it."
+  ],
+  "careerPath": [
+    "Graduate / junior policy officer",
+    "Mid-level policy officer",
+    "Senior policy officer",
+    "Lead / principal role",
+    "Head of function or specialist advisor"
+  ]
+}

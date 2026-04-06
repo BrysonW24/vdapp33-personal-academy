@@ -1,0 +1,37 @@
+{
+  "slug": "space-infrastructure-frameworks",
+  "title": "Space Infrastructure Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Space Infrastructure.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Space Infrastructure matters because it helps you reason about communications, earth observation, defense, navigation, and launch operations.",
+  "coreConcepts": [
+    "launch systems",
+    "satellites",
+    "ground stations",
+    "orbital operations",
+    "communications",
+    "resilience"
+  ],
+  "mentalModels": [
+    "space stack thinking",
+    "mission lifecycle planning",
+    "ground-to-orbit integration"
+  ],
+  "lessons": [
+    "space-infrastructure-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "space-infrastructure-systems-map",
+    "space-infrastructure-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "space-infrastructure-systems-and-processes",
+    "space-infrastructure-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

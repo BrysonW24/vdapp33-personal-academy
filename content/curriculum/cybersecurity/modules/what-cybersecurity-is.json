@@ -1,0 +1,36 @@
+{
+  "slug": "what-cybersecurity-is",
+  "title": "What Cybersecurity Is",
+  "shortSummary": "Get oriented to Cybersecurity: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Cybersecurity matters because it helps you reason about critical infrastructure, software, cloud systems, public institutions, and private companies.",
+  "coreConcepts": [
+    "threat models",
+    "identity",
+    "network security",
+    "application security",
+    "incident response",
+    "resilience"
+  ],
+  "mentalModels": [
+    "attack surface thinking",
+    "defence in depth",
+    "risk vs usability tradeoffs"
+  ],
+  "lessons": [
+    "what-is-cybersecurity"
+  ],
+  "frameworks": [
+    "cybersecurity-systems-map"
+  ],
+  "relatedModules": [
+    "cybersecurity-mental-models",
+    "cybersecurity-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

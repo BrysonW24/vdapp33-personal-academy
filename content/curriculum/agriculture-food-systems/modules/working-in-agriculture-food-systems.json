@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-agriculture-food-systems",
+  "title": "Working in Agriculture & Food Systems",
+  "shortSummary": "Understand what people in Agriculture & Food Systems actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Agriculture & Food Systems matters because it helps you reason about farming, food security, agtech, trade, sustainability, and rural economies.",
+  "coreConcepts": [
+    "soil",
+    "water",
+    "crop systems",
+    "inputs",
+    "supply chains",
+    "food security"
+  ],
+  "mentalModels": [
+    "farm-to-system thinking",
+    "yield vs resilience tradeoffs",
+    "resource constraint planning"
+  ],
+  "lessons": [
+    "agriculture-food-systems-career-reality"
+  ],
+  "frameworks": [
+    "agriculture-food-systems-systems-map"
+  ],
+  "relatedModules": [
+    "what-agriculture-food-systems-is",
+    "agriculture-food-systems-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

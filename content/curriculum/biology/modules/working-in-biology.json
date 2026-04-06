@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-biology",
+  "title": "Working in Biology",
+  "shortSummary": "Understand what people in Biology actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Biology matters because it helps you reason about medicine, conservation, agriculture, ecology, and biotechnology.",
+  "coreConcepts": [
+    "cells",
+    "genes",
+    "metabolism",
+    "evolution",
+    "physiology",
+    "ecology"
+  ],
+  "mentalModels": [
+    "form and function",
+    "evolutionary pressure",
+    "systems within systems"
+  ],
+  "lessons": [
+    "biology-career-reality"
+  ],
+  "frameworks": [
+    "biology-systems-map"
+  ],
+  "relatedModules": [
+    "what-biology-is",
+    "biology-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "data-science-frameworks",
+  "title": "Data Science Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Data Science.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Data Science matters because it helps you reason about forecasting, experimentation, product analytics, operations, and research.",
+  "coreConcepts": [
+    "data cleaning",
+    "statistics",
+    "experimentation",
+    "modeling",
+    "evaluation",
+    "communication"
+  ],
+  "mentalModels": [
+    "signal vs noise",
+    "causation vs correlation",
+    "model lifecycle thinking"
+  ],
+  "lessons": [
+    "data-science-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "data-science-systems-map",
+    "data-science-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "data-science-systems-and-processes",
+    "data-science-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

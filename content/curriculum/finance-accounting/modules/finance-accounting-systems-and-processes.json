@@ -1,0 +1,36 @@
+{
+  "slug": "finance-accounting-systems-and-processes",
+  "title": "Finance & Accounting Systems and Processes",
+  "shortSummary": "See how Finance & Accounting moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Finance & Accounting matters because it helps you reason about budgeting, reporting, valuation, control, capital allocation, and compliance.",
+  "coreConcepts": [
+    "statements",
+    "cash flow",
+    "profitability",
+    "controls",
+    "capital",
+    "reporting"
+  ],
+  "mentalModels": [
+    "cash vs accrual",
+    "unit economics",
+    "control and stewardship"
+  ],
+  "lessons": [
+    "finance-accounting-systems-in-the-world"
+  ],
+  "frameworks": [
+    "finance-accounting-systems-map"
+  ],
+  "relatedModules": [
+    "finance-accounting-applications",
+    "working-in-finance-accounting"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

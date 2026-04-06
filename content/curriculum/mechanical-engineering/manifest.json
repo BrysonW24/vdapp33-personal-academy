@@ -1,0 +1,12 @@
+{
+  "slug": "mechanical-engineering",
+  "name": "Mechanical Engineering",
+  "shortName": "Mechanical Engineering",
+  "group": "engineering",
+  "icon": "Cog",
+  "color": "#B45309",
+  "tagline": "Machines, motion, heat, manufacturing, and the engineered systems that move the physical world.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 17
+}

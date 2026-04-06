@@ -1,0 +1,36 @@
+{
+  "slug": "biology-applications",
+  "title": "Biology Applications",
+  "shortSummary": "Trace where Biology shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Biology matters because it helps you reason about medicine, conservation, agriculture, ecology, and biotechnology.",
+  "coreConcepts": [
+    "cells",
+    "genes",
+    "metabolism",
+    "evolution",
+    "physiology",
+    "ecology"
+  ],
+  "mentalModels": [
+    "form and function",
+    "evolutionary pressure",
+    "systems within systems"
+  ],
+  "lessons": [
+    "biology-where-it-shows-up"
+  ],
+  "frameworks": [
+    "biology-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-biology",
+    "what-biology-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "sociology-applications",
+  "title": "Sociology Applications",
+  "shortSummary": "Trace where Sociology shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Sociology matters because it helps you reason about policy, research, education, organisations, and social analysis.",
+  "coreConcepts": [
+    "institutions",
+    "norms",
+    "class",
+    "identity",
+    "culture",
+    "social change"
+  ],
+  "mentalModels": [
+    "structure vs agency",
+    "social stratification",
+    "institutional reproduction"
+  ],
+  "lessons": [
+    "sociology-where-it-shows-up"
+  ],
+  "frameworks": [
+    "sociology-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-sociology",
+    "what-sociology-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

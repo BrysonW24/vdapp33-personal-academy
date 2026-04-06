@@ -1,0 +1,23 @@
+{
+  "slug": "python",
+  "name": "Python",
+  "category": "programming",
+  "description": "Python is a useful programming surface inside Data Science.",
+  "whyUseIt": "People in Data Science use Python to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.python.org/",
+  "alternatives": [
+    "dbt",
+    "Tableau"
+  ],
+  "outputs": [
+    "Data Science working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Python as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Python."
+  ],
+  "relatedProject": "map-a-data-science-system"
+}

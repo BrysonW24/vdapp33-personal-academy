@@ -1,0 +1,12 @@
+{
+  "slug": "demography",
+  "name": "Demography",
+  "shortName": "Demography",
+  "group": "society",
+  "icon": "UsersRound",
+  "color": "#9333EA",
+  "tagline": "Population change, migration, fertility, ageing, and the numbers that shape long-term planning.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 24
+}

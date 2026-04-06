@@ -1,0 +1,12 @@
+{
+  "slug": "energy-systems",
+  "name": "Energy Systems",
+  "shortName": "Energy Systems",
+  "group": "engineering",
+  "icon": "Zap",
+  "color": "#F59E0B",
+  "tagline": "How power is generated, stored, transmitted, and governed across civilization.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 8
+}

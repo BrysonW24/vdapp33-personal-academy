@@ -1,0 +1,23 @@
+{
+  "slug": "bioreactors",
+  "name": "Bioreactor Systems",
+  "category": "process",
+  "description": "Bioreactor Systems is a useful process surface inside Biotechnology.",
+  "whyUseIt": "People in Biotechnology use Bioreactor Systems to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.thermofisher.com/",
+  "alternatives": [
+    "Benchling",
+    "SnapGene"
+  ],
+  "outputs": [
+    "Biotechnology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Bioreactor Systems as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Bioreactor Systems."
+  ],
+  "relatedProject": "map-a-biotechnology-system"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "cybersecurity-systems-map",
+  "name": "Cybersecurity Systems Map",
+  "summary": "A repeatable way to map the units, flows, constraints, stakeholders, and outcomes that matter in Cybersecurity.",
+  "whenToUseIt": "Use this whenever Cybersecurity feels too broad and you need a cleaner picture of what is interacting with what.",
+  "steps": [
+    "Define the system boundary clearly.",
+    "List the key units, actors, or components.",
+    "Trace the important flows, dependencies, and constraints.",
+    "Name the measures that tell you if the system is healthy or failing.",
+    "Identify where intervention has the highest leverage."
+  ],
+  "example": "Use it on a phishing incident to see how structure, incentives, and constraints interact.",
+  "category": "systems",
+  "domain": "Cybersecurity"
+}

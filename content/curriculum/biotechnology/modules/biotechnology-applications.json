@@ -1,0 +1,36 @@
+{
+  "slug": "biotechnology-applications",
+  "title": "Biotechnology Applications",
+  "shortSummary": "Trace where Biotechnology shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Biotechnology matters because it helps you reason about therapeutics, diagnostics, agriculture, fermentation, and industrial biology.",
+  "coreConcepts": [
+    "cell engineering",
+    "molecular tools",
+    "bioprocessing",
+    "regulation",
+    "scale-up",
+    "quality"
+  ],
+  "mentalModels": [
+    "bench-to-product translation",
+    "biology under constraints",
+    "scale-up bottlenecks"
+  ],
+  "lessons": [
+    "biotechnology-where-it-shows-up"
+  ],
+  "frameworks": [
+    "biotechnology-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-biotechnology",
+    "what-biotechnology-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

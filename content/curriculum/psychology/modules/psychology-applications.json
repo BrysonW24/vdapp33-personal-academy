@@ -1,0 +1,36 @@
+{
+  "slug": "psychology-applications",
+  "title": "Psychology Applications",
+  "shortSummary": "Trace where Psychology shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Psychology matters because it helps you reason about mental health, education, workplaces, research, design, and behavior change.",
+  "coreConcepts": [
+    "cognition",
+    "development",
+    "emotion",
+    "personality",
+    "learning",
+    "research methods"
+  ],
+  "mentalModels": [
+    "behavior in context",
+    "bias and heuristics",
+    "development across time"
+  ],
+  "lessons": [
+    "psychology-where-it-shows-up"
+  ],
+  "frameworks": [
+    "psychology-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-psychology",
+    "what-psychology-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

@@ -24,7 +24,7 @@
           "name": "Field robotics is expanding beyond factories",
           "summary": "Mining, agriculture, inspection, and defense are pushing robots into unstructured environments.",
           "whyItMatters": "Robotics matters most when the environment stops being neat.",
-          "entities": ["aerospace", "energy", "commercial-property-management"]
+          "entities": ["aerospace", "energy-systems", "commercial-property-management"]
         }
       ]
     },

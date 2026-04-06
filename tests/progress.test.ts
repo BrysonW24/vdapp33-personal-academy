@@ -42,4 +42,28 @@ describe("progress migration", () => {
     expect(migrated.subjects.physics?.completedModules).toEqual(["motion"])
     expect(migrated.viewedTools).toEqual(["jupyter"])
   })
+
+  it("maps legacy quantum progress onto quantum-science", () => {
+    const migrated = migrateProgressState({
+      subjects: {
+        quantum: {
+          completedModules: ["qubit-basics"],
+          completedLessons: ["superposition"],
+          completedProjects: ["bell-state-demo"],
+          completedFrameworks: ["bloch-sphere"],
+          viewedTools: ["qiskit"],
+          quizResults: {
+            superposition: { score: 5, total: 5 },
+          },
+        },
+      },
+    })
+
+    expect(migrated.subjects["quantum-science"]?.completedModules).toEqual([
+      "qubit-basics",
+    ])
+    expect(migrated.subjects.quantum).toBeUndefined()
+    expect(migrated.completedProjects).toContain("bell-state-demo")
+    expect(migrated.quizResults.superposition).toEqual({ score: 5, total: 5 })
+  })
 })

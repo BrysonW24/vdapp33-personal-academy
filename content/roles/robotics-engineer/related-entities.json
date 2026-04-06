@@ -1,5 +1,5 @@
 {
-  "relatedSubjects": ["robotics"],
-  "relatedTopics": ["artificial-intelligence", "energy"],
+  "relatedSubjects": ["robotics", "energy-systems"],
+  "relatedTopics": ["artificial-intelligence"],
   "relatedRoles": ["ai-researcher", "pilot"]
 }

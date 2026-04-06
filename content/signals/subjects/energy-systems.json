@@ -1,0 +1,128 @@
+{
+  "slug": "energy-systems",
+  "kind": "subject",
+  "title": "Energy Systems Signals",
+  "summary": "Energy Systems tracks the infrastructure, institutions, and debates shaping how civilization powers itself.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major developments",
+      "items": [
+        {
+          "name": "Grid-scale storage is becoming a planning assumption",
+          "summary": "Storage is moving from pilot novelty to core system planning input.",
+          "whyItMatters": "The energy system is increasingly designed around flexibility, not just generation.",
+          "entities": [
+            "energy-systems",
+            "electrical-engineering"
+          ]
+        },
+        {
+          "name": "Transmission build-out is becoming a first-order constraint",
+          "summary": "Generation growth is outpacing grid connection and long-distance transmission in many regions.",
+          "whyItMatters": "Energy transition speed now depends as much on wires and approvals as on technology costs.",
+          "entities": [
+            "energy-systems",
+            "public-administration"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important companies",
+      "items": [
+        {
+          "name": "Siemens Energy",
+          "summary": "Important in turbines, grid systems, and transition hardware.",
+          "whyItMatters": "It sits where generation, transmission, and industrial hardware meet.",
+          "entities": [
+            "energy-systems",
+            "mechanical-engineering"
+          ]
+        },
+        {
+          "name": "Tesla Energy",
+          "summary": "Visible in storage, battery systems, and integrated energy products.",
+          "whyItMatters": "It keeps battery deployment and system integration in the mainstream conversation.",
+          "entities": [
+            "energy-systems",
+            "finance-accounting"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important institutions",
+      "items": [
+        {
+          "name": "IEA",
+          "summary": "Primary global energy analysis and scenario framing.",
+          "whyItMatters": "It is one of the clearest sources for seeing the whole system rather than one technology silo.",
+          "entities": [
+            "energy-systems",
+            "economics"
+          ]
+        },
+        {
+          "name": "AEMO",
+          "summary": "Central to Australian market and grid operations.",
+          "whyItMatters": "It anchors how energy systems behave in the Australian context.",
+          "entities": [
+            "energy-systems",
+            "politics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable people",
+      "items": [
+        {
+          "name": "Vaclav Smil",
+          "summary": "A major systems thinker on energy, materials, and civilization scale.",
+          "whyItMatters": "He keeps energy conversations grounded in physical reality.",
+          "entities": [
+            "energy-systems",
+            "world-history"
+          ]
+        },
+        {
+          "name": "Michael Liebreich",
+          "summary": "A pragmatic interpreter of transition economics and deployment.",
+          "whyItMatters": "He helps translate hype into usable strategic distinctions.",
+          "entities": [
+            "energy-systems",
+            "finance-accounting"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active debates",
+      "items": [
+        {
+          "name": "How much storage is enough?",
+          "summary": "The debate is not just about batteries, but about duration, grid design, and firming mix.",
+          "whyItMatters": "Storage assumptions shape capital allocation and reliability strategy.",
+          "entities": [
+            "energy-systems",
+            "electrical-engineering"
+          ]
+        },
+        {
+          "name": "What mix of renewables, nuclear, and firming makes sense?",
+          "summary": "The key dispute is system design under different geographies, politics, and risk appetites.",
+          "whyItMatters": "Bad framing here leads to slogan fights instead of infrastructure choices.",
+          "entities": [
+            "energy-systems",
+            "law"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "mechanical-engineering-mental-models",
+  "title": "Mechanical Engineering Mental Models",
+  "shortSummary": "Learn the compact mental models that make Mechanical Engineering easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Mechanical Engineering matters because it helps you reason about vehicles, industrial equipment, robotics, energy systems, and product hardware.",
+  "coreConcepts": [
+    "forces",
+    "motion",
+    "thermodynamics",
+    "materials",
+    "manufacturing",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "load and failure thinking",
+    "energy conversion",
+    "design for manufacture"
+  ],
+  "lessons": [
+    "mechanical-engineering-thinking"
+  ],
+  "frameworks": [
+    "mechanical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "mechanical-engineering-frameworks",
+    "mechanical-engineering-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

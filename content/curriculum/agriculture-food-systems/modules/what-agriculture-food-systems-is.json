@@ -1,0 +1,36 @@
+{
+  "slug": "what-agriculture-food-systems-is",
+  "title": "What Agriculture & Food Systems Is",
+  "shortSummary": "Get oriented to Agriculture & Food Systems: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Agriculture & Food Systems matters because it helps you reason about farming, food security, agtech, trade, sustainability, and rural economies.",
+  "coreConcepts": [
+    "soil",
+    "water",
+    "crop systems",
+    "inputs",
+    "supply chains",
+    "food security"
+  ],
+  "mentalModels": [
+    "farm-to-system thinking",
+    "yield vs resilience tradeoffs",
+    "resource constraint planning"
+  ],
+  "lessons": [
+    "what-is-agriculture-food-systems"
+  ],
+  "frameworks": [
+    "agriculture-food-systems-systems-map"
+  ],
+  "relatedModules": [
+    "agriculture-food-systems-mental-models",
+    "agriculture-food-systems-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

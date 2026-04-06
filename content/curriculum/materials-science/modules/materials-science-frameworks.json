@@ -1,0 +1,37 @@
+{
+  "slug": "materials-science-frameworks",
+  "title": "Materials Science Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Materials Science.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Materials Science matters because it helps you reason about electronics, aerospace, energy storage, construction, and manufacturing.",
+  "coreConcepts": [
+    "microstructure",
+    "processing",
+    "mechanical properties",
+    "electronic properties",
+    "failure",
+    "selection"
+  ],
+  "mentalModels": [
+    "structure-processing-property-performance chain",
+    "failure analysis",
+    "materials tradeoff curves"
+  ],
+  "lessons": [
+    "materials-science-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "materials-science-systems-map",
+    "materials-science-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "materials-science-systems-and-processes",
+    "materials-science-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "snapgene",
+  "name": "SnapGene",
+  "category": "sequence-design",
+  "description": "SnapGene is a useful sequence design surface inside Biotechnology.",
+  "whyUseIt": "People in Biotechnology use SnapGene to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.snapgene.com/",
+  "alternatives": [
+    "Benchling",
+    "Bioreactor Systems"
+  ],
+  "outputs": [
+    "Biotechnology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SnapGene as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SnapGene."
+  ],
+  "relatedProject": "map-a-biotechnology-system"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "excel",
+  "name": "Microsoft Excel",
+  "category": "analysis",
+  "description": "Microsoft Excel is a useful analysis surface inside Public Administration.",
+  "whyUseIt": "People in Public Administration use Microsoft Excel to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.microsoft.com/microsoft-365/excel",
+  "alternatives": [
+    "Power BI",
+    "Microsoft Teams"
+  ],
+  "outputs": [
+    "Public Administration working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Microsoft Excel as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Microsoft Excel."
+  ],
+  "relatedProject": "map-a-public-administration-system"
+}

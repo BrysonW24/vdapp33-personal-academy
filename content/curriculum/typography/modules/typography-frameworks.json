@@ -1,0 +1,37 @@
+{
+  "slug": "typography-frameworks",
+  "title": "Typography Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Typography.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Typography matters because it helps you reason about books, interfaces, brands, publishing, advertising, and information design.",
+  "coreConcepts": [
+    "hierarchy",
+    "rhythm",
+    "spacing",
+    "contrast",
+    "type families",
+    "readability"
+  ],
+  "mentalModels": [
+    "type as voice",
+    "hierarchy before decoration",
+    "spacing creates tone"
+  ],
+  "lessons": [
+    "typography-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "typography-systems-map",
+    "typography-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "typography-systems-and-processes",
+    "typography-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

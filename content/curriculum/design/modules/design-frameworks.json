@@ -1,0 +1,37 @@
+{
+  "slug": "design-frameworks",
+  "title": "Design Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Design.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Design matters because it helps you reason about interfaces, products, brands, services, spaces, and communication.",
+  "coreConcepts": [
+    "hierarchy",
+    "constraints",
+    "composition",
+    "usability",
+    "iteration",
+    "meaning"
+  ],
+  "mentalModels": [
+    "form follows intent",
+    "design under constraints",
+    "feedback-driven iteration"
+  ],
+  "lessons": [
+    "design-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "design-systems-map",
+    "design-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "design-systems-and-processes",
+    "design-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

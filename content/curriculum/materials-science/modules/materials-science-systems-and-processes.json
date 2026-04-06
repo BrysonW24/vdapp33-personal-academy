@@ -1,0 +1,36 @@
+{
+  "slug": "materials-science-systems-and-processes",
+  "title": "Materials Science Systems and Processes",
+  "shortSummary": "See how Materials Science moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Materials Science matters because it helps you reason about electronics, aerospace, energy storage, construction, and manufacturing.",
+  "coreConcepts": [
+    "microstructure",
+    "processing",
+    "mechanical properties",
+    "electronic properties",
+    "failure",
+    "selection"
+  ],
+  "mentalModels": [
+    "structure-processing-property-performance chain",
+    "failure analysis",
+    "materials tradeoff curves"
+  ],
+  "lessons": [
+    "materials-science-systems-in-the-world"
+  ],
+  "frameworks": [
+    "materials-science-systems-map"
+  ],
+  "relatedModules": [
+    "materials-science-applications",
+    "working-in-materials-science"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

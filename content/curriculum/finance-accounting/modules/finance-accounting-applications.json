@@ -1,0 +1,36 @@
+{
+  "slug": "finance-accounting-applications",
+  "title": "Finance & Accounting Applications",
+  "shortSummary": "Trace where Finance & Accounting shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Finance & Accounting matters because it helps you reason about budgeting, reporting, valuation, control, capital allocation, and compliance.",
+  "coreConcepts": [
+    "statements",
+    "cash flow",
+    "profitability",
+    "controls",
+    "capital",
+    "reporting"
+  ],
+  "mentalModels": [
+    "cash vs accrual",
+    "unit economics",
+    "control and stewardship"
+  ],
+  "lessons": [
+    "finance-accounting-where-it-shows-up"
+  ],
+  "frameworks": [
+    "finance-accounting-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-finance-accounting",
+    "what-finance-accounting-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

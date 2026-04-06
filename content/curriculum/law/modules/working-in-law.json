@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-law",
+  "title": "Working in Law",
+  "shortSummary": "Understand what people in Law actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Law matters because it helps you reason about courts, contracts, regulation, public administration, business, and civil rights.",
+  "coreConcepts": [
+    "statutes",
+    "precedent",
+    "interpretation",
+    "procedure",
+    "evidence",
+    "enforcement"
+  ],
+  "mentalModels": [
+    "text-context-purpose interpretation",
+    "rights vs powers",
+    "procedure as risk control"
+  ],
+  "lessons": [
+    "law-career-reality"
+  ],
+  "frameworks": [
+    "law-systems-map"
+  ],
+  "relatedModules": [
+    "what-law-is",
+    "law-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

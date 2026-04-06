@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-finance-accounting",
+  "title": "Working in Finance & Accounting",
+  "shortSummary": "Understand what people in Finance & Accounting actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Finance & Accounting matters because it helps you reason about budgeting, reporting, valuation, control, capital allocation, and compliance.",
+  "coreConcepts": [
+    "statements",
+    "cash flow",
+    "profitability",
+    "controls",
+    "capital",
+    "reporting"
+  ],
+  "mentalModels": [
+    "cash vs accrual",
+    "unit economics",
+    "control and stewardship"
+  ],
+  "lessons": [
+    "finance-accounting-career-reality"
+  ],
+  "frameworks": [
+    "finance-accounting-systems-map"
+  ],
+  "relatedModules": [
+    "what-finance-accounting-is",
+    "finance-accounting-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

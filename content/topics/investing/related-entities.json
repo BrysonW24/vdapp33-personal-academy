@@ -1,5 +1,15 @@
 {
-  "relatedSubjects": ["commercial-property-management"],
-  "relatedTopics": ["energy", "artificial-intelligence", "world-history"],
-  "relatedRoles": ["entrepreneur-startup-founder", "intelligence-analyst"]
+  "relatedSubjects": [
+    "commercial-property-management",
+    "energy-systems"
+  ],
+  "relatedTopics": [
+    "artificial-intelligence",
+    "world-history",
+    "economics"
+  ],
+  "relatedRoles": [
+    "entrepreneur-startup-founder",
+    "intelligence-analyst"
+  ]
 }

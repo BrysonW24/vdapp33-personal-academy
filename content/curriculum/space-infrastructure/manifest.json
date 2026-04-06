@@ -1,0 +1,12 @@
+{
+  "slug": "space-infrastructure",
+  "name": "Space Infrastructure",
+  "shortName": "Space Infrastructure",
+  "group": "engineering",
+  "icon": "Satellite",
+  "color": "#3B82F6",
+  "tagline": "Launch, satellites, ground systems, and the infrastructure that makes orbital activity possible.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 18
+}

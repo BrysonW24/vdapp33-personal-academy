@@ -18,7 +18,7 @@
           "name": "Energy performance is now a major management signal",
           "summary": "Utilities, efficiency, and sustainability ratings are increasingly material to asset value and tenant demand.",
           "whyItMatters": "Buildings are judged more by performance than by appearance alone.",
-          "entities": ["energy", "NABERS", "Green Building Council of Australia"]
+          "entities": ["energy-systems", "NABERS", "Green Building Council of Australia"]
         },
         {
           "name": "Tenant experience is becoming a service differentiator",
@@ -72,7 +72,7 @@
           "name": "NABERS",
           "summary": "A major Australian benchmark for building energy and environmental performance.",
           "whyItMatters": "It gives owners and managers a shared language for building performance.",
-          "entities": ["energy", "physics"]
+          "entities": ["energy-systems", "physics"]
         }
       ]
     },
@@ -120,7 +120,7 @@
           "name": "What matters most: cost, service, or sustainability?",
           "summary": "Asset owners increasingly want all three, but tradeoffs remain real.",
           "whyItMatters": "Every operating decision is really a tradeoff decision.",
-          "entities": ["energy", "finance-accounting"]
+          "entities": ["energy-systems", "finance-accounting"]
         }
       ]
     }

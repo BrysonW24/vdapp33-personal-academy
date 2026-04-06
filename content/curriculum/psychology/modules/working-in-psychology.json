@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-psychology",
+  "title": "Working in Psychology",
+  "shortSummary": "Understand what people in Psychology actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Psychology matters because it helps you reason about mental health, education, workplaces, research, design, and behavior change.",
+  "coreConcepts": [
+    "cognition",
+    "development",
+    "emotion",
+    "personality",
+    "learning",
+    "research methods"
+  ],
+  "mentalModels": [
+    "behavior in context",
+    "bias and heuristics",
+    "development across time"
+  ],
+  "lessons": [
+    "psychology-career-reality"
+  ],
+  "frameworks": [
+    "psychology-systems-map"
+  ],
+  "relatedModules": [
+    "what-psychology-is",
+    "psychology-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

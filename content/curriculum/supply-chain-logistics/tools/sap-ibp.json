@@ -1,0 +1,23 @@
+{
+  "slug": "sap-ibp",
+  "name": "SAP IBP",
+  "category": "planning",
+  "description": "SAP IBP is a useful planning surface inside Supply Chain & Logistics.",
+  "whyUseIt": "People in Supply Chain & Logistics use SAP IBP to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.sap.com/products/scm/integrated-business-planning.html",
+  "alternatives": [
+    "Oracle WMS",
+    "Power BI"
+  ],
+  "outputs": [
+    "Supply Chain & Logistics working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SAP IBP as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SAP IBP."
+  ],
+  "relatedProject": "map-a-supply-chain-logistics-system"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "space-infrastructure-applications",
+  "title": "Space Infrastructure Applications",
+  "shortSummary": "Trace where Space Infrastructure shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Space Infrastructure matters because it helps you reason about communications, earth observation, defense, navigation, and launch operations.",
+  "coreConcepts": [
+    "launch systems",
+    "satellites",
+    "ground stations",
+    "orbital operations",
+    "communications",
+    "resilience"
+  ],
+  "mentalModels": [
+    "space stack thinking",
+    "mission lifecycle planning",
+    "ground-to-orbit integration"
+  ],
+  "lessons": [
+    "space-infrastructure-where-it-shows-up"
+  ],
+  "frameworks": [
+    "space-infrastructure-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-space-infrastructure",
+    "what-space-infrastructure-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "law-applications",
+  "title": "Law Applications",
+  "shortSummary": "Trace where Law shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Law matters because it helps you reason about courts, contracts, regulation, public administration, business, and civil rights.",
+  "coreConcepts": [
+    "statutes",
+    "precedent",
+    "interpretation",
+    "procedure",
+    "evidence",
+    "enforcement"
+  ],
+  "mentalModels": [
+    "text-context-purpose interpretation",
+    "rights vs powers",
+    "procedure as risk control"
+  ],
+  "lessons": [
+    "law-where-it-shows-up"
+  ],
+  "frameworks": [
+    "law-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-law",
+    "what-law-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "gmAT",
+  "name": "GMAT",
+  "category": "orbital-analysis",
+  "description": "GMAT is a useful orbital analysis surface inside Space Infrastructure.",
+  "whyUseIt": "People in Space Infrastructure use GMAT to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://gmatcentral.org/",
+  "alternatives": [
+    "Systems Tool Kit",
+    "SatNOGS"
+  ],
+  "outputs": [
+    "Space Infrastructure working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using GMAT as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from GMAT."
+  ],
+  "relatedProject": "map-a-space-infrastructure-system"
+}

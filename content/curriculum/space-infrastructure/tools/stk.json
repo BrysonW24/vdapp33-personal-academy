@@ -1,0 +1,23 @@
+{
+  "slug": "stk",
+  "name": "Systems Tool Kit",
+  "category": "mission-analysis",
+  "description": "Systems Tool Kit is a useful mission analysis surface inside Space Infrastructure.",
+  "whyUseIt": "People in Space Infrastructure use Systems Tool Kit to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.ansys.com/products/missions/ansys-stk",
+  "alternatives": [
+    "GMAT",
+    "SatNOGS"
+  ],
+  "outputs": [
+    "Space Infrastructure working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Systems Tool Kit as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Systems Tool Kit."
+  ],
+  "relatedProject": "map-a-space-infrastructure-system"
+}

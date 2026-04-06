@@ -1,0 +1,12 @@
+{
+  "slug": "systems-engineering",
+  "name": "Systems Engineering",
+  "shortName": "Systems Engineering",
+  "group": "engineering",
+  "icon": "Waypoints",
+  "color": "#0F766E",
+  "tagline": "How complex systems are specified, integrated, verified, and managed across their lifecycle.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 14
+}

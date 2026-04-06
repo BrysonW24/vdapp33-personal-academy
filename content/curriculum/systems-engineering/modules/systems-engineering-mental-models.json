@@ -1,0 +1,36 @@
+{
+  "slug": "systems-engineering-mental-models",
+  "title": "Systems Engineering Mental Models",
+  "shortSummary": "Learn the compact mental models that make Systems Engineering easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Systems Engineering matters because it helps you reason about defense, aerospace, transport, energy, and large technical programs.",
+  "coreConcepts": [
+    "requirements",
+    "interfaces",
+    "integration",
+    "verification",
+    "risk",
+    "lifecycle thinking"
+  ],
+  "mentalModels": [
+    "system-of-systems thinking",
+    "interface control",
+    "verification traceability"
+  ],
+  "lessons": [
+    "systems-engineering-thinking"
+  ],
+  "frameworks": [
+    "systems-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "systems-engineering-frameworks",
+    "systems-engineering-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

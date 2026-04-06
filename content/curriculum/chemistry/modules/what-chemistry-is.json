@@ -1,0 +1,36 @@
+{
+  "slug": "what-chemistry-is",
+  "title": "What Chemistry Is",
+  "shortSummary": "Get oriented to Chemistry: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Chemistry matters because it helps you reason about materials, medicine, manufacturing, energy storage, and life processes.",
+  "coreConcepts": [
+    "atomic structure",
+    "bonding",
+    "thermodynamics",
+    "kinetics",
+    "equilibrium",
+    "analysis"
+  ],
+  "mentalModels": [
+    "structure-property relationships",
+    "reaction pathways",
+    "equilibrium tradeoffs"
+  ],
+  "lessons": [
+    "what-is-chemistry"
+  ],
+  "frameworks": [
+    "chemistry-systems-map"
+  ],
+  "relatedModules": [
+    "chemistry-mental-models",
+    "chemistry-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

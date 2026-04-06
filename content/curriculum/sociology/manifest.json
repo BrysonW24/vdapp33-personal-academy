@@ -1,0 +1,12 @@
+{
+  "slug": "sociology",
+  "name": "Sociology",
+  "shortName": "Sociology",
+  "group": "society",
+  "icon": "Users",
+  "color": "#8B5CF6",
+  "tagline": "How institutions, norms, class, identity, and culture shape collective life.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 21
+}

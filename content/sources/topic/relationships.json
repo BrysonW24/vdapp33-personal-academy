@@ -1,0 +1,201 @@
+{
+  "slug": "relationships",
+  "kind": "topic",
+  "title": "Relationships Truth Stack",
+  "summary": "Relationships are built from attachment, communication, trust, and repair, and the best sources explain those mechanics without turning them into slogans.",
+  "starterPack": [
+    "Start with attachment, communication, and repair before reaching for personality labels.",
+    "Use research-backed relationship science before advice culture.",
+    "Let good books and trained clinicians outrank viral relationship takes."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The core mechanics of healthy connection.",
+      "items": [
+        {
+          "name": "Attachment shapes closeness",
+          "kind": "principle",
+          "description": "People differ in how they seek security, autonomy, and reassurance."
+        },
+        {
+          "name": "Trust is built through consistency",
+          "kind": "principle",
+          "description": "Reliability matters more than intensity."
+        },
+        {
+          "name": "Repair matters after conflict",
+          "kind": "principle",
+          "description": "Healthy relationships are not conflict-free; they recover well."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Research and evidence-based relationship science.",
+      "items": [
+        {
+          "name": "Gottman Institute",
+          "kind": "institution",
+          "description": "Long-running relationship research and practical tools.",
+          "link": "https://www.gottman.com/"
+        },
+        {
+          "name": "APA relationship research",
+          "kind": "institution",
+          "description": "Psychology research across attachment and intimacy.",
+          "link": "https://www.apa.org/"
+        },
+        {
+          "name": "Journal of Social and Personal Relationships",
+          "kind": "journal",
+          "description": "Academic journal for relationship science.",
+          "link": "https://journals.sagepub.com/home/spr"
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Practitioners who explain relationships well.",
+      "items": [
+        {
+          "name": "John Gottman",
+          "kind": "person",
+          "description": "Researcher known for studying conflict and repair.",
+          "link": "https://www.gottman.com/about/the-gottman-method/"
+        },
+        {
+          "name": "Sue Johnson",
+          "kind": "person",
+          "description": "Attachment-focused couples therapist and author.",
+          "link": "https://drsuejohnson.com/"
+        },
+        {
+          "name": "Esther Perel",
+          "kind": "person",
+          "description": "Popular voice on intimacy, desire, and connection.",
+          "link": "https://www.estherperel.com/"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People working directly with relationship dynamics.",
+      "items": [
+        {
+          "name": "Couples therapists",
+          "kind": "person",
+          "description": "Help partners identify patterns and repair breakdowns."
+        },
+        {
+          "name": "Family therapists",
+          "kind": "person",
+          "description": "Work with broader family systems and tensions."
+        },
+        {
+          "name": "Mediators",
+          "kind": "person",
+          "description": "Support conflict resolution where interests differ."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Where relationship knowledge gets operationalised.",
+      "items": [
+        {
+          "name": "Therapy clinics",
+          "kind": "institution",
+          "description": "Where couples and families seek structured help."
+        },
+        {
+          "name": "Family law systems",
+          "kind": "institution",
+          "description": "Where relationship breakdown becomes formal process."
+        },
+        {
+          "name": "Counselling associations",
+          "kind": "institution",
+          "description": "Set practice standards and training pathways."
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public explainers worth trusting.",
+      "items": [
+        {
+          "name": "Psychology Today",
+          "kind": "publication",
+          "description": "Accessible relationship and psychology writing.",
+          "link": "https://www.psychologytoday.com/"
+        },
+        {
+          "name": "Greater Good Magazine",
+          "kind": "publication",
+          "description": "Evidence-informed writing on connection and wellbeing.",
+          "link": "https://greatergood.berkeley.edu/"
+        },
+        {
+          "name": "The Gottman Blog",
+          "kind": "publication",
+          "description": "Practical research-backed relationship guidance.",
+          "link": "https://www.gottman.com/blog/"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video and long-form sources.",
+      "items": [
+        {
+          "name": "Esther Perel Talks",
+          "kind": "channel",
+          "description": "Public talks on intimacy and connection.",
+          "link": "https://www.youtube.com/@estherperelofficial"
+        },
+        {
+          "name": "TED Talks on relationships",
+          "kind": "channel",
+          "description": "Wide public discussions of intimacy and family life.",
+          "link": "https://www.ted.com/"
+        },
+        {
+          "name": "The School of Life",
+          "kind": "channel",
+          "description": "Philosophical relationship explainers.",
+          "link": "https://www.youtube.com/@theschooloflife"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "What is changing around relationships now.",
+      "items": [
+        {
+          "name": "Digital dating norms",
+          "kind": "tool",
+          "description": "App design and swiping behaviour are reshaping mate choice."
+        },
+        {
+          "name": "Loneliness research",
+          "kind": "journal",
+          "description": "The public-health cost of weak social connection is increasingly studied."
+        },
+        {
+          "name": "Therapy literacy",
+          "kind": "publication",
+          "description": "More people are learning relationship language through popular psychology."
+        }
+      ]
+    }
+  ]
+}

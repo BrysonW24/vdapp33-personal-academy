@@ -1,0 +1,36 @@
+{
+  "slug": "public-administration-mental-models",
+  "title": "Public Administration Mental Models",
+  "shortSummary": "Learn the compact mental models that make Public Administration easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Public Administration matters because it helps you reason about departments, agencies, local government, regulation, and implementation.",
+  "coreConcepts": [
+    "administration",
+    "budgets",
+    "delivery",
+    "accountability",
+    "coordination",
+    "public value"
+  ],
+  "mentalModels": [
+    "policy-to-delivery chain",
+    "administrative capacity",
+    "mandate vs implementation gap"
+  ],
+  "lessons": [
+    "public-administration-thinking"
+  ],
+  "frameworks": [
+    "public-administration-systems-map"
+  ],
+  "relatedModules": [
+    "public-administration-frameworks",
+    "public-administration-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

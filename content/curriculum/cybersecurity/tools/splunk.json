@@ -1,0 +1,23 @@
+{
+  "slug": "splunk",
+  "name": "Splunk",
+  "category": "siem",
+  "description": "Splunk is a useful siem surface inside Cybersecurity.",
+  "whyUseIt": "People in Cybersecurity use Splunk to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.splunk.com/",
+  "alternatives": [
+    "Wireshark",
+    "Burp Suite"
+  ],
+  "outputs": [
+    "Cybersecurity working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Splunk as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Splunk."
+  ],
+  "relatedProject": "map-a-cybersecurity-system"
+}

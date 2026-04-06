@@ -20,27 +20,27 @@ const SIZE_STYLES: Record<
   {
     glyph: string
     text: string
-    dotText: string
+    dot: string
     gap: string
   }
 > = {
   compact: {
     glyph: "h-8 w-8",
     text: "text-[1.15rem]",
-    dotText: "text-[1.15rem]",
-    gap: "gap-2.5",
+    dot: "ml-1.5 h-2.5 w-2.5",
+    gap: "gap-2",
   },
   default: {
     glyph: "h-10 w-10",
     text: "text-[1.75rem]",
-    dotText: "text-[1.75rem]",
+    dot: "ml-2 h-3.5 w-3.5",
     gap: "gap-3",
   },
   hero: {
-    glyph: "h-14 w-14 sm:h-16 sm:w-16",
-    text: "text-5xl sm:text-7xl",
-    dotText: "text-5xl sm:text-7xl",
-    gap: "gap-4",
+    glyph: "h-12 w-12 sm:h-16 sm:w-16",
+    text: "text-[3.2rem] sm:text-7xl",
+    dot: "ml-2 h-4.5 w-4.5 sm:ml-3 sm:h-6 sm:w-6",
+    gap: "gap-3 sm:gap-4",
   },
 }
 
@@ -130,13 +130,12 @@ export function NexusWordmark({
           </span>
           <span
             className={cn(
-              "relative -ml-[0.055em] font-sans font-semibold leading-none tracking-[-0.075em] text-transparent [background:radial-gradient(circle_at_35%_30%,#FFE7AB_0%,#FFB347_42%,#FF9147_72%,#E25B2E_100%)] bg-clip-text drop-shadow-[0_0_10px_rgba(255,165,71,0.28)]",
-              styles.dotText,
+              "inline-block shrink-0 rounded-full bg-[radial-gradient(circle_at_35%_30%,#FFE7AB_0%,#FFB347_45%,#FF9147_72%,#E25B2E_100%)] shadow-[0_0_16px_rgba(255,165,71,0.28)]",
+              styles.dot,
               dotClassName
             )}
-          >
-            .
-          </span>
+            aria-hidden="true"
+          />
         </span>
       ) : null}
     </span>

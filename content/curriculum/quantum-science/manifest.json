@@ -1,0 +1,12 @@
+{
+  "slug": "quantum-science",
+  "name": "Quantum Science",
+  "shortName": "Quantum Science",
+  "group": "sciences",
+  "icon": "Sparkles",
+  "color": "#6A4CC2",
+  "tagline": "The counterintuitive foundations of particles, waves, measurement, and information.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 2
+}

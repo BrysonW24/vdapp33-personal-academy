@@ -1,0 +1,36 @@
+{
+  "slug": "what-public-administration-is",
+  "title": "What Public Administration Is",
+  "shortSummary": "Get oriented to Public Administration: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Public Administration matters because it helps you reason about departments, agencies, local government, regulation, and implementation.",
+  "coreConcepts": [
+    "administration",
+    "budgets",
+    "delivery",
+    "accountability",
+    "coordination",
+    "public value"
+  ],
+  "mentalModels": [
+    "policy-to-delivery chain",
+    "administrative capacity",
+    "mandate vs implementation gap"
+  ],
+  "lessons": [
+    "what-is-public-administration"
+  ],
+  "frameworks": [
+    "public-administration-systems-map"
+  ],
+  "relatedModules": [
+    "public-administration-mental-models",
+    "public-administration-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

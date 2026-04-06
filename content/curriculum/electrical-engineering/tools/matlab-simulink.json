@@ -1,0 +1,23 @@
+{
+  "slug": "matlab-simulink",
+  "name": "MATLAB Simulink",
+  "category": "simulation",
+  "description": "MATLAB Simulink is a useful simulation surface inside Electrical Engineering.",
+  "whyUseIt": "People in Electrical Engineering use MATLAB Simulink to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.mathworks.com/products/simulink.html",
+  "alternatives": [
+    "LTspice",
+    "Altium Designer"
+  ],
+  "outputs": [
+    "Electrical Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using MATLAB Simulink as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from MATLAB Simulink."
+  ],
+  "relatedProject": "map-a-electrical-engineering-system"
+}

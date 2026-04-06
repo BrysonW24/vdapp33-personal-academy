@@ -1,0 +1,37 @@
+{
+  "slug": "geopolitics-frameworks",
+  "title": "Geopolitics Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Geopolitics.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Geopolitics matters because it helps you reason about foreign policy, defense, trade, energy, technology, and strategic planning.",
+  "coreConcepts": [
+    "power",
+    "geography",
+    "alliances",
+    "resources",
+    "strategy",
+    "deterrence"
+  ],
+  "mentalModels": [
+    "balance of power",
+    "chokepoint logic",
+    "systems rivalry"
+  ],
+  "lessons": [
+    "geopolitics-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "geopolitics-systems-map",
+    "geopolitics-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "geopolitics-systems-and-processes",
+    "geopolitics-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

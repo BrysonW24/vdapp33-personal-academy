@@ -1,0 +1,36 @@
+{
+  "slug": "what-space-infrastructure-is",
+  "title": "What Space Infrastructure Is",
+  "shortSummary": "Get oriented to Space Infrastructure: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Space Infrastructure matters because it helps you reason about communications, earth observation, defense, navigation, and launch operations.",
+  "coreConcepts": [
+    "launch systems",
+    "satellites",
+    "ground stations",
+    "orbital operations",
+    "communications",
+    "resilience"
+  ],
+  "mentalModels": [
+    "space stack thinking",
+    "mission lifecycle planning",
+    "ground-to-orbit integration"
+  ],
+  "lessons": [
+    "what-is-space-infrastructure"
+  ],
+  "frameworks": [
+    "space-infrastructure-systems-map"
+  ],
+  "relatedModules": [
+    "space-infrastructure-mental-models",
+    "space-infrastructure-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

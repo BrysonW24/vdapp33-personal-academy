@@ -1,0 +1,36 @@
+{
+  "slug": "what-biology-is",
+  "title": "What Biology Is",
+  "shortSummary": "Get oriented to Biology: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Biology matters because it helps you reason about medicine, conservation, agriculture, ecology, and biotechnology.",
+  "coreConcepts": [
+    "cells",
+    "genes",
+    "metabolism",
+    "evolution",
+    "physiology",
+    "ecology"
+  ],
+  "mentalModels": [
+    "form and function",
+    "evolutionary pressure",
+    "systems within systems"
+  ],
+  "lessons": [
+    "what-is-biology"
+  ],
+  "frameworks": [
+    "biology-systems-map"
+  ],
+  "relatedModules": [
+    "biology-mental-models",
+    "biology-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

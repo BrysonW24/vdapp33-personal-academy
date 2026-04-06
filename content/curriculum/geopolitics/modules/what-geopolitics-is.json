@@ -1,0 +1,36 @@
+{
+  "slug": "what-geopolitics-is",
+  "title": "What Geopolitics Is",
+  "shortSummary": "Get oriented to Geopolitics: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Geopolitics matters because it helps you reason about foreign policy, defense, trade, energy, technology, and strategic planning.",
+  "coreConcepts": [
+    "power",
+    "geography",
+    "alliances",
+    "resources",
+    "strategy",
+    "deterrence"
+  ],
+  "mentalModels": [
+    "balance of power",
+    "chokepoint logic",
+    "systems rivalry"
+  ],
+  "lessons": [
+    "what-is-geopolitics"
+  ],
+  "frameworks": [
+    "geopolitics-systems-map"
+  ],
+  "relatedModules": [
+    "geopolitics-mental-models",
+    "geopolitics-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

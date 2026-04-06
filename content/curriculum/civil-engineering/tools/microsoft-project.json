@@ -1,0 +1,23 @@
+{
+  "slug": "microsoft-project",
+  "name": "Microsoft Project",
+  "category": "planning",
+  "description": "Microsoft Project is a useful planning surface inside Civil Engineering.",
+  "whyUseIt": "People in Civil Engineering use Microsoft Project to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.microsoft.com/microsoft-365/project/project-management-software",
+  "alternatives": [
+    "AutoCAD Civil 3D",
+    "Revit"
+  ],
+  "outputs": [
+    "Civil Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Microsoft Project as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Microsoft Project."
+  ],
+  "relatedProject": "map-a-civil-engineering-system"
+}

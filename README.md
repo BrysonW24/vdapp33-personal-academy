@@ -2,22 +2,32 @@
 
 Repo lineage: `vdapp33-personal-academy`
 
-Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It keeps politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science inside one shell, one deploy, and one local-first state model, while roles and topics add applied and cross-disciplinary ways into the same academy.
+Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It keeps politics, commercial property management, physics, quantum-science, energy-systems, aerospace, robotics, and rocket science inside one shell, one deploy, and one local-first state model, while roles and topics add applied and cross-disciplinary ways into the same academy.
 
 ## What This App Is
 
 - Learning-first, not operator-first
-- Guided intellectual operating system for one learner first
+- Browse-first encyclopedia interface with subjects, topics, and roles as the main entry points
 - Subject-prefixed multi-subject architecture with first-class role and topic routes
 - Static content app powered by JSON curriculum files, onboarding packs, source packs, signal digests, and Zod schemas
 - One academy shell where subjects provide depth, topics widen the lens, and roles synthesize real-world application
-- Local-first state for progress, onboarding, active path, learning mode, and weekly reviews
+- Local-first state for progress, onboarding, and optional secondary surfaces such as My Path
+
+## Working Doctrine
+
+- Human readability is a core product requirement, not a polish layer
+- Pages should explain the shape of a field or role quickly before asking the user to read deeply
+- Use paragraph spacing, section rhythm, and visual summaries to reduce cognitive load
+- Roles should follow a repeatable, structured setup rather than feeling like loose editorial pages
+- Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, and module indexes
+- Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
+- When meaningful design, architecture, or product-direction changes land, update the reference docs in the same pass
 
 ## Core Routes
 
 - `/` — Nexus exploration dashboard
-- `/setup` — Soft onboarding that generates a personal blueprint
-- `/my-path` — Guided dashboard with next actions, weekly rhythm, and review prompts
+- `/setup` — Optional soft onboarding surface
+- `/my-path` — Secondary guided dashboard kept for users who want a structured session
 - `/subjects` — Subject directory
 - `/roles` — Role directory
 - `/topics` — Topic directory
@@ -50,9 +60,13 @@ All subject content lives under `content/curriculum/{subject}/` and is auto-disc
 
 Current groups:
 
-- Sciences: `physics`, `quantum`
-- Engineering: `aerospace`, `robotics`, `rocket-science`
-- Society: `politics`, `commercial-property-management`
+- Sciences: `physics`, `quantum-science`, `chemistry`, `materials-science`
+- Engineering: `aerospace`, `robotics`, `rocket-science`, `cybersecurity`, `data-science`, `space-infrastructure`, `energy-systems`, `systems-engineering`, `software-engineering`, `civil-engineering`, `electrical-engineering`, `mechanical-engineering`
+- Society: `politics`, `law`, `sociology`, `geopolitics`, `public-administration`, `demography`, `commercial-property-management`
+- Markets: `finance-accounting`, `supply-chain-logistics`
+- Life: `biology`, `biotechnology`, `agriculture-food-systems`, `health`
+- Humanities: `design`, `typography`, `religion-belief-systems`, `world-history`, `ancient-history`, `modern-history`, `communication`, `music-and-instruments`
+- Mind: `psychology`, `relationships`, `self-knowledge`, `emotions`, `meditation`, `consciousness`, `love`
 
 Overlay content lives alongside subjects:
 
@@ -63,14 +77,14 @@ Overlay content lives alongside subjects:
 - `content/sources/{subject|role|topic}/`
 - `content/signals/{subjects|roles|topics}/`
 
-## Guided OS Layer
+## Guidance Layer
 
-Nexus now has a guidance system on top of the content shell:
+Nexus still has a guidance system on top of the content shell, but it is no longer the homepage story:
 
 - Soft onboarding at `/setup`
 - Deterministic blueprint generation from curated questions and archetypes
 - Three learning modes: `guided`, `explorer`, `operator`
-- A persistent `My Path` dashboard with:
+- A persistent `My Path` dashboard kept as a secondary guided surface with:
   - one core subject
   - one supporting topic
   - one role lens
@@ -94,7 +108,8 @@ Nexus now has a guidance system on top of the content shell:
 - `aerospace` — expanded beyond migration baseline with frameworks, projects, tools, and day-in-the-life
 - `robotics` — full native subject inside Nexus with 20 modules, 10 lessons, 10 frameworks, 10 projects, 15 tools, and 4 day-in-the-life scenarios
 - `rocket-science` — rich subject migrated from `vdapp38-rocket-science-academy`
-- `quantum` — expanded beyond migration baseline with a full 20-module spine, lessons, frameworks, projects, tools, and day-in-the-life
+- `quantum-science` — migrated from `vdapp40-quantum-academy` and expanded beyond the original thin baseline
+- `energy-systems` — promoted from topic-level energy content into a canonical subject surface
 - `commercial-property-management` — genericised subject migrated from `vdapp46-jll-commercial-property-manager-academy` with 20 modules, 5 lessons, 10 frameworks, 8 projects, 14 tools, and 4 day-in-the-life scenarios
 
 The migrated standalone source apps were archived on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` after route, build, and browser verification passed in the unified app. See `docs/personal-academy-migration-analysis.md` for the migration analysis.
@@ -136,3 +151,5 @@ For lightweight verification guidance, see `docs/testing-smoke.md`.
 - Add curated signal digests under `content/signals/`
 - Do not hardcode subjects into navigation or route logic
 - Keep content grounded in the subject's real intellectual arc and practical ecosystem
+- Keep role content structured and readable: what it is, where it came from, what people do, how people get there, strengths, exposures, and career levers
+- Keep copy scannable; use real paragraphs and sectioned explanations instead of dense single blocks

@@ -1,0 +1,23 @@
+{
+  "slug": "qualtrics",
+  "name": "Qualtrics",
+  "category": "research",
+  "description": "Qualtrics is a useful research surface inside Sociology.",
+  "whyUseIt": "People in Sociology use Qualtrics to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.qualtrics.com/",
+  "alternatives": [
+    "NVivo",
+    "Stata"
+  ],
+  "outputs": [
+    "Sociology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Qualtrics as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Qualtrics."
+  ],
+  "relatedProject": "map-a-sociology-system"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "agriculture-food-systems-frameworks",
+  "title": "Agriculture & Food Systems Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Agriculture & Food Systems.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Agriculture & Food Systems matters because it helps you reason about farming, food security, agtech, trade, sustainability, and rural economies.",
+  "coreConcepts": [
+    "soil",
+    "water",
+    "crop systems",
+    "inputs",
+    "supply chains",
+    "food security"
+  ],
+  "mentalModels": [
+    "farm-to-system thinking",
+    "yield vs resilience tradeoffs",
+    "resource constraint planning"
+  ],
+  "lessons": [
+    "agriculture-food-systems-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "agriculture-food-systems-systems-map",
+    "agriculture-food-systems-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "agriculture-food-systems-systems-and-processes",
+    "agriculture-food-systems-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

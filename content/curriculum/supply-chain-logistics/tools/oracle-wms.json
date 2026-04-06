@@ -1,0 +1,23 @@
+{
+  "slug": "oracle-wms",
+  "name": "Oracle WMS",
+  "category": "warehouse-management",
+  "description": "Oracle WMS is a useful warehouse management surface inside Supply Chain & Logistics.",
+  "whyUseIt": "People in Supply Chain & Logistics use Oracle WMS to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.oracle.com/scm/logistics/warehouse-management/",
+  "alternatives": [
+    "SAP IBP",
+    "Power BI"
+  ],
+  "outputs": [
+    "Supply Chain & Logistics working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Oracle WMS as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Oracle WMS."
+  ],
+  "relatedProject": "map-a-supply-chain-logistics-system"
+}

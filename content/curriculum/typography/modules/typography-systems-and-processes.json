@@ -1,0 +1,36 @@
+{
+  "slug": "typography-systems-and-processes",
+  "title": "Typography Systems and Processes",
+  "shortSummary": "See how Typography moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Typography matters because it helps you reason about books, interfaces, brands, publishing, advertising, and information design.",
+  "coreConcepts": [
+    "hierarchy",
+    "rhythm",
+    "spacing",
+    "contrast",
+    "type families",
+    "readability"
+  ],
+  "mentalModels": [
+    "type as voice",
+    "hierarchy before decoration",
+    "spacing creates tone"
+  ],
+  "lessons": [
+    "typography-systems-in-the-world"
+  ],
+  "frameworks": [
+    "typography-systems-map"
+  ],
+  "relatedModules": [
+    "typography-applications",
+    "working-in-typography"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

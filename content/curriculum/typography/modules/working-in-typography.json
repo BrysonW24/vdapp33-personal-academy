@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-typography",
+  "title": "Working in Typography",
+  "shortSummary": "Understand what people in Typography actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Typography matters because it helps you reason about books, interfaces, brands, publishing, advertising, and information design.",
+  "coreConcepts": [
+    "hierarchy",
+    "rhythm",
+    "spacing",
+    "contrast",
+    "type families",
+    "readability"
+  ],
+  "mentalModels": [
+    "type as voice",
+    "hierarchy before decoration",
+    "spacing creates tone"
+  ],
+  "lessons": [
+    "typography-career-reality"
+  ],
+  "frameworks": [
+    "typography-systems-map"
+  ],
+  "relatedModules": [
+    "what-typography-is",
+    "typography-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

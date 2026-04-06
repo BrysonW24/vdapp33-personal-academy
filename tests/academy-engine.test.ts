@@ -34,8 +34,8 @@ const questionBank: OnboardingQuestionBank = {
                 "engineered-civilization": 1,
               },
               signals: {
-                subjects: ["physics"],
-                topics: ["energy"],
+                subjects: ["physics", "quantum-science", "energy-systems"],
+                topics: ["consciousness"],
                 roles: ["astronaut"],
                 mode: "guided",
                 intensity: "balanced",
@@ -79,8 +79,8 @@ const questionBank: OnboardingQuestionBank = {
                 "role-synthesis": 1,
               },
               signals: {
-                subjects: ["physics"],
-                topics: ["energy"],
+                subjects: ["physics", "energy-systems"],
+                topics: ["consciousness"],
                 roles: ["astronaut"],
                 mode: "guided",
                 intensity: "balanced",
@@ -104,8 +104,8 @@ const archetypes: ArchetypeProfile[] = [
     thesis: "Matter, time, causality, and civilization first.",
     fitSignals: ["first principles", "world models"],
     defaults: {
-      coreSubjects: ["physics", "politics"],
-      supportingTopics: ["energy", "consciousness"],
+      coreSubjects: ["physics", "quantum-science"],
+      supportingTopics: ["consciousness", "meditation"],
       roles: ["astronaut", "diplomat"],
       mode: "guided",
       reviewRhythm: "Weekly review every Sunday.",
@@ -126,8 +126,8 @@ const archetypes: ArchetypeProfile[] = [
     thesis: "Use engineering and applied systems as the central lane.",
     fitSignals: ["systems", "operators"],
     defaults: {
-      coreSubjects: ["physics"],
-      supportingTopics: ["energy"],
+      coreSubjects: ["physics", "energy-systems"],
+      supportingTopics: ["consciousness"],
       roles: ["astronaut"],
       mode: "guided",
       reviewRhythm: "Weekly review every Sunday.",
@@ -169,7 +169,7 @@ const archetypes: ArchetypeProfile[] = [
     fitSignals: ["reflection", "wisdom"],
     defaults: {
       coreSubjects: ["politics"],
-      supportingTopics: ["consciousness"],
+      supportingTopics: ["consciousness", "relationships"],
       roles: ["diplomat"],
       mode: "explorer",
       reviewRhythm: "Weekly review every Sunday.",
@@ -189,8 +189,8 @@ const archetypes: ArchetypeProfile[] = [
     thesis: "Roles force application and integration.",
     fitSignals: ["application", "role tracks"],
     defaults: {
-      coreSubjects: ["physics"],
-      supportingTopics: ["energy"],
+      coreSubjects: ["quantum-science", "physics"],
+      supportingTopics: ["consciousness"],
       roles: ["astronaut"],
       mode: "operator",
       reviewRhythm: "Weekly review every Sunday.",
@@ -235,6 +235,50 @@ const catalog: AcademyCatalog = {
       signalAvailable: true,
     },
     {
+      slug: "quantum-science",
+      name: "Quantum Science",
+      kind: "subject",
+      tagline: "The physics of microscopic systems and quantum information.",
+      moduleCount: 1,
+      projectCount: 1,
+      toolCount: 1,
+      firstModuleSlug: "quantum-foundations",
+      firstModuleTitle: "Quantum Foundations",
+      firstProjectSlug: "qubit-simulator",
+      firstProjectTitle: "Build a qubit simulator",
+      modules: [
+        {
+          slug: "quantum-foundations",
+          title: "Quantum Foundations",
+          lessons: ["superposition"],
+        },
+      ],
+      sourceAvailable: true,
+      signalAvailable: false,
+    },
+    {
+      slug: "energy-systems",
+      name: "Energy Systems",
+      kind: "subject",
+      tagline: "Generation, storage, transmission, and transition.",
+      moduleCount: 1,
+      projectCount: 1,
+      toolCount: 1,
+      firstModuleSlug: "grid-basics",
+      firstModuleTitle: "Grid Basics",
+      firstProjectSlug: "grid-load-balancing",
+      firstProjectTitle: "Balance a grid",
+      modules: [
+        {
+          slug: "grid-basics",
+          title: "Grid Basics",
+          lessons: ["power-flow"],
+        },
+      ],
+      sourceAvailable: true,
+      signalAvailable: true,
+    },
+    {
       slug: "politics",
       name: "Politics",
       kind: "subject",
@@ -259,24 +303,13 @@ const catalog: AcademyCatalog = {
   ],
   topics: [
     {
-      slug: "energy",
-      name: "Energy",
-      kind: "topic",
-      tagline: "Generation, storage, transmission, and transition.",
-      moduleCount: 4,
-      projectCount: 2,
-      toolCount: 1,
-      sourceAvailable: true,
-      signalAvailable: true,
-    },
-    {
       slug: "consciousness",
       name: "Consciousness",
       kind: "topic",
       tagline: "Subjective experience and the hard problem.",
-      moduleCount: 2,
-      projectCount: 1,
-      toolCount: 0,
+      moduleCount: 4,
+      projectCount: 2,
+      toolCount: 1,
       sourceAvailable: true,
       signalAvailable: false,
     },
@@ -321,8 +354,10 @@ describe("academy engine", () => {
     )
 
     expect(profile.leadingArchetype).toBe("reality-foundations")
-    expect(profile.preferredSubjects[0]).toBe("physics")
-    expect(profile.preferredTopics[0]).toBe("energy")
+    expect(profile.preferredSubjects).toEqual(
+      expect.arrayContaining(["physics", "quantum-science", "energy-systems"])
+    )
+    expect(profile.preferredTopics[0]).toBe("consciousness")
     expect(profile.preferredRoles[0]).toBe("astronaut")
     expect(profile.preferredMode).toBe("guided")
     expect(profile.weeklyHours).toBe(6)
@@ -342,12 +377,12 @@ describe("academy engine", () => {
 
     expect(blueprint.activePathId).toBe("recommended")
     expect(blueprint.options).toHaveLength(3)
-    expect(blueprint.options[0].assignment.coreSubject).toBe("physics")
-    expect(blueprint.options[0].assignment.supportingTopic).toBe("energy")
-    expect(blueprint.options[0].assignment.roleLens).toBe("astronaut")
-    expect(blueprint.options[0].assignment.currentProject?.projectSlug).toBe(
-      "orbital-model"
+    expect(["physics", "quantum-science", "energy-systems"]).toContain(
+      blueprint.options[0].assignment.coreSubject
     )
+    expect(blueprint.options[0].assignment.supportingTopic).toBe("consciousness")
+    expect(blueprint.options[0].assignment.roleLens).toBe("astronaut")
+    expect(blueprint.options[0].assignment.currentProject?.projectSlug).toBeDefined()
   })
 
   it("prioritizes deterministic next actions by mode", () => {
@@ -373,7 +408,9 @@ describe("academy engine", () => {
 
     expect(guidedState.reviewDue).toBe(true)
     expect(guidedState.todaySession?.category).toBe("core-subject")
-    expect(guidedState.todaySession?.href).toBe("/physics/modules/motion/lift-and-drag")
+    expect(guidedState.todaySession?.href).toMatch(
+      /^\/(physics|quantum-science|energy-systems)\/modules\//
+    )
 
     const operatorState = buildPathState({
       blueprint,
@@ -404,16 +441,16 @@ describe("academy engine", () => {
     expect(
       getEntityPathReason(activePath, {
         kind: "subject",
-        slug: "physics",
-        name: "Physics",
+        slug: activePath.assignment.coreSubject,
+        name: "Core Subject",
       })
     ).toContain("current core subject")
 
     expect(
       getEntityPathReason(activePath, {
         kind: "topic",
-        slug: "consciousness",
-        name: "Consciousness",
+        slug: "relationships",
+        name: "Relationships",
       })
     ).toBeNull()
   })

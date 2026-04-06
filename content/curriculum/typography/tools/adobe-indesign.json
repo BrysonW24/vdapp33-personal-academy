@@ -1,0 +1,23 @@
+{
+  "slug": "adobe-indesign",
+  "name": "Adobe InDesign",
+  "category": "publishing",
+  "description": "Adobe InDesign is a useful publishing surface inside Typography.",
+  "whyUseIt": "People in Typography use Adobe InDesign to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.adobe.com/products/indesign.html",
+  "alternatives": [
+    "Figma",
+    "Glyphs"
+  ],
+  "outputs": [
+    "Typography working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Adobe InDesign as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Adobe InDesign."
+  ],
+  "relatedProject": "map-a-typography-system"
+}

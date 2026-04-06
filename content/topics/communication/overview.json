@@ -1,0 +1,25 @@
+{
+  "slug": "communication",
+  "title": "Communication",
+  "whatItIs": "Communication is the process of creating shared meaning between people. It includes speaking, writing, listening, reading, body language, media, design, and the systems that transmit information at scale.\n\nGood communication is not just expression. It is the ability to adapt to an audience, choose the right medium, structure ideas clearly, and check whether the message actually landed.\n\nThe field spans interpersonal communication, rhetoric, journalism, public relations, organisational communication, and digital media. It is one of the most practical humanities topics because every other field depends on it.",
+  "whyItMatters": "Communication matters because misunderstanding is expensive. It causes conflict, delays, losses, and broken trust in relationships, business, and politics.\n\nIt also matters because clarity is leverage. People who can explain things simply, listen carefully, and choose the right channel often become more effective than people with more raw information.\n\nIn a world of noisy media and AI-generated text, communication skill increasingly means knowing what is true, what is persuasive, and what is appropriate for the audience in front of you.",
+  "keyIdeas": [
+    "Audience matters as much as message",
+    "Medium changes meaning",
+    "Listening is part of communication",
+    "Rhetoric is the craft of persuasion",
+    "Design and layout change comprehension",
+    "Feedback loops prevent misunderstanding",
+    "Digital media scales both clarity and confusion",
+    "Communication is a core professional skill"
+  ],
+  "frontier": "The communication frontier is being reshaped by AI-generated text, synthetic voice, multimodal interfaces, short-form video, and platform algorithms. The key question is not just how to produce more content, but how to preserve trust and attention.\n\nCommunication strategy now includes moderation, misinformation management, brand consistency, and human-machine collaboration. That means the field is becoming more technical, more strategic, and more ethically loaded.\n\nThe future of communication may depend less on volume and more on precision, credibility, and audience awareness.",
+  "openQuestions": [
+    "What makes a message clear rather than merely wordy?",
+    "How much does the medium shape the message?",
+    "Can good communication be taught systematically?",
+    "How do you stay truthful while still being persuasive?",
+    "What does communication look like in an AI-mediated world?",
+    "How do organisations keep a consistent voice without becoming robotic?"
+  ]
+}

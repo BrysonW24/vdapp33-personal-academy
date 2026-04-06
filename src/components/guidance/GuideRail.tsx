@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowRight, Compass, FileSearch, Link2, Newspaper, Scale, Sparkles } from "lucide-react"
+import { ArrowRight, Compass, FileSearch, Link2, Newspaper, Sparkles } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -55,7 +55,7 @@ export function GuideRail({
           Intelligent guide
         </p>
         <h2 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
-          Keep this page connected to your path
+          Keep this page connected to the wider academy
         </h2>
       </div>
 
@@ -66,28 +66,18 @@ export function GuideRail({
               <Compass className="h-4 w-4 text-editorial-green" />
               <Badge variant="secondary">Guidance</Badge>
             </div>
-            <CardTitle>Why you are here</CardTitle>
+            <CardTitle>Why this matters</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-sm leading-relaxed text-editorial-muted">{whyThisMatters}</p>
             {pathReason ? (
               <div className="rounded-[16px] bg-editorial-green/8 p-4">
+                <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                  Optional lens
+                </p>
                 <p className="text-sm leading-relaxed text-editorial-ink">{pathReason}</p>
               </div>
-            ) : (
-              <div className="rounded-[16px] bg-editorial-blue-soft/40 p-4">
-                <p className="text-sm leading-relaxed text-editorial-muted">
-                  Set up <span className="font-medium text-editorial-ink">My Path</span> if
-                  you want the academy to explain why this page matters in your current
-                  learning rhythm.
-                </p>
-                <div className="mt-3">
-                  <Button asChild size="sm">
-                    <Link href="/setup">Set up My Path</Link>
-                  </Button>
-                </div>
-              </div>
-            )}
+            ) : null}
 
             {nextAction ? (
               <div className="rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-white/70 p-4">
@@ -151,7 +141,7 @@ export function GuideRail({
               <CardHeader>
                 <div className="flex items-center gap-2">
                   <FileSearch className="h-4 w-4 text-editorial-blue" />
-                  <Badge variant="secondary">Truth stack</Badge>
+                <Badge variant="secondary">Truth stack</Badge>
                 </div>
                 <CardTitle>{sourcePack.title}</CardTitle>
               </CardHeader>
@@ -175,7 +165,7 @@ export function GuideRail({
               <CardHeader>
                 <div className="flex items-center gap-2">
                   <Newspaper className="h-4 w-4 text-editorial-green" />
-                  <Badge variant="secondary">Signals</Badge>
+                <Badge variant="secondary">Signals</Badge>
                 </div>
                 <CardTitle>{signalDigest.title}</CardTitle>
               </CardHeader>

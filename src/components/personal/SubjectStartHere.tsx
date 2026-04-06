@@ -70,7 +70,7 @@ export function SubjectStartHere({
     })),
     {
       href: `/${subject.slug}/blueprint`,
-      label: "Path",
+      label: "Map",
       title: "Blueprint",
       description: "See the subject arc and how the modules build on one another.",
       count: stats.modules,
@@ -108,7 +108,7 @@ export function SubjectStartHere({
       href: `/${subject.slug}/toolkit`,
       label: "Mental Models",
       title: "Toolkit",
-      description: "Browse frameworks and reusable ways of thinking drawn from the subject.",
+      description: "Open frameworks and reusable ways of thinking drawn from the subject.",
       count: stats.frameworks,
       emptyState: "Framework coverage is still sparse in this first pass.",
       icon: Library,
@@ -167,7 +167,7 @@ export function SubjectStartHere({
             </Button>
             <Button asChild variant="secondary">
               <Link href={firstModule ? `/${subject.slug}/modules` : `/${subject.slug}/blueprint`}>
-                {firstModule ? "Browse all modules" : "See the subject arc"}
+                {firstModule ? "Open all modules" : "See the subject arc"}
               </Link>
             </Button>
           </div>
@@ -181,9 +181,9 @@ export function SubjectStartHere({
             Learn for understanding first
           </h2>
           <p className="text-editorial-muted leading-relaxed mb-5">
-            Nexus is intentionally learning-first. Use the blueprint to
-            orient yourself, lock in the mental models, then branch into
-            processes, projects, tools, and real-world context when the subject is ready.
+            Nexus is intentionally learning-first. Use the blueprint to orient
+            yourself, lock in the mental models, then branch into processes,
+            projects, tools, and real-world context when the subject is ready.
           </p>
           <div className="space-y-3 text-sm text-editorial-muted">
             {TEACHING_CONTRACT_STEPS.map((step, index) => (

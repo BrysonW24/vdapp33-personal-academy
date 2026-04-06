@@ -1,0 +1,23 @@
+{
+  "slug": "imagej",
+  "name": "ImageJ",
+  "category": "analysis",
+  "description": "ImageJ is a useful analysis surface inside Materials Science.",
+  "whyUseIt": "People in Materials Science use ImageJ to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://imagej.nih.gov/ij/",
+  "alternatives": [
+    "Granta Selector",
+    "Materials Project"
+  ],
+  "outputs": [
+    "Materials Science working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using ImageJ as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from ImageJ."
+  ],
+  "relatedProject": "map-a-materials-science-system"
+}

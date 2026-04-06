@@ -1,0 +1,23 @@
+{
+  "slug": "fusion-360",
+  "name": "Fusion 360",
+  "category": "design",
+  "description": "Fusion 360 is a useful design surface inside Mechanical Engineering.",
+  "whyUseIt": "People in Mechanical Engineering use Fusion 360 to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.autodesk.com/products/fusion-360/",
+  "alternatives": [
+    "SolidWorks",
+    "Ansys"
+  ],
+  "outputs": [
+    "Mechanical Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Fusion 360 as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Fusion 360."
+  ],
+  "relatedProject": "map-a-mechanical-engineering-system"
+}

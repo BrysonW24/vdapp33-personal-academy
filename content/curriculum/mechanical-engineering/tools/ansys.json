@@ -1,0 +1,23 @@
+{
+  "slug": "ansys",
+  "name": "Ansys",
+  "category": "simulation",
+  "description": "Ansys is a useful simulation surface inside Mechanical Engineering.",
+  "whyUseIt": "People in Mechanical Engineering use Ansys to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.ansys.com/",
+  "alternatives": [
+    "SolidWorks",
+    "Fusion 360"
+  ],
+  "outputs": [
+    "Mechanical Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Ansys as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Ansys."
+  ],
+  "relatedProject": "map-a-mechanical-engineering-system"
+}

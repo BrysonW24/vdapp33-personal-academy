@@ -1,0 +1,12 @@
+{
+  "slug": "chemistry",
+  "name": "Chemistry",
+  "shortName": "Chemistry",
+  "group": "sciences",
+  "icon": "FlaskConical",
+  "color": "#C15A2C",
+  "tagline": "Atoms, molecules, reactions, and the transformations that make matter useful.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 9
+}

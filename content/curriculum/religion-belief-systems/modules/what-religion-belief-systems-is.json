@@ -1,0 +1,36 @@
+{
+  "slug": "what-religion-belief-systems-is",
+  "title": "What Religion & Belief Systems Is",
+  "shortSummary": "Get oriented to Religion & Belief Systems: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Religion & Belief Systems matters because it helps you reason about culture, ethics, politics, history, identity, and intergroup relations.",
+  "coreConcepts": [
+    "ritual",
+    "myth",
+    "doctrine",
+    "community",
+    "authority",
+    "meaning"
+  ],
+  "mentalModels": [
+    "belief as worldview",
+    "ritual as social technology",
+    "institution and interpretation"
+  ],
+  "lessons": [
+    "what-is-religion-belief-systems"
+  ],
+  "frameworks": [
+    "religion-belief-systems-systems-map"
+  ],
+  "relatedModules": [
+    "religion-belief-systems-mental-models",
+    "religion-belief-systems-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

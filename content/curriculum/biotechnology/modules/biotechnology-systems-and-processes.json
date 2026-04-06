@@ -1,0 +1,36 @@
+{
+  "slug": "biotechnology-systems-and-processes",
+  "title": "Biotechnology Systems and Processes",
+  "shortSummary": "See how Biotechnology moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Biotechnology matters because it helps you reason about therapeutics, diagnostics, agriculture, fermentation, and industrial biology.",
+  "coreConcepts": [
+    "cell engineering",
+    "molecular tools",
+    "bioprocessing",
+    "regulation",
+    "scale-up",
+    "quality"
+  ],
+  "mentalModels": [
+    "bench-to-product translation",
+    "biology under constraints",
+    "scale-up bottlenecks"
+  ],
+  "lessons": [
+    "biotechnology-systems-in-the-world"
+  ],
+  "frameworks": [
+    "biotechnology-systems-map"
+  ],
+  "relatedModules": [
+    "biotechnology-applications",
+    "working-in-biotechnology"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

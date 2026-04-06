@@ -1,0 +1,61 @@
+{
+  "slug": "map-a-energy-systems-system",
+  "title": "Map a Energy Systems system",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Choose one real energy system or transition decision and explain it using the field's core models, tradeoffs, and operator reality.",
+  "whyItMatters": "This project forces Energy Systems to become operational rather than remaining purely conceptual.",
+  "skillsLearned": [
+    "Applied Energy Systems reasoning",
+    "Tradeoff analysis",
+    "Structured explanation",
+    "Case mapping"
+  ],
+  "prerequisites": [
+    "What Energy Systems Is",
+    "Energy Systems Mental Models"
+  ],
+  "steps": [
+    {
+      "title": "Choose a live case",
+      "description": "Select a concrete energy system or transition decision with visible constraints and decisions."
+    },
+    {
+      "title": "Map the system",
+      "description": "Use Energy Systems Systems Map to capture the main units, flows, and constraints."
+    },
+    {
+      "title": "Analyze the tradeoffs",
+      "description": "Use Energy Systems Tradeoff Lens to compare the main options or tensions."
+    },
+    {
+      "title": "Write the brief",
+      "description": "Summarize what is happening, why it matters, and what a better decision would look like."
+    }
+  ],
+  "deliverables": [
+    "A one-page system map",
+    "A short decision brief",
+    "A list of key tradeoffs and uncertainties"
+  ],
+  "tools": [
+    "PVsyst",
+    "PLEXOS",
+    "OpenMOD"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The system and its boundaries are clearly explained."
+    },
+    {
+      "criteria": "Tradeoffs",
+      "description": "The key tensions are real, specific, and well compared."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The analysis stays grounded in real constraints and operators."
+    }
+  ],
+  "domain": "Energy Systems"
+}

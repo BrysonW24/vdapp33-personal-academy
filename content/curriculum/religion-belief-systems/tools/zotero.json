@@ -1,0 +1,23 @@
+{
+  "slug": "zotero",
+  "name": "Zotero",
+  "category": "research-management",
+  "description": "Zotero is a useful research management surface inside Religion & Belief Systems.",
+  "whyUseIt": "People in Religion & Belief Systems use Zotero to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.zotero.org/",
+  "alternatives": [
+    "JSTOR",
+    "Perusall"
+  ],
+  "outputs": [
+    "Religion & Belief Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Zotero as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Zotero."
+  ],
+  "relatedProject": "map-a-religion-belief-systems-system"
+}

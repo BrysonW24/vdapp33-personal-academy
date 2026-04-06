@@ -1,0 +1,36 @@
+{
+  "slug": "what-energy-systems-is",
+  "title": "What Energy Systems Is",
+  "shortSummary": "Get oriented to Energy Systems: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Energy Systems matters because it helps you reason about electric grids, industrial systems, transport, climate transition, and national resilience.",
+  "coreConcepts": [
+    "generation",
+    "storage",
+    "transmission",
+    "demand",
+    "grid balancing",
+    "energy economics"
+  ],
+  "mentalModels": [
+    "conversion chains",
+    "capacity factor thinking",
+    "grid balancing logic"
+  ],
+  "lessons": [
+    "what-is-energy-systems"
+  ],
+  "frameworks": [
+    "energy-systems-systems-map"
+  ],
+  "relatedModules": [
+    "energy-systems-mental-models",
+    "energy-systems-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

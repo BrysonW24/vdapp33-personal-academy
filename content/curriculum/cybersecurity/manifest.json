@@ -1,0 +1,12 @@
+{
+  "slug": "cybersecurity",
+  "name": "Cybersecurity",
+  "shortName": "Cybersecurity",
+  "group": "engineering",
+  "icon": "Shield",
+  "color": "#0F766E",
+  "tagline": "How systems are protected against attack, misuse, compromise, and operational failure.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 11
+}

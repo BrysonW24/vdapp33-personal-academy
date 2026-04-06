@@ -1,0 +1,16 @@
+{
+  "slug": "energy-systems-systems-map",
+  "name": "Energy Systems Systems Map",
+  "summary": "A repeatable way to map the units, flows, constraints, stakeholders, and outcomes that matter in Energy Systems.",
+  "whenToUseIt": "Use this whenever Energy Systems feels too broad and you need a cleaner picture of what is interacting with what.",
+  "steps": [
+    "Define the system boundary clearly.",
+    "List the key units, actors, or components.",
+    "Trace the important flows, dependencies, and constraints.",
+    "Name the measures that tell you if the system is healthy or failing.",
+    "Identify where intervention has the highest leverage."
+  ],
+  "example": "Use it on an electricity grid under peak demand to see how structure, incentives, and constraints interact.",
+  "category": "systems",
+  "domain": "Energy Systems"
+}

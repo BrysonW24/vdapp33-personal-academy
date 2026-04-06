@@ -1,0 +1,12 @@
+{
+  "slug": "civil-engineering",
+  "name": "Civil Engineering",
+  "shortName": "Civil Engineering",
+  "group": "engineering",
+  "icon": "Building2",
+  "color": "#A16207",
+  "tagline": "The design and delivery of structures, transport, water, and public infrastructure.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 15
+}

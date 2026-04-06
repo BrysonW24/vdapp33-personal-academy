@@ -1,0 +1,128 @@
+{
+  "slug": "money",
+  "kind": "topic",
+  "title": "Money Signals",
+  "summary": "Money signals track how households, banks, apps, and regulators shape everyday financial life.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Household budgets remain under pressure",
+          "summary": "Living costs and rent keep shaping financial behaviour.",
+          "whyItMatters": "Households are making money decisions under tighter margins.",
+          "entities": [
+            "money",
+            "health"
+          ]
+        },
+        {
+          "name": "Digital payments keep displacing cash",
+          "summary": "Wallets and instant transfers are becoming the default.",
+          "whyItMatters": "Payment systems are changing how people think about spending.",
+          "entities": [
+            "money",
+            "communication"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Banks",
+          "summary": "Banks shape lending, deposits, and the cost of money.",
+          "whyItMatters": "Bank behaviour affects household choices and business investment.",
+          "entities": [
+            "money",
+            "economics"
+          ]
+        },
+        {
+          "name": "Fintech apps",
+          "summary": "New tools are making budgeting and payments more visible.",
+          "whyItMatters": "Interface design now affects money behaviour directly.",
+          "entities": [
+            "money",
+            "self-knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "RBA",
+          "summary": "Interest rates and inflation data change the money environment.",
+          "whyItMatters": "Central bank settings shape borrowing and saving decisions.",
+          "entities": [
+            "money",
+            "economics"
+          ]
+        },
+        {
+          "name": "ASIC",
+          "summary": "Consumer money rules and disclosure remain important.",
+          "whyItMatters": "Clear rules protect people from hidden costs and scams.",
+          "entities": [
+            "money",
+            "law"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Morgan Housel",
+          "summary": "Influential writer on behaviour and wealth.",
+          "whyItMatters": "He helps people think about money less romantically and more realistically.",
+          "entities": [
+            "money",
+            "investing"
+          ]
+        },
+        {
+          "name": "Ramit Sethi",
+          "summary": "Popular personal finance educator.",
+          "whyItMatters": "His work keeps focusing attention on system design and habits.",
+          "entities": [
+            "money",
+            "self-knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Is financial literacy enough?",
+          "summary": "Some argue system design matters more than individual discipline.",
+          "whyItMatters": "This debate changes how people think about policy and personal responsibility.",
+          "entities": [
+            "money",
+            "economics"
+          ]
+        },
+        {
+          "name": "Can money apps improve behavior?",
+          "summary": "Products can nudge users toward saving or toward spending.",
+          "whyItMatters": "Interface design is now part of financial life.",
+          "entities": [
+            "money",
+            "communication"
+          ]
+        }
+      ]
+    }
+  ]
+}

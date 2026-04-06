@@ -1,0 +1,83 @@
+{
+  "slug": "energy-systems-systems-in-the-world",
+  "moduleSlug": "energy-systems-systems-and-processes",
+  "title": "Energy Systems systems in the world",
+  "objective": "Use Energy Systems with more structure, not just surface familiarity.",
+  "beginnerExplanation": "Energy Systems is about the physical, technical, market, and policy systems that move energy from source to use. At the beginner level, the fastest way to understand the field is to identify its core units, its main constraints, and the kinds of decisions it helps people make. In practice, Energy Systems becomes useful when you can connect generation, storage, transmission to a real-world example instead of holding them as isolated definitions.",
+  "deeperExplanation": "A more mature view of Energy Systems focuses on mechanisms, tradeoffs, and institutional reality. The field depends on conversion chains, capacity factor thinking, grid balancing logic, and it stays grounded by testing ideas against concrete situations like an electricity grid under peak demand, a solar-plus-storage rollout, an energy market rule change. Good judgment in Energy Systems comes from repeatedly moving between first principles and the messy systems where those principles meet cost, risk, time, and human behavior.",
+  "keyTakeaways": [
+    "Energy Systems is best learned as a set of mental models rather than a pile of disconnected facts.",
+    "The field matters because it shapes electric grids, industrial systems, transport, climate transition, and national resilience.",
+    "Real competence in Energy Systems depends on understanding tradeoffs, not just ideals.",
+    "Examples such as an electricity grid under peak demand make the field easier to retain and apply."
+  ],
+  "frameworks": [
+    "energy-systems-systems-map",
+    "energy-systems-tradeoff-lens"
+  ],
+  "example": "An Electricity Grid Under Peak Demand is a useful way to see Energy Systems in the real world because it forces you to notice units, constraints, incentives, and outcomes at the same time.",
+  "commonMistakes": [
+    "Treating Energy Systems like a list of facts instead of a way to see and compare systems.",
+    "Ignoring the tradeoffs between performance, cost, time, risk, and human constraints."
+  ],
+  "exercise": "Pick one real example from your world and explain it using two core ideas from Energy Systems.",
+  "nextLesson": "energy-systems-where-it-shows-up",
+  "order": 4,
+  "teaching": {
+    "mentalModel": {
+      "title": "conversion chains",
+      "summary": "Energy Systems becomes memorable when you use compact models to organize the field instead of memorising fragments.",
+      "anchors": [
+        "generation",
+        "storage",
+        "transmission"
+      ]
+    },
+    "howItWorks": {
+      "title": "Energy Systems in sequence",
+      "steps": [
+        "Name the system, unit, or problem you are looking at.",
+        "Identify the core constraints and flows shaping it.",
+        "Use energy-systems-systems-map and energy-systems-tradeoff-lens to compare options.",
+        "Check the result against a real example, operator workflow, or institutional constraint."
+      ]
+    },
+    "upsides": [
+      "Energy Systems makes complex systems easier to interpret and explain.",
+      "It improves judgment by forcing clearer tradeoff thinking."
+    ],
+    "downsides": [
+      "The field can feel more settled than it really is if you ignore uncertainty or context.",
+      "Good models in Energy Systems still break when you apply them too mechanically."
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "An Electricity Grid Under Peak Demand shows how Energy Systems moves from abstract ideas into practical judgment.",
+    "realWorldApplications": [
+      "an electricity grid under peak demand",
+      "a solar-plus-storage rollout",
+      "an energy market rule change"
+    ],
+    "whoWorksWithThis": [
+      "grid operators",
+      "energy analysts",
+      "power-system engineers"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the blueprint",
+        "href": "/energy-systems/blueprint",
+        "description": "See the full map of Energy Systems."
+      },
+      {
+        "label": "Browse projects",
+        "href": "/energy-systems/projects",
+        "description": "Turn the field into something concrete."
+      },
+      {
+        "label": "Open tools",
+        "href": "/energy-systems/tools",
+        "description": "See what people in the field actually use."
+      }
+    ]
+  }
+}

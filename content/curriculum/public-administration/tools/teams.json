@@ -1,0 +1,23 @@
+{
+  "slug": "teams",
+  "name": "Microsoft Teams",
+  "category": "coordination",
+  "description": "Microsoft Teams is a useful coordination surface inside Public Administration.",
+  "whyUseIt": "People in Public Administration use Microsoft Teams to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.microsoft.com/microsoft-teams/group-chat-software",
+  "alternatives": [
+    "Microsoft Excel",
+    "Power BI"
+  ],
+  "outputs": [
+    "Public Administration working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Microsoft Teams as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Microsoft Teams."
+  ],
+  "relatedProject": "map-a-public-administration-system"
+}

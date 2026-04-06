@@ -1,0 +1,23 @@
+{
+  "slug": "docker",
+  "name": "Docker",
+  "category": "deployment",
+  "description": "Docker is a useful deployment surface inside Software Engineering.",
+  "whyUseIt": "People in Software Engineering use Docker to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.docker.com/",
+  "alternatives": [
+    "GitHub",
+    "Visual Studio Code"
+  ],
+  "outputs": [
+    "Software Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Docker as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Docker."
+  ],
+  "relatedProject": "map-a-software-engineering-system"
+}

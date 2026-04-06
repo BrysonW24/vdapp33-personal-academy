@@ -1,0 +1,36 @@
+{
+  "slug": "design-systems-and-processes",
+  "title": "Design Systems and Processes",
+  "shortSummary": "See how Design moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Design matters because it helps you reason about interfaces, products, brands, services, spaces, and communication.",
+  "coreConcepts": [
+    "hierarchy",
+    "constraints",
+    "composition",
+    "usability",
+    "iteration",
+    "meaning"
+  ],
+  "mentalModels": [
+    "form follows intent",
+    "design under constraints",
+    "feedback-driven iteration"
+  ],
+  "lessons": [
+    "design-systems-in-the-world"
+  ],
+  "frameworks": [
+    "design-systems-map"
+  ],
+  "relatedModules": [
+    "design-applications",
+    "working-in-design"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

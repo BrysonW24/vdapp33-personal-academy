@@ -1,0 +1,23 @@
+{
+  "slug": "originlab",
+  "name": "OriginLab",
+  "category": "analysis",
+  "description": "OriginLab is a useful analysis surface inside Chemistry.",
+  "whyUseIt": "People in Chemistry use OriginLab to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.originlab.com/",
+  "alternatives": [
+    "ChemDraw",
+    "SciFinder"
+  ],
+  "outputs": [
+    "Chemistry working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using OriginLab as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from OriginLab."
+  ],
+  "relatedProject": "map-a-chemistry-system"
+}

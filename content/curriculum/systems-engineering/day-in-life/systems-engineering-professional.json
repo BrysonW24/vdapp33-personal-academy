@@ -1,0 +1,80 @@
+{
+  "slug": "systems-engineering-professional",
+  "title": "A Day as a Systems Engineer",
+  "setting": "A program team coordinating requirements, interface control, testing, and delivery risk.",
+  "companySize": "Mid-sized to large organization with cross-functional coordination and measurable delivery pressure.",
+  "description": "You work as a systems engineer using Systems Engineering to notice patterns, frame decisions, and improve outcomes under real constraints.",
+  "salary": "$120,000 - $180,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review the current system state and pending priorities",
+      "tools": [
+        "SysML",
+        "IBM DOORS"
+      ]
+    },
+    {
+      "time": "09:30",
+      "activity": "Team check-in on risks, decisions, and dependencies",
+      "tools": [
+        "SysML"
+      ]
+    },
+    {
+      "time": "11:00",
+      "activity": "Deep work on a live multi-part system with dependencies and interfaces",
+      "tools": [
+        "SysML",
+        "IBM DOORS",
+        "Jira"
+      ]
+    },
+    {
+      "time": "13:00",
+      "activity": "Stakeholder or operator discussion",
+      "tools": [
+        "SysML"
+      ],
+      "note": "The useful work usually sits where models meet people and constraints."
+    },
+    {
+      "time": "15:00",
+      "activity": "Analysis, documentation, or design iteration",
+      "tools": [
+        "SysML",
+        "IBM DOORS"
+      ]
+    },
+    {
+      "time": "17:00",
+      "activity": "Close out notes, decisions, and the next day’s handoff",
+      "tools": [
+        "SysML"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Use Systems Engineering to frame real problems instead of reacting at surface level.",
+    "Translate complexity into clearer choices for other people.",
+    "Balance quality, speed, cost, and institutional constraints.",
+    "Document decisions well enough that others can build on them."
+  ],
+  "challenges": [
+    "The field rarely arrives as a clean textbook version of Systems Engineering.",
+    "Time pressure, incomplete information, and competing priorities distort judgment.",
+    "Good work is often invisible when systems are stable and only obvious when they fail."
+  ],
+  "rewards": [
+    "You get to make Systems Engineering feel real, usable, and consequential.",
+    "The work improves your judgment far beyond the field itself.",
+    "You become the kind of person who can simplify complexity without flattening it."
+  ],
+  "careerPath": [
+    "Graduate / junior systems engineer",
+    "Mid-level systems engineer",
+    "Senior systems engineer",
+    "Lead / principal role",
+    "Head of function or specialist advisor"
+  ]
+}

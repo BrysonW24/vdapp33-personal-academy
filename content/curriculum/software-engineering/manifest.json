@@ -1,0 +1,12 @@
+{
+  "slug": "software-engineering",
+  "name": "Software Engineering",
+  "shortName": "Software Engineering",
+  "group": "engineering",
+  "icon": "Code2",
+  "color": "#4F46E5",
+  "tagline": "How software is designed, built, tested, shipped, and maintained at scale.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 13
+}

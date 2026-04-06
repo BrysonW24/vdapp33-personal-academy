@@ -1,0 +1,12 @@
+{
+  "slug": "design",
+  "name": "Design",
+  "shortName": "Design",
+  "group": "humanities",
+  "icon": "PenTool",
+  "color": "#E11D48",
+  "tagline": "How form, function, systems, and meaning are shaped into things people can understand and use.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 30
+}

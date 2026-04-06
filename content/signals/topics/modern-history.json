@@ -1,0 +1,128 @@
+{
+  "slug": "modern-history",
+  "kind": "topic",
+  "title": "Modern History Signals",
+  "summary": "Modern history signals show how the recent past keeps shaping present debates about power, memory, and identity.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Digital archives are expanding",
+          "summary": "More records are searchable online.",
+          "whyItMatters": "Access changes who can study history and how quickly.",
+          "entities": [
+            "modern-history",
+            "communication"
+          ]
+        },
+        {
+          "name": "Memory politics remain active",
+          "summary": "Public debates about monuments, curriculum, and commemoration continue.",
+          "whyItMatters": "History still matters in contemporary identity disputes.",
+          "entities": [
+            "modern-history",
+            "politics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Publishing houses",
+          "summary": "History books still shape public understanding.",
+          "whyItMatters": "The pipeline from scholarship to public conversation still matters.",
+          "entities": [
+            "modern-history",
+            "communication"
+          ]
+        },
+        {
+          "name": "Documentary platforms",
+          "summary": "Video media increasingly mediates historical knowledge.",
+          "whyItMatters": "History now competes in attention markets.",
+          "entities": [
+            "modern-history",
+            "music-and-instruments"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Archives",
+          "summary": "Records are being digitised and remixed.",
+          "whyItMatters": "Preserving evidence is itself a political act.",
+          "entities": [
+            "modern-history",
+            "public-administration"
+          ]
+        },
+        {
+          "name": "Museums",
+          "summary": "Exhibitions are becoming more interpretive and inclusive.",
+          "whyItMatters": "Public history shapes collective memory.",
+          "entities": [
+            "modern-history",
+            "design"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Margaret MacMillan",
+          "summary": "A major public historian of war and diplomacy.",
+          "whyItMatters": "She keeps modern history legible to broad audiences.",
+          "entities": [
+            "modern-history",
+            "diplomat"
+          ]
+        },
+        {
+          "name": "Tony Judt",
+          "summary": "A key interpreter of postwar Europe.",
+          "whyItMatters": "His work remains central to the study of the modern order.",
+          "entities": [
+            "modern-history",
+            "politics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Whose history gets told?",
+          "summary": "Public debate increasingly focuses on marginalised voices.",
+          "whyItMatters": "The historical canon is being rebalanced.",
+          "entities": [
+            "modern-history",
+            "sociology"
+          ]
+        },
+        {
+          "name": "Can archives ever be neutral?",
+          "summary": "Selection and preservation shape the story before interpretation begins.",
+          "whyItMatters": "This changes how historians think about authority.",
+          "entities": [
+            "modern-history",
+            "law"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "geopolitics-systems-and-processes",
+  "title": "Geopolitics Systems and Processes",
+  "shortSummary": "See how Geopolitics moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Geopolitics matters because it helps you reason about foreign policy, defense, trade, energy, technology, and strategic planning.",
+  "coreConcepts": [
+    "power",
+    "geography",
+    "alliances",
+    "resources",
+    "strategy",
+    "deterrence"
+  ],
+  "mentalModels": [
+    "balance of power",
+    "chokepoint logic",
+    "systems rivalry"
+  ],
+  "lessons": [
+    "geopolitics-systems-in-the-world"
+  ],
+  "frameworks": [
+    "geopolitics-systems-map"
+  ],
+  "relatedModules": [
+    "geopolitics-applications",
+    "working-in-geopolitics"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

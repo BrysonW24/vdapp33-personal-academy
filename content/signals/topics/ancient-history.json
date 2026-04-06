@@ -1,0 +1,128 @@
+{
+  "slug": "ancient-history",
+  "kind": "topic",
+  "title": "Ancient History Signals",
+  "summary": "Ancient history signals track new finds, new methods, and debates about how the deep past should be interpreted.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Ancient DNA keeps reshaping migration stories",
+          "summary": "Genetic evidence is revising assumptions about population movement.",
+          "whyItMatters": "The ancient record is becoming more scientific.",
+          "entities": [
+            "ancient-history",
+            "biology"
+          ]
+        },
+        {
+          "name": "New site discovery methods are accelerating",
+          "summary": "Remote sensing and satellite work are finding hidden settlements.",
+          "whyItMatters": "The map of the ancient world keeps expanding.",
+          "entities": [
+            "ancient-history",
+            "space-infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Museum digitisation vendors",
+          "summary": "Collections are becoming more searchable and visible online.",
+          "whyItMatters": "Digital access changes who can study the ancient world.",
+          "entities": [
+            "ancient-history",
+            "design"
+          ]
+        },
+        {
+          "name": "Educational media platforms",
+          "summary": "Ancient history now lives across video and web platforms.",
+          "whyItMatters": "Public interpretation is increasingly important.",
+          "entities": [
+            "ancient-history",
+            "communication"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Museums",
+          "summary": "Artefacts and exhibitions shape public memory of antiquity.",
+          "whyItMatters": "The institution decides what the public sees and values.",
+          "entities": [
+            "ancient-history",
+            "design"
+          ]
+        },
+        {
+          "name": "Universities",
+          "summary": "Ancient history is still mostly anchored in academic study.",
+          "whyItMatters": "Research standards protect against overclaiming.",
+          "entities": [
+            "ancient-history",
+            "philosophy"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Mary Beard",
+          "summary": "Public historian with wide reach.",
+          "whyItMatters": "She keeps the ancient world legible to broad audiences.",
+          "entities": [
+            "ancient-history",
+            "communication"
+          ]
+        },
+        {
+          "name": "David Wengrow",
+          "summary": "Important voice on early civilisation and social complexity.",
+          "whyItMatters": "He challenges simplified origin stories.",
+          "entities": [
+            "ancient-history",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "How global should ancient history be?",
+          "summary": "The field is shifting beyond Greek and Roman centrality.",
+          "whyItMatters": "A broader map changes what counts as normal civilisation.",
+          "entities": [
+            "ancient-history",
+            "world-history"
+          ]
+        },
+        {
+          "name": "How much can we infer from fragments?",
+          "summary": "Methodological caution remains essential.",
+          "whyItMatters": "Ancient history is always balancing evidence and hypothesis.",
+          "entities": [
+            "ancient-history",
+            "self-knowledge"
+          ]
+        }
+      ]
+    }
+  ]
+}

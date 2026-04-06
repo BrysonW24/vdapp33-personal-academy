@@ -1,0 +1,23 @@
+{
+  "slug": "miro",
+  "name": "Miro",
+  "category": "collaboration",
+  "description": "Miro is a useful collaboration surface inside Design.",
+  "whyUseIt": "People in Design use Miro to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://miro.com/",
+  "alternatives": [
+    "Figma",
+    "Adobe Illustrator"
+  ],
+  "outputs": [
+    "Design working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Miro as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Miro."
+  ],
+  "relatedProject": "map-a-design-system"
+}

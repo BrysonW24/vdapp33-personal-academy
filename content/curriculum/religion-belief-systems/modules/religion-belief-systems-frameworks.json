@@ -1,0 +1,37 @@
+{
+  "slug": "religion-belief-systems-frameworks",
+  "title": "Religion & Belief Systems Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Religion & Belief Systems.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Religion & Belief Systems matters because it helps you reason about culture, ethics, politics, history, identity, and intergroup relations.",
+  "coreConcepts": [
+    "ritual",
+    "myth",
+    "doctrine",
+    "community",
+    "authority",
+    "meaning"
+  ],
+  "mentalModels": [
+    "belief as worldview",
+    "ritual as social technology",
+    "institution and interpretation"
+  ],
+  "lessons": [
+    "religion-belief-systems-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "religion-belief-systems-systems-map",
+    "religion-belief-systems-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "religion-belief-systems-systems-and-processes",
+    "religion-belief-systems-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

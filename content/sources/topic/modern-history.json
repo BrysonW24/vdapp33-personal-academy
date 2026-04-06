@@ -1,0 +1,197 @@
+{
+  "slug": "modern-history",
+  "kind": "topic",
+  "title": "Modern History Truth Stack",
+  "summary": "Modern history is best grounded in archives, historians who handle evidence carefully, and institutions that preserve the record.",
+  "starterPack": [
+    "Start with chronology and primary sources before interpretation.",
+    "Use archives, museums, and academic history before pop summaries.",
+    "Check whose perspective is missing from the narrative."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "How history becomes reliable.",
+      "items": [
+        {
+          "name": "Chronology matters",
+          "kind": "principle",
+          "description": "Events have sequence and causality."
+        },
+        {
+          "name": "Perspective matters",
+          "kind": "principle",
+          "description": "History changes depending on who is telling it."
+        },
+        {
+          "name": "Evidence beats nostalgia",
+          "kind": "principle",
+          "description": "Primary sources should outrank myth."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Places where the record is kept.",
+      "items": [
+        {
+          "name": "National archives",
+          "kind": "institution",
+          "description": "Official records and documents."
+        },
+        {
+          "name": "Museums",
+          "kind": "institution",
+          "description": "Material and visual history.",
+          "link": "https://www.nma.gov.au/"
+        },
+        {
+          "name": "University history departments",
+          "kind": "institution",
+          "description": "Scholarly method and training."
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Historians who explain the modern period clearly.",
+      "items": [
+        {
+          "name": "Tony Judt",
+          "kind": "person",
+          "description": "Influential interpreter of Europe and postwar order."
+        },
+        {
+          "name": "Christopher Clark",
+          "kind": "person",
+          "description": "Major voice on Europe and the causes of war."
+        },
+        {
+          "name": "Margaret MacMillan",
+          "kind": "person",
+          "description": "Clear writer on war, empire, and diplomacy.",
+          "link": "https://www.margaretmacmillan.com/"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People who work with the past.",
+      "items": [
+        {
+          "name": "Historians",
+          "kind": "person",
+          "description": "Interpret evidence and chronology."
+        },
+        {
+          "name": "Archivists",
+          "kind": "person",
+          "description": "Preserve and organise records."
+        },
+        {
+          "name": "Curators",
+          "kind": "person",
+          "description": "Turn history into public interpretation."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Homes of historical authority.",
+      "items": [
+        {
+          "name": "National libraries",
+          "kind": "institution",
+          "description": "Keep public records accessible."
+        },
+        {
+          "name": "Museums",
+          "kind": "institution",
+          "description": "Display artefacts and historical narratives."
+        },
+        {
+          "name": "Universities",
+          "kind": "institution",
+          "description": "Train historians and publish research."
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public-facing historical writing.",
+      "items": [
+        {
+          "name": "History Extra",
+          "kind": "publication",
+          "description": "Accessible history journalism.",
+          "link": "https://www.historyextra.com/"
+        },
+        {
+          "name": "The Conversation history",
+          "kind": "publication",
+          "description": "Academic public history writing.",
+          "link": "https://theconversation.com/"
+        },
+        {
+          "name": "BBC History",
+          "kind": "publication",
+          "description": "Public history and documentary coverage.",
+          "link": "https://www.bbc.com/history"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Visual history explainers.",
+      "items": [
+        {
+          "name": "CrashCourse World History",
+          "kind": "channel",
+          "description": "Accessible narrative overview.",
+          "link": "https://www.youtube.com/@crashcourse"
+        },
+        {
+          "name": "BBC documentaries",
+          "kind": "channel",
+          "description": "Long-form historical documentary work.",
+          "link": "https://www.bbc.co.uk/"
+        },
+        {
+          "name": "History Channel archive content",
+          "kind": "channel",
+          "description": "Popular but uneven; use selectively.",
+          "link": "https://www.history.com/"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Methods changing the field.",
+      "items": [
+        {
+          "name": "Digital humanities",
+          "kind": "tool",
+          "description": "Large digital corpora change what can be studied."
+        },
+        {
+          "name": "Public history",
+          "kind": "publication",
+          "description": "Museum and audience work widen participation."
+        },
+        {
+          "name": "Decolonising archives",
+          "kind": "institution",
+          "description": "The record itself is being re-evaluated."
+        }
+      ]
+    }
+  ]
+}

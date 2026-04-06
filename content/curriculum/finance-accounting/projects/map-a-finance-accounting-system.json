@@ -1,0 +1,61 @@
+{
+  "slug": "map-a-finance-accounting-system",
+  "title": "Map a Finance & Accounting system",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Choose one real financial process, business case, or reporting problem and explain it using the field's core models, tradeoffs, and operator reality.",
+  "whyItMatters": "This project forces Finance & Accounting to become operational rather than remaining purely conceptual.",
+  "skillsLearned": [
+    "Applied Finance & Accounting reasoning",
+    "Tradeoff analysis",
+    "Structured explanation",
+    "Case mapping"
+  ],
+  "prerequisites": [
+    "What Finance & Accounting Is",
+    "Finance & Accounting Mental Models"
+  ],
+  "steps": [
+    {
+      "title": "Choose a live case",
+      "description": "Select a concrete financial process, business case, or reporting problem with visible constraints and decisions."
+    },
+    {
+      "title": "Map the system",
+      "description": "Use Finance & Accounting Systems Map to capture the main units, flows, and constraints."
+    },
+    {
+      "title": "Analyze the tradeoffs",
+      "description": "Use Finance & Accounting Tradeoff Lens to compare the main options or tensions."
+    },
+    {
+      "title": "Write the brief",
+      "description": "Summarize what is happening, why it matters, and what a better decision would look like."
+    }
+  ],
+  "deliverables": [
+    "A one-page system map",
+    "A short decision brief",
+    "A list of key tradeoffs and uncertainties"
+  ],
+  "tools": [
+    "Microsoft Excel",
+    "Xero",
+    "Power BI"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The system and its boundaries are clearly explained."
+    },
+    {
+      "criteria": "Tradeoffs",
+      "description": "The key tensions are real, specific, and well compared."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The analysis stays grounded in real constraints and operators."
+    }
+  ],
+  "domain": "Finance & Accounting"
+}

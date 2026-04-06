@@ -1,0 +1,37 @@
+{
+  "slug": "public-administration-frameworks",
+  "title": "Public Administration Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Public Administration.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Public Administration matters because it helps you reason about departments, agencies, local government, regulation, and implementation.",
+  "coreConcepts": [
+    "administration",
+    "budgets",
+    "delivery",
+    "accountability",
+    "coordination",
+    "public value"
+  ],
+  "mentalModels": [
+    "policy-to-delivery chain",
+    "administrative capacity",
+    "mandate vs implementation gap"
+  ],
+  "lessons": [
+    "public-administration-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "public-administration-systems-map",
+    "public-administration-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "public-administration-systems-and-processes",
+    "public-administration-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

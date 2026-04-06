@@ -1,0 +1,23 @@
+{
+  "slug": "courts-portals",
+  "name": "Court Portals",
+  "category": "filing",
+  "description": "Court Portals is a useful filing surface inside Law.",
+  "whyUseIt": "People in Law use Court Portals to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.fedcourt.gov.au/",
+  "alternatives": [
+    "Westlaw",
+    "LexisNexis"
+  ],
+  "outputs": [
+    "Law working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Court Portals as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Court Portals."
+  ],
+  "relatedProject": "map-a-law-system"
+}

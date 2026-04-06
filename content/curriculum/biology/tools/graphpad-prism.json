@@ -1,0 +1,23 @@
+{
+  "slug": "graphpad-prism",
+  "name": "GraphPad Prism",
+  "category": "analysis",
+  "description": "GraphPad Prism is a useful analysis surface inside Biology.",
+  "whyUseIt": "People in Biology use GraphPad Prism to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.graphpad.com/",
+  "alternatives": [
+    "Benchling",
+    "NCBI BLAST"
+  ],
+  "outputs": [
+    "Biology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using GraphPad Prism as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from GraphPad Prism."
+  ],
+  "relatedProject": "map-a-biology-system"
+}

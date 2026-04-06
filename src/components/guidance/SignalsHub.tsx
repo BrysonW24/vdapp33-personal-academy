@@ -42,10 +42,10 @@ export function SignalsHub({ digests }: SignalsHubProps) {
         <section className="space-y-4">
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-              Current path
+              Current focus
             </p>
             <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
-              Signals tied to what you are studying now
+              Signals tied to what you have open now
             </h2>
           </div>
           <div className="grid gap-4 lg:grid-cols-3">

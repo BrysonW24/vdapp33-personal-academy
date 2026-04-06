@@ -1,0 +1,12 @@
+{
+  "slug": "psychology",
+  "name": "Psychology",
+  "shortName": "Psychology",
+  "group": "mind",
+  "icon": "Brain",
+  "color": "#EC4899",
+  "tagline": "Mind, behavior, development, attention, emotion, and the patterns that shape human action.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 20
+}

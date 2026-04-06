@@ -1,0 +1,201 @@
+{
+  "slug": "economics",
+  "kind": "topic",
+  "title": "Economics Truth Stack",
+  "summary": "Economics is best grounded in incentives, trade-offs, institutional design, and the data that show when policies actually work.",
+  "starterPack": [
+    "Start with scarcity, incentives, and trade-offs.",
+    "Use central banks, treasuries, and major research bodies before commentary.",
+    "Compare models to real data, not just elegant theory."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "Core assumptions economics keeps returning to.",
+      "items": [
+        {
+          "name": "Scarcity",
+          "kind": "principle",
+          "description": "Resources are limited, so choices always involve trade-offs."
+        },
+        {
+          "name": "Incentives",
+          "kind": "principle",
+          "description": "People respond to expected costs and benefits."
+        },
+        {
+          "name": "Opportunity cost",
+          "kind": "principle",
+          "description": "Choosing one thing means giving up another."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Institutional sources of macro and microeconomic truth.",
+      "items": [
+        {
+          "name": "Reserve Bank of Australia",
+          "kind": "institution",
+          "description": "Monetary policy and financial stability.",
+          "link": "https://www.rba.gov.au/"
+        },
+        {
+          "name": "International Monetary Fund",
+          "kind": "institution",
+          "description": "Global macroeconomic analysis.",
+          "link": "https://www.imf.org/"
+        },
+        {
+          "name": "World Bank",
+          "kind": "institution",
+          "description": "Development and policy data.",
+          "link": "https://www.worldbank.org/"
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Economists and writers who explain the field well.",
+      "items": [
+        {
+          "name": "Abhijit Banerjee",
+          "kind": "person",
+          "description": "Development and applied economics.",
+          "link": "https://economics.mit.edu/people/faculty/abhijit-banerjee"
+        },
+        {
+          "name": "Esther Duflo",
+          "kind": "person",
+          "description": "Experimental economics and policy evidence.",
+          "link": "https://economics.mit.edu/people/faculty/esther-duflo"
+        },
+        {
+          "name": "Paul Krugman",
+          "kind": "person",
+          "description": "Macro and trade commentary.",
+          "link": "https://www.nytimes.com/column/paul-krugman"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People who use economics in work.",
+      "items": [
+        {
+          "name": "Treasury economists",
+          "kind": "person",
+          "description": "Model budgets, tax, and policy impacts."
+        },
+        {
+          "name": "Central bankers",
+          "kind": "person",
+          "description": "Steer rates and financial stability."
+        },
+        {
+          "name": "Competition economists",
+          "kind": "person",
+          "description": "Study market structure and market power."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Where economic reasoning becomes operational.",
+      "items": [
+        {
+          "name": "Central banks",
+          "kind": "institution",
+          "description": "Inflation and rate settings."
+        },
+        {
+          "name": "Treasuries",
+          "kind": "institution",
+          "description": "Fiscal policy and economic analysis."
+        },
+        {
+          "name": "Statistical agencies",
+          "kind": "institution",
+          "description": "Core data about the economy."
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Readable economics coverage.",
+      "items": [
+        {
+          "name": "The Economist",
+          "kind": "publication",
+          "description": "Policy and macroeconomic commentary.",
+          "link": "https://www.economist.com/"
+        },
+        {
+          "name": "Journal of Economic Perspectives",
+          "kind": "journal",
+          "description": "Accessible academic economics.",
+          "link": "https://www.aeaweb.org/journals/jep"
+        },
+        {
+          "name": "Project Syndicate",
+          "kind": "publication",
+          "description": "Global policy and economic essays.",
+          "link": "https://www.project-syndicate.org/"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Introductory economic explainers.",
+      "items": [
+        {
+          "name": "Marginal Revolution University",
+          "kind": "channel",
+          "description": "Economics lessons and explainers.",
+          "link": "https://mru.org/"
+        },
+        {
+          "name": "CrashCourse Economics",
+          "kind": "channel",
+          "description": "Broad introduction to the field.",
+          "link": "https://www.youtube.com/@crashcourse"
+        },
+        {
+          "name": "The Economist video",
+          "kind": "channel",
+          "description": "Short form economics explainers.",
+          "link": "https://www.youtube.com/@TheEconomist"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Areas worth tracking closely.",
+      "items": [
+        {
+          "name": "AI productivity",
+          "kind": "tool",
+          "description": "Automation changes what labour is worth."
+        },
+        {
+          "name": "Climate economics",
+          "kind": "publication",
+          "description": "Transition and adaptation decisions need better models."
+        },
+        {
+          "name": "Platform markets",
+          "kind": "company",
+          "description": "Digital platforms reshape competition and pricing."
+        }
+      ]
+    }
+  ]
+}

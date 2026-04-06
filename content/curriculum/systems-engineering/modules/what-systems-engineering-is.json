@@ -1,0 +1,36 @@
+{
+  "slug": "what-systems-engineering-is",
+  "title": "What Systems Engineering Is",
+  "shortSummary": "Get oriented to Systems Engineering: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Systems Engineering matters because it helps you reason about defense, aerospace, transport, energy, and large technical programs.",
+  "coreConcepts": [
+    "requirements",
+    "interfaces",
+    "integration",
+    "verification",
+    "risk",
+    "lifecycle thinking"
+  ],
+  "mentalModels": [
+    "system-of-systems thinking",
+    "interface control",
+    "verification traceability"
+  ],
+  "lessons": [
+    "what-is-systems-engineering"
+  ],
+  "frameworks": [
+    "systems-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "systems-engineering-mental-models",
+    "systems-engineering-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

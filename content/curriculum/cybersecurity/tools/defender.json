@@ -1,0 +1,23 @@
+{
+  "slug": "defender",
+  "name": "Microsoft Defender",
+  "category": "endpoint-security",
+  "description": "Microsoft Defender is a useful endpoint security surface inside Cybersecurity.",
+  "whyUseIt": "People in Cybersecurity use Microsoft Defender to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.microsoft.com/security/business/microsoft-defender",
+  "alternatives": [
+    "Wireshark",
+    "Burp Suite"
+  ],
+  "outputs": [
+    "Cybersecurity working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Microsoft Defender as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Microsoft Defender."
+  ],
+  "relatedProject": "map-a-cybersecurity-system"
+}

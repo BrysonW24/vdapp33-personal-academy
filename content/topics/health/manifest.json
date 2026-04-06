@@ -1,0 +1,12 @@
+{
+  "slug": "health",
+  "name": "Health",
+  "kind": "topic",
+  "group": "life",
+  "icon": "HeartPulse",
+  "color": "#16A34A",
+  "tagline": "How bodies, minds, systems, and environments combine to shape wellbeing.",
+  "tier": "flagship",
+  "hasNews": true,
+  "order": 18
+}

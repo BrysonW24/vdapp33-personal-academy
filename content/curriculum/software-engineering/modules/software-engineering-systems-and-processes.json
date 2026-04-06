@@ -1,0 +1,36 @@
+{
+  "slug": "software-engineering-systems-and-processes",
+  "title": "Software Engineering Systems and Processes",
+  "shortSummary": "See how Software Engineering moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Software Engineering matters because it helps you reason about consumer products, enterprise systems, infrastructure, automation, and developer platforms.",
+  "coreConcepts": [
+    "requirements",
+    "architecture",
+    "testing",
+    "deployment",
+    "reliability",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "abstraction boundaries",
+    "tradeoff-driven architecture",
+    "feedback loop engineering"
+  ],
+  "lessons": [
+    "software-engineering-systems-in-the-world"
+  ],
+  "frameworks": [
+    "software-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "software-engineering-applications",
+    "working-in-software-engineering"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

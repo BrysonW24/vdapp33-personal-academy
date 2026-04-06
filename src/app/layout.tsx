@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Nexus",
   },
   description:
-    "Nexus is a guided knowledge operating system for curiosity-driven learning across subjects, topics, and roles, with local-first onboarding, My Path, truth stacks, and curated signals.",
+    "Nexus is a browse-first knowledge interface for exploring subjects, topics, and roles, with truth stacks, curated signals, and optional local-first guidance.",
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }, { url: "/favicon.ico" }],
   },

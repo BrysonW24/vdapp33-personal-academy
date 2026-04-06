@@ -25,14 +25,14 @@ export function HomePathPanel({ catalog }: HomePathPanelProps) {
         <CardHeader>
           <div className="flex items-center gap-2">
             <Route className="h-4 w-4 text-editorial-green" />
-            <CardTitle>Set up My Path</CardTitle>
+            <CardTitle>Optional guidance</CardTitle>
           </div>
         </CardHeader>
         <CardContent className="space-y-4">
           <p className="text-sm leading-relaxed text-editorial-muted">
-            Turn the academy into a real operating system. A short setup flow will
-            choose a core subject, supporting topic, role lens, weekly rhythm, and
-            first milestone for you.
+            A short setup flow can choose a core subject, supporting topic, role lens,
+            weekly rhythm, and first milestone for you if you want a more directed
+            starting point.
           </p>
           <Button asChild>
             <Link href="/setup">
@@ -58,7 +58,7 @@ export function HomePathPanel({ catalog }: HomePathPanelProps) {
       <CardHeader>
         <div className="flex items-center gap-2">
           <Compass className="h-4 w-4 text-editorial-blue" />
-          <CardTitle>Continue My Path</CardTitle>
+          <CardTitle>Continue guidance</CardTitle>
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -80,7 +80,7 @@ export function HomePathPanel({ catalog }: HomePathPanelProps) {
         ) : null}
         <div className="flex flex-wrap gap-3">
           <Button asChild>
-            <Link href="/my-path">Open My Path</Link>
+            <Link href="/my-path">Open guidance</Link>
           </Button>
           {pathState.todaySession ? (
             <Button asChild variant="secondary">

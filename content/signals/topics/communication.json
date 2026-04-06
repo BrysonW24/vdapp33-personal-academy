@@ -1,0 +1,128 @@
+{
+  "slug": "communication",
+  "kind": "topic",
+  "title": "Communication Signals",
+  "summary": "Communication signals track how language, media, platforms, and trust are changing in public and professional life.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "AI drafting tools are normalising",
+          "summary": "People are using models to write and summarise more often.",
+          "whyItMatters": "Communication now includes human editing of machine output.",
+          "entities": [
+            "communication",
+            "artificial-intelligence"
+          ]
+        },
+        {
+          "name": "Attention is more fragmented",
+          "summary": "Short-form and platform algorithms are changing how messages are received.",
+          "whyItMatters": "The channel now shapes the message more than ever.",
+          "entities": [
+            "communication",
+            "media"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Media platforms",
+          "summary": "Distribution shapes credibility and reach.",
+          "whyItMatters": "Platform incentives influence what communication wins.",
+          "entities": [
+            "communication",
+            "design"
+          ]
+        },
+        {
+          "name": "PR and comms firms",
+          "summary": "Professional communication is now strategic infrastructure.",
+          "whyItMatters": "Message design has become a business function.",
+          "entities": [
+            "communication",
+            "politics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Newsrooms",
+          "summary": "Fact-checking and synthesis still matter.",
+          "whyItMatters": "The institution of journalism remains central to public trust.",
+          "entities": [
+            "communication",
+            "politics"
+          ]
+        },
+        {
+          "name": "Universities",
+          "summary": "Communication research continues to shape the field.",
+          "whyItMatters": "Academic theory informs both media and work communication.",
+          "entities": [
+            "communication",
+            "psychology"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Chip Heath",
+          "summary": "A clear writer on sticky ideas.",
+          "whyItMatters": "His work is useful wherever clarity matters.",
+          "entities": [
+            "communication",
+            "design"
+          ]
+        },
+        {
+          "name": "Barbara Minto",
+          "summary": "Structured communication pioneer.",
+          "whyItMatters": "Her framework is still widely used in business writing.",
+          "entities": [
+            "communication",
+            "finance-accounting"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Can AI improve writing without flattening voice?",
+          "summary": "Tools can accelerate drafting but also homogenise style.",
+          "whyItMatters": "This affects creativity and authenticity.",
+          "entities": [
+            "communication",
+            "artificial-intelligence"
+          ]
+        },
+        {
+          "name": "How do we restore trust online?",
+          "summary": "Verification, provenance, and platform design all matter.",
+          "whyItMatters": "Communication is now partly an infrastructure problem.",
+          "entities": [
+            "communication",
+            "law"
+          ]
+        }
+      ]
+    }
+  ]
+}

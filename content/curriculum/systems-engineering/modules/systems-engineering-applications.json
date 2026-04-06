@@ -1,0 +1,36 @@
+{
+  "slug": "systems-engineering-applications",
+  "title": "Systems Engineering Applications",
+  "shortSummary": "Trace where Systems Engineering shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Systems Engineering matters because it helps you reason about defense, aerospace, transport, energy, and large technical programs.",
+  "coreConcepts": [
+    "requirements",
+    "interfaces",
+    "integration",
+    "verification",
+    "risk",
+    "lifecycle thinking"
+  ],
+  "mentalModels": [
+    "system-of-systems thinking",
+    "interface control",
+    "verification traceability"
+  ],
+  "lessons": [
+    "systems-engineering-where-it-shows-up"
+  ],
+  "frameworks": [
+    "systems-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-systems-engineering",
+    "what-systems-engineering-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

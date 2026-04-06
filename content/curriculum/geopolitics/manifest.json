@@ -1,0 +1,12 @@
+{
+  "slug": "geopolitics",
+  "name": "Geopolitics",
+  "shortName": "Geopolitics",
+  "group": "society",
+  "icon": "Globe2",
+  "color": "#BE123C",
+  "tagline": "Power, geography, resources, states, and the strategic forces shaping the world order.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 22
+}

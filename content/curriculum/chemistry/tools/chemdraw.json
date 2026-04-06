@@ -1,0 +1,23 @@
+{
+  "slug": "chemdraw",
+  "name": "ChemDraw",
+  "category": "diagramming",
+  "description": "ChemDraw is a useful diagramming surface inside Chemistry.",
+  "whyUseIt": "People in Chemistry use ChemDraw to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://revvitysignals.com/products/research/chemdraw",
+  "alternatives": [
+    "OriginLab",
+    "SciFinder"
+  ],
+  "outputs": [
+    "Chemistry working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using ChemDraw as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from ChemDraw."
+  ],
+  "relatedProject": "map-a-chemistry-system"
+}

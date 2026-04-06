@@ -1,0 +1,36 @@
+{
+  "slug": "sociology-systems-and-processes",
+  "title": "Sociology Systems and Processes",
+  "shortSummary": "See how Sociology moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Sociology matters because it helps you reason about policy, research, education, organisations, and social analysis.",
+  "coreConcepts": [
+    "institutions",
+    "norms",
+    "class",
+    "identity",
+    "culture",
+    "social change"
+  ],
+  "mentalModels": [
+    "structure vs agency",
+    "social stratification",
+    "institutional reproduction"
+  ],
+  "lessons": [
+    "sociology-systems-in-the-world"
+  ],
+  "frameworks": [
+    "sociology-systems-map"
+  ],
+  "relatedModules": [
+    "sociology-applications",
+    "working-in-sociology"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

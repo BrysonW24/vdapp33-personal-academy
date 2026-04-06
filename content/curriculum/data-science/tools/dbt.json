@@ -1,0 +1,23 @@
+{
+  "slug": "dbt",
+  "name": "dbt",
+  "category": "transformation",
+  "description": "dbt is a useful transformation surface inside Data Science.",
+  "whyUseIt": "People in Data Science use dbt to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.getdbt.com/",
+  "alternatives": [
+    "Python",
+    "Tableau"
+  ],
+  "outputs": [
+    "Data Science working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using dbt as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from dbt."
+  ],
+  "relatedProject": "map-a-data-science-system"
+}

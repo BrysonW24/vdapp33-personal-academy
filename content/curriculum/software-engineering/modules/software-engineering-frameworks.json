@@ -1,0 +1,37 @@
+{
+  "slug": "software-engineering-frameworks",
+  "title": "Software Engineering Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Software Engineering.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Software Engineering matters because it helps you reason about consumer products, enterprise systems, infrastructure, automation, and developer platforms.",
+  "coreConcepts": [
+    "requirements",
+    "architecture",
+    "testing",
+    "deployment",
+    "reliability",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "abstraction boundaries",
+    "tradeoff-driven architecture",
+    "feedback loop engineering"
+  ],
+  "lessons": [
+    "software-engineering-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "software-engineering-systems-map",
+    "software-engineering-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "software-engineering-systems-and-processes",
+    "software-engineering-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

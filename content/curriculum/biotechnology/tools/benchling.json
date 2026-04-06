@@ -1,0 +1,23 @@
+{
+  "slug": "benchling",
+  "name": "Benchling",
+  "category": "lab-software",
+  "description": "Benchling is a useful lab software surface inside Biotechnology.",
+  "whyUseIt": "People in Biotechnology use Benchling to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.benchling.com/",
+  "alternatives": [
+    "SnapGene",
+    "Bioreactor Systems"
+  ],
+  "outputs": [
+    "Biotechnology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Benchling as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Benchling."
+  ],
+  "relatedProject": "map-a-biotechnology-system"
+}

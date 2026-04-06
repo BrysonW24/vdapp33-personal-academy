@@ -153,7 +153,7 @@ function BlueprintPreview({
           Your blueprint
         </p>
         <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
-          Nexus has a path now
+          Nexus has a blueprint now
         </h2>
       </div>
 
@@ -197,7 +197,7 @@ function BlueprintPreview({
                 variant={blueprint.activePathId === option.id ? "default" : "secondary"}
                 className="w-full"
               >
-                {blueprint.activePathId === option.id ? "Current path" : "Switch to this path"}
+                {blueprint.activePathId === option.id ? "Current focus" : "Switch to this focus"}
               </Button>
             </CardContent>
           </Card>
@@ -290,7 +290,7 @@ export function SetupFlow({ questionBank, archetypes, catalog }: SetupFlowProps)
                   }
                   disabled={!canGenerate || isPending}
                 >
-                  {isPending ? "Generating..." : "Generate My Blueprint"}
+                  {isPending ? "Generating..." : "Generate Blueprint"}
                 </Button>
               )}
             </div>
@@ -312,7 +312,7 @@ export function SetupFlow({ questionBank, archetypes, catalog }: SetupFlowProps)
 
             <div className="flex flex-wrap gap-3">
               <Button asChild>
-                <Link href="/my-path">Go to My Path</Link>
+                <Link href="/my-path">Open My Path</Link>
               </Button>
               <Button asChild variant="secondary">
                 <Link href="/">Keep browsing first</Link>

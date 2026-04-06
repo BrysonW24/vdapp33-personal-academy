@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-demography",
+  "title": "Working in Demography",
+  "shortSummary": "Understand what people in Demography actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Demography matters because it helps you reason about housing, health, education, labour markets, migration, and long-range strategy.",
+  "coreConcepts": [
+    "fertility",
+    "mortality",
+    "migration",
+    "age structure",
+    "cohort effects",
+    "population projections"
+  ],
+  "mentalModels": [
+    "cohort flow thinking",
+    "dependency ratios",
+    "population momentum"
+  ],
+  "lessons": [
+    "demography-career-reality"
+  ],
+  "frameworks": [
+    "demography-systems-map"
+  ],
+  "relatedModules": [
+    "what-demography-is",
+    "demography-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

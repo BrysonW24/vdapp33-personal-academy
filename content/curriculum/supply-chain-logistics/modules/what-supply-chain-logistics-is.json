@@ -1,0 +1,36 @@
+{
+  "slug": "what-supply-chain-logistics-is",
+  "title": "What Supply Chain & Logistics Is",
+  "shortSummary": "Get oriented to Supply Chain & Logistics: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Supply Chain & Logistics matters because it helps you reason about manufacturing, retail, defense, food systems, and global trade.",
+  "coreConcepts": [
+    "inventory",
+    "forecasting",
+    "transport",
+    "warehousing",
+    "suppliers",
+    "service levels"
+  ],
+  "mentalModels": [
+    "flow and bottleneck thinking",
+    "inventory-position tradeoffs",
+    "resilience vs efficiency"
+  ],
+  "lessons": [
+    "what-is-supply-chain-logistics"
+  ],
+  "frameworks": [
+    "supply-chain-logistics-systems-map"
+  ],
+  "relatedModules": [
+    "supply-chain-logistics-mental-models",
+    "supply-chain-logistics-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

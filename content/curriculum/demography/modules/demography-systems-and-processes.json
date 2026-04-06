@@ -1,0 +1,36 @@
+{
+  "slug": "demography-systems-and-processes",
+  "title": "Demography Systems and Processes",
+  "shortSummary": "See how Demography moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Demography matters because it helps you reason about housing, health, education, labour markets, migration, and long-range strategy.",
+  "coreConcepts": [
+    "fertility",
+    "mortality",
+    "migration",
+    "age structure",
+    "cohort effects",
+    "population projections"
+  ],
+  "mentalModels": [
+    "cohort flow thinking",
+    "dependency ratios",
+    "population momentum"
+  ],
+  "lessons": [
+    "demography-systems-in-the-world"
+  ],
+  "frameworks": [
+    "demography-systems-map"
+  ],
+  "relatedModules": [
+    "demography-applications",
+    "working-in-demography"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

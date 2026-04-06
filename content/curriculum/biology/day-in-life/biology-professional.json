@@ -1,0 +1,80 @@
+{
+  "slug": "biology-professional",
+  "title": "A Day as a Research Biologist",
+  "setting": "A lab or field team testing hypotheses about cells, organisms, or ecosystems.",
+  "companySize": "Mid-sized to large organization with cross-functional coordination and measurable delivery pressure.",
+  "description": "You work as a research biologist using Biology to notice patterns, frame decisions, and improve outcomes under real constraints.",
+  "salary": "$85,000 - $130,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review the current system state and pending priorities",
+      "tools": [
+        "Benchling",
+        "GraphPad Prism"
+      ]
+    },
+    {
+      "time": "09:30",
+      "activity": "Team check-in on risks, decisions, and dependencies",
+      "tools": [
+        "Benchling"
+      ]
+    },
+    {
+      "time": "11:00",
+      "activity": "Deep work on a live biological system or field observation question",
+      "tools": [
+        "Benchling",
+        "GraphPad Prism",
+        "NCBI BLAST"
+      ]
+    },
+    {
+      "time": "13:00",
+      "activity": "Stakeholder or operator discussion",
+      "tools": [
+        "Benchling"
+      ],
+      "note": "The useful work usually sits where models meet people and constraints."
+    },
+    {
+      "time": "15:00",
+      "activity": "Analysis, documentation, or design iteration",
+      "tools": [
+        "Benchling",
+        "GraphPad Prism"
+      ]
+    },
+    {
+      "time": "17:00",
+      "activity": "Close out notes, decisions, and the next day’s handoff",
+      "tools": [
+        "Benchling"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Use Biology to frame real problems instead of reacting at surface level.",
+    "Translate complexity into clearer choices for other people.",
+    "Balance quality, speed, cost, and institutional constraints.",
+    "Document decisions well enough that others can build on them."
+  ],
+  "challenges": [
+    "The field rarely arrives as a clean textbook version of Biology.",
+    "Time pressure, incomplete information, and competing priorities distort judgment.",
+    "Good work is often invisible when systems are stable and only obvious when they fail."
+  ],
+  "rewards": [
+    "You get to make Biology feel real, usable, and consequential.",
+    "The work improves your judgment far beyond the field itself.",
+    "You become the kind of person who can simplify complexity without flattening it."
+  ],
+  "careerPath": [
+    "Graduate / junior research biologist",
+    "Mid-level research biologist",
+    "Senior research biologist",
+    "Lead / principal role",
+    "Head of function or specialist advisor"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "demography-frameworks",
+  "title": "Demography Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Demography.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Demography matters because it helps you reason about housing, health, education, labour markets, migration, and long-range strategy.",
+  "coreConcepts": [
+    "fertility",
+    "mortality",
+    "migration",
+    "age structure",
+    "cohort effects",
+    "population projections"
+  ],
+  "mentalModels": [
+    "cohort flow thinking",
+    "dependency ratios",
+    "population momentum"
+  ],
+  "lessons": [
+    "demography-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "demography-systems-map",
+    "demography-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "demography-systems-and-processes",
+    "demography-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

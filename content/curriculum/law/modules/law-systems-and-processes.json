@@ -1,0 +1,36 @@
+{
+  "slug": "law-systems-and-processes",
+  "title": "Law Systems and Processes",
+  "shortSummary": "See how Law moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Law matters because it helps you reason about courts, contracts, regulation, public administration, business, and civil rights.",
+  "coreConcepts": [
+    "statutes",
+    "precedent",
+    "interpretation",
+    "procedure",
+    "evidence",
+    "enforcement"
+  ],
+  "mentalModels": [
+    "text-context-purpose interpretation",
+    "rights vs powers",
+    "procedure as risk control"
+  ],
+  "lessons": [
+    "law-systems-in-the-world"
+  ],
+  "frameworks": [
+    "law-systems-map"
+  ],
+  "relatedModules": [
+    "law-applications",
+    "working-in-law"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

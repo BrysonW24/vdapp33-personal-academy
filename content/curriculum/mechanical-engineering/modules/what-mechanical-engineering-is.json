@@ -1,0 +1,36 @@
+{
+  "slug": "what-mechanical-engineering-is",
+  "title": "What Mechanical Engineering Is",
+  "shortSummary": "Get oriented to Mechanical Engineering: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Mechanical Engineering matters because it helps you reason about vehicles, industrial equipment, robotics, energy systems, and product hardware.",
+  "coreConcepts": [
+    "forces",
+    "motion",
+    "thermodynamics",
+    "materials",
+    "manufacturing",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "load and failure thinking",
+    "energy conversion",
+    "design for manufacture"
+  ],
+  "lessons": [
+    "what-is-mechanical-engineering"
+  ],
+  "frameworks": [
+    "mechanical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "mechanical-engineering-mental-models",
+    "mechanical-engineering-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

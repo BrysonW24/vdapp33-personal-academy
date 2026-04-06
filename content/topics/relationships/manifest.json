@@ -1,0 +1,12 @@
+{
+  "slug": "relationships",
+  "name": "Relationships",
+  "kind": "topic",
+  "group": "mind",
+  "icon": "HeartHandshake",
+  "color": "#F472B6",
+  "tagline": "How trust, attachment, conflict, and commitment shape the bonds between people.",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 12
+}

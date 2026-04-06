@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-civil-engineering",
+  "title": "Working in Civil Engineering",
+  "shortSummary": "Understand what people in Civil Engineering actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Civil Engineering matters because it helps you reason about roads, bridges, buildings, drainage, water systems, and urban development.",
+  "coreConcepts": [
+    "loads",
+    "materials",
+    "site conditions",
+    "hydrology",
+    "standards",
+    "delivery"
+  ],
+  "mentalModels": [
+    "load path thinking",
+    "lifecycle infrastructure planning",
+    "safety margin judgment"
+  ],
+  "lessons": [
+    "civil-engineering-career-reality"
+  ],
+  "frameworks": [
+    "civil-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "what-civil-engineering-is",
+    "civil-engineering-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

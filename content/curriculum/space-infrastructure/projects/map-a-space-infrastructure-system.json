@@ -1,0 +1,61 @@
+{
+  "slug": "map-a-space-infrastructure-system",
+  "title": "Map a Space Infrastructure system",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Choose one real space mission architecture or operational stack and explain it using the field's core models, tradeoffs, and operator reality.",
+  "whyItMatters": "This project forces Space Infrastructure to become operational rather than remaining purely conceptual.",
+  "skillsLearned": [
+    "Applied Space Infrastructure reasoning",
+    "Tradeoff analysis",
+    "Structured explanation",
+    "Case mapping"
+  ],
+  "prerequisites": [
+    "What Space Infrastructure Is",
+    "Space Infrastructure Mental Models"
+  ],
+  "steps": [
+    {
+      "title": "Choose a live case",
+      "description": "Select a concrete space mission architecture or operational stack with visible constraints and decisions."
+    },
+    {
+      "title": "Map the system",
+      "description": "Use Space Infrastructure Systems Map to capture the main units, flows, and constraints."
+    },
+    {
+      "title": "Analyze the tradeoffs",
+      "description": "Use Space Infrastructure Tradeoff Lens to compare the main options or tensions."
+    },
+    {
+      "title": "Write the brief",
+      "description": "Summarize what is happening, why it matters, and what a better decision would look like."
+    }
+  ],
+  "deliverables": [
+    "A one-page system map",
+    "A short decision brief",
+    "A list of key tradeoffs and uncertainties"
+  ],
+  "tools": [
+    "Systems Tool Kit",
+    "GMAT",
+    "SatNOGS"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The system and its boundaries are clearly explained."
+    },
+    {
+      "criteria": "Tradeoffs",
+      "description": "The key tensions are real, specific, and well compared."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The analysis stays grounded in real constraints and operators."
+    }
+  ],
+  "domain": "Space Infrastructure"
+}

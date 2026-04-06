@@ -1,0 +1,36 @@
+{
+  "slug": "what-data-science-is",
+  "title": "What Data Science Is",
+  "shortSummary": "Get oriented to Data Science: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Data Science matters because it helps you reason about forecasting, experimentation, product analytics, operations, and research.",
+  "coreConcepts": [
+    "data cleaning",
+    "statistics",
+    "experimentation",
+    "modeling",
+    "evaluation",
+    "communication"
+  ],
+  "mentalModels": [
+    "signal vs noise",
+    "causation vs correlation",
+    "model lifecycle thinking"
+  ],
+  "lessons": [
+    "what-is-data-science"
+  ],
+  "frameworks": [
+    "data-science-systems-map"
+  ],
+  "relatedModules": [
+    "data-science-mental-models",
+    "data-science-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

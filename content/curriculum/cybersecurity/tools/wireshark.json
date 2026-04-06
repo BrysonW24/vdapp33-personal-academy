@@ -1,0 +1,23 @@
+{
+  "slug": "wireshark",
+  "name": "Wireshark",
+  "category": "network-analysis",
+  "description": "Wireshark is a useful network analysis surface inside Cybersecurity.",
+  "whyUseIt": "People in Cybersecurity use Wireshark to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.wireshark.org/",
+  "alternatives": [
+    "Burp Suite",
+    "Splunk"
+  ],
+  "outputs": [
+    "Cybersecurity working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Wireshark as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Wireshark."
+  ],
+  "relatedProject": "map-a-cybersecurity-system"
+}

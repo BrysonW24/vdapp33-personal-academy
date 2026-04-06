@@ -1,0 +1,23 @@
+{
+  "slug": "materials-project",
+  "name": "Materials Project",
+  "category": "database",
+  "description": "Materials Project is a useful database surface inside Materials Science.",
+  "whyUseIt": "People in Materials Science use Materials Project to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://materialsproject.org/",
+  "alternatives": [
+    "Granta Selector",
+    "ImageJ"
+  ],
+  "outputs": [
+    "Materials Science working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Materials Project as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Materials Project."
+  ],
+  "relatedProject": "map-a-materials-science-system"
+}

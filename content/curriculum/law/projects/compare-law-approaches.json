@@ -1,0 +1,61 @@
+{
+  "slug": "compare-law-approaches",
+  "title": "Compare two Law approaches",
+  "difficulty": 5,
+  "estimatedHours": 10,
+  "description": "Compare two real approaches inside Law and explain which one is stronger under which conditions.",
+  "whyItMatters": "Richer judgment in Law comes from seeing when one strong-looking idea actually loses on context or constraints.",
+  "skillsLearned": [
+    "Comparison writing",
+    "Context-sensitive judgment",
+    "Framework use",
+    "Decision framing"
+  ],
+  "prerequisites": [
+    "Law Frameworks",
+    "Law Systems and Processes"
+  ],
+  "steps": [
+    {
+      "title": "Pick two credible approaches",
+      "description": "Choose two approaches, schools, tools, or strategies inside Law."
+    },
+    {
+      "title": "Define the evaluation criteria",
+      "description": "Use the tradeoff lens to make the comparison dimensions explicit."
+    },
+    {
+      "title": "Run the comparison",
+      "description": "Assess where each approach is strong, weak, fast, risky, or context-dependent."
+    },
+    {
+      "title": "State the verdict carefully",
+      "description": "Explain which option wins under which circumstances and why."
+    }
+  ],
+  "deliverables": [
+    "A comparison matrix",
+    "A verdict memo",
+    "A list of open questions or edge cases"
+  ],
+  "tools": [
+    "Westlaw",
+    "LexisNexis",
+    "Microsoft Word"
+  ],
+  "rubric": [
+    {
+      "criteria": "Fairness",
+      "description": "Both approaches are represented accurately and charitably."
+    },
+    {
+      "criteria": "Judgment",
+      "description": "The recommendation is contingent, nuanced, and evidence-based."
+    },
+    {
+      "criteria": "Usefulness",
+      "description": "A reader could use the comparison to make a real decision."
+    }
+  ],
+  "domain": "Law"
+}

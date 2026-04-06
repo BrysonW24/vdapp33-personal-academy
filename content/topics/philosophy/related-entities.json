@@ -1,5 +1,16 @@
 {
-  "relatedSubjects": ["physics", "quantum", "politics"],
-  "relatedTopics": ["consciousness", "love", "emotions"],
-  "relatedRoles": ["diplomat", "ai-researcher"]
+  "relatedSubjects": [
+    "physics",
+    "quantum-science",
+    "politics"
+  ],
+  "relatedTopics": [
+    "consciousness",
+    "love",
+    "emotions"
+  ],
+  "relatedRoles": [
+    "diplomat",
+    "ai-researcher"
+  ]
 }

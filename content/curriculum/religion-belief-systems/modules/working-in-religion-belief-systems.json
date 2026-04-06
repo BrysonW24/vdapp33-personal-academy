@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-religion-belief-systems",
+  "title": "Working in Religion & Belief Systems",
+  "shortSummary": "Understand what people in Religion & Belief Systems actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Religion & Belief Systems matters because it helps you reason about culture, ethics, politics, history, identity, and intergroup relations.",
+  "coreConcepts": [
+    "ritual",
+    "myth",
+    "doctrine",
+    "community",
+    "authority",
+    "meaning"
+  ],
+  "mentalModels": [
+    "belief as worldview",
+    "ritual as social technology",
+    "institution and interpretation"
+  ],
+  "lessons": [
+    "religion-belief-systems-career-reality"
+  ],
+  "frameworks": [
+    "religion-belief-systems-systems-map"
+  ],
+  "relatedModules": [
+    "what-religion-belief-systems-is",
+    "religion-belief-systems-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

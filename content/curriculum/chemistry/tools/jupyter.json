@@ -1,0 +1,23 @@
+{
+  "slug": "jupyter",
+  "name": "Jupyter Notebooks",
+  "category": "computing",
+  "description": "Jupyter Notebooks is a useful computing surface inside Chemistry.",
+  "whyUseIt": "People in Chemistry use Jupyter Notebooks to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://jupyter.org/",
+  "alternatives": [
+    "ChemDraw",
+    "OriginLab"
+  ],
+  "outputs": [
+    "Chemistry working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Jupyter Notebooks as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Jupyter Notebooks."
+  ],
+  "relatedProject": "map-a-chemistry-system"
+}

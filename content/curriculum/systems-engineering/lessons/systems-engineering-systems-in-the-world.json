@@ -1,0 +1,83 @@
+{
+  "slug": "systems-engineering-systems-in-the-world",
+  "moduleSlug": "systems-engineering-systems-and-processes",
+  "title": "Systems Engineering systems in the world",
+  "objective": "Use Systems Engineering with more structure, not just surface familiarity.",
+  "beginnerExplanation": "Systems Engineering is about the coordination of requirements, interfaces, risks, and verification across complex systems. At the beginner level, the fastest way to understand the field is to identify its core units, its main constraints, and the kinds of decisions it helps people make. In practice, Systems Engineering becomes useful when you can connect requirements, interfaces, integration to a real-world example instead of holding them as isolated definitions.",
+  "deeperExplanation": "A more mature view of Systems Engineering focuses on mechanisms, tradeoffs, and institutional reality. The field depends on system-of-systems thinking, interface control, verification traceability, and it stays grounded by testing ideas against concrete situations like a satellite program, a rail signaling project, a power system upgrade. Good judgment in Systems Engineering comes from repeatedly moving between first principles and the messy systems where those principles meet cost, risk, time, and human behavior.",
+  "keyTakeaways": [
+    "Systems Engineering is best learned as a set of mental models rather than a pile of disconnected facts.",
+    "The field matters because it shapes defense, aerospace, transport, energy, and large technical programs.",
+    "Real competence in Systems Engineering depends on understanding tradeoffs, not just ideals.",
+    "Examples such as a satellite program make the field easier to retain and apply."
+  ],
+  "frameworks": [
+    "systems-engineering-systems-map",
+    "systems-engineering-tradeoff-lens"
+  ],
+  "example": "A Satellite Program is a useful way to see Systems Engineering in the real world because it forces you to notice units, constraints, incentives, and outcomes at the same time.",
+  "commonMistakes": [
+    "Treating Systems Engineering like a list of facts instead of a way to see and compare systems.",
+    "Ignoring the tradeoffs between performance, cost, time, risk, and human constraints."
+  ],
+  "exercise": "Pick one real example from your world and explain it using two core ideas from Systems Engineering.",
+  "nextLesson": "systems-engineering-where-it-shows-up",
+  "order": 4,
+  "teaching": {
+    "mentalModel": {
+      "title": "system-of-systems thinking",
+      "summary": "Systems Engineering becomes memorable when you use compact models to organize the field instead of memorising fragments.",
+      "anchors": [
+        "requirements",
+        "interfaces",
+        "integration"
+      ]
+    },
+    "howItWorks": {
+      "title": "Systems Engineering in sequence",
+      "steps": [
+        "Name the system, unit, or problem you are looking at.",
+        "Identify the core constraints and flows shaping it.",
+        "Use systems-engineering-systems-map and systems-engineering-tradeoff-lens to compare options.",
+        "Check the result against a real example, operator workflow, or institutional constraint."
+      ]
+    },
+    "upsides": [
+      "Systems Engineering makes complex systems easier to interpret and explain.",
+      "It improves judgment by forcing clearer tradeoff thinking."
+    ],
+    "downsides": [
+      "The field can feel more settled than it really is if you ignore uncertainty or context.",
+      "Good models in Systems Engineering still break when you apply them too mechanically."
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "A Satellite Program shows how Systems Engineering moves from abstract ideas into practical judgment.",
+    "realWorldApplications": [
+      "a satellite program",
+      "a rail signaling project",
+      "a power system upgrade"
+    ],
+    "whoWorksWithThis": [
+      "systems engineers",
+      "integration managers",
+      "technical program leads"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the blueprint",
+        "href": "/systems-engineering/blueprint",
+        "description": "See the full map of Systems Engineering."
+      },
+      {
+        "label": "Browse projects",
+        "href": "/systems-engineering/projects",
+        "description": "Turn the field into something concrete."
+      },
+      {
+        "label": "Open tools",
+        "href": "/systems-engineering/tools",
+        "description": "See what people in the field actually use."
+      }
+    ]
+  }
+}

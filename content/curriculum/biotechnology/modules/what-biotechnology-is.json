@@ -1,0 +1,36 @@
+{
+  "slug": "what-biotechnology-is",
+  "title": "What Biotechnology Is",
+  "shortSummary": "Get oriented to Biotechnology: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Biotechnology matters because it helps you reason about therapeutics, diagnostics, agriculture, fermentation, and industrial biology.",
+  "coreConcepts": [
+    "cell engineering",
+    "molecular tools",
+    "bioprocessing",
+    "regulation",
+    "scale-up",
+    "quality"
+  ],
+  "mentalModels": [
+    "bench-to-product translation",
+    "biology under constraints",
+    "scale-up bottlenecks"
+  ],
+  "lessons": [
+    "what-is-biotechnology"
+  ],
+  "frameworks": [
+    "biotechnology-systems-map"
+  ],
+  "relatedModules": [
+    "biotechnology-mental-models",
+    "biotechnology-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

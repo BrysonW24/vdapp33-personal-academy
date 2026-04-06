@@ -1,0 +1,23 @@
+{
+  "slug": "abs-data",
+  "name": "ABS Data",
+  "category": "statistics",
+  "description": "ABS Data is a useful statistics surface inside Demography.",
+  "whyUseIt": "People in Demography use ABS Data to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.abs.gov.au/",
+  "alternatives": [
+    "Stata",
+    "R"
+  ],
+  "outputs": [
+    "Demography working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using ABS Data as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from ABS Data."
+  ],
+  "relatedProject": "map-a-demography-system"
+}

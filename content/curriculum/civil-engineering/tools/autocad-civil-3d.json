@@ -1,0 +1,23 @@
+{
+  "slug": "autocad-civil-3d",
+  "name": "AutoCAD Civil 3D",
+  "category": "design",
+  "description": "AutoCAD Civil 3D is a useful design surface inside Civil Engineering.",
+  "whyUseIt": "People in Civil Engineering use AutoCAD Civil 3D to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.autodesk.com/products/civil-3d/",
+  "alternatives": [
+    "Revit",
+    "Microsoft Project"
+  ],
+  "outputs": [
+    "Civil Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using AutoCAD Civil 3D as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from AutoCAD Civil 3D."
+  ],
+  "relatedProject": "map-a-civil-engineering-system"
+}

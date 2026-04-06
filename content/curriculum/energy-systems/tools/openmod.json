@@ -1,0 +1,23 @@
+{
+  "slug": "openmod",
+  "name": "OpenMOD",
+  "category": "research",
+  "description": "OpenMOD is a useful research surface inside Energy Systems.",
+  "whyUseIt": "People in Energy Systems use OpenMOD to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://openmod.org/",
+  "alternatives": [
+    "PVsyst",
+    "PLEXOS"
+  ],
+  "outputs": [
+    "Energy Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using OpenMOD as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from OpenMOD."
+  ],
+  "relatedProject": "map-a-energy-systems-system"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "what-electrical-engineering-is",
+  "title": "What Electrical Engineering Is",
+  "shortSummary": "Get oriented to Electrical Engineering: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Electrical Engineering matters because it helps you reason about power networks, electronics, control systems, automation, and communications.",
+  "coreConcepts": [
+    "circuits",
+    "power systems",
+    "signals",
+    "electronics",
+    "control",
+    "safety"
+  ],
+  "mentalModels": [
+    "energy and signal flow",
+    "feedback control",
+    "failure under load"
+  ],
+  "lessons": [
+    "what-is-electrical-engineering"
+  ],
+  "frameworks": [
+    "electrical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "electrical-engineering-mental-models",
+    "electrical-engineering-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

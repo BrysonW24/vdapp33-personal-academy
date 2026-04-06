@@ -1,0 +1,23 @@
+{
+  "slug": "adobe-illustrator",
+  "name": "Adobe Illustrator",
+  "category": "graphics",
+  "description": "Adobe Illustrator is a useful graphics surface inside Design.",
+  "whyUseIt": "People in Design use Adobe Illustrator to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.adobe.com/products/illustrator.html",
+  "alternatives": [
+    "Figma",
+    "Miro"
+  ],
+  "outputs": [
+    "Design working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Adobe Illustrator as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Adobe Illustrator."
+  ],
+  "relatedProject": "map-a-design-system"
+}

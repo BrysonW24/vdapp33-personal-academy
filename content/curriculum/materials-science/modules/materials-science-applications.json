@@ -1,0 +1,36 @@
+{
+  "slug": "materials-science-applications",
+  "title": "Materials Science Applications",
+  "shortSummary": "Trace where Materials Science shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Materials Science matters because it helps you reason about electronics, aerospace, energy storage, construction, and manufacturing.",
+  "coreConcepts": [
+    "microstructure",
+    "processing",
+    "mechanical properties",
+    "electronic properties",
+    "failure",
+    "selection"
+  ],
+  "mentalModels": [
+    "structure-processing-property-performance chain",
+    "failure analysis",
+    "materials tradeoff curves"
+  ],
+  "lessons": [
+    "materials-science-where-it-shows-up"
+  ],
+  "frameworks": [
+    "materials-science-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-materials-science",
+    "what-materials-science-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

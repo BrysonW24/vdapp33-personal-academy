@@ -1,0 +1,61 @@
+{
+  "slug": "map-a-supply-chain-logistics-system",
+  "title": "Map a Supply Chain & Logistics system",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Choose one real supply network or operational bottleneck and explain it using the field's core models, tradeoffs, and operator reality.",
+  "whyItMatters": "This project forces Supply Chain & Logistics to become operational rather than remaining purely conceptual.",
+  "skillsLearned": [
+    "Applied Supply Chain & Logistics reasoning",
+    "Tradeoff analysis",
+    "Structured explanation",
+    "Case mapping"
+  ],
+  "prerequisites": [
+    "What Supply Chain & Logistics Is",
+    "Supply Chain & Logistics Mental Models"
+  ],
+  "steps": [
+    {
+      "title": "Choose a live case",
+      "description": "Select a concrete supply network or operational bottleneck with visible constraints and decisions."
+    },
+    {
+      "title": "Map the system",
+      "description": "Use Supply Chain & Logistics Systems Map to capture the main units, flows, and constraints."
+    },
+    {
+      "title": "Analyze the tradeoffs",
+      "description": "Use Supply Chain & Logistics Tradeoff Lens to compare the main options or tensions."
+    },
+    {
+      "title": "Write the brief",
+      "description": "Summarize what is happening, why it matters, and what a better decision would look like."
+    }
+  ],
+  "deliverables": [
+    "A one-page system map",
+    "A short decision brief",
+    "A list of key tradeoffs and uncertainties"
+  ],
+  "tools": [
+    "SAP IBP",
+    "Oracle WMS",
+    "Power BI"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The system and its boundaries are clearly explained."
+    },
+    {
+      "criteria": "Tradeoffs",
+      "description": "The key tensions are real, specific, and well compared."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The analysis stays grounded in real constraints and operators."
+    }
+  ],
+  "domain": "Supply Chain & Logistics"
+}

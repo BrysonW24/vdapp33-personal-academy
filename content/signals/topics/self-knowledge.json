@@ -1,0 +1,128 @@
+{
+  "slug": "self-knowledge",
+  "kind": "topic",
+  "title": "Self-Knowledge Signals",
+  "summary": "Self-knowledge signals follow the tools, practices, and public conversations that make behaviour more visible.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Journaling tools are getting smarter",
+          "summary": "Reflection apps now use prompts and summaries.",
+          "whyItMatters": "Software is becoming part of introspection.",
+          "entities": [
+            "self-knowledge",
+            "software-engineering"
+          ]
+        },
+        {
+          "name": "Wearables are making state visible",
+          "summary": "Sleep, stress, and activity data are easier to track.",
+          "whyItMatters": "People can now tie feelings to objective signals.",
+          "entities": [
+            "self-knowledge",
+            "health"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Mindfulness apps",
+          "summary": "Consumer tools are formalising reflection.",
+          "whyItMatters": "These products shape daily self-observation.",
+          "entities": [
+            "self-knowledge",
+            "meditation"
+          ]
+        },
+        {
+          "name": "Health trackers",
+          "summary": "Wearables help people see patterns in routine.",
+          "whyItMatters": "Data makes self-knowledge more concrete.",
+          "entities": [
+            "self-knowledge",
+            "health"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Psychology research centres",
+          "summary": "Evidence keeps refining what self-awareness means.",
+          "whyItMatters": "Scientific findings protect against pure self-help myth.",
+          "entities": [
+            "self-knowledge",
+            "psychology"
+          ]
+        },
+        {
+          "name": "Mindfulness institutions",
+          "summary": "Attention training remains central.",
+          "whyItMatters": "Practice and reflection are being formalised.",
+          "entities": [
+            "self-knowledge",
+            "meditation"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "James Clear",
+          "summary": "Behaviour change through habit design.",
+          "whyItMatters": "His work keeps focus on systems, not just intention.",
+          "entities": [
+            "self-knowledge",
+            "habits"
+          ]
+        },
+        {
+          "name": "Daniel Kahneman",
+          "summary": "Decision-making and bias research.",
+          "whyItMatters": "He shows why introspection needs evidence.",
+          "entities": [
+            "self-knowledge",
+            "economics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Can self-knowledge be quantified?",
+          "summary": "Data can help, but some things stay qualitative.",
+          "whyItMatters": "The debate shapes how people use apps and coaching.",
+          "entities": [
+            "self-knowledge",
+            "health"
+          ]
+        },
+        {
+          "name": "Is self-optimisation helping or harming?",
+          "summary": "Some think it clarifies life; others think it creates anxiety.",
+          "whyItMatters": "This tension is central to modern self-improvement culture.",
+          "entities": [
+            "self-knowledge",
+            "relationships"
+          ]
+        }
+      ]
+    }
+  ]
+}

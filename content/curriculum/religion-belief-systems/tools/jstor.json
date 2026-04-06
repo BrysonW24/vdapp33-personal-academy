@@ -1,0 +1,23 @@
+{
+  "slug": "jstor",
+  "name": "JSTOR",
+  "category": "research",
+  "description": "JSTOR is a useful research surface inside Religion & Belief Systems.",
+  "whyUseIt": "People in Religion & Belief Systems use JSTOR to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.jstor.org/",
+  "alternatives": [
+    "Zotero",
+    "Perusall"
+  ],
+  "outputs": [
+    "Religion & Belief Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using JSTOR as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from JSTOR."
+  ],
+  "relatedProject": "map-a-religion-belief-systems-system"
+}

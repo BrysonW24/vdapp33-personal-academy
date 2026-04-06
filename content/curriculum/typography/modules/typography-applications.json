@@ -1,0 +1,36 @@
+{
+  "slug": "typography-applications",
+  "title": "Typography Applications",
+  "shortSummary": "Trace where Typography shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Typography matters because it helps you reason about books, interfaces, brands, publishing, advertising, and information design.",
+  "coreConcepts": [
+    "hierarchy",
+    "rhythm",
+    "spacing",
+    "contrast",
+    "type families",
+    "readability"
+  ],
+  "mentalModels": [
+    "type as voice",
+    "hierarchy before decoration",
+    "spacing creates tone"
+  ],
+  "lessons": [
+    "typography-where-it-shows-up"
+  ],
+  "frameworks": [
+    "typography-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-typography",
+    "what-typography-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

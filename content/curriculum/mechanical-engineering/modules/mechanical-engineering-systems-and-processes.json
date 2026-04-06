@@ -1,0 +1,36 @@
+{
+  "slug": "mechanical-engineering-systems-and-processes",
+  "title": "Mechanical Engineering Systems and Processes",
+  "shortSummary": "See how Mechanical Engineering moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Mechanical Engineering matters because it helps you reason about vehicles, industrial equipment, robotics, energy systems, and product hardware.",
+  "coreConcepts": [
+    "forces",
+    "motion",
+    "thermodynamics",
+    "materials",
+    "manufacturing",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "load and failure thinking",
+    "energy conversion",
+    "design for manufacture"
+  ],
+  "lessons": [
+    "mechanical-engineering-systems-in-the-world"
+  ],
+  "frameworks": [
+    "mechanical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "mechanical-engineering-applications",
+    "working-in-mechanical-engineering"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

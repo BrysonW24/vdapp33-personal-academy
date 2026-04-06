@@ -1,0 +1,12 @@
+{
+  "slug": "self-knowledge",
+  "name": "Self-Knowledge",
+  "kind": "topic",
+  "group": "mind",
+  "icon": "Sparkles",
+  "color": "#8B5CF6",
+  "tagline": "How to understand your values, habits, biases, patterns, and identity more clearly.",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 17
+}

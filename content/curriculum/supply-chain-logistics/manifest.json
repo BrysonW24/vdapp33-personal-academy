@@ -1,0 +1,12 @@
+{
+  "slug": "supply-chain-logistics",
+  "name": "Supply Chain & Logistics",
+  "shortName": "Supply Chain & Logistics",
+  "group": "markets",
+  "icon": "Truck",
+  "color": "#0EA5E9",
+  "tagline": "How goods, materials, information, and capacity move through real operating systems.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 26
+}

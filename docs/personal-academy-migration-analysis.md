@@ -2,7 +2,7 @@
 
 ## Summary
 
-Nexus is now the canonical learning surface for politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science. The five original personal-source apps plus the commercial property manager source app were archived on 2026-04-04 after the unified app passed build verification, representative route verification, and browser QA.
+Nexus is now the canonical learning surface for politics, commercial property management, physics, quantum-science, energy-systems, aerospace, robotics, and rocket science. The five original personal-source apps plus the commercial property manager source app were archived on 2026-04-04 after the unified app passed build verification, representative route verification, and browser QA.
 
 This analysis covers the subject-academy migration only. The newer roles/topics entity-aware direction is a separate follow-on layer and should not be confused with the subject migration completed here.
 
@@ -34,7 +34,8 @@ These counts compare the archived source apps to the active Nexus subject direct
 | Physics | 20 modules, 5 lessons, 12 frameworks, 11 projects, 20 tools, 4 day-in-the-life | 20 modules, 5 lessons, 12 frameworks, 11 projects, 20 tools, 4 day-in-the-life | Full parity migration |
 | Aerospace | 20 modules, 5 lessons, 0 frameworks, 0 projects, 0 tools, 0 day-in-the-life | 20 modules, 5 lessons, 21 frameworks, 8 projects, 11 tools, 4 day-in-the-life | Deepened far beyond the source app |
 | Rocket Science | 20 modules, 5 lessons, 11 frameworks, 10 projects, 20 tools, 4 day-in-the-life | 20 modules, 5 lessons, 11 frameworks, 10 projects, 20 tools, 4 day-in-the-life | Full parity migration |
-| Quantum | 4 modules, 0 lessons, 0 frameworks, 0 projects, 0 tools, 0 day-in-the-life | 20 modules, 5 lessons, 13 frameworks, 8 projects, 10 tools, 4 day-in-the-life | Rebuilt into a real academy subject |
+| Quantum Science | 4 modules, 0 lessons, 0 frameworks, 0 projects, 0 tools, 0 day-in-the-life | 20 modules, 5 lessons, 13 frameworks, 8 projects, 10 tools, 4 day-in-the-life | Rebuilt into a real academy subject |
+| Energy Systems | 0 modules, 0 lessons, 0 frameworks, 0 projects, 0 tools, 0 day-in-the-life as a topic | Canonical subject pack promoted from energy topic content | Promoted into a real academy subject |
 | Commercial Property Management | 20 modules, 5 lessons, 10 frameworks, 8 projects, 14 tools, 4 day-in-the-life | 20 modules, 5 lessons, 10 frameworks, 8 projects, 14 tools, 4 day-in-the-life | Full parity migration with generic subject framing |
 
 ## What was preserved
@@ -42,9 +43,13 @@ These counts compare the archived source apps to the active Nexus subject direct
 - Subject identities and subject slugs
 - Static JSON curriculum as the source of truth
 - Subject grouping doctrine:
-  - `sciences`: physics, quantum
-  - `engineering`: aerospace, robotics, rocket-science
-  - `society`: politics, commercial-property-management
+  - `sciences`: physics, quantum-science, chemistry, materials-science
+  - `engineering`: aerospace, robotics, rocket-science, cybersecurity, data-science, space-infrastructure, energy-systems, systems-engineering, software-engineering, civil-engineering, electrical-engineering, mechanical-engineering
+  - `society`: politics, law, sociology, geopolitics, public-administration, demography, commercial-property-management
+  - `markets`: finance-accounting, supply-chain-logistics
+  - `life`: biology, biotechnology, agriculture-food-systems, health
+  - `humanities`: design, typography, religion-belief-systems, world-history, ancient-history, modern-history, communication, music-and-instruments
+  - `mind`: psychology, relationships, self-knowledge, emotions, meditation, consciousness, love
 - The strongest source material in the six migrated subjects with no content-count regressions
 
 ## What improved
@@ -54,7 +59,8 @@ These counts compare the archived source apps to the active Nexus subject direct
 - One subject-scoped progress system inside the unified app
 - Cleaner separation from Founder OS operator framing
 - Honest partial-state handling during the migration phase
-- Major depth gains in Aerospace and Quantum
+- Major depth gains in Aerospace and Quantum Science
+- Browse-first encyclopedia expansion layered topics and additional canonical subjects on top of the migrated subject shell
 - A generic Commercial Property Management subject that keeps factual vendor references in-content without turning the shell into a client-branded app
 
 ## Archive rationale

@@ -2,7 +2,6 @@ import Link from "next/link"
 import {
   ArrowRight,
   BookOpen,
-  Compass,
   FolderKanban,
   GraduationCap,
   Library,
@@ -11,9 +10,7 @@ import {
 } from "lucide-react"
 import { NexusWordmark } from "@/components/branding/NexusWordmark"
 import { EntityCard } from "@/components/entities/EntityCard"
-import { HomePathPanel } from "@/components/guidance/HomePathPanel"
 import { getSubjectStats, getSubjects } from "@/lib/content"
-import { getAcademyCatalog } from "@/lib/guidance-content"
 import { getRoles, getRoleStats, getTopics, getTopicStats } from "@/lib/entities"
 import { SUBJECT_GROUP_LABELS } from "@/types/curriculum"
 
@@ -21,7 +18,6 @@ export default function NexusHomePage() {
   const subjects = getSubjects()
   const roles = getRoles()
   const topics = getTopics()
-  const catalog = getAcademyCatalog()
 
   const groupedSubjects = subjects.reduce<Record<string, typeof subjects>>((acc, subject) => {
     if (!acc[subject.group]) acc[subject.group] = []
@@ -46,17 +42,17 @@ export default function NexusHomePage() {
   const featuredTopic = topics[0]
 
   return (
-    <div className="container mx-auto px-4 py-8 space-y-10">
+    <div className="container mx-auto space-y-10 px-4 py-6 sm:py-8">
       <section className="grid gap-6 lg:grid-cols-[1.1fr,0.9fr] lg:items-start">
-        <div className="academy-hero-shell relative overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.08)] bg-[linear-gradient(145deg,rgba(255,255,255,0.94),rgba(251,246,239,0.88))] p-8 shadow-editorial-soft backdrop-blur-[18px] sm:p-10">
+        <div className="academy-hero-shell relative overflow-hidden rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[linear-gradient(145deg,rgba(255,255,255,0.94),rgba(251,246,239,0.88))] p-6 shadow-editorial-soft backdrop-blur-[18px] sm:rounded-[32px] sm:p-10">
           <div className="pointer-events-none absolute -left-10 top-20 h-44 w-44 rounded-full bg-[#1fb9ff]/20 blur-3xl" />
           <div className="pointer-events-none absolute left-32 top-8 h-44 w-44 rounded-full bg-[#8b5cf6]/16 blur-3xl" />
           <div className="pointer-events-none absolute left-48 top-28 h-40 w-40 rounded-full bg-[#ffb347]/24 blur-3xl" />
           <div className="academy-hero-grid absolute inset-0" />
 
-          <div className="relative mb-5 flex flex-wrap items-center gap-3">
+          <div className="relative mb-4 flex flex-wrap items-center gap-2 sm:mb-5 sm:gap-3">
             <span className="rounded-full border border-[rgba(44,49,59,0.08)] bg-white/72 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted shadow-sm">
-              Knowledge operating system
+              Open-world knowledge
             </span>
             <span className="rounded-full border border-[rgba(44,49,59,0.08)] bg-white/72 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted shadow-sm">
               Curiosity engine
@@ -67,13 +63,13 @@ export default function NexusHomePage() {
           <div className="relative">
             <NexusWordmark size="hero" />
           </div>
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-editorial-muted">
-            Learn the shape of a field first, then go deeper wherever curiosity pulls.
-            Subjects stay canonical, while roles and topics let you move through the
-            same system by job, by question, and by real-world application.
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-editorial-muted sm:text-lg">
+            Browse an open-world knowledge interface. Subjects stay canonical, while
+            roles and topics let you move through the same system by job, by question,
+            and by real-world application.
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-4 text-sm text-editorial-muted">
+          <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm text-editorial-muted sm:flex sm:flex-wrap">
             <span className="flex items-center gap-1.5">
               <BookOpen className="h-4 w-4" />
               {subjectTotals.modules} subject modules
@@ -92,26 +88,20 @@ export default function NexusHomePage() {
             </span>
           </div>
 
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             {featuredRole ? (
               <Link
                 href={`/roles/${featuredRole.slug}`}
-                className="inline-flex items-center gap-2 rounded-full bg-editorial-green px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-editorial-green/90"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-green px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-editorial-green/90 sm:w-auto"
               >
                 Start with a role
                 <ArrowRight className="h-4 w-4" />
               </Link>
             ) : null}
-            <Link
-              href="/setup"
-              className="inline-flex items-center gap-2 rounded-full bg-editorial-amber-soft px-5 py-2.5 text-sm font-medium text-editorial-amber transition-colors hover:bg-editorial-amber-soft/80"
-            >
-              Set up My Path
-            </Link>
             {featuredTopic ? (
               <Link
                 href={`/topics/${featuredTopic.slug}`}
-                className="inline-flex items-center gap-2 rounded-full bg-editorial-blue-soft px-5 py-2.5 text-sm font-medium text-editorial-blue transition-colors hover:bg-editorial-blue/10"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-blue-soft px-5 py-2.5 text-sm font-medium text-editorial-blue transition-colors hover:bg-editorial-blue/10 sm:w-auto"
               >
                 Explore a topic
               </Link>
@@ -119,7 +109,7 @@ export default function NexusHomePage() {
             {subjects[0] ? (
               <Link
                 href={`/${subjects[0].slug}`}
-                className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-editorial-ink transition-colors hover:bg-editorial-canvas"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-editorial-ink transition-colors hover:bg-editorial-canvas sm:w-auto"
               >
                 Open a subject
               </Link>
@@ -127,65 +117,61 @@ export default function NexusHomePage() {
           </div>
         </div>
 
-        <div className="space-y-4">
-          <HomePathPanel catalog={catalog} />
-
-          <div className="rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.82)] p-8 shadow-editorial-soft backdrop-blur-[18px]">
-            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-              Choose your lens
-            </p>
-            <div className="mt-5 space-y-4">
-              <Link
-                href="/subjects"
-                className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-              >
-                <div className="flex items-center gap-3">
-                  <Compass className="h-5 w-5 text-editorial-blue" />
-                  <div>
-                    <h2 className="font-serif text-xl font-semibold text-editorial-ink">
-                      Subjects
-                    </h2>
-                    <p className="text-sm text-editorial-muted">
-                      Canonical curriculum packs across the academy.
-                    </p>
-                  </div>
+        <div className="rounded-[24px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.82)] p-6 shadow-editorial-soft backdrop-blur-[18px] sm:rounded-[28px] sm:p-8">
+          <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+            Browse first
+          </p>
+          <div className="mt-5 space-y-4">
+            <Link
+              href="/subjects"
+              className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+            >
+              <div className="flex items-center gap-3">
+                <BookOpen className="h-5 w-5 text-editorial-blue" />
+                <div>
+                  <h2 className="font-serif text-xl font-semibold text-editorial-ink">
+                    Subjects
+                  </h2>
+                  <p className="text-sm text-editorial-muted">
+                    Canonical curriculum packs across the academy.
+                  </p>
                 </div>
-              </Link>
+              </div>
+            </Link>
 
-              <Link
-                href="/roles"
-                className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-              >
-                <div className="flex items-center gap-3">
-                  <GraduationCap className="h-5 w-5 text-editorial-green" />
-                  <div>
-                    <h2 className="font-serif text-xl font-semibold text-editorial-ink">
-                      Roles
-                    </h2>
-                    <p className="text-sm text-editorial-muted">
-                      {roles.length} real destinations like Astronaut, AI Researcher, and Diplomat.
-                    </p>
-                  </div>
+            <Link
+              href="/roles"
+              className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+            >
+              <div className="flex items-center gap-3">
+                <GraduationCap className="h-5 w-5 text-editorial-green" />
+                <div>
+                  <h2 className="font-serif text-xl font-semibold text-editorial-ink">
+                    Roles
+                  </h2>
+                  <p className="text-sm text-editorial-muted">
+                    {roles.length} real destinations like Astronaut, AI Researcher, and Diplomat.
+                  </p>
                 </div>
-              </Link>
+              </div>
+            </Link>
 
-              <Link
-                href="/topics"
-                className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-              >
-                <div className="flex items-center gap-3">
-                  <Sparkles className="h-5 w-5 text-editorial-amber" />
-                  <div>
-                    <h2 className="font-serif text-xl font-semibold text-editorial-ink">
-                      Topics
-                    </h2>
-                    <p className="text-sm text-editorial-muted">
-                      {topics.length} curiosity layers like AI, energy, investing, and consciousness.
-                    </p>
-                  </div>
+            <Link
+              href="/topics"
+              className="block rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/80 p-5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+            >
+              <div className="flex items-center gap-3">
+                <Sparkles className="h-5 w-5 text-editorial-amber" />
+                <div>
+                  <h2 className="font-serif text-xl font-semibold text-editorial-ink">
+                    Topics
+                  </h2>
+                  <p className="text-sm text-editorial-muted">
+                    {topics.length} curiosity layers like AI, investing, consciousness, and history.
+                  </p>
                 </div>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
       </section>

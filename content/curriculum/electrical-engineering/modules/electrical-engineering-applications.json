@@ -1,0 +1,36 @@
+{
+  "slug": "electrical-engineering-applications",
+  "title": "Electrical Engineering Applications",
+  "shortSummary": "Trace where Electrical Engineering shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Electrical Engineering matters because it helps you reason about power networks, electronics, control systems, automation, and communications.",
+  "coreConcepts": [
+    "circuits",
+    "power systems",
+    "signals",
+    "electronics",
+    "control",
+    "safety"
+  ],
+  "mentalModels": [
+    "energy and signal flow",
+    "feedback control",
+    "failure under load"
+  ],
+  "lessons": [
+    "electrical-engineering-where-it-shows-up"
+  ],
+  "frameworks": [
+    "electrical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-electrical-engineering",
+    "what-electrical-engineering-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

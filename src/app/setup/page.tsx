@@ -2,7 +2,7 @@ import { SetupFlow } from "@/components/guidance/SetupFlow"
 import { getAcademyCatalog, getArchetypes, getOnboardingQuestionBank } from "@/lib/guidance-content"
 
 export const metadata = {
-  title: "Setup My Path",
+  title: "Optional Setup",
 }
 
 export default function SetupPage() {
@@ -17,12 +17,12 @@ export default function SetupPage() {
           Soft setup
         </p>
         <h1 className="mt-2 font-serif text-4xl font-semibold text-editorial-ink sm:text-5xl">
-          Turn the academy into a guided operating system
+          Add a little structure when you want it
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-editorial-muted">
-          This setup does not lock the academy down. It gives it a point of view:
-          a core subject, a supporting topic, a role lens, a cadence, and a next
-          move that actually makes sense.
+          This setup is optional. It gives Nexus a point of view when you want
+          one: a core subject, a supporting topic, a role lens, a cadence, and
+          a next move that actually makes sense.
         </p>
       </div>
 

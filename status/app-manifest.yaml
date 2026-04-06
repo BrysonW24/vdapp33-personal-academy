@@ -1,10 +1,10 @@
 id: vdapp33-personal-academy
 name: Nexus
-summary: Guided multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum, aerospace, robotics, and rocket science, with live role/topic routes, onboarding, My Path, truth stacks, and signal digests.
+summary: Browse-first multi-subject academy for curiosity-driven learning across politics, commercial property management, physics, quantum-science, energy-systems, aerospace, robotics, and rocket science, with live role/topic routes, optional secondary guidance, truth stacks, and signal digests.
 owner: unassigned
 phase: delivery
 release_stage: internal-beta
-last_audited: 2026-04-05
+last_audited: 2026-04-06
 
 audience:
   primary: Curious learners pursuing structured depth across personal interest subjects.
@@ -14,7 +14,7 @@ product:
   category: academy
   deployment_target: web
   business_model: internal-product
-  status_truth: "Shell implemented. All seven subjects have meaningful academy coverage, role/topic routes are live, soft onboarding and My Path are live, and curated source/signal surfaces now sit alongside the curriculum shell."
+  status_truth: "Shell implemented. The app is browse-first, all core subject and topic routes are live, role/topic routes are live, optional secondary guidance remains available through /setup and /my-path, and curated source/signal surfaces now sit alongside the curriculum shell."
 
 surfaces:
   primary_routes:
@@ -69,8 +69,10 @@ notes:
   - Progress persists locally under the `nexus-progress` key, with fallback migration from `personal-academy-progress`.
   - Guidance state persists locally under the `nexus-state` key, with fallback migration from `personal-academy-state`.
   - Founder-only route concepts are intentionally excluded from this app.
-  - Quantum and Aerospace now extend beyond their original migration baselines with authored Nexus content.
+  - Quantum Science and Aerospace now extend beyond their original migration baselines with authored Nexus content.
+  - Energy Systems is now a canonical subject rather than a topic-level surface.
   - Robotics is a native Nexus subject with full route coverage.
   - Commercial Property Management was migrated from vdapp46 with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.
   - Roles and topics now live under content/roles/ and content/topics/ as entity-aware route families, not just content packs.
+  - The taxonomy now extends well beyond the original seven-subject shell to include additional sciences, engineering, society, markets, life, humanities, and mind subjects/topics.
   - Curated onboarding questions, path archetypes, truth stacks, and signal digests now live under content/onboarding, content/guidance, content/sources, and content/signals.

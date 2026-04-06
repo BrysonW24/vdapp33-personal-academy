@@ -1,0 +1,36 @@
+{
+  "slug": "supply-chain-logistics-mental-models",
+  "title": "Supply Chain & Logistics Mental Models",
+  "shortSummary": "Learn the compact mental models that make Supply Chain & Logistics easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Supply Chain & Logistics matters because it helps you reason about manufacturing, retail, defense, food systems, and global trade.",
+  "coreConcepts": [
+    "inventory",
+    "forecasting",
+    "transport",
+    "warehousing",
+    "suppliers",
+    "service levels"
+  ],
+  "mentalModels": [
+    "flow and bottleneck thinking",
+    "inventory-position tradeoffs",
+    "resilience vs efficiency"
+  ],
+  "lessons": [
+    "supply-chain-logistics-thinking"
+  ],
+  "frameworks": [
+    "supply-chain-logistics-systems-map"
+  ],
+  "relatedModules": [
+    "supply-chain-logistics-frameworks",
+    "supply-chain-logistics-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

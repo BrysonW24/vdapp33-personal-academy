@@ -1,5 +1,5 @@
 app_id: vdapp33-personal-academy
-last_updated: 2026-04-05
+last_updated: 2026-04-06
 target_stage: internal-beta
 
 gates:
@@ -31,16 +31,17 @@ notes:
   - 'Verified with `npm install`, `npm run build`, `npm run type-check`, and `npm run lint` on 2026-04-03.'
   - 'Re-verified on 2026-04-04 after migrating Commercial Property Management: `npm run build`, `npm run type-check`, and `npm run lint` passed; the `/commercial-property-management` route family returned `200`; and `vdapp46-jll-commercial-property-manager-academy` was moved into `archive/2026-04-04-personal-academy-migration-sources/`.'
   - '`npm run type-check` depends on generated `.next/types`, so the clean verification order is build before type-check when the cache is stale.'
-  - 'Smoke-checked home, all seven subject landings, representative lesson/project/tool routes, rich blueprint/toolkit/day-in-the-life paths, Robotics coverage, and the migrated Commercial Property Management subject.'
+  - 'Smoke-checked home, representative subject landings, lesson/project/tool routes, rich blueprint/toolkit/day-in-the-life paths, Robotics coverage, and the migrated Commercial Property Management subject.'
   - 'Founder-only route families such as `/{subject}/playbooks`, `/{subject}/systems`, and `/{subject}/learn` now return 404.'
-  - 'No automated test suite exists yet; release confidence currently depends on build verification plus manual smoke coverage.'
+  - 'Automated tests now cover the academy engine and progress migration, with build verification and manual smoke coverage still used for release confidence.'
   - 'Lightweight smoke-test guidance now lives in `docs/testing-smoke.md` and should be used for subject-shell plus entity-aware content checks until a real automated suite is warranted.'
   - 'Re-verified runtime stability on 2026-04-04 after pinning `next@15.5.14`, clearing stale build artifacts, and separating `zod` schemas from shared curriculum types.'
   - 'Confirmed `/favicon.ico`, representative `_next/static` assets, all seven subject route families, and representative deep lesson/project/tool pages now return `200` on the rebuilt server.'
-  - 'Browser QA rerun on desktop and mobile found no console errors on `/`, confirmed the mobile nav opens correctly, and verified the homepage now uses consistent `Frontier direction` taxonomy.'
+  - 'Browser QA rerun on desktop and mobile found no console errors on `/`, confirmed the mobile nav opens correctly, and verified the homepage uses the browse-first Nexus taxonomy.'
   - 'Archived the six Nexus migration source apps on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` and added a migration analysis document under `docs/`.'
-  - 'Re-verified on 2026-04-05 after shipping the guided OS layer: `npm test`, `npm run type-check`, `npm run lint`, and `npm run build` all passed.'
-  - 'The 2026-04-05 build generated 600 routes, including `/setup`, `/my-path`, `/signals`, subject/role/topic truth stacks, and subject/role/topic signal pages.'
+  - 'Re-verified on 2026-04-05 after shipping the browse-first encyclopedia reset: `npm test`, `npm run type-check`, `npm run lint`, and `npm run build` all passed.'
+  - 'The 2026-04-06 build generated 1,349 routes, including `/setup`, `/my-path`, `/signals`, subject/role/topic truth stacks, subject/role/topic signal pages, and the expanded browse-first subject taxonomy.'
   - 'Guide rails now appear on subject, role, topic, module, lesson, project, and tool surfaces, so smoke coverage should include at least one of each page type.'
-  - 'Manual runtime smoke on 2026-04-05 returned `200` for `/`, `/setup`, `/my-path`, `/physics`, `/physics/modules/what-physics-is/what-is-physics`, `/physics/sources`, `/physics/signals`, `/roles/astronaut`, `/roles/astronaut/sources`, `/roles/astronaut/signals`, `/topics/energy`, `/topics/energy/sources`, `/topics/energy/signals`, and `/signals`.'
+  - 'Manual runtime smoke on 2026-04-05 returned `200` for `/`, `/setup`, `/my-path`, `/physics`, `/physics/modules/what-physics-is/what-is-physics`, `/physics/sources`, `/physics/signals`, `/roles/astronaut`, `/roles/astronaut/sources`, `/roles/astronaut/signals`, `/energy-systems`, `/energy-systems/sources`, `/energy-systems/signals`, and `/signals`.'
+  - 'The browse-first reset and taxonomy expansion are now reflected in docs/status, with `quantum-science` and `energy-systems` treated as canonical forms in the written truth surface.'
   - 'A stale `.next` state briefly produced a broken production runtime (`Cannot find module ./vendor-chunks/next.js`); clearing `.next`, rebuilding, and rerunning `next start` resolved it.'

@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-sociology",
+  "title": "Working in Sociology",
+  "shortSummary": "Understand what people in Sociology actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Sociology matters because it helps you reason about policy, research, education, organisations, and social analysis.",
+  "coreConcepts": [
+    "institutions",
+    "norms",
+    "class",
+    "identity",
+    "culture",
+    "social change"
+  ],
+  "mentalModels": [
+    "structure vs agency",
+    "social stratification",
+    "institutional reproduction"
+  ],
+  "lessons": [
+    "sociology-career-reality"
+  ],
+  "frameworks": [
+    "sociology-systems-map"
+  ],
+  "relatedModules": [
+    "what-sociology-is",
+    "sociology-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

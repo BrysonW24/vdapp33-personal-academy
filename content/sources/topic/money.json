@@ -1,0 +1,201 @@
+{
+  "slug": "money",
+  "kind": "topic",
+  "title": "Money Truth Stack",
+  "summary": "Money is best understood through cashflow, inflation, budgeting, debt, and the institutions that keep the financial system legible.",
+  "starterPack": [
+    "Start with cashflow and emergency buffers before thinking about investing.",
+    "Use public financial guidance and regulator sources before advice threads.",
+    "Treat behavioural habits as part of money management."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "Basic truths that apply to personal money.",
+      "items": [
+        {
+          "name": "Cashflow first",
+          "kind": "principle",
+          "description": "Income must cover essentials before anything else."
+        },
+        {
+          "name": "Inflation changes purchasing power",
+          "kind": "principle",
+          "description": "Money held still can lose real value over time."
+        },
+        {
+          "name": "Debt is a future claim",
+          "kind": "principle",
+          "description": "Borrowing brings future obligations forward."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Institutions that explain money responsibly.",
+      "items": [
+        {
+          "name": "ASIC MoneySmart",
+          "kind": "institution",
+          "description": "Australian consumer money guidance.",
+          "link": "https://moneysmart.gov.au/"
+        },
+        {
+          "name": "Reserve Bank of Australia",
+          "kind": "institution",
+          "description": "Monetary policy and inflation data.",
+          "link": "https://www.rba.gov.au/"
+        },
+        {
+          "name": "Australian Taxation Office",
+          "kind": "institution",
+          "description": "Tax and income guidance.",
+          "link": "https://www.ato.gov.au/"
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Writers and educators who explain money well.",
+      "items": [
+        {
+          "name": "Ramit Sethi",
+          "kind": "person",
+          "description": "Personal finance educator and author.",
+          "link": "https://www.iwillteachyoutoberich.com/"
+        },
+        {
+          "name": "Morgan Housel",
+          "kind": "person",
+          "description": "Writes clearly about behavior and wealth.",
+          "link": "https://www.collaborativefund.com/blog/authors/morgan-housel/"
+        },
+        {
+          "name": "Scott Pape",
+          "kind": "person",
+          "description": "Australian personal finance writer.",
+          "link": "https://barefootinvestor.com/"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People who work with money every day.",
+      "items": [
+        {
+          "name": "Accountants",
+          "kind": "person",
+          "description": "Help people manage obligations and records."
+        },
+        {
+          "name": "Financial coaches",
+          "kind": "person",
+          "description": "Support budgeting and money behaviour."
+        },
+        {
+          "name": "Bank advisers",
+          "kind": "person",
+          "description": "Work with lending, saving, and payment systems."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Where money rules are set and enforced.",
+      "items": [
+        {
+          "name": "Banks",
+          "kind": "institution",
+          "description": "Provide everyday payments and lending."
+        },
+        {
+          "name": "Superannuation funds",
+          "kind": "institution",
+          "description": "Manage long-term retirement savings."
+        },
+        {
+          "name": "Regulators",
+          "kind": "institution",
+          "description": "Keep financial systems fair and stable."
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public money coverage worth reading.",
+      "items": [
+        {
+          "name": "MoneySmart",
+          "kind": "publication",
+          "description": "Practical consumer finance guidance.",
+          "link": "https://moneysmart.gov.au/"
+        },
+        {
+          "name": "Australian Financial Review",
+          "kind": "publication",
+          "description": "Markets and money reporting.",
+          "link": "https://www.afr.com/"
+        },
+        {
+          "name": "The Economist finance coverage",
+          "kind": "publication",
+          "description": "Global money and macro perspective.",
+          "link": "https://www.economist.com/finance-and-economics"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Accessible money explainers.",
+      "items": [
+        {
+          "name": "MoneySmart videos",
+          "kind": "channel",
+          "description": "Consumer-friendly guidance and explainers.",
+          "link": "https://moneysmart.gov.au/"
+        },
+        {
+          "name": "RBA educational material",
+          "kind": "channel",
+          "description": "Macro and policy explainers from the central bank.",
+          "link": "https://www.rba.gov.au/"
+        },
+        {
+          "name": "ASX education",
+          "kind": "channel",
+          "description": "Market basics and investing literacy.",
+          "link": "https://www.asx.com.au/"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Money is changing faster than it used to.",
+      "items": [
+        {
+          "name": "Open banking",
+          "kind": "tool",
+          "description": "Data portability is reshaping consumer finance."
+        },
+        {
+          "name": "Embedded finance",
+          "kind": "company",
+          "description": "Payments and lending are moving inside non-bank apps."
+        },
+        {
+          "name": "AI money advice",
+          "kind": "tool",
+          "description": "Automated guidance is growing but needs guardrails."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "altium-designer",
+  "name": "Altium Designer",
+  "category": "pcb-design",
+  "description": "Altium Designer is a useful pcb design surface inside Electrical Engineering.",
+  "whyUseIt": "People in Electrical Engineering use Altium Designer to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.altium.com/",
+  "alternatives": [
+    "MATLAB Simulink",
+    "LTspice"
+  ],
+  "outputs": [
+    "Electrical Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Altium Designer as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Altium Designer."
+  ],
+  "relatedProject": "map-a-electrical-engineering-system"
+}

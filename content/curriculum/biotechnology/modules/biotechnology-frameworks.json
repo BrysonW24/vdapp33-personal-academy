@@ -1,0 +1,37 @@
+{
+  "slug": "biotechnology-frameworks",
+  "title": "Biotechnology Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Biotechnology.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Biotechnology matters because it helps you reason about therapeutics, diagnostics, agriculture, fermentation, and industrial biology.",
+  "coreConcepts": [
+    "cell engineering",
+    "molecular tools",
+    "bioprocessing",
+    "regulation",
+    "scale-up",
+    "quality"
+  ],
+  "mentalModels": [
+    "bench-to-product translation",
+    "biology under constraints",
+    "scale-up bottlenecks"
+  ],
+  "lessons": [
+    "biotechnology-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "biotechnology-systems-map",
+    "biotechnology-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "biotechnology-systems-and-processes",
+    "biotechnology-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

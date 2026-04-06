@@ -1,0 +1,23 @@
+{
+  "slug": "plexos",
+  "name": "PLEXOS",
+  "category": "market-modeling",
+  "description": "PLEXOS is a useful market modeling surface inside Energy Systems.",
+  "whyUseIt": "People in Energy Systems use PLEXOS to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.energyexemplar.com/plexos",
+  "alternatives": [
+    "PVsyst",
+    "OpenMOD"
+  ],
+  "outputs": [
+    "Energy Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using PLEXOS as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from PLEXOS."
+  ],
+  "relatedProject": "map-a-energy-systems-system"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "law",
+  "name": "Law",
+  "shortName": "Law",
+  "group": "society",
+  "icon": "Scale",
+  "color": "#7C2D12",
+  "tagline": "Rules, rights, obligations, institutions, and the systems used to resolve disputes and coordinate society.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 19
+}

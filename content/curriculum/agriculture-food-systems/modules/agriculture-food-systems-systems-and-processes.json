@@ -1,0 +1,36 @@
+{
+  "slug": "agriculture-food-systems-systems-and-processes",
+  "title": "Agriculture & Food Systems Systems and Processes",
+  "shortSummary": "See how Agriculture & Food Systems moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Agriculture & Food Systems matters because it helps you reason about farming, food security, agtech, trade, sustainability, and rural economies.",
+  "coreConcepts": [
+    "soil",
+    "water",
+    "crop systems",
+    "inputs",
+    "supply chains",
+    "food security"
+  ],
+  "mentalModels": [
+    "farm-to-system thinking",
+    "yield vs resilience tradeoffs",
+    "resource constraint planning"
+  ],
+  "lessons": [
+    "agriculture-food-systems-systems-in-the-world"
+  ],
+  "frameworks": [
+    "agriculture-food-systems-systems-map"
+  ],
+  "relatedModules": [
+    "agriculture-food-systems-applications",
+    "working-in-agriculture-food-systems"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

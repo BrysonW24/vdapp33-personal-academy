@@ -1,0 +1,37 @@
+{
+  "slug": "cybersecurity-frameworks",
+  "title": "Cybersecurity Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Cybersecurity.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Cybersecurity matters because it helps you reason about critical infrastructure, software, cloud systems, public institutions, and private companies.",
+  "coreConcepts": [
+    "threat models",
+    "identity",
+    "network security",
+    "application security",
+    "incident response",
+    "resilience"
+  ],
+  "mentalModels": [
+    "attack surface thinking",
+    "defence in depth",
+    "risk vs usability tradeoffs"
+  ],
+  "lessons": [
+    "cybersecurity-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "cybersecurity-systems-map",
+    "cybersecurity-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "cybersecurity-systems-and-processes",
+    "cybersecurity-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

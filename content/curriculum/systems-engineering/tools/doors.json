@@ -1,0 +1,23 @@
+{
+  "slug": "doors",
+  "name": "IBM DOORS",
+  "category": "requirements",
+  "description": "IBM DOORS is a useful requirements surface inside Systems Engineering.",
+  "whyUseIt": "People in Systems Engineering use IBM DOORS to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.ibm.com/products/doors",
+  "alternatives": [
+    "SysML",
+    "Jira"
+  ],
+  "outputs": [
+    "Systems Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using IBM DOORS as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from IBM DOORS."
+  ],
+  "relatedProject": "map-a-systems-engineering-system"
+}

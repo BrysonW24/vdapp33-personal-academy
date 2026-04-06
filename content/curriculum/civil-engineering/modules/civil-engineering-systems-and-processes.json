@@ -1,0 +1,36 @@
+{
+  "slug": "civil-engineering-systems-and-processes",
+  "title": "Civil Engineering Systems and Processes",
+  "shortSummary": "See how Civil Engineering moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Civil Engineering matters because it helps you reason about roads, bridges, buildings, drainage, water systems, and urban development.",
+  "coreConcepts": [
+    "loads",
+    "materials",
+    "site conditions",
+    "hydrology",
+    "standards",
+    "delivery"
+  ],
+  "mentalModels": [
+    "load path thinking",
+    "lifecycle infrastructure planning",
+    "safety margin judgment"
+  ],
+  "lessons": [
+    "civil-engineering-systems-in-the-world"
+  ],
+  "frameworks": [
+    "civil-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "civil-engineering-applications",
+    "working-in-civil-engineering"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

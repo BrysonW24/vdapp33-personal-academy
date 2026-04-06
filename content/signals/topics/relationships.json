@@ -1,0 +1,128 @@
+{
+  "slug": "relationships",
+  "kind": "topic",
+  "title": "Relationships Signals",
+  "summary": "Relationships remain a live signal because technology, work, and changing norms keep reshaping how people meet, bond, and repair.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Loneliness is being treated as a social risk",
+          "summary": "Governments and researchers are paying more attention to social isolation.",
+          "whyItMatters": "Connection is being reframed as a wellbeing issue, not just a private concern.",
+          "entities": [
+            "relationships",
+            "health"
+          ]
+        },
+        {
+          "name": "Dating apps keep reshaping courtship",
+          "summary": "Algorithms increasingly mediate first contact and partner selection.",
+          "whyItMatters": "People now need to understand the incentives built into platforms.",
+          "entities": [
+            "money",
+            "communication"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Dating platforms",
+          "summary": "App design influences who meets whom and how quickly.",
+          "whyItMatters": "Product choices can alter the entire social experience of dating.",
+          "entities": [
+            "relationships",
+            "communication"
+          ]
+        },
+        {
+          "name": "Therapy platforms",
+          "summary": "Online counselling and coaching tools are growing quickly.",
+          "whyItMatters": "Access to relationship support is becoming more digital.",
+          "entities": [
+            "psychology",
+            "health"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "Family courts",
+          "summary": "Relationship conflict becomes formal and legal when families split.",
+          "whyItMatters": "The legal system shapes the practical consequences of relational breakdown.",
+          "entities": [
+            "law",
+            "relationships"
+          ]
+        },
+        {
+          "name": "Psychology departments",
+          "summary": "Research continues to refine what healthy relationships look like.",
+          "whyItMatters": "The science side of relationships is becoming more precise.",
+          "entities": [
+            "psychology",
+            "emotions"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "John Gottman",
+          "summary": "Research on conflict and repair keeps his work central.",
+          "whyItMatters": "His work remains a practical baseline for modern relationship thinking.",
+          "entities": [
+            "relationships",
+            "psychology"
+          ]
+        },
+        {
+          "name": "Esther Perel",
+          "summary": "A public voice on intimacy and desire.",
+          "whyItMatters": "She helps translate relationship complexity into accessible language.",
+          "entities": [
+            "relationships",
+            "communication"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "Are modern relationships too individualistic?",
+          "summary": "Some argue the culture of self-optimisation weakens commitment.",
+          "whyItMatters": "This debate shapes how people think about marriage, friendship, and family.",
+          "entities": [
+            "relationships",
+            "self-knowledge"
+          ]
+        },
+        {
+          "name": "Can apps make intimacy easier?",
+          "summary": "Technology can expand choice but also intensify comparison and disposability.",
+          "whyItMatters": "This affects how people date and what they expect from connection.",
+          "entities": [
+            "communication",
+            "love"
+          ]
+        }
+      ]
+    }
+  ]
+}

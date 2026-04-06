@@ -1,0 +1,36 @@
+{
+  "slug": "what-finance-accounting-is",
+  "title": "What Finance & Accounting Is",
+  "shortSummary": "Get oriented to Finance & Accounting: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Finance & Accounting matters because it helps you reason about budgeting, reporting, valuation, control, capital allocation, and compliance.",
+  "coreConcepts": [
+    "statements",
+    "cash flow",
+    "profitability",
+    "controls",
+    "capital",
+    "reporting"
+  ],
+  "mentalModels": [
+    "cash vs accrual",
+    "unit economics",
+    "control and stewardship"
+  ],
+  "lessons": [
+    "what-is-finance-accounting"
+  ],
+  "frameworks": [
+    "finance-accounting-systems-map"
+  ],
+  "relatedModules": [
+    "finance-accounting-mental-models",
+    "finance-accounting-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

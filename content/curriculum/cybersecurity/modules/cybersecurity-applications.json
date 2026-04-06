@@ -1,0 +1,36 @@
+{
+  "slug": "cybersecurity-applications",
+  "title": "Cybersecurity Applications",
+  "shortSummary": "Trace where Cybersecurity shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Cybersecurity matters because it helps you reason about critical infrastructure, software, cloud systems, public institutions, and private companies.",
+  "coreConcepts": [
+    "threat models",
+    "identity",
+    "network security",
+    "application security",
+    "incident response",
+    "resilience"
+  ],
+  "mentalModels": [
+    "attack surface thinking",
+    "defence in depth",
+    "risk vs usability tradeoffs"
+  ],
+  "lessons": [
+    "cybersecurity-where-it-shows-up"
+  ],
+  "frameworks": [
+    "cybersecurity-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-cybersecurity",
+    "what-cybersecurity-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

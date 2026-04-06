@@ -1,0 +1,12 @@
+{
+  "slug": "finance-accounting",
+  "name": "Finance & Accounting",
+  "shortName": "Finance & Accounting",
+  "group": "markets",
+  "icon": "Calculator",
+  "color": "#10B981",
+  "tagline": "How money is recorded, allocated, measured, reported, and managed inside real organizations.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 25
+}

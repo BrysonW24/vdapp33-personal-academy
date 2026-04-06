@@ -1,0 +1,36 @@
+{
+  "slug": "electrical-engineering-mental-models",
+  "title": "Electrical Engineering Mental Models",
+  "shortSummary": "Learn the compact mental models that make Electrical Engineering easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Electrical Engineering matters because it helps you reason about power networks, electronics, control systems, automation, and communications.",
+  "coreConcepts": [
+    "circuits",
+    "power systems",
+    "signals",
+    "electronics",
+    "control",
+    "safety"
+  ],
+  "mentalModels": [
+    "energy and signal flow",
+    "feedback control",
+    "failure under load"
+  ],
+  "lessons": [
+    "electrical-engineering-thinking"
+  ],
+  "frameworks": [
+    "electrical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "electrical-engineering-frameworks",
+    "electrical-engineering-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

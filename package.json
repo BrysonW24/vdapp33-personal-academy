@@ -2,7 +2,7 @@
   "name": "vdapp33-personal-academy",
   "version": "1.0.0",
   "private": true,
-  "description": "Nexus, a unified multi-subject academy for curiosity-driven learning across politics, physics, aerospace, rocket science, and quantum",
+  "description": "Nexus, a browse-first multi-subject knowledge interface for curiosity-driven learning across subjects, roles, and topics",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,0 +1,36 @@
+{
+  "slug": "energy-systems-applications",
+  "title": "Energy Systems Applications",
+  "shortSummary": "Trace where Energy Systems shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Energy Systems matters because it helps you reason about electric grids, industrial systems, transport, climate transition, and national resilience.",
+  "coreConcepts": [
+    "generation",
+    "storage",
+    "transmission",
+    "demand",
+    "grid balancing",
+    "energy economics"
+  ],
+  "mentalModels": [
+    "conversion chains",
+    "capacity factor thinking",
+    "grid balancing logic"
+  ],
+  "lessons": [
+    "energy-systems-where-it-shows-up"
+  ],
+  "frameworks": [
+    "energy-systems-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-energy-systems",
+    "what-energy-systems-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-cybersecurity",
+  "title": "Working in Cybersecurity",
+  "shortSummary": "Understand what people in Cybersecurity actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Cybersecurity matters because it helps you reason about critical infrastructure, software, cloud systems, public institutions, and private companies.",
+  "coreConcepts": [
+    "threat models",
+    "identity",
+    "network security",
+    "application security",
+    "incident response",
+    "resilience"
+  ],
+  "mentalModels": [
+    "attack surface thinking",
+    "defence in depth",
+    "risk vs usability tradeoffs"
+  ],
+  "lessons": [
+    "cybersecurity-career-reality"
+  ],
+  "frameworks": [
+    "cybersecurity-systems-map"
+  ],
+  "relatedModules": [
+    "what-cybersecurity-is",
+    "cybersecurity-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

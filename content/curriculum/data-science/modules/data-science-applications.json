@@ -1,0 +1,36 @@
+{
+  "slug": "data-science-applications",
+  "title": "Data Science Applications",
+  "shortSummary": "Trace where Data Science shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Data Science matters because it helps you reason about forecasting, experimentation, product analytics, operations, and research.",
+  "coreConcepts": [
+    "data cleaning",
+    "statistics",
+    "experimentation",
+    "modeling",
+    "evaluation",
+    "communication"
+  ],
+  "mentalModels": [
+    "signal vs noise",
+    "causation vs correlation",
+    "model lifecycle thinking"
+  ],
+  "lessons": [
+    "data-science-where-it-shows-up"
+  ],
+  "frameworks": [
+    "data-science-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-data-science",
+    "what-data-science-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "religion-belief-systems",
+  "name": "Religion & Belief Systems",
+  "shortName": "Religion & Belief Systems",
+  "group": "humanities",
+  "icon": "BookHeart",
+  "color": "#8B5CF6",
+  "tagline": "How humans organise meaning, morality, ritual, identity, and transcendence across cultures.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 32
+}

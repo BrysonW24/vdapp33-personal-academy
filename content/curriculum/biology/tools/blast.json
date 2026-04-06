@@ -1,0 +1,23 @@
+{
+  "slug": "blast",
+  "name": "NCBI BLAST",
+  "category": "sequence-analysis",
+  "description": "NCBI BLAST is a useful sequence analysis surface inside Biology.",
+  "whyUseIt": "People in Biology use NCBI BLAST to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://blast.ncbi.nlm.nih.gov/",
+  "alternatives": [
+    "Benchling",
+    "GraphPad Prism"
+  ],
+  "outputs": [
+    "Biology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using NCBI BLAST as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from NCBI BLAST."
+  ],
+  "relatedProject": "map-a-biology-system"
+}

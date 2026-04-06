@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-energy-systems",
+  "title": "Working in Energy Systems",
+  "shortSummary": "Understand what people in Energy Systems actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Energy Systems matters because it helps you reason about electric grids, industrial systems, transport, climate transition, and national resilience.",
+  "coreConcepts": [
+    "generation",
+    "storage",
+    "transmission",
+    "demand",
+    "grid balancing",
+    "energy economics"
+  ],
+  "mentalModels": [
+    "conversion chains",
+    "capacity factor thinking",
+    "grid balancing logic"
+  ],
+  "lessons": [
+    "energy-systems-career-reality"
+  ],
+  "frameworks": [
+    "energy-systems-systems-map"
+  ],
+  "relatedModules": [
+    "what-energy-systems-is",
+    "energy-systems-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

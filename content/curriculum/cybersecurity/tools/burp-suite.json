@@ -1,0 +1,23 @@
+{
+  "slug": "burp-suite",
+  "name": "Burp Suite",
+  "category": "application-security",
+  "description": "Burp Suite is a useful application security surface inside Cybersecurity.",
+  "whyUseIt": "People in Cybersecurity use Burp Suite to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://portswigger.net/burp",
+  "alternatives": [
+    "Wireshark",
+    "Splunk"
+  ],
+  "outputs": [
+    "Cybersecurity working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Burp Suite as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Burp Suite."
+  ],
+  "relatedProject": "map-a-cybersecurity-system"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-geopolitics",
+  "title": "Working in Geopolitics",
+  "shortSummary": "Understand what people in Geopolitics actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Geopolitics matters because it helps you reason about foreign policy, defense, trade, energy, technology, and strategic planning.",
+  "coreConcepts": [
+    "power",
+    "geography",
+    "alliances",
+    "resources",
+    "strategy",
+    "deterrence"
+  ],
+  "mentalModels": [
+    "balance of power",
+    "chokepoint logic",
+    "systems rivalry"
+  ],
+  "lessons": [
+    "geopolitics-career-reality"
+  ],
+  "frameworks": [
+    "geopolitics-systems-map"
+  ],
+  "relatedModules": [
+    "what-geopolitics-is",
+    "geopolitics-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

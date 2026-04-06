@@ -1,0 +1,36 @@
+{
+  "slug": "what-demography-is",
+  "title": "What Demography Is",
+  "shortSummary": "Get oriented to Demography: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Demography matters because it helps you reason about housing, health, education, labour markets, migration, and long-range strategy.",
+  "coreConcepts": [
+    "fertility",
+    "mortality",
+    "migration",
+    "age structure",
+    "cohort effects",
+    "population projections"
+  ],
+  "mentalModels": [
+    "cohort flow thinking",
+    "dependency ratios",
+    "population momentum"
+  ],
+  "lessons": [
+    "what-is-demography"
+  ],
+  "frameworks": [
+    "demography-systems-map"
+  ],
+  "relatedModules": [
+    "demography-mental-models",
+    "demography-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

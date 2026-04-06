@@ -1,21 +1,21 @@
 app_id: vdapp33-personal-academy
-last_updated: 2026-04-05
+last_updated: 2026-04-06
 
 surfaces:
   - route: /
     feature: Exploration dashboard
     status: live
-    notes: Exploration dashboard with subject, topic, and role discovery plus a persistent My Path entry point.
+    notes: Browse-first exploration dashboard with subject, topic, and role discovery; My Path remains available but secondary.
 
   - route: /setup
     feature: Soft onboarding
     status: live
-    notes: Curated multi-step setup flow that scores archetypes and generates three path variants.
+    notes: Curated multi-step setup flow that can generate a personal blueprint, but it is no longer the homepage story.
 
   - route: /my-path
     feature: Guided dashboard
     status: live
-    notes: Shows the active blueprint, learning mode, next-best actions, today session, weekly cadence, truth-stack preview, signal preview, and review prompts.
+    notes: Secondary guided dashboard kept for users who want structured next actions, weekly cadence, truth-stack preview, signal preview, and review prompts.
 
   - route: /subjects
     feature: Subject directory
@@ -30,22 +30,22 @@ surfaces:
   - route: /topics
     feature: Topic directory
     status: live
-    notes: Directory view for cross-disciplinary curiosity layers such as AI, Energy, Investing, and Consciousness.
+    notes: Directory view for cross-disciplinary curiosity layers such as AI, Investing, Economics, Health, Communication, and Consciousness.
 
   - route: /signals
     feature: Signals hub
     status: live
-    notes: Curated signal hub that highlights the current path and all available subject, role, and topic digests.
+    notes: Curated signal hub that highlights the current focus and all available subject, role, and topic digests.
 
   - route: /[subject]
     feature: Start Here subject landing
     status: live
-    notes: Learning-first subject overview with an embedded guide rail, truth-stack preview, signal preview, and next-best-action support.
+    notes: Browse-first subject overview with an embedded guide rail, truth-stack preview, signal preview, and optional next-best-action support.
 
   - route: /[subject]/blueprint
     feature: Generated blueprint
     status: live
-    notes: Builds the subject map from migrated module ordering and level metadata.
+    notes: Builds the subject map from module ordering and level metadata, but the route is secondary to direct browsing.
 
   - route: /[subject]/modules
     feature: Modules and lessons
@@ -75,7 +75,7 @@ surfaces:
   - route: /[subject]/sources
     feature: Subject truth stack
     status: live
-    notes: Curated hierarchy of first principles, authorities, interpreters, practitioners, media, and frontier watchlists.
+    notes: Curated hierarchy of first principles, authorities, interpreters, practitioners, media, and frontier watchlists for the expanded taxonomy.
 
   - route: /[subject]/signals
     feature: Subject signals
@@ -115,7 +115,7 @@ surfaces:
 supporting_capabilities:
   - name: Manifest-driven subject discovery
     status: live
-    notes: Subjects are registered by manifest.json and rendered without hardcoded lists.
+    notes: Subjects are registered by manifest.json and rendered without hardcoded lists, now including quantum-science, energy-systems, and a much broader taxonomy.
 
   - name: Subject-scoped progress store
     status: live
@@ -127,11 +127,11 @@ supporting_capabilities:
 
   - name: Honest empty states
     status: live
-    notes: Empty states still protect partially populated sections, but the major subject surfaces are now content-backed across all seven subjects.
+    notes: Empty states still protect partially populated sections, but the major subject surfaces are now content-backed across the browse-first taxonomy.
 
   - name: Subject coverage
     status: live
-    notes: Politics, Physics, Rocket Science, Aerospace, Quantum, and Commercial Property Management all have meaningful migrated depth inside the shared shell, while Robotics is a native Nexus subject with equivalent route coverage.
+    notes: Politics, Physics, Rocket Science, Aerospace, Quantum Science, Energy Systems, and Commercial Property Management all have meaningful depth inside the shared shell, while Robotics is a native Nexus subject with equivalent route coverage.
 
   - name: Entity-aware navigation layer
     status: live

@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-supply-chain-logistics",
+  "title": "Working in Supply Chain & Logistics",
+  "shortSummary": "Understand what people in Supply Chain & Logistics actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Supply Chain & Logistics matters because it helps you reason about manufacturing, retail, defense, food systems, and global trade.",
+  "coreConcepts": [
+    "inventory",
+    "forecasting",
+    "transport",
+    "warehousing",
+    "suppliers",
+    "service levels"
+  ],
+  "mentalModels": [
+    "flow and bottleneck thinking",
+    "inventory-position tradeoffs",
+    "resilience vs efficiency"
+  ],
+  "lessons": [
+    "supply-chain-logistics-career-reality"
+  ],
+  "frameworks": [
+    "supply-chain-logistics-systems-map"
+  ],
+  "relatedModules": [
+    "what-supply-chain-logistics-is",
+    "supply-chain-logistics-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

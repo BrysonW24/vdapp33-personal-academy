@@ -1,0 +1,36 @@
+{
+  "slug": "cybersecurity-systems-and-processes",
+  "title": "Cybersecurity Systems and Processes",
+  "shortSummary": "See how Cybersecurity moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Cybersecurity matters because it helps you reason about critical infrastructure, software, cloud systems, public institutions, and private companies.",
+  "coreConcepts": [
+    "threat models",
+    "identity",
+    "network security",
+    "application security",
+    "incident response",
+    "resilience"
+  ],
+  "mentalModels": [
+    "attack surface thinking",
+    "defence in depth",
+    "risk vs usability tradeoffs"
+  ],
+  "lessons": [
+    "cybersecurity-systems-in-the-world"
+  ],
+  "frameworks": [
+    "cybersecurity-systems-map"
+  ],
+  "relatedModules": [
+    "cybersecurity-applications",
+    "working-in-cybersecurity"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

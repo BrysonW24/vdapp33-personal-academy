@@ -1,0 +1,12 @@
+{
+  "slug": "electrical-engineering",
+  "name": "Electrical Engineering",
+  "shortName": "Electrical Engineering",
+  "group": "engineering",
+  "icon": "CircuitBoard",
+  "color": "#2563EB",
+  "tagline": "Circuits, power, signals, electronics, and the systems that move electricity and information.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 16
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "public-administration-applications",
+  "title": "Public Administration Applications",
+  "shortSummary": "Trace where Public Administration shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Public Administration matters because it helps you reason about departments, agencies, local government, regulation, and implementation.",
+  "coreConcepts": [
+    "administration",
+    "budgets",
+    "delivery",
+    "accountability",
+    "coordination",
+    "public value"
+  ],
+  "mentalModels": [
+    "policy-to-delivery chain",
+    "administrative capacity",
+    "mandate vs implementation gap"
+  ],
+  "lessons": [
+    "public-administration-where-it-shows-up"
+  ],
+  "frameworks": [
+    "public-administration-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-public-administration",
+    "what-public-administration-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

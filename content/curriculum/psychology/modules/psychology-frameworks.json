@@ -1,0 +1,37 @@
+{
+  "slug": "psychology-frameworks",
+  "title": "Psychology Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Psychology.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Psychology matters because it helps you reason about mental health, education, workplaces, research, design, and behavior change.",
+  "coreConcepts": [
+    "cognition",
+    "development",
+    "emotion",
+    "personality",
+    "learning",
+    "research methods"
+  ],
+  "mentalModels": [
+    "behavior in context",
+    "bias and heuristics",
+    "development across time"
+  ],
+  "lessons": [
+    "psychology-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "psychology-systems-map",
+    "psychology-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "psychology-systems-and-processes",
+    "psychology-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

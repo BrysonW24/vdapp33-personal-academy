@@ -1,0 +1,128 @@
+{
+  "slug": "economics",
+  "kind": "topic",
+  "title": "Economics Signals",
+  "summary": "Economics signals track inflation, growth, labour, housing, and policy choices that affect everyday life.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Inflation and rate cycles remain central",
+          "summary": "Households and firms continue to react to policy tightening and easing.",
+          "whyItMatters": "The cost of money still shapes the whole economy.",
+          "entities": [
+            "economics",
+            "money"
+          ]
+        },
+        {
+          "name": "AI productivity is being debated",
+          "summary": "Firms and governments are trying to measure whether automation raises output.",
+          "whyItMatters": "Productivity is the key long-run economic question.",
+          "entities": [
+            "economics",
+            "software-engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Banks and payment networks",
+          "summary": "Financial infrastructure moves money and credit.",
+          "whyItMatters": "These companies transmit policy into daily life.",
+          "entities": [
+            "economics",
+            "money"
+          ]
+        },
+        {
+          "name": "Platforms and marketplaces",
+          "summary": "Digital platforms are changing competition and pricing.",
+          "whyItMatters": "They are a live laboratory for market structure.",
+          "entities": [
+            "economics",
+            "data-science"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "RBA",
+          "summary": "Interest rates and inflation settings affect spending and borrowing.",
+          "whyItMatters": "Central bank settings are always part of the economic backdrop.",
+          "entities": [
+            "economics",
+            "money"
+          ]
+        },
+        {
+          "name": "Treasury",
+          "summary": "Fiscal analysis and policy design shape the public sector view.",
+          "whyItMatters": "Treasury analysis often sets the terms of debate.",
+          "entities": [
+            "economics",
+            "public-administration"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Esther Duflo",
+          "summary": "Applied economics grounded in evidence.",
+          "whyItMatters": "Her work keeps policy discussion tied to measurable outcomes.",
+          "entities": [
+            "economics",
+            "health"
+          ]
+        },
+        {
+          "name": "Paul Krugman",
+          "summary": "Macro commentary remains influential in public debate.",
+          "whyItMatters": "He helps explain cycles and policy trade-offs clearly.",
+          "entities": [
+            "economics",
+            "politics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "How should growth be measured?",
+          "summary": "GDP can miss distribution, wellbeing, and ecological cost.",
+          "whyItMatters": "The metric problem shapes policy priorities.",
+          "entities": [
+            "economics",
+            "health"
+          ]
+        },
+        {
+          "name": "Can markets self-correct fast enough?",
+          "summary": "Some argue instability requires more intervention; others disagree.",
+          "whyItMatters": "This is the classic economics-versus-policy tension.",
+          "entities": [
+            "economics",
+            "politics"
+          ]
+        }
+      ]
+    }
+  ]
+}

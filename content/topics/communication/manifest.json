@@ -1,0 +1,12 @@
+{
+  "slug": "communication",
+  "name": "Communication",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "MessagesSquare",
+  "color": "#2563EB",
+  "tagline": "How humans transmit meaning through language, media, structure, and presence.",
+  "tier": "flagship",
+  "hasNews": true,
+  "order": 19
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "nvivo",
+  "name": "NVivo",
+  "category": "qualitative-analysis",
+  "description": "NVivo is a useful qualitative analysis surface inside Sociology.",
+  "whyUseIt": "People in Sociology use NVivo to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://lumivero.com/products/nvivo/",
+  "alternatives": [
+    "Stata",
+    "Qualtrics"
+  ],
+  "outputs": [
+    "Sociology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using NVivo as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from NVivo."
+  ],
+  "relatedProject": "map-a-sociology-system"
+}

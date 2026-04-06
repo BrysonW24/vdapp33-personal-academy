@@ -1,5 +1,5 @@
 {
-  "relatedSubjects": ["aerospace", "physics"],
-  "relatedTopics": ["energy"],
+  "relatedSubjects": ["aerospace", "physics", "energy-systems"],
+  "relatedTopics": ["communication"],
   "relatedRoles": ["astronaut", "robotics-engineer"]
 }

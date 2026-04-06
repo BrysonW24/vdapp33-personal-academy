@@ -1,0 +1,21 @@
+{
+  "slug": "money",
+  "title": "Money",
+  "whatItIs": "Money is the medium people use to store value, measure prices, and exchange goods and services. In everyday life it is cashflow, budgeting, debt, savings, and the invisible anxiety or freedom that comes from having enough breathing room.\n\nAt a systems level, money is also a social technology. It lets strangers cooperate, lets institutions set prices, and lets households navigate uncertainty across time.",
+  "whyItMatters": "Money matters because financial stress changes behaviour. It affects sleep, health, relationships, and career decisions long before it shows up in a spreadsheet.\n\nLearning money well helps people avoid fees, manage debt, build savings, and make better decisions about work, housing, and long-term goals.",
+  "keyIdeas": [
+    "Cashflow matters before wealth does",
+    "Budgeting is a control system, not punishment",
+    "Debt can accelerate growth or trap people",
+    "Inflation changes the meaning of saving",
+    "Emergency buffers reduce stress and bad decisions",
+    "Money habits are often identity habits in disguise"
+  ],
+  "frontier": "The money frontier now includes open banking, embedded finance, instant payments, digital wallets, and AI-assisted personal finance tools. The central challenge is making money management more accessible without making it more deceptive or more addictive.",
+  "openQuestions": [
+    "What is enough money for a secure life?",
+    "When does debt become helpful rather than harmful?",
+    "How should people think about spending versus saving?",
+    "Can technology make money habits genuinely healthier?"
+  ]
+}

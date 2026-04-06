@@ -1,0 +1,23 @@
+{
+  "slug": "spss",
+  "name": "SPSS",
+  "category": "analysis",
+  "description": "SPSS is a useful analysis surface inside Psychology.",
+  "whyUseIt": "People in Psychology use SPSS to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.ibm.com/products/spss-statistics",
+  "alternatives": [
+    "Qualtrics",
+    "Mplus"
+  ],
+  "outputs": [
+    "Psychology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SPSS as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SPSS."
+  ],
+  "relatedProject": "map-a-psychology-system"
+}

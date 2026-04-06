@@ -28,8 +28,9 @@ export default function TopicsIndexPage() {
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-relaxed text-editorial-muted">
           Topics let the academy go broad without flattening everything into subjects.
-          They bring together concepts, applications, and tools around a curiosity like
-          artificial intelligence, energy, investing, or consciousness.
+          They bring together concepts, applications, and tools around curiosities like
+          artificial intelligence, economics, history, communication, consciousness, and
+          human systems.
         </p>
       </section>
 
@@ -40,7 +41,7 @@ export default function TopicsIndexPage() {
               {SUBJECT_GROUP_LABELS[group] ?? group}
             </p>
             <h2 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
-              First-wave topic destinations
+              Open topic destinations
             </h2>
           </div>
 

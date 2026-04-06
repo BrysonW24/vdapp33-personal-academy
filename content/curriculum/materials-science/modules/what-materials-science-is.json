@@ -1,0 +1,36 @@
+{
+  "slug": "what-materials-science-is",
+  "title": "What Materials Science Is",
+  "shortSummary": "Get oriented to Materials Science: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Materials Science matters because it helps you reason about electronics, aerospace, energy storage, construction, and manufacturing.",
+  "coreConcepts": [
+    "microstructure",
+    "processing",
+    "mechanical properties",
+    "electronic properties",
+    "failure",
+    "selection"
+  ],
+  "mentalModels": [
+    "structure-processing-property-performance chain",
+    "failure analysis",
+    "materials tradeoff curves"
+  ],
+  "lessons": [
+    "what-is-materials-science"
+  ],
+  "frameworks": [
+    "materials-science-systems-map"
+  ],
+  "relatedModules": [
+    "materials-science-mental-models",
+    "materials-science-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

@@ -1,5 +1,5 @@
 app_id: vdapp33-personal-academy
-last_updated: 2026-04-05
+last_updated: 2026-04-06
 
 risks:
   - id: R1
@@ -77,8 +77,8 @@ risks:
 notes:
   - Nexus source apps were archived on 2026-04-04 after archive-gate verification. Archived copies remain available for recovery/reference in `archive/2026-04-04-personal-academy-migration-sources/`.
   - 2026-04-03 verification passed for install, type-check, lint, build, and manual route smoke coverage.
-  - Quantum was expanded beyond the original 4-module migration baseline on 2026-04-03.
+  - Quantum Science was expanded beyond the original 4-module migration baseline on 2026-04-03.
   - The 2026-04-04 QA regression involving stale build assets and missing `vendor-chunks/zod.js` was fixed by rebuilding from a clean `.next` state and isolating runtime schemas from shared curriculum types.
   - Commercial Property Management was migrated from `vdapp46-jll-commercial-property-manager-academy` on 2026-04-04 with generic subject naming preserved in the shell.
   - Roles, topics, truth stacks, and signals are now live surfaces; ongoing risk is curation coverage drift rather than route rollout uncertainty.
-  - The 2026-04-05 guided-OS verification found and fixed a stale `.next` runtime issue before release.
+  - The 2026-04-05 browse-first encyclopedia verification found and fixed a stale `.next` runtime issue before release.

@@ -1,0 +1,12 @@
+{
+  "slug": "biotechnology",
+  "name": "Biotechnology",
+  "shortName": "Biotechnology",
+  "group": "life",
+  "icon": "Dna",
+  "color": "#1E9E7A",
+  "tagline": "How biological systems are engineered into therapies, tools, diagnostics, and industrial capability.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 28
+}

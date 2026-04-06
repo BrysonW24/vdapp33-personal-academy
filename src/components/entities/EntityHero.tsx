@@ -58,11 +58,11 @@ function EntityKindBadge({
 
 function StatChips({ chips, color }: { chips: EntityHeroStatChip[]; color: string }) {
   return (
-    <div className="flex flex-wrap gap-3">
+    <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-wrap">
       {chips.map((chip) => (
         <div
           key={chip.label}
-          className="rounded-[14px] border px-4 py-2.5"
+          className="min-w-0 rounded-[14px] border px-4 py-2.5"
           style={{
             borderColor: "rgba(44,49,59,0.08)",
             backgroundColor: "rgba(255,255,255,0.72)",
@@ -93,14 +93,14 @@ function OrbitalHero({
   className,
 }: EntityHeroProps & { nodes: HeroSceneNode[] }) {
   return (
-    <div className={cn("flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:gap-12", className)}>
-      <div className="flex-1 space-y-5 pt-4">
+    <div className={cn("flex flex-col items-center gap-6 lg:flex-row lg:items-start lg:gap-12", className)}>
+      <div className="flex-1 space-y-5 pt-2 sm:pt-4">
         <EntityKindBadge kind={entityKind} color={themeColor} />
-        <h1 className="font-serif text-4xl font-bold text-editorial-ink sm:text-5xl">
+        <h1 className="font-serif text-3xl font-bold text-editorial-ink sm:text-5xl">
           {title}
         </h1>
         {subtitle ? (
-          <p className="max-w-lg text-base leading-relaxed text-editorial-muted sm:text-lg">
+          <p className="max-w-lg text-[15px] leading-relaxed text-editorial-muted sm:text-lg">
             {subtitle}
           </p>
         ) : null}
@@ -108,7 +108,7 @@ function OrbitalHero({
           <StatChips chips={statChips} color={themeColor} />
         ) : null}
       </div>
-      <div className="w-full max-w-[420px] shrink-0 lg:max-w-[460px]">
+      <div className="w-full max-w-[270px] shrink-0 sm:max-w-[320px] lg:max-w-[460px]">
         <HeroScene
           title={title}
           nodes={nodes}
@@ -132,7 +132,7 @@ function GradientHero({
   return (
     <div
       className={cn(
-        "relative overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.08)] p-8 shadow-editorial sm:p-12",
+        "relative overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.08)] p-6 shadow-editorial sm:p-12",
         className
       )}
       style={{
@@ -151,11 +151,11 @@ function GradientHero({
 
       <div className="relative z-[1] space-y-5">
         <EntityKindBadge kind={entityKind} color={themeColor} />
-        <h1 className="max-w-2xl font-serif text-4xl font-bold text-editorial-ink sm:text-5xl">
+        <h1 className="max-w-2xl font-serif text-3xl font-bold text-editorial-ink sm:text-5xl">
           {title}
         </h1>
         {subtitle ? (
-          <p className="max-w-xl text-base leading-relaxed text-editorial-muted sm:text-lg">
+          <p className="max-w-xl text-[15px] leading-relaxed text-editorial-muted sm:text-lg">
             {subtitle}
           </p>
         ) : null}
@@ -180,11 +180,11 @@ function MinimalHero({
   return (
     <div className={cn("space-y-5", className)}>
       <EntityKindBadge kind={entityKind} color={themeColor} />
-      <h1 className="font-serif text-4xl font-bold text-editorial-ink sm:text-5xl">
+      <h1 className="font-serif text-3xl font-bold text-editorial-ink sm:text-5xl">
         {title}
       </h1>
       {subtitle ? (
-        <p className="max-w-xl text-base leading-relaxed text-editorial-muted sm:text-lg">
+        <p className="max-w-xl text-[15px] leading-relaxed text-editorial-muted sm:text-lg">
           {subtitle}
         </p>
       ) : null}

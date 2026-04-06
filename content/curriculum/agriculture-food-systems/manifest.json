@@ -1,0 +1,12 @@
+{
+  "slug": "agriculture-food-systems",
+  "name": "Agriculture & Food Systems",
+  "shortName": "Agriculture & Food Systems",
+  "group": "life",
+  "icon": "Wheat",
+  "color": "#16A34A",
+  "tagline": "How food is grown, processed, distributed, and kept resilient under environmental and economic pressure.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 29
+}

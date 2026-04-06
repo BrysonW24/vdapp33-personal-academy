@@ -1,0 +1,36 @@
+{
+  "slug": "what-psychology-is",
+  "title": "What Psychology Is",
+  "shortSummary": "Get oriented to Psychology: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Psychology matters because it helps you reason about mental health, education, workplaces, research, design, and behavior change.",
+  "coreConcepts": [
+    "cognition",
+    "development",
+    "emotion",
+    "personality",
+    "learning",
+    "research methods"
+  ],
+  "mentalModels": [
+    "behavior in context",
+    "bias and heuristics",
+    "development across time"
+  ],
+  "lessons": [
+    "what-is-psychology"
+  ],
+  "frameworks": [
+    "psychology-systems-map"
+  ],
+  "relatedModules": [
+    "psychology-mental-models",
+    "psychology-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "map-a-psychology-system",
+  "title": "Map a Psychology system",
+  "difficulty": 4,
+  "estimatedHours": 8,
+  "description": "Choose one real behavioral pattern or intervention and explain it using the field's core models, tradeoffs, and operator reality.",
+  "whyItMatters": "This project forces Psychology to become operational rather than remaining purely conceptual.",
+  "skillsLearned": [
+    "Applied Psychology reasoning",
+    "Tradeoff analysis",
+    "Structured explanation",
+    "Case mapping"
+  ],
+  "prerequisites": [
+    "What Psychology Is",
+    "Psychology Mental Models"
+  ],
+  "steps": [
+    {
+      "title": "Choose a live case",
+      "description": "Select a concrete behavioral pattern or intervention with visible constraints and decisions."
+    },
+    {
+      "title": "Map the system",
+      "description": "Use Psychology Systems Map to capture the main units, flows, and constraints."
+    },
+    {
+      "title": "Analyze the tradeoffs",
+      "description": "Use Psychology Tradeoff Lens to compare the main options or tensions."
+    },
+    {
+      "title": "Write the brief",
+      "description": "Summarize what is happening, why it matters, and what a better decision would look like."
+    }
+  ],
+  "deliverables": [
+    "A one-page system map",
+    "A short decision brief",
+    "A list of key tradeoffs and uncertainties"
+  ],
+  "tools": [
+    "Qualtrics",
+    "SPSS",
+    "Mplus"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The system and its boundaries are clearly explained."
+    },
+    {
+      "criteria": "Tradeoffs",
+      "description": "The key tensions are real, specific, and well compared."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The analysis stays grounded in real constraints and operators."
+    }
+  ],
+  "domain": "Psychology"
+}

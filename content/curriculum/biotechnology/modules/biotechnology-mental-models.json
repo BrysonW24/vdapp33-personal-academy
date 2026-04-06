@@ -1,0 +1,36 @@
+{
+  "slug": "biotechnology-mental-models",
+  "title": "Biotechnology Mental Models",
+  "shortSummary": "Learn the compact mental models that make Biotechnology easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Biotechnology matters because it helps you reason about therapeutics, diagnostics, agriculture, fermentation, and industrial biology.",
+  "coreConcepts": [
+    "cell engineering",
+    "molecular tools",
+    "bioprocessing",
+    "regulation",
+    "scale-up",
+    "quality"
+  ],
+  "mentalModels": [
+    "bench-to-product translation",
+    "biology under constraints",
+    "scale-up bottlenecks"
+  ],
+  "lessons": [
+    "biotechnology-thinking"
+  ],
+  "frameworks": [
+    "biotechnology-systems-map"
+  ],
+  "relatedModules": [
+    "biotechnology-frameworks",
+    "biotechnology-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

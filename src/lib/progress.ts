@@ -27,6 +27,56 @@ const EMPTY_SUBJECT: SubjectProgress = {
 const LEGACY = "_legacy"
 const NEXUS_PROGRESS_KEY = "nexus-progress"
 const LEGACY_PROGRESS_KEY = "personal-academy-progress"
+const SUBJECT_ALIASES: Record<string, string> = {
+  quantum: "quantum-science",
+}
+
+function resolveSubjectSlug(subject: string) {
+  return SUBJECT_ALIASES[subject] ?? subject
+}
+
+function mergeSubjectProgress(
+  base: SubjectProgress,
+  overlay: SubjectProgress
+): SubjectProgress {
+  return {
+    completedModules: addUniqueArrays(base.completedModules, overlay.completedModules),
+    completedLessons: addUniqueArrays(base.completedLessons, overlay.completedLessons),
+    completedProjects: addUniqueArrays(base.completedProjects, overlay.completedProjects),
+    completedFrameworks: addUniqueArrays(
+      base.completedFrameworks,
+      overlay.completedFrameworks
+    ),
+    viewedTools: addUniqueArrays(base.viewedTools, overlay.viewedTools),
+    quizResults: {
+      ...overlay.quizResults,
+      ...base.quizResults,
+    },
+  }
+}
+
+function addUniqueArrays(existing: string[], incoming: string[]) {
+  return incoming.reduce((acc, item) => addUnique(acc, item), [...existing])
+}
+
+function normalizeSubjectProgressMap(
+  subjects: Record<string, SubjectProgress>
+): Record<string, SubjectProgress> {
+  const normalized: Record<string, SubjectProgress> = {}
+
+  Object.entries(subjects).forEach(([subject, progress]) => {
+    const resolved = resolveSubjectSlug(subject)
+
+    if (!normalized[resolved]) {
+      normalized[resolved] = { ...progress }
+      return
+    }
+
+    normalized[resolved] = mergeSubjectProgress(normalized[resolved], progress)
+  })
+
+  return normalized
+}
 
 export interface ProgressState {
   subjects: Record<string, SubjectProgress>
@@ -119,9 +169,11 @@ function aggregateSubjects(subjects: Record<string, SubjectProgress>) {
 }
 
 function buildSnapshot(subjects: Record<string, SubjectProgress>) {
+  const normalizedSubjects = normalizeSubjectProgressMap(subjects)
+
   return {
-    subjects,
-    ...aggregateSubjects(subjects),
+    subjects: normalizedSubjects,
+    ...aggregateSubjects(normalizedSubjects),
   }
 }
 
@@ -179,7 +231,7 @@ export const useProgress = create<ProgressState>()(
 
       completeModule: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         set((state) => {
@@ -196,7 +248,7 @@ export const useProgress = create<ProgressState>()(
 
       completeLesson: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         set((state) => {
@@ -213,7 +265,7 @@ export const useProgress = create<ProgressState>()(
 
       completeProject: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         set((state) => {
@@ -230,7 +282,7 @@ export const useProgress = create<ProgressState>()(
 
       completeFramework: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         set((state) => {
@@ -250,7 +302,7 @@ export const useProgress = create<ProgressState>()(
 
       viewTool: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         set((state) => {
@@ -268,7 +320,7 @@ export const useProgress = create<ProgressState>()(
       saveQuizResult: (a, b, c?, d?) => {
         const [subject, lessonSlug, score, total] =
           typeof b === "string"
-            ? [a, b, c as number, d as number]
+            ? [resolveSubjectSlug(a), b, c as number, d as number]
             : [LEGACY, a, b as number, c as number]
 
         set((state) => {
@@ -288,11 +340,12 @@ export const useProgress = create<ProgressState>()(
 
       reset: () => set(buildSnapshot({})),
 
-      getSubjectProgress: (subject) => get().subjects[subject] ?? { ...EMPTY_SUBJECT },
+      getSubjectProgress: (subject) =>
+        get().subjects[resolveSubjectSlug(subject)] ?? { ...EMPTY_SUBJECT },
 
       isModuleComplete: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         return (get().subjects[subject]?.completedModules ?? []).includes(targetSlug)
@@ -300,7 +353,7 @@ export const useProgress = create<ProgressState>()(
 
       isLessonComplete: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         return (get().subjects[subject]?.completedLessons ?? []).includes(targetSlug)
@@ -308,7 +361,7 @@ export const useProgress = create<ProgressState>()(
 
       isProjectComplete: (subjectOrSlug, slug?) => {
         const [subject, targetSlug] = slug
-          ? [subjectOrSlug, slug]
+          ? [resolveSubjectSlug(subjectOrSlug), slug]
           : [LEGACY, subjectOrSlug]
 
         return (get().subjects[subject]?.completedProjects ?? []).includes(targetSlug)

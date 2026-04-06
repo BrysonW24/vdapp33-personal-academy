@@ -1,0 +1,36 @@
+{
+  "slug": "design-applications",
+  "title": "Design Applications",
+  "shortSummary": "Trace where Design shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Design matters because it helps you reason about interfaces, products, brands, services, spaces, and communication.",
+  "coreConcepts": [
+    "hierarchy",
+    "constraints",
+    "composition",
+    "usability",
+    "iteration",
+    "meaning"
+  ],
+  "mentalModels": [
+    "form follows intent",
+    "design under constraints",
+    "feedback-driven iteration"
+  ],
+  "lessons": [
+    "design-where-it-shows-up"
+  ],
+  "frameworks": [
+    "design-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-design",
+    "what-design-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

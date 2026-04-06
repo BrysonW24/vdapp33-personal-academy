@@ -1,0 +1,23 @@
+{
+  "slug": "aemo-data",
+  "name": "AEMO Data",
+  "category": "market-data",
+  "description": "AEMO Data is a useful market data surface inside Energy Systems.",
+  "whyUseIt": "People in Energy Systems use AEMO Data to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://aemo.com.au/",
+  "alternatives": [
+    "PVsyst",
+    "PLEXOS"
+  ],
+  "outputs": [
+    "Energy Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using AEMO Data as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from AEMO Data."
+  ],
+  "relatedProject": "map-a-energy-systems-system"
+}

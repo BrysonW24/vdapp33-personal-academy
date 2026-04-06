@@ -32,6 +32,14 @@ export const RoleOverviewSchema = z
     coreWork: z.union([z.string(), z.array(z.string())]),
     frontierPull: z.string().min(1),
     signals: z.array(z.string()).default([]),
+    whenItCameAbout: z.union([z.string(), z.array(z.string())]).optional(),
+    whatPeopleDo: z.array(z.string()).default([]),
+    howPeopleGetThere: z.union([z.string(), z.array(z.string())]).optional(),
+    strengths: z.array(z.string()).default([]),
+    whoThrivesHere: z.union([z.string(), z.array(z.string())]).optional(),
+    exposures: z.array(z.string()).default([]),
+    careerLevers: z.array(z.string()).default([]),
+    careerPath: z.array(z.string()).default([]),
   })
   .transform((value) => ({
     slug: value.slug,
@@ -43,6 +51,23 @@ export const RoleOverviewSchema = z
         : value.coreWork.map((item) => `• ${item}`).join("\n"),
     frontierPull: value.frontierPull,
     signals: value.signals,
+    whenItCameAbout:
+      typeof value.whenItCameAbout === "string"
+        ? value.whenItCameAbout
+        : value.whenItCameAbout?.join("\n\n"),
+    whatPeopleDo: value.whatPeopleDo,
+    howPeopleGetThere:
+      typeof value.howPeopleGetThere === "string"
+        ? value.howPeopleGetThere
+        : value.howPeopleGetThere?.join("\n\n"),
+    strengths: value.strengths,
+    whoThrivesHere:
+      typeof value.whoThrivesHere === "string"
+        ? value.whoThrivesHere
+        : value.whoThrivesHere?.join("\n\n"),
+    exposures: value.exposures,
+    careerLevers: value.careerLevers,
+    careerPath: value.careerPath,
   }))
 
 const KeyIdeaSchema = z.union([

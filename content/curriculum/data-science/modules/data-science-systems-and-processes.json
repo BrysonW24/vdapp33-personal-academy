@@ -1,0 +1,36 @@
+{
+  "slug": "data-science-systems-and-processes",
+  "title": "Data Science Systems and Processes",
+  "shortSummary": "See how Data Science moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Data Science matters because it helps you reason about forecasting, experimentation, product analytics, operations, and research.",
+  "coreConcepts": [
+    "data cleaning",
+    "statistics",
+    "experimentation",
+    "modeling",
+    "evaluation",
+    "communication"
+  ],
+  "mentalModels": [
+    "signal vs noise",
+    "causation vs correlation",
+    "model lifecycle thinking"
+  ],
+  "lessons": [
+    "data-science-systems-in-the-world"
+  ],
+  "frameworks": [
+    "data-science-systems-map"
+  ],
+  "relatedModules": [
+    "data-science-applications",
+    "working-in-data-science"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

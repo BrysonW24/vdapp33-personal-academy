@@ -1,0 +1,23 @@
+{
+  "slug": "tableau",
+  "name": "Tableau",
+  "category": "visualization",
+  "description": "Tableau is a useful visualization surface inside Data Science.",
+  "whyUseIt": "People in Data Science use Tableau to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.tableau.com/",
+  "alternatives": [
+    "Python",
+    "dbt"
+  ],
+  "outputs": [
+    "Data Science working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Tableau as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Tableau."
+  ],
+  "relatedProject": "map-a-data-science-system"
+}

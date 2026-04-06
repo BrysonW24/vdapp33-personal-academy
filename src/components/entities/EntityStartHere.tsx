@@ -124,9 +124,9 @@ export function EntityStartHere({
       </EntityLandingSection>
 
       <EntityLandingSection
-        eyebrow="Pathways"
+        eyebrow="Surfaces"
         title="Navigate this surface"
-        subtitle="Use the same academy engine, but through a role- or topic-shaped lens."
+        subtitle="Move through the same knowledge base through a role- or topic-shaped lens."
         tintColor={entity.color}
         columns={3}
       >

@@ -39,6 +39,14 @@ export interface RoleOverview {
   coreWork: string
   frontierPull: string
   signals: string[]
+  whenItCameAbout?: string
+  whatPeopleDo: string[]
+  howPeopleGetThere?: string
+  strengths: string[]
+  whoThrivesHere?: string
+  exposures: string[]
+  careerLevers: string[]
+  careerPath: string[]
 }
 
 export interface TopicOverview {

@@ -1,0 +1,23 @@
+{
+  "slug": "postgresql",
+  "name": "PostgreSQL",
+  "category": "database",
+  "description": "PostgreSQL is a useful database surface inside Software Engineering.",
+  "whyUseIt": "People in Software Engineering use PostgreSQL to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.postgresql.org/",
+  "alternatives": [
+    "GitHub",
+    "Visual Studio Code"
+  ],
+  "outputs": [
+    "Software Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using PostgreSQL as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from PostgreSQL."
+  ],
+  "relatedProject": "map-a-software-engineering-system"
+}

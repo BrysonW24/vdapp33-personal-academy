@@ -1,0 +1,176 @@
+{
+  "slug": "quantum-science",
+  "kind": "subject",
+  "title": "Quantum Science Signals",
+  "summary": "Quantum science is the signal layer for measurement, computation, sensing, and the strange physical rules beneath advanced technology.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Error correction is the central technical challenge",
+          "summary": "Quantum computing progress is now mostly about making fragile hardware useful through better coding and control.",
+          "whyItMatters": "The road to utility runs through error correction, not just qubit counts.",
+          "entities": [
+            "IBM",
+            "Google Quantum AI",
+            "quantum-science"
+          ]
+        },
+        {
+          "name": "Quantum sensing is often closer to practical value",
+          "summary": "Precision measurement applications may mature faster than universal quantum computation.",
+          "whyItMatters": "The first useful quantum products may be sensors rather than computers.",
+          "entities": [
+            "physics",
+            "NIST",
+            "Oxford Instruments"
+          ]
+        },
+        {
+          "name": "Multiple hardware modalities are competing",
+          "summary": "Superconducting, trapped-ion, neutral-atom, and photonic approaches all have tradeoffs.",
+          "whyItMatters": "The field still has not settled on the dominant implementation path.",
+          "entities": [
+            "Quantinuum",
+            "PsiQuantum",
+            "IonQ"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "IBM",
+          "summary": "A major platform for quantum hardware, software, and research access.",
+          "whyItMatters": "IBM keeps quantum research connected to enterprise-grade tooling and ecosystem access.",
+          "entities": [
+            "quantum-science",
+            "data-science"
+          ]
+        },
+        {
+          "name": "Google Quantum AI",
+          "summary": "Central to superconducting qubit research and quantum error correction.",
+          "whyItMatters": "It remains one of the main reference points for the hardware frontier.",
+          "entities": [
+            "quantum-science",
+            "artificial-intelligence"
+          ]
+        },
+        {
+          "name": "PsiQuantum",
+          "summary": "Represents the photonic approach to scalable quantum computing.",
+          "whyItMatters": "It shows how different physical architectures are still competing for dominance.",
+          "entities": [
+            "quantum-science",
+            "aerospace"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "National Institute of Standards and Technology",
+          "summary": "A major standards and measurement anchor for quantum research.",
+          "whyItMatters": "Quantum progress depends on measurement precision and standards discipline.",
+          "entities": [
+            "physics",
+            "quantum-science"
+          ]
+        },
+        {
+          "name": "CSIRO",
+          "summary": "Australia has a meaningful quantum research and commercialisation footprint.",
+          "whyItMatters": "It is one of the key nodes linking local research to commercial capability.",
+          "entities": [
+            "quantum-science",
+            "robotics"
+          ]
+        },
+        {
+          "name": "DARPA",
+          "summary": "A long-running funder of high-risk quantum and advanced technology programs.",
+          "whyItMatters": "Quantum has remained strategically interesting enough to justify defense funding.",
+          "entities": [
+            "quantum-science",
+            "geopolitics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "John Preskill",
+          "summary": "One of the clearest explainers of quantum information and error correction.",
+          "whyItMatters": "He is a key interpreter of what quantum computing might actually become.",
+          "entities": [
+            "quantum-science",
+            "philosophy"
+          ]
+        },
+        {
+          "name": "Michelle Simmons",
+          "summary": "A major figure in Australia's quantum ecosystem and silicon quantum research.",
+          "whyItMatters": "She is a major signal for the Australian quantum stack.",
+          "entities": [
+            "quantum-science",
+            "physics"
+          ]
+        },
+        {
+          "name": "David Deutsch",
+          "summary": "A foundational thinker in quantum computation.",
+          "whyItMatters": "His ideas helped make quantum computing a serious field of study.",
+          "entities": [
+            "quantum-science",
+            "physics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "When will quantum computing become useful?",
+          "summary": "The field still debates whether utility will arrive first in chemistry, optimisation, sensing, or something else.",
+          "whyItMatters": "Utility, not novelty, will determine the real impact of the field.",
+          "entities": [
+            "quantum-science",
+            "energy-systems"
+          ]
+        },
+        {
+          "name": "How many hardware paths will survive?",
+          "summary": "Not every modality will win; the question is which physical implementation scales best.",
+          "whyItMatters": "Architecture choices determine the shape of the market and research agenda.",
+          "entities": [
+            "quantum-science",
+            "materials-science"
+          ]
+        },
+        {
+          "name": "What is the right benchmark for progress?",
+          "summary": "People argue over supremacy, utility, error-corrected logical qubits, and application-level value.",
+          "whyItMatters": "Benchmarks can either clarify progress or distort it.",
+          "entities": [
+            "quantum-science",
+            "data-science"
+          ]
+        }
+      ]
+    }
+  ]
+}

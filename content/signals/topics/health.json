@@ -1,0 +1,128 @@
+{
+  "slug": "health",
+  "kind": "topic",
+  "title": "Health Signals",
+  "summary": "Health signals follow medicine, prevention, public health, and the technology changing care delivery.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "AI diagnostics are being tested more widely",
+          "summary": "Clinical software is entering screening and triage workflows.",
+          "whyItMatters": "Health systems are becoming data-driven.",
+          "entities": [
+            "health",
+            "artificial-intelligence"
+          ]
+        },
+        {
+          "name": "Mental health demand remains high",
+          "summary": "Access and affordability continue to shape care.",
+          "whyItMatters": "Mental health is a system issue as much as an individual one.",
+          "entities": [
+            "health",
+            "psychology"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Telehealth platforms",
+          "summary": "Remote consultation is a normal care pathway.",
+          "whyItMatters": "The delivery model of healthcare is changing.",
+          "entities": [
+            "health",
+            "communication"
+          ]
+        },
+        {
+          "name": "Wearable makers",
+          "summary": "Consumer devices are collecting continuous health data.",
+          "whyItMatters": "These devices influence self-management and prevention.",
+          "entities": [
+            "health",
+            "self-knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "WHO",
+          "summary": "Global public-health coordination remains central.",
+          "whyItMatters": "Global standards shape local policy.",
+          "entities": [
+            "health",
+            "public-administration"
+          ]
+        },
+        {
+          "name": "Health departments",
+          "summary": "System planning and prevention live here.",
+          "whyItMatters": "Policy determines care access and quality.",
+          "entities": [
+            "health",
+            "politics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Atul Gawande",
+          "summary": "Practical voice on medicine and systems.",
+          "whyItMatters": "He makes health legible to general audiences.",
+          "entities": [
+            "health",
+            "communication"
+          ]
+        },
+        {
+          "name": "Michael Marmot",
+          "summary": "Key thinker on social determinants.",
+          "whyItMatters": "He explains why health is also a social question.",
+          "entities": [
+            "health",
+            "sociology"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "How much should health data be shared?",
+          "summary": "Privacy and effectiveness pull in different directions.",
+          "whyItMatters": "The data debate is now central to care design.",
+          "entities": [
+            "health",
+            "law"
+          ]
+        },
+        {
+          "name": "Is prevention underfunded?",
+          "summary": "Many argue systems still reward treatment more than prevention.",
+          "whyItMatters": "This affects long-term health costs and outcomes.",
+          "entities": [
+            "health",
+            "economics"
+          ]
+        }
+      ]
+    }
+  ]
+}

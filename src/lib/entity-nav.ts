@@ -1,93 +1,222 @@
-import type { EntityKind } from "@/types/entity"
-import type { SubjectManifest } from "@/types/curriculum"
+import type { EntityKind } from "@/types/entity";
+import type { SubjectManifest } from "@/types/curriculum";
 
 export interface NavContext {
-  kind: EntityKind
-  slug: string
-  basePath: string
-  name?: string
+  kind: EntityKind;
+  slug: string;
+  basePath: string;
+  name?: string;
 }
 
 export interface NavSectionItem {
-  segment: string
-  label: string
-  iconName: string
-  isPrimary: boolean
+  segment: string;
+  label: string;
+  iconName: string;
+  isPrimary: boolean;
 }
+
+export interface NavSectionGroups {
+  primary: NavSectionItem[];
+  overflow: NavSectionItem[];
+}
+
+const MAX_INLINE_CONTEXT_ITEMS = 4;
 
 const SUBJECT_SECTIONS: NavSectionItem[] = [
   { segment: "", label: "Start Here", iconName: "Compass", isPrimary: true },
-  { segment: "/blueprint", label: "Blueprint", iconName: "Map", isPrimary: true },
-  { segment: "/modules", label: "Modules", iconName: "BookOpen", isPrimary: true },
-  { segment: "/projects", label: "Projects", iconName: "FolderKanban", isPrimary: true },
+  {
+    segment: "/blueprint",
+    label: "Blueprint",
+    iconName: "Map",
+    isPrimary: true,
+  },
+  {
+    segment: "/modules",
+    label: "Modules",
+    iconName: "BookOpen",
+    isPrimary: true,
+  },
+  {
+    segment: "/projects",
+    label: "Projects",
+    iconName: "FolderKanban",
+    isPrimary: true,
+  },
   { segment: "/tools", label: "Tools", iconName: "Wrench", isPrimary: true },
-  { segment: "/sources", label: "Sources", iconName: "Library", isPrimary: false },
-  { segment: "/signals", label: "Signals", iconName: "Compass", isPrimary: false },
-  { segment: "/toolkit", label: "Toolkit", iconName: "Library", isPrimary: false },
-  { segment: "/day-in-the-life", label: "Day in the Life", iconName: "Clock3", isPrimary: false },
-]
+  {
+    segment: "/sources",
+    label: "Sources",
+    iconName: "Library",
+    isPrimary: false,
+  },
+  {
+    segment: "/signals",
+    label: "Signals",
+    iconName: "Compass",
+    isPrimary: false,
+  },
+  {
+    segment: "/toolkit",
+    label: "Toolkit",
+    iconName: "Library",
+    isPrimary: false,
+  },
+  {
+    segment: "/day-in-the-life",
+    label: "Day in the Life",
+    iconName: "Clock3",
+    isPrimary: false,
+  },
+];
 
 const ROLE_SECTIONS: NavSectionItem[] = [
   { segment: "", label: "Overview", iconName: "Compass", isPrimary: true },
-  { segment: "/blueprint", label: "Blueprint", iconName: "Map", isPrimary: true },
-  { segment: "/modules", label: "Training", iconName: "BookOpen", isPrimary: true },
-  { segment: "/projects", label: "Projects", iconName: "FolderKanban", isPrimary: true },
+  {
+    segment: "/blueprint",
+    label: "Blueprint",
+    iconName: "Map",
+    isPrimary: true,
+  },
+  {
+    segment: "/modules",
+    label: "Training",
+    iconName: "BookOpen",
+    isPrimary: true,
+  },
+  {
+    segment: "/projects",
+    label: "Projects",
+    iconName: "FolderKanban",
+    isPrimary: true,
+  },
   { segment: "/tools", label: "Tools", iconName: "Wrench", isPrimary: true },
-  { segment: "/sources", label: "Sources", iconName: "Library", isPrimary: false },
-  { segment: "/signals", label: "Signals", iconName: "Compass", isPrimary: false },
-  { segment: "/toolkit", label: "Toolkit", iconName: "Library", isPrimary: false },
-  { segment: "/day-in-the-life", label: "Day in the Life", iconName: "Clock3", isPrimary: false },
-]
+  {
+    segment: "/sources",
+    label: "Sources",
+    iconName: "Library",
+    isPrimary: false,
+  },
+  {
+    segment: "/signals",
+    label: "Signals",
+    iconName: "Compass",
+    isPrimary: false,
+  },
+  {
+    segment: "/toolkit",
+    label: "Toolkit",
+    iconName: "Library",
+    isPrimary: false,
+  },
+  {
+    segment: "/day-in-the-life",
+    label: "Day in the Life",
+    iconName: "Clock3",
+    isPrimary: false,
+  },
+];
 
 const TOPIC_SECTIONS: NavSectionItem[] = [
   { segment: "", label: "Overview", iconName: "Compass", isPrimary: true },
-  { segment: "/modules", label: "Concepts", iconName: "BookOpen", isPrimary: true },
-  { segment: "/projects", label: "Applications", iconName: "FolderKanban", isPrimary: true },
+  {
+    segment: "/modules",
+    label: "Concepts",
+    iconName: "BookOpen",
+    isPrimary: true,
+  },
+  {
+    segment: "/projects",
+    label: "Applications",
+    iconName: "FolderKanban",
+    isPrimary: true,
+  },
   { segment: "/tools", label: "Tools", iconName: "Wrench", isPrimary: true },
-  { segment: "/sources", label: "Sources", iconName: "Library", isPrimary: false },
-  { segment: "/signals", label: "Signals", iconName: "Compass", isPrimary: false },
-  { segment: "/toolkit", label: "Perspectives", iconName: "Library", isPrimary: false },
-]
+  {
+    segment: "/sources",
+    label: "Sources",
+    iconName: "Library",
+    isPrimary: false,
+  },
+  {
+    segment: "/signals",
+    label: "Signals",
+    iconName: "Compass",
+    isPrimary: false,
+  },
+  {
+    segment: "/toolkit",
+    label: "Perspectives",
+    iconName: "Library",
+    isPrimary: false,
+  },
+];
 
 const SECTION_MAP: Record<EntityKind, NavSectionItem[]> = {
   subject: SUBJECT_SECTIONS,
   role: ROLE_SECTIONS,
   topic: TOPIC_SECTIONS,
-}
+};
 
-function getSubjectNavSections(subject?: SubjectManifest | null): NavSectionItem[] {
-  if (!subject?.deepDivePages?.length) return SUBJECT_SECTIONS
+function getSubjectNavSections(
+  subject?: SubjectManifest | null,
+): NavSectionItem[] {
+  if (!subject?.deepDivePages?.length) return SUBJECT_SECTIONS;
 
   const deepDiveSections = subject.deepDivePages.map((page) => ({
     segment: `/${page.slug}`,
     label: page.label,
     iconName: page.icon,
     isPrimary: true,
-  }))
+  }));
 
   return [
     SUBJECT_SECTIONS[0],
     ...deepDiveSections,
     ...SUBJECT_SECTIONS.slice(1),
-  ]
+  ];
 }
 
 export function getNavSections(
   kind: EntityKind,
-  subject?: SubjectManifest | null
+  subject?: SubjectManifest | null,
 ): NavSectionItem[] {
-  if (kind === "subject") return getSubjectNavSections(subject)
-  return SECTION_MAP[kind]
+  if (kind === "subject") return getSubjectNavSections(subject);
+  return SECTION_MAP[kind];
+}
+
+export function getNavSectionGroups(
+  kind: EntityKind,
+  subject?: SubjectManifest | null,
+): NavSectionGroups {
+  const sections = getNavSections(kind, subject);
+  const primary = sections.filter((section) => section.isPrimary);
+  const overflow = sections.filter((section) => !section.isPrimary);
+
+  if (!primary.length) {
+    return {
+      primary: sections.slice(0, MAX_INLINE_CONTEXT_ITEMS),
+      overflow: sections.slice(MAX_INLINE_CONTEXT_ITEMS),
+    };
+  }
+
+  if (primary.length <= MAX_INLINE_CONTEXT_ITEMS) {
+    return { primary, overflow };
+  }
+
+  return {
+    primary: primary.slice(0, MAX_INLINE_CONTEXT_ITEMS),
+    overflow: [...primary.slice(MAX_INLINE_CONTEXT_ITEMS), ...overflow],
+  };
 }
 
 export function getEntityBasePath(kind: EntityKind, slug: string): string {
   switch (kind) {
     case "subject":
-      return `/${slug}`
+      return `/${slug}`;
     case "role":
-      return `/roles/${slug}`
+      return `/roles/${slug}`;
     case "topic":
-      return `/topics/${slug}`
+      return `/topics/${slug}`;
   }
 }
 
@@ -98,16 +227,16 @@ export function getEntityBasePath(kind: EntityKind, slug: string): string {
  */
 export function resolveNavContext(
   pathname: string,
-  subjectSlugs: string[]
+  subjectSlugs: string[],
 ): NavContext | null {
-  const segments = pathname.split("/").filter(Boolean)
+  const segments = pathname.split("/").filter(Boolean);
 
   if (segments[0] === "roles" && segments[1]) {
     return {
       kind: "role",
       slug: segments[1],
       basePath: `/roles/${segments[1]}`,
-    }
+    };
   }
 
   if (segments[0] === "topics" && segments[1]) {
@@ -115,7 +244,7 @@ export function resolveNavContext(
       kind: "topic",
       slug: segments[1],
       basePath: `/topics/${segments[1]}`,
-    }
+    };
   }
 
   if (segments[0] && subjectSlugs.includes(segments[0])) {
@@ -123,8 +252,8 @@ export function resolveNavContext(
       kind: "subject",
       slug: segments[0],
       basePath: `/${segments[0]}`,
-    }
+    };
   }
 
-  return null
+  return null;
 }

@@ -1,0 +1,12 @@
+{
+  "slug": "ancient-history",
+  "name": "Ancient History",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "ScrollText",
+  "color": "#92400E",
+  "tagline": "Civilisations, empires, myths, and material cultures from the deep human past.",
+  "tier": "flagship",
+  "hasNews": false,
+  "order": 16
+}

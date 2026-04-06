@@ -1,0 +1,159 @@
+{
+  "slug": "energy-systems",
+  "kind": "subject",
+  "title": "Energy Systems Truth Stack",
+  "summary": "Energy Systems connects physics, infrastructure, markets, and governance through the question of how power is generated, moved, stored, and paid for.",
+  "starterPack": [
+    "Start with conservation of energy, grid balancing, and system constraints.",
+    "Use IEA, AEMO, and serious transition analysts before hot takes.",
+    "Keep technology claims tied to infrastructure, economics, and deployment reality."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First principles",
+      "description": "The rules that shape every energy system.",
+      "items": [
+        {
+          "name": "Energy transforms rather than disappears",
+          "kind": "principle",
+          "description": "Every system is governed by conservation and conversion losses."
+        },
+        {
+          "name": "Grids must balance in real time",
+          "kind": "principle",
+          "description": "Supply, demand, frequency, and stability are coupled."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary authorities",
+      "description": "Institutions closest to the operating reality.",
+      "items": [
+        {
+          "name": "International Energy Agency",
+          "kind": "institution",
+          "description": "Primary global energy analysis and data.",
+          "link": "https://www.iea.org/"
+        },
+        {
+          "name": "Australian Energy Market Operator",
+          "kind": "institution",
+          "description": "Core Australian grid and market authority.",
+          "link": "https://aemo.com.au/"
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature interpreters",
+      "description": "People who translate the field without flattening it.",
+      "items": [
+        {
+          "name": "Vaclav Smil",
+          "kind": "person",
+          "description": "System-level energy historian and analyst.",
+          "link": "https://vaclavsmil.com/"
+        },
+        {
+          "name": "Michael Liebreich",
+          "kind": "person",
+          "description": "Pragmatic transition analysis.",
+          "link": "https://www.liebreich.com/"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The operators building and running the system.",
+      "items": [
+        {
+          "name": "Grid operators",
+          "kind": "person",
+          "description": "Keep power systems stable under shifting demand and generation."
+        },
+        {
+          "name": "Power-system engineers",
+          "kind": "person",
+          "description": "Design the hardware and controls that keep energy reliable."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The organizations shaping deployment and planning.",
+      "items": [
+        {
+          "name": "ARENA",
+          "kind": "institution",
+          "description": "Australian clean-energy deployment support.",
+          "link": "https://arena.gov.au/"
+        },
+        {
+          "name": "CSIRO Energy",
+          "kind": "institution",
+          "description": "Australian research translation in energy systems.",
+          "link": "https://www.csiro.au/"
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and publications",
+      "description": "Useful reporting and longer-form analysis.",
+      "items": [
+        {
+          "name": "Canary Media",
+          "kind": "publication",
+          "description": "Readable clean-energy reporting.",
+          "link": "https://www.canarymedia.com/"
+        },
+        {
+          "name": "Energy Policy",
+          "kind": "journal",
+          "description": "Serious policy and systems literature.",
+          "link": "https://www.sciencedirect.com/journal/energy-policy"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and documentaries",
+      "description": "Useful audio-visual entry points.",
+      "items": [
+        {
+          "name": "Fully Charged Show",
+          "kind": "channel",
+          "description": "Broad energy transition coverage.",
+          "link": "https://www.youtube.com/@FullyChargedShow"
+        },
+        {
+          "name": "Practical Engineering",
+          "kind": "channel",
+          "description": "Good infrastructure and systems explanation.",
+          "link": "https://www.youtube.com/@PracticalEngineeringChannel"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier watchlist",
+      "description": "Areas still moving fast.",
+      "items": [
+        {
+          "name": "Grid-scale storage",
+          "kind": "tool",
+          "description": "Storage duration, economics, and deployment."
+        },
+        {
+          "name": "Firm low-carbon power",
+          "kind": "tool",
+          "description": "Nuclear, geothermal, and flexible clean generation."
+        }
+      ]
+    }
+  ]
+}

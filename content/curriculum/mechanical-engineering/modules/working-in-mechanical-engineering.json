@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-mechanical-engineering",
+  "title": "Working in Mechanical Engineering",
+  "shortSummary": "Understand what people in Mechanical Engineering actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Mechanical Engineering matters because it helps you reason about vehicles, industrial equipment, robotics, energy systems, and product hardware.",
+  "coreConcepts": [
+    "forces",
+    "motion",
+    "thermodynamics",
+    "materials",
+    "manufacturing",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "load and failure thinking",
+    "energy conversion",
+    "design for manufacture"
+  ],
+  "lessons": [
+    "mechanical-engineering-career-reality"
+  ],
+  "frameworks": [
+    "mechanical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "what-mechanical-engineering-is",
+    "mechanical-engineering-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

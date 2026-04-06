@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-electrical-engineering",
+  "title": "Working in Electrical Engineering",
+  "shortSummary": "Understand what people in Electrical Engineering actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Electrical Engineering matters because it helps you reason about power networks, electronics, control systems, automation, and communications.",
+  "coreConcepts": [
+    "circuits",
+    "power systems",
+    "signals",
+    "electronics",
+    "control",
+    "safety"
+  ],
+  "mentalModels": [
+    "energy and signal flow",
+    "feedback control",
+    "failure under load"
+  ],
+  "lessons": [
+    "electrical-engineering-career-reality"
+  ],
+  "frameworks": [
+    "electrical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "what-electrical-engineering-is",
+    "electrical-engineering-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

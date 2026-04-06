@@ -1,0 +1,23 @@
+{
+  "slug": "snowflake",
+  "name": "Snowflake",
+  "category": "data-platform",
+  "description": "Snowflake is a useful data platform surface inside Data Science.",
+  "whyUseIt": "People in Data Science use Snowflake to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.snowflake.com/",
+  "alternatives": [
+    "Python",
+    "dbt"
+  ],
+  "outputs": [
+    "Data Science working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Snowflake as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Snowflake."
+  ],
+  "relatedProject": "map-a-data-science-system"
+}

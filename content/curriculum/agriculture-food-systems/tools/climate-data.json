@@ -1,0 +1,23 @@
+{
+  "slug": "climate-data",
+  "name": "Climate Data Portals",
+  "category": "data",
+  "description": "Climate Data Portals is a useful data surface inside Agriculture & Food Systems.",
+  "whyUseIt": "People in Agriculture & Food Systems use Climate Data Portals to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.bom.gov.au/",
+  "alternatives": [
+    "QGIS",
+    "Farm Management Software"
+  ],
+  "outputs": [
+    "Agriculture & Food Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Climate Data Portals as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Climate Data Portals."
+  ],
+  "relatedProject": "map-a-agriculture-food-systems-system"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "jira",
+  "name": "Jira",
+  "category": "coordination",
+  "description": "Jira is a useful coordination surface inside Systems Engineering.",
+  "whyUseIt": "People in Systems Engineering use Jira to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.atlassian.com/software/jira",
+  "alternatives": [
+    "SysML",
+    "IBM DOORS"
+  ],
+  "outputs": [
+    "Systems Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Jira as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Jira."
+  ],
+  "relatedProject": "map-a-systems-engineering-system"
+}

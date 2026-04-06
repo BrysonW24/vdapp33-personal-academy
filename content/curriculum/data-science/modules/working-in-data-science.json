@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-data-science",
+  "title": "Working in Data Science",
+  "shortSummary": "Understand what people in Data Science actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Data Science matters because it helps you reason about forecasting, experimentation, product analytics, operations, and research.",
+  "coreConcepts": [
+    "data cleaning",
+    "statistics",
+    "experimentation",
+    "modeling",
+    "evaluation",
+    "communication"
+  ],
+  "mentalModels": [
+    "signal vs noise",
+    "causation vs correlation",
+    "model lifecycle thinking"
+  ],
+  "lessons": [
+    "data-science-career-reality"
+  ],
+  "frameworks": [
+    "data-science-systems-map"
+  ],
+  "relatedModules": [
+    "what-data-science-is",
+    "data-science-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

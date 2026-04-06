@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-software-engineering",
+  "title": "Working in Software Engineering",
+  "shortSummary": "Understand what people in Software Engineering actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Software Engineering matters because it helps you reason about consumer products, enterprise systems, infrastructure, automation, and developer platforms.",
+  "coreConcepts": [
+    "requirements",
+    "architecture",
+    "testing",
+    "deployment",
+    "reliability",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "abstraction boundaries",
+    "tradeoff-driven architecture",
+    "feedback loop engineering"
+  ],
+  "lessons": [
+    "software-engineering-career-reality"
+  ],
+  "frameworks": [
+    "software-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "what-software-engineering-is",
+    "software-engineering-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

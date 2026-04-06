@@ -1,0 +1,36 @@
+{
+  "slug": "software-engineering-applications",
+  "title": "Software Engineering Applications",
+  "shortSummary": "Trace where Software Engineering shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Software Engineering matters because it helps you reason about consumer products, enterprise systems, infrastructure, automation, and developer platforms.",
+  "coreConcepts": [
+    "requirements",
+    "architecture",
+    "testing",
+    "deployment",
+    "reliability",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "abstraction boundaries",
+    "tradeoff-driven architecture",
+    "feedback loop engineering"
+  ],
+  "lessons": [
+    "software-engineering-where-it-shows-up"
+  ],
+  "frameworks": [
+    "software-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-software-engineering",
+    "what-software-engineering-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

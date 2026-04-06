@@ -1,0 +1,36 @@
+{
+  "slug": "systems-engineering-systems-and-processes",
+  "title": "Systems Engineering Systems and Processes",
+  "shortSummary": "See how Systems Engineering moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Systems Engineering matters because it helps you reason about defense, aerospace, transport, energy, and large technical programs.",
+  "coreConcepts": [
+    "requirements",
+    "interfaces",
+    "integration",
+    "verification",
+    "risk",
+    "lifecycle thinking"
+  ],
+  "mentalModels": [
+    "system-of-systems thinking",
+    "interface control",
+    "verification traceability"
+  ],
+  "lessons": [
+    "systems-engineering-systems-in-the-world"
+  ],
+  "frameworks": [
+    "systems-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "systems-engineering-applications",
+    "working-in-systems-engineering"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

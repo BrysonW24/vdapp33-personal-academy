@@ -1,0 +1,23 @@
+{
+  "slug": "sap",
+  "name": "SAP",
+  "category": "erp",
+  "description": "SAP is a useful erp surface inside Finance & Accounting.",
+  "whyUseIt": "People in Finance & Accounting use SAP to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.sap.com/",
+  "alternatives": [
+    "Microsoft Excel",
+    "Xero"
+  ],
+  "outputs": [
+    "Finance & Accounting working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SAP as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SAP."
+  ],
+  "relatedProject": "map-a-finance-accounting-system"
+}

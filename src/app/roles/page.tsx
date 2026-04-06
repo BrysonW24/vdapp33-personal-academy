@@ -27,9 +27,9 @@ export default function RolesIndexPage() {
           Roles
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-relaxed text-editorial-muted">
-          Role pages turn the old frontier directions into real destinations. Each one
-          pulls together the most relevant subject training, projects, tools, and
-          day-in-the-life stories into a shareable surface.
+          Role pages turn the old frontier directions into real destinations.
+          Each one pulls together the most relevant subject training, projects,
+          tools, and day-in-the-life stories into a shareable surface.
         </p>
       </section>
 
@@ -40,7 +40,7 @@ export default function RolesIndexPage() {
               {SUBJECT_GROUP_LABELS[group] ?? group}
             </p>
             <h2 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
-              First-wave role destinations
+              Open role destinations
             </h2>
           </div>
 

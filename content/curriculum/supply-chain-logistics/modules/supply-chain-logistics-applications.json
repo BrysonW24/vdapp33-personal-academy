@@ -1,0 +1,36 @@
+{
+  "slug": "supply-chain-logistics-applications",
+  "title": "Supply Chain & Logistics Applications",
+  "shortSummary": "Trace where Supply Chain & Logistics shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Supply Chain & Logistics matters because it helps you reason about manufacturing, retail, defense, food systems, and global trade.",
+  "coreConcepts": [
+    "inventory",
+    "forecasting",
+    "transport",
+    "warehousing",
+    "suppliers",
+    "service levels"
+  ],
+  "mentalModels": [
+    "flow and bottleneck thinking",
+    "inventory-position tradeoffs",
+    "resilience vs efficiency"
+  ],
+  "lessons": [
+    "supply-chain-logistics-where-it-shows-up"
+  ],
+  "frameworks": [
+    "supply-chain-logistics-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-supply-chain-logistics",
+    "what-supply-chain-logistics-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

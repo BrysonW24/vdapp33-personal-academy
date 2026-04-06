@@ -1,0 +1,23 @@
+{
+  "slug": "satellite-imagery",
+  "name": "Satellite Imagery Platforms",
+  "category": "osint",
+  "description": "Satellite Imagery Platforms is a useful osint surface inside Geopolitics.",
+  "whyUseIt": "People in Geopolitics use Satellite Imagery Platforms to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://earth.google.com/",
+  "alternatives": [
+    "Our World in Data",
+    "ACLED"
+  ],
+  "outputs": [
+    "Geopolitics working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Satellite Imagery Platforms as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Satellite Imagery Platforms."
+  ],
+  "relatedProject": "map-a-geopolitics-system"
+}

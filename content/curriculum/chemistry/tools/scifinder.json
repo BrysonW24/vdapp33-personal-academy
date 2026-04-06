@@ -1,0 +1,23 @@
+{
+  "slug": "scifinder",
+  "name": "SciFinder",
+  "category": "research",
+  "description": "SciFinder is a useful research surface inside Chemistry.",
+  "whyUseIt": "People in Chemistry use SciFinder to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.cas.org/products/scifinder",
+  "alternatives": [
+    "ChemDraw",
+    "OriginLab"
+  ],
+  "outputs": [
+    "Chemistry working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SciFinder as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SciFinder."
+  ],
+  "relatedProject": "map-a-chemistry-system"
+}

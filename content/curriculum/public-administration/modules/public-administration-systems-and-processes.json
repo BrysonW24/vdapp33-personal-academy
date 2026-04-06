@@ -1,0 +1,36 @@
+{
+  "slug": "public-administration-systems-and-processes",
+  "title": "Public Administration Systems and Processes",
+  "shortSummary": "See how Public Administration moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Public Administration matters because it helps you reason about departments, agencies, local government, regulation, and implementation.",
+  "coreConcepts": [
+    "administration",
+    "budgets",
+    "delivery",
+    "accountability",
+    "coordination",
+    "public value"
+  ],
+  "mentalModels": [
+    "policy-to-delivery chain",
+    "administrative capacity",
+    "mandate vs implementation gap"
+  ],
+  "lessons": [
+    "public-administration-systems-in-the-world"
+  ],
+  "frameworks": [
+    "public-administration-systems-map"
+  ],
+  "relatedModules": [
+    "public-administration-applications",
+    "working-in-public-administration"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

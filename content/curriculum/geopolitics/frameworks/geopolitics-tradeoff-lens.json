@@ -1,0 +1,16 @@
+{
+  "slug": "geopolitics-tradeoff-lens",
+  "name": "Geopolitics Tradeoff Lens",
+  "summary": "A comparison tool for weighing performance, cost, risk, time, and human factors inside Geopolitics.",
+  "whenToUseIt": "Use this when two options both look attractive until you make the tradeoffs explicit.",
+  "steps": [
+    "Clarify the decision and the objective.",
+    "List the meaningful tradeoff dimensions.",
+    "Compare the available options against those dimensions.",
+    "Decide what you are optimizing for and what you are willing to absorb.",
+    "Record the rationale so the choice can be revisited later."
+  ],
+  "example": "Use it on energy chokepoints to compare speed, reliability, and strategic fit.",
+  "category": "decision-making",
+  "domain": "Geopolitics"
+}

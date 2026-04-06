@@ -1,0 +1,23 @@
+{
+  "slug": "stata",
+  "name": "Stata",
+  "category": "quantitative-analysis",
+  "description": "Stata is a useful quantitative analysis surface inside Sociology.",
+  "whyUseIt": "People in Sociology use Stata to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.stata.com/",
+  "alternatives": [
+    "NVivo",
+    "Qualtrics"
+  ],
+  "outputs": [
+    "Sociology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Stata as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Stata."
+  ],
+  "relatedProject": "map-a-sociology-system"
+}

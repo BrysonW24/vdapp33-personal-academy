@@ -4,6 +4,45 @@
   "summary": "Being an astronaut is overwhelmingly about preparation. For every hour spent in space, there are thousands of hours of training, simulation, and systems study on the ground. NASA's Astronaut Candidate (ASCAN) programme takes roughly two years of full-time training before a candidate is even eligible for a flight assignment, and the wait for an actual mission can stretch years beyond that. The romantic image of floating in microgravity is real, but it represents a tiny fraction of the career.\n\nThe work itself is deeply technical and physically demanding. Astronauts operate as systems engineers, scientists, mechanics, medical responders, and public communicators all in one role. On the International Space Station, a typical crew member spends their day split between conducting scientific experiments across disciplines from biology to materials science, performing maintenance on life-critical systems like the Environmental Control and Life Support System (ECLSS), exercising for two hours daily to counteract bone and muscle loss, and coordinating with ground control teams across multiple time zones and languages.\n\nWhat makes the role extraordinary is the combination of extreme competence required and the consequences of failure. Every spacewalk, every docking procedure, every system repair happens in an environment that is fundamentally hostile to human life. The margin for error is thin. Astronauts are selected not just for technical excellence but for the ability to remain calm, collaborative, and effective under sustained pressure in confined spaces with a small crew for months at a time.",
   "coreWork": "The actual day-to-day work of an astronaut varies dramatically between ground and flight phases. On the ground, astronauts spend most of their time in training: practising EVA procedures in the Neutral Buoyancy Laboratory (a 40-foot-deep pool containing a full-scale ISS mockup), flying T-38 jet trainers to maintain flight proficiency and decision-making under pressure, studying spacecraft systems in classrooms and simulators, learning Russian (mandatory for all ISS crew), and participating in wilderness survival exercises that simulate off-nominal landing scenarios. In flight, the work shifts to conducting science experiments designed by researchers worldwide, operating and maintaining the station's systems (power, water recycling, air filtration, communications), performing spacewalks for external repairs and upgrades, and documenting everything for ground teams. Crew members also serve as test subjects for human physiology research, contributing data about how the human body responds to long-duration spaceflight.",
   "frontierPull": "Astronauts occupy the literal frontier of human presence. The role is compelling because it sits at the intersection of nearly every hard discipline: orbital mechanics, life support engineering, materials science, human physiology, robotics, and increasingly, the challenge of extending human habitation beyond low Earth orbit. With the Artemis programme aiming to return humans to the Moon and establish a sustained presence there, and with Mars mission architectures under active development, the astronaut role is evolving from station crew member to deep-space explorer. The generation of astronauts being selected now may be the first to walk on another world since 1972.",
+  "whenItCameAbout": "The modern astronaut role emerged in the late 1950s out of the Cold War space race. Early astronaut corps were drawn heavily from military test pilots because spaceflight was treated as an extreme flight-test problem: vehicles were experimental, failure rates were high, and missions demanded unusual calm and discipline.\n\nOver time the role broadened. By the Apollo, Shuttle, and International Space Station eras, astronaut crews included engineers, scientists, physicians, and mission specialists, not just pilots. Today's role is shaped by international cooperation across NASA, ESA, JAXA, CSA, and other partners, and it is now expanding again toward Artemis-era lunar operations and eventual deep-space missions.",
+  "whatPeopleDo": [
+    "Study spacecraft systems, mission procedures, and failure modes long before a flight assignment arrives.",
+    "Train repeatedly in EVA pools, simulators, survival environments, robotics labs, and aircraft to make procedures reliable under stress.",
+    "Operate and maintain life-critical systems in orbit, from environmental control and power to communications and payload hardware.",
+    "Run scientific experiments, document observations, and coordinate tightly with mission control and international ground teams."
+  ],
+  "howPeopleGetThere": "Most astronauts arrive with a serious operational base before they are ever selected. That usually means advanced STEM study plus years of high-responsibility work in engineering, science, medicine, or military aviation. Selection bodies look for evidence that someone can handle pressure, learn quickly across disciplines, and work in small teams without becoming difficult.\n\nGetting in is only the beginning. Once selected, astronaut candidates still have to pass years of training in spacecraft systems, EVA procedure, robotics, language, emergency response, medical basics, and long-duration crew discipline before they are trusted with a mission assignment.",
+  "strengths": [
+    "Systems thinking",
+    "Technical depth",
+    "Calm under pressure",
+    "Crew discipline",
+    "Physical resilience",
+    "Procedural accuracy",
+    "Cross-disciplinary learning",
+    "Communication in confined teams"
+  ],
+  "whoThrivesHere": "People thrive in this role when they can stay composed, curious, and highly coachable while operating inside strict procedures. It rewards people who are not theatrical about pressure. The strongest astronauts tend to combine technical seriousness with humility, emotional steadiness, and the ability to be a good crew member for months in an enclosed environment where small frictions can become major mission problems.",
+  "exposures": [
+    "Long periods of preparation before visible payoff",
+    "High procedural density and simulation-driven learning",
+    "Physical strain, confinement, and disrupted circadian rhythms during missions",
+    "Cross-cultural coordination with mission control, agencies, and international crewmates",
+    "Public visibility and symbolic pressure far beyond the small size of the field"
+  ],
+  "careerLevers": [
+    "Building a serious technical or operational base before selection",
+    "Becoming unusually dependable in simulation and crew settings",
+    "Communicating clearly with specialists across engineering, science, and mission control",
+    "Showing calm judgment when plans break and procedures need disciplined execution"
+  ],
+  "careerPath": [
+    "Technical or operational specialist",
+    "Astronaut candidate",
+    "Mission support and systems training",
+    "Flight assignment and mission specialist work",
+    "Senior crew leadership or programme-level mission support"
+  ],
   "signals": [
     "Orbital mechanics",
     "Life support systems",

@@ -1,0 +1,12 @@
+{
+  "slug": "public-administration",
+  "name": "Public Administration",
+  "shortName": "Public Administration",
+  "group": "society",
+  "icon": "BriefcaseBusiness",
+  "color": "#C2410C",
+  "tagline": "How governments and public institutions are organized, managed, and made to deliver.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 23
+}

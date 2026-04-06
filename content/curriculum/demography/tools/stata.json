@@ -1,0 +1,23 @@
+{
+  "slug": "stata",
+  "name": "Stata",
+  "category": "analysis",
+  "description": "Stata is a useful analysis surface inside Demography.",
+  "whyUseIt": "People in Demography use Stata to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.stata.com/",
+  "alternatives": [
+    "ABS Data",
+    "R"
+  ],
+  "outputs": [
+    "Demography working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Stata as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Stata."
+  ],
+  "relatedProject": "map-a-demography-system"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "energy-systems-frameworks",
+  "title": "Energy Systems Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Energy Systems.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Energy Systems matters because it helps you reason about electric grids, industrial systems, transport, climate transition, and national resilience.",
+  "coreConcepts": [
+    "generation",
+    "storage",
+    "transmission",
+    "demand",
+    "grid balancing",
+    "energy economics"
+  ],
+  "mentalModels": [
+    "conversion chains",
+    "capacity factor thinking",
+    "grid balancing logic"
+  ],
+  "lessons": [
+    "energy-systems-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "energy-systems-systems-map",
+    "energy-systems-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "energy-systems-systems-and-processes",
+    "energy-systems-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

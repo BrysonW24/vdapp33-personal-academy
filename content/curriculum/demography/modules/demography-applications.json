@@ -1,0 +1,36 @@
+{
+  "slug": "demography-applications",
+  "title": "Demography Applications",
+  "shortSummary": "Trace where Demography shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Demography matters because it helps you reason about housing, health, education, labour markets, migration, and long-range strategy.",
+  "coreConcepts": [
+    "fertility",
+    "mortality",
+    "migration",
+    "age structure",
+    "cohort effects",
+    "population projections"
+  ],
+  "mentalModels": [
+    "cohort flow thinking",
+    "dependency ratios",
+    "population momentum"
+  ],
+  "lessons": [
+    "demography-where-it-shows-up"
+  ],
+  "frameworks": [
+    "demography-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-demography",
+    "what-demography-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

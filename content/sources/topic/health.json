@@ -1,0 +1,203 @@
+{
+  "slug": "health",
+  "kind": "topic",
+  "title": "Health Truth Stack",
+  "summary": "Health is best grounded in medicine, public health, and the systems that determine access and prevention.",
+  "starterPack": [
+    "Start with prevention, evidence, and systems before chasing trends.",
+    "Use public health and medical institutions before influencer advice.",
+    "Treat health as both personal and structural."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "The basics of health and care.",
+      "items": [
+        {
+          "name": "Prevention beats treatment",
+          "kind": "principle",
+          "description": "Stopping problems early usually costs less and works better."
+        },
+        {
+          "name": "Evidence matters",
+          "kind": "principle",
+          "description": "Medicine should be tested, not guessed."
+        },
+        {
+          "name": "Systems shape outcomes",
+          "kind": "principle",
+          "description": "Access and infrastructure change health behavior."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Reliable public-health and medicine sources.",
+      "items": [
+        {
+          "name": "World Health Organization",
+          "kind": "institution",
+          "description": "Global health guidance and data.",
+          "link": "https://www.who.int/"
+        },
+        {
+          "name": "Australian Institute of Health and Welfare",
+          "kind": "institution",
+          "description": "Australian health data and reporting.",
+          "link": "https://www.aihw.gov.au/"
+        },
+        {
+          "name": "NHMRC",
+          "kind": "institution",
+          "description": "Australian medical research and evidence standards.",
+          "link": "https://www.nhmrc.gov.au/"
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Authors and clinicians who explain health well.",
+      "items": [
+        {
+          "name": "Atul Gawande",
+          "kind": "person",
+          "description": "Clear writer on medicine and systems.",
+          "link": "https://atulgawande.com/"
+        },
+        {
+          "name": "Siddhartha Mukherjee",
+          "kind": "person",
+          "description": "Cancer and biology writer.",
+          "link": "https://siddharthamukherjee.com/"
+        },
+        {
+          "name": "Michael Marmot",
+          "kind": "person",
+          "description": "Social determinants of health.",
+          "link": "https://www.ucl.ac.uk/epidemiology-health-care/people/professor-sir-michael-marmot"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People who keep health systems working.",
+      "items": [
+        {
+          "name": "Doctors",
+          "kind": "person",
+          "description": "Diagnose and treat illness."
+        },
+        {
+          "name": "Nurses",
+          "kind": "person",
+          "description": "Provide frontline care and coordination."
+        },
+        {
+          "name": "Public health workers",
+          "kind": "person",
+          "description": "Prevent disease at population scale."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Where health gets organised.",
+      "items": [
+        {
+          "name": "Hospitals",
+          "kind": "institution",
+          "description": "Acute and specialist care."
+        },
+        {
+          "name": "Primary care clinics",
+          "kind": "institution",
+          "description": "First-contact care and prevention."
+        },
+        {
+          "name": "Health departments",
+          "kind": "institution",
+          "description": "Policy, planning, and public health.",
+          "link": "https://www.health.gov.au/"
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Trusted health reading.",
+      "items": [
+        {
+          "name": "The Lancet",
+          "kind": "journal",
+          "description": "Major medical journal.",
+          "link": "https://www.thelancet.com/"
+        },
+        {
+          "name": "BMJ",
+          "kind": "journal",
+          "description": "Clinical and policy medicine.",
+          "link": "https://www.bmj.com/"
+        },
+        {
+          "name": "JAMA",
+          "kind": "journal",
+          "description": "High-quality medical research and review.",
+          "link": "https://jamanetwork.com/"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Accessible health explainers.",
+      "items": [
+        {
+          "name": "Osmosis",
+          "kind": "channel",
+          "description": "Medical explainers and education.",
+          "link": "https://www.youtube.com/@osmosis"
+        },
+        {
+          "name": "Khan Academy Medicine",
+          "kind": "channel",
+          "description": "Foundational health explainers.",
+          "link": "https://www.khanacademy.org/science/health-and-medicine"
+        },
+        {
+          "name": "TED Health talks",
+          "kind": "channel",
+          "description": "Public talks on medicine and wellbeing.",
+          "link": "https://www.ted.com/topics/health"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "New health-tech and care models.",
+      "items": [
+        {
+          "name": "AI diagnostics",
+          "kind": "tool",
+          "description": "Software is helping with screening and triage."
+        },
+        {
+          "name": "Wearables",
+          "kind": "tool",
+          "description": "Continuous monitoring is changing prevention."
+        },
+        {
+          "name": "Telehealth",
+          "kind": "tool",
+          "description": "Remote care is becoming standard.",
+          "link": "https://www.healthdirect.gov.au/"
+        }
+      ]
+    }
+  ]
+}

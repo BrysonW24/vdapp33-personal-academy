@@ -1,0 +1,36 @@
+{
+  "slug": "typography-mental-models",
+  "title": "Typography Mental Models",
+  "shortSummary": "Learn the compact mental models that make Typography easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Typography matters because it helps you reason about books, interfaces, brands, publishing, advertising, and information design.",
+  "coreConcepts": [
+    "hierarchy",
+    "rhythm",
+    "spacing",
+    "contrast",
+    "type families",
+    "readability"
+  ],
+  "mentalModels": [
+    "type as voice",
+    "hierarchy before decoration",
+    "spacing creates tone"
+  ],
+  "lessons": [
+    "typography-thinking"
+  ],
+  "frameworks": [
+    "typography-systems-map"
+  ],
+  "relatedModules": [
+    "typography-frameworks",
+    "typography-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

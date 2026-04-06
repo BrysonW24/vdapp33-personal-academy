@@ -1,0 +1,36 @@
+{
+  "slug": "design-mental-models",
+  "title": "Design Mental Models",
+  "shortSummary": "Learn the compact mental models that make Design easier to remember and use.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "category": "mental-models",
+  "whyItMatters": "Design matters because it helps you reason about interfaces, products, brands, services, spaces, and communication.",
+  "coreConcepts": [
+    "hierarchy",
+    "constraints",
+    "composition",
+    "usability",
+    "iteration",
+    "meaning"
+  ],
+  "mentalModels": [
+    "form follows intent",
+    "design under constraints",
+    "feedback-driven iteration"
+  ],
+  "lessons": [
+    "design-thinking"
+  ],
+  "frameworks": [
+    "design-systems-map"
+  ],
+  "relatedModules": [
+    "design-frameworks",
+    "design-systems-and-processes"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2,
+  "visualType": "cards"
+}

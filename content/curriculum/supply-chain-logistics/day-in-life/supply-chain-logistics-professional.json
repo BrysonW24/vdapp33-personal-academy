@@ -1,0 +1,80 @@
+{
+  "slug": "supply-chain-logistics-professional",
+  "title": "A Day as a Supply Chain Planner",
+  "setting": "An operations team balancing demand, inventory, supplier risk, and delivery performance.",
+  "companySize": "Mid-sized to large organization with cross-functional coordination and measurable delivery pressure.",
+  "description": "You work as a supply chain planner using Supply Chain & Logistics to notice patterns, frame decisions, and improve outcomes under real constraints.",
+  "salary": "$100,000 - $150,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review the current system state and pending priorities",
+      "tools": [
+        "SAP IBP",
+        "Oracle WMS"
+      ]
+    },
+    {
+      "time": "09:30",
+      "activity": "Team check-in on risks, decisions, and dependencies",
+      "tools": [
+        "SAP IBP"
+      ]
+    },
+    {
+      "time": "11:00",
+      "activity": "Deep work on a live supply network or operational bottleneck",
+      "tools": [
+        "SAP IBP",
+        "Oracle WMS",
+        "Power BI"
+      ]
+    },
+    {
+      "time": "13:00",
+      "activity": "Stakeholder or operator discussion",
+      "tools": [
+        "SAP IBP"
+      ],
+      "note": "The useful work usually sits where models meet people and constraints."
+    },
+    {
+      "time": "15:00",
+      "activity": "Analysis, documentation, or design iteration",
+      "tools": [
+        "SAP IBP",
+        "Oracle WMS"
+      ]
+    },
+    {
+      "time": "17:00",
+      "activity": "Close out notes, decisions, and the next day’s handoff",
+      "tools": [
+        "SAP IBP"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Use Supply Chain & Logistics to frame real problems instead of reacting at surface level.",
+    "Translate complexity into clearer choices for other people.",
+    "Balance quality, speed, cost, and institutional constraints.",
+    "Document decisions well enough that others can build on them."
+  ],
+  "challenges": [
+    "The field rarely arrives as a clean textbook version of Supply Chain & Logistics.",
+    "Time pressure, incomplete information, and competing priorities distort judgment.",
+    "Good work is often invisible when systems are stable and only obvious when they fail."
+  ],
+  "rewards": [
+    "You get to make Supply Chain & Logistics feel real, usable, and consequential.",
+    "The work improves your judgment far beyond the field itself.",
+    "You become the kind of person who can simplify complexity without flattening it."
+  ],
+  "careerPath": [
+    "Graduate / junior supply chain planner",
+    "Mid-level supply chain planner",
+    "Senior supply chain planner",
+    "Lead / principal role",
+    "Head of function or specialist advisor"
+  ]
+}

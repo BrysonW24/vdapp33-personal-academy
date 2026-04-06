@@ -1,0 +1,12 @@
+{
+  "slug": "modern-history",
+  "name": "Modern History",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "Clock",
+  "color": "#B45309",
+  "tagline": "The recent centuries that shaped industry, empire, war, democracy, and the modern world.",
+  "tier": "flagship",
+  "hasNews": true,
+  "order": 15
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "geopolitics-applications",
+  "title": "Geopolitics Applications",
+  "shortSummary": "Trace where Geopolitics shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Geopolitics matters because it helps you reason about foreign policy, defense, trade, energy, technology, and strategic planning.",
+  "coreConcepts": [
+    "power",
+    "geography",
+    "alliances",
+    "resources",
+    "strategy",
+    "deterrence"
+  ],
+  "mentalModels": [
+    "balance of power",
+    "chokepoint logic",
+    "systems rivalry"
+  ],
+  "lessons": [
+    "geopolitics-where-it-shows-up"
+  ],
+  "frameworks": [
+    "geopolitics-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-geopolitics",
+    "what-geopolitics-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

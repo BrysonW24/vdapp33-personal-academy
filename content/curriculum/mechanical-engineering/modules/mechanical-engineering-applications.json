@@ -1,0 +1,36 @@
+{
+  "slug": "mechanical-engineering-applications",
+  "title": "Mechanical Engineering Applications",
+  "shortSummary": "Trace where Mechanical Engineering shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Mechanical Engineering matters because it helps you reason about vehicles, industrial equipment, robotics, energy systems, and product hardware.",
+  "coreConcepts": [
+    "forces",
+    "motion",
+    "thermodynamics",
+    "materials",
+    "manufacturing",
+    "maintenance"
+  ],
+  "mentalModels": [
+    "load and failure thinking",
+    "energy conversion",
+    "design for manufacture"
+  ],
+  "lessons": [
+    "mechanical-engineering-where-it-shows-up"
+  ],
+  "frameworks": [
+    "mechanical-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-mechanical-engineering",
+    "what-mechanical-engineering-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

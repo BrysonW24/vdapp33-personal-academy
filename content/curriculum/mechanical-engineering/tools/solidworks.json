@@ -1,0 +1,23 @@
+{
+  "slug": "solidworks",
+  "name": "SolidWorks",
+  "category": "cad",
+  "description": "SolidWorks is a useful cad surface inside Mechanical Engineering.",
+  "whyUseIt": "People in Mechanical Engineering use SolidWorks to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.solidworks.com/",
+  "alternatives": [
+    "Ansys",
+    "Fusion 360"
+  ],
+  "outputs": [
+    "Mechanical Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SolidWorks as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SolidWorks."
+  ],
+  "relatedProject": "map-a-mechanical-engineering-system"
+}

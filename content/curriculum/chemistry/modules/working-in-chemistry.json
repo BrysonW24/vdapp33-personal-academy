@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-chemistry",
+  "title": "Working in Chemistry",
+  "shortSummary": "Understand what people in Chemistry actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Chemistry matters because it helps you reason about materials, medicine, manufacturing, energy storage, and life processes.",
+  "coreConcepts": [
+    "atomic structure",
+    "bonding",
+    "thermodynamics",
+    "kinetics",
+    "equilibrium",
+    "analysis"
+  ],
+  "mentalModels": [
+    "structure-property relationships",
+    "reaction pathways",
+    "equilibrium tradeoffs"
+  ],
+  "lessons": [
+    "chemistry-career-reality"
+  ],
+  "frameworks": [
+    "chemistry-systems-map"
+  ],
+  "relatedModules": [
+    "what-chemistry-is",
+    "chemistry-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

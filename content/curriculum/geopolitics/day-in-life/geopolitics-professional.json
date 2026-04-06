@@ -1,0 +1,80 @@
+{
+  "slug": "geopolitics-professional",
+  "title": "A Day as a Geopolitical Analyst",
+  "setting": "A policy, intelligence, or risk team tracking states, resources, and conflict patterns.",
+  "companySize": "Mid-sized to large organization with cross-functional coordination and measurable delivery pressure.",
+  "description": "You work as a geopolitical analyst using Geopolitics to notice patterns, frame decisions, and improve outcomes under real constraints.",
+  "salary": "$110,000 - $170,000 AUD",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review the current system state and pending priorities",
+      "tools": [
+        "Our World in Data",
+        "ACLED"
+      ]
+    },
+    {
+      "time": "09:30",
+      "activity": "Team check-in on risks, decisions, and dependencies",
+      "tools": [
+        "Our World in Data"
+      ]
+    },
+    {
+      "time": "11:00",
+      "activity": "Deep work on a live strategic issue or regional conflict",
+      "tools": [
+        "Our World in Data",
+        "ACLED",
+        "Satellite Imagery Platforms"
+      ]
+    },
+    {
+      "time": "13:00",
+      "activity": "Stakeholder or operator discussion",
+      "tools": [
+        "Our World in Data"
+      ],
+      "note": "The useful work usually sits where models meet people and constraints."
+    },
+    {
+      "time": "15:00",
+      "activity": "Analysis, documentation, or design iteration",
+      "tools": [
+        "Our World in Data",
+        "ACLED"
+      ]
+    },
+    {
+      "time": "17:00",
+      "activity": "Close out notes, decisions, and the next day’s handoff",
+      "tools": [
+        "Our World in Data"
+      ]
+    }
+  ],
+  "responsibilities": [
+    "Use Geopolitics to frame real problems instead of reacting at surface level.",
+    "Translate complexity into clearer choices for other people.",
+    "Balance quality, speed, cost, and institutional constraints.",
+    "Document decisions well enough that others can build on them."
+  ],
+  "challenges": [
+    "The field rarely arrives as a clean textbook version of Geopolitics.",
+    "Time pressure, incomplete information, and competing priorities distort judgment.",
+    "Good work is often invisible when systems are stable and only obvious when they fail."
+  ],
+  "rewards": [
+    "You get to make Geopolitics feel real, usable, and consequential.",
+    "The work improves your judgment far beyond the field itself.",
+    "You become the kind of person who can simplify complexity without flattening it."
+  ],
+  "careerPath": [
+    "Graduate / junior geopolitical analyst",
+    "Mid-level geopolitical analyst",
+    "Senior geopolitical analyst",
+    "Lead / principal role",
+    "Head of function or specialist advisor"
+  ]
+}

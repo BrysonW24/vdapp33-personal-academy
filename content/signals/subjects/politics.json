@@ -18,7 +18,7 @@
           "name": "Domestic politics and geopolitics are bleeding into one another",
           "summary": "Trade, energy, migration, defence, and supply chains increasingly shape internal political argument.",
           "whyItMatters": "The line between national policy and international strategy is thinner than it used to be.",
-          "entities": ["geopolitics", "energy", "supply-chain-logistics"]
+          "entities": ["geopolitics", "energy-systems", "supply-chain-logistics"]
         },
         {
           "name": "Political communication is now platform-mediated",
@@ -120,7 +120,7 @@
           "name": "Can democracies stay strategic under long-term pressure?",
           "summary": "Security, climate, industry, and fiscal pressure all demand longer-term political coordination than many systems reward.",
           "whyItMatters": "This is really a debate about whether modern democratic politics can still handle sustained strategic problems.",
-          "entities": ["geopolitics", "energy", "public-administration"]
+          "entities": ["geopolitics", "energy-systems", "public-administration"]
         }
       ]
     }

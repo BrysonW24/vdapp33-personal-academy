@@ -1,0 +1,23 @@
+{
+  "slug": "satnogs",
+  "name": "SatNOGS",
+  "category": "ground-network",
+  "description": "SatNOGS is a useful ground network surface inside Space Infrastructure.",
+  "whyUseIt": "People in Space Infrastructure use SatNOGS to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://satnogs.org/",
+  "alternatives": [
+    "Systems Tool Kit",
+    "GMAT"
+  ],
+  "outputs": [
+    "Space Infrastructure working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SatNOGS as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SatNOGS."
+  ],
+  "relatedProject": "map-a-space-infrastructure-system"
+}

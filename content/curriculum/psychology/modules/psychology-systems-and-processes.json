@@ -1,0 +1,36 @@
+{
+  "slug": "psychology-systems-and-processes",
+  "title": "Psychology Systems and Processes",
+  "shortSummary": "See how Psychology moves from trigger to mechanism to real-world outcome.",
+  "level": "intermediate",
+  "teachingStage": "processes",
+  "category": "processes",
+  "whyItMatters": "Psychology matters because it helps you reason about mental health, education, workplaces, research, design, and behavior change.",
+  "coreConcepts": [
+    "cognition",
+    "development",
+    "emotion",
+    "personality",
+    "learning",
+    "research methods"
+  ],
+  "mentalModels": [
+    "behavior in context",
+    "bias and heuristics",
+    "development across time"
+  ],
+  "lessons": [
+    "psychology-systems-in-the-world"
+  ],
+  "frameworks": [
+    "psychology-systems-map"
+  ],
+  "relatedModules": [
+    "psychology-applications",
+    "working-in-psychology"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4,
+  "visualType": "flow-diagram"
+}

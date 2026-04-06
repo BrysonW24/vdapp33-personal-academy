@@ -1,0 +1,23 @@
+{
+  "slug": "power-bi",
+  "name": "Power BI",
+  "category": "reporting",
+  "description": "Power BI is a useful reporting surface inside Supply Chain & Logistics.",
+  "whyUseIt": "People in Supply Chain & Logistics use Power BI to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.microsoft.com/power-platform/products/power-bi",
+  "alternatives": [
+    "SAP IBP",
+    "Oracle WMS"
+  ],
+  "outputs": [
+    "Supply Chain & Logistics working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Power BI as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Power BI."
+  ],
+  "relatedProject": "map-a-supply-chain-logistics-system"
+}

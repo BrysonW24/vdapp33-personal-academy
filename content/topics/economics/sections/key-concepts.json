@@ -1,0 +1,20 @@
+{
+  "slug": "key-concepts",
+  "title": "Core Concepts in Economics",
+  "body": "At the centre of economics are supply and demand, elasticity, comparative advantage, opportunity cost, and the idea that incentives matter. These concepts help explain why markets behave the way they do and why policy interventions often produce unexpected results.\n\nMacroeconomics adds the larger system: inflation, unemployment, interest rates, GDP, productivity, and fiscal and monetary policy. Those variables shape the macro environment that businesses and households operate inside.\n\nBehavioural economics complicates the neat model by showing how people really make decisions: they use shortcuts, anchor on defaults, avoid loss, and care about fairness as well as money.\n\nThose deviations are not edge cases; they are part of the system economics must explain.",
+  "keyPoints": [
+    "Supply and demand",
+    "Elasticity",
+    "Opportunity cost",
+    "Comparative advantage",
+    "Inflation and unemployment",
+    "Productivity",
+    "Fiscal policy",
+    "Monetary policy"
+  ],
+  "furtherReading": [
+    "Principles of Economics by Gregory Mankiw",
+    "Freakonomics by Steven Levitt and Stephen Dubner",
+    "Naked Economics by Charles Wheelan"
+  ]
+}

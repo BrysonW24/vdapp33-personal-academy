@@ -1,5 +1,16 @@
 {
-  "relatedSubjects": ["quantum", "robotics", "physics"],
-  "relatedTopics": ["consciousness", "philosophy", "investing"],
-  "relatedRoles": ["ai-researcher", "robotics-engineer"]
+  "relatedSubjects": [
+    "quantum-science",
+    "robotics",
+    "physics"
+  ],
+  "relatedTopics": [
+    "consciousness",
+    "philosophy",
+    "investing"
+  ],
+  "relatedRoles": [
+    "ai-researcher",
+    "robotics-engineer"
+  ]
 }

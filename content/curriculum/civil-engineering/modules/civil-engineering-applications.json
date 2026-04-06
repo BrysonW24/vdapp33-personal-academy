@@ -1,0 +1,36 @@
+{
+  "slug": "civil-engineering-applications",
+  "title": "Civil Engineering Applications",
+  "shortSummary": "Trace where Civil Engineering shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Civil Engineering matters because it helps you reason about roads, bridges, buildings, drainage, water systems, and urban development.",
+  "coreConcepts": [
+    "loads",
+    "materials",
+    "site conditions",
+    "hydrology",
+    "standards",
+    "delivery"
+  ],
+  "mentalModels": [
+    "load path thinking",
+    "lifecycle infrastructure planning",
+    "safety margin judgment"
+  ],
+  "lessons": [
+    "civil-engineering-where-it-shows-up"
+  ],
+  "frameworks": [
+    "civil-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-civil-engineering",
+    "what-civil-engineering-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

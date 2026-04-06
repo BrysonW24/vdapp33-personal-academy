@@ -1,0 +1,25 @@
+{
+  "slug": "economics",
+  "title": "Economics",
+  "whatItIs": "Economics is the study of how scarce resources are allocated when people, firms, and governments make choices under constraints. It examines production, consumption, trade, labour, money, prices, inflation, growth, and the institutions that shape them.\n\nAt its best, economics does not reduce human life to equations. It uses models to clarify trade-offs, predict incentives, and test how real systems behave when policies or shocks change the rules of the game.\n\nMicroeconomics studies households, firms, and markets; macroeconomics studies the broad economy, including output, unemployment, inflation, interest rates, and fiscal and monetary policy. Public economics, behavioural economics, development economics, and industrial organisation extend the field into more specific domains.",
+  "whyItMatters": "Economics matters because almost every public debate is partly an economic one, even when it is framed as moral or political. Housing, wages, taxes, healthcare, education, energy, and climate policy all have economic structure underneath them.\n\nIt also matters because economic literacy helps people understand how incentives work. People do not merely respond to values; they respond to prices, constraints, and the expected consequences of action.\n\nWhen economies grow well, living standards, employment, and public revenue improve. When they stagnate or misallocate capital, the costs show up in inequality, insecurity, and institutional distrust.",
+  "keyIdeas": [
+    "Scarcity and trade-offs are the starting point of economics",
+    "Incentives shape behaviour more powerfully than slogans do",
+    "Markets coordinate decentralised decisions through prices",
+    "Inflation and unemployment are central macroeconomic variables",
+    "Fiscal policy and monetary policy influence the economy in different ways",
+    "Economic growth depends on productivity, capital, labour, and innovation",
+    "Distribution matters as much as output",
+    "Institutions determine whether markets remain fair, stable, and productive"
+  ],
+  "frontier": "The frontier in economics now includes behavioural economics, climate economics, platform economics, and the study of AI-driven productivity. Economists are asking how automation changes labour markets, how digital platforms reshape competition, and how public policy can respond without becoming stale or rigid.\n\nThere is also a growing frontier around inequality, housing affordability, industrial policy, and the economics of adaptation in a climate-constrained world. These topics are no longer specialised side issues; they sit at the centre of national strategy.\n\nAt the same time, macroeconomics is still wrestling with familiar but unresolved questions: why productivity growth is uneven, how inflation expectations form, and what combination of policy tools best stabilises modern economies.",
+  "openQuestions": [
+    "When do markets allocate well, and when do they fail systematically?",
+    "How much inequality can an economy absorb before it weakens growth and trust?",
+    "What really drives productivity growth in advanced economies?",
+    "Can climate policy and economic growth be reconciled at scale?",
+    "How will AI change labour demand and wage structures?",
+    "What is the right balance between market freedom and regulation?"
+  ]
+}

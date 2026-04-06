@@ -1,0 +1,23 @@
+{
+  "slug": "our-world-in-data",
+  "name": "Our World in Data",
+  "category": "data",
+  "description": "Our World in Data is a useful data surface inside Geopolitics.",
+  "whyUseIt": "People in Geopolitics use Our World in Data to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://ourworldindata.org/",
+  "alternatives": [
+    "ACLED",
+    "Satellite Imagery Platforms"
+  ],
+  "outputs": [
+    "Geopolitics working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Our World in Data as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Our World in Data."
+  ],
+  "relatedProject": "map-a-geopolitics-system"
+}

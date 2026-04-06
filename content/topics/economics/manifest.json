@@ -1,0 +1,12 @@
+{
+  "slug": "economics",
+  "name": "Economics",
+  "kind": "topic",
+  "group": "markets",
+  "icon": "LineChart",
+  "color": "#10B981",
+  "tagline": "How scarcity, incentives, trade, and institutions shape choices in markets and society.",
+  "tier": "flagship",
+  "hasNews": true,
+  "order": 14
+}

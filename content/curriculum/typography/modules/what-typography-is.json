@@ -1,0 +1,36 @@
+{
+  "slug": "what-typography-is",
+  "title": "What Typography Is",
+  "shortSummary": "Get oriented to Typography: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Typography matters because it helps you reason about books, interfaces, brands, publishing, advertising, and information design.",
+  "coreConcepts": [
+    "hierarchy",
+    "rhythm",
+    "spacing",
+    "contrast",
+    "type families",
+    "readability"
+  ],
+  "mentalModels": [
+    "type as voice",
+    "hierarchy before decoration",
+    "spacing creates tone"
+  ],
+  "lessons": [
+    "what-is-typography"
+  ],
+  "frameworks": [
+    "typography-systems-map"
+  ],
+  "relatedModules": [
+    "typography-mental-models",
+    "typography-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

@@ -89,11 +89,11 @@ export function HeroScene({
   return (
     <div
       className={cn(
-        "academy-hero-shell relative aspect-square w-full max-w-[460px] overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.08)] bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.95),_rgba(250,245,235,0.86)_55%,_rgba(236,228,214,0.9))] p-4 shadow-editorial",
+        "academy-hero-shell relative aspect-square w-full max-w-[460px] overflow-hidden rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.95),_rgba(250,245,235,0.86)_55%,_rgba(236,228,214,0.9))] p-3 shadow-editorial sm:rounded-[32px] sm:p-4",
         className
       )}
     >
-      <div className="academy-hero-grid absolute inset-0 rounded-[32px]" />
+      <div className="academy-hero-grid absolute inset-0 rounded-[28px] sm:rounded-[32px]" />
       <svg
         viewBox="0 0 440 440"
         className="relative z-[1] h-full w-full"

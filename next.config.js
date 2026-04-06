@@ -8,6 +8,28 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  redirects: async () => [
+    {
+      source: '/quantum',
+      destination: '/quantum-science',
+      permanent: true,
+    },
+    {
+      source: '/quantum/:path*',
+      destination: '/quantum-science/:path*',
+      permanent: true,
+    },
+    {
+      source: '/topics/energy',
+      destination: '/energy-systems',
+      permanent: true,
+    },
+    {
+      source: '/topics/energy/:path*',
+      destination: '/energy-systems/:path*',
+      permanent: true,
+    },
+  ],
   headers: async () => [
     {
       source: '/:path*',

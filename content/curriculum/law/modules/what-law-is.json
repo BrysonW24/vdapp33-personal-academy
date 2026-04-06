@@ -1,0 +1,36 @@
+{
+  "slug": "what-law-is",
+  "title": "What Law Is",
+  "shortSummary": "Get oriented to Law: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Law matters because it helps you reason about courts, contracts, regulation, public administration, business, and civil rights.",
+  "coreConcepts": [
+    "statutes",
+    "precedent",
+    "interpretation",
+    "procedure",
+    "evidence",
+    "enforcement"
+  ],
+  "mentalModels": [
+    "text-context-purpose interpretation",
+    "rights vs powers",
+    "procedure as risk control"
+  ],
+  "lessons": [
+    "what-is-law"
+  ],
+  "frameworks": [
+    "law-systems-map"
+  ],
+  "relatedModules": [
+    "law-mental-models",
+    "law-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

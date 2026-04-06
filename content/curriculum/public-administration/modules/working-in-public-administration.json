@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-public-administration",
+  "title": "Working in Public Administration",
+  "shortSummary": "Understand what people in Public Administration actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Public Administration matters because it helps you reason about departments, agencies, local government, regulation, and implementation.",
+  "coreConcepts": [
+    "administration",
+    "budgets",
+    "delivery",
+    "accountability",
+    "coordination",
+    "public value"
+  ],
+  "mentalModels": [
+    "policy-to-delivery chain",
+    "administrative capacity",
+    "mandate vs implementation gap"
+  ],
+  "lessons": [
+    "public-administration-career-reality"
+  ],
+  "frameworks": [
+    "public-administration-systems-map"
+  ],
+  "relatedModules": [
+    "what-public-administration-is",
+    "public-administration-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

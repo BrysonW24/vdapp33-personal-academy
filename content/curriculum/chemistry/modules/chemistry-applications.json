@@ -1,0 +1,36 @@
+{
+  "slug": "chemistry-applications",
+  "title": "Chemistry Applications",
+  "shortSummary": "Trace where Chemistry shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Chemistry matters because it helps you reason about materials, medicine, manufacturing, energy storage, and life processes.",
+  "coreConcepts": [
+    "atomic structure",
+    "bonding",
+    "thermodynamics",
+    "kinetics",
+    "equilibrium",
+    "analysis"
+  ],
+  "mentalModels": [
+    "structure-property relationships",
+    "reaction pathways",
+    "equilibrium tradeoffs"
+  ],
+  "lessons": [
+    "chemistry-where-it-shows-up"
+  ],
+  "frameworks": [
+    "chemistry-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-chemistry",
+    "what-chemistry-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

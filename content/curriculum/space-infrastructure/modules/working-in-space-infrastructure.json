@@ -1,0 +1,36 @@
+{
+  "slug": "working-in-space-infrastructure",
+  "title": "Working in Space Infrastructure",
+  "shortSummary": "Understand what people in Space Infrastructure actually do and what the work exposes them to.",
+  "level": "advanced",
+  "teachingStage": "careers",
+  "category": "careers",
+  "whyItMatters": "Space Infrastructure matters because it helps you reason about communications, earth observation, defense, navigation, and launch operations.",
+  "coreConcepts": [
+    "launch systems",
+    "satellites",
+    "ground stations",
+    "orbital operations",
+    "communications",
+    "resilience"
+  ],
+  "mentalModels": [
+    "space stack thinking",
+    "mission lifecycle planning",
+    "ground-to-orbit integration"
+  ],
+  "lessons": [
+    "space-infrastructure-career-reality"
+  ],
+  "frameworks": [
+    "space-infrastructure-systems-map"
+  ],
+  "relatedModules": [
+    "what-space-infrastructure-is",
+    "space-infrastructure-mental-models"
+  ],
+  "status": "complete",
+  "order": 6,
+  "levelNumber": 6,
+  "visualType": "cards"
+}

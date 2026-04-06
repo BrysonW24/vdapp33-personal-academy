@@ -1,0 +1,201 @@
+{
+  "slug": "self-knowledge",
+  "kind": "topic",
+  "title": "Self-Knowledge Truth Stack",
+  "summary": "Self-knowledge is best grounded in psychology, careful reflection, and habits that surface real behavioural patterns.",
+  "starterPack": [
+    "Start with observation, journaling, and feedback before personality labels.",
+    "Use evidence from behaviour, not just self-description.",
+    "Treat self-awareness as a practice rather than a trait."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "What self-knowledge depends on.",
+      "items": [
+        {
+          "name": "Behaviour reveals pattern",
+          "kind": "principle",
+          "description": "Repeated action is more honest than self-story."
+        },
+        {
+          "name": "Feedback is a mirror",
+          "kind": "principle",
+          "description": "Other people see what you cannot."
+        },
+        {
+          "name": "Values show up in trade-offs",
+          "kind": "principle",
+          "description": "What you choose reveals what matters to you."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Research and evidence about mind and habit.",
+      "items": [
+        {
+          "name": "APA",
+          "kind": "institution",
+          "description": "Psychology research and standards.",
+          "link": "https://www.apa.org/"
+        },
+        {
+          "name": "Mindfulness research centres",
+          "kind": "institution",
+          "description": "Study attention and awareness.",
+          "link": "https://centerhealthyminds.org/"
+        },
+        {
+          "name": "Personality science literature",
+          "kind": "journal",
+          "description": "Research on traits and behaviour.",
+          "link": "https://www.sciencedirect.com/journal/journal-of-research-in-personality"
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Thinkers who make self-understanding usable.",
+      "items": [
+        {
+          "name": "James Clear",
+          "kind": "person",
+          "description": "Habit design and behaviour change.",
+          "link": "https://jamesclear.com/"
+        },
+        {
+          "name": "Daniel Kahneman",
+          "kind": "person",
+          "description": "Attention and decision-making.",
+          "link": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/"
+        },
+        {
+          "name": "Stephen Grosz",
+          "kind": "person",
+          "description": "Careful clinical observation of human behaviour.",
+          "link": "https://stephengrosz.com/"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People who work with self-understanding.",
+      "items": [
+        {
+          "name": "Therapists",
+          "kind": "person",
+          "description": "Help people recognise and change patterns."
+        },
+        {
+          "name": "Coaches",
+          "kind": "person",
+          "description": "Support reflection and behaviour change."
+        },
+        {
+          "name": "Meditation teachers",
+          "kind": "person",
+          "description": "Train attention and awareness."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Where self-knowledge becomes structured.",
+      "items": [
+        {
+          "name": "Psychology clinics",
+          "kind": "institution",
+          "description": "Structured help for self-understanding."
+        },
+        {
+          "name": "Mindfulness centres",
+          "kind": "institution",
+          "description": "Practice awareness and attention."
+        },
+        {
+          "name": "Counselling organisations",
+          "kind": "institution",
+          "description": "Training and support for personal change."
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public thinking about self and habit.",
+      "items": [
+        {
+          "name": "Psychology Today",
+          "kind": "publication",
+          "description": "Accessible psychology writing.",
+          "link": "https://www.psychologytoday.com/"
+        },
+        {
+          "name": "Greater Good Magazine",
+          "kind": "publication",
+          "description": "Evidence-based wellbeing writing.",
+          "link": "https://greatergood.berkeley.edu/"
+        },
+        {
+          "name": "Aeon",
+          "kind": "publication",
+          "description": "Long-form reflections on mind and meaning.",
+          "link": "https://aeon.co/"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video sources for self-understanding.",
+      "items": [
+        {
+          "name": "TED Talks",
+          "kind": "channel",
+          "description": "Broad talks on behaviour and identity.",
+          "link": "https://www.ted.com/"
+        },
+        {
+          "name": "The School of Life",
+          "kind": "channel",
+          "description": "Popular reflections on self and relationships.",
+          "link": "https://www.youtube.com/@theschooloflife"
+        },
+        {
+          "name": "Huberman Lab",
+          "kind": "channel",
+          "description": "Attention and behaviour discussion.",
+          "link": "https://www.youtube.com/@hubermanlab"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "What is changing in self-knowledge.",
+      "items": [
+        {
+          "name": "Wearable feedback",
+          "kind": "tool",
+          "description": "Sensors make inner state more visible."
+        },
+        {
+          "name": "Journaling apps",
+          "kind": "tool",
+          "description": "Structured reflection is becoming software-driven."
+        },
+        {
+          "name": "Behavioural analytics",
+          "kind": "dataset",
+          "description": "Patterns can now be surfaced from routine data."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "pvsyst",
+  "name": "PVsyst",
+  "category": "simulation",
+  "description": "PVsyst is a useful simulation surface inside Energy Systems.",
+  "whyUseIt": "People in Energy Systems use PVsyst to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.pvsyst.com/",
+  "alternatives": [
+    "PLEXOS",
+    "OpenMOD"
+  ],
+  "outputs": [
+    "Energy Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using PVsyst as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from PVsyst."
+  ],
+  "relatedProject": "map-a-energy-systems-system"
+}

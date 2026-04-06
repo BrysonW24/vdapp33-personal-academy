@@ -1,0 +1,61 @@
+{
+  "slug": "map-a-agriculture-food-systems-system",
+  "title": "Map a Agriculture & Food Systems system",
+  "difficulty": 3,
+  "estimatedHours": 6,
+  "description": "Choose one real food system or agricultural resilience problem and explain it using the field's core models, tradeoffs, and operator reality.",
+  "whyItMatters": "This project forces Agriculture & Food Systems to become operational rather than remaining purely conceptual.",
+  "skillsLearned": [
+    "Applied Agriculture & Food Systems reasoning",
+    "Tradeoff analysis",
+    "Structured explanation",
+    "Case mapping"
+  ],
+  "prerequisites": [
+    "What Agriculture & Food Systems Is",
+    "Agriculture & Food Systems Mental Models"
+  ],
+  "steps": [
+    {
+      "title": "Choose a live case",
+      "description": "Select a concrete food system or agricultural resilience problem with visible constraints and decisions."
+    },
+    {
+      "title": "Map the system",
+      "description": "Use Agriculture & Food Systems Systems Map to capture the main units, flows, and constraints."
+    },
+    {
+      "title": "Analyze the tradeoffs",
+      "description": "Use Agriculture & Food Systems Tradeoff Lens to compare the main options or tensions."
+    },
+    {
+      "title": "Write the brief",
+      "description": "Summarize what is happening, why it matters, and what a better decision would look like."
+    }
+  ],
+  "deliverables": [
+    "A one-page system map",
+    "A short decision brief",
+    "A list of key tradeoffs and uncertainties"
+  ],
+  "tools": [
+    "QGIS",
+    "Climate Data Portals",
+    "Farm Management Software"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The system and its boundaries are clearly explained."
+    },
+    {
+      "criteria": "Tradeoffs",
+      "description": "The key tensions are real, specific, and well compared."
+    },
+    {
+      "criteria": "Practicality",
+      "description": "The analysis stays grounded in real constraints and operators."
+    }
+  ],
+  "domain": "Agriculture & Food Systems"
+}

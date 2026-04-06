@@ -1,0 +1,201 @@
+{
+  "slug": "ancient-history",
+  "kind": "topic",
+  "title": "Ancient History Truth Stack",
+  "summary": "Ancient history is best grounded in primary evidence, archaeology, and the scholars who can handle fragmentary records without overclaiming.",
+  "starterPack": [
+    "Start with primary sources and the archaeological record.",
+    "Use museums and academic history over simplified empire stories.",
+    "Treat every reconstruction as provisional when the evidence is thin."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "How the ancient record is built.",
+      "items": [
+        {
+          "name": "Fragmentary evidence",
+          "kind": "principle",
+          "description": "The record survives in pieces."
+        },
+        {
+          "name": "Chronology",
+          "kind": "principle",
+          "description": "Sequence matters for interpretation."
+        },
+        {
+          "name": "Material culture",
+          "kind": "principle",
+          "description": "Objects and ruins carry evidence."
+        }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "Core archives, collections, and scholarly bases.",
+      "items": [
+        {
+          "name": "British Museum",
+          "kind": "institution",
+          "description": "Major ancient collections and research.",
+          "link": "https://www.britishmuseum.org/"
+        },
+        {
+          "name": "The Met collection",
+          "kind": "institution",
+          "description": "Ancient art and artefact resources.",
+          "link": "https://www.metmuseum.org/"
+        },
+        {
+          "name": "Oxford Classical Dictionary",
+          "kind": "publication",
+          "description": "Reference work for ancient world study.",
+          "link": "https://academic.oup.com/edited-volume/28075"
+        }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Historians and archaeologists with strong public writing.",
+      "items": [
+        {
+          "name": "Mary Beard",
+          "kind": "person",
+          "description": "Highly readable Roman historian.",
+          "link": "https://www.marybeard.org/"
+        },
+        {
+          "name": "Peter Frankopan",
+          "kind": "person",
+          "description": "Broad comparative ancient and global historian.",
+          "link": "https://www.peterfrankopan.com/"
+        },
+        {
+          "name": "David Wengrow",
+          "kind": "person",
+          "description": "Co-author on early civilisation and social complexity.",
+          "link": "https://www.ucl.ac.uk/anthropology/people/david-wengrow"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "People who work with ancient evidence.",
+      "items": [
+        {
+          "name": "Archaeologists",
+          "kind": "person",
+          "description": "Excavate and interpret sites."
+        },
+        {
+          "name": "Epigraphers",
+          "kind": "person",
+          "description": "Read inscriptions and texts."
+        },
+        {
+          "name": "Conservators",
+          "kind": "person",
+          "description": "Preserve fragile artefacts."
+        }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "Where ancient history is preserved.",
+      "items": [
+        {
+          "name": "Museums",
+          "kind": "institution",
+          "description": "Hold and interpret ancient artefacts."
+        },
+        {
+          "name": "Universities",
+          "kind": "institution",
+          "description": "Train scholars and publish research."
+        },
+        {
+          "name": "Archaeological institutes",
+          "kind": "institution",
+          "description": "Support excavation and study."
+        }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Public-facing ancient history sources.",
+      "items": [
+        {
+          "name": "BBC History",
+          "kind": "publication",
+          "description": "Accessible ancient-history coverage.",
+          "link": "https://www.bbc.com/history"
+        },
+        {
+          "name": "World History Encyclopedia",
+          "kind": "publication",
+          "description": "Popular and broad reference site.",
+          "link": "https://www.worldhistory.org/"
+        },
+        {
+          "name": "The Conversation history",
+          "kind": "publication",
+          "description": "Academic public writing.",
+          "link": "https://theconversation.com/"
+        }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Visual ancient-history explainers.",
+      "items": [
+        {
+          "name": "CrashCourse Ancient Mediterranean",
+          "kind": "channel",
+          "description": "Accessible ancient world coverage.",
+          "link": "https://www.youtube.com/@crashcourse"
+        },
+        {
+          "name": "BBC documentaries",
+          "kind": "channel",
+          "description": "Serious history programming.",
+          "link": "https://www.bbc.co.uk/"
+        },
+        {
+          "name": "Smithsonian history content",
+          "kind": "channel",
+          "description": "Museum-based explainers.",
+          "link": "https://www.youtube.com/@smithsonianchannel"
+        }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Methods reshaping ancient history.",
+      "items": [
+        {
+          "name": "Ancient DNA",
+          "kind": "tool",
+          "description": "Genetics is changing migration and kinship stories."
+        },
+        {
+          "name": "Satellite archaeology",
+          "kind": "tool",
+          "description": "New site discovery methods expand the record."
+        },
+        {
+          "name": "Digital philology",
+          "kind": "tool",
+          "description": "Imaging and OCR help decode damaged texts."
+        }
+      ]
+    }
+  ]
+}

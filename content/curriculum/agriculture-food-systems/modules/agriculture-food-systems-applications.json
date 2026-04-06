@@ -1,0 +1,36 @@
+{
+  "slug": "agriculture-food-systems-applications",
+  "title": "Agriculture & Food Systems Applications",
+  "shortSummary": "Trace where Agriculture & Food Systems shows up in institutions, systems, and decisions.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "category": "applications",
+  "whyItMatters": "Agriculture & Food Systems matters because it helps you reason about farming, food security, agtech, trade, sustainability, and rural economies.",
+  "coreConcepts": [
+    "soil",
+    "water",
+    "crop systems",
+    "inputs",
+    "supply chains",
+    "food security"
+  ],
+  "mentalModels": [
+    "farm-to-system thinking",
+    "yield vs resilience tradeoffs",
+    "resource constraint planning"
+  ],
+  "lessons": [
+    "agriculture-food-systems-where-it-shows-up"
+  ],
+  "frameworks": [
+    "agriculture-food-systems-systems-map"
+  ],
+  "relatedModules": [
+    "working-in-agriculture-food-systems",
+    "what-agriculture-food-systems-is"
+  ],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5,
+  "visualType": "cards"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "what-civil-engineering-is",
+  "title": "What Civil Engineering Is",
+  "shortSummary": "Get oriented to Civil Engineering: the field, its questions, and why it matters.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "category": "orientation",
+  "whyItMatters": "Civil Engineering matters because it helps you reason about roads, bridges, buildings, drainage, water systems, and urban development.",
+  "coreConcepts": [
+    "loads",
+    "materials",
+    "site conditions",
+    "hydrology",
+    "standards",
+    "delivery"
+  ],
+  "mentalModels": [
+    "load path thinking",
+    "lifecycle infrastructure planning",
+    "safety margin judgment"
+  ],
+  "lessons": [
+    "what-is-civil-engineering"
+  ],
+  "frameworks": [
+    "civil-engineering-systems-map"
+  ],
+  "relatedModules": [
+    "civil-engineering-mental-models",
+    "civil-engineering-frameworks"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1,
+  "visualType": "concept-map"
+}

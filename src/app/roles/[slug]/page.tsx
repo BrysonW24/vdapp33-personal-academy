@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation"
 import { BookOpen, Clock3, FolderKanban, Library, Map, Wrench } from "lucide-react"
-import { EntityStartHere } from "@/components/entities/EntityStartHere"
-import { buildGuideRail } from "@/lib/guide-rail"
+import { RoleAcademyHome } from "@/components/roles/RoleAcademyHome"
 import {
   getRelatedSubjectsForEntity,
   getRole,
@@ -27,34 +26,13 @@ export default async function RolePage({
   const projects = getRoleProjects(slug)
   const tools = getRoleTools(slug)
   const dayInLife = getRoleDayInLifeScenarios(slug)
-  const guideRail = buildGuideRail({
-    entity: { kind: "role", slug, name: role.name },
-    whyThisMatters: `${role.name} is an embodied synthesis track. It shows what the academy's subjects and topics look like when they become judgment, responsibility, and real-world work.`,
-    nextAction: {
-      href: stats.modules > 0 ? `/roles/${slug}/modules` : `/roles/${slug}/blueprint`,
-      label: stats.modules > 0 ? "Follow the role training path" : "Open the role blueprint",
-      description:
-        stats.modules > 0
-          ? "Use the role lens to pull the most relevant subject modules into one practical path."
-          : "This role still has more curation to land, so start with the knowledge stack behind it.",
-    },
-    applyPrompt: `Ask what this role sees that a casual observer misses, and what kinds of tradeoffs or decisions it has to make under pressure.`,
-    debatePrompt: `Which parts of this role are driven by durable principles, and which parts are shaped by industry norms, institutions, or current technology?`,
-    truthPrompt: `When you study a role, distinguish the core discipline, the institutional reality, and the media mythology around it.`,
-  })
 
   return (
-    <EntityStartHere
-      entity={role}
+    <RoleAcademyHome
+      role={role}
+      overview={overview}
       basePath={`/roles/${slug}`}
       stats={stats}
-      intro={{
-        title: overview.title,
-        summary: overview.summary,
-        secondaryTitle: "Core work",
-        secondaryBody: overview.coreWork,
-        chips: overview.signals,
-      }}
       sections={[
         {
           href: `/roles/${slug}/blueprint`,
@@ -84,7 +62,7 @@ export default async function RolePage({
           href: `/roles/${slug}/tools`,
           label: "Ecosystem",
           title: "Tools",
-          description: "Browse the platforms and instruments that show up around the work.",
+          description: "Open the platforms and instruments that show up around the work.",
           count: stats.tools,
           icon: Wrench,
         },
@@ -110,7 +88,6 @@ export default async function RolePage({
       featuredTool={tools[0] ?? null}
       featuredDayInLifeHref={`/roles/${slug}/day-in-the-life`}
       featuredDayInLifeCount={dayInLife.length}
-      guideRail={guideRail}
     />
   )
 }

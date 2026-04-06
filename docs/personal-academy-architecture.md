@@ -2,7 +2,7 @@
 
 ## Intent
 
-Nexus is the learning-first side of the academy ecosystem. It shares the multi-subject shell pattern with Founder OS, but not the operator doctrine. The current goal is no longer just “one shell for many subjects.” It is “one shell that can direct a learner through a broad, deep, and applied education.”
+Nexus is the learning-first side of the academy ecosystem. It shares the multi-subject shell pattern with Founder OS, but not the operator doctrine. The current goal is not to prescribe a single path through the app; it is to create a browse-first encyclopedia shell that still supports guided learning when wanted.
 
 ## Design rules
 
@@ -11,8 +11,26 @@ Nexus is the learning-first side of the academy ecosystem. It shares the multi-s
 - Content stays static and file-based
 - Subjects register via `manifest.json`
 - Missing sections stay honest with empty states
-- Guidance stays deterministic and local-first
+- Guidance stays deterministic and local-first, but secondary to open-world browsing
 - Sources and signals stay curated rather than pretending to be live omniscience
+- Human readability outranks content density
+- Shared surfaces should explain the shape of a subject, topic, or role quickly before branching deeper
+- Navigation must distinguish browse-level wayfinding from entity-context wayfinding
+- Shared landing pages should be structured, repeatable, and visually scannable rather than prose-heavy
+- Mobile optimisation is part of the architecture for shared surfaces, not a downstream QA step
+
+## Documentation contract
+
+For Nexus, architecture and doctrine updates must travel with implementation when the change affects product behavior or page structure.
+
+Expected sync targets for meaningful changes:
+
+- `CLAUDE.md` for app operating rules
+- `README.md` for current product framing and working doctrine
+- `docs/personal-academy-architecture.md` for route, UX, and system-level architecture
+- `status/` files when the change materially affects operational truth
+
+Agents should treat these documents as required reference points before and after major work, not as optional garnish.
 
 ## Current runtime
 
@@ -21,8 +39,8 @@ Current state:
 - Subject, role, and topic routes are all live in the app router
 - `/{subject}/...` remains the canonical curriculum spine
 - `/roles/{slug}` and `/topics/{slug}` are now live route families layered on top of aliased subject content plus entity-native content packs
-- `/setup` generates a local-first learning blueprint
-- `/my-path` uses deterministic ranking to generate a current session and next-best actions
+- `/setup` and `/my-path` remain live but are secondary surfaces rather than the homepage story
+- `quantum-science` and `energy-systems` are the canonical expansions of the original science/content base
 - `/{subject|role|topic}/sources` and `/{subject|role|topic}/signals` are live curated surfaces
 - Guide rails now connect start pages, module pages, lesson pages, project pages, and tool pages back into the active path
 
@@ -33,6 +51,18 @@ Current state:
 - Topics are cross-disciplinary lenses
 - Roles are embodied synthesis tracks
 - The guidance layer sits across all three rather than replacing them
+- The UI should lead with exploration surfaces first, not with a required path flow
+- Roles should use a structured presentation contract that makes them readable and comparable
+- Shared role pages should prioritise: what the role is, where it came from, what people do, how people enter, what strengths matter, what pressures show up, and how careers progress
+- Module indexes should read as learning maps rather than flat content catalogs where possible
+
+## UX doctrine for future work
+
+- Use frameworks, mental models, and visual maps first; let detail branch underneath
+- Break dense copy into shorter paragraphs and distinct section jobs
+- Prefer reusable presentation systems over one-off hero or landing page implementations
+- Borrow good visual patterns from Founder OS selectively, but do not import its product stance or route assumptions
+- When updating shared surfaces, verify desktop and mobile behavior before considering the work complete
 
 ## Guidance OS layer
 
@@ -54,7 +84,7 @@ Current content has been copied into `content/curriculum/{subject}/` from:
 - `vdapp36-physicist-academy` → `physics`
 - `vdapp37-aero-engineer-academy` → `aerospace`
 - `vdapp38-rocket-science-academy` → `rocket-science`
-- `vdapp40-quantum-academy` → `quantum`
+- `vdapp40-quantum-academy` → `quantum-science`
 
 The original apps were archived on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` after the unified app passed build, route, and browser verification.
 
@@ -64,15 +94,14 @@ The original apps were archived on 2026-04-04 into `archive/2026-04-04-personal-
 - Physics: rich migration
 - Rocket Science: rich migration
 - Aerospace: deepened beyond the original source baseline
-- Quantum: rebuilt into a full subject rather than staying thin
+- Quantum Science: rebuilt into a full subject rather than staying thin
+- Energy Systems: promoted from topic-level energy content into a canonical subject
 
 See `personal-academy-migration-analysis.md` for the post-migration depth comparison and archive rationale.
 
 ## Route surface
 
 - `/`
-- `/setup`
-- `/my-path`
 - `/subjects`
 - `/roles`
 - `/topics`
@@ -106,5 +135,7 @@ See `personal-academy-migration-analysis.md` for the post-migration depth compar
 - `/topics/{slug}/toolkit`
 - `/topics/{slug}/sources`
 - `/topics/{slug}/signals`
+- `/setup`
+- `/my-path`
 
 The route surface above is the currently verified runtime shell.

@@ -1,0 +1,23 @@
+{
+  "slug": "revit",
+  "name": "Revit",
+  "category": "bim",
+  "description": "Revit is a useful bim surface inside Civil Engineering.",
+  "whyUseIt": "People in Civil Engineering use Revit to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.autodesk.com/products/revit/",
+  "alternatives": [
+    "AutoCAD Civil 3D",
+    "Microsoft Project"
+  ],
+  "outputs": [
+    "Civil Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Revit as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Revit."
+  ],
+  "relatedProject": "map-a-civil-engineering-system"
+}

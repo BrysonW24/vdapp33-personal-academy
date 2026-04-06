@@ -1,0 +1,37 @@
+{
+  "slug": "electrical-engineering-frameworks",
+  "title": "Electrical Engineering Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Electrical Engineering.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Electrical Engineering matters because it helps you reason about power networks, electronics, control systems, automation, and communications.",
+  "coreConcepts": [
+    "circuits",
+    "power systems",
+    "signals",
+    "electronics",
+    "control",
+    "safety"
+  ],
+  "mentalModels": [
+    "energy and signal flow",
+    "feedback control",
+    "failure under load"
+  ],
+  "lessons": [
+    "electrical-engineering-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "electrical-engineering-systems-map",
+    "electrical-engineering-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "electrical-engineering-systems-and-processes",
+    "electrical-engineering-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

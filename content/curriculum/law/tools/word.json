@@ -1,0 +1,23 @@
+{
+  "slug": "word",
+  "name": "Microsoft Word",
+  "category": "drafting",
+  "description": "Microsoft Word is a useful drafting surface inside Law.",
+  "whyUseIt": "People in Law use Microsoft Word to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.microsoft.com/microsoft-365/word",
+  "alternatives": [
+    "Westlaw",
+    "LexisNexis"
+  ],
+  "outputs": [
+    "Law working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Microsoft Word as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Microsoft Word."
+  ],
+  "relatedProject": "map-a-law-system"
+}

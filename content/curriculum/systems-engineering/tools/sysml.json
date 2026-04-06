@@ -1,0 +1,23 @@
+{
+  "slug": "sysml",
+  "name": "SysML",
+  "category": "modeling",
+  "description": "SysML is a useful modeling surface inside Systems Engineering.",
+  "whyUseIt": "People in Systems Engineering use SysML to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.omg.org/spec/SysML/",
+  "alternatives": [
+    "IBM DOORS",
+    "Jira"
+  ],
+  "outputs": [
+    "Systems Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using SysML as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from SysML."
+  ],
+  "relatedProject": "map-a-systems-engineering-system"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "farm-management-software",
+  "name": "Farm Management Software",
+  "category": "operations",
+  "description": "Farm Management Software is a useful operations surface inside Agriculture & Food Systems.",
+  "whyUseIt": "People in Agriculture & Food Systems use Farm Management Software to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.trimble.com/",
+  "alternatives": [
+    "QGIS",
+    "Climate Data Portals"
+  ],
+  "outputs": [
+    "Agriculture & Food Systems working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Farm Management Software as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Farm Management Software."
+  ],
+  "relatedProject": "map-a-agriculture-food-systems-system"
+}

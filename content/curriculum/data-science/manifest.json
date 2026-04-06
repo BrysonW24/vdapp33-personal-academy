@@ -1,0 +1,12 @@
+{
+  "slug": "data-science",
+  "name": "Data Science",
+  "shortName": "Data Science",
+  "group": "engineering",
+  "icon": "BarChart3",
+  "color": "#2563EB",
+  "tagline": "How data becomes explanation, prediction, and better decisions.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 12
+}

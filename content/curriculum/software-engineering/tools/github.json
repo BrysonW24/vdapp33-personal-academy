@@ -1,0 +1,23 @@
+{
+  "slug": "github",
+  "name": "GitHub",
+  "category": "collaboration",
+  "description": "GitHub is a useful collaboration surface inside Software Engineering.",
+  "whyUseIt": "People in Software Engineering use GitHub to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://github.com/",
+  "alternatives": [
+    "Visual Studio Code",
+    "Docker"
+  ],
+  "outputs": [
+    "Software Engineering working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using GitHub as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from GitHub."
+  ],
+  "relatedProject": "map-a-software-engineering-system"
+}

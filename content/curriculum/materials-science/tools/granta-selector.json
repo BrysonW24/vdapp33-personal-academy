@@ -1,0 +1,23 @@
+{
+  "slug": "granta-selector",
+  "name": "Granta Selector",
+  "category": "selection",
+  "description": "Granta Selector is a useful selection surface inside Materials Science.",
+  "whyUseIt": "People in Materials Science use Granta Selector to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.ansys.com/products/materials/granta-selector",
+  "alternatives": [
+    "ImageJ",
+    "Materials Project"
+  ],
+  "outputs": [
+    "Materials Science working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using Granta Selector as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from Granta Selector."
+  ],
+  "relatedProject": "map-a-materials-science-system"
+}

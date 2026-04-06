@@ -245,7 +245,7 @@
               },
               "signals": {
                 "subjects": ["physics", "quantum-science", "chemistry"],
-                "topics": ["energy", "artificial-intelligence"],
+                "topics": ["artificial-intelligence", "philosophy"],
                 "roles": ["ai-researcher"],
                 "mode": "guided",
                 "intensity": "balanced",
@@ -510,7 +510,7 @@
               },
               "signals": {
                 "subjects": ["robotics", "aerospace"],
-                "topics": ["artificial-intelligence", "energy"],
+                "topics": ["artificial-intelligence", "communication"],
                 "roles": ["robotics-engineer", "pilot"],
                 "mode": "guided",
                 "intensity": "ambitious",
@@ -1033,7 +1033,7 @@
               },
               "signals": {
                 "subjects": ["aerospace", "physics"],
-                "topics": ["energy"],
+                "topics": ["communication"],
                 "roles": ["pilot", "astronaut"],
                 "mode": "guided",
                 "intensity": "ambitious",

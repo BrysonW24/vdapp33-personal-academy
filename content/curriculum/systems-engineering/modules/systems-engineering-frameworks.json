@@ -1,0 +1,37 @@
+{
+  "slug": "systems-engineering-frameworks",
+  "title": "Systems Engineering Frameworks",
+  "shortSummary": "Use repeatable frameworks to compare options, constraints, and tradeoffs in Systems Engineering.",
+  "level": "intermediate",
+  "teachingStage": "frameworks",
+  "category": "frameworks",
+  "whyItMatters": "Systems Engineering matters because it helps you reason about defense, aerospace, transport, energy, and large technical programs.",
+  "coreConcepts": [
+    "requirements",
+    "interfaces",
+    "integration",
+    "verification",
+    "risk",
+    "lifecycle thinking"
+  ],
+  "mentalModels": [
+    "system-of-systems thinking",
+    "interface control",
+    "verification traceability"
+  ],
+  "lessons": [
+    "systems-engineering-frameworks-in-practice"
+  ],
+  "frameworks": [
+    "systems-engineering-systems-map",
+    "systems-engineering-tradeoff-lens"
+  ],
+  "relatedModules": [
+    "systems-engineering-systems-and-processes",
+    "systems-engineering-applications"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3,
+  "visualType": "cards"
+}

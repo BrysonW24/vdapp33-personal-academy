@@ -1,0 +1,23 @@
+{
+  "slug": "r",
+  "name": "R",
+  "category": "analysis",
+  "description": "R is a useful analysis surface inside Psychology.",
+  "whyUseIt": "People in Psychology use R to make the field more visible, testable, collaborative, or operational.",
+  "pricingTier": "free",
+  "url": "https://www.r-project.org/",
+  "alternatives": [
+    "Qualtrics",
+    "SPSS"
+  ],
+  "outputs": [
+    "Psychology working notes",
+    "Analysis artifacts",
+    "Operational decision support"
+  ],
+  "beginnerMistakes": [
+    "Using R as a substitute for thinking instead of a way to sharpen it.",
+    "Skipping documentation and context when sharing output from R."
+  ],
+  "relatedProject": "map-a-psychology-system"
+}
