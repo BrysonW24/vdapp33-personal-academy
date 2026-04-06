@@ -62,6 +62,7 @@ Current state:
 - The UI should lead with exploration surfaces first, not with a required path flow
 - Roles should use a structured presentation contract that makes them readable and comparable
 - Shared role pages should prioritise: what the role is, where it came from, what people do, how people enter, what strengths matter, what pressures show up, and how careers progress
+- Shared role pages should also expose the training shape directly on the landing page: beginner, intermediate, advanced, then expert application through quests and scenarios
 - Module indexes should read as learning maps rather than flat content catalogs where possible
 - When importing external academy content, normalize it into Nexus route families, docs, counts, and quality gates in the same pass
 

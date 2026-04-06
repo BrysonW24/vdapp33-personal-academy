@@ -22,6 +22,7 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It n
 - Use paragraph spacing, section rhythm, and visual summaries to reduce cognitive load
 - Roles should follow a repeatable, structured setup rather than feeling like loose editorial pages
 - Roles should feel like guided worlds: what the person does, what they see that others miss, how people get there, what they need to be strong in, what pressures they absorb, and how careers compound
+- Role landing pages should surface a visible training ladder from beginner to expert application, plus embedded quest work, rather than forcing people to infer the structure from deep routes
 - Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, and module indexes
 - Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
 - Imported role academies are valid in Nexus when they are re-framed through the shared role-world contract rather than copied in as isolated mini-products

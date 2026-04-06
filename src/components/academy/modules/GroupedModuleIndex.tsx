@@ -42,6 +42,13 @@ interface GroupedModuleIndexProps {
   emptyState: string
   subjectSlug?: string
   themeColor?: string
+  applicationSurface?: {
+    label: string
+    kicker: string
+    description: string
+    count: number
+    href: string
+  }
 }
 
 interface ModuleGroup {
@@ -122,6 +129,7 @@ export function GroupedModuleIndex({
   emptyState,
   subjectSlug,
   themeColor = "#2C6AA0",
+  applicationSurface,
 }: GroupedModuleIndexProps) {
   const groupedModules = usesTeachingContract(modules)
     ? buildTeachingStageGroups(modules)
@@ -164,8 +172,9 @@ export function GroupedModuleIndex({
 
             <div className="mt-6 flex gap-3 overflow-x-auto pb-2">
               {groupedModules.map((group, index) => (
-                <div
+                <a
                   key={group.key}
+                  href={`#${group.key}`}
                   className="min-w-[220px] flex-1 rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.84)] p-4"
                 >
                   <div className="flex items-center justify-between gap-3">
@@ -191,8 +200,38 @@ export function GroupedModuleIndex({
                   <p className="mt-4 text-xs font-medium uppercase tracking-[0.16em] text-editorial-muted">
                     {group.modules.length} module{group.modules.length === 1 ? "" : "s"}
                   </p>
-                </div>
+                </a>
               ))}
+              {applicationSurface ? (
+                <a
+                  href={applicationSurface.href}
+                  className="min-w-[220px] flex-1 rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.84)] p-4"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <span
+                      className="inline-flex h-7 min-w-7 items-center justify-center rounded-full px-2 text-xs font-semibold"
+                      style={{
+                        backgroundColor: `${themeColor}14`,
+                        color: themeColor,
+                      }}
+                    >
+                      {groupedModules.length + 1}
+                    </span>
+                    <span className="text-[10px] uppercase tracking-[0.16em] text-editorial-muted">
+                      {applicationSurface.kicker}
+                    </span>
+                  </div>
+                  <h3 className="mt-4 font-serif text-xl font-semibold text-editorial-ink">
+                    {applicationSurface.label}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
+                    {applicationSurface.description}
+                  </p>
+                  <p className="mt-4 text-xs font-medium uppercase tracking-[0.16em] text-editorial-muted">
+                    {applicationSurface.count} item{applicationSurface.count === 1 ? "" : "s"}
+                  </p>
+                </a>
+              ) : null}
             </div>
           </section>
 
@@ -202,6 +241,7 @@ export function GroupedModuleIndex({
             return (
               <section
                 key={group.key}
+                id={group.key}
                 className="border-t border-[rgba(44,49,59,0.08)] pt-8"
               >
                 <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">

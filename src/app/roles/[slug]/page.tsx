@@ -15,6 +15,7 @@ import {
   getRelatedSubjectsForEntity,
   getRole,
   getRoleDayInLifeScenarios,
+  getRoleModules,
   getRoleOverview,
   getRoleProjects,
   getRoleStats,
@@ -33,6 +34,7 @@ export default async function RolePage({
 
   const stats = getRoleStats(slug)
   const relatedSubjects = getRelatedSubjectsForEntity("role", slug)
+  const modules = getRoleModules(slug)
   const projects = getRoleProjects(slug)
   const tools = getRoleTools(slug)
   const dayInLife = getRoleDayInLifeScenarios(slug)
@@ -52,6 +54,8 @@ export default async function RolePage({
       overview={overview}
       basePath={`/roles/${slug}`}
       stats={stats}
+      modules={modules}
+      projects={projects}
       sections={[
         {
           href: `/roles/${slug}/blueprint`,
@@ -119,7 +123,6 @@ export default async function RolePage({
         },
       ]}
       relatedSubjects={relatedSubjects}
-      featuredProject={projects[0] ?? null}
       featuredTool={tools[0] ?? null}
       sourcePack={sourcePack}
       signalDigest={signalDigest}

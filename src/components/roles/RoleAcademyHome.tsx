@@ -1,13 +1,18 @@
 import Link from "next/link"
+import type { LucideIcon } from "lucide-react"
 import {
   ArrowRight,
+  BookOpen,
   Clock3,
   FileSearch,
-  FolderKanban,
-  Map,
+  Layers3,
   Newspaper,
+  Radar,
+  Sparkles,
+  Swords,
   Wrench,
 } from "lucide-react"
+import { QuestBoard } from "@/components/academy/progress/QuestBoard"
 import { EntityHero } from "@/components/entities/EntityHero"
 import { EntitySignalDashboard } from "@/components/entities/EntitySignalDashboard"
 import { EntityLandingSection } from "@/components/sections/EntityLandingSection"
@@ -17,7 +22,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ReadableProse } from "@/components/ui/ReadableProse"
 import { getRolePresentation } from "@/lib/role-presentations"
-import type { Project, SubjectManifest, Tool } from "@/types/curriculum"
+import type { Module, Project, SubjectLevel, SubjectManifest, Tool } from "@/types/curriculum"
 import type { EntityManifest, EntityStats, RoleOverview } from "@/types/entity"
 import type { SignalDigest, SourcePack } from "@/types/guidance"
 
@@ -27,7 +32,7 @@ type SectionCard = {
   title: string
   description: string
   count: number
-  icon: typeof Map
+  icon: LucideIcon
 }
 
 interface RoleAcademyHomeProps {
@@ -35,9 +40,10 @@ interface RoleAcademyHomeProps {
   overview: RoleOverview
   basePath: string
   stats: EntityStats
+  modules: Module[]
+  projects: Project[]
   sections: SectionCard[]
   relatedSubjects: SubjectManifest[]
-  featuredProject?: Project | null
   featuredTool?: Tool | null
   sourcePack?: SourcePack | null
   signalDigest?: SignalDigest | null
@@ -49,14 +55,48 @@ function listOrFallback(items: string[], fallback: string[]) {
   return items.length > 0 ? items : fallback
 }
 
+const LEVEL_ORDER: SubjectLevel[] = ["beginner", "intermediate", "advanced"]
+
+const LEVEL_META: Record<
+  SubjectLevel,
+  { label: string; description: string; icon: typeof BookOpen }
+> = {
+  beginner: {
+    label: "Beginner",
+    description: "Start with the shape of the role, its core language, and the first dependable moves.",
+    icon: BookOpen,
+  },
+  intermediate: {
+    label: "Intermediate",
+    description: "Build working fluency so the role starts to feel usable instead of theoretical.",
+    icon: Layers3,
+  },
+  advanced: {
+    label: "Advanced",
+    description: "Handle harder tradeoffs, more ambiguity, and the parts of the role that require judgment.",
+    icon: Radar,
+  },
+}
+
+function sortModules(modules: Module[]) {
+  return [...modules].sort((left, right) => {
+    const leftRank = left.levelNumber ?? left.order
+    const rightRank = right.levelNumber ?? right.order
+
+    if (leftRank !== rightRank) return leftRank - rightRank
+    return left.title.localeCompare(right.title)
+  })
+}
+
 export function RoleAcademyHome({
   role,
   overview,
   basePath,
   stats,
+  modules,
+  projects,
   sections,
   relatedSubjects,
-  featuredProject,
   featuredTool,
   sourcePack,
   signalDigest,
@@ -87,6 +127,33 @@ export function RoleAcademyHome({
     "Calm coordination with other specialists",
     "A reputation for reliability when the stakes rise",
   ])
+  const levelGroups = LEVEL_ORDER.map((level) => {
+    const items = sortModules(modules.filter((module) => module.level === level))
+    return {
+      level,
+      ...LEVEL_META[level],
+      modules: items,
+    }
+  }).filter((group) => group.modules.length > 0)
+  const questPreviewItems = projects
+    .slice()
+    .sort((left, right) => left.difficulty - right.difficulty || left.title.localeCompare(right.title))
+    .slice(0, 6)
+    .map((project) => ({
+      id: project.slug,
+      title: project.title,
+      description: project.description,
+      difficulty: project.difficulty,
+      duration: `${project.estimatedHours} hours`,
+      tools: project.tools,
+      outcomes: project.skillsLearned,
+      href: `${basePath}/projects/${project.slug}`,
+      ctaLabel: "Open quest",
+      badge:
+        project.sourceMeta?.sourceKind === "role"
+          ? "Core role"
+          : project.sourceMeta?.sourceSlug,
+    }))
 
   return (
     <div className="space-y-10 pb-16">
@@ -121,6 +188,103 @@ export function RoleAcademyHome({
       </section>
 
       <EntityLandingSection
+        eyebrow="How to use this role"
+        title="Move from beginner to expert application"
+        subtitle="This is the cleanest way through the role. Learn the basics first, build fluency in the middle, then pressure-test yourself with real quests and scenarios."
+        tintColor={role.color}
+      >
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          {levelGroups.map((group) => {
+            const Icon = group.icon
+            const firstModule = group.modules[0]
+
+            return (
+              <Link
+                key={group.level}
+                href={`${basePath}/modules#${group.level}`}
+                className="rounded-[24px] border border-[rgba(44,49,59,0.08)] bg-white/84 p-6 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <span
+                    className="flex h-11 w-11 items-center justify-center rounded-[14px]"
+                    style={{ backgroundColor: `${role.color}14`, color: role.color }}
+                  >
+                    <Icon className="h-4.5 w-4.5" />
+                  </span>
+                  <Badge className="border-transparent" style={{ backgroundColor: `${role.color}12`, color: role.color }}>
+                    {group.modules.length}
+                  </Badge>
+                </div>
+                <p className="mt-4 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                  Training stage
+                </p>
+                <h3 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
+                  {group.label}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-editorial-muted">
+                  {group.description}
+                </p>
+                {firstModule ? (
+                  <>
+                    <div className="mt-5 h-px bg-[rgba(44,49,59,0.08)]" />
+                    <p className="mt-4 text-[10px] uppercase tracking-[0.16em] text-editorial-muted">
+                      Start here
+                    </p>
+                    <p className="mt-2 text-sm font-medium leading-relaxed text-editorial-ink">
+                      {firstModule.title}
+                    </p>
+                    {group.modules.slice(1, 3).map((module) => (
+                      <p key={module.slug} className="mt-2 text-sm leading-relaxed text-editorial-muted">
+                        {module.title}
+                      </p>
+                    ))}
+                  </>
+                ) : null}
+              </Link>
+            )
+          })}
+
+          <Link
+            href={projects.length > 0 ? `${basePath}/projects` : featuredDayInLifeHref ?? `${basePath}/day-in-the-life`}
+            className="rounded-[24px] border border-[rgba(44,49,59,0.08)] bg-white/84 p-6 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <span
+                className="flex h-11 w-11 items-center justify-center rounded-[14px]"
+                style={{ backgroundColor: `${role.color}14`, color: role.color }}
+              >
+                <Swords className="h-4.5 w-4.5" />
+              </span>
+              <Badge className="border-transparent" style={{ backgroundColor: `${role.color}12`, color: role.color }}>
+                {projects.length + featuredDayInLifeCount}
+              </Badge>
+            </div>
+            <p className="mt-4 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+              Applied layer
+            </p>
+            <h3 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
+              Expert
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-editorial-muted">
+              Use quests, simulations, and real-world scenarios to pressure-test the training until it feels like work instead of study.
+            </p>
+            <div className="mt-5 h-px bg-[rgba(44,49,59,0.08)]" />
+            <p className="mt-4 text-[10px] uppercase tracking-[0.16em] text-editorial-muted">
+              Applied surfaces
+            </p>
+            <p className="mt-2 text-sm font-medium leading-relaxed text-editorial-ink">
+              {projects.length > 0 ? `${projects.length} project quests` : "Role scenarios"}
+            </p>
+            <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
+              {featuredDayInLifeCount > 0
+                ? `${featuredDayInLifeCount} day-in-the-life scenarios`
+                : "Use the role world to see how the decisions show up in practice."}
+            </p>
+          </Link>
+        </div>
+      </EntityLandingSection>
+
+      <EntityLandingSection
         eyebrow={overview.title}
         title="Understand the role before you dive deeper"
         subtitle="This opening layer is designed to be memorable first. Get the shape of the role, where it came from, what it asks of people, and what makes someone good at it before branching into deeper surfaces."
@@ -144,16 +308,16 @@ export function RoleAcademyHome({
                     <CardIcon className="h-4.5 w-4.5" />
                   </span>
                 ) : null}
-              <div className="min-w-0">
-                <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                  {card.eyebrow}
-                </p>
-                <h3 className="mt-2 font-serif text-xl font-semibold text-editorial-ink">
-                  {card.title}
-                </h3>
+                <div className="min-w-0">
+                  <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                    {card.eyebrow}
+                  </p>
+                  <h3 className="mt-2 font-serif text-xl font-semibold text-editorial-ink">
+                    {card.title}
+                  </h3>
+                </div>
               </div>
-            </div>
-            <p className="mt-3 text-sm leading-7 text-editorial-muted">{card.body}</p>
+              <p className="mt-3 text-sm leading-7 text-editorial-muted">{card.body}</p>
             </div>
           )
         })}
@@ -310,6 +474,31 @@ export function RoleAcademyHome({
       </EntityLandingSection>
 
       <EntityLandingSection
+        eyebrow="Role quests"
+        title="Apply the role through real quests"
+        subtitle="Projects are where the role stops being a description and starts becoming a training environment. Work them in order, then use the full quest board when you want the complete arc."
+        tintColor={role.color}
+      >
+        <div className="space-y-6">
+          <QuestBoard
+            title="Role quest board"
+            subtitle={`${projects.length} total quest${projects.length === 1 ? "" : "s"} available`}
+            items={questPreviewItems}
+          />
+          {projects.length > questPreviewItems.length ? (
+            <div className="flex justify-start">
+              <Button asChild variant="secondary">
+                <Link href={`${basePath}/projects`}>
+                  Open all {projects.length} quests
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          ) : null}
+        </div>
+      </EntityLandingSection>
+
+      <EntityLandingSection
         eyebrow="Career arc"
         title="How people improve and progress"
         subtitle="Careers in serious roles usually compound through trust. The work gets better as people become more reliable, more accurate, and more useful in harder situations."
@@ -427,7 +616,7 @@ export function RoleAcademyHome({
         ))}
       </EntityLandingSection>
 
-      {(featuredProject || featuredTool || (featuredDayInLifeHref && featuredDayInLifeCount > 0)) && (
+      {(featuredTool || (featuredDayInLifeHref && featuredDayInLifeCount > 0) || sourcePack || signalDigest) && (
         <EntityLandingSection
           eyebrow="Applied"
           title="Real ways in"
@@ -471,24 +660,6 @@ export function RoleAcademyHome({
             </Link>
           ) : null}
 
-          {featuredProject ? (
-            <Link
-              href={`${basePath}/projects/${featuredProject.slug}`}
-              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-6 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-            >
-              <div className="mb-3 flex items-center gap-2 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                <FolderKanban className="h-4 w-4" />
-                Featured project
-              </div>
-              <h3 className="font-serif text-xl font-semibold text-editorial-ink">
-                {featuredProject.title}
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
-                {featuredProject.description}
-              </p>
-            </Link>
-          ) : null}
-
           {featuredTool ? (
             <Link
               href={`${basePath}/tools/${featuredTool.slug}`}
@@ -503,6 +674,24 @@ export function RoleAcademyHome({
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
                 {featuredTool.description}
+              </p>
+            </Link>
+          ) : null}
+
+          {projects.length > 0 ? (
+            <Link
+              href={`${basePath}/projects`}
+              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-6 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+            >
+              <div className="mb-3 flex items-center gap-2 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                <Sparkles className="h-4 w-4" />
+                Quest board
+              </div>
+              <h3 className="font-serif text-xl font-semibold text-editorial-ink">
+                Applied role quests
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
+                Work through {projects.length} quests that turn the role from theory into concrete outputs and decisions.
               </p>
             </Link>
           ) : null}
