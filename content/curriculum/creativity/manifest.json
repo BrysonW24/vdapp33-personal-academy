@@ -1,0 +1,15 @@
+{
+  "slug": "creativity",
+  "name": "Creativity",
+  "shortName": "Creativity",
+  "group": "humanities",
+  "icon": "Palette",
+  "color": "#14B8A6",
+  "tagline": "How novelty, association, invention, and taste turn into usable ideas.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 60
+}

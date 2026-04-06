@@ -8,5 +8,8 @@
   "tagline": "Launch vehicles, propulsion, mission design, and the realities of getting off Earth.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 5
+  "order": 5,
+  "academyTier": "frontier",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

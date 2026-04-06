@@ -1,5 +1,28 @@
 import { z } from "zod"
 
+const AcademyTierSchema = z.enum([
+  "foundational",
+  "advanced",
+  "thought-provoking",
+  "frontier",
+])
+
+const MacroBucketSchema = z.enum([
+  "reality",
+  "human-being",
+  "civilization",
+  "built-world",
+  "markets-assets",
+  "meaning-culture",
+  "frontier",
+])
+
+const CatalogContentStatusSchema = z.enum([
+  "full",
+  "starter",
+  "coming-soon",
+])
+
 const DeepDivePageSchema = z.object({
   slug: z.string(),
   label: z.string(),
@@ -107,6 +130,9 @@ export const SubjectManifestSchema = z.object({
   icon: z.string(),
   color: z.string(),
   tagline: z.string(),
+  academyTier: AcademyTierSchema.optional(),
+  macroBucket: MacroBucketSchema.optional(),
+  contentStatus: CatalogContentStatusSchema.optional(),
   description: z.string().optional(),
   blueprintSlug: z.string().default("blueprint"),
   deepDivePages: z.array(DeepDivePageSchema).default([]),
@@ -141,6 +167,9 @@ export const EntityManifestSchema = z.object({
   icon: z.string(),
   color: z.string(),
   tagline: z.string(),
+  academyTier: AcademyTierSchema.optional(),
+  macroBucket: MacroBucketSchema.optional(),
+  contentStatus: CatalogContentStatusSchema.optional(),
   description: z.string(),
   blueprintSlug: z.string().default("blueprint"),
   sections: z.record(

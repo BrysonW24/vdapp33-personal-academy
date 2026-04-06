@@ -2,10 +2,13 @@
   "slug": "intelligence-analyst",
   "name": "Intelligence Analyst",
   "kind": "role",
-  "group": "humanities",
+  "group": "society",
   "icon": "Eye",
   "color": "#6366F1",
   "tagline": "You piece together incomplete information, look for patterns, and help decision-makers act under uncertainty.",
   "tier": "flagship",
-  "order": 5
+  "order": 5,
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
 }

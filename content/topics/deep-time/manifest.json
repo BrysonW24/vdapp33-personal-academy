@@ -1,0 +1,15 @@
+{
+  "slug": "deep-time",
+  "name": "Deep Time",
+  "kind": "topic",
+  "group": "sciences",
+  "icon": "Clock3",
+  "color": "#C2410C",
+  "tagline": "A lens for thinking across geological and evolutionary timescales.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 23
+}

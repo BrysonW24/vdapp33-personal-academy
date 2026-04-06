@@ -8,5 +8,8 @@
   "tagline": "Mind, behavior, development, attention, emotion, and the patterns that shape human action.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 20
+  "order": 20,
+  "academyTier": "thought-provoking",
+  "macroBucket": "human-being",
+  "contentStatus": "full"
 }

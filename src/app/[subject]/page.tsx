@@ -6,6 +6,7 @@ import {
   getSubjectStats,
   getTools,
 } from "@/lib/content"
+import { PoliticsSystemPage } from "@/components/subjects/politics/PoliticsSystemPage"
 import { buildGuideRail } from "@/lib/guide-rail"
 import { SubjectStartHere } from "@/components/personal/SubjectStartHere"
 
@@ -49,6 +50,10 @@ export default async function SubjectPage({
     debatePrompt: `Which parts of ${subject.name} feel settled here, and which parts are still interpretive, contested, or model-dependent?`,
     truthPrompt: `Before you lock in a view, separate first principles, primary authorities, mature interpreters, and commentary.`,
   })
+
+  if (slug === "politics") {
+    return <PoliticsSystemPage subject={subject} guideRail={guideRail} />
+  }
 
   return (
     <SubjectStartHere

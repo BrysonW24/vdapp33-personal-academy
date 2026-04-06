@@ -1,0 +1,15 @@
+{
+  "slug": "medicine-human-physiology",
+  "name": "Medicine & Human Physiology",
+  "shortName": "Medicine",
+  "group": "life",
+  "icon": "Stethoscope",
+  "color": "#DC2626",
+  "tagline": "How the human body works, fails, heals, and is kept alive.",
+  "academyTier": "advanced",
+  "macroBucket": "human-being",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 38
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "medicine-human-physiology-applications",
+  "title": "Medicine & Human Physiology in the World",
+  "shortSummary": "A starter applications view of medicine & human physiology designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "domain": "Medicine & Human Physiology",
+  "category": "applications",
+  "whyItMatters": "Medicine & Human Physiology is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of medicine & human physiology",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Medicine & Human Physiology as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "medicine-human-physiology-where-it-shows-up"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Medicine & Human Physiology",
+      "href": "/biology",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-medicine-human-physiology-is",
+    "medicine-human-physiology-mental-models"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3
+}

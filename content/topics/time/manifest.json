@@ -1,0 +1,15 @@
+{
+  "slug": "time",
+  "name": "Time",
+  "kind": "topic",
+  "group": "sciences",
+  "icon": "Clock",
+  "color": "#0EA5E9",
+  "tagline": "Time as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 41,
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

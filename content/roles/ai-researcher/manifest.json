@@ -7,5 +7,8 @@
   "color": "#8B5CF6",
   "tagline": "You work on systems that can change how people learn, work, and build things.",
   "tier": "flagship",
-  "order": 2
+  "order": 2,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "full"
 }

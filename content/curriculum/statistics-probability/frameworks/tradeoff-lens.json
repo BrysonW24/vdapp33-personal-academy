@@ -1,0 +1,15 @@
+{
+  "slug": "tradeoff-lens",
+  "name": "Statistics & Probability Trade-off Lens",
+  "summary": "A compact way to compare options inside statistics & probability without pretending there is only one correct answer.",
+  "whenToUseIt": "Use it when competing priorities need to be weighed explicitly.",
+  "steps": [
+    "Name the competing objectives",
+    "List the main constraints",
+    "Compare the likely upsides and downsides",
+    "Choose the least bad path, then review the outcome"
+  ],
+  "example": "Use the trade-off lens to compare two different approaches inside statistics & probability.",
+  "category": "decision-making",
+  "domain": "Statistics & Probability"
+}

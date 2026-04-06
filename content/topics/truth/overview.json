@@ -1,0 +1,17 @@
+{
+  "slug": "truth",
+  "title": "Truth",
+  "whatItIs": "Truth is the practice of matching claims to reality as well as humanly possible. It depends on evidence, reasoning, institutional trust, and the willingness to revise what we believe.\n\nThe topic also includes the social side of truth: how communities decide what counts as credible, how errors get corrected, and how falsehoods spread.",
+  "whyItMatters": "Truth matters because decisions collapse when reality is replaced by wishful thinking, propaganda, or noise. Organisations, governments, and families all function better when they can tell what is actually happening.\n\nIt matters especially now because AI, media systems, and information overload make it easier to manufacture confidence without substance.",
+  "keyIdeas": [
+    "Truth is evidence plus interpretation",
+    "Institutions matter for credibility",
+    "Correction is part of truth-seeking"
+  ],
+  "frontier": "The frontier is how truth survives in synthetic media, algorithmic feeds, and machine-generated persuasion. The topic is becoming a practical survival skill, not just a philosophical concern.",
+  "openQuestions": [
+    "What makes a source credible?",
+    "How do institutions maintain truth over time?",
+    "Can truth survive when attention is fragmented?"
+  ]
+}

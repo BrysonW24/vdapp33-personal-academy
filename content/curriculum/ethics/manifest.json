@@ -1,0 +1,15 @@
+{
+  "slug": "ethics",
+  "name": "Ethics",
+  "shortName": "Ethics",
+  "group": "humanities",
+  "icon": "Scale",
+  "color": "#F59E0B",
+  "tagline": "How to think about right action, duty, harm, and responsibility.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 56
+}

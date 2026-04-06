@@ -1,0 +1,15 @@
+{
+  "slug": "mythology",
+  "name": "Mythology",
+  "shortName": "Myth",
+  "group": "humanities",
+  "icon": "Sparkles",
+  "color": "#8B5CF6",
+  "tagline": "The symbolic operating systems that cultures use to explain themselves.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 59
+}

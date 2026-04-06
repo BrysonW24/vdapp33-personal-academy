@@ -1,0 +1,15 @@
+{
+  "slug": "intelligence-espionage",
+  "name": "Intelligence & Espionage",
+  "shortName": "Intelligence",
+  "group": "society",
+  "icon": "Radar",
+  "color": "#0F172A",
+  "tagline": "Collection, analysis, deception, and the hidden side of state power.",
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 44
+}

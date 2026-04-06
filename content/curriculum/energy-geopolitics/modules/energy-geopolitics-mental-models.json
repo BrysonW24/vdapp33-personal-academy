@@ -1,0 +1,41 @@
+{
+  "slug": "energy-geopolitics-mental-models",
+  "title": "Energy Geopolitics Mental Models",
+  "shortSummary": "A starter mental models view of energy geopolitics designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "domain": "Energy Geopolitics",
+  "category": "mental-models",
+  "whyItMatters": "Energy Geopolitics is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of energy geopolitics",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Energy Geopolitics as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "energy-geopolitics-thinking"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Energy Geopolitics",
+      "href": "/energy-systems",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-energy-geopolitics-is"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2
+}

@@ -2,6 +2,29 @@ import { z } from "zod"
 
 export const OverlayEntityKindSchema = z.enum(["role", "topic"])
 
+const AcademyTierSchema = z.enum([
+  "foundational",
+  "advanced",
+  "thought-provoking",
+  "frontier",
+])
+
+const MacroBucketSchema = z.enum([
+  "reality",
+  "human-being",
+  "civilization",
+  "built-world",
+  "markets-assets",
+  "meaning-culture",
+  "frontier",
+])
+
+const CatalogContentStatusSchema = z.enum([
+  "full",
+  "starter",
+  "coming-soon",
+])
+
 export const EntityManifestSchema = z
   .object({
     slug: z.string().min(1),
@@ -11,6 +34,9 @@ export const EntityManifestSchema = z
     icon: z.string().min(1),
     color: z.string().min(1),
     tagline: z.string().min(1),
+    academyTier: AcademyTierSchema.optional(),
+    macroBucket: MacroBucketSchema.optional(),
+    contentStatus: CatalogContentStatusSchema.optional(),
     tier: z.enum(["flagship", "thin"]).optional(),
     hasNews: z.boolean().optional(),
     order: z.number().int().nonnegative(),

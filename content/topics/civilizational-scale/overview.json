@@ -1,0 +1,17 @@
+{
+  "slug": "civilizational-scale",
+  "title": "Civilizational Scale",
+  "whatItIs": "Civilizational scale is the study of what happens when populations, institutions, technologies, and systems become too large for simple local judgment to manage alone.\n\nAt that size, coordination, information flow, and resilience matter more than individual brilliance. The topic is useful because it turns size into a variable you can reason about.",
+  "whyItMatters": "This matters because modern life is full of systems whose failures propagate far beyond one place. A small decision in energy, finance, logistics, or media can ripple across an entire country or region.\n\nUnderstanding scale helps you see why some fixes work locally but fail globally, and why some institutions become slower or more fragile as they grow.",
+  "keyIdeas": [
+    "Scale changes feedback speed",
+    "Scale changes failure modes",
+    "Scale changes what can be governed locally"
+  ],
+  "frontier": "The frontier is how to govern enormous systems without losing adaptability. AI, supply chains, climate policy, and platform media all test that question at once.",
+  "openQuestions": [
+    "Where does local judgment stop being enough?",
+    "How do institutions stay adaptive as they grow?",
+    "What breaks first when scale outruns control?"
+  ]
+}

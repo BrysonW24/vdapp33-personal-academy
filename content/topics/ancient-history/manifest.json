@@ -8,5 +8,8 @@
   "tagline": "Civilisations, empires, myths, and material cultures from the deep human past.",
   "tier": "flagship",
   "hasNews": false,
-  "order": 16
+  "order": 16,
+  "academyTier": "foundational",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "full"
 }

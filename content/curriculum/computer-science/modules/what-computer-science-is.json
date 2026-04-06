@@ -1,0 +1,39 @@
+{
+  "slug": "what-computer-science-is",
+  "title": "What Computer Science Is",
+  "shortSummary": "A starter orientation view of computer science designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "domain": "Computer Science",
+  "category": "orientation",
+  "whyItMatters": "Computer Science is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of computer science",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Computer Science as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "what-is-computer-science"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Computer Science",
+      "href": "/software-engineering",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

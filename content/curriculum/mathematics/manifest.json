@@ -1,0 +1,15 @@
+{
+  "slug": "mathematics",
+  "name": "Mathematics",
+  "shortName": "Math",
+  "group": "sciences",
+  "icon": "Sigma",
+  "color": "#0F766E",
+  "tagline": "The language of quantity, structure, pattern, and proof.",
+  "academyTier": "foundational",
+  "macroBucket": "reality",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 32
+}

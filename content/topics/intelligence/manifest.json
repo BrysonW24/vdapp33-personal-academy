@@ -1,0 +1,15 @@
+{
+  "slug": "intelligence",
+  "name": "Intelligence",
+  "kind": "topic",
+  "group": "frontier",
+  "icon": "Brain",
+  "color": "#6366F1",
+  "tagline": "Intelligence as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 33,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

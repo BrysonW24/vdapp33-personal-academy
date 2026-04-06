@@ -1,0 +1,42 @@
+{
+  "slug": "cosmology-applications",
+  "title": "Cosmology in the World",
+  "shortSummary": "A starter applications view of cosmology designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "domain": "Cosmology",
+  "category": "applications",
+  "whyItMatters": "Cosmology is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of cosmology",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Cosmology as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "cosmology-where-it-shows-up"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Cosmology",
+      "href": "/physics",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-cosmology-is",
+    "cosmology-mental-models"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-economics",
+  "title": "Working in Economics",
+  "shortSummary": "A starter careers view of economics designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Economics",
+  "category": "careers",
+  "whyItMatters": "Economics is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of economics",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Economics as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "economics-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Economics",
+      "href": "/physics",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-economics-is",
+    "economics-mental-models",
+    "economics-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

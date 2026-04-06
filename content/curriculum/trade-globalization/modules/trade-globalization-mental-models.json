@@ -1,0 +1,41 @@
+{
+  "slug": "trade-globalization-mental-models",
+  "title": "Trade & Globalization Mental Models",
+  "shortSummary": "A starter mental models view of trade & globalization designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "domain": "Trade & Globalization",
+  "category": "mental-models",
+  "whyItMatters": "Trade & Globalization is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of trade & globalization",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Trade & Globalization as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "trade-globalization-thinking"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Trade & Globalization",
+      "href": "/economics",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-trade-globalization-is"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2
+}

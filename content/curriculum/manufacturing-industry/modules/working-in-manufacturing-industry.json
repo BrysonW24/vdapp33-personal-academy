@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-manufacturing-industry",
+  "title": "Working in Manufacturing & Industry",
+  "shortSummary": "A starter careers view of manufacturing & industry designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Manufacturing & Industry",
+  "category": "careers",
+  "whyItMatters": "Manufacturing & Industry is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of manufacturing & industry",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Manufacturing & Industry as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "manufacturing-industry-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Manufacturing & Industry",
+      "href": "/systems-engineering",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-manufacturing-industry-is",
+    "manufacturing-industry-mental-models",
+    "manufacturing-industry-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

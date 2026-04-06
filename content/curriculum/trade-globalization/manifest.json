@@ -1,0 +1,15 @@
+{
+  "slug": "trade-globalization",
+  "name": "Trade & Globalization",
+  "shortName": "Trade",
+  "group": "markets",
+  "icon": "Globe2",
+  "color": "#0891B2",
+  "tagline": "How goods, capital, ideas, and supply chains connect economies across borders.",
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 49
+}

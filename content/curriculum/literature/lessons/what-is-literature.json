@@ -1,0 +1,71 @@
+{
+  "slug": "what-is-literature",
+  "moduleSlug": "what-literature-is",
+  "title": "What Literature Is",
+  "objective": "Build an immediate working picture of literature.",
+  "beginnerExplanation": "Literature is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
+  "deeperExplanation": "In Nexus, Literature is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "keyTakeaways": [
+    "Literature has a distinct way of seeing problems",
+    "The field is best learned through systems and trade-offs",
+    "Applications make the theory feel real",
+    "The academy is designed to let you branch deeper later"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "example": "Use literature to compare one real system, one institutional example, and one frontier question.",
+  "commonMistakes": [
+    "Trying to memorise details before understanding the shape of the field",
+    "Studying the field in isolation from adjacent domains",
+    "Assuming the most visible public examples represent the whole field"
+  ],
+  "exercise": "Write a short map of how literature connects to at least three other subjects or topics in Nexus.",
+  "teaching": {
+    "mentalModel": {
+      "title": "Literature as a system",
+      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "anchors": [
+        "concept",
+        "mechanism",
+        "importance",
+        "application"
+      ]
+    },
+    "howItWorks": {
+      "title": "Starter process",
+      "steps": [
+        "Define what the field is trying to explain or build",
+        "Identify the main mechanisms and constraints",
+        "Connect them to real-world applications",
+        "Branch into deeper study only after the map is clear"
+      ]
+    },
+    "upsides": [
+      "Makes the field memorable faster",
+      "Improves transfer across adjacent domains"
+    ],
+    "downsides": [
+      "A starter map is not a substitute for mastery",
+      "Some contested details remain simplified at this stage"
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "A starter literature analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "realWorldApplications": [
+      "Real decisions shaped by literature",
+      "Cross-disciplinary projects and institutions"
+    ],
+    "whoWorksWithThis": [
+      "Specialists inside the field",
+      "Adjacent practitioners who depend on the same models"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the Literature module map",
+        "href": "/literature/modules"
+      }
+    ]
+  },
+  "order": 1
+}

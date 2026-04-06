@@ -1,0 +1,15 @@
+{
+  "slug": "power",
+  "name": "Power",
+  "kind": "topic",
+  "group": "society",
+  "icon": "Crown",
+  "color": "#991B1B",
+  "tagline": "How people and institutions get things done, hold control, and shape outcomes.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 25
+}

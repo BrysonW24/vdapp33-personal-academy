@@ -1,0 +1,15 @@
+{
+  "slug": "literature",
+  "name": "Literature",
+  "shortName": "Literature",
+  "group": "humanities",
+  "icon": "BookText",
+  "color": "#D97706",
+  "tagline": "How stories, style, and voice reveal the human condition.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 58
+}

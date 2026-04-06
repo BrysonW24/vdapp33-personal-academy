@@ -1,0 +1,15 @@
+{
+  "slug": "linguistics",
+  "name": "Linguistics",
+  "shortName": "Linguistics",
+  "group": "mind",
+  "icon": "Languages",
+  "color": "#2563EB",
+  "tagline": "How language works, changes, and shapes thought and coordination.",
+  "academyTier": "advanced",
+  "macroBucket": "human-being",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 54
+}

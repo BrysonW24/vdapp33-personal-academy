@@ -8,5 +8,8 @@
   "tagline": "How capital flows, compounds, and shapes the world through stocks, property, crypto, and beyond.",
   "tier": "flagship",
   "hasNews": true,
-  "order": 3
+  "order": 3,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
 }

@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-education-learning-science",
+  "title": "Working in Education & Learning Science",
+  "shortSummary": "A starter careers view of education & learning science designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Education & Learning Science",
+  "category": "careers",
+  "whyItMatters": "Education & Learning Science is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of education & learning science",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Education & Learning Science as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "education-learning-science-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Education & Learning Science",
+      "href": "/psychology",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-education-learning-science-is",
+    "education-learning-science-mental-models",
+    "education-learning-science-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

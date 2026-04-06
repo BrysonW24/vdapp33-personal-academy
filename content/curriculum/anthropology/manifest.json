@@ -1,0 +1,15 @@
+{
+  "slug": "anthropology",
+  "name": "Anthropology",
+  "shortName": "Anthropology",
+  "group": "mind",
+  "icon": "Users",
+  "color": "#7C3AED",
+  "tagline": "How humans live, ritualise, organise, and make meaning across cultures.",
+  "academyTier": "advanced",
+  "macroBucket": "human-being",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 53
+}

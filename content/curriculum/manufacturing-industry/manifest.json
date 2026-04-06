@@ -1,0 +1,15 @@
+{
+  "slug": "manufacturing-industry",
+  "name": "Manufacturing & Industry",
+  "shortName": "Manufacturing",
+  "group": "engineering",
+  "icon": "Factory",
+  "color": "#64748B",
+  "tagline": "How raw materials become reliable products at scale.",
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 40
+}

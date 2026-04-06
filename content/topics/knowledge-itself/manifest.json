@@ -1,0 +1,15 @@
+{
+  "slug": "knowledge-itself",
+  "name": "Knowledge Itself",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "BookOpen",
+  "color": "#2563EB",
+  "tagline": "Knowledge Itself as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 37,
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

@@ -8,5 +8,8 @@
   "tagline": "How food is grown, processed, distributed, and kept resilient under environmental and economic pressure.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 29
+  "order": 29,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
 }

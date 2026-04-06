@@ -8,5 +8,8 @@
   "tagline": "How people earn, spend, save, borrow, and think about financial security.",
   "tier": "thin",
   "hasNews": false,
-  "order": 13
+  "order": 13,
+  "academyTier": "foundational",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
 }

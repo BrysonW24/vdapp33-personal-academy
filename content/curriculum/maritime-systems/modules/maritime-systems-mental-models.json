@@ -1,0 +1,41 @@
+{
+  "slug": "maritime-systems-mental-models",
+  "title": "Maritime Systems Mental Models",
+  "shortSummary": "A starter mental models view of maritime systems designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "domain": "Maritime Systems",
+  "category": "mental-models",
+  "whyItMatters": "Maritime Systems is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of maritime systems",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Maritime Systems as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "maritime-systems-thinking"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Maritime Systems",
+      "href": "/trade-globalization",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-maritime-systems-is"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2
+}

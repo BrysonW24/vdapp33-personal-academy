@@ -8,5 +8,8 @@
   "tagline": "How to understand your values, habits, biases, patterns, and identity more clearly.",
   "tier": "thin",
   "hasNews": false,
-  "order": 17
+  "order": 17,
+  "academyTier": "thought-provoking",
+  "macroBucket": "human-being",
+  "contentStatus": "full"
 }

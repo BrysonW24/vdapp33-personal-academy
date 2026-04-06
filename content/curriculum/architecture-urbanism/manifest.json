@@ -1,0 +1,15 @@
+{
+  "slug": "architecture-urbanism",
+  "name": "Architecture & Urbanism",
+  "shortName": "Architecture",
+  "group": "engineering",
+  "icon": "Building2",
+  "color": "#C08457",
+  "tagline": "How buildings, streets, density, and public space shape lived experience.",
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 39
+}

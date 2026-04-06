@@ -1,0 +1,15 @@
+{
+  "slug": "great-filters-and-fermi-paradox",
+  "name": "Great Filters & Fermi Paradox",
+  "kind": "topic",
+  "group": "frontier",
+  "icon": "Sparkles",
+  "color": "#6366F1",
+  "tagline": "Great Filters & Fermi Paradox as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 42,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

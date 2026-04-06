@@ -8,5 +8,8 @@
   "tagline": "The hardest question in science: what is subjective experience, and why does it exist at all?",
   "tier": "flagship",
   "hasNews": false,
-  "order": 5
+  "order": 5,
+  "academyTier": "thought-provoking",
+  "macroBucket": "human-being",
+  "contentStatus": "full"
 }

@@ -1,0 +1,15 @@
+{
+  "slug": "maritime-systems",
+  "name": "Maritime Systems",
+  "shortName": "Maritime",
+  "group": "engineering",
+  "icon": "Anchor",
+  "color": "#0369A1",
+  "tagline": "Shipping, ports, naval logistics, and the systems that move the world by sea.",
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 42
+}

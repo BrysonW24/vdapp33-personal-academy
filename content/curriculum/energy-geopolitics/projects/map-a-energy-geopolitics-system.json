@@ -1,0 +1,54 @@
+{
+  "slug": "map-a-energy-geopolitics-system",
+  "title": "Map a Energy Geopolitics system",
+  "difficulty": 3,
+  "estimatedHours": 3,
+  "description": "Build a starter systems map that explains how energy geopolitics works in one real setting.",
+  "whyItMatters": "This turns the starter content into something you can reason with instead of just read once.",
+  "skillsLearned": [
+    "Systems mapping",
+    "Trade-off analysis",
+    "Clear explanation"
+  ],
+  "prerequisites": [
+    "what-energy-geopolitics-is"
+  ],
+  "steps": [
+    {
+      "title": "Pick one setting",
+      "description": "Choose a real institution, market, technology, or human problem where energy geopolitics shows up."
+    },
+    {
+      "title": "Map the system",
+      "description": "Identify inputs, mechanisms, stakeholders, constraints, and outcomes."
+    },
+    {
+      "title": "Explain the trade-offs",
+      "description": "Write down the main tensions and where judgment matters."
+    }
+  ],
+  "deliverables": [
+    "One-page system map",
+    "Short written explanation"
+  ],
+  "tools": [
+    "jupyter",
+    "notion",
+    "miro"
+  ],
+  "rubric": [
+    {
+      "criteria": "Clarity",
+      "description": "The system can be understood quickly."
+    },
+    {
+      "criteria": "Accuracy",
+      "description": "The map reflects real mechanisms and constraints."
+    },
+    {
+      "criteria": "Insight",
+      "description": "The explanation highlights real trade-offs."
+    }
+  ],
+  "domain": "Energy Geopolitics"
+}

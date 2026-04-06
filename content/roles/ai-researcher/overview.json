@@ -1,11 +1,11 @@
 {
   "slug": "ai-researcher",
   "title": "What being an AI Researcher actually involves",
-  "summary": "AI research is not about prompting chatbots or following tutorial notebooks. It is about reading dense mathematical papers, implementing algorithms from scratch, running experiments that fail far more often than they succeed, and slowly building intuition for why certain approaches work and others do not. Most of your time is spent staring at loss curves, debugging tensor shapes, and trying to reproduce results from papers that left out critical details.\n\nThe work sits at the intersection of mathematics, software engineering, and scientific method. You need strong linear algebra and probability foundations, fluency in at least one deep learning framework, and the patience to iterate on ideas for weeks or months before seeing meaningful results. Writing is a core skill — your papers need to clearly communicate what you tried, what worked, and what the community should take away.\n\nWhat makes this field unusual is the speed at which the frontier moves. A technique that was state-of-the-art six months ago may already be obsolete. You are constantly learning, constantly reading, and constantly adapting your mental models. The researchers who thrive are not just technically strong — they are deeply curious, comfortable with ambiguity, and willing to pursue ideas that might not pan out.",
+  "summary": "AI research is not about prompting chatbots or following tutorial notebooks. It is about reading dense mathematical papers, implementing algorithms from scratch, running experiments that fail far more often than they succeed, and slowly building intuition for why certain approaches work and others do not. Most of your time is spent staring at loss curves, debugging tensor shapes, and trying to reproduce results from papers that left out critical details.\n\nThe work sits at the intersection of mathematics, software engineering, and scientific method. You need strong linear algebra and probability foundations, fluency in at least one deep learning framework, and the patience to iterate on ideas for weeks or months before seeing meaningful results. Writing is a core skill \u2014 your papers need to clearly communicate what you tried, what worked, and what the community should take away.\n\nWhat makes this field unusual is the speed at which the frontier moves. A technique that was state-of-the-art six months ago may already be obsolete. You are constantly learning, constantly reading, and constantly adapting your mental models. The researchers who thrive are not just technically strong \u2014 they are deeply curious, comfortable with ambiguity, and willing to pursue ideas that might not pan out.",
   "coreWork": [
     "Reading and critically evaluating research papers (3-5 per week minimum)",
     "Designing and running experiments on GPU clusters",
-    "Debugging training runs — diagnosing loss spikes, gradient issues, and convergence failures",
+    "Debugging training runs \u2014 diagnosing loss spikes, gradient issues, and convergence failures",
     "Writing research code in PyTorch, JAX, or TensorFlow",
     "Iterating on model architectures and training procedures",
     "Analysing experimental results with statistical rigour",
@@ -13,7 +13,7 @@
     "Collaborating with other researchers through code reviews and paper discussions",
     "Managing compute budgets and optimising GPU utilisation"
   ],
-  "frontierPull": "You are building intelligence itself. Every other field uses AI as a tool — you are the one making the tool. The problems are among the hardest in science, the pace of progress is extraordinary, and the work has direct implications for how billions of people will live and work. Few fields offer this combination of intellectual depth, practical impact, and sheer novelty.",
+  "frontierPull": "You are building intelligence itself. Every other field uses AI as a tool \u2014 you are the one making the tool. The problems are among the hardest in science, the pace of progress is extraordinary, and the work has direct implications for how billions of people will live and work. Few fields offer this combination of intellectual depth, practical impact, and sheer novelty.",
   "signals": [
     "Machine learning",
     "Neural architectures",
@@ -23,5 +23,38 @@
     "GPU infrastructure",
     "Statistical analysis",
     "Open-source contribution"
+  ],
+  "whenItCameAbout": "The modern AI researcher role emerged from the overlap of computer science, statistics, and cognitive ambition. It accelerated through the machine learning wave of the 1990s, deep learning breakthroughs of the 2010s, and the foundation-model era that turned research labs into major world-shaping institutions.",
+  "whatPeopleDo": [
+    "Read and dissect new papers",
+    "Design experiments and evaluate baselines",
+    "Write and debug model code",
+    "Translate experimental evidence into papers, research notes, and decisions"
+  ],
+  "howPeopleGetThere": "Most people enter through mathematics, computer science, physics, or engineering, then build strong research taste through graduate study, labs, open-source work, or serious self-directed experimentation. The fastest route is usually a mix of theory, implementation ability, and unusually disciplined reading.",
+  "strengths": [
+    "Mathematical fluency",
+    "Experimental discipline",
+    "Patience with ambiguity",
+    "Scientific writing"
+  ],
+  "whoThrivesHere": "People do well when they can stay curious for long stretches, tolerate failed experiments, and care as much about evidence quality as they do about hype.",
+  "exposures": [
+    "Fast-moving frontier claims",
+    "Compute constraints",
+    "Research competition",
+    "Long periods of uncertainty"
+  ],
+  "careerLevers": [
+    "Publishing strong work",
+    "Building rare implementation depth",
+    "Developing better research taste",
+    "Communicating clearly across research and product"
+  ],
+  "careerPath": [
+    "Foundations and research apprenticeship",
+    "Independent contributor",
+    "Staff or senior researcher",
+    "Research lead or lab-builder"
   ]
 }

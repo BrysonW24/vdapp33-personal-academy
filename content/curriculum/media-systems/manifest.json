@@ -1,0 +1,15 @@
+{
+  "slug": "media-systems",
+  "name": "Media Systems",
+  "shortName": "Media",
+  "group": "society",
+  "icon": "MonitorPlay",
+  "color": "#7C3AED",
+  "tagline": "How information is created, framed, distributed, monetised, and weaponised.",
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 45
+}

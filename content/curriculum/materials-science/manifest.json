@@ -8,5 +8,8 @@
   "tagline": "Why materials behave the way they do, from crystal lattices to engineered composites.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 10
+  "order": 10,
+  "academyTier": "advanced",
+  "macroBucket": "reality",
+  "contentStatus": "full"
 }

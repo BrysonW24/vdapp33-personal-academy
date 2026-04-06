@@ -1,0 +1,15 @@
+{
+  "slug": "rise-and-fall-of-civilizations",
+  "name": "Rise and Fall of Civilizations",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "ArrowUpDown",
+  "color": "#B45309",
+  "tagline": "A lens for studying how civilisations grow, peak, stagnate, and collapse.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 22
+}

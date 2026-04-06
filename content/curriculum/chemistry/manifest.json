@@ -8,5 +8,8 @@
   "tagline": "Atoms, molecules, reactions, and the transformations that make matter useful.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 9
+  "order": 9,
+  "academyTier": "foundational",
+  "macroBucket": "reality",
+  "contentStatus": "full"
 }

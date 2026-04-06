@@ -1,0 +1,15 @@
+{
+  "slug": "mortality",
+  "name": "Mortality",
+  "kind": "topic",
+  "group": "mind",
+  "icon": "Clock",
+  "color": "#7C2D12",
+  "tagline": "Mortality as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 40,
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

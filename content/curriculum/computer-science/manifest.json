@@ -1,0 +1,15 @@
+{
+  "slug": "computer-science",
+  "name": "Computer Science",
+  "shortName": "CS",
+  "group": "engineering",
+  "icon": "Cpu",
+  "color": "#2563EB",
+  "tagline": "Computation, algorithms, information, and the architecture of software.",
+  "academyTier": "foundational",
+  "macroBucket": "built-world",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 34
+}

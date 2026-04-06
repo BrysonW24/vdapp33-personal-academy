@@ -1,6 +1,10 @@
-import Link from "next/link"
+import { EntityCard } from "@/components/entities/EntityCard"
+import {
+  getBrowseBucketMeta,
+  getSubjectBrowseBucket,
+  type BrowseBucket,
+} from "@/components/browse/browse-catalog"
 import { getSubjectStats, getSubjects } from "@/lib/content"
-import { SUBJECT_GROUP_LABELS } from "@/types/curriculum"
 
 export const metadata = {
   title: "Subjects",
@@ -9,60 +13,67 @@ export const metadata = {
 export default function SubjectsPage() {
   const subjects = getSubjects()
   const groupedSubjects = subjects.reduce<Record<string, typeof subjects>>((acc, subject) => {
-    if (!acc[subject.group]) acc[subject.group] = []
-    acc[subject.group].push(subject)
+    const bucket = (subject.macroBucket ??
+      getSubjectBrowseBucket(subject.slug)) as BrowseBucket
+
+    if (!acc[bucket]) acc[bucket] = []
+    acc[bucket].push(subject)
     return acc
   }, {})
 
+  const orderedBuckets = Object.keys(groupedSubjects) as BrowseBucket[]
+
   return (
-    <div className="container mx-auto px-4 py-10 space-y-8">
-      <div className="max-w-3xl">
+    <div className="container mx-auto space-y-8 px-4 py-8 sm:space-y-10">
+      <section className="rounded-[30px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.82)] p-6 shadow-editorial-soft sm:p-8">
         <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
           Canonical curriculum
         </p>
         <h1 className="mt-2 font-serif text-4xl font-semibold text-editorial-ink sm:text-5xl">
           Subjects
         </h1>
-        <p className="mt-4 text-lg leading-relaxed text-editorial-muted">
-          Subjects are still the backbone of the academy. They hold the deep
-          curriculum, while topics and roles pull from them as lenses.
+        <p className="mt-4 max-w-3xl text-lg leading-relaxed text-editorial-muted">
+          Subjects are the durable foundations of Nexus. They hold the deep curriculum,
+          the frameworks, the projects, the tools, and the field logic that everything
+          else pulls from.
         </p>
-      </div>
+      </section>
 
-      {Object.entries(groupedSubjects).map(([group, groupSubjects]) => (
-        <section key={group} className="space-y-4">
-          <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-            {SUBJECT_GROUP_LABELS[group] ?? group}
-          </p>
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {groupSubjects.map((subject) => {
-              const stats = getSubjectStats(subject.slug)
+      {orderedBuckets.map((bucket) => {
+        const groupSubjects = groupedSubjects[bucket]
+        const bucketMeta = getBrowseBucketMeta(bucket)
 
-              return (
-                <Link
-                  key={subject.slug}
-                  href={`/${subject.slug}`}
-                  className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-6 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
-                >
-                  <span
-                    className="mb-4 inline-block h-2.5 w-12 rounded-full"
-                    style={{ backgroundColor: subject.color }}
+        return (
+          <section key={bucket} className="space-y-4">
+            <div>
+              <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+                {bucketMeta.label}
+              </p>
+              <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+                {bucketMeta.label} subjects
+              </h2>
+              <p className="mt-2 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+                {bucketMeta.description}
+              </p>
+            </div>
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {groupSubjects.map((subject) => {
+                const stats = getSubjectStats(subject.slug)
+
+                return (
+                  <EntityCard
+                    key={subject.slug}
+                    entity={subject}
+                    href={`/${subject.slug}`}
+                    eyebrow="Subject"
+                    statLine={`${stats.modules} modules · ${stats.projects} projects · ${stats.tools} tools`}
                   />
-                  <h2 className="font-serif text-2xl font-semibold text-editorial-ink">
-                    {subject.name}
-                  </h2>
-                  <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
-                    {subject.tagline}
-                  </p>
-                  <p className="mt-4 text-xs text-editorial-muted">
-                    {stats.modules} modules · {stats.projects} projects · {stats.tools} tools
-                  </p>
-                </Link>
-              )
-            })}
-          </div>
-        </section>
-      ))}
+                )
+              })}
+            </div>
+          </section>
+        )
+      })}
     </div>
   )
 }

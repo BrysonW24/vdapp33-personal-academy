@@ -1,0 +1,15 @@
+{
+  "slug": "civilization-i-ii-iii",
+  "name": "Civilization I, II, III",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "Layers3",
+  "color": "#6D28D9",
+  "tagline": "A framework for reading human history as stages of social and technological scale.",
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 20
+}

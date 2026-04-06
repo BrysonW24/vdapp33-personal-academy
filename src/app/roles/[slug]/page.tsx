@@ -1,6 +1,16 @@
 import { notFound } from "next/navigation"
-import { BookOpen, Clock3, FolderKanban, Library, Map, Wrench } from "lucide-react"
+import {
+  BookOpen,
+  Clock3,
+  FileSearch,
+  FolderKanban,
+  Library,
+  Map,
+  Newspaper,
+  Wrench,
+} from "lucide-react"
 import { RoleAcademyHome } from "@/components/roles/RoleAcademyHome"
+import { getSignalDigest, getSourcePack } from "@/lib/guidance-content"
 import {
   getRelatedSubjectsForEntity,
   getRole,
@@ -26,6 +36,15 @@ export default async function RolePage({
   const projects = getRoleProjects(slug)
   const tools = getRoleTools(slug)
   const dayInLife = getRoleDayInLifeScenarios(slug)
+  const sourcePack = getSourcePack("role", slug)
+  const signalDigest = getSignalDigest("role", slug)
+
+  const sourceCount = sourcePack?.tiers.length ?? 0
+  const signalCount =
+    signalDigest?.sections.reduce(
+      (sum, section) => sum + section.items.length,
+      0
+    ) ?? 0
 
   return (
     <RoleAcademyHome
@@ -49,6 +68,22 @@ export default async function RolePage({
           description: "Follow the curriculum most relevant to actually doing the work.",
           count: stats.modules,
           icon: BookOpen,
+        },
+        {
+          href: `/roles/${slug}/sources`,
+          label: "Truth",
+          title: "Sources",
+          description: "Open the curated source stack behind the role's judgment and standards.",
+          count: sourceCount,
+          icon: FileSearch,
+        },
+        {
+          href: `/roles/${slug}/signals`,
+          label: "Live",
+          title: "Signals",
+          description: "See the developments and debates people in the role keep tracking.",
+          count: signalCount,
+          icon: Newspaper,
         },
         {
           href: `/roles/${slug}/projects`,
@@ -86,6 +121,8 @@ export default async function RolePage({
       relatedSubjects={relatedSubjects}
       featuredProject={projects[0] ?? null}
       featuredTool={tools[0] ?? null}
+      sourcePack={sourcePack}
+      signalDigest={signalDigest}
       featuredDayInLifeHref={`/roles/${slug}/day-in-the-life`}
       featuredDayInLifeCount={dayInLife.length}
     />

@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-institutional-power",
+  "title": "Working in Institutional Power",
+  "shortSummary": "A starter careers view of institutional power designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Institutional Power",
+  "category": "careers",
+  "whyItMatters": "Institutional Power is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of institutional power",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Institutional Power as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "institutional-power-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Institutional Power",
+      "href": "/politics",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-institutional-power-is",
+    "institutional-power-mental-models",
+    "institutional-power-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

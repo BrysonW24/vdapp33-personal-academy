@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-mythology",
+  "title": "Working in Mythology",
+  "shortSummary": "A starter careers view of mythology designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Mythology",
+  "category": "careers",
+  "whyItMatters": "Mythology is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of mythology",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Mythology as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "mythology-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Mythology",
+      "href": "/religion-belief-systems",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-mythology-is",
+    "mythology-mental-models",
+    "mythology-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

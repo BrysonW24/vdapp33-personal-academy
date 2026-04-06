@@ -1,0 +1,42 @@
+{
+  "slug": "anthropology-applications",
+  "title": "Anthropology in the World",
+  "shortSummary": "A starter applications view of anthropology designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "domain": "Anthropology",
+  "category": "applications",
+  "whyItMatters": "Anthropology is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of anthropology",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Anthropology as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "anthropology-where-it-shows-up"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Anthropology",
+      "href": "/psychology",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-anthropology-is",
+    "anthropology-mental-models"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3
+}

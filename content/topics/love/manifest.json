@@ -8,5 +8,8 @@
   "tagline": "The biology, psychology, philosophy, and cultural meaning of humanity's most studied emotion.",
   "tier": "thin",
   "hasNews": false,
-  "order": 8
+  "order": 8,
+  "academyTier": "thought-provoking",
+  "macroBucket": "human-being",
+  "contentStatus": "full"
 }

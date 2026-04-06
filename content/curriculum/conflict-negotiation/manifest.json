@@ -1,0 +1,15 @@
+{
+  "slug": "conflict-negotiation",
+  "name": "Conflict & Negotiation",
+  "shortName": "Negotiation",
+  "group": "humanities",
+  "icon": "Handshake",
+  "color": "#CA8A04",
+  "tagline": "How people handle disagreement, tradeoffs, and high-stakes compromise.",
+  "academyTier": "advanced",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 52
+}

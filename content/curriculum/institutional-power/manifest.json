@@ -1,0 +1,15 @@
+{
+  "slug": "institutional-power",
+  "name": "Institutional Power",
+  "shortName": "Institutions",
+  "group": "society",
+  "icon": "Building2",
+  "color": "#475569",
+  "tagline": "How corporations, governments, universities, and bureaucracies preserve and exercise power.",
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 51
+}

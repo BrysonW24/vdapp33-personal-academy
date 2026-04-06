@@ -16,6 +16,7 @@ Nexus is the learning-first side of the academy ecosystem. It shares the multi-s
 - Human readability outranks content density
 - Shared surfaces should explain the shape of a subject, topic, or role quickly before branching deeper
 - Navigation must distinguish browse-level wayfinding from entity-context wayfinding
+- Large-volume discovery should rely on macro buckets plus search-first quick jump, not giant undifferentiated lists
 - Shared landing pages should be structured, repeatable, and visually scannable rather than prose-heavy
 - Mobile optimisation is part of the architecture for shared surfaces, not a downstream QA step
 
@@ -43,6 +44,9 @@ Current state:
 - `quantum-science` and `energy-systems` are the canonical expansions of the original science/content base
 - `/{subject|role|topic}/sources` and `/{subject|role|topic}/signals` are live curated surfaces
 - Guide rails now connect start pages, module pages, lesson pages, project pages, and tool pages back into the active path
+- The homepage now teaches the hierarchy explicitly with a Three.js-based subject/topic/role explainer plus macro-bucket browse sections
+- The header now includes a persistent local command palette across desktop and mobile
+- Politics now lands on its richer systems surface directly and acts as the flagship subject-world reference implementation
 
 ## Entity-aware model
 
@@ -50,6 +54,7 @@ Current state:
 - Subjects remain canonical depth owners
 - Topics are cross-disciplinary lenses
 - Roles are embodied synthesis tracks
+- Macro buckets are a discovery layer above those canonical structures, not a replacement for them
 - The guidance layer sits across all three rather than replacing them
 - The UI should lead with exploration surfaces first, not with a required path flow
 - Roles should use a structured presentation contract that makes them readable and comparable
@@ -63,6 +68,8 @@ Current state:
 - Prefer reusable presentation systems over one-off hero or landing page implementations
 - Borrow good visual patterns from Founder OS selectively, but do not import its product stance or route assumptions
 - When updating shared surfaces, verify desktop and mobile behavior before considering the work complete
+- Keep roles feeling like guided worlds rather than static info pages
+- Keep the hierarchy language stable: subjects = disciplined depth, topics = provocative cross-domain lenses, roles = embodied intelligence
 
 ## Guidance OS layer
 
@@ -139,3 +146,14 @@ See `personal-academy-migration-analysis.md` for the post-migration depth compar
 - `/my-path`
 
 The route surface above is the currently verified runtime shell.
+
+## Browse architecture
+
+The browse layer now has four distinct jobs:
+
+1. `Top nav` for high-level route families: Home, Subjects, Roles, Topics, Signals.
+2. `Command palette` for fast local search across subjects, topics, roles, flagship modules, and signals.
+3. `Macro buckets` for large-volume discovery without forcing users through technical group names first.
+4. `Context nav` for entity-specific movement once a user is inside a subject, role, or topic.
+
+Those four jobs should remain visually and conceptually separate. Avoid collapsing them back into one overloaded navigation surface.

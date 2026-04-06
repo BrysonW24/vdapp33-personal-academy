@@ -8,5 +8,8 @@
   "tagline": "What emotions are, how they work, and why they shape everything we do.",
   "tier": "thin",
   "hasNews": false,
-  "order": 6
+  "order": 6,
+  "academyTier": "thought-provoking",
+  "macroBucket": "human-being",
+  "contentStatus": "full"
 }

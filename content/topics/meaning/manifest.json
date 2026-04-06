@@ -1,0 +1,15 @@
+{
+  "slug": "meaning",
+  "name": "Meaning",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "Lightbulb",
+  "color": "#F59E0B",
+  "tagline": "Meaning as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 38,
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

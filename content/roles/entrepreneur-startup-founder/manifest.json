@@ -7,5 +7,8 @@
   "color": "#F59E0B",
   "tagline": "You build something from nothing, solve real problems, and shape the whole system.",
   "tier": "flagship",
-  "order": 7
+  "order": 7,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
 }

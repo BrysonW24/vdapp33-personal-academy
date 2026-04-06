@@ -1,0 +1,15 @@
+{
+  "slug": "infrastructure-resilience",
+  "name": "Infrastructure Resilience",
+  "shortName": "Resilience",
+  "group": "engineering",
+  "icon": "Bridge",
+  "color": "#0F766E",
+  "tagline": "How critical systems stay standing when pressure, failure, or shock arrives.",
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 47
+}

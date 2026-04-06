@@ -1,0 +1,18 @@
+{
+  "slug": "miro",
+  "name": "Miro",
+  "category": "mapping",
+  "description": "Use diagramming boards to sketch systems, incentives, flows, and comparisons.",
+  "whyUseIt": "It is one of the fastest ways to turn a field into a visible mental model.",
+  "pricingTier": "freemium",
+  "alternatives": [],
+  "outputs": [
+    "maps",
+    "notes",
+    "analysis"
+  ],
+  "vocabulary": [],
+  "beginnerMistakes": [
+    "Using the tool before the thinking is clear"
+  ]
+}

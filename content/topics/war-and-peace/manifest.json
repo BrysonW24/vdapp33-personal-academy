@@ -1,0 +1,15 @@
+{
+  "slug": "war-and-peace",
+  "name": "War and Peace",
+  "kind": "topic",
+  "group": "society",
+  "icon": "Shield",
+  "color": "#991B1B",
+  "tagline": "War and Peace as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 35,
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

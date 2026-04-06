@@ -1,12 +1,12 @@
 {
   "slug": "intelligence-analyst",
   "title": "What being an Intelligence Analyst actually involves",
-  "summary": "Intelligence analysis is not espionage. It is the disciplined work of collecting information from multiple sources — satellite imagery, open-source reporting, signals intercepts, human intelligence reports, financial records — and synthesising it into assessments that help decision-makers act when the picture is incomplete. Most of your time is spent reading, cross-referencing, and writing. The glamour is minimal. The consequences of getting it wrong are real.\n\nThe core skill is structured thinking under uncertainty. You are trained to distinguish what you know from what you assess, to quantify confidence levels, to identify gaps in collection, and to resist cognitive biases that push analysts toward premature conclusions. You write in a specific style — concise, evidence-based, with analytic confidence levels attached to every key judgement. A finished intelligence product might be a two-page brief for a minister, a threat assessment for a military commander, or a strategic estimate about a foreign government's intentions over the next five years.\n\nWhat draws people to this work is the combination of intellectual rigour and real-world stakes. You are not producing academic research for peer review in three years. You are producing assessments that shape decisions today — whether to impose sanctions, deploy forces, warn an ally, or change a security posture. The feedback loop is fast, the information environment is adversarial, and the analytical problems are genuinely hard. You will be wrong sometimes. The discipline is in being wrong less often and being transparent about your reasoning.",
+  "summary": "Intelligence analysis is not espionage. It is the disciplined work of collecting information from multiple sources \u2014 satellite imagery, open-source reporting, signals intercepts, human intelligence reports, financial records \u2014 and synthesising it into assessments that help decision-makers act when the picture is incomplete. Most of your time is spent reading, cross-referencing, and writing. The glamour is minimal. The consequences of getting it wrong are real.\n\nThe core skill is structured thinking under uncertainty. You are trained to distinguish what you know from what you assess, to quantify confidence levels, to identify gaps in collection, and to resist cognitive biases that push analysts toward premature conclusions. You write in a specific style \u2014 concise, evidence-based, with analytic confidence levels attached to every key judgement. A finished intelligence product might be a two-page brief for a minister, a threat assessment for a military commander, or a strategic estimate about a foreign government's intentions over the next five years.\n\nWhat draws people to this work is the combination of intellectual rigour and real-world stakes. You are not producing academic research for peer review in three years. You are producing assessments that shape decisions today \u2014 whether to impose sanctions, deploy forces, warn an ally, or change a security posture. The feedback loop is fast, the information environment is adversarial, and the analytical problems are genuinely hard. You will be wrong sometimes. The discipline is in being wrong less often and being transparent about your reasoning.",
   "coreWork": [
     "Collecting and evaluating information from multiple intelligence streams (OSINT, SIGINT, HUMINT, GEOINT, FININT)",
-    "Writing structured analytic products — threat assessments, strategic estimates, current intelligence briefs",
+    "Writing structured analytic products \u2014 threat assessments, strategic estimates, current intelligence briefs",
     "Applying structured analytic techniques to counter cognitive bias and strengthen judgements",
-    "Briefing decision-makers — ministers, military commanders, senior executives — under time pressure",
+    "Briefing decision-makers \u2014 ministers, military commanders, senior executives \u2014 under time pressure",
     "Monitoring ongoing situations and updating assessments as new information arrives",
     "Evaluating source reliability and information credibility using standardised frameworks",
     "Collaborating with collectors, other analysts, and partner agencies to fill intelligence gaps",
@@ -22,5 +22,38 @@
     "Source evaluation and credibility assessment",
     "Pattern recognition across large datasets",
     "Critical thinking under uncertainty"
+  ],
+  "whenItCameAbout": "Modern intelligence analysis matured alongside state bureaucracies, war planning, and signal collection systems. The role became especially formalised during the world wars and the Cold War, then expanded again through cyber, open-source intelligence, and massive data volumes.",
+  "whatPeopleDo": [
+    "Distinguish evidence from judgment",
+    "Synthesize incomplete information into usable assessments",
+    "Write concise analytic products",
+    "Brief decision-makers under uncertainty"
+  ],
+  "howPeopleGetThere": "People often come through politics, history, languages, security studies, economics, or military and government pathways, then learn structured analytic tradecraft on the job.",
+  "strengths": [
+    "Structured thinking",
+    "Source evaluation",
+    "Writing under uncertainty",
+    "Bias resistance"
+  ],
+  "whoThrivesHere": "People thrive when they can stay skeptical without becoming cynical, hold multiple hypotheses in tension, and remain clear when the information picture is incomplete.",
+  "exposures": [
+    "Deception",
+    "Time pressure",
+    "High-stakes briefing cycles",
+    "Incomplete collection"
+  ],
+  "careerLevers": [
+    "Better source judgment",
+    "Stronger structured analysis",
+    "Clearer briefing quality",
+    "Domain expertise that compounds"
+  ],
+  "careerPath": [
+    "Foundational tradecraft",
+    "Trusted analyst",
+    "Senior subject-matter specialist",
+    "Lead analyst or strategic intelligence adviser"
   ]
 }

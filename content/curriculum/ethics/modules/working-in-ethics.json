@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-ethics",
+  "title": "Working in Ethics",
+  "shortSummary": "A starter careers view of ethics designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Ethics",
+  "category": "careers",
+  "whyItMatters": "Ethics is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of ethics",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Ethics as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "ethics-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Ethics",
+      "href": "/subjects",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-ethics-is",
+    "ethics-mental-models",
+    "ethics-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

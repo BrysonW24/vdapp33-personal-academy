@@ -8,5 +8,8 @@
   "tagline": "How institutions, norms, class, identity, and culture shape collective life.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 21
+  "order": 21,
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
 }

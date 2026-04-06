@@ -8,5 +8,8 @@
   "tagline": "Foundations, experiments, and the laws that govern matter, energy, space, and time.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 1
+  "order": 1,
+  "academyTier": "foundational",
+  "macroBucket": "reality",
+  "contentStatus": "full"
 }

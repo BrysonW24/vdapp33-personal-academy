@@ -21,6 +21,9 @@ import type {
 import { sortModulesForDisplay } from "@/lib/teaching-contract"
 
 const CONTENT_DIR = path.join(process.cwd(), "content/curriculum")
+const directoryCache = new Map<string, unknown[]>()
+const fileCache = new Map<string, unknown | null>()
+let subjectsCache: SubjectManifest[] | null = null
 const SUBJECT_MANIFEST_ALIASES: Record<
   string,
   { slug: string; name: string; shortName: string }
@@ -91,16 +94,23 @@ function readJsonDir<T>(
   dir: string,
   schema: { parse: (data: unknown) => T }
 ): T[] {
+  const cacheKey = `${getSubjectDir(subject)}:${dir}`
+  const cached = directoryCache.get(cacheKey)
+  if (cached) return cached as T[]
+
   const fullPath = path.join(CONTENT_DIR, getSubjectDir(subject), dir)
   if (!fs.existsSync(fullPath)) return []
 
-  return fs
+  const value = fs
     .readdirSync(fullPath)
     .filter((file) => file.endsWith(".json"))
     .map((file) => {
       const raw = JSON.parse(fs.readFileSync(path.join(fullPath, file), "utf-8"))
       return schema.parse(raw)
     })
+
+  directoryCache.set(cacheKey, value)
+  return value
 }
 
 function readJsonFile<T>(
@@ -108,14 +118,25 @@ function readJsonFile<T>(
   filePath: string,
   schema: { parse: (data: unknown) => T }
 ): T | null {
+  const cacheKey = `${getSubjectDir(subject)}:${filePath}`
+  if (fileCache.has(cacheKey)) {
+    return fileCache.get(cacheKey) as T | null
+  }
+
   const fullPath = path.join(CONTENT_DIR, getSubjectDir(subject), filePath)
-  if (!fs.existsSync(fullPath)) return null
+  if (!fs.existsSync(fullPath)) {
+    fileCache.set(cacheKey, null)
+    return null
+  }
 
   const raw = JSON.parse(fs.readFileSync(fullPath, "utf-8"))
-  return schema.parse(raw)
+  const value = schema.parse(raw)
+  fileCache.set(cacheKey, value)
+  return value
 }
 
 export function getSubjects(): SubjectManifest[] {
+  if (subjectsCache) return subjectsCache
   if (!fs.existsSync(CONTENT_DIR)) return []
 
   const hasCanonicalQuantumScience = fs.existsSync(
@@ -148,7 +169,8 @@ export function getSubjects(): SubjectManifest[] {
     subjects.push(...SYNTHETIC_SUBJECTS)
   }
 
-  return subjects.sort((a, b) => a.order - b.order)
+  subjectsCache = subjects.sort((a, b) => a.order - b.order)
+  return subjectsCache
 }
 
 export function getSubject(slug: string): SubjectManifest | null {

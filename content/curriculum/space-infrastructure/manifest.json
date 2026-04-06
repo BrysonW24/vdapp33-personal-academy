@@ -8,5 +8,8 @@
   "tagline": "Launch, satellites, ground systems, and the infrastructure that makes orbital activity possible.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 18
+  "order": 18,
+  "academyTier": "frontier",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

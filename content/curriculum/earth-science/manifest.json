@@ -1,0 +1,15 @@
+{
+  "slug": "earth-science",
+  "name": "Earth Science",
+  "shortName": "Earth",
+  "group": "sciences",
+  "icon": "Mountain",
+  "color": "#B45309",
+  "tagline": "Geology, oceans, climate, and the systems that shape our planet.",
+  "academyTier": "foundational",
+  "macroBucket": "reality",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 36
+}

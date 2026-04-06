@@ -8,5 +8,8 @@
   "tagline": "How money is recorded, allocated, measured, reported, and managed inside real organizations.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 25
+  "order": 25,
+  "academyTier": "foundational",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
 }

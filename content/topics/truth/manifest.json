@@ -1,0 +1,15 @@
+{
+  "slug": "truth",
+  "name": "Truth",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "BadgeCheck",
+  "color": "#1D4ED8",
+  "tagline": "How claims are tested, justified, corrected, and trusted.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 26
+}

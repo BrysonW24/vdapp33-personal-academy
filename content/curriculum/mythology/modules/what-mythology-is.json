@@ -1,0 +1,39 @@
+{
+  "slug": "what-mythology-is",
+  "title": "What Mythology Is",
+  "shortSummary": "A starter orientation view of mythology designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "domain": "Mythology",
+  "category": "orientation",
+  "whyItMatters": "Mythology is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of mythology",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Mythology as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "what-is-mythology"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Mythology",
+      "href": "/religion-belief-systems",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

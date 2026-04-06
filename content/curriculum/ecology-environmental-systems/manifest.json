@@ -1,0 +1,15 @@
+{
+  "slug": "ecology-environmental-systems",
+  "name": "Ecology & Environmental Systems",
+  "shortName": "Ecology",
+  "group": "sciences",
+  "icon": "Trees",
+  "color": "#16A34A",
+  "tagline": "How ecosystems, resources, climate, and living systems interact.",
+  "academyTier": "foundational",
+  "macroBucket": "reality",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 37
+}

@@ -8,5 +8,8 @@
   "tagline": "How trust, attachment, conflict, and commitment shape the bonds between people.",
   "tier": "thin",
   "hasNews": false,
-  "order": 12
+  "order": 12,
+  "academyTier": "thought-provoking",
+  "macroBucket": "human-being",
+  "contentStatus": "full"
 }

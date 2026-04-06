@@ -8,5 +8,8 @@
   "tagline": "How goods, materials, information, and capacity move through real operating systems.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 26
+  "order": 26,
+  "academyTier": "advanced",
+  "macroBucket": "markets-assets",
+  "contentStatus": "full"
 }

@@ -1,0 +1,15 @@
+{
+  "slug": "identity-culture",
+  "name": "Identity & Culture",
+  "shortName": "Identity",
+  "group": "humanities",
+  "icon": "BadgeInfo",
+  "color": "#9333EA",
+  "tagline": "How people and groups form meaning, loyalty, belonging, and norms.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 62
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "aesthetics",
+  "name": "Aesthetics",
+  "shortName": "Aesthetics",
+  "group": "humanities",
+  "icon": "Brush",
+  "color": "#EC4899",
+  "tagline": "Why beauty, form, taste, and artistic judgment matter.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 57
+}

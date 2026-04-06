@@ -1,0 +1,15 @@
+{
+  "slug": "progress",
+  "name": "Progress",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "TrendingUp",
+  "color": "#16A34A",
+  "tagline": "How societies, tools, and ideas improve, stall, and sometimes regress.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 27
+}

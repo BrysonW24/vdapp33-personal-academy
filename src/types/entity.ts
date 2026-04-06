@@ -1,9 +1,12 @@
 import type {
+  AcademyTier,
+  CatalogContentStatus,
   DayInLife,
   Framework,
   Lesson,
   Module,
   Project,
+  MacroBucket,
   SubjectManifest,
   Tool,
 } from "@/types/curriculum"
@@ -20,7 +23,11 @@ export interface EntityManifest {
   icon: string
   color: string
   tagline: string
+  description?: string
   tier?: EntityTier
+  academyTier?: AcademyTier
+  macroBucket?: MacroBucket
+  contentStatus?: CatalogContentStatus
   hasNews?: boolean
   order: number
   shortName?: string

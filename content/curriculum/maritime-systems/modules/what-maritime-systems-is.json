@@ -1,0 +1,39 @@
+{
+  "slug": "what-maritime-systems-is",
+  "title": "What Maritime Systems Is",
+  "shortSummary": "A starter orientation view of maritime systems designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "domain": "Maritime Systems",
+  "category": "orientation",
+  "whyItMatters": "Maritime Systems is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of maritime systems",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Maritime Systems as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "what-is-maritime-systems"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Maritime Systems",
+      "href": "/trade-globalization",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

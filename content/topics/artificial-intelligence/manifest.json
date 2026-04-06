@@ -2,11 +2,14 @@
   "slug": "artificial-intelligence",
   "name": "Artificial Intelligence",
   "kind": "topic",
-  "group": "engineering",
+  "group": "mind",
   "icon": "Brain",
   "color": "#8B5CF6",
   "tagline": "How machines learn, reason, and reshape what humans can build.",
   "tier": "flagship",
   "hasNews": true,
-  "order": 1
+  "order": 1,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "full"
 }

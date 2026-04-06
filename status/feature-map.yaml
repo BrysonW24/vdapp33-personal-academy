@@ -5,7 +5,7 @@ surfaces:
   - route: /
     feature: Exploration dashboard
     status: live
-    notes: Browse-first exploration dashboard with subject, topic, and role discovery; My Path remains available but secondary.
+    notes: Browse-first exploration dashboard with a hierarchy explainer, macro-bucket discovery, and a more search-first orientation; My Path remains available but secondary.
 
   - route: /setup
     feature: Soft onboarding
@@ -20,17 +20,17 @@ surfaces:
   - route: /subjects
     feature: Subject directory
     status: live
-    notes: Directory view for canonical academy subjects.
+    notes: Directory view for canonical academy subjects grouped by browse macro buckets rather than only technical groups.
 
   - route: /roles
     feature: Role directory
     status: live
-    notes: Directory view for embodied synthesis tracks such as Astronaut and Diplomat.
+    notes: Directory view for embodied synthesis tracks such as Astronaut and Diplomat, grouped by browse macro buckets.
 
   - route: /topics
     feature: Topic directory
     status: live
-    notes: Directory view for cross-disciplinary curiosity layers such as AI, Investing, Economics, Health, Communication, and Consciousness.
+    notes: Directory view for cross-disciplinary curiosity layers such as AI, Investing, Economics, Health, Communication, and Consciousness, grouped by browse macro buckets.
 
   - route: /signals
     feature: Signals hub
@@ -40,7 +40,7 @@ surfaces:
   - route: /[subject]
     feature: Start Here subject landing
     status: live
-    notes: Browse-first subject overview with an embedded guide rail, truth-stack preview, signal preview, and optional next-best-action support.
+    notes: Browse-first subject overview with an embedded guide rail, truth-stack preview, signal preview, and optional next-best-action support. Politics is a special flagship subject-world and lands directly on its richer systems surface.
 
   - route: /[subject]/blueprint
     feature: Generated blueprint
@@ -136,6 +136,18 @@ supporting_capabilities:
   - name: Entity-aware navigation layer
     status: live
     notes: The navigation helper resolves subject, role, and topic kinds from path context and exposes sources/signals alongside the primary curriculum sections.
+
+  - name: Command palette quick jump
+    status: live
+    notes: Local static search indexes subjects, topics, roles, flagship modules, and signals, and is now available from both desktop and mobile navigation.
+
+  - name: Macro-bucket browse model
+    status: live
+    notes: Discovery is now layered above technical groups using Reality, Human Being, Civilization, Built World, Markets & Assets, Meaning & Culture, and Frontier buckets.
+
+  - name: Guided-world role surfaces
+    status: live
+    notes: Astronaut is the reference implementation and the other flagship roles now follow the same structured, readable role-world contract.
 
   - name: Deterministic blueprint generation
     status: live

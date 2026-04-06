@@ -1,67 +1,75 @@
-import { Sparkles } from "lucide-react"
 import { EntityCard } from "@/components/entities/EntityCard"
+import {
+  getBrowseBucketMeta,
+  getTopicBrowseBucket,
+  type BrowseBucket,
+} from "@/components/browse/browse-catalog"
 import { getTopics, getTopicStats } from "@/lib/entities"
-import { SUBJECT_GROUP_LABELS } from "@/types/curriculum"
 
 export default function TopicsIndexPage() {
   const topics = getTopics()
 
-  const grouped = topics.reduce<Record<string, typeof topics>>((acc, topic) => {
-    if (!acc[topic.group]) acc[topic.group] = []
-    acc[topic.group].push(topic)
+  const groupedTopics = topics.reduce<Record<string, typeof topics>>((acc, topic) => {
+    const bucket = (topic.macroBucket ?? getTopicBrowseBucket(topic.slug)) as BrowseBucket
+    if (!acc[bucket]) acc[bucket] = []
+    acc[bucket].push(topic)
     return acc
   }, {})
 
+  const orderedBuckets = Object.keys(groupedTopics) as BrowseBucket[]
+
   return (
-    <div className="container mx-auto px-4 py-8 space-y-10">
-      <section className="rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.82)] p-8 shadow-editorial-soft">
-        <div className="mb-4 flex items-center gap-2">
-          <span className="flex h-10 w-10 items-center justify-center rounded-[14px] bg-editorial-amber text-white">
-            <Sparkles className="h-5 w-5" />
-          </span>
-          <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-            Topic explorer
-          </p>
-        </div>
-        <h1 className="font-serif text-4xl font-semibold text-editorial-ink sm:text-5xl">
+    <div className="container mx-auto space-y-8 px-4 py-8 sm:space-y-10">
+      <section className="rounded-[30px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.82)] p-6 shadow-editorial-soft sm:p-8">
+        <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+          Cross-domain lenses
+        </p>
+        <h1 className="mt-2 font-serif text-4xl font-semibold text-editorial-ink sm:text-5xl">
           Topics
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-relaxed text-editorial-muted">
-          Topics let the academy go broad without flattening everything into subjects.
-          They bring together concepts, applications, and tools around curiosities like
-          artificial intelligence, economics, history, communication, consciousness, and
-          human systems.
+          Topics let Nexus go broad without flattening everything into subjects. They
+          are the curiosity-first layer for larger questions, tensions, worldview
+          frames, and big cross-domain ideas.
         </p>
       </section>
 
-      {Object.entries(grouped).map(([group, groupTopics]) => (
-        <section key={group} className="space-y-4">
-          <div>
-            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-              {SUBJECT_GROUP_LABELS[group] ?? group}
-            </p>
-            <h2 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
-              Open topic destinations
-            </h2>
-          </div>
+      {orderedBuckets.map((bucket) => {
+        const bucketMeta = getBrowseBucketMeta(bucket)
 
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {groupTopics.map((topic) => {
-              const stats = getTopicStats(topic.slug)
+        return (
+          <section key={bucket} className="space-y-4">
+            <div>
+              <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
+                {bucketMeta.label}
+              </p>
+              <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+                {bucketMeta.label} topics
+              </h2>
+              <p className="mt-2 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+                These topics help you move through the map by question, synthesis, and
+                worldview rather than by discipline alone.
+              </p>
+            </div>
 
-              return (
-                <EntityCard
-                  key={topic.slug}
-                  entity={topic}
-                  href={`/topics/${topic.slug}`}
-                  eyebrow="Topic"
-                  statLine={`${stats.sections} concepts · ${stats.projects} applications · ${stats.tools} tools`}
-                />
-              )
-            })}
-          </div>
-        </section>
-      ))}
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {groupedTopics[bucket].map((topic) => {
+                const stats = getTopicStats(topic.slug)
+
+                return (
+                  <EntityCard
+                    key={topic.slug}
+                    entity={topic}
+                    href={`/topics/${topic.slug}`}
+                    eyebrow="Topic"
+                    statLine={`${stats.sections} concepts · ${stats.projects} applications · ${stats.tools} tools`}
+                  />
+                )
+              })}
+            </div>
+          </section>
+        )
+      })}
     </div>
   )
 }

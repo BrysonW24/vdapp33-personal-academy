@@ -51,6 +51,9 @@ const ENTITY_DIRS: Record<OverlayEntityKind, string> = {
   role: path.join(process.cwd(), "content/roles"),
   topic: path.join(process.cwd(), "content/topics"),
 }
+const entityFileCache = new Map<string, unknown | null>()
+const entityDirCache = new Map<string, unknown[]>()
+const entityListCache = new Map<OverlayEntityKind, EntityManifest[]>()
 
 const TOPIC_SECTION_ORDER = [
   "what-it-is",
@@ -63,10 +66,19 @@ function readJsonFile<T>(
   fullPath: string,
   schema: { parse: (value: unknown) => T }
 ): T | null {
-  if (!fs.existsSync(fullPath)) return null
+  if (entityFileCache.has(fullPath)) {
+    return entityFileCache.get(fullPath) as T | null
+  }
+
+  if (!fs.existsSync(fullPath)) {
+    entityFileCache.set(fullPath, null)
+    return null
+  }
 
   const raw = JSON.parse(fs.readFileSync(fullPath, "utf-8"))
-  return schema.parse(raw)
+  const value = schema.parse(raw)
+  entityFileCache.set(fullPath, value)
+  return value
 }
 
 function readEntityJson<T>(
@@ -85,15 +97,25 @@ function readEntityDir<T>(
   schema: { parse: (value: unknown) => T }
 ): T[] {
   const fullPath = path.join(ENTITY_DIRS[kind], slug, relativeDir)
-  if (!fs.existsSync(fullPath)) return []
+  if (entityDirCache.has(fullPath)) {
+    return entityDirCache.get(fullPath) as T[]
+  }
 
-  return fs
+  if (!fs.existsSync(fullPath)) {
+    entityDirCache.set(fullPath, [])
+    return []
+  }
+
+  const value = fs
     .readdirSync(fullPath)
     .filter((file) => file.endsWith(".json"))
     .map((file) => {
       const raw = JSON.parse(fs.readFileSync(path.join(fullPath, file), "utf-8"))
       return schema.parse(raw)
     })
+
+  entityDirCache.set(fullPath, value)
+  return value
 }
 
 function unique<T>(items: T[]): T[] {
@@ -187,10 +209,13 @@ function aliasTool(tool: Tool, subject: SubjectManifest): Tool {
 }
 
 export function getEntities(kind: OverlayEntityKind): EntityManifest[] {
+  const cached = entityListCache.get(kind)
+  if (cached) return cached
+
   const dir = ENTITY_DIRS[kind]
   if (!fs.existsSync(dir)) return []
 
-  return fs
+  const value = fs
     .readdirSync(dir, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
     .filter((entry) => fs.existsSync(path.join(dir, entry.name, "manifest.json")))
@@ -202,6 +227,9 @@ export function getEntities(kind: OverlayEntityKind): EntityManifest[] {
       return EntityManifestSchema.parse(raw)
     })
     .sort((left, right) => left.order - right.order)
+
+  entityListCache.set(kind, value)
+  return value
 }
 
 export function getRoles() {

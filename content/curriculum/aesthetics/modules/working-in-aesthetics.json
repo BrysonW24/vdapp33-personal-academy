@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-aesthetics",
+  "title": "Working in Aesthetics",
+  "shortSummary": "A starter careers view of aesthetics designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Aesthetics",
+  "category": "careers",
+  "whyItMatters": "Aesthetics is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of aesthetics",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Aesthetics as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "aesthetics-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Aesthetics",
+      "href": "/design",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-aesthetics-is",
+    "aesthetics-mental-models",
+    "aesthetics-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

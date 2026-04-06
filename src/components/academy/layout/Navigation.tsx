@@ -1,8 +1,8 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useMemo, useState } from "react";
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { useEffect, useMemo, useState } from "react"
 import {
   BookOpen,
   ChevronDown,
@@ -16,17 +16,21 @@ import {
   Sparkles,
   Wrench,
   X,
-} from "lucide-react";
-import { NexusGlyph, NexusWordmark } from "@/components/branding/NexusWordmark";
-import { cn } from "@/lib/utils";
-import { getNavSectionGroups, resolveNavContext } from "@/lib/entity-nav";
-import { SUBJECT_GROUP_LABELS, type SubjectManifest } from "@/types/curriculum";
-import type { EntityManifest } from "@/types/entity";
+} from "lucide-react"
+import type { BrowseItem } from "@/components/browse/browse-catalog"
+import { BrowseEntityIcon } from "@/components/browse/BrowseEntityIcon"
+import { CommandPalette } from "@/components/browse/CommandPalette"
+import { NexusWordmark } from "@/components/branding/NexusWordmark"
+import { cn } from "@/lib/utils"
+import { getNavSectionGroups, resolveNavContext } from "@/lib/entity-nav"
+import { SUBJECT_GROUP_LABELS, type SubjectManifest } from "@/types/curriculum"
+import type { EntityManifest } from "@/types/entity"
 
 interface NavigationProps {
-  subjects: SubjectManifest[];
-  roles: EntityManifest[];
-  topics: EntityManifest[];
+  subjects: SubjectManifest[]
+  roles: EntityManifest[]
+  topics: EntityManifest[]
+  browseItems: BrowseItem[]
 }
 
 const ICONS = {
@@ -37,32 +41,45 @@ const ICONS = {
   Library,
   Landmark,
   Map,
+  Sparkles,
   Wrench,
-} as const;
+} as const
 
 const DIRECTORY_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/subjects", label: "Subjects" },
-  { href: "/roles", label: "Roles" },
-  { href: "/topics", label: "Topics" },
-  { href: "/signals", label: "Signals" },
-] as const;
+  { href: "/", label: "Home", icon: Compass },
+  { href: "/subjects", label: "Subjects", icon: BookOpen },
+  { href: "/roles", label: "Roles", icon: Landmark },
+  { href: "/topics", label: "Topics", icon: Sparkles },
+  { href: "/signals", label: "Signals", icon: Clock3 },
+] as const
 
 function isDirectoryActive(pathname: string, href: string) {
-  if (href === "/") return pathname === "/";
-  return pathname === href || pathname.startsWith(`${href}/`);
+  if (href === "/") return pathname === "/"
+  return pathname === href || pathname.startsWith(`${href}/`)
 }
 
-export function Navigation({ subjects, roles, topics }: NavigationProps) {
-  const pathname = usePathname();
-  const [mobileOpen, setMobileOpen] = useState(false);
-  const [collectionOpen, setCollectionOpen] = useState(false);
-  const [contextMoreOpen, setContextMoreOpen] = useState(false);
+export function Navigation({
+  subjects,
+  roles,
+  topics,
+  browseItems,
+}: NavigationProps) {
+  const pathname = usePathname()
+  const [mobileOpen, setMobileOpen] = useState(false)
+  const [collectionOpen, setCollectionOpen] = useState(false)
+  const [contextMoreOpen, setContextMoreOpen] = useState(false)
+
+  useEffect(() => {
+    setMobileOpen(false)
+    setCollectionOpen(false)
+    setContextMoreOpen(false)
+  }, [pathname])
+
   const subjectSlugs = useMemo(
     () => subjects.map((subject) => subject.slug),
-    [subjects],
-  );
-  const currentContext = resolveNavContext(pathname, subjectSlugs);
+    [subjects]
+  )
+  const currentContext = resolveNavContext(pathname, subjectSlugs)
 
   const currentCollection =
     currentContext?.kind === "subject"
@@ -71,24 +88,23 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
         ? roles
         : currentContext?.kind === "topic"
           ? topics
-          : [];
+          : []
 
   const currentEntity =
     currentContext?.kind === "subject"
-      ? (subjects.find((subject) => subject.slug === currentContext.slug) ??
-        null)
+      ? (subjects.find((subject) => subject.slug === currentContext.slug) ?? null)
       : (currentCollection.find(
-          (entity) => entity.slug === currentContext?.slug,
-        ) ?? null);
+          (entity) => entity.slug === currentContext?.slug
+        ) ?? null)
 
   const groupedSubjects = subjects.reduce<Record<string, SubjectManifest[]>>(
     (acc, subject) => {
-      if (!acc[subject.group]) acc[subject.group] = [];
-      acc[subject.group].push(subject);
-      return acc;
+      if (!acc[subject.group]) acc[subject.group] = []
+      acc[subject.group].push(subject)
+      return acc
     },
-    {},
-  );
+    {}
+  )
 
   const navSectionGroups = currentContext
     ? getNavSectionGroups(
@@ -97,21 +113,21 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
           currentEntity &&
           "deepDivePages" in currentEntity
           ? currentEntity
-          : null,
+          : null
       )
-    : { primary: [], overflow: [] };
+    : { primary: [], overflow: [] }
 
-  const primaryNavSections = navSectionGroups.primary;
-  const overflowNavSections = navSectionGroups.overflow;
+  const primaryNavSections = navSectionGroups.primary
+  const overflowNavSections = navSectionGroups.overflow
 
   const sectionHref = (segment: string) =>
-    currentContext ? `${currentContext.basePath}${segment}` : "/";
+    currentContext ? `${currentContext.basePath}${segment}` : "/"
 
   const isSectionActive = (segment: string) => {
-    if (!currentContext) return false;
-    const href = sectionHref(segment);
-    return segment === "" ? pathname === href : pathname.startsWith(href);
-  };
+    if (!currentContext) return false
+    const href = sectionHref(segment)
+    return segment === "" ? pathname === href : pathname.startsWith(href)
+  }
 
   const collectionLabel =
     currentContext?.kind === "subject"
@@ -120,16 +136,20 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
         ? "Roles"
         : currentContext?.kind === "topic"
           ? "Topics"
-          : null;
+          : null
+
+  const quickSubjects = subjects.slice(0, 4)
+  const quickRoles = roles.slice(0, 4)
+  const quickTopics = topics.slice(0, 4)
 
   const closeMobileMenu = () => {
-    setMobileOpen(false);
-    setContextMoreOpen(false);
-  };
+    setMobileOpen(false)
+    setContextMoreOpen(false)
+  }
 
   return (
     <header className="fixed left-0 right-0 top-0 z-50 rounded-none border-b border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.95)] backdrop-blur-[16px] shadow-editorial-soft sm:left-[18px] sm:right-[18px] sm:top-[18px] sm:rounded-[18px] sm:border">
-      <div className="container flex min-h-14 items-center justify-between gap-2 py-2">
+      <div className="container flex min-h-14 items-center gap-2 py-2 sm:min-h-16">
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <NexusWordmark
             size="compact"
@@ -144,11 +164,11 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
         </Link>
 
         {currentEntity ? (
-          <div className="relative hidden lg:block">
+          <div className="relative hidden xl:block">
             <button
               onClick={() => {
-                setCollectionOpen((open) => !open);
-                setContextMoreOpen(false);
+                setCollectionOpen((open) => !open)
+                setContextMoreOpen(false)
               }}
               className="flex items-center gap-1.5 rounded-full border border-[rgba(44,49,59,0.1)] bg-white/80 px-3 py-1.5 text-sm font-medium text-editorial-ink shadow-sm"
             >
@@ -163,7 +183,7 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
               <ChevronDown
                 className={cn(
                   "h-3 w-3 transition-transform",
-                  collectionOpen && "rotate-180",
+                  collectionOpen && "rotate-180"
                 )}
               />
             </button>
@@ -176,36 +196,34 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
                 />
                 <div className="absolute left-0 top-full z-50 mt-2 w-72 rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.95)] p-3 shadow-editorial backdrop-blur-[20px]">
                   {currentContext?.kind === "subject" ? (
-                    Object.entries(groupedSubjects).map(
-                      ([group, groupSubjects]) => (
-                        <div key={group} className="mb-3 last:mb-0">
-                          <p className="mb-1 px-2 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                            {SUBJECT_GROUP_LABELS[group] ?? group}
-                          </p>
-                          <div className="space-y-0.5">
-                            {groupSubjects.map((subject) => (
-                              <Link
-                                key={subject.slug}
-                                href={`/${subject.slug}`}
-                                onClick={() => setCollectionOpen(false)}
-                                className={cn(
-                                  "flex items-center gap-2.5 rounded-[12px] px-3 py-2 text-sm transition-all duration-200",
-                                  pathname.startsWith(`/${subject.slug}`)
-                                    ? "bg-white/80 text-editorial-ink shadow-sm"
-                                    : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
-                                )}
-                              >
-                                <span
-                                  className="inline-block h-2 w-2 rounded-full shrink-0"
-                                  style={{ backgroundColor: subject.color }}
-                                />
-                                {subject.name}
-                              </Link>
-                            ))}
-                          </div>
+                    Object.entries(groupedSubjects).map(([group, groupSubjects]) => (
+                      <div key={group} className="mb-3 last:mb-0">
+                        <p className="mb-1 px-2 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                          {SUBJECT_GROUP_LABELS[group] ?? group}
+                        </p>
+                        <div className="space-y-0.5">
+                          {groupSubjects.map((subject) => (
+                            <Link
+                              key={subject.slug}
+                              href={`/${subject.slug}`}
+                              onClick={() => setCollectionOpen(false)}
+                              className={cn(
+                                "flex items-center gap-2.5 rounded-[12px] px-3 py-2 text-sm transition-all duration-200",
+                                pathname.startsWith(`/${subject.slug}`)
+                                  ? "bg-white/80 text-editorial-ink shadow-sm"
+                                  : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink"
+                              )}
+                            >
+                              <span
+                                className="inline-block h-2 w-2 rounded-full shrink-0"
+                                style={{ backgroundColor: subject.color }}
+                              />
+                              {subject.name}
+                            </Link>
+                          ))}
                         </div>
-                      ),
-                    )
+                      </div>
+                    ))
                   ) : (
                     <div className="space-y-0.5">
                       <p className="mb-1 px-2 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
@@ -219,10 +237,10 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
                           className={cn(
                             "flex items-center gap-2.5 rounded-[12px] px-3 py-2 text-sm transition-all duration-200",
                             pathname.startsWith(
-                              `/${currentContext?.kind === "role" ? "roles" : "topics"}/${entity.slug}`,
+                              `/${currentContext?.kind === "role" ? "roles" : "topics"}/${entity.slug}`
                             )
                               ? "bg-white/80 text-editorial-ink shadow-sm"
-                              : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
+                              : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink"
                           )}
                         >
                           <span
@@ -240,7 +258,7 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
           </div>
         ) : null}
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="ml-auto hidden items-center gap-3 lg:flex">
           <nav className="flex items-center gap-1 rounded-full border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.58)] p-1 shadow-sm">
             {DIRECTORY_LINKS.map((item) => (
               <Link
@@ -250,13 +268,15 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
                   "rounded-full px-3 py-1.5 text-sm transition-all duration-200",
                   isDirectoryActive(pathname, item.href)
                     ? "border border-[rgba(44,49,59,0.1)] bg-white/80 text-editorial-ink shadow-sm"
-                    : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
+                    : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink"
                 )}
               >
                 {item.label}
               </Link>
             ))}
           </nav>
+
+          <CommandPalette items={browseItems} className="justify-between min-w-[196px]" />
 
           {currentContext ? (
             <div className="flex items-center gap-2 rounded-full border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.44)] p-1.5 shadow-sm">
@@ -265,8 +285,7 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
               </span>
               <nav className="flex items-center gap-0.5">
                 {primaryNavSections.map((item) => {
-                  const Icon =
-                    ICONS[item.iconName as keyof typeof ICONS] ?? Compass;
+                  const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
 
                   return (
                     <Link
@@ -276,36 +295,34 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
                         "flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-[13px] transition-all duration-200",
                         isSectionActive(item.segment)
                           ? "border border-[rgba(44,49,59,0.1)] bg-white/90 text-editorial-ink shadow-sm"
-                          : "text-editorial-muted hover:bg-white/60 hover:text-editorial-ink",
+                          : "text-editorial-muted hover:bg-white/60 hover:text-editorial-ink"
                       )}
                     >
                       <Icon className="h-3.5 w-3.5" />
                       {item.label}
                     </Link>
-                  );
+                  )
                 })}
 
                 {overflowNavSections.length ? (
                   <div className="relative">
                     <button
                       onClick={() => {
-                        setContextMoreOpen((open) => !open);
-                        setCollectionOpen(false);
+                        setContextMoreOpen((open) => !open)
+                        setCollectionOpen(false)
                       }}
                       className={cn(
                         "flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-[13px] transition-all duration-200",
-                        overflowNavSections.some((item) =>
-                          isSectionActive(item.segment),
-                        )
+                        overflowNavSections.some((item) => isSectionActive(item.segment))
                           ? "border border-[rgba(44,49,59,0.1)] bg-white/90 text-editorial-ink shadow-sm"
-                          : "text-editorial-muted hover:bg-white/60 hover:text-editorial-ink",
+                          : "text-editorial-muted hover:bg-white/60 hover:text-editorial-ink"
                       )}
                     >
                       More
                       <ChevronDown
                         className={cn(
                           "h-3.5 w-3.5 transition-transform",
-                          contextMoreOpen && "rotate-180",
+                          contextMoreOpen && "rotate-180"
                         )}
                       />
                     </button>
@@ -322,9 +339,7 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
                           </p>
                           <div className="space-y-0.5">
                             {overflowNavSections.map((item) => {
-                              const Icon =
-                                ICONS[item.iconName as keyof typeof ICONS] ??
-                                Compass;
+                              const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
 
                               return (
                                 <Link
@@ -335,13 +350,13 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
                                     "flex items-center gap-2.5 rounded-[12px] px-3 py-2 text-sm transition-all duration-200",
                                     isSectionActive(item.segment)
                                       ? "bg-white/80 text-editorial-ink shadow-sm"
-                                      : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
+                                      : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink"
                                   )}
                                 >
                                   <Icon className="h-3.5 w-3.5" />
                                   {item.label}
                                 </Link>
-                              );
+                              )
                             })}
                           </div>
                         </div>
@@ -354,103 +369,76 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
           ) : null}
         </div>
 
-        <button
-          className="rounded-[10px] p-2 transition-colors hover:bg-white/50 lg:hidden"
-          onClick={() => setMobileOpen((open) => !open)}
-          aria-label="Toggle menu"
-        >
-          {mobileOpen ? (
-            <X className="h-5 w-5" />
-          ) : (
-            <Menu className="h-5 w-5" />
-          )}
-        </button>
+        <div className="ml-auto flex items-center gap-2 lg:hidden">
+          <CommandPalette items={browseItems} compact />
+          <button
+            className="rounded-[12px] border border-[rgba(44,49,59,0.08)] bg-white/72 p-2.5 transition-colors hover:bg-white"
+            onClick={() => setMobileOpen((open) => !open)}
+            aria-label="Toggle menu"
+          >
+            {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
       </div>
 
       {mobileOpen ? (
-        <nav className="max-h-[70vh] space-y-0.5 overflow-y-auto border-t border-[rgba(44,49,59,0.08)] p-3 lg:hidden">
-          {DIRECTORY_LINKS.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              onClick={closeMobileMenu}
-              className={cn(
-                "flex items-center gap-2.5 rounded-[14px] px-3 py-2.5 text-sm transition-all duration-200",
-                isDirectoryActive(pathname, item.href)
-                  ? "bg-white/74 text-editorial-ink shadow-sm"
-                  : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
-              )}
-            >
-              {item.href === "/topics" ? (
-                <Sparkles className="h-4 w-4" />
-              ) : item.href === "/signals" ? (
-                <Clock3 className="h-4 w-4" />
-              ) : (
-                <Compass className="h-4 w-4" />
-              )}
-              {item.label}
-            </Link>
-          ))}
+        <>
+          <div
+            className="fixed inset-0 z-40 bg-[rgba(21,24,30,0.24)] backdrop-blur-[4px] lg:hidden"
+            onClick={closeMobileMenu}
+          />
+          <div className="fixed inset-x-3 bottom-3 top-[72px] z-[45] overflow-hidden rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.98)] shadow-[0_40px_120px_rgba(44,49,59,0.18)] backdrop-blur-[24px] lg:hidden sm:top-[96px]">
+            <div className="max-h-full overflow-y-auto px-4 py-4">
+              <div className="space-y-6">
+                <section className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/76 p-4 shadow-editorial-soft">
+                  <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                    Explore Nexus
+                  </p>
+                  <div className="mt-4 grid grid-cols-2 gap-3">
+                    {DIRECTORY_LINKS.map((item) => {
+                      const Icon = item.icon
 
-          {currentContext ? (
-            <>
-              <div className="mx-3 my-2 h-px bg-[rgba(44,49,59,0.08)]" />
-              <p className="px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                {"name" in (currentEntity ?? {})
-                  ? currentEntity?.name
-                  : "Current"}
-              </p>
-              {primaryNavSections.map((item) => {
-                const Icon =
-                  ICONS[item.iconName as keyof typeof ICONS] ?? Compass;
-
-                return (
-                  <Link
-                    key={item.segment}
-                    href={sectionHref(item.segment)}
-                    onClick={closeMobileMenu}
-                    className={cn(
-                      "flex items-center gap-2.5 rounded-[14px] px-3 py-2.5 text-sm transition-all duration-200",
-                      isSectionActive(item.segment)
-                        ? "bg-white/74 text-editorial-ink shadow-sm"
-                        : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
-                    )}
-                  >
-                    <Icon className="h-4 w-4" />
-                    {item.label}
-                  </Link>
-                );
-              })}
-
-              {overflowNavSections.length ? (
-                <div className="px-1">
-                  <button
-                    onClick={() => setContextMoreOpen((open) => !open)}
-                    className={cn(
-                      "mt-1 flex w-full items-center justify-between rounded-[14px] px-3 py-2.5 text-sm transition-all duration-200",
-                      overflowNavSections.some((item) =>
-                        isSectionActive(item.segment),
+                      return (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          onClick={closeMobileMenu}
+                          className={cn(
+                            "rounded-[18px] border border-[rgba(44,49,59,0.08)] px-4 py-3 transition-all duration-200",
+                            isDirectoryActive(pathname, item.href)
+                              ? "bg-editorial-green text-white shadow-sm"
+                              : "bg-white/84 text-editorial-ink"
+                          )}
+                        >
+                          <div className="flex items-center gap-2 text-sm font-medium">
+                            <Icon className="h-4 w-4" />
+                            {item.label}
+                          </div>
+                        </Link>
                       )
-                        ? "bg-white/74 text-editorial-ink shadow-sm"
-                        : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
-                    )}
-                  >
-                    <span className="flex items-center gap-2.5">
-                      <ChevronDown
-                        className={cn(
-                          "h-4 w-4 transition-transform",
-                          contextMoreOpen && "rotate-180",
-                        )}
-                      />
-                      More
-                    </span>
-                  </button>
+                    })}
+                  </div>
+                  <div className="mt-4">
+                    <CommandPalette
+                      items={browseItems}
+                      onBeforeOpen={closeMobileMenu}
+                      triggerLabel="Jump to anything"
+                      className="w-full justify-between"
+                    />
+                  </div>
+                </section>
 
-                  {contextMoreOpen ? (
-                    <div className="mt-1 space-y-0.5 rounded-[14px] border border-[rgba(44,49,59,0.08)] bg-white/50 p-1">
-                      {overflowNavSections.map((item) => {
-                        const Icon =
-                          ICONS[item.iconName as keyof typeof ICONS] ?? Compass;
+                {currentContext ? (
+                  <section className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/76 p-4 shadow-editorial-soft">
+                    <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                      Current surface
+                    </p>
+                    <p className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
+                      {"name" in (currentEntity ?? {}) ? currentEntity?.name : "Context"}
+                    </p>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {primaryNavSections.map((item) => {
+                        const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
 
                         return (
                           <Link
@@ -458,97 +446,90 @@ export function Navigation({ subjects, roles, topics }: NavigationProps) {
                             href={sectionHref(item.segment)}
                             onClick={closeMobileMenu}
                             className={cn(
-                              "flex items-center gap-2.5 rounded-[12px] px-3 py-2 text-sm transition-all duration-200",
+                              "inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm transition-all duration-200",
                               isSectionActive(item.segment)
-                                ? "bg-white/74 text-editorial-ink shadow-sm"
-                                : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
+                                ? "border-transparent bg-editorial-green text-white"
+                                : "border-[rgba(44,49,59,0.08)] bg-white/84 text-editorial-ink"
                             )}
                           >
                             <Icon className="h-4 w-4" />
                             {item.label}
                           </Link>
-                        );
+                        )
+                      })}
+                      {overflowNavSections.map((item) => {
+                        const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
+
+                        return (
+                          <Link
+                            key={item.segment}
+                            href={sectionHref(item.segment)}
+                            onClick={closeMobileMenu}
+                            className={cn(
+                              "inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm transition-all duration-200",
+                              isSectionActive(item.segment)
+                                ? "border-transparent bg-editorial-green text-white"
+                                : "border-[rgba(44,49,59,0.08)] bg-white/84 text-editorial-ink"
+                            )}
+                          >
+                            <Icon className="h-4 w-4" />
+                            {item.label}
+                          </Link>
+                        )
                       })}
                     </div>
-                  ) : null}
-                </div>
-              ) : null}
-            </>
-          ) : null}
+                  </section>
+                ) : null}
 
-          <div className="mx-3 my-2 h-px bg-[rgba(44,49,59,0.08)]" />
-          <p className="px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-            Subjects
-          </p>
-          {subjects.map((subject) => (
-            <Link
-              key={subject.slug}
-              href={`/${subject.slug}`}
-              onClick={closeMobileMenu}
-              className={cn(
-                "flex items-center gap-2.5 rounded-[14px] px-3 py-2.5 text-sm transition-all duration-200",
-                pathname.startsWith(`/${subject.slug}`)
-                  ? "bg-white/74 text-editorial-ink shadow-sm"
-                  : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
-              )}
-            >
-              <span
-                className="inline-block h-2 w-2 rounded-full"
-                style={{ backgroundColor: subject.color }}
-              />
-              {subject.name}
-            </Link>
-          ))}
-
-          <div className="mx-3 my-2 h-px bg-[rgba(44,49,59,0.08)]" />
-          <p className="px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-            Roles
-          </p>
-          {roles.map((role) => (
-            <Link
-              key={role.slug}
-              href={`/roles/${role.slug}`}
-              onClick={closeMobileMenu}
-              className={cn(
-                "flex items-center gap-2.5 rounded-[14px] px-3 py-2.5 text-sm transition-all duration-200",
-                pathname.startsWith(`/roles/${role.slug}`)
-                  ? "bg-white/74 text-editorial-ink shadow-sm"
-                  : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
-              )}
-            >
-              <span
-                className="inline-block h-2 w-2 rounded-full"
-                style={{ backgroundColor: role.color }}
-              />
-              {role.name}
-            </Link>
-          ))}
-
-          <div className="mx-3 my-2 h-px bg-[rgba(44,49,59,0.08)]" />
-          <p className="px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-            Topics
-          </p>
-          {topics.map((topic) => (
-            <Link
-              key={topic.slug}
-              href={`/topics/${topic.slug}`}
-              onClick={closeMobileMenu}
-              className={cn(
-                "flex items-center gap-2.5 rounded-[14px] px-3 py-2.5 text-sm transition-all duration-200",
-                pathname.startsWith(`/topics/${topic.slug}`)
-                  ? "bg-white/74 text-editorial-ink shadow-sm"
-                  : "text-editorial-muted hover:bg-white/50 hover:text-editorial-ink",
-              )}
-            >
-              <span
-                className="inline-block h-2 w-2 rounded-full"
-                style={{ backgroundColor: topic.color }}
-              />
-              {topic.name}
-            </Link>
-          ))}
-        </nav>
+                <section className="grid gap-4">
+                  {[
+                    { label: "Subjects", items: quickSubjects, basePath: "" },
+                    { label: "Roles", items: quickRoles, basePath: "/roles" },
+                    { label: "Topics", items: quickTopics, basePath: "/topics" },
+                  ].map((section) => (
+                    <div
+                      key={section.label}
+                      className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/76 p-4 shadow-editorial-soft"
+                    >
+                      <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                        {section.label}
+                      </p>
+                      <div className="mt-3 space-y-2">
+                        {section.items.map((item) => (
+                          <Link
+                            key={item.slug}
+                            href={`${section.basePath}/${item.slug}`.replace("//", "/")}
+                            onClick={closeMobileMenu}
+                            className="flex items-center gap-3 rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-white/84 px-3 py-3 transition-all duration-200"
+                          >
+                            <span
+                              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[14px]"
+                              style={{
+                                backgroundColor: `${item.color}16`,
+                                color: item.color,
+                              }}
+                            >
+                              <BrowseEntityIcon iconName={item.icon} className="h-4.5 w-4.5" />
+                            </span>
+                            <div className="min-w-0">
+                              <p className="truncate font-medium text-editorial-ink">
+                                {item.name}
+                              </p>
+                              <p className="mt-0.5 text-xs leading-relaxed text-editorial-muted">
+                                {item.tagline}
+                              </p>
+                            </div>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </section>
+              </div>
+            </div>
+          </div>
+        </>
       ) : null}
     </header>
-  );
+  )
 }

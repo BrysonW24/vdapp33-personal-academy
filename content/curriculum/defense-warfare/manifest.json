@@ -1,0 +1,15 @@
+{
+  "slug": "defense-warfare",
+  "name": "Defense & Warfare",
+  "shortName": "Defense",
+  "group": "society",
+  "icon": "Shield",
+  "color": "#991B1B",
+  "tagline": "Doctrine, deterrence, logistics, and the institutional reality of force.",
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 43
+}

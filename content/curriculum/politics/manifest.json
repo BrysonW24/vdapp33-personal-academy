@@ -14,5 +14,8 @@
       "icon": "Landmark"
     }
   ],
-  "order": 6
+  "order": 6,
+  "academyTier": "foundational",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
 }

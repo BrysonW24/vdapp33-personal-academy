@@ -8,5 +8,8 @@
   "tagline": "Circuits, power, signals, electronics, and the systems that move electricity and information.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 16
+  "order": 16,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

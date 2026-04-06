@@ -74,6 +74,24 @@ risks:
     mitigation: "If production runtime fails with missing vendor chunk errors, clear `.next`, rebuild, and rerun the smoke pass before release decisions."
     owner: unassigned
 
+  - id: R9
+    title: "Large taxonomy growth can make discovery noisy if macro buckets and search drift out of sync"
+    severity: medium
+    likelihood: medium
+    area: product
+    status: open
+    mitigation: "Keep manifest metadata, browse buckets, command-palette indexing, and homepage discovery in sync whenever new subjects or topics are added."
+    owner: unassigned
+
+  - id: R10
+    title: "Shared mobile navigation can regress as the catalog expands"
+    severity: medium
+    likelihood: medium
+    area: ux
+    status: open
+    mitigation: "Verify the mobile header, menu, and command palette whenever navigation structure or catalog volume changes; do not fall back to giant raw lists."
+    owner: unassigned
+
 notes:
   - Nexus source apps were archived on 2026-04-04 after archive-gate verification. Archived copies remain available for recovery/reference in `archive/2026-04-04-personal-academy-migration-sources/`.
   - 2026-04-03 verification passed for install, type-check, lint, build, and manual route smoke coverage.
@@ -82,3 +100,4 @@ notes:
   - Commercial Property Management was migrated from `vdapp46-jll-commercial-property-manager-academy` on 2026-04-04 with generic subject naming preserved in the shell.
   - Roles, topics, truth stacks, and signals are now live surfaces; ongoing risk is curation coverage drift rather than route rollout uncertainty.
   - The 2026-04-05 browse-first encyclopedia verification found and fixed a stale `.next` runtime issue before release.
+  - The 2026-04-06 expansion wave introduced macro-bucket discovery, a command-palette quick jump, and a much larger subject/topic catalog; future additions must keep manifest metadata and browse surfaces aligned.

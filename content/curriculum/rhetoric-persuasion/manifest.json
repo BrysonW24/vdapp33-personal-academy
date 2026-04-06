@@ -1,0 +1,15 @@
+{
+  "slug": "rhetoric-persuasion",
+  "name": "Rhetoric & Persuasion",
+  "shortName": "Rhetoric",
+  "group": "humanities",
+  "icon": "MessagesSquare",
+  "color": "#1D4ED8",
+  "tagline": "How arguments, framing, and delivery shape belief and action.",
+  "academyTier": "advanced",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 61
+}

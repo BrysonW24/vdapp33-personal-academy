@@ -1,0 +1,15 @@
+{
+  "slug": "human-nature",
+  "name": "Human Nature",
+  "kind": "topic",
+  "group": "mind",
+  "icon": "Brain",
+  "color": "#DC2626",
+  "tagline": "Human Nature as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 39,
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "future-of-humanity",
+  "name": "Future of Humanity",
+  "kind": "topic",
+  "group": "frontier",
+  "icon": "Rocket",
+  "color": "#EA580C",
+  "tagline": "What human life might become under AI, biotech, and planetary change.",
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 31
+}

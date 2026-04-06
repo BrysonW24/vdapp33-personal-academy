@@ -8,5 +8,8 @@
   "tagline": "The counterintuitive foundations of particles, waves, measurement, and information.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 2
+  "order": 2,
+  "academyTier": "frontier",
+  "macroBucket": "reality",
+  "contentStatus": "full"
 }

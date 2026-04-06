@@ -1,0 +1,41 @@
+{
+  "slug": "mathematics-mental-models",
+  "title": "Mathematics Mental Models",
+  "shortSummary": "A starter mental models view of mathematics designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "domain": "Mathematics",
+  "category": "mental-models",
+  "whyItMatters": "Mathematics is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of mathematics",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Mathematics as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "mathematics-thinking"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Mathematics",
+      "href": "/physics",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-mathematics-is"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2
+}

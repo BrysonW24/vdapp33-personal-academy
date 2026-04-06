@@ -7,5 +7,8 @@
   "color": "#2563EB",
   "tagline": "You train for years, work with extreme systems, and see Earth from orbit.",
   "tier": "flagship",
-  "order": 1
+  "order": 1,
+  "academyTier": "frontier",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

@@ -1,0 +1,15 @@
+{
+  "slug": "economics",
+  "name": "Economics",
+  "shortName": "Economics",
+  "group": "markets",
+  "icon": "LineChart",
+  "color": "#10B981",
+  "tagline": "How incentives, markets, scarcity, and policy shape human choices.",
+  "academyTier": "foundational",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 48
+}

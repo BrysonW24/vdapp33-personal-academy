@@ -1,0 +1,15 @@
+{
+  "slug": "statistics-probability",
+  "name": "Statistics & Probability",
+  "shortName": "Stats",
+  "group": "sciences",
+  "icon": "Dice6",
+  "color": "#0EA5E9",
+  "tagline": "How to reason about uncertainty, evidence, risk, and prediction.",
+  "academyTier": "foundational",
+  "macroBucket": "reality",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 33
+}

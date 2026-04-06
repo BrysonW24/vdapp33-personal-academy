@@ -1,0 +1,15 @@
+{
+  "slug": "civilizational-scale",
+  "name": "Civilizational Scale",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "Scale",
+  "color": "#8B5CF6",
+  "tagline": "How scale changes institutions, incentives, and the shape of possible futures.",
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 21
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "technology-and-meaning",
+  "name": "Technology and Meaning",
+  "kind": "topic",
+  "group": "frontier",
+  "icon": "Cpu",
+  "color": "#7C3AED",
+  "tagline": "Technology and Meaning as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 34,
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

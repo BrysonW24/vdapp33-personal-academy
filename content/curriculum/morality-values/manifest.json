@@ -1,0 +1,15 @@
+{
+  "slug": "morality-values",
+  "name": "Morality & Values",
+  "shortName": "Morality",
+  "group": "humanities",
+  "icon": "HeartHandshake",
+  "color": "#DB2777",
+  "tagline": "How people decide what is right, worthy, sacred, and worth building.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 63
+}

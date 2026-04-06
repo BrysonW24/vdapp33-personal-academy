@@ -8,5 +8,8 @@
   "tagline": "How biological systems are engineered into therapies, tools, diagnostics, and industrial capability.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 28
+  "order": 28,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "full"
 }

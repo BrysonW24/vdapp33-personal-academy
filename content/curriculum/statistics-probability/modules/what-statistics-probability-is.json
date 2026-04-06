@@ -1,0 +1,39 @@
+{
+  "slug": "what-statistics-probability-is",
+  "title": "What Statistics & Probability Is",
+  "shortSummary": "A starter orientation view of statistics & probability designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "domain": "Statistics & Probability",
+  "category": "orientation",
+  "whyItMatters": "Statistics & Probability is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of statistics & probability",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Statistics & Probability as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "what-is-statistics-probability"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Statistics & Probability",
+      "href": "/data-science",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

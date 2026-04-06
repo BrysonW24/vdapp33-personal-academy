@@ -1,0 +1,15 @@
+{
+  "slug": "scarcity-and-abundance",
+  "name": "Scarcity and Abundance",
+  "kind": "topic",
+  "group": "markets",
+  "icon": "Banknote",
+  "color": "#059669",
+  "tagline": "How limited resources and expanding capability shape incentives and behaviour.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 29
+}

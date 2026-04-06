@@ -1,0 +1,15 @@
+{
+  "slug": "systems-map",
+  "name": "Intelligence & Espionage Systems Map",
+  "summary": "A starter lens for seeing intelligence & espionage as an interacting system rather than a list of isolated facts.",
+  "whenToUseIt": "Use it when you need to orient quickly, compare subdomains, or explain how intelligence & espionage connects to the wider academy.",
+  "steps": [
+    "Define the core purpose of intelligence & espionage",
+    "List the main inputs, constraints, and outputs",
+    "Map the adjacent subjects or institutions involved",
+    "Identify the leverage points and failure points"
+  ],
+  "example": "Create a one-page systems map showing how intelligence & espionage appears in the real world and what it interacts with.",
+  "category": "systems",
+  "domain": "Intelligence & Espionage"
+}

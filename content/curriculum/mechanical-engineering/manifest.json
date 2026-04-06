@@ -8,5 +8,8 @@
   "tagline": "Machines, motion, heat, manufacturing, and the engineered systems that move the physical world.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 17
+  "order": 17,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-maritime-systems",
+  "title": "Working in Maritime Systems",
+  "shortSummary": "A starter careers view of maritime systems designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Maritime Systems",
+  "category": "careers",
+  "whyItMatters": "Maritime Systems is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of maritime systems",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Maritime Systems as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "maritime-systems-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Maritime Systems",
+      "href": "/trade-globalization",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-maritime-systems-is",
+    "maritime-systems-mental-models",
+    "maritime-systems-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

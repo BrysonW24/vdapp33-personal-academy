@@ -1,0 +1,15 @@
+{
+  "slug": "education-learning-science",
+  "name": "Education & Learning Science",
+  "shortName": "Learning",
+  "group": "mind",
+  "icon": "GraduationCap",
+  "color": "#0EA5E9",
+  "tagline": "How people learn, remember, transfer, and build mastery over time.",
+  "academyTier": "foundational",
+  "macroBucket": "human-being",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 55
+}

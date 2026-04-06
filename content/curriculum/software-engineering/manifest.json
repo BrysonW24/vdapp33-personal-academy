@@ -8,5 +8,8 @@
   "tagline": "How software is designed, built, tested, shipped, and maintained at scale.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 13
+  "order": 13,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

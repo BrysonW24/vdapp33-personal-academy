@@ -1,0 +1,15 @@
+{
+  "slug": "human-condition",
+  "name": "Human Condition",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "HeartPulse",
+  "color": "#DB2777",
+  "tagline": "What it means to be human: fragile, capable, social, contradictory.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 24
+}

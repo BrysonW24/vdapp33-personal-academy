@@ -1,0 +1,18 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "category": "knowledge",
+  "description": "Use structured notes to keep frameworks, signals, and reflections in one place.",
+  "whyUseIt": "It turns scattered exploration into a reusable map.",
+  "pricingTier": "freemium",
+  "alternatives": [],
+  "outputs": [
+    "maps",
+    "notes",
+    "analysis"
+  ],
+  "vocabulary": [],
+  "beginnerMistakes": [
+    "Using the tool before the thinking is clear"
+  ]
+}

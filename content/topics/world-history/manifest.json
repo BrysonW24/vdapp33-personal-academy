@@ -8,5 +8,8 @@
   "tagline": "The full sweep of human civilisation from ancient origins to the modern world.",
   "tier": "thin",
   "hasNews": false,
-  "order": 9
+  "order": 9,
+  "academyTier": "foundational",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "full"
 }

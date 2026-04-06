@@ -2,11 +2,14 @@
   "slug": "philosophy",
   "name": "Philosophy",
   "kind": "topic",
-  "group": "mind",
+  "group": "humanities",
   "icon": "Lightbulb",
   "color": "#A855F7",
   "tagline": "The practice of questioning what we know, what we should do, and what it all means.",
   "tier": "flagship",
   "hasNews": false,
-  "order": 4
+  "order": 4,
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "full"
 }

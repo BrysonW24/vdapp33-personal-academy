@@ -8,5 +8,8 @@
   "tagline": "How scarcity, incentives, trade, and institutions shape choices in markets and society.",
   "tier": "flagship",
   "hasNews": true,
-  "order": 14
+  "order": 14,
+  "academyTier": "foundational",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
 }

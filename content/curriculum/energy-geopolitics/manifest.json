@@ -1,0 +1,15 @@
+{
+  "slug": "energy-geopolitics",
+  "name": "Energy Geopolitics",
+  "shortName": "Energy Geo",
+  "group": "society",
+  "icon": "Flame",
+  "color": "#EA580C",
+  "tagline": "How energy resources, infrastructure, and power shape global order.",
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 46
+}

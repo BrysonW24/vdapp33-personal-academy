@@ -1,0 +1,15 @@
+{
+  "slug": "mining-resources",
+  "name": "Mining & Resources",
+  "shortName": "Mining",
+  "group": "engineering",
+  "icon": "Pickaxe",
+  "color": "#92400E",
+  "tagline": "The extraction layer beneath energy, electronics, construction, and industry.",
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 41
+}

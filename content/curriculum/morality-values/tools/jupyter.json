@@ -1,0 +1,18 @@
+{
+  "slug": "jupyter",
+  "name": "Jupyter",
+  "category": "analysis",
+  "description": "Use notebooks to explore models, data, and starter reasoning workflows.",
+  "whyUseIt": "It helps you test ideas quickly and make your thinking visible.",
+  "pricingTier": "free",
+  "alternatives": [],
+  "outputs": [
+    "maps",
+    "notes",
+    "analysis"
+  ],
+  "vocabulary": [],
+  "beginnerMistakes": [
+    "Using the tool before the thinking is clear"
+  ]
+}

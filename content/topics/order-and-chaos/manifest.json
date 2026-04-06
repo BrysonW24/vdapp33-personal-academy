@@ -1,0 +1,15 @@
+{
+  "slug": "order-and-chaos",
+  "name": "Order and Chaos",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "Shuffle",
+  "color": "#9333EA",
+  "tagline": "How systems stabilise, drift, break down, and reorganise themselves.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 28
+}

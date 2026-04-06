@@ -1,0 +1,42 @@
+{
+  "slug": "linguistics-applications",
+  "title": "Linguistics in the World",
+  "shortSummary": "A starter applications view of linguistics designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "domain": "Linguistics",
+  "category": "applications",
+  "whyItMatters": "Linguistics is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of linguistics",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Linguistics as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "linguistics-where-it-shows-up"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Linguistics",
+      "href": "/subjects",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-linguistics-is",
+    "linguistics-mental-models"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3
+}

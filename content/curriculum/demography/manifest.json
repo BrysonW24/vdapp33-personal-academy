@@ -8,5 +8,8 @@
   "tagline": "Population change, migration, fertility, ageing, and the numbers that shape long-term planning.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 24
+  "order": 24,
+  "academyTier": "foundational",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
 }

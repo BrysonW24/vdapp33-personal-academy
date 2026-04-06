@@ -7,5 +7,8 @@
   "color": "#059669",
   "tagline": "You combine software, hardware, AI, and real-world action to make machines do useful things.",
   "tier": "flagship",
-  "order": 3
+  "order": 3,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

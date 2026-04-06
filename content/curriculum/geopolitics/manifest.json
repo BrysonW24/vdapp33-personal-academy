@@ -8,5 +8,8 @@
   "tagline": "Power, geography, resources, states, and the strategic forces shaping the world order.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 22
+  "order": 22,
+  "academyTier": "advanced",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
 }

@@ -1,0 +1,43 @@
+{
+  "slug": "working-in-architecture-urbanism",
+  "title": "Working in Architecture & Urbanism",
+  "shortSummary": "A starter careers view of architecture & urbanism designed for fast orientation and clean branching.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Architecture & Urbanism",
+  "category": "careers",
+  "whyItMatters": "Architecture & Urbanism is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of architecture & urbanism",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Architecture & Urbanism as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "architecture-urbanism-career-reality"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Architecture & Urbanism",
+      "href": "/civil-engineering",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "what-architecture-urbanism-is",
+    "architecture-urbanism-mental-models",
+    "architecture-urbanism-applications"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

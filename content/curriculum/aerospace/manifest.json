@@ -8,5 +8,8 @@
   "tagline": "Flight, vehicles, structures, propulsion, and the engineering of systems that move through air and space.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 3
+  "order": 3,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

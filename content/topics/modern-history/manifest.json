@@ -8,5 +8,8 @@
   "tagline": "The recent centuries that shaped industry, empire, war, democracy, and the modern world.",
   "tier": "flagship",
   "hasNews": true,
-  "order": 15
+  "order": 15,
+  "academyTier": "foundational",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "full"
 }

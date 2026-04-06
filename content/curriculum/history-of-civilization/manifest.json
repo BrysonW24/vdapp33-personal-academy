@@ -1,0 +1,15 @@
+{
+  "slug": "history-of-civilization",
+  "name": "History of Civilization",
+  "shortName": "Civilization",
+  "group": "humanities",
+  "icon": "Landmark",
+  "color": "#9A3412",
+  "tagline": "How human societies scaled from villages to empires to global systems.",
+  "academyTier": "foundational",
+  "macroBucket": "civilization",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 50
+}

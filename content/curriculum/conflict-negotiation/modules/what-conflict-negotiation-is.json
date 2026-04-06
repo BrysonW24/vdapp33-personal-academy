@@ -1,0 +1,39 @@
+{
+  "slug": "what-conflict-negotiation-is",
+  "title": "What Conflict & Negotiation Is",
+  "shortSummary": "A starter orientation view of conflict & negotiation designed for fast orientation and clean branching.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "domain": "Conflict & Negotiation",
+  "category": "orientation",
+  "whyItMatters": "Conflict & Negotiation is part of the broader Nexus map because it changes how you understand reality, civilization, or applied work.",
+  "coreConcepts": [
+    "The shape of conflict & negotiation",
+    "The main trade-offs in the field",
+    "How the field connects to the wider academy",
+    "Where to go deeper next"
+  ],
+  "mentalModels": [
+    "Conflict & Negotiation as a system",
+    "Trade-offs before details"
+  ],
+  "lessons": [
+    "what-is-conflict-negotiation"
+  ],
+  "frameworks": [
+    "systems-map",
+    "tradeoff-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore related domains for Conflict & Negotiation",
+      "href": "/subjects",
+      "description": "Use the browse shell to branch into deeper canonical subjects."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

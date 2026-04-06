@@ -1,0 +1,15 @@
+{
+  "slug": "existential-risk",
+  "name": "Existential Risk",
+  "kind": "topic",
+  "group": "frontier",
+  "icon": "Shield",
+  "color": "#991B1B",
+  "tagline": "Existential Risk as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 32,
+  "academyTier": "frontier",
+  "macroBucket": "frontier",
+  "contentStatus": "starter"
+}

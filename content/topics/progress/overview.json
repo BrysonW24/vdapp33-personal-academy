@@ -1,0 +1,17 @@
+{
+  "slug": "progress",
+  "title": "Progress",
+  "whatItIs": "Progress is the idea that some changes make life meaningfully better: less death, less suffering, more capability, more freedom, or more choice. It can happen through science, policy, technology, or social reform.\n\nThe topic also asks what counts as improvement, because not every change that grows capacity is good in the ways people care about.",
+  "whyItMatters": "It matters because almost every political and technological debate hides a claim about progress. People disagree not only on whether something works, but on whether it improves human life.\n\nA good model of progress helps you ask better questions about tradeoffs, distribution, and unintended consequences.",
+  "keyIdeas": [
+    "Progress is value-laden",
+    "Gains can be unevenly distributed",
+    "Improvement can create new risks"
+  ],
+  "frontier": "The frontier is whether AI, biotech, and energy systems can unlock progress faster than they create new instability. That is a civilizational question, not just a technical one.",
+  "openQuestions": [
+    "Progress for whom?",
+    "What should count as improvement?",
+    "Can progress be measured without flattening values?"
+  ]
+}

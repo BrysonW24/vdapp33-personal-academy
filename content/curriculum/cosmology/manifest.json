@@ -1,0 +1,15 @@
+{
+  "slug": "cosmology",
+  "name": "Cosmology",
+  "shortName": "Cosmology",
+  "group": "sciences",
+  "icon": "Orbit",
+  "color": "#7C3AED",
+  "tagline": "The large-scale structure, history, and future of the universe.",
+  "academyTier": "frontier",
+  "macroBucket": "reality",
+  "contentStatus": "starter",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 35
+}

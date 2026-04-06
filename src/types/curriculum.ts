@@ -11,6 +11,20 @@ export const SUBJECT_GROUPS = [
 export type SubjectGroup = string
 export type SubjectLevel = "beginner" | "intermediate" | "advanced"
 export type ContentStatus = "complete" | "coming-soon"
+export type AcademyTier =
+  | "foundational"
+  | "advanced"
+  | "thought-provoking"
+  | "frontier"
+export type MacroBucket =
+  | "reality"
+  | "human-being"
+  | "civilization"
+  | "built-world"
+  | "markets-assets"
+  | "meaning-culture"
+  | "frontier"
+export type CatalogContentStatus = "full" | "starter" | "coming-soon"
 export type ToolPricingTier = "free" | "freemium" | "paid" | "enterprise"
 export type EntityKind = "subject" | "role" | "topic"
 export const TEACHING_STAGE_ORDER = [
@@ -163,6 +177,9 @@ export interface SubjectManifest {
   icon: string
   color: string
   tagline: string
+  academyTier?: AcademyTier
+  macroBucket?: MacroBucket
+  contentStatus?: CatalogContentStatus
   description?: string
   blueprintSlug: string
   deepDivePages: DeepDivePage[]
@@ -182,6 +199,9 @@ export interface EntityManifest {
   icon: string
   color: string
   tagline: string
+  academyTier?: AcademyTier
+  macroBucket?: MacroBucket
+  contentStatus?: CatalogContentStatus
   description: string
   blueprintSlug: string
   sections: Partial<Record<EntitySectionKey, EntitySectionConfig>>

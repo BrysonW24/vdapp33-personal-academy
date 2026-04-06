@@ -1,0 +1,15 @@
+{
+  "slug": "myth-and-modernity",
+  "name": "Myth and Modernity",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "Sparkles",
+  "color": "#A855F7",
+  "tagline": "Myth and Modernity as a cross-domain lens for understanding human reality.",
+  "tier": "thin",
+  "hasNews": true,
+  "order": 36,
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "starter"
+}

@@ -2,16 +2,18 @@
 
 Repo lineage: `vdapp33-personal-academy`
 
-Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It keeps politics, commercial property management, physics, quantum-science, energy-systems, aerospace, robotics, and rocket science inside one shell, one deploy, and one local-first state model, while roles and topics add applied and cross-disciplinary ways into the same academy.
+Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 64 subjects, 41 topics, and 7 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
 
 ## What This App Is
 
 - Learning-first, not operator-first
 - Browse-first encyclopedia interface with subjects, topics, and roles as the main entry points
+- Macro-bucket discovery layer above the raw catalog: Reality, Human Being, Civilization, Built World, Markets & Assets, Meaning & Culture, Frontier
 - Subject-prefixed multi-subject architecture with first-class role and topic routes
 - Static content app powered by JSON curriculum files, onboarding packs, source packs, signal digests, and Zod schemas
 - One academy shell where subjects provide depth, topics widen the lens, and roles synthesize real-world application
 - Local-first state for progress, onboarding, and optional secondary surfaces such as My Path
+- Search-first navigation with a local `Jump to anything` command palette and a hierarchy explainer that teaches how subjects, topics, and roles relate
 
 ## Working Doctrine
 
@@ -19,6 +21,7 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It k
 - Pages should explain the shape of a field or role quickly before asking the user to read deeply
 - Use paragraph spacing, section rhythm, and visual summaries to reduce cognitive load
 - Roles should follow a repeatable, structured setup rather than feeling like loose editorial pages
+- Roles should feel like guided worlds: what the person does, what they see that others miss, how people get there, what they need to be strong in, what pressures they absorb, and how careers compound
 - Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, and module indexes
 - Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
 - When meaningful design, architecture, or product-direction changes land, update the reference docs in the same pass
@@ -32,6 +35,7 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It k
 - `/roles` — Role directory
 - `/topics` — Topic directory
 - `/signals` — Curated signal hub tied to the active path
+- Header command palette — Local static quick-jump across subjects, topics, roles, flagship modules, and signals
 - `/{subject}` — Start Here landing page
 - `/{subject}/blueprint` — Generated subject map from module order
 - `/{subject}/modules` — Module grid
@@ -58,15 +62,25 @@ Roles and topics are not decorative content anymore. They are live route familie
 
 All subject content lives under `content/curriculum/{subject}/` and is auto-discovered from `manifest.json`.
 
-Current groups:
+Current technical groups:
 
-- Sciences: `physics`, `quantum-science`, `chemistry`, `materials-science`
-- Engineering: `aerospace`, `robotics`, `rocket-science`, `cybersecurity`, `data-science`, `space-infrastructure`, `energy-systems`, `systems-engineering`, `software-engineering`, `civil-engineering`, `electrical-engineering`, `mechanical-engineering`
-- Society: `politics`, `law`, `sociology`, `geopolitics`, `public-administration`, `demography`, `commercial-property-management`
-- Markets: `finance-accounting`, `supply-chain-logistics`
-- Life: `biology`, `biotechnology`, `agriculture-food-systems`, `health`
-- Humanities: `design`, `typography`, `religion-belief-systems`, `world-history`, `ancient-history`, `modern-history`, `communication`, `music-and-instruments`
-- Mind: `psychology`, `relationships`, `self-knowledge`, `emotions`, `meditation`, `consciousness`, `love`
+- Sciences: `biology`, `chemistry`, `cosmology`, `earth-science`, `ecology-environmental-systems`, `materials-science`, `mathematics`, `physics`, `quantum-science`, `statistics-probability`
+- Engineering: `aerospace`, `architecture-urbanism`, `civil-engineering`, `computer-science`, `cybersecurity`, `data-science`, `electrical-engineering`, `energy-systems`, `infrastructure-resilience`, `manufacturing-industry`, `maritime-systems`, `mechanical-engineering`, `mining-resources`, `robotics`, `rocket-science`, `software-engineering`, `space-infrastructure`, `systems-engineering`
+- Society: `commercial-property-management`, `defense-warfare`, `demography`, `energy-geopolitics`, `geopolitics`, `institutional-power`, `intelligence-espionage`, `law`, `media-systems`, `politics`, `public-administration`, `sociology`
+- Markets: `economics`, `finance-accounting`, `supply-chain-logistics`, `trade-globalization`
+- Life: `agriculture-food-systems`, `biotechnology`, `medicine-human-physiology`
+- Humanities: `aesthetics`, `conflict-negotiation`, `creativity`, `design`, `ethics`, `history-of-civilization`, `identity-culture`, `literature`, `morality-values`, `mythology`, `religion-belief-systems`, `rhetoric-persuasion`, `typography`
+- Mind: `anthropology`, `education-learning-science`, `linguistics`, `psychology`
+
+Browse-only macro buckets:
+
+- `reality`
+- `human-being`
+- `civilization`
+- `built-world`
+- `markets-assets`
+- `meaning-culture`
+- `frontier`
 
 Overlay content lives alongside subjects:
 
@@ -91,15 +105,10 @@ Nexus still has a guidance system on top of the content shell, but it is no long
   - one current project
   - one weekly cadence
   - one weekly review loop
-- A deterministic next-best-action engine that ranks:
-  - unfinished core subject work
-  - supporting topic reinforcement
-  - role-based application
-  - current project work
-  - weekly review
-  - truth-stack review
-  - curated signals
+- A deterministic next-best-action engine that ranks unfinished core subject work, reinforcement, role application, project work, review, truth-stack review, and curated signals
 - Guide rails on start pages, module pages, lesson pages, project pages, and tool pages
+
+The guidance OS remains available, but the browse shell, hierarchy explainer, macro-bucket explorer, and command palette are now the primary orientation layer.
 
 ## Current Migration State
 
@@ -114,7 +123,7 @@ Nexus still has a guidance system on top of the content shell, but it is no long
 
 The migrated standalone source apps were archived on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` after route, build, and browser verification passed in the unified app. See `docs/personal-academy-migration-analysis.md` for the migration analysis.
 
-The current post-migration work is about direction rather than just more content: guiding the learner, not just expanding the library.
+The current post-migration work is about direction rather than just more content: making the catalog navigable, readable, and memorable at scale rather than just expanding the library.
 
 ## Tech Stack
 

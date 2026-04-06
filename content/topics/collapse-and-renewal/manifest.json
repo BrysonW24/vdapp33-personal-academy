@@ -1,0 +1,15 @@
+{
+  "slug": "collapse-and-renewal",
+  "name": "Collapse and Renewal",
+  "kind": "topic",
+  "group": "humanities",
+  "icon": "RotateCcw",
+  "color": "#D97706",
+  "tagline": "How systems break down, rebuild, and sometimes come back stronger.",
+  "academyTier": "thought-provoking",
+  "macroBucket": "frontier",
+  "contentStatus": "starter",
+  "tier": "thin",
+  "hasNews": false,
+  "order": 30
+}

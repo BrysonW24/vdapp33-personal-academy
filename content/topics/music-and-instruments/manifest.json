@@ -8,5 +8,8 @@
   "tagline": "How instruments were invented, why music exists, and what makes different traditions sound the way they do.",
   "tier": "thin",
   "hasNews": false,
-  "order": 11
+  "order": 11,
+  "academyTier": "thought-provoking",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "full"
 }

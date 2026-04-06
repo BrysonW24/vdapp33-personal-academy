@@ -8,5 +8,8 @@
   "tagline": "Sensors, actuators, control systems, and intelligent machines that interact with the physical world.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 4
+  "order": 4,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

@@ -8,5 +8,8 @@
   "tagline": "The design and delivery of structures, transport, water, and public infrastructure.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 15
+  "order": 15,
+  "academyTier": "advanced",
+  "macroBucket": "built-world",
+  "contentStatus": "full"
 }

@@ -1,5 +1,13 @@
 import Link from "next/link"
-import { ArrowRight, Clock3, FolderKanban, Map, Wrench } from "lucide-react"
+import {
+  ArrowRight,
+  Clock3,
+  FileSearch,
+  FolderKanban,
+  Map,
+  Newspaper,
+  Wrench,
+} from "lucide-react"
 import { EntityHero } from "@/components/entities/EntityHero"
 import { EntitySignalDashboard } from "@/components/entities/EntitySignalDashboard"
 import { EntityLandingSection } from "@/components/sections/EntityLandingSection"
@@ -11,6 +19,7 @@ import { ReadableProse } from "@/components/ui/ReadableProse"
 import { getRolePresentation } from "@/lib/role-presentations"
 import type { Project, SubjectManifest, Tool } from "@/types/curriculum"
 import type { EntityManifest, EntityStats, RoleOverview } from "@/types/entity"
+import type { SignalDigest, SourcePack } from "@/types/guidance"
 
 type SectionCard = {
   href: string
@@ -30,6 +39,8 @@ interface RoleAcademyHomeProps {
   relatedSubjects: SubjectManifest[]
   featuredProject?: Project | null
   featuredTool?: Tool | null
+  sourcePack?: SourcePack | null
+  signalDigest?: SignalDigest | null
   featuredDayInLifeHref?: string
   featuredDayInLifeCount?: number
 }
@@ -47,6 +58,8 @@ export function RoleAcademyHome({
   relatedSubjects,
   featuredProject,
   featuredTool,
+  sourcePack,
+  signalDigest,
   featuredDayInLifeHref,
   featuredDayInLifeCount = 0,
 }: RoleAcademyHomeProps) {
@@ -110,24 +123,40 @@ export function RoleAcademyHome({
       <EntityLandingSection
         eyebrow={overview.title}
         title="Understand the role before you dive deeper"
-        subtitle="This opening layer is designed to be memorable first. Get the shape of the role, then branch into training, projects, tools, or real-world snapshots when you want more detail."
+        subtitle="This opening layer is designed to be memorable first. Get the shape of the role, where it came from, what it asks of people, and what makes someone good at it before branching into deeper surfaces."
         tintColor={role.color}
         columns={3}
       >
-        {presentation.quickCards.map((card) => (
-          <div
-            key={card.eyebrow}
-            className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/84 p-6 shadow-editorial-soft"
-          >
-            <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-              {card.eyebrow}
-            </p>
-            <h3 className="mt-2 font-serif text-xl font-semibold text-editorial-ink">
-              {card.title}
-            </h3>
+        {presentation.quickCards.map((card) => {
+          const CardIcon = card.icon
+
+          return (
+            <div
+              key={card.eyebrow}
+              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/84 p-6 shadow-editorial-soft"
+            >
+              <div className="flex items-start gap-3">
+                {CardIcon ? (
+                  <span
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[14px]"
+                    style={{ backgroundColor: `${role.color}12`, color: role.color }}
+                  >
+                    <CardIcon className="h-4.5 w-4.5" />
+                  </span>
+                ) : null}
+              <div className="min-w-0">
+                <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                  {card.eyebrow}
+                </p>
+                <h3 className="mt-2 font-serif text-xl font-semibold text-editorial-ink">
+                  {card.title}
+                </h3>
+              </div>
+            </div>
             <p className="mt-3 text-sm leading-7 text-editorial-muted">{card.body}</p>
-          </div>
-        ))}
+            </div>
+          )
+        })}
       </EntityLandingSection>
 
       <EntityLandingSection
@@ -406,6 +435,42 @@ export function RoleAcademyHome({
           tintColor={role.color}
           columns={3}
         >
+          {sourcePack ? (
+            <Link
+              href={`${basePath}/sources`}
+              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-6 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+            >
+              <div className="mb-3 flex items-center gap-2 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                <FileSearch className="h-4 w-4" />
+                Truth stack
+              </div>
+              <h3 className="font-serif text-xl font-semibold text-editorial-ink">
+                {sourcePack.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
+                {sourcePack.summary}
+              </p>
+            </Link>
+          ) : null}
+
+          {signalDigest ? (
+            <Link
+              href={`${basePath}/signals`}
+              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-6 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover"
+            >
+              <div className="mb-3 flex items-center gap-2 text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                <Newspaper className="h-4 w-4" />
+                Signals
+              </div>
+              <h3 className="font-serif text-xl font-semibold text-editorial-ink">
+                {signalDigest.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
+                {signalDigest.summary}
+              </p>
+            </Link>
+          ) : null}
+
           {featuredProject ? (
             <Link
               href={`${basePath}/projects/${featuredProject.slug}`}

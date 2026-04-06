@@ -8,5 +8,8 @@
   "tagline": "Rules, rights, obligations, institutions, and the systems used to resolve disputes and coordinate society.",
   "blueprintSlug": "blueprint",
   "deepDivePages": [],
-  "order": 19
+  "order": 19,
+  "academyTier": "foundational",
+  "macroBucket": "civilization",
+  "contentStatus": "full"
 }

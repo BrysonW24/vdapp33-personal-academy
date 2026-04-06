@@ -8,5 +8,8 @@
   "tagline": "How humans transmit meaning through language, media, structure, and presence.",
   "tier": "flagship",
   "hasNews": true,
-  "order": 19
+  "order": 19,
+  "academyTier": "foundational",
+  "macroBucket": "meaning-culture",
+  "contentStatus": "full"
 }
