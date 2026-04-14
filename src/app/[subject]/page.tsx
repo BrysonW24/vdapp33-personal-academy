@@ -7,6 +7,7 @@ import {
   getTools,
 } from "@/lib/content"
 import { PoliticsSystemPage } from "@/components/subjects/politics/PoliticsSystemPage"
+import { CloudVisualPrimer } from "@/components/subjects/cloud/CloudVisualPrimer"
 import { buildGuideRail } from "@/lib/guide-rail"
 import { SubjectStartHere } from "@/components/personal/SubjectStartHere"
 
@@ -62,6 +63,7 @@ export default async function SubjectPage({
       firstModule={firstModule}
       featuredProject={projects[0] ?? null}
       featuredTool={tools[0] ?? null}
+      visualPrimer={slug === "cloud" ? <CloudVisualPrimer variant="hero" /> : undefined}
       guideRail={guideRail}
     />
   )

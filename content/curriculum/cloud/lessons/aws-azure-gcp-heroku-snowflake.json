@@ -15,7 +15,7 @@
     "platform-fit-matrix",
     "cloud-service-stack"
   ],
-  "example": "A Microsoft-heavy enterprise may naturally lean Azure, a startup may appreciate Heroku for application speed, and an analytics-heavy company may center Snowflake even if workloads run on one of the big three clouds underneath.",
+  "example": "If someone at CrowdStrike hears a sales engineer talk about EC2, EKS, S3, and Snowflake, the simplest interpretation is: EC2 means rented virtual machines, EKS means Kubernetes-managed application workloads, S3 means storage for files or logs, and Snowflake means the analytics and governed data layer rather than general infrastructure.",
   "commonMistakes": [
     "Picking a platform based only on popularity",
     "Treating Snowflake like a full replacement for general cloud infrastructure",
@@ -51,7 +51,7 @@
       "Some organisations use several of these platforms together"
     ],
     "workedExampleLabel": "Worked example",
-    "workedExample": "A mid-sized company using Microsoft identity, Teams, and SQL-heavy internal systems may find Azure culturally and operationally easier to adopt than AWS even if AWS offers comparable capabilities.",
+    "workedExample": "A CrowdStrike-style AWS conversation might sound more complex than it is. The non-technical map is: customers use an app, the app runs on cloud services, some workloads may sit on EC2 virtual machines, some may be orchestrated through Kubernetes on EKS, files and telemetry often land in S3, and analytics may flow into a platform like Snowflake.",
     "realWorldApplications": [
       "Vendor selection",
       "Platform strategy conversations",

@@ -52,7 +52,7 @@ export default function RolesIndexPage() {
               </p>
             </div>
 
-            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+            <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
               {groupedRoles[bucket].map((role) => {
                 const stats = getRoleStats(role.slug)
 

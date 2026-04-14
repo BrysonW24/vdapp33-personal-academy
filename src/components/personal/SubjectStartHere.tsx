@@ -30,6 +30,7 @@ interface SubjectStartHereProps {
   firstModule: Module | null
   featuredProject: Project | null
   featuredTool: Tool | null
+  visualPrimer?: ReactNode
   guideRail?: ReactNode
 }
 
@@ -50,6 +51,7 @@ export function SubjectStartHere({
   firstModule,
   featuredProject,
   featuredTool,
+  visualPrimer,
   guideRail,
 }: SubjectStartHereProps) {
   const deepDiveCards = getSubjectDeepDiveCards(subject)
@@ -200,6 +202,8 @@ export function SubjectStartHere({
           </div>
         </div>
       </section>
+
+      {visualPrimer ? visualPrimer : null}
 
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {sections.map((section) => {

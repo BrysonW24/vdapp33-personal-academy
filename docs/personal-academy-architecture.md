@@ -21,6 +21,8 @@ Nexus is the learning-first side of the academy ecosystem. It shares the multi-s
 - Shared landing pages should be structured, repeatable, and visually scannable rather than prose-heavy
 - Mobile optimisation is part of the architecture for shared surfaces, not a downstream QA step
 - Browse cards should stay compact and information-dense enough to scan comfortably on phones
+- Long browse lists should prefer compact two-up mobile layouts where that improves visible coverage of the catalog
+- Subject and lesson surfaces should support visual primers where a diagram can explain the system faster than prose alone
 
 ## Documentation contract
 

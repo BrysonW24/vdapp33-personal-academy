@@ -25,6 +25,7 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It n
 - Role landing pages should surface a visible training ladder from beginner to expert application, plus embedded quest work, rather than forcing people to infer the structure from deep routes
 - Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, module indexes, and high-volume browse cards
 - Shared browse cards should stay information-dense enough to feel useful on phones instead of airy, oversized, or wasteful
+- High-volume browse surfaces should prefer compact two-up mobile patterns when that helps keep the full catalog visible
 - Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
 - Imported role academies are valid in Nexus when they are re-framed through the shared role-world contract rather than copied in as isolated mini-products
 - When meaningful design, architecture, or product-direction changes land, update the reference docs in the same pass
@@ -166,3 +167,4 @@ For lightweight verification guidance, see `docs/testing-smoke.md`.
 - Keep content grounded in the subject's real intellectual arc and practical ecosystem
 - Keep role content structured and readable: what it is, where it came from, what people do, how people get there, strengths, exposures, and career levers
 - Keep copy scannable; use real paragraphs and sectioned explanations instead of dense single blocks
+- Use diagrams and visual primers on concept-heavy subjects where a simple systems picture can teach faster than more prose

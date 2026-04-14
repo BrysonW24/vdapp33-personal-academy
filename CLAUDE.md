@@ -160,6 +160,8 @@ npm run build
 - Treat mobile optimisation as part of the feature, not a later polish task
 - Verify key shared surfaces on mobile whenever landing pages, navigation, or hero systems change
 - Keep browse cards compact and information-dense enough to scan comfortably on phones
+- Prefer compact two-column browse layouts on phones for long catalogs when larger cards hide too much of the map
+- Add visual primers or diagrams when a subject benefits from a systems picture more than another block of text
 
 ### Documentation and doctrine discipline
 

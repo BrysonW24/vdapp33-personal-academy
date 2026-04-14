@@ -15,7 +15,7 @@
     "cost-and-control-lens",
     "platform-fit-matrix"
   ],
-  "example": "A product manager planning a new analytics feature may not configure any infrastructure directly, but they still need to understand what running on Snowflake versus a more ad hoc data setup means for cost, speed, and future change.",
+  "example": "A non-technical person at a company like CrowdStrike may never open the AWS console, but they still benefit from knowing that EC2 means virtual machines, EKS means Kubernetes-managed containers, S3 means cloud storage, and Snowflake means a data platform used for analytics rather than general compute.",
   "commonMistakes": [
     "Assuming cloud knowledge only matters for specialists",
     "Speaking in vendor jargon without understanding the underlying trade-offs",

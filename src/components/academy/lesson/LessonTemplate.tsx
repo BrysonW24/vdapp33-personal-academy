@@ -28,6 +28,7 @@ interface LessonTemplateProps {
   basePath?: string
   toolkitHref?: string
   breadcrumbs?: BreadcrumbSegment[]
+  visualPrimer?: ReactNode
   guideRail?: ReactNode
 }
 
@@ -47,6 +48,7 @@ export function LessonTemplate({
   basePath,
   toolkitHref,
   breadcrumbs,
+  visualPrimer,
   guideRail,
 }: LessonTemplateProps) {
   const base = basePath ?? (subjectSlug ? `/${subjectSlug}/modules` : "/modules")
@@ -94,6 +96,8 @@ export function LessonTemplate({
           </div>
         </CardContent>
       </Card>
+
+      {visualPrimer ? visualPrimer : null}
 
       <section className="space-y-3">
         <h2 className="text-xl font-semibold flex items-center gap-2">

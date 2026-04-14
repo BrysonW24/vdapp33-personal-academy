@@ -8,6 +8,7 @@ import {
   getLesson,
 } from "@/lib/content"
 import { LessonTemplate } from "@/components/academy/lesson/LessonTemplate"
+import { CloudVisualPrimer } from "@/components/subjects/cloud/CloudVisualPrimer"
 import { buildGuideRail } from "@/lib/guide-rail"
 
 export async function generateStaticParams() {
@@ -67,6 +68,7 @@ export default async function LessonPage({
       module={mod}
       subjectSlug={subjectSlug}
       subjectName={subject.name}
+      visualPrimer={subjectSlug === "cloud" ? <CloudVisualPrimer variant="lesson" /> : undefined}
       guideRail={guideRail}
     />
   )

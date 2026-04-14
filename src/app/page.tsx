@@ -313,7 +313,7 @@ export default function NexusHomePage() {
           </Link>
         </div>
 
-        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
           {roles.map((role) => {
             const stats = getRoleStats(role.slug)
 
@@ -354,7 +354,7 @@ export default function NexusHomePage() {
           </Link>
         </div>
 
-        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
           {topics.map((topic) => {
             const stats = getTopicStats(topic.slug)
 
@@ -411,7 +411,7 @@ export default function NexusHomePage() {
                 </p>
               </div>
 
-              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+              <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
                 {groupSubjects.map((subject) => {
                   const stats = getSubjectStats(subject.slug)
 
