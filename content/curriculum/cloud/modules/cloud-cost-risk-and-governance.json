@@ -1,0 +1,41 @@
+{
+  "slug": "cloud-cost-risk-and-governance",
+  "title": "Cloud Cost, Risk, And Governance",
+  "shortSummary": "The practical discipline of not letting cloud become expensive, messy, or unsafe just because it is easy to start.",
+  "level": "intermediate",
+  "teachingStage": "applications",
+  "domain": "Cloud",
+  "category": "governance",
+  "whyItMatters": "Cloud creates speed, but speed without guardrails produces waste, sprawl, unclear ownership, weak access controls, and surprise bills. Non-technical leaders need a vocabulary for governance even if they never configure infrastructure directly.",
+  "coreConcepts": [
+    "Cost drift and overprovisioning",
+    "Access control and shared responsibility",
+    "Vendor lock-in and portability trade-offs",
+    "Resilience, backup, compliance, and accountability"
+  ],
+  "mentalModels": [
+    "Spend follows architecture",
+    "Governance is an operating habit, not a one-off checklist"
+  ],
+  "lessons": [
+    "cloud-cost-risk-and-governance"
+  ],
+  "frameworks": [
+    "cost-and-control-lens",
+    "platform-fit-matrix"
+  ],
+  "goDeeper": [
+    {
+      "label": "Open Cybersecurity",
+      "href": "/cybersecurity",
+      "description": "Branch into the subject where access, identity, and security controls go deeper."
+    }
+  ],
+  "visualType": "decision-map",
+  "relatedModules": [
+    "working-with-cloud-in-the-real-world"
+  ],
+  "status": "complete",
+  "order": 4,
+  "levelNumber": 4
+}

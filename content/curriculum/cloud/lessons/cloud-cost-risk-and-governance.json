@@ -1,0 +1,72 @@
+{
+  "slug": "cloud-cost-risk-and-governance",
+  "moduleSlug": "cloud-cost-risk-and-governance",
+  "title": "Cloud Cost, Risk, And Governance",
+  "objective": "Show how cloud decisions can help or hurt a business depending on discipline and oversight.",
+  "beginnerExplanation": "Cloud often starts cheaply and quickly, which is why teams love it. The problem is that this same convenience can create uncontrolled spend, duplicated systems, unclear permissions, and fragile dependencies if nobody owns the rules. Governance does not mean slowing everything down; it means making sure speed stays accountable.",
+  "deeperExplanation": "Cloud cost is rarely just a pricing problem. It is an architecture and operating problem. Unused environments, oversized workloads, duplicated data movement, poor storage choices, unclear ownership, and too many unmanaged services all drive waste. Risk follows the same pattern. Weak access controls, poor identity hygiene, unclear backup ownership, and casual data sharing all create exposure.\n\nFor non-technical teams, the practical job is to know which questions matter. Who owns the bill? Who can create resources? Where does sensitive data live? What happens if a service fails? How hard would it be to move later? Which dashboards reveal drift early? Cloud governance is strongest when it becomes a repeatable habit across finance, security, platform, and delivery teams rather than a document written once and ignored.",
+  "keyTakeaways": [
+    "Cloud waste usually reflects weak operating habits, not only high pricing",
+    "Access and identity deserve business attention, not only technical attention",
+    "Governance is about clarity, ownership, and repeatable controls",
+    "Non-technical people improve outcomes by asking sharper questions"
+  ],
+  "frameworks": [
+    "cost-and-control-lens",
+    "platform-fit-matrix"
+  ],
+  "example": "A company that launches quickly on cloud but never cleans up environments, permissions, or data pipelines may discover that convenience quietly became cost sprawl and risk sprawl.",
+  "commonMistakes": [
+    "Thinking cloud cost is only a finance issue",
+    "Treating security controls like somebody else's problem",
+    "Choosing a platform without thinking about governance maturity"
+  ],
+  "exercise": "List five governance questions you would ask before approving a new cloud-heavy initiative.",
+  "teaching": {
+    "mentalModel": {
+      "title": "Spend follows architecture",
+      "summary": "Cloud bills, access exposure, and resilience issues usually reflect the shape of decisions upstream.",
+      "anchors": [
+        "concept",
+        "mechanism",
+        "importance",
+        "application"
+      ]
+    },
+    "howItWorks": {
+      "title": "Governance loop",
+      "steps": [
+        "Define ownership for cost, identity, data, and resilience",
+        "Create clear guardrails for how new services are used",
+        "Review usage and drift regularly",
+        "Adjust architecture and habits before waste compounds"
+      ]
+    },
+    "upsides": [
+      "Keeps cloud speed without chaos",
+      "Improves accountability across teams"
+    ],
+    "downsides": [
+      "Governance without pragmatism can slow teams down",
+      "Some trade-offs remain between simplicity, flexibility, and control"
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "A mature cloud setup tags workloads, limits permissions, monitors spend, and gives teams fast paths that still stay inside clear controls.",
+    "realWorldApplications": [
+      "Budget management",
+      "Security and compliance review",
+      "Platform and vendor governance"
+    ],
+    "whoWorksWithThis": [
+      "Finance, security, operations, and platform leaders",
+      "Founders and department heads signing off on major systems"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open the working-with-cloud module",
+        "href": "/cloud/modules/working-with-cloud-in-the-real-world"
+      }
+    ]
+  },
+  "order": 4
+}

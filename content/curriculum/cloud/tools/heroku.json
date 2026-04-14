@@ -1,0 +1,29 @@
+{
+  "slug": "heroku",
+  "name": "Heroku",
+  "category": "application platform",
+  "description": "Heroku is a Platform as a Service that makes application deployment much simpler by abstracting away much of the infrastructure layer.",
+  "whyUseIt": "Useful when speed, simplicity, and lower operational burden matter more than maximum infrastructure control.",
+  "pricingTier": "paid",
+  "url": "https://www.heroku.com/",
+  "alternatives": [
+    "aws",
+    "azure",
+    "gcp"
+  ],
+  "outputs": [
+    "application hosting",
+    "rapid deployment",
+    "simplified developer workflows"
+  ],
+  "vocabulary": [
+    {
+      "term": "Dyno",
+      "definition": "Heroku's unit for running an application process."
+    }
+  ],
+  "beginnerMistakes": [
+    "Assuming simplicity means it fits every scale or cost profile",
+    "Ignoring the trade-off between speed and deep control"
+  ]
+}

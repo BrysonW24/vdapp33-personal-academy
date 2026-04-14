@@ -2,7 +2,7 @@
 
 ## What this app is
 
-A unified multi-subject academy app (`vdapp33-personal-academy`) for curiosity-driven learning across a much broader map of human reality: 64 subjects, 41 topics, and 7 flagship roles.
+A unified multi-subject academy app (`vdapp33-personal-academy`) for curiosity-driven learning across a much broader map of human reality: 65 subjects, 41 topics, and 22 flagship roles.
 
 This is not a founder cockpit and not a standalone single-subject academy. It is one browse-first knowledge shell where subjects, topics, and roles are the main entry points, with static content, subject-prefixed routes, first-class role/topic routes, and a local-first guidance layer kept available for optional structure.
 
@@ -84,7 +84,7 @@ Founder-only routes like `/{subject}/playbooks`, `/{subject}/systems`, and `/{su
 | Group | Subjects |
 | --- | --- |
 | Sciences | Biology, Chemistry, Cosmology, Earth Science, Ecology & Environmental Systems, Materials Science, Mathematics, Physics, Quantum Science, Statistics & Probability |
-| Engineering | Aerospace, Architecture & Urbanism, Civil Engineering, Computer Science, Cybersecurity, Data Science, Electrical Engineering, Energy Systems, Infrastructure Resilience, Manufacturing & Industry, Maritime Systems, Mechanical Engineering, Mining & Resources, Robotics, Rocket Science, Software Engineering, Space Infrastructure, Systems Engineering |
+| Engineering | Aerospace, Architecture & Urbanism, Civil Engineering, Cloud, Computer Science, Cybersecurity, Data Science, Electrical Engineering, Energy Systems, Infrastructure Resilience, Manufacturing & Industry, Maritime Systems, Mechanical Engineering, Mining & Resources, Robotics, Rocket Science, Software Engineering, Space Infrastructure, Systems Engineering |
 | Society | Commercial Property Management, Defense & Warfare, Demography, Energy Geopolitics, Geopolitics, Institutional Power, Intelligence & Espionage, Law, Media Systems, Politics, Public Administration, Sociology |
 | Markets | Economics, Finance & Accounting, Supply Chain & Logistics, Trade & Globalization |
 | Life | Agriculture & Food Systems, Biotechnology, Medicine & Human Physiology |
@@ -143,7 +143,7 @@ npm run build
 - Keep content static and manifest-driven
 - Keep the guidance layer deterministic and local-first, but secondary to browse-first exploration
 - The homepage should explain the hierarchy clearly: subjects = disciplined depth, topics = cross-domain lenses, roles = embodied intelligence
-- For large content volume, prefer macro buckets, search, and curated quick-entry surfaces over giant raw lists
+- For large content volume, keep search and hierarchy aids, but never hide or thin out the visible catalog on core browse surfaces
 - Keep role/topic/source/signal/onboarding packs aligned across docs, status, and manifests
 - Preserve the warm editorial visual language
 
@@ -159,6 +159,7 @@ npm run build
 - Reuse shared visual systems and role/subject presentation contracts instead of inventing ad hoc layouts
 - Treat mobile optimisation as part of the feature, not a later polish task
 - Verify key shared surfaces on mobile whenever landing pages, navigation, or hero systems change
+- Keep browse cards compact and information-dense enough to scan comfortably on phones
 
 ### Documentation and doctrine discipline
 

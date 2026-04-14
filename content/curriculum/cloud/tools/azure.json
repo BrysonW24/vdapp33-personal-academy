@@ -1,0 +1,33 @@
+{
+  "slug": "azure",
+  "name": "Azure",
+  "category": "cloud platform",
+  "description": "Microsoft Azure is a large cloud platform that often fits enterprise environments already built around Microsoft identity, productivity, and infrastructure tooling.",
+  "whyUseIt": "Useful when enterprise integration, Microsoft ecosystem alignment, and corporate IT compatibility matter strongly.",
+  "pricingTier": "paid",
+  "url": "https://azure.microsoft.com/",
+  "alternatives": [
+    "aws",
+    "gcp"
+  ],
+  "outputs": [
+    "enterprise infrastructure",
+    "identity-connected systems",
+    "data and analytics",
+    "application hosting"
+  ],
+  "vocabulary": [
+    {
+      "term": "Azure AD / Entra ID",
+      "definition": "Microsoft's identity layer for access and authentication."
+    },
+    {
+      "term": "Azure SQL",
+      "definition": "Managed relational database services on Azure."
+    }
+  ],
+  "beginnerMistakes": [
+    "Judging Azure without considering existing Microsoft dependence",
+    "Thinking enterprise fit automatically means lower complexity"
+  ]
+}

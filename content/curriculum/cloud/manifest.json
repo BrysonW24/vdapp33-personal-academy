@@ -1,0 +1,16 @@
+{
+  "slug": "cloud",
+  "name": "Cloud",
+  "shortName": "Cloud",
+  "group": "engineering",
+  "icon": "Cloud",
+  "color": "#0EA5E9",
+  "tagline": "How modern software, data, and infrastructure run as on-demand services instead of owned hardware.",
+  "academyTier": "foundational",
+  "macroBucket": "built-world",
+  "contentStatus": "starter",
+  "description": "A universal, non-technical introduction to cloud platforms, managed services, and the business decisions around AWS, Azure, GCP, Heroku, and Snowflake.",
+  "blueprintSlug": "blueprint",
+  "deepDivePages": [],
+  "order": 64
+}

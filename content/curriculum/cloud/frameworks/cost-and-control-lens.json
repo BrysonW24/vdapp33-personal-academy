@@ -1,0 +1,15 @@
+{
+  "slug": "cost-and-control-lens",
+  "name": "Cost And Control Lens",
+  "summary": "A governance-focused way to compare cloud decisions by speed, ownership, flexibility, spend, and risk.",
+  "whenToUseIt": "Use it when a cloud decision sounds attractive but the operating consequences are not yet clear.",
+  "steps": [
+    "Identify who owns cost, access, data, and resilience",
+    "List the main speed advantages of the proposed approach",
+    "Surface the control, governance, or lock-in trade-offs",
+    "Decide whether the organisation is mature enough for that choice"
+  ],
+  "example": "A team may move faster with a highly managed platform, but if ownership and compliance are unclear that same convenience can become a governance problem.",
+  "category": "governance",
+  "domain": "Cloud"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cloud-service-models-and-business-shape",
+  "moduleSlug": "cloud-mental-models",
+  "title": "Cloud Service Models And Business Shape",
+  "objective": "Explain the key service models and why they matter to non-technical decision makers.",
+  "beginnerExplanation": "The easiest way to understand cloud is to look at how much responsibility stays with your team. Infrastructure as a Service gives the customer the most control and the most operational burden. Platform as a Service removes more of that burden and speeds up software delivery. Software as a Service sits even higher and gives complete applications. Snowflake adds another useful category for non-technical learners: the cloud-native data platform, where the main job is data storage, transformation, analytics, and sharing rather than general application hosting.",
+  "deeperExplanation": "These models matter because they shape cost, flexibility, governance, and hiring requirements. A company using raw infrastructure may gain more control but need stronger engineering depth. A team using managed platforms can move faster with less operational overhead, but may give up some portability or fine-grained control.\n\nHeroku is a helpful example of Platform as a Service because it hides much of the infrastructure layer and lets teams focus on getting an application live. Snowflake is helpful because it shows that not every cloud choice is about running an app; sometimes the main value is data warehousing, analytics, and secure data sharing. Understanding the shape of the service model often matters more than comparing long lists of product features.",
+  "keyTakeaways": [
+    "Cloud choices are also responsibility choices",
+    "Higher abstraction usually means less operational burden",
+    "Different service models fit different business needs",
+    "Snowflake belongs in the cloud conversation because data platforms are often central to business value"
+  ],
+  "frameworks": [
+    "cloud-service-stack",
+    "cost-and-control-lens"
+  ],
+  "example": "A startup may prefer Heroku for a simple application launch, while a larger enterprise might use Azure infrastructure plus Snowflake for cross-department analytics and governance.",
+  "commonMistakes": [
+    "Comparing providers before understanding the service model needed",
+    "Assuming maximum flexibility is always the best answer",
+    "Ignoring the data platform layer when analytics is the real business priority"
+  ],
+  "exercise": "Pick one business scenario and decide whether it mainly needs infrastructure, a platform, SaaS, or a data cloud.",
+  "teaching": {
+    "mentalModel": {
+      "title": "Responsibility handoff",
+      "summary": "Every move up the cloud stack hands more operational burden to the provider and asks the customer to focus more on outcomes.",
+      "anchors": [
+        "concept",
+        "mechanism",
+        "importance",
+        "application"
+      ]
+    },
+    "howItWorks": {
+      "title": "Stack logic",
+      "steps": [
+        "Define the main job: application hosting, data, collaboration, analytics, or infrastructure control",
+        "Choose the service layer that best fits the real job",
+        "Check what your team still has to own",
+        "Align spend, risk, and skills with that choice"
+      ]
+    },
+    "upsides": [
+      "Simplifies vendor conversations",
+      "Clarifies who needs to know what"
+    ],
+    "downsides": [
+      "High-level models can hide important details",
+      "Some teams choose simpler platforms and later outgrow them"
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "Heroku helps a non-specialist team ship application workloads quickly because much of the infrastructure layer is abstracted away.",
+    "realWorldApplications": [
+      "App platform selection",
+      "Data warehouse planning",
+      "Technology roadmap conversations"
+    ],
+    "whoWorksWithThis": [
+      "Product and delivery leaders",
+      "Engineering managers and architects",
+      "Finance and operations stakeholders"
+    ],
+    "goDeeper": [
+      {
+        "label": "Compare the major cloud platforms",
+        "href": "/cloud/modules/platform-map-for-non-technical-teams"
+      }
+    ]
+  },
+  "order": 2
+}

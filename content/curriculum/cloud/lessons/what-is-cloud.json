@@ -1,0 +1,73 @@
+{
+  "slug": "what-is-cloud",
+  "moduleSlug": "what-cloud-is",
+  "title": "What Cloud Is",
+  "objective": "Give a non-technical learner a clean mental picture of what cloud means and why it matters.",
+  "beginnerExplanation": "Cloud is the idea that computing resources can be used like utilities instead of bought like physical equipment. Rather than purchasing servers, networking gear, and storage upfront, organisations rent what they need from providers that run the underlying infrastructure for many customers at scale. In practice this means teams can launch software, store data, run analytics, and scale services much faster than they could if they had to build everything themselves.",
+  "deeperExplanation": "The word cloud is often used too loosely, which is why it can feel vague. A better way to think about it is this: cloud is a delivery model for digital capability. The provider supplies infrastructure, managed services, and operating tools; the customer chooses how much control they want to keep versus hand off.\n\nFor non-technical people, cloud matters because it changes business speed, cost structure, risk, and dependency. It turns large capital purchases into ongoing operating spend, reduces the need to own hardware directly, and makes modern software and data systems much more accessible. It also creates a new layer of complexity around cost control, access, resilience, and vendor choice.",
+  "keyTakeaways": [
+    "Cloud is rented digital capability rather than owned hardware",
+    "It changes both technical architecture and business economics",
+    "Non-technical teams still make important cloud-shaped decisions",
+    "A clear mental model matters more than memorising jargon"
+  ],
+  "frameworks": [
+    "cloud-service-stack",
+    "platform-fit-matrix"
+  ],
+  "example": "A retailer launching a new online product can use cloud hosting, managed databases, analytics, and storage without buying physical servers or building its own data centre.",
+  "commonMistakes": [
+    "Treating cloud like a magical black box with no trade-offs",
+    "Assuming cloud automatically means lower cost in every case",
+    "Thinking only engineers need to understand cloud decisions"
+  ],
+  "exercise": "Write a short explanation of cloud in plain English for a founder or operations manager who does not work in technology.",
+  "teaching": {
+    "mentalModel": {
+      "title": "Cloud as utility",
+      "summary": "Think of cloud as the utility model for digital infrastructure: you consume capability, set guardrails, and pay for the shape of what you use.",
+      "anchors": [
+        "concept",
+        "mechanism",
+        "importance",
+        "application"
+      ]
+    },
+    "howItWorks": {
+      "title": "Starter process",
+      "steps": [
+        "A team has an application, data, or scaling need",
+        "A cloud provider offers infrastructure and managed services to meet it",
+        "The team chooses how much complexity to own versus outsource",
+        "Governance determines whether speed becomes leverage or mess"
+      ]
+    },
+    "upsides": [
+      "Faster setup than buying and running infrastructure yourself",
+      "Access to managed services that would otherwise be hard to operate"
+    ],
+    "downsides": [
+      "Poor governance can create waste and sprawl",
+      "Vendor dependency and hidden complexity can grow over time"
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "A young company can ship a customer portal on managed infrastructure quickly, but still needs to understand who owns data, access, cost, and reliability.",
+    "realWorldApplications": [
+      "Launching products without owning servers",
+      "Running analytics and data storage at scale",
+      "Supporting modern collaboration tools and internal systems"
+    ],
+    "whoWorksWithThis": [
+      "Founders and operators",
+      "Product managers and analysts",
+      "Cloud engineers, architects, and platform teams"
+    ],
+    "goDeeper": [
+      {
+        "label": "Open Cloud mental models",
+        "href": "/cloud/modules/cloud-mental-models"
+      }
+    ]
+  },
+  "order": 1
+}

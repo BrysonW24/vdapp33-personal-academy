@@ -1,0 +1,42 @@
+{
+  "slug": "platform-map-for-non-technical-teams",
+  "title": "Platform Map For Non-Technical Teams",
+  "shortSummary": "A practical comparison of AWS, Azure, GCP, Heroku, and Snowflake without assuming engineering expertise.",
+  "level": "beginner",
+  "teachingStage": "frameworks",
+  "domain": "Cloud",
+  "category": "platforms",
+  "whyItMatters": "Most non-technical decisions do not require deep infrastructure knowledge, but they do require knowing which platform families are broad, which are simpler, which are enterprise-heavy, and which are built for data.",
+  "coreConcepts": [
+    "AWS as the broadest cloud platform",
+    "Azure as Microsoft's enterprise cloud ecosystem",
+    "GCP as a strong data, analytics, and modern developer platform",
+    "Heroku as a simplified app platform",
+    "Snowflake as a cloud-native data platform rather than a general cloud"
+  ],
+  "mentalModels": [
+    "Platform fit before feature lists",
+    "Simplify the choice by primary job"
+  ],
+  "lessons": [
+    "aws-azure-gcp-heroku-snowflake"
+  ],
+  "frameworks": [
+    "platform-fit-matrix",
+    "cloud-service-stack"
+  ],
+  "goDeeper": [
+    {
+      "label": "See the Data Science subject",
+      "href": "/data-science",
+      "description": "Useful when Snowflake and analytics become the main interest."
+    }
+  ],
+  "visualType": "comparison-grid",
+  "relatedModules": [
+    "cloud-cost-risk-and-governance"
+  ],
+  "status": "complete",
+  "order": 3,
+  "levelNumber": 3
+}

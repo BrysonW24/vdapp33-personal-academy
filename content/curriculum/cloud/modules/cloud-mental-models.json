@@ -1,0 +1,41 @@
+{
+  "slug": "cloud-mental-models",
+  "title": "Cloud Mental Models",
+  "shortSummary": "The essential models a non-technical person needs before comparing vendors or making platform decisions.",
+  "level": "beginner",
+  "teachingStage": "mental-models",
+  "domain": "Cloud",
+  "category": "mental-models",
+  "whyItMatters": "Most cloud confusion comes from skipping the mental model layer. Once you understand service levels, abstraction, and ownership boundaries, provider differences become much easier to interpret.",
+  "coreConcepts": [
+    "IaaS, PaaS, SaaS, and data platforms",
+    "Public cloud, private cloud, and hybrid patterns",
+    "Managed versus self-managed trade-offs",
+    "Abstraction layers and who carries the operational burden"
+  ],
+  "mentalModels": [
+    "Service stack ladder",
+    "Responsibility handoff"
+  ],
+  "lessons": [
+    "cloud-service-models-and-business-shape"
+  ],
+  "frameworks": [
+    "cloud-service-stack",
+    "cost-and-control-lens"
+  ],
+  "goDeeper": [
+    {
+      "label": "Open the Cloud module map",
+      "href": "/cloud/modules",
+      "description": "Move through the rest of the starter journey."
+    }
+  ],
+  "visualType": "model-map",
+  "relatedModules": [
+    "platform-map-for-non-technical-teams"
+  ],
+  "status": "complete",
+  "order": 2,
+  "levelNumber": 2
+}

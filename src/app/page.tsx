@@ -104,15 +104,15 @@ export default function NexusHomePage() {
   const featuredSubject = subjects[0]
 
   return (
-    <div className="container mx-auto space-y-10 px-4 py-6 sm:space-y-12 sm:py-8">
-      <section className="grid gap-6 xl:grid-cols-[1.05fr,0.95fr]">
-        <div className="academy-hero-shell relative overflow-hidden rounded-[30px] border border-[rgba(44,49,59,0.08)] bg-[linear-gradient(145deg,rgba(255,255,255,0.94),rgba(251,246,239,0.88))] p-6 shadow-editorial-soft backdrop-blur-[18px] sm:p-10">
+    <div className="container mx-auto space-y-8 px-4 py-5 sm:space-y-10 sm:py-8">
+      <section className="grid gap-4 xl:grid-cols-[1.05fr,0.95fr] xl:gap-6">
+        <div className="academy-hero-shell relative overflow-hidden rounded-[26px] border border-[rgba(44,49,59,0.08)] bg-[linear-gradient(145deg,rgba(255,255,255,0.94),rgba(251,246,239,0.88))] p-5 shadow-editorial-soft backdrop-blur-[18px] sm:rounded-[30px] sm:p-8">
           <div className="pointer-events-none absolute -left-10 top-20 h-44 w-44 rounded-full bg-[#1fb9ff]/20 blur-3xl" />
           <div className="pointer-events-none absolute left-32 top-8 h-44 w-44 rounded-full bg-[#8b5cf6]/16 blur-3xl" />
           <div className="pointer-events-none absolute left-48 top-28 h-40 w-40 rounded-full bg-[#ffb347]/24 blur-3xl" />
           <div className="academy-hero-grid absolute inset-0" />
 
-          <div className="relative mb-4 flex flex-wrap items-center gap-2 sm:mb-5 sm:gap-3">
+          <div className="relative mb-3 flex flex-wrap items-center gap-2 sm:mb-5 sm:gap-3">
             <span className="rounded-full border border-[rgba(44,49,59,0.08)] bg-white/72 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-editorial-muted shadow-sm">
               Open-world knowledge
             </span>
@@ -125,16 +125,16 @@ export default function NexusHomePage() {
           <div className="relative">
             <NexusWordmark size="hero" />
           </div>
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-editorial-muted sm:text-lg">
+          <p className="mt-3 max-w-2xl text-[15px] leading-[1.6] text-editorial-muted sm:mt-4 sm:text-lg sm:leading-relaxed">
             Nexus is a browse-first map of human reality. Use subjects for disciplined
             depth, topics for cross-domain lenses, and roles for embodied intelligence.
           </p>
-          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+          <p className="mt-2.5 max-w-2xl text-[13px] leading-[1.6] text-editorial-muted sm:mt-3 sm:text-base sm:leading-relaxed">
             Everything stays visible. You can start from a field, a bigger question,
             or a role in the world without losing the deeper structure underneath.
           </p>
 
-          <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-sm text-editorial-muted sm:flex sm:flex-wrap">
+          <div className="mt-5 grid grid-cols-2 gap-x-3 gap-y-2.5 text-xs text-editorial-muted sm:mt-6 sm:flex sm:flex-wrap sm:text-sm">
             <span className="flex items-center gap-1.5">
               <BookOpen className="h-4 w-4" />
               {subjectTotals.modules} modules
@@ -153,11 +153,11 @@ export default function NexusHomePage() {
             </span>
           </div>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <div className="mt-6 flex flex-col gap-2.5 sm:mt-8 sm:flex-row sm:flex-wrap sm:gap-3">
             {featuredRole ? (
               <Link
                 href={`/roles/${featuredRole.slug}`}
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-green px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-editorial-green/90 sm:w-auto"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-green px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-editorial-green/90 sm:w-auto sm:px-5"
               >
                 Open a role
                 <ArrowRight className="h-4 w-4" />
@@ -166,7 +166,7 @@ export default function NexusHomePage() {
             {featuredTopic ? (
               <Link
                 href={`/topics/${featuredTopic.slug}`}
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-blue-soft px-5 py-2.5 text-sm font-medium text-editorial-blue transition-colors hover:bg-editorial-blue/10 sm:w-auto"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-editorial-blue-soft px-4 py-2.5 text-sm font-medium text-editorial-blue transition-colors hover:bg-editorial-blue/10 sm:w-auto sm:px-5"
               >
                 Explore a topic
               </Link>
@@ -174,7 +174,7 @@ export default function NexusHomePage() {
             {featuredSubject ? (
               <Link
                 href={`/${featuredSubject.slug}`}
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-editorial-ink transition-colors hover:bg-editorial-canvas sm:w-auto"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-4 py-2.5 text-sm font-medium text-editorial-ink transition-colors hover:bg-editorial-canvas sm:w-auto sm:px-5"
               >
                 Open a subject
               </Link>
@@ -182,22 +182,22 @@ export default function NexusHomePage() {
           </div>
         </div>
 
-        <div className="rounded-[30px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.82)] p-6 shadow-editorial-soft backdrop-blur-[18px] sm:p-8">
+        <div className="rounded-[26px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.82)] p-4 shadow-editorial-soft backdrop-blur-[18px] sm:rounded-[30px] sm:p-6">
           <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
             Browse first
           </p>
-          <div className="mt-5 space-y-4">
+          <div className="mt-4 space-y-3 sm:mt-5 sm:space-y-4">
             {STRUCTURE_CARDS.map((item) => {
               const Icon = item.icon
 
               return (
                 <div
                   key={item.label}
-                  className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-5 shadow-editorial-soft"
+                  className="rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-4 shadow-editorial-soft sm:rounded-[22px] sm:p-5"
                 >
                   <div className="flex items-start gap-3">
                     <span
-                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px]"
+                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[14px] sm:h-11 sm:w-11"
                       style={{ backgroundColor: `${item.color}16`, color: item.color }}
                     >
                       <Icon className="h-4.5 w-4.5" />
@@ -206,10 +206,10 @@ export default function NexusHomePage() {
                       <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
                         {item.label}
                       </p>
-                      <h2 className="mt-2 font-serif text-2xl font-semibold text-editorial-ink">
+                      <h2 className="mt-1.5 font-serif text-[1.45rem] font-semibold leading-tight text-editorial-ink sm:mt-2 sm:text-2xl">
                         {item.title}
                       </h2>
-                      <p className="mt-2 text-sm leading-relaxed text-editorial-muted">
+                      <p className="mt-1.5 text-[13px] leading-[1.55] text-editorial-muted sm:mt-2 sm:text-sm sm:leading-relaxed">
                         {item.body}
                       </p>
                     </div>
@@ -221,32 +221,32 @@ export default function NexusHomePage() {
         </div>
       </section>
 
-      <section className="grid gap-6 xl:grid-cols-[1fr,1.05fr]">
-        <div className="rounded-[30px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-6 shadow-editorial-soft sm:p-8">
+      <section className="grid gap-4 xl:grid-cols-[1fr,1.05fr] xl:gap-6">
+        <div className="rounded-[26px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-5 shadow-editorial-soft sm:rounded-[30px] sm:p-8">
           <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
             How Nexus works
           </p>
-          <h2 className="mt-2 max-w-3xl font-serif text-3xl font-semibold text-editorial-ink sm:text-4xl">
+          <h2 className="mt-2 max-w-3xl font-serif text-[2rem] font-semibold leading-tight text-editorial-ink sm:text-4xl">
             One map, three kinds of entry points
           </h2>
-          <p className="mt-4 max-w-3xl text-base leading-relaxed text-editorial-muted">
+          <p className="mt-3 max-w-3xl text-[15px] leading-[1.6] text-editorial-muted sm:mt-4 sm:text-base sm:leading-relaxed">
             Subjects are the stable base. Topics cut across them as bigger questions,
             tensions, or worldview frames. Roles sit on the outer layer, where knowledge
             becomes the perspective and pressure of a real person in the world.
           </p>
-          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+          <p className="mt-2.5 max-w-3xl text-[13px] leading-[1.6] text-editorial-muted sm:mt-3 sm:text-base sm:leading-relaxed">
             The point is to let you start from wherever your curiosity is strongest
             without hiding the rest of the map.
           </p>
 
-          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+          <div className="mt-5 grid gap-2.5 sm:mt-6 sm:grid-cols-2 sm:gap-3">
             {TEACHING_LENSES.map((lens, index) => (
               <div
                 key={lens.label}
-                className="rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/84 p-4"
+                className="rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-white/84 p-3.5 sm:rounded-[20px] sm:p-4"
               >
                 <div className="flex items-center gap-3">
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-editorial-green text-sm font-semibold text-white">
+                    <span className="flex h-7 w-7 items-center justify-center rounded-full bg-editorial-green text-xs font-semibold text-white sm:h-8 sm:w-8 sm:text-sm">
                     {index + 1}
                   </span>
                   <div>
@@ -259,10 +259,10 @@ export default function NexusHomePage() {
           </div>
         </div>
 
-        <KnowledgeHierarchyScene className="h-full" />
+        <KnowledgeHierarchyScene className="min-h-[300px] h-full sm:min-h-[360px]" />
       </section>
 
-      <section className="rounded-[24px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-5 shadow-editorial-soft sm:p-6">
+      <section className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-4 shadow-editorial-soft sm:rounded-[24px] sm:p-6">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
@@ -279,7 +279,7 @@ export default function NexusHomePage() {
               <a
                 key={link.href}
                 href={link.href}
-                className="shrink-0 rounded-full border border-[rgba(44,49,59,0.08)] bg-white px-4 py-2 text-xs uppercase tracking-[0.16em] text-editorial-muted transition-colors hover:bg-editorial-canvas"
+                className="shrink-0 rounded-full border border-[rgba(44,49,59,0.08)] bg-white px-3 py-2 text-[11px] uppercase tracking-[0.16em] text-editorial-muted transition-colors hover:bg-editorial-canvas sm:px-4 sm:text-xs"
               >
                 {link.label}
               </a>
@@ -288,13 +288,13 @@ export default function NexusHomePage() {
         </div>
       </section>
 
-      <section id="roles" className="space-y-4">
+      <section id="roles" className="space-y-3 sm:space-y-4">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
               Guided worlds
             </p>
-            <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+            <h2 className="mt-2 font-serif text-[2rem] font-semibold leading-tight text-editorial-ink sm:text-3xl">
               Roles
             </h2>
             <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
@@ -313,7 +313,7 @@ export default function NexusHomePage() {
           </Link>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {roles.map((role) => {
             const stats = getRoleStats(role.slug)
 
@@ -330,13 +330,13 @@ export default function NexusHomePage() {
         </div>
       </section>
 
-      <section id="topics" className="space-y-4">
+      <section id="topics" className="space-y-3 sm:space-y-4">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
               Cross-domain lenses
             </p>
-            <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+            <h2 className="mt-2 font-serif text-[2rem] font-semibold leading-tight text-editorial-ink sm:text-3xl">
               Topics
             </h2>
             <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
@@ -354,7 +354,7 @@ export default function NexusHomePage() {
           </Link>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {topics.map((topic) => {
             const stats = getTopicStats(topic.slug)
 
@@ -371,13 +371,13 @@ export default function NexusHomePage() {
         </div>
       </section>
 
-      <section id="subjects" className="space-y-8">
+      <section id="subjects" className="space-y-6 sm:space-y-8">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
               Canonical subjects
             </p>
-            <h2 className="mt-2 font-serif text-3xl font-semibold text-editorial-ink">
+            <h2 className="mt-2 font-serif text-[2rem] font-semibold leading-tight text-editorial-ink sm:text-3xl">
               Subjects still own the curriculum
             </h2>
             <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
@@ -403,7 +403,7 @@ export default function NexusHomePage() {
             <section
               key={group}
               id={`subjects-${group}`}
-              className="space-y-4"
+              className="space-y-3 sm:space-y-4"
             >
               <div>
                 <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
@@ -411,7 +411,7 @@ export default function NexusHomePage() {
                 </p>
               </div>
 
-              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
                 {groupSubjects.map((subject) => {
                   const stats = getSubjectStats(subject.slug)
 

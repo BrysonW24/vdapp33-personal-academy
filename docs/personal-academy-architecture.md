@@ -17,8 +17,10 @@ Nexus is the learning-first side of the academy ecosystem. It shares the multi-s
 - Shared surfaces should explain the shape of a subject, topic, or role quickly before branching deeper
 - Navigation must distinguish browse-level wayfinding from entity-context wayfinding
 - Large-volume discovery should rely on macro buckets plus search-first quick jump, not giant undifferentiated lists
+- Large-volume discovery should still keep the full catalog visibly available on core browse surfaces; do not trade completeness away for a sampled view
 - Shared landing pages should be structured, repeatable, and visually scannable rather than prose-heavy
 - Mobile optimisation is part of the architecture for shared surfaces, not a downstream QA step
+- Browse cards should stay compact and information-dense enough to scan comfortably on phones
 
 ## Documentation contract
 
@@ -44,6 +46,7 @@ Current state:
 - Role-native content now includes imported Founder OS role academies that have been re-homed into the shared Nexus role contract instead of being left as standalone operator products
 - `/setup` and `/my-path` remain live but are secondary surfaces rather than the homepage story
 - `quantum-science` and `energy-systems` are the canonical expansions of the original science/content base
+- `cloud` is now a canonical engineering subject with a non-technical starter journey covering AWS, Azure, GCP, Heroku, and Snowflake
 - `/{subject|role|topic}/sources` and `/{subject|role|topic}/signals` are live curated surfaces
 - Guide rails now connect start pages, module pages, lesson pages, project pages, and tool pages back into the active path
 - The homepage now teaches the hierarchy explicitly with a Three.js-based subject/topic/role explainer plus macro-bucket browse sections

@@ -1,0 +1,15 @@
+{
+  "slug": "cloud-service-stack",
+  "name": "Cloud Service Stack",
+  "summary": "A simple way to map whether a workload really needs raw infrastructure, a managed platform, software, or a data cloud.",
+  "whenToUseIt": "Use it when a cloud conversation feels abstract or overloaded with vendor language.",
+  "steps": [
+    "Define the actual job to be done",
+    "Place that job on the stack: infrastructure, platform, software, or data",
+    "Identify which responsibilities stay with your team",
+    "Check whether the chosen layer is too low-level or too constrained"
+  ],
+  "example": "A team that mainly needs application hosting may be better served by a platform approach like Heroku than by jumping straight into low-level infrastructure choices.",
+  "category": "systems",
+  "domain": "Cloud"
+}

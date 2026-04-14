@@ -1,0 +1,51 @@
+{
+  "slug": "cloud-program-manager",
+  "title": "Cloud Program Manager",
+  "setting": "Mid-sized company modernising its application and data stack",
+  "companySize": "500-2,000 employees",
+  "description": "A cloud program manager sits between technical teams and business stakeholders. They coordinate migrations, budgets, vendors, governance, timelines, and communication so cloud work creates real business outcomes instead of becoming a loose collection of platform initiatives.",
+  "salary": "Varies widely by market and seniority; often aligned with senior operations, transformation, or technology program roles.",
+  "schedule": [
+    {
+      "time": "08:30",
+      "activity": "Review spend, milestone, and incident dashboards",
+      "note": "The day starts with visibility into cost, delivery, and risk."
+    },
+    {
+      "time": "10:00",
+      "activity": "Join migration planning meeting",
+      "note": "Coordinate product, security, finance, and platform teams."
+    },
+    {
+      "time": "13:00",
+      "activity": "Vendor and stakeholder check-ins",
+      "note": "Clarify ownership, timelines, and governance decisions."
+    },
+    {
+      "time": "16:00",
+      "activity": "Write executive update",
+      "note": "Translate platform progress into business language."
+    }
+  ],
+  "responsibilities": [
+    "Coordinate cross-functional cloud programs",
+    "Track budgets, risks, and milestone dependencies",
+    "Translate cloud decisions for non-technical stakeholders",
+    "Keep governance, ownership, and communication aligned"
+  ],
+  "challenges": [
+    "Balancing speed with governance",
+    "Translating technical nuance without oversimplifying",
+    "Keeping vendor, finance, and platform realities aligned"
+  ],
+  "rewards": [
+    "High leverage across many teams",
+    "Visible impact on delivery speed and operating quality",
+    "Career compounding through systems-level judgment"
+  ],
+  "careerPath": [
+    "Program coordinator or delivery lead",
+    "Transformation manager or cloud program manager",
+    "Portfolio leader, operations executive, or technology strategy lead"
+  ]
+}

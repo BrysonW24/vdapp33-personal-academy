@@ -2,7 +2,7 @@
 
 Repo lineage: `vdapp33-personal-academy`
 
-Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 64 subjects, 41 topics, and 22 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
+Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 65 subjects, 41 topics, and 22 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
 
 ## What This App Is
 
@@ -23,7 +23,8 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It n
 - Roles should follow a repeatable, structured setup rather than feeling like loose editorial pages
 - Roles should feel like guided worlds: what the person does, what they see that others miss, how people get there, what they need to be strong in, what pressures they absorb, and how careers compound
 - Role landing pages should surface a visible training ladder from beginner to expert application, plus embedded quest work, rather than forcing people to infer the structure from deep routes
-- Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, and module indexes
+- Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, module indexes, and high-volume browse cards
+- Shared browse cards should stay information-dense enough to feel useful on phones instead of airy, oversized, or wasteful
 - Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
 - Imported role academies are valid in Nexus when they are re-framed through the shared role-world contract rather than copied in as isolated mini-products
 - When meaningful design, architecture, or product-direction changes land, update the reference docs in the same pass
@@ -67,7 +68,7 @@ All subject content lives under `content/curriculum/{subject}/` and is auto-disc
 Current technical groups:
 
 - Sciences: `biology`, `chemistry`, `cosmology`, `earth-science`, `ecology-environmental-systems`, `materials-science`, `mathematics`, `physics`, `quantum-science`, `statistics-probability`
-- Engineering: `aerospace`, `architecture-urbanism`, `civil-engineering`, `computer-science`, `cybersecurity`, `data-science`, `electrical-engineering`, `energy-systems`, `infrastructure-resilience`, `manufacturing-industry`, `maritime-systems`, `mechanical-engineering`, `mining-resources`, `robotics`, `rocket-science`, `software-engineering`, `space-infrastructure`, `systems-engineering`
+- Engineering: `aerospace`, `architecture-urbanism`, `civil-engineering`, `cloud`, `computer-science`, `cybersecurity`, `data-science`, `electrical-engineering`, `energy-systems`, `infrastructure-resilience`, `manufacturing-industry`, `maritime-systems`, `mechanical-engineering`, `mining-resources`, `robotics`, `rocket-science`, `software-engineering`, `space-infrastructure`, `systems-engineering`
 - Society: `commercial-property-management`, `defense-warfare`, `demography`, `energy-geopolitics`, `geopolitics`, `institutional-power`, `intelligence-espionage`, `law`, `media-systems`, `politics`, `public-administration`, `sociology`
 - Markets: `economics`, `finance-accounting`, `supply-chain-logistics`, `trade-globalization`
 - Life: `agriculture-food-systems`, `biotechnology`, `medicine-human-physiology`

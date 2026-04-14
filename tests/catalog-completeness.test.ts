@@ -38,6 +38,7 @@ const REQUIRED_SUBJECTS = [
   "mathematics",
   "statistics-probability",
   "computer-science",
+  "cloud",
   "economics",
   "history-of-civilization",
   "anthropology",

@@ -1,0 +1,62 @@
+{
+  "slug": "choose-a-cloud-home-for-a-team",
+  "title": "Choose a cloud home for a team",
+  "difficulty": 3,
+  "estimatedHours": 3,
+  "description": "Build a practical recommendation for which cloud platform shape best fits a non-technical team's real needs.",
+  "whyItMatters": "This turns cloud from vague jargon into a reasoned decision process you can explain to other people.",
+  "skillsLearned": [
+    "Platform comparison",
+    "Trade-off analysis",
+    "Plain-English technical communication"
+  ],
+  "prerequisites": [
+    "what-is-cloud",
+    "aws-azure-gcp-heroku-snowflake"
+  ],
+  "steps": [
+    {
+      "title": "Pick a realistic scenario",
+      "description": "Choose a startup, enterprise team, analytics-heavy company, or internal operations use case."
+    },
+    {
+      "title": "Map the actual job",
+      "description": "Decide whether the real need is infrastructure breadth, enterprise integration, fast app deployment, or governed data work."
+    },
+    {
+      "title": "Compare the five platforms",
+      "description": "Use the platform fit matrix to weigh AWS, Azure, GCP, Heroku, and Snowflake against the scenario."
+    },
+    {
+      "title": "Write a recommendation",
+      "description": "Explain which platform is the primary fit, what trade-offs remain, and what governance questions need answering next."
+    }
+  ],
+  "deliverables": [
+    "One-page platform recommendation",
+    "Short trade-off summary",
+    "Three follow-up governance questions"
+  ],
+  "tools": [
+    "aws",
+    "azure",
+    "gcp",
+    "heroku",
+    "snowflake"
+  ],
+  "rubric": [
+    {
+      "criteria": "Fit",
+      "description": "The recommendation clearly matches the real scenario instead of generic vendor hype."
+    },
+    {
+      "criteria": "Trade-offs",
+      "description": "Upsides, downsides, and governance questions are made explicit."
+    },
+    {
+      "criteria": "Clarity",
+      "description": "A non-technical stakeholder could understand the recommendation quickly."
+    }
+  ],
+  "domain": "Cloud"
+}

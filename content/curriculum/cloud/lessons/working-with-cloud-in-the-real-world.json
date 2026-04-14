@@ -1,0 +1,72 @@
+{
+  "slug": "working-with-cloud-in-the-real-world",
+  "moduleSlug": "working-with-cloud-in-the-real-world",
+  "title": "Working With Cloud In The Real World",
+  "objective": "Make cloud feel concrete by showing how it appears in roles, meetings, projects, and career growth.",
+  "beginnerExplanation": "Most people who work with cloud are not spending every day inside server configuration screens. They are coordinating vendors, planning migrations, reviewing costs, asking security questions, shaping data flows, supporting product launches, or translating between technical and non-technical teams. Cloud literacy is valuable because it helps people ask better questions about speed, reliability, cost, and risk.",
+  "deeperExplanation": "Cloud is now embedded in product, operations, analytics, finance, and IT decisions. That means cloud-adjacent careers are broader than infrastructure engineering alone. Product managers need to understand platform implications for shipping and scaling. Data leaders need to understand how storage, compute, and warehousing choices affect analysis. Operations and finance leaders need enough fluency to spot spend drift and ownership gaps. Security leaders need to understand access, data flow, and resilience.\n\nCareer-wise, cloud knowledge compounds because it sits close to real business leverage. People who can translate between strategic goals and platform consequences become valuable quickly. Even at a non-technical level, being able to compare AWS, Azure, GCP, Heroku, and Snowflake in plain English makes someone more useful in planning, vendor conversations, and cross-functional decision-making.",
+  "keyTakeaways": [
+    "Cloud literacy is not limited to engineering specialists",
+    "Translation between business and platform reality is a real career advantage",
+    "Good cloud questions improve delivery, cost, and risk outcomes",
+    "The most useful learners connect cloud to real systems and decisions"
+  ],
+  "frameworks": [
+    "cost-and-control-lens",
+    "platform-fit-matrix"
+  ],
+  "example": "A product manager planning a new analytics feature may not configure any infrastructure directly, but they still need to understand what running on Snowflake versus a more ad hoc data setup means for cost, speed, and future change.",
+  "commonMistakes": [
+    "Assuming cloud knowledge only matters for specialists",
+    "Speaking in vendor jargon without understanding the underlying trade-offs",
+    "Ignoring the business context when discussing technical choices"
+  ],
+  "exercise": "Write three questions a strong non-technical stakeholder should ask before approving a platform or cloud migration decision.",
+  "teaching": {
+    "mentalModel": {
+      "title": "Translation is leverage",
+      "summary": "The closer a person can connect business intent to platform consequences, the more valuable their cloud literacy becomes.",
+      "anchors": [
+        "concept",
+        "mechanism",
+        "importance",
+        "application"
+      ]
+    },
+    "howItWorks": {
+      "title": "Career relevance",
+      "steps": [
+        "Understand the main cloud mental models",
+        "Learn how the major platforms differ",
+        "Use that knowledge to ask better business questions",
+        "Build credibility by improving decisions, not by reciting jargon"
+      ]
+    },
+    "upsides": [
+      "Makes cross-functional work more effective",
+      "Builds judgment that compounds across many roles"
+    ],
+    "downsides": [
+      "Surface knowledge alone is not enough for technical implementation",
+      "Platform language can still become noisy if the fundamentals are weak"
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "A cloud-literate operations lead can help a team avoid premature vendor lock-in simply by pushing for clearer ownership, budget visibility, and data location decisions upfront.",
+    "realWorldApplications": [
+      "Migration planning",
+      "Vendor evaluation",
+      "Cross-functional product and data work"
+    ],
+    "whoWorksWithThis": [
+      "Product, operations, finance, analytics, and security leaders",
+      "Cloud engineers and architects"
+    ],
+    "goDeeper": [
+      {
+        "label": "Explore Cloud projects",
+        "href": "/cloud/projects"
+      }
+    ]
+  },
+  "order": 5
+}

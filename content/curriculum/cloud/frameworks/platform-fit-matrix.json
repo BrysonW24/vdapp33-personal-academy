@@ -1,0 +1,15 @@
+{
+  "slug": "platform-fit-matrix",
+  "name": "Platform Fit Matrix",
+  "summary": "A compact comparison lens for deciding whether AWS, Azure, GCP, Heroku, or Snowflake best fits the real context.",
+  "whenToUseIt": "Use it before platform selection meetings, vendor comparisons, or executive discussions about cloud direction.",
+  "steps": [
+    "Name the primary need: breadth, enterprise fit, data strength, or simplicity",
+    "List the team's existing tools, skills, and procurement reality",
+    "Compare which platform matches those constraints best",
+    "Choose the least-complex viable option instead of the most impressive one"
+  ],
+  "example": "Azure may fit a Microsoft-heavy enterprise, while Snowflake may be the anchor decision when analytics and governed data sharing are the main business priority.",
+  "category": "decision-making",
+  "domain": "Cloud"
+}

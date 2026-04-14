@@ -1,0 +1,34 @@
+{
+  "slug": "snowflake",
+  "name": "Snowflake",
+  "category": "data platform",
+  "description": "Snowflake is a cloud-native data platform built for warehousing, analytics, governed sharing, and data collaboration across teams.",
+  "whyUseIt": "Useful when the core business problem is data organisation, analytics, and secure data work rather than general application infrastructure.",
+  "pricingTier": "paid",
+  "url": "https://www.snowflake.com/",
+  "alternatives": [
+    "gcp",
+    "aws",
+    "azure"
+  ],
+  "outputs": [
+    "data warehousing",
+    "analytics",
+    "shared data products",
+    "governed reporting"
+  ],
+  "vocabulary": [
+    {
+      "term": "Warehouse",
+      "definition": "The compute layer Snowflake uses to run data workloads."
+    },
+    {
+      "term": "Data sharing",
+      "definition": "Snowflake's model for securely sharing data across teams or organisations."
+    }
+  ],
+  "beginnerMistakes": [
+    "Treating Snowflake like a full replacement for general cloud infrastructure",
+    "Thinking the hardest part is the tool rather than data governance and ownership"
+  ]
+}

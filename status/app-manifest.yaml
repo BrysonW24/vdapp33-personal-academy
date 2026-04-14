@@ -1,6 +1,6 @@
 id: vdapp33-personal-academy
 name: Nexus
-summary: Browse-first multi-subject academy for curiosity-driven learning across a 64-subject, 41-topic, 22-role map of human reality, with macro-bucket discovery, command-palette quick jump, guided-world role surfaces, and curated truth-stack/signal layers.
+summary: Browse-first multi-subject academy for curiosity-driven learning across a 65-subject, 41-topic, 22-role map of human reality, with macro-bucket discovery, command-palette quick jump, guided-world role surfaces, and curated truth-stack/signal layers.
 owner: unassigned
 phase: delivery
 release_stage: internal-beta
@@ -76,6 +76,7 @@ notes:
   - Roles and topics now live under content/roles/ and content/topics/ as entity-aware route families, not just content packs.
   - The role catalog now includes the broader Founder OS functional role family re-homed into Nexus as first-class role academies.
   - The taxonomy now extends well beyond the original seven-subject shell to include additional sciences, engineering, society, markets, life, humanities, and mind subjects/topics.
+  - Cloud is now a canonical engineering subject with a non-technical starter journey covering AWS, Azure, GCP, Heroku, and Snowflake.
   - Browse-first discovery now uses macro buckets above the raw technical groups: reality, human-being, civilization, built-world, markets-assets, meaning-culture, and frontier.
   - The header now includes a local static command palette for jumping across subjects, topics, roles, flagship modules, and signals.
   - Politics now uses the richer systems surface as its default subject landing experience.

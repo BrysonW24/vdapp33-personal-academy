@@ -1,0 +1,33 @@
+{
+  "slug": "aws",
+  "name": "AWS",
+  "category": "cloud platform",
+  "description": "Amazon Web Services is the broadest general-purpose cloud platform, with infrastructure, databases, analytics, AI, and many managed services.",
+  "whyUseIt": "Useful when breadth, market maturity, and a large ecosystem matter more than simplicity alone.",
+  "pricingTier": "paid",
+  "url": "https://aws.amazon.com/",
+  "alternatives": [
+    "azure",
+    "gcp"
+  ],
+  "outputs": [
+    "hosting",
+    "data systems",
+    "analytics",
+    "infrastructure"
+  ],
+  "vocabulary": [
+    {
+      "term": "EC2",
+      "definition": "Virtual compute instances on AWS."
+    },
+    {
+      "term": "S3",
+      "definition": "Object storage for files, backups, and data assets."
+    }
+  ],
+  "beginnerMistakes": [
+    "Assuming breadth automatically means simplicity",
+    "Starting with service catalogs instead of business needs"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "aws-azure-gcp-heroku-snowflake",
+  "moduleSlug": "platform-map-for-non-technical-teams",
+  "title": "AWS, Azure, GCP, Heroku, And Snowflake",
+  "objective": "Build a fast, memorable comparison of the major platforms most non-technical learners are likely to encounter.",
+  "beginnerExplanation": "AWS is the broadest general cloud platform and is often the default reference point because it offers a huge range of infrastructure and managed services. Azure is Microsoft's enterprise-heavy cloud and often fits organisations already invested in Microsoft tooling, identity, and procurement. GCP is Google's cloud platform and is especially strong in modern infrastructure, data, and machine learning workflows. Heroku is a simpler platform designed to make application deployment easier and more approachable. Snowflake is different again: it is not a full general cloud provider, but a cloud-native data platform built for warehousing, analytics, sharing, and governed data work.",
+  "deeperExplanation": "For a non-technical learner, the goal is not to memorise product catalogs. It is to understand each platform's center of gravity.\n\nAWS is broad and deep, which makes it powerful but potentially overwhelming. Azure often wins where enterprise identity, Microsoft contracts, and integrated corporate IT matter. GCP often feels attractive where analytics, data engineering, and modern developer workflows are central. Heroku is valuable because it demonstrates the power of simplicity and fast developer onboarding. Snowflake matters because many companies are not really choosing a general cloud first; they are choosing how to organise and activate data across teams.\n\nThe practical lesson is that cloud choices are usually about fit, not abstract superiority. The right question is not which platform is best in theory, but which platform best matches the team's skills, current ecosystem, data needs, governance needs, and desired speed.",
+  "keyTakeaways": [
+    "AWS is the broadest platform, Azure the enterprise-heavy one, GCP the data-and-ML-friendly one",
+    "Heroku optimises for simplicity and speed",
+    "Snowflake is a data cloud, not a general infrastructure cloud",
+    "Platform choice is mostly about fit, not brand mythology"
+  ],
+  "frameworks": [
+    "platform-fit-matrix",
+    "cloud-service-stack"
+  ],
+  "example": "A Microsoft-heavy enterprise may naturally lean Azure, a startup may appreciate Heroku for application speed, and an analytics-heavy company may center Snowflake even if workloads run on one of the big three clouds underneath.",
+  "commonMistakes": [
+    "Picking a platform based only on popularity",
+    "Treating Snowflake like a full replacement for general cloud infrastructure",
+    "Ignoring the team's existing tools, skills, and procurement reality"
+  ],
+  "exercise": "Choose one imaginary company and explain which of the five platforms would most likely be the primary fit and why.",
+  "teaching": {
+    "mentalModel": {
+      "title": "Platform fit before feature lists",
+      "summary": "Start with the provider's center of gravity and the team's context before comparing long service catalogs.",
+      "anchors": [
+        "concept",
+        "mechanism",
+        "importance",
+        "application"
+      ]
+    },
+    "howItWorks": {
+      "title": "Comparison process",
+      "steps": [
+        "Define the main business job the platform needs to support",
+        "Check the team's current ecosystem and strengths",
+        "Identify whether the priority is breadth, enterprise integration, simplicity, or data capability",
+        "Choose the provider whose shape matches the actual need"
+      ]
+    },
+    "upsides": [
+      "Makes vendor comparison easier for non-specialists",
+      "Reduces shallow brand-based decisions"
+    ],
+    "downsides": [
+      "High-level summaries cannot capture every edge case",
+      "Some organisations use several of these platforms together"
+    ],
+    "workedExampleLabel": "Worked example",
+    "workedExample": "A mid-sized company using Microsoft identity, Teams, and SQL-heavy internal systems may find Azure culturally and operationally easier to adopt than AWS even if AWS offers comparable capabilities.",
+    "realWorldApplications": [
+      "Vendor selection",
+      "Platform strategy conversations",
+      "Technology roadmap planning"
+    ],
+    "whoWorksWithThis": [
+      "Founders, product leaders, and operations managers",
+      "Engineering leaders and data teams",
+      "Procurement and finance stakeholders"
+    ],
+    "goDeeper": [
+      {
+        "label": "See Cloud cost, risk, and governance",
+        "href": "/cloud/modules/cloud-cost-risk-and-governance"
+      }
+    ]
+  },
+  "order": 3
+}

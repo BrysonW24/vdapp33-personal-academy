@@ -1,0 +1,33 @@
+{
+  "slug": "gcp",
+  "name": "GCP",
+  "category": "cloud platform",
+  "description": "Google Cloud Platform is Google's cloud ecosystem, often favored for modern infrastructure patterns, analytics, and machine learning workflows.",
+  "whyUseIt": "Useful when data, analytics, modern platform design, or Google ecosystem alignment matter.",
+  "pricingTier": "paid",
+  "url": "https://cloud.google.com/",
+  "alternatives": [
+    "aws",
+    "azure"
+  ],
+  "outputs": [
+    "analytics",
+    "application hosting",
+    "data pipelines",
+    "machine learning workflows"
+  ],
+  "vocabulary": [
+    {
+      "term": "BigQuery",
+      "definition": "Google's serverless analytics warehouse."
+    },
+    {
+      "term": "GKE",
+      "definition": "Managed Kubernetes on Google Cloud."
+    }
+  ],
+  "beginnerMistakes": [
+    "Reducing GCP to only AI or only analytics",
+    "Ignoring whether the team is actually ready for its more modern tooling patterns"
+  ]
+}

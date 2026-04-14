@@ -1,0 +1,41 @@
+{
+  "slug": "what-cloud-is",
+  "title": "What Cloud Is",
+  "shortSummary": "A plain-English orientation to what cloud actually means and why it became the default operating model for modern digital systems.",
+  "level": "beginner",
+  "teachingStage": "orientation",
+  "domain": "Cloud",
+  "category": "orientation",
+  "whyItMatters": "Cloud affects almost every modern business whether the team is technical or not. It shapes speed, cost, resilience, data access, software delivery, and how companies scale without buying and maintaining all of their own infrastructure.",
+  "coreConcepts": [
+    "Cloud as rented capability instead of owned hardware",
+    "Compute, storage, databases, analytics, and software as services",
+    "Why teams move from on-premise infrastructure to cloud platforms",
+    "How non-technical teams still make cloud-shaped decisions"
+  ],
+  "mentalModels": [
+    "Cloud as utility",
+    "Managed services over owned complexity"
+  ],
+  "lessons": [
+    "what-is-cloud"
+  ],
+  "frameworks": [
+    "cloud-service-stack",
+    "platform-fit-matrix"
+  ],
+  "goDeeper": [
+    {
+      "label": "See how cloud connects to software engineering",
+      "href": "/software-engineering",
+      "description": "Branch into the subject that turns cloud choices into delivery systems."
+    }
+  ],
+  "visualType": "starter-map",
+  "relatedModules": [
+    "cloud-mental-models"
+  ],
+  "status": "complete",
+  "order": 1,
+  "levelNumber": 1
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "working-with-cloud-in-the-real-world",
+  "title": "Working With Cloud In The Real World",
+  "shortSummary": "How cloud shows up in real teams, what non-technical people are expected to understand, and where careers grow from here.",
+  "level": "intermediate",
+  "teachingStage": "careers",
+  "domain": "Cloud",
+  "category": "careers",
+  "whyItMatters": "Many people work with cloud decisions without calling themselves cloud engineers. Product leaders, analysts, founders, operations managers, consultants, and finance teams all need enough cloud literacy to ask better questions and interpret trade-offs clearly.",
+  "coreConcepts": [
+    "Common cloud-adjacent roles and responsibilities",
+    "What good cloud questions sound like",
+    "How technical and non-technical teams coordinate",
+    "Where cloud knowledge compounds in a career"
+  ],
+  "mentalModels": [
+    "Translation is leverage",
+    "Strong questions reduce expensive mistakes"
+  ],
+  "lessons": [
+    "working-with-cloud-in-the-real-world"
+  ],
+  "frameworks": [
+    "cost-and-control-lens",
+    "platform-fit-matrix"
+  ],
+  "goDeeper": [
+    {
+      "label": "Explore the Cloud tools",
+      "href": "/cloud/tools",
+      "description": "See the major platforms in one place."
+    }
+  ],
+  "visualType": "career-path",
+  "relatedModules": [],
+  "status": "complete",
+  "order": 5,
+  "levelNumber": 5
+}
