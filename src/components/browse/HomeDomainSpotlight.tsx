@@ -9,7 +9,6 @@ import {
   type BrowseBucketGroup,
   type BrowseItem,
 } from "@/components/browse/browse-catalog"
-import { BrowseEntityIcon } from "@/components/browse/BrowseEntityIcon"
 import { HighLevelFilterRail } from "@/components/browse/HighLevelFilterRail"
 import {
   HIGH_LEVEL_FILTERS,
@@ -134,23 +133,12 @@ export function HomeDomainSpotlight({ groups }: { groups: BrowseBucketGroup[] })
                 className="group rounded-[18px] border border-[rgba(44,49,59,0.1)] bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(250,246,239,0.94))] p-3.5 transition-all duration-200 hover:-translate-y-[1px] hover:shadow-editorial-soft sm:p-4"
               >
                 <div className="flex items-start justify-between gap-3">
-                  <div className="flex items-center gap-2">
-                    <span
-                      className="flex h-10 w-10 items-center justify-center rounded-[14px] border border-[rgba(44,49,59,0.08)] bg-white/88 text-[1.1rem] shadow-sm"
-                      aria-hidden="true"
-                    >
-                      {item.emoji ?? "🗺️"}
-                    </span>
-                    <span
-                      className="flex h-10 w-10 items-center justify-center rounded-[14px]"
-                      style={{
-                        backgroundColor: `${item.accentColor}18`,
-                        color: item.accentColor,
-                      }}
-                    >
-                      <BrowseEntityIcon iconName={item.icon} className="h-4.5 w-4.5" />
-                    </span>
-                  </div>
+                  <span
+                    className="flex h-10 w-10 items-center justify-center rounded-[14px] border border-[rgba(44,49,59,0.08)] bg-white/88 text-[1.1rem] shadow-sm"
+                    aria-hidden="true"
+                  >
+                    {item.emoji ?? "🗺️"}
+                  </span>
                   <ArrowRight className="h-4 w-4 shrink-0 text-editorial-muted transition-transform duration-200 group-hover:translate-x-0.5" />
                 </div>
 

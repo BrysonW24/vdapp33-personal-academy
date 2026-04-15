@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { useMemo, useState } from "react"
 import { ArrowRight } from "lucide-react"
-import { BrowseEntityIcon } from "@/components/browse/BrowseEntityIcon"
 import {
   BROWSE_KIND_LABELS,
   BROWSE_TIER_LABELS,
@@ -97,13 +96,10 @@ export function MacroBucketExplorer({
                   <div>
                     <div className="flex items-start justify-between gap-3">
                       <span
-                        className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px]"
-                        style={{
-                          backgroundColor: `${item.accentColor}16`,
-                          color: item.accentColor,
-                        }}
+                        className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] border border-[rgba(44,49,59,0.08)] bg-white/90 text-[1.15rem] shadow-sm"
+                        aria-hidden="true"
                       >
-                        <BrowseEntityIcon iconName={item.icon} className="h-4.5 w-4.5" />
+                        {item.emoji ?? "🗺️"}
                       </span>
                       <ArrowRight className="h-4 w-4 text-editorial-muted transition-transform duration-200 group-hover:translate-x-0.5" />
                     </div>
