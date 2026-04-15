@@ -14,6 +14,7 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It n
 - One academy shell where subjects provide depth, topics widen the lens, and roles synthesize real-world application
 - Local-first state for progress, onboarding, and optional secondary surfaces such as My Path
 - Search-first navigation with a local `Jump to anything` command palette and a hierarchy explainer that teaches how subjects, topics, and roles relate
+- High-level browse filters that let users think in plain language such as Science, Technology, Society, Business, Human, Culture, and Future
 
 ## Working Doctrine
 
@@ -26,6 +27,10 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It n
 - Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, module indexes, and high-volume browse cards
 - Shared browse cards should stay information-dense enough to feel useful on phones instead of airy, oversized, or wasteful
 - High-volume browse surfaces should prefer compact two-up mobile patterns when that helps keep the full catalog visible
+- Shared browse surfaces should use the stronger cloud-page contrast profile rather than washed-out decorative glass
+- Subjects, topics, and roles should feel like one connected map at the top of the browse experience, not three detached boxes
+- Nested pages should always provide a visible back affordance; breadcrumbs alone are not enough
+- Emoji are an additive scan aid for subjects, topics, and roles and should sit alongside the curated icon system rather than replacing it
 - Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
 - Imported role academies are valid in Nexus when they are re-framed through the shared role-world contract rather than copied in as isolated mini-products
 - When meaningful design, architecture, or product-direction changes land, update the reference docs in the same pass
@@ -40,6 +45,7 @@ Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It n
 - `/topics` — Topic directory
 - `/signals` — Curated signal hub tied to the active path
 - Header command palette — Local static quick-jump across subjects, topics, roles, flagship modules, and signals
+- Top filter rail — High-level browse filters that spotlight Science, Technology, Society, Business, Human, Culture, and Future
 - `/{subject}` — Start Here landing page
 - `/{subject}/blueprint` — Generated subject map from module order
 - `/{subject}/modules` — Module grid
@@ -168,3 +174,5 @@ For lightweight verification guidance, see `docs/testing-smoke.md`.
 - Keep role content structured and readable: what it is, where it came from, what people do, how people get there, strengths, exposures, and career levers
 - Keep copy scannable; use real paragraphs and sectioned explanations instead of dense single blocks
 - Use diagrams and visual primers on concept-heavy subjects where a simple systems picture can teach faster than more prose
+- When a subject needs fast beginner orientation, prefer a staged visual teaching stack: the general system first, cross-system comparison second, then one concrete platform or case study in more depth
+- Cloud is the reference example for this approach: explain cloud in general, then compare providers, then deepen with AWS, then show responsibility and project-stack maps

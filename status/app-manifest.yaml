@@ -4,7 +4,7 @@ summary: Browse-first multi-subject academy for curiosity-driven learning across
 owner: unassigned
 phase: delivery
 release_stage: internal-beta
-last_audited: 2026-04-06
+last_audited: 2026-04-15
 
 audience:
   primary: Curious learners pursuing structured depth across personal interest subjects.
@@ -14,7 +14,7 @@ product:
   category: academy
   deployment_target: web
   business_model: internal-product
-  status_truth: "Shell implemented. The app is browse-first, macro-bucket exploration is live on the homepage, the command palette is part of the primary navigation, Politics now lands on its richer systems surface, flagship roles use the guided-world format, imported Founder OS role academies now live inside the shared role shell, optional secondary guidance remains available through /setup and /my-path, and curated source/signal surfaces sit alongside the curriculum shell."
+  status_truth: "Shell implemented. The app is browse-first, macro-bucket exploration and high-level filters are live on the homepage and directory pages, the command palette is part of the primary navigation, shared back navigation now sits across nested entity pages, Politics lands on its richer systems surface, flagship roles use the guided-world format, Cloud now includes staged visual teaching explainers, imported Founder OS role academies live inside the shared role shell, optional secondary guidance remains available through /setup and /my-path, and curated source/signal surfaces sit alongside the curriculum shell."
 
 surfaces:
   primary_routes:
@@ -78,6 +78,10 @@ notes:
   - The taxonomy now extends well beyond the original seven-subject shell to include additional sciences, engineering, society, markets, life, humanities, and mind subjects/topics.
   - Cloud is now a canonical engineering subject with a non-technical starter journey covering AWS, Azure, GCP, Heroku, and Snowflake.
   - Browse-first discovery now uses macro buckets above the raw technical groups: reality, human-being, civilization, built-world, markets-assets, meaning-culture, and frontier.
+  - High-level browse filters now expose those domains through simple labels: Science, Technology, Society, Business, Human, Culture, and Future.
   - The header now includes a local static command palette for jumping across subjects, topics, roles, flagship modules, and signals.
+  - Emoji metadata now supports faster scanning across subjects, topics, and roles while preserving the curated icon system.
+  - Shared route-aware back buttons now sit above nested subject, role, and topic pages instead of relying on breadcrumbs alone.
   - Politics now uses the richer systems surface as its default subject landing experience.
+  - Cloud now teaches through a multi-stage visual primer covering general cloud concepts, cross-provider equivalence, AWS deepening, and customer-vs-provider responsibility.
   - Curated onboarding questions, path archetypes, truth stacks, and signal digests now live under content/onboarding, content/guidance, content/sources, and content/signals.

@@ -21,6 +21,7 @@ export interface EntityManifest {
   kind: OverlayEntityKind
   group: string
   icon: string
+  emoji?: string
   color: string
   tagline: string
   description?: string

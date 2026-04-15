@@ -183,36 +183,52 @@ function HierarchyOrbitalSystem() {
 
 function KnowledgeHierarchyFallback() {
   return (
-    <div className="space-y-5">
-      {LAYERS.map((layer) => (
-        <div
-          key={layer.kind}
-          className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-white/82 p-5 shadow-editorial-soft"
-        >
-          <div className="flex items-center justify-between gap-3">
-            <div>
-              <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                {layer.label}
-              </p>
-              <p className="mt-1 text-sm text-editorial-muted">{layer.description}</p>
-            </div>
+    <div className="relative overflow-hidden rounded-[24px] border border-[rgba(44,49,59,0.12)] bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(250,246,239,0.94))] p-5 shadow-editorial-soft">
+      <div className="pointer-events-none absolute bottom-6 left-9 top-12 w-px bg-[linear-gradient(180deg,rgba(44,49,59,0.08),rgba(44,49,59,0.22),rgba(44,49,59,0.08))]" />
+
+      <div className="space-y-4 pl-6">
+        {LAYERS.map((layer, index) => (
+          <div key={layer.kind} className="relative">
             <span
-              className="h-3 w-3 rounded-full"
+              className="absolute -left-[1.7rem] top-4 h-3.5 w-3.5 rounded-full border-4 border-[rgba(255,255,255,0.98)]"
               style={{ backgroundColor: layer.color }}
             />
+            <div className="rounded-[20px] border border-[rgba(44,49,59,0.1)] bg-white/92 p-4">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                    {layer.label}
+                  </p>
+                  <h3 className="mt-1 font-serif text-[1.35rem] font-semibold leading-tight text-editorial-ink">
+                    {layer.description}
+                  </h3>
+                </div>
+                <span
+                  className="mt-1 h-3.5 w-3.5 rounded-full"
+                  style={{ backgroundColor: layer.color }}
+                />
+              </div>
+
+              <div className="mt-3 flex flex-wrap gap-2">
+                {layer.nodes.map((node) => (
+                  <span
+                    key={node.label}
+                    className="rounded-full border border-[rgba(44,49,59,0.1)] bg-[rgba(255,252,247,0.96)] px-3 py-1.5 text-xs font-medium text-editorial-ink"
+                  >
+                    {node.label}
+                  </span>
+                ))}
+              </div>
+
+              {index < LAYERS.length - 1 ? (
+                <p className="mt-3 text-[11px] uppercase tracking-[0.16em] text-editorial-muted">
+                  Feeds into the next layer
+                </p>
+              ) : null}
+            </div>
           </div>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {layer.nodes.map((node) => (
-              <span
-                key={node.label}
-                className="rounded-full border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.9)] px-3 py-1.5 text-xs text-editorial-ink"
-              >
-                {node.label}
-              </span>
-            ))}
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   )
 }
@@ -235,7 +251,7 @@ export function KnowledgeHierarchyScene({ className }: { className?: string }) {
     return (
       <div
         className={cn(
-          "academy-hero-shell rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-5 shadow-editorial-soft sm:p-6",
+          "academy-hero-shell rounded-[28px] border border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.92)] p-5 shadow-editorial-soft sm:p-6",
           className
         )}
       >
@@ -247,7 +263,7 @@ export function KnowledgeHierarchyScene({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "academy-hero-shell overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.08)] bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.95),_rgba(248,243,234,0.9)_60%,_rgba(236,228,214,0.92))] shadow-editorial-soft",
+        "academy-hero-shell overflow-hidden rounded-[32px] border border-[rgba(44,49,59,0.12)] bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.97),_rgba(248,243,234,0.95)_60%,_rgba(236,228,214,0.94))] shadow-editorial-soft",
         className
       )}
     >

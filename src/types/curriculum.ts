@@ -175,6 +175,7 @@ export interface SubjectManifest {
   shortName: string
   group: SubjectGroup
   icon: string
+  emoji?: string
   color: string
   tagline: string
   academyTier?: AcademyTier
@@ -197,6 +198,7 @@ export interface EntityManifest {
   shortName: string
   group: SubjectGroup
   icon: string
+  emoji?: string
   color: string
   tagline: string
   academyTier?: AcademyTier

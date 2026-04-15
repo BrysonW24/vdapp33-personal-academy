@@ -5,6 +5,7 @@ import {
   BROWSE_STATUS_LABELS,
   BROWSE_TIER_LABELS,
 } from "@/components/browse/browse-catalog"
+import { resolveEntityEmoji } from "@/lib/entity-emoji"
 import { getEntityAccent, mixWithWhite, withAlpha } from "@/lib/entity-accent"
 import type { SubjectManifest } from "@/types/curriculum"
 import type { EntityManifest } from "@/types/entity"
@@ -25,44 +26,51 @@ export function EntityCard({
   const resolvedEyebrow =
     eyebrow ?? ("kind" in entity && entity.kind ? entity.kind : "subject")
   const accent = getEntityAccent(entity)
-  const surface = mixWithWhite(accent, 0.9)
+  const surface = mixWithWhite(accent, 0.78)
+  const emoji = resolveEntityEmoji(entity)
+  const statBits = statLine
+    ?.split("·")
+    .map((part) => part.trim())
+    .filter(Boolean)
+  const shortTagline =
+    entity.tagline.length > 96 ? `${entity.tagline.slice(0, 93).trimEnd()}…` : entity.tagline
 
   return (
     <Link
       href={href}
-      className="group relative flex h-full min-h-[146px] flex-col justify-between overflow-hidden rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.88)] p-3.5 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover sm:min-h-[228px] sm:rounded-[22px] sm:p-5"
+      className="group relative flex h-full min-h-[172px] flex-col justify-between overflow-hidden rounded-[18px] border border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.94)] p-3 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover sm:min-h-[234px] sm:rounded-[22px] sm:p-5"
       style={{
-        backgroundImage: `linear-gradient(180deg, ${withAlpha(surface, 0.72)}, rgba(255,255,255,0.88))`,
-        borderColor: withAlpha(accent, 0.14),
+        backgroundImage: `linear-gradient(180deg, ${withAlpha(surface, 0.9)}, rgba(255,255,255,0.96))`,
+        borderColor: withAlpha(accent, 0.2),
       }}
     >
       <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-20"
+        className="pointer-events-none absolute inset-x-0 top-0 h-24"
         style={{
-          background: `linear-gradient(180deg, ${withAlpha(accent, 0.1)}, transparent)`,
+          background: `linear-gradient(180deg, ${withAlpha(accent, 0.14)}, transparent)`,
         }}
       />
 
       <div>
-        <div className="relative mb-2.5 flex items-start justify-between gap-2 sm:mb-4 sm:gap-3">
+        <div className="relative mb-2 flex items-start justify-between gap-2 sm:mb-4 sm:gap-3">
           <div className="flex flex-wrap items-center gap-1 sm:gap-2">
             <span
               className="rounded-full border px-2 py-1 text-[9px] uppercase tracking-[0.18em] sm:px-2.5 sm:text-[10px]"
               style={{
-                borderColor: withAlpha(accent, 0.18),
-                backgroundColor: withAlpha(accent, 0.08),
+                borderColor: withAlpha(accent, 0.22),
+                backgroundColor: withAlpha(accent, 0.12),
                 color: accent,
               }}
             >
               {resolvedEyebrow}
             </span>
             {entity.academyTier ? (
-              <span className="hidden text-[9px] uppercase tracking-[0.18em] text-editorial-muted sm:inline sm:text-[10px]">
+              <span className="text-[9px] uppercase tracking-[0.18em] text-editorial-muted sm:text-[10px]">
                 {BROWSE_TIER_LABELS[entity.academyTier]}
               </span>
             ) : null}
             {entity.contentStatus ? (
-              <span className="hidden text-[9px] uppercase tracking-[0.18em] text-editorial-muted sm:inline sm:text-[10px]">
+              <span className="hidden text-[9px] uppercase tracking-[0.18em] text-editorial-muted md:inline md:text-[10px]">
                 {BROWSE_STATUS_LABELS[entity.contentStatus]}
               </span>
             ) : null}
@@ -72,34 +80,53 @@ export function EntityCard({
 
         <div className="relative flex items-start gap-2.5 sm:gap-4">
           <span
-            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[12px] sm:h-11 sm:w-11 sm:rounded-[16px]"
+            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[12px] border border-[rgba(44,49,59,0.08)] bg-white/88 text-[1.05rem] shadow-sm sm:h-12 sm:w-12 sm:rounded-[16px] sm:text-[1.2rem]"
+            aria-hidden="true"
+          >
+            {emoji}
+          </span>
+          <span
+            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[12px] sm:h-12 sm:w-12 sm:rounded-[16px]"
             style={{
-              backgroundColor: withAlpha(accent, 0.12),
+              backgroundColor: withAlpha(accent, 0.14),
               color: accent,
-              boxShadow: `inset 0 0 0 1px ${withAlpha(accent, 0.12)}`,
+              boxShadow: `inset 0 0 0 1px ${withAlpha(accent, 0.16)}`,
             }}
           >
             <BrowseEntityIcon iconName={entity.icon} className="h-4 w-4 sm:h-5 sm:w-5" />
           </span>
           <div className="min-w-0">
             <span
-              className="mb-2 inline-block h-1.5 w-8 rounded-full sm:mb-4 sm:h-2.5 sm:w-12"
+              className="mb-2 inline-block h-1.5 w-8 rounded-full sm:mb-3 sm:h-2.5 sm:w-12"
               style={{ backgroundColor: accent }}
             />
 
-            <h3 className="font-serif text-[1.02rem] font-semibold leading-tight text-editorial-ink sm:text-[1.6rem]">
+            <h3 className="font-serif text-[0.98rem] font-semibold leading-tight text-editorial-ink sm:text-[1.55rem]">
               {entity.name}
             </h3>
-            <p className="mt-1 hidden text-[13px] leading-[1.55] text-editorial-muted sm:block sm:mt-2 sm:text-sm sm:leading-relaxed">
-              {entity.tagline}
+            <p className="mt-1.5 text-[12px] leading-[1.5] text-editorial-muted sm:mt-2 sm:text-sm sm:leading-relaxed">
+              <span className="sm:hidden">{shortTagline}</span>
+              <span className="hidden sm:inline">{entity.tagline}</span>
             </p>
           </div>
         </div>
       </div>
 
-      <div className="relative mt-2.5 sm:mt-5">
+      <div className="relative mt-3 space-y-2 sm:mt-5">
+        {statBits?.length ? (
+          <div className="flex flex-wrap gap-1.5">
+            {statBits.slice(0, 3).map((bit) => (
+              <span
+                key={bit}
+                className="rounded-full border border-[rgba(44,49,59,0.1)] bg-white/94 px-2.5 py-1 text-[10px] leading-none text-editorial-muted sm:text-[11px]"
+              >
+                {bit}
+              </span>
+            ))}
+          </div>
+        ) : null}
         {statLine ? (
-          <p className="hidden text-[11px] leading-[1.55] text-editorial-muted sm:mt-3 sm:block sm:text-xs sm:leading-relaxed">
+          <p className="hidden text-[11px] leading-[1.55] text-editorial-muted md:block md:text-xs md:leading-relaxed">
             {statLine}
           </p>
         ) : null}

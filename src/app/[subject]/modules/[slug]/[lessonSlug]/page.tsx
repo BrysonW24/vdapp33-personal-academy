@@ -11,6 +11,22 @@ import { LessonTemplate } from "@/components/academy/lesson/LessonTemplate"
 import { CloudVisualPrimer } from "@/components/subjects/cloud/CloudVisualPrimer"
 import { buildGuideRail } from "@/lib/guide-rail"
 
+function getCloudLessonVisualFocus(lessonSlug: string) {
+  switch (lessonSlug) {
+    case "what-is-cloud":
+    case "cloud-service-models-and-business-shape":
+      return "general" as const
+    case "aws-azure-gcp-heroku-snowflake":
+      return "comparison" as const
+    case "working-with-cloud-in-the-real-world":
+      return "aws" as const
+    case "cloud-cost-risk-and-governance":
+      return "responsibility" as const
+    default:
+      return "full" as const
+  }
+}
+
 export async function generateStaticParams() {
   return getSubjects().flatMap((s) =>
     getModules(s.slug).flatMap((m) =>
@@ -68,7 +84,14 @@ export default async function LessonPage({
       module={mod}
       subjectSlug={subjectSlug}
       subjectName={subject.name}
-      visualPrimer={subjectSlug === "cloud" ? <CloudVisualPrimer variant="lesson" /> : undefined}
+      visualPrimer={
+        subjectSlug === "cloud" ? (
+          <CloudVisualPrimer
+            variant="lesson"
+            focus={getCloudLessonVisualFocus(lessonSlug)}
+          />
+        ) : undefined
+      }
       guideRail={guideRail}
     />
   )

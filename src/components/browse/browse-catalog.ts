@@ -5,6 +5,7 @@ import type {
   SubjectManifest,
 } from "@/types/curriculum"
 import type { EntityManifest, EntityStats } from "@/types/entity"
+import { resolveEntityEmoji } from "@/lib/entity-emoji"
 
 export type BrowseBucket =
   | "reality"
@@ -32,6 +33,7 @@ export interface BrowseItem {
   description: string
   href: string
   icon: string
+  emoji?: string
   bucket: BrowseBucket
   tier: BrowseTier
   status: BrowseStatus
@@ -475,6 +477,7 @@ export function buildSubjectBrowseItem(
     description: subject.tagline,
     href: `/${subject.slug}`,
     icon: subject.icon,
+    emoji: resolveEntityEmoji(subject),
     bucket,
     tier,
     status: resolveStatus(subject.contentStatus, getEntityContentStatus(stats)),
@@ -497,6 +500,7 @@ export function buildRoleBrowseItem(
     description: role.tagline,
     href: `/roles/${role.slug}`,
     icon: role.icon,
+    emoji: resolveEntityEmoji(role),
     bucket,
     tier,
     status: resolveStatus(role.contentStatus, getEntityContentStatus(stats)),
@@ -519,6 +523,7 @@ export function buildTopicBrowseItem(
     description: topic.tagline,
     href: `/topics/${topic.slug}`,
     icon: topic.icon,
+    emoji: resolveEntityEmoji(topic),
     bucket,
     tier,
     status: resolveStatus(topic.contentStatus, getEntityContentStatus(stats)),

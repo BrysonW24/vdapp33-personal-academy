@@ -189,9 +189,14 @@ export function CommandPalette({
                   <Dialog.Close asChild key={item.id}>
                     <Link
                       href={item.href}
-                      className="flex flex-col gap-3 rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/78 px-4 py-4 transition-all duration-200 hover:-translate-y-[1px] hover:bg-white hover:shadow-editorial-soft sm:flex-row sm:items-center sm:justify-between"
+                      className="flex flex-col gap-3 rounded-[20px] border border-[rgba(44,49,59,0.12)] bg-white/92 px-4 py-4 transition-all duration-200 hover:-translate-y-[1px] hover:bg-white hover:shadow-editorial-soft sm:flex-row sm:items-center sm:justify-between"
                     >
                       <div className="flex min-w-0 items-start gap-3">
+                        {item.emoji ? (
+                          <span className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] border border-[rgba(44,49,59,0.08)] bg-white/92 text-[1.15rem] shadow-sm">
+                            {item.emoji}
+                          </span>
+                        ) : null}
                         <span
                           className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px]"
                           style={{

@@ -32,6 +32,7 @@ export const EntityManifestSchema = z
     kind: OverlayEntityKindSchema,
     group: z.string().min(1),
     icon: z.string().min(1),
+    emoji: z.string().optional(),
     color: z.string().min(1),
     tagline: z.string().min(1),
     academyTier: AcademyTierSchema.optional(),

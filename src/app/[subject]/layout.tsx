@@ -1,5 +1,6 @@
 import type { ReactNode } from "react"
 import { notFound } from "next/navigation"
+import { EntityBackButton } from "@/components/academy/layout/EntityBackButton"
 import { getSubjects, getSubject } from "@/lib/content"
 
 export async function generateStaticParams() {
@@ -31,5 +32,15 @@ export default async function SubjectLayout({
   const subject = getSubject(slug)
   if (!subject) notFound()
 
-  return <>{children}</>
+  return (
+    <>
+      <EntityBackButton
+        entityHref={`/${slug}`}
+        entityLabel={subject.name}
+        directoryHref="/subjects"
+        directoryLabel="Subjects"
+      />
+      {children}
+    </>
+  )
 }

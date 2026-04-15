@@ -1,5 +1,6 @@
 import type { ReactNode } from "react"
 import { notFound } from "next/navigation"
+import { EntityBackButton } from "@/components/academy/layout/EntityBackButton"
 import { getRole, getRoles } from "@/lib/entities"
 
 export async function generateStaticParams() {
@@ -29,6 +30,18 @@ export default async function RoleLayout({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  if (!getRole(slug)) notFound()
-  return children
+  const role = getRole(slug)
+  if (!role) notFound()
+
+  return (
+    <>
+      <EntityBackButton
+        entityHref={`/roles/${slug}`}
+        entityLabel={role.name}
+        directoryHref="/roles"
+        directoryLabel="Roles"
+      />
+      {children}
+    </>
+  )
 }

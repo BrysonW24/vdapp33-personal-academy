@@ -111,13 +111,20 @@ Browse buckets sit above those technical groups and should be treated as the use
 | `src/lib/entities.ts` | Role/topic content loaders and subject aliasing |
 | `src/lib/guidance-content.ts` | Onboarding, archetype, source, and signal loaders |
 | `src/lib/browse-data.ts` | Server-side browse index builder for the command palette and macro-bucket explorer |
+| `src/lib/high-level-filters.ts` | Plain-language filter layer that maps Science, Technology, Society, Business, Human, Culture, and Future onto macro buckets |
 | `src/lib/academy-engine.ts` | Blueprint generation and deterministic next-action engine |
 | `src/lib/academy-state.ts` | Local-first guidance state store |
 | `src/lib/progress.ts` | Subject-scoped local progress store |
 | `src/components/academy/layout/Navigation.tsx` | Shared multi-subject shell nav |
+| `src/components/academy/layout/EntityBackButton.tsx` | Shared route-aware back affordance for nested subject, topic, and role pages |
+| `src/components/academy/layout/RouteHistoryTracker.tsx` | Session-level previous-path tracker used by shared back navigation |
 | `src/components/browse/CommandPalette.tsx` | Search-first quick-jump surface across the catalog |
+| `src/components/browse/FilterableEntityDirectory.tsx` | Shared filterable directory for subjects, topics, and roles |
+| `src/components/browse/HighLevelFilterRail.tsx` | Shared high-level filter rail for browse-heavy surfaces |
+| `src/components/browse/HomeDomainSpotlight.tsx` | Homepage spotlight layer that keeps the full catalog visible while letting users lean into a broad domain |
 | `src/components/browse/KnowledgeHierarchyScene.tsx` | Three.js hierarchy explainer for subject/topic/role relationships |
 | `src/components/browse/MacroBucketExplorer.tsx` | Homepage browse layer for large-volume catalog discovery |
+| `src/components/subjects/cloud/CloudVisualPrimer.tsx` | Multi-stage cloud teaching surface covering general cloud, provider comparison, AWS deepening, and responsibility maps |
 | `src/components/personal/SubjectStartHere.tsx` | Subject landing page |
 | `src/components/guidance/SetupFlow.tsx` | Onboarding flow |
 | `src/components/guidance/MyPathDashboard.tsx` | Guided dashboard |
@@ -143,7 +150,9 @@ npm run build
 - Keep content static and manifest-driven
 - Keep the guidance layer deterministic and local-first, but secondary to browse-first exploration
 - The homepage should explain the hierarchy clearly: subjects = disciplined depth, topics = cross-domain lenses, roles = embodied intelligence
+- The homepage hierarchy should read as one connected system rather than three detached explainer blocks
 - For large content volume, keep search and hierarchy aids, but never hide or thin out the visible catalog on core browse surfaces
+- Use high-level filters like Science and Technology as orientation aids, not as a sampler that hides most of the map by default
 - Keep role/topic/source/signal/onboarding packs aligned across docs, status, and manifests
 - Preserve the warm editorial visual language
 
@@ -161,7 +170,11 @@ npm run build
 - Verify key shared surfaces on mobile whenever landing pages, navigation, or hero systems change
 - Keep browse cards compact and information-dense enough to scan comfortably on phones
 - Prefer compact two-column browse layouts on phones for long catalogs when larger cards hide too much of the map
+- Browse surfaces should use the stronger cloud-page contrast profile instead of pale, washed-out low-ink cards
+- Use curated emoji as additive scan aids for subjects, topics, and roles while keeping vector icons for polished presentation
 - Add visual primers or diagrams when a subject benefits from a systems picture more than another block of text
+- Cloud is the reference implementation for visual-first beginner teaching: explain cloud in general, compare providers, deepen with AWS, then show responsibility and project-stack maps
+- Nested subject, topic, and role pages should always expose a visible back affordance; breadcrumbs alone are not sufficient
 
 ### Documentation and doctrine discipline
 
@@ -198,7 +211,10 @@ npm run build
 - Roles and topics are live entity-aware route families with their own sections, sources, and signals
 - Homepage browse is now organized around macro buckets rather than only raw subject/topic/role grids
 - The command palette is now part of the primary navigation contract and should stay maintained as the catalog expands
+- High-level browse filters now sit above the major directories and should stay aligned with the macro-bucket model
+- Shared back navigation now lives at the entity-layout level so nested lessons, projects, tools, sources, signals, and day-in-the-life pages remain easy to exit on mobile
 - Politics now lands directly on its richer systems explainer, rather than a generic subject shell
+- Cloud now uses a staged visual primer rather than a single sample-environment diagram and should continue to deepen through real teaching content, not only directional language
 - Setup and My Path remain live but are secondary and frozen relative to the browse-first encyclopedia stance
 - Guide rails now appear on start pages, module pages, lesson pages, project pages, and tool pages
 - Curated source packs and signal digests are live for the flagship entities and should expand without changing the route model

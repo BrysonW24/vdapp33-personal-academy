@@ -18,11 +18,15 @@ Nexus is the learning-first side of the academy ecosystem. It shares the multi-s
 - Navigation must distinguish browse-level wayfinding from entity-context wayfinding
 - Large-volume discovery should rely on macro buckets plus search-first quick jump, not giant undifferentiated lists
 - Large-volume discovery should still keep the full catalog visibly available on core browse surfaces; do not trade completeness away for a sampled view
+- High-level filters such as Science, Technology, Society, Business, Human, Culture, and Future are the user-facing orientation layer above macro buckets
 - Shared landing pages should be structured, repeatable, and visually scannable rather than prose-heavy
 - Mobile optimisation is part of the architecture for shared surfaces, not a downstream QA step
 - Browse cards should stay compact and information-dense enough to scan comfortably on phones
 - Long browse lists should prefer compact two-up mobile layouts where that improves visible coverage of the catalog
+- Browse surfaces should use the stronger cloud-style contrast profile rather than pale, washed-out low-ink treatments
+- Emoji are an additive scan aid for subjects, topics, and roles and should be treated as part of the entity metadata contract rather than one-off decoration
 - Subject and lesson surfaces should support visual primers where a diagram can explain the system faster than prose alone
+- Nested subject, role, and topic pages should expose a shared visible back affordance at the layout level; breadcrumbs are supplementary
 
 ## Documentation contract
 
@@ -52,8 +56,12 @@ Current state:
 - `/{subject|role|topic}/sources` and `/{subject|role|topic}/signals` are live curated surfaces
 - Guide rails now connect start pages, module pages, lesson pages, project pages, and tool pages back into the active path
 - The homepage now teaches the hierarchy explicitly with a Three.js-based subject/topic/role explainer plus macro-bucket browse sections
+- The homepage now uses a connected entry-mode explainer rather than detached subject/topic/role blocks, and the stat area is chip-based so catalog counts do not orphan-wrap
+- Browse directories now share a high-level filter rail and denser card system instead of airy one-size-fits-all tiles
 - The header now includes a persistent local command palette across desktop and mobile
+- Shared route-history back navigation now sits above nested subject, role, and topic pages so mobile users can step back out of deep sections cleanly
 - Politics now lands on its richer systems surface directly and acts as the flagship subject-world reference implementation
+- Cloud now uses a staged visual primer: cloud in general, cross-provider comparison, AWS deepening, and customer-vs-provider responsibility maps
 
 ## Entity-aware model
 
@@ -63,6 +71,7 @@ Current state:
 - Roles are embodied synthesis tracks
 - Roles may synthesize subjects, own their own role-native content, or do both when that produces a clearer world for the user
 - Macro buckets are a discovery layer above those canonical structures, not a replacement for them
+- Plain-language filters map onto those macro buckets and should stay stable even if the internal bucket names evolve
 - The guidance layer sits across all three rather than replacing them
 - The UI should lead with exploration surfaces first, not with a required path flow
 - Roles should use a structured presentation contract that makes them readable and comparable
@@ -80,6 +89,8 @@ Current state:
 - When updating shared surfaces, verify desktop and mobile behavior before considering the work complete
 - Keep roles feeling like guided worlds rather than static info pages
 - Keep the hierarchy language stable: subjects = disciplined depth, topics = provocative cross-domain lenses, roles = embodied intelligence
+- Use cloud as the benchmark for educational clarity when browse surfaces start looking too pale, too airy, or too abstract
+- For concept-heavy technical subjects, prefer a teaching progression of system overview first, comparison second, concrete platform deepening third
 
 ## Guidance OS layer
 
@@ -159,11 +170,12 @@ The route surface above is the currently verified runtime shell.
 
 ## Browse architecture
 
-The browse layer now has four distinct jobs:
+The browse layer now has five distinct jobs:
 
 1. `Top nav` for high-level route families: Home, Subjects, Roles, Topics, Signals.
 2. `Command palette` for fast local search across subjects, topics, roles, flagship modules, and signals.
-3. `Macro buckets` for large-volume discovery without forcing users through technical group names first.
-4. `Context nav` for entity-specific movement once a user is inside a subject, role, or topic.
+3. `High-level filters` for plain-language orientation such as Science and Technology.
+4. `Macro buckets` for large-volume discovery without forcing users through technical group names first.
+5. `Context nav` for entity-specific movement once a user is inside a subject, role, or topic.
 
-Those four jobs should remain visually and conceptually separate. Avoid collapsing them back into one overloaded navigation surface.
+Those five jobs should remain visually and conceptually separate. Avoid collapsing them back into one overloaded navigation surface.

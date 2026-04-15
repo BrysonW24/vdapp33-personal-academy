@@ -1,0 +1,146 @@
+import type { MacroBucket, SubjectManifest } from "@/types/curriculum"
+import type { EntityManifest } from "@/types/entity"
+
+type EmojiEntity = Pick<
+  SubjectManifest | EntityManifest,
+  "slug" | "icon" | "emoji"
+> & {
+  macroBucket?: MacroBucket
+}
+
+const EMOJI_BY_SLUG: Record<string, string> = {
+  astronaut: "👨‍🚀",
+  "ai-researcher": "🧠",
+  diplomat: "🌐",
+  "intelligence-analyst": "🕵️",
+  pilot: "✈️",
+  "robotics-engineer": "🤖",
+  "entrepreneur-startup-founder": "💡",
+  sales: "🤝",
+  marketing: "📣",
+  strategy: "♟️",
+  product: "🧩",
+  finance: "💹",
+  accounting: "🧾",
+  operations: "⚙️",
+  "data-analytics": "📊",
+  "customer-success": "🤲",
+  "ai-automation": "⚡",
+  leadership: "🧭",
+  capital: "💰",
+  legal: "⚖️",
+  "founder-performance": "🏃",
+  politics: "🏛️",
+  law: "⚖️",
+  cloud: "☁️",
+  "quantum-science": "⚛️",
+  cosmology: "🌌",
+  "deep-time": "⏳",
+  truth: "🔎",
+  power: "👑",
+  mortality: "🕯️",
+  meaning: "🌀",
+  "future-of-humanity": "🪐",
+  "great-filters-and-fermi-paradox": "👽",
+  philosophy: "🤔",
+  communication: "💬",
+  health: "🩺",
+  economics: "📈",
+}
+
+const EMOJI_BY_ICON: Record<string, string> = {
+  Anchor: "⚓",
+  Atom: "⚛️",
+  ArrowUpDown: "↕️",
+  BadgeCheck: "✅",
+  BadgeInfo: "ℹ️",
+  BarChart3: "📊",
+  BookHeart: "💞",
+  BookOpen: "📘",
+  BookText: "📖",
+  Brain: "🧠",
+  Bridge: "🌉",
+  BriefcaseBusiness: "💼",
+  Brush: "🖌️",
+  Building2: "🏢",
+  Calculator: "🧮",
+  CircuitBoard: "🔌",
+  Clock: "⏰",
+  Cloud: "☁️",
+  Code2: "💻",
+  Cog: "⚙️",
+  Compass: "🧭",
+  Cpu: "🤖",
+  Crown: "👑",
+  Dice6: "🎲",
+  Dna: "🧬",
+  Eye: "👁️",
+  Factory: "🏭",
+  Flame: "🔥",
+  FlaskConical: "🧪",
+  Flower2: "🌸",
+  Globe: "🌍",
+  Globe2: "🌐",
+  GraduationCap: "🎓",
+  Handshake: "🤝",
+  Heart: "❤️",
+  HeartHandshake: "💞",
+  HeartPulse: "🩺",
+  Landmark: "🏛️",
+  Layers3: "🧱",
+  Leaf: "🌿",
+  Lightbulb: "💡",
+  LineChart: "📈",
+  MessagesSquare: "💬",
+  MonitorPlay: "🖥️",
+  Mountain: "⛰️",
+  Music: "🎵",
+  Orbit: "🪐",
+  Palette: "🎨",
+  PenTool: "✍️",
+  Pickaxe: "⛏️",
+  Plane: "✈️",
+  Radar: "📡",
+  Rocket: "🚀",
+  RotateCcw: "🔁",
+  Satellite: "🛰️",
+  Scale: "⚖️",
+  ScrollText: "📜",
+  Shield: "🛡️",
+  Shuffle: "🔀",
+  Sigma: "∑",
+  Sparkles: "✨",
+  Stethoscope: "🩺",
+  TreePine: "🌲",
+  Trees: "🌳",
+  TrendingUp: "📈",
+  Truck: "🚚",
+  Type: "🔤",
+  Users: "👥",
+  UsersRound: "🧑‍🤝‍🧑",
+  Wallet: "👛",
+  Waypoints: "🗺️",
+  Wheat: "🌾",
+  Zap: "⚡",
+}
+
+const EMOJI_BY_BUCKET: Record<MacroBucket, string> = {
+  reality: "🧪",
+  "human-being": "🧠",
+  civilization: "🏛️",
+  "built-world": "💻",
+  "markets-assets": "💼",
+  "meaning-culture": "🎨",
+  frontier: "🚀",
+}
+
+export function resolveEntityEmoji(entity: EmojiEntity) {
+  return (
+    entity.emoji ??
+    EMOJI_BY_SLUG[entity.slug] ??
+    EMOJI_BY_ICON[entity.icon] ??
+    (entity.macroBucket ? EMOJI_BY_BUCKET[entity.macroBucket] : undefined) ??
+    "🗺️"
+  )
+}
+

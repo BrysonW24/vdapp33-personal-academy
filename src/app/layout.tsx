@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import type { ReactNode } from "react"
 import { Navigation } from "@/components/academy/layout/Navigation"
 import { Footer } from "@/components/academy/layout/Footer"
+import { RouteHistoryTracker } from "@/components/academy/layout/RouteHistoryTracker"
 import { getBrowseCatalogData } from "@/lib/browse-data"
 import { getSubjects } from "@/lib/content"
 import { getRoles, getTopics } from "@/lib/entities"
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col relative z-[1]">
+        <RouteHistoryTracker />
         <Navigation
           subjects={subjects}
           roles={roles}

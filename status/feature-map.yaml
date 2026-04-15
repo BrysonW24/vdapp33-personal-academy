@@ -1,11 +1,11 @@
 app_id: vdapp33-personal-academy
-last_updated: 2026-04-06
+last_updated: 2026-04-15
 
 surfaces:
   - route: /
     feature: Exploration dashboard
     status: live
-    notes: Browse-first exploration dashboard with a hierarchy explainer, macro-bucket discovery, and a more search-first orientation; My Path remains available but secondary.
+    notes: Browse-first exploration dashboard with stronger contrast, a connected hierarchy explainer, high-level filters, macro-bucket discovery, and a more search-first orientation; My Path remains available but secondary.
 
   - route: /setup
     feature: Soft onboarding
@@ -20,17 +20,17 @@ surfaces:
   - route: /subjects
     feature: Subject directory
     status: live
-    notes: Directory view for canonical academy subjects grouped by browse macro buckets rather than only technical groups.
+    notes: Directory view for canonical academy subjects with high-level filters, browse macro buckets, denser cards, emoji-assisted scan cues, and stronger mobile contrast.
 
   - route: /roles
     feature: Role directory
     status: live
-    notes: Directory view for embodied synthesis tracks such as Astronaut and Diplomat, grouped by browse macro buckets.
+    notes: Directory view for embodied synthesis tracks such as Astronaut and Diplomat, grouped by browse macro buckets with high-level filters and denser scan-first cards.
 
   - route: /topics
     feature: Topic directory
     status: live
-    notes: Directory view for cross-disciplinary curiosity layers such as AI, Investing, Economics, Health, Communication, and Consciousness, grouped by browse macro buckets.
+    notes: Directory view for cross-disciplinary curiosity layers such as AI, Investing, Economics, Health, Communication, and Consciousness, grouped by browse macro buckets with high-level filters and denser cards.
 
   - route: /signals
     feature: Signals hub
@@ -40,7 +40,7 @@ surfaces:
   - route: /[subject]
     feature: Start Here subject landing
     status: live
-    notes: Browse-first subject overview with an embedded guide rail, truth-stack preview, signal preview, and optional next-best-action support. Politics is a special flagship subject-world and lands directly on its richer systems surface.
+    notes: Browse-first subject overview with an embedded guide rail, truth-stack preview, signal preview, optional next-best-action support, and shared back navigation on nested routes. Politics is a special flagship subject-world and lands directly on its richer systems surface.
 
   - route: /[subject]/blueprint
     feature: Generated blueprint
@@ -50,7 +50,7 @@ surfaces:
   - route: /[subject]/modules
     feature: Modules and lessons
     status: live
-    notes: Structured curriculum with subject-aware progress and lesson knowledge checks.
+    notes: Structured curriculum with subject-aware progress, lesson knowledge checks, and route-level back navigation that remains visible on mobile.
 
   - route: /[subject]/projects
     feature: Project library
@@ -70,7 +70,7 @@ surfaces:
   - route: /[subject]/day-in-the-life
     feature: Applied role explorer
     status: live
-    notes: Client-side viewer for role snapshots and sample schedules when present.
+    notes: Client-side viewer for role snapshots and sample schedules when present, with shared back navigation for nested detail movement.
 
   - route: /[subject]/sources
     feature: Subject truth stack
@@ -85,7 +85,7 @@ surfaces:
   - route: /roles/[slug]
     feature: Role landing
     status: live
-    notes: Role-specific landing page with training, practical sections, cross-links, and guide rail support.
+    notes: Role-specific landing page with training, practical sections, cross-links, guide rail support, and shared back navigation on nested role routes.
 
   - route: /roles/[slug]/sources
     feature: Role truth stack
@@ -100,7 +100,7 @@ surfaces:
   - route: /topics/[slug]
     feature: Topic landing
     status: live
-    notes: Topic-specific landing page with concept stack, applications, tools, and guide rail support.
+    notes: Topic-specific landing page with concept stack, applications, tools, guide rail support, and shared back navigation on nested topic routes.
 
   - route: /topics/[slug]/sources
     feature: Topic truth stack
@@ -141,13 +141,29 @@ supporting_capabilities:
     status: live
     notes: Local static search indexes subjects, topics, roles, flagship modules, and signals, and is now available from both desktop and mobile navigation.
 
+  - name: High-level filter rail
+    status: live
+    notes: Science, Technology, Society, Business, Human, Culture, and Future provide a user-facing orientation layer above macro buckets on the homepage and browse directories.
+
   - name: Macro-bucket browse model
     status: live
     notes: Discovery is now layered above technical groups using Reality, Human Being, Civilization, Built World, Markets & Assets, Meaning & Culture, and Frontier buckets.
 
+  - name: Shared back navigation
+    status: live
+    notes: Nested subject, topic, and role pages now inherit a route-aware back affordance instead of relying on breadcrumbs alone.
+
   - name: Guided-world role surfaces
     status: live
     notes: Astronaut is the reference implementation and the other flagship roles now follow the same structured, readable role-world contract.
+
+  - name: Emoji-assisted browse scanning
+    status: live
+    notes: Subjects, topics, and roles now support curated emoji metadata alongside the icon system to make dense catalogs easier to scan quickly.
+
+  - name: Cloud visual teaching stack
+    status: live
+    notes: Cloud now teaches through a staged visual system: general cloud concepts, cross-provider comparison, AWS deepening, and customer-vs-provider responsibility maps.
 
   - name: Deterministic blueprint generation
     status: live
