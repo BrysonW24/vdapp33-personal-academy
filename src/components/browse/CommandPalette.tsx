@@ -196,16 +196,17 @@ export function CommandPalette({
                           <span className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] border border-[rgba(44,49,59,0.08)] bg-white/92 text-[1.15rem] shadow-sm">
                             {item.emoji}
                           </span>
-                        ) : null}
-                        <span
-                          className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px]"
-                          style={{
-                            backgroundColor: `${item.accentColor}18`,
-                            color: item.accentColor,
-                          }}
-                        >
-                          <BrowseEntityIcon iconName={item.icon} className="h-4.5 w-4.5" />
-                        </span>
+                        ) : (
+                          <span
+                            className="mt-0.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px]"
+                            style={{
+                              backgroundColor: `${item.accentColor}18`,
+                              color: item.accentColor,
+                            }}
+                          >
+                            <BrowseEntityIcon iconName={item.icon} className="h-4.5 w-4.5" />
+                          </span>
+                        )}
                         <div className="min-w-0">
                           <div className="flex flex-wrap items-center gap-2">
                             <p className="truncate font-medium text-editorial-ink">

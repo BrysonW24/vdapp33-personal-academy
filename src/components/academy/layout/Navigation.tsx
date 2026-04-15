@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useMemo, useState } from "react"
+import { createPortal } from "react-dom"
 import {
   BookOpen,
   ChevronDown,
@@ -18,9 +19,9 @@ import {
   X,
 } from "lucide-react"
 import type { BrowseItem } from "@/components/browse/browse-catalog"
-import { BrowseEntityIcon } from "@/components/browse/BrowseEntityIcon"
 import { CommandPalette } from "@/components/browse/CommandPalette"
 import { NexusWordmark } from "@/components/branding/NexusWordmark"
+import { resolveEntityEmoji } from "@/lib/entity-emoji"
 import { cn } from "@/lib/utils"
 import { getNavSectionGroups, resolveNavContext } from "@/lib/entity-nav"
 import { SUBJECT_GROUP_LABELS, type SubjectManifest } from "@/types/curriculum"
@@ -146,6 +147,154 @@ export function Navigation({
     setMobileOpen(false)
     setContextMoreOpen(false)
   }
+
+  const mobileMenu =
+    mobileOpen && typeof window !== "undefined"
+      ? createPortal(
+          <>
+            <div
+              className="fixed inset-0 z-[70] bg-[rgba(21,24,30,0.24)] backdrop-blur-[4px] lg:hidden"
+              onClick={closeMobileMenu}
+            />
+            <div className="fixed inset-x-2.5 bottom-2.5 top-[72px] z-[75] overflow-hidden rounded-[24px] border border-[rgba(44,49,59,0.12)] bg-[rgba(255,252,247,0.985)] shadow-[0_40px_120px_rgba(44,49,59,0.18)] lg:hidden sm:top-[96px]">
+              <div className="max-h-full overflow-y-auto px-3 py-3">
+                <div className="space-y-4">
+                  <section className="rounded-[20px] border border-[rgba(44,49,59,0.12)] bg-white/92 p-3.5 shadow-editorial-soft">
+                    <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                      Explore Nexus
+                    </p>
+                    <div className="mt-3 grid grid-cols-2 gap-2">
+                      {DIRECTORY_LINKS.map((item) => {
+                        const Icon = item.icon
+
+                        return (
+                          <Link
+                            key={item.href}
+                            href={item.href}
+                            onClick={closeMobileMenu}
+                            className={cn(
+                              "rounded-[16px] border border-[rgba(44,49,59,0.12)] px-3 py-2.5 transition-all duration-200",
+                              isDirectoryActive(pathname, item.href)
+                                ? "bg-editorial-green text-white shadow-sm"
+                                : "bg-white text-editorial-ink"
+                            )}
+                          >
+                            <div className="flex items-center gap-2 text-[13px] font-medium">
+                              <Icon className="h-3.5 w-3.5" />
+                              {item.label}
+                            </div>
+                          </Link>
+                        )
+                      })}
+                    </div>
+                    <div className="mt-3">
+                      <CommandPalette
+                        items={browseItems}
+                        onBeforeOpen={closeMobileMenu}
+                        triggerLabel="Jump to anything"
+                        className="w-full justify-between"
+                      />
+                    </div>
+                  </section>
+
+                  {currentContext ? (
+                    <section className="rounded-[20px] border border-[rgba(44,49,59,0.12)] bg-white/92 p-3.5 shadow-editorial-soft">
+                      <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                        Current surface
+                      </p>
+                      <p className="mt-2 font-serif text-[1.6rem] font-semibold leading-tight text-editorial-ink">
+                        {"name" in (currentEntity ?? {}) ? currentEntity?.name : "Context"}
+                      </p>
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        {primaryNavSections.map((item) => {
+                          const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
+
+                          return (
+                            <Link
+                              key={item.segment}
+                              href={sectionHref(item.segment)}
+                              onClick={closeMobileMenu}
+                              className={cn(
+                                "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-[13px] transition-all duration-200",
+                                isSectionActive(item.segment)
+                                  ? "border-transparent bg-editorial-green text-white"
+                                  : "border-[rgba(44,49,59,0.12)] bg-white text-editorial-ink"
+                              )}
+                            >
+                              <Icon className="h-4 w-4" />
+                              {item.label}
+                            </Link>
+                          )
+                        })}
+                        {overflowNavSections.map((item) => {
+                          const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
+
+                          return (
+                            <Link
+                              key={item.segment}
+                              href={sectionHref(item.segment)}
+                              onClick={closeMobileMenu}
+                              className={cn(
+                                "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-[13px] transition-all duration-200",
+                                isSectionActive(item.segment)
+                                  ? "border-transparent bg-editorial-green text-white"
+                                  : "border-[rgba(44,49,59,0.12)] bg-white text-editorial-ink"
+                              )}
+                            >
+                              <Icon className="h-4 w-4" />
+                              {item.label}
+                            </Link>
+                          )
+                        })}
+                      </div>
+                    </section>
+                  ) : null}
+
+                  <section className="grid gap-4">
+                    {[
+                      { label: "Subjects", items: quickSubjects, basePath: "" },
+                      { label: "Roles", items: quickRoles, basePath: "/roles" },
+                      { label: "Topics", items: quickTopics, basePath: "/topics" },
+                    ].map((section) => (
+                      <div
+                        key={section.label}
+                        className="rounded-[20px] border border-[rgba(44,49,59,0.12)] bg-white/92 p-3.5 shadow-editorial-soft"
+                      >
+                        <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
+                          {section.label}
+                        </p>
+                        <div className="mt-2.5 space-y-2">
+                          {section.items.map((item) => (
+                            <Link
+                              key={item.slug}
+                              href={`${section.basePath}/${item.slug}`.replace("//", "/")}
+                              onClick={closeMobileMenu}
+                              className="flex items-center gap-3 rounded-[16px] border border-[rgba(44,49,59,0.12)] bg-white px-3 py-2.5 transition-all duration-200"
+                            >
+                              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[12px] border border-[rgba(44,49,59,0.08)] bg-white text-[1rem] shadow-sm">
+                                {resolveEntityEmoji(item)}
+                              </span>
+                              <div className="min-w-0">
+                                <p className="truncate text-sm font-medium text-editorial-ink">
+                                  {item.name}
+                                </p>
+                                <p className="mt-0.5 text-[11px] leading-[1.45] text-editorial-muted">
+                                  {item.tagline}
+                                </p>
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </section>
+                </div>
+              </div>
+            </div>
+          </>,
+          document.body
+        )
+      : null
 
   return (
     <header className="fixed left-0 right-0 top-0 z-50 rounded-none border-b border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.95)] backdrop-blur-[16px] shadow-editorial-soft sm:left-[18px] sm:right-[18px] sm:top-[18px] sm:rounded-[18px] sm:border">
@@ -381,155 +530,7 @@ export function Navigation({
         </div>
       </div>
 
-      {mobileOpen ? (
-        <>
-          <div
-            className="fixed inset-0 z-40 bg-[rgba(21,24,30,0.24)] backdrop-blur-[4px] lg:hidden"
-            onClick={closeMobileMenu}
-          />
-          <div className="fixed inset-x-2.5 bottom-2.5 top-[60px] z-[45] overflow-hidden rounded-[24px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.98)] shadow-[0_40px_120px_rgba(44,49,59,0.18)] backdrop-blur-[24px] lg:hidden sm:top-[96px]">
-            <div className="max-h-full overflow-y-auto px-3 py-3">
-              <div className="space-y-4">
-                <section className="rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/76 p-3.5 shadow-editorial-soft">
-                  <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                    Explore Nexus
-                  </p>
-                  <div className="mt-3 grid grid-cols-2 gap-2">
-                    {DIRECTORY_LINKS.map((item) => {
-                      const Icon = item.icon
-
-                      return (
-                        <Link
-                          key={item.href}
-                          href={item.href}
-                          onClick={closeMobileMenu}
-                          className={cn(
-                            "rounded-[16px] border border-[rgba(44,49,59,0.08)] px-3 py-2.5 transition-all duration-200",
-                            isDirectoryActive(pathname, item.href)
-                              ? "bg-editorial-green text-white shadow-sm"
-                              : "bg-white/84 text-editorial-ink"
-                          )}
-                        >
-                          <div className="flex items-center gap-2 text-[13px] font-medium">
-                            <Icon className="h-3.5 w-3.5" />
-                            {item.label}
-                          </div>
-                        </Link>
-                      )
-                    })}
-                  </div>
-                  <div className="mt-3">
-                    <CommandPalette
-                      items={browseItems}
-                      onBeforeOpen={closeMobileMenu}
-                      triggerLabel="Jump to anything"
-                      className="w-full justify-between"
-                    />
-                  </div>
-                </section>
-
-                {currentContext ? (
-                  <section className="rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/76 p-3.5 shadow-editorial-soft">
-                    <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                      Current surface
-                    </p>
-                    <p className="mt-2 font-serif text-[1.6rem] font-semibold leading-tight text-editorial-ink">
-                      {"name" in (currentEntity ?? {}) ? currentEntity?.name : "Context"}
-                    </p>
-                    <div className="mt-3 flex flex-wrap gap-2">
-                      {primaryNavSections.map((item) => {
-                        const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
-
-                        return (
-                          <Link
-                            key={item.segment}
-                            href={sectionHref(item.segment)}
-                            onClick={closeMobileMenu}
-                            className={cn(
-                              "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-[13px] transition-all duration-200",
-                              isSectionActive(item.segment)
-                                ? "border-transparent bg-editorial-green text-white"
-                                : "border-[rgba(44,49,59,0.08)] bg-white/84 text-editorial-ink"
-                            )}
-                          >
-                            <Icon className="h-4 w-4" />
-                            {item.label}
-                          </Link>
-                        )
-                      })}
-                      {overflowNavSections.map((item) => {
-                        const Icon = ICONS[item.iconName as keyof typeof ICONS] ?? Compass
-
-                        return (
-                          <Link
-                            key={item.segment}
-                            href={sectionHref(item.segment)}
-                            onClick={closeMobileMenu}
-                            className={cn(
-                              "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-[13px] transition-all duration-200",
-                              isSectionActive(item.segment)
-                                ? "border-transparent bg-editorial-green text-white"
-                                : "border-[rgba(44,49,59,0.08)] bg-white/84 text-editorial-ink"
-                            )}
-                          >
-                            <Icon className="h-4 w-4" />
-                            {item.label}
-                          </Link>
-                        )
-                      })}
-                    </div>
-                  </section>
-                ) : null}
-
-                <section className="grid gap-4">
-                  {[
-                    { label: "Subjects", items: quickSubjects, basePath: "" },
-                    { label: "Roles", items: quickRoles, basePath: "/roles" },
-                    { label: "Topics", items: quickTopics, basePath: "/topics" },
-                  ].map((section) => (
-                    <div
-                      key={section.label}
-                      className="rounded-[20px] border border-[rgba(44,49,59,0.08)] bg-white/76 p-3.5 shadow-editorial-soft"
-                    >
-                      <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted">
-                        {section.label}
-                      </p>
-                      <div className="mt-2.5 space-y-2">
-                        {section.items.map((item) => (
-                          <Link
-                            key={item.slug}
-                            href={`${section.basePath}/${item.slug}`.replace("//", "/")}
-                            onClick={closeMobileMenu}
-                            className="flex items-center gap-3 rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-white/84 px-3 py-2.5 transition-all duration-200"
-                          >
-                            <span
-                              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[12px]"
-                              style={{
-                                backgroundColor: `${item.color}16`,
-                                color: item.color,
-                              }}
-                            >
-                              <BrowseEntityIcon iconName={item.icon} className="h-4 w-4" />
-                            </span>
-                            <div className="min-w-0">
-                              <p className="truncate text-sm font-medium text-editorial-ink">
-                                {item.name}
-                              </p>
-                              <p className="mt-0.5 text-[11px] leading-[1.45] text-editorial-muted">
-                                {item.tagline}
-                              </p>
-                            </div>
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </section>
-              </div>
-            </div>
-          </div>
-        </>
-      ) : null}
+      {mobileMenu}
     </header>
   )
 }

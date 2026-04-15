@@ -53,7 +53,7 @@ const config: Config = {
           "paper-strong": "#fffdf8",
           canvas: "#f1ece1",
           ink: "#1d2126",
-          muted: "#544f47",
+          muted: "#1d2126",
         },
       },
       borderRadius: {

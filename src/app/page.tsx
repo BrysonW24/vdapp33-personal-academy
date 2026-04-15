@@ -298,7 +298,7 @@ export default function NexusHomePage() {
           </div>
         </div>
 
-        <KnowledgeHierarchyScene className="min-h-[300px] h-full sm:min-h-[360px]" />
+        <KnowledgeHierarchyScene className="hidden h-full min-h-[360px] md:block" />
       </section>
 
       <section className="rounded-[22px] border border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.92)] p-4 shadow-editorial-soft sm:rounded-[24px] sm:p-6">

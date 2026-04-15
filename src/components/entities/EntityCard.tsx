@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
-import { BrowseEntityIcon } from "@/components/browse/BrowseEntityIcon"
 import {
   BROWSE_STATUS_LABELS,
   BROWSE_TIER_LABELS,
@@ -80,31 +79,21 @@ export function EntityCard({
 
         <div className="relative flex items-start gap-2.5 sm:gap-4">
           <span
-            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[12px] border border-[rgba(44,49,59,0.08)] bg-white/88 text-[1.05rem] shadow-sm sm:h-12 sm:w-12 sm:rounded-[16px] sm:text-[1.2rem]"
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[12px] border border-[rgba(44,49,59,0.08)] bg-white/92 text-[1.1rem] shadow-sm sm:h-12 sm:w-12 sm:rounded-[16px] sm:text-[1.2rem]"
             aria-hidden="true"
           >
             {emoji}
           </span>
-          <span
-            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[12px] sm:h-12 sm:w-12 sm:rounded-[16px]"
-            style={{
-              backgroundColor: withAlpha(accent, 0.14),
-              color: accent,
-              boxShadow: `inset 0 0 0 1px ${withAlpha(accent, 0.16)}`,
-            }}
-          >
-            <BrowseEntityIcon iconName={entity.icon} className="h-4 w-4 sm:h-5 sm:w-5" />
-          </span>
-          <div className="min-w-0">
+          <div className="min-w-0 flex-1">
             <span
               className="mb-2 inline-block h-1.5 w-8 rounded-full sm:mb-3 sm:h-2.5 sm:w-12"
               style={{ backgroundColor: accent }}
             />
 
-            <h3 className="font-serif text-[0.98rem] font-semibold leading-tight text-editorial-ink sm:text-[1.55rem]">
+            <h3 className="font-serif text-[0.94rem] font-semibold leading-[1.15] text-editorial-ink sm:text-[1.55rem]">
               {entity.name}
             </h3>
-            <p className="mt-1.5 text-[12px] leading-[1.5] text-editorial-muted sm:mt-2 sm:text-sm sm:leading-relaxed">
+            <p className="mt-1.5 text-[11px] leading-[1.45] text-editorial-muted sm:mt-2 sm:text-sm sm:leading-relaxed">
               <span className="sm:hidden">{shortTagline}</span>
               <span className="hidden sm:inline">{entity.tagline}</span>
             </p>
