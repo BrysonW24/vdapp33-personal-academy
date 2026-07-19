@@ -72,7 +72,7 @@ notes:
   - Quantum Science and Aerospace now extend beyond their original migration baselines with authored Nexus content.
   - Energy Systems is now a canonical subject rather than a topic-level surface.
   - Robotics is a native Nexus subject with full route coverage.
-  - Commercial Property Management was migrated from vdapp46 with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.
+  - Commercial Property Management was migrated from a standalone commercial-property academy with generic subject framing preserved at the shell level while factual vendor references remain in content where relevant.
   - Roles and topics now live under content/roles/ and content/topics/ as entity-aware route families, not just content packs.
   - The role catalog now includes the broader Founder OS functional role family re-homed into Nexus as first-class role academies.
   - The taxonomy now extends well beyond the original seven-subject shell to include additional sciences, engineering, society, markets, life, humanities, and mind subjects/topics.
