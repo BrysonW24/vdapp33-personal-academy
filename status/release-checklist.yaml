@@ -29,7 +29,7 @@ gates:
 blockers: []
 notes:
   - 'Verified with `npm install`, `npm run build`, `npm run type-check`, and `npm run lint` on 2026-04-03.'
-  - 'Re-verified on 2026-04-04 after migrating Commercial Property Management: `npm run build`, `npm run type-check`, and `npm run lint` passed; the `/commercial-property-management` route family returned `200`; and `vdapp46-jll-commercial-property-manager-academy` was moved into `archive/2026-04-04-personal-academy-migration-sources/`.'
+  - 'Re-verified on 2026-04-04 after migrating Commercial Property Management: `npm run build`, `npm run type-check`, and `npm run lint` passed; the `/commercial-property-management` route family returned `200`; and the standalone source academy was moved into the private migration-sources archive.'
   - '`npm run type-check` depends on generated `.next/types`, so the clean verification order is build before type-check when the cache is stale.'
   - 'Smoke-checked home, representative subject landings, lesson/project/tool routes, rich blueprint/toolkit/day-in-the-life paths, Robotics coverage, and the migrated Commercial Property Management subject.'
   - 'Founder-only route families such as `/{subject}/playbooks`, `/{subject}/systems`, and `/{subject}/learn` now return 404.'

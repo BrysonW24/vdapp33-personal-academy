@@ -6,14 +6,10 @@ Nexus is now the canonical learning surface for politics, commercial property ma
 
 This analysis covers the subject-academy migration only. The newer roles/topics entity-aware direction is a separate follow-on layer and should not be confused with the subject migration completed here.
 
-Archived source apps now live in:
-
-- `archive/2026-04-04-personal-academy-migration-sources/vdapp35-politician-academy`
-- `archive/2026-04-04-personal-academy-migration-sources/vdapp36-physicist-academy`
-- `archive/2026-04-04-personal-academy-migration-sources/vdapp37-aero-engineer-academy`
-- `archive/2026-04-04-personal-academy-migration-sources/vdapp38-rocket-science-academy`
-- `archive/2026-04-04-personal-academy-migration-sources/vdapp40-quantum-academy`
-- `archive/2026-04-04-personal-academy-migration-sources/vdapp46-jll-commercial-property-manager-academy`
+The six standalone source apps were archived into a private migration-sources archive on the
+same date. They were single-subject academies covering politics, physics, aerospace engineering,
+rocket science, quantum science, and commercial property management - each of which now exists
+as a subject inside Nexus rather than as its own app.
 
 ## Shape changes
 

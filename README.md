@@ -1,178 +1,167 @@
-# Nexus
+# ✳️ Nexus
 
-Repo lineage: `vdapp33-personal-academy`
+> A browse-first map of human reality. **65 subjects** for disciplined depth, **41 topics** for
+> cross-domain lenses, and **22 roles** for what the map looks like inside a capable person -
+> one connected system, no account, no backend.
 
-Nexus is a unified multi-subject Next.js app for curiosity-driven learning. It now spans 65 subjects, 41 topics, and 22 flagship roles inside one shell, one deploy, and one local-first state model, with subjects for disciplined depth, topics for cross-domain lenses, and roles for embodied intelligence.
-
-## What This App Is
-
-- Learning-first, not operator-first
-- Browse-first encyclopedia interface with subjects, topics, and roles as the main entry points
-- Macro-bucket discovery layer above the raw catalog: Reality, Human Being, Civilization, Built World, Markets & Assets, Meaning & Culture, Frontier
-- Subject-prefixed multi-subject architecture with first-class role and topic routes
-- Static content app powered by JSON curriculum files, onboarding packs, source packs, signal digests, and Zod schemas
-- One academy shell where subjects provide depth, topics widen the lens, and roles synthesize real-world application
-- Local-first state for progress, onboarding, and optional secondary surfaces such as My Path
-- Search-first navigation with a local `Jump to anything` command palette and a hierarchy explainer that teaches how subjects, topics, and roles relate
-- High-level browse filters that let users think in plain language such as Science, Technology, Society, Business, Human, Culture, and Future
-
-## Working Doctrine
-
-- Human readability is a core product requirement, not a polish layer
-- Pages should explain the shape of a field or role quickly before asking the user to read deeply
-- Use paragraph spacing, section rhythm, and visual summaries to reduce cognitive load
-- Roles should follow a repeatable, structured setup rather than feeling like loose editorial pages
-- Roles should feel like guided worlds: what the person does, what they see that others miss, how people get there, what they need to be strong in, what pressures they absorb, and how careers compound
-- Role landing pages should surface a visible training ladder from beginner to expert application, plus embedded quest work, rather than forcing people to infer the structure from deep routes
-- Mobile optimisation is mandatory for shared surfaces such as nav, heroes, landing pages, module indexes, and high-volume browse cards
-- Shared browse cards should stay information-dense enough to feel useful on phones instead of airy, oversized, or wasteful
-- High-volume browse surfaces should prefer compact two-up mobile patterns when that helps keep the full catalog visible
-- Shared browse surfaces should use the stronger cloud-page contrast profile rather than washed-out decorative glass
-- Subjects, topics, and roles should feel like one connected map at the top of the browse experience, not three detached boxes
-- Nested pages should always provide a visible back affordance; breadcrumbs alone are not enough
-- Emoji are an additive scan aid for subjects, topics, and roles and should sit alongside the curated icon system rather than replacing it
-- Founder OS can be used as visual inspiration, but Nexus must keep its own browse-first encyclopedia stance
-- Imported role academies are valid in Nexus when they are re-framed through the shared role-world contract rather than copied in as isolated mini-products
-- When meaningful design, architecture, or product-direction changes land, update the reference docs in the same pass
-
-## Core Routes
-
-- `/` — Nexus exploration dashboard
-- `/setup` — Optional soft onboarding surface
-- `/my-path` — Secondary guided dashboard kept for users who want a structured session
-- `/subjects` — Subject directory
-- `/roles` — Role directory
-- `/topics` — Topic directory
-- `/signals` — Curated signal hub tied to the active path
-- Header command palette — Local static quick-jump across subjects, topics, roles, flagship modules, and signals
-- Top filter rail — High-level browse filters that spotlight Science, Technology, Society, Business, Human, Culture, and Future
-- `/{subject}` — Start Here landing page
-- `/{subject}/blueprint` — Generated subject map from module order
-- `/{subject}/modules` — Module grid
-- `/{subject}/modules/{slug}` — Module detail
-- `/{subject}/modules/{slug}/{lessonSlug}` — Lesson detail
-- `/{subject}/projects` — Subject projects
-- `/{subject}/projects/{slug}` — Project detail
-- `/{subject}/tools` — Subject tools
-- `/{subject}/tools/{slug}` — Tool detail
-- `/{subject}/toolkit` — Frameworks and mental models
-- `/{subject}/day-in-the-life` — Real-world role snapshots
-- `/{subject}/sources` — Curated truth stack for the subject
-- `/{subject}/signals` — Curated signals for the subject
-- `/roles/{slug}` — Role landing page
-- `/roles/{slug}/sources` — Role truth stack
-- `/roles/{slug}/signals` — Role signals
-- `/topics/{slug}` — Topic landing page
-- `/topics/{slug}/sources` — Topic truth stack
-- `/topics/{slug}/signals` — Topic signals
-
-Roles and topics are not decorative content anymore. They are live route families with their own landing pages, section pages, and guidance surfaces.
-
-## Subject Model
-
-All subject content lives under `content/curriculum/{subject}/` and is auto-discovered from `manifest.json`.
-
-Current technical groups:
-
-- Sciences: `biology`, `chemistry`, `cosmology`, `earth-science`, `ecology-environmental-systems`, `materials-science`, `mathematics`, `physics`, `quantum-science`, `statistics-probability`
-- Engineering: `aerospace`, `architecture-urbanism`, `civil-engineering`, `cloud`, `computer-science`, `cybersecurity`, `data-science`, `electrical-engineering`, `energy-systems`, `infrastructure-resilience`, `manufacturing-industry`, `maritime-systems`, `mechanical-engineering`, `mining-resources`, `robotics`, `rocket-science`, `software-engineering`, `space-infrastructure`, `systems-engineering`
-- Society: `commercial-property-management`, `defense-warfare`, `demography`, `energy-geopolitics`, `geopolitics`, `institutional-power`, `intelligence-espionage`, `law`, `media-systems`, `politics`, `public-administration`, `sociology`
-- Markets: `economics`, `finance-accounting`, `supply-chain-logistics`, `trade-globalization`
-- Life: `agriculture-food-systems`, `biotechnology`, `medicine-human-physiology`
-- Humanities: `aesthetics`, `conflict-negotiation`, `creativity`, `design`, `ethics`, `history-of-civilization`, `identity-culture`, `literature`, `morality-values`, `mythology`, `religion-belief-systems`, `rhetoric-persuasion`, `typography`
-- Mind: `anthropology`, `education-learning-science`, `linguistics`, `psychology`
-
-Browse-only macro buckets:
-
-- `reality`
-- `human-being`
-- `civilization`
-- `built-world`
-- `markets-assets`
-- `meaning-culture`
-- `frontier`
-
-Overlay content lives alongside subjects:
-
-- `content/roles/`
-- `content/topics/`
-- `content/onboarding/`
-- `content/guidance/path-archetypes/`
-- `content/sources/{subject|role|topic}/`
-- `content/signals/{subjects|roles|topics}/`
-
-## Guidance Layer
-
-Nexus still has a guidance system on top of the content shell, but it is no longer the homepage story:
-
-- Soft onboarding at `/setup`
-- Deterministic blueprint generation from curated questions and archetypes
-- Three learning modes: `guided`, `explorer`, `operator`
-- A persistent `My Path` dashboard kept as a secondary guided surface with:
-  - one core subject
-  - one supporting topic
-  - one role lens
-  - one current project
-  - one weekly cadence
-  - one weekly review loop
-- A deterministic next-best-action engine that ranks unfinished core subject work, reinforcement, role application, project work, review, truth-stack review, and curated signals
-- Guide rails on start pages, module pages, lesson pages, project pages, and tool pages
-
-The guidance OS remains available, but the browse shell, hierarchy explainer, macro-bucket explorer, and command palette are now the primary orientation layer.
-
-## Current Migration State
-
-- `politics` — rich subject migrated from `vdapp35-politician-academy`
-- `physics` — rich subject migrated from `vdapp36-physicist-academy`
-- `aerospace` — expanded beyond migration baseline with frameworks, projects, tools, and day-in-the-life
-- `robotics` — full native subject inside Nexus with 20 modules, 10 lessons, 10 frameworks, 10 projects, 15 tools, and 4 day-in-the-life scenarios
-- `rocket-science` — rich subject migrated from `vdapp38-rocket-science-academy`
-- `quantum-science` — migrated from `vdapp40-quantum-academy` and expanded beyond the original thin baseline
-- `energy-systems` — promoted from topic-level energy content into a canonical subject surface
-- `commercial-property-management` — genericised subject migrated from `vdapp46-jll-commercial-property-manager-academy` with 20 modules, 5 lessons, 10 frameworks, 8 projects, 14 tools, and 4 day-in-the-life scenarios
-
-The migrated standalone source apps were archived on 2026-04-04 into `archive/2026-04-04-personal-academy-migration-sources/` after route, build, and browser verification passed in the unified app. See `docs/personal-academy-migration-analysis.md` for the migration analysis.
-
-The current post-migration work is about direction rather than just more content: making the catalog navigable, readable, and memorable at scale rather than just expanding the library.
-
-## Tech Stack
-
-- Next.js 15 App Router
-- React 19
-- Tailwind CSS
-- Framer Motion
-- Zustand
-- Zod
-- Vitest
-- Static JSON content loaders in `src/lib/content.ts`, `src/lib/entities.ts`, and `src/lib/guidance-content.ts`
-
-## Development
+**[▶ Open the live app](https://vdapp33-personal-academy.vercel.app)** - nothing to sign up for, nothing to configure.
 
 ```bash
-npm install
-npm run dev
-npm test
-npm run type-check
-npm run lint
-npm run build
+git clone https://github.com/BrysonW24/vdapp33-personal-academy.git
+cd vdapp33-personal-academy
+npm install && npm run dev
 ```
 
-For lightweight verification guidance, see `docs/testing-smoke.md`.
+Open <http://localhost:3000>. Press <kbd>⌘</kbd><kbd>K</kbd> and jump to anything. ✨
 
-## Content Conventions
+<p align="center">
+  <img src="assets/explore-home.jpg" width="100%" alt="Nexus home - three entry modes over one connected corpus" />
+</p>
 
-- Add new subjects by creating `content/curriculum/{slug}/manifest.json`
-- Add subject content via JSON files in `modules/`, `lessons/`, `frameworks/`, `projects/`, `tools/`, and `day-in-life/`
-- Add roles under `content/roles/{slug}/`
-- Roles can now own their own `modules/`, `lessons/`, `frameworks/`, `projects/`, `tools/`, and `day-in-life/` content in addition to linking out to related subjects
-- Add topics under `content/topics/{slug}/`
-- Add onboarding packs under `content/onboarding/`
-- Add curated truth stacks under `content/sources/`
-- Add curated signal digests under `content/signals/`
-- Do not hardcode subjects into navigation or route logic
-- Keep content grounded in the subject's real intellectual arc and practical ecosystem
-- Keep role content structured and readable: what it is, where it came from, what people do, how people get there, strengths, exposures, and career levers
-- Keep copy scannable; use real paragraphs and sectioned explanations instead of dense single blocks
-- Use diagrams and visual primers on concept-heavy subjects where a simple systems picture can teach faster than more prose
-- When a subject needs fast beginner orientation, prefer a staged visual teaching stack: the general system first, cross-system comparison second, then one concrete platform or case study in more depth
-- Cloud is the reference example for this approach: explain cloud in general, then compare providers, then deepen with AWS, then show responsibility and project-stack maps
+---
+
+## 🧠 The idea: three entry modes, one corpus
+
+Most learning apps make you pick a course and walk a line. Nexus assumes curiosity does not work
+like that. The same body of knowledge is cut **three different ways**, and all three stay visible:
+
+| Mode | Count | What it gives you |
+|---|---|---|
+| 📘 **Subjects** | **65** | *Disciplined depth.* Canonical fields with structured curriculum, frameworks, projects and tools. |
+| ✨ **Topics** | **41** | *Cross-domain lenses.* Curiosity-first questions - consciousness, collapse, deep time, meaning - that cut across fields without flattening them. |
+| 🧭 **Roles** | **22** | *Embodied intelligence.* Astronaut, diplomat, intelligence analyst, AI researcher: what the person actually does, notices, and absorbs. |
+
+**Topics are lenses, not copies.** A topic owns no modules of its own - it derives them at runtime
+from its related subjects. So "Existential Risk" assembles a real reading path out of the physics,
+biology, and civilization material already in the corpus, instead of duplicating it.
+
+## 📊 What is actually in here
+
+Counted from disk. The homepage computes the same totals from the content tree at build time, so
+the numbers on the live site and the numbers here cannot drift apart.
+
+| | | | |
+|---|---|---|---|
+| **65** subjects | **41** topics | **22** roles | **3,245** content files |
+| **743** modules | **671** lessons | **565** tools | **443** frameworks |
+| **285** projects | **132** day-in-the-life | **100** topic sections | **0** backend services |
+
+## 🗺️ Discovery: buckets, filters, palette
+
+Three layers sit above the raw catalogue so 128 entities stay navigable:
+
+- **7 macro buckets** - Reality · Human Being · Civilization · Built World · Markets & Assets ·
+  Meaning & Culture · Frontier. Each bucket deliberately mixes subjects, topics **and** roles
+  rather than showing one kind, so widening your curiosity does not mean leaving the structure.
+- **A plain-language filter rail** - All · Science · Technology · Society · Business · Human ·
+  Culture · Future. For when you do not yet know the name of the thing you want.
+- **A command palette** - <kbd>⌘</kbd><kbd>K</kbd> / <kbd>Ctrl</kbd><kbd>K</kbd>, "Jump to
+  anything". Indexes every entity, section and signal plus module entries. Entirely client-side;
+  there is no search service.
+
+<p align="center">
+  <img src="assets/subjects-directory.jpg" width="49%" alt="Subject directory with the plain-language filter rail" />
+  <img src="assets/roles-directory.jpg" width="49%" alt="Role directory - guided worlds grouped by macro bucket" />
+</p>
+<p align="center">
+  <img src="assets/topics-directory.jpg" width="49%" alt="Topic directory - cross-domain lenses" />
+  <img src="assets/signals-hub.jpg" width="49%" alt="Signals hub - curated live inputs per entity" />
+</p>
+
+## 🧩 How a subject unfolds
+
+Land on **Start Here** → **Blueprint** (the field mapped from module order) → **Modules** → a
+**lesson** (with a perspective toggle, quiz and completion badge) → **Projects** → **Tools** →
+**Toolkit** (frameworks and mental models) → **Day in the Life** → **Sources** (the curated truth
+stack) → **Signals**.
+
+Lessons are written against a four-lens teaching model - **Concept → Mechanism → Importance →
+Application** - so a page tells you what a thing is, how it works, why it matters, and where you
+would use it, in that order.
+
+Eleven bespoke SVG visualisation components (career ladders, concept maps, mastery rings, exposure
+maps, comparison matrices, gauge arcs) carry the explanation where prose gets heavy.
+
+<p align="center">
+  <img src="assets/explore-home-scrolled.jpg" width="49%" alt="Homepage catalogue - entities grouped by domain family" />
+  <img src="assets/subjects-scrolled.jpg" width="49%" alt="Subject catalogue with per-entity stat lines" />
+</p>
+
+## 🎯 Optional: guided mode
+
+The browse shell is the front door, but a guidance layer persists for anyone who wants a structured
+session. `/setup` runs a soft onboarding into a deterministic blueprint engine with three modes -
+**guided**, **explorer**, **operator** - producing a `/my-path` dashboard: one core subject, one
+supporting topic, one role lens, one current project, and a weekly cadence with a review loop, plus
+a ranked next-best-action list.
+
+## 🔒 Privacy, by architecture
+
+- **No accounts, no auth, no database, no API routes.** Zero `route.ts` files in the app.
+- **No telemetry.** Progress and onboarding live in `localStorage` and are never transmitted.
+- **No configuration.** `.env.example` holds one `NEXT_PUBLIC_` variable pointing at localhost.
+- Content is read from JSON on disk at build time and validated through Zod schemas, so a malformed
+  content file **fails the build** rather than shipping a broken page.
+
+## 🛠️ Tech stack
+
+**Next.js 15.5.14** App Router (pinned) · **React 19** · **TypeScript 5.7** (strict) ·
+**Tailwind CSS 3.4** · **Zustand 5** · **Zod 3.24** · **Framer Motion 12** · **Radix UI**
+(7 primitives) · **three** + **@react-three/fiber** + **drei** for the 3D hierarchy scene
+(`hidden md:block`, so phones never pay for it) · **Vitest 3.2**.
+
+~23,400 lines of TypeScript across 46 pages and 17 dynamic segments. Node >= 20.
+
+```bash
+npm run dev          # dev server
+npm run build        # production build
+npm run test         # vitest run
+npm run type-check   # tsc --noEmit
+npm run lint         # eslint
+```
+
+## ✅ Tests
+
+**3 suites, 709 lines, 12 cases** - and the important one is real:
+
+- `catalog-completeness.test.ts` hardcodes all **128 entity slugs** and asserts every one resolves
+  through the real loaders against the real content tree. It fails in **both** directions, so a
+  deleted subject and an unregistered new subject each break the build.
+- `academy-engine.test.ts` covers profile building, path generation, next-action ranking and
+  path-membership explanation.
+- `progress.test.ts` covers localStorage progress migration, including legacy slug remapping.
+
+## ⚠️ Honest status
+
+- **There is no CI.** No `.github/` directory, so the test suite above only runs when someone runs
+  it locally. Nothing gates a push.
+- **Coverage is deliberately uneven, and the UI states it** rather than hiding it:
+  - **33 of 65** subjects have day-in-the-life scenarios.
+  - **15 of 22** roles own their own modules; the other 7 are day-in-the-life only.
+  - **23 of 128** entities have curated sources and signals packs. The rest render an honest empty
+    state ("truth stack is still being curated"), not a fabricated one.
+- **Topics have no blueprint, lesson or day-in-the-life routes** - a real asymmetry against
+  subjects and roles, because a lens is not a field.
+
+## 🧬 Lineage
+
+Nexus replaced six standalone single-subject academies - politics, physics, aerospace, rocket
+science, quantum science and commercial property management - each of which now lives as a subject
+inside one shell with one deploy and one progress model. `energy-systems` was promoted the other
+way, from topic-level content into a full subject. Migration notes:
+[`docs/personal-academy-migration-analysis.md`](docs/personal-academy-migration-analysis.md).
+
+## 📄 Licence
+
+No licence file is present, which under GitHub's terms means **all rights reserved** - you may view
+this repository, but not reuse it. If you want to build on it, open an issue and ask.
+
+---
+
+<p align="center">
+  <em>Nexus - part of the Vivacity app portfolio.</em><br />
+  <a href="https://vdapp33-personal-academy.vercel.app">Live app</a> ·
+  <a href="CLAUDE.md">Architecture notes</a> ·
+  <a href="docs/">Docs</a> ·
+  <a href="status/">Delivery status</a>
+</p>

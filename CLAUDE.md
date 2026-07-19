@@ -206,7 +206,7 @@ npm run build
 - Quantum Science now includes a full academy spine plus lessons, frameworks, projects, tools, and day-in-the-life content
 - Energy Systems is a canonical subject rather than a topic
 - Robotics is a full native subject inside the unified shell with modules, lessons, frameworks, projects, tools, and day-in-the-life content
-- Commercial Property Management was migrated from `vdapp46-jll-commercial-property-manager-academy` on 2026-04-04 with generic subject-level framing preserved in the shell
+- Commercial Property Management was migrated from a standalone commercial-property academy on 2026-04-04 with generic subject-level framing preserved in the shell
 - Source academies were archived on 2026-04-04 after migration verification; archived copies live in `archive/2026-04-04-personal-academy-migration-sources/`
 - Roles and topics are live entity-aware route families with their own sections, sources, and signals
 - Homepage browse is now organized around macro buckets rather than only raw subject/topic/role grids
