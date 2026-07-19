@@ -1,0 +1,38 @@
+{
+  "slug": "frontier",
+  "title": "The Frontier of Energy",
+  "paragraphs": [
+    "Fusion remains the most ambitious frontier. If engineers can make it commercially reliable, they could unlock a near-limitless source of low-carbon power. The challenge is not just physics but materials, heat handling, plasma control, and cost. Progress has been real, but a full commercial breakthrough is still ahead.",
+    "Solar is also advancing quickly. Perovskite and tandem cells are pushing efficiency higher while promising cheaper manufacturing. That matters because solar is already one of the least expensive forms of new electricity in many markets, and better efficiency plus better storage pushes it into even more applications.",
+    "Battery technology is another major frontier. Solid-state batteries, sodium-ion chemistries, long-duration storage, and grid-scale batteries all aim to solve the same problem: renewables are abundant, but not always available when demand peaks. Storage is the hinge technology for a more electrified, cleaner grid.",
+    "Hydrogen, carbon capture, and small modular reactors are all being tested as part of the long-term transition. Hydrogen may matter most for heavy industry and shipping. Carbon capture may matter for hard-to-abate emissions. SMRs may matter where high-density reliable power is valuable and public acceptance can be built.",
+    "The deeper frontier is software and coordination. Modern grids are becoming more dynamic, with distributed generation, virtual power plants, demand response, and real-time optimisation. The next big leap may come less from a single invention and more from making the whole system smarter."
+  ],
+  "keyPoints": [
+    "Fusion is the most ambitious long-term frontier",
+    "Perovskite and tandem solar cells could make solar cheaper and more efficient",
+    "Better storage is central to integrating high levels of renewable energy",
+    "Hydrogen, carbon capture, and SMRs are frontier options for harder-to-decarbonise sectors",
+    "Grid software and coordination may unlock more value than any single hardware advance",
+    "The energy transition is a systems challenge, not just a technology challenge",
+    "Commercial viability matters as much as physical feasibility",
+    "The winning frontier technologies will be the ones that scale reliably and affordably"
+  ],
+  "furtherReading": [
+    {
+      "title": "Our Clean Future",
+      "author": "Richard Black",
+      "description": "A practical overview of the technologies shaping the energy transition."
+    },
+    {
+      "title": "The New Map",
+      "author": "Daniel Yergin",
+      "description": "How geopolitics, markets, and energy infrastructure are being rearranged."
+    },
+    {
+      "title": "How the World Really Works",
+      "author": "Vaclav Smil",
+      "description": "A systems-level reminder that energy, materials, and industrial scale are inseparable."
+    }
+  ]
+}

@@ -1,64 +1,67 @@
 {
   "slug": "cosmology-thinking",
   "moduleSlug": "cosmology-mental-models",
-  "title": "Cosmology Mental Models",
-  "objective": "Build an immediate working picture of cosmology.",
-  "beginnerExplanation": "Cosmology is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Cosmology is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "title": "How Cosmologists Think",
+  "objective": "Install the four mental models cosmologists actually reason with: a universe with no special centre, expanding space (not galaxies flying through it), telescopes as time machines, and the distance ladder that lets us measure the cosmos rung by rung.",
+  "beginnerExplanation": "Cosmology becomes far less confusing once you adopt the handful of mental models cosmologists use every day. Four matter most. First, the cosmological principle: on large scales the universe looks the same everywhere and in every direction, so there is no centre and no edge. Earth is not special, and neither is anywhere else. Second, space itself is expanding. Galaxies are not flying outward through space like debris from a bomb; the space between them is stretching, like raisins in rising dough drifting apart as the dough swells. That is why the famous question 'where did the Big Bang happen?' has a strange answer: everywhere at once, because every point of space was packed together. Third, looking far away means looking back in time, because light takes time to reach us. When you see the Sun, you see it as it was 8 minutes ago. When the James Webb Space Telescope photographs the most distant galaxies, it sees them as they were more than 13 billion years ago. Fourth, we measure cosmic distances by climbing a ladder of methods, each calibrating the next. Get these four pictures right and the rest of cosmology clicks into place.",
+  "deeperExplanation": "Each model carries a precise, sometimes counterintuitive payload.\n\nThe cosmological principle (homogeneity and isotropy) is not a vague nicety. It is the assumption that makes the equations of general relativity solvable for the whole universe at once. Surveys back it up: maps from DESI and the earlier Sloan Digital Sky Survey show galaxies clumped into a cosmic web of filaments and voids on small scales, yet statistically uniform once you average over hundreds of millions of light-years. The cosmic microwave background (CMB), the relic light released about 380,000 years after the Big Bang, is uniform to roughly 1 part in 100,000 across the entire sky - the strongest evidence we have that the early universe had no special place.\n\nExpanding space reframes redshift. When Edwin Hubble showed in 1929 that more distant galaxies recede faster, the natural reading was a Doppler shift, like a receding ambulance siren dropping in pitch. The deeper picture is that the wavelength of light is stretched by the expansion of space it travels through (cosmological redshift), not by motion through space. This is why a genuinely counterintuitive thing is allowed: galaxies beyond a certain distance (the Hubble radius) recede faster than light, and yet no rule is broken. Special relativity forbids anything from moving through space faster than light; it says nothing about how fast space itself can stretch. Those galaxies are not travelling; the space between us is being added to.\n\nTelescopes as time machines turns astronomy into archaeology. Because the observable universe is about 93 billion light-years across (far larger than the 13.8-billion-year age, precisely because space expanded while the light was in transit), the most distant light is also the oldest. JWST and the Hubble deep fields exploit this to study galaxies near 'cosmic dawn', the first stars forming roughly 100 to 400 million years after the Big Bang.\n\nThe cosmic distance ladder is how all of this gets numbers. Rung one is parallax: the tiny apparent shift of a nearby star as Earth orbits the Sun. Rung two is Cepheid variable stars, whose pulsation period reveals their true brightness, so comparing true to apparent brightness gives distance. Rung three is Type Ia supernovae, exploding white dwarfs bright enough to be seen across billions of light-years and predictable enough to serve as standard candles. Each rung is calibrated by the one below it - and a mismatch in this ladder sits at the heart of cosmology's biggest current puzzle, the Hubble tension.",
   "keyTakeaways": [
-    "Cosmology has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "The cosmological principle says the universe is homogeneous and isotropic on large scales - no centre, no edge, no special place",
+    "Space itself expands; galaxies are carried apart, like raisins in rising dough, rather than flying through space",
+    "Cosmological redshift is stretched light, not an ordinary Doppler shift from motion",
+    "Looking far is looking back in time: JWST sees the earliest galaxies as they were over 13 billion years ago",
+    "Galaxies beyond the Hubble radius recede faster than light without breaking relativity, because space stretches rather than objects travelling",
+    "The cosmic distance ladder (parallax to Cepheids to Type Ia supernovae) is how cosmic distances are actually measured"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use cosmology to compare one real system, one institutional example, and one frontier question.",
+  "example": "Why 'where was the Big Bang?' has no location. Imagine baking raisin bread. As the dough rises, every raisin moves away from every other raisin, and a raisin sitting on any one of them would see all the others receding - faster the farther away they are. There is no 'centre raisin' the expansion radiates from; the whole dough is swelling at once. Now make the dough infinite and remove the crust: that is our universe. The Big Bang was not an explosion at a point in pre-existing space that flung matter outward. It was the moment when all of space - everywhere we can now see across roughly 93 billion light-years, and beyond - was compressed and hot. So the honest answer to 'where did it happen?' is: at every point, including the spot you are standing on. The expansion has no centre because it is the stretching of space itself.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Picturing the Big Bang as an explosion in empty space that hurls galaxies outward from a central point - there is no centre; space itself expanded everywhere at once",
+    "Treating redshift as an ordinary Doppler shift from galaxies moving through space, rather than cosmological redshift from space stretching the light's wavelength en route",
+    "Assuming faster-than-light recession of distant galaxies violates relativity - relativity limits motion through space, not the expansion of space itself",
+    "Thinking telescopes show the universe as it is now - distant images are old light, so we always see the past, never the present, of faraway objects"
   ],
-  "exercise": "Write a short map of how cosmology connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick three real cosmic objects at very different distances - for instance the Sun (about 8 light-minutes away), the Andromeda galaxy (about 2.5 million light-years), and a galaxy in a JWST deep field (over 13 billion light-years). For each, write down how far back in time you are seeing it, and one thing that has almost certainly changed since that light left. Then, in two sentences, explain to a friend why the distant galaxy's light is redshifted - and make sure your explanation uses 'space stretched' rather than 'it is moving away from us'.",
   "teaching": {
     "mentalModel": {
-      "title": "Cosmology as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "Four lenses cosmologists reason through",
+      "summary": "Cosmologists don't memorise the universe; they look through four reusable lenses - no special centre, expanding space, deep-time light, and a measured distance ladder - and let those lenses turn paradoxes into clear pictures.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "no-special-centre",
+        "space-expands",
+        "telescopes-see-the-past",
+        "distance-ladder"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "Reasoning about a cosmic observation",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "Locate the observation in deep time: how far away is it, and therefore how far back are you seeing?",
+        "Interpret the redshift as stretched space, not motion, and use it as a clock and a ruler at once",
+        "Check the cosmological principle: is this a fair sample of the universe, or a local clump in the cosmic web?",
+        "Trace the distance estimate down the ladder (supernova to Cepheid to parallax) and ask where the calibration could be wrong"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Dissolves the classic confusions (centre of the universe, edge of the universe, faster-than-light recession) into clear, correct pictures",
+      "Lets you read real results - a JWST headline, a Hubble-constant measurement, a redshift number - and immediately know what is being claimed"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "Analogies leak: raisin bread has a centre and an edge, the universe does not, so the picture must be used and then let go",
+      "The models tell you how to think, not the final answers - the value of the Hubble constant and the nature of dark energy remain genuinely open"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter cosmology analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: reading a galaxy's redshift as time and distance",
+    "workedExample": "A galaxy is observed with a cosmological redshift of about z = 1. The wavelength of its light has been stretched by a factor of (1 + z) = 2, so light emitted as visible green now arrives stretched towards the infrared. Using the standard Lambda-CDM model (about 68% dark energy, 27% dark matter, 5% ordinary matter, with an age of roughly 13.8 billion years), a redshift of z = 1 corresponds to light that left its galaxy when the universe was about 5.9 billion years old - so we are seeing that galaxy as it was nearly 8 billion years ago, when the cosmos was a little over 40% of its current age. The galaxy is not 8 billion light-years away in any simple sense, because space kept expanding while the light travelled; its present distance is larger, around 11 billion light-years. The single number z does triple duty: it is a measure of how much space has stretched, a clock telling us how far back we are looking, and (with a cosmological model) a distance. Push to the JWST frontier near z = 11 to 13 and (1 + z) reaches 12 to 14, so ultraviolet light from the first galaxies arrives as infrared - which is exactly why JWST was built as an infrared telescope.",
     "realWorldApplications": [
-      "Real decisions shaped by cosmology",
-      "Cross-disciplinary projects and institutions"
+      "GPS positioning works only because we correct for relativistic spacetime: satellite clocks run about 38 microseconds per day faster than ground clocks (general plus special relativity), and without the fix your location would drift roughly 10 km per day - a daily, practical proof that spacetime behaves as relativity says",
+      "Why the night sky is dark (Olbers' paradox): in an infinite, eternal, static universe every line of sight would end on a star and the sky would blaze; the sky is dark because the universe has a finite age (about 13.8 billion years) and is expanding, so light from the most distant matter either has not reached us or is redshifted into invisibility"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Observational cosmologists running CMB missions (COBE, WMAP, Planck) and galaxy surveys (DESI, Euclid, the Vera C. Rubin Observatory) to measure the universe's expansion and structure",
+      "Theoretical cosmologists building and testing the Lambda-CDM model and proposing explanations for dark matter, dark energy, and the Hubble tension"
     ],
     "goDeeper": [
       {
@@ -66,6 +69,35 @@
         "href": "/cosmology/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "A distant galaxy's light is strongly redshifted. In the modern cosmological picture, what is the best description of why?",
+      "options": [
+        "The galaxy is physically rushing away through space, so its light is Doppler-shifted like a receding siren",
+        "The space the light travelled through expanded, stretching the light's wavelength along the way",
+        "The galaxy is cooler than ours, so it emits redder light",
+        "Dust between us and the galaxy absorbed the blue light"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cosmological redshift comes from the expansion of space stretching the light's wavelength while it travels, not from the galaxy moving through space. This is why very distant galaxies can recede faster than light without violating relativity - space stretches, objects do not have to travel."
+    },
+    {
+      "question": "Why is 'where did the Big Bang happen?' considered a confused question?",
+      "options": [
+        "Because the location is too far away to observe",
+        "Because the Big Bang happened before space existed, so location is meaningless",
+        "Because the universe has no centre - every point of space was compressed together, so it happened everywhere at once",
+        "Because only the CMB knows, and it has not been decoded"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cosmological principle means there is no special centre. The Big Bang was not an explosion at a point in pre-existing space; all of space was hot and dense, so it happened at every location - including where you are now. The raisin-bread analogy captures this: no raisin is the centre of the rising dough."
+    }
+  ],
+  "perspectives": {
+    "observational-cosmologist": "I trust the universe to be the same everywhere because my data keeps proving it. When I map the cosmic microwave background it is uniform to about 1 part in 100,000 across the whole sky, and when I survey millions of galaxies they average out to the same density in every direction. My daily job is climbing the distance ladder carefully - parallax, then Cepheids, then Type Ia supernovae - because a tiny calibration error low on the ladder becomes a large error in the Hubble constant at the top. That is not abstract: my ladder gives about 73 km/s/Mpc while the CMB gives about 67, and I cannot yet explain the gap.",
+    "theoretical-cosmologist": "I think in terms of the whole spacetime, not objects in it. Redshift, the age of the universe, and the dark night sky are all the same fact - expanding space - seen from different angles. The Lambda-CDM model fits beautifully: about 5% ordinary matter, 27% dark matter, 68% dark energy. But I am honest that two of those three terms are placeholders for things we cannot identify. Dark matter is inferred from rotation curves, lensing, and the Bullet Cluster, yet no particle has been caught; dark energy was discovered from accelerating supernovae in 1998, yet its nature is unknown. The leading view is a cosmological constant, but that is debated.",
+    "educator": "My job is to replace the wrong picture before teaching the right one. Almost everyone arrives imagining the Big Bang as a firework in empty space, so I start with rising raisin bread and infinite dough until 'no centre' feels obvious. Then I show them that looking out is looking back: the Sun they see is 8 minutes old, Andromeda is 2.5 million years old, and a JWST deep-field galaxy is over 13 billion years old. The moment that lands - that a telescope is a time machine - is when cosmology stops being intimidating and starts being thrilling."
   },
   "order": 2
 }

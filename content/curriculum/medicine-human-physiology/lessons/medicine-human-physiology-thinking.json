@@ -1,64 +1,70 @@
 {
   "slug": "medicine-human-physiology-thinking",
   "moduleSlug": "medicine-human-physiology-mental-models",
-  "title": "Medicine & Human Physiology Mental Models",
-  "objective": "Build an immediate working picture of medicine & human physiology.",
-  "beginnerExplanation": "Medicine & Human Physiology is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Medicine & Human Physiology is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "title": "How Doctors Actually Think",
+  "objective": "Understand the core mental models clinicians use to reason about the body and disease: homeostasis as a control system, probabilistic differential diagnosis, the evidence hierarchy, and the difference between treating a number and treating a patient.",
+  "beginnerExplanation": "A doctor's real skill is not memorising facts; it is a way of reasoning under uncertainty. The first big model is homeostasis: the body is a self-correcting control system that holds its internal conditions almost constant. Core temperature stays near 37 degrees C, blood pH near 7.4, and blood glucose in a narrow band, all without you thinking about it. When you feel cold, you shiver and your vessels constrict; the system is fighting to hold the set point. Most disease is a failure of one of these control loops. The second model is probabilistic thinking. A patient walks in with chest pain, and the doctor does not reach for one answer; they build a ranked list of possibilities (the differential diagnosis), then order tests to shift the odds. A 25-year-old with chest pain after the gym is most likely a strained muscle; the same pain in a 65-year-old smoker pushes a heart attack to the top of the list. The art is updating your belief as evidence arrives, the same way a detective narrows suspects.",
+  "deeperExplanation": "Clinical reasoning rests on a few sharp models. Homeostasis treats the body like a thermostat: a sensor measures a variable, a controller compares it to a set point, and an effector pushes it back. The heart shows this beautifully. At rest it beats roughly 60 to 100 times a minute, around 100,000 beats a day, pumping about 5 litres a minute; under exertion the controller raises output to feed working muscle. Read a vital sign and you are reading the state of a control loop.\n\nThe second model is Bayesian, even when no maths is written down. Doctors talk about pre-test probability and post-test probability. A test is only useful if it meaningfully moves your belief. Order a test in someone with near-zero chance of the disease and a positive result is more likely a false alarm than a true case; this is why mass screening of the worried-well can do harm. Good clinicians ask 'how likely is this before I test, and how much will this test actually change that?'\n\nThe third model is the evidence hierarchy. A single dramatic case is the weakest evidence; a randomised controlled trial, ideally double-blind and placebo-controlled, sits near the top because randomisation cancels out hidden bias. This discipline is recent: it took the field centuries to move from authority and anecdote to germ theory, established by Louis Pasteur and Robert Koch in the late 1800s, and then to the trial-based medicine of today. Honest nuance: even strong models have edges. The placebo effect is real and still only partly understood; exactly how general anaesthesia switches off consciousness is genuinely unresolved; and the dominant amyloid hypothesis for Alzheimer's remains debated. A good clinician holds models firmly and updates them honestly.",
   "keyTakeaways": [
-    "Medicine & Human Physiology has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "Homeostasis is the master model: the body is a self-correcting control system holding temperature near 37 C, blood pH near 7.4, and glucose in a tight band, and most disease is a broken control loop",
+    "Diagnosis is probabilistic: build a ranked differential, then use tests to shift the odds rather than searching for one certain answer",
+    "Pre-test probability matters: a test only helps if it meaningfully moves your belief, which is why screening low-risk people can produce more false alarms than true cases",
+    "The evidence hierarchy ranks proof: a randomised controlled trial outranks an anecdote because randomisation cancels hidden bias",
+    "Treat the patient, not just the number: an abnormal lab value is a clue, not a diagnosis",
+    "Hold models honestly: the placebo effect, anaesthesia, and Alzheimer's mechanisms are still incompletely understood"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use medicine & human physiology to compare one real system, one institutional example, and one frontier question.",
+  "example": "A 58-year-old man arrives with crushing central chest pain spreading to his left arm, sweating and short of breath. The clinician does not start with one answer; they build a differential ranked by danger and likelihood: heart attack, aortic tear, blood clot in the lung, then less urgent causes like reflux or muscle strain. Pre-test probability is already high because his age, sex, and symptom pattern fit a heart attack. An ECG and a troponin blood test (troponin is a protein released when heart muscle dies) move the odds sharply. If both are positive, post-test probability is near certainty and treatment starts within minutes, because in a blocked coronary artery, muscle dies roughly minute by minute. Notice the reasoning chain: ranked possibilities, evidence that updates belief, action gated on the most dangerous plausible cause first. That is clinical thinking, not fact recall.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Anchoring on the first diagnosis that comes to mind and ignoring evidence that should lower its probability",
+    "Treating an abnormal number in isolation (for example, chasing one slightly high reading) instead of asking what the whole patient and the test's reliability are telling you",
+    "Confusing correlation with causation: assuming a treatment worked because the patient improved, when many illnesses resolve on their own or respond to placebo",
+    "Trusting a single dramatic anecdote over a randomised controlled trial, which is exactly the bias randomisation exists to remove"
   ],
-  "exercise": "Write a short map of how medicine & human physiology connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick one everyday vital sign (heart rate, body temperature, or breathing rate) and map it as a homeostatic control loop: name the variable, its normal set point, the sensor, the controller, and the effector that pushes it back toward the set point. Then describe one disease or situation where that loop fails or is deliberately overridden (for example, fever during infection). Write it in five short lines.",
   "teaching": {
     "mentalModel": {
-      "title": "Medicine & Human Physiology as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "The body as a control system, disease as a broken loop",
+      "summary": "Clinicians read the body as a set of self-correcting feedback loops holding each variable near a set point. Symptoms and vital signs are the visible output of those loops, and most disease is a loop that has failed, been overwhelmed, or been hijacked. Reasoning about a patient means asking which loop is misbehaving and how confident you can be.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "set point (the value the body defends, like 37 C or pH 7.4)",
+        "feedback loop (sensor, controller, effector)",
+        "differential diagnosis (a ranked list of possible causes)",
+        "pre-test and post-test probability (how much a test moves your belief)"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "How a clinician reasons from symptom to action",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "Take the history and examine: gather symptoms, timing, vital signs, and risk factors",
+        "Build a differential: list possible causes ranked by both likelihood and danger, putting the most dangerous plausible cause near the top",
+        "Estimate pre-test probability for the leading candidates from the patient's profile",
+        "Order tests that will actually move the odds, not tests that confirm what you already believe",
+        "Update to a post-test probability and act on the most dangerous plausible cause first, then re-examine as the patient responds"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Probabilistic reasoning lets clinicians act safely under genuine uncertainty without waiting for certainty that may never come",
+      "The control-system model turns a confusing list of symptoms into a search for which loop has failed"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "Probabilistic models can still anchor on a wrong first guess if the clinician stops updating",
+      "Some mechanisms (the placebo effect, how anaesthesia works) are still poorly understood, so models have honest blind spots"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter medicine & human physiology analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: why testing healthy people can backfire",
+    "workedExample": "Imagine a screening test that is 99 percent accurate for a disease that affects 1 in 10,000 people. Test 1,000,000 people. About 100 truly have the disease, and the test catches roughly 99 of them. But the 1 percent false-positive rate on the other 999,900 healthy people flags about 9,999 of them as positive. So out of roughly 10,098 positive results, only about 99 are real: a positive result here is right less than 1 percent of the time. This is base-rate reasoning, and it is why doctors weigh pre-test probability before screening low-risk people. The maths, not the doctor's mood, is what makes a positive result reassuring or alarming.",
     "realWorldApplications": [
-      "Real decisions shaped by medicine & human physiology",
-      "Cross-disciplinary projects and institutions"
+      "Emergency triage: ranking the most dangerous plausible cause first when a patient presents with chest pain or stroke symptoms",
+      "Deciding whether to screen: weighing how common a disease is before testing the worried-well, to avoid a flood of false positives",
+      "Reading the rollout of a new drug or vaccine: judging whether the claim rests on a randomised controlled trial or only on anecdote (penicillin, discovered by Alexander Fleming in 1928 and mass-produced in WWII, and Edward Jenner's 1796 smallpox vaccine that led to the only human disease ever eradicated, in 1980, are the landmark cases)"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "GPs and emergency clinicians, who live in fast probabilistic triage all day",
+      "Specialist physicians, who refine the differential with deeper organ-system models",
+      "Epidemiologists and public-health officials, who apply the same base-rate and evidence-hierarchy reasoning at population scale"
     ],
     "goDeeper": [
       {
@@ -66,6 +72,35 @@
         "href": "/medicine-human-physiology/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "A patient has a very low chance of a disease before testing. A screening test for that disease comes back positive. What does a clinician trained in probabilistic reasoning conclude?",
+      "options": [
+        "The patient certainly has the disease and treatment should begin immediately",
+        "Because the pre-test probability was low, the positive result is more likely a false alarm and needs confirmation",
+        "The test result can be ignored entirely",
+        "Screening tests are always correct, so no further thought is needed"
+      ],
+      "correctIndex": 1,
+      "explanation": "When a disease is rare, even an accurate test produces many false positives relative to true positives, so a single positive in a low-risk person usually warrants confirmation rather than immediate action. This is base-rate reasoning."
+    },
+    {
+      "question": "Why is a randomised controlled trial considered stronger evidence than a striking individual case report?",
+      "options": [
+        "It uses more expensive equipment",
+        "It is always faster to run",
+        "Randomly assigning treatment cancels out hidden biases, so the result is less likely to mislead",
+        "It is run by more famous doctors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Randomisation distributes unknown confounding factors evenly between groups, which is why an RCT (ideally double-blind and placebo-controlled) sits near the top of the evidence hierarchy while a single anecdote sits near the bottom."
+    }
+  ],
+  "perspectives": {
+    "gp": "I rarely have certainty, and I do not need it. My job is to estimate how likely each cause is from the history and the patient in front of me, rule out the dangerous ones first, and decide whether a test will actually change what I do next. A normal-looking number in a sick patient still worries me more than a slightly odd number in a well one.",
+    "specialistPhysician": "I think in organ systems and control loops. When the referral says 'abnormal thyroid result', I am asking which feedback loop has drifted, what the set point should be, and whether the body is compensating or failing. The number is a clue about a system, never the diagnosis by itself.",
+    "epidemiologist": "I apply the same reasoning a clinician uses on one patient, but to whole populations. Base rates, confounders, and the strength of the evidence are everything. A randomised controlled trial tells me a treatment causes an effect; a striking anecdote tells me almost nothing, because people recover for many reasons, including the placebo effect."
   },
   "order": 2
 }

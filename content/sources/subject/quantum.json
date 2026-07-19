@@ -1,0 +1,93 @@
+{
+  "slug": "quantum",
+  "kind": "subject",
+  "title": "Quantum Truth Stack",
+  "summary": "Quantum science studies the behaviour of matter and information at the smallest scales, where probability and superposition replace classical intuition.",
+  "starterPack": [
+    "Start with NIST and IBM Quantum.",
+    "Read Preskill and Aaronson for clear interpretation.",
+    "Use Quanta and Nature Quantum Information for context."
+  ],
+  "tiers": [
+    {
+      "slug": "first-principles",
+      "title": "First Principles",
+      "description": "Core ideas that make quantum theory coherent.",
+      "items": [
+        { "name": "Superposition", "kind": "principle", "description": "Systems can exist in combinations of states before measurement." },
+        { "name": "Measurement changes the system", "kind": "principle", "description": "Observation is not passive at quantum scale." },
+        { "name": "Probability amplitudes", "kind": "principle", "description": "The theory predicts likelihoods, not just outcomes." }
+      ]
+    },
+    {
+      "slug": "primary-authorities",
+      "title": "Primary Authorities",
+      "description": "The core research and standards sources.",
+      "items": [
+        { "name": "NIST Quantum Information", "kind": "institution", "description": "Measurement, standards, and applied quantum information.", "link": "https://www.nist.gov/programs-projects/quantum-information-science" },
+        { "name": "IBM Quantum", "kind": "institution", "description": "Major platform for quantum research and access.", "link": "https://www.ibm.com/quantum" },
+        { "name": "Quantum.gov", "kind": "institution", "description": "US federal quantum science coordination.", "link": "https://www.quantum.gov/" }
+      ]
+    },
+    {
+      "slug": "mature-interpreters",
+      "title": "Mature Interpreters",
+      "description": "Researchers and teachers who translate the field well.",
+      "items": [
+        { "name": "John Preskill", "kind": "person", "description": "Foundational quantum computing thinker.", "link": "https://theory.caltech.edu/~preskill/" },
+        { "name": "Scott Aaronson", "kind": "person", "description": "Clear quantum information and complexity commentary.", "link": "https://scottaaronson.blog/" },
+        { "name": "David Deutsch", "kind": "person", "description": "Pioneering quantum computing and explanation theory.", "link": "https://www.daviddeutsch.org.uk/" }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "description": "The people building and using quantum systems.",
+      "items": [
+        { "name": "Quantum engineers", "kind": "person", "description": "Build hardware and control systems.", "link": "https://research.ibm.com/quantum-computing" },
+        { "name": "Quantum software developers", "kind": "person", "description": "Write algorithms and tooling for quantum machines.", "link": "https://qiskit.org/" },
+        { "name": "Experimental physicists", "kind": "person", "description": "Turn theory into lab systems.", "link": "https://quantum.gov/" }
+      ]
+    },
+    {
+      "slug": "institutions",
+      "title": "Institutions",
+      "description": "The places where quantum science is concentrated.",
+      "items": [
+        { "name": "IBM Quantum", "kind": "institution", "description": "Major research and platform ecosystem.", "link": "https://www.ibm.com/quantum" },
+        { "name": "NIST", "kind": "institution", "description": "Standards and benchmarking for quantum systems.", "link": "https://www.nist.gov/" },
+        { "name": "University quantum labs", "kind": "institution", "description": "The main incubators of the field.", "link": "https://quantum.gov/" }
+      ]
+    },
+    {
+      "slug": "media-publications",
+      "title": "Media and Publications",
+      "description": "Publications that keep the field understandable.",
+      "items": [
+        { "name": "Quanta Magazine", "kind": "publication", "description": "Careful popular explanation of quantum topics.", "link": "https://www.quantamagazine.org/" },
+        { "name": "Nature Quantum Information", "kind": "journal", "description": "Leading journal coverage.", "link": "https://www.nature.com/natquantuminfo/" },
+        { "name": "APS Physics", "kind": "publication", "description": "Accessible research summaries.", "link": "https://physics.aps.org/" }
+      ]
+    },
+    {
+      "slug": "channels-documentaries",
+      "title": "Channels and Documentaries",
+      "description": "Video sources that help build intuition.",
+      "items": [
+        { "name": "PBS Space Time", "kind": "channel", "description": "Strong conceptual background for quantum ideas.", "link": "https://www.youtube.com/@pbsspacetime" },
+        { "name": "IBM Research", "kind": "channel", "description": "Quantum computing demos and research talks.", "link": "https://www.youtube.com/@IBMResearch" },
+        { "name": "Veritasium", "kind": "channel", "description": "Good for intuition and demonstrations.", "link": "https://www.youtube.com/@veritasium" }
+      ]
+    },
+    {
+      "slug": "frontier-watchlist",
+      "title": "Frontier Watchlist",
+      "description": "Quantum problems still being worked out.",
+      "items": [
+        { "name": "Error correction", "kind": "dataset", "description": "Fault tolerance and reliable logical qubits." },
+        { "name": "Quantum networking", "kind": "tool", "description": "Communication and entanglement distribution." },
+        { "name": "Quantum sensing", "kind": "tool", "description": "Measurement at extreme precision." }
+      ]
+    }
+  ]
+}

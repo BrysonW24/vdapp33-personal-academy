@@ -1,7 +1,7 @@
 {
   "slug": "meddic-simplified",
   "name": "MEDDIC (Simplified)",
-  "summary": "An enterprise qualification framework simplified for founders: Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion.",
+  "summary": "An enterprise qualification framework simplified for owners: Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion.",
   "whenToUseIt": "For larger deals ($10K+) where multiple stakeholders are involved and the buying process is complex.",
   "steps": ["Metrics — What measurable outcome does the buyer care about?", "Economic Buyer — Who has the budget authority to say yes?", "Decision Criteria — What factors will they use to choose a solution?", "Decision Process — What steps do they go through to make a purchase?", "Identify Pain — What is the specific, quantifiable pain driving action?", "Champion — Who inside the organisation is advocating for your solution?"],
   "example": "A founder selling to a mid-market company identifies: the CFO cares about reducing manual reporting by 80% (Metrics), the VP Ops has budget (Economic Buyer), they need SOC2 compliance and API access (Decision Criteria), they have a 3-stage evaluation process (Decision Process), they spend 20 hours/week on manual work (Pain), and the Ops Manager is championing internally (Champion).",

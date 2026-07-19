@@ -1,0 +1,128 @@
+{
+  "slug": "energy",
+  "kind": "topic",
+  "title": "Energy Signals",
+  "summary": "Energy is the signal layer for the infrastructure that powers civilization. It connects physics, engineering, policy, finance, and geopolitics through the question of how power is generated, stored, moved, and paid for.",
+  "sections": [
+    {
+      "slug": "major-developments",
+      "title": "Major Developments",
+      "items": [
+        {
+          "name": "Solar and wind continue to scale",
+          "summary": "Utility-scale renewable generation is expanding because the economics and deployment speed remain attractive.",
+          "whyItMatters": "The energy system is now being rebuilt around cheaper low-carbon generation.",
+          "entities": ["physics", "aerospace", "Vestas"]
+        },
+        {
+          "name": "Storage is becoming more strategic",
+          "summary": "Battery systems and grid flexibility are increasingly essential to balancing intermittent supply.",
+          "whyItMatters": "Storage is the missing bridge between generation and reliability.",
+          "entities": ["Tesla Energy", "CATL", "systems-engineering"]
+        },
+        {
+          "name": "Nuclear is back in policy discussion",
+          "summary": "Fission, small modular reactors, and long-duration baseload questions have returned to the mainstream.",
+          "whyItMatters": "The low-carbon debate is now broader than renewables alone.",
+          "entities": ["physics", "materials-science", "quantum"]
+        }
+      ]
+    },
+    {
+      "slug": "important-companies",
+      "title": "Important Companies",
+      "items": [
+        {
+          "name": "Tesla Energy",
+          "summary": "A visible brand in storage, battery systems, and energy products.",
+          "whyItMatters": "It is a major reference point for distributed storage and electrification.",
+          "entities": ["energy", "investing"]
+        },
+        {
+          "name": "Vestas",
+          "summary": "A global leader in wind turbines and wind infrastructure.",
+          "whyItMatters": "It captures how wind power has become industrial scale infrastructure.",
+          "entities": ["energy", "mechanical-engineering"]
+        },
+        {
+          "name": "Siemens Energy",
+          "summary": "Important in turbines, grid systems, and energy transition hardware.",
+          "whyItMatters": "It shows how legacy industrial firms are being reshaped by the transition.",
+          "entities": ["energy", "electrical-engineering"]
+        }
+      ]
+    },
+    {
+      "slug": "important-institutions",
+      "title": "Important Institutions",
+      "items": [
+        {
+          "name": "International Energy Agency",
+          "summary": "A primary global source for energy system analysis.",
+          "whyItMatters": "It is one of the clearest sources for understanding the energy system as a whole.",
+          "entities": ["energy", "economics"]
+        },
+        {
+          "name": "ARENA",
+          "summary": "An important Australian institution for renewable energy deployment.",
+          "whyItMatters": "It is central to the Australian transition conversation.",
+          "entities": ["energy", "politics"]
+        },
+        {
+          "name": "Australian Energy Market Operator",
+          "summary": "Critical for understanding grid behaviour and transition constraints in Australia.",
+          "whyItMatters": "It is the operational signal for how the grid actually behaves.",
+          "entities": ["energy", "public-administration"]
+        }
+      ]
+    },
+    {
+      "slug": "notable-people",
+      "title": "Notable People",
+      "items": [
+        {
+          "name": "Vaclav Smil",
+          "summary": "A leading thinker on energy transitions and the scale of civilization.",
+          "whyItMatters": "He keeps energy conversations grounded in material reality.",
+          "entities": ["energy", "world-history"]
+        },
+        {
+          "name": "Amory Lovins",
+          "summary": "A major voice in efficiency and energy system design.",
+          "whyItMatters": "He is a classic reference for thinking about less waste, not just more supply.",
+          "entities": ["energy", "philosophy"]
+        },
+        {
+          "name": "Mark Jacobson",
+          "summary": "A prominent advocate for renewable system pathways.",
+          "whyItMatters": "He is a useful signal for the all-renewables end of the debate.",
+          "entities": ["energy", "physics"]
+        }
+      ]
+    },
+    {
+      "slug": "active-debates",
+      "title": "Active Debates",
+      "items": [
+        {
+          "name": "What is the best path to decarbonisation?",
+          "summary": "Debate continues over the right mix of renewables, storage, transmission, nuclear, and demand management.",
+          "whyItMatters": "This is the core infrastructure question of the century.",
+          "entities": ["energy", "politics"]
+        },
+        {
+          "name": "Where does hydrogen make sense?",
+          "summary": "There is broad agreement that not every use case deserves hydrogen.",
+          "whyItMatters": "Good energy strategy needs selective application, not slogan-driven adoption.",
+          "entities": ["energy", "chemistry"]
+        },
+        {
+          "name": "How valuable is nuclear in a transition?",
+          "summary": "Opinions diverge on cost, timing, safety, and political feasibility.",
+          "whyItMatters": "The debate shapes capital allocation and long-range planning.",
+          "entities": ["energy", "law"]
+        }
+      ]
+    }
+  ]
+}

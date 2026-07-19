@@ -2,63 +2,70 @@
   "slug": "cosmology-career-reality",
   "moduleSlug": "working-in-cosmology",
   "title": "Working in Cosmology",
-  "objective": "Build an immediate working picture of cosmology.",
-  "beginnerExplanation": "Cosmology is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Cosmology is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "objective": "Understand what cosmologists actually do for a living, the three working archetypes (observational, theoretical, computational), and the honest career pipeline - including why the field is mostly academic, heavily computational, and how its skills transfer well beyond it.",
+  "beginnerExplanation": "Cosmology is the study of the universe as a whole - its age (about 13.8 billion years), its composition, and how it got from the hot, dense early state revealed by the cosmic microwave background to the galaxies we see today. But who pays someone to study that? Almost nobody in the private sector buys 'a measurement of dark energy'. So cosmology is largely a research field. The work happens at universities, national observatories, and space agencies like NASA and the European Space Agency (ESA). A working cosmologist spends very little time looking through an eyepiece. Most days are spent writing code, reducing data from instruments like the Planck satellite or the James Webb Space Telescope (JWST), running statistical analyses, and writing papers. Edwin Hubble in 1929 needed years of careful photographic plates to show galaxies recede faster the farther away they are; a modern cosmologist might process millions of galaxy spectra from a survey in an afternoon. The romance is real - you are genuinely asking what the universe is made of - but the daily craft is patient, computational, and collaborative.",
+  "deeperExplanation": "There are three honest archetypes of working cosmologist, and most careers blend them.\n\nThe observational cosmologist designs instruments, wins competitive telescope time, and turns raw photons into measurements. This is the lineage of Arno Penzias and Robert Wilson, who in 1965 found the cosmic microwave background as unexplained radio static (they first suspected pigeon droppings in their antenna) and shared the 1978 Nobel Prize. Today an observer might work on the Vera C. Rubin Observatory's LSST survey, the DESI spectroscopic survey, or ESA's Euclid mission - all mapping large-scale structure to pin down dark energy.\n\nThe theoretical cosmologist works with general relativity and builds models: of cosmic inflation, of dark energy, of how structure grew from tiny density ripples. Vera Rubin and Kent Ford in the 1970s measured galaxy rotation curves and found galaxies spin too fast for their visible mass - powerful evidence for dark matter, whose nature is still genuinely unknown. The standard model that ties it together is Lambda-CDM (cold dark matter plus a cosmological constant), where the universe is about 68% dark energy, 27% dark matter, and only 5% ordinary atoms.\n\nThe computational cosmologist runs enormous N-body simulations on supercomputers - tracking billions of particles to grow a virtual universe and compare it to the real one. The Millennium Simulation and IllustrisTNG are landmark examples.\n\nThe honest career nuance: the pipeline from PhD to a permanent faculty post is long (often a decade-plus through multiple postdocs) and permanent positions are scarce. But the actual skills - large-scale data reduction, statistical inference, Bayesian methods, scientific Python, simulation - transfer strongly into data science and machine learning, where many cosmology PhDs end up by choice. This is not a high-paying private-sector field; it is a calling that happens to build extremely portable technical skills.",
   "keyTakeaways": [
-    "Cosmology has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "Cosmology is mostly a research field - universities, national observatories, and space agencies (NASA, ESA), not a large private job market",
+    "The daily work is computational and data-driven: coding, data reduction, statistics, and writing papers - not staring through eyepieces",
+    "Three working archetypes: observational (instruments, surveys, telescope time), theoretical (general relativity, models of inflation and dark energy), computational (huge N-body simulations on supercomputers)",
+    "The PhD-to-faculty pipeline is long and permanent posts are scarce - be honest about this",
+    "The skills transfer powerfully to data science and machine learning, which is where many cosmology PhDs end up"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use cosmology to compare one real system, one institutional example, and one frontier question.",
+  "example": "Trace one real measurement through all three roles. The Planck satellite (an ESA mission) mapped the cosmic microwave background - the light released about 380,000 years after the Big Bang, at redshift z about 1100, now cooled to just 2.725 K and uniform to roughly 1 part in 100,000. Observational cosmologists built and calibrated Planck's detectors and produced the temperature map. Theoretical cosmologists wrote the Lambda-CDM equations that predict the precise pattern of hot and cold spots from sound waves in the early plasma. Computational cosmologists fit that model to the data, extracting the energy budget (about 68% dark energy, 27% dark matter, 5% ordinary matter) and a Hubble constant of about 67 km/s/Mpc. One number, three crafts - and a live controversy, because the local distance-ladder method (Cepheids plus Type Ia supernovae) gives about 73 km/s/Mpc. That roughly 67 vs 73 disagreement is the Hubble tension, and it is real and unexplained.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Imagining cosmologists spend their nights peering through giant telescopes - in reality most days are spent writing code and reducing survey data, often never visiting an observatory",
+    "Assuming there is a large private-sector job market for cosmology - it is overwhelmingly academic, funded by governments and space agencies, with scarce permanent posts",
+    "Treating the three archetypes (observational, theoretical, computational) as rival camps rather than collaborators - a single result like the Planck energy budget needs all three",
+    "Believing the textbook is settled - the nature of dark matter and dark energy is genuinely unknown, and the Hubble tension between roughly 67 and 73 km/s/Mpc is an open, debated problem a working cosmologist might spend a career on"
   ],
-  "exercise": "Write a short map of how cosmology connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick one real instrument or mission - Planck, JWST, the Vera C. Rubin Observatory (LSST), DESI, Euclid, or LIGO - and map which of the three archetypes (observational, theoretical, computational) is most involved in it and why. Then write one sentence on which everyday technical skill you would build working on it (for example, scientific Python, statistical inference, or large-scale data pipelines) that would transfer to a data-science role.",
   "teaching": {
     "mentalModel": {
-      "title": "Cosmology as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "Three crafts, one universe",
+      "summary": "A cosmology career is best understood not as one job but as three overlapping crafts - observe, theorise, simulate - that pass the same questions back and forth. Pick the craft that fits how you like to think, and know that all three are funded the same way: public research money, not private product sales.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "Observe: turn photons into measurements (instruments, surveys, telescope time)",
+        "Theorise: turn general relativity into testable models (inflation, dark energy, structure growth)",
+        "Simulate: turn equations into virtual universes (N-body runs on supercomputers)",
+        "Fund: governments, national observatories, and space agencies - not the private sector"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "How a cosmology result actually gets made",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "A question is posed in the language of models - for example, how fast is the universe expanding, or what fraction is dark matter",
+        "Observers win competitive time on an instrument (Planck, JWST, Rubin/LSST, DESI, Euclid) and produce calibrated data",
+        "Computational cosmologists reduce that raw data and run simulations to predict what the data should look like under a given model",
+        "Theorists compare prediction to measurement, refine the model, and flag where the standard Lambda-CDM picture strains (such as the Hubble tension)",
+        "The result is written up, peer-reviewed, and folded into the shared picture - then the next, sharper question begins"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "You work on genuinely fundamental questions - the age, composition, and fate of the universe",
+      "The technical skills (scientific computing, statistical inference, simulation) are among the most portable in science"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "The PhD-to-permanent-faculty pipeline is long (often a decade-plus through multiple postdocs) and permanent posts are scarce",
+      "It is not a high-paying private-sector field - it is publicly funded research, so compensation and job security lag industry data-science roles"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter cosmology analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: who built the discovery that the universe is speeding up",
+    "workedExample": "In 1998 two competing teams measured distant Type Ia supernovae - reliable 'standard candles' whose brightness reveals their distance. They expected gravity to be slowing cosmic expansion down. Instead the supernovae were fainter, hence farther, than a decelerating universe allowed: the expansion is accelerating. Saul Perlmutter, Brian Schmidt, and Adam Riess shared the 2011 Nobel Prize for this. Now look at the careers behind that single sentence. Observational cosmologists ran the supernova searches and photometry across many telescopes. Computational cosmologists built the pipelines that separated genuine supernovae from noise and fit the brightness-distance curves. Theoretical cosmologists interpreted the result by reviving the cosmological constant - now called dark energy, which makes up about 68% of the universe and whose nature remains genuinely unknown. The lesson for a career: a Nobel-level finding is not one heroic observer at a telescope; it is years of patient, collaborative, computational craft across all three archetypes.",
     "realWorldApplications": [
-      "Real decisions shaped by cosmology",
-      "Cross-disciplinary projects and institutions"
+      "Mapping dark energy and large-scale structure via survey missions (Vera C. Rubin Observatory/LSST, DESI, ESA's Euclid)",
+      "Reading the early universe from the cosmic microwave background (COBE, WMAP, Planck) and from the first galaxies (Hubble Space Telescope, JWST)",
+      "Detecting gravitational waves from merging black holes and neutron stars (LIGO), opening a non-light window on the cosmos",
+      "Transferring cosmology's data and modelling skills into industry data science and machine-learning roles - a common and respectable exit"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Observational cosmologists - instrument scientists and survey astronomers who win telescope time and calibrate detectors",
+      "Theoretical cosmologists - general-relativity and early-universe theorists modelling inflation, dark energy, and structure formation",
+      "Computational cosmologists - simulation specialists running N-body codes (Millennium, IllustrisTNG) on supercomputers",
+      "Data engineers and statisticians who build the survey pipelines, plus the science communicators and educators who carry the results to the public"
     ],
     "goDeeper": [
       {
@@ -66,6 +73,35 @@
         "href": "/cosmology/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "Which best describes the typical daily work of a modern cosmologist?",
+      "options": [
+        "Spending most nights observing through a large telescope by eye",
+        "Writing code, reducing data from instruments like Planck or JWST, and running statistical analyses",
+        "Building commercial products for a large private-sector industry",
+        "Performing hands-on laboratory chemistry experiments"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cosmology is heavily computational and data-driven. Even observers spend most of their time coding, reducing survey data, running statistics, and writing papers - rarely looking through an eyepiece. It is a publicly funded research field, not a large private industry."
+    },
+    {
+      "question": "The Hubble constant is measured at about 67 km/s/Mpc from the cosmic microwave background (Planck) but about 73 km/s/Mpc from the local distance ladder. What is the honest status of this disagreement?",
+      "options": [
+        "It was resolved long ago; the two methods now agree",
+        "It is a measurement error that everyone agrees should be ignored",
+        "It is the Hubble tension - a real, unresolved, and actively debated discrepancy",
+        "It proves the universe is not expanding at all"
+      ],
+      "correctIndex": 2,
+      "explanation": "The roughly 67 versus 73 km/s/Mpc gap is the Hubble tension. It is a genuine, unexplained disagreement between the early-universe (CMB) and local-distance-ladder methods, and resolving it is one of the open problems a working cosmologist might pursue for years."
+    }
+  ],
+  "perspectives": {
+    "observational-cosmologist": "My calendar is ruled by proposals and pipelines, not eyepieces. I write a case for time on Rubin or Euclid, and if the committee says yes I spend months calibrating detectors and chasing systematics in the data. When Penzias and Wilson first heard the cosmic microwave background as static in 1965, they spent ages ruling out noise - even pigeon droppings in the antenna. That paranoia about systematics is the job. A clean measurement that survives every check is worth more than a flashy one that does not.",
+    "theoretical-cosmologist": "I work mostly with general relativity, pen, and a laptop, asking which model the data actually demands. Lambda-CDM fits beautifully - 68% dark energy, 27% dark matter, 5% atoms - yet I cannot tell you what dark energy or dark matter actually are, and I am honest about that. The Hubble tension, that stubborn 67-versus-73 gap, keeps me up at night: it might be a measurement subtlety, or it might be the crack where new physics gets in. I would rather sit with the open question than paper over it.",
+    "educator": "My job is to convey both the wonder and the honesty. I can tell a room that the observable universe is about 93 billion light-years across even though it is only 13.8 billion years old, because space itself expanded - and watch the idea land. But I also teach the unfinished parts: that most of the universe is dark and unidentified, that the night sky is dark because the universe has a finite age (Olbers' paradox), and that even your phone's GPS proves relativity by correcting about 38 microseconds a day. Cosmology is most inspiring when it is told accurately, contested edges and all."
   },
   "order": 4
 }

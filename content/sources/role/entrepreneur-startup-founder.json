@@ -62,7 +62,7 @@
     {
       "slug": "media-publications",
       "title": "Media and Publications",
-      "description": "Strong public writing for founders and operators.",
+      "description": "Strong public writing for owners and operators.",
       "items": [
         { "name": "First Round Review", "kind": "publication", "description": "Deep founder and operator lessons.", "link": "https://review.firstround.com/" },
         { "name": "a16z", "kind": "publication", "description": "Startup, product, and market commentary.", "link": "https://a16z.com/" },
@@ -72,7 +72,7 @@
     {
       "slug": "channels-documentaries",
       "title": "Channels and Documentaries",
-      "description": "Useful video and talk sources for founders.",
+      "description": "Useful video and talk sources for owners.",
       "items": [
         { "name": "Y Combinator", "kind": "channel", "description": "Founder talks and startup school content.", "link": "https://www.youtube.com/@ycombinator" },
         { "name": "a16z", "kind": "channel", "description": "Company building and market talks.", "link": "https://www.youtube.com/@a16z" },
@@ -82,7 +82,7 @@
     {
       "slug": "frontier-watchlist",
       "title": "Frontier Watchlist",
-      "description": "What is changing for founders now.",
+      "description": "What is changing for owners now.",
       "items": [
         { "name": "AI-native companies", "kind": "company", "description": "Products built around AI as a core capability." },
         { "name": "Capital efficiency", "kind": "tool", "description": "New funding and operating models.", "link": "https://www.startupschool.org/" },

@@ -2,63 +2,70 @@
   "slug": "cosmology-where-it-shows-up",
   "moduleSlug": "cosmology-applications",
   "title": "Cosmology in the World",
-  "objective": "Build an immediate working picture of cosmology.",
-  "beginnerExplanation": "Cosmology is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Cosmology is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "objective": "See the concrete, everyday places cosmology touches real life - the relativity corrections inside your phone's GPS, the Big Bang afterglow flickering on old analogue TVs, and the stellar origin of the atoms in your body - and connect them to the missions that measured it all.",
+  "beginnerExplanation": "Cosmology can feel like the most remote science there is - galaxies billions of light-years away, the first moments after the Big Bang. But its fingerprints are everywhere in ordinary life, often hidden in plain sight. The satellite navigation in your phone only works because engineers correct for Einstein's relativity: clocks on GPS satellites tick faster than clocks on the ground, and if that were ignored, your map position would drift by roughly 10 kilometres every single day. Tune an old analogue television to a dead channel and a few percent of the snowy static you see is the cosmic microwave background - the faint afterglow of the Big Bang, arriving from every direction in the sky. And the atoms in your hand were not made on Earth: the hydrogen was forged minutes after the Big Bang, and every heavier element - the carbon in your cells, the iron in your blood, the calcium in your bones - was cooked inside stars and scattered by exploding supernovae. We really are, quite literally, made of stardust.",
+  "deeperExplanation": "Cosmology is the study of the universe as a whole - its origin, large-scale structure, and fate - but it constantly cashes out into measurable, practical effects. Take GPS. Each satellite carries an atomic clock, and two relativistic effects pull on it. Special relativity says a fast-moving clock runs slow (the satellites orbit at about 14,000 km/h, costing roughly 7 microseconds per day). General relativity says a clock higher in a weaker gravitational field runs fast (gaining about 45 microseconds per day). The net effect is around +38 microseconds per day. Light travels about 30 centimetres per nanosecond, so 38 microseconds of uncorrected timing error becomes a positioning error of about 10 kilometres per day. Your phone applies this correction automatically - it is a daily, working proof that spacetime curves, exactly as Einstein predicted in 1915.\n\nThen there is the cosmic microwave background (CMB), the most important single observation in cosmology. About 380,000 years after the Big Bang, at a redshift of roughly z = 1100, the universe cooled to about 3000 K - cool enough for electrons and protons to combine into neutral hydrogen. Light, no longer scattered by free electrons, streamed freely for the first time. That light has been travelling ever since, stretched by the expansion of space to a temperature of just 2.725 K today, glowing in the microwave band. It is astonishingly uniform - the same temperature everywhere to about 1 part in 100,000 - and those tiny ripples are the seeds of every galaxy. The CMB was discovered by accident in 1965 by Arno Penzias and Robert Wilson, who could not get rid of a persistent radio hiss in their antenna (they even cleaned out pigeon droppings) before realising it came from the whole sky. They won the 1978 Nobel Prize. Later, COBE, WMAP, and the Planck satellite mapped it in exquisite detail, fixing the universe's age at about 13.8 billion years and its energy budget at roughly 5% ordinary matter, 27% dark matter, and 68% dark energy. The honest caveat: we have measured dark matter and dark energy precisely, but we still do not know what either of them actually is.",
   "keyTakeaways": [
-    "Cosmology has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "GPS must correct for both special and general relativity - a net ~38 microseconds/day, or ~10 km/day of positioning error if ignored - making it a daily practical proof of curved spacetime",
+    "A few percent of the static on an untuned analogue TV is the cosmic microwave background, the Big Bang afterglow now cooled to 2.725 K",
+    "Hydrogen and helium were made in the first ~3 minutes (Big Bang nucleosynthesis, ~75% H and ~25% He by mass); heavier elements were forged in stars and supernovae - we are made of stardust",
+    "COBE, WMAP, and Planck mapped the CMB and fixed the age (~13.8 billion years) and energy budget (~5% ordinary matter, ~27% dark matter, ~68% dark energy)",
+    "The night sky is dark (Olbers' paradox) because the universe has a finite age and is expanding, so light from the most distant matter has not reached us or is redshifted away",
+    "We have measured dark matter and dark energy with precision, but their fundamental nature remains genuinely unknown"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use cosmology to compare one real system, one institutional example, and one frontier question.",
+  "example": "How big is the GPS relativity correction, and why does it matter? A GPS satellite orbits at altitude ~20,200 km. General relativity (weaker gravity, higher up) makes its clock gain ~45 microseconds/day; special relativity (orbital speed ~14,000 km/h) makes it lose ~7 microseconds/day. Net: about +38 microseconds/day. Light covers ~30 cm per nanosecond, and 38 microseconds is 38,000 nanoseconds, so the uncorrected error grows by ~38,000 ns x 0.3 m/ns ~ 11 km every day. Without the correction baked into the system, satnav would be useless within hours - so every position fix you get is a quiet confirmation that Einstein was right.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Thinking the CMB is just historical trivia - it is a measurable signal you can partly detect at home on an analogue TV, and it is the dataset that pins down the universe's age and composition",
+    "Believing all the atoms in your body were made in the Big Bang - only hydrogen (and most helium) came from the first three minutes; carbon, oxygen, iron and the rest were forged later in stars and supernovae",
+    "Assuming cosmological redshift is an ordinary Doppler shift from galaxies flying through space - it is space itself stretching, which is why distant galaxies can appear to recede faster than light without breaking relativity",
+    "Treating dark matter and dark energy as 'solved' because we know their percentages - the percentages are well measured, but the underlying physics of both is still an open question"
   ],
-  "exercise": "Write a short map of how cosmology connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick one everyday object near you and trace its atoms back through cosmic history. For example, take the iron in a steel spoon: hydrogen (its lighter cousins began as primordial gas from Big Bang nucleosynthesis ~3 minutes in), then explain that iron specifically is forged in the cores of massive stars and dispersed by supernova explosions, then re-collected into the cloud that formed our Sun and planets ~4.6 billion years ago. Write three sentences linking your object to (1) the Big Bang, (2) a star or supernova, and (3) the formation of Earth.",
   "teaching": {
     "mentalModel": {
-      "title": "Cosmology as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "Cosmology is the science of fingerprints",
+      "summary": "The universe's deep history left physical traces that survive into the present - leftover heat, leftover elements, the dimming of distant light, the slow tick-mismatch of clocks. Cosmology reads those fingerprints. Every abstraction (the Big Bang, expansion, relativity) has a concrete trace you can point to in the everyday world.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "Leftover heat: the 2.725 K CMB, partly visible as TV static",
+        "Leftover elements: ~75% hydrogen, ~25% helium from the first 3 minutes, heavier atoms from stars",
+        "Stretched light: cosmological redshift and the dark night sky (Olbers' paradox)",
+        "Curved spacetime: the ~38 microseconds/day GPS correction"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "From cosmic event to everyday trace",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "An event happens in cosmic history - the Big Bang, recombination at ~380,000 years, element formation in stars, the expansion of space",
+        "It leaves a physical signature: a temperature, an abundance ratio, a redshift, a timing offset",
+        "That signature persists and can be measured today - by a satellite, a telescope, an atomic clock, or even a TV antenna",
+        "Engineers and scientists either use the trace (GPS corrections) or read it as evidence (CMB maps fixing the age and composition of the universe)",
+        "The measurement feeds back into the standard model (Lambda-CDM) and exposes what is still unknown (the nature of dark matter and dark energy)"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Makes a remote-seeming science feel immediate and verifiable - you can point to GPS, TV static, and the atoms in your own body",
+      "Connects cosmology to chemistry (the periodic table), engineering (relativity corrections), and biology (stellar origin of life's elements)"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "Some everyday hooks are partial - only a few percent of analogue TV static is the CMB, and analogue broadcast TV is now rare, so the demonstration is harder than it once was",
+      "The biggest pieces of the budget (dark matter, dark energy) are confirmed by their effects but not understood, so 'cosmology explains everything' overstates the case"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter cosmology analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example - we are made of stardust",
+    "workedExample": "Where did the atoms in a glass of water come from? Water is H2O. The two hydrogen atoms are primordial: about 75% of all ordinary matter by mass is hydrogen forged in Big Bang nucleosynthesis in the first ~3 minutes, when the universe was hot and dense enough for protons and neutrons to fuse (helium made up most of the remaining ~25%, plus trace lithium). But the oxygen atom did not exist then - the early universe made essentially no elements heavier than lithium. Oxygen is fused inside stars and blasted into space by supernovae over hundreds of millions to billions of years. Those enriched clouds later collapsed to form new stars and planets, including our Sun and Earth ~4.6 billion years ago. So a single water molecule contains hydrogen that is ~13.8 billion years old and oxygen that was cooked in a long-dead star - a literal record of cosmic history in your glass.",
     "realWorldApplications": [
-      "Real decisions shaped by cosmology",
-      "Cross-disciplinary projects and institutions"
+      "Satellite navigation (GPS, Galileo, GLONASS) applies general + special relativity corrections every day or positions drift ~10 km/day",
+      "The origin of the periodic table: chemistry and materials science trace element abundances back to Big Bang nucleosynthesis and stellar/supernova fusion",
+      "Atomic-clock timing networks that synchronise finance, telecoms, and power grids rely on the same relativistic spacetime model cosmology tests at large scales",
+      "Detecting the Big Bang afterglow at home: a few percent of analogue TV static is genuine cosmic microwave background radiation"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Observational cosmologists running CMB missions (COBE, WMAP, Planck) and dark-energy surveys (Vera C. Rubin Observatory/LSST, DESI, Euclid)",
+      "Astrophysicists and nuclear physicists modelling stellar nucleosynthesis - how stars and supernovae build the periodic table",
+      "Aerospace and geodesy engineers who bake relativity corrections into satellite navigation and precision timing systems"
     ],
     "goDeeper": [
       {
@@ -66,6 +73,35 @@
         "href": "/cosmology/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "Why must GPS satellites apply a relativity correction of about 38 microseconds per day?",
+      "options": [
+        "To compensate for the bending of radio waves by Earth's atmosphere",
+        "Because their atomic clocks run at a different rate due to special and general relativity, and uncorrected timing would cause ~10 km/day of positioning error",
+        "To account for the gravitational pull of the Moon on the satellites",
+        "Because the satellites slowly lose battery power and their clocks drift"
+      ],
+      "correctIndex": 1,
+      "explanation": "Special relativity slows the fast-orbiting clocks (~-7 us/day) and general relativity speeds the high-altitude clocks (~+45 us/day), netting about +38 us/day. Light travels ~30 cm/ns, so ignoring this would build up roughly 10 km of error daily - making GPS a practical, everyday proof of relativistic spacetime."
+    },
+    {
+      "question": "Where did the carbon and oxygen atoms in your body originally come from?",
+      "options": [
+        "They were all created in the first three minutes of the Big Bang",
+        "They formed on Earth from chemical reactions in the early oceans",
+        "They were forged inside stars and scattered by supernovae, then collected into the cloud that formed the Sun and Earth",
+        "They arrived from interstellar dust without ever being inside a star"
+      ],
+      "correctIndex": 2,
+      "explanation": "Big Bang nucleosynthesis made only the lightest elements (~75% hydrogen, ~25% helium, trace lithium). Heavier elements like carbon and oxygen are fused in stellar cores and dispersed by supernova explosions, which is the literal sense in which we are made of stardust."
+    }
+  ],
+  "perspectives": {
+    "observational-cosmologist": "I spend my career measuring faint signals that survived from the early universe. The CMB at 2.725 K, uniform to 1 part in 100,000, is the cleanest dataset we have - Planck used it to fix the age at 13.8 billion years and the 5/27/68 split of ordinary matter, dark matter, and dark energy. But I have to be honest about what 'measured' means: I can map dark matter through gravitational lensing and the Bullet Cluster, yet I still cannot tell you what particle it is. The numbers are solid; the explanation is not.",
+    "theoretical-cosmologist": "I work in the Lambda-CDM model - cold dark matter plus a cosmological constant - and most of the time it fits the data beautifully. What keeps me up at night is the Hubble tension: the expansion rate measured from the CMB comes out near 67 km/s/Mpc, while the local distance ladder using Cepheids and Type Ia supernovae gives about 73. That gap is real and unexplained, and it might be telling us our standard model is incomplete. I treat that not as an embarrassment but as the most exciting open question in the field.",
+    "educator": "The hardest thing to teach is that cosmology is not abstract. So I start with the phone in their pocket: GPS only works because we correct for Einstein's relativity, about 38 microseconds a day. Then I point at the static on an old TV and tell them a few percent of it is the Big Bang. Then I tell them the iron in their blood was forged in an exploding star. Once a student feels that the universe's history is sitting inside their own body and their own devices, the 13.8-billion-year story stops being a fact to memorise and becomes something they can feel."
   },
   "order": 3
 }

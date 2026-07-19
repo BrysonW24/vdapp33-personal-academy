@@ -2,63 +2,75 @@
   "slug": "mathematics-career-reality",
   "moduleSlug": "working-in-mathematics",
   "title": "Working in Mathematics",
-  "objective": "Build an immediate working picture of mathematics.",
-  "beginnerExplanation": "Mathematics is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Mathematics is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "objective": "Get an honest picture of what people who do mathematics actually do for a living, where the jobs really are, and what the path looks like beyond the romantic image of the lone genius at a chalkboard.",
+  "beginnerExplanation": "Most people picture a mathematician as a solitary genius scribbling proofs nobody else understands. The reality is far broader and far more employable. Only a small slice of maths-trained people become research mathematicians proving theorems; the large majority apply mathematical reasoning inside other jobs. A worked example: of the roughly 700-800 PhDs in mathematics awarded each year in the United States, only a minority land permanent academic research posts, and the rest move into industry, finance, data, government, and teaching. The skills transfer because the core training is not a pile of formulas to memorise; it is the ability to take a vague, messy problem, strip it to a clean structure, reason rigorously, and know when an answer is actually proven versus merely plausible. That habit of mind is what a quantitative analyst at a bank, a cryptographer at a security agency, a machine-learning engineer, and an actuary all sell. The chalkboard genius is real but rare; the applied problem-solver is everywhere."
+,
+  "deeperExplanation": "There are roughly three real career lanes, and they look nothing alike day to day.\n\nFirst, academic and research mathematics. This is the lane that produced Andrew Wiles, who spent about seven years working largely in secret to prove Fermat's Last Theorem, finally announcing it in 1993 (a gap was found, and the corrected proof was published in 1994, 358 years after Fermat scribbled his famous note). It is also the lane of Maryam Mirzakhani, who in 2014 became the first woman to win the Fields Medal for work on the geometry of curved surfaces. The honest nuance: this lane is a steep pyramid. Permanent professorships are scarce, the postdoc years are precarious and itinerant, and you typically need a PhD plus several years before a stable position appears, if it appears at all. People who love it describe the reward as solving something no human has ever solved.\n\nSecond, applied and industrial mathematics. This is where most of the money and most of the jobs are. The same number theory that is beautiful for its own sake underpins RSA cryptography, which relies on the practical hardness of factoring the product of two large primes; linear algebra and calculus are the machinery underneath machine learning; the Black-Scholes equation reshaped finance. Roles here include actuary, quantitative analyst ('quant'), data scientist, operations researcher, and cryptographer.\n\nThird, teaching and communication, from secondary school to writing and video. The open truth across all three: a maths degree is one of the most flexible credentials available precisely because the training is transferable, but the romantic research path is the narrowest door, not the widest."
+,
   "keyTakeaways": [
-    "Mathematics has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "Only a minority of maths-trained people become research mathematicians; most apply the reasoning inside finance, data, security, insurance, and tech roles",
+    "The marketable skill is not memorised formulas but the ability to formalise a messy problem and reason rigorously about it",
+    "The academic research lane is a steep pyramid: scarce permanent posts, precarious postdoc years, PhD plus several years before stability",
+    "Number theory pays the rent through RSA cryptography; linear algebra and calculus pay it through machine learning; this is why 'useless' pure maths keeps becoming useful decades later",
+    "Real named roles include actuary, quantitative analyst, data scientist, cryptographer, operations researcher, and educator",
+    "Grigori Perelman solved the Poincare Conjecture and then declined both the US$1M Clay prize and the Fields Medal, a reminder that prestige and money are not why most people do this"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use mathematics to compare one real system, one institutional example, and one frontier question.",
+  "example": "Trace one piece of pure number theory into a paycheque. Euclid proved around 300 BCE that there are infinitely many primes. For two thousand years that was beautiful but commercially useless. Then in 1977 the RSA algorithm turned the difficulty of factoring a large number back into its prime parts into the backbone of secure communication. Today a cryptographer at a security agency or a fintech company is paid precisely because nobody has found a fast classical way to factor, say, a 2048-bit number that is the product of two ~1024-bit primes. The whole job rests on a gap between two facts: multiplying two large primes is trivially fast, while reversing it is, as far as anyone can prove, infeasibly slow. The career exists because the maths is hard and the hardness is bankable.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Believing the only 'real' maths career is becoming a research professor, and treating every other path as settling",
+    "Assuming the field is all lone genius work; modern research and industry maths are heavily collaborative, with many proofs and models built by teams",
+    "Thinking a maths degree narrows your options when it is one of the most transferable credentials, opening finance, data, actuarial, security, and engineering doors",
+    "Confusing being good at school arithmetic with being suited to professional mathematics, which is about proof, abstraction, and structure, not fast calculation"
   ],
-  "exercise": "Write a short map of how mathematics connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick one named career role from this lesson (actuary, quant, data scientist, or cryptographer) and write a short profile: what mathematical area it leans on (e.g. probability, linear algebra, number theory), one real-world decision the role influences, and one honest downside of the job. Then write one sentence on what would make you choose it or rule it out.",
   "teaching": {
     "mentalModel": {
-      "title": "Mathematics as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "The maths-career pyramid, not the genius myth",
+      "summary": "Picture three lanes stacked by how many jobs they hold: a narrow tip of academic research, a broad middle of applied and industrial roles, and a wide base of teaching and communication. The training is the same rigorous habit of mind; the lanes differ only in where that habit is pointed and how scarce the seats are.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "research lane (narrow tip)",
+        "applied and industrial lane (broad middle)",
+        "teaching and communication lane (wide base)",
+        "one transferable skill: formalise, then reason rigorously"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "How a maths career actually forms",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "Build the core: proof, abstraction, and structure, not speed arithmetic; this is the transferable asset every lane buys",
+        "Decide your lane honestly: research means a PhD and precarious postdoc years for a scarce permanent post; applied means industry pays faster and broader",
+        "Match the maths to the role: probability and statistics for actuarial and data work, number theory for cryptography, linear algebra and calculus for machine learning, optimisation for operations research",
+        "Accept the open truth: pure work can sit useless for decades (primes for 2000 years) and then become foundational (RSA), so 'applicable now' is the wrong filter for choosing what to study"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Exceptionally transferable: the same training opens finance, data science, actuarial work, security, and engineering",
+      "Applied roles like actuary and quant are consistently well paid and in steady demand",
+      "The work rewards deep focus and rigorous thinking rather than office politics"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "The academic research path is a steep pyramid with scarce permanent posts and itinerant, precarious postdoc years",
+      "Professional mathematics is mostly slow, patient, often frustrating work, not flashes of genius; Wiles spent about seven years on one proof",
+      "It demands comfort with long stretches of being stuck and not knowing whether a problem is even solvable"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter mathematics analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: two graduates, two lanes",
+    "workedExample": "Two people finish the same maths degree. One stays for a PhD, drawn to research like the lane that produced Maryam Mirzakhani's Fields-Medal work on the geometry of surfaces; she spends years on postdoc contracts in different cities before a permanent post opens, and her reward is proving something genuinely new. The other becomes an actuary, sitting professional exams while working, and within a few years is pricing insurance risk using probability and statistics, with stable pay and clear demand. Neither 'won'. They pointed the same rigorous training at different lanes: one at the narrow tip where the prize is discovery, the other at the broad middle where the prize is steady, well-paid application. The honest lesson is that the field is wide, and only the most visible door, research stardom, is the narrow one.",
     "realWorldApplications": [
-      "Real decisions shaped by mathematics",
-      "Cross-disciplinary projects and institutions"
+      "Actuaries pricing insurance and pension risk using probability and statistics",
+      "Quantitative analysts at banks and hedge funds modelling markets, with Black-Scholes-style maths in the lineage",
+      "Cryptographers securing communications on the hardness of factoring large primes (RSA)",
+      "Machine-learning engineers whose models run on linear algebra and calculus under the hood",
+      "Operations researchers optimising logistics, scheduling, and supply chains"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Research mathematicians and university professors (the narrow academic tip)",
+      "Actuaries, quantitative analysts, and data scientists (the broad applied middle)",
+      "Cryptographers and security researchers in government and industry",
+      "Maths teachers, lecturers, and communicators (the wide teaching base)"
     ],
     "goDeeper": [
       {
@@ -66,6 +78,35 @@
         "href": "/mathematics/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "Which statement best reflects the honest career reality of mathematics?",
+      "options": [
+        "Almost all maths graduates become research professors",
+        "Most maths-trained people apply the reasoning in industry, finance, data, and security roles, while research is the narrowest lane",
+        "A maths degree only qualifies you to teach maths",
+        "Industry maths jobs require no real mathematics, only coding"
+      ],
+      "correctIndex": 1,
+      "explanation": "The research professoriate is a steep, narrow pyramid. The broad reality is applied work: actuaries, quants, data scientists, cryptographers, and operations researchers all sell the same transferable training in formalising and rigorously reasoning about problems."
+    },
+    {
+      "question": "Why does the example of prime numbers and RSA matter for choosing what maths to study?",
+      "options": [
+        "Because primes were always known to be useful for security",
+        "Because it shows pure maths can sit 'useless' for centuries (primes for ~2000 years) and then become foundational (RSA, 1977), so present-day applicability is a poor filter",
+        "Because cryptography no longer uses prime numbers",
+        "Because RSA proved Fermat's Last Theorem"
+      ],
+      "correctIndex": 1,
+      "explanation": "Euclid proved there are infinitely many primes around 300 BCE; it was commercially useless until RSA in 1977 made factoring large primes the backbone of secure communication. Pure work routinely becomes applied decades or centuries later, so 'is it useful now?' is the wrong question."
+    }
+  ],
+  "perspectives": {
+    "academicResearcher": "My work is mostly being stuck. I can spend months on a single lemma that turns out to be false. The payoff is rare and addictive: the moment you prove something true that no human has ever known. But I will be honest about the cost, the years of short postdoc contracts and moving cities chasing a permanent post that may never come.",
+    "quantitativeAnalyst": "I get paid for the same instinct a pure mathematician has, knowing when a model is genuinely justified versus when it just fits the last few months of data. I lean on probability, linear algebra, and stochastic calculus daily. The difference from academia is speed and stakes: my answer trades real money tomorrow morning, so 'good enough and on time' beats 'perfect and late'.",
+    "actuaryAndEducator": "People assume actuarial work is glamorous because it is well paid; it is mostly disciplined probability applied to risk, with professional exams you sit for years. And when I teach, the thing I most want students to unlearn is that maths is fast arithmetic. The professionals I admire are slow, careful, and comfortable not knowing the answer yet."
   },
   "order": 4
 }

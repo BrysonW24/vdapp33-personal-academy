@@ -1,0 +1,12 @@
+{
+  "slug": "energy",
+  "name": "Energy",
+  "kind": "topic",
+  "group": "engineering",
+  "icon": "Zap",
+  "color": "#F59E0B",
+  "tagline": "How humanity generates, stores, transmits, and consumes the power that drives civilisation.",
+  "tier": "flagship",
+  "hasNews": true,
+  "order": 2
+}

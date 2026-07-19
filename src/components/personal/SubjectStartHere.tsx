@@ -138,9 +138,9 @@ export function SubjectStartHere({
       : "Open the blueprint"
 
   return (
-    <div className="container mx-auto px-4 py-10 space-y-8">
-      <section className="grid gap-6 lg:grid-cols-[1.25fr,0.75fr]">
-        <div className="rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] shadow-editorial-soft backdrop-blur-[18px] p-8">
+    <div className="container mx-auto px-4 py-5 space-y-4">
+      <section className="grid gap-3 lg:grid-cols-[1.25fr,0.75fr]">
+        <div className="rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] shadow-editorial-soft backdrop-blur-[18px] p-5">
           <div className="flex items-center gap-2 flex-wrap mb-4">
             <Badge
               className="border-transparent"
@@ -153,14 +153,14 @@ export function SubjectStartHere({
             <Badge variant="outline">{stats.frameworks} frameworks</Badge>
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-5xl font-semibold text-editorial-ink mb-4">
+          <h1 className="font-serif text-2xl sm:text-3xl font-semibold text-editorial-ink mb-2">
             {subject.name}
           </h1>
-          <p className="text-lg text-editorial-muted leading-relaxed max-w-2xl">
+          <p className="text-sm text-editorial-muted leading-relaxed max-w-2xl">
             {subject.tagline}
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-4 flex flex-wrap gap-2">
             <Button asChild>
               <Link href={primaryHref}>
                 {primaryLabel}
@@ -175,14 +175,14 @@ export function SubjectStartHere({
           </div>
         </div>
 
-        <div className="rounded-[28px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.78)] shadow-editorial-soft backdrop-blur-[18px] p-8">
+        <div className="rounded-[18px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,252,247,0.78)] shadow-editorial-soft backdrop-blur-[18px] p-5">
           <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted mb-3">
             Start Here
           </p>
-          <h2 className="font-serif text-2xl font-semibold text-editorial-ink mb-3">
+          <h2 className="font-serif text-xl font-semibold text-editorial-ink mb-2">
             Learn for understanding first
           </h2>
-          <p className="text-editorial-muted leading-relaxed mb-5">
+          <p className="text-sm text-editorial-muted leading-relaxed mb-4">
             Nexus is intentionally learning-first. Use the blueprint to orient
             yourself, lock in the mental models, then branch into processes,
             projects, tools, and real-world context when the subject is ready.
@@ -205,7 +205,7 @@ export function SubjectStartHere({
 
       {visualPrimer ? visualPrimer : null}
 
-      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <section className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
         {sections.map((section) => {
           const Icon = section.icon
           const hasContent =
@@ -215,7 +215,7 @@ export function SubjectStartHere({
             <Link
               key={section.href}
               href={section.href}
-              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] shadow-editorial-soft backdrop-blur-[18px] p-6 hover:shadow-editorial-hover transition-shadow"
+              className="rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] shadow-editorial-soft backdrop-blur-[18px] p-4 hover:shadow-editorial-hover transition-shadow"
             >
               <div className="flex items-center justify-between gap-3 mb-4">
                 <div className="flex items-center gap-2">
@@ -255,11 +255,11 @@ export function SubjectStartHere({
       </section>
 
       {(firstModule || featuredProject || featuredTool) && (
-        <section className="grid gap-4 lg:grid-cols-3">
+        <section className="grid gap-2 lg:grid-cols-3">
           {firstModule && (
             <Link
               href={`/${subject.slug}/modules/${firstModule.slug}`}
-              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-6 shadow-editorial-soft hover:shadow-editorial-hover transition-shadow"
+              className="rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-4 shadow-editorial-soft hover:shadow-editorial-hover transition-shadow"
             >
               <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted mb-2">
                 First Module
@@ -276,7 +276,7 @@ export function SubjectStartHere({
           {featuredProject && (
             <Link
               href={`/${subject.slug}/projects/${featuredProject.slug}`}
-              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-6 shadow-editorial-soft hover:shadow-editorial-hover transition-shadow"
+              className="rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-4 shadow-editorial-soft hover:shadow-editorial-hover transition-shadow"
             >
               <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted mb-2">
                 Applied Project
@@ -293,7 +293,7 @@ export function SubjectStartHere({
           {featuredTool && (
             <Link
               href={`/${subject.slug}/tools/${featuredTool.slug}`}
-              className="rounded-[22px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-6 shadow-editorial-soft hover:shadow-editorial-hover transition-shadow"
+              className="rounded-[16px] border border-[rgba(44,49,59,0.08)] bg-[rgba(255,255,255,0.78)] p-4 shadow-editorial-soft hover:shadow-editorial-hover transition-shadow"
             >
               <p className="text-[10px] uppercase tracking-[0.18em] text-editorial-muted mb-2">
                 Tool Spotlight

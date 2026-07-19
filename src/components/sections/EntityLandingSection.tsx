@@ -32,7 +32,7 @@ export function EntityLandingSection({
 }: EntityLandingSectionProps) {
   return (
     <motion.section
-      className={cn("relative py-10 sm:py-14", className)}
+      className={cn("relative py-5 sm:py-7", className)}
       initial={{ opacity: 0, y: 16 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -47,17 +47,17 @@ export function EntityLandingSection({
     >
       <div className="container mx-auto px-4">
         {/* Section header */}
-        <div className="mb-8 max-w-2xl sm:mb-10">
+        <div className="mb-4 max-w-2xl sm:mb-5">
           {eyebrow ? (
-            <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-editorial-muted">
+            <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.18em] text-editorial-muted">
               {eyebrow}
             </p>
           ) : null}
-          <h2 className="font-serif text-2xl font-semibold text-editorial-ink sm:text-3xl">
+          <h2 className="font-serif text-xl font-semibold text-editorial-ink sm:text-2xl">
             {title}
           </h2>
           {subtitle ? (
-            <p className="mt-3 max-w-xl text-sm leading-relaxed text-editorial-muted sm:text-base">
+            <p className="mt-2 max-w-xl text-sm leading-relaxed text-editorial-muted">
               {subtitle}
             </p>
           ) : null}
@@ -65,7 +65,7 @@ export function EntityLandingSection({
 
         {/* Content area */}
         {columns > 1 ? (
-          <div className={cn("grid gap-5", COLUMN_MAP[columns])}>{children}</div>
+          <div className={cn("grid gap-2 sm:gap-3", COLUMN_MAP[columns])}>{children}</div>
         ) : (
           children
         )}

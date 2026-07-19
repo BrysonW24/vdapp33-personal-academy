@@ -1,64 +1,72 @@
 {
   "slug": "mathematics-thinking",
   "moduleSlug": "mathematics-mental-models",
-  "title": "Mathematics Mental Models",
-  "objective": "Build an immediate working picture of mathematics.",
-  "beginnerExplanation": "Mathematics is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Mathematics is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "title": "How Mathematicians Think",
+  "objective": "Understand the mental moves that define mathematical thinking - proof, abstraction, generalisation, and the hunt for counterexamples - and how they differ from everyday reasoning.",
+  "beginnerExplanation": "Most subjects accept evidence: run an experiment, gather data, build a case. Mathematics demands something stricter - proof. A mathematician will not say a claim is true because it works for the first million cases; they want an argument that forces it to be true for all cases, forever, with no exceptions. The classic example is primes. Euclid asked, around 300 BCE, whether the prime numbers ever run out. Instead of checking bigger and bigger numbers, he reasoned: suppose there were only finitely many primes; multiply them all together and add one. That new number leaves a remainder of one when divided by any prime on your list, so either it is a new prime or it has a prime factor you missed - either way your list was incomplete. So the primes are infinite. That single argument settles infinitely many cases at once. That move - turning 'check forever' into 'prove once' - is the heartbeat of how mathematicians think.",
+  "deeperExplanation": "Mathematical thinking is built from a handful of repeatable mental moves. The first is abstraction: stripping away surface detail to expose shared structure. The number 7 does not care whether you are counting sheep or stars, and a mathematician notices that 'rotating a square by 90 degrees' and 'adding 1 to a clock face' obey the same underlying rules - this is what the field calls a group. Emmy Noether built her career on this kind of structural thinking; her 1915 theorem showed that every symmetry in a physical system corresponds to a conserved quantity, which is why energy conservation and the laws of physics are deeply tied to abstract symmetry.\n\nThe second move is generalisation: solving the specific case, then asking 'what is the most general thing that is still true here?'. The third is the relentless search for counterexamples. A mathematician's instinct on hearing a new claim is not to trust it but to attack it - try to break it with a weird edge case. If it survives, that survival is informative; if it breaks, you have learned the true boundary of the idea.\n\nThe fourth move is proof by contradiction, the engine behind Euclid's primes and many of the field's deepest results. And the field is honest about its own limits in a way few disciplines are. Kurt Goedel's incompleteness theorems, published in 1931, proved that any consistent formal system rich enough to describe ordinary arithmetic must contain true statements it can never prove from within itself. That was a genuine shock - it ended the dream, pursued by Hilbert, of mechanising all of mathematics into one complete provable system. Mathematicians did not hide from that result; they absorbed it. Knowing the difference between what is proven, what is conjectured, and what is provably unprovable is itself a core part of thinking like a mathematician.",
   "keyTakeaways": [
-    "Mathematics has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "Mathematicians do not accept 'it works for every case I checked' - they want a proof that forces the claim to hold for all cases",
+    "Abstraction means seeing shared structure beneath different surfaces, like a clock and a rotating square both being 'groups'",
+    "The instinct on hearing a claim is to attack it with a counterexample; surviving the attack is what builds confidence",
+    "Proof by contradiction (assume the opposite, derive an absurdity) is one of the field's most powerful engines - it is how Euclid proved primes are infinite",
+    "Goedel's incompleteness theorems (1931) proved that any system strong enough for arithmetic contains true statements it cannot prove - mathematics is honest about its own limits",
+    "Thinking mathematically means always knowing which category a statement is in: proven, conjectured, or provably unprovable"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use mathematics to compare one real system, one institutional example, and one frontier question.",
+  "example": "Watch abstraction in action. A clock face has 12 hours; 9 o'clock plus 5 hours lands on 2 o'clock, not 14 - the numbers 'wrap around'. Now take the symmetries of a square: rotate it by 90, 180, 270, or 360 degrees and it looks identical. Both systems share the same hidden rule - combine two moves and you get a third move that is still inside the set, there is a 'do nothing' move, and every move can be undone. A mathematician sees past clocks and squares to the shared object underneath, called a cyclic group. Once you prove something about the abstract group, it is automatically true for the clock, the square, and any other system with that structure - clock arithmetic, by the way, is exactly what keeps RSA encryption working when you buy something online.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Believing a pattern that holds for many examples is therefore proven - Fermat's Last Theorem looked true for 358 years (conjectured 1637) before Andrew Wiles actually proved it in 1994",
+    "Confusing 'I cannot find a counterexample' with 'there is no counterexample' - absence of a counterexample is not a proof",
+    "Treating a conjecture as a fact; the Riemann Hypothesis is used as a stepping stone in many papers but remains unproven and carries a US$1M Clay prize",
+    "Thinking maths is about calculation speed rather than structure and argument - arithmetic is to mathematics what spelling is to writing a novel"
   ],
-  "exercise": "Write a short map of how mathematics connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick a claim that feels obviously true, for example 'the sum of any two even numbers is even'. First, test it on five examples. Then do the real work: write a one-line proof that forces it to be true for ALL even numbers (hint: write an even number as 2 times some whole number). Notice the difference in your confidence between 'checked five cases' and 'proved it'. Then try to find a counterexample to a false-sounding claim - 'every odd number is prime' - and explain how the single counterexample 9 kills the whole claim.",
   "teaching": {
     "mentalModel": {
-      "title": "Mathematics as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "Proof, not evidence",
+      "summary": "Where other fields gather evidence and update beliefs, a mathematician converts an infinite checking task into a finite watertight argument. The core moves are abstraction (find the shared structure), generalisation (push the result as far as it will go), counterexample-hunting (try to break the claim), and proof by contradiction (assume the opposite and force an absurdity).",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "proof over examples",
+        "abstraction to shared structure",
+        "attack with counterexamples",
+        "proof by contradiction"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "The moves of a mathematical argument",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "State the claim precisely - vague claims cannot be proved or disproved, so pin down exactly what 'all', 'some', and the objects mean",
+        "Try to break it first - hunt for a counterexample on weird edge cases (zero, infinity, the empty set) before you trust it",
+        "If it survives, find the structure - strip away surface detail and ask what general object the problem really lives in",
+        "Build the proof - chain agreed axioms and prior theorems by pure logic, often assuming the opposite and deriving a contradiction",
+        "Generalise - once proven, ask what is the most general version of the statement that the same argument still establishes"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "A single proof settles infinitely many cases at once and stays true forever - no future data can overturn it",
+      "Abstraction lets one result transfer across wildly different domains, from clock arithmetic to cryptography to particle physics"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "The standard is brutal - a single counterexample destroys a claim no matter how many cases supported it",
+      "Goedel showed some true statements can never be proved inside a given system, so even perfect rigour has hard limits"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter mathematics analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: proving the primes never run out",
+    "workedExample": "Claim: there are infinitely many prime numbers. A mathematician proves it by contradiction. Assume the opposite - that there are only finitely many primes, and you can list them all: 2, 3, 5, 7, ... up to some largest prime P. Now build a new number N by multiplying every prime on your list together and adding 1. Divide N by any prime on your list and you always get a remainder of 1 - so none of your listed primes divides N evenly. That means N is either itself a brand-new prime, or it has a prime factor that was not on your supposedly complete list. Either way, your list was missing a prime, which contradicts the assumption that it was complete. The only way out is that no finite list can ever contain all the primes - there are infinitely many. Euclid wrote this argument down around 300 BCE and it is still taught unchanged today, which is itself a remarkable fact about how mathematics ages.",
     "realWorldApplications": [
-      "Real decisions shaped by mathematics",
-      "Cross-disciplinary projects and institutions"
+      "RSA encryption secures online banking and messaging by relying on the proven difficulty of factoring a number back into two large primes",
+      "Euler's identity, e^(i*pi) + 1 = 0, links five fundamental constants and underpins the complex-number maths used in signal processing and electrical engineering",
+      "The Four Colour Theorem (1976) - the first major theorem to require essential computer assistance - changed how mathematicians think about what counts as a proof",
+      "Error-correcting codes built on abstract algebra let your phone, CDs, and deep-space probes recover data even when some bits are corrupted"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Pure mathematicians, who prove theorems for their own sake (Andrew Wiles spent roughly seven years largely in secret proving Fermat's Last Theorem)",
+      "Applied mathematicians and cryptographers, who turn structural results like prime factorisation into working security systems",
+      "Theoretical physicists, who lean on abstract symmetry arguments - Noether's theorem ties every symmetry to a conservation law",
+      "Computer scientists working on the P vs NP problem, the unsolved question of whether every quickly-checkable problem is also quickly-solvable"
     ],
     "goDeeper": [
       {
@@ -67,5 +75,34 @@
       }
     ]
   },
-  "order": 2
+  "order": 2,
+  "quiz": [
+    {
+      "question": "A student checks a claim for the first one million whole numbers and finds no exceptions. What does a mathematician conclude?",
+      "options": [
+        "The claim is proven, since a million cases is plenty",
+        "Nothing is proven yet - a counterexample could still exist beyond what was checked, so a general proof is needed",
+        "The claim is probably 99.9999% true",
+        "The claim is false until checked to infinity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Checking cases, even a million of them, is evidence but not proof. Fermat's Last Theorem looked true for 358 years before Wiles proved it in 1994, and plenty of plausible patterns fail only at enormous numbers. Mathematics demands an argument that forces the claim for all cases."
+    },
+    {
+      "question": "Why was Goedel's 1931 incompleteness result such a landmark for how mathematicians think?",
+      "options": [
+        "It proved that all of mathematics is false",
+        "It showed any consistent system strong enough for arithmetic contains true statements it cannot prove from within itself",
+        "It found the largest prime number",
+        "It proved the Riemann Hypothesis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Goedel proved that no single consistent formal system rich enough for ordinary arithmetic can prove every true statement about itself. This ended Hilbert's dream of mechanising all of mathematics and made 'provably unprovable' a real category mathematicians must reckon with."
+    }
+  ],
+  "perspectives": {
+    "pureMathematician": "I do not trust a statement because it feels right or works in examples - I trust it once I have a proof I cannot break. Most of my day is spent trying to destroy my own argument with edge cases, because if I cannot break it, maybe it is actually true.",
+    "appliedMathematician": "My job is to find the structure hiding in a messy real problem - a flow, a network, a market - and reduce it to an object I already understand. The moment I recognise it as a known structure like a group or a graph, decades of proven results become tools I can just use.",
+    "mathEducator": "I tell students that arithmetic is to mathematics what spelling is to writing a novel - necessary but not the point. What I am really teaching is the mental move from 'it works in my examples' to 'here is why it must always work'. That shift is the whole subject."
+  }
 }

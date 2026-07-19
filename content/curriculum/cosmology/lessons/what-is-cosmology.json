@@ -2,63 +2,65 @@
   "slug": "what-is-cosmology",
   "moduleSlug": "what-cosmology-is",
   "title": "What Cosmology Is",
-  "objective": "Build an immediate working picture of cosmology.",
-  "beginnerExplanation": "Cosmology is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Cosmology is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "objective": "Understand cosmology as the scientific study of the origin, evolution, large-scale structure, and ultimate fate of the universe, and see why the Lambda-CDM standard model is grounded in three measurable pillars rather than speculation.",
+  "beginnerExplanation": "Cosmology is the science of the universe as a single object: where it came from, how it has changed, what it is made of, and how it might end. It is the only branch of physics whose laboratory is everything that exists, and whose experiment ran only once, about 13.8 billion years ago. You cannot rerun the Big Bang, so cosmologists work like detectives: they read the light arriving from distant space, and because that light took billions of years to reach us, looking far away is the same as looking back in time. Telescopes are time machines. The remarkable part is that this is genuine, testable science, not storytelling. The leading description, called the Big Bang model (more precisely Lambda-CDM), rests on three pieces of evidence you can actually measure. First, the universe is expanding: distant galaxies are racing away, and the farther one is, the faster it recedes. Second, there is a faint glow of leftover heat filling all of space, the cosmic microwave background, sitting today at just 2.725 K above absolute zero. Third, the proportions of the lightest chemical elements, roughly 75% hydrogen and 25% helium by mass, match exactly what the model predicts should have been forged in the first few minutes. When three independent lines of evidence all point to the same story, you have science.",
+  "deeperExplanation": "The modern picture begins with a fact Edwin Hubble established in 1929: galaxies are receding, and their recession speed is proportional to their distance. This is not galaxies flying apart through space like shrapnel; it is space itself stretching, carrying the galaxies with it. The reddening of distant galaxy light, the cosmological redshift, is the wavelength being stretched along with space, not an ordinary Doppler shift. Run the expansion backwards and everything was once hot, dense, and compressed, which is what we casually call the Big Bang.\n\nLambda-CDM is the standard model that ties this together. CDM stands for cold dark matter, and Lambda is the cosmological constant, the simplest description of dark energy. The honestly strange part is the inventory. By the Planck satellite's 2018 measurements, the universe is about 68% dark energy, about 27% dark matter, and only about 5% ordinary (baryonic) matter, the stuff of stars, planets, and people. So roughly 95% of the universe is made of two things whose fundamental nature we do not understand. We named them, we measured how much there is, and we can see their gravitational and expansion effects, but we cannot yet say what they are. That is the central honest gap in cosmology, and any good cosmologist will tell you so plainly.\n\nWhat keeps the field rigorous is that Lambda-CDM made predictions before we confirmed them. It predicted a leftover radiation bath, found accidentally as radio static by Arno Penzias and Robert Wilson in 1965. It predicted that the early universe should have cooked specific amounts of hydrogen, helium, and lithium in its first three minutes, and the measured abundances match. And it survived a genuine surprise: in 1998 two teams using exploding stars (Type Ia supernovae) discovered the expansion is not slowing under gravity but accelerating, which is the evidence that forced dark energy into the model. A theory that predicts findings in advance, and bends to accommodate honest surprises, is doing the work of real science.",
   "keyTakeaways": [
-    "Cosmology has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "Cosmology studies the universe as one object: its origin, evolution, structure, composition, and fate",
+    "The universe is about 13.8 billion years old and began hot and dense, the Big Bang",
+    "Lambda-CDM is the standard model: about 68% dark energy, 27% dark matter, 5% ordinary matter (Planck 2018)",
+    "Three measurable pillars make it science: cosmic expansion, the microwave background, and the light-element abundances",
+    "We can measure how much dark matter and dark energy there is, but we genuinely do not yet know what either one is"
   ],
-  "frameworks": [
-    "systems-map",
-    "tradeoff-lens"
-  ],
-  "example": "Use cosmology to compare one real system, one institutional example, and one frontier question.",
+  "frameworks": ["systems-map", "tradeoff-lens"],
+  "example": "Add up the universe by mass-energy using the Planck 2018 budget. Start with the everyday assumption that the cosmos is mostly stars and galaxies. The measurement says otherwise: ordinary matter, every atom in every star, planet, nebula, and body, is only about 5% of the total. Dark matter, which neither emits nor absorbs light but bends it and holds galaxies together, is about 27%. Dark energy, the thing driving the accelerating expansion, is about 68%. So 5 + 27 + 68 = 100, and 27 + 68 = 95% of everything is invisible and unidentified. Put it in human terms: if the universe were a 100-dollar budget, you can name what 5 dollars buys; the other 95 dollars buy two things you can weigh on the cosmic scale but cannot yet name. That single ratio is the most important and most humbling number in the field.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Picturing the Big Bang as an explosion from a point in space; it was an expansion of space everywhere at once, with no centre and no edge",
+    "Thinking cosmological redshift is an ordinary Doppler shift; the light is stretched because space itself expanded while the light travelled",
+    "Assuming dark matter and dark energy are understood substances; we measure their effects precisely but their fundamental nature is genuinely unknown",
+    "Confusing the universe's 13.8-billion-year age with its size; the observable universe is about 93 billion light-years across because space kept expanding while light was in transit"
   ],
-  "exercise": "Write a short map of how cosmology connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Write down the three observational pillars of the Big Bang model (expansion / cosmic microwave background / light-element abundances) and, in one plain sentence each, state what each one would look like if the model were wrong. Then list, honestly, the two biggest things the standard model does not explain. (Hint: look at what fills 95% of the energy budget.)",
   "teaching": {
     "mentalModel": {
-      "title": "Cosmology as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "Telescopes are time machines reading a single experiment",
+      "summary": "The universe ran one experiment, 13.8 billion years ago, and we cannot rerun it. But because light travels at a finite speed, every distant object we observe shows us the past. Cosmology is the craft of reconstructing the whole history of that one experiment from the light still arriving.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "One universe, one run, no reset button: it is a historical science like geology, not a repeatable lab experiment",
+        "Looking far = looking back: light from a galaxy a billion light-years away is a billion years old",
+        "Three converging clues beat one clever story: expansion, the microwave background, and element abundances must all agree",
+        "Name what you can measure, and admit what you cannot: we measure dark matter and dark energy, but cannot yet identify them"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "How cosmologists turn light into a history of everything",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "Measure how fast galaxies recede versus their distance to establish that space is expanding (Hubble's law, 1929)",
+        "Run the expansion backwards to a hot dense beginning, then ask what that hot beginning should have left behind",
+        "Predict the leftovers: a cooled radiation glow and a specific recipe of light elements, then go measure whether they exist",
+        "Build the inventory: weigh the universe's contents by their gravitational and expansion effects, yielding the 68/27/5 split",
+        "Stress-test against surprises (such as the 1998 discovery of accelerating expansion) and update the model rather than the data"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Three independent observational pillars make the Big Bang model one of the best-tested ideas in all of science",
+      "The model successfully predicted both the microwave background and the cosmic light-element abundances before they were confirmed",
+      "It gives a single, coherent framework that spans from the first three minutes to the structure of galaxy superclusters today"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "About 95% of the energy budget (dark matter plus dark energy) is unidentified, the central open problem of the field",
+      "The Hubble constant tension is real and unresolved: the early-universe value disagrees with the local-universe value and nobody yet knows why"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter cosmology analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: how old is the cosmic microwave background, and why is it so smooth?",
+    "workedExample": "The cosmic microwave background was released about 380,000 years after the Big Bang, at a redshift of about z = 1100, when the expanding universe had cooled to roughly 3000 K, cool enough for protons and electrons to combine into neutral hydrogen atoms. Before that moment the universe was an opaque fog of charged particles that scattered light; after it, light could travel freely for the first time. That freed light has been stretching with space ever since. Its wavelength has been redshifted by a factor of about 1100, which is why radiation that started near 3000 K now arrives at just 2.725 K, microwave wavelengths. Here is the part worth narrating: that glow is almost perfectly uniform across the entire sky, the same temperature to about 1 part in 100,000. Imagine a still ocean whose surface deviates from flat by less than the width of a hair, that is how smooth the early universe was. The tiny one-part-in-100,000 ripples are the seeds: regions slightly denser pulled in more matter under gravity and grew, over billions of years, into the galaxies and galaxy clusters we see today. The smoothness is a fact, the seeds are a fact, and the standard model connects the two.",
     "realWorldApplications": [
-      "Real decisions shaped by cosmology",
-      "Cross-disciplinary projects and institutions"
+      "GPS would fail without relativistic spacetime corrections; satellite clocks must be adjusted by about 38 microseconds per day or positions drift roughly 10 km per day, a daily working proof of the spacetime physics cosmology relies on",
+      "Why the night sky is dark (Olbers' paradox): in an infinitely old, static, infinite universe every line of sight would end on a star and the sky would blaze; it is dark because the universe has a finite age and is expanding, so light from the most distant matter has not reached us or has been redshifted away",
+      "Missions like COBE, WMAP, and Planck mapped the microwave background; Hubble and JWST photograph the earliest galaxies; DESI, Euclid, and the Vera C. Rubin Observatory now map large-scale structure to pin down dark energy"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Observational cosmologists, who design and run survey instruments (CMB satellites, supernova surveys, galaxy redshift surveys) and turn raw photons into measurements of expansion, composition, and structure",
+      "Theoretical cosmologists, who build and test models such as Lambda-CDM, work out what the early universe should have left behind, and chase the nature of dark matter, dark energy, and the Hubble tension"
     ],
     "goDeeper": [
       {
@@ -66,6 +68,35 @@
         "href": "/cosmology/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "What are the three main observational pillars that make the Big Bang model science rather than speculation?",
+      "options": [
+        "Black holes, neutron stars, and quasars",
+        "The expansion of the universe, the cosmic microwave background, and the light-element abundances",
+        "General relativity, quantum mechanics, and string theory",
+        "Telescopes, satellites, and supercomputers"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Big Bang model rests on three independent, measurable lines of evidence: galaxies receding faster the farther away they are (expansion), the 2.725 K leftover glow released about 380,000 years after the Big Bang (the cosmic microwave background), and the roughly 75% hydrogen / 25% helium abundances forged in the first three minutes. All three agree, which is what makes it science."
+    },
+    {
+      "question": "According to Planck 2018, roughly what is the universe made of by mass-energy?",
+      "options": [
+        "About 68% ordinary matter, 27% dark matter, 5% dark energy",
+        "About 50% dark matter and 50% ordinary matter",
+        "About 68% dark energy, 27% dark matter, 5% ordinary matter",
+        "Almost entirely ordinary matter, with trace dark energy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Planck 2018 puts the budget at about 68% dark energy, 27% dark matter, and only about 5% ordinary (baryonic) matter. That means roughly 95% of the universe is made of two things whose fundamental nature we can measure but cannot yet identify, which is the central open problem in cosmology."
+    }
+  ],
+  "perspectives": {
+    "observationalCosmologist": "My job is to turn photons into numbers I can defend. When I point a microwave detector at the sky, I am measuring a glow that left its source 13.8 billion years ago, uniform to one part in 100,000, and the tiny ripples in it tell me the seed pattern of every galaxy. I do not get to assume the answer; I get to measure 2.725 K and the expansion rate and let the data argue. The honest frustration of my work right now is the Hubble tension: the early-universe value I read off the microwave background, about 67 km/s/Mpc, simply will not reconcile with the roughly 73 I measure from nearby supernovae, and no instrument error has made it go away.",
+    "theoreticalCosmologist": "I treat the whole universe as one system governed by general relativity and a handful of ingredients, then ask what that system must have produced. Lambda-CDM is my working model, and its triumph is that it predicted the microwave background and the helium abundance before anyone confirmed them. But I keep my excitement honest: I can write down how much dark energy there is and watch the expansion accelerate exactly as the cosmological constant says it should, yet I cannot tell you what dark energy actually is. That gap, 95% of the energy budget unexplained, is not a footnote; it is the frontier.",
+    "educator": "When I teach this, I fight one stubborn picture: the Big Bang as a firework going off in empty space. There was no empty space for it to go off in; space itself was expanding, everywhere at once, with no centre. My favourite moment in the classroom is the dark sky. I ask why night is dark, and once a student realises it is dark because the universe is young and expanding rather than infinite and eternal, they have felt the whole subject in a single observation they can make from their own backyard."
   },
   "order": 1
 }

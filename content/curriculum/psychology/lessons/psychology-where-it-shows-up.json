@@ -2,65 +2,73 @@
   "slug": "psychology-where-it-shows-up",
   "moduleSlug": "psychology-applications",
   "title": "Where Psychology shows up",
-  "objective": "Use Psychology with more structure, not just surface familiarity.",
-  "beginnerExplanation": "Psychology is about how people think, feel, develop, decide, and behave across personal and social settings. At the beginner level, the fastest way to understand the field is to identify its core units, its main constraints, and the kinds of decisions it helps people make. In practice, Psychology becomes useful when you can connect cognition, development, emotion to a real-world example instead of holding them as isolated definitions.",
-  "deeperExplanation": "A more mature view of Psychology focuses on mechanisms, tradeoffs, and institutional reality. The field depends on behavior in context, bias and heuristics, development across time, and it stays grounded by testing ideas against concrete situations like habit formation, therapy outcomes, workplace motivation. Good judgment in Psychology comes from repeatedly moving between first principles and the messy systems where those principles meet cost, risk, time, and human behavior.",
+  "objective": "Trace psychology out of the lab and into the real systems it quietly runs: courtrooms, government policy, app design, classrooms, and clinics, knowing which applications are well-supported and which are shakier than they look.",
+  "beginnerExplanation": "Psychology is not just a thing you study; it is built into systems you touch every day, usually without a label on it. When your phone shows '14 people are looking at this hotel right now', that is Solomon Asch's 1950s conformity research turned into a sales tactic: people copy the crowd. When a default option is pre-ticked on a form, that is the work of behavioural scientists who know most of us never change the default. The clearest real-world case is the UK government's Behavioural Insights Team, the 'Nudge Unit', set up in 2010. One of its most cited results: simply adding the line 'most people in your area pay their tax on time' to letters measurably increased on-time tax payments. No new law, no penalty, just a sentence built on conformity research. Psychology shows up wherever a system needs to predict or shape what a human will actually do, as opposed to what they say they will do.",
+  "deeperExplanation": "Look closely at four real arenas and you can see the mechanism, not just the slogan. (1) The courtroom. Elizabeth Loftus showed that memory is reconstructive, not a recording: in her 'lost in the mall' work and the famous car-crash study, changing one verb from 'hit' to 'smashed' pushed witnesses to recall higher speeds and even invent broken glass that was never there. That finding reshaped how police line-ups and eyewitness testimony are handled, because confident memories can be sincerely, completely wrong. (2) The clinic. Cognitive behavioural therapy is the direct descendant of cognitive psychology's 'mind as information processor' model; it targets the loop between thoughts, feelings, and behaviour, and it has one of the strongest evidence bases in mental-health treatment for anxiety and depression. (3) The workplace. Organisational psychologists design hiring tests and team structures; the Big Five personality model (openness, conscientiousness, extraversion, agreeableness, neuroticism) is the trait framework most used in serious selection research, with conscientiousness being the most consistent predictor of job performance. (4) Product design. Kahneman and Tversky's System 1 (fast, intuitive) versus System 2 (slow, deliberate) split, which won the 2002 Nobel Prize in Economics, is the unofficial bible of app and casino design: infinite scroll, streaks, and variable rewards all exploit fast, automatic System 1 responses. Here is the honest caveat that separates a careful learner from a credulous one: the 2010s replication crisis revealed that many splashy social-psychology findings do not hold up when repeated. 'Ego depletion' (the idea that willpower is a finite fuel that runs down) and several social-priming effects failed to replicate at full strength. So when you meet a viral psychology claim, the right question is not 'is it interesting?' but 'has it replicated, and how big is the effect really?'",
   "keyTakeaways": [
-    "Psychology is best learned as a set of mental models rather than a pile of disconnected facts.",
-    "The field matters because it shapes mental health, education, workplaces, research, design, and behavior change.",
-    "Real competence in Psychology depends on understanding tradeoffs, not just ideals.",
-    "Examples such as therapy outcomes make the field easier to retain and apply."
+    "Psychology is embedded in systems you use daily: courtrooms, tax letters, hiring tests, therapy protocols, and the apps designed to hold your attention.",
+    "The UK Nudge Unit (2010) showed that one sentence built on conformity research ('most people in your area pay on time') can measurably shift real behaviour with no new law.",
+    "Loftus proved memory is reconstructive, which is why eyewitness testimony and police line-up procedures were reformed: a confident memory can be sincerely false.",
+    "Cognitive behavioural therapy is applied cognitive psychology and has one of the strongest evidence bases for treating anxiety and depression.",
+    "Kahneman and Tversky's System 1 / System 2 model underpins how apps, casinos, and choice architecture are designed.",
+    "The replication crisis means you must ask 'did it replicate, and how large is the effect?' before trusting a headline psychology finding, because some famous results (ego depletion, some priming) did not hold up."
   ],
   "frameworks": [
     "psychology-systems-map",
     "psychology-tradeoff-lens"
   ],
-  "example": "Therapy Outcomes is a useful way to see Psychology in the real world because it forces you to notice units, constraints, incentives, and outcomes at the same time.",
+  "example": "Eyewitness reform is the cleanest case of psychology changing a real-world system. In Loftus's classic study, participants watched a film of a car crash; those asked how fast the cars were going when they 'smashed' into each other reported higher speeds than those asked when the cars 'hit', and a week later were more likely to falsely recall broken glass. Scale that up: in the United States, analysis by the Innocence Project found that mistaken eyewitness identification was a contributing factor in a large majority of the wrongful convictions later overturned by DNA evidence. The psychology response was concrete: double-blind line-ups (the officer running it does not know the suspect, so cannot leak cues), sequential rather than simultaneous presentation, and recording the witness's confidence at the moment of identification. This is psychology doing its real job: not a fun fact about memory, but a redesign of a system where the cost of getting human behaviour wrong is someone's freedom.",
   "commonMistakes": [
-    "Treating Psychology like a list of facts instead of a way to see and compare systems.",
-    "Ignoring the tradeoffs between performance, cost, time, risk, and human constraints."
+    "Treating every viral psychology claim as settled science; many famous findings (ego depletion, some social priming) failed to replicate in the 2010s, so always ask whether an effect replicated and how large it actually is.",
+    "Confusing Freudian psychoanalysis with modern evidence-based psychology; Freud was historically enormous and culturally huge, but most of his specific theories are not testable science, whereas CBT and behavioural research are.",
+    "Assuming a personality label (such as a Myers-Briggs type) is rigorous; serious selection research uses the Big Five, which is far better validated, and even it predicts behaviour only partially.",
+    "Believing memory works like a video recording; it is reconstructive and editable, which is exactly why eyewitness and 'I clearly remember' claims need corroboration."
   ],
-  "exercise": "Pick one real example from your world and explain it using two core ideas from Psychology.",
+  "exercise": "Pick one digital product you used today (a social app, a shopping site, a food-delivery app). Identify two specific design choices and name the psychology behind each: for example, a pre-ticked default (status-quo bias / inertia), a 'others are viewing this' counter (Asch conformity), a streak or notification (variable reward, a System 1 hook), or a countdown timer (scarcity). Then ask the honest question: is the underlying effect well-replicated, or is it folk psychology that just feels true?",
   "nextLesson": "psychology-career-reality",
   "order": 5,
   "teaching": {
     "mentalModel": {
-      "title": "bias and heuristics",
-      "summary": "Psychology becomes memorable when you use compact models to organize the field instead of memorising fragments.",
+      "title": "Stated behaviour versus revealed behaviour",
+      "summary": "Psychology shows up wherever a system needs to predict what a person will actually do, not what they claim they will do. The gap between the two is the whole game: surveys capture stated intentions, but defaults, nudges, and design capture revealed behaviour. Applied psychology lives in that gap.",
       "anchors": [
-        "cognition",
-        "development",
-        "emotion"
+        "Asch conformity (we copy the crowd, even against our own eyes)",
+        "Kahneman's System 1 (fast, automatic) versus System 2 (slow, deliberate)",
+        "Loftus's reconstructive memory (recall is rebuilt, not replayed)"
       ]
     },
     "howItWorks": {
-      "title": "Psychology in sequence",
+      "title": "How psychology gets built into a real system",
       "steps": [
-        "Name the system, unit, or problem you are looking at.",
-        "Identify the core constraints and flows shaping it.",
-        "Use psychology-systems-map and psychology-tradeoff-lens to compare options.",
-        "Check the result against a real example, operator workflow, or institutional constraint."
+        "Start with a documented behaviour pattern from research, for example conformity, default inertia, or reconstructive memory, ideally one that has replicated.",
+        "Find the real decision point where that pattern bites: paying tax, identifying a suspect, choosing a pension contribution, opening an app.",
+        "Redesign the choice architecture around the pattern: change the default, add a social-proof line, run a double-blind line-up, or insert a friction step.",
+        "Measure the change against a control group, because the honest test of applied psychology is a randomised comparison, not a plausible story.",
+        "Check the effect size and whether it survives replication before scaling it, since a real but tiny effect and a famous-but-fragile one both look exciting at first."
       ]
     },
     "upsides": [
-      "Psychology makes complex systems easier to interpret and explain.",
-      "It improves judgment by forcing clearer tradeoff thinking."
+      "Applied psychology can change behaviour cheaply and at scale, as the Nudge Unit showed with tax-letter wording, without coercion or new spending.",
+      "It makes systems fairer and safer when used honestly, for example reforming eyewitness procedures to reduce wrongful convictions."
     ],
     "downsides": [
-      "The field can feel more settled than it really is if you ignore uncertainty or context.",
-      "Good models in Psychology still break when you apply them too mechanically."
+      "The same techniques power manipulative 'dark patterns' (engineered addiction, pre-ticked add-ons, fake scarcity), so the ethics depend entirely on who is wielding them.",
+      "Many effects are smaller or shakier than headlines suggest; building a product or policy on a finding that later fails to replicate wastes real money and trust."
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "Therapy Outcomes shows how Psychology moves from abstract ideas into practical judgment.",
+    "workedExampleLabel": "Worked example: the retirement-savings nudge",
+    "workedExample": "Behavioural economists Richard Thaler and Shlomo Benartzi designed 'Save More Tomorrow', a programme that exploits two documented patterns: status-quo bias (people stick with defaults) and present bias (people resist cutting today's pay but accept committing future raises). Employees pre-commit to channel part of every future pay rise into retirement savings. Because the increase is automatic and tied to money they never see as 'current' income, opt-out rates stay low. In the early implementations, participating employees roughly tripled their savings rates over a few years. The lesson: the saving rule did not change human nature; it re-arranged the choice so that inertia, normally the enemy of saving, was put to work on the saver's side. That is the difference between using psychology and merely quoting it.",
     "realWorldApplications": [
-      "habit formation",
-      "therapy outcomes",
-      "workplace motivation"
+      "Public policy: the UK Behavioural Insights Team (Nudge Unit) using social-proof letters to lift tax compliance",
+      "Justice: double-blind, sequential police line-ups and confidence recording, driven by eyewitness-memory research",
+      "Mental health: cognitive behavioural therapy as the applied arm of cognitive psychology",
+      "Product and UX design: System 1 hooks like streaks, infinite scroll, and variable rewards",
+      "Hiring and teams: Big Five-based selection testing run by organisational psychologists"
     ],
     "whoWorksWithThis": [
-      "psychologists",
-      "researchers",
-      "behavior practitioners"
+      "Clinical psychologist (delivers evidence-based therapies such as CBT in clinics and hospitals)",
+      "Organisational psychologist (designs hiring tests, team structures, and workplace interventions)",
+      "Behavioural scientist in a government or product 'nudge' team (runs randomised trials on choice architecture)",
+      "Neuropsychologist (links brain function and behaviour, often after injury or in diagnosis)"
     ],
     "goDeeper": [
       {
@@ -79,5 +87,34 @@
         "description": "See what people in the field actually use."
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "The UK Nudge Unit increased on-time tax payments mainly by doing what?",
+      "options": [
+        "Raising penalties for late payment",
+        "Adding a line saying most people in the area pay on time, drawing on conformity research",
+        "Sending letters in red ink to create urgency",
+        "Offering a cash reward for early payment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The intervention added a social-proof sentence ('most people in your area pay their tax on time') built on Asch-style conformity research. No new law or penalty was needed, which is why it became one of the most cited nudge results."
+    },
+    {
+      "question": "Why does Elizabeth Loftus's work matter for eyewitness testimony?",
+      "options": [
+        "It proved memory is a perfect recording that can be replayed",
+        "It showed memory is reconstructive and can be reshaped by the wording of a question, so confident memories can be false",
+        "It showed witnesses always lie deliberately",
+        "It showed only children make memory errors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Loftus demonstrated that recall is rebuilt rather than replayed, and that subtle cues (like changing 'hit' to 'smashed') can implant false details. This drove real reforms in line-up procedures because a sincerely confident witness can still be wrong."
+    }
+  ],
+  "perspectives": {
+    "clinicalPsychologist": "When I see psychology 'in the world', I see it in a therapy room. A client comes in convinced their anxious thought is a fact. CBT, which is applied cognitive psychology, gives me a structured way to test that thought against evidence. I trust it because it has been measured in trials, not because it sounds wise. I am also blunt with clients that pop psychology and Freud are not the same as the evidence base I actually use.",
+    "behaviouralScientist": "I work where psychology meets policy and product, so my unit of truth is a randomised trial, not a TED talk. I will happily use Asch conformity or status-quo bias to redesign a form, but I insist on a control group, because the replication crisis taught my whole field that a beautiful effect can evaporate when you repeat it. My job is half psychology and half humility about effect sizes.",
+    "neuropsychologist": "I sit at the seam between brain and behaviour, often with patients after a stroke or head injury. Where a pop article says 'the brain does X', I am testing what a specific person can and cannot do now. It keeps me grounded: psychology shows up most honestly not as a slogan about human nature, but as a careful measurement of one real person's memory, attention, or language on a given day."
   }
 }

@@ -7,6 +7,7 @@ import {
   Sparkles,
   Waypoints,
 } from "lucide-react"
+import { CollapsibleSection } from "@/components/browse/CollapsibleSection"
 import { HomeDomainSpotlight } from "@/components/browse/HomeDomainSpotlight"
 import { KnowledgeHierarchyScene } from "@/components/browse/KnowledgeHierarchyScene"
 import { NexusWordmark } from "@/components/branding/NexusWordmark"
@@ -327,22 +328,14 @@ export default function NexusHomePage() {
         </div>
       </section>
 
-      <section id="roles" className="space-y-3 sm:space-y-4">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-          <div>
-            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-              Guided worlds
-            </p>
-            <h2 className="mt-2 font-serif text-[2rem] font-semibold leading-tight text-editorial-ink sm:text-3xl">
-              Roles
-            </h2>
-            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
-              Roles are embodied tracks. They show what a capable person in a field
-              actually does, what they notice, what they depend on, and what shapes
-              their judgment.
-            </p>
-          </div>
-
+      <CollapsibleSection
+        id="roles"
+        eyebrow="Guided worlds"
+        title="Roles"
+        count={roles.length}
+        defaultOpen
+        description="Roles are embodied tracks. They show what a capable person in a field actually does, what they notice, what they depend on, and what shapes their judgment."
+        action={
           <Link
             href="/roles"
             className="inline-flex items-center gap-2 text-sm font-medium text-editorial-blue transition-colors hover:text-editorial-green"
@@ -350,8 +343,8 @@ export default function NexusHomePage() {
             Open all roles
             <ArrowRight className="h-4 w-4" />
           </Link>
-        </div>
-
+        }
+      >
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
           {roles.map((role) => {
             const stats = getRoleStats(role.slug)
@@ -367,23 +360,15 @@ export default function NexusHomePage() {
             )
           })}
         </div>
-      </section>
+      </CollapsibleSection>
 
-      <section id="topics" className="space-y-3 sm:space-y-4">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-          <div>
-            <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-              Cross-domain lenses
-            </p>
-            <h2 className="mt-2 font-serif text-[2rem] font-semibold leading-tight text-editorial-ink sm:text-3xl">
-              Topics
-            </h2>
-            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
-              Topics stay broad on purpose. They help you move through the academy by
-              question, tension, worldview, and synthesis instead of discipline alone.
-            </p>
-          </div>
-
+      <CollapsibleSection
+        id="topics"
+        eyebrow="Cross-domain lenses"
+        title="Topics"
+        count={topics.length}
+        description="Topics stay broad on purpose. They help you move through the academy by question, tension, worldview, and synthesis instead of discipline alone."
+        action={
           <Link
             href="/topics"
             className="inline-flex items-center gap-2 text-sm font-medium text-editorial-blue transition-colors hover:text-editorial-green"
@@ -391,8 +376,8 @@ export default function NexusHomePage() {
             Open all topics
             <ArrowRight className="h-4 w-4" />
           </Link>
-        </div>
-
+        }
+      >
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
           {topics.map((topic) => {
             const stats = getTopicStats(topic.slug)
@@ -408,22 +393,17 @@ export default function NexusHomePage() {
             )
           })}
         </div>
-      </section>
+      </CollapsibleSection>
 
-      <section id="subjects" className="space-y-6 sm:space-y-8">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+      <section id="subjects" className="space-y-3 sm:space-y-4">
+        <div className="flex flex-col gap-2 px-1 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
               Canonical subjects
             </p>
-            <h2 className="mt-2 font-serif text-[2rem] font-semibold leading-tight text-editorial-ink sm:text-3xl">
-              Subjects still own the curriculum
+            <h2 className="mt-1 font-serif text-[1.6rem] font-semibold leading-tight text-editorial-ink sm:text-2xl">
+              Subjects own the curriculum
             </h2>
-            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-editorial-muted sm:text-base">
-              Every subject stays visible here. This is the deep end of Nexus: the
-              foundations, the field logic, the frameworks, the tools, and the
-              cumulative structures underneath the wider map.
-            </p>
           </div>
 
           <Link
@@ -435,39 +415,37 @@ export default function NexusHomePage() {
           </Link>
         </div>
 
-        {orderedGroups.map((group) => {
-          const groupSubjects = groupedSubjects[group]
+        <div className="space-y-2.5">
+          {orderedGroups.map((group) => {
+            const groupSubjects = groupedSubjects[group]
 
-          return (
-            <section
-              key={group}
-              id={`subjects-${group}`}
-              className="space-y-3 sm:space-y-4"
-            >
-              <div>
-                <p className="text-xs uppercase tracking-[0.18em] text-editorial-muted">
-                  {SUBJECT_GROUP_LABELS[group] ?? group}
-                </p>
-              </div>
+            return (
+              <CollapsibleSection
+                key={group}
+                id={`subjects-${group}`}
+                eyebrow="Subject family"
+                title={SUBJECT_GROUP_LABELS[group] ?? group}
+                count={groupSubjects.length}
+              >
+                <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
+                  {groupSubjects.map((subject) => {
+                    const stats = getSubjectStats(subject.slug)
 
-              <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 xl:grid-cols-4">
-                {groupSubjects.map((subject) => {
-                  const stats = getSubjectStats(subject.slug)
-
-                  return (
-                    <EntityCard
-                      key={subject.slug}
-                      entity={subject}
-                      href={`/${subject.slug}`}
-                      eyebrow="Subject"
-                      statLine={`${stats.modules} modules · ${stats.frameworks} frameworks · ${stats.projects} projects`}
-                    />
-                  )
-                })}
-              </div>
-            </section>
-          )
-        })}
+                    return (
+                      <EntityCard
+                        key={subject.slug}
+                        entity={subject}
+                        href={`/${subject.slug}`}
+                        eyebrow="Subject"
+                        statLine={`${stats.modules} modules · ${stats.frameworks} frameworks · ${stats.projects} projects`}
+                      />
+                    )
+                  })}
+                </div>
+              </CollapsibleSection>
+            )
+          })}
+        </div>
       </section>
     </div>
   )

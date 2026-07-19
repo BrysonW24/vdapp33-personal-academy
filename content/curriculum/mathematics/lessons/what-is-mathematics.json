@@ -2,63 +2,72 @@
   "slug": "what-is-mathematics",
   "moduleSlug": "what-mathematics-is",
   "title": "What Mathematics Is",
-  "objective": "Build an immediate working picture of mathematics.",
-  "beginnerExplanation": "Mathematics is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Mathematics is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "objective": "Understand what mathematics actually studies - patterns, structure, quantity, change, and logical consequence - and why proof, not measurement, is its defining tool.",
+  "beginnerExplanation": "Mathematics is the study of patterns and structure, made precise. It asks questions like: how many primes are there, what shape minimises surface area, what follows necessarily from a given set of assumptions. The thing that sets it apart from every other subject is how it settles arguments. A chemist runs an experiment; a historian weighs sources; a mathematician proves. Once something is proved from agreed starting points (axioms), it is true forever, with no exceptions and no need to re-check. Around 300 BCE, Euclid wrote the Elements, building all of geometry from a handful of axioms using step-by-step deduction. That template - assume a little, prove a lot - has lasted more than two thousand years. Here is one result you can hold in your head: there are infinitely many prime numbers (2, 3, 5, 7, 11, ...). Euclid proved this without ever counting them, just by showing that assuming a largest prime leads to a contradiction. That move - reasoning your way to certainty about infinitely many things you can never list - is what mathematics feels like from the inside.",
+  "deeperExplanation": "Mathematics splits roughly into pure (studied for its own sake) and applied (built to model the world), though the boundary is leaky - number theory was 'useless' for centuries before it became the backbone of RSA cryptography. Its major branches are different lenses on structure: algebra (symmetry and operations), analysis (limits, calculus, the infinitely small), geometry and topology (shape and the properties that survive stretching), number theory (the whole numbers and primes), probability and statistics (uncertainty), combinatorics (counting), and logic (the rules of valid inference). The unifying engine is proof. A famous demonstration of how rich this engine is comes from Euler: the identity e^(i*pi) + 1 = 0 ties together five of the most fundamental constants in one short line, and both pi and e are irrational - they cannot be written as a fraction. But mathematics also knows its own limits with unusual honesty. In 1931 Kurt Goedel proved his incompleteness theorems: any consistent formal system powerful enough to describe ordinary arithmetic must contain true statements it can never prove from within itself. That was a genuine shock; it showed the dream of mechanising all of mathematics into one complete system was impossible. Proof is also tenacious. Fermat scribbled a claim in a margin in 1637; it resisted every attack until Andrew Wiles finally proved Fermat's Last Theorem in 1994, 358 years later. And the frontier is still open: of the seven Clay Millennium Prize Problems (each carrying a US$1 million reward), P versus NP and the Riemann Hypothesis remain unsolved today - nobody knows the answers, and the Riemann Hypothesis in particular underpins deep questions about how the primes are distributed.",
   "keyTakeaways": [
-    "Mathematics has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "Mathematics studies patterns, structure, quantity, change, and logical consequence - and settles questions by proof, not by experiment or authority",
+    "Euclid's Elements (~300 BCE) set the axiom-and-deduction template that has governed rigorous reasoning for over 2000 years",
+    "A single proof can establish a fact about infinitely many cases at once - Euclid proved there are infinitely many primes without listing them",
+    "Goedel's incompleteness theorems (1931) showed any system rich enough for arithmetic contains true statements it cannot prove",
+    "The major branches - algebra, analysis, geometry, topology, number theory, probability, combinatorics, logic - are different lenses on structure, unified by proof",
+    "Some of the deepest questions are still open: P vs NP and the Riemann Hypothesis remain unsolved despite US$1 million bounties"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use mathematics to compare one real system, one institutional example, and one frontier question.",
+  "example": "Euclid's proof that the primes never run out shows the whole subject in miniature. Suppose, for contradiction, there were only finitely many primes: p1, p2, ... , pn. Multiply them all together and add 1, giving N = (p1 x p2 x ... x pn) + 1. Now N leaves a remainder of 1 when divided by every prime on the list, so none of them divides N. But every whole number bigger than 1 has at least one prime factor - so N must be divisible by some prime that is not on the list. That contradicts the assumption that the list was complete. The only way out is that no finite list can be complete: there are infinitely many primes. Notice what just happened - no computer, no measurement, no 'we checked up to a trillion'. One short chain of reasoning settled the question for all numbers, forever. That is the kind of certainty mathematics trades in.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Thinking mathematics is mainly arithmetic and calculation - the real work is proving why things must be true, often with very few numbers involved",
+    "Believing proof is just 'strong evidence' like in science - a proof leaves no exceptions and never needs re-confirming, which is a different kind of claim entirely",
+    "Assuming everything in mathematics is already settled - P vs NP and the Riemann Hypothesis are genuinely unsolved, and Goedel showed some truths are unprovable",
+    "Treating pure and applied mathematics as opposites - 'useless' number theory became the foundation of RSA encryption that secures the internet today"
   ],
-  "exercise": "Write a short map of how mathematics connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick the claim 'the sum of two even numbers is always even' and prove it, do not just test examples. Hint: write any even number as 2 times a whole number (2a and 2b), add them, and show the result is 2 times something. Then notice what your proof did that checking '2+4=6, 4+8=12' could never do: it covered every even number at once, including ones too large to ever write down.",
   "teaching": {
     "mentalModel": {
-      "title": "Mathematics as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "Mathematics is a machine for turning assumptions into certainty",
+      "summary": "Start from a small set of agreed assumptions (axioms), apply rules of logic, and you can reach conclusions that hold with no exceptions - even about infinitely many cases you can never check by hand. Proof, not measurement or consensus, is what makes a mathematical claim true.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "axioms: the agreed starting points you assume without proof",
+        "proof: a chain of logical steps from axioms to a conclusion",
+        "abstraction: stripping a problem down to its essential structure",
+        "generality: one proof can settle infinitely many cases at once"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "How a piece of mathematics gets built",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "State the assumptions clearly - the axioms or given conditions you are allowed to use",
+        "Make a precise conjecture about what should be true",
+        "Build a proof: a sequence of logical steps where each follows from the last, with no gaps",
+        "Stress-test it - look for a counterexample or a hidden assumption that breaks the chain",
+        "Once the proof holds, the result is permanent; later mathematicians build new work on top of it without re-checking"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Conclusions are permanent - a proved theorem from 300 BCE is still exactly as true today",
+      "Results transfer far beyond their origin - abstract structures show up unexpectedly in physics, cryptography, and computing"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "Proof is unforgiving - one logical gap and the whole result fails, no matter how plausible it looked",
+      "Some questions resist for centuries (Fermat's Last Theorem took 358 years) and a few, like P vs NP, are still completely open"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter mathematics analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: the irrationality of the square root of 2",
+    "workedExample": "The ancient Greeks discovered, to their unease, that the square root of 2 cannot be written as a fraction. Here is the proof, which uses the same contradiction move as Euclid. Suppose root 2 = a/b, written in lowest terms so a and b share no common factor. Squaring gives 2 = a^2/b^2, so a^2 = 2 b^2 - meaning a^2 is even, which forces a to be even, say a = 2k. Substitute back: (2k)^2 = 2 b^2, so 4 k^2 = 2 b^2, giving b^2 = 2 k^2 - so b^2 is even, which forces b to be even too. But now both a and b are even, contradicting our assumption that the fraction was in lowest terms. So no such fraction exists: root 2 is irrational. The same fact applies to pi and e. This was not just a curiosity - it told the Greeks that some lengths (the diagonal of a unit square) cannot be captured by any ratio of whole numbers, cracking open the idea that all of geometry could be reduced to counting.",
     "realWorldApplications": [
-      "Real decisions shaped by mathematics",
-      "Cross-disciplinary projects and institutions"
+      "RSA cryptography secures online banking and HTTPS by relying on the difficulty of factoring a large number back into its two prime factors",
+      "GPS positioning solves systems of equations and applies relativistic corrections so your phone can locate you to within metres",
+      "Machine learning runs on linear algebra (matrices of weights) and calculus (gradient descent) under the hood",
+      "The Black-Scholes equation, built from calculus and probability, prices financial options and reshaped global derivatives markets",
+      "Error-correcting codes use algebra so a scratched DVD, a noisy phone signal, or a deep-space probe transmission still arrives intact"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Pure mathematicians and academic researchers, who prove new theorems and open whole fields - as Maryam Mirzakhani did in geometry before becoming the first woman to win the Fields Medal in 2014",
+      "Cryptographers and security engineers, who turn number theory into the encryption that protects payments and messages",
+      "Data scientists and machine-learning engineers, who apply linear algebra, calculus, and probability to build predictive models",
+      "Quantitative analysts in finance, who use stochastic calculus and probability to price risk and model markets"
     ],
     "goDeeper": [
       {
@@ -66,6 +75,35 @@
         "href": "/mathematics/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "What distinguishes mathematical proof from evidence in a science like physics or biology?",
+      "options": [
+        "A proof requires expensive equipment to verify",
+        "A proof establishes a result with no exceptions and never needs re-confirming",
+        "A proof is just a very large number of confirming examples",
+        "A proof is only accepted once a famous mathematician approves it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Scientific evidence accumulates and can be overturned by new observations. A valid proof derives a conclusion from agreed axioms by logic, so it holds with no exceptions for all cases at once and never needs re-checking - Euclid's proof of infinitely many primes is as solid today as it was in 300 BCE."
+    },
+    {
+      "question": "What did Goedel's incompleteness theorems (1931) establish about formal mathematical systems?",
+      "options": [
+        "Every true statement can eventually be proved if you try hard enough",
+        "Mathematics contains contradictions and is therefore unreliable",
+        "Any consistent system rich enough for arithmetic contains true statements it cannot prove",
+        "Computers will one day prove every theorem automatically"
+      ],
+      "correctIndex": 2,
+      "explanation": "Goedel showed that any consistent formal system powerful enough to describe ordinary arithmetic must contain true statements that cannot be proved from within that system. This ended the hope of reducing all of mathematics to one complete, mechanical set of rules - it is a statement about limits, not about contradictions."
+    }
+  ],
+  "perspectives": {
+    "pureMathematician": "I chase structure for its own sake. When I prove something, I am not gathering evidence - I am closing the question permanently. The deepest satisfaction is generality: one argument that settles infinitely many cases, like Euclid's primes, where you never count anything and yet you know for certain the list never ends.",
+    "appliedMathematician": "I build models that have to survive contact with the real world - a Black-Scholes pricing model, a fluid simulation, a GPS correction. My job is choosing which structure captures the essentials and which details I can safely throw away. A proof tells me my method is sound; the data tells me whether I modelled the right thing.",
+    "cryptographer": "I make a living on a problem nobody has solved: factoring a huge number back into its primes is brutally slow, while multiplying primes is instant. That asymmetry is what protects every online payment. If someone ever cracks P vs NP the wrong way, or finds a fast factoring method, the security I rely on could collapse overnight - so I watch the open problems very closely."
   },
   "order": 1
 }

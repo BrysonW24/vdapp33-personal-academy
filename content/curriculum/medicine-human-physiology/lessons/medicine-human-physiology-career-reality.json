@@ -2,63 +2,75 @@
   "slug": "medicine-human-physiology-career-reality",
   "moduleSlug": "working-in-medicine-human-physiology",
   "title": "Working in Medicine & Human Physiology",
-  "objective": "Build an immediate working picture of medicine & human physiology.",
-  "beginnerExplanation": "Medicine & Human Physiology is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Medicine & Human Physiology is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "objective": "Understand the honest career reality of medicine: the real roles, the long training pipeline, what the daily work actually involves, and where the romance of the white coat meets the friction of the job.",
+  "beginnerExplanation": "Medicine is not one job, it is a family of very different jobs that happen to share a degree. A GP managing 40 patients a day, a cardiac surgeon standing for a six-hour bypass, an epidemiologist modelling a measles outbreak from a desk, and a lab researcher pipetting cells at 11pm are all 'in medicine' but their days have almost nothing in common. The one thing they share is a brutally long pipeline: in Australia a doctor typically does a 5-7 year medical degree, then a year as an intern, then resident years, then 3-7 more years of specialty training. Becoming a fully qualified surgeon can take 13-15 years after leaving school. The work is also relational, not just technical. A study of clinical encounters found doctors interrupt patients within roughly the first 11-18 seconds of them describing their problem, and the single biggest source of patient complaints is communication, not clinical error. The romance is real, but so is the night shift.",
+  "deeperExplanation": "The defining feature of a medical career is that competence is gated by supervised volume, not by reading. You cannot learn to feel an enlarged spleen or read a chest X-ray from a textbook the way you learn the central dogma (DNA to RNA to protein). You build pattern recognition by seeing thousands of cases under supervision, which is why training is measured in years of rostered clinical hours, not credits.\n\nThe roles diverge sharply. A general practitioner is a generalist who manages undifferentiated complaints, where the hard skill is deciding which of 30 sore throats is the one with a dangerous cause. A surgeon trades breadth for a narrow band of high-stakes procedural mastery. A specialist physician (cardiologist, nephrologist, endocrinologist) goes deep on one organ system. A medical researcher may never see a patient and instead runs the randomised controlled trials (RCTs) that decide whether a treatment works at all. An epidemiologist studies disease at the population scale; an epidemiologist named John Snow famously mapped an 1854 London cholera outbreak to a single contaminated water pump on Broad Street, and removing its handle is one of the founding acts of public health. Public-health officials translate that population evidence into policy, like the vaccination programme that let the WHO declare smallpox eradicated in 1980, still the only human disease ever eliminated.\n\nThe honest nuances: medicine has real and openly studied problems with burnout, with a hierarchy that can punish junior doctors who speak up, and with the gap between the heroic image and the administrative grind. It is also genuinely meaningful work with high job security and the rare privilege of being trusted with strangers' lives. Both things are true at once, and the leading career advice is to choose the role whose daily texture you can sustain, not the one with the best Hollywood version.",
   "keyTakeaways": [
-    "Medicine & Human Physiology has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "Medicine is a family of very different careers (GP, surgeon, specialist physician, researcher, epidemiologist, public-health official), not a single job",
+    "Competence is built by supervised clinical volume over years, not by reading alone, which is why training in Australia runs 10-15 years for many specialties",
+    "Communication is the most common source of patient complaints, so the job is relational as much as technical",
+    "Research roles (running RCTs) and population roles (epidemiology, public health) are real medical careers that may involve little or no direct patient contact",
+    "Burnout, hierarchy, and administrative load are real and openly discussed downsides; high meaning and job security are real upsides",
+    "Choose the daily texture you can sustain for decades, not the most glamorous-sounding title"
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use medicine & human physiology to compare one real system, one institutional example, and one frontier question.",
+  "example": "Compare two real Australian pathways from the same medical degree. Doctor A wants surgery: after the 5-7 year degree they do an internship, several resident years, then apply for the Royal Australasian College of Surgeons (RACS) training programme, which adds about 5 more years before fellowship; total roughly 13-15 years post-school, with high competition for training spots and long operating days. Doctor B wants public health: after internship and some clinical years they do a Master of Public Health, move into epidemiology, and within a few years may be the person modelling an outbreak and advising a state health department, with regular daytime hours and population-scale impact but rarely a scalpel. Same starting degree, almost opposite working lives, pay curves, and lifestyles. Neither is the 'real' doctor; they are two real answers to what the job can be.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Imagining one generic 'doctor' job instead of the very different realities of GP vs surgeon vs researcher vs epidemiologist",
+    "Underestimating the length of the training pipeline (10-15 years to fellowship in many specialties) and the years of unglamorous resident work",
+    "Assuming the job is mostly heroic diagnosis when much of it is communication, documentation, and managing uncertainty",
+    "Believing patient-facing clinical work is the only 'real' medicine, ignoring research and public-health careers that shape far more lives at once"
   ],
-  "exercise": "Write a short map of how medicine & human physiology connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick one real medical role (GP, surgeon, specialist physician, medical researcher, epidemiologist, or public-health official). Write down, honestly: (1) the realistic years of training from school to fully qualified, (2) what an ordinary Tuesday actually looks like hour by hour, (3) one thing about the role that the public romanticises, and (4) one downside people rarely mention. Then decide whether you could sustain that texture for twenty years.",
   "teaching": {
     "mentalModel": {
-      "title": "Medicine & Human Physiology as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "The career fan: one degree, many lives",
+      "summary": "A medical degree is the narrow handle of a fan that opens into wildly different working lives. The right question is never 'should I do medicine' but 'which spoke of the fan matches the daily work I can sustain.' Pattern recognition, procedural mastery, organ-system depth, evidence generation, and population thinking are different muscles, and most people are happy in only some of them.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "one shared degree, many divergent daily realities",
+        "competence gated by supervised volume, not reading",
+        "match the daily texture, not the job title"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "How a medical career actually unfolds",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "Earn the medical degree (in Australia typically a 5-7 year undergraduate or graduate-entry program), building broad foundations across all body systems",
+        "Work as an intern then resident, rotating through specialties under supervision to discover which daily reality fits",
+        "Commit to a training pathway (GP, a surgical college, a physician specialty, research, or public health), each adding several more gated years",
+        "Reach fellowship or equivalent qualification, then keep learning continuously because guidelines and evidence shift under your feet for the rest of your career"
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Rare meaning: you are trusted with strangers' health and sometimes their lives",
+      "High job security and broad mobility across regions and specialties",
+      "Genuine intellectual variety, from bedside diagnosis to running trials to shaping policy",
+      "Concrete impact you can often see in a single shift"
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "Very long, expensive training pipeline before full independence (often 10-15 years)",
+      "Documented burnout, night and weekend rosters, and steep hierarchy in junior years",
+      "Heavy administrative and documentation load that the public image ignores",
+      "Emotional weight of bad outcomes and unavoidable uncertainty"
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter medicine & human physiology analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: a GP's real Tuesday",
+    "workedExample": "A suburban GP books patients in roughly 15-minute slots, so a full day is around 30-40 consultations. The first patient is a routine blood-pressure review; the heart beats about 100,000 times a day and pumps roughly 5 litres a minute at rest, and the GP is checking whether medication is keeping it in a safe range. The second is a child with a fever, where the job is sorting the common viral case from the rare dangerous one. Mixed in are a mental-health consult, a script renewal, a results phone call, and a worried patient who really came in about something they were too anxious to name in the first 30 seconds. Between patients there is referral paperwork and notes. By the end of the day the GP has made dozens of small judgement calls under time pressure, most invisible, a few genuinely consequential. That density of decision-making, not dramatic surgery, is what most clinical medicine actually feels like.",
     "realWorldApplications": [
-      "Real decisions shaped by medicine & human physiology",
-      "Cross-disciplinary projects and institutions"
+      "GPs acting as the first filter and long-term coordinator for most people's health",
+      "Surgeons performing procedural interventions from appendectomies to organ transplants",
+      "Medical researchers running double-blind placebo-controlled RCTs that decide which treatments enter practice",
+      "Epidemiologists tracing and modelling outbreaks, as John Snow did with the 1854 Broad Street cholera pump",
+      "Public-health officials running vaccination and screening programmes at population scale, the lineage that eradicated smallpox in 1980"
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "General practitioners and clinicians managing undifferentiated, ongoing care",
+      "Surgeons and proceduralists trained through colleges such as RACS",
+      "Specialist physicians focused on a single organ system (cardiology, nephrology, endocrinology)",
+      "Medical researchers and clinical-trial scientists generating the evidence base",
+      "Epidemiologists and public-health officials working at the population scale"
     ],
     "goDeeper": [
       {
@@ -66,6 +78,35 @@
         "href": "/medicine-human-physiology/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "Why is medical training measured in years of supervised clinical hours rather than just exams and reading?",
+      "options": [
+        "Because regulators want to slow down the supply of doctors",
+        "Because clinical skills like physical examination and pattern recognition are built by seeing many real cases under supervision",
+        "Because textbooks are not allowed in hospitals",
+        "Because research has shown reading is useless in medicine"
+      ],
+      "correctIndex": 1,
+      "explanation": "You cannot learn to feel an enlarged organ or weigh ambiguous symptoms from a book alone. Competence in clinical medicine is gated by supervised volume, which is why training runs for years of rostered hours, not credits."
+    },
+    {
+      "question": "Which of these is a genuine medical career that may involve little or no direct patient contact?",
+      "options": [
+        "Cardiac surgeon",
+        "Suburban general practitioner",
+        "Epidemiologist modelling a disease outbreak",
+        "Emergency department resident"
+      ],
+      "correctIndex": 2,
+      "explanation": "Epidemiology and population-health work are real medical careers that operate at the scale of populations. An epidemiologist like John Snow, who mapped the 1854 London cholera outbreak, can shape more lives than any single clinician while rarely seeing an individual patient."
+    }
+  ],
+  "perspectives": {
+    "generalPractitioner": "People picture dramatic diagnoses, but my real skill is triage under time pressure: in a day of 30-plus short consults, deciding which sore throat or headache is the one in a thousand that is dangerous. The hardest part is not knowledge, it is communicating clearly in fifteen minutes and resisting the urge to interrupt before the patient has actually told me why they came.",
+    "surgeon": "I traded breadth for depth. I do a narrow set of procedures and I do them thousands of times, because that repetition is what makes my hands safe. The long training pipeline and the operating-day fatigue are real, but standing at the table fixing something with my own hands is why I never regretted choosing the scalpel over the desk.",
+    "epidemiologist": "I rarely meet the people I help, which surprises everyone. I work with data, models, and outbreak curves. John Snow removing the Broad Street pump handle in 1854 is my origin story: find the pattern at population scale, and you can prevent disease in thousands of people who will never know your name. The trade-off is patience, because policy moves slower than a scalpel."
   },
   "order": 4
 }

@@ -1,6 +1,6 @@
 # ✳️ Nexus
 
-> A browse-first map of human reality. **65 subjects** for disciplined depth, **41 topics** for
+> A browse-first map of human reality. **65 subjects** for disciplined depth, **42 topics** for
 > cross-domain lenses, and **22 roles** for what the map looks like inside a capable person -
 > one connected system, no account, no backend.
 
@@ -28,7 +28,7 @@ like that. The same body of knowledge is cut **three different ways**, and all t
 | Mode | Count | What it gives you |
 |---|---|---|
 | 📘 **Subjects** | **65** | *Disciplined depth.* Canonical fields with structured curriculum, frameworks, projects and tools. |
-| ✨ **Topics** | **41** | *Cross-domain lenses.* Curiosity-first questions - consciousness, collapse, deep time, meaning - that cut across fields without flattening them. |
+| ✨ **Topics** | **42** | *Cross-domain lenses.* Curiosity-first questions - consciousness, collapse, deep time, meaning - that cut across fields without flattening them. |
 | 🧭 **Roles** | **22** | *Embodied intelligence.* Astronaut, diplomat, intelligence analyst, AI researcher: what the person actually does, notices, and absorbs. |
 
 **Topics are lenses, not copies.** A topic owns no modules of its own - it derives them at runtime
@@ -42,7 +42,7 @@ the numbers on the live site and the numbers here cannot drift apart.
 
 | | | | |
 |---|---|---|---|
-| **65** subjects | **41** topics | **22** roles | **3,245** content files |
+| **65** subjects | **42** topics | **22** roles | **3,256** content files |
 | **743** modules | **671** lessons | **565** tools | **443** frameworks |
 | **285** projects | **132** day-in-the-life | **100** topic sections | **0** backend services |
 

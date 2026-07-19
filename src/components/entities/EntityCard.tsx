@@ -31,13 +31,11 @@ export function EntityCard({
     ?.split("·")
     .map((part) => part.trim())
     .filter(Boolean)
-  const shortTagline =
-    entity.tagline.length > 96 ? `${entity.tagline.slice(0, 93).trimEnd()}…` : entity.tagline
 
   return (
     <Link
       href={href}
-      className="group relative flex h-full min-h-[172px] flex-col justify-between overflow-hidden rounded-[18px] border border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.94)] p-3 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover sm:min-h-[234px] sm:rounded-[22px] sm:p-5"
+      className="group relative flex h-full min-h-[148px] flex-col justify-between overflow-hidden rounded-[16px] border border-[rgba(44,49,59,0.12)] bg-[rgba(255,255,255,0.94)] p-3 shadow-editorial-soft transition-all duration-200 hover:-translate-y-[2px] hover:shadow-editorial-hover sm:min-h-[200px] sm:rounded-[18px] sm:p-4"
       style={{
         backgroundImage: `linear-gradient(180deg, ${withAlpha(surface, 0.9)}, rgba(255,255,255,0.96))`,
         borderColor: withAlpha(accent, 0.2),
@@ -93,15 +91,14 @@ export function EntityCard({
             <h3 className="font-serif text-[0.94rem] font-semibold leading-[1.15] text-editorial-ink sm:text-[1.55rem]">
               {entity.name}
             </h3>
-            <p className="mt-1.5 text-[11px] leading-[1.45] text-editorial-muted sm:mt-2 sm:text-sm sm:leading-relaxed">
-              <span className="sm:hidden">{shortTagline}</span>
-              <span className="hidden sm:inline">{entity.tagline}</span>
+            <p className="mt-1.5 line-clamp-2 text-[11px] leading-[1.45] text-editorial-muted sm:mt-2 sm:text-sm sm:leading-relaxed">
+              {entity.tagline}
             </p>
           </div>
         </div>
       </div>
 
-      <div className="relative mt-3 space-y-2 sm:mt-5">
+      <div className="relative mt-3 sm:mt-4">
         {statBits?.length ? (
           <div className="flex flex-wrap gap-1.5">
             {statBits.slice(0, 3).map((bit) => (
@@ -113,11 +110,6 @@ export function EntityCard({
               </span>
             ))}
           </div>
-        ) : null}
-        {statLine ? (
-          <p className="hidden text-[11px] leading-[1.55] text-editorial-muted md:block md:text-xs md:leading-relaxed">
-            {statLine}
-          </p>
         ) : null}
       </div>
     </Link>

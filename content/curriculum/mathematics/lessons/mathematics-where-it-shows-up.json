@@ -1,64 +1,72 @@
 {
   "slug": "mathematics-where-it-shows-up",
   "moduleSlug": "mathematics-applications",
-  "title": "Mathematics in the World",
-  "objective": "Build an immediate working picture of mathematics.",
-  "beginnerExplanation": "Mathematics is easier to learn when you understand what job the field does before you try to memorise its details. This starter lesson gives you the shape of the territory, the recurring trade-offs, and the kinds of real systems the field touches.",
-  "deeperExplanation": "In Nexus, Mathematics is positioned as a starter subject pack first and a richer long-term discipline second. That means the immediate goal is orientation: how the field frames problems, what kinds of evidence it uses, and why it matters beyond its own silo.\n\nOnce that shape is clear, deeper study becomes much less fragmented because you can connect the field to the surrounding subjects, roles, and topics rather than treating it as isolated content.",
+  "title": "Where Mathematics Shows Up in the World",
+  "objective": "See the specific, named places mathematics quietly runs your daily life, and understand the actual mechanism that makes each one work.",
+  "beginnerExplanation": "Mathematics is invisible right up until you notice it is running everything. When you load a website on your bank, the padlock in the address bar exists because of number theory: RSA encryption relies on the fact that multiplying two large prime numbers together is easy, but reversing that, splitting the product back into its two primes, is so slow that even a roomful of computers would take far longer than the age of the universe to crack a 2048-bit key. When your phone says you are 12 metres from a cafe, that figure came from four GPS satellites and a system of equations that has to correct for Einstein's relativity, because clocks on the satellites tick about 38 microseconds per day faster than clocks on the ground, and ignoring that would push your position off by roughly 10 kilometres within a day. Same maths, different mask. Once you start looking, you see it in the QR code that recovers itself when smudged, in the music compressed into an MP3, and in the route your maps app picks across a city. None of these feel like a maths class. All of them are maths doing a job.",
+  "deeperExplanation": "The useful way to read the world is to ask: what is the underlying mathematical object, and what hard problem is being exploited or solved?\n\nRSA cryptography, published by Rivest, Shamir and Adleman in 1977, turns the difficulty of factoring large numbers into a lock. The mechanism is one-way: pick two big primes, multiply them, and the product becomes part of a public key anyone can use to scramble a message, but only someone holding the original primes can unscramble it. The security is not a guarantee that factoring is impossible, only that no one has found a fast classical method. That is the honest open edge here: a sufficiently large quantum computer running Shor's algorithm would factor those numbers efficiently and break RSA, which is exactly why governments and standards bodies are now migrating to post-quantum cryptography. The threat is real but the timeline is genuinely uncertain.\n\nError-correcting codes are another quiet giant. When a QR code survives a coffee stain, or a deep-space probe sends a photo across billions of kilometres without it dissolving into static, that resilience comes from Reed-Solomon and related codes built on the algebra of finite fields. The idea is to add structured redundancy so that if some symbols are corrupted, the original can still be reconstructed exactly. The Voyager probes, launched in 1977 and still transmitting from interstellar space, lean on this kind of coding to be understood at all.\n\nFinance has its own famous case, and its own warning. The Black-Scholes equation, published in 1973, is a partial differential equation that gives a price for an option, and it reshaped global markets. But it rests on assumptions, notably that price movements are smoothly random in a particular way, that underestimate the chance of extreme crashes. The 1998 collapse of the hedge fund Long-Term Capital Management, which had two Nobel-linked economists on its board, is the standing reminder that a model is a map, not the territory. The maths was elegant; the assumptions about the real world were too clean.",
   "keyTakeaways": [
-    "Mathematics has a distinct way of seeing problems",
-    "The field is best learned through systems and trade-offs",
-    "Applications make the theory feel real",
-    "The academy is designed to let you branch deeper later"
+    "RSA encryption protects online banking and messaging by exploiting that factoring a large number back into its two prime building blocks is computationally brutal, even though multiplying them was trivial.",
+    "GPS positioning only works because the equations correct for relativity: satellite clocks run about 38 microseconds per day fast, and ignoring that would add roughly 10 km of error per day.",
+    "Error-correcting codes (Reed-Solomon, built on finite fields) are why a smudged QR code still scans and why the Voyager probes can still be read from interstellar space.",
+    "Black-Scholes (1973) priced financial options mathematically and reshaped markets, but its tidy assumptions about randomness underplay extreme crashes, as Long-Term Capital Management discovered in 1998.",
+    "The recurring pattern is: identify the mathematical object (a prime, a field, a differential equation) and the hard problem it exploits or solves.",
+    "Whether RSA stays secure is an open question tied to quantum computing and Shor's algorithm, not a settled fact."
   ],
   "frameworks": [
     "systems-map",
     "tradeoff-lens"
   ],
-  "example": "Use mathematics to compare one real system, one institutional example, and one frontier question.",
+  "example": "Type your bank's address into a browser and click the padlock icon. Behind that single click, your device and the bank's server agree on a shared secret using public-key maths descended from RSA, then switch to a faster symmetric cipher (AES) for the rest of the session. The whole handshake takes milliseconds and rests entirely on the assumed difficulty of a number-theory problem first studied for its own sake centuries before computers existed.",
   "commonMistakes": [
-    "Trying to memorise details before understanding the shape of the field",
-    "Studying the field in isolation from adjacent domains",
-    "Assuming the most visible public examples represent the whole field"
+    "Assuming the maths behind a system is only as old as the technology. Prime numbers, studied since Euclid around 300 BCE, sat unused for over two thousand years before RSA turned them into the backbone of internet security in 1977.",
+    "Treating a mathematical model as reality rather than a simplification. Black-Scholes prices options well in calm markets and badly in panics, because its assumptions about randomness break exactly when it matters most.",
+    "Believing encryption is unbreakable. RSA's security is conditional, it depends on factoring being slow, and that condition is threatened by future quantum computers, not guaranteed forever.",
+    "Thinking GPS is just trilateration with distances. The relativistic clock correction is not a nice-to-have refinement; without it the system would be useless for navigation within hours."
   ],
-  "exercise": "Write a short map of how mathematics connects to at least three other subjects or topics in Nexus.",
+  "exercise": "Pick one technology you used in the last hour (a contactless payment, a streaming video, a maps route, a photo upload). Write three sentences: what mathematical object is at work, what hard problem it exploits or solves, and one assumption that could make it fail. If you cannot name the object, that is the gap to go research.",
   "teaching": {
     "mentalModel": {
-      "title": "Mathematics as a system",
-      "summary": "Start with the field as a system of inputs, trade-offs, and outputs before diving into specialist details.",
+      "title": "Object plus hard problem",
+      "summary": "Every place maths shows up is a pairing of a mathematical object (a prime, a finite field, a differential equation, a graph) with a problem that is hard in a useful direction, either hard to reverse so it makes a lock, or hard to solve by hand so the maths does the heavy lifting.",
       "anchors": [
-        "concept",
-        "mechanism",
-        "importance",
-        "application"
+        "RSA = large primes + factoring being hard to reverse",
+        "QR codes = finite fields + reconstructing corrupted data",
+        "GPS = systems of equations + correcting relativistic clock drift",
+        "Maps routing = graphs + finding shortest paths fast"
       ]
     },
     "howItWorks": {
-      "title": "Starter process",
+      "title": "How to decode any system as maths",
       "steps": [
-        "Define what the field is trying to explain or build",
-        "Identify the main mechanisms and constraints",
-        "Connect them to real-world applications",
-        "Branch into deeper study only after the map is clear"
+        "Name the everyday thing and the moment it does something impressive (a stained QR code still scanning).",
+        "Ask what mathematical object underlies it (a finite field with structured redundancy).",
+        "Ask whether the maths is being used as a lock (hard to reverse) or a solver (hard to do by hand).",
+        "Find the assumption that, if false, breaks it, then check whether that assumption is solid or genuinely contested."
       ]
     },
     "upsides": [
-      "Makes the field memorable faster",
-      "Improves transfer across adjacent domains"
+      "Reveals that abstract pure maths often becomes essential decades or centuries later, so 'useless' is rarely a safe label.",
+      "Gives you a single repeatable lens that works across cryptography, navigation, finance, and signal processing."
     ],
     "downsides": [
-      "A starter map is not a substitute for mastery",
-      "Some contested details remain simplified at this stage"
+      "Naming the object is not the same as being able to do the maths; this lens orients you, it does not make you an engineer.",
+      "Some real systems combine several mathematical layers at once, so a single clean 'object' is sometimes a simplification."
     ],
-    "workedExampleLabel": "Worked example",
-    "workedExample": "A starter mathematics analysis compares a real case, the field-specific lens, and the implications for adjacent domains.",
+    "workedExampleLabel": "Worked example: how Dijkstra's algorithm routes you across a city",
+    "workedExample": "When a maps app finds your fastest route, it models the road network as a graph: intersections are nodes, roads are edges, and each edge carries a weight (travel time). Edsger Dijkstra's shortest-path algorithm, published in 1959, then explores outward from your start point, always extending the cheapest known path first, and is guaranteed to find the genuinely shortest route as long as no edge has a negative weight. A naive approach, checking every possible route, explodes combinatorially: a city with thousands of intersections has astronomically many routes. Dijkstra prunes that to something a phone solves in milliseconds. Real navigation apps add heuristics (A* search, which aims roughly toward the destination) and live traffic weights, but the deterministic graph-theory core is the same one a computer science student proves correct in a first algorithms course. The honest caveat: with negative weights or constantly shifting traffic, the simple guarantee weakens and richer methods are needed.",
     "realWorldApplications": [
-      "Real decisions shaped by mathematics",
-      "Cross-disciplinary projects and institutions"
+      "Online banking and HTTPS: RSA and elliptic-curve key exchange securing the padlock in your browser.",
+      "Satellite navigation: GPS position fixes that correct for relativistic clock drift on every device that knows where it is.",
+      "Data storage and transmission: Reed-Solomon error correction in QR codes, CDs, hard drives, and the Voyager deep-space link.",
+      "Streaming and audio: the Fast Fourier Transform compressing sound and video into MP3 and modern codecs.",
+      "Logistics and ride-hailing: shortest-path and network-flow algorithms routing deliveries, drivers, and internet packets."
     ],
     "whoWorksWithThis": [
-      "Specialists inside the field",
-      "Adjacent practitioners who depend on the same models"
+      "Cryptographers and security engineers, who design and stress-test the number-theory schemes that protect payments and messages.",
+      "Quantitative analysts ('quants') in finance, who build and price models like Black-Scholes and probe where their assumptions break.",
+      "Signal-processing and communications engineers, who apply Fourier analysis and error-correcting codes to make data survive noisy channels.",
+      "Operations researchers and algorithm engineers, who turn routing, scheduling, and logistics into graph and optimisation problems."
     ],
     "goDeeper": [
       {
@@ -66,6 +74,35 @@
         "href": "/mathematics/modules"
       }
     ]
+  },
+  "quiz": [
+    {
+      "question": "Why is GPS positioning impossible without a correction from Einstein's relativity?",
+      "options": [
+        "Satellites move too fast for radio signals to reach the ground accurately.",
+        "The satellite clocks tick about 38 microseconds per day faster than ground clocks, and ignoring that adds roughly 10 km of error per day.",
+        "The curvature of the Earth bends the satellite signals unpredictably.",
+        "Magnetic fields from the satellites interfere with the receiver's antenna."
+      ],
+      "correctIndex": 1,
+      "explanation": "A GPS fix is solved from a system of equations using signal travel times. Because of relativity, satellite clocks run about 38 microseconds per day fast relative to the ground. Left uncorrected, that timing drift would translate into position errors of around 10 km within a single day, making the system useless for navigation. The relativistic correction is built into the maths, not bolted on afterward."
+    },
+    {
+      "question": "What makes RSA encryption a 'one-way' lock?",
+      "options": [
+        "It uses a secret algorithm that only the bank knows.",
+        "It scrambles data so thoroughly that no key can ever unscramble it.",
+        "Multiplying two large primes is easy, but factoring their product back into those primes is computationally extremely slow.",
+        "It changes the encryption key every second so attackers cannot keep up."
+      ],
+      "correctIndex": 2,
+      "explanation": "RSA, published in 1977, exploits an asymmetry from number theory: multiplying two large primes is fast, but reversing that product back into its prime factors is so slow that cracking a 2048-bit key is infeasible for classical computers. The security is conditional, not absolute. A large enough quantum computer running Shor's algorithm could factor those numbers efficiently, which is why post-quantum cryptography is now being developed."
+    }
+  ],
+  "perspectives": {
+    "cryptographer": "I do not think about banks or messages; I think about how hard a problem is to reverse. The whole edifice of the secure web rests on factoring being slow, and my job is to never take that for granted. I read every new factoring record and every quantum-computing milestone as a clock ticking, which is why I am already moving people toward lattice-based post-quantum schemes before RSA actually breaks.",
+    "quant": "I price uncertainty for a living, and I have a healthy fear of my own models. Black-Scholes is beautiful and I use its descendants every day, but I keep the 1998 LTCM blow-up taped to the wall of my mind: the equation assumes crashes are rarer than they truly are. So I stress-test the tails, the extreme scenarios the tidy distribution underweights, because that is precisely where the money is lost.",
+    "communications engineer": "My world is noise. Every channel, a phone link, a hard drive, a probe past Neptune, corrupts data, and my tools are Fourier analysis and error-correcting codes built on finite-field algebra. The fact that a smudged QR code still scans is not luck; it is structured redundancy I designed in. When Voyager's signal arrives from interstellar space at a vanishing whisper of power, Reed-Solomon coding is what lets us reconstruct the picture exactly."
   },
   "order": 3
 }
